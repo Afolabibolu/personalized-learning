@@ -118,6 +118,8 @@ Question formats: `single_choice`, `true_false`, `multi_select`, `odd_one_out`.
 
 Question shape (enforced by the schema and by `submit_quiz`): `options` is a list of `{"key", "text"}` with keys `a`, `b`, `c`, ...; true_false uses the keys `true` and `false`. `correct_answer` is always a list of keys: one for single_choice, true_false and odd_one_out (the odd option), two or more for multi_select. An answer is correct when the chosen keys equal the correct keys as a set, so a partial multi_select is wrong. Quiz responses are sent to `submit_quiz` as `{"<question id>": ["<key>", ...]}`.
 
+Other student-callable SQL functions: `get_attempt_review(attempt_id)` returns a completed attempt's score, per-topic scores and answered questions (used by the results page), and `get_topic_scores(topic_ids)` returns the student's latest score per topic (the most recent completed attempt that covered it, diagnostic included). Screens use these because students cannot read `questions`.
+
 Grants: new tables and functions give anon and authenticated no access by default (Phase 1 changed Supabase's default privileges). Every migration that adds one grants exactly what students need. anon has no table access at all.
 
 A diagnostic quiz draws a few questions from every topic in a course. Each answer row points to a question, and each question to a topic, so one diagnostic attempt gives a score per topic.
@@ -162,14 +164,14 @@ Check: `validate.py` passes with zero errors, every topic has 10 questions in at
 
 ### Phase 3: React core (FR1, FR2, FR3)
 
-- [ ] Sign up and log in with Supabase Auth, with protected routes
-- [ ] Onboarding: department, level, learning preferences saved to `profiles`
-- [ ] Course list, with "Take diagnostic quiz" on courses not yet started
-- [ ] Quiz player: starts with `start_quiz`, one component per format, a progress bar, submits through `submit_quiz`
-- [ ] Results: score per topic, then each question with its correct answer and explanation
-- [ ] Topic page: resources, "Take topic quiz", "Log study session"
-- [ ] Study logger: topic, duration, activity type (reading, video, practice)
-- [ ] A consistent, clean visual style across screens, since these become screenshots
+- [x] Sign up and log in with Supabase Auth, with protected routes
+- [x] Onboarding: department, level, learning preferences saved to `profiles`
+- [x] Course list, with "Take diagnostic quiz" on courses not yet started
+- [x] Quiz player: starts with `start_quiz`, one component per format, a progress bar, submits through `submit_quiz`
+- [x] Results: score per topic, then each question with its correct answer and explanation
+- [x] Topic page: resources, "Take topic quiz", "Log study session"
+- [x] Study logger: topic, duration, activity type (reading, video, practice)
+- [x] A consistent, clean visual style across screens, since these become screenshots
 
 Check: a brand-new account can sign up, finish onboarding, take a diagnostic quiz, see per-topic results and log a 30-minute session, and every step lands in the right tables.
 
@@ -220,7 +222,7 @@ Tools: Homebrew (`node`, `python@3.12`, `supabase/tap/supabase`). Python 3.12 li
 ```
 # one-time setup
 cd web && npm install
-python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt -r content/requirements.txt
+python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt -r content/requirements.txt -r scripts/requirements.txt
 
 # web (http://localhost:5173)
 cd web && npm run dev
@@ -237,6 +239,7 @@ python content/load.py
 python scripts/seed_demo.py
 python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course
 pytest scripts                   # quiz function tests against the linked project
+python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; --mobile, --shots DIR, --keep
 
 # database (project already linked)
 supabase migration new <name>    # creates supabase/migrations/<timestamp>_<name>.sql

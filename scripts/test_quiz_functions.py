@@ -130,3 +130,32 @@ def test_diagnostic_review_scores_each_topic(student, fx):
     scores = {t["topic_id"]: float(t["score"]) for t in review["topic_scores"]}
     assert scores == {fx.topic_ids["alpha"]: 100.0, fx.topic_ids["beta"]: 0.0}
     assert float(review["score"]) == 50.0
+
+
+def test_topic_scores_use_the_latest_attempt_per_topic(student, fx):
+    # Diagnostic: alpha all right, beta all wrong.
+    diag = start(student, fx.diagnostic_quiz_id)
+    submit(student, diag["attempt_id"], {
+        q["id"]: fx.correct[q["id"]] for q in diag["questions"] if q["topic_id"] == fx.topic_ids["alpha"]
+    })
+    # Later topic quiz on alpha: all wrong. Beta keeps its diagnostic score.
+    later = start(student, fx.topic_quiz_id)
+    submit(student, later["attempt_id"], {})
+
+    rows = student.rpc("get_topic_scores", {"p_topic_ids": list(fx.topic_ids.values())}).execute().data
+    scores = {r["topic_id"]: float(r["score"]) for r in rows}
+    assert scores == {fx.topic_ids["alpha"]: 0.0, fx.topic_ids["beta"]: 0.0}
+
+    # A third attempt on alpha, all right, replaces the 0.
+    third = start(student, fx.topic_quiz_id)
+    submit(student, third["attempt_id"], {q["id"]: fx.correct[q["id"]] for q in third["questions"]})
+    rows = student.rpc("get_topic_scores", {"p_topic_ids": [fx.topic_ids["alpha"]]}).execute().data
+    assert [float(r["score"]) for r in rows] == [100.0]
+
+
+def test_topic_scores_are_private(db, fx, student):
+    _, other_email = testkit.create_student(db, "Quiz other student")
+    other = testkit.sign_in(other_email)
+    started = start(student, fx.topic_quiz_id)
+    submit(student, started["attempt_id"], {})
+    assert other.rpc("get_topic_scores", {"p_topic_ids": list(fx.topic_ids.values())}).execute().data == []
