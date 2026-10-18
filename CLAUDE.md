@@ -116,6 +116,10 @@ recsys/
 
 Question formats: `single_choice`, `true_false`, `multi_select`, `odd_one_out`.
 
+Question shape (enforced by the schema and by `submit_quiz`): `options` is a list of `{"key", "text"}` with keys `a`, `b`, `c`, ...; true_false uses the keys `true` and `false`. `correct_answer` is always a list of keys: one for single_choice, true_false and odd_one_out (the odd option), two or more for multi_select. An answer is correct when the chosen keys equal the correct keys as a set, so a partial multi_select is wrong. Quiz responses are sent to `submit_quiz` as `{"<question id>": ["<key>", ...]}`.
+
+Grants: new tables and functions give anon and authenticated no access by default (Phase 1 changed Supabase's default privileges). Every migration that adds one grants exactly what students need. anon has no table access at all.
+
 A diagnostic quiz draws a few questions from every topic in a course. Each answer row points to a question, and each question to a topic, so one diagnostic attempt gives a score per topic.
 
 ## Build phases
@@ -124,21 +128,21 @@ Day 1 covers Phases 0 to 3. Day 2 covers Phases 4 to 6. Phase 2 only writes file
 
 ### Phase 0: environment setup
 
-- [ ] In the Supabase dashboard, turn off email confirmation for sign-ups (Authentication settings), so demo accounts work without an email server. Tell me to do this; I will click it.
-- [ ] Supabase project linked with the CLI (`supabase init`, `supabase link`)
-- [ ] `web/` scaffolded with Vite (React + TypeScript) and Tailwind, with a page that reads one row from a test table
-- [ ] `ml/` with a virtual environment, FastAPI and `GET /health`
-- [ ] `.env.example` files and `.gitignore`
+- [x] In the Supabase dashboard, turn off email confirmation for sign-ups (Authentication settings), so demo accounts work without an email server. Tell me to do this; I will click it.
+- [x] Supabase project linked with the CLI (`supabase init`, `supabase link`)
+- [x] `web/` scaffolded with Vite (React + TypeScript) and Tailwind, with a page that reads one row from a test table
+- [x] `ml/` with a virtual environment, FastAPI and `GET /health`
+- [x] `.env.example` files and `.gitignore`
 
 Check: the page shows the test row, `/health` returns OK, and `git status` tracks no `.env` file.
 
 ### Phase 1: schema and row-level security (FR5, NFR3)
 
-- [ ] Migrations for all ten tables, with foreign keys and indexes on student_id and topic_id
-- [ ] RLS policies for every table, matching the table above
-- [ ] The `auth.users` trigger that creates a profile row
-- [ ] `start_quiz` and `submit_quiz` functions, plus the column rule for recommendation status
-- [ ] `scripts/rls_check.py`: signs in as two test students with the anon key and tries to read and write each other's data
+- [x] Migrations for all ten tables, with foreign keys and indexes on student_id and topic_id
+- [x] RLS policies for every table, matching the table above
+- [x] The `auth.users` trigger that creates a profile row
+- [x] `start_quiz` and `submit_quiz` functions, plus the column rule for recommendation status
+- [x] `scripts/rls_check.py`: signs in as two test students with the anon key and tries to read and write each other's data
 
 Check: `rls_check.py` shows student A gets zero rows for B's logs, attempts and recommendations, a direct select on `questions` returns nothing, and a direct insert into `quiz_attempts` with a made-up score is refused.
 
@@ -211,28 +215,28 @@ Check: every test case has a recorded result, and every item in `screenshots.md`
 
 ## Commands
 
-Tools: Homebrew (`node`, `python@3.12`, `supabase/tap/supabase`). Python 3.12 lives in one venv at `ml/.venv`; the content and scripts commands use it too, so activate it first. Secrets go in `web/.env` (anon key only), `ml/.env`, `content/.env` and `scripts/.env`; copy from the matching `.env.example`.
+Tools: Homebrew (`node`, `python@3.12`, `supabase/tap/supabase`). Python 3.12 lives in one venv at the repo root (`.venv`), shared by `ml/`, `content/` and `scripts/`; VS Code picks it up automatically. Activate it before any Python command: `source .venv/bin/activate`. Secrets go in `web/.env` (anon key only), `ml/.env`, `content/.env` and `scripts/.env`; copy from the matching `.env.example`.
 
 ```
 # one-time setup
 cd web && npm install
-cd ml && python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt
 
 # web (http://localhost:5173)
 cd web && npm run dev
 cd web && npm run build          # type-check and build
 
 # ml (http://localhost:8000, GET /health)
-cd ml && source .venv/bin/activate && uvicorn app.main:app --reload
-cd ml && source .venv/bin/activate && pytest
-cd ml && source .venv/bin/activate && python -m training.train
+cd ml && uvicorn app.main:app --reload
+cd ml && pytest
+cd ml && python -m training.train
 
-# data (from the repo root, with ml/.venv activated)
-source ml/.venv/bin/activate
+# data (from the repo root)
 python content/validate.py
 python content/load.py
 python scripts/seed_demo.py
-python scripts/rls_check.py
+python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course
+pytest scripts                   # quiz function tests against the linked project
 
 # database (project already linked)
 supabase migration new <name>    # creates supabase/migrations/<timestamp>_<name>.sql
