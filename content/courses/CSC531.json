@@ -16,9 +16,9 @@
       ],
       "resources": [
         {
-          "title": "Lecture 1: Introduction to HCI (2025)",
+          "title": "Lecture 1: Introduction to HCI",
           "type": "pdf",
-          "url": "todo:HCI_CSC531_Lecture1_2025.pdf",
+          "url": "https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWobuMRz/view",
           "is_introductory": true,
           "intro_order": 1
         }
@@ -38,8 +38,8 @@
       "resources": [
         {
           "title": "Lectures 2-3: Problem space and user-centred design (2025)",
-          "type": "pdf",
-          "url": "todo:HCI_Lecture3_UG_2025.pdf",
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture3_UG_2025",
           "is_introductory": true,
           "intro_order": 2
         }
@@ -59,15 +59,15 @@
       "resources": [
         {
           "title": "Lecture 4: Conceptual models and data gathering (2025)",
-          "type": "pdf",
-          "url": "todo:2025_HCI_Lecture4_UG.pdf",
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#2025_HCI_Lecture4_UG",
           "is_introductory": true,
           "intro_order": 3
         },
         {
           "title": "Lecture 5: Ideation and data analysis (2025)",
-          "type": "pdf",
-          "url": "todo:HCI_Lecture5_UG_2025_Final.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture5_UG_2025_Final"
         }
       ]
     },
@@ -86,13 +86,13 @@
       "resources": [
         {
           "title": "Lecture 4: Conceptual models and data gathering (2025)",
-          "type": "pdf",
-          "url": "todo:2025_HCI_Lecture4_UG.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#2025_HCI_Lecture4_UG"
         },
         {
           "title": "Lecture 5: Ideation and data analysis (2025)",
-          "type": "pdf",
-          "url": "todo:HCI_Lecture5_UG_2025_Final.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture5_UG_2025_Final"
         }
       ]
     },
@@ -109,8 +109,8 @@
       "resources": [
         {
           "title": "Lecture 6: Cognitive psychology",
-          "type": "pdf",
-          "url": "todo:HCI_Lecture6_UG_2023.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1OPsvmGw8zNoAnOTxiIKUJGdBZu_QsZgQ#HCI_Lecture6_UG_2023"
         }
       ]
     },
@@ -130,12 +130,12 @@
         {
           "title": "Lecture 7: Prototyping and evaluation",
           "type": "pdf",
-          "url": "todo:HCI_Lecture7_Final_2024.pdf"
+          "url": "https://drive.google.com/file/d/18vGa3L9h8OYcJJ4K3E8PWAyjV9PmL5GU/view"
         },
         {
           "title": "Shneiderman's principles of interface design",
-          "type": "pdf",
-          "url": "todo:Principles-Shneiderman20200425.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1OPsvmGw8zNoAnOTxiIKUJGdBZu_QsZgQ#Principles-Shneiderman20200425"
         }
       ]
     }

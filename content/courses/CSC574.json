@@ -17,15 +17,15 @@
       "resources": [
         {
           "title": "Lecture 1: Intelligent Systems introduction (2025)",
-          "type": "pdf",
-          "url": "todo:CSC 574-2025.ppt",
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#CSC_574-2025",
           "is_introductory": true,
           "intro_order": 1
         },
         {
           "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
-          "type": "pdf",
-          "url": "todo:Introduction_to_Intelligent_Systems.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Introduction_to_Intelligent_Systems"
         }
       ]
     },
@@ -42,8 +42,8 @@
       "resources": [
         {
           "title": "Lecture 2: Components of a search problem",
-          "type": "pdf",
-          "url": "todo:2 - Search_Problem_Components_Presentation_Updated.pptx",
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Search_Problem_Components",
           "is_introductory": true,
           "intro_order": 2
         }
@@ -63,15 +63,15 @@
       "resources": [
         {
           "title": "Lecture 3: Knowledge representation and reasoning",
-          "type": "pdf",
-          "url": "todo:3. - Knowledge_Representation_Reasoning_Slides_Final.pptx",
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Knowledge_Representation_Reasoning",
           "is_introductory": true,
           "intro_order": 3
         },
         {
           "title": "Reading: Knowledge Representation in AI",
-          "type": "pdf",
-          "url": "todo:Knowledge-Representation-in-AI.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Knowledge-Representation-in-AI"
         }
       ]
     },
@@ -89,8 +89,8 @@
       "resources": [
         {
           "title": "Lecture 4: Expert systems and the MYCIN case study",
-          "type": "pdf",
-          "url": "todo:4. Expert_Systems_Teaching_Presentation_Updated.pptx"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Expert_Systems"
         }
       ]
     },
@@ -107,8 +107,8 @@
       "resources": [
         {
           "title": "Lecture 5: Fuzzy logic with case studies",
-          "type": "pdf",
-          "url": "todo:5 - Fuzzy_Logic_Lesson_with_Case_Studies.pptx"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Fuzzy_Logic"
         }
       ]
     },
@@ -126,13 +126,13 @@
       "resources": [
         {
           "title": "Reading: Intelligent Information Systems (Bidgoli, ch. 13)",
-          "type": "pdf",
-          "url": "todo:Intelligent Systems-4.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Intelligent_Systems-4"
         },
         {
           "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
-          "type": "pdf",
-          "url": "todo:Introduction_to_Intelligent_Systems.pdf"
+          "type": "link",
+          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Introduction_to_Intelligent_Systems"
         }
       ]
     }
