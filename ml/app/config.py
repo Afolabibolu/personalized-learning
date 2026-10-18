@@ -15,5 +15,5 @@ MODEL_VERSION = "v1"
 LR_MODEL_PATH = MODELS_DIR / f"lr_{MODEL_VERSION}.joblib"
 RF_MODEL_PATH = MODELS_DIR / f"rf_{MODEL_VERSION}.joblib"
 
-# How many weak topics per course get recommendations.
+# How many topics get ML recommendations, across all of a student's courses.
 TOP_TOPICS = 3

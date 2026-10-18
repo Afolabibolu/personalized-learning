@@ -6,7 +6,7 @@ from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import data
-from app.recommender import recommend_course
+from app.recommender import recommend_course, top_overall
 from training.features import prediction_rows, to_frames
 
 load_dotenv()
@@ -52,11 +52,17 @@ def recommend(authorization: str | None = Header(default=None)):
     used = data.used_resource_ids(db, student_id)
     now = pd.Timestamp.now(tz="UTC")
 
-    recs, summary = [], []
+    candidates = []
     for course in courses:
         features = prediction_rows(scores, logs, course.topic_ids, now)
-        course_recs = recommend_course(course, attempts.get(course.course_id, 0), features, models, used)
-        recs.extend(course_recs)
+        candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used))
+    # Cold-start lists per course; ML recommendations only for the top topics overall.
+    recs = top_overall(candidates)
+
+    course_of_topic = {t: c.course_id for c in courses for t in c.topic_ids}
+    summary = []
+    for course in courses:
+        course_recs = [r for r in recs if course_of_topic[r.topic_id] == course.course_id]
         summary.append({
             "course_id": course.course_id,
             "completed_attempts": attempts.get(course.course_id, 0),
