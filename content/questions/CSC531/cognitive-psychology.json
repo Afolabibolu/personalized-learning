@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "When we see an image with missing parts, our brain fills in the blanks so we still recognise the pattern. Which Gestalt principle is this?",
+    "options": [
+      {"key": "a", "text": "Common region"},
+      {"key": "b", "text": "Continuity"},
+      {"key": "c", "text": "Proximity"},
+      {"key": "d", "text": "Closure"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "The principle of closure says we look for a single recognisable pattern and fill in missing parts; it is often used in logo design.",
+    "source": "CSC 531 Lecture 6, slides 'Closure'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theory of visual perception says we do not perceive the world directly, but process an image before it is consciously recognised, helped by context?",
+    "options": [
+      {"key": "a", "text": "Ecological theory"},
+      {"key": "b", "text": "Figure-ground theory"},
+      {"key": "c", "text": "Activity theory"},
+      {"key": "d", "text": "Constructivism"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Constructivism holds that we process images before recognising them and that contextual information helps, which is why the same '-' symbol can mean different things in different contexts.",
+    "source": "CSC 531 Lecture 6, slides 'Visual Perception'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "According to the lecture, which sense is the most dominant in how humans perceive information?",
+    "options": [
+      {"key": "a", "text": "Vision"},
+      {"key": "b", "text": "Smell"},
+      {"key": "c", "text": "Hearing"},
+      {"key": "d", "text": "Touch"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Vision is the most dominant sense, followed by hearing and touch, so information should be presented so it is readily perceived as intended.",
+    "source": "CSC 531 Lecture 6, slide 'Perception'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Experiential cognition requires mental effort, as in writing.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "Experiential cognition is intuitive and effortless, as in eating; reflective cognition is the one that requires mental effort, as in writing.",
+    "source": "CSC 531 Lecture 6, slide 'Cognition and Perception'"
+  },
+  {
+    "format": "true_false",
+    "stem": "The law of proximity states that elements placed close to each other are perceived as belonging together.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Proximity is why websites set related content close together and restaurant menus group items such as desserts together.",
+    "source": "CSC 531 Lecture 6, slides 'Law of Proximity'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are among the five major human senses listed in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Echolocation"},
+      {"key": "b", "text": "Sight"},
+      {"key": "c", "text": "Hearing"},
+      {"key": "d", "text": "Balance"}
+    ],
+    "correct_answer": ["b", "c"],
+    "explanation": "The five major senses listed are sight, hearing, touch, taste and smell.",
+    "source": "CSC 531 Lecture 6, slide 'Senses'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Studying cognitive psychology helps designers know how humans do which of the following? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Process information"},
+      {"key": "b", "text": "Focus their attention"},
+      {"key": "c", "text": "Compile source code"},
+      {"key": "d", "text": "Perceive the world"}
+    ],
+    "correct_answer": ["a", "b", "d"],
+    "explanation": "Cognitive psychology helps designers understand how humans process information, perceive the world, focus attention and use memory, so systems can match their capabilities and limitations.",
+    "source": "CSC 531 Lecture 6, slide 'Why study cognitive psychology?'; CSC 531 2023/24 past question 1(c)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are variations of the Gestalt principles listed in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Figure-ground"},
+      {"key": "b", "text": "Common region"},
+      {"key": "c", "text": "Continuity"},
+      {"key": "d", "text": "Affordance"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "The variations listed are common region, proximity, figure-ground, similarity, closure, focal point and continuity; affordance is a design principle.",
+    "source": "CSC 531 Lecture 6, slide 'Gestalt Principle' (Variations); HCI 2020-21 past question 2(b)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are cognitive processes listed in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Attention"},
+      {"key": "b", "text": "Triangulation"},
+      {"key": "c", "text": "Learning"},
+      {"key": "d", "text": "Memory"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Cognitive processes include attention, perception, memory, learning, language, and problem solving; triangulation is a data gathering concept.",
+    "source": "CSC 531 Lecture 6, slide 'Cognitive Processes'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these statements describe the ecological theory of perception. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "It lets us recognise objects even when parts of them are obscured"},
+      {"key": "b", "text": "It relies on world knowledge to make sense of what we see"},
+      {"key": "c", "text": "We process any image before it is consciously recognised"},
+      {"key": "d", "text": "Information is extracted directly from the light captured by the eye"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "Processing an image before conscious recognition is the constructivist view; the ecological view uses world knowledge and extracts information directly from light.",
+    "source": "CSC 531 Lecture 6, slides 'Visual Perception' and 'Visual Perception: Ecological'"
+  }
+]

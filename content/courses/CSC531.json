@@ -1,0 +1,101 @@
+{
+  "code": "CSC 531",
+  "title": "Human-Computer Interaction",
+  "description": "Principles and methods of interaction design: understanding users, conceptual design, data gathering and analysis, cognition, prototyping and evaluation.",
+  "topics": [
+    {
+      "slug": "hci-and-usability",
+      "title": "HCI, Interactive Systems and Usability",
+      "subtopics": [
+        "Interactive systems: past, present and future",
+        "Good and poor design",
+        "Definition of HCI (ACM) and the disciplines involved",
+        "Cultural factors and digital inclusion",
+        "Usability goals: effectiveness, efficiency, safety, utility, learnability, memorability",
+        "User experience (UX) goals, and HCI versus UX"
+      ],
+      "resources": [
+        {"title": "Lecture 1: Introduction to HCI (2025)", "type": "pdf", "url": "todo:HCI_CSC531_Lecture1_2025.pdf", "is_introductory": true, "intro_order": 1}
+      ]
+    },
+    {
+      "slug": "user-centred-design",
+      "title": "Understanding the Problem Space and User-Centred Design",
+      "subtopics": [
+        "Understanding the problem space before designing the interface",
+        "Dot voting and the Havanna community case study",
+        "Levels of engagement with users",
+        "Approaches to interaction design: user-centred, activity-centred, system and genius design",
+        "Principles of user-centred design: early focus on users",
+        "User profiles, personas and scenarios"
+      ],
+      "resources": [
+        {"title": "Lectures 2-3: Problem space and user-centred design (2025)", "type": "pdf", "url": "todo:HCI_Lecture3_UG_2025.pdf"}
+      ]
+    },
+    {
+      "slug": "conceptual-models-and-ideation",
+      "title": "Conceptual Models, Interaction Types and Ideation",
+      "subtopics": [
+        "Components of a conceptual model",
+        "Interface metaphors",
+        "Interaction types: instructing, conversing, manipulating, exploring, responding",
+        "Representing a conceptual model: diagrams and storyboards",
+        "Ideation and ideation techniques (brainstorming)",
+        "Conceptual framework / solution overview and ideation tools"
+      ],
+      "resources": [
+        {"title": "Lecture 4: Conceptual models and data gathering (2025)", "type": "pdf", "url": "todo:2025_HCI_Lecture4_UG.pdf"},
+        {"title": "Lecture 5: Ideation and data analysis (2025)", "type": "pdf", "url": "todo:HCI_Lecture5_UG_2025_Final.pdf"}
+      ]
+    },
+    {
+      "slug": "data-gathering-and-analysis",
+      "title": "Data Gathering and Data Analysis",
+      "subtopics": [
+        "Identifying participants: probability and non-probability sampling",
+        "Pilot studies and informed consent",
+        "Interviews (structured, semi-structured, unstructured), focus groups and data recording",
+        "Questionnaires: structure, Likert and semantic differential scales",
+        "Direct and indirect observation; choosing and combining techniques",
+        "Quantitative and qualitative analysis: percentages, graphs, outliers, thematic analysis",
+        "Inferential analysis: dependent and independent variables; Cronbach's alpha"
+      ],
+      "resources": [
+        {"title": "Lecture 4: Conceptual models and data gathering (2025)", "type": "pdf", "url": "todo:2025_HCI_Lecture4_UG.pdf"},
+        {"title": "Lecture 5: Ideation and data analysis (2025)", "type": "pdf", "url": "todo:HCI_Lecture5_UG_2025_Final.pdf"}
+      ]
+    },
+    {
+      "slug": "cognitive-psychology",
+      "title": "Cognitive Psychology and Perception",
+      "subtopics": [
+        "Cognition, perception and why cognitive psychology matters in HCI",
+        "The human senses",
+        "Visual perception: constructivist and ecological theories",
+        "Gestalt principles: common region, figure-ground, continuity, closure, proximity, similarity",
+        "Cognitive processes: attention, perception and memory"
+      ],
+      "resources": [
+        {"title": "Lecture 6: Cognitive psychology", "type": "pdf", "url": "todo:HCI_Lecture6_UG_2023.pdf"}
+      ]
+    },
+    {
+      "slug": "prototyping-and-evaluation",
+      "title": "Prototyping, Design Principles and Evaluation",
+      "subtopics": [
+        "Low-fidelity and high-fidelity prototypes: advantages and disadvantages",
+        "Why, what, where and when to evaluate",
+        "Categories of evaluation by user involvement, setting and control",
+        "Heuristic evaluation and Nielsen's heuristics",
+        "Shneiderman's eight golden rules of interface design",
+        "Usability testing, think aloud, diary studies, field studies and experiments",
+        "System Usability Scale (Brooke)"
+      ],
+      "resources": [
+        {"title": "Lecture 7: Prototyping and evaluation", "type": "pdf", "url": "todo:HCI_Lecture7_Final_2024.pdf"},
+        {"title": "Shneiderman's principles of interface design", "type": "pdf", "url": "todo:Principles-Shneiderman20200425.pdf"}
+      ]
+    }
+  ]
+}

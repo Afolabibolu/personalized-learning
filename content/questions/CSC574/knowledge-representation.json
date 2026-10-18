@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which type of knowledge is knowledge about other types of knowledge?",
+    "options": [
+      {"key": "a", "text": "Procedural knowledge"},
+      {"key": "b", "text": "Heuristic knowledge"},
+      {"key": "c", "text": "Meta knowledge"},
+      {"key": "d", "text": "Declarative knowledge"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "Meta knowledge is knowledge about other types of knowledge; declarative covers facts, procedural how to do things, and heuristic expert knowledge.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Types of Knowledge'; CSC 574 CA 2023 past question"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Backward chaining is described in the lecture as which kind of inference?",
+    "options": [
+      {"key": "a", "text": "Fuzzy"},
+      {"key": "b", "text": "Goal-driven"},
+      {"key": "c", "text": "Data-driven"},
+      {"key": "d", "text": "Random"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Rule-based reasoning uses IF-THEN rules; forward chaining is data-driven and backward chaining is goal-driven.",
+    "source": "CSC 574 Lecture 3, slide 'Rule-Based Reasoning'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a semantic network, what do the nodes and edges represent?",
+    "options": [
+      {"key": "a", "text": "Nodes are truth values; edges are operators"},
+      {"key": "b", "text": "Nodes are concepts; edges are relationships"},
+      {"key": "c", "text": "Nodes are rules; edges are facts"},
+      {"key": "d", "text": "Nodes are states; edges are path costs"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "A semantic network is a graph where nodes represent concepts and edges represent relationships, such as Dog is_a Mammal.",
+    "source": "CSC 574 Lecture 3, slide 'Semantic Networks'; CSC 574 2023/24 past question 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does first-order logic add to propositional logic?",
+    "options": [
+      {"key": "a", "text": "The NOT operator"},
+      {"key": "b", "text": "Truth tables"},
+      {"key": "c", "text": "Degrees of truth between 0 and 1"},
+      {"key": "d", "text": "Quantifiers and predicates"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "First-order logic extends propositional logic with quantifiers and predicates, for example ∀x (Human(x) → Mortal(x)).",
+    "source": "CSC 574 Lecture 3, slide 'First-Order Logic (FOL)'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Semantic networks have quantifiers equivalent to those in predicate logic.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "A listed disadvantage of semantic networks is that they do not have any equivalent quantifiers; they also take more computational time at runtime.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Semantic Network Representation' (disadvantages)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the AI knowledge cycle, the planning and execution components depend on the analysis done by knowledge representation and reasoning.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Knowledge representation and reasoning is the main component of the cycle, and planning and execution depend on its analysis.",
+    "source": "Knowledge Representation in AI (Kute), slides 'Cycle of Knowledge Representation in AI'; CSC 574 CA 2023 past question"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are types of knowledge listed in the source material? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Declarative"},
+      {"key": "b", "text": "Heuristic"},
+      {"key": "c", "text": "Procedural"},
+      {"key": "d", "text": "Volatile"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "The five types listed are declarative, structural, procedural, meta and heuristic knowledge.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Types of Knowledge'; CSC 574 CA 2023 past question"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of semantic networks? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "They take less computational time at runtime"},
+      {"key": "b", "text": "They are intelligent and independent of the system's creator"},
+      {"key": "c", "text": "They are simple and easy to understand"},
+      {"key": "d", "text": "They are a natural representation of knowledge"}
+    ],
+    "correct_answer": ["c", "d"],
+    "explanation": "Semantic networks are natural, transparent and easy to understand, but they take more computational time at runtime and depend on the creator of the system.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Semantic Network Representation'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are components of the AI knowledge cycle. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Learning"},
+      {"key": "b", "text": "Compilation"},
+      {"key": "c", "text": "Perception"},
+      {"key": "d", "text": "Planning"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The cycle consists of perception, learning, knowledge representation and reasoning, planning and execution.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Cycle of Knowledge Representation in AI'; CSC 574 2021/22 past question 1(a)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are properties a good knowledge representation system must have. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Acquisitional efficiency"},
+      {"key": "b", "text": "Representational accuracy"},
+      {"key": "c", "text": "Inferential adequacy"},
+      {"key": "d", "text": "Visual attractiveness"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "The requirements are representational accuracy, inferential adequacy, inferential efficiency and acquisitional efficiency.",
+    "source": "Knowledge Representation in AI (Kute), slide 'Representation Requirements'"
+  }
+]

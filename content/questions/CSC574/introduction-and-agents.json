@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which approach to AI is associated with the Turing test?",
+    "options": [
+      {"key": "a", "text": "Acting humanly"},
+      {"key": "b", "text": "Thinking rationally (logic)"},
+      {"key": "c", "text": "Acting rationally (achieving the best outcome)"},
+      {"key": "d", "text": "Thinking humanly (cognitive modelling)"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "The lecture pairs acting humanly with Turing, thinking humanly with cognitive modelling, thinking rationally with logicians and acting rationally with achieving the best outcome.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Approaches to AI'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Turing predicted in 1946 that by 2000 a computer conversing with an interrogator for five minutes would have what chance of passing as human?",
+    "options": [
+      {"key": "a", "text": "10%"},
+      {"key": "b", "text": "30%"},
+      {"key": "c", "text": "90%"},
+      {"key": "d", "text": "50%"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Turing predicted a 30% chance of deceiving the interrogator that it was human after five minutes of conversation.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Turing's Prediction'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How does the lecture define a rational agent?",
+    "options": [
+      {"key": "a", "text": "An agent that never makes mistakes"},
+      {"key": "b", "text": "An agent with no sensors that follows a fixed script"},
+      {"key": "c", "text": "An agent that selects an action to maximise performance given its percept sequence and knowledge base"},
+      {"key": "d", "text": "An agent that always copies human behaviour"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "A rational agent selects an action to maximise performance given its percept sequence and knowledge base.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Rational Agent'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Minsky defined intelligence in terms of what?",
+    "options": [
+      {"key": "a", "text": "An evolutionary process in a competitive environment"},
+      {"key": "b", "text": "Mechanisms, viewing a human as a 'meat' machine"},
+      {"key": "c", "text": "Degrees of membership in fuzzy sets"},
+      {"key": "d", "text": "Human-level performance sufficient to fool an interrogator"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Turing defined intelligence by human-level performance, Minsky by mechanisms, and more recent scientists view it as an evolutionary process.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Approaches to AI' (definitions)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the agent model, sensors carry out actions on the environment and actuators receive percepts.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "It is the other way round: sensors receive percepts and actuators carry out actions.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Agent Model'"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Turing test is described as objective because communication between the human and the machine happens through terminals.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "By keeping communication through terminals, the test gives an objective standard view of intelligence.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'The Turing test is objective'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are properties of environments listed in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Experience: episodic versus sequential"},
+      {"key": "b", "text": "Observability: full versus partial"},
+      {"key": "c", "text": "Language: compiled versus interpreted"},
+      {"key": "d", "text": "Brightness: light versus dark"}
+    ],
+    "correct_answer": ["a", "b"],
+    "explanation": "The properties listed are observability, uncertainty (deterministic vs stochastic), experience (episodic vs sequential), change (static vs dynamic), continuity (discrete vs continuous) and single vs multi-agent.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Properties of Environments'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are elements of the agent model in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Performance measure"},
+      {"key": "b", "text": "Compiler"},
+      {"key": "c", "text": "Actuator (action)"},
+      {"key": "d", "text": "Sensor (percept)"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "The agent model consists of the agent, its environment, actuators (actions), sensors (percepts) and a performance measure.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Agent Model'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are the approaches to AI given in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Thinking humanly"},
+      {"key": "b", "text": "Computing quickly"},
+      {"key": "c", "text": "Acting rationally"},
+      {"key": "d", "text": "Thinking rationally"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The four approaches are thinking humanly, acting humanly, thinking rationally and acting rationally; speed is not one of them.",
+    "source": "CSC 574 Lecture 1 (2025), slide 'Approaches to AI'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Computational intelligence researchers model natural systems. Three of these belong to that approach. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Swarm intelligence"},
+      {"key": "b", "text": "Evolutionary computation"},
+      {"key": "c", "text": "Neural networks"},
+      {"key": "d", "text": "Rule-based expert systems"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Computational intelligence models natural systems such as the brain (neural networks), swarms and evolution; rule-based expert systems are the classic achievement of the AI community, which imitates human thinking methods.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, sections 1.1 and 1.2"
+  }
+]

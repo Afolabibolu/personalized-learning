@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which interaction type is system-initiated, with the system alerting or showing the user something relevant to their context?",
+    "options": [
+      {"key": "a", "text": "Instructing"},
+      {"key": "b", "text": "Exploring"},
+      {"key": "c", "text": "Manipulating"},
+      {"key": "d", "text": "Responding"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Responding is system-initiated: the system takes the initiative to alert, describe or show the user something, such as a fitness tracker reporting steps walked.",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Responding'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Advisory systems, help facilities, chatbots and robots are examples of which interaction type?",
+    "options": [
+      {"key": "a", "text": "Instructing"},
+      {"key": "b", "text": "Responding"},
+      {"key": "c", "text": "Exploring"},
+      {"key": "d", "text": "Conversing"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Conversing treats the system as a dialogue partner and is used where users need specific information or want to discuss issues.",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Conversing'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which ideation technique do participants write their ideas on cards and pass them round for others to build on, over several rounds?",
+    "options": [
+      {"key": "a", "text": "Brainwriting"},
+      {"key": "b", "text": "Brainwalking"},
+      {"key": "c", "text": "Brain dumping"},
+      {"key": "d", "text": "Brainstorming"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Brainwriting gives participants time to write ideas on cards that are passed round for others to build on; brainwalking uses charts on a wall and brain dumping uses sticky notes grouped on a board.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Ideation'"
+  },
+  {
+    "format": "true_false",
+    "stem": "A conceptual model can only be represented as a diagram.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "A conceptual model can be a textual description or a diagram, for example an ER diagram, flowchart, use case or storyboard.",
+    "source": "CSC 531 Lecture 4 (2025), slides 'Conceptual Model' and 'Conceptual Model Representation'"
+  },
+  {
+    "format": "true_false",
+    "stem": "At the end of ideation, the solution agreed on must always be the single 'best idea' from the session.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "A solution or concept should be agreed on at the end of ideation, but this does not necessarily mean selecting the 'best idea'.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Conceptual Framework/Solution Overview'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are guidelines for drawing a storyboard given in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Include people experiencing the design and their reactions to it"},
+      {"key": "b", "text": "Give end-users as many frames as possible"},
+      {"key": "c", "text": "Use text where necessary but keep it short"},
+      {"key": "d", "text": "Avoid too much detail, because unnecessary detail distracts"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "Storyboards should avoid unnecessary detail, keep text short and show people's reactions; for end-users the lecture recommends fewer frames, typically 4 to 6.",
+    "source": "CSC 531 Lecture 4 (2025), slides 'Some guides on Storyboard'; HCI 2021-22 past question 3(a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which rules does the lecture suggest for an ideation session? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "A time limit"},
+      {"key": "b", "text": "No bad ideas"},
+      {"key": "c", "text": "No distractions such as phones"},
+      {"key": "d", "text": "Criticise each idea as soon as it is suggested"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "Ideation needs a skilled facilitator and rules such as a time limit, no bad ideas and no distractions; team members should build on each other's ideas rather than shoot them down.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Ideation'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about a conceptual model are correct? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "It lets designers straighten out their thinking before laying out widgets"},
+      {"key": "b", "text": "It is the final pixel-level layout of each screen"},
+      {"key": "c", "text": "It is a high-level description of the system's operation or functions"},
+      {"key": "d", "text": "It becomes a blueprint once all design team members agree on it"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "A conceptual model is a high-level description that becomes a blueprint once agreed, and it helps designers think before they lay out widgets.",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Conceptual Model'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are interaction types from the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Prototyping"},
+      {"key": "b", "text": "Exploring"},
+      {"key": "c", "text": "Manipulating"},
+      {"key": "d", "text": "Instructing"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "The five interaction types are instructing, conversing, manipulating, exploring and responding; prototyping is a design activity.",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Interaction Types'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are techniques for selecting the best ideas after an ideation session. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Brainwalking"},
+      {"key": "b", "text": "Bingo selection"},
+      {"key": "c", "text": "Dot voting"},
+      {"key": "d", "text": "Affinity diagrams"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Dot voting, bingo selection and affinity diagrams are used to select ideas; brainwalking is a technique for generating them.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Ideation'"
+  }
+]

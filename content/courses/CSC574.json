@@ -1,0 +1,98 @@
+{
+  "code": "CSC 574",
+  "title": "Intelligent Systems",
+  "description": "Foundations of intelligent systems: agents, search, knowledge representation, expert systems, fuzzy logic and nature-inspired techniques.",
+  "topics": [
+    {
+      "slug": "introduction-and-agents",
+      "title": "Introduction to Intelligent Systems and Agents",
+      "subtopics": [
+        "Approaches to AI: thinking/acting humanly, thinking/acting rationally",
+        "The Turing test and Turing's prediction",
+        "Schools of thought: human performance, mechanisms, evolution, swarm intelligence",
+        "Applications of AI in everyday life and industry",
+        "Agent model: environment, sensors, actuators, performance measure",
+        "Properties of environments; rational and learning agents"
+      ],
+      "resources": [
+        {"title": "Lecture 1: Intelligent Systems introduction (2025)", "type": "pdf", "url": "todo:CSC 574-2025.ppt", "is_introductory": true, "intro_order": 1},
+        {"title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)", "type": "pdf", "url": "todo:Introduction_to_Intelligent_Systems.pdf"}
+      ]
+    },
+    {
+      "slug": "search",
+      "title": "Problem Solving and Search",
+      "subtopics": [
+        "Components of a search problem: initial state, goal state, state space, successor function, path cost",
+        "Uninformed versus informed search",
+        "Breadth-first search: completeness, optimality, O(b^d)",
+        "Depth-first search and comparison with BFS",
+        "Heuristics and the warehouse robot case study"
+      ],
+      "resources": [
+        {"title": "Lecture 2: Components of a search problem", "type": "pdf", "url": "todo:2 - Search_Problem_Components_Presentation_Updated.pptx"}
+      ]
+    },
+    {
+      "slug": "knowledge-representation",
+      "title": "Knowledge Representation and Reasoning",
+      "subtopics": [
+        "What knowledge representation is and what must be represented",
+        "Types of knowledge: declarative, structural, procedural, meta, heuristic",
+        "Propositional logic and truth tables",
+        "First-order logic: predicates and quantifiers",
+        "Rule-based reasoning: forward and backward chaining",
+        "Semantic networks and ontologies"
+      ],
+      "resources": [
+        {"title": "Lecture 3: Knowledge representation and reasoning", "type": "pdf", "url": "todo:3. - Knowledge_Representation_Reasoning_Slides_Final.pptx"},
+        {"title": "Reading: Knowledge Representation in AI", "type": "pdf", "url": "todo:Knowledge-Representation-in-AI.pdf"}
+      ]
+    },
+    {
+      "slug": "expert-systems",
+      "title": "Expert Systems",
+      "subtopics": [
+        "What an expert system is",
+        "Architecture: knowledge base, inference engine, user interface, explanation facility, knowledge acquisition",
+        "Inference engine operation: forward and backward chaining",
+        "MYCIN case study",
+        "Expert systems versus human experts; criteria for using them",
+        "Case-based reasoning"
+      ],
+      "resources": [
+        {"title": "Lecture 4: Expert systems and the MYCIN case study", "type": "pdf", "url": "todo:4. Expert_Systems_Teaching_Presentation_Updated.pptx"}
+      ]
+    },
+    {
+      "slug": "fuzzy-logic",
+      "title": "Fuzzy Logic Systems",
+      "subtopics": [
+        "Classical versus fuzzy logic",
+        "Fuzzy system architecture: fuzzification, rule base, inference, defuzzification",
+        "Membership functions",
+        "Mamdani inference with min/max and centroid defuzzification",
+        "Case studies: washing machine, office AC, vehicle speed"
+      ],
+      "resources": [
+        {"title": "Lecture 5: Fuzzy logic with case studies", "type": "pdf", "url": "todo:5 - Fuzzy_Logic_Lesson_with_Case_Studies.pptx"}
+      ]
+    },
+    {
+      "slug": "nature-inspired-and-other-ai",
+      "title": "Neural Networks, Genetic Algorithms and Other AI Technologies",
+      "subtopics": [
+        "Artificial neural networks",
+        "Genetic algorithms: selection, crossover, mutation",
+        "Biologically inspired methods: evolutionary computing and swarm intelligence",
+        "Intelligent agents and their types",
+        "Natural language processing: uses, advantages and disadvantages",
+        "Integrating AI technologies into decision support"
+      ],
+      "resources": [
+        {"title": "Reading: Intelligent Information Systems (Bidgoli, ch. 13)", "type": "pdf", "url": "todo:Intelligent Systems-4.pdf"},
+        {"title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)", "type": "pdf", "url": "todo:Introduction_to_Intelligent_Systems.pdf"}
+      ]
+    }
+  ]
+}

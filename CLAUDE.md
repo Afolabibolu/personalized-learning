@@ -150,11 +150,11 @@ Check: `rls_check.py` shows student A gets zero rows for B's logs, attempts and 
 
 Easy mode: the sources are only each course's outline (or lecture list), topics and subtopics, and past questions. Do not try to extract full lecture content. You write the questions yourself in this session, so no API script is needed. The notes in `content/sources/` are student summaries, so where a note and a lecture slide disagree, follow the slide.
 
-- [ ] `content/courses/<code>.json`: the course, 5 or 6 topics in teaching order, and each topic's subtopics, built from the outline and lecture headings. Stop and show me both files before writing any questions.
-- [ ] `content/questions/<code>/<topic-slug>.json`: 10 questions per topic. Mix all four formats, with no format above half of a topic's questions. Each question has format, stem, options, correct_answer, explanation (one or two sentences) and source (the lecture or past question it is based on). Use the past questions to judge which subtopics matter most and how hard questions should be. Rewrite theory questions into the four objective formats. Never invent facts that are not in the sources.
-- [ ] `content/validate.py`: checks every file against the schema. single_choice has exactly one correct option, true_false has two options, multi_select has at least two correct options, odd_one_out has exactly one odd option, and there are no duplicate stems within a course. Prints counts per topic and per format.
-- [ ] `content/load.py`: inserts courses, topics, resources, quizzes (one diagnostic per course, one quiz per topic) and questions with status `approved` for the demo. Running it twice must not create duplicates.
-- [ ] Resources: the matching lecture PDF or Drive link for each topic. The first lecture of each course is the introductory resource.
+- [x] `content/courses/<code>.json`: the course, 5 or 6 topics in teaching order, and each topic's subtopics, built from the outline and lecture headings. Stop and show me both files before writing any questions.
+- [x] `content/questions/<code>/<topic-slug>.json`: 10 questions per topic. Mix all four formats, with no format above half of a topic's questions. Each question has format, stem, options, correct_answer, explanation (one or two sentences) and source (the lecture or past question it is based on). Use the past questions to judge which subtopics matter most and how hard questions should be. Rewrite theory questions into the four objective formats. Never invent facts that are not in the sources.
+- [x] `content/validate.py`: checks every file against the schema. single_choice has exactly one correct option, true_false has two options, multi_select has at least two correct options, odd_one_out has exactly one odd option, and there are no duplicate stems within a course. Prints counts per topic and per format.
+- [x] `content/load.py`: inserts courses, topics, resources, quizzes (one diagnostic per course, one quiz per topic) and questions with status `approved` for the demo. Running it twice must not create duplicates.
+- [x] Resources: the matching lecture PDF or Drive link for each topic. The first lecture of each course is the introductory resource.
 
 This phase may run in a second Claude Code session. That session only touches files inside `content/` and does not commit; the main session commits its work after I approve the report.
 
@@ -220,7 +220,7 @@ Tools: Homebrew (`node`, `python@3.12`, `supabase/tap/supabase`). Python 3.12 li
 ```
 # one-time setup
 cd web && npm install
-python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt
+python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt -r content/requirements.txt
 
 # web (http://localhost:5173)
 cd web && npm run dev

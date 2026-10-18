@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "According to the lecture, which three entities make up Human-Computer Interaction?",
+    "options": [
+      {"key": "a", "text": "The designer, the developer and the tester"},
+      {"key": "b", "text": "The user, the computer and the interaction"},
+      {"key": "c", "text": "Input, processing and output"},
+      {"key": "d", "text": "Hardware, software and the network"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "HCI is the study of how people interact with computers, with three entities: the user (an individual or group), the computer (technology) and the interaction (the interface between them).",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Human Computer Interaction'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A user must repeat the same long set of steps every time they use a system. Which usability goal is the design failing?",
+    "options": [
+      {"key": "a", "text": "Safety"},
+      {"key": "b", "text": "Efficiency"},
+      {"key": "c", "text": "Utility"},
+      {"key": "d", "text": "Learnability"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Efficiency asks whether the steps required are unnecessarily long and whether users must repeat the same steps at every use; caching or auto-save can help.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Usability Goals'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Complete the lecture's statement: \"You can't design a user experience, you rather ...\"",
+    "options": [
+      {"key": "a", "text": "prototype a user experience"},
+      {"key": "b", "text": "test a user experience"},
+      {"key": "c", "text": "design for a user experience"},
+      {"key": "d", "text": "measure a user experience"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "The experience happens in the user, so designers can only design for it; for example a slim phone that fits the hand supports a satisfying experience while a big, heavy one could give a poor one.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'User Experience'; HCI 2020-21 past question 4(e)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Before 1980, interactive design was common and much attention was paid to users' engagement with systems.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "In the early days of computing (before 1980) interactive design was not common, little attention was paid to users' engagement, and people used punched cards with long waits.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Interactive Systems: The Past'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Describing the required input format, showing examples of valid input and providing default inputs all help to reduce the user's memory load.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "The lecture lists these three techniques under memorability as ways to reduce the memory load of the user.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Usability Goals' (memorability); CSC 531 2023/24 past question 3(a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of the following were given in class as cultural factors that affect technology adoption in Africa? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Cultural beliefs, such as myths that some technologies are harmful"},
+      {"key": "b", "text": "The processor speed of the user's device"},
+      {"key": "c", "text": "Digital inclusion, since most applications are in English"},
+      {"key": "d", "text": "Behavioural patterns, so users must be able to identify with the app"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "The class response named digital inclusion (language), cultural beliefs and behavioural patterns; processor speed is a technical, not cultural, factor.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Class Discussion 3 (Response)'; HCI 2021-22 past question 3(c)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements describe a good present-day interactive system? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "The user and the system exchange information frequently and dynamically"},
+      {"key": "b", "text": "The user can easily evaluate the result of their action on the system"},
+      {"key": "c", "text": "The user is in control"},
+      {"key": "d", "text": "Users submit punched cards and wait for the results"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "Present-day interactive systems put the user in control, exchange information dynamically and let users easily operate the system and evaluate its output; punched cards belong to the past.",
+    "source": "CSC 531 Lecture 1 (2025), slides 'Interactive System: The Present'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which disciplines does the lecture list as contributing to HCI? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Psychology"},
+      {"key": "b", "text": "Animal husbandry"},
+      {"key": "c", "text": "Petroleum engineering"},
+      {"key": "d", "text": "Sociology"}
+    ],
+    "correct_answer": ["a", "d"],
+    "explanation": "The contributing disciplines listed are psychology, sociology, information systems, product design and computer science.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Disciplines Contributing to HCI'; HCI 2021-22 past question 1(i)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are the basic activities of interaction design. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Establishing requirements"},
+      {"key": "b", "text": "Prototyping"},
+      {"key": "c", "text": "Evaluating"},
+      {"key": "d", "text": "Writing assembly code"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "The four basic activities are establishing requirements, designing alternatives, prototyping and evaluating; writing low-level code is not one of them.",
+    "source": "CSC 531 Lecture 1 (2025), slide 'Activities in Interaction Design'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are examples of design principles given in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Consistency"},
+      {"key": "b", "text": "Affordance"},
+      {"key": "c", "text": "Memorability"},
+      {"key": "d", "text": "Feedback"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "Feedback, constraints, visibility, consistency and affordance are design principles; memorability is a usability goal.",
+    "source": "CSC 531 Lecture 1 (2025), slides 'Design Principles' and 'Usability Goals'"
+  }
+]

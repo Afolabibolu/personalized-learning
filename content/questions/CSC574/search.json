@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the time and space complexity of breadth-first search given in the lecture?",
+    "options": [
+      {"key": "a", "text": "O(b^d)"},
+      {"key": "b", "text": "O(log b)"},
+      {"key": "c", "text": "O(b + d)"},
+      {"key": "d", "text": "O(d^b)"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "BFS explores every node at the current depth before going deeper, so time and space are O(b^d), where b is the branching factor and d the depth.",
+    "source": "CSC 574 Lecture 2, slide 'Breadth-First Search (BFS)'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which component of a search problem is the set of all states reachable from the initial state through actions?",
+    "options": [
+      {"key": "a", "text": "State space"},
+      {"key": "b", "text": "Path cost"},
+      {"key": "c", "text": "Successor function"},
+      {"key": "d", "text": "Goal state"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "The state space defines the universe in which search is conducted, such as every (x, y) position on a 5x5 grid.",
+    "source": "CSC 574 Lecture 2, slide 'State Space'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the warehouse robot case study, 'move up, down, left or right while avoiding obstacles' describes which component?",
+    "options": [
+      {"key": "a", "text": "Initial state"},
+      {"key": "b", "text": "Successor function"},
+      {"key": "c", "text": "Goal state"},
+      {"key": "d", "text": "State space"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The successor function gives the moves available from a state; the initial state is the charging station (0,0) and the goal is the target shelf.",
+    "source": "CSC 574 Lecture 2, slide 'Case Study: Warehouse Robot Navigation'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the grid example, a robot located at (0,0) when the search begins is an example of what?",
+    "options": [
+      {"key": "a", "text": "The goal state"},
+      {"key": "b", "text": "A heuristic"},
+      {"key": "c", "text": "The initial state"},
+      {"key": "d", "text": "The path cost"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "The initial state is the starting configuration from which the agent begins, such as a robot at (0,0); reaching (4,4) would be the goal state.",
+    "source": "CSC 574 Lecture 2, slides 'Initial State' and 'Goal State'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Breadth-first search is complete, and it is optimal when every step costs 1.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "The lecture describes BFS as complete and optimal if the step cost is 1.",
+    "source": "CSC 574 Lecture 2, slide 'Breadth-First Search (BFS)'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Depth-first search is guaranteed to find the shortest path to the goal.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "DFS may reach the goal quickly but is not guaranteed to find the shortest path; BFS finds the shortest path but uses more memory.",
+    "source": "CSC 574 Lecture 2, slide 'Example: BFS vs DFS'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For a binary tree with the goal at depth 3, which statements comparing BFS and DFS are correct? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "BFS uses more memory"},
+      {"key": "b", "text": "DFS is guaranteed to find the shortest path"},
+      {"key": "c", "text": "BFS finds the shortest path"},
+      {"key": "d", "text": "DFS always uses more memory than BFS"}
+    ],
+    "correct_answer": ["a", "c"],
+    "explanation": "BFS finds the shortest path but uses more memory; DFS may reach the goal quickly without a shortest-path guarantee.",
+    "source": "CSC 574 Lecture 2, slide 'Example: BFS vs DFS'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are components of a search problem? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Path cost"},
+      {"key": "b", "text": "Membership function"},
+      {"key": "c", "text": "Goal state"},
+      {"key": "d", "text": "Initial state"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "A search problem has an initial state, goal state, state space, successor function and path cost; membership functions belong to fuzzy logic.",
+    "source": "CSC 574 Lecture 2, slide 'What is a Search Problem?'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "In the class activity, what should a heuristic for the warehouse robot do? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Ignore where the goal is"},
+      {"key": "b", "text": "Replace the successor function"},
+      {"key": "c", "text": "Account for blocked paths or detours"},
+      {"key": "d", "text": "Estimate the distance from the current location to the goal"}
+    ],
+    "correct_answer": ["c", "d"],
+    "explanation": "The activity asks for a heuristic that estimates distance to the goal and accounts for blocked paths, to be compared with straight-line distance.",
+    "source": "CSC 574 Lecture 2, slide 'Interactive Activity: Design a Heuristic'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are components of a search problem. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Successor function"},
+      {"key": "b", "text": "State space"},
+      {"key": "c", "text": "Goal state"},
+      {"key": "d", "text": "Inference engine"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Successor function, state space and goal state define a search problem; an inference engine is part of an expert system.",
+    "source": "CSC 574 Lecture 2, slide 'What is a Search Problem?'; CSC 574 Lecture 4, slide 'Expert System Architecture'"
+  }
+]

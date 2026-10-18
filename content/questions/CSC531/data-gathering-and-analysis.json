@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which kind of sampling lets you apply statistical tests and generalise your results to the whole population?",
+    "options": [
+      {"key": "a", "text": "Volunteer panels"},
+      {"key": "b", "text": "Any non-probability sampling"},
+      {"key": "c", "text": "Probability sampling"},
+      {"key": "d", "text": "Convenience sampling"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "Probability sampling allows statistical tests and generalisation to the whole population, while non-probability sampling (convenience, volunteer panels) does not give such robust generalisation.",
+    "source": "CSC 531 Lecture 4 (2025), slides 'Identifying Participants'; HCI 2021-22 past question 4(d)(ii)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of interview is most appropriate when the goals of the study are clear and well understood?",
+    "options": [
+      {"key": "a", "text": "Structured"},
+      {"key": "b", "text": "Retrospective"},
+      {"key": "c", "text": "Unstructured"},
+      {"key": "d", "text": "Semi-structured"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Structured interviews ask the same pre-determined questions of each user and are most appropriate when goals are clear; unstructured interviews are open-ended and exploratory.",
+    "source": "CSC 531 Lecture 4 (2025), slides 'Data Gathering Techniques' and 'Interview'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does Cronbach's alpha measure?",
+    "options": [
+      {"key": "a", "text": "The time users take to complete a task"},
+      {"key": "b", "text": "The number of outliers in a scatter diagram"},
+      {"key": "c", "text": "The sample size needed for a finite population"},
+      {"key": "d", "text": "The internal consistency, or reliability, of a set of survey items"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Cronbach's alpha measures internal consistency on a 0 to 1 scale; higher values mean the items agree and probably measure the same characteristic.",
+    "source": "CSC 531 Lecture 5 (2025), slides 'Cronbach's Alpha'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An experiment tests whether the input device (mouse or trackpad) affects how long users take to complete a task. What is the task completion time?",
+    "options": [
+      {"key": "a", "text": "A level of the independent variable"},
+      {"key": "b", "text": "The dependent variable"},
+      {"key": "c", "text": "The sampling frame"},
+      {"key": "d", "text": "The independent variable"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Dependent variables are what we measure, such as completion time or number of errors; the input device is the independent variable.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Inferential Analysis'; CSC 531 2023/24 past question 3(b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "People who take part in a pilot study are typically also involved in the main study.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "A pilot study is a small trial of the main study, and the people involved in it are typically not involved in the main study.",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Pilot Studies'; HCI 2020-21 past question 3(b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A scatter diagram is useful for identifying outliers in the data easily.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Scatter diagrams make outliers easy to see; outliers can distort a representation but may also be of interest.",
+    "source": "CSC 531 Lecture 5 (2025), slide 'Graphical Representation of Data'; CSC 531 2023/24 past question 5(a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are types of triangulation named in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Geographical triangulation"},
+      {"key": "b", "text": "Financial triangulation"},
+      {"key": "c", "text": "Investigator triangulation"},
+      {"key": "d", "text": "Methodological triangulation"}
+    ],
+    "correct_answer": ["c", "d"],
+    "explanation": "The four types are methodological (combining techniques), data (different sources, times and places), investigator (different researchers) and theories (different frameworks).",
+    "source": "CSC 531 Lecture 4 (2025), slide 'Data Gathering' (key issues)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are ways of observing users indirectly? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Watching users think aloud in a usability lab"},
+      {"key": "b", "text": "Web analytics"},
+      {"key": "c", "text": "Diaries"},
+      {"key": "d", "text": "Interaction logs"}
+    ],
+    "correct_answer": ["b", "c", "d"],
+    "explanation": "Indirect observation uses diaries, interaction logs and web analytics; watching users in the field or in a usability lab is direct observation.",
+    "source": "CSC 531 Lectures 2-3 (2024), slides 'Observation'; HCI 2021-22 past question 4(d)(iv)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are probability sampling methods. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Volunteer panels"},
+      {"key": "b", "text": "Stratified sampling"},
+      {"key": "c", "text": "Using a random number generator"},
+      {"key": "d", "text": "Selecting every nth person on the list"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Random generators, every nth person and stratified sampling are probability methods; volunteer panels rely on people willing to take part, so they are non-probability.",
+    "source": "CSC 531 Lecture 4 (2025), slides 'Identifying Participants'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are techniques for simple qualitative analysis. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Affinity diagram"},
+      {"key": "b", "text": "Thematic analysis"},
+      {"key": "c", "text": "Identifying recurring themes"},
+      {"key": "d", "text": "Calculating percentages"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Affinity diagrams, thematic analysis and identifying recurring themes are qualitative; percentages are simple quantitative statistics, best used with at least 10 users.",
+    "source": "CSC 531 Lecture 5 (2025), slides 'Simple Qualitative Analysis' and 'Simple Statistics Analysis'; CSC 531 2023/24 past question 2(b)(a)"
+  }
+]
