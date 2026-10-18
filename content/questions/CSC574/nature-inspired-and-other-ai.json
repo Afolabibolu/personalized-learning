@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which genetic algorithm technique is also called 'survival of the fittest'?",
+    "options": [
+      {"key": "a", "text": "Selection"},
+      {"key": "b", "text": "Crossover"},
+      {"key": "c", "text": "Mutation"},
+      {"key": "d", "text": "Defuzzification"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "The genetic algorithm techniques are selection (survival of the fittest), crossover and mutation.",
+    "source": "Bidgoli, ch. 13, slide 'Genetic Algorithms'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which neural network does the reading suggest when there is no prior knowledge of what to find in the data, because it learns without a teacher?",
+    "options": [
+      {"key": "a", "text": "Multilayer perceptron (MLP)"},
+      {"key": "b", "text": "Hopfield network"},
+      {"key": "c", "text": "MYCIN"},
+      {"key": "d", "text": "Self-organising map (Kohonen network)"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "The SOM learns without a teacher; the MLP suits known categories and the Hopfield network suits optimisation problems.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, section 1.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "According to the reading, what was the first working AI system?",
+    "options": [
+      {"key": "a", "text": "The Perceptron by Frank Rosenblatt (1957)"},
+      {"key": "b", "text": "The General Problem Solver (1957)"},
+      {"key": "c", "text": "Deep Blue (1997)"},
+      {"key": "d", "text": "MYCIN (1970s)"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Neural networks were the first working AI systems, starting with Rosenblatt's Perceptron in 1957, after McCulloch and Pitts laid the foundations in 1943.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, section 1.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Artificial neural networks solve problems using explicit If-Then-Else rules, as expert systems do.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "Neural networks use patterns rather than If-Then-Else rules, create a model from inputs and outputs, and suit poorly structured problems.",
+    "source": "Bidgoli, ch. 13, slide 'Artificial Neural Networks'"
+  },
+  {
+    "format": "true_false",
+    "stem": "In ant colony optimisation, the intelligence of the colony emerges from simple rules controlling each ant and the communication between ants.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Each ant is primitive and predictable, but the colony's clever behaviour is an emerging feature of simple individual rules and communication.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, section 1.8; CSC 574 2023/24 past question 4(i)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of intelligent agents? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Autonomy"},
+      {"key": "b", "text": "Mobility"},
+      {"key": "c", "text": "Adaptability"},
+      {"key": "d", "text": "Fatigue"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "Intelligent agent characteristics are adaptability, autonomy, collaborative behaviour, a human-like interface, mobility and reactivity.",
+    "source": "Bidgoli, ch. 13, slide 'Intelligent Agents (cont'd.)'; CSC 574 2023/24 past question 4(ii)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are popular hybrid combinations of AI methods named in the reading? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Neuro-fuzzy systems"},
+      {"key": "b", "text": "Fuzzy systems that forbid partial membership"},
+      {"key": "c", "text": "Expert systems that work without a knowledge base"},
+      {"key": "d", "text": "Genetic algorithms used to select the best neural network structure"}
+    ],
+    "correct_answer": ["a", "d"],
+    "explanation": "The listed hybrids are neuro-fuzzy systems, expert systems using fuzzy logic for conclusions, and genetic algorithms selecting neural network structures.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, section 1.10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are categories of natural language processing systems? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Interfaces to databases"},
+      {"key": "b", "text": "Speech systems for voice interaction with computers"},
+      {"key": "c", "text": "Crossover and mutation of chromosomes"},
+      {"key": "d", "text": "Machine translation"}
+    ],
+    "correct_answer": ["a", "b", "d"],
+    "explanation": "NLP categories include interfaces to databases, machine translation, text scanning and indexing, text generation and speech systems; crossover and mutation are genetic algorithm techniques.",
+    "source": "Bidgoli, ch. 13, slide 'Natural Language Processing (cont'd.)'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are types of intelligent agents described in the reading. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Defuzzification agents"},
+      {"key": "b", "text": "Monitoring and surveillance agents"},
+      {"key": "c", "text": "Shopping and information agents"},
+      {"key": "d", "text": "Data-mining agents"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "The reading describes shopping and information agents, personal agents, data-mining agents and monitoring and surveillance agents.",
+    "source": "Bidgoli, ch. 13, slides 'Shopping and Information Agents' to 'Monitoring and Surveillance Agents'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are biologically inspired methods described in the reading. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Breadth-first search"},
+      {"key": "b", "text": "Evolutionary computation"},
+      {"key": "c", "text": "Ant colony optimisation"},
+      {"key": "d", "text": "Artificial immune systems"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Ant colony optimisation, artificial immune systems and evolutionary computation copy natural processes; breadth-first search is an uninformed search algorithm.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, sections 1.7 and 1.8; CSC 574 2023/24 past question 4(i)"
+  }
+]

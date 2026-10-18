@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which expert system component justifies the system's reasoning to the user?",
+    "options": [
+      {"key": "a", "text": "Inference engine"},
+      {"key": "b", "text": "Knowledge acquisition module"},
+      {"key": "c", "text": "Explanation facility"},
+      {"key": "d", "text": "Knowledge base"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "The explanation facility justifies reasoning; the knowledge base holds facts and rules, the inference engine applies logic, and the acquisition module adds new knowledge.",
+    "source": "CSC 574 Lecture 4, slide 'Expert System Architecture'; CSC 574 2023/24 past question 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What did the MYCIN expert system do?",
+    "options": [
+      {"key": "a", "text": "Diagnosed bacterial infections and recommended antibiotics"},
+      {"key": "b", "text": "Controlled fan speed using fuzzy rules"},
+      {"key": "c", "text": "Analysed burglary sites for police detectives"},
+      {"key": "d", "text": "Played chess against world champions"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "MYCIN, developed at Stanford in the 1970s, diagnosed bacterial infections and recommended antibiotics using over 600 rules.",
+    "source": "CSC 574 Lecture 4, slide 'Case Study: MYCIN Expert System'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In case-based reasoning, what happens if no matching case is found even after asking the user for more information?",
+    "options": [
+      {"key": "a", "text": "The system switches to fuzzy logic"},
+      {"key": "b", "text": "The system deletes the case"},
+      {"key": "c", "text": "A human expert must solve the problem"},
+      {"key": "d", "text": "The system guesses the closest answer"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "Case-based reasoning matches a new case to solved cases in a database; without a match it queries the user, and if still unmatched a human expert must solve it.",
+    "source": "Bidgoli, Intelligent Information Systems (ch. 13), slide 'Case-Based Reasoning'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Facts: has_wings, lays_eggs. Rules: IF has_wings AND lays_eggs THEN is_a_bird; IF is_a_bird AND swims THEN is_a_duck. What does forward chaining conclude?",
+    "options": [
+      {"key": "a", "text": "is_a_bird and is_a_duck"},
+      {"key": "b", "text": "is_a_bird only"},
+      {"key": "c", "text": "Nothing, because no rule matches"},
+      {"key": "d", "text": "is_a_duck only"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The first rule fires and adds is_a_bird; the second rule needs swims, which is not among the facts, so is_a_duck is not concluded.",
+    "source": "CSC 574 Lecture 4, slides 'Simple Forward-Chaining System' and 'Forward-Chaining Execution Flow'"
+  },
+  {
+    "format": "true_false",
+    "stem": "MYCIN was widely deployed in hospitals after it matched human physicians in tests.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "MYCIN performed comparably to physicians in tests but was not deployed because of legal and ethical concerns.",
+    "source": "CSC 574 Lecture 4, slide 'Case Study: MYCIN Expert System'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Forward chaining starts with known facts and applies rules to derive conclusions.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Forward chaining is data-driven: it starts from known facts and applies rules until a goal is reached; backward chaining starts from the goal.",
+    "source": "CSC 574 Lecture 4, slides 'Inference Engine Operation' and 'What is Forward-Chaining?'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of expert systems? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "They never become distracted, forgetful or tired"},
+      {"key": "b", "text": "They preserve the expertise of employees who are retiring or leaving"},
+      {"key": "c", "text": "They create consistency in decision making"},
+      {"key": "d", "text": "They adapt intuitively to new situations like human experts"}
+    ],
+    "correct_answer": ["a", "b", "c"],
+    "explanation": "Expert systems are tireless, preserve scarce expertise and are consistent; adapting intuitively is listed as a strength of human experts instead.",
+    "source": "Bidgoli, ch. 13, slide 'Advantages of Expert Systems'; CSC 574 Lecture 4, slide 'Expert Systems vs. Human Experts'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are criteria for NOT using an expert system? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Well-structured numerical problems are involved"},
+      {"key": "b", "text": "Experts are scarce in the organisation"},
+      {"key": "c", "text": "The task requires consistency and standardisation"},
+      {"key": "d", "text": "There is disagreement among experts"}
+    ],
+    "correct_answer": ["a", "d"],
+    "explanation": "Avoid expert systems when experts disagree, the problem is well-structured and numerical, there are very few or too many rules, or the area is too wide and shallow; scarcity of experts and a need for consistency are reasons to use one.",
+    "source": "Bidgoli, ch. 13, slides 'Criteria for Using Expert Systems' and 'Criteria for Not Using Expert Systems'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are components of an expert system's architecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Inference engine"},
+      {"key": "b", "text": "Membership function"},
+      {"key": "c", "text": "Knowledge base"},
+      {"key": "d", "text": "User interface"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The architecture has a knowledge base, inference engine, user interface, explanation facility and knowledge acquisition module; membership functions belong to fuzzy systems.",
+    "source": "CSC 574 Lecture 4, slide 'Expert System Architecture'; CSC 574 2023/24 past question 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these statements about MYCIN are true. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "It used over 600 rules in its knowledge base"},
+      {"key": "b", "text": "It performed comparably to human physicians in tests"},
+      {"key": "c", "text": "It learned its knowledge automatically using a neural network"},
+      {"key": "d", "text": "It was developed at Stanford in the 1970s"}
+    ],
+    "correct_answer": ["c"],
+    "explanation": "MYCIN was a rule-based system with over 600 rules from Stanford in the 1970s; it did not use a neural network.",
+    "source": "CSC 574 Lecture 4, slide 'Case Study: MYCIN Expert System'"
+  }
+]

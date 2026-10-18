@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Evaluation carried out early, after sketches and storyboards, is called what?",
+    "options": [
+      {"key": "a", "text": "Formative evaluation"},
+      {"key": "b", "text": "Remote evaluation"},
+      {"key": "c", "text": "Summative evaluation"},
+      {"key": "d", "text": "Heuristic evaluation"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Early-phase evaluation after sketches and storyboards is formative; later-phase evaluation of a high-fidelity or finished product is summative.",
+    "source": "CSC 531 Lecture 7, slide 'Evaluation: When to Evaluate'; CSC 531 2023/24 past question 5(d)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The think aloud technique has three steps: recruit representative users, give them representative tasks, and then what?",
+    "options": [
+      {"key": "a", "text": "Stay quiet and let the users do the talking"},
+      {"key": "b", "text": "Complete the tasks for them while they watch"},
+      {"key": "c", "text": "Interrupt regularly to explain the interface"},
+      {"key": "d", "text": "Hand them a questionnaire before they start"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "In a think aloud test participants verbalise their thoughts as they use the interface; the third step is to 'shut up and let the users do the talking'.",
+    "source": "CSC 531 Lecture 7, slide 'Think Aloud Technique'; HCI 2020-21 past question 3(a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which category of evaluation has little or no control over users' activities and mainly uses field studies?",
+    "options": [
+      {"key": "a", "text": "Any settings not directly involving users"},
+      {"key": "b", "text": "Controlled settings directly involving users"},
+      {"key": "c", "text": "Usability laboratory testing"},
+      {"key": "d", "text": "Natural settings involving users"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Natural settings show how people use technology in its intended setting with little or no control; they are often time-consuming and the main method is field studies.",
+    "source": "CSC 531 Lecture 7, slides 'Evaluation' and 'Types of Evaluation'"
+  },
+  {
+    "format": "true_false",
+    "stem": "Heuristic evaluation is typically performed by end users who have no design experience.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "Heuristic evaluation is typically performed by experienced HCI experts or designers; usability testing is the method aimed at end users.",
+    "source": "CSC 531 Lecture 7, slides 'Heuristic Evaluation' and 'Usability Testing Evaluation'"
+  },
+  {
+    "format": "true_false",
+    "stem": "A high-fidelity prototype is a computer-based interactive system that is usually close to the final product.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "High-fidelity prototypes are computer-based and close to the final product, built with tools such as Figma or Adobe XD; paper is the cheapest low-fidelity option.",
+    "source": "CSC 531 Lecture 7, slides 'High Fidelity Prototype' and 'Low Fidelity Prototype: Paper Prototype'; HCI 2020-21 past question 2(e)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are among Shneiderman's eight golden rules of interface design? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Increase short-term memory load"},
+      {"key": "b", "text": "Strive for consistency"},
+      {"key": "c", "text": "Offer informative feedback"},
+      {"key": "d", "text": "Permit easy reversal of actions"}
+    ],
+    "correct_answer": ["b", "c", "d"],
+    "explanation": "The golden rules include consistency, universal usability, informative feedback, dialogues that yield closure, preventing errors, easy reversal, keeping users in control and reducing (not increasing) short-term memory load.",
+    "source": "Shneiderman's Eight Golden Rules slides, 'Follow the 8 Golden Rules'; HCI 2021-22 past question 3(d)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What is a high-fidelity prototype useful for? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Testing details such as UI elements and colour schemes"},
+      {"key": "b", "text": "Testing animations, transitions and navigation"},
+      {"key": "c", "text": "Removing the need for any evaluation with users"},
+      {"key": "d", "text": "Getting feedback before the final launch of the product"}
+    ],
+    "correct_answer": ["a", "b", "d"],
+    "explanation": "High-fidelity prototypes test UI details, animations and navigation, reveal the user experience, gather feedback before launch and help communication; they are themselves evaluated.",
+    "source": "CSC 531 Lecture 7, slide 'High Fidelity Prototype'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which methods are used in evaluation settings that do not directly involve users? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Field studies"},
+      {"key": "b", "text": "Analytics and models"},
+      {"key": "c", "text": "Heuristic evaluation"},
+      {"key": "d", "text": "Cognitive walkthrough"}
+    ],
+    "correct_answer": ["b", "c", "d"],
+    "explanation": "Without users, researchers use inspections such as heuristic evaluation, cognitive walkthroughs (often using hierarchical task analysis) and analytics and models; field studies involve users in natural settings.",
+    "source": "CSC 531 Lecture 7, slides 'Types of Evaluation' and 'Any Settings Not Involving Users'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are among Nielsen's heuristics as listed in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Provide clearly marked exits"},
+      {"key": "b", "text": "Seek universal usability"},
+      {"key": "c", "text": "Help and documentation"},
+      {"key": "d", "text": "Aesthetic and minimalist design"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Clearly marked exits, help and documentation, and aesthetic and minimalist design are Nielsen's heuristics; 'seek universal usability' is one of Shneiderman's golden rules.",
+    "source": "CSC 531 Lecture 7, slide 'Neilsen's Heuristics'; Shneiderman's Eight Golden Rules slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these answer the question 'where to evaluate?'. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Remote setting"},
+      {"key": "b", "text": "Natural environment"},
+      {"key": "c", "text": "Controlled environment"},
+      {"key": "d", "text": "Summative phase"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Evaluation can happen in a controlled environment (lab), a natural environment or a remote setting; summative describes when to evaluate, not where.",
+    "source": "CSC 531 Lecture 7, slides 'Evaluation: Where to evaluate'; HCI 2020-21 past question 2(f)"
+  }
+]

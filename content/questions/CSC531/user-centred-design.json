@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does the lecture say often happens when design starts from the interface instead of the problem space?",
+    "options": [
+      {"key": "a", "text": "Usability issues and user experience are neglected or overlooked"},
+      {"key": "b", "text": "Users get more involved in the design"},
+      {"key": "c", "text": "Development finishes faster with no drawbacks"},
+      {"key": "d", "text": "The product becomes cheaper to maintain"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Starting with interface design often neglects or overlooks usability issues and the user experience, which is why the problem space should be understood first.",
+    "source": "CSC 531 Lecture 3 (2025), slide 'Understanding the Problem Space'; CSC 531 2023/24 past question 5(b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which approach to interaction design relies largely on the experience and creative flair of the designer?",
+    "options": [
+      {"key": "a", "text": "System design"},
+      {"key": "b", "text": "Activity-centred design"},
+      {"key": "c", "text": "User-centred design"},
+      {"key": "d", "text": "Genius design"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Genius design relies largely on the designer's experience and creative flair, unlike user-centred design where the user is the guide.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'Approaches to Interaction Design'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a home electricity smart meter, the household members who use it directly are which type of user?",
+    "options": [
+      {"key": "a", "text": "Primary users"},
+      {"key": "b", "text": "Tertiary users"},
+      {"key": "c", "text": "Secondary users"},
+      {"key": "d", "text": "Stakeholder users"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Primary users are direct users; secondary users use the system infrequently or through an intermediary; tertiary users are those affected by it.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'User Profile' and 'Class Activity' (smart meter); CSC 531 2023/24 past question 5(c)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In activity-centred design, the users' behaviour around particular tasks matters more than their goals and needs.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Activity-centred design focuses on the behaviour surrounding particular tasks; users still play a significant role, but their behaviour rather than their goals is what matters.",
+    "source": "CSC 531 Lecture 3 (2025), slide 'Approaches to Interaction Design'"
+  },
+  {
+    "format": "true_false",
+    "stem": "A persona is a real, named user interviewed during data gathering.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "A persona is a fictitious yet realistic representation of targeted users, created from the user profile, usually early in the design.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'Personas: Understanding Communities' and 'Persona'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are the basis of user-centred design according to the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Early focus on users and tasks"},
+      {"key": "b", "text": "Choosing the newest technology first"},
+      {"key": "c", "text": "Iterative design"},
+      {"key": "d", "text": "Empirical measurements"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "The basis of user-centred design is early focus on users and tasks, empirical measurement and iterative design; technology informs options but is not the driving force.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'User-Centered Design' and 'Early Focus on Users'; HCI 2021-22 past question 1(ii)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are benefits of understanding the problem space, as listed in the lecture? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "It can save time, effort and money later in the design process"},
+      {"key": "b", "text": "It removes the need to evaluate the final product"},
+      {"key": "c", "text": "Ill-thought-out or unusable designs can be refined while it is still easy to do so"},
+      {"key": "d", "text": "It gives a clear understanding of why and how you are going to design something"}
+    ],
+    "correct_answer": ["a", "c", "d"],
+    "explanation": "Understanding the problem space clarifies the design, saves time and money, and lets poor ideas be refined early; evaluation is still needed.",
+    "source": "CSC 531 Lecture 3 (2025), slide 'Importance of Understanding the Problem Space'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements correctly describe the dot voting technique? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "A participant may put all of their votes on one item"},
+      {"key": "b", "text": "Participants may be given multiple votes, for example 3 to 5"},
+      {"key": "c", "text": "Only the research team is allowed to vote"},
+      {"key": "d", "text": "Participants place dots on the items they feel strongly about"}
+    ],
+    "correct_answer": ["a", "b", "d"],
+    "explanation": "In dot voting participants mark items they feel strongly about, may get several votes and may use them all on one item; in the Havanna study both community members and the research team voted.",
+    "source": "CSC 531 Lecture 3 (2025), slide 'Understanding the Problem' (Dot Voting Technique)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are steps of user-centred design given in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Evaluate"},
+      {"key": "b", "text": "Deploy the newest available technology first"},
+      {"key": "c", "text": "Identify the users' needs and the context around them"},
+      {"key": "d", "text": "Specify requirements for both the business and the user"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "The four steps are identify needs and context, specify requirements, design solutions and evaluate; the lecture says to ask what technology supports users' goals rather than where to deploy new technology.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'User-Centered Design' and 'Early Focus on Users'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are methods for the needs and problem identification phase. Which one belongs to the design phase instead?",
+    "options": [
+      {"key": "a", "text": "Focus group"},
+      {"key": "b", "text": "Card sorting"},
+      {"key": "c", "text": "Contextual inquiry"},
+      {"key": "d", "text": "Observation"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "Interviews, focus groups, observation, contextual inquiry and brainstorming identify needs and problems; participatory design and card sorting belong to the design phase.",
+    "source": "CSC 531 Lecture 3 (2025), slides 'Users Further involvement'"
+  }
+]

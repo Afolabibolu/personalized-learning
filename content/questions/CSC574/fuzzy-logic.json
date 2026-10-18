@@ -1,0 +1,128 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In fuzzy logic, what values can a truth value take?",
+    "options": [
+      {"key": "a", "text": "Any value between 0 and 1"},
+      {"key": "b", "text": "Any whole number"},
+      {"key": "c", "text": "Only 0 or 1"},
+      {"key": "d", "text": "Only true, false or unknown"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Classical logic is binary (0 or 1), while fuzzy logic allows any value between 0 and 1, so water can be '0.7 hot'.",
+    "source": "CSC 574 Lecture 5, slide 'Classical Logic vs. Fuzzy Logic'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which defuzzification method does the lecture use with Mamdani inference?",
+    "options": [
+      {"key": "a", "text": "Crossover"},
+      {"key": "b", "text": "Breadth-first search"},
+      {"key": "c", "text": "Backward chaining"},
+      {"key": "d", "text": "Centroid"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "Mamdani inference applies the rules, combines outputs with min/max operators and defuzzifies with the centroid method.",
+    "source": "CSC 574 Lecture 5, slide 'Sample Rule Base for Air Conditioner'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The lecture defines cold = max(1 - x/20, 0) for temperature x. What is the membership of 10°C in 'cold'?",
+    "options": [
+      {"key": "a", "text": "0.5"},
+      {"key": "b", "text": "0"},
+      {"key": "c", "text": "0.25"},
+      {"key": "d", "text": "1"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "1 - 10/20 = 0.5, and max(0.5, 0) = 0.5, so 10°C is cold to degree 0.5.",
+    "source": "CSC 574 Lecture 5, slide 'Python representation'"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the lecture's example, hot_degree = min((temperature - 20) / 20, 1). What is hot_degree for a crisp input of 25°C?",
+    "options": [
+      {"key": "a", "text": "5"},
+      {"key": "b", "text": "0.25"},
+      {"key": "c", "text": "1.25"},
+      {"key": "d", "text": "0.5"}
+    ],
+    "correct_answer": ["b"],
+    "explanation": "(25 - 20) / 20 = 0.25, which is below 1, so hot_degree is 0.25.",
+    "source": "CSC 574 Lecture 5, slide 'Some Examples' (fuzzy inference code)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Fuzzy logic only supports binary true or false decisions.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["false"],
+    "explanation": "Fuzzy logic handles partial truth, uncertainty and vagueness; binary decisions describe classical logic.",
+    "source": "CSC 574 Lecture 5, slides 'Introduction to Fuzzy Logic Systems' and 'Classical Logic vs. Fuzzy Logic'"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a fuzzy set, an element with membership 1 belongs to the set unconditionally and an element with membership 0 is outside it.",
+    "options": [
+      {"key": "true", "text": "True"},
+      {"key": "false", "text": "False"}
+    ],
+    "correct_answer": ["true"],
+    "explanation": "Elements with membership 1 belong unconditionally, 0 means outside, and anything between 0 and 1 belongs partially.",
+    "source": "Tadeusiewicz, Introduction to Intelligent Systems, section 1.6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "In the intelligent washing machine case study, which are the inputs? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Wash time"},
+      {"key": "b", "text": "Water level"},
+      {"key": "c", "text": "Dirtiness"},
+      {"key": "d", "text": "Load size"}
+    ],
+    "correct_answer": ["c", "d"],
+    "explanation": "The inputs are dirtiness and load size; wash time and water level are the outputs.",
+    "source": "CSC 574 Lecture 5, slide 'Case Study 1: Intelligent Washing Machine'"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which products are given as examples of fuzzy logic in use? Select all that apply.",
+    "options": [
+      {"key": "a", "text": "Punched-card readers"},
+      {"key": "b", "text": "Shower systems"},
+      {"key": "c", "text": "Dryers"},
+      {"key": "d", "text": "Refrigerators"}
+    ],
+    "correct_answer": ["b", "c", "d"],
+    "explanation": "Bidgoli lists dryers, refrigerators, shower systems, TVs and video camcorders as fuzzy logic examples.",
+    "source": "Bidgoli, ch. 13, slide 'Uses of Fuzzy Logic'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are steps of Mamdani fuzzy inference as given in the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Backtrack from the goal to find supporting facts"},
+      {"key": "b", "text": "Combine outputs using min/max operators"},
+      {"key": "c", "text": "Defuzzify using the centroid method"},
+      {"key": "d", "text": "Apply the rules"}
+    ],
+    "correct_answer": ["a"],
+    "explanation": "Mamdani inference applies rules, combines with min/max and defuzzifies; backtracking from a goal is backward chaining.",
+    "source": "CSC 574 Lecture 5, slide 'Sample Rule Base for Air Conditioner'"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Three of these are fuzzy logic case studies from the lecture. Which is the odd one out?",
+    "options": [
+      {"key": "a", "text": "Smart office air conditioning"},
+      {"key": "b", "text": "Intelligent washing machine"},
+      {"key": "c", "text": "Autonomous vehicle speed"},
+      {"key": "d", "text": "MYCIN antibiotic recommendation"}
+    ],
+    "correct_answer": ["d"],
+    "explanation": "The fuzzy case studies are the washing machine, smart office AC and autonomous vehicle speed; MYCIN is the expert system case study.",
+    "source": "CSC 574 Lecture 5, slides 'Case Study 1-3'; CSC 574 Lecture 4, slide 'Case Study: MYCIN'"
+  }
+]
