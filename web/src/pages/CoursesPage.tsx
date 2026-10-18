@@ -1,18 +1,14 @@
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { listCourses } from '../api/courses'
-import { getProfile } from '../api/profile'
 import { ButtonLink, Card, ErrorMessage, PageHeader, Spinner } from '../components/ui'
 
-export function HomePage() {
-  const profile = useQuery({ queryKey: ['profile'], queryFn: getProfile })
+export function CoursesPage() {
   const courses = useQuery({ queryKey: ['courses'], queryFn: listCourses })
-
-  const firstName = profile.data?.full_name?.split(' ')[0]
 
   return (
     <>
-      <PageHeader eyebrow="Your courses" title={firstName ? `Hi ${firstName}` : 'Hi there'}>
+      <PageHeader eyebrow="Courses" title="Your courses">
         Start with a diagnostic quiz on each course to see which topics need attention.
       </PageHeader>
 

@@ -72,6 +72,7 @@ function QuizPlayer({ started }: { started: StartedQuiz }) {
       queryClient.invalidateQueries({ queryKey: ['courses'] })
       queryClient.invalidateQueries({ queryKey: ['course'] })
       queryClient.invalidateQueries({ queryKey: ['topic'] })
+      queryClient.invalidateQueries({ queryKey: ['dashboard'] })
       triggerRecommendations()
       navigate(`/attempts/${review.attempt_id}`, { replace: true })
     },

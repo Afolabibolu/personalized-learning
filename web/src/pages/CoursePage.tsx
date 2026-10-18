@@ -15,7 +15,7 @@ export function CoursePage() {
 
   return (
     <>
-      <Link to="/" className="mb-4 inline-block text-sm text-slate-500 hover:text-slate-900">
+      <Link to="/courses" className="mb-4 inline-block text-sm text-slate-500 hover:text-slate-900">
         ← All courses
       </Link>
       <PageHeader eyebrow={data.code} title={data.title}>
