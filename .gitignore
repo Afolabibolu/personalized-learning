@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# node
+node_modules/
+dist/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# supabase local
+supabase/.temp/
+supabase/.branches/
+
+# source material (not committed)
+content/sources/
+
+# os / editor
+.DS_Store
+.vscode/
