@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from app.config import COLD_START_THRESHOLD
-from app.recommender import CourseData, Models, ResourceInfo, recommend_course
+from app.recommender import CourseData, Models, Recommendation, ResourceInfo, recommend_course, top_overall
 from training.features import FEATURES
 
 
@@ -57,6 +57,8 @@ def test_at_threshold_ranks_topics_by_averaged_probability():
     # LR alone would put t1 first; the average puts t3 first.
     m = models({1.0: 0.9, 2.0: 0.2, 3.0: 0.7, 4.0: 0.1}, {1.0: 0.1, 2.0: 0.3, 3.0: 0.9, 4.0: 0.2})
     recs = recommend_course(course(), COLD_START_THRESHOLD, features(LAST), m, set())
+    assert [r.topic_id for r in recs] == ["t3", "t1", "t2", "t4"]
+    recs = top_overall(recs)
     assert [r.topic_id for r in recs] == ["t3", "t1", "t2"]
     assert [r.rank for r in recs] == [1, 2, 3]
     assert recs[0].priority_score == 0.8
@@ -81,3 +83,17 @@ def test_cold_start_skips_resources_already_accepted_or_dismissed():
     recs = recommend_course(course(), 0, features(LAST), None, {"intro-1"})
     assert [r.resource_id for r in recs] == ["intro-2"]
     assert recs[0].rank == 1
+
+
+def test_top_three_are_chosen_across_courses_and_cold_start_lists_are_kept():
+    def ml(topic, p):
+        return Recommendation(topic_id=topic, rank=9, source="ml", resource_id=topic, priority_score=p, model_version="v")
+
+    candidates = [
+        ml("a1", 0.20), ml("a2", 0.90), ml("a3", 0.10),  # course A
+        ml("b1", 0.85), ml("b2", 0.40),  # course B
+        Recommendation(topic_id="c1", rank=1, source="cold_start", resource_id="intro"),  # course C, new
+    ]
+    recs = top_overall(candidates)
+    assert [(r.topic_id, r.rank) for r in recs if r.source == "ml"] == [("a2", 1), ("b1", 2), ("b2", 3)]
+    assert [(r.topic_id, r.rank) for r in recs if r.source == "cold_start"] == [("c1", 1)]

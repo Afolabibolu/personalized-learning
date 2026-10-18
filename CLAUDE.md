@@ -101,7 +101,7 @@ recsys/
 - Demo accounts (password `DemoPass2026!`): `new.student@demo.example.com` (no activity, cold start) and `active.student@demo.example.com` (weak topics: CSC 531 Cognitive Psychology, CSC 574 Fuzzy Logic). Simulated students use `sim-NNN@sim.example.com`. `seed_demo.py` sets `is_simulated` on the profile itself, because the admin API writes app_metadata after the sign-up trigger runs. Only `is_simulated` students are used for training.
 - Dashboard labels: ML recommendations with averaged probability of 0.5 or more show as "Needs attention"; below 0.5 they show as "Keep it up" with a suggestion (review if not studied for 7+ days, try the topic quiz if scoring 80%+, otherwise a light practice nudge). Cold-start items show as "Getting started".
 - Reminders (in-app, computed on dashboard load): a weak topic (below 50%) not studied for 7+ days or never, no study logged for 3+ days, and courses whose diagnostic has not been taken. Streak and the 14-day strip count days with a study log or a completed quiz.
-- Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. Recommendations are ranked per course (top 3 topics per course).
+- Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. ML recommendations are the top 3 topics overall, across all of the student's courses (ranked 1 to 3 by averaged probability). Cold-start lists stay per course.
 
 ## Database
 

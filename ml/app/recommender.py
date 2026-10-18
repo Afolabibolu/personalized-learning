@@ -81,9 +81,10 @@ def ml_recommendations(
     features: pd.DataFrame,
     models: Models,
     used_resource_ids: set[str],
-    top_n: int = TOP_TOPICS,
+    top_n: int | None = TOP_TOPICS,
 ) -> list[Recommendation]:
-    """Ranks the course's topics by averaged probability and recommends the top ones.
+    """Ranks the course's topics by averaged probability and recommends the top ones
+    (every topic when top_n is None).
 
     For each of the top topics: its first resource the student has not already
     accepted or dismissed, or the topic quiz when none is left.
@@ -94,7 +95,7 @@ def ml_recommendations(
     ranked = sorted(probabilities.items(), key=lambda item: (-item[1], order.get(item[0], 0)))
 
     recs = []
-    for rank, (topic_id, probability) in enumerate(ranked[:top_n], start=1):
+    for rank, (topic_id, probability) in enumerate(ranked if top_n is None else ranked[:top_n], start=1):
         unused = sorted(
             (r for r in course.resources if r.topic_id == topic_id and r.id not in used_resource_ids),
             key=lambda r: (not r.is_introductory, r.title),
@@ -118,6 +119,18 @@ def recommend_course(
     models: Models | None,
     used_resource_ids: set[str],
 ) -> list[Recommendation]:
+    """Cold-start list, or every topic of the course ranked by the models.
+    Use top_overall() to keep only the best ML topics across courses."""
     if is_cold_start(completed_attempts, models):
         return cold_start(course, used_resource_ids)
-    return ml_recommendations(course, features, models, used_resource_ids)
+    return ml_recommendations(course, features, models, used_resource_ids, top_n=None)
+
+
+def top_overall(recs: list[Recommendation], n: int = TOP_TOPICS) -> list[Recommendation]:
+    """Keeps the n highest-probability ML recommendations across all courses,
+    re-ranked 1..n. Cold-start lists stay as they are (one per course)."""
+    cold = [r for r in recs if r.source == "cold_start"]
+    ml = sorted((r for r in recs if r.source == "ml"), key=lambda r: -(r.priority_score or 0))[:n]
+    for rank, rec in enumerate(ml, start=1):
+        rec.rank = rank
+    return cold + ml

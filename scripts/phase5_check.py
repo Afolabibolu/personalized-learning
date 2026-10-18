@@ -95,9 +95,10 @@ def main() -> int:
         attention = [r["topic"] for r in rows if r["kind"] == "attention"]
         check("both weak topics flagged 'Needs attention', and nothing else", set(attention) == WEAK, ", ".join(attention))
         keep = [r for r in rows if r["kind"] == "keep-it-up"]
-        check("other recommendations say 'Keep it up' with a suggestion",
-              keep and all("Keep it up" in r["text"] and len(r["text"].splitlines()) >= 4 for r in keep),
-              f"{len(keep)} keep-it-up")
+        check("only the top 3 overall are shown", len(rows) == 3, f"{len(rows)} recommendations")
+        check("the third says 'Keep it up' with a suggestion",
+              len(keep) == 1 and "Keep it up" in keep[0]["text"] and len(keep[0]["text"].splitlines()) >= 4,
+              keep[0]["text"].splitlines()[-3] if keep else "none")
         reminders = page.get_by_test_id("reminder")
         check("at least one reminder", reminders.count() >= 1,
               reminders.first.inner_text().split("\n")[0] if reminders.count() else "none")

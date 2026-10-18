@@ -40,7 +40,7 @@ def recommendations_for(email: str):
         "rank, priority_score, source, model_version, status, topic:topics(title, course:courses(code)), "
         "resource:resources(title), quiz:quizzes(title)"
     ).execute().data
-    rows.sort(key=lambda r: (r["topic"]["course"]["code"], r["rank"]))
+    rows.sort(key=lambda r: (r["source"], r["topic"]["course"]["code"] if r["source"] == "cold_start" else "", r["rank"]))
     return response.json(), rows
 
 
@@ -67,15 +67,15 @@ def main() -> int:
           f"{len(rows)} recommendation(s)")
     check("one introductory list per course", {r["topic"]["course"]["code"] for r in rows} == {"CSC 531", "CSC 574"})
 
-    print("\n-- Active Student (one weak topic per course)")
+    print("\n-- Active Student (one weak topic per course, top 3 overall)")
     summary, rows = recommendations_for("active.student@demo.example.com")
     show(rows)
     check("every recommendation comes from the models", rows and all(r["source"] == "ml" for r in rows),
           f"model {summary['model_version']}")
-    for code, weak_title in WEAK.items():
-        first = next(r for r in rows if r["topic"]["course"]["code"] == code and r["rank"] == 1)
-        check(f"{code}: weakest topic ranked first", first["topic"]["title"] == weak_title,
-              f"#1 is {first['topic']['title']}, p={first['priority_score']:.2f}")
+    check("top 3 overall across both courses", len(rows) == 3 and [r["rank"] for r in rows] == [1, 2, 3],
+          f"{len(rows)} recommendation(s)")
+    top_two = {r["topic"]["title"] for r in rows if r["rank"] <= 2}
+    check("both weak topics ranked first and second", top_two == set(WEAK.values()), ", ".join(sorted(top_two)))
 
     print("\n-- Running again does not duplicate pending recommendations")
     _, again = recommendations_for("active.student@demo.example.com")
