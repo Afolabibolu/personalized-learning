@@ -99,6 +99,8 @@ recsys/
 - Recommendation trigger: after a quiz is submitted or a study session is logged, the web app calls `POST /recommend` on the ML service without waiting for it. The dashboard also has a "Refresh recommendations" button. No webhooks or scheduled jobs for the demo.
 - Training data: simulated students created by `scripts/seed_demo.py`, because there is no time for a pilot. The real-data comparison is future work.
 - Demo accounts (password `DemoPass2026!`): `new.student@demo.example.com` (no activity, cold start) and `active.student@demo.example.com` (weak topics: CSC 531 Cognitive Psychology, CSC 574 Fuzzy Logic). Simulated students use `sim-NNN@sim.example.com`. `seed_demo.py` sets `is_simulated` on the profile itself, because the admin API writes app_metadata after the sign-up trigger runs. Only `is_simulated` students are used for training.
+- Dashboard labels: ML recommendations with averaged probability of 0.5 or more show as "Needs attention"; below 0.5 they show as "Keep it up" with a suggestion (review if not studied for 7+ days, try the topic quiz if scoring 80%+, otherwise a light practice nudge). Cold-start items show as "Getting started".
+- Reminders (in-app, computed on dashboard load): a weak topic (below 50%) not studied for 7+ days or never, no study logged for 3+ days, and courses whose diagnostic has not been taken. Streak and the 14-day strip count days with a study log or a completed quiz.
 - Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. Recommendations are ranked per course (top 3 topics per course).
 
 ## Database
@@ -158,7 +160,7 @@ Easy mode: the sources are only each course's outline (or lecture list), topics 
 - [x] `content/questions/<code>/<topic-slug>.json`: 10 questions per topic. Mix all four formats, with no format above half of a topic's questions. Each question has format, stem, options, correct_answer, explanation (one or two sentences) and source (the lecture or past question it is based on). Use the past questions to judge which subtopics matter most and how hard questions should be. Rewrite theory questions into the four objective formats. Never invent facts that are not in the sources.
 - [x] `content/validate.py`: checks every file against the schema. single_choice has exactly one correct option, true_false has two options, multi_select has at least two correct options, odd_one_out has exactly one odd option, and there are no duplicate stems within a course. Prints counts per topic and per format.
 - [x] `content/load.py`: inserts courses, topics, resources, quizzes (one diagnostic per course, one quiz per topic) and questions with status `approved` for the demo. Running it twice must not create duplicates.
-- [x] Resources: the matching lecture PDF or Drive link for each topic. The first lecture of each course is the introductory resource.
+- [x] Resources: the matching lecture PDF or Drive link for each topic. The first three lectures of each course, in teaching order, are its introductory resources (intro_order 1 to 3); this is the cold-start sequence.
 
 This phase may run in a second Claude Code session. That session only touches files inside `content/` and does not commit; the main session commits its work after I approve the report.
 
@@ -201,10 +203,10 @@ Check: "New Student" gets the introductory list, "Active Student" gets their wea
 
 ### Phase 5: dashboard, progress and reminders (FR4, FR6)
 
-- [ ] Recommendations card with Accept and Dismiss (updates `status`); cold-start items labelled "Getting started"; a "Refresh recommendations" button
-- [ ] Progress bar per topic (latest score), built with Recharts
-- [ ] Consistency: streak count and a 14-day activity strip
-- [ ] In-app reminders computed on load from stored dates (for example, no study in 3 days)
+- [x] Recommendations card with Accept and Dismiss (updates `status`); cold-start items labelled "Getting started"; a "Refresh recommendations" button
+- [x] Progress bar per topic (latest score), built with Recharts
+- [x] Consistency: streak count and a 14-day activity strip
+- [x] In-app reminders computed on load from stored dates (for example, no study in 3 days)
 
 Check: logged in as "Active Student", the dashboard shows the streak, the weakest topic first and a reminder. Logged in as "New Student", it shows the introductory list.
 
@@ -229,6 +231,7 @@ python3.12 -m venv .venv && .venv/bin/pip install -r ml/requirements.txt -r cont
 # web (http://localhost:5173)
 cd web && npm run dev
 cd web && npm run build          # type-check and build
+cd web && npm test               # dashboard logic tests (streak, reminders, suggestions)
 
 # ml (http://localhost:8000, GET /health)
 cd ml && uvicorn app.main:app --reload
@@ -239,10 +242,12 @@ cd ml && python -m training.train
 python content/validate.py
 python content/load.py
 python scripts/seed_demo.py           # resets and recreates simulated students + demo accounts
+python scripts/seed_demo.py --demo-only   # resets only the two demo accounts (run before presenting)
 python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course
 pytest scripts                   # quiz function tests against the linked project
 python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; --mobile, --shots DIR, --keep
 python scripts/phase4_check.py   # Phase 4 check; needs seed_demo, training.train and the ML service running
+python scripts/phase5_check.py   # Phase 5 dashboard check in Chrome; --mobile, --shots DIR
 
 # database (project already linked)
 supabase migration new <name>    # creates supabase/migrations/<timestamp>_<name>.sql

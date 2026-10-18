@@ -15,8 +15,18 @@
         "Properties of environments; rational and learning agents"
       ],
       "resources": [
-        {"title": "Lecture 1: Intelligent Systems introduction (2025)", "type": "pdf", "url": "todo:CSC 574-2025.ppt", "is_introductory": true, "intro_order": 1},
-        {"title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)", "type": "pdf", "url": "todo:Introduction_to_Intelligent_Systems.pdf"}
+        {
+          "title": "Lecture 1: Intelligent Systems introduction (2025)",
+          "type": "pdf",
+          "url": "todo:CSC 574-2025.ppt",
+          "is_introductory": true,
+          "intro_order": 1
+        },
+        {
+          "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
+          "type": "pdf",
+          "url": "todo:Introduction_to_Intelligent_Systems.pdf"
+        }
       ]
     },
     {
@@ -30,7 +40,13 @@
         "Heuristics and the warehouse robot case study"
       ],
       "resources": [
-        {"title": "Lecture 2: Components of a search problem", "type": "pdf", "url": "todo:2 - Search_Problem_Components_Presentation_Updated.pptx"}
+        {
+          "title": "Lecture 2: Components of a search problem",
+          "type": "pdf",
+          "url": "todo:2 - Search_Problem_Components_Presentation_Updated.pptx",
+          "is_introductory": true,
+          "intro_order": 2
+        }
       ]
     },
     {
@@ -45,8 +61,18 @@
         "Semantic networks and ontologies"
       ],
       "resources": [
-        {"title": "Lecture 3: Knowledge representation and reasoning", "type": "pdf", "url": "todo:3. - Knowledge_Representation_Reasoning_Slides_Final.pptx"},
-        {"title": "Reading: Knowledge Representation in AI", "type": "pdf", "url": "todo:Knowledge-Representation-in-AI.pdf"}
+        {
+          "title": "Lecture 3: Knowledge representation and reasoning",
+          "type": "pdf",
+          "url": "todo:3. - Knowledge_Representation_Reasoning_Slides_Final.pptx",
+          "is_introductory": true,
+          "intro_order": 3
+        },
+        {
+          "title": "Reading: Knowledge Representation in AI",
+          "type": "pdf",
+          "url": "todo:Knowledge-Representation-in-AI.pdf"
+        }
       ]
     },
     {
@@ -61,7 +87,11 @@
         "Case-based reasoning"
       ],
       "resources": [
-        {"title": "Lecture 4: Expert systems and the MYCIN case study", "type": "pdf", "url": "todo:4. Expert_Systems_Teaching_Presentation_Updated.pptx"}
+        {
+          "title": "Lecture 4: Expert systems and the MYCIN case study",
+          "type": "pdf",
+          "url": "todo:4. Expert_Systems_Teaching_Presentation_Updated.pptx"
+        }
       ]
     },
     {
@@ -75,7 +105,11 @@
         "Case studies: washing machine, office AC, vehicle speed"
       ],
       "resources": [
-        {"title": "Lecture 5: Fuzzy logic with case studies", "type": "pdf", "url": "todo:5 - Fuzzy_Logic_Lesson_with_Case_Studies.pptx"}
+        {
+          "title": "Lecture 5: Fuzzy logic with case studies",
+          "type": "pdf",
+          "url": "todo:5 - Fuzzy_Logic_Lesson_with_Case_Studies.pptx"
+        }
       ]
     },
     {
@@ -90,8 +124,16 @@
         "Integrating AI technologies into decision support"
       ],
       "resources": [
-        {"title": "Reading: Intelligent Information Systems (Bidgoli, ch. 13)", "type": "pdf", "url": "todo:Intelligent Systems-4.pdf"},
-        {"title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)", "type": "pdf", "url": "todo:Introduction_to_Intelligent_Systems.pdf"}
+        {
+          "title": "Reading: Intelligent Information Systems (Bidgoli, ch. 13)",
+          "type": "pdf",
+          "url": "todo:Intelligent Systems-4.pdf"
+        },
+        {
+          "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
+          "type": "pdf",
+          "url": "todo:Introduction_to_Intelligent_Systems.pdf"
+        }
       ]
     }
   ]

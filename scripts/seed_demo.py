@@ -1,6 +1,7 @@
 """Creates the simulated students and the two demo accounts.
 
     python scripts/seed_demo.py [--students 80] [--seed 2026]
+    python scripts/seed_demo.py --demo-only    # reset just the two demo accounts
 
 Run after content/load.py (simulated answers point to real questions). Uses
 the service role key from scripts/.env. Every user is created through the
@@ -13,6 +14,8 @@ Supabase admin API, so each has a real auth user and profile row.
     to show ML recommendations.
 
 Running it again deletes everything it created before and starts over.
+--demo-only resets only the two demo accounts (for example after trying them
+out before a presentation) and leaves the simulated students alone.
 """
 
 import argparse
@@ -55,13 +58,14 @@ def admin() -> Client:
     return create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_ROLE_KEY"])
 
 
-def reset(db: Client) -> int:
-    """Deletes every simulated and demo user; their data cascades with them."""
+def reset(db: Client, domains: tuple[str, ...] = (SIM_DOMAIN, DEMO_DOMAIN)) -> int:
+    """Deletes every user on the given email domains; their data cascades with them."""
+    suffixes = tuple(f"@{d}" for d in domains)
     removed, page = 0, 1
     while True:
         users = db.auth.admin.list_users(page=page, per_page=1000)
         for user in users:
-            if user.email and user.email.endswith((f"@{SIM_DOMAIN}", f"@{DEMO_DOMAIN}")):
+            if user.email and user.email.endswith(suffixes):
                 db.auth.admin.delete_user(user.id)
                 removed += 1
         if len(users) < 1000:
@@ -182,10 +186,14 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--students", type=int, default=80)
     parser.add_argument("--seed", type=int, default=2026)
+    parser.add_argument("--demo-only", action="store_true", help="reset only the two demo accounts")
     args = parser.parse_args()
 
     db = admin()
-    print(f"Removed {reset(db)} existing simulated and demo users")
+    if args.demo_only:
+        print(f"Removed {reset(db, (DEMO_DOMAIN,))} demo users")
+    else:
+        print(f"Removed {reset(db)} existing simulated and demo users")
 
     courses, topics, quizzes, questions = load_content(db)
     np_rng = np.random.default_rng(args.seed)
@@ -205,7 +213,7 @@ def main() -> int:
     ]
 
     all_attempts, all_answers, all_logs = [], [], []
-    for n in range(1, args.students + 1):
+    for n in range(1, 0 if args.demo_only else args.students + 1):
         student_id = create_user(db, f"Simulated Student {n:03d}", f"sim-{n:03d}@{SIM_DOMAIN}", SIM_PASSWORD, True, rng)
         a, ans, logs = rows_for(student_id, simulate_student(np_rng, sim_courses, now), questions, rng)
         all_attempts += a
@@ -225,8 +233,9 @@ def main() -> int:
     insert(db, "attempt_answers", all_answers)
     insert(db, "study_logs", all_logs)
 
+    simulated = "no simulated students (--demo-only)" if args.demo_only else f"{args.students} simulated students"
     print(f"\nInserted {len(all_attempts)} quiz attempts, {len(all_answers)} answers and {len(all_logs)} study logs "
-          f"for {args.students} simulated students and the Active Student.")
+          f"for {simulated} and the Active Student.")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
     print("\nDemo logins (password for both: " + DEMO_PASSWORD + ")")
     print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start")

@@ -29,6 +29,7 @@ export function LogStudyPage() {
     mutationFn: () => logStudySession({ topicId, durationMinutes: duration, activityType: activity }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['studyLogs'] })
+      queryClient.invalidateQueries({ queryKey: ['dashboard'] })
       triggerRecommendations()
     },
   })

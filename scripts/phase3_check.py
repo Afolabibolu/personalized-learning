@@ -68,9 +68,11 @@ def run_ui(email: str, shots: Path | None, mobile: bool) -> dict:
         shot(page, shots, "02-onboarding")
         page.get_by_role("button", name="Continue").click()
         page.wait_for_url(f"{APP}/")
+        expect(page.get_by_role("heading", name="Recommended for you")).to_be_visible()
+        page.get_by_role("link", name="Courses", exact=True).click()
         expect(page.get_by_text("CSC 531")).to_be_visible()
         shot(page, shots, "03-courses")
-        check("onboarding saves and opens the course list", True)
+        check("onboarding saves, opens the dashboard, and the course list loads", True)
 
         page.get_by_role("link", name="Take diagnostic quiz").first.click()
         page.wait_for_url(f"{APP}/quiz/**")

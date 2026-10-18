@@ -4,7 +4,8 @@ import { AppLayout } from './components/AppLayout'
 import { RequireAuth } from './components/RequireAuth'
 import { LoginPage, SignupPage } from './pages/AuthPages'
 import { CoursePage } from './pages/CoursePage'
-import { HomePage } from './pages/HomePage'
+import { CoursesPage } from './pages/CoursesPage'
+import { DashboardPage } from './pages/DashboardPage'
 import { LogStudyPage } from './pages/LogStudyPage'
 import { OnboardingPage } from './pages/OnboardingPage'
 import { QuizPage } from './pages/QuizPage'
@@ -29,7 +30,8 @@ export default function App() {
               </RequireAuth>
             }
           >
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<DashboardPage />} />
+            <Route path="/courses" element={<CoursesPage />} />
             <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/courses/:courseId" element={<CoursePage />} />
             <Route path="/topics/:topicId" element={<TopicPage />} />
