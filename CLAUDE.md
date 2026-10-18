@@ -98,6 +98,8 @@ recsys/
 - Prototype scope: two 500-level courses, CSC 531 (Human-Computer Interaction) and CSC 574 (Intelligent Systems).
 - Recommendation trigger: after a quiz is submitted or a study session is logged, the web app calls `POST /recommend` on the ML service without waiting for it. The dashboard also has a "Refresh recommendations" button. No webhooks or scheduled jobs for the demo.
 - Training data: simulated students created by `scripts/seed_demo.py`, because there is no time for a pilot. The real-data comparison is future work.
+- Demo accounts (password `DemoPass2026!`): `new.student@demo.example.com` (no activity, cold start) and `active.student@demo.example.com` (weak topics: CSC 531 Cognitive Psychology, CSC 574 Fuzzy Logic). Simulated students use `sim-NNN@sim.example.com`. `seed_demo.py` sets `is_simulated` on the profile itself, because the admin API writes app_metadata after the sign-up trigger runs. Only `is_simulated` students are used for training.
+- Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. Recommendations are ranked per course (top 3 topics per course).
 
 ## Database
 
@@ -177,21 +179,21 @@ Check: a brand-new account can sign up, finish onboarding, take a diagnostic qui
 
 ### Phase 4: ML service, simulated data and cold start (FR4, NFR4)
 
-- [ ] `scripts/seed_demo.py`, using the service role key. It runs after `load.py`, because simulated answers point to real questions:
+- [x] `scripts/seed_demo.py`, using the service role key. It runs after `load.py`, because simulated answers point to real questions:
   - Create every simulated and demo user through the Supabase admin API (`auth.admin.create_user`), so each one has a real auth user and profile row.
   - About 80 simulated students (`is_simulated = true`) with several weeks of quiz attempts and study logs. Their next scores depend on study time, past scores and days since last studied, plus random noise, so the models have a pattern to learn.
   - Demo account "New Student" with no activity, to show cold start.
   - Demo account "Active Student" with a history that makes one or two topics clearly weak, to show ML recommendations.
   - Prints the demo logins at the end. Running it again resets the simulated data.
-- [ ] `training/features.py`: one row per student per topic with mean_score, last_score, attempt_count, session_count, total_minutes, days_since_last_studied
-- [ ] Labels from the label rule above
-- [ ] `training/train.py`: Logistic Regression (StandardScaler in a pipeline) and Random Forest on the same stratified split, plus 5-fold cross-validation. Saves to `ml/results/`: a metrics table (accuracy, precision, recall, F1) as CSV and Markdown, a confusion matrix chart per model, a bar chart comparing the two, and Random Forest feature importances. All titled "simulated data".
-- [ ] `POST /recommend`:
+- [x] `training/features.py`: one row per student per topic with mean_score, last_score, attempt_count, session_count, total_minutes, days_since_last_studied
+- [x] Labels from the label rule above
+- [x] `training/train.py`: Logistic Regression (StandardScaler in a pipeline) and Random Forest on the same stratified split, plus 5-fold cross-validation. Saves to `ml/results/`: a metrics table (accuracy, precision, recall, F1) as CSV and Markdown, a confusion matrix chart per model, a bar chart comparing the two, and Random Forest feature importances. All titled "simulated data".
+- [x] `POST /recommend`:
   1. Below the cold-start threshold on a course, write that course's introductory resources in order with source `cold_start`.
   2. Otherwise, build features per topic, average both models' probabilities, and rank the topics.
   3. For the top 3 topics, pick resources not already accepted or dismissed, and write them with rank, score, source `ml` and model_version. If a topic has no unused resource left, recommend its topic quiz instead.
   4. Each run first deletes that student's recommendations that are still pending, so the list never fills with duplicates.
-- [ ] pytest for feature building, the cold-start branch and ranking
+- [x] pytest for feature building, the cold-start branch and ranking
 
 Run `train.py` before testing the route, so model files exist.
 
@@ -236,10 +238,11 @@ cd ml && python -m training.train
 # data (from the repo root)
 python content/validate.py
 python content/load.py
-python scripts/seed_demo.py
+python scripts/seed_demo.py           # resets and recreates simulated students + demo accounts
 python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course
 pytest scripts                   # quiz function tests against the linked project
 python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; --mobile, --shots DIR, --keep
+python scripts/phase4_check.py   # Phase 4 check; needs seed_demo, training.train and the ML service running
 
 # database (project already linked)
 supabase migration new <name>    # creates supabase/migrations/<timestamp>_<name>.sql
