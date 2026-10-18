@@ -34,6 +34,36 @@ def upsert_quiz(db, course_id: str, topic_id: str | None, kind: str, title: str,
         db.table("quizzes").insert(row).execute()
 
 
+def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
+    """Makes the topic's resources match the course file, matching rows by title.
+
+    Matching by title (not url) means a changed link updates the existing row,
+    so recommendations that point at it keep working. Rows no longer in the
+    file are deleted, together with pending recommendations that point at
+    them (the next /recommend call recomputes those). A row that an accepted
+    or dismissed recommendation still points at is kept but taken out of the
+    introductory sequence.
+    """
+    existing = {r["title"]: r["id"] for r in db.table("resources").select("id, title").eq("topic_id", topic_id).execute().data}
+    for r in resources:
+        row = {
+            "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r["url"],
+            "is_introductory": bool(r.get("is_introductory")),
+            "intro_order": r.get("intro_order") if r.get("is_introductory") else None,
+        }
+        if r["title"] in existing:
+            db.table("resources").update(row).eq("id", existing.pop(r["title"])).execute()
+        else:
+            db.table("resources").insert(row).execute()
+    for stale_id in existing.values():
+        db.table("recommendations").delete().eq("resource_id", stale_id).eq("status", "pending").execute()
+        referenced = db.table("recommendations").select("id").eq("resource_id", stale_id).limit(1).execute().data
+        if referenced:
+            db.table("resources").update({"is_introductory": False, "intro_order": None}).eq("id", stale_id).execute()
+        else:
+            db.table("resources").delete().eq("id", stale_id).execute()
+
+
 def main() -> int:
     load_dotenv(CONTENT / ".env")
     db = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_ROLE_KEY"])
@@ -61,15 +91,7 @@ def main() -> int:
                 on_conflict="course_id,slug",
             ).execute().data[0]["id"]
 
-            for r in topic.get("resources", []):
-                db.table("resources").upsert(
-                    {
-                        "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r["url"],
-                        "is_introductory": bool(r.get("is_introductory")),
-                        "intro_order": r.get("intro_order") if r.get("is_introductory") else None,
-                    },
-                    on_conflict="topic_id,url",
-                ).execute()
+            sync_resources(db, topic_id, topic.get("resources", []))
 
             upsert_quiz(db, course_id, topic_id, "topic", f"{topic['title']} quiz", TOPIC_QUIZ_QUESTIONS)
 
