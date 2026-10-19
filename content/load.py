@@ -1,5 +1,10 @@
 """Loads courses, topics, resources, quizzes and questions into Supabase.
 
+Resources per topic: the study note (content/notes/, shown in the app), a
+past-questions set built from content/past_questions/ (if the topic has any),
+and the links in content/resources/ (from content/sources/links.csv). The
+cold-start sequence per course is: topic 1's note, topic 1's lecture, topic 2's note.
+
     python content/validate.py && python content/load.py
 
 Uses the service role key from content/.env. Safe to run again: rows are
@@ -34,6 +39,52 @@ def upsert_quiz(db, course_id: str, topic_id: str | None, kind: str, title: str,
         db.table("quizzes").insert(row).execute()
 
 
+def note_resource(course_file: str, topic: dict) -> dict:
+    text = (CONTENT / "notes" / course_file / f"{topic['slug']}.md").read_text().strip()
+    source = text.splitlines()[-1].removeprefix("Source:").strip()
+    return {"title": f"Study note: {topic['title']}", "type": "note", "body": text, "source": source}
+
+
+def past_questions_resource(course_file: str, topic: dict) -> dict | None:
+    path = CONTENT / "past_questions" / f"{course_file}.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text())
+    questions = [q for q in data["questions"] if q["topic"] == topic["slug"]]
+    if not questions:
+        return None
+    papers = {p["year"]: p for p in data["papers"]}
+    parts = [f"# Past questions: {topic['title']}", "",
+             "Copied as written from past papers. Figures are in the original papers."]
+    for year in [y for y in papers if any(q["year"] == y for q in questions)]:
+        parts += ["", f"## {year} · {papers[year]['paper']}", ""]
+        for q in (q for q in questions if q["year"] == year):
+            marks = f" ({q['marks']} marks)" if q.get("marks") else ""
+            parts += [f"**Question {q['number']}**{marks}", "", q["text"], ""]
+    sources = sorted({papers[q["year"]]["source"] for q in questions})
+    return {"title": f"Past questions: {topic['title']}", "type": "past_questions",
+            "body": "\n".join(parts).strip() + "\n", "source": "; ".join(sources)}
+
+
+def topic_resources(course_file: str, topic: dict, order: int, links: list[dict]) -> list[dict]:
+    """Note first, then past questions, then links; flags the cold-start sequence."""
+    note = note_resource(course_file, topic)
+    resources = [note]
+    past = past_questions_resource(course_file, topic)
+    if past:
+        resources.append(past)
+    resources += [dict(link) for link in links]
+    lecture = next((r for r in resources if r["type"] == "lecture"), None)
+    # Cold start: topic 1's note (1) and lecture (2), then topic 2's note (3).
+    if order == 1:
+        note |= {"is_introductory": True, "intro_order": 1}
+        if lecture:
+            lecture |= {"is_introductory": True, "intro_order": 2}
+    elif order == 2:
+        note |= {"is_introductory": True, "intro_order": 3}
+    return resources
+
+
 def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     """Makes the topic's resources match the course file, matching rows by title.
 
@@ -46,15 +97,16 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     """
     current = db.table("resources").select("id, title, url").eq("topic_id", topic_id).execute().data
     existing = {r["title"]: r["id"] for r in current}
-    by_url = {r["url"]: r["id"] for r in current}
+    by_url = {r["url"]: r["id"] for r in current if r["url"]}
     for r in resources:
         row = {
-            "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r["url"],
+            "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r.get("url"),
+            "body": r.get("body"), "source": r.get("source"),
             "is_introductory": bool(r.get("is_introductory")),
             "intro_order": r.get("intro_order") if r.get("is_introductory") else None,
         }
         # Same title, or failing that the same link (a renamed resource), updates in place.
-        match = existing.get(r["title"]) or by_url.get(r["url"])
+        match = existing.get(r["title"]) or (by_url.get(r["url"]) if r.get("url") else None)
         if match:
             db.table("resources").update(row).eq("id", match).execute()
             existing = {t: i for t, i in existing.items() if i != match}
@@ -87,17 +139,19 @@ def main() -> int:
         ).execute().data[0]["id"]
 
         topics = course["topics"]
+        links_by_topic = json.loads((CONTENT / "resources" / f"{path.stem}.json").read_text())["topics"]
         question_total = 0
         for order, topic in enumerate(topics, start=1):
             topic_id = db.table("topics").upsert(
                 {
                     "course_id": course_id, "slug": topic["slug"], "title": topic["title"],
                     "subtopics": topic.get("subtopics", []), "sequence_order": order,
+                    "summary": topic.get("summary"),
                 },
                 on_conflict="course_id,slug",
             ).execute().data[0]["id"]
 
-            sync_resources(db, topic_id, topic.get("resources", []))
+            sync_resources(db, topic_id, topic_resources(path.stem, topic, order, links_by_topic.get(topic["slug"], [])))
 
             upsert_quiz(db, course_id, topic_id, "topic", f"{topic['title']} quiz", TOPIC_QUIZ_QUESTIONS)
 

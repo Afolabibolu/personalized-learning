@@ -1,0 +1,142 @@
+import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { useQuery } from '@tanstack/react-query'
+import { getKnowledgeBase, getKnowledgeStats, type KnowledgeTopic } from '../api/knowledge'
+import { ResourceList } from '../components/ResourceList'
+import { ButtonLink, Card, ErrorMessage, PageHeader, Spinner, inputClass } from '../components/ui'
+
+function matches(text: string | null | undefined, query: string): boolean {
+  return Boolean(text && text.toLowerCase().includes(query))
+}
+
+/** Topics that match the search; a topic matched only by its resources shows just those resources. */
+function filterTopic(topic: KnowledgeTopic, query: string): KnowledgeTopic | null {
+  if (!query) return topic
+  const topicMatch =
+    matches(topic.title, query) || matches(topic.summary, query) || topic.subtopics.some((s) => matches(s, query))
+  if (topicMatch) return topic
+  const resources = topic.resources.filter((r) => matches(r.title, query))
+  return resources.length ? { ...topic, resources } : null
+}
+
+export function KnowledgeBasePage() {
+  const courses = useQuery({ queryKey: ['knowledgeBase'], queryFn: getKnowledgeBase })
+  const stats = useQuery({ queryKey: ['knowledgeStats'], queryFn: getKnowledgeStats })
+  const [search, setSearch] = useState('')
+  const query = search.trim().toLowerCase()
+
+  const filtered = useMemo(
+    () =>
+      (courses.data ?? [])
+        .map((c) => ({ ...c, topics: c.topics.map((t) => filterTopic(t, query)).filter((t): t is KnowledgeTopic => t !== null) }))
+        .filter((c) => c.topics.length > 0),
+    [courses.data, query],
+  )
+
+  return (
+    <>
+      <PageHeader eyebrow="Knowledge Base" title="Everything to study, by topic">
+        Study notes, lecture slides and past questions for each topic, in teaching order.
+      </PageHeader>
+
+      {stats.data && (
+        <p className="mb-4 flex flex-wrap gap-x-4 gap-y-1 text-sm text-slate-600" data-testid="kb-stats">
+          <Stat value={stats.data.courses} label="courses" />
+          <Stat value={stats.data.topics} label="topics" />
+          <Stat value={stats.data.resources} label="resources" />
+          <Stat value={stats.data.practice_questions} label="practice questions" />
+        </p>
+      )}
+
+      <div className="relative mb-6">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" className="pointer-events-none absolute top-1/2 left-3.5 h-4 w-4 -translate-y-1/2 text-slate-400" aria-hidden>
+          <circle cx="9" cy="9" r="5.5" />
+          <path d="M13.5 13.5 17 17" strokeLinecap="round" />
+        </svg>
+        <input
+          type="search"
+          aria-label="Search topics and resources"
+          placeholder="Search topics and resources, e.g. fuzzy, heuristics, personas"
+          className={`${inputClass} pl-10`}
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </div>
+
+      {courses.isPending && <Spinner />}
+      {courses.isError && <ErrorMessage error={courses.error} />}
+
+      {courses.data && filtered.length === 0 && (
+        <Card className="text-center">
+          <p className="text-sm text-slate-600">No topics or resources match “{search.trim()}”.</p>
+          <button onClick={() => setSearch('')} className="mt-2 text-sm font-semibold text-brand-600 hover:text-brand-700">
+            Clear the search
+          </button>
+        </Card>
+      )}
+
+      <div className="grid gap-8">
+        {filtered.map((course) => (
+          <section key={course.id} aria-labelledby={`course-${course.id}`}>
+            <div className="mb-3 flex flex-wrap items-center gap-2">
+              <h2 id={`course-${course.id}`} className="text-lg font-semibold">
+                <span className="text-brand-600">{course.code}</span> · {course.title}
+              </h2>
+              {!course.is_reviewed && (
+                <span className="rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-semibold text-amber-700 ring-1 ring-amber-200">
+                  Auto-generated, under review
+                </span>
+              )}
+            </div>
+            <ol className="grid gap-3">
+              {course.topics.map((topic) => (
+                <li key={topic.id}>
+                  <Card className="p-4 sm:p-5" >
+                    <div className="flex items-start gap-3">
+                      <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-slate-100 text-xs font-semibold text-slate-600">
+                        {topic.sequence_order}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <Link to={`/topics/${topic.id}`} className="font-semibold hover:text-brand-700" data-testid="kb-topic">
+                          {topic.title}
+                        </Link>
+                        {topic.summary && <p className="mt-1 text-sm text-slate-600">{topic.summary}</p>}
+                        {topic.subtopics.length > 0 && (
+                          <ul className="mt-2 flex flex-wrap gap-1.5">
+                            {topic.subtopics.map((s) => (
+                              <li key={s} className="rounded-lg bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
+                                {s}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                        <div className="mt-4">
+                          <ResourceList resources={topic.resources} compact />
+                        </div>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {topic.topic_quiz_id && (
+                            <ButtonLink to={`/quiz/${topic.topic_quiz_id}`} variant="secondary" className="px-3 py-1.5">
+                              Practice: topic quiz
+                            </ButtonLink>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+    </>
+  )
+}
+
+function Stat({ value, label }: { value: number; label: string }) {
+  return (
+    <span>
+      <span className="font-semibold text-slate-900">{value}</span> {label}
+    </span>
+  )
+}

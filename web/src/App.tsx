@@ -6,9 +6,11 @@ import { LoginPage, SignupPage } from './pages/AuthPages'
 import { CoursePage } from './pages/CoursePage'
 import { CoursesPage } from './pages/CoursesPage'
 import { DashboardPage } from './pages/DashboardPage'
+import { KnowledgeBasePage } from './pages/KnowledgeBasePage'
 import { LogStudyPage } from './pages/LogStudyPage'
 import { OnboardingPage } from './pages/OnboardingPage'
 import { QuizPage } from './pages/QuizPage'
+import { ResourcePage } from './pages/ResourcePage'
 import { ResultsPage } from './pages/ResultsPage'
 import { TopicPage } from './pages/TopicPage'
 
@@ -35,6 +37,8 @@ export default function App() {
             <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/courses/:courseId" element={<CoursePage />} />
             <Route path="/topics/:topicId" element={<TopicPage />} />
+            <Route path="/knowledge" element={<KnowledgeBasePage />} />
+            <Route path="/resources/:resourceId" element={<ResourcePage />} />
             <Route path="/quiz/:quizId" element={<QuizPage />} />
             <Route path="/attempts/:attemptId" element={<ResultsPage />} />
             <Route path="/log" element={<LogStudyPage />} />

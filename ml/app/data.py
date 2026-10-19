@@ -55,7 +55,7 @@ def load_models() -> Models | None:
 
 def load_courses(db: Client) -> list[CourseData]:
     topics = db.table("topics").select("id, course_id, sequence_order").order("sequence_order").execute().data
-    resources = db.table("resources").select("id, topic_id, title, is_introductory, intro_order").execute().data
+    resources = db.table("resources").select("id, topic_id, title, is_introductory, intro_order, type").execute().data
     quizzes = db.table("quizzes").select("id, topic_id").eq("kind", "topic").execute().data
     course_of_topic = {t["id"]: t["course_id"] for t in topics}
 

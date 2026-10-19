@@ -4,6 +4,7 @@ import { refreshRecommendations } from '../../api/ml'
 import { setRecommendationStatus, type Recommendation } from '../../api/recommendations'
 import { daysBetween } from '../../lib/consistency'
 import { ATTENTION_PROBABILITY, keepItUpSuggestion } from '../../lib/suggestions'
+import { RESOURCE_LABEL } from '../ResourceList'
 import { Button, Card, ErrorMessage } from '../ui'
 
 type Kind = 'attention' | 'getting-started' | 'keep-it-up'
@@ -114,11 +115,10 @@ function RecommendationRow({ rec, suggestion }: { rec: Recommendation; suggestio
       ),
   })
 
-  const resourceAvailable = rec.resource && /^https?:\/\//.test(rec.resource.url)
   const accepted = rec.status === 'accepted'
 
   return (
-    <li className="relative px-5 py-4" data-testid="recommendation" data-kind={kind}>
+    <li className="relative px-5 py-4" data-testid="recommendation" data-kind={kind} data-id={rec.id}>
       <span className={`absolute top-4 bottom-4 left-0 w-1 rounded-r ${style.accent}`} />
       <div className="flex flex-wrap items-center gap-2">
         <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ${style.badge}`}>{style.label}</span>
@@ -131,7 +131,7 @@ function RecommendationRow({ rec, suggestion }: { rec: Recommendation; suggestio
         {rec.topic.title}
       </Link>
       <p className="mt-0.5 text-sm text-slate-600">
-        {rec.resource ? rec.resource.title : rec.quiz ? `Take the ${rec.quiz.title}` : null}
+        {rec.resource ? `${RESOURCE_LABEL[rec.resource.type]}: ${rec.resource.title}` : rec.quiz ? `Take the ${rec.quiz.title}` : null}
       </p>
       {suggestion && <p className="mt-2 rounded-lg bg-emerald-50/60 px-3 py-2 text-sm text-emerald-900">{suggestion}</p>}
 
@@ -139,17 +139,21 @@ function RecommendationRow({ rec, suggestion }: { rec: Recommendation; suggestio
         {accepted ? (
           <>
             <span className="text-sm font-medium text-emerald-700">✓ Accepted</span>
-            {rec.resource && resourceAvailable && (
+            {rec.resource?.url && (
               <a href={rec.resource.url} target="_blank" rel="noreferrer" className="text-sm font-semibold text-brand-600 hover:text-brand-700">
                 Open resource →
               </a>
+            )}
+            {rec.resource && !rec.resource.url && (
+              <Link to={`/resources/${rec.resource.id}`} className="text-sm font-semibold text-brand-600 hover:text-brand-700">
+                Open resource →
+              </Link>
             )}
             {rec.quiz && (
               <Link to={`/quiz/${rec.quiz.id}`} className="text-sm font-semibold text-brand-600 hover:text-brand-700">
                 Start quiz →
               </Link>
             )}
-            {rec.resource && !resourceAvailable && <span className="text-xs text-slate-500">Link coming soon</span>}
           </>
         ) : (
           <>

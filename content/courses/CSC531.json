@@ -6,6 +6,7 @@
     {
       "slug": "hci-and-usability",
       "title": "HCI, Interactive Systems and Usability",
+      "summary": "HCI studies how people interact with computers through three entities: the user, the computer and the interaction. Its goal is usable, safe systems that are effective, efficient, learnable, memorable and enjoyable, designed with people first.",
       "subtopics": [
         "Interactive systems: past, present and future",
         "Good and poor design",
@@ -16,20 +17,12 @@
       ],
       "lectures": [
         1
-      ],
-      "resources": [
-        {
-          "title": "HCI Lecture 1 (2024)",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWobuMRz/view",
-          "is_introductory": true,
-          "intro_order": 1
-        }
       ]
     },
     {
       "slug": "user-centred-design",
       "title": "Understanding the Problem Space and User-Centred Design",
+      "summary": "Understand the problem space before designing any interface, because starting with the interface overlooks usability and the user experience. User-centred design puts users' tasks and goals first, using user profiles, personas and scenarios.",
       "subtopics": [
         "Understanding the problem space before designing the interface",
         "Dot voting and the Havanna community case study",
@@ -41,20 +34,12 @@
       "lectures": [
         2,
         3
-      ],
-      "resources": [
-        {
-          "title": "Lectures 2–3, in HCI complete lecture slides",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
-          "is_introductory": true,
-          "intro_order": 2
-        }
       ]
     },
     {
       "slug": "conceptual-models-and-ideation",
       "title": "Conceptual Models, Interaction Types and Ideation",
+      "summary": "A conceptual model is an agreed, high-level description of how a system works, built from metaphors and the five interaction types. Ideation techniques such as brainstorming and brainwriting generate the ideas, and dot voting selects them.",
       "subtopics": [
         "Components of a conceptual model",
         "Interface metaphors",
@@ -66,20 +51,12 @@
       "lectures": [
         4,
         5
-      ],
-      "resources": [
-        {
-          "title": "Lectures 4–5, in HCI complete lecture slides",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
-          "is_introductory": true,
-          "intro_order": 3
-        }
       ]
     },
     {
       "slug": "data-gathering-and-analysis",
       "title": "Data Gathering and Data Analysis",
+      "summary": "Data gathering uses interviews, focus groups, questionnaires and observation, with sampling, consent, triangulation and pilot studies. Analysis turns the data into findings with simple statistics, graphs, thematic analysis and inferential tests.",
       "subtopics": [
         "Identifying participants: probability and non-probability sampling",
         "Pilot studies and informed consent",
@@ -92,18 +69,12 @@
       "lectures": [
         4,
         5
-      ],
-      "resources": [
-        {
-          "title": "Lectures 4–5, in HCI complete lecture slides",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view"
-        }
       ]
     },
     {
       "slug": "cognitive-psychology",
       "title": "Cognitive Psychology and Perception",
+      "summary": "Cognitive psychology explains how people process information, perceive, attend and remember, so designs can match human abilities. It covers the constructivist and ecological theories of perception, the Gestalt principles and the main cognitive processes.",
       "subtopics": [
         "Cognition, perception and why cognitive psychology matters in HCI",
         "The human senses",
@@ -113,18 +84,12 @@
       ],
       "lectures": [
         6
-      ],
-      "resources": [
-        {
-          "title": "HCI Lecture 6",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/1B8pyE_QDUz3Fsd7hXwgZIaQyV5DZbLho/view"
-        }
       ]
     },
     {
       "slug": "prototyping-and-evaluation",
       "title": "Prototyping, Design Principles and Evaluation",
+      "summary": "Prototypes range from cheap paper sketches to high-fidelity interactive systems, and evaluation tests them with or without users. It covers formative and summative evaluation, Nielsen's heuristics, Shneiderman's golden rules and usability testing.",
       "subtopics": [
         "Low-fidelity and high-fidelity prototypes: advantages and disadvantages",
         "Why, what, where and when to evaluate",
@@ -136,13 +101,6 @@
       ],
       "lectures": [
         7
-      ],
-      "resources": [
-        {
-          "title": "HCI Lecture 7 (2024)",
-          "type": "pdf",
-          "url": "https://drive.google.com/file/d/18vGa3L9h8OYcJJ4K3E8PWAyjV9PmL5GU/view"
-        }
       ]
     }
   ]
