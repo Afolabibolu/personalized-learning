@@ -67,7 +67,7 @@ OTHER = [
     ("ml/results/feature_weights_simulated_data.png", "LR coefficients and RF importances (simulated data)", "FR4"),
     ("ml/results/metrics_simulated_data.md", "Three-row metrics table (simulated data)", "FR4"),
     ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
-    ("terminal: python scripts/rls_check.py", "Output ending '33/33 checks passed'", "NFR3"),
+    ("terminal: python scripts/rls_check.py", "Output ending '40/40 checks passed'", "NFR3"),
     ("docs/results/performance.md", "Response-time table (20 runs each)", "NFR2"),
     ("docs/results/security.md", "Row-level security check, 40 checks", "NFR3"),
     ("ml/results/summary.md", "Results in plain words, for Chapter Four (simulated data)", "FR4"),
