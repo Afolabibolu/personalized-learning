@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { activityDays, activityStrip, currentStreak, dayKey } from './consistency'
 import { buildReminders, type ReminderInput } from './reminders'
-import { keepItUpSuggestion } from './suggestions'
 
 const today = new Date(2026, 9, 18, 15, 0) // 18 Oct 2026, local time
 
@@ -88,19 +87,5 @@ describe('reminders', () => {
     })
     expect(reminders.map((r) => r.id)).toEqual(['no-study', 'diagnostic-CSC 531'])
     expect(reminders[1].action?.to).toBe('/quiz/q1')
-  })
-})
-
-describe('keep it up suggestions', () => {
-  it('suggests a review when the topic has gone stale', () => {
-    expect(keepItUpSuggestion({ latestScore: 90, daysSinceStudied: 9, hasTopicQuiz: true })).toContain('9 days ago')
-  })
-
-  it('suggests the topic quiz for a strong, recently studied topic', () => {
-    expect(keepItUpSuggestion({ latestScore: 85, daysSinceStudied: 2, hasTopicQuiz: true })).toContain('topic quiz')
-  })
-
-  it('suggests reading when the topic was never studied', () => {
-    expect(keepItUpSuggestion({ latestScore: 70, daysSinceStudied: null, hasTopicQuiz: true })).toContain('Not studied yet')
   })
 })

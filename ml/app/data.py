@@ -1,5 +1,6 @@
 """Supabase access for the ML service and training, with the service role key."""
 
+import logging
 import os
 from functools import lru_cache
 from pathlib import Path
@@ -45,7 +46,11 @@ def load_models() -> Models | None:
     cached = _models_cache.get("models")
     if cached and cached[0] == stamp:
         return cached[1]
-    lr, rf = joblib.load(LR_MODEL_PATH), joblib.load(RF_MODEL_PATH)
+    try:
+        lr, rf = joblib.load(LR_MODEL_PATH), joblib.load(RF_MODEL_PATH)
+    except Exception:  # a corrupt or incompatible file means cold start, not a 500 (NFR4)
+        logging.getLogger(__name__).warning("Could not load model files; using cold start", exc_info=True)
+        return None
     models = Models(lr=lr["model"], rf=rf["model"], version=lr.get("version", MODEL_VERSION))
     _models_cache["models"] = (stamp, models)
     return models
@@ -109,6 +114,7 @@ def replace_pending(db: Client, student_id: str, recs: list[Recommendation]) -> 
                 "priority_score": r.priority_score,
                 "source": r.source,
                 "model_version": r.model_version,
+                "explanation": r.explanation or None,
             }
             for r in recs
         ]).execute()

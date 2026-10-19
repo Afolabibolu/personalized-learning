@@ -4,6 +4,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { listTopicsByCourse } from '../api/courses'
 import { triggerRecommendations } from '../api/ml'
 import { listStudyLogs, logStudySession } from '../api/studyLogs'
+import { formatDate } from '../lib/format'
 import type { ActivityType } from '../api/types'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
 
@@ -30,7 +31,7 @@ export function LogStudyPage() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['studyLogs'] })
       queryClient.invalidateQueries({ queryKey: ['dashboard'] })
-      triggerRecommendations()
+      triggerRecommendations(() => queryClient.invalidateQueries({ queryKey: ['recommendations'] }))
     },
   })
 
@@ -118,7 +119,7 @@ export function LogStudyPage() {
               <li key={log.id} className="flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 text-sm ring-1 ring-slate-200">
                 <span className="min-w-0 truncate font-medium">{log.topic_title}</span>
                 <span className="shrink-0 text-slate-500">
-                  {log.duration_minutes} min · {log.activity_type} · {new Date(log.logged_at).toLocaleDateString()}
+                  {log.duration_minutes} min · {log.activity_type} · {formatDate(log.logged_at)}
                 </span>
               </li>
             ))}

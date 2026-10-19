@@ -136,7 +136,104 @@ def fr5(browser, shot: Shots) -> None:
     page.close()
 
 
-SECTIONS = {"fr5": fr5}
+def refresh(page: Page) -> None:
+    with page.expect_response(lambda r: "/recommend" in r.url and r.request.method == "POST", timeout=30_000):
+        page.get_by_role("button", name="Refresh").click()
+    page.wait_for_load_state("networkidle")
+    expect(page.get_by_role("button", name="Refresh")).to_be_enabled()
+    expect(page.get_by_test_id("recommendation").first).to_be_visible()
+
+
+def fr4(browser, shot: Shots) -> None:
+    print("-- FR4 Why each recommendation")
+    db = testkit.admin()
+    new_id = next(u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == NEW)
+    db.table("recommendations").delete().eq("student_id", new_id).execute()
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    refresh(page)
+    rows = page.get_by_test_id("recommendation")
+    reasons = page.get_by_test_id("recommendation-reason")
+    check("a reason line on every recommendation", reasons.count() == rows.count() == 3,
+          reasons.first.inner_text())
+    check("reason built from the features", reasons.first.inner_text().startswith("Last score"))
+    rows.first.get_by_role("button", name="Why this?").click()
+    panel = page.get_by_test_id("why-panel")
+    text = panel.inner_text()
+    check("'Why this?' shows both model probabilities, their average and the factors",
+          all(k.lower() in text.lower() for k in ["Logistic Regression", "Random Forest", "Average (used to rank)", "What drove it", "raises risk"]),
+          " | ".join(l for l in text.splitlines() if "%" in l)[:120])
+    panel.scroll_into_view_if_needed()
+    shot(page, "fr4-01-why-this.png")
+    check("'Keep it up' item says why", "Keep it up" in rows.nth(2).inner_text() and reasons.nth(2).inner_text() != "")
+    page.close()
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, NEW)
+    refresh(page)
+    first = page.get_by_test_id("recommendation").first
+    check("cold-start items look different, with the personalise line",
+          "Getting started" in first.inner_text() and "Take a few quizzes so we can personalise this for you." in first.inner_text()
+          and "Not enough quiz history yet" in first.inner_text())
+    shot(page, "fr4-02-getting-started.png")
+
+    count = page.get_by_test_id("recommendation").count()
+    note_card = page.get_by_test_id("recommendation").filter(has_text="Study note").first
+    note_card.get_by_role("button", name="Accept and open").click()
+    page.wait_for_url(f"{APP}/resources/**")
+    expect(page.locator("article .prose h1")).to_be_visible()
+    check("Accept opens a study note inside the app", True, page.locator("article .prose h1").inner_text())
+    page.go_back()
+    expect(page.get_by_test_id("recommendation")).to_have_count(count - 1)
+
+    lecture_card = page.get_by_test_id("recommendation").filter(has_text="Lecture slides").first
+    with page.context.expect_page() as popup:
+        lecture_card.get_by_role("button", name="Accept and open").click()
+    new_tab = popup.value
+    check("Accept opens lecture slides in a new tab", "drive.google.com" in new_tab.url, new_tab.url[:60])
+    new_tab.close()
+    expect(page.get_by_test_id("recommendation")).to_have_count(count - 2)
+    page.get_by_test_id("recommendation").first.get_by_role("button", name="Dismiss").click()
+    expect(page.get_by_test_id("recommendation")).to_have_count(count - 3)
+    page.get_by_role("button", name="History").click()
+    history = page.get_by_test_id("recommendation-history")
+    check("accepted and dismissed items leave the list and appear under History",
+          history.get_by_text("Accepted").count() == 2 and history.get_by_text("Dismissed").count() == 1)
+    history.scroll_into_view_if_needed()
+    shot(page, "fr4-03-history.png")
+
+    # NFR4: the ML service is unreachable; the dashboard keeps the saved list.
+    page.route("**/recommend", lambda route: route.abort())
+    page.get_by_role("button", name="Refresh").click()
+    notice = page.get_by_test_id("ml-offline-notice")
+    expect(notice).to_be_visible()
+    check("ML service down: quiet notice, saved recommendations still shown",
+          notice.is_visible() and page.get_by_test_id("recommendation").count() == count - 3
+          and not page.get_by_role("alert").count(), notice.inner_text())
+    shot(page, "fr4-04-service-down.png")
+    page.close()
+
+    # Put the New Student back: fresh introductory list, nothing accepted.
+    db.table("recommendations").delete().eq("student_id", new_id).execute()
+    page = browser.new_page(viewport=LAPTOP)
+    sign_in(page, NEW)
+    refresh(page)
+    page.close()
+
+    page = browser.new_page(viewport=PHONE)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    page.get_by_test_id("recommendation").first.get_by_role("button", name="Why this?").click()
+    overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
+    check("phone width: reason and 'Why this?' fit without sideways scroll", not overflow)
+    shot(page, "fr4-05-phone-why-this.png", full_page=True)
+    page.close()
+
+
+SECTIONS = {"fr5": fr5, "fr4": fr4}
 
 
 def main() -> int:

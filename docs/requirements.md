@@ -53,14 +53,16 @@ Evidence: screenshots of the logger and the recent sessions list.
 Built: ranked recommendations with "Needs attention" and a probability, refresh button, Accept and Dismiss.
 
 Gaps:
-- [ ] A reason line on every item, built from the features: "Last score 40%. Not studied for 9 days. 20 minutes studied in total."
-  _Partly done: only "Keep it up" items carry a suggestion, computed in the browser (`web/src/lib/suggestions.ts`); `ml/CLAUDE.md` wants an `explanation` written by the service._
-- [ ] A "Why this?" toggle that shows the Logistic Regression probability, the Random Forest probability, their average, and the top factors behind it.
-- [ ] Cold-start items look different: a "Getting started" label and the line "Take a few quizzes so we can personalise this for you."
-  _Partly done: the "Getting started" label and indigo styling exist (`web/src/components/dashboard/RecommendationsCard.tsx`); the explanatory line does not._
-- [ ] Accepting opens the resource. Accepted and dismissed items leave the list and appear under "History".
-- [ ] If the ML service is down, the dashboard keeps showing the last saved recommendations with a quiet notice, never an error screen (NFR4).
-  _Partly done: saved recommendations are read from Supabase, so the list survives; background refreshes fail silently; but pressing Refresh shows a red error box, not a quiet notice. Not yet tested with the service stopped._
+- [x] A reason line on every item, built from the features: "Last score 40%. Not studied for 9 days. 20 minutes studied in total."
+  _Done: written by the ML service into `recommendations.explanation` (`ml/app/explain.py`), shown by `web/src/components/dashboard/RecommendationsCard.tsx`; tests in `ml/tests/test_explain.py`._
+- [x] A "Why this?" toggle that shows the Logistic Regression probability, the Random Forest probability, their average, and the top factors behind it.
+  _Done: LR and RF probabilities, their average, and the LR factors that pushed toward the verdict (coefficient × scaled value); screenshot `docs/screenshots/phase7/fr4-01-why-this.png`._
+- [x] Cold-start items look different: a "Getting started" label and the line "Take a few quizzes so we can personalise this for you."
+  _Done: "Getting started" label, reason "Not enough quiz history yet for this course." and "Take a few quizzes so we can personalise this for you."; screenshot `fr4-02-getting-started.png`._
+- [x] Accepting opens the resource. Accepted and dismissed items leave the list and appear under "History".
+  _Done: "Accept and open" opens study notes in the app and lecture slides in a new tab; accepted and dismissed items move to a History section; screenshot `fr4-03-history.png`._
+- [x] If the ML service is down, the dashboard keeps showing the last saved recommendations with a quiet notice, never an error screen (NFR4).
+  _Done: a failed refresh shows "Recommendations will update shortly. Showing your last saved list." and keeps the list; the service falls back to cold start if a model is missing, corrupt or fails (`ml/app/data.py`, `ml/app/recommender.py`); screenshot `fr4-04-service-down.png`._
 
 Evidence: dashboard screenshots for both demo accounts, the "Why this?" panel open, and the results table from `ml/results/`.
 

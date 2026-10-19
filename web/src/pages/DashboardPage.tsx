@@ -21,12 +21,6 @@ export function DashboardPage() {
     if (!dashboard.data) return null
     const { studyLogs, topicScores, courses } = dashboard.data
     const now = new Date()
-    const lastStudied = new Map<string, Date>()
-    for (const log of studyLogs) {
-      const at = new Date(log.logged_at)
-      const prev = lastStudied.get(log.topic_id)
-      if (!prev || at > prev) lastStudied.set(log.topic_id, at)
-    }
     const minutesThisWeek = studyLogs
       .filter((l) => now.getTime() - new Date(l.logged_at).getTime() < WEEK_MS)
       .reduce((sum, l) => sum + l.duration_minutes, 0)
@@ -39,7 +33,7 @@ export function DashboardPage() {
         .filter((c) => !c.diagnostic_taken && c.diagnostic_quiz_id)
         .map((c) => ({ code: c.code, diagnostic_quiz_id: c.diagnostic_quiz_id as string })),
     })
-    return { lastStudied, minutesThisWeek, reminders }
+    return { minutesThisWeek, reminders }
   }, [dashboard.data])
 
   const firstName = profile.data?.full_name?.split(' ')[0]
@@ -56,11 +50,7 @@ export function DashboardPage() {
 
       {derived && <RemindersCard reminders={derived.reminders} />}
 
-      <RecommendationsCard
-        recommendations={recommendations.data}
-        topicScores={dashboard.data.topicScores}
-        lastStudied={derived?.lastStudied ?? new Map()}
-      />
+      <RecommendationsCard recommendations={recommendations.data} />
 
       <div className="grid gap-5 lg:grid-cols-5">
         <div className="lg:col-span-2">

@@ -4,12 +4,14 @@ Pure functions only: the data comes in as plain values, so the cold-start
 branch and the ranking can be tested without a database.
 """
 
-from dataclasses import dataclass
+import logging
+from dataclasses import dataclass, field
 from typing import Protocol
 
 import pandas as pd
 
-from app.config import COLD_START_THRESHOLD, MODEL_VERSION, TOP_TOPICS
+from app.config import ATTENTION_PROBABILITY, COLD_START_THRESHOLD, MODEL_VERSION, TOP_TOPICS
+from app.explain import cold_start_explanation, ml_explanation
 from training.features import FEATURES
 
 
@@ -60,6 +62,7 @@ class Recommendation:
     quiz_id: str | None = None
     priority_score: float | None = None
     model_version: str | None = None
+    explanation: dict = field(default_factory=dict)
 
 
 def is_cold_start(completed_attempts: int, models: Models | None) -> bool:
@@ -73,17 +76,23 @@ def cold_start(course: CourseData, used_resource_ids: set[str]) -> list[Recommen
         key=lambda r: (r.intro_order is None, r.intro_order),
     )
     return [
-        Recommendation(topic_id=r.topic_id, rank=i, source="cold_start", resource_id=r.id)
+        Recommendation(topic_id=r.topic_id, rank=i, source="cold_start", resource_id=r.id,
+                       explanation=cold_start_explanation())
         for i, r in enumerate(intro, start=1)
     ]
 
 
-def attention_probabilities(models: Models, features: pd.DataFrame) -> pd.Series:
-    """Average of both models' probability that each topic requires attention."""
+def model_probabilities(models: Models, features: pd.DataFrame) -> pd.DataFrame:
+    """Each model's probability that each topic requires attention, and their average."""
     X = features[FEATURES]
     lr = models.lr.predict_proba(X)[:, 1]
     rf = models.rf.predict_proba(X)[:, 1]
-    return pd.Series((lr + rf) / 2, index=features["topic_id"].values)
+    return pd.DataFrame({"lr": lr, "rf": rf, "average": (lr + rf) / 2}, index=features["topic_id"].values)
+
+
+def attention_probabilities(models: Models, features: pd.DataFrame) -> pd.Series:
+    """Average of both models' probability that each topic requires attention."""
+    return model_probabilities(models, features)["average"]
 
 
 def ml_recommendations(
@@ -100,10 +109,11 @@ def ml_recommendations(
     accepted or dismissed (study note, then past questions, then lecture, then
     video), or the topic quiz when none is left.
     """
-    probabilities = attention_probabilities(models, features)
+    probabilities = model_probabilities(models, features)
+    rows = features.set_index("topic_id")
     order = {topic_id: i for i, topic_id in enumerate(course.topic_ids)}
     # Highest probability first; teaching order breaks ties.
-    ranked = sorted(probabilities.items(), key=lambda item: (-item[1], order.get(item[0], 0)))
+    ranked = sorted(probabilities["average"].items(), key=lambda item: (-item[1], order.get(item[0], 0)))
 
     recs = []
     for rank, (topic_id, probability) in enumerate(ranked if top_n is None else ranked[:top_n], start=1):
@@ -119,6 +129,11 @@ def ml_recommendations(
             quiz_id=None if unused else course.topic_quiz_ids.get(topic_id),
             priority_score=round(float(probability), 4),
             model_version=models.version,
+            explanation=ml_explanation(
+                rows.loc[topic_id], probabilities.loc[topic_id, "lr"], probabilities.loc[topic_id, "rf"], models.lr,
+                needs_attention=probability >= ATTENTION_PROBABILITY,
+                has_topic_quiz=topic_id in course.topic_quiz_ids,
+            ),
         ))
     return recs
 
@@ -134,7 +149,11 @@ def recommend_course(
     Use top_overall() to keep only the best ML topics across courses."""
     if is_cold_start(completed_attempts, models):
         return cold_start(course, used_resource_ids)
-    return ml_recommendations(course, features, models, used_resource_ids, top_n=None)
+    try:
+        return ml_recommendations(course, features, models, used_resource_ids, top_n=None)
+    except Exception:  # never fail a student who exists: fall back to the introductory list (NFR4)
+        logging.getLogger(__name__).warning("ML ranking failed for course %s; using cold start", course.course_id, exc_info=True)
+        return cold_start(course, used_resource_ids)
 
 
 def top_overall(recs: list[Recommendation], n: int = TOP_TOPICS) -> list[Recommendation]:

@@ -96,9 +96,10 @@ def main() -> int:
         check("both weak topics flagged 'Needs attention', and nothing else", set(attention) == WEAK, ", ".join(attention))
         keep = [r for r in rows if r["kind"] == "keep-it-up"]
         check("only the top 3 overall are shown", len(rows) == 3, f"{len(rows)} recommendations")
+        reason = page.get_by_test_id("recommendation").nth(2).get_by_test_id("recommendation-reason")
         check("the third says 'Keep it up' with a suggestion",
-              len(keep) == 1 and "Keep it up" in keep[0]["text"] and len(keep[0]["text"].splitlines()) >= 4,
-              keep[0]["text"].splitlines()[-3] if keep else "none")
+              len(keep) == 1 and "Keep it up" in keep[0]["text"] and reason.count() == 1,
+              reason.inner_text() if reason.count() else "none")
         reminders = page.get_by_test_id("reminder")
         check("at least one reminder", reminders.count() >= 1,
               reminders.first.inner_text().split("\n")[0] if reminders.count() else "none")
@@ -130,15 +131,18 @@ def main() -> int:
         accepted_id, dismissed_id = first.get_attribute("data-id"), second.get_attribute("data-id")
         accepted_topic = first.get_by_test_id("recommendation-topic").inner_text()
         dismissed_topic = second.get_by_test_id("recommendation-topic").inner_text()
-        first.get_by_role("button", name="Accept").click()
-        expect(first.get_by_text("Accepted")).to_be_visible()
+        # Dismiss the second first (Accept navigates to the resource).
         second.get_by_role("button", name="Dismiss").click()
         expect(page.get_by_test_id("recommendation")).to_have_count(5)
+        page.get_by_test_id("recommendation").first.get_by_role("button", name="Accept and open").click()
+        page.wait_for_url(f"{APP}/resources/**")
+        page.go_back()
+        expect(page.get_by_test_id("recommendation")).to_have_count(4)
 
         statuses = {r["id"]: r["status"] for r in db.table("recommendations").select(
             "id, status").eq("student_id", new_id).execute().data}
-        check("Accept sets status to accepted", statuses.get(accepted_id) == "accepted", accepted_topic)
-        check("Dismiss sets status to dismissed and hides it", statuses.get(dismissed_id) == "dismissed", dismissed_topic)
+        check("Accept sets status to accepted and opens the resource", statuses.get(accepted_id) == "accepted", accepted_topic)
+        check("Dismiss sets status to dismissed and moves it to History", statuses.get(dismissed_id) == "dismissed", dismissed_topic)
         page.close()
         browser.close()
 

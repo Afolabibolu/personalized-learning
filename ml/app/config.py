@@ -15,5 +15,9 @@ MODEL_VERSION = "v1"
 LR_MODEL_PATH = MODELS_DIR / f"lr_{MODEL_VERSION}.joblib"
 RF_MODEL_PATH = MODELS_DIR / f"rf_{MODEL_VERSION}.joblib"
 
+# At or above this averaged probability a topic shows as "Needs attention";
+# below it, as "Keep it up".
+ATTENTION_PROBABILITY = 0.5
+
 # How many topics get ML recommendations, across all of a student's courses.
 TOP_TOPICS = 3
