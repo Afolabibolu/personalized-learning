@@ -1,4 +1,0 @@
-model,accuracy,precision,recall,f1
-Logistic Regression,0.767,0.718,0.656,0.685
-Random Forest,0.775,0.729,0.667,0.697
-Combined (average probability),0.779,0.733,0.677,0.704

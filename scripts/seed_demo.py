@@ -1,6 +1,6 @@
 """Creates the simulated students and the two demo accounts.
 
-    python scripts/seed_demo.py [--students 80] [--seed 2026]
+    python scripts/seed_demo.py [--students N] [--seed N]   (defaults from the simulation config)
     python scripts/seed_demo.py --demo-only    # reset just the two demo accounts
 
 Run after content/load.py (simulated answers point to real questions). Uses
@@ -8,7 +8,9 @@ the service role key from scripts/.env. Every user is created through the
 Supabase admin API, so each has a real auth user and profile row.
 
   - About 80 simulated students (is_simulated = true) with six weeks of quiz
-    attempts and study logs from ml/training/synthetic.py. Training data only.
+    attempts and study logs from ml/training/synthetic.py, whose config block
+    holds every rule and parameter. Training data only. Also writes
+    ml/results/simulation_rules.md describing those rules for Chapter Four.
   - "New Student": no activity, to show cold start.
   - "Active Student": a history where one topic per course is clearly weak,
     to show ML recommendations.
@@ -19,6 +21,7 @@ out before a presentation) and leaves the simulated students alone.
 """
 
 import argparse
+import dataclasses
 import os
 import random
 import sys
@@ -32,11 +35,13 @@ from supabase import Client, create_client
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "ml"))
 from training.synthetic import (  # noqa: E402
+    CONFIG,
     SimAttempt,
     SimCourse,
     SimStudent,
     SimStudyLog,
     SimTopic,
+    describe_rules,
     simulate_student,
     topic_difficulties,
 )
@@ -184,8 +189,8 @@ def active_student_history(courses, topics, quizzes, questions, now: datetime, r
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--students", type=int, default=80)
-    parser.add_argument("--seed", type=int, default=2026)
+    parser.add_argument("--students", type=int, default=CONFIG.students)
+    parser.add_argument("--seed", type=int, default=CONFIG.seed)
     parser.add_argument("--demo-only", action="store_true", help="reset only the two demo accounts")
     args = parser.parse_args()
 
@@ -236,6 +241,11 @@ def main() -> int:
     simulated = "no simulated students (--demo-only)" if args.demo_only else f"{args.students} simulated students"
     print(f"\nInserted {len(all_attempts)} quiz attempts, {len(all_answers)} answers and {len(all_logs)} study logs "
           f"for {simulated} and the Active Student.")
+    if not args.demo_only:
+        rules = Path(__file__).resolve().parent.parent / "ml" / "results" / "simulation_rules.md"
+        rules.parent.mkdir(exist_ok=True)
+        rules.write_text(describe_rules(dataclasses.replace(CONFIG, students=args.students, seed=args.seed)))
+        print(f"Wrote {rules.relative_to(rules.parents[2])}")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
     print("\nDemo logins (password for both: " + DEMO_PASSWORD + ")")
     print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start")

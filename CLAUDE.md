@@ -97,7 +97,9 @@ recsys/
 - Cold-start threshold: fewer than 3 completed quiz attempts on a course means the student gets that course's introductory resources in order. Keep it in one config value. If no trained model file exists yet, every student gets the cold-start path instead of an error.
 - Prototype scope: two 500-level courses, CSC 531 (Human-Computer Interaction) and CSC 574 (Intelligent Systems).
 - Recommendation trigger: after a quiz is submitted or a study session is logged, the web app calls `POST /recommend` on the ML service without waiting for it. The dashboard also has a "Refresh recommendations" button. No webhooks or scheduled jobs for the demo.
-- Training data: simulated students created by `scripts/seed_demo.py`, because there is no time for a pilot. The real-data comparison is future work.
+- Training data: simulated students created by `scripts/seed_demo.py`, because there is no time for a pilot. The simulation follows documented learning patterns (see Phase 4), so the results chapter can describe it as a simulation study. The real-data comparison is future work.
+- Baseline: a simple rule, "requires attention if the last score on the topic was below 50%", is evaluated next to both models. It answers "why use machine learning at all?" with numbers, whichever way the numbers fall.
+- Simulation calibration: the practice-gain and forgetting parameters were set once so that about a third of student-topic rows need attention (label balance only), never tuned to make one model win. Final values are in the config block at the top of `ml/training/synthetic.py` and in `ml/results/simulation_rules.md`.
 - Demo accounts (password `DemoPass2026!`): `new.student@demo.example.com` (no activity, cold start) and `active.student@demo.example.com` (weak topics: CSC 531 Cognitive Psychology, CSC 574 Fuzzy Logic). Simulated students use `sim-NNN@sim.example.com`. `seed_demo.py` sets `is_simulated` on the profile itself, because the admin API writes app_metadata after the sign-up trigger runs. Only `is_simulated` students are used for training.
 - Resource links point at the shared NACOSS Google Drive folder (readable by anyone with the link): HCI Lectures 1 and 7 link straight to the file; the others link to the Drive folder that holds them (a #fragment names the file and keeps URLs unique per topic). `load.py` matches resources by topic and title, so changing a link updates the row in place. Swap in direct file links whenever they are available.
 - Dashboard labels: ML recommendations with averaged probability of 0.5 or more show as "Needs attention"; below 0.5 they show as "Keep it up" with a suggestion (review if not studied for 7+ days, try the topic quiz if scoring 80%+, otherwise a light practice nudge). Cold-start items show as "Getting started".
@@ -184,13 +186,27 @@ Check: a brand-new account can sign up, finish onboarding, take a diagnostic qui
 
 - [x] `scripts/seed_demo.py`, using the service role key. It runs after `load.py`, because simulated answers point to real questions:
   - Create every simulated and demo user through the Supabase admin API (`auth.admin.create_user`), so each one has a real auth user and profile row.
-  - About 80 simulated students (`is_simulated = true`) with several weeks of quiz attempts and study logs. Their next scores depend on study time, past scores and days since last studied, plus random noise, so the models have a pattern to learn.
+  - About 80 simulated students (`is_simulated = true`) with several weeks of quiz attempts and study logs, following these rules:
+    - Each student has a hidden ability level, and each topic has a hidden difficulty, both drawn at random.
+    - Forgetting curve: the chance of answering correctly falls the longer a topic goes unstudied.
+    - Practice effect: study minutes and earlier attempts on a topic raise the next score, with diminishing returns.
+    - Study habits differ: some students study often in short sessions, some rarely, some cram before quizzes.
+    - Every answer has random noise, so no single feature decides the outcome.
+    - The 50% label rule is never used inside the simulation. Scores come from the rules above, and the label is applied afterwards.
+  - All rule parameters live in one config block (at the top of `ml/training/synthetic.py`, which the script uses), with a fixed random seed so results can be reproduced.
+  - It writes `ml/results/simulation_rules.md`: a plain description of every rule and parameter value, for Chapter Four.
   - Demo account "New Student" with no activity, to show cold start.
   - Demo account "Active Student" with a history that makes one or two topics clearly weak, to show ML recommendations.
   - Prints the demo logins at the end. Running it again resets the simulated data.
 - [x] `training/features.py`: one row per student per topic with mean_score, last_score, attempt_count, session_count, total_minutes, days_since_last_studied
 - [x] Labels from the label rule above
-- [x] `training/train.py`: Logistic Regression (StandardScaler in a pipeline) and Random Forest on the same stratified split, plus 5-fold cross-validation. Saves to `ml/results/`: a metrics table (accuracy, precision, recall, F1) as CSV and Markdown, a confusion matrix chart per model, a bar chart comparing the two, and Random Forest feature importances. All titled "simulated data".
+- [x] `training/train.py`: Logistic Regression (StandardScaler in a pipeline) and Random Forest on the same stratified split, plus 5-fold cross-validation. The rule baseline (last score below 50%) is scored on the same test rows and folds. Saves to `ml/results/`:
+  - a metrics table with three rows (rule baseline, Logistic Regression, Random Forest) and columns for accuracy, precision, recall and F1, with the cross-validation mean and spread, as CSV and Markdown
+  - a confusion matrix chart for each of the three
+  - one bar chart comparing all three on the four metrics
+  - Logistic Regression coefficients and Random Forest feature importances, as a table and a chart
+  - every file and chart title says "simulated data"
+- [x] `train.py --real-test <file>` (optional, only if time allows): scores the already-trained models and the rule on a CSV of real student rows exported from the app (`scripts/export_real_rows.py`), and saves a separate table titled "real student data".
 - [x] `POST /recommend`:
   1. Below the cold-start threshold on a course, write that course's introductory resources in order with source `cold_start`.
   2. Otherwise, build features per topic, average both models' probabilities, and rank the topics.
@@ -200,7 +216,7 @@ Check: a brand-new account can sign up, finish onboarding, take a diagnostic qui
 
 Run `train.py` before testing the route, so model files exist.
 
-Check: "New Student" gets the introductory list, "Active Student" gets their weak topics ranked first, and `ml/results/` holds the metrics table and charts.
+Check: "New Student" gets the introductory list, "Active Student" gets their weak topics ranked first, and `ml/results/` holds the three-row metrics table, the charts and `simulation_rules.md`.
 
 ### Phase 5: dashboard, progress and reminders (FR4, FR6)
 
@@ -213,10 +229,10 @@ Check: logged in as "Active Student", the dashboard shows the streak, the weakes
 
 ### Phase 6: results capture (all requirements)
 
-- [ ] `docs/test-cases.md`: one row per FR and NFR with steps, expected result, actual result, pass or fail. Include the cold-start case. Run every case and fill in the results.
-- [ ] Response times for quiz submit and dashboard load, measured and recorded (NFR2)
-- [ ] `docs/screenshots.md`: an ordered checklist of every screen to capture, with which account to use and what should be visible
-- [ ] Final run of `train.py` so the results in `ml/results/` match the final code
+- [x] `docs/test-cases.md`: one row per FR and NFR with steps, expected result, actual result, pass or fail. Include the cold-start case. Run every case and fill in the results.
+- [x] Response times for quiz submit and dashboard load, measured and recorded (NFR2)
+- [x] `docs/screenshots.md`: an ordered checklist of every screen to capture, with which account to use and what should be visible
+- [x] Final run of `train.py` so the results in `ml/results/` match the final code
 
 Check: every test case has a recorded result, and every item in `screenshots.md` can be captured from the running app.
 
@@ -238,6 +254,7 @@ cd web && npm test               # dashboard logic tests (streak, reminders, sug
 cd ml && uvicorn app.main:app --reload
 cd ml && pytest
 cd ml && python -m training.train
+cd ml && python -m training.train --real-test ../real_rows.csv   # optional; rows from: python scripts/export_real_rows.py real_rows.csv
 
 # data (from the repo root)
 python content/validate.py
@@ -249,6 +266,9 @@ pytest scripts                   # quiz function tests against the linked projec
 python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; --mobile, --shots DIR, --keep
 python scripts/phase4_check.py   # Phase 4 check; needs seed_demo, training.train and the ML service running
 python scripts/phase5_check.py   # Phase 5 dashboard check in Chrome; --mobile, --shots DIR
+python scripts/measure_performance.py   # NFR2 response times -> docs/performance.md
+python scripts/capture_screenshots.py  # every screen in docs/screenshots.md -> docs/screenshots/
+python scripts/run_test_cases.py       # all FR/NFR test cases -> docs/test-cases.md (--measure to re-time)
 
 # database (project already linked)
 supabase migration new <name>    # creates supabase/migrations/<timestamp>_<name>.sql

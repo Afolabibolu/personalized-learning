@@ -1,0 +1,253 @@
+"""Captures every screen in docs/screenshots.md from the running app.
+
+    python scripts/capture_screenshots.py
+
+Writes docs/screenshots/*.png and regenerates docs/screenshots.md (the ordered
+checklist: which account, what should be visible, file name). Needs the Vite
+dev server, the ML service and the demo accounts. A temporary "Demo Student"
+account is created for the sign-up flow and deleted at the end; the demo
+accounts are left as they were.
+"""
+
+import sys
+import time
+from dataclasses import dataclass
+from pathlib import Path
+
+from playwright.sync_api import Page, expect, sync_playwright
+
+import testkit
+
+APP = "http://localhost:5173"
+DOCS = Path(__file__).resolve().parent.parent / "docs"
+SHOTS = DOCS / "screenshots"
+ACTIVE = "active.student@demo.example.com"
+NEW = "new.student@demo.example.com"
+DEMO_PASSWORD = "DemoPass2026!"
+LAPTOP = {"width": 1280, "height": 900}
+PHONE = {"width": 390, "height": 844}
+
+
+@dataclass
+class Shot:
+    file: str
+    screen: str
+    account: str
+    visible: str
+
+
+CHECKLIST = [
+    Shot("01-signup.png", "Sign-up page", "None (signed out)", "Full name, email and password fields; link to sign in (FR1)"),
+    Shot("02-login.png", "Log-in page", "None (signed out)", "Email and password fields; link to create an account (FR1)"),
+    Shot("03-onboarding.png", "Onboarding", "New sign-up (Demo Student)", "Department, level and learning-preference cards, two selected (FR1)"),
+    Shot("04-courses.png", "Course list", "New sign-up (Demo Student)", "CSC 531 and CSC 574 with 'Take diagnostic quiz' buttons (FR2, FR5)"),
+    Shot("05-quiz-intro.png", "Diagnostic quiz start", "New sign-up (Demo Student)", "18 questions, 'Every topic', Start quiz button (FR2)"),
+    Shot("06-quiz-single-choice.png", "Quiz question: single choice", "New sign-up (Demo Student)", "Progress bar, 'Single choice' label, one option selected (FR2)"),
+    Shot("07-quiz-true-false.png", "Quiz question: true or false", "New sign-up (Demo Student)", "Two large True/False buttons (FR2)"),
+    Shot("08-quiz-multi-select.png", "Quiz question: multiple answers", "New sign-up (Demo Student)", "'Select all that apply', two boxes ticked (FR2)"),
+    Shot("09-quiz-odd-one-out.png", "Quiz question: odd one out", "New sign-up (Demo Student)", "'Pick the one that does not belong' hint (FR2)"),
+    Shot("10-results-summary.png", "Diagnostic results: score per topic", "New sign-up (Demo Student)", "Overall score, a coloured bar per topic, weakest topic called out (FR2)"),
+    Shot("11-results-answers.png", "Diagnostic results: answer review", "New sign-up (Demo Student)", "Each question with your answer, the correct answer and the explanation (FR2)"),
+    Shot("12-topic.png", "Topic page", "New sign-up (Demo Student)", "Latest score badge, Take topic quiz, Log study session, resources and subtopics (FR5)"),
+    Shot("13-log-study.png", "Study logger", "New sign-up (Demo Student)", "Topic, 30 min and Reading selected, 'Saved' confirmation, recent sessions (FR3)"),
+    Shot("14-dashboard-new.png", "Dashboard, cold start", "New Student", "Reminders to log study and take diagnostics; six 'Getting started' lectures in order; empty streak (FR4, NFR4)"),
+    Shot("15-dashboard-active.png", "Dashboard, ML recommendations", "Active Student", "Weak-topic reminders; Cognitive Psychology and Fuzzy Logic as 'Needs attention' first; one 'Keep it up' with a suggestion; streak, 14-day strip, progress chart (FR4, FR6)"),
+    Shot("16-dashboard-accepted.png", "Recommendation accepted", "Active Student", "First recommendation shows '✓ Accepted' and 'Open resource' (FR4)"),
+    Shot("17-progress-csc574.png", "Progress chart, CSC 574 tab", "Active Student", "Fuzzy Logic Systems bar in red below the 50% line (FR6)"),
+    Shot("18-phone-dashboard.png", "Dashboard on a phone (390 px)", "Active Student", "Same dashboard in one column, compact nav (NFR1)"),
+    Shot("19-phone-quiz.png", "Quiz on a phone (390 px)", "Active Student", "Question and options fit the screen, Back/Next reachable (NFR1)"),
+]
+
+# Not taken by this script; captured from files or the terminal.
+OTHER = [
+    ("ml/results/model_comparison_simulated_data.png", "Rule baseline vs LR vs RF on four metrics (simulated data)", "FR4"),
+    ("ml/results/confusion_rule_baseline_simulated_data.png", "Rule baseline confusion matrix (simulated data)", "FR4"),
+    ("ml/results/confusion_logistic_regression_simulated_data.png", "LR confusion matrix (simulated data)", "FR4"),
+    ("ml/results/confusion_random_forest_simulated_data.png", "RF confusion matrix (simulated data)", "FR4"),
+    ("ml/results/feature_weights_simulated_data.png", "LR coefficients and RF importances (simulated data)", "FR4"),
+    ("ml/results/metrics_simulated_data.md", "Three-row metrics table (simulated data)", "FR4"),
+    ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
+    ("terminal: python scripts/rls_check.py", "Output ending '33/33 checks passed'", "NFR3"),
+    ("docs/performance.md", "Response-time table", "NFR2"),
+]
+
+
+def save(page: Page, name: str, full_page: bool = False) -> None:
+    page.wait_for_timeout(250)
+    page.screenshot(path=str(SHOTS / name), full_page=full_page)
+    print(f"  saved {name}")
+
+
+def sign_in(page: Page, email: str, password: str) -> None:
+    page.goto(f"{APP}/login")
+    page.get_by_label("Email").fill(email)
+    page.get_by_label("Password").fill(password)
+    page.get_by_role("button", name="Sign in").click()
+    page.wait_for_url(lambda url: "/login" not in url)
+    page.wait_for_load_state("networkidle")
+
+
+def refresh_recommendations(page: Page) -> None:
+    with page.expect_response(lambda r: "/recommend" in r.url and r.request.method == "POST", timeout=30_000):
+        page.get_by_role("button", name="Refresh").click()
+    page.wait_for_load_state("networkidle")
+    expect(page.get_by_role("button", name="Refresh")).to_be_enabled()
+
+
+def new_student_flow(browser, email: str) -> None:
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    page.goto(f"{APP}/signup")
+    save(page, "01-signup.png")
+    page.goto(f"{APP}/login")
+    save(page, "02-login.png")
+
+    page.goto(f"{APP}/signup")
+    page.get_by_label("Full name").fill("Demo Student")
+    page.get_by_label("Email").fill(email)
+    page.get_by_label("Password").fill(testkit.PASSWORD)
+    page.get_by_role("button", name="Create account").click()
+    page.wait_for_url(f"{APP}/onboarding")
+    page.get_by_role("button", name="Reading").click()
+    page.get_by_role("button", name="Practice").click()
+    save(page, "03-onboarding.png")
+    page.get_by_role("button", name="Continue").click()
+    page.wait_for_url(f"{APP}/")
+
+    page.goto(f"{APP}/courses")
+    expect(page.get_by_text("CSC 574")).to_be_visible()
+    save(page, "04-courses.png")
+    page.get_by_role("link", name="Take diagnostic quiz").first.click()
+    expect(page.get_by_role("button", name="Start quiz")).to_be_visible()
+    save(page, "05-quiz-intro.png")
+    page.get_by_role("button", name="Start quiz").click()
+
+    wanted = {"Single choice": "06-quiz-single-choice.png", "True or false": "07-quiz-true-false.png",
+              "Multiple answers": "08-quiz-multi-select.png", "Odd one out": "09-quiz-odd-one-out.png"}
+    for i in range(18):
+        label = page.locator("p.uppercase").first.inner_text().strip().capitalize()
+        boxes = page.get_by_role("checkbox")
+        if boxes.count():
+            boxes.nth(0).click()
+            boxes.nth(1).click()
+        else:
+            page.get_by_role("radio").first.click()
+        match = next((k for k in wanted if k.lower() == label.lower()), None)
+        if match:
+            save(page, wanted.pop(match))
+        if i < 17:
+            page.get_by_role("button", name="Next").click()
+    page.get_by_role("button", name="Submit").click()
+    expect(page.get_by_text("Score per topic")).to_be_visible()
+    save(page, "10-results-summary.png")
+    page.get_by_text("Answers", exact=True).scroll_into_view_if_needed()
+    page.evaluate("window.scrollBy(0, -80)")
+    save(page, "11-results-answers.png")
+
+    page.locator("section").first.locator("div > a").first.click()
+    expect(page.get_by_text("Latest score")).to_be_visible()
+    save(page, "12-topic.png")
+
+    page.get_by_role("link", name="Log study session").click()
+    page.get_by_role("button", name="30 min").click()
+    page.get_by_role("button", name="Reading").click()
+    page.get_by_role("button", name="Save session").click()
+    expect(page.get_by_text("Saved: 30 minutes of reading")).to_be_visible()
+    save(page, "13-log-study.png")
+    page.close()
+    if wanted:
+        print(f"  note: no question of format(s) {list(wanted)} in this diagnostic")
+
+
+def demo_flows(browser) -> None:
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, NEW, DEMO_PASSWORD)
+    refresh_recommendations(page)
+    save(page, "14-dashboard-new.png", full_page=True)
+    page.close()
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE, DEMO_PASSWORD)
+    refresh_recommendations(page)
+    save(page, "15-dashboard-active.png", full_page=True)
+    first = page.get_by_test_id("recommendation").first
+    first.get_by_role("button", name="Accept").click()
+    expect(first.get_by_text("Accepted")).to_be_visible()
+    first.scroll_into_view_if_needed()
+    page.evaluate("window.scrollBy(0, -120)")
+    save(page, "16-dashboard-accepted.png")
+    page.get_by_role("tab", name="CSC 574").click()
+    page.get_by_test_id("progress-chart").scroll_into_view_if_needed()
+    page.evaluate("window.scrollBy(0, 160)")
+    save(page, "17-progress-csc574.png")
+    page.close()
+
+    page = browser.new_page(viewport=PHONE)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE, DEMO_PASSWORD)
+    expect(page.get_by_test_id("recommendation").first).to_be_visible()
+    save(page, "18-phone-dashboard.png")
+    page.goto(f"{APP}/courses")
+    page.get_by_role("link", name="View course").first.click()
+    page.locator("ol a").nth(4).click()
+    page.get_by_role("link", name="Take topic quiz").click()
+    page.get_by_role("button", name="Start quiz").click()
+    page.get_by_role("radio").first.click() if page.get_by_role("checkbox").count() == 0 else page.get_by_role("checkbox").first.click()
+    save(page, "19-phone-quiz.png")
+    page.close()
+
+
+def write_checklist() -> None:
+    rows = "\n".join(
+        f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/{s.file}) |"
+        for i, s in enumerate(CHECKLIST, start=1)
+    )
+    other = "\n".join(f"| {path} | {what} | {req} |" for path, what, req in OTHER)
+    (DOCS / "screenshots.md").write_text(
+        "# Screenshot checklist\n\n"
+        "In capture order. All app screenshots are taken by `python scripts/capture_screenshots.py` "
+        "(laptop 1280 px wide unless stated) and saved in `docs/screenshots/`. Before capturing by hand, reset the "
+        "demo accounts with `python scripts/seed_demo.py --demo-only`.\n\n"
+        "Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, "
+        "Active Student `active.student@demo.example.com`.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        f"{rows}\n\n"
+        "## Figures from files and the terminal\n\n"
+        "| Source | What | Requirement |\n| --- | --- | --- |\n"
+        f"{other}\n\n"
+        "Charts and tables from `ml/results/` come from simulated students; keep \"simulated data\" in every caption.\n"
+    )
+
+
+def main() -> int:
+    SHOTS.mkdir(parents=True, exist_ok=True)
+    db = testkit.admin()
+    email = f"screens-{int(time.time())}@{testkit.EMAIL_DOMAIN}"
+    active_id = next(u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == ACTIVE)
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(channel="chrome", headless=True)
+            print("-- New sign-up")
+            new_student_flow(browser, email)
+            print("-- Demo accounts")
+            demo_flows(browser)
+            browser.close()
+    finally:
+        uid = next((u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == email), None)
+        if uid:
+            db.auth.admin.delete_user(uid)
+        # Leave the demo accounts as they were: undo the Accept, and drop the
+        # phone quiz attempt that was started but never submitted.
+        db.table("recommendations").update({"status": "pending"}).eq("student_id", active_id).execute()
+        db.table("quiz_attempts").delete().eq("student_id", active_id).is_("completed_at", "null").execute()
+
+    write_checklist()
+    missing = [s.file for s in CHECKLIST if not (SHOTS / s.file).exists()]
+    print(f"\n{len(CHECKLIST) - len(missing)}/{len(CHECKLIST)} screens captured" + (f"; missing {missing}" if missing else ""))
+    return 1 if missing else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

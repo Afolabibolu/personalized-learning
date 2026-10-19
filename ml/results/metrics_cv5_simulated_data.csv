@@ -1,3 +1,0 @@
-model,accuracy,precision,recall,f1
-Logistic Regression,0.786 ± 0.029,0.748 ± 0.058,0.686 ± 0.018,0.714 ± 0.029
-Random Forest,0.777 ± 0.036,0.737 ± 0.066,0.672 ± 0.043,0.701 ± 0.041

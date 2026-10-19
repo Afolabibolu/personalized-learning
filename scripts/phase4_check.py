@@ -83,12 +83,16 @@ def main() -> int:
 
     print("\n-- Results (simulated data)")
     expected = [
-        "metrics_simulated_data.md", "metrics_holdout_simulated_data.csv", "metrics_cv5_simulated_data.csv",
-        "confusion_logistic_regression_simulated_data.png", "confusion_random_forest_simulated_data.png",
-        "model_comparison_simulated_data.png", "rf_feature_importances_simulated_data.png",
+        "metrics_simulated_data.md", "metrics_simulated_data.csv",
+        "confusion_rule_baseline_simulated_data.png", "confusion_logistic_regression_simulated_data.png",
+        "confusion_random_forest_simulated_data.png", "model_comparison_simulated_data.png",
+        "feature_weights_simulated_data.csv", "feature_weights_simulated_data.png", "simulation_rules.md",
     ]
     missing = [f for f in expected if not (RESULTS / f).exists()]
-    check("ml/results holds the metrics table and charts", not missing, "missing: " + ", ".join(missing) if missing else f"{len(expected)} files")
+    table = (RESULTS / "metrics_simulated_data.md").read_text() if (RESULTS / "metrics_simulated_data.md").exists() else ""
+    check("metrics table compares the rule baseline with both models",
+          all(name in table for name in ["Rule baseline", "Logistic Regression", "Random Forest"]) and "simulated data" in table)
+    check("ml/results holds the three-row metrics table, the charts and simulation_rules.md", not missing, "missing: " + ", ".join(missing) if missing else f"{len(expected)} files")
 
     print(f"\n{sum(results)}/{len(results)} checks passed")
     return 0 if all(results) else 1
