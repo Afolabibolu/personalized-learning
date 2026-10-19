@@ -10,7 +10,10 @@ function nextTopic(recs: Recommendation[]): Recommendation | null {
   const attention = pending
     .filter((r) => r.source === 'ml' && (r.priority_score ?? 0) >= ATTENTION_PROBABILITY)
     .sort((a, b) => (b.priority_score ?? 0) - (a.priority_score ?? 0))
-  return attention[0] ?? pending.find((r) => r.source === 'cold_start') ?? null
+  const gettingStarted = pending
+    .filter((r) => r.source === 'cold_start')
+    .sort((a, b) => a.topic.course.code.localeCompare(b.topic.course.code) || a.rank - b.rank)
+  return attention[0] ?? gettingStarted[0] ?? null
 }
 
 export function WeeklySummaryCard({ summary, recommendations }: { summary: WeeklySummary; recommendations: Recommendation[] }) {

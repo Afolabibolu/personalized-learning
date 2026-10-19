@@ -1,6 +1,6 @@
-"""NFR2: measures response times and writes docs/performance.md (+ .json).
+"""NFR2: measures response times and writes docs/results/performance.md (+ .json).
 
-    python scripts/measure_performance.py [--runs 10]
+    python scripts/timing.py [--runs 20]
 
 Needs the Vite dev server and the ML service running, and the demo accounts
 from seed_demo.py. Measures, from this laptop against the hosted Supabase:
@@ -28,7 +28,7 @@ import testkit
 
 APP = "http://localhost:5173"
 ML_URL = os.getenv("ML_URL", "http://localhost:8000")
-DOCS = Path(__file__).resolve().parent.parent / "docs"
+DOCS = Path(__file__).resolve().parent.parent / "docs" / "results"
 ACTIVE = ("active.student@demo.example.com", "DemoPass2026!")
 
 # Targets for "does not disrupt a student's use" (NFR2), set for this test.
@@ -133,7 +133,7 @@ def measure_recommend(runs: int) -> list[float]:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--runs", type=int, default=10)
+    parser.add_argument("--runs", type=int, default=20)
     args = parser.parse_args()
 
     db = testkit.admin()
@@ -160,15 +160,15 @@ def main() -> int:
     order = ["quiz_submit_ui", "quiz_submit_api", "dashboard_load_ui", "recommend_api"]
     rows = "\n".join(
         f"| {LABELS[k]} | {results[k]['runs']} | {results[k]['median']:.2f} | {results[k]['p95']:.2f} | "
-        f"{results[k]['min']:.2f}–{results[k]['max']:.2f} | ≤ {results[k]['target']:.1f} | {'Pass' if results[k]['pass'] else 'Fail'} |"
+        f"{results[k]['max']:.2f} | {results[k]['min']:.2f} | ≤ {results[k]['target']:.1f} | {'Pass' if results[k]['pass'] else 'Fail'} |"
         for k in order
     )
     (DOCS / "performance.md").write_text(
         "# Response times (NFR2)\n\n"
-        f"Measured {measured_at} with `python scripts/measure_performance.py --runs {args.runs}`, on the development laptop "
+        f"Measured {measured_at} with `python scripts/timing.py --runs {args.runs}`, on the development laptop "
         "against the hosted Supabase project, with the Vite dev server and the ML service running locally. "
         "Times are in seconds. A case passes when its 95th percentile is within the target.\n\n"
-        "| Operation | Runs | Median | p95 | Range | Target | Result |\n| --- | --- | --- | --- | --- | --- | --- |\n"
+        "| Operation | Runs | Median | p95 | Slowest | Fastest | Target | Result |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n"
         f"{rows}\n\n"
         "Targets: a quiz result within 2 s of pressing Submit and a dashboard within 3 s keep the student's flow "
         "uninterrupted at single-institution usage. Recommendation updates run in the background after a quiz or a study "
@@ -178,7 +178,7 @@ def main() -> int:
     )
     for k in order:
         r = results[k]
-        print(f"{'PASS' if r['pass'] else 'FAIL'}  {LABELS[k]}: median {r['median']:.2f}s, p95 {r['p95']:.2f}s (target {r['target']}s)")
+        print(f"{'PASS' if r['pass'] else 'FAIL'}  {LABELS[k]}: median {r['median']:.2f}s, p95 {r['p95']:.2f}s, slowest {r['max']:.2f}s (target {r['target']}s)")
     return 0 if all(r["pass"] for r in results.values()) else 1
 
 

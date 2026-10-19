@@ -273,11 +273,11 @@ Check: every FR box in `docs/requirements.md` is ticked or listed in the report 
 
 This replaces Phase 6 if it has not run yet. (Phase 6 has run; Phase 8 reruns it on the final code and adds the files below.)
 
-- [ ] `docs/test-cases.md`: one row per FR and NFR with steps, expected, actual, pass or fail. Run every case.
-- [ ] `scripts/timing.py` output in `docs/results/performance.md` (NFR2)
-- [ ] `scripts/rls_check.py` output in `docs/results/security.md` (NFR3)
-- [ ] Final `python -m training.train`, so `ml/results/` and `summary.md` match the final code
-- [ ] `docs/screenshots.md`: an ordered list of every screenshot, with the account to use, the page, and what must be visible. Include phone-width shots for NFR1.
+- [x] `docs/test-cases.md`: one row per FR and NFR with steps, expected, actual, pass or fail. Run every case.
+- [x] `scripts/timing.py` output in `docs/results/performance.md` (NFR2)
+- [x] `scripts/rls_check.py` output in `docs/results/security.md` (NFR3)
+- [x] Final `python -m training.train`, so `ml/results/` and `summary.md` match the final code
+- [x] `docs/screenshots.md`: an ordered list of every screenshot, with the account to use, the page, and what must be visible. Include phone-width shots for NFR1.
 
 Check: every test case has a recorded result, and every screenshot in the list can be taken from the running app.
 
@@ -313,12 +313,13 @@ python content/validate.py
 python content/load.py
 python scripts/seed_demo.py           # resets and recreates simulated students + demo accounts
 python scripts/seed_demo.py --demo-only   # resets only the two demo accounts (run before presenting)
-python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course
+python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course; --out docs/results/security.md
 pytest scripts                   # quiz function tests against the linked project
 python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; --mobile, --shots DIR, --keep
 python scripts/phase4_check.py   # Phase 4 check; needs seed_demo, training.train and the ML service running
 python scripts/phase5_check.py   # Phase 5 dashboard check in Chrome; --mobile, --shots DIR
-python scripts/measure_performance.py   # NFR2 response times -> docs/performance.md
+python scripts/phase7_check.py   # Phase 7 checks in Chrome; --only fr5|fr4|fr6|fr1|fr23, --shots DIR
+python scripts/timing.py         # NFR2 response times, 20 runs each -> docs/results/performance.md
 python scripts/capture_screenshots.py  # every screen in docs/screenshots.md -> docs/screenshots/
 python scripts/run_test_cases.py       # all FR/NFR test cases -> docs/test-cases.md (--measure to re-time)
 

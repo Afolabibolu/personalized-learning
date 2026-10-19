@@ -10,6 +10,7 @@ users and the test course are removed at the end.
 
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 from postgrest.exceptions import APIError
 
@@ -160,5 +161,53 @@ def main() -> int:
     return 1 if failed else 0
 
 
+def save_report(output: str, path: Path) -> None:
+    """Writes the run to Markdown for the results chapter (NFR3)."""
+    passed = sum(ok for ok, _, _ in results)
+    sections: dict[str, list[tuple[bool, str, str]]] = {}
+    current = "General"
+    for line in output.splitlines():
+        if line.startswith("-- "):
+            current = line[3:].strip()
+        elif line.startswith(("PASS", "FAIL")):
+            ok, rest = line.startswith("PASS"), line[4:].strip()
+            name, _, detail = rest.partition("  (")
+            sections.setdefault(current, []).append((ok, name.strip(), detail.rstrip(")")))
+    rows = []
+    for section, checks in sections.items():
+        rows.append(f"\n### {section}\n\n| Result | Check | Detail |\n| --- | --- | --- |")
+        rows += [f"| {'Pass' if ok else '**Fail**'} | {name} | {detail} |" for ok, name, detail in checks]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "# Security: row-level security check (NFR3)\n\n"
+        f"Run {datetime.now().strftime('%Y-%m-%d %H:%M')} with `python scripts/rls_check.py --out {path.as_posix()}` "
+        "against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app "
+        "uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course "
+        "are deleted at the end.\n\n"
+        f"**Result: {passed} of {len(results)} checks passed.** \"Refused\" means the database rejected the request "
+        "(42501 is Postgres' permission-denied code); \"0 rows\" means row-level security hid the other student's rows.\n"
+        + "\n".join(rows) + "\n"
+    )
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    import argparse
+    import contextlib
+    import io
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--out", type=Path, help="also save the results as Markdown, e.g. docs/results/security.md")
+    args = parser.parse_args()
+    buffer = io.StringIO()
+
+    class Tee(io.TextIOBase):
+        def write(self, text):
+            buffer.write(text)
+            return sys.__stdout__.write(text)
+
+    with contextlib.redirect_stdout(Tee()):
+        code = main()
+    if args.out:
+        save_report(buffer.getvalue(), args.out)
+        print(f"Saved {args.out}")
+    sys.exit(code)

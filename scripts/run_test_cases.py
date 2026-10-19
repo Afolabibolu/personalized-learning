@@ -4,7 +4,7 @@
 
 Each case runs the existing checks and test suites and records what actually
 happened. Needs the Vite dev server, the ML service, the seeded demo accounts
-and trained models. Response times come from docs/performance.json; pass
+and trained models. Response times come from docs/results/performance.json; pass
 --measure to measure them again first (takes about two minutes).
 """
 
@@ -85,6 +85,7 @@ def protected_routes_check() -> list[str]:
         page.get_by_role("button", name="Sign in").click()
         page.wait_for_url(f"{APP}/")
         out.append("PASS  New Student signs in and lands on the dashboard")
+        page.get_by_role("button", name="Profile menu").click()  # sign out lives in the profile menu
         page.get_by_role("button", name="Sign out").click()
         page.wait_for_url(f"{APP}/login")
         out.append("PASS  sign out returns to /login")
@@ -117,10 +118,16 @@ def portability_check() -> list[str]:
             shutil.copy(ROOT / "content" / f, tmp / f)
         (tmp / "questions" / "TST999").mkdir(parents=True)
         topics = []
+        for d in ("courses", "resources", "notes/TST999"):
+            (tmp / d).mkdir(parents=True)
+        links = {}
+        note = " ".join(["Portability test note text."] * 80)  # about 320 words, inside the 300 to 500 range
         for i in range(1, 6):
-            topics.append({"slug": f"topic-{i}", "title": f"Topic {i}", "subtopics": ["a"],
-                           "resources": [{"title": f"Lecture {i}", "type": "link", "url": f"https://example.com/{i}",
-                                          **({"is_introductory": True, "intro_order": 1} if i == 1 else {})}]})
+            topics.append({"slug": f"topic-{i}", "title": f"Topic {i}", "summary": f"Test topic {i}.",
+                           "subtopics": ["a"], "lectures": [i]})
+            # a throwaway test fixture, deleted at the end; not course content
+            links[f"topic-{i}"] = [{"title": f"Lecture {i}", "type": "lecture", "url": f"https://example.com/{i}", "source": f"Lecture {i}"}]
+            (tmp / "notes" / "TST999" / f"topic-{i}.md").write_text(f"# Topic {i}\n\n{note}\n\nSource: portability test\n")
             qs = []
             for j in range(10):
                 fmt = ["single_choice", "true_false", "multi_select", "odd_one_out"][j % 4]
@@ -130,7 +137,7 @@ def portability_check() -> list[str]:
                 qs.append({"format": fmt, "stem": f"Portability question {i}-{j}", "options": opts, "correct_answer": correct,
                            "explanation": "Test.", "source": "portability test"})
             (tmp / "questions" / "TST999" / f"topic-{i}.json").write_text(json.dumps(qs))
-        (tmp / "courses").mkdir()
+        (tmp / "resources" / "TST999.json").write_text(json.dumps({"code": "TST 999", "topics": links}))
         (tmp / "courses" / "TST999.json").write_text(json.dumps({"code": "TST 999", "title": "Portability test course", "topics": topics}))
 
         validate = subprocess.run([PY, "-I", str(tmp / "validate.py")], capture_output=True, text=True)
@@ -144,6 +151,17 @@ def portability_check() -> list[str]:
         f"{'PASS' if load.returncode == 0 and loaded else 'FAIL'}  load.py loads it with no code change: {load.stdout.strip().splitlines()[-1] if load.stdout.strip() else load.stderr.strip()[-200:]}",
         "PASS  test course removed afterwards",
     ]
+
+
+# phase7_check.py lines that belong to each Phase 7 case
+PHASE7_NEEDLES = {
+    "TC-17": ("onboarding save name", "realistic name", "matched the preference", "Profile page", "Kemi Balogun", "Profile page fits"),
+    "TC-18": ("results:", "Custom (minutes)", "study timer", "after saving", "quiz history", "logger with timer"),
+    "TC-19": ("reason", "Why this?", "Keep it up", "cold-start items", "Accept opens", "History", "ML service down"),
+    "TC-20": ("Knowledge Base", "courses, then topics", "grouped by type", "search", "study note opens", "past questions",
+              "lecture links", "topic page", "every topic has", "menu button"),
+    "TC-21": ("bell", "notification", "weekly summary", "progress chart", "reminder settings"),
+}
 
 
 def cases() -> list[Case]:
@@ -186,7 +204,7 @@ def cases() -> list[Case]:
               "SUS questionnaire with student participants (Section 3.14.3)"],
              "Every core task completes at both widths; SUS score above 68"),
         Case("TC-13", "NFR2", "Response times",
-             ["python scripts/measure_performance.py --runs 10"],
+             ["python scripts/timing.py --runs 20"],
              "p95 within target: quiz submit ≤ 2 s (browser), dashboard load ≤ 3 s, background recommendation update ≤ 5 s"),
         Case("TC-14", "NFR3", "Security: row-level security",
              ["python scripts/rls_check.py (two students with the anon key)"],
@@ -197,6 +215,21 @@ def cases() -> list[Case]:
         Case("TC-16", "NFR5", "Portability: add a course without code changes",
              ["Write a third course as JSON files only", "Run validate.py and load.py on it", "Remove it"],
              "The new course validates and loads with no code change"),
+        Case("TC-17", "FR1", "Profile page, realistic demo names and learning preferences",
+             ["Sign up and onboard a new student", "Open the dashboard as Tolu Adeyemi", "Edit department and level on /profile"],
+             "Name, department, level and preferred resource types saved; recommendations that use the preferred type say 'Matched to your preference'; profile edits confirmed"),
+        Case("TC-18", "FR2 / FR3", "Score change, quiz history, custom minutes and study timer",
+             ["Take the same topic quiz twice", "Open the course page", "Log study with 400, then 45 custom minutes, then with the timer"],
+             "First attempt says so; second shows the change since last time; course page lists the quiz history; 400 rejected, 45 accepted; timer fills in the duration"),
+        Case("TC-19", "FR4", "Explained recommendations, accept and history",
+             ["Open the dashboard as Tolu", "Open 'Why this?'", "Accept and Dismiss items", "Block the ML service and log a session"],
+             "Every item has a reason from the features; 'Why this?' shows both probabilities, the average and the top factors; accepted items open the resource and move to History; a quiet notice when the ML service is down"),
+        Case("TC-20", "FR5", "Knowledge Base: notes, past questions and lecture links",
+             ["Open Knowledge Base", "Search 'fuzzy'", "Open a study note, a past-questions page and a lecture link", "Open a topic page"],
+             "Live counts, topics with summaries, resources grouped by type, search as you type; notes and past questions render in the app; lectures open in a new tab; every topic has a note, a lecture and a quiz"),
+        Case("TC-21", "FR6", "Notifications, reminders and weekly summary",
+             ["Open the bell as Tolu", "Click a notification", "Check the weekly summary and progress chart", "Save reminder settings", "pytest scripts/test_reminders.py"],
+             "Unread count; clicking marks read and follows the link; weekly summary and two-line chart labels; settings saved; each reminder kind fires at most once a day and stays private"),
     ]
 
 
@@ -260,7 +293,7 @@ def evaluate(case: Case) -> None:
             "NOT RUN  SUS questionnaire with student participants (out of scope for this demo; future work)",
         ]
     elif case.id == "TC-13":
-        perf = json.loads((DOCS / "performance.json").read_text())
+        perf = json.loads((DOCS / "results" / "performance.json").read_text())
         for key, r in perf["results"].items():
             case.evidence.append(f"{'PASS' if r['pass'] else 'FAIL'}  {key}: median {r['median']:.2f} s, p95 {r['p95']:.2f} s, target {r['target']} s ({r['runs']} runs, {perf['measured_at']})")
     elif case.id == "TC-14":
@@ -278,6 +311,12 @@ def evaluate(case: Case) -> None:
             case.evidence.append("FAIL  pytest ml: " + tail(tests, "failed"))
     elif case.id == "TC-16":
         case.evidence = portability_check()
+    elif case.id in PHASE7_NEEDLES:
+        out = run("phase7", py + ["scripts/phase7_check.py"])
+        case.evidence = lines(out, *PHASE7_NEEDLES[case.id])
+        if case.id == "TC-21":
+            tests = run("pytest-reminders", [str(ROOT / ".venv/bin/pytest"), "scripts/test_reminders.py", "-q", "-p", "no:cacheprovider", "-W", "ignore"])
+            case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") + "  pytest test_reminders.py: " + tail(tests, r"passed|failed"))
 
     passed = [l for l in case.evidence if l.startswith("PASS")]
     failed = [l for l in case.evidence if l.startswith("FAIL")]
@@ -314,7 +353,11 @@ def write_report(all_cases: list[Case]) -> None:
         "- TC-12 is partial by design: the automated walkthrough shows the core tasks complete without assistance, but the "
         "SUS questionnaire with student participants (Section 3.14.3) was not run for this demo and is future work.\n"
         "- TC-08 metrics come from simulated students, not real students (simulated data).\n"
-        "- TC-13 targets were set for this test; see docs/performance.md for all samples and caveats.\n\n"
+        "- TC-13 targets were set for this test; see docs/results/performance.md for all samples and caveats.\n"
+        "- First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a "
+        "Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the "
+        "old file layout (resources inside the course file, no study notes). Both were faults in the test script, not the app; "
+        "the script was updated and every case was run again for the table above.\n\n"
         "## Details\n\n" + "\n".join(details)
     )
 
@@ -323,8 +366,8 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--measure", action="store_true", help="measure response times again first")
     args = parser.parse_args()
-    if args.measure or not (DOCS / "performance.json").exists():
-        run("performance", [PY, "-W", "ignore", "scripts/measure_performance.py"])
+    if args.measure or not (DOCS / "results" / "performance.json").exists():
+        run("performance", [PY, "-W", "ignore", "scripts/timing.py"])
 
     all_cases = cases()
     for case in all_cases:
