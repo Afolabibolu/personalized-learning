@@ -1,6 +1,8 @@
 export type Level = 100 | 200 | 300 | 400 | 500
-export type LearningPreference = 'reading' | 'video' | 'practice'
-export type ActivityType = LearningPreference
+/** Preferred ways to study: the four resource types (FR1). */
+export type LearningPreference = 'note' | 'lecture' | 'past_questions' | 'video'
+/** What a logged study session was. */
+export type ActivityType = 'reading' | 'video' | 'practice'
 export type QuestionFormat = 'single_choice' | 'true_false' | 'multi_select' | 'odd_one_out'
 
 export type Weekday = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun'

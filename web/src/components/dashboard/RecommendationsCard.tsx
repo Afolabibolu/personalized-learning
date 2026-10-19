@@ -5,6 +5,7 @@ import { refreshRecommendations } from '../../api/ml'
 import { setRecommendationStatus, type Explanation, type Recommendation } from '../../api/recommendations'
 import { formatDate, percent } from '../../lib/format'
 import { ATTENTION_PROBABILITY } from '../../lib/suggestions'
+import { PREFERENCE_PHRASE } from '../PreferencePicker'
 import { RESOURCE_LABEL } from '../ResourceList'
 import { Button, Card } from '../ui'
 
@@ -131,6 +132,11 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
         {rec.topic.title}
       </Link>
       <p className="mt-0.5 text-sm text-slate-600">{targetLabel(rec)}</p>
+      {explanation?.matched_preference && explanation.matched_preference in PREFERENCE_PHRASE && (
+        <p className="mt-1 flex items-center gap-1 text-xs font-medium text-brand-700" data-testid="matched-preference">
+          <span aria-hidden>✓</span> Matched to your preference: {PREFERENCE_PHRASE[explanation.matched_preference as keyof typeof PREFERENCE_PHRASE]}
+        </p>
+      )}
 
       {explanation && (
         <p

@@ -93,6 +93,12 @@ def student_history(db: Client, student_id: str) -> tuple[list[dict], list[dict]
     return scores, logs
 
 
+def learning_preferences(db: Client, student_id: str) -> tuple[str, ...]:
+    """The student's preferred resource types (note, lecture, past_questions, video)."""
+    rows = db.table("profiles").select("learning_preferences").eq("id", student_id).execute().data
+    return tuple(rows[0]["learning_preferences"]) if rows else ()
+
+
 def used_resource_ids(db: Client, student_id: str) -> set[str]:
     """Resources the student already accepted or dismissed."""
     rows = db.table("recommendations").select("resource_id").eq("student_id", student_id).in_(

@@ -63,8 +63,8 @@ def run_ui(email: str, shots: Path | None, mobile: bool) -> dict:
 
         page.get_by_label("Department").fill("Computer Science")
         page.get_by_label("Level").select_option("500")
-        page.get_by_role("button", name="Reading").click()
-        page.get_by_role("button", name="Practice").click()
+        page.get_by_role("button", name="Reading notes").click()
+        page.get_by_role("button", name="Practising questions").click()
         shot(page, shots, "02-onboarding")
         page.get_by_role("button", name="Continue").click()
         page.wait_for_url(f"{APP}/")
@@ -130,7 +130,7 @@ def verify_tables(db, email: str) -> None:
     profile = db.table("profiles").select("*").eq("id", uid).single().execute().data
     check("profiles: name, department, level and preferences saved",
           profile["full_name"] == "Phase Three Student" and profile["department"] == "Computer Science"
-          and profile["level"] == 500 and sorted(profile["learning_preferences"]) == ["practice", "reading"],
+          and profile["level"] == 500 and sorted(profile["learning_preferences"]) == ["note", "past_questions"],
           f"{profile['full_name']}, {profile['department']}, {profile['level']}, {profile['learning_preferences']}")
 
     attempts = db.table("quiz_attempts").select("*, quizzes(kind)").eq("student_id", uid).execute().data

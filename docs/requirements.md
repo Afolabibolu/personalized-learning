@@ -11,9 +11,12 @@ The report says: a student can register, authenticate, and create and update an 
 Built: sign up, log in, sign out, onboarding.
 
 Gaps:
-- [ ] No Profile page. Add one to the nav: full name, department, level, preferred way to study, and reminder settings (FR6). Saving shows a confirmation.
-- [ ] The learning preference is not visibly used. On each recommendation that matched it, show a small line such as "Matched to your preference: study notes".
-- [ ] Demo accounts are named "Active" and "New". Rename them to realistic names, for example "Tolu Adeyemi" and "Kemi Balogun", with department Computer Science and level 500.
+- [x] No Profile page. Add one to the nav: full name, department, level, preferred way to study, and reminder settings (FR6). Saving shows a confirmation.
+  _Done: `web/src/pages/ProfilePage.tsx` ("Your details": name, department, level, preferred way to study; "Reminder settings"), reached from the profile menu; saving shows "Profile saved."; screenshots `docs/screenshots/phase7/fr1-04-profile-before.png` and `fr1-05-profile-after.png`._
+- [x] The learning preference is not visibly used. On each recommendation that matched it, show a small line such as "Matched to your preference: study notes".
+  _Done: preferences are the four resource types (migration `20261019150000_learning_preferences_as_resource_types.sql`); the engine picks the preferred type first and records `matched_preference` (`ml/app/recommender.py`, test in `ml/tests/test_recommender.py`); cards show "✓ Matched to your preference: study notes"; screenshot `fr1-03-matched-preference.png`._
+- [x] Demo accounts are named "Active" and "New". Rename them to realistic names, for example "Tolu Adeyemi" and "Kemi Balogun", with department Computer Science and level 500.
+  _Done: `scripts/seed_demo.py` creates Tolu Adeyemi (active, prefers notes and practising questions) and Kemi Balogun (new, prefers lecture slides and videos), Computer Science, 500 level, default reminder settings; logins unchanged; screenshot `fr1-06-kemi-cold-start.png`._
 
 Evidence: screenshots of sign-up, onboarding and the Profile page before and after an edit.
 

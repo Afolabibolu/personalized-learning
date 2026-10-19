@@ -66,6 +66,7 @@ def fr5(browser, shot: Shots) -> None:
     expected = f"{stats['courses']} courses {stats['topics']} topics {stats['resources']} resources {stats['practice_questions']} practice questions"
     check("Knowledge Base page in the nav with live counts", " ".join(text.split()) == expected, text.replace("\n", " "))
     topics = page.get_by_test_id("kb-topic")
+    expect(topics.first).to_be_visible()
     check("courses, then topics in order with summaries and subtopics", topics.count() == 12,
           f"{topics.count()} topics; first: {topics.first.inner_text()}")
     groups = [g for g in ["Study notes", "Lecture slides", "Past questions"] if page.get_by_text(g, exact=True).count()]
@@ -315,7 +316,87 @@ def fr6(browser, shot: Shots) -> None:
     page.close()
 
 
-SECTIONS = {"fr5": fr5, "fr4": fr4, "fr6": fr6}
+def fr1(browser, shot: Shots) -> None:
+    print("-- FR1 Registration and profile")
+    import time
+    db = testkit.admin()
+    users = db.auth.admin.list_users(page=1, per_page=1000)
+    active_id = next(u.id for u in users if u.email == ACTIVE)
+
+    # Sign-up and onboarding with the four study preferences.
+    email = f"fr1-{int(time.time())}@{testkit.EMAIL_DOMAIN}"
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    page.goto(f"{APP}/signup")
+    page.get_by_label("Full name").fill("Ada Okoro")
+    page.get_by_label("Email").fill(email)
+    page.get_by_label("Password").fill(testkit.PASSWORD)
+    shot(page, "fr1-01-signup.png")
+    page.get_by_role("button", name="Create account").click()
+    page.wait_for_url(f"{APP}/onboarding")
+    page.get_by_role("button", name="Reading notes").click()
+    page.get_by_role("button", name="Videos").click()
+    shot(page, "fr1-02-onboarding.png")
+    page.get_by_role("button", name="Continue").click()
+    page.wait_for_url(f"{APP}/")
+    uid = next(u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == email)
+    row = db.table("profiles").select("full_name, department, level, learning_preferences").eq("id", uid).execute().data[0]
+    check("sign up and onboarding save name, department, level and study preferences",
+          row["full_name"] == "Ada Okoro" and row["level"] == 500 and sorted(row["learning_preferences"]) == ["note", "video"], str(row))
+    page.close()
+    db.auth.admin.delete_user(uid)
+
+    # Demo names, and the preference visibly used.
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    expect(page.get_by_role("heading", name="Hi Tolu")).to_be_visible()
+    refresh(page)
+    matched = page.get_by_test_id("matched-preference")
+    check("demo account has a realistic name", page.get_by_role("heading", name="Hi Tolu").is_visible(), "Tolu Adeyemi")
+    check("recommendations that matched the preference say so", matched.count() >= 1, matched.first.inner_text() if matched.count() else "none")
+    shot(page, "fr1-03-matched-preference.png")
+
+    # Profile page before and after an edit.
+    page.get_by_role("button", name="Profile menu").click()
+    page.get_by_role("link", name="Profile and reminders").click()
+    page.wait_for_url(f"{APP}/profile")
+    expect(page.get_by_label("Full name")).to_have_value("Tolu Adeyemi")
+    shot(page, "fr1-04-profile-before.png", full_page=True)
+    page.get_by_label("Department").fill("Computer Science (Data Science option)")
+    page.get_by_label("Level").select_option("400")
+    page.get_by_role("button", name="Videos").click()
+    page.get_by_role("button", name="Save profile").click()
+    expect(page.get_by_text("Profile saved.")).to_be_visible()
+    row = db.table("profiles").select("department, level, learning_preferences").eq("id", active_id).execute().data[0]
+    check("Profile page edits are saved with a confirmation",
+          row["department"].endswith("(Data Science option)") and row["level"] == 400 and "video" in row["learning_preferences"], str(row))
+    shot(page, "fr1-05-profile-after.png", full_page=True)
+    db.table("profiles").update({"department": "Computer Science", "level": 500,
+                                 "learning_preferences": ["note", "past_questions"]}).eq("id", active_id).execute()
+    page.close()
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, NEW)
+    expect(page.get_by_role("heading", name="Hi Kemi")).to_be_visible()
+    expect(page.get_by_test_id("recommendation").first).to_be_visible()
+    check("cold-start demo account is Kemi Balogun", page.get_by_test_id("recommendation").first.get_attribute("data-kind") == "getting-started")
+    shot(page, "fr1-06-kemi-cold-start.png")
+    page.close()
+
+    page = browser.new_page(viewport=PHONE)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    page.goto(f"{APP}/profile")
+    expect(page.get_by_label("Full name")).to_have_value("Tolu Adeyemi")
+    overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
+    check("phone width: Profile page fits", not overflow)
+    shot(page, "fr1-07-phone-profile.png", full_page=True)
+    page.close()
+
+
+SECTIONS = {"fr5": fr5, "fr4": fr4, "fr6": fr6, "fr1": fr1}
 
 
 def main() -> int:

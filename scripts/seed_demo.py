@@ -52,8 +52,12 @@ SIM_DOMAIN = "sim.example.com"
 DEMO_DOMAIN = "demo.example.com"
 SIM_PASSWORD = "Simulated-2026!"
 DEMO_PASSWORD = "DemoPass2026!"
-NEW_STUDENT = ("New Student", f"new.student@{DEMO_DOMAIN}")
-ACTIVE_STUDENT = ("Active Student", f"active.student@{DEMO_DOMAIN}")
+NEW_STUDENT = ("Kemi Balogun", f"new.student@{DEMO_DOMAIN}")
+ACTIVE_STUDENT = ("Tolu Adeyemi", f"active.student@{DEMO_DOMAIN}")
+# Preferred ways to study (FR1); the engine prefers these resource types.
+NEW_PREFERENCES = ["lecture", "video"]
+ACTIVE_PREFERENCES = ["note", "past_questions"]
+STUDY_TYPES = ["note", "lecture", "past_questions", "video"]
 # The Active Student's clearly weak topic in each course (by slug).
 WEAK_TOPICS = {"CSC 531": "cognitive-psychology", "CSC 574": "fuzzy-logic"}
 BATCH = 500
@@ -88,7 +92,8 @@ def load_content(db: Client):
     return courses, topics, quizzes, {q["id"]: q for q in questions}
 
 
-def create_user(db: Client, name: str, email: str, password: str, simulated: bool, rng: random.Random) -> str:
+def create_user(db: Client, name: str, email: str, password: str, simulated: bool, rng: random.Random,
+                preferences: list[str] | None = None) -> str:
     user = db.auth.admin.create_user({
         "email": email,
         "password": password,
@@ -102,7 +107,7 @@ def create_user(db: Client, name: str, email: str, password: str, simulated: boo
         "is_simulated": simulated,
         "department": "Computer Science",
         "level": 500,
-        "learning_preferences": rng.sample(["reading", "video", "practice"], k=rng.randint(1, 3)),
+        "learning_preferences": preferences or rng.sample(STUDY_TYPES, k=rng.randint(1, 3)),
     }).eq("id", user.id).execute()
     return user.id
 
@@ -260,8 +265,8 @@ def main() -> int:
         if n % 20 == 0:
             print(f"  created {n} simulated students")
 
-    create_user(db, *NEW_STUDENT, DEMO_PASSWORD, False, rng)
-    active_id = create_user(db, *ACTIVE_STUDENT, DEMO_PASSWORD, False, rng)
+    create_user(db, *NEW_STUDENT, DEMO_PASSWORD, False, rng, NEW_PREFERENCES)
+    active_id = create_user(db, *ACTIVE_STUDENT, DEMO_PASSWORD, False, rng, ACTIVE_PREFERENCES)
     active_history = active_student_history(courses, topics, quizzes, questions, now, rng)
     a, ans, logs = rows_for(active_id, active_history, questions, rng)
     all_attempts += a
@@ -286,8 +291,8 @@ def main() -> int:
         print(f"Wrote {rules.relative_to(rules.parents[2])}")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
     print("\nDemo logins (password for both: " + DEMO_PASSWORD + ")")
-    print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start")
-    print(f"  {ACTIVE_STUDENT[0]:15} {ACTIVE_STUDENT[1]} weak topics -> ML recommendations")
+    print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start (prefers lecture slides, videos)")
+    print(f"  {ACTIVE_STUDENT[0]:15} {ACTIVE_STUDENT[1]} weak topics -> ML recommendations (prefers notes, practice questions)")
     return 0
 
 

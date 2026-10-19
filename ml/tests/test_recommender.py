@@ -110,3 +110,16 @@ def test_weak_topic_gets_its_study_note_before_past_questions_and_lecture():
     assert pick(set()) == "note"
     assert pick({"note"}) == "pq"
     assert pick({"note", "pq"}) == "lec"
+
+
+def test_preferred_type_comes_first_and_is_recorded_as_matched():
+    c = CourseData("c", ["t1"], [
+        ResourceInfo("lec", "t1", "Lecture 1", False, None, "lecture"),
+        ResourceInfo("note", "t1", "Study note", False, None, "note"),
+        ResourceInfo("pq", "t1", "Past questions", False, None, "past_questions"),
+    ], {"t1": "quiz-t1"})
+    m = models({1.0: 0.9}, {1.0: 0.9})
+    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("past_questions",))[0]
+    assert rec.resource_id == "pq" and rec.explanation["matched_preference"] == "past_questions"
+    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("video",))[0]
+    assert rec.resource_id == "note" and rec.explanation["matched_preference"] is None

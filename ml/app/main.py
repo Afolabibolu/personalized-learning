@@ -50,6 +50,7 @@ def recommend(authorization: str | None = Header(default=None)):
     attempts = data.completed_attempts_per_course(db, student_id)
     scores, logs = to_frames(*data.student_history(db, student_id))
     used = data.used_resource_ids(db, student_id)
+    preferred = data.learning_preferences(db, student_id)
     previous_top = data.previous_top_topic(db, student_id)
     now = pd.Timestamp.now(tz="UTC")
 
@@ -57,7 +58,7 @@ def recommend(authorization: str | None = Header(default=None)):
     for course in courses:
         features = prediction_rows(scores, logs, course.topic_ids, now)
         days_since.update(dict(zip(features["topic_id"], features["days_since_last_studied"])))
-        candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used))
+        candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used, preferred))
     # Cold-start lists per course; ML recommendations only for the top topics overall.
     recs = top_overall(candidates)
 

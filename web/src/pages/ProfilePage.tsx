@@ -1,7 +1,8 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { getProfile, updateProfile } from '../api/profile'
-import type { Weekday } from '../api/types'
+import type { LearningPreference, Level, Weekday } from '../api/types'
+import { PreferencePicker } from '../components/PreferencePicker'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
 
 const DAYS: { value: Weekday; label: string }[] = [
@@ -25,8 +26,81 @@ export function ProfilePage() {
       <PageHeader eyebrow="Profile" title={profile.data.full_name ?? 'Your profile'}>
         {[profile.data.department, profile.data.level ? `${profile.data.level} level` : null].filter(Boolean).join(' · ')}
       </PageHeader>
+      <YourDetails />
       <ReminderSettings />
     </div>
+  )
+}
+
+const LEVELS: Level[] = [100, 200, 300, 400, 500]
+
+function YourDetails() {
+  const queryClient = useQueryClient()
+  const profile = useQuery({ queryKey: ['profile'], queryFn: getProfile })
+  const [fullName, setFullName] = useState('')
+  const [department, setDepartment] = useState('')
+  const [level, setLevel] = useState<Level>(500)
+  const [preferences, setPreferences] = useState<LearningPreference[]>([])
+
+  useEffect(() => {
+    if (!profile.data) return
+    setFullName(profile.data.full_name ?? '')
+    setDepartment(profile.data.department ?? '')
+    setLevel(profile.data.level ?? 500)
+    setPreferences(profile.data.learning_preferences)
+  }, [profile.data])
+
+  const save = useMutation({
+    mutationFn: () =>
+      updateProfile({ full_name: fullName.trim(), department: department.trim(), level, learning_preferences: preferences }),
+    onSuccess: () => queryClient.invalidateQueries({ queryKey: ['profile'] }),
+  })
+
+  function changed<T>(setter: (value: T) => void) {
+    return (value: T) => {
+      save.reset()
+      setter(value)
+    }
+  }
+
+  function handleSubmit(e: FormEvent) {
+    e.preventDefault()
+    save.mutate()
+  }
+
+  return (
+    <Card>
+      <h2 className="font-semibold">Your details</h2>
+      <form onSubmit={handleSubmit} className="mt-4 space-y-5">
+        <Field label="Full name">
+          <input required autoComplete="name" className={inputClass} value={fullName} onChange={(e) => changed(setFullName)(e.target.value)} />
+        </Field>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Department">
+            <input required className={inputClass} value={department} onChange={(e) => changed(setDepartment)(e.target.value)} />
+          </Field>
+          <Field label="Level">
+            <select className={inputClass} value={level} onChange={(e) => changed(setLevel)(Number(e.target.value) as Level)}>
+              {LEVELS.map((l) => (
+                <option key={l} value={l}>
+                  {l} level
+                </option>
+              ))}
+            </select>
+          </Field>
+        </div>
+        <PreferencePicker value={preferences} onChange={changed(setPreferences)} />
+        {save.isError && <ErrorMessage error={save.error} />}
+        {save.isSuccess && (
+          <p className="rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800 ring-1 ring-emerald-200" role="status">
+            Profile saved. New recommendations will use your study preferences.
+          </p>
+        )}
+        <Button type="submit" className="w-full sm:w-auto" disabled={save.isPending || !fullName.trim() || !department.trim()}>
+          {save.isPending ? 'Saving…' : 'Save profile'}
+        </Button>
+      </form>
+    </Card>
   )
 }
 
