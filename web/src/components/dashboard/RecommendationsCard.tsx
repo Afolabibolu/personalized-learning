@@ -1,11 +1,12 @@
-import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { refreshRecommendations } from '../../api/ml'
-import { setRecommendationStatus, type Recommendation } from '../../api/recommendations'
-import { daysBetween } from '../../lib/consistency'
-import { ATTENTION_PROBABILITY, keepItUpSuggestion } from '../../lib/suggestions'
+import { setRecommendationStatus, type Explanation, type Recommendation } from '../../api/recommendations'
+import { formatDate, percent } from '../../lib/format'
+import { ATTENTION_PROBABILITY } from '../../lib/suggestions'
 import { RESOURCE_LABEL } from '../ResourceList'
-import { Button, Card, ErrorMessage } from '../ui'
+import { Button, Card } from '../ui'
 
 type Kind = 'attention' | 'getting-started' | 'keep-it-up'
 
@@ -21,7 +22,7 @@ const KIND_STYLE: Record<Kind, { label: string; badge: string; accent: string }>
 }
 
 /** Needs attention (highest probability first), then getting started in order, then keep it up. */
-export function sortRecommendations(recs: Recommendation[]): Recommendation[] {
+function sortRecommendations(recs: Recommendation[]): Recommendation[] {
   const group: Record<Kind, number> = { attention: 0, 'getting-started': 1, 'keep-it-up': 2 }
   return [...recs].sort(
     (a, b) =>
@@ -32,23 +33,24 @@ export function sortRecommendations(recs: Recommendation[]): Recommendation[] {
   )
 }
 
-export function RecommendationsCard({
-  recommendations,
-  topicScores,
-  lastStudied,
-}: {
-  recommendations: Recommendation[]
-  topicScores: Map<string, number>
-  lastStudied: Map<string, Date>
-}) {
+function targetLabel(rec: Recommendation): string | null {
+  if (rec.resource) {
+    const label = RESOURCE_LABEL[rec.resource.type]
+    return rec.resource.title.startsWith(label) ? rec.resource.title : `${label}: ${rec.resource.title}`
+  }
+  if (rec.quiz) return `Take the ${rec.quiz.title}`
+  return null
+}
+
+export function RecommendationsCard({ recommendations }: { recommendations: Recommendation[] }) {
   const queryClient = useQueryClient()
   const refresh = useMutation({
     mutationFn: refreshRecommendations,
     onSettled: () => queryClient.invalidateQueries({ queryKey: ['recommendations'] }),
   })
 
-  const sorted = sortRecommendations(recommendations)
-  const now = new Date()
+  const pending = sortRecommendations(recommendations.filter((r) => r.status === 'pending'))
+  const history = recommendations.filter((r) => r.status !== 'pending')
 
   return (
     <Card className="p-0">
@@ -65,57 +67,55 @@ export function RecommendationsCard({
       </div>
 
       {refresh.isError && (
-        <div className="px-5 pt-4">
-          <ErrorMessage error={new Error('Could not reach the recommendation service. Is it running on port 8000?')} />
-        </div>
+        // The saved list below stays usable; this is a quiet notice, not an error screen (NFR4).
+        <p className="border-b border-amber-100 bg-amber-50 px-5 py-2 text-xs text-amber-800" role="status" data-testid="ml-offline-notice">
+          Recommendations will update shortly. Showing your last saved list.
+        </p>
       )}
 
-      {sorted.length === 0 ? (
+      {pending.length === 0 ? (
         <p className="px-5 py-8 text-center text-sm text-slate-500">
-          No recommendations yet. Take a diagnostic quiz, then press Refresh.
+          Nothing to work on right now. Take a quiz or log a study session, then press Refresh.
         </p>
       ) : (
         <ul className="divide-y divide-slate-100">
-          {sorted.map((rec) => {
-            const studied = lastStudied.get(rec.topic.id)
-            return (
-              <RecommendationRow
-                key={rec.id}
-                rec={rec}
-                suggestion={
-                  kindOf(rec) === 'keep-it-up'
-                    ? keepItUpSuggestion({
-                        latestScore: topicScores.get(rec.topic.id) ?? null,
-                        daysSinceStudied: studied ? daysBetween(studied, now) : null,
-                        hasTopicQuiz: Boolean(rec.topic_quiz_id),
-                      })
-                    : null
-                }
-              />
-            )
-          })}
+          {pending.map((rec) => (
+            <RecommendationRow key={rec.id} rec={rec} />
+          ))}
         </ul>
       )}
+
+      {history.length > 0 && <History items={history} />}
     </Card>
   )
 }
 
-function RecommendationRow({ rec, suggestion }: { rec: Recommendation; suggestion: string | null }) {
+function RecommendationRow({ rec }: { rec: Recommendation }) {
   const queryClient = useQueryClient()
+  const navigate = useNavigate()
+  const [showWhy, setShowWhy] = useState(false)
   const kind = kindOf(rec)
   const style = KIND_STYLE[kind]
+  const explanation = rec.explanation
 
   const update = useMutation({
     mutationFn: (status: 'accepted' | 'dismissed') => setRecommendationStatus(rec.id, status),
-    onSuccess: (_data, status) =>
+    onSuccess: (_data, status) => {
       queryClient.setQueryData<Recommendation[]>(['recommendations'], (prev) =>
-        status === 'dismissed'
-          ? prev?.filter((r) => r.id !== rec.id)
-          : prev?.map((r) => (r.id === rec.id ? { ...r, status: 'accepted' } : r)),
-      ),
+        prev?.map((r) => (r.id === rec.id ? { ...r, status } : r)),
+      )
+      if (status === 'accepted') {
+        if (rec.resource && !rec.resource.url) navigate(`/resources/${rec.resource.id}`)
+        else if (!rec.resource && rec.quiz) navigate(`/quiz/${rec.quiz.id}`)
+      }
+    },
   })
 
-  const accepted = rec.status === 'accepted'
+  function accept() {
+    // Open external links straight from the click, so the browser does not block the new tab.
+    if (rec.resource?.url) window.open(rec.resource.url, '_blank', 'noopener')
+    update.mutate('accepted')
+  }
 
   return (
     <li className="relative px-5 py-4" data-testid="recommendation" data-kind={kind} data-id={rec.id}>
@@ -124,54 +124,133 @@ function RecommendationRow({ rec, suggestion }: { rec: Recommendation; suggestio
         <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ${style.badge}`}>{style.label}</span>
         <span className="text-xs text-slate-500">
           {rec.topic.course.code}
-          {kind === 'attention' && rec.priority_score !== null && ` · ${Math.round(rec.priority_score * 100)}% likely to need work`}
+          {kind === 'attention' && rec.priority_score !== null && ` · ${percent(rec.priority_score)} likely to need work`}
         </span>
       </div>
       <Link to={`/topics/${rec.topic.id}`} className="mt-1.5 block font-semibold hover:text-brand-700" data-testid="recommendation-topic">
         {rec.topic.title}
       </Link>
-      <p className="mt-0.5 text-sm text-slate-600">
-        {rec.resource ? `${RESOURCE_LABEL[rec.resource.type]}: ${rec.resource.title}` : rec.quiz ? `Take the ${rec.quiz.title}` : null}
-      </p>
-      {suggestion && <p className="mt-2 rounded-lg bg-emerald-50/60 px-3 py-2 text-sm text-emerald-900">{suggestion}</p>}
+      <p className="mt-0.5 text-sm text-slate-600">{targetLabel(rec)}</p>
+
+      {explanation && (
+        <p
+          className={`mt-2 rounded-lg px-3 py-2 text-sm ${
+            kind === 'keep-it-up' ? 'bg-emerald-50/60 text-emerald-900' : kind === 'attention' ? 'bg-red-50/60 text-red-900' : 'bg-brand-50/60 text-brand-900'
+          }`}
+          data-testid="recommendation-reason"
+        >
+          {explanation.reason}
+          {kind === 'getting-started' && <span className="block text-xs opacity-80">Take a few quizzes so we can personalise this for you.</span>}
+        </p>
+      )}
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
-        {accepted ? (
-          <>
-            <span className="text-sm font-medium text-emerald-700">✓ Accepted</span>
-            {rec.resource?.url && (
-              <a href={rec.resource.url} target="_blank" rel="noreferrer" className="text-sm font-semibold text-brand-600 hover:text-brand-700">
-                Open resource →
-              </a>
-            )}
-            {rec.resource && !rec.resource.url && (
-              <Link to={`/resources/${rec.resource.id}`} className="text-sm font-semibold text-brand-600 hover:text-brand-700">
-                Open resource →
-              </Link>
-            )}
-            {rec.quiz && (
-              <Link to={`/quiz/${rec.quiz.id}`} className="text-sm font-semibold text-brand-600 hover:text-brand-700">
-                Start quiz →
-              </Link>
-            )}
-          </>
-        ) : (
-          <>
-            <Button className="px-3 py-1.5" onClick={() => update.mutate('accepted')} disabled={update.isPending}>
-              Accept
-            </Button>
-            <Button variant="ghost" className="px-3 py-1.5" onClick={() => update.mutate('dismissed')} disabled={update.isPending}>
-              Dismiss
-            </Button>
-          </>
+        <Button className="px-3 py-1.5" onClick={accept} disabled={update.isPending}>
+          Accept and open
+        </Button>
+        <Button variant="ghost" className="px-3 py-1.5" onClick={() => update.mutate('dismissed')} disabled={update.isPending}>
+          Dismiss
+        </Button>
+        {explanation?.probabilities && (
+          <button
+            onClick={() => setShowWhy((v) => !v)}
+            aria-expanded={showWhy}
+            className="ml-auto text-sm font-semibold text-brand-600 hover:text-brand-700"
+          >
+            {showWhy ? 'Hide details' : 'Why this?'}
+          </button>
         )}
       </div>
-      {update.isError && (
-        <div className="mt-2">
-          <ErrorMessage error={update.error} />
-        </div>
-      )}
+      {update.isError && <p className="mt-2 text-xs text-red-600">Could not save that. Try again.</p>}
+      {showWhy && explanation?.probabilities && <WhyPanel explanation={explanation} />}
     </li>
+  )
+}
+
+function WhyPanel({ explanation }: { explanation: Explanation }) {
+  const p = explanation.probabilities!
+  const rows = [
+    { label: 'Logistic Regression', value: p.logistic_regression },
+    { label: 'Random Forest', value: p.random_forest },
+    { label: 'Average (used to rank)', value: p.average, strong: true },
+  ]
+  return (
+    <div className="mt-3 rounded-xl bg-slate-50 p-4 text-sm" data-testid="why-panel">
+      <p className="mb-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">Chance this topic needs attention</p>
+      <div className="grid gap-2">
+        {rows.map((r) => (
+          <div key={r.label} className="grid grid-cols-[7.5rem_1fr_2.5rem] sm:grid-cols-[11rem_1fr_3rem] items-center gap-2">
+            <span className={r.strong ? 'font-semibold' : 'text-slate-600'}>{r.label}</span>
+            <span className="h-2 overflow-hidden rounded-full bg-slate-200">
+              <span className={`block h-full rounded-full ${r.strong ? 'bg-brand-600' : 'bg-slate-400'}`} style={{ width: `${r.value * 100}%` }} />
+            </span>
+            <span className={`text-right tabular-nums ${r.strong ? 'font-semibold' : 'text-slate-600'}`}>{percent(r.value)}</span>
+          </div>
+        ))}
+      </div>
+      {explanation.top_factors.length > 0 && (
+        <>
+          <p className="mt-4 mb-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">What drove it</p>
+          <ul className="grid gap-1">
+            {explanation.top_factors.map((f) => (
+              <li key={f.feature} className="flex items-center justify-between gap-3">
+                <span>
+                  {f.label}: <span className="font-medium">{factorValue(f.feature, f.value)}</span>
+                </span>
+                <span className={`text-xs font-semibold ${f.direction === 'raises risk' ? 'text-red-600' : 'text-emerald-600'}`}>
+                  {f.direction === 'raises risk' ? '▲ raises risk' : '▼ lowers risk'}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      <p className="mt-3 text-xs text-slate-500">Models trained on simulated students; factors from the Logistic Regression model.</p>
+    </div>
+  )
+}
+
+function factorValue(feature: string, value: number): string {
+  if (feature.endsWith('_score')) return `${Math.round(value)}%`
+  if (feature === 'days_since_last_studied') return value >= 60 ? 'never studied' : `${Math.round(value)} days`
+  if (feature === 'total_minutes') return `${Math.round(value)} min`
+  return String(Math.round(value))
+}
+
+function History({ items }: { items: Recommendation[] }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="border-t border-slate-100">
+      <button
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="flex w-full items-center justify-between px-5 py-3 text-sm font-semibold text-slate-600 hover:bg-slate-50"
+      >
+        History ({items.length})
+        <span aria-hidden>{open ? '▴' : '▾'}</span>
+      </button>
+      {open && (
+        <ul className="divide-y divide-slate-100 pb-2" data-testid="recommendation-history">
+          {items.map((rec) => (
+            <li key={rec.id} className="flex items-center justify-between gap-3 px-5 py-2.5 text-sm">
+              <span className="min-w-0">
+                <span className="block truncate font-medium">{rec.topic.title}</span>
+                <span className="block truncate text-xs text-slate-500">
+                  {targetLabel(rec)} · {formatDate(rec.created_at)}
+                </span>
+              </span>
+              <span
+                className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold ${
+                  rec.status === 'accepted' ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-500'
+                }`}
+              >
+                {rec.status === 'accepted' ? 'Accepted' : 'Dismissed'}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   )
 }
 

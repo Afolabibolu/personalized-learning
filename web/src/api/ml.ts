@@ -18,6 +18,8 @@ export async function refreshRecommendations(): Promise<void> {
  * Fire-and-forget trigger after a quiz submit or study log. The student's
  * action has already been saved, so a failure here is only logged.
  */
-export function triggerRecommendations(): void {
-  refreshRecommendations().catch((e) => console.warn('Recommendations not refreshed:', e))
+export function triggerRecommendations(onDone?: () => void): void {
+  refreshRecommendations()
+    .then(() => onDone?.())
+    .catch((e) => console.warn('Recommendations not refreshed:', e))
 }
