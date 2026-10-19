@@ -48,14 +48,14 @@ CHECKLIST = [
     Shot("09-quiz-odd-one-out.png", "Quiz question: odd one out", "New sign-up (Demo Student)", "'Pick the one that does not belong' hint (FR2)"),
     Shot("10-results-summary.png", "Diagnostic results: score per topic", "New sign-up (Demo Student)", "Overall score, a coloured bar per topic, weakest topic called out (FR2)"),
     Shot("11-results-answers.png", "Diagnostic results: answer review", "New sign-up (Demo Student)", "Each question with your answer, the correct answer and the explanation (FR2)"),
-    Shot("12-topic.png", "Topic page", "New sign-up (Demo Student)", "Latest score badge, Take topic quiz, Log study session, resources and subtopics (FR5)"),
-    Shot("13-log-study.png", "Study logger", "New sign-up (Demo Student)", "Topic, 30 min and Reading selected, 'Saved' confirmation, recent sessions (FR3)"),
-    Shot("14-dashboard-new.png", "Dashboard, cold start", "New Student", "Reminders to log study and take diagnostics; six 'Getting started' lectures in order; empty streak (FR4, NFR4)"),
-    Shot("15-dashboard-active.png", "Dashboard, ML recommendations", "Active Student", "Weak-topic reminders; Cognitive Psychology and Fuzzy Logic as 'Needs attention' first; one 'Keep it up' with a suggestion; streak, 14-day strip, progress chart (FR4, FR6)"),
-    Shot("16-dashboard-accepted.png", "Recommendation accepted", "Active Student", "First recommendation shows '✓ Accepted' and 'Open resource' (FR4)"),
-    Shot("17-progress-csc574.png", "Progress chart, CSC 574 tab", "Active Student", "Fuzzy Logic Systems bar in red below the 50% line (FR6)"),
-    Shot("18-phone-dashboard.png", "Dashboard on a phone (390 px)", "Active Student", "Same dashboard in one column, compact nav (NFR1)"),
-    Shot("19-phone-quiz.png", "Quiz on a phone (390 px)", "Active Student", "Question and options fit the screen, Back/Next reachable (NFR1)"),
+    Shot("12-topic.png", "Topic page", "New sign-up (Demo Student)", "Summary, latest score, Take topic quiz, Log study session, resources grouped by type, subtopics (FR5)"),
+    Shot("13-log-study.png", "Study logger", "New sign-up (Demo Student)", "Topic, 30 min and Reading selected, 'Custom (minutes)', optional timer, 'Saved' confirmation, recent sessions (FR3)"),
+    Shot("14-dashboard-new.png", "Dashboard, cold start", "Kemi Balogun (new.student@demo.example.com)", "'Hi Kemi'; reminders to log study and take diagnostics; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4)"),
+    Shot("15-dashboard-active.png", "Dashboard, ML recommendations", "Tolu Adeyemi (active.student@demo.example.com)", "'Hi Tolu'; bell with unread count; weekly summary; Cognitive Psychology and Fuzzy Logic 'Needs attention' with reason lines and 'Matched to your preference'; one 'Keep it up'; streak, 14-day strip, progress chart (FR1, FR4, FR6)"),
+    Shot("16-why-this.png", "'Why this?' panel", "Tolu Adeyemi", "Logistic Regression and Random Forest probabilities, their average, and the factors that raise risk (FR4)"),
+    Shot("17-progress-csc574.png", "Progress chart, CSC 574 tab", "Tolu Adeyemi", "Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6)"),
+    Shot("18-phone-dashboard.png", "Dashboard on a phone (390 px)", "Tolu Adeyemi", "One column; menu button and bell stay in the header (NFR1)"),
+    Shot("19-phone-quiz.png", "Quiz on a phone (390 px)", "Tolu Adeyemi", "Question and options fit the screen, Back/Next reachable (NFR1)"),
 ]
 
 # Not taken by this script; captured from files or the terminal.
@@ -68,7 +68,10 @@ OTHER = [
     ("ml/results/metrics_simulated_data.md", "Three-row metrics table (simulated data)", "FR4"),
     ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
     ("terminal: python scripts/rls_check.py", "Output ending '33/33 checks passed'", "NFR3"),
-    ("docs/performance.md", "Response-time table", "NFR2"),
+    ("docs/results/performance.md", "Response-time table (20 runs each)", "NFR2"),
+    ("docs/results/security.md", "Row-level security check, 40 checks", "NFR3"),
+    ("ml/results/summary.md", "Results in plain words, for Chapter Four (simulated data)", "FR4"),
+    ("Supabase dashboard: Authentication → Policies (taken by hand)", "RLS enabled on every table, with its policies", "NFR3"),
 ]
 
 
@@ -173,11 +176,11 @@ def demo_flows(browser) -> None:
     refresh_recommendations(page)
     save(page, "15-dashboard-active.png", full_page=True)
     first = page.get_by_test_id("recommendation").first
-    first.get_by_role("button", name="Accept").click()
-    expect(first.get_by_text("Accepted")).to_be_visible()
+    first.get_by_role("button", name="Why this?").click()
+    expect(page.get_by_test_id("why-panel")).to_be_visible()
     first.scroll_into_view_if_needed()
-    page.evaluate("window.scrollBy(0, -120)")
-    save(page, "16-dashboard-accepted.png")
+    page.evaluate("window.scrollBy(0, -80)")
+    save(page, "16-why-this.png")
     page.get_by_role("tab", name="CSC 574").click()
     page.get_by_test_id("progress-chart").scroll_into_view_if_needed()
     page.evaluate("window.scrollBy(0, 160)")
@@ -199,6 +202,40 @@ def demo_flows(browser) -> None:
     page.close()
 
 
+# Taken by `python scripts/phase7_check.py --shots docs/screenshots/phase7`.
+PHASE7 = [
+    Shot("fr5-01-knowledge-base.png", "Knowledge Base", "Tolu Adeyemi", "Live counts, search box, topics with summaries and subtopics, resources grouped by type (FR5)"),
+    Shot("fr5-02-search.png", "Knowledge Base search", "Tolu Adeyemi", "'fuzzy' filters to Fuzzy Logic Systems (FR5)"),
+    Shot("fr5-03-study-note.png", "Study note in the resource viewer", "Tolu Adeyemi", "Cognitive Psychology note rendered in the app, ending 'Source: Lecture 6' (FR5)"),
+    Shot("fr5-04-past-questions.png", "Past questions in the resource viewer", "Tolu Adeyemi", "Data Gathering past questions grouped by paper, with the data table (FR5)"),
+    Shot("fr5-05-topic.png", "Topic page", "Tolu Adeyemi", "Summary, resources grouped by type, quiz and log buttons (FR5)"),
+    Shot("fr5-06-phone-knowledge-base.png", "Knowledge Base on a phone (375 px)", "Tolu Adeyemi", "Menu button nav, no sideways scroll (FR5, NFR1)"),
+    Shot("fr4-01-why-this.png", "'Why this?' panel", "Tolu Adeyemi", "Both model probabilities, their average, top factors (FR4)"),
+    Shot("fr4-02-getting-started.png", "Cold-start items", "Kemi Balogun", "'Getting started', 'Not enough quiz history yet', 'Take a few quizzes so we can personalise this for you' (FR4)"),
+    Shot("fr4-03-history.png", "Recommendation history", "Kemi Balogun", "Accepted and dismissed items under History (FR4)"),
+    Shot("fr4-04-service-down.png", "ML service unreachable", "Kemi Balogun", "Quiet notice 'Recommendations will update shortly', saved list still shown (FR4, NFR4)"),
+    Shot("fr4-05-phone-why-this.png", "'Why this?' on a phone", "Tolu Adeyemi", "Panel fits at 375 px (FR4, NFR1)"),
+    Shot("fr6-01-bell.png", "Notifications bell", "Tolu Adeyemi", "Unread count and the list of reminders and feedback with times (FR6)"),
+    Shot("fr6-02-notifications-page.png", "Notifications page", "Tolu Adeyemi", "Full list, mark all read, link to reminder settings (FR6)"),
+    Shot("fr6-03-weekly-summary.png", "Weekly summary", "Tolu Adeyemi", "Minutes vs last week, topics improved, next focus (FR6)"),
+    Shot("fr6-04-progress-chart.png", "Progress chart", "Tolu Adeyemi", "Long topic names on two lines (FR6)"),
+    Shot("fr6-05-reminder-settings.png", "Reminder settings", "Tolu Adeyemi", "Study days, time, daily goal, browser notifications, 'saved' (FR6)"),
+    Shot("fr6-06-phone-bell.png", "Bell on a phone", "Tolu Adeyemi", "Bell visible beside the menu button, list fits (FR6, NFR1)"),
+    Shot("fr1-01-signup.png", "Sign-up form", "New sign-up (Ada Okoro)", "Name, email, password (FR1)"),
+    Shot("fr1-02-onboarding.png", "Onboarding", "New sign-up (Ada Okoro)", "The four study preferences, two selected (FR1)"),
+    Shot("fr1-03-matched-preference.png", "Matched to preference", "Tolu Adeyemi", "'Hi Tolu', '✓ Matched to your preference: study notes' (FR1)"),
+    Shot("fr1-04-profile-before.png", "Profile, before an edit", "Tolu Adeyemi", "Your details and reminder settings (FR1)"),
+    Shot("fr1-05-profile-after.png", "Profile, after an edit", "Tolu Adeyemi", "New department and level, 'Profile saved.' (FR1)"),
+    Shot("fr1-06-kemi-cold-start.png", "Kemi's dashboard", "Kemi Balogun", "'Hi Kemi' with the introductory list (FR1, NFR4)"),
+    Shot("fr1-07-phone-profile.png", "Profile on a phone", "Tolu Adeyemi", "Fits at 375 px (FR1, NFR1)"),
+    Shot("fr2-01-results-change.png", "Results: change since last attempt", "Temporary student", "'0% to 20%, up 20 points' under the topic bar (FR2)"),
+    Shot("fr2-02-quiz-history.png", "Quiz history", "Tolu Adeyemi", "Date, quiz and score for every CSC 531 attempt (FR2)"),
+    Shot("fr3-01-timer.png", "Study timer", "Temporary student", "Timer paused, ready to stop and use the time (FR3)"),
+    Shot("fr3-02-logger.png", "Study logger", "Temporary student", "'Custom (minutes)', timer, 'Saved' confirmation (FR3)"),
+    Shot("fr3-03-phone-logger.png", "Study logger on a phone", "Tolu Adeyemi", "Fits at 375 px, recent sessions stacked (FR3, NFR1)"),
+]
+
+
 def write_checklist() -> None:
     rows = "\n".join(
         f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/{s.file}) |"
@@ -214,6 +251,13 @@ def write_checklist() -> None:
         "Active Student `active.student@demo.example.com`.\n\n"
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         f"{rows}\n\n"
+        "## Requirement screens (Phase 7)\n\n"
+        "Taken by `python scripts/phase7_check.py --shots docs/screenshots/phase7` (laptop 1280 px unless stated). "
+        "Run `python scripts/seed_demo.py --demo-only` first.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase7/{s.file}) |"
+                     for i, s in enumerate(PHASE7, start=len(CHECKLIST) + 1))
+        + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"
         f"{other}\n\n"
@@ -245,7 +289,10 @@ def main() -> int:
 
     write_checklist()
     missing = [s.file for s in CHECKLIST if not (SHOTS / s.file).exists()]
+    missing7 = [s.file for s in PHASE7 if not (SHOTS / "phase7" / s.file).exists()]
     print(f"\n{len(CHECKLIST) - len(missing)}/{len(CHECKLIST)} screens captured" + (f"; missing {missing}" if missing else ""))
+    print(f"{len(PHASE7) - len(missing7)}/{len(PHASE7)} Phase 7 screens present" + (f"; missing {missing7}" if missing7 else ""))
+    missing += missing7
     return 1 if missing else 0
 
 

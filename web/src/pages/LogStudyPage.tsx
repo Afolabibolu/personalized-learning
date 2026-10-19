@@ -124,6 +124,12 @@ export function LogStudyPage() {
         </form>
       </Card>
 
+      {logs.data && logs.data.length === 0 && (
+        <p className="mt-8 rounded-xl bg-white px-4 py-3 text-center text-sm text-slate-500 ring-1 ring-slate-200" data-testid="no-sessions">
+          No study sessions yet. Log your first one above; it helps the system spot neglected topics.
+        </p>
+      )}
+
       {logs.data && logs.data.length > 0 && (
         <section className="mt-8">
           <h2 className="mb-3 text-sm font-semibold tracking-wide text-slate-500 uppercase">Recent sessions</h2>

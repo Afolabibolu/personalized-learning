@@ -1,8 +1,8 @@
 # Test cases (Chapter Four)
 
-Run 2026-10-19 17:14 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-10-19 22:55 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
-**Summary:** 15 pass, 1 partial, 0 fail.
+**Summary:** 20 pass, 1 partial, 0 fail.
 
 | ID | Requirement | Test | Expected result | Actual result | Pass/Fail |
 | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,7 @@ Run 2026-10-19 17:14 with `python scripts/run_test_cases.py`. One or more cases 
 | TC-04 | FR2 | Topic quiz grading and question selection | All four formats graded correctly (partial multi-select is wrong); unseen questions first; a submitted attempt cannot be resubmitted; latest score per topic is correct | 3 of 3 checks passed | **Pass** |
 | TC-05 | FR3 | Log a study session | Session saved with topic, duration and activity type; logging for someone else is refused | 3 of 3 checks passed | **Pass** |
 | TC-06 | FR4 | ML recommendations rank weak topics first | Top 3 overall from the models; the two weak topics ranked 1 and 2; re-running does not duplicate pending recommendations | 4 of 4 checks passed | **Pass** |
-| TC-07 | FR4 / NFR4 | Cold-start fallback for a new student | Introductory resources for each course in order, labelled 'Getting started'; not empty, no ML scores | 4 of 4 checks passed | **Pass** |
+| TC-07 | FR4 / NFR4 | Cold-start fallback for a new student | For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores | 4 of 4 checks passed | **Pass** |
 | TC-08 | FR4 | Model training and comparison with a rule baseline (simulated data) | Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data | 3 of 3 checks passed | **Pass** |
 | TC-09 | FR5 | Academic knowledge base | Validation passes; 2 courses, 12 topics, 120 approved questions; every topic has a resource and a topic quiz | 6 of 6 checks passed | **Pass** |
 | TC-10 | FR6 | Progress tracking and consistency | Streak, 14-day activity strip and per-topic progress chart shown; logic tests pass | 5 of 5 checks passed | **Pass** |
@@ -20,14 +20,20 @@ Run 2026-10-19 17:14 with `python scripts/run_test_cases.py`. One or more cases 
 | TC-12 | NFR1 | Usability: core tasks without assistance | Every core task completes at both widths; SUS score above 68 | 3 of 3 checks passed; 1 not run | **Partial** |
 | TC-13 | NFR2 | Response times | p95 within target: quiz submit ≤ 2 s (browser), dashboard load ≤ 3 s, background recommendation update ≤ 5 s | 4 of 4 checks passed | **Pass** |
 | TC-14 | NFR3 | Security: row-level security | A student gets zero rows of another student's data, cannot read questions, cannot write scores or answers, and can change only the status of their own recommendations | 7 of 7 checks passed | **Pass** |
-| TC-15 | NFR4 | Reliability: predictable behaviour with limited data | Cold-start list instead of an error or empty result, including when the model files are missing | 6 of 6 checks passed | **Pass** |
+| TC-15 | NFR4 | Reliability: predictable behaviour with limited data | Cold-start list instead of an error or empty result, including when the model files are missing | 10 of 10 checks passed | **Pass** |
 | TC-16 | NFR5 | Portability: add a course without code changes | The new course validates and loads with no code change | 3 of 3 checks passed | **Pass** |
+| TC-17 | FR1 | Profile page, realistic demo names and learning preferences | Name, department, level and preferred resource types saved; recommendations that use the preferred type say 'Matched to your preference'; profile edits confirmed | 6 of 6 checks passed | **Pass** |
+| TC-18 | FR2 / FR3 | Score change, quiz history, custom minutes and study timer | First attempt says so; second shows the change since last time; course page lists the quiz history; 400 rejected, 45 accepted; timer fills in the duration | 8 of 8 checks passed | **Pass** |
+| TC-19 | FR4 | Explained recommendations, accept and history | Every item has a reason from the features; 'Why this?' shows both probabilities, the average and the top factors; accepted items open the resource and move to History; a quiet notice when the ML service is down | 10 of 10 checks passed | **Pass** |
+| TC-20 | FR5 | Knowledge Base: notes, past questions and lecture links | Live counts, topics with summaries, resources grouped by type, search as you type; notes and past questions render in the app; lectures open in a new tab; every topic has a note, a lecture and a quiz | 11 of 11 checks passed | **Pass** |
+| TC-21 | FR6 | Notifications, reminders and weekly summary | Unread count; clicking marks read and follows the link; weekly summary and two-line chart labels; settings saved; each reminder kind fires at most once a day and stays private | 11 of 11 checks passed | **Pass** |
 
 Notes
 
 - TC-12 is partial by design: the automated walkthrough shows the core tasks complete without assistance, but the SUS questionnaire with student participants (Section 3.14.3) was not run for this demo and is future work.
 - TC-08 metrics come from simulated students, not real students (simulated data).
-- TC-13 targets were set for this test; see docs/performance.md for all samples and caveats.
+- TC-13 targets were set for this test; see docs/results/performance.md for all samples and caveats.
+- First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the old file layout (resources inside the course file, no study notes). Both were faults in the test script, not the app; the script was updated and every case was run again for the table above.
 
 ## Details
 
@@ -46,7 +52,7 @@ Notes
 ```
     PASS  sign up lands on onboarding  (http://localhost:5173/onboarding)
     PASS  onboarding saves, opens the dashboard, and the course list loads
-    PASS  profiles: name, department, level and preferences saved  (Phase Three Student, Computer Science, 500, ['reading', 'practice'])
+    PASS  profiles: name, department, level and preferences saved  (Phase Three Student, Computer Science, 500, ['note', 'past_questions'])
 ```
 
 ### TC-02 · FR1 · Sign in, protected pages, sign out, update profile
@@ -88,9 +94,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 22.22)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 16.67)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (18 passed in 28.96s)
+    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 51.21s)
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -104,7 +110,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 18 passed in 28.96s
+    PASS  pytest scripts: 25 passed in 51.21s
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -154,7 +160,7 @@ Notes
 2. POST /recommend
 3. Open the dashboard
 
-**Expected:** Introductory resources for each course in order, labelled 'Getting started'; not empty, no ML scores
+**Expected:** For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores
 
 **Actual:** 4 of 4 checks passed. **Result: Pass**
 
@@ -162,7 +168,7 @@ Notes
     PASS  every recommendation is cold start  (6 recommendation(s))
     PASS  one introductory list per course
     PASS  every recommendation is 'Getting started'  (6 items)
-    PASS  introductory list is the first three lectures of each course
+    PASS  introductory list: topic 1's note and lecture, then topic 2's note, for each course  (6 items)
 ```
 
 ### TC-08 · FR4 · Model training and comparison with a rule baseline (simulated data)
@@ -183,7 +189,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 26 passed in 2.12s
+    PASS  pytest ml (features, simulator, cold start, ranking): 42 passed in 2.12s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -238,11 +244,11 @@ Notes
 **Actual:** 7 of 7 checks passed. **Result: Pass**
 
 ```
-    PASS  the third says 'Keep it up' with a suggestion
+    PASS  the third says 'Keep it up' with a suggestion  (Scoring 100%. Try the topic quiz: questions you haven't seen come first.)
     PASS  at least one reminder  (Cognitive Psychology and Perception scored 40% and you haven't studied it yet.)
     PASS  new student is reminded to take a diagnostic
-    PASS  Accept sets status to accepted  (HCI, Interactive Systems and Usability)
-    PASS  Dismiss sets status to dismissed and hides it  (Understanding the Problem Space and User-Centred Design)
+    PASS  Accept sets status to accepted and opens the resource  (HCI, Interactive Systems and Usability)
+    PASS  Dismiss sets status to dismissed and moves it to History  (HCI, Interactive Systems and Usability)
     PASS  A changes priority_score of own recommendation  (refused: 42501 permission denied for table recommendations)
     PASS  A accepts own recommendation  (1 row(s))
 ```
@@ -269,17 +275,17 @@ Notes
 
 **Steps**
 
-1. python scripts/measure_performance.py --runs 10
+1. python scripts/timing.py --runs 20
 
 **Expected:** p95 within target: quiz submit ≤ 2 s (browser), dashboard load ≤ 3 s, background recommendation update ≤ 5 s
 
 **Actual:** 4 of 4 checks passed. **Result: Pass**
 
 ```
-    PASS  quiz_submit_api: median 0.22 s, p95 0.27 s, target 1.0 s (10 runs, 2026-10-19 17:11)
-    PASS  quiz_submit_ui: median 0.33 s, p95 0.83 s, target 2.0 s (10 runs, 2026-10-19 17:11)
-    PASS  dashboard_load_ui: median 1.35 s, p95 1.38 s, target 3.0 s (10 runs, 2026-10-19 17:11)
-    PASS  recommend_api: median 2.28 s, p95 4.49 s, target 5.0 s (10 runs, 2026-10-19 17:11)
+    PASS  quiz_submit_api: median 0.20 s, p95 0.23 s, target 1.0 s (20 runs, 2026-10-19 22:37)
+    PASS  quiz_submit_ui: median 0.32 s, p95 0.83 s, target 2.0 s (20 runs, 2026-10-19 22:37)
+    PASS  dashboard_load_ui: median 0.89 s, p95 2.38 s, target 3.0 s (20 runs, 2026-10-19 22:37)
+    PASS  recommend_api: median 2.65 s, p95 2.91 s, target 5.0 s (20 runs, 2026-10-19 22:37)
 ```
 
 ### TC-14 · NFR3 · Security: row-level security
@@ -293,7 +299,7 @@ Notes
 **Actual:** 7 of 7 checks passed. **Result: Pass**
 
 ```
-    PASS  rls_check.py: 33/33 checks passed
+    PASS  rls_check.py: 40/40 checks passed
     PASS  A reads B's study logs  (0 rows)
     PASS  A reads B's quiz attempts  (0 rows)
     PASS  A reads B's recommendations  (0 rows)
@@ -311,9 +317,13 @@ Notes
 
 **Expected:** Cold-start list instead of an error or empty result, including when the model files are missing
 
-**Actual:** 6 of 6 checks passed. **Result: Pass**
+**Actual:** 10 of 10 checks passed. **Result: Pass**
 
 ```
+    PASS  unit test test_cold_start_rows_explain_why_and_have_no_probabilities
+    PASS  unit test test_a_failing_model_falls_back_to_cold_start_instead_of_an_error
+    PASS  unit test test_corrupt_model_files_mean_cold_start
+    PASS  unit test test_cold_start_runs_send_nothing
     PASS  unit test test_below_threshold_gets_introductory_resources_in_order
     PASS  unit test test_missing_model_files_means_cold_start_even_with_history
     PASS  unit test test_at_threshold_ranks_topics_by_averaged_probability
@@ -338,4 +348,129 @@ Notes
     PASS  validate.py accepts a new course: 0 error(s)
     PASS  load.py loads it with no code change: TST 999: 5 topics, 50 questions, diagnostic of 15
     PASS  test course removed afterwards
+```
+
+### TC-17 · FR1 · Profile page, realistic demo names and learning preferences
+
+**Steps**
+
+1. Sign up and onboard a new student
+2. Open the dashboard as Tolu Adeyemi
+3. Edit department and level on /profile
+
+**Expected:** Name, department, level and preferred resource types saved; recommendations that use the preferred type say 'Matched to your preference'; profile edits confirmed
+
+**Actual:** 6 of 6 checks passed. **Result: Pass**
+
+```
+    PASS  sign up and onboarding save name, department, level and study preferences  ({'full_name': 'Ada Okoro', 'department': 'Computer Science', 'level': 500, 'learning_preferences': ['note', 'video']})
+    PASS  demo account has a realistic name  (Tolu Adeyemi)
+    PASS  recommendations that matched the preference say so  (✓
+    PASS  Profile page edits are saved with a confirmation  ({'department': 'Computer Science (Data Science option)', 'level': 400, 'learning_preferences': ['note', 'past_questions', 'video']})
+    PASS  cold-start demo account is Kemi Balogun
+    PASS  phone width: Profile page fits
+```
+
+### TC-18 · FR2 / FR3 · Score change, quiz history, custom minutes and study timer
+
+**Steps**
+
+1. Take the same topic quiz twice
+2. Open the course page
+3. Log study with 400, then 45 custom minutes, then with the timer
+
+**Expected:** First attempt says so; second shows the change since last time; course page lists the quiz history; 400 rejected, 45 accepted; timer fills in the duration
+
+**Actual:** 8 of 8 checks passed. **Result: Pass**
+
+```
+    PASS  results: first attempt on a topic says so
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (0% to 0%, no change)
+    PASS  'Custom (minutes)' is labelled and rejects 400
+    PASS  'Custom (minutes)' accepts 45
+    PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
+    PASS  after saving: confirmation, and recommendations refresh in the background
+    PASS  course page: quiz history with date, quiz and score  (15 Oct 2026 Cognitive Psychology and Perception quiz 40% · Needs attention)
+    PASS  phone width: logger with timer fits
+```
+
+### TC-19 · FR4 · Explained recommendations, accept and history
+
+**Steps**
+
+1. Open the dashboard as Tolu
+2. Open 'Why this?'
+3. Accept and Dismiss items
+4. Block the ML service and log a session
+
+**Expected:** Every item has a reason from the features; 'Why this?' shows both probabilities, the average and the top factors; accepted items open the resource and move to History; a quiet notice when the ML service is down
+
+**Actual:** 10 of 10 checks passed. **Result: Pass**
+
+```
+    PASS  a reason line on every recommendation  (Last score 40%. Not studied yet. 0 minutes studied in total.)
+    PASS  reason built from the features
+    PASS  'Why this?' shows both model probabilities, their average and the factors  (92% | 85% | 89% | Average score: 20%)
+    PASS  'Keep it up' item says why
+    PASS  cold-start items look different, with the personalise line
+    PASS  Accept opens a study note inside the app  (HCI, Interactive Systems and Usability)
+    PASS  Accept opens lecture slides in a new tab  (https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWo)
+    PASS  accepted and dismissed items leave the list and appear under History
+    PASS  ML service down: quiet notice, saved recommendations still shown  (Recommendations will update shortly. Showing your last saved list.)
+    PASS  phone width: reason and 'Why this?' fit without sideways scroll
+```
+
+### TC-20 · FR5 · Knowledge Base: notes, past questions and lecture links
+
+**Steps**
+
+1. Open Knowledge Base
+2. Search 'fuzzy'
+3. Open a study note, a past-questions page and a lecture link
+4. Open a topic page
+
+**Expected:** Live counts, topics with summaries, resources grouped by type, search as you type; notes and past questions render in the app; lectures open in a new tab; every topic has a note, a lecture and a quiz
+
+**Actual:** 11 of 11 checks passed. **Result: Pass**
+
+```
+    PASS  Knowledge Base page in the nav with live counts  (2 courses 12 topics 40 resources 120 practice questions)
+    PASS  courses, then topics in order with summaries and subtopics  (12 topics; first: HCI, Interactive Systems and Usability)
+    PASS  resources grouped by type  (Study notes, Lecture slides, Past questions)
+    PASS  search filters topics as you type  ('fuzzy' -> 1 topic(s))
+    PASS  empty search shows a clear next step
+    PASS  study note opens inside the app, rendered from Markdown  (sections ['What the topic is', 'Subtopics', 'Key terms', 'Exam-style point']; 'Source: Lecture 6')
+    PASS  past questions open inside the app, grouped by year (tables rendered)  (3 papers, 2 table(s))
+    PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
+    PASS  topic page: summary, subtopics, resources by type, quiz and log buttons
+    PASS  every topic has a study note, a lecture link and a topic quiz  (12 of 12)
+    PASS  phone width (375 px): menu button opens the nav; no sideways scroll
+```
+
+### TC-21 · FR6 · Notifications, reminders and weekly summary
+
+**Steps**
+
+1. Open the bell as Tolu
+2. Click a notification
+3. Check the weekly summary and progress chart
+4. Save reminder settings
+5. pytest scripts/test_reminders.py
+
+**Expected:** Unread count; clicking marks read and follows the link; weekly summary and two-line chart labels; settings saved; each reminder kind fires at most once a day and stays private
+
+**Actual:** 11 of 11 checks passed. **Result: Pass**
+
+```
+    PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
+    PASS  bell in the nav with an unread count  (2 unread; kinds: daily_goal_reached, new_recommendations, score_improved, streak_at_risk, weak_topic_unstudied)
+    PASS  bell opens a list of reminders and feedback, each with a time  (5 shown)
+    PASS  clicking a notification marks it read and follows its link  (2 -> 1 unread, now at /topics/6c2abef1-016b-4cad-b49e-6f83fb56fe75)
+    PASS  full notifications page
+    PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 825 min ▲ 330 min vs last week (495 min) | TOPICS IMPROVED Knowledge Representation and Reasoning 80% → 100% Fuzzy Logic Systems 20% → 40% and 1 more )
+    PASS  progress chart: long names on two lines, full name on hover  (6 wrapped)
+    PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
+    PASS  phone width: bell stays visible and its list fits
+    PASS  'Custom (minutes)' is labelled and rejects 400
+    PASS  pytest test_reminders.py: 6 passed in 20.14s
 ```

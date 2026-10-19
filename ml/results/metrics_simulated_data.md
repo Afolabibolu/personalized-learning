@@ -6,7 +6,7 @@ All figures come from simulated students created by `scripts/seed_demo.py` (rule
 - Positive class (requires attention: next attempt below 50%): 30.6%
 - Features: mean_score, last_score, attempt_count, session_count, total_minutes, days_since_last_studied
 - The rule baseline uses only last_score; the models use all six features.
-- Trained: 2026-10-19 16:08 UTC, model version v1
+- Trained: 2026-10-19 21:39 UTC, model version v1
 
 ## 5-fold stratified cross-validation, mean ± standard deviation (simulated data)
 
