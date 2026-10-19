@@ -8,7 +8,9 @@ import { CoursesPage } from './pages/CoursesPage'
 import { DashboardPage } from './pages/DashboardPage'
 import { KnowledgeBasePage } from './pages/KnowledgeBasePage'
 import { LogStudyPage } from './pages/LogStudyPage'
+import { NotificationsPage } from './pages/NotificationsPage'
 import { OnboardingPage } from './pages/OnboardingPage'
+import { ProfilePage } from './pages/ProfilePage'
 import { QuizPage } from './pages/QuizPage'
 import { ResourcePage } from './pages/ResourcePage'
 import { ResultsPage } from './pages/ResultsPage'
@@ -42,6 +44,8 @@ export default function App() {
             <Route path="/quiz/:quizId" element={<QuizPage />} />
             <Route path="/attempts/:attemptId" element={<ResultsPage />} />
             <Route path="/log" element={<LogStudyPage />} />
+            <Route path="/notifications" element={<NotificationsPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

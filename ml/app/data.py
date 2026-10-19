@@ -118,3 +118,29 @@ def replace_pending(db: Client, student_id: str, recs: list[Recommendation]) -> 
             }
             for r in recs
         ]).execute()
+
+
+# --- notifications (FR6) ---
+
+def previous_top_topic(db: Client, student_id: str) -> str | None:
+    """The top ML topic among the student's pending recommendations, before they are replaced."""
+    rows = db.table("recommendations").select("topic_id, priority_score").eq("student_id", student_id).eq(
+        "status", "pending").eq("source", "ml").order("priority_score", desc=True).limit(1).execute().data
+    return rows[0]["topic_id"] if rows else None
+
+
+def topic_titles(db: Client) -> dict[str, str]:
+    return {t["id"]: t["title"] for t in db.table("topics").select("id, title").execute().data}
+
+
+def insert_notifications(db: Client, student_id: str, notes: list[dict]) -> int:
+    """Inserts each notification; one already sent today (same kind) is skipped."""
+    sent = 0
+    for note in notes:
+        try:
+            db.table("notifications").insert({"student_id": student_id, **note}).execute()
+            sent += 1
+        except Exception as e:  # unique index: this kind was already sent today
+            if "23505" not in str(e):
+                logging.getLogger(__name__).warning("Could not write notification %s", note["kind"], exc_info=True)
+    return sent

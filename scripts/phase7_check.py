@@ -233,7 +233,89 @@ def fr4(browser, shot: Shots) -> None:
     page.close()
 
 
-SECTIONS = {"fr5": fr5, "fr4": fr4}
+def fr6(browser, shot: Shots) -> None:
+    print("-- FR6 Notifications, reminders and weekly summary")
+    db = testkit.admin()
+    active_id = next(u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == ACTIVE)
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    refresh(page)  # the ML service may add "weak topic not studied"
+    page.reload()
+    page.wait_for_load_state("networkidle")
+    badge = page.get_by_test_id("unread-count")
+    expect(badge).to_be_visible()
+    unread_before = int(badge.inner_text().rstrip("+"))
+    kinds = sorted({n["kind"] for n in db.table("notifications").select("kind").eq("student_id", active_id).execute().data})
+    check("bell in the nav with an unread count", unread_before >= 1, f"{unread_before} unread; kinds: {', '.join(kinds)}")
+
+    page.get_by_test_id("notification-bell").click()
+    panel = page.get_by_test_id("notification-panel")
+    expect(panel).to_be_visible()
+    items = panel.get_by_test_id("notification")
+    check("bell opens a list of reminders and feedback, each with a time", items.count() >= 2 and
+          any(w in panel.inner_text() for w in ["ago", "just now", "yesterday", "Oct"]), f"{items.count()} shown")
+    shot(page, "fr6-01-bell.png")
+
+    first_unread = panel.locator("[data-unread=true]").first
+    first_unread.click()
+    page.wait_for_load_state("networkidle")
+    if unread_before > 1:
+        expect(page.get_by_test_id("unread-count")).to_have_text(str(unread_before - 1), timeout=10_000)
+    else:
+        expect(page.get_by_test_id("unread-count")).to_have_count(0, timeout=10_000)
+    after = page.get_by_test_id("unread-count")
+    unread_after = int(after.inner_text().rstrip("+")) if after.count() else 0
+    check("clicking a notification marks it read and follows its link", unread_after == unread_before - 1,
+          f"{unread_before} -> {unread_after} unread, now at {page.url.replace(APP, '')}")
+
+    page.goto(f"{APP}/notifications")
+    expect(page.get_by_test_id("notification").first).to_be_visible()
+    check("full notifications page", page.get_by_test_id("notification").count() >= 2)
+    shot(page, "fr6-02-notifications-page.png", full_page=True)
+
+    page.goto(f"{APP}/")
+    weekly = [page.get_by_test_id(t) for t in ["weekly-minutes", "weekly-improved", "weekly-next"]]
+    expect(weekly[0]).to_be_visible()
+    check("weekly summary: minutes vs last week, topics improved, next focus",
+          "vs last week" in weekly[0].inner_text() or "Same as last week" in weekly[0].inner_text(),
+          " | ".join(" ".join(w.inner_text().split()) for w in weekly)[:160])
+    shot(page, "fr6-03-weekly-summary.png")
+
+    tick_titles = page.get_by_test_id("progress-chart").locator("text title").all_text_contents()
+    two_line = page.get_by_test_id("progress-chart").locator("text:has(tspan + tspan)").count()
+    check("progress chart: long names on two lines, full name on hover",
+          len(tick_titles) == 6 and two_line >= 1 and any(len(t) > 22 for t in tick_titles), f"{two_line} wrapped")
+    page.get_by_test_id("progress-chart").scroll_into_view_if_needed()
+    shot(page, "fr6-04-progress-chart.png")
+
+    page.goto(f"{APP}/profile")
+    page.get_by_role("button", name="Sat").click()
+    page.get_by_label("Preferred study time").fill("17:30")
+    page.get_by_label("Daily goal (minutes)").fill("45")
+    page.get_by_role("button", name="Save reminder settings").click()
+    expect(page.get_by_text("Reminder settings saved.")).to_be_visible()
+    saved = db.table("profiles").select("study_days, preferred_study_time, daily_goal_minutes").eq("id", active_id).execute().data[0]
+    check("reminder settings saved on the profile", "sat" in saved["study_days"] and saved["preferred_study_time"].startswith("17:30")
+          and saved["daily_goal_minutes"] == 45, str(saved))
+    shot(page, "fr6-05-reminder-settings.png", full_page=True)
+    db.table("profiles").update({"study_days": ["mon", "tue", "wed", "thu", "fri"], "preferred_study_time": "18:00",
+                                 "daily_goal_minutes": 30}).eq("id", active_id).execute()
+    page.close()
+
+    page = browser.new_page(viewport=PHONE)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    expect(page.get_by_test_id("notification-bell")).to_be_visible()
+    page.get_by_test_id("notification-bell").click()
+    overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
+    check("phone width: bell stays visible and its list fits", page.get_by_test_id("notification-panel").is_visible() and not overflow)
+    shot(page, "fr6-06-phone-bell.png")
+    page.close()
+
+
+SECTIONS = {"fr5": fr5, "fr4": fr4, "fr6": fr6}
 
 
 def main() -> int:

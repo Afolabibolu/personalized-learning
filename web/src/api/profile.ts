@@ -6,7 +6,7 @@ export async function getProfile(): Promise<Profile> {
   const id = await currentUserId()
   const { data, error } = await supabase
     .from('profiles')
-    .select('id, full_name, department, level, learning_preferences')
+    .select('id, full_name, department, level, learning_preferences, study_days, preferred_study_time, daily_goal_minutes, browser_notifications')
     .eq('id', id)
     .single()
   if (error) throw error
@@ -18,7 +18,19 @@ export function isOnboarded(profile: Profile): boolean {
 }
 
 export async function updateProfile(
-  changes: Partial<Pick<Profile, 'full_name' | 'department' | 'level' | 'learning_preferences'>>,
+  changes: Partial<
+    Pick<
+      Profile,
+      | 'full_name'
+      | 'department'
+      | 'level'
+      | 'learning_preferences'
+      | 'study_days'
+      | 'preferred_study_time'
+      | 'daily_goal_minutes'
+      | 'browser_notifications'
+    >
+  >,
 ): Promise<void> {
   const id = await currentUserId()
   const { error } = await supabase.from('profiles').update(changes).eq('id', id)
