@@ -14,18 +14,16 @@
         "Agent model: environment, sensors, actuators, performance measure",
         "Properties of environments; rational and learning agents"
       ],
+      "lectures": [
+        1
+      ],
       "resources": [
         {
-          "title": "Lecture 1: Intelligent Systems introduction (2025)",
+          "title": "Lecture 1, in Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#CSC_574-2025",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
           "is_introductory": true,
           "intro_order": 1
-        },
-        {
-          "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Introduction_to_Intelligent_Systems"
         }
       ]
     },
@@ -39,11 +37,14 @@
         "Depth-first search and comparison with BFS",
         "Heuristics and the warehouse robot case study"
       ],
+      "lectures": [
+        2
+      ],
       "resources": [
         {
-          "title": "Lecture 2: Components of a search problem",
+          "title": "Lecture 2, in Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Search_Problem_Components",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
           "is_introductory": true,
           "intro_order": 2
         }
@@ -60,18 +61,16 @@
         "Rule-based reasoning: forward and backward chaining",
         "Semantic networks and ontologies"
       ],
+      "lectures": [
+        3
+      ],
       "resources": [
         {
-          "title": "Lecture 3: Knowledge representation and reasoning",
+          "title": "Lecture 3, in Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Knowledge_Representation_Reasoning",
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
           "is_introductory": true,
           "intro_order": 3
-        },
-        {
-          "title": "Reading: Knowledge Representation in AI",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Knowledge-Representation-in-AI"
         }
       ]
     },
@@ -86,11 +85,14 @@
         "Expert systems versus human experts; criteria for using them",
         "Case-based reasoning"
       ],
+      "lectures": [
+        4
+      ],
       "resources": [
         {
-          "title": "Lecture 4: Expert systems and the MYCIN case study",
+          "title": "Lecture 4, in Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Expert_Systems"
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
         }
       ]
     },
@@ -104,11 +106,14 @@
         "Mamdani inference with min/max and centroid defuzzification",
         "Case studies: washing machine, office AC, vehicle speed"
       ],
+      "lectures": [
+        5
+      ],
       "resources": [
         {
-          "title": "Lecture 5: Fuzzy logic with case studies",
+          "title": "Lecture 5, in Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s#Fuzzy_Logic"
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
         }
       ]
     },
@@ -123,16 +128,12 @@
         "Natural language processing: uses, advantages and disadvantages",
         "Integrating AI technologies into decision support"
       ],
+      "lectures": [],
       "resources": [
         {
-          "title": "Reading: Intelligent Information Systems (Bidgoli, ch. 13)",
+          "title": "Intelligent Systems lecture folder (2024/25)",
           "type": "link",
-          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Intelligent_Systems-4"
-        },
-        {
-          "title": "Reading: Introduction to Intelligent Systems (Tadeusiewicz)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1VXFwIekKgafkkuf09YIx4FRLLhl3eGTW#Introduction_to_Intelligent_Systems"
+          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
         }
       ]
     }

@@ -44,15 +44,21 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     or dismissed recommendation still points at is kept but taken out of the
     introductory sequence.
     """
-    existing = {r["title"]: r["id"] for r in db.table("resources").select("id, title").eq("topic_id", topic_id).execute().data}
+    current = db.table("resources").select("id, title, url").eq("topic_id", topic_id).execute().data
+    existing = {r["title"]: r["id"] for r in current}
+    by_url = {r["url"]: r["id"] for r in current}
     for r in resources:
         row = {
             "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r["url"],
             "is_introductory": bool(r.get("is_introductory")),
             "intro_order": r.get("intro_order") if r.get("is_introductory") else None,
         }
-        if r["title"] in existing:
-            db.table("resources").update(row).eq("id", existing.pop(r["title"])).execute()
+        # Same title, or failing that the same link (a renamed resource), updates in place.
+        match = existing.get(r["title"]) or by_url.get(r["url"])
+        if match:
+            db.table("resources").update(row).eq("id", match).execute()
+            existing = {t: i for t, i in existing.items() if i != match}
+            by_url = {u: i for u, i in by_url.items() if i != match}
         else:
             db.table("resources").insert(row).execute()
     for stale_id in existing.values():

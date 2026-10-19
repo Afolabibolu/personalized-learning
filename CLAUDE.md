@@ -19,6 +19,12 @@ Priorities when time is short, in order:
 
 If something will take long and is not on that list, skip it and note it in the phase report as future work.
 
+## Current status (Monday 19 October)
+
+Phases 0 to 6 are built and working: sign-up, courses, diagnostic and topic quizzes, study logging, the ML recommendation service with probabilities and a rule baseline, a reminder banner, the consistency card, progress by topic, and the Phase 6 test cases and screenshots.
+
+The results defence is on Tuesday. What remains is closing the requirement gaps listed in `docs/requirements.md` (Phase 7), capturing results again (Phase 8), and, as a stretch, the course ingestion pipeline (Phase 9). The 19 October revision of this file widened the scope of Phases 2 to 5 (study notes, past questions, a Knowledge Base page, learning-preference matching, reasons on recommendations); those items are tracked as gaps in `docs/requirements.md`, not as unfinished boxes in the phases below.
+
 ## How to work with me
 
 - Work through the phases below in order, one phase at a time.
@@ -34,6 +40,16 @@ If something will take long and is not on that list, skip it and note it in the 
 - If something not covered here blocks the work, ask me. If it does not block, pick the simplest option that fits this file and list it in the phase report.
 - Once I settle a decision, add it to this file.
 - Commit at the end of a phase after I approve the report. Keep messages short.
+
+## Where the detailed rules live
+
+Claude Code reads a folder's own CLAUDE.md when working in that folder. Read the one for the area you are changing:
+
+- `docs/requirements.md`: every FR and NFR, what is built, the open gaps with checkboxes, and the evidence needed. The source of truth for what to do next.
+- `web/CLAUDE.md`: pages, navigation, components and UI rules.
+- `ml/CLAUDE.md`: the recommendation output format, explanations, notifications from the service, training and results.
+- `supabase/CLAUDE.md`: new columns, the notifications table, `generate_reminders()`, and demo data.
+- `content/CLAUDE.md`: knowledge base content rules and the ingestion pipeline for adding any course.
 
 ## Stack
 
@@ -62,8 +78,13 @@ recsys/
     results/           metrics tables and charts for the results chapter
   content/
     sources/           outlines, lecture PDFs and past questions per course (not committed)
-    courses/           one JSON file per course: topics and subtopics
+      links.csv        lecture and video links I paste in: course, lecture, kind, title, url
+    courses/           one JSON file per course: topics, subtopics, lectures covered, summaries
+    notes/             one study note per topic (Markdown)
+    past_questions/    past exam questions per course, tagged by topic
+    resources/         every resource per topic
     questions/         one JSON file per topic
+    apply_links.py     rebuilds lecture resources from sources/links.csv
     validate.py        schema and answer checks
     load.py            loads content into Supabase
   scripts/
@@ -98,10 +119,12 @@ recsys/
 - Prototype scope: two 500-level courses, CSC 531 (Human-Computer Interaction) and CSC 574 (Intelligent Systems).
 - Recommendation trigger: after a quiz is submitted or a study session is logged, the web app calls `POST /recommend` on the ML service without waiting for it. The dashboard also has a "Refresh recommendations" button. No webhooks or scheduled jobs for the demo.
 - Training data: simulated students created by `scripts/seed_demo.py`, because there is no time for a pilot. The simulation follows documented learning patterns (see Phase 4), so the results chapter can describe it as a simulation study. The real-data comparison is future work.
+- Knowledge base (FR5): courses, topics with subtopics, and resources of four types. A `note` is a short in-app study note, a `lecture` links to the lecture PDF, `past_questions` lists past exam questions on that topic, and a `video` is a link I supply. Students can browse it all from a Knowledge Base page, not only through recommendations.
+- Learning preferences: at onboarding a student picks how they prefer to study (reading notes, lecture slides, practising questions, or videos). When the engine picks a resource for a weak topic, it prefers the student's preferred type. This is what the learning preferences captured under FR1 are used for.
 - Baseline: a simple rule, "requires attention if the last score on the topic was below 50%", is evaluated next to both models. It answers "why use machine learning at all?" with numbers, whichever way the numbers fall.
 - Simulation calibration: the practice-gain and forgetting parameters were set once so that about a third of student-topic rows need attention (label balance only), never tuned to make one model win. Final values are in the config block at the top of `ml/training/synthetic.py` and in `ml/results/simulation_rules.md`.
 - Demo accounts (password `DemoPass2026!`): `new.student@demo.example.com` (no activity, cold start) and `active.student@demo.example.com` (weak topics: CSC 531 Cognitive Psychology, CSC 574 Fuzzy Logic). Simulated students use `sim-NNN@sim.example.com`. `seed_demo.py` sets `is_simulated` on the profile itself, because the admin API writes app_metadata after the sign-up trigger runs. Only `is_simulated` students are used for training.
-- Resource links point at the shared NACOSS Google Drive folder (readable by anyone with the link): HCI Lectures 1 and 7 link straight to the file; the others link to the Drive folder that holds them (a #fragment names the file and keeps URLs unique per topic). `load.py` matches resources by topic and title, so changing a link updates the row in place. Swap in direct file links whenever they are available.
+- Resource links come only from `content/sources/links.csv`. Each topic lists the lectures it covers (`lectures` in the course file); `content/apply_links.py` gives a lecture its own row's link, or the course's `all` fallback row (a Drive folder for CSC 574, labelled "Open lecture folder" in the app). Supplementary readings with no row in `links.csv` (Shneiderman, Tadeusiewicz, Bidgoli, Knowledge Representation in AI) are left out. `load.py` matches resources by topic and title, then by link, so a change updates the row in place.
 - Dashboard labels: ML recommendations with averaged probability of 0.5 or more show as "Needs attention"; below 0.5 they show as "Keep it up" with a suggestion (review if not studied for 7+ days, try the topic quiz if scoring 80%+, otherwise a light practice nudge). Cold-start items show as "Getting started".
 - Reminders (in-app, computed on dashboard load): a weak topic (below 50%) not studied for 7+ days or never, no study logged for 3+ days, and courses whose diagnostic has not been taken. Streak and the 14-day strip count days with a study log or a completed quiz.
 - Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. ML recommendations are the top 3 topics overall, across all of the student's courses (ranked 1 to 3 by averaged probability). Cold-start lists stay per course.
@@ -112,8 +135,8 @@ recsys/
 | --- | --- | --- |
 | profiles | id (= auth user id), full_name, department, level, learning_preferences, is_simulated | read and update own row (a trigger on `auth.users` creates the row at sign-up) |
 | courses | id, code, title | read |
-| topics | id, course_id, title, sequence_order | read |
-| resources | id, topic_id, title, type, url, is_introductory, intro_order | read |
+| topics | id, course_id, title, sequence_order, subtopics (list), summary (Phase 7) | read |
+| resources | id, topic_id, title, type (now pdf, video, link; Phase 7: note, lecture, past_questions, video), url (for links), body (Markdown, for in-app content, Phase 7), source, is_introductory, intro_order | read |
 | quizzes | id, course_id, topic_id (null for diagnostic), kind (diagnostic or topic), question_count | read |
 | questions | id, topic_id, format, stem, options, correct_answer, explanation, source, status (draft or approved) | no direct access |
 | quiz_attempts | id, student_id, quiz_id, question_ids, score, started_at, completed_at | read own (created and graded only by the quiz functions) |
@@ -236,6 +259,30 @@ Check: logged in as "Active Student", the dashboard shows the streak, the weakes
 
 Check: every test case has a recorded result, and every item in `screenshots.md` can be captured from the running app.
 
+### Phase 7: requirement gaps
+
+Work through the gaps in `docs/requirements.md` in its priority order (FR5, FR4, FR6, FR1, then FR2 and FR3). Tick each box as it is done. Report after each requirement, not only at the end of the phase, so I can screenshot as we go.
+
+Check: every FR box in `docs/requirements.md` is ticked or listed in the report as skipped with a reason.
+
+### Phase 8: results capture
+
+This replaces Phase 6 if it has not run yet. (Phase 6 has run; Phase 8 reruns it on the final code and adds the files below.)
+
+- [ ] `docs/test-cases.md`: one row per FR and NFR with steps, expected, actual, pass or fail. Run every case.
+- [ ] `scripts/timing.py` output in `docs/results/performance.md` (NFR2)
+- [ ] `scripts/rls_check.py` output in `docs/results/security.md` (NFR3)
+- [ ] Final `python -m training.train`, so `ml/results/` and `summary.md` match the final code
+- [ ] `docs/screenshots.md`: an ordered list of every screenshot, with the account to use, the page, and what must be visible. Include phone-width shots for NFR1.
+
+Check: every test case has a recorded result, and every screenshot in the list can be taken from the running app.
+
+### Phase 9: course ingestion pipeline (stretch)
+
+Build `inventory.py` and `extract.py` from `content/CLAUDE.md`, then add one extra course in the default mode (no API key). The point is to show that a course goes from files to the app without code changes.
+
+Check: one course not built by hand appears in the app with topics, a study note and a working quiz, using only the pipeline commands.
+
 ## Commands
 
 Tools: Homebrew (`node`, `python@3.12`, `supabase/tap/supabase`). Python 3.12 lives in one venv at the repo root (`.venv`), shared by `ml/`, `content/` and `scripts/`; VS Code picks it up automatically. Activate it before any Python command: `source .venv/bin/activate`. Secrets go in `web/.env` (anon key only), `ml/.env`, `content/.env` and `scripts/.env`; copy from the matching `.env.example`.
@@ -257,6 +304,7 @@ cd ml && python -m training.train
 cd ml && python -m training.train --real-test ../real_rows.csv   # optional; rows from: python scripts/export_real_rows.py real_rows.csv
 
 # data (from the repo root)
+python content/apply_links.py     # lecture resources from content/sources/links.csv
 python content/validate.py
 python content/load.py
 python scripts/seed_demo.py           # resets and recreates simulated students + demo accounts

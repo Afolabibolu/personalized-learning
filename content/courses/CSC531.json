@@ -14,9 +14,12 @@
         "Usability goals: effectiveness, efficiency, safety, utility, learnability, memorability",
         "User experience (UX) goals, and HCI versus UX"
       ],
+      "lectures": [
+        1
+      ],
       "resources": [
         {
-          "title": "Lecture 1: Introduction to HCI",
+          "title": "HCI Lecture 1 (2024)",
           "type": "pdf",
           "url": "https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWobuMRz/view",
           "is_introductory": true,
@@ -35,11 +38,15 @@
         "Principles of user-centred design: early focus on users",
         "User profiles, personas and scenarios"
       ],
+      "lectures": [
+        2,
+        3
+      ],
       "resources": [
         {
-          "title": "Lectures 2-3: Problem space and user-centred design (2025)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture3_UG_2025",
+          "title": "Lectures 2–3, in HCI complete lecture slides",
+          "type": "pdf",
+          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
           "is_introductory": true,
           "intro_order": 2
         }
@@ -56,18 +63,17 @@
         "Ideation and ideation techniques (brainstorming)",
         "Conceptual framework / solution overview and ideation tools"
       ],
+      "lectures": [
+        4,
+        5
+      ],
       "resources": [
         {
-          "title": "Lecture 4: Conceptual models and data gathering (2025)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#2025_HCI_Lecture4_UG",
+          "title": "Lectures 4–5, in HCI complete lecture slides",
+          "type": "pdf",
+          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
           "is_introductory": true,
           "intro_order": 3
-        },
-        {
-          "title": "Lecture 5: Ideation and data analysis (2025)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture5_UG_2025_Final"
         }
       ]
     },
@@ -83,16 +89,15 @@
         "Quantitative and qualitative analysis: percentages, graphs, outliers, thematic analysis",
         "Inferential analysis: dependent and independent variables; Cronbach's alpha"
       ],
+      "lectures": [
+        4,
+        5
+      ],
       "resources": [
         {
-          "title": "Lecture 4: Conceptual models and data gathering (2025)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#2025_HCI_Lecture4_UG"
-        },
-        {
-          "title": "Lecture 5: Ideation and data analysis (2025)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1Oivttc1KeRsJC081jI2eSgFC7Ig0aVla#HCI_Lecture5_UG_2025_Final"
+          "title": "Lectures 4–5, in HCI complete lecture slides",
+          "type": "pdf",
+          "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view"
         }
       ]
     },
@@ -106,11 +111,14 @@
         "Gestalt principles: common region, figure-ground, continuity, closure, proximity, similarity",
         "Cognitive processes: attention, perception and memory"
       ],
+      "lectures": [
+        6
+      ],
       "resources": [
         {
-          "title": "Lecture 6: Cognitive psychology",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1OPsvmGw8zNoAnOTxiIKUJGdBZu_QsZgQ#HCI_Lecture6_UG_2023"
+          "title": "HCI Lecture 6",
+          "type": "pdf",
+          "url": "https://drive.google.com/file/d/1B8pyE_QDUz3Fsd7hXwgZIaQyV5DZbLho/view"
         }
       ]
     },
@@ -126,16 +134,14 @@
         "Usability testing, think aloud, diary studies, field studies and experiments",
         "System Usability Scale (Brooke)"
       ],
+      "lectures": [
+        7
+      ],
       "resources": [
         {
-          "title": "Lecture 7: Prototyping and evaluation",
+          "title": "HCI Lecture 7 (2024)",
           "type": "pdf",
           "url": "https://drive.google.com/file/d/18vGa3L9h8OYcJJ4K3E8PWAyjV9PmL5GU/view"
-        },
-        {
-          "title": "Shneiderman's principles of interface design",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1OPsvmGw8zNoAnOTxiIKUJGdBZu_QsZgQ#Principles-Shneiderman20200425"
         }
       ]
     }
