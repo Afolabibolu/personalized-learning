@@ -1,0 +1,4 @@
+model,accuracy_test,accuracy_cv_mean,accuracy_cv_sd,precision_test,precision_cv_mean,precision_cv_sd,recall_test,recall_cv_mean,recall_cv_sd,f1_test,f1_cv_mean,f1_cv_sd
+Rule baseline (last score < 50%),0.7,0.684,0.023,0.507,0.488,0.037,0.507,0.541,0.047,0.507,0.512,0.031
+Logistic Regression,0.775,0.77,0.009,0.686,0.678,0.029,0.479,0.476,0.029,0.565,0.559,0.021
+Random Forest,0.771,0.752,0.011,0.661,0.633,0.02,0.507,0.452,0.035,0.574,0.527,0.029

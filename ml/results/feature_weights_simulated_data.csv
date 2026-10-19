@@ -1,0 +1,7 @@
+feature,lr_coefficient_standardised,rf_importance
+mean_score,-1.332,0.426
+last_score,0.225,0.118
+attempt_count,0.001,0.037
+session_count,0.013,0.073
+total_minutes,-0.16,0.151
+days_since_last_studied,0.228,0.195

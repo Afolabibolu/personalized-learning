@@ -82,7 +82,9 @@ function MultiSelect({ question, value, onChange }: InputProps) {
   }
   return (
     <div className="grid gap-2">
-      <p className="mb-1 text-xs font-medium text-slate-500">Select all that apply.</p>
+      {!/select all that apply/i.test(question.stem) && (
+        <p className="mb-1 text-xs font-medium text-slate-500">Select all that apply.</p>
+      )}
       {question.options.map((o) => {
         const selected = value.includes(o.key)
         return (
