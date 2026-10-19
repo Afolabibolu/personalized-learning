@@ -18,7 +18,7 @@ function ResourceRow({ resource }: { resource: Resource }) {
         <span className="block truncate text-sm font-medium">{resource.title}</span>
         <span className="block text-xs text-slate-500">
           {resource.is_introductory ? 'Getting started · ' : ''}
-          {!available ? 'Link coming soon' : resource.url.includes('/drive/folders/') ? 'Opens its Google Drive folder' : 'Opens in a new tab'}
+          {!available ? 'Link coming soon' : resource.url.includes('/drive/folders/') ? 'Open lecture folder' : 'Opens in a new tab'}
         </span>
       </span>
     </>

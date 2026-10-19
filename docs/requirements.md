@@ -1,0 +1,119 @@
+# Requirements coverage
+
+This file maps every requirement in the report (Chapter 3) to what the app must show, the gap as of Monday 19 October, and the evidence for the results chapter. Work through the gaps in the priority order at the bottom. When a gap is closed, tick it and write where the evidence is.
+
+## Functional requirements
+
+### FR1: Registration and profile management
+
+The report says: a student can register, authenticate, and create and update an academic profile with department, level and learning preferences.
+
+Built: sign up, log in, sign out, onboarding.
+
+Gaps:
+- [ ] No Profile page. Add one to the nav: full name, department, level, preferred way to study, and reminder settings (FR6). Saving shows a confirmation.
+- [ ] The learning preference is not visibly used. On each recommendation that matched it, show a small line such as "Matched to your preference: study notes".
+- [ ] Demo accounts are named "Active" and "New". Rename them to realistic names, for example "Tolu Adeyemi" and "Kemi Balogun", with department Computer Science and level 500.
+
+Evidence: screenshots of sign-up, onboarding and the Profile page before and after an edit.
+
+### FR2: Diagnostic and topic-based assessment
+
+The report says: a diagnostic quiz when a student first engages with a course, topic quizzes afterwards, and scores recorded against the profile.
+
+Built: diagnostic status on the course list.
+
+Gaps:
+- [x] Check that all four formats appear in a real quiz (single choice, true or false, select all, odd one out). Each needs a screenshot.
+  _Done: `web/src/components/QuestionInputs.tsx` (one component per format); screenshots `docs/screenshots/06`–`09`, taken from a real diagnostic by `scripts/capture_screenshots.py`._
+- [x] Results page: per-topic scores from the diagnostic, then each question with the correct answer and the explanation.
+  _Done: `web/src/pages/ResultsPage.tsx` (data from `get_attempt_review`); screenshots `docs/screenshots/10-results-summary.png` and `11-results-answers.png`._
+- [ ] Feedback against the last attempt on the results page, for example "Fuzzy Logic Systems: 40% to 70%, up 30 points".
+- [ ] A Quiz history list on the course page: date, quiz, score.
+
+Evidence: screenshots of each question format, the results page and quiz history.
+
+### FR3: Study activity logging
+
+Built: topic, duration chips, activity type, recent sessions.
+
+Gaps:
+- [ ] The free number box under the duration chips has no label. Label it "Custom (minutes)" and validate it (1 to 300).
+  _Partly done: it has only an `aria-label` and accepts 1 to 600 (`LogStudyPage.tsx`)._
+- [ ] Optional study timer: start, pause, stop, then the duration fills in.
+- [x] "Log study session" on the topic page opens the logger with that topic already chosen.
+  _Done: `web/src/pages/TopicPage.tsx` links to `/log?topic=<id>`; `web/src/pages/LogStudyPage.tsx` reads `?topic`._
+- [x] After saving, show a confirmation and refresh recommendations in the background.
+  _Done: `web/src/pages/LogStudyPage.tsx` shows "Saved: 30 minutes of reading" and calls `triggerRecommendations()` from `web/src/api/ml.ts`; screenshot `docs/screenshots/13-log-study.png`._
+
+Evidence: screenshots of the logger and the recent sessions list.
+
+### FR4: Machine learning recommendation engine
+
+Built: ranked recommendations with "Needs attention" and a probability, refresh button, Accept and Dismiss.
+
+Gaps:
+- [ ] A reason line on every item, built from the features: "Last score 40%. Not studied for 9 days. 20 minutes studied in total."
+  _Partly done: only "Keep it up" items carry a suggestion, computed in the browser (`web/src/lib/suggestions.ts`); `ml/CLAUDE.md` wants an `explanation` written by the service._
+- [ ] A "Why this?" toggle that shows the Logistic Regression probability, the Random Forest probability, their average, and the top factors behind it.
+- [ ] Cold-start items look different: a "Getting started" label and the line "Take a few quizzes so we can personalise this for you."
+  _Partly done: the "Getting started" label and indigo styling exist (`web/src/components/dashboard/RecommendationsCard.tsx`); the explanatory line does not._
+- [ ] Accepting opens the resource. Accepted and dismissed items leave the list and appear under "History".
+- [ ] If the ML service is down, the dashboard keeps showing the last saved recommendations with a quiet notice, never an error screen (NFR4).
+  _Partly done: saved recommendations are read from Supabase, so the list survives; background refreshes fail silently; but pressing Refresh shows a red error box, not a quiet notice. Not yet tested with the service stopped._
+
+Evidence: dashboard screenshots for both demo accounts, the "Why this?" panel open, and the results table from `ml/results/`.
+
+### FR5: Academic knowledge base
+
+The report says: a structured repository of courses, topics, learning resources and practice questions, organised so the engine can retrieve resources for a weak topic.
+
+Built: course list, topics, lecture resources.
+
+Gaps:
+- [ ] A Knowledge Base page in the nav: courses, then topics in order with subtopics and a short summary, then resources grouped by type (study note, lecture slides, past questions, video).
+- [ ] Study notes and past questions open inside the app in a resource viewer. Lecture and video links open in a new tab.
+- [ ] A search box on the Knowledge Base page that filters topics and resources by name.
+- [ ] Every topic has at least a study note, a lecture link and a topic quiz.
+  _Partly done: every topic has a lecture link from `content/sources/links.csv` and a topic quiz (`content/load.py`, TC-09 in `docs/test-cases.md`); there are no study notes yet._
+- [ ] A small count on the page: "2 courses, 12 topics, N resources, N practice questions", read live from the database.
+
+Evidence: screenshots of the Knowledge Base page, a topic page, a study note and a past-questions set.
+
+### FR6: Progress tracking and engagement
+
+The report says: track study consistency over time and give feedback and study reminders that encourage regular engagement.
+
+Built: streak, active days, minutes, 14-day strip, progress by topic, one reminder banner.
+
+Gaps:
+- [ ] A notifications centre: a bell in the nav with an unread count, and a list of reminders and feedback with time and a link. Kinds: weak topic not studied, streak at risk, no activity for 3 days, new recommendations ready, score improved.
+  _Partly done: reminders for weak topics not studied, 3 days without study and missing diagnostics are shown as banners on the dashboard (`web/src/lib/reminders.ts`); there is no bell, list or stored notifications._
+- [ ] Reminder settings on the Profile page: study days, preferred study time, daily goal in minutes. The "streak at risk" and "daily goal" reminders use them.
+- [ ] Optional browser notification while the app is open, after the student allows it. Reminders still appear in the app if they do not.
+- [ ] A weekly summary card: minutes this week against last week, topics improved, and the next topic to focus on.
+  _Partly done: the consistency card shows minutes over the last 7 days (`ConsistencyCard.tsx`), with no comparison to last week, topics improved or next topic._
+- [ ] Progress chart: long topic names are cut off. Wrap them onto two lines or show the full name on hover.
+  _Partly done: names are cut to one line with an ellipsis (`web/src/components/dashboard/ProgressCard.tsx`); no wrap or tooltip yet._
+
+Evidence: screenshots of the bell with unread count, the notifications list, reminder settings, and the weekly summary.
+
+## Non-functional requirements
+
+| Requirement | What proves it | Gap |
+| --- | --- | --- |
+| NFR1 Usability | Every core task works without help, on a phone and a laptop | [ ] Phone-width screenshots of the dashboard, quiz and logger (_partly: dashboard and quiz exist, `docs/screenshots/18`, `19`; logger missing_). [ ] Empty states with a clear next step on every page (_partly: dashboard and course list have them_) |
+| NFR2 Performance | Measured response times | [ ] `scripts/timing.py`: times quiz submit, dashboard load and `/recommend` 20 times each and writes median and slowest to `docs/results/performance.md` (_partly: `scripts/measure_performance.py` does this 10 times each into `docs/performance.md`_) |
+| NFR3 Security | Students only see their own data | [ ] Run `scripts/rls_check.py` and save its output to `docs/results/security.md` (_partly: 33/33 pass, excerpt in TC-14 of `docs/test-cases.md`_). [ ] Screenshot of the RLS policies in the Supabase dashboard (you take this one) |
+| NFR4 Reliability | New students get a sensible result, and failures degrade quietly | [ ] "Kemi" screenshot with the cold-start list (_partly: `docs/screenshots/14-dashboard-new.png`, still named "New"_). [ ] ML service stopped: dashboard still loads with saved recommendations |
+| NFR5 Portability | A new course can be added without code changes | [ ] The course ingestion pipeline in `content/CLAUDE.md`, run on at least one extra course, with a screenshot of it appearing in the app (_partly: TC-16 adds a course from JSON files with no code change; no inventory or extraction yet_) |
+
+## Priority order for Monday
+
+1. FR5 Knowledge Base page, resource viewer and study notes.
+2. FR4 reason line, "Why this?" panel and cold-start styling.
+3. FR6 notifications centre, reminder settings and weekly summary.
+4. FR1 Profile page and demo account names.
+5. FR2 and FR3 small gaps.
+6. Results capture: NFR2 timing, NFR3 security output, model results table, test cases, screenshots.
+7. NFR5 course ingestion pipeline (stretch, but it answers "can it scale to all courses?").
