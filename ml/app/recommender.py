@@ -40,9 +40,10 @@ class ResourceInfo:
 RESOURCE_PREFERENCE = ["note", "past_questions", "lecture", "video"]
 
 
-def resource_rank(resource: ResourceInfo) -> tuple:
+def resource_rank(resource: ResourceInfo, preferred: tuple[str, ...] = ()) -> tuple:
+    """The student's preferred types first (FR1), then note, past questions, lecture, video."""
     kind = RESOURCE_PREFERENCE.index(resource.type) if resource.type in RESOURCE_PREFERENCE else len(RESOURCE_PREFERENCE)
-    return (kind, not resource.is_introductory, resource.title)
+    return (resource.type not in preferred, kind, not resource.is_introductory, resource.title)
 
 
 @dataclass
@@ -101,13 +102,14 @@ def ml_recommendations(
     models: Models,
     used_resource_ids: set[str],
     top_n: int | None = TOP_TOPICS,
+    preferred: tuple[str, ...] = (),
 ) -> list[Recommendation]:
     """Ranks the course's topics by averaged probability and recommends the top ones
     (every topic when top_n is None).
 
     For each of the top topics: its first resource the student has not already
-    accepted or dismissed (study note, then past questions, then lecture, then
-    video), or the topic quiz when none is left.
+    accepted or dismissed (the student's preferred types first, then study note,
+    past questions, lecture, video), or the topic quiz when none is left.
     """
     probabilities = model_probabilities(models, features)
     rows = features.set_index("topic_id")
@@ -119,8 +121,15 @@ def ml_recommendations(
     for rank, (topic_id, probability) in enumerate(ranked if top_n is None else ranked[:top_n], start=1):
         unused = sorted(
             (r for r in course.resources if r.topic_id == topic_id and r.id not in used_resource_ids),
-            key=resource_rank,
+            key=lambda r: resource_rank(r, preferred),
         )
+        explanation = ml_explanation(
+            rows.loc[topic_id], probabilities.loc[topic_id, "lr"], probabilities.loc[topic_id, "rf"], models.lr,
+            needs_attention=probability >= ATTENTION_PROBABILITY,
+            has_topic_quiz=topic_id in course.topic_quiz_ids,
+        )
+        if unused and unused[0].type in preferred:
+            explanation["matched_preference"] = unused[0].type
         recs.append(Recommendation(
             topic_id=topic_id,
             rank=rank,
@@ -129,11 +138,7 @@ def ml_recommendations(
             quiz_id=None if unused else course.topic_quiz_ids.get(topic_id),
             priority_score=round(float(probability), 4),
             model_version=models.version,
-            explanation=ml_explanation(
-                rows.loc[topic_id], probabilities.loc[topic_id, "lr"], probabilities.loc[topic_id, "rf"], models.lr,
-                needs_attention=probability >= ATTENTION_PROBABILITY,
-                has_topic_quiz=topic_id in course.topic_quiz_ids,
-            ),
+            explanation=explanation,
         ))
     return recs
 
@@ -144,13 +149,14 @@ def recommend_course(
     features: pd.DataFrame,
     models: Models | None,
     used_resource_ids: set[str],
+    preferred: tuple[str, ...] = (),
 ) -> list[Recommendation]:
     """Cold-start list, or every topic of the course ranked by the models.
     Use top_overall() to keep only the best ML topics across courses."""
     if is_cold_start(completed_attempts, models):
         return cold_start(course, used_resource_ids)
     try:
-        return ml_recommendations(course, features, models, used_resource_ids, top_n=None)
+        return ml_recommendations(course, features, models, used_resource_ids, top_n=None, preferred=preferred)
     except Exception:  # never fail a student who exists: fall back to the introductory list (NFR4)
         logging.getLogger(__name__).warning("ML ranking failed for course %s; using cold start", course.course_id, exc_info=True)
         return cold_start(course, used_resource_ids)
