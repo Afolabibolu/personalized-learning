@@ -108,3 +108,25 @@ export async function latestTopicScores(topicIds: string[]): Promise<Map<string,
   if (error) throw error
   return new Map((data as { topic_id: string; score: number }[]).map((r) => [r.topic_id, Number(r.score)]))
 }
+
+export type QuizHistoryItem = {
+  attempt_id: string
+  quiz_title: string
+  kind: 'diagnostic' | 'topic'
+  score: number
+  completed_at: string
+}
+
+/** The student's completed quizzes on a course, newest first. */
+export async function listQuizHistory(courseId: string): Promise<QuizHistoryItem[]> {
+  const { data, error } = await supabase
+    .from('quiz_attempts')
+    .select('id, score, completed_at, quiz:quizzes!inner(title, kind, course_id)')
+    .eq('quiz.course_id', courseId)
+    .not('completed_at', 'is', null)
+    .order('completed_at', { ascending: false })
+  if (error) throw error
+  return (data as unknown as { id: string; score: number; completed_at: string; quiz: { title: string; kind: 'diagnostic' | 'topic' } }[]).map(
+    (a) => ({ attempt_id: a.id, quiz_title: a.quiz.title, kind: a.quiz.kind, score: Number(a.score), completed_at: a.completed_at }),
+  )
+}

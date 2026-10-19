@@ -31,8 +31,10 @@ Gaps:
   _Done: `web/src/components/QuestionInputs.tsx` (one component per format); screenshots `docs/screenshots/06`–`09`, taken from a real diagnostic by `scripts/capture_screenshots.py`._
 - [x] Results page: per-topic scores from the diagnostic, then each question with the correct answer and the explanation.
   _Done: `web/src/pages/ResultsPage.tsx` (data from `get_attempt_review`); screenshots `docs/screenshots/10-results-summary.png` and `11-results-answers.png`._
-- [ ] Feedback against the last attempt on the results page, for example "Fuzzy Logic Systems: 40% to 70%, up 30 points".
-- [ ] A Quiz history list on the course page: date, quiz, score.
+- [x] Feedback against the last attempt on the results page, for example "Fuzzy Logic Systems: 40% to 70%, up 30 points".
+  _Done: `get_attempt_review` returns each topic's `previous_score` (migrations `20261019170000` and `20261019171000`, tested in `scripts/test_quiz_functions.py`); `web/src/pages/ResultsPage.tsx` shows "40% to 70%, up 30 points" or "First attempt on this topic"; screenshot `docs/screenshots/phase7/fr2-01-results-change.png`._
+- [x] A Quiz history list on the course page: date, quiz, score.
+  _Done: `web/src/pages/CoursePage.tsx` (date, quiz, score; each row opens its results) via `listQuizHistory` in `web/src/api/courses.ts`; screenshot `fr2-02-quiz-history.png`._
 
 Evidence: screenshots of each question format, the results page and quiz history.
 
@@ -41,9 +43,10 @@ Evidence: screenshots of each question format, the results page and quiz history
 Built: topic, duration chips, activity type, recent sessions.
 
 Gaps:
-- [ ] The free number box under the duration chips has no label. Label it "Custom (minutes)" and validate it (1 to 300).
-  _Partly done: it has only an `aria-label` and accepts 1 to 600 (`LogStudyPage.tsx`)._
-- [ ] Optional study timer: start, pause, stop, then the duration fills in.
+- [x] The free number box under the duration chips has no label. Label it "Custom (minutes)" and validate it (1 to 300).
+  _Done: labelled "Custom (minutes)", accepts 1 to 300 and explains the limit (`web/src/pages/LogStudyPage.tsx`); screenshot `fr3-02-logger.png`._
+- [x] Optional study timer: start, pause, stop, then the duration fills in.
+  _Done: `web/src/components/StudyTimer.tsx`: start, pause, resume, "Stop and use time" fills in the minutes; screenshot `fr3-01-timer.png`._
 - [x] "Log study session" on the topic page opens the logger with that topic already chosen.
   _Done: `web/src/pages/TopicPage.tsx` links to `/log?topic=<id>`; `web/src/pages/LogStudyPage.tsx` reads `?topic`._
 - [x] After saving, show a confirmation and refresh recommendations in the background.

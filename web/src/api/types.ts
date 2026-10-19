@@ -86,6 +86,7 @@ export type TopicScore = {
   correct: number
   total: number
   score: number
+  previous_score: number | null // this topic in the student's previous attempt that covered it
 }
 
 export type AttemptReview = {
