@@ -12,15 +12,27 @@ function colour(score: number | null): string {
   return BAR_COLOURS.strong
 }
 
-function shorten(title: string, max = 24): string {
-  return title.length > max ? `${title.slice(0, max - 1).trimEnd()}…` : title
+/** Splits a topic name into at most two lines of about `width` characters; the rest is cut with "…". */
+export function wrapTitle(title: string, width = 22): [string, string?] {
+  if (title.length <= width) return [title]
+  const words = title.split(' ')
+  let first = ''
+  while (words.length && (first + ' ' + words[0]).trim().length <= width) first = (first + ' ' + words.shift()).trim()
+  if (!first) first = words.shift() ?? ''
+  let second = words.join(' ')
+  if (second.length > width) second = `${second.slice(0, width - 1).trimEnd()}…`
+  return second ? [first, second] : [first]
 }
 
-/** Single-line topic label; Recharts' default tick wraps long names onto two lines. */
+/** Topic name on up to two lines, with the full name as a hover tooltip. */
 function TopicTick({ x, y, payload }: { x?: number; y?: number; payload?: { value: string } }) {
+  const full = payload?.value ?? ''
+  const [first, second] = wrapTitle(full)
   return (
-    <text x={x} y={y} dy={4} textAnchor="end" fontSize={11} fill="#475569">
-      {payload?.value}
+    <text x={x} y={y} textAnchor="end" fontSize={11} fill="#475569">
+      <title>{full}</title>
+      <tspan x={x} dy={second ? -2 : 4}>{first}</tspan>
+      {second && <tspan x={x} dy={13}>{second}</tspan>}
     </text>
   )
 }
@@ -32,7 +44,7 @@ export function ProgressCard({ courses }: { courses: DashboardData['courses'] })
   if (!course) return null
 
   const data = course.topics.map((t) => ({
-    name: shorten(t.title),
+    name: t.title,
     // Unattempted topics get a sliver so the row is visible.
     value: t.score ?? 2,
     label: t.score === null ? 'Not attempted' : `${Math.round(t.score)}%`,
@@ -63,7 +75,7 @@ export function ProgressCard({ courses }: { courses: DashboardData['courses'] })
         </div>
       </div>
 
-      <div style={{ height: data.length * 42 + 28 }} data-testid="progress-chart">
+      <div style={{ height: data.length * 48 + 28 }} data-testid="progress-chart">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} layout="vertical" margin={{ top: 0, right: 64, bottom: 0, left: 0 }}>
             <XAxis type="number" domain={[0, 100]} ticks={[0, 50, 100]} tickFormatter={(v) => `${v}%`} fontSize={11} stroke="#94a3b8" />

@@ -127,6 +127,22 @@ def main() -> int:
         allowed("A accepts own recommendation", lambda: a.table("recommendations").update(
             {"status": "accepted"}).eq("id", a_rec).execute())
 
+        print("\n-- Notifications")
+        b.rpc("generate_reminders").execute()
+        b_notes = b.table("notifications").select("id").execute().data
+        check("B has notifications to protect", bool(b_notes), f"{len(b_notes)}")
+        refused("A reads B's notifications", lambda: a.table("notifications").select("*").eq("student_id", b_id).execute())
+        refused("A marks B's notification read", lambda: a.table("notifications").update(
+            {"read_at": now}).eq("id", b_notes[0]["id"]).execute())
+        refused("A inserts a notification", lambda: a.table("notifications").insert(
+            {"student_id": a_id, "kind": "score_improved", "title": "x", "body": "x"}).execute())
+        refused("B changes the text of own notification", lambda: b.table("notifications").update(
+            {"title": "changed"}).eq("id", b_notes[0]["id"]).execute())
+        allowed("B marks own notification read", lambda: b.table("notifications").update(
+            {"read_at": now}).eq("id", b_notes[0]["id"]).execute())
+        refused("A updates B's reminder settings", lambda: a.table("profiles").update(
+            {"daily_goal_minutes": 5}).eq("id", b_id).execute())
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

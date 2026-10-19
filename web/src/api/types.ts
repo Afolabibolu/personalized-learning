@@ -3,12 +3,18 @@ export type LearningPreference = 'reading' | 'video' | 'practice'
 export type ActivityType = LearningPreference
 export type QuestionFormat = 'single_choice' | 'true_false' | 'multi_select' | 'odd_one_out'
 
+export type Weekday = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun'
+
 export type Profile = {
   id: string
   full_name: string | null
   department: string | null
   level: Level | null
   learning_preferences: LearningPreference[]
+  study_days: Weekday[]
+  preferred_study_time: string // "18:00:00"
+  daily_goal_minutes: number
+  browser_notifications: boolean
 }
 
 export type Course = {

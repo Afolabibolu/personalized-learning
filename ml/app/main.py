@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from app import data
+from app import data, notify
 from app.recommender import recommend_course, top_overall
 from training.features import prediction_rows, to_frames
 
@@ -50,11 +50,13 @@ def recommend(authorization: str | None = Header(default=None)):
     attempts = data.completed_attempts_per_course(db, student_id)
     scores, logs = to_frames(*data.student_history(db, student_id))
     used = data.used_resource_ids(db, student_id)
+    previous_top = data.previous_top_topic(db, student_id)
     now = pd.Timestamp.now(tz="UTC")
 
-    candidates = []
+    candidates, days_since = [], {}
     for course in courses:
         features = prediction_rows(scores, logs, course.topic_ids, now)
+        days_since.update(dict(zip(features["topic_id"], features["days_since_last_studied"])))
         candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used))
     # Cold-start lists per course; ML recommendations only for the top topics overall.
     recs = top_overall(candidates)
@@ -71,7 +73,9 @@ def recommend(authorization: str | None = Header(default=None)):
         })
 
     data.replace_pending(db, student_id, recs)
+    sent = data.insert_notifications(db, student_id, notify.decide(previous_top, recs, days_since, data.topic_titles(db)))
     return {
+        "notifications_sent": sent,
         "student_id": student_id,
         "model_version": models.version if models else None,
         "courses": summary,

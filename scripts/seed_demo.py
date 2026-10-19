@@ -187,6 +187,39 @@ def active_student_history(courses, topics, quizzes, questions, now: datetime, r
     return student
 
 
+def history_notifications(student_id: str, history: SimStudent, questions: dict, topic_titles: dict) -> list[dict]:
+    """A few already-read notifications for the Active Student, computed from its own history
+    (so the numbers are real): its biggest score improvement and a day it met its 30-minute goal."""
+    topic_of = {qid: q["topic_id"] for qid, q in questions.items()}
+    per_topic: dict[str, list[tuple[datetime, float]]] = {}
+    for a in history.attempts:
+        by_topic: dict[str, list[bool]] = {}
+        for qid, ok in a.answers:
+            by_topic.setdefault(topic_of[qid], []).append(ok)
+        for topic_id, oks in by_topic.items():
+            per_topic.setdefault(topic_id, []).append((a.completed_at, 100.0 * sum(oks) / len(oks)))
+    notes = []
+    best = max(
+        ((t, s[-2][1], s[-1][1], s[-1][0]) for t, s in ((t, sorted(v)) for t, v in per_topic.items()) if len(s) >= 2),
+        key=lambda x: x[2] - x[1], default=None)
+    if best and best[2] - best[1] >= 20:
+        topic_id, before, after, when = best
+        notes.append({"kind": "score_improved", "title": "Score improved",
+                      "body": f"{topic_titles[topic_id]}: {round(before)}% to {round(after)}%, up {round(after - before)} points.",
+                      "link": f"/topics/{topic_id}", "created_at": (when + timedelta(minutes=1)).isoformat()})
+    minutes_by_day: dict = {}
+    for log in history.logs:
+        minutes_by_day[log.logged_at.date()] = minutes_by_day.get(log.logged_at.date(), 0) + log.duration_minutes
+    goal_days = sorted(d for d, m in minutes_by_day.items() if m >= 30)
+    if goal_days:
+        day = goal_days[-1]
+        last = max(log.logged_at for log in history.logs if log.logged_at.date() == day)
+        notes.append({"kind": "daily_goal_reached", "title": "Daily goal reached",
+                      "body": f"You studied {minutes_by_day[day]} minutes today (goal: 30). Nice work.",
+                      "link": "/", "created_at": (last + timedelta(minutes=1)).isoformat()})
+    return [{**n, "student_id": student_id, "read_at": n["created_at"]} for n in notes]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--students", type=int, default=CONFIG.students)
@@ -229,7 +262,8 @@ def main() -> int:
 
     create_user(db, *NEW_STUDENT, DEMO_PASSWORD, False, rng)
     active_id = create_user(db, *ACTIVE_STUDENT, DEMO_PASSWORD, False, rng)
-    a, ans, logs = rows_for(active_id, active_student_history(courses, topics, quizzes, questions, now, rng), questions, rng)
+    active_history = active_student_history(courses, topics, quizzes, questions, now, rng)
+    a, ans, logs = rows_for(active_id, active_history, questions, rng)
     all_attempts += a
     all_answers += ans
     all_logs += logs
@@ -237,6 +271,10 @@ def main() -> int:
     insert(db, "quiz_attempts", all_attempts)
     insert(db, "attempt_answers", all_answers)
     insert(db, "study_logs", all_logs)
+    titles = {t["id"]: t["title"] for t in db.table("topics").select("id, title").execute().data}
+    seeded = history_notifications(active_id, active_history, questions, titles)
+    if seeded:
+        insert(db, "notifications", seeded)
 
     simulated = "no simulated students (--demo-only)" if args.demo_only else f"{args.students} simulated students"
     print(f"\nInserted {len(all_attempts)} quiz attempts, {len(all_answers)} answers and {len(all_logs)} study logs "

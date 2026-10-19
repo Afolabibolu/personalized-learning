@@ -93,14 +93,16 @@ The report says: track study consistency over time and give feedback and study r
 Built: streak, active days, minutes, 14-day strip, progress by topic, one reminder banner.
 
 Gaps:
-- [ ] A notifications centre: a bell in the nav with an unread count, and a list of reminders and feedback with time and a link. Kinds: weak topic not studied, streak at risk, no activity for 3 days, new recommendations ready, score improved.
-  _Partly done: reminders for weak topics not studied, 3 days without study and missing diagnostics are shown as banners on the dashboard (`web/src/lib/reminders.ts`); there is no bell, list or stored notifications._
-- [ ] Reminder settings on the Profile page: study days, preferred study time, daily goal in minutes. The "streak at risk" and "daily goal" reminders use them.
-- [ ] Optional browser notification while the app is open, after the student allows it. Reminders still appear in the app if they do not.
-- [ ] A weekly summary card: minutes this week against last week, topics improved, and the next topic to focus on.
-  _Partly done: the consistency card shows minutes over the last 7 days (`ConsistencyCard.tsx`), with no comparison to last week, topics improved or next topic._
-- [ ] Progress chart: long topic names are cut off. Wrap them onto two lines or show the full name on hover.
-  _Partly done: names are cut to one line with an ellipsis (`web/src/components/dashboard/ProgressCard.tsx`); no wrap or tooltip yet._
+- [x] A notifications centre: a bell in the nav with an unread count, and a list of reminders and feedback with time and a link. Kinds: weak topic not studied, streak at risk, no activity for 3 days, new recommendations ready, score improved.
+  _Done: `notifications` table with RLS (`supabase/migrations/20261019130000_notifications_and_reminders.sql`); bell with unread count and list in `web/src/components/NotificationBell.tsx`, full list at `/notifications`. Kinds: streak at risk, 3 days inactive, daily goal reached and score improved from `generate_reminders()`; weak topic not studied and new recommendations from the ML service (`ml/app/notify.py`). Tests: `scripts/test_reminders.py`, `ml/tests/test_notify.py`; screenshots `fr6-01-bell.png`, `fr6-02-notifications-page.png`._
+- [x] Reminder settings on the Profile page: study days, preferred study time, daily goal in minutes. The "streak at risk" and "daily goal" reminders use them.
+  _Done: `web/src/pages/ProfilePage.tsx` (study days, preferred time, daily goal, browser notifications), used by `generate_reminders()`; screenshot `fr6-05-reminder-settings.png`._
+- [x] Optional browser notification while the app is open, after the student allows it. Reminders still appear in the app if they do not.
+  _Done: turned on from the Profile page only (asks the browser's permission there); `useBrowserNotifications` in `NotificationBell.tsx` pops up new unread reminders while the app is open; reminders stay in the bell either way. Email is out of scope (CLAUDE.md: in-app only) and listed as future work._
+- [x] A weekly summary card: minutes this week against last week, topics improved, and the next topic to focus on.
+  _Done: `web/src/components/dashboard/WeeklySummaryCard.tsx` with `web/src/lib/weekly.ts` (tested) and `get_topic_progress()`; screenshot `fr6-03-weekly-summary.png`._
+- [x] Progress chart: long topic names are cut off. Wrap them onto two lines or show the full name on hover.
+  _Done: names wrap onto two lines with the full name as a hover tooltip (`ProgressCard.tsx`); screenshot `fr6-04-progress-chart.png`._
 
 Evidence: screenshots of the bell with unread count, the notifications list, reminder settings, and the weekly summary.
 

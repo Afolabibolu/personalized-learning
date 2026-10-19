@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { activityDays, activityStrip, currentStreak, dayKey } from './consistency'
 import { buildReminders, type ReminderInput } from './reminders'
+import { weeklySummary } from './weekly'
 
 const today = new Date(2026, 9, 18, 15, 0) // 18 Oct 2026, local time
 
@@ -87,5 +88,38 @@ describe('reminders', () => {
     })
     expect(reminders.map((r) => r.id)).toEqual(['no-study', 'diagnostic-CSC 531'])
     expect(reminders[1].action?.to).toBe('/quiz/q1')
+  })
+})
+
+describe('weekly summary', () => {
+  const titles = new Map([['fuzzy', 'Fuzzy Logic'], ['search', 'Search'], ['old', 'Old topic']])
+
+  it('compares minutes this week with last week', () => {
+    const s = weeklySummary({
+      now: today,
+      studyLogs: [
+        { logged_at: daysAgo(0), duration_minutes: 30 },
+        { logged_at: daysAgo(6), duration_minutes: 15 },
+        { logged_at: daysAgo(8), duration_minutes: 60 },
+        { logged_at: daysAgo(20), duration_minutes: 90 },
+      ],
+      progress: [],
+      titles,
+    })
+    expect([s.minutesThisWeek, s.minutesLastWeek]).toEqual([45, 60])
+  })
+
+  it('lists topics that improved this week, biggest gain first', () => {
+    const s = weeklySummary({
+      now: today,
+      studyLogs: [],
+      progress: [
+        { topic_id: 'search', latest_score: 60, previous_score: 50, latest_completed_at: daysAgo(1) },
+        { topic_id: 'fuzzy', latest_score: 70, previous_score: 40, latest_completed_at: daysAgo(2) },
+        { topic_id: 'old', latest_score: 90, previous_score: 10, latest_completed_at: daysAgo(10) },
+      ],
+      titles,
+    })
+    expect(s.improved.map((t) => [t.title, t.from, t.to])).toEqual([['Fuzzy Logic', 40, 70], ['Search', 50, 60]])
   })
 })
