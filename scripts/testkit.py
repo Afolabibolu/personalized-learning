@@ -108,7 +108,7 @@ def setup(db: Client) -> Fixture:
             "title": "Alpha quiz", "question_count": 4,
         }).execute().data[0]["id"],
         resource_id=db.table("resources").insert({
-            "topic_id": topic_ids["alpha"], "title": "Alpha notes", "type": "link",
+            "topic_id": topic_ids["alpha"], "title": "Alpha notes", "type": "lecture",
             "url": "https://example.com/alpha", "is_introductory": True, "intro_order": 1,
         }).execute().data[0]["id"],
     )

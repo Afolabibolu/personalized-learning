@@ -97,3 +97,16 @@ def test_top_three_are_chosen_across_courses_and_cold_start_lists_are_kept():
     recs = top_overall(candidates)
     assert [(r.topic_id, r.rank) for r in recs if r.source == "ml"] == [("a2", 1), ("b1", 2), ("b2", 3)]
     assert [(r.topic_id, r.rank) for r in recs if r.source == "cold_start"] == [("c1", 1)]
+
+
+def test_weak_topic_gets_its_study_note_before_past_questions_and_lecture():
+    c = CourseData("c", ["t1"], [
+        ResourceInfo("lec", "t1", "Lecture 1", False, None, "lecture"),
+        ResourceInfo("pq", "t1", "Past questions", False, None, "past_questions"),
+        ResourceInfo("note", "t1", "Study note", False, None, "note"),
+    ], {"t1": "quiz-t1"})
+    m = models({1.0: 0.9}, {1.0: 0.9})
+    pick = lambda used: recommend_course(c, 10, features({"t1": 1.0}), m, used)[0].resource_id
+    assert pick(set()) == "note"
+    assert pick({"note"}) == "pq"
+    assert pick({"note", "pq"}) == "lec"

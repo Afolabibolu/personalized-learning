@@ -1,0 +1,53 @@
+{
+  "code": "CSC 531",
+  "topics": {
+    "hci-and-usability": [
+      {
+        "title": "HCI Lecture 1 (2024)",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWobuMRz/view",
+        "source": "Lecture 1"
+      }
+    ],
+    "user-centred-design": [
+      {
+        "title": "Lectures 2–3, in HCI complete lecture slides",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
+        "source": "Lectures 2–3"
+      }
+    ],
+    "conceptual-models-and-ideation": [
+      {
+        "title": "Lectures 4–5, in HCI complete lecture slides",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
+        "source": "Lectures 4–5"
+      }
+    ],
+    "data-gathering-and-analysis": [
+      {
+        "title": "Lectures 4–5, in HCI complete lecture slides",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
+        "source": "Lectures 4–5"
+      }
+    ],
+    "cognitive-psychology": [
+      {
+        "title": "HCI Lecture 6",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/1B8pyE_QDUz3Fsd7hXwgZIaQyV5DZbLho/view",
+        "source": "Lecture 6"
+      }
+    ],
+    "prototyping-and-evaluation": [
+      {
+        "title": "HCI Lecture 7 (2024)",
+        "type": "lecture",
+        "url": "https://drive.google.com/file/d/18vGa3L9h8OYcJJ4K3E8PWAyjV9PmL5GU/view",
+        "source": "Lecture 7"
+      }
+    ]
+  }
+}

@@ -18,11 +18,14 @@ export type Course = {
   description: string | null
 }
 
+export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video'
+
 export type Resource = {
   id: string
   title: string
-  type: 'pdf' | 'video' | 'link'
-  url: string
+  type: ResourceType
+  url: string | null // lecture and video: opens in a new tab
+  source: string | null
   is_introductory: boolean
   intro_order: number | null
 }
@@ -42,6 +45,7 @@ export type Topic = {
   slug: string
   title: string
   subtopics: string[]
+  summary: string | null
   sequence_order: number
 }
 

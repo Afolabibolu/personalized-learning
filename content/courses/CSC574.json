@@ -6,6 +6,7 @@
     {
       "slug": "introduction-and-agents",
       "title": "Introduction to Intelligent Systems and Agents",
+      "summary": "Intelligent systems are approached as thinking or acting humanly or rationally, with the Turing test as the classic benchmark. An agent perceives its environment through sensors and acts through actuators; a rational agent maximises its performance measure.",
       "subtopics": [
         "Approaches to AI: thinking/acting humanly, thinking/acting rationally",
         "The Turing test and Turing's prediction",
@@ -16,20 +17,12 @@
       ],
       "lectures": [
         1
-      ],
-      "resources": [
-        {
-          "title": "Lecture 1, in Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
-          "is_introductory": true,
-          "intro_order": 1
-        }
       ]
     },
     {
       "slug": "search",
       "title": "Problem Solving and Search",
+      "summary": "Many problems can be framed as search: an initial state, a goal state, a state space, a successor function and a path cost. Breadth-first search finds the shortest path at a memory cost, while depth-first search may be faster but gives no such guarantee.",
       "subtopics": [
         "Components of a search problem: initial state, goal state, state space, successor function, path cost",
         "Uninformed versus informed search",
@@ -39,20 +32,12 @@
       ],
       "lectures": [
         2
-      ],
-      "resources": [
-        {
-          "title": "Lecture 2, in Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
-          "is_introductory": true,
-          "intro_order": 2
-        }
       ]
     },
     {
       "slug": "knowledge-representation",
       "title": "Knowledge Representation and Reasoning",
+      "summary": "Knowledge representation structures information so machines can reason with it, through logic, rules, semantic networks and ontologies. It covers the five types of knowledge and the AI knowledge cycle from perception to execution.",
       "subtopics": [
         "What knowledge representation is and what must be represented",
         "Types of knowledge: declarative, structural, procedural, meta, heuristic",
@@ -63,20 +48,12 @@
       ],
       "lectures": [
         3
-      ],
-      "resources": [
-        {
-          "title": "Lecture 3, in Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
-          "is_introductory": true,
-          "intro_order": 3
-        }
       ]
     },
     {
       "slug": "expert-systems",
       "title": "Expert Systems",
+      "summary": "An expert system emulates a human expert using a knowledge base, an inference engine, an explanation facility and a knowledge-acquisition module. Forward and backward chaining drive its reasoning, and MYCIN is the classic case study.",
       "subtopics": [
         "What an expert system is",
         "Architecture: knowledge base, inference engine, user interface, explanation facility, knowledge acquisition",
@@ -87,18 +64,12 @@
       ],
       "lectures": [
         4
-      ],
-      "resources": [
-        {
-          "title": "Lecture 4, in Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
-        }
       ]
     },
     {
       "slug": "fuzzy-logic",
       "title": "Fuzzy Logic Systems",
+      "summary": "Fuzzy logic lets truth take any value between 0 and 1, so systems can reason with vague terms such as hot or near. A fuzzy system fuzzifies inputs, applies IF-THEN rules (Mamdani inference) and defuzzifies the result with the centroid method.",
       "subtopics": [
         "Classical versus fuzzy logic",
         "Fuzzy system architecture: fuzzification, rule base, inference, defuzzification",
@@ -108,18 +79,12 @@
       ],
       "lectures": [
         5
-      ],
-      "resources": [
-        {
-          "title": "Lecture 5, in Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
-        }
       ]
     },
     {
       "slug": "nature-inspired-and-other-ai",
       "title": "Neural Networks, Genetic Algorithms and Other AI Technologies",
+      "summary": "Nature-inspired methods include neural networks, genetic algorithms (selection, crossover, mutation), ant colony optimisation and artificial immune systems. Intelligent agents, natural language processing and hybrid systems complete the toolkit.",
       "subtopics": [
         "Artificial neural networks",
         "Genetic algorithms: selection, crossover, mutation",
@@ -128,14 +93,7 @@
         "Natural language processing: uses, advantages and disadvantages",
         "Integrating AI technologies into decision support"
       ],
-      "lectures": [],
-      "resources": [
-        {
-          "title": "Intelligent Systems lecture folder (2024/25)",
-          "type": "link",
-          "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s"
-        }
-      ]
+      "lectures": []
     }
   ]
 }

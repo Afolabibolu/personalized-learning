@@ -168,7 +168,7 @@ def cases() -> list[Case]:
              "Top 3 overall from the models; the two weak topics ranked 1 and 2; re-running does not duplicate pending recommendations"),
         Case("TC-07", "FR4 / NFR4", "Cold-start fallback for a new student",
              ["Sign in as New Student (no quiz attempts or study logs)", "POST /recommend", "Open the dashboard"],
-             "Introductory resources for each course in order, labelled 'Getting started'; not empty, no ML scores"),
+             "For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores"),
         Case("TC-08", "FR4", "Model training and comparison with a rule baseline (simulated data)",
              ["python scripts/seed_demo.py (writes simulation_rules.md)", "cd ml && python -m training.train", "Inspect ml/results/"],
              "Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data"),
@@ -228,7 +228,7 @@ def evaluate(case: Case) -> None:
         out4 = run("phase4", py + ["scripts/phase4_check.py"])
         out5 = run("phase5", py + ["scripts/phase5_check.py"])
         case.evidence = lines(out4, "every recommendation is cold start", "one introductory list") + \
-            lines(out5, "'Getting started'", "first three lectures")
+            lines(out5, "'Getting started'", "introductory list")
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics_simulated_data.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]

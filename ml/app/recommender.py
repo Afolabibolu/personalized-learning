@@ -31,6 +31,16 @@ class ResourceInfo:
     title: str
     is_introductory: bool
     intro_order: int | None
+    type: str = "lecture"  # note, past_questions, lecture or video
+
+
+# For a weak topic, which kind of resource to recommend first.
+RESOURCE_PREFERENCE = ["note", "past_questions", "lecture", "video"]
+
+
+def resource_rank(resource: ResourceInfo) -> tuple:
+    kind = RESOURCE_PREFERENCE.index(resource.type) if resource.type in RESOURCE_PREFERENCE else len(RESOURCE_PREFERENCE)
+    return (kind, not resource.is_introductory, resource.title)
 
 
 @dataclass
@@ -87,7 +97,8 @@ def ml_recommendations(
     (every topic when top_n is None).
 
     For each of the top topics: its first resource the student has not already
-    accepted or dismissed, or the topic quiz when none is left.
+    accepted or dismissed (study note, then past questions, then lecture, then
+    video), or the topic quiz when none is left.
     """
     probabilities = attention_probabilities(models, features)
     order = {topic_id: i for i, topic_id in enumerate(course.topic_ids)}
@@ -98,7 +109,7 @@ def ml_recommendations(
     for rank, (topic_id, probability) in enumerate(ranked if top_n is None else ranked[:top_n], start=1):
         unused = sorted(
             (r for r in course.resources if r.topic_id == topic_id and r.id not in used_resource_ids),
-            key=lambda r: (not r.is_introductory, r.title),
+            key=resource_rank,
         )
         recs.append(Recommendation(
             topic_id=topic_id,

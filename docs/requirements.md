@@ -71,12 +71,16 @@ The report says: a structured repository of courses, topics, learning resources 
 Built: course list, topics, lecture resources.
 
 Gaps:
-- [ ] A Knowledge Base page in the nav: courses, then topics in order with subtopics and a short summary, then resources grouped by type (study note, lecture slides, past questions, video).
-- [ ] Study notes and past questions open inside the app in a resource viewer. Lecture and video links open in a new tab.
-- [ ] A search box on the Knowledge Base page that filters topics and resources by name.
-- [ ] Every topic has at least a study note, a lecture link and a topic quiz.
-  _Partly done: every topic has a lecture link from `content/sources/links.csv` and a topic quiz (`content/load.py`, TC-09 in `docs/test-cases.md`); there are no study notes yet._
-- [ ] A small count on the page: "2 courses, 12 topics, N resources, N practice questions", read live from the database.
+- [x] A Knowledge Base page in the nav: courses, then topics in order with subtopics and a short summary, then resources grouped by type (study note, lecture slides, past questions, video).
+  _Done: `web/src/pages/KnowledgeBasePage.tsx`, `web/src/components/ResourceList.tsx`; screenshot `docs/screenshots/phase7/fr5-01-knowledge-base.png`._
+- [x] Study notes and past questions open inside the app in a resource viewer. Lecture and video links open in a new tab.
+  _Done: `web/src/pages/ResourcePage.tsx` (react-markdown + remark-gfm); screenshots `fr5-03-study-note.png`, `fr5-04-past-questions.png`._
+- [x] A search box on the Knowledge Base page that filters topics and resources by name.
+  _Done: `KnowledgeBasePage.tsx` (filters as you type, empty state with "Clear the search"); screenshot `fr5-02-search.png`._
+- [x] Every topic has at least a study note, a lecture link and a topic quiz.
+  _Done: 12 notes in `content/notes/` (checked by `content/validate.py`: 300–500 words, source line), lecture links from `content/sources/links.csv`, topic quizzes from `content/load.py`; verified by `scripts/phase7_check.py --only fr5`._
+- [x] A small count on the page: "2 courses, 12 topics, N resources, N practice questions", read live from the database.
+  _Done: `knowledge_base_stats` view (`supabase/migrations/20261019090000_knowledge_base.sql`), shown by `KnowledgeBasePage.tsx`: 2 courses, 12 topics, 40 resources, 120 practice questions._
 
 Evidence: screenshots of the Knowledge Base page, a topic page, a study note and a past-questions set.
 

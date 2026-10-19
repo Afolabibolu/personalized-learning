@@ -23,10 +23,10 @@ PASSWORD = "DemoPass2026!"
 ACTIVE = "active.student@demo.example.com"
 NEW = "new.student@demo.example.com"
 WEAK = {"Cognitive Psychology and Perception", "Fuzzy Logic Systems"}
+# Cold start per course: topic 1's note and lecture, then topic 2's note.
 INTRO_TOPICS = {
     "HCI, Interactive Systems and Usability", "Understanding the Problem Space and User-Centred Design",
-    "Conceptual Models, Interaction Types and Ideation", "Introduction to Intelligent Systems and Agents",
-    "Problem Solving and Search", "Knowledge Representation and Reasoning",
+    "Introduction to Intelligent Systems and Agents", "Problem Solving and Search",
 }
 
 results: list[bool] = []
@@ -115,8 +115,10 @@ def main() -> int:
         rows = recs(page)
         check("every recommendation is 'Getting started'", rows and all(r["kind"] == "getting-started" for r in rows),
               f"{len(rows)} items")
-        check("introductory list is the first three lectures of each course",
-              {r["topic"] for r in rows} == INTRO_TOPICS and len(rows) == 6)
+        check("introductory list: topic 1's note and lecture, then topic 2's note, for each course",
+              {r["topic"] for r in rows} == INTRO_TOPICS and len(rows) == 6
+              and sum("Study note" in r["text"] for r in rows) == 4 and sum("Lecture" in r["text"] for r in rows) >= 2,
+              f"{len(rows)} items")
         reminder_text = " ".join(page.get_by_test_id("reminder").all_inner_texts())
         check("new student is reminded to take a diagnostic", "diagnostic quiz" in reminder_text)
         check("no streak yet", page.get_by_test_id("streak").inner_text() == "0")
@@ -125,6 +127,7 @@ def main() -> int:
 
         print("\n-- Accept and Dismiss")
         first, second = page.get_by_test_id("recommendation").nth(0), page.get_by_test_id("recommendation").nth(1)
+        accepted_id, dismissed_id = first.get_attribute("data-id"), second.get_attribute("data-id")
         accepted_topic = first.get_by_test_id("recommendation-topic").inner_text()
         dismissed_topic = second.get_by_test_id("recommendation-topic").inner_text()
         first.get_by_role("button", name="Accept").click()
@@ -132,10 +135,10 @@ def main() -> int:
         second.get_by_role("button", name="Dismiss").click()
         expect(page.get_by_test_id("recommendation")).to_have_count(5)
 
-        statuses = {r["topic"]["title"]: r["status"] for r in db.table("recommendations").select(
-            "status, topic:topics(title)").eq("student_id", new_id).execute().data}
-        check("Accept sets status to accepted", statuses.get(accepted_topic) == "accepted", accepted_topic)
-        check("Dismiss sets status to dismissed and hides it", statuses.get(dismissed_topic) == "dismissed", dismissed_topic)
+        statuses = {r["id"]: r["status"] for r in db.table("recommendations").select(
+            "id, status").eq("student_id", new_id).execute().data}
+        check("Accept sets status to accepted", statuses.get(accepted_id) == "accepted", accepted_topic)
+        check("Dismiss sets status to dismissed and hides it", statuses.get(dismissed_id) == "dismissed", dismissed_topic)
         page.close()
         browser.close()
 

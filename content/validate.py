@@ -7,10 +7,20 @@ on any error.
 
 Course file, content/courses/<code>.json (code without spaces, e.g. CSC531.json):
     {"code": "CSC 531", "title": "...", "description": "...",
-     "topics": [{"slug": "...", "title": "...", "subtopics": ["..."],
-                 "resources": [{"title": "...", "type": "pdf|video|link", "url": "...",
-                                "is_introductory": false, "intro_order": null}]}]}
+     "topics": [{"slug": "...", "title": "...", "summary": "two sentences",
+                 "subtopics": ["..."], "lectures": [1, 2]}]}
 Topics are listed in teaching order.
+
+Study note, content/notes/<code>/<topic-slug>.md: 300 to 500 words, last line
+"Source: Lecture N" or "Source: <file name>".
+
+Links, content/resources/<code>.json (written by apply_links.py from
+content/sources/links.csv): {"code": ..., "topics": {slug: [{"title", "type":
+"lecture|past_questions|video", "url", "source"}]}}. Every topic needs a lecture.
+
+Past questions, content/past_questions/<code>.json: {"code", "papers": [{"year",
+"paper", "source"}], "questions": [{"year", "number", "marks", "topic", "text"}]}.
+A topic with no past questions simply has none.
 
 Question file, content/questions/<code>/<topic-slug>.json: a list of
     {"format": "...", "stem": "...", "options": [{"key": "a", "text": "..."}],
@@ -24,7 +34,8 @@ from pathlib import Path
 
 CONTENT = Path(__file__).parent
 FORMATS = ("single_choice", "true_false", "multi_select", "odd_one_out")
-RESOURCE_TYPES = ("pdf", "video", "link")
+LINK_TYPES = ("lecture", "past_questions", "video")
+NOTE_WORDS = (300, 500)
 QUESTIONS_PER_TOPIC = 10
 
 
@@ -56,30 +67,79 @@ def check_course(course: dict, errors: list[str]) -> None:
         if n > 1:
             errors.append(f"{name}: duplicate topic slug {slug!r}")
 
-    intro_orders = []
     for topic in topics:
         where = f"{name}/{topic.get('slug')}"
-        for key in ("slug", "title"):
+        for key in ("slug", "title", "summary"):
             if not topic.get(key):
                 errors.append(f"{where}: missing {key}")
         if not topic.get("subtopics"):
             errors.append(f"{where}: no subtopics")
-        resources = topic.get("resources", [])
-        if not resources:
-            errors.append(f"{where}: no resource")
-        for r in resources:
-            if not r.get("title") or not r.get("url"):
-                errors.append(f"{where}: resource needs title and url")
-            if r.get("type") not in RESOURCE_TYPES:
-                errors.append(f"{where}: resource type {r.get('type')!r} not in {RESOURCE_TYPES}")
-            if r.get("is_introductory"):
-                if r.get("intro_order") is None:
-                    errors.append(f"{where}: introductory resource needs intro_order")
-                intro_orders.append(r.get("intro_order"))
-    if not intro_orders:
-        errors.append(f"{name}: no introductory resource")
-    elif len(set(intro_orders)) != len(intro_orders):
-        errors.append(f"{name}: duplicate intro_order values")
+        if not isinstance(topic.get("lectures"), list):
+            errors.append(f"{where}: lectures must be a list of lecture numbers (may be empty)")
+        if "resources" in topic:
+            errors.append(f"{where}: resources belong in content/resources/, not the course file")
+        check_note(name, topic.get("slug"), where, errors)
+    check_links(name, slugs, errors)
+    check_past_questions(name, set(slugs), errors)
+
+
+def check_note(course_file: str, slug: str, where: str, errors: list[str]) -> None:
+    path = CONTENT / "notes" / course_file / f"{slug}.md"
+    if not path.exists():
+        errors.append(f"{where}: missing study note {path.relative_to(CONTENT)}")
+        return
+    text = path.read_text().strip()
+    words = len(text.split())
+    if not NOTE_WORDS[0] <= words <= NOTE_WORDS[1]:
+        errors.append(f"{where}: study note has {words} words, expected {NOTE_WORDS[0]} to {NOTE_WORDS[1]}")
+    last = text.splitlines()[-1].strip() if text else ""
+    if not last.startswith("Source: "):
+        errors.append(f"{where}: study note must end with a 'Source: ...' line")
+
+
+def check_links(course_file: str, slugs: list[str], errors: list[str]) -> None:
+    path = CONTENT / "resources" / f"{course_file}.json"
+    if not path.exists():
+        errors.append(f"{course_file}: missing {path.relative_to(CONTENT)} (run content/apply_links.py)")
+        return
+    topics = json.loads(path.read_text()).get("topics", {})
+    for slug in slugs:
+        where = f"{course_file}/{slug}"
+        links = topics.get(slug, [])
+        if not any(link.get("type") == "lecture" for link in links):
+            errors.append(f"{where}: no lecture link (add it to content/sources/links.csv)")
+        for link in links:
+            url = str(link.get("url", ""))
+            if link.get("type") not in LINK_TYPES:
+                errors.append(f"{where}: link type {link.get('type')!r} not in {LINK_TYPES}")
+            if not link.get("title"):
+                errors.append(f"{where}: link needs a title")
+            if not url.startswith("https://") or "todo" in url.lower():
+                errors.append(f"{where}: link {url!r} is a placeholder or not https")
+        if len({link.get("url") for link in links}) != len(links):
+            errors.append(f"{where}: the same link appears twice")
+    for slug in topics:
+        if slug not in slugs:
+            errors.append(f"{course_file}: resources file has unknown topic {slug!r}")
+
+
+def check_past_questions(course_file: str, slugs: set[str], errors: list[str]) -> None:
+    path = CONTENT / "past_questions" / f"{course_file}.json"
+    if not path.exists():
+        return  # optional: a course may have no past questions
+    data = json.loads(path.read_text())
+    years = {p.get("year") for p in data.get("papers", [])}
+    for p in data.get("papers", []):
+        if not p.get("year") or not p.get("paper") or not p.get("source"):
+            errors.append(f"{course_file} past questions: each paper needs year, paper and source")
+    for i, q in enumerate(data.get("questions", []), start=1):
+        where = f"{course_file} past question #{i} ({q.get('year')} {q.get('number')})"
+        if q.get("year") not in years:
+            errors.append(f"{where}: year not listed under papers")
+        if q.get("topic") not in slugs:
+            errors.append(f"{where}: unknown topic {q.get('topic')!r}")
+        if not str(q.get("text", "")).strip() or not q.get("number"):
+            errors.append(f"{where}: needs number and text")
 
 
 def check_question(q: dict, where: str, errors: list[str]) -> None:

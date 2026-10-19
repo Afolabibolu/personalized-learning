@@ -1,0 +1,89 @@
+{
+  "code": "CSC 574",
+  "topics": {
+    "introduction-and-agents": [
+      {
+        "title": "Lecture 1, in Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture 1"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ],
+    "search": [
+      {
+        "title": "Lecture 2, in Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture 2"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ],
+    "knowledge-representation": [
+      {
+        "title": "Lecture 3, in Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture 3"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ],
+    "expert-systems": [
+      {
+        "title": "Lecture 4, in Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture 4"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ],
+    "fuzzy-logic": [
+      {
+        "title": "Lecture 5, in Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture 5"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ],
+    "nature-inspired-and-other-ai": [
+      {
+        "title": "Intelligent Systems lecture folder (2024/25)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1FnUCKjyAOI1Baadiddz2V1AGzFkYRV0s",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Intelligent Systems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

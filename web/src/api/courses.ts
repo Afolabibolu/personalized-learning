@@ -43,7 +43,7 @@ export type CourseDetail = Course & {
 export async function getCourse(courseId: string): Promise<CourseDetail> {
   const { data, error } = await supabase
     .from('courses')
-    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, sequence_order), quizzes(id, kind)')
+    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, summary, sequence_order), quizzes(id, kind)')
     .eq('id', courseId)
     .single()
   if (error) throw error
@@ -70,7 +70,7 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
   const { data, error } = await supabase
     .from('topics')
     .select(
-      'id, course_id, slug, title, subtopics, sequence_order, course:courses(id, code, title), resources(id, title, type, url, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
+      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
     )
     .eq('id', topicId)
     .single()
@@ -91,7 +91,7 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
 export async function listTopicsByCourse(): Promise<(Course & { topics: Topic[] })[]> {
   const { data, error } = await supabase
     .from('courses')
-    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, sequence_order)')
+    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, summary, sequence_order)')
     .order('code')
   if (error) throw error
   return data.map((c) => ({ ...c, topics: c.topics.sort((a, b) => a.sequence_order - b.sequence_order) }))
