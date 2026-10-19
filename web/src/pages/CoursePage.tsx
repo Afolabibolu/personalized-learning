@@ -1,11 +1,13 @@
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { getCourse } from '../api/courses'
+import { getCourse, listQuizHistory } from '../api/courses'
+import { formatDate } from '../lib/format'
 import { ButtonLink, Card, ErrorMessage, PageHeader, ScoreBadge, ScoreBar, Spinner } from '../components/ui'
 
 export function CoursePage() {
   const { courseId = '' } = useParams()
   const course = useQuery({ queryKey: ['course', courseId], queryFn: () => getCourse(courseId) })
+  const history = useQuery({ queryKey: ['quizHistory', courseId], queryFn: () => listQuizHistory(courseId) })
 
   if (course.isPending) return <Spinner />
   if (course.isError) return <ErrorMessage error={course.error} />
@@ -57,6 +59,47 @@ export function CoursePage() {
           </li>
         ))}
       </ol>
+
+      <h2 className="mt-8 mb-3 text-sm font-semibold tracking-wide text-slate-500 uppercase">Quiz history</h2>
+      <Card className="p-0" >
+        {history.isPending ? (
+          <Spinner />
+        ) : !history.data || history.data.length === 0 ? (
+          <div className="px-5 py-6 text-center text-sm text-slate-500">
+            No quizzes yet.{' '}
+            {data.diagnostic_quiz_id && (
+              <Link to={`/quiz/${data.diagnostic_quiz_id}`} className="font-semibold text-brand-600 hover:text-brand-700">
+                Take the diagnostic quiz
+              </Link>
+            )}
+          </div>
+        ) : (
+          <table className="w-full text-sm" data-testid="quiz-history">
+            <thead>
+              <tr className="border-b border-slate-100 text-left text-xs text-slate-500">
+                <th className="px-5 py-2.5 font-medium">Date</th>
+                <th className="px-2 py-2.5 font-medium">Quiz</th>
+                <th className="px-5 py-2.5 text-right font-medium">Score</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-100">
+              {history.data.map((h) => (
+                <tr key={h.attempt_id} className="hover:bg-slate-50">
+                  <td className="px-5 py-2.5 whitespace-nowrap text-slate-500">{formatDate(h.completed_at)}</td>
+                  <td className="px-2 py-2.5">
+                    <Link to={`/attempts/${h.attempt_id}`} className="font-medium hover:text-brand-700">
+                      {h.quiz_title}
+                    </Link>
+                  </td>
+                  <td className="px-5 py-2.5 text-right">
+                    <ScoreBadge score={h.score} />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </Card>
     </>
   )
 }

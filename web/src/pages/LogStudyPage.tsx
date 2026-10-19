@@ -5,6 +5,7 @@ import { listTopicsByCourse } from '../api/courses'
 import { triggerRecommendations } from '../api/ml'
 import { listStudyLogs, logStudySession } from '../api/studyLogs'
 import { formatDate } from '../lib/format'
+import { StudyTimer } from '../components/StudyTimer'
 import type { ActivityType } from '../api/types'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
 
@@ -25,6 +26,8 @@ export function LogStudyPage() {
   const [topicId, setTopicId] = useState(params.get('topic') ?? '')
   const [duration, setDuration] = useState(30)
   const [activity, setActivity] = useState<ActivityType>('reading')
+
+  const durationValid = Number.isInteger(duration) && duration >= 1 && duration <= 300
 
   const save = useMutation({
     mutationFn: () => logStudySession({ topicId, durationMinutes: duration, activityType: activity }),
@@ -76,15 +79,25 @@ export function LogStudyPage() {
                   {d} min
                 </Chip>
               ))}
+            </div>
+            <label className="mt-3 flex items-center gap-3">
+              <span className="text-sm text-slate-700">Custom (minutes)</span>
               <input
                 type="number"
                 min={1}
-                max={600}
-                aria-label="Minutes"
-                className={inputClass.replace('w-full', 'w-24')}
-                value={duration}
+                max={300}
+                className={inputClass.replace('w-full', 'w-28')}
+                value={duration || ''}
                 onChange={(e) => setDuration(Number(e.target.value))}
+                aria-invalid={!durationValid}
+                aria-describedby="duration-hint"
               />
+            </label>
+            <p id="duration-hint" className={`mt-1 text-xs ${durationValid ? 'text-slate-500' : 'font-medium text-red-600'}`}>
+              {durationValid ? 'Between 1 and 300 minutes.' : 'Enter a whole number of minutes between 1 and 300.'}
+            </p>
+            <div className="mt-3">
+              <StudyTimer onStop={setDuration} />
             </div>
           </fieldset>
 
@@ -102,10 +115,10 @@ export function LogStudyPage() {
           {save.isError && <ErrorMessage error={save.error} />}
           {save.isSuccess && (
             <div className="rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800 ring-1 ring-emerald-200" role="status">
-              Saved: {save.data.duration_minutes} minutes of {save.data.activity_type}.
+              Saved: {save.data.duration_minutes} minute{save.data.duration_minutes === 1 ? '' : 's'} of {save.data.activity_type}.
             </div>
           )}
-          <Button type="submit" className="w-full" disabled={save.isPending || !topicId || duration < 1}>
+          <Button type="submit" className="w-full" disabled={save.isPending || !topicId || !durationValid}>
             {save.isPending ? 'Saving…' : 'Save session'}
           </Button>
         </form>
@@ -116,7 +129,7 @@ export function LogStudyPage() {
           <h2 className="mb-3 text-sm font-semibold tracking-wide text-slate-500 uppercase">Recent sessions</h2>
           <ul className="grid gap-2">
             {logs.data.map((log) => (
-              <li key={log.id} className="flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 text-sm ring-1 ring-slate-200">
+              <li key={log.id} className="flex min-w-0 flex-col gap-0.5 rounded-xl bg-white px-4 py-3 text-sm ring-1 ring-slate-200 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
                 <span className="min-w-0 truncate font-medium">{log.topic_title}</span>
                 <span className="shrink-0 text-slate-500">
                   {log.duration_minutes} min · {log.activity_type} · {formatDate(log.logged_at)}

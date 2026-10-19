@@ -159,3 +159,14 @@ def test_topic_scores_are_private(db, fx, student):
     started = start(student, fx.topic_quiz_id)
     submit(student, started["attempt_id"], {})
     assert other.rpc("get_topic_scores", {"p_topic_ids": list(fx.topic_ids.values())}).execute().data == []
+
+
+def test_review_shows_the_previous_score_on_each_topic(student, fx):
+    first = start(student, fx.topic_quiz_id)
+    review1 = submit(student, first["attempt_id"], {})
+    assert review1["topic_scores"][0]["previous_score"] is None  # first attempt on the topic
+
+    second = start(student, fx.topic_quiz_id)
+    review2 = submit(student, second["attempt_id"], {q["id"]: fx.correct[q["id"]] for q in second["questions"]})
+    alpha = review2["topic_scores"][0]
+    assert (float(alpha["previous_score"]), float(alpha["score"])) == (0.0, 100.0)

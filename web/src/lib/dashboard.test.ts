@@ -123,3 +123,11 @@ describe('weekly summary', () => {
     expect(s.improved.map((t) => [t.title, t.from, t.to])).toEqual([['Fuzzy Logic', 40, 70], ['Search', 50, 60]])
   })
 })
+
+describe('dates', () => {
+  it('reads like "18 Oct 2026", with three-letter months', async () => {
+    const { formatDate } = await import('./format')
+    expect(formatDate(new Date(2026, 9, 18))).toBe('18 Oct 2026')
+    expect(formatDate(new Date(2026, 8, 28))).toBe('28 Sep 2026')
+  })
+})

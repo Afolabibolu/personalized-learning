@@ -396,7 +396,100 @@ def fr1(browser, shot: Shots) -> None:
     page.close()
 
 
-SECTIONS = {"fr5": fr5, "fr4": fr4, "fr6": fr6, "fr1": fr1}
+def answer_quiz(page: Page, questions: int, pick_last: bool) -> None:
+    expect(page.get_by_text(f"/ {questions}", exact=False)).to_be_visible()
+    for i in range(questions):
+        expect(page.get_by_role("radio").or_(page.get_by_role("checkbox")).first).to_be_visible()
+        boxes = page.get_by_role("checkbox")
+        options = boxes if boxes.count() else page.get_by_role("radio")
+        (options.last if pick_last else options.first).click()
+        if i < questions - 1:
+            page.get_by_role("button", name="Next").click()
+    page.get_by_role("button", name="Submit").click()
+    page.wait_for_url(f"{APP}/attempts/**")
+    expect(page.get_by_text("Score per topic")).to_be_visible()
+
+
+def fr2_fr3(browser, shot: Shots) -> None:
+    print("-- FR2 and FR3 small fixes")
+    import time
+    db = testkit.admin()
+    uid, email = testkit.create_student(db, f"Phase7 Fr23 {int(time.time())}")
+    db.table("profiles").update({"department": "Computer Science", "level": 500, "learning_preferences": ["note"]}).eq("id", uid).execute()
+    quiz_id = db.table("quizzes").select("id, topic:topics(title)").eq("kind", "topic").execute().data[0]["id"]
+    try:
+        page = browser.new_page(viewport=LAPTOP)
+        page.set_default_timeout(20_000)
+        page.goto(f"{APP}/login")
+        page.get_by_label("Email").fill(email)
+        page.get_by_label("Password").fill(testkit.PASSWORD)
+        page.get_by_role("button", name="Sign in").click()
+        page.wait_for_url(lambda url: "/login" not in url)
+
+        page.goto(f"{APP}/quiz/{quiz_id}")
+        page.get_by_role("button", name="Start quiz").click()
+        answer_quiz(page, 5, pick_last=False)
+        first = page.locator("section").first.get_by_text("First attempt on this topic")
+        check("results: first attempt on a topic says so", first.count() == 1)
+
+        page.goto(f"{APP}/quiz/{quiz_id}")
+        page.get_by_role("button", name="Start quiz").click()
+        answer_quiz(page, 5, pick_last=True)
+        change = page.get_by_test_id("score-change")
+        check("results: change since the last attempt, e.g. '40% to 70%, up 30 points'", change.count() == 1,
+              change.first.inner_text() if change.count() else "none")
+        shot(page, "fr2-01-results-change.png")
+
+        page.goto(f"{APP}/log")
+        page.get_by_label("Topic").select_option(index=1)
+        custom = page.get_by_label("Custom (minutes)")
+        custom.fill("400")
+        save = page.get_by_role("button", name="Save session")
+        check("'Custom (minutes)' is labelled and rejects 400", save.is_disabled() and page.get_by_text("between 1 and 300").is_visible())
+        custom.fill("45")
+        check("'Custom (minutes)' accepts 45", save.is_enabled())
+        page.get_by_role("button", name="Start timer").click()
+        page.wait_for_timeout(1500)
+        page.get_by_role("button", name="Pause").click()
+        timer_text = page.get_by_test_id("study-timer").inner_text().split()[0]
+        shot(page, "fr3-01-timer.png")
+        page.get_by_role("button", name="Stop and use time").click()
+        check("study timer: start, pause, stop fills in the duration", custom.input_value() == "1", f"stopped at {timer_text}, duration {custom.input_value()} min")
+        with page.expect_request(lambda r: "/recommend" in r.url, timeout=15_000):
+            save.click()
+        expect(page.get_by_text("Saved: 1 minute of")).to_be_visible()
+        check("after saving: confirmation, and recommendations refresh in the background", True)
+        shot(page, "fr3-02-logger.png", full_page=True)
+        page.close()
+    finally:
+        db.auth.admin.delete_user(uid)
+
+    page = browser.new_page(viewport=LAPTOP)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    page.goto(f"{APP}/courses")
+    page.get_by_role("link", name="View course").first.click()
+    history = page.get_by_test_id("quiz-history")
+    expect(history).to_be_visible()
+    rows = history.locator("tbody tr")
+    check("course page: quiz history with date, quiz and score", rows.count() >= 3,
+          " | ".join(" ".join(rows.first.inner_text().split()) for _ in [0]))
+    history.scroll_into_view_if_needed()
+    shot(page, "fr2-02-quiz-history.png")
+    page.close()
+
+    page = browser.new_page(viewport=PHONE)
+    page.set_default_timeout(20_000)
+    sign_in(page, ACTIVE)
+    page.goto(f"{APP}/log")
+    expect(page.get_by_label("Custom (minutes)")).to_be_visible()
+    overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
+    check("phone width: logger with timer fits", not overflow)
+    shot(page, "fr3-03-phone-logger.png", full_page=True)
+    page.close()
+
+
+SECTIONS = {"fr5": fr5, "fr4": fr4, "fr6": fr6, "fr1": fr1, "fr23": fr2_fr3}
 
 
 def main() -> int:

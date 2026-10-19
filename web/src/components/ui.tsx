@@ -102,7 +102,7 @@ export function scoreTone(score: number): { text: string; bar: string; badge: st
 export function ScoreBadge({ score }: { score: number }) {
   const tone = scoreTone(score)
   return (
-    <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold ring-1 ${tone.badge}`}>
+    <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold whitespace-nowrap ring-1 ${tone.badge}`}>
       {Math.round(score)}% · {tone.label}
     </span>
   )

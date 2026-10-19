@@ -39,6 +39,7 @@ export function ResultsPage() {
                 </span>
               </div>
               <ScoreBar score={Number(t.score)} />
+              <ScoreChange previous={t.previous_score} current={Number(t.score)} />
             </Link>
           ))}
         </Card>
@@ -68,6 +69,21 @@ export function ResultsPage() {
         </ButtonLink>
       </div>
     </>
+  )
+}
+
+/** "40% to 70%, up 30 points" against the student's previous attempt on the topic. */
+function ScoreChange({ previous, current }: { previous: number | null; current: number }) {
+  if (previous === null) return <p className="mt-1 text-xs text-slate-400">First attempt on this topic</p>
+  const prev = Math.round(Number(previous))
+  const now = Math.round(current)
+  const diff = now - prev
+  const tone = diff > 0 ? 'text-emerald-600' : diff < 0 ? 'text-amber-700' : 'text-slate-500'
+  const change = diff > 0 ? `up ${diff} points` : diff < 0 ? `down ${-diff} points` : 'no change'
+  return (
+    <p className={`mt-1 text-xs font-medium ${tone}`} data-testid="score-change">
+      {prev}% to {now}%, {change}
+    </p>
   )
 }
 
