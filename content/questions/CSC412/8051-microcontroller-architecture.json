@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How much on-chip program memory (ROM) does the 8051 have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 KB"
+      },
+      {
+        "key": "b",
+        "text": "64 KB"
+      },
+      {
+        "key": "c",
+        "text": "1 MB"
+      },
+      {
+        "key": "d",
+        "text": "256 bytes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has 4 KB on-chip ROM within a 64 KB program address space.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many I/O lines does the 8051 have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "32, in four 8-pin ports"
+      },
+      {
+        "key": "b",
+        "text": "16"
+      },
+      {
+        "key": "c",
+        "text": "24"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ports P0 to P3 have eight pins each.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "With EA = 0, the 8051 fetches program code only from external ROM.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "EA = 1 allows internal and external program memory.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which 8051 port also serves as the multiplexed low-order address and data bus?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Port 0"
+      },
+      {
+        "key": "b",
+        "text": "Port 1"
+      },
+      {
+        "key": "c",
+        "text": "Port 2"
+      },
+      {
+        "key": "d",
+        "text": "Port 3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "With ALE = 1 Port 0 carries A0–A7; with ALE = 0 it carries data.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are features of the 8051?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two 16-bit timer/counters"
+      },
+      {
+        "key": "b",
+        "text": "A UART"
+      },
+      {
+        "key": "c",
+        "text": "Four register banks"
+      },
+      {
+        "key": "d",
+        "text": "A 20-bit address bus"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The 20-bit address bus belongs to the 8086.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4; Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which registers can be used for register indirect addressing in the 8051?",
+    "options": [
+      {
+        "key": "a",
+        "text": "R0 and R1 only"
+      },
+      {
+        "key": "b",
+        "text": "R2 to R7"
+      },
+      {
+        "key": "c",
+        "text": "Any register"
+      },
+      {
+        "key": "d",
+        "text": "Only DPTR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only R0 and R1 can hold addresses, written with '@'.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an 8051 instruction group?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arithmetic"
+      },
+      {
+        "key": "b",
+        "text": "Logical"
+      },
+      {
+        "key": "c",
+        "text": "Boolean (bit)"
+      },
+      {
+        "key": "d",
+        "text": "Segment override"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The five groups are arithmetic, logical, data transfer, Boolean and branching.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 8031 is a ROM-less version of the 8051.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Adding external ROM to it uses up two ports.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  }
+]

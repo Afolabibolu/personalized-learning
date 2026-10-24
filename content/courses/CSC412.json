@@ -1,0 +1,78 @@
+{
+  "code": "CSC 412",
+  "title": "Microprocessors and Microcontrollers",
+  "description": "The Intel 8086 microprocessor (architecture, addressing modes, instructions, system bus, multiprocessor configurations), interfacing peripherals such as the 8255, 8251, 8253, 8279 and 8259, and the 8051 microcontroller and its timers and serial port.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "8086-architecture-and-programming",
+      "title": "8086 Architecture and Programming",
+      "summary": "The 8086, launched by Intel in 1978, is a 16-bit microprocessor with a 20-bit address bus (1 MB) whose Bus Interface Unit prefetches instructions into a queue while the Execution Unit decodes and executes them. It has general-purpose, pointer, index, segment and flag registers, eight addressing modes and eight groups of instructions.",
+      "subtopics": [
+        "8086 features: 16-bit data bus, 20-bit address bus, 1 MB memory",
+        "Bus Interface Unit, Execution Unit and the instruction queue (pipelining)",
+        "Registers: AX–DX, SP, BP, SI, DI, IP, CS, DS, SS, ES",
+        "The flag register: conditional and control flags",
+        "Memory segmentation and 20-bit physical addresses",
+        "Addressing modes and the instruction set groups"
+      ],
+      "lectures": [1]
+    },
+    {
+      "slug": "8086-system-bus-and-multiprocessing",
+      "title": "8086 System Bus and Multiprocessing",
+      "summary": "The 8086 multiplexes address and data on its pins, runs bus cycles of four T-states with wait states for slow devices, and works in minimum mode (it makes its own control signals) or maximum mode (with an 8288 bus controller). Maximum mode supports coprocessor, closely coupled and loosely coupled multiprocessor configurations.",
+      "subtopics": [
+        "Pin diagram and signal description; multiplexed AD0–AD15",
+        "Bus cycles, T-states and wait states; setup and hold time",
+        "Minimum mode and maximum mode",
+        "Coprocessor (8087) and closely coupled configurations",
+        "Loosely coupled multiprocessor systems",
+        "Advantages of multiprocessor configurations"
+      ],
+      "lectures": [2]
+    },
+    {
+      "slug": "interfacing-with-the-8086",
+      "title": "Interfacing with the 8086",
+      "summary": "Memory and I/O devices are connected to the 8086 through address decoding, with memory-mapped or I/O-mapped I/O. Programmable peripherals handle parallel I/O (8255 PPI), serial communication (8251 USART), conversion (ADC 0809, DAC 0800), timing (8253/8254), keyboard and display (8279) and interrupts (8259).",
+      "subtopics": [
+        "Synchronous and asynchronous data transfer",
+        "Memory and I/O interfacing; memory-mapped versus I/O-mapped I/O",
+        "8255 Programmable Peripheral Interface and its modes",
+        "8251 USART for serial communication",
+        "ADC and DAC interfacing; 8253/8254 timer modes",
+        "8279 keyboard/display controller and 8259 interrupt controller"
+      ],
+      "lectures": [3]
+    },
+    {
+      "slug": "8051-microcontroller-architecture",
+      "title": "8051 Microcontroller Architecture",
+      "summary": "The 8051 is Intel's 8-bit microcontroller with 4 KB on-chip ROM, 128 bytes of RAM in four register banks, 32 I/O lines on four ports, two 16-bit timer/counters and a UART. It has special function registers, five groups of instructions and addressing modes from immediate to indexed.",
+      "subtopics": [
+        "8051 features and the 8031/8052 variants",
+        "Pin diagram, ports P0–P3 and the EA pin",
+        "Program counter, stack pointer, DPTR, ALU and flags",
+        "Memory structure and the four register banks",
+        "Special function registers",
+        "Instruction groups and addressing modes"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "8051-timers-and-serial-communication",
+      "title": "8051 Timers and Serial Communication",
+      "summary": "The 8051's two timer/counters are set up with TMOD and controlled with TCON; they count machine cycles up to FFFFH and raise the TF flag when they roll over, which can generate delays and square waves. Serial communication uses SCON and SBUF with start and stop bits, at a baud rate set by a timer.",
+      "subtopics": [
+        "TMOD: GATE, C/T and the timer modes",
+        "TCON: TR and TF flags",
+        "Timer mode 1 programming steps",
+        "Delay calculation for an 11.0592 MHz crystal",
+        "Generating square waves",
+        "Serial communication: synchronous and asynchronous, baud rate, SCON and SBUF"
+      ],
+      "lectures": [5]
+    }
+  ]
+}

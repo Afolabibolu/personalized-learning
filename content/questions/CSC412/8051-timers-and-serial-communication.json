@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does the TF flag indicate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The timer rolled over from FFFFH to 0000H"
+      },
+      {
+        "key": "b",
+        "text": "The timer is stopped"
+      },
+      {
+        "key": "c",
+        "text": "A serial byte arrived"
+      },
+      {
+        "key": "d",
+        "text": "The stack is full"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "TF works like a carry and can trigger an interrupt.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which TMOD setting makes a timer count pulses on its Tx pin?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C/T = 1 (counter)"
+      },
+      {
+        "key": "b",
+        "text": "C/T = 0 (timer)"
+      },
+      {
+        "key": "c",
+        "text": "GATE = 0 only"
+      },
+      {
+        "key": "d",
+        "text": "M1 = M0 = 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C/T = 0 counts the internal clock; C/T = 1 counts external pulses.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Timer mode 1 reloads its starting value automatically after each overflow.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Mode 1 is a 16-bit timer without auto-reload; mode 2 auto-reloads.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With an 11.0592 MHz crystal, how long is one machine cycle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.085 µs"
+      },
+      {
+        "key": "b",
+        "text": "11.0592 µs"
+      },
+      {
+        "key": "c",
+        "text": "0.5 µs"
+      },
+      {
+        "key": "d",
+        "text": "1 ms"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Delays are counted in units of 1.085 µs.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To generate a 50 Hz square wave with a 10 ms half period, what value is loaded into TH1–TL1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DC00H"
+      },
+      {
+        "key": "b",
+        "text": "FFFFH"
+      },
+      {
+        "key": "c",
+        "text": "0000H"
+      },
+      {
+        "key": "d",
+        "text": "9216H"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "10 ms / 1.085 µs = 9216, and 65536 − 9216 = 56320 = DC00H.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about asynchronous serial framing are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The start bit is always 0"
+      },
+      {
+        "key": "b",
+        "text": "The stop bit is 1"
+      },
+      {
+        "key": "c",
+        "text": "It transfers one byte at a time"
+      },
+      {
+        "key": "d",
+        "text": "It needs no framing bits"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Asynchronous transfer frames each byte with start and stop bits.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which register is not involved in 8051 serial communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SCON"
+      },
+      {
+        "key": "b",
+        "text": "SBUF"
+      },
+      {
+        "key": "c",
+        "text": "TxD/RxD pins"
+      },
+      {
+        "key": "d",
+        "text": "DPTR"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "DPTR is a data pointer; SCON and SBUF control and hold serial data.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4; Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "SBUF holds a byte to be sent on TxD and also receives bytes arriving on RxD.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "SBUF is used solely for serial communication.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  }
+]

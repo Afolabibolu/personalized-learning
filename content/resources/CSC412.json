@@ -1,0 +1,10 @@
+{
+  "code": "CSC 412",
+  "topics": {
+    "8086-architecture-and-programming": [],
+    "8086-system-bus-and-multiprocessing": [],
+    "interfacing-with-the-8086": [],
+    "8051-microcontroller-architecture": [],
+    "8051-timers-and-serial-communication": []
+  }
+}
