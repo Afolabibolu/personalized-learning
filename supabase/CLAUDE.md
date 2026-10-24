@@ -21,6 +21,8 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
   - `score_improved`: the latest attempt on a topic beat the previous one by 20 points or more
 - `knowledge_base_stats` (view): counts of courses, topics, resources by type, and approved questions, for the Knowledge Base page.
 
+- `enrollments` (Phase 9): student_id, course_id, created_at. Students read, add and remove their own rows. A trigger on `profiles` enrols every new profile in the reviewed courses. The ML service only recommends for enrolled courses.
+
 ## Demo data
 
 - The demo accounts get realistic names (for example Tolu Adeyemi for the active student, Kemi Balogun for the new student), department Computer Science, level 500, and reminder settings filled in.

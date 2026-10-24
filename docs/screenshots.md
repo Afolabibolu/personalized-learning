@@ -62,6 +62,24 @@ Taken by `python scripts/phase7_check.py --shots docs/screenshots/phase7` (lapto
 | 47 | Study logger | Temporary student | 'Custom (minutes)', timer, 'Saved' confirmation (FR3) | [`fr3-02-logger.png`](screenshots/phase7/fr3-02-logger.png) |
 | 48 | Study logger on a phone | Tolu Adeyemi | Fits at 375 px, recent sessions stacked (FR3, NFR1) | [`fr3-03-phone-logger.png`](screenshots/phase7/fr3-03-phone-logger.png) |
 
+## Course ingestion pipeline (Phase 9)
+
+Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a temporary student, which is deleted afterwards.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 49 | Onboarding with course choice | New sign-up (Phase Nine Student) | Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5) | [`p9-01-onboarding-courses.png`](screenshots/phase9/p9-01-onboarding-courses.png) |
+| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
+| 51 | Knowledge Base with a sample course | New sign-up | CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5) | [`p9-03-knowledge-base.png`](screenshots/phase9/p9-03-knowledge-base.png) |
+| 52 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |
+| 53 | Sample course past questions | New sign-up | CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5) | [`p9-05-past-questions.png`](screenshots/phase9/p9-05-past-questions.png) |
+| 54 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
+| 55 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
+| 56 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
+| 57 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
+| 58 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
+| 59 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |
@@ -73,9 +91,10 @@ Taken by `python scripts/phase7_check.py --shots docs/screenshots/phase7` (lapto
 | ml/results/feature_weights_simulated_data.png | LR coefficients and RF importances (simulated data) | FR4 |
 | ml/results/metrics_simulated_data.md | Three-row metrics table (simulated data) | FR4 |
 | ml/results/simulation_rules.md | How the simulated students were generated | FR4 |
-| terminal: python scripts/rls_check.py | Output ending '40/40 checks passed' | NFR3 |
+| terminal: python scripts/rls_check.py | Output ending '46/46 checks passed' | NFR3 |
 | docs/results/performance.md | Response-time table (20 runs each) | NFR2 |
-| docs/results/security.md | Row-level security check, 40 checks | NFR3 |
+| docs/results/security.md | Row-level security check, 46 checks | NFR3 |
+| docs/results/courses.md | Every course in the knowledge base, with files used and skipped | NFR5 |
 | ml/results/summary.md | Results in plain words, for Chapter Four (simulated data) | FR4 |
 | Supabase dashboard: Authentication → Policies (taken by hand) | RLS enabled on every table, with its policies | NFR3 |
 

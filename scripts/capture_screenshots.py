@@ -67,9 +67,10 @@ OTHER = [
     ("ml/results/feature_weights_simulated_data.png", "LR coefficients and RF importances (simulated data)", "FR4"),
     ("ml/results/metrics_simulated_data.md", "Three-row metrics table (simulated data)", "FR4"),
     ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
-    ("terminal: python scripts/rls_check.py", "Output ending '40/40 checks passed'", "NFR3"),
+    ("terminal: python scripts/rls_check.py", "Output ending '46/46 checks passed'", "NFR3"),
     ("docs/results/performance.md", "Response-time table (20 runs each)", "NFR2"),
-    ("docs/results/security.md", "Row-level security check, 40 checks", "NFR3"),
+    ("docs/results/security.md", "Row-level security check, 46 checks", "NFR3"),
+    ("docs/results/courses.md", "Every course in the knowledge base, with files used and skipped", "NFR5"),
     ("ml/results/summary.md", "Results in plain words, for Chapter Four (simulated data)", "FR4"),
     ("Supabase dashboard: Authentication → Policies (taken by hand)", "RLS enabled on every table, with its policies", "NFR3"),
 ]
@@ -236,6 +237,21 @@ PHASE7 = [
 ]
 
 
+PHASE9 = [
+    Shot("p9-01-onboarding-courses.png", "Onboarding with course choice", "New sign-up (Phase Nine Student)", "Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5)"),
+    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
+    Shot("p9-03-knowledge-base.png", "Knowledge Base with a sample course", "New sign-up", "CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5)"),
+    Shot("p9-04-study-note.png", "Sample course study note", "New sign-up", "Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5)"),
+    Shot("p9-05-past-questions.png", "Sample course past questions", "New sign-up", "CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5)"),
+    Shot("p9-06-topic.png", "Sample course topic page", "New sign-up", "Badge, summary, Take topic quiz (NFR5)"),
+    Shot("p9-07-quiz.png", "Sample course topic quiz", "New sign-up", "A CSC 551 question in the quiz player (NFR5)"),
+    Shot("p9-08-results.png", "Sample course quiz results", "New sign-up", "Score per topic for the CSC 551 quiz (NFR5)"),
+    Shot("p9-09-dashboard.png", "Dashboard with a sample course", "New sign-up", "Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5)"),
+    Shot("p9-10-course-page.png", "Course page after removing", "New sign-up", "'Not in your courses yet' with Add to my courses (NFR5)"),
+    Shot("p9-11-phone-courses.png", "Course list on a phone (375 px)", "New sign-up", "Fits without sideways scroll (NFR1, NFR5)"),
+]
+
+
 def write_checklist() -> None:
     rows = "\n".join(
         f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/{s.file}) |"
@@ -257,6 +273,13 @@ def write_checklist() -> None:
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase7/{s.file}) |"
                      for i, s in enumerate(PHASE7, start=len(CHECKLIST) + 1))
+        + "\n\n"
+        "## Course ingestion pipeline (Phase 9)\n\n"
+        "Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a temporary student, "
+        "which is deleted afterwards.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase9/{s.file}) |"
+                     for i, s in enumerate(PHASE9, start=len(CHECKLIST) + len(PHASE7) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

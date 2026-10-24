@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
+import { listEnrolledCourseIds } from '../api/courses'
 import { getKnowledgeBase, getKnowledgeStats, type KnowledgeTopic } from '../api/knowledge'
 import { ResourceList } from '../components/ResourceList'
 import { ButtonLink, Card, ErrorMessage, PageHeader, SampleBadge, Spinner, inputClass } from '../components/ui'
@@ -22,16 +23,20 @@ function filterTopic(topic: KnowledgeTopic, query: string): KnowledgeTopic | nul
 export function KnowledgeBasePage() {
   const courses = useQuery({ queryKey: ['knowledgeBase'], queryFn: getKnowledgeBase })
   const stats = useQuery({ queryKey: ['knowledgeStats'], queryFn: getKnowledgeStats })
+  const enrolled = useQuery({ queryKey: ['course', 'enrolled'], queryFn: listEnrolledCourseIds })
   const [search, setSearch] = useState('')
+  const [onlyMine, setOnlyMine] = useState(false)
   const query = search.trim().toLowerCase()
 
-  const filtered = useMemo(
-    () =>
-      (courses.data ?? [])
-        .map((c) => ({ ...c, topics: c.topics.map((t) => filterTopic(t, query)).filter((t): t is KnowledgeTopic => t !== null) }))
-        .filter((c) => c.topics.length > 0),
-    [courses.data, query],
-  )
+  // The student's own courses first, then the rest by code.
+  const filtered = useMemo(() => {
+    const mine = enrolled.data ?? new Set<string>()
+    return (courses.data ?? [])
+      .filter((c) => !onlyMine || mine.has(c.id))
+      .map((c) => ({ ...c, topics: c.topics.map((t) => filterTopic(t, query)).filter((t): t is KnowledgeTopic => t !== null) }))
+      .filter((c) => c.topics.length > 0)
+      .sort((a, b) => Number(mine.has(b.id)) - Number(mine.has(a.id)) || a.code.localeCompare(b.code))
+  }, [courses.data, enrolled.data, query, onlyMine])
 
   return (
     <>
@@ -61,6 +66,25 @@ export function KnowledgeBasePage() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
+      </div>
+
+      <div className="-mt-3 mb-6 flex gap-2" role="group" aria-label="Which courses to show">
+        {[
+          { mine: false, label: 'All courses' },
+          { mine: true, label: 'My courses' },
+        ].map((o) => (
+          <button
+            key={o.label}
+            type="button"
+            aria-pressed={onlyMine === o.mine}
+            onClick={() => setOnlyMine(o.mine)}
+            className={`rounded-full px-3 py-1 text-xs font-semibold ring-1 transition ${
+              onlyMine === o.mine ? 'bg-brand-600 text-white ring-brand-600' : 'bg-white text-slate-600 ring-slate-300 hover:ring-brand-500'
+            }`}
+          >
+            {o.label}
+          </button>
+        ))}
       </div>
 
       {courses.isPending && <Spinner />}
