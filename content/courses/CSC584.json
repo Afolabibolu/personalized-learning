@@ -1,0 +1,78 @@
+{
+  "code": "CSC 584",
+  "title": "ICT for Development",
+  "description": "What ICT is and how it drives development, the digital divide, applications of ICT, the design–reality gap model, developmental informatics and big data, participatory design, and ICT4D technologies such as e-health, e-government and GIS.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "ict-and-the-digital-divide",
+      "title": "ICT and the Digital Divide",
+      "summary": "ICT is the diverse set of tools used to transmit, store, create, share or exchange information, from radio and telephones to the Internet, cloud and AI, and it is broader than IT. Its benefits are unevenly spread, creating a digital divide, and its developmental characteristics make it an enabler of economic growth, social development and good governance.",
+      "subtopics": [
+        "Definitions of ICT and the technologies included",
+        "ICT versus IT; components of ICT",
+        "Importance to business and the challenges ICT creates",
+        "The digital age and the digital divide",
+        "Developmental characteristics of ICTs",
+        "ICTs for economic growth, social development and governance; factors affecting ICT-driven development"
+      ],
+      "lectures": [1]
+    },
+    {
+      "slug": "applications-of-ict",
+      "title": "Applications of ICT",
+      "summary": "ICT is applied through teleconferencing, video conferencing and tele-presence, which adds telecommunication networking, tele-computing, messaging and information search to video conferencing. ICT gadgets such as radio, television, VSAT, GSM and ATMs change education, industry, the military, entertainment, medicine, finance, government, homes, agriculture and business.",
+      "subtopics": [
+        "Teleconferencing and video conferencing",
+        "Tele-presence and how it differs from video conferencing",
+        "ICT-based gadgets",
+        "Impacts on education, industry, politics and the military",
+        "Impacts on entertainment, medical science, finance and public sector management",
+        "Impacts on home electronics, agriculture and business"
+      ],
+      "lectures": [2]
+    },
+    {
+      "slug": "design-reality-gap",
+      "title": "The Design–Reality Gap",
+      "summary": "The design–reality gap model measures the gap between a project's design assumptions and the reality on the ground, from 0 (no gap) to 10 (radical gap), along the seven ITPOSMO dimensions. Large gaps point to the problems to fix, and the model explains why many e-government and big data projects in developing countries partly or totally fail.",
+      "subtopics": [
+        "What the design–reality gap is",
+        "The seven ITPOSMO dimensions",
+        "The Colombian public-sector big data example",
+        "Collecting data: interviews and group discussions",
+        "Rating, summing and interpreting the gap scores",
+        "Importance to e-government managers"
+      ],
+      "lectures": [3]
+    },
+    {
+      "slug": "developmental-informatics-and-big-data",
+      "title": "Developmental Informatics and Big Data",
+      "summary": "Development informatics studies the role of ICTs in sustainable socio-economic development, linked to the UN Sustainable Development Goals. Big data offers new, cheap, real-time sources (digital footprints) and analytics, with five characteristics, but faces limits such as the Lucas critique, access gaps and skills shortages.",
+      "subtopics": [
+        "Development informatics and the SDGs",
+        "The two-fold core of big data",
+        "Nowcasting and the Lucas critique",
+        "Goals of ICT4D",
+        "Five characteristics of big data",
+        "Opportunities and challenges for development"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "participatory-design-and-ict4d-technologies",
+      "title": "Participatory Design and ICT4D Technologies",
+      "summary": "Participatory design involves users and stakeholders in designing a product, guided by principles of user focus, mutual learning, empowerment, inclusiveness and respect. Key ICT4D technologies include e-health (EHRs, m-health, sensors, telehealth), e-government, information infrastructures, GIS and digital archiving.",
+      "subtopics": [
+        "Participatory design: principles, pros and cons, implementation",
+        "e-Health: EHRs, m-health, sensors and telehealth; barriers",
+        "e-Government and the factors affecting it",
+        "Information infrastructures and standards",
+        "Geographic information systems: data capture, raster and vector",
+        "Uses of GIS"
+      ],
+      "lectures": [5, 6]
+    }
+  ]
+}

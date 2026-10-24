@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is tele-presence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technologies that make a person feel or appear present at a place other than their true location"
+      },
+      {
+        "key": "b",
+        "text": "A telephone-only meeting"
+      },
+      {
+        "key": "c",
+        "text": "A fax transmission"
+      },
+      {
+        "key": "d",
+        "text": "A radio broadcast"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Tele-presence is like video conferencing but more advanced.",
+    "source": "CSC 584 Courseware, Unit 2, 2.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which features does tele-presence add to video conferencing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Telecommunication and networking"
+      },
+      {
+        "key": "b",
+        "text": "Tele-computing"
+      },
+      {
+        "key": "c",
+        "text": "Messaging"
+      },
+      {
+        "key": "d",
+        "text": "Chalkboards"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also adds information search, retrieval and archival.",
+    "source": "CSC 584 Courseware, Unit 2, 2.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Video conferencing allows two or more locations to communicate by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simultaneous two-way video and audio transmission"
+      },
+      {
+        "key": "b",
+        "text": "Postal mail only"
+      },
+      {
+        "key": "c",
+        "text": "One-way radio only"
+      },
+      {
+        "key": "d",
+        "text": "Printed reports"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called visual collaboration, a type of groupware.",
+    "source": "CSC 584 Courseware, Unit 2, 2.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does VSAT stand for?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Very small aperture terminal"
+      },
+      {
+        "key": "b",
+        "text": "Video satellite access tool"
+      },
+      {
+        "key": "c",
+        "text": "Virtual system access terminal"
+      },
+      {
+        "key": "d",
+        "text": "Voice and satellite transmission"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "VSAT is telecom equipment for receiving digital broadcast.",
+    "source": "CSC 584 Courseware, Unit 2, 2.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "GSM allows network operators to offer roaming, so customers can use their phones wherever they are.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "GSM stands for global system for mobile communication.",
+    "source": "CSC 584 Courseware, Unit 2, 2.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tele-computing means controlling another person's computer from a different location, for example to install software.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Remote networking lets someone take over a desktop at a distance.",
+    "source": "CSC 584 Courseware, Unit 2, 2.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an ICT-based gadget listed in the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Radio"
+      },
+      {
+        "key": "b",
+        "text": "ATM"
+      },
+      {
+        "key": "c",
+        "text": "Fax machine"
+      },
+      {
+        "key": "d",
+        "text": "Wooden plough"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The gadgets include radio, TV, computers, satellites, VSAT, fax, telephone, GSM and ATMs.",
+    "source": "CSC 584 Courseware, Unit 2, 2.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are listed impacts of ICT on our lives?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Education"
+      },
+      {
+        "key": "b",
+        "text": "Medical science"
+      },
+      {
+        "key": "c",
+        "text": "Home electronics"
+      },
+      {
+        "key": "d",
+        "text": "Ending all crime"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Impacts also include industry, the military, entertainment, finance, government, agriculture and business.",
+    "source": "CSC 584 Courseware, Unit 2, 2.3"
+  }
+]

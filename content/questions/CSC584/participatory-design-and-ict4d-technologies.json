@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is participatory design?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A methodology in which real users and stakeholders take part in the design process with designers"
+      },
+      {
+        "key": "b",
+        "text": "Designing without users"
+      },
+      {
+        "key": "c",
+        "text": "A type of GIS file"
+      },
+      {
+        "key": "d",
+        "text": "An e-health sensor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a collaborative approach involving designers, users and stakeholders.",
+    "source": "CSC 584 Courseware, Unit 5, 5.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are key principles of participatory design?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Focus on the user"
+      },
+      {
+        "key": "b",
+        "text": "Mutual learning"
+      },
+      {
+        "key": "c",
+        "text": "Inclusiveness"
+      },
+      {
+        "key": "d",
+        "text": "Secrecy from users"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Principles also include empowerment, stages and respect.",
+    "source": "CSC 584 Courseware, Unit 5, 5.2.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How does the WHO define e-health?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The use of ICT in support of health and health-related fields"
+      },
+      {
+        "key": "b",
+        "text": "Only hospital buildings"
+      },
+      {
+        "key": "c",
+        "text": "Only medicines sold online"
+      },
+      {
+        "key": "d",
+        "text": "A type of vaccine"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Digital health is the broader umbrella term.",
+    "source": "CSC 584 Courseware, Unit 6, 6.1.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which barriers to e-health did the EU action plan identify?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lack of interoperability"
+      },
+      {
+        "key": "b",
+        "text": "High start-up costs"
+      },
+      {
+        "key": "c",
+        "text": "Inadequate legal frameworks"
+      },
+      {
+        "key": "d",
+        "text": "Too much evidence of cost-effectiveness"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The plan noted limited evidence of cost-effectiveness, not too much.",
+    "source": "CSC 584 Courseware, Unit 6, 6.1.9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which GIS format uses grids of cells or pixels and suits data that varies, such as elevation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Raster"
+      },
+      {
+        "key": "b",
+        "text": "Vector"
+      },
+      {
+        "key": "c",
+        "text": "Polygon"
+      },
+      {
+        "key": "d",
+        "text": "Node"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Vector uses points, lines and polygons for data with firm borders.",
+    "source": "CSC 584 Courseware, Unit 6, 6.4.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Putting information into a GIS is called data capture.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Digital data is uploaded directly; maps are scanned first.",
+    "source": "CSC 584 Courseware, Unit 6, 6.4.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a factor affecting e-government development?",
+    "options": [
+      {
+        "key": "a",
+        "text": "National context"
+      },
+      {
+        "key": "b",
+        "text": "Political and institutional factors"
+      },
+      {
+        "key": "c",
+        "text": "Technical infrastructure"
+      },
+      {
+        "key": "d",
+        "text": "The colour of the government logo"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The four factors are national context, political and institutional, socio-economic and cultural, and technical infrastructure.",
+    "source": "CSC 584 Courseware, Unit 6, 6.2.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "A downside of participatory design is that it can be time-consuming and expensive.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its downsides include time, sample size, structure and quality.",
+    "source": "CSC 584 Courseware, Unit 5, 5.2.4"
+  }
+]

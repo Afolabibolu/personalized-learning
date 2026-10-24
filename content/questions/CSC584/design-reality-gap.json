@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does the design–reality gap model measure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The gap between a project's design requirements or assumptions and the current reality"
+      },
+      {
+        "key": "b",
+        "text": "The distance between two offices"
+      },
+      {
+        "key": "c",
+        "text": "The speed of an Internet connection"
+      },
+      {
+        "key": "d",
+        "text": "The cost of a computer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It records the gap between design and reality for each dimension.",
+    "source": "CSC 584 Courseware, Unit 3, 3.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "On what scale is each gap scored?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0 (no gap) to 10 (radical gap)"
+      },
+      {
+        "key": "b",
+        "text": "1 to 5"
+      },
+      {
+        "key": "c",
+        "text": "0 to 100 percent"
+      },
+      {
+        "key": "d",
+        "text": "A to F"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Zero means everything needed is present; ten means none of it is.",
+    "source": "CSC 584 Courseware, Unit 3, 3.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are ITPOSMO dimensions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Information"
+      },
+      {
+        "key": "b",
+        "text": "Processes"
+      },
+      {
+        "key": "c",
+        "text": "Management systems and structures"
+      },
+      {
+        "key": "d",
+        "text": "Marketing"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ITPOSMO: Information, Technology, Processes, Objectives and values, Staffing and skills, Management systems and structures, Other resources.",
+    "source": "CSC 584 Courseware, Unit 3, 3.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the Colombian public-sector study, the model found serious barriers to big data on all seven dimensions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Gaps ranged from 5 (other resources) to 7.",
+    "source": "CSC 584 Courseware, Unit 3, 3.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the Colombian study, which dimension had the smallest gap?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Other resources (5)"
+      },
+      {
+        "key": "b",
+        "text": "Information (7)"
+      },
+      {
+        "key": "c",
+        "text": "Processes (7)"
+      },
+      {
+        "key": "d",
+        "text": "Skills and knowledge (7)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Some budgets had been earmarked for big data projects, giving a gap of 5.",
+    "source": "CSC 584 Courseware, Unit 3, 3.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the courseware's e-government example, what did a total gap score of 35 indicate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Partial failure, which could become total unless gaps were closed"
+      },
+      {
+        "key": "b",
+        "text": "Complete success"
+      },
+      {
+        "key": "c",
+        "text": "No change needed"
+      },
+      {
+        "key": "d",
+        "text": "The project had not started"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The largest gap was management systems and structures (8).",
+    "source": "CSC 584 Courseware, Unit 3, 3.4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a reason the model is important to e-government managers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It focuses attention on key project issues"
+      },
+      {
+        "key": "b",
+        "text": "It goes beyond technical issues to human and organisational factors"
+      },
+      {
+        "key": "c",
+        "text": "It gives a systematic basis for reporting"
+      },
+      {
+        "key": "d",
+        "text": "It removes the need to collect any data"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The model relies on interviews and group discussions for data.",
+    "source": "CSC 584 Courseware, Unit 3, 3.3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Data for the design–reality gap model can be collected through structured interviews and group discussions with stakeholders.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Primary data comes from interviews and group discussions.",
+    "source": "CSC 584 Courseware, Unit 3, 3.2"
+  }
+]
