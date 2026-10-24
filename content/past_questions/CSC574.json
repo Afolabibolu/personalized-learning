@@ -1,27 +1,226 @@
 {
-  "code": "CSC 574",
-  "papers": [
-    {"year": "2023/2024", "paper": "First Semester Examination (CSC 574: Intelligent Systems)", "source": "CSC 574(2023_2024).pdf"},
-    {"year": "2021/2022", "paper": "First Semester Examination (CSC 574: Intelligent Systems)", "source": "intelligent pq_merge_ocr.pdf, pages 1–3"},
-    {"year": "2023 CA", "paper": "Continuous assessment, 6/11/2023 (CSC 574: Intelligent Systems)", "source": "intelligent pq_merge_ocr.pdf, page 4"}
-  ],
-  "questions": [
-    {"year": "2023/2024", "number": "1", "marks": 30, "topic": "expert-systems", "text": "[Figure 1.0 in the original paper: Elements of Intelligent System, showing User Interface, Knowledge Acquisition Facility, Explanation Facility, Knowledge Base, Inference Engine, Agenda and Working Memory.]\n\nThe Osofisan AI foundation has launched a $1M competition for the design of an intelligent systems spanning any of the followings: Factory automation, Field and service robotics, Assistive robotics, Military applications, Medical care, Education, Entertainment, Visual inspection, Character recognition, Human identification using various biometric modalities (e.g. face, fingerprint, iris, hand), Visual surveillance, Intelligent transportation, to mention a few. You can choose any of the above and use the schematic in figure 1 to develop your intended intelligent system.\n\ni. Give a vivid description of the system you intend to develop. (5 marks)\nii. How does each of the elements mentioned above fits into your design? (5 marks)\niii. A major among men is the manner for handling unknown occurrences, far worse is this with trust on intelligent systems. In your proposed system, how would you handle: Uncertainty, Dynamism in real world, Computational complexities, and Pattern mapping and resolution. (State all your assumptions clearly.) (16 marks, 4 marks each for the underlined)\niv. What are your proposed means/methods for validating the functionality of your system? (4 marks)"},
-    {"year": "2023/2024", "number": "2", "marks": 15, "topic": "knowledge-representation", "text": "Tesla, Waymo, General Motors, Microsoft & Volkswagen, and Uber Technologies are examples of strong proponents and developers of self-driving vehicles. The expectation from the populace was heightened by the recent pronouncement on release date, but until now, none of them have successfully launched a completely self-driving car. As a student of Intelligent Systems:\n\ni. What are the various types of knowledge that you presume must be represented in an autonomous vehicle? (5 marks)\nii. Judging from the above, map each of the knowledge types with appropriate components in a typical autonomous vehicle and establish a relationship. (10 marks)"},
-    {"year": "2023/2024", "number": "3", "marks": 15, "topic": "knowledge-representation", "text": "The department of public health has approached you to assist in representing some concepts with semantic graph. The narrative is as follows: there are 4 main concepts – Disease, Drug, Gene, and Compound. Compound could interact with compound. Compound includes pharmacologic class and interacts with food. Drug causes side-effects and are used to treat disease. Disease have types and symptoms. It also has target in gene. Gene is part-of pathway, biological process, molecular function, and component. Gene interacts with compound, it is expressedby anatomy, associatedwith disease while disease localizes anatomy and its treatedby compound. Compound also belongsTo ATC class and compound causes side effects.\n\nSuppose we can isolate the following:\nDisease {Types, Symptoms}\nDrug\nGene {Anatomy, Pathway, Biological process, Molecular function, Component}\nCompound {ATC class, Pharmacologic class, Food, Side effect}\n\ni. Employ the information above to present a semantic graph (10 marks)\nii. Draw out 5 functional complete sentences with meaning from the graph (5 marks)"},
-    {"year": "2023/2024", "number": "4(i)", "marks": 8, "topic": "nature-inspired-and-other-ai", "text": "Intelligent systems, researchers are known to usually look to nature for inspirations. What are the broad category that is mainly considered in this regards"},
-    {"year": "2023/2024", "number": "4(ii)", "marks": 6, "topic": "nature-inspired-and-other-ai", "text": "The autonomous action of an agent is its ability to control its own state and also interact with humans, other systems or other agents. What are the attributes that determines the flexibility of agents."},
-    {"year": "2023/2024", "number": "4(iii)", "marks": 1, "topic": "introduction-and-agents", "text": "Will you take an autonomous Uber car? Justify?"},
-
-    {"year": "2021/2022", "number": "1(a)", "marks": 8, "topic": "knowledge-representation", "text": "The university of Ibadan fire service is taking its operations to the next level. With the new fire building and the procurement of multi-million-naira fire equipment and vehicle. The fire service has also secured a grant to develop a UI-F Robot – a project involving 3 main departments, among which is computer science. Your first task is to develop a prototype.\n\ni. Demonstrate the various components of the prototype that qualifies it as being intelligent? (4 marks)\nii. Using appropriate schematic representation, describe the components in a procedural manner. (4 marks)"},
-    {"year": "2021/2022", "number": "1(b)", "marks": 15, "topic": "knowledge-representation", "text": "In an experiment involving bags of words: {'1', '2', China, Body, Writing, Worn-and-dry, Sleeve, Right-curve, Hand, Elbow, Large, Work, Coat, Holmes, Wilson, Apparel, Tattoo, Male, Person, Hat, Arm} a certain bag contained 21 words supposedly unrelated and not necessarily in any order. The selection is random and drawing-out is without replacement. The game thus requires you to give an order by:\n\ni. Draw a network/semantic graph from the set of words. Please note that selection is in any other. Your connectors/lines should have phrase that establishes relationships among the words. (10 marks)\nii. Generate 5 distinct sentences from your graph that are visible (5 marks)"},
-    {"year": "2021/2022", "number": "1(c)–(d)", "marks": 7, "topic": "introduction-and-agents", "text": "c. Give your succinct opinion on the sentence \"Will Robots (Intelligent) displace humans\"? (5 marks)\nd. Do you think Robots/Computers will replace human? When, which areas? (2 marks)"},
-    {"year": "2021/2022", "number": "2A", "marks": 6, "topic": "nature-inspired-and-other-ai", "text": "How would you treat the following problems? Give ample justification for your choice.\n\na. Let's say you are working on stock market prediction, and you would like to predict the price of a particular stock tomorrow (measured in naira). You want to use a learning algorithm for this. Would you treat this as a classification or a regression problem?\nb. Assume you are working on predicting the weather, and your weather app makes one of three predictions for each day's weather: Sunny, Cloudy or Rainy. You decide to apply a learning algorithm to predict tomorrow's weather. Would you treat this as a classification or a regression problem? Give ample justification for your choice."},
-    {"year": "2021/2022", "number": "2B", "marks": 9, "topic": "nature-inspired-and-other-ai", "text": "Determine which is the best approach for each problem with brief explanation. a. supervised learning, b.) unsupervised clustering, c.) data query\n\n1. What is the average weekly salary of all female employees under forty years of age?\n2. Develop a profile for credit card customers likely to carry an average monthly balance of more than $1000.00.\n3. Determine the characteristics of a successful used car salesperson.\n4. What attribute similarities group customers holding one or several insurance policies?\n5. Do meaningful attribute relationships exist in a database containing information about credit card customers?\n6. Do single men play more golf than married men?\n7. Determine whether a credit card transaction is valid or fraudulent."},
-    {"year": "2021/2022", "number": "3", "marks": 15, "topic": "introduction-and-agents", "text": "Hope Multi-ventures is a large business enterprise that operates a range of businesses, including supermarkets, bakeries, hotels, hospitals, and logistics. The board of directors has decided to automate major units of their business ventures. They have purchased AI-assisted robots from the United Kingdom to assist with customer care, hotel, hospital, and supermarket operations.\n\n(a) Mention and explain 5 benefits that Hope Multi-ventures will derive from the decision of the board of directors. (9 marks)\n(b) Discuss two drawbacks from their action. (3 marks)\n(c) Mention two tasks that AI robots in Hope Multiventure can perform better than human and another two tasks that humans can perform better than AI robots. (3 marks)"},
-    {"year": "2021/2022", "number": "4", "marks": 15, "topic": "nature-inspired-and-other-ai", "text": "George Dolphen is a renowned Home Care Facility, established for providing health care for aged men and women. The customer unit of the company has over 15 staff that attends to calls from customers who wants to know about the Home as well as the welfare of their parents in the home. Due to the cost incurred in paying the staff, the manager decided to acquire an AI robot to perform the task so that the overhead cost can be reduced. The machine performs the task effectively and the major backbone of the robot is based on Natural Language Processing techniques in Artificial Intelligence.\n\n(a) Discuss step by step, five out of six stages that are involved before the robot can respond to calls from customers accurately. (7 marks)\n(b) Discuss these concepts from your understanding of AI robots acquired by Hope Multi-venture from the above question. (i) Artificial narrow intelligence (2 marks) (ii) Artificial general intelligence (2 marks) (iii) Artificial super intelligence. (2 marks)\n(c) Discuss two major differences between Stemming and Lemmatization in NLP. (2 marks)"},
-
-    {"year": "2023 CA", "number": "1–2", "marks": 8, "topic": "nature-inspired-and-other-ai", "text": "Mr. Emmanuel, a Glo subscriber had issues with his data tariff and he called the customer care line to resolve the issue. It was difficult for him to know that he was conversing with a Robot. All the questions were correctly answered and he was satisfied with the responses.\n\nDiscuss in detail all the stages that were involved before the Robot could understand Mr. Emmanuel. (5mks)\nWhy is it easy for the Robot to respond accurately? (3mks)"},
-    {"year": "2023 CA", "number": "3–5", "marks": 12, "topic": "knowledge-representation", "text": "Knowledge representation is a process of presenting information about the real world in a way that computer system can comprehend and use.\n\nList and explain the kind of knowledge computer needs to represent in order to understand its environment and take necessary action at every point in time. (5mks)\nDraw a well labelled diagram of knowledge cycle. (5mks)\nList four types of knowledge in Artificial Intelligence. (2mks)"}
-  ]
+ "code": "CSC 574",
+ "papers": [
+  {
+   "year": "2024/2025",
+   "paper": "1st Semester 2024/2025 Exam (printed as CSC 579: Intelligent Systems)",
+   "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, pages 7–8"
+  },
+  {
+   "year": "2024/2025 test",
+   "paper": "Intelligent Systems Test",
+   "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, page 2"
+  },
+  {
+   "year": "2024/2025 CA",
+   "paper": "CSC-574-CA-1 (1 hour)",
+   "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, page 11"
+  },
+  {
+   "year": "2023/2024",
+   "paper": "First Semester Examination (CSC 574: Intelligent Systems)",
+   "source": "CSC 574(2023_2024).pdf"
+  },
+  {
+   "year": "2021/2022",
+   "paper": "First Semester Examination (CSC 574: Intelligent Systems)",
+   "source": "intelligent pq_merge_ocr.pdf, pages 1–3"
+  },
+  {
+   "year": "2023 CA",
+   "paper": "Continuous assessment, 6/11/2023 (CSC 574: Intelligent Systems)",
+   "source": "intelligent pq_merge_ocr.pdf, page 4"
+  }
+ ],
+ "questions": [
+  {
+   "year": "2024/2025",
+   "number": "1a",
+   "marks": 10,
+   "topic": "fuzzy-logic",
+   "text": "You are developing a fuzzy logic-based air conditioning system for a smart home. The system adjusts cooling based on the fuzzy input \"Room Temperature,\" which is divided into linguistic variables: \"Cold,\" \"Comfortable,\" and \"Hot.\"\n(a) Define a triangular membership function for each of the three temperature states: \"Cold,\" \"Comfortable,\" and \"Hot.\" Use reasonable values in degrees Celsius. (4 marks)\n(b) If the room temperature is 28°C, determine the degree of membership in each of the three fuzzy sets. (3 marks)\n(c) Explain how the fuzzification process supports decision-making in this air conditioning system. (3 marks)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "1b",
+   "marks": 10,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "The municipal government of a major African city has deployed an AI-powered facial recognition system to improve public safety. The system is designed to detect known criminal suspects and alert law enforcement in real time. However, after six months of deployment, community watchdogs have raised concerns over frequent misidentification of individuals from minority ethnic groups, lack of consent from citizens, and the possibility that the system may be used for political surveillance during protests. As a policy consultant for ethical AI use in public systems, respond to the following:\n(i) Identify and explain two ethical concerns raised by this deployment, referencing specific principles (e.g., fairness, privacy, autonomy). (4 marks)\n(ii) Suggest two concrete strategies the government can implement to reduce AI bias and enhance public trust. (4 marks)\n(iii) Briefly explain why it is important to involve diverse stakeholders in the development and oversight of such intelligent systems. (2 marks)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "1c",
+   "marks": 10,
+   "topic": "search",
+   "text": "A city's emergency response system needs to find a route for an ambulance from the accident site to the nearest hospital. The road network is represented as a graph with junctions as nodes and roads as edges. No traffic or distance information is initially available.\n(a) Identify two uninformed search techniques that can be used in this situation. (2 marks)\n(b) Compare their performance in terms of completeness, time complexity, and optimality in the ambulance routing scenario. (4 marks)\n(c) Explain which technique is most suitable when we only want the first possible path, regardless of cost. (2 mark)\n(d) Suggest one limitation of using uninformed search in real-life rescue operations. (2 marks)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "2a",
+   "marks": 7,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "A smart city planning team is using a genetic algorithm to optimize traffic light timings across a large urban road network to reduce congestion during peak hours. The team encodes possible solutions (timing schedules) as chromosomes and wants to evolve the best one using selection, crossover, and mutation.\nDescribe how a genetic algorithm can be applied to this urban planning problem. In your answer:\ni. Identify and explain the selection strategy suitable for this context (2 marks)\nii. Describe how a crossover operation could be performed on timing schedules (2 marks)\niii. Explain how mutation might help maintain solution diversity (1.5 marks)\niv. State one advantage and one limitation of using genetic algorithms for this real-life application (1.5 marks)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "2b",
+   "marks": 8,
+   "topic": "introduction-and-agents",
+   "text": "You are part of a team designing an intelligent robot that automatically sorts household waste into recyclables, organic waste, and landfill. The robot will operate in homes and must function reliably in dynamic, cluttered environments.\nOutline the design considerations for building this intelligent agent. In your answer:\ni. Identify three types of sensors that could be used and their specific roles (3 marks)\nii. Explain how actuators would be used to carry out the sorting task (2 marks)\niii. Describe a suitable agent architecture (reactive, deliberative, or hybrid) for the robot, with justification (2 marks)\niv. Mention one ethical or safety concern to consider in deploying such robots in homes (1 mark)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "3a",
+   "marks": 8,
+   "topic": "knowledge-representation",
+   "text": "You are designing a smart campus assistant that can answer queries about university operations. The system uses a semantic network to represent knowledge such as:\nA \"Professor\" is a type of \"Staff\", \"Staff\" is a type of \"Person\", A \"Professor\" teaches \"Course\", A \"Course\" is scheduled in a \"Classroom\", \"CS401\" is a \"Course\" taught by \"Prof. James\"\n(i) Draw a semantic network diagram based on the above information. Use labelled nodes and arcs to represent relationships. (4 marks)\n(ii) Explain how the system can use inheritance to infer that Prof. James is a Person. (2 marks)\n(iii) State two advantages of using semantic networks in intelligent systems. (2 marks)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "3b",
+   "marks": 7,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "A large company adopts an AI-powered recruitment system to screen and shortlist job candidates. After a few months, it is discovered that the system disproportionately rejects female applicants for technical roles. The developers claim the system learned patterns from historical company data and was not explicitly programmed to discriminate.\n(a) Identify and explain two ethical concerns that arise from the use of this system. (2 marks)\n(b) Discuss how algorithmic bias can occur in intelligent systems, even when developers do not explicitly program it. (2 marks)\n(c) Suggest two measures that can be implemented to reduce such bias in future versions of the system. (2 marks)\n(d) State one legal or safety risk that may arise if such bias is not addressed. (1 mark)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "4 (1a)",
+   "marks": 8,
+   "topic": "introduction-and-agents",
+   "text": "You are part of a team developing a smart agricultural robot designed to monitor crop health and soil conditions in a large farm. The robot must autonomously navigate between crop rows, collect data, and make basic decisions about irrigation needs. It must operate in unpredictable weather and terrain.\n(a) Identify and describe the role of three sensors that this robot would need to function effectively. (3 marks)\n(b) Explain how actuators would be used in this robot to perform both mobility and task functions. (2 marks)\n(c) Choose an appropriate agent architecture (reactive, deliberative, or hybrid) for this robot. Justify your choice in the context of the task. (2 marks)\n(d) State one environmental challenge the robot may face and how it could be mitigated through intelligent sensing or control. (1 mark)"
+  },
+  {
+   "year": "2024/2025",
+   "number": "4 (1b)",
+   "marks": 7,
+   "topic": "expert-systems",
+   "text": "You are part of a healthcare innovation team tasked with developing an expert system to assist rural doctors in diagnosing infectious diseases and recommending antibiotics, similar to the MYCIN system developed in the 1970s.\n(a) Briefly describe the three major components of an expert system and explain their functions in this medical application. (3 marks)\n(b) Explain how the inference engine would work in such a system using forward or backward chaining. (2 marks)\n(c) Identify two limitations of the original MYCIN system that a modern version should address. (2 marks)"
+  },
+  {
+   "year": "2024/2025 test",
+   "number": "1",
+   "marks": 8,
+   "topic": "search",
+   "text": "A warehouse robot is tasked with finding a path from the entrance of a storage area to a specific product shelf. The layout is a grid of aisles and shelves with no additional information about distance, cost, or obstacles. The goal is to reach the target shelf, even if it is not the shortest path.\n(a) Name two uninformed search algorithms that could be applied to this problem. (2 marks)\n(b) Describe how one of the selected algorithms works, using the warehouse context. (3 marks)\n(c) Identify one advantage and one disadvantage of using uninformed search in this scenario. (2 marks)\n(d) Explain why Uniform Cost Search may not be the best choice in this specific problem. (1 mark)"
+  },
+  {
+   "year": "2024/2025 test",
+   "number": "2",
+   "marks": 8,
+   "topic": "fuzzy-logic",
+   "text": "You are developing a fuzzy logic-based air conditioning system for a smart home. The system adjusts cooling based on the fuzzy input \"Room Temperature,\" which is divided into linguistic variables: \"Cold,\" \"Comfortable,\" and \"Hot.\"\n(a) Define a triangular membership function for each of the three temperature states: \"Cold,\" \"Comfortable,\" and \"Hot.\" Use reasonable values in degrees Celsius. (3 marks)\n(b) If the room temperature is 28°C, determine the degree of membership in each of the three fuzzy sets. (3 marks)\n(c) Explain how the fuzzification process supports decision-making in this air conditioning system. (2 marks)"
+  },
+  {
+   "year": "2024/2025 CA",
+   "number": "A–C",
+   "marks": 25,
+   "topic": "knowledge-representation",
+   "text": "Scenario: You are developing an intelligent tutoring system for a university that recommends learning resources to students based on their course enrollment and performance. The system represents knowledge about students, courses, and learning materials using first-order logic, production rules, and semantic networks.\nPart A: Logic Representation (8 marks)\nWrite three First-Order Logic (FOL) statements to represent the following knowledge:\n1. All students enrolled in a course should have access to the course materials.\n2. If a student has a low grade in a course, then they need additional resources.\n3. John is a student enrolled in \"Artificial Intelligence\" with a low grade.\nUse predicates like Student(x), Enrolled(x, y), LowGrade(x, y), NeedsResource(x, y), HasAccess(x, y).\nPart B: Rule-Based Reasoning (7 marks)\nDefine two production rules (IF–THEN rules) that the system can use to:\n1. Grant access to materials based on enrollment.\n2. Recommend additional resources for students with low grades.\nPart C: Semantic Network (10 marks)\n1. Draw a semantic network to represent the following relationships:\n- John is a student.\n- John is enrolled in \"Artificial Intelligence.\"\n- \"Artificial Intelligence\" is a course.\n- Courses have materials.\n- John has low grade in \"Artificial Intelligence.\"\n- Students with low grades need resources.\n- low grade students read the resources less\n2. Briefly explain how semantic networks support inference in intelligent systems."
+  },
+  {
+   "year": "2023/2024",
+   "number": "1",
+   "marks": 30,
+   "topic": "expert-systems",
+   "text": "[Figure 1.0 in the original paper: Elements of Intelligent System, showing User Interface, Knowledge Acquisition Facility, Explanation Facility, Knowledge Base, Inference Engine, Agenda and Working Memory.]\n\nThe Osofisan AI foundation has launched a $1M competition for the design of an intelligent systems spanning any of the followings: Factory automation, Field and service robotics, Assistive robotics, Military applications, Medical care, Education, Entertainment, Visual inspection, Character recognition, Human identification using various biometric modalities (e.g. face, fingerprint, iris, hand), Visual surveillance, Intelligent transportation, to mention a few. You can choose any of the above and use the schematic in figure 1 to develop your intended intelligent system.\n\ni. Give a vivid description of the system you intend to develop. (5 marks)\nii. How does each of the elements mentioned above fits into your design? (5 marks)\niii. A major among men is the manner for handling unknown occurrences, far worse is this with trust on intelligent systems. In your proposed system, how would you handle: Uncertainty, Dynamism in real world, Computational complexities, and Pattern mapping and resolution. (State all your assumptions clearly.) (16 marks, 4 marks each for the underlined)\niv. What are your proposed means/methods for validating the functionality of your system? (4 marks)"
+  },
+  {
+   "year": "2023/2024",
+   "number": "2",
+   "marks": 15,
+   "topic": "knowledge-representation",
+   "text": "Tesla, Waymo, General Motors, Microsoft & Volkswagen, and Uber Technologies are examples of strong proponents and developers of self-driving vehicles. The expectation from the populace was heightened by the recent pronouncement on release date, but until now, none of them have successfully launched a completely self-driving car. As a student of Intelligent Systems:\n\ni. What are the various types of knowledge that you presume must be represented in an autonomous vehicle? (5 marks)\nii. Judging from the above, map each of the knowledge types with appropriate components in a typical autonomous vehicle and establish a relationship. (10 marks)"
+  },
+  {
+   "year": "2023/2024",
+   "number": "3",
+   "marks": 15,
+   "topic": "knowledge-representation",
+   "text": "The department of public health has approached you to assist in representing some concepts with semantic graph. The narrative is as follows: there are 4 main concepts – Disease, Drug, Gene, and Compound. Compound could interact with compound. Compound includes pharmacologic class and interacts with food. Drug causes side-effects and are used to treat disease. Disease have types and symptoms. It also has target in gene. Gene is part-of pathway, biological process, molecular function, and component. Gene interacts with compound, it is expressedby anatomy, associatedwith disease while disease localizes anatomy and its treatedby compound. Compound also belongsTo ATC class and compound causes side effects.\n\nSuppose we can isolate the following:\nDisease {Types, Symptoms}\nDrug\nGene {Anatomy, Pathway, Biological process, Molecular function, Component}\nCompound {ATC class, Pharmacologic class, Food, Side effect}\n\ni. Employ the information above to present a semantic graph (10 marks)\nii. Draw out 5 functional complete sentences with meaning from the graph (5 marks)"
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(i)",
+   "marks": 8,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "Intelligent systems, researchers are known to usually look to nature for inspirations. What are the broad category that is mainly considered in this regards"
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(ii)",
+   "marks": 6,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "The autonomous action of an agent is its ability to control its own state and also interact with humans, other systems or other agents. What are the attributes that determines the flexibility of agents."
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(iii)",
+   "marks": 1,
+   "topic": "introduction-and-agents",
+   "text": "Will you take an autonomous Uber car? Justify?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1(a)",
+   "marks": 8,
+   "topic": "knowledge-representation",
+   "text": "The university of Ibadan fire service is taking its operations to the next level. With the new fire building and the procurement of multi-million-naira fire equipment and vehicle. The fire service has also secured a grant to develop a UI-F Robot – a project involving 3 main departments, among which is computer science. Your first task is to develop a prototype.\n\ni. Demonstrate the various components of the prototype that qualifies it as being intelligent? (4 marks)\nii. Using appropriate schematic representation, describe the components in a procedural manner. (4 marks)"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1(b)",
+   "marks": 15,
+   "topic": "knowledge-representation",
+   "text": "In an experiment involving bags of words: {'1', '2', China, Body, Writing, Worn-and-dry, Sleeve, Right-curve, Hand, Elbow, Large, Work, Coat, Holmes, Wilson, Apparel, Tattoo, Male, Person, Hat, Arm} a certain bag contained 21 words supposedly unrelated and not necessarily in any order. The selection is random and drawing-out is without replacement. The game thus requires you to give an order by:\n\ni. Draw a network/semantic graph from the set of words. Please note that selection is in any other. Your connectors/lines should have phrase that establishes relationships among the words. (10 marks)\nii. Generate 5 distinct sentences from your graph that are visible (5 marks)"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1(c)–(d)",
+   "marks": 7,
+   "topic": "introduction-and-agents",
+   "text": "c. Give your succinct opinion on the sentence \"Will Robots (Intelligent) displace humans\"? (5 marks)\nd. Do you think Robots/Computers will replace human? When, which areas? (2 marks)"
+  },
+  {
+   "year": "2021/2022",
+   "number": "2A",
+   "marks": 6,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "How would you treat the following problems? Give ample justification for your choice.\n\na. Let's say you are working on stock market prediction, and you would like to predict the price of a particular stock tomorrow (measured in naira). You want to use a learning algorithm for this. Would you treat this as a classification or a regression problem?\nb. Assume you are working on predicting the weather, and your weather app makes one of three predictions for each day's weather: Sunny, Cloudy or Rainy. You decide to apply a learning algorithm to predict tomorrow's weather. Would you treat this as a classification or a regression problem? Give ample justification for your choice."
+  },
+  {
+   "year": "2021/2022",
+   "number": "2B",
+   "marks": 9,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "Determine which is the best approach for each problem with brief explanation. a. supervised learning, b.) unsupervised clustering, c.) data query\n\n1. What is the average weekly salary of all female employees under forty years of age?\n2. Develop a profile for credit card customers likely to carry an average monthly balance of more than $1000.00.\n3. Determine the characteristics of a successful used car salesperson.\n4. What attribute similarities group customers holding one or several insurance policies?\n5. Do meaningful attribute relationships exist in a database containing information about credit card customers?\n6. Do single men play more golf than married men?\n7. Determine whether a credit card transaction is valid or fraudulent."
+  },
+  {
+   "year": "2021/2022",
+   "number": "3",
+   "marks": 15,
+   "topic": "introduction-and-agents",
+   "text": "Hope Multi-ventures is a large business enterprise that operates a range of businesses, including supermarkets, bakeries, hotels, hospitals, and logistics. The board of directors has decided to automate major units of their business ventures. They have purchased AI-assisted robots from the United Kingdom to assist with customer care, hotel, hospital, and supermarket operations.\n\n(a) Mention and explain 5 benefits that Hope Multi-ventures will derive from the decision of the board of directors. (9 marks)\n(b) Discuss two drawbacks from their action. (3 marks)\n(c) Mention two tasks that AI robots in Hope Multiventure can perform better than human and another two tasks that humans can perform better than AI robots. (3 marks)"
+  },
+  {
+   "year": "2021/2022",
+   "number": "4",
+   "marks": 15,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "George Dolphen is a renowned Home Care Facility, established for providing health care for aged men and women. The customer unit of the company has over 15 staff that attends to calls from customers who wants to know about the Home as well as the welfare of their parents in the home. Due to the cost incurred in paying the staff, the manager decided to acquire an AI robot to perform the task so that the overhead cost can be reduced. The machine performs the task effectively and the major backbone of the robot is based on Natural Language Processing techniques in Artificial Intelligence.\n\n(a) Discuss step by step, five out of six stages that are involved before the robot can respond to calls from customers accurately. (7 marks)\n(b) Discuss these concepts from your understanding of AI robots acquired by Hope Multi-venture from the above question. (i) Artificial narrow intelligence (2 marks) (ii) Artificial general intelligence (2 marks) (iii) Artificial super intelligence. (2 marks)\n(c) Discuss two major differences between Stemming and Lemmatization in NLP. (2 marks)"
+  },
+  {
+   "year": "2023 CA",
+   "number": "1–2",
+   "marks": 8,
+   "topic": "nature-inspired-and-other-ai",
+   "text": "Mr. Emmanuel, a Glo subscriber had issues with his data tariff and he called the customer care line to resolve the issue. It was difficult for him to know that he was conversing with a Robot. All the questions were correctly answered and he was satisfied with the responses.\n\nDiscuss in detail all the stages that were involved before the Robot could understand Mr. Emmanuel. (5mks)\nWhy is it easy for the Robot to respond accurately? (3mks)"
+  },
+  {
+   "year": "2023 CA",
+   "number": "3–5",
+   "marks": 12,
+   "topic": "knowledge-representation",
+   "text": "Knowledge representation is a process of presenting information about the real world in a way that computer system can comprehend and use.\n\nList and explain the kind of knowledge computer needs to represent in order to understand its environment and take necessary action at every point in time. (5mks)\nDraw a well labelled diagram of knowledge cycle. (5mks)\nList four types of knowledge in Artificial Intelligence. (2mks)"
+  }
+ ]
 }
