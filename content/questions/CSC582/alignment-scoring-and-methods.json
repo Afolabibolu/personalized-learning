@@ -73,28 +73,20 @@
     "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
   },
   {
-    "format": "single_choice",
-    "stem": "Which dynamic programming algorithm is used for global alignment?",
+    "format": "true_false",
+    "stem": "Needleman–Wunsch is the dynamic programming algorithm for global alignment, and Smith–Waterman for local alignment.",
     "options": [
       {
-        "key": "a",
-        "text": "Needleman–Wunsch"
+        "key": "true",
+        "text": "True"
       },
       {
-        "key": "b",
-        "text": "Smith–Waterman"
-      },
-      {
-        "key": "c",
-        "text": "BLAST"
-      },
-      {
-        "key": "d",
-        "text": "FASTA"
+        "key": "false",
+        "text": "False"
       }
     ],
     "correct_answer": [
-      "a"
+      "true"
     ],
     "explanation": "Needleman–Wunsch (1970) is global; Smith–Waterman (1981) is local.",
     "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
