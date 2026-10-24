@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many T-states make up a basic 8086 bus cycle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Four"
+      },
+      {
+        "key": "b",
+        "text": "Two"
+      },
+      {
+        "key": "c",
+        "text": "Three"
+      },
+      {
+        "key": "d",
+        "text": "Six"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One clock period is a T-state; a bus cycle has four.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When is a wait state (Tw) inserted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Between T2 and T3 when READY is 0"
+      },
+      {
+        "key": "b",
+        "text": "Before T1 always"
+      },
+      {
+        "key": "c",
+        "text": "After T4 for every write"
+      },
+      {
+        "key": "d",
+        "text": "Never"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Wait states lengthen the cycle for slow memory and I/O.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "In minimum mode (MN/MX = 1), the 8086 generates all its control signals itself.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Maximum mode uses the 8288 bus controller for some signals.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which chip generates control signals externally in maximum mode?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8288 bus controller"
+      },
+      {
+        "key": "b",
+        "text": "8255 PPI"
+      },
+      {
+        "key": "c",
+        "text": "8251 USART"
+      },
+      {
+        "key": "d",
+        "text": "8279"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In maximum mode the 8288 expands the status signals into control signals.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which multiprocessor configurations does maximum mode support?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Coprocessor"
+      },
+      {
+        "key": "b",
+        "text": "Closely coupled"
+      },
+      {
+        "key": "c",
+        "text": "Loosely coupled"
+      },
+      {
+        "key": "d",
+        "text": "Single-chip only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three basic configurations.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What bits do 8087 coprocessor instructions start with?",
+    "options": [
+      {
+        "key": "a",
+        "text": "11011"
+      },
+      {
+        "key": "b",
+        "text": "00000"
+      },
+      {
+        "key": "c",
+        "text": "10101"
+      },
+      {
+        "key": "d",
+        "text": "11111"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "8087 instructions have 11011 as the MSB of their first code byte.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two 8086 processors can be closely coupled.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The slides state that two 8086s cannot be closely coupled.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an advantage of multiprocessor configurations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Higher throughput"
+      },
+      {
+        "key": "b",
+        "text": "Modular expansion"
+      },
+      {
+        "key": "c",
+        "text": "Failure of one module need not stop the system"
+      },
+      {
+        "key": "d",
+        "text": "A single point of failure"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Multiprocessor systems avoid a single point of failure.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 2"
+  }
+]
