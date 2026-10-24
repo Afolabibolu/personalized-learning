@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many components make up the formal definition of a Turing machine?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Seven"
+      },
+      {
+        "key": "b",
+        "text": "Five"
+      },
+      {
+        "key": "c",
+        "text": "Four"
+      },
+      {
+        "key": "d",
+        "text": "Six"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A Turing machine is a 7-tuple (Q, Σ, Γ, δ, q0, qaccept, qreject).",
+    "source": "CSC 552 Study Session 2, 2.2.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these can a Turing machine do that a finite automaton cannot?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Write on its tape as well as read"
+      },
+      {
+        "key": "b",
+        "text": "Move its head both left and right"
+      },
+      {
+        "key": "c",
+        "text": "Use an infinite tape as memory"
+      },
+      {
+        "key": "d",
+        "text": "Process input with a fixed number of states only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A TM reads and writes, moves both ways and has an infinite tape; a fixed set of states is all a finite automaton has.",
+    "source": "CSC 552 Study Session 1, 1.3; CSC 552 Study Session 2, 2.2.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every Turing-decidable language is Turing-recognisable, but not every Turing-recognisable language is decidable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Recursive (decidable) languages are a subset of recursively enumerable (recognisable) languages.",
+    "source": "CSC 552 Study Session 2, 2.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Given δ(q1, b) = (q2, c, L), what does the configuration aaq1bb yield?",
+    "options": [
+      {
+        "key": "a",
+        "text": "aq2acb"
+      },
+      {
+        "key": "b",
+        "text": "aacq2b"
+      },
+      {
+        "key": "c",
+        "text": "aq2abb"
+      },
+      {
+        "key": "d",
+        "text": "aaq2cb"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The machine writes c over the b under the head and moves left, giving aq2acb.",
+    "source": "CSC 552 Study Session 2, Example 2.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A Turing machine that halts on every input is called a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decider"
+      },
+      {
+        "key": "b",
+        "text": "Recogniser"
+      },
+      {
+        "key": "c",
+        "text": "Enumerator"
+      },
+      {
+        "key": "d",
+        "text": "Linear bounded automaton"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Turing machines that halt on all inputs are deciders because they always accept or reject.",
+    "source": "CSC 552 Study Session 2, 2.3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a variant of the Turing machine described in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multitape Turing machine"
+      },
+      {
+        "key": "b",
+        "text": "Nondeterministic Turing machine"
+      },
+      {
+        "key": "c",
+        "text": "Enumerator"
+      },
+      {
+        "key": "d",
+        "text": "Deterministic finite automaton"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A DFA is a weaker model; the other three are Turing machine variants with the same power.",
+    "source": "CSC 552 Study Session 2, 2.5"
+  },
+  {
+    "format": "true_false",
+    "stem": "To simulate a nondeterministic TM, the deterministic TM should explore the computation tree depth-first.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Depth-first search could follow an infinite branch forever, so breadth-first search is used.",
+    "source": "CSC 552 Study Session 2, 2.5.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Turing machine M2 decides the strings of 0s whose length is a power of 2. What does it do on each sweep?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Crosses off every other 0"
+      },
+      {
+        "key": "b",
+        "text": "Crosses off the first and last 0"
+      },
+      {
+        "key": "c",
+        "text": "Copies the 0s to a second tape"
+      },
+      {
+        "key": "d",
+        "text": "Counts the 0s in binary"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each sweep crosses off every other 0, halving the count; it accepts at a single 0 and rejects an odd count above 1.",
+    "source": "CSC 552 Study Session 2, Example 2.5"
+  }
+]

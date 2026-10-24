@@ -1,0 +1,77 @@
+{
+  "code": "CSC 552",
+  "title": "Theory of Computation",
+  "description": "Turing machines and their variants, the universal Turing machine, the Church–Turing thesis, Gödel's incompleteness theorems, decidability, reducibility, computational complexity and NP-completeness.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "turing-machines",
+      "title": "Turing Machines",
+      "summary": "A Turing machine has an infinite tape, a head that reads, writes and moves both ways, and accept and reject states that take effect immediately; formally it is a 7-tuple. Variants such as multitape and nondeterministic machines and enumerators all recognise the same class of languages.",
+      "subtopics": [
+        "Why study theory of computation; finite automata versus Turing machines",
+        "Chomsky hierarchy recap",
+        "Formal definition: the 7-tuple (Q, Σ, Γ, δ, q0, qaccept, qreject)",
+        "Configurations and the yields relation",
+        "Recognisable (recursively enumerable) and decidable (recursive) languages",
+        "Examples: w#w and strings of 0s whose length is a power of 2",
+        "Variants: multitape, nondeterministic, enumerators"
+      ],
+      "lectures": [1, 2]
+    },
+    {
+      "slug": "universal-turing-machine-church-turing-and-godel",
+      "title": "Universal Turing Machine, Church–Turing Thesis and Gödel",
+      "summary": "A universal Turing machine takes another machine's description with its input and simulates it, and the Church–Turing thesis holds that every real-world computation can be done by a Turing machine. Gödel's incompleteness theorems showed that consistent systems containing arithmetic have unprovable true statements and cannot prove their own consistency.",
+      "subtopics": [
+        "Universal Turing machine and how it differs from a Turing machine",
+        "Church–Turing thesis (λ-calculus and Turing machines, 1936)",
+        "Definition of algorithm and Hilbert's tenth problem",
+        "Gödel's first and second incompleteness theorems",
+        "Gödel numbering and arithmetizing metamathematics"
+      ],
+      "lectures": [2, 3]
+    },
+    {
+      "slug": "decidability",
+      "title": "Decidability",
+      "summary": "A problem is decidable when some Turing machine always halts with the correct yes or no answer; acceptance, emptiness and equivalence for DFAs and membership for CFGs are decidable. Acceptance for Turing machines (ATM) is undecidable, proved with Cantor's diagonalization method.",
+      "subtopics": [
+        "Decision problems, decidable, undecidable and semi-decidable languages",
+        "Recursive (REC) and recursively enumerable (RE) languages",
+        "Decidable problems for regular languages: ADFA, ANFA, AREX, EDFA, EQDFA",
+        "Decidable problems for context-free languages: ACFG; every CFL is decidable",
+        "Undecidability of ATM",
+        "Diagonalization, countable and uncountable sets"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "reducibility-and-decidability-of-logics",
+      "title": "Reducibility and Decidability of Logics",
+      "summary": "A reduction converts problem A into problem B so that a solution to B solves A; if A is undecidable and reduces to B, then B is undecidable, which proves the halting problem, ETM, ELBA and the Post Correspondence Problem undecidable. Logics differ in decidability, and non-monotonic logics can retract conclusions when new information arrives.",
+      "subtopics": [
+        "Meaning of reducibility, with everyday examples",
+        "The halting problem HALTTM and ETM",
+        "Computation histories and linear bounded automata (ALBA decidable, ELBA undecidable)",
+        "The Post Correspondence Problem",
+        "Decidability of logics: propositional logic and truth tables",
+        "Non-monotonic logics: default logic and the Tweety example"
+      ],
+      "lectures": [5, 6]
+    },
+    {
+      "slug": "computational-complexity-and-np-completeness",
+      "title": "Computational Complexity and NP-Completeness",
+      "summary": "Computational complexity classifies problems by the time and space they need, with classes such as P, NP, PSPACE and EXPTIME and the open P versus NP question. A problem is NP-complete when it is in NP and every NP problem reduces to it in polynomial time; SAT was the first, by the Cook–Levin theorem.",
+      "subtopics": [
+        "Time and space complexity; Big O",
+        "P, NP, NP-complete; PSPACE and EXPTIME",
+        "Open problems: P versus NP, circuit lower bounds, de-randomization, quantum complexity",
+        "NP-hard and NP-complete; Cook (1971) and the Cook–Levin theorem",
+        "SAT, 3SAT and polynomial-time reducibility (3SAT to CLIQUE)"
+      ],
+      "lectures": [7, 8]
+    }
+  ]
+}

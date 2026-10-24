@@ -1,0 +1,213 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which class contains the problems whose proposed solutions can be checked in polynomial time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NP"
+      },
+      {
+        "key": "b",
+        "text": "P"
+      },
+      {
+        "key": "c",
+        "text": "PSPACE"
+      },
+      {
+        "key": "d",
+        "text": "EXPTIME"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "NP is the class of problems whose solutions can be verified in polynomial time.",
+    "source": "CSC 552 Study Session 7, 7.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who introduced the concept of NP-completeness in 1971?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stephen Cook"
+      },
+      {
+        "key": "b",
+        "text": "Alan Turing"
+      },
+      {
+        "key": "c",
+        "text": "Georg Cantor"
+      },
+      {
+        "key": "d",
+        "text": "Kurt Gödel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Stephen Cook introduced NP-completeness in 1971.",
+    "source": "CSC 552 Study Session 8, 8.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which problem was the first shown to be NP-complete, by the Cook–Levin theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boolean satisfiability (SAT)"
+      },
+      {
+        "key": "b",
+        "text": "Travelling salesman"
+      },
+      {
+        "key": "c",
+        "text": "CLIQUE"
+      },
+      {
+        "key": "d",
+        "text": "Hamiltonian path"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Cook–Levin theorem shows SAT is NP-complete: every NP problem reduces to it.",
+    "source": "CSC 552 Study Session 8, 8.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which conditions together make a decision problem L NP-complete?",
+    "options": [
+      {
+        "key": "a",
+        "text": "L is in NP"
+      },
+      {
+        "key": "b",
+        "text": "Every problem in NP reduces to L in polynomial time"
+      },
+      {
+        "key": "c",
+        "text": "L can be solved in polynomial time"
+      },
+      {
+        "key": "d",
+        "text": "L is undecidable"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "NP-complete means in NP and NP-hard; no polynomial algorithm is known, and NP problems are decidable.",
+    "source": "CSC 552 Study Session 8, 8.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "A problem that satisfies only 'every NP problem reduces to it in polynomial time' is called NP-hard.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "NP-hard needs only the reduction property; NP-complete also requires membership in NP.",
+    "source": "CSC 552 Study Session 8, 8.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are listed as open problems in computational complexity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P versus NP"
+      },
+      {
+        "key": "b",
+        "text": "Circuit lower bounds"
+      },
+      {
+        "key": "c",
+        "text": "De-randomization"
+      },
+      {
+        "key": "d",
+        "text": "Whether propositional logic is decidable"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "P versus NP, circuit lower bounds and de-randomization are open; propositional logic is known to be decidable.",
+    "source": "CSC 552 Study Session 7, 7.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which reduction is presented in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3SAT reduces in polynomial time to CLIQUE"
+      },
+      {
+        "key": "b",
+        "text": "CLIQUE reduces to sorting"
+      },
+      {
+        "key": "c",
+        "text": "SAT reduces to ADFA"
+      },
+      {
+        "key": "d",
+        "text": "PCP reduces to SAT"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Theorem 8.3 reduces 3SAT to CLIQUE: each clause becomes a triple of nodes.",
+    "source": "CSC 552 Study Session 8, 8.5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a complexity class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P"
+      },
+      {
+        "key": "b",
+        "text": "NP"
+      },
+      {
+        "key": "c",
+        "text": "PSPACE"
+      },
+      {
+        "key": "d",
+        "text": "PCP"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "PCP is the Post Correspondence Problem; P, NP and PSPACE are complexity classes.",
+    "source": "CSC 552 Study Session 5; CSC 552 Study Session 7"
+  }
+]

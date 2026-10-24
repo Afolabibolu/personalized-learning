@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does a universal Turing machine take as input?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The description of a machine M together with an input string"
+      },
+      {
+        "key": "b",
+        "text": "Only a binary number"
+      },
+      {
+        "key": "c",
+        "text": "A context-free grammar"
+      },
+      {
+        "key": "d",
+        "text": "A list of all possible strings"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A UTM reads M's description and an input, then simulates M on that input.",
+    "source": "CSC 552 Study Session 2, 2.6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who created the λ-calculus in 1936?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Alonzo Church"
+      },
+      {
+        "key": "b",
+        "text": "Alan Turing"
+      },
+      {
+        "key": "c",
+        "text": "Kurt Gödel"
+      },
+      {
+        "key": "d",
+        "text": "David Hilbert"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Alonzo Church created the λ-calculus; Alan Turing created his machines in the same year.",
+    "source": "CSC 552 Study Session 2, 2.7"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Church–Turing thesis can be proved mathematically.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The thesis links the intuitive notion of computation to Turing machines and cannot be proved.",
+    "source": "CSC 552 Study Session 2, 2.7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Hilbert's tenth problem asked for an algorithm to test whether a polynomial has",
+    "options": [
+      {
+        "key": "a",
+        "text": "An integral root"
+      },
+      {
+        "key": "b",
+        "text": "A real root"
+      },
+      {
+        "key": "c",
+        "text": "Degree greater than 2"
+      },
+      {
+        "key": "d",
+        "text": "Only positive coefficients"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It asked whether a polynomial has an integral root; Matijasevič showed in 1970 that no algorithm exists.",
+    "source": "CSC 552 Study Session 2, 2.8.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements describe Gödel's incompleteness theorems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A consistent system containing basic arithmetic has true statements it cannot prove"
+      },
+      {
+        "key": "b",
+        "text": "Such a system cannot prove its own consistency"
+      },
+      {
+        "key": "c",
+        "text": "They challenged Hilbert's dream of a complete, consistent set of axioms"
+      },
+      {
+        "key": "d",
+        "text": "Every true arithmetic statement can be proved from the axioms"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The first theorem gives unprovable true statements, the second rules out self-proved consistency; together they ended Hilbert's programme.",
+    "source": "CSC 552 Study Session 3, 3.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the Gödel numbering used in the course, what is the Gödel number of the symbol ∃?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "~ is 1, ∨ is 2, ⊃ is 3, ∃ is 4 and = is 5.",
+    "source": "CSC 552 Study Session 3, Figure 3.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the course's Gödel numbering, the formula 0 = 0 has Gödel number 2⁶ × 3⁵ × 5⁶ = 243,000,000.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each symbol's number (6, 5, 6) becomes the exponent of the next prime (2, 3, 5).",
+    "source": "CSC 552 Study Session 3, 3.3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the conditions Church's mechanical method M had to meet?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A finite number of instructions"
+      },
+      {
+        "key": "b",
+        "text": "Output after a finite number of steps"
+      },
+      {
+        "key": "c",
+        "text": "It can be made in real life"
+      },
+      {
+        "key": "d",
+        "text": "It must run in polynomial time"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The four conditions are finite instructions, finite steps, realisable and needing no complex understanding.",
+    "source": "CSC 552 Study Session 2, 2.7"
+  }
+]
