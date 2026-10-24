@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which scholar defined politics as 'who gets what, when and how'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Harold Lasswell"
+      },
+      {
+        "key": "b",
+        "text": "David Easton"
+      },
+      {
+        "key": "c",
+        "text": "Aristotle"
+      },
+      {
+        "key": "d",
+        "text": "Billy Dudley"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Lasswell's definition centres on power.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "David Easton defined politics as",
+    "options": [
+      {
+        "key": "a",
+        "text": "The authoritative allocation of values for a society"
+      },
+      {
+        "key": "b",
+        "text": "Who gets what, when and how"
+      },
+      {
+        "key": "c",
+        "text": "The essence of social existence"
+      },
+      {
+        "key": "d",
+        "text": "The study of the economy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Easton's definition is criticised as too abstract.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four characteristics of the modern state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Population"
+      },
+      {
+        "key": "b",
+        "text": "Defined territory"
+      },
+      {
+        "key": "c",
+        "text": "Sovereignty"
+      },
+      {
+        "key": "d",
+        "text": "A national football team"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is a functional government.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Authority is a form of power that people accept because they believe the person has the right to direct them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Authority is described as a superior form of power linked to legitimacy.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theory says the state arose from the conquest and domination of the weak by the strong?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Force theory"
+      },
+      {
+        "key": "b",
+        "text": "Divine origin theory"
+      },
+      {
+        "key": "c",
+        "text": "Genetic theory"
+      },
+      {
+        "key": "d",
+        "text": "Social contract theory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Force theory rests on 'might is right'.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of authority rests on a leader's extraordinary personal qualities?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Charismatic authority"
+      },
+      {
+        "key": "b",
+        "text": "Traditional authority"
+      },
+      {
+        "key": "c",
+        "text": "Inter-state authority"
+      },
+      {
+        "key": "d",
+        "text": "Procedural authority"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Examples given include Awolowo, Nkrumah and Mandela.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a level of politics in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "State politics"
+      },
+      {
+        "key": "b",
+        "text": "Intra-state politics"
+      },
+      {
+        "key": "c",
+        "text": "Inter-state politics"
+      },
+      {
+        "key": "d",
+        "text": "Molecular politics"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Politics is discussed at the state, intra-state and inter-state levels.",
+    "source": "GES 103.pdf, Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "According to the chapter, every political scientist is a politician.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Political scientists analyse politics objectively; not all are politicians and vice versa.",
+    "source": "GES 103.pdf, Chapter 1"
+  }
+]

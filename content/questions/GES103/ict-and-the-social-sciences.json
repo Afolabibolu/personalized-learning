@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "When was the term ICT introduced to replace IT, according to the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The early 1990s"
+      },
+      {
+        "key": "b",
+        "text": "The 1950s"
+      },
+      {
+        "key": "c",
+        "text": "The 1970s"
+      },
+      {
+        "key": "d",
+        "text": "2010"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It recognised the communicating abilities of the computer.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are social science disciplines?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economics"
+      },
+      {
+        "key": "b",
+        "text": "Political science"
+      },
+      {
+        "key": "c",
+        "text": "Sociology"
+      },
+      {
+        "key": "d",
+        "text": "Geology"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Geology is a natural science.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which position of ICT in education means ICT is an essential tool without which a course cannot be taught?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Learning through ICT"
+      },
+      {
+        "key": "b",
+        "text": "Learning about ICT"
+      },
+      {
+        "key": "c",
+        "text": "Learning with ICT"
+      },
+      {
+        "key": "d",
+        "text": "Learning without ICT"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Learning about ICT treats it as a subject; learning with ICT uses it as a medium.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "true_false",
+    "stem": "ICT is also viewed as a skill for life, in line with literacy.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is a fundamental skill for living confidently in modern society.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which basic issues in using ICT in education did Haddad and Jurich (2002) identify?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "b",
+        "text": "Cost"
+      },
+      {
+        "key": "c",
+        "text": "Equity"
+      },
+      {
+        "key": "d",
+        "text": "Popularity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is sustainability.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which learning theories hold the greatest sway today, according to the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Constructivist theories"
+      },
+      {
+        "key": "b",
+        "text": "Behaviourist punishment theories"
+      },
+      {
+        "key": "c",
+        "text": "Rote memorisation theories"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Constructivism holds that learning is achieved by actively constructing knowledge.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a role of ICT in teaching and learning social sciences named in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Information literacy"
+      },
+      {
+        "key": "b",
+        "text": "Independent learning"
+      },
+      {
+        "key": "c",
+        "text": "Competency-based curricula"
+      },
+      {
+        "key": "d",
+        "text": "Eliminating the need for students to learn"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ICT supports student-centred learning; it does not remove learning.",
+    "source": "GES 103.pdf, Chapter 14"
+  },
+  {
+    "format": "true_false",
+    "stem": "Card reader machines used in Nigerian elections are an example of ICT in politics.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The chapter cites them as ICT-based.",
+    "source": "GES 103.pdf, Chapter 14"
+  }
+]
