@@ -1,0 +1,205 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Development informatics focuses mainly on",
+    "options": [
+      {
+        "key": "a",
+        "text": "The role of ICTs in sustainable socio-economic development"
+      },
+      {
+        "key": "b",
+        "text": "Repairing computers"
+      },
+      {
+        "key": "c",
+        "text": "Writing operating systems"
+      },
+      {
+        "key": "d",
+        "text": "Space exploration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also looks at ICTs' contribution to public services.",
+    "source": "CSC 584 Courseware, Unit 4, 4.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What is the two-fold core of the big data paradigm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "New sources of data from digital footprints"
+      },
+      {
+        "key": "b",
+        "text": "Methods of data analytics to inform decisions"
+      },
+      {
+        "key": "c",
+        "text": "Replacing all computers"
+      },
+      {
+        "key": "d",
+        "text": "Banning surveys"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "Big data is both new data sources and analytics placed at the front of decision-making.",
+    "source": "CSC 584 Courseware, Unit 4, 4.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which example shows big data used as a proxy indicator?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Google using search terms to track the spread of seasonal flu"
+      },
+      {
+        "key": "b",
+        "text": "Counting votes by hand"
+      },
+      {
+        "key": "c",
+        "text": "A paper census only"
+      },
+      {
+        "key": "d",
+        "text": "A printed newspaper"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Search terms acted as a cheap, real-time proxy for flu outbreaks.",
+    "source": "CSC 584 Courseware, Unit 4, 4.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Because data always comes from the past, big data predicts well only when the future follows the same logic as the past.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the Lucas critique; the best big data can do is nowcasting.",
+    "source": "CSC 584 Courseware, Unit 4, 4.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of big data listed in the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Universal sampling (n = N)"
+      },
+      {
+        "key": "b",
+        "text": "Real-time access"
+      },
+      {
+        "key": "c",
+        "text": "Messy and incomplete, offset by data fusion"
+      },
+      {
+        "key": "d",
+        "text": "Always perfectly clean"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fifth is the 'end of theory', pattern detection by machine learning.",
+    "source": "CSC 584 Courseware, Unit 4, 4.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the remedy for messy and incomplete big data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data fusion across redundant sources"
+      },
+      {
+        "key": "b",
+        "text": "Deleting all incomplete rows"
+      },
+      {
+        "key": "c",
+        "text": "Using only one source"
+      },
+      {
+        "key": "d",
+        "text": "Stopping data collection"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Redundancy across sources makes up for missing data.",
+    "source": "CSC 584 Courseware, Unit 4, 4.5.4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a challenge of big data for development named in the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Access challenges"
+      },
+      {
+        "key": "b",
+        "text": "Human resource and skills challenges"
+      },
+      {
+        "key": "c",
+        "text": "Institutional frameworks"
+      },
+      {
+        "key": "d",
+        "text": "Too many statisticians"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The courseware quotes Hal Varian on the growing need for statisticians.",
+    "source": "CSC 584 Courseware, Unit 4, 4.6.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Digitising 20 million land records in Bangalore mostly benefited the small farmers it was aimed at.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Larger players were better placed to exploit the data, perpetuating inequality.",
+    "source": "CSC 584 Courseware, Unit 4, 4.6.2"
+  }
+]

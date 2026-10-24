@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How does ICT differ from IT according to the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ICT includes telecommunications, while IT management does not; IT is a subset of ICT"
+      },
+      {
+        "key": "b",
+        "text": "IT is broader and includes ICT"
+      },
+      {
+        "key": "c",
+        "text": "They mean exactly the same thing"
+      },
+      {
+        "key": "d",
+        "text": "ICT excludes the Internet"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ICT is the more comprehensive term; IT does not consider telecommunications devices.",
+    "source": "CSC 584 Courseware, Unit 1, 1.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are components of ICT listed in the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Devices (hardware)"
+      },
+      {
+        "key": "b",
+        "text": "Middleware"
+      },
+      {
+        "key": "c",
+        "text": "Information security and governance policies"
+      },
+      {
+        "key": "d",
+        "text": "Crop rotation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Components also include software, data, networks, the cloud, protocols and interfaces.",
+    "source": "CSC 584 Courseware, Unit 1, 1.3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Older technologies such as landline telephones, radio and television broadcasting are still part of ICT.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "ICT includes antiquated technologies alongside AI and robotics.",
+    "source": "CSC 584 Courseware, Unit 1, 1.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the digital divide?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unequal access to ICT, with richer countries and people enjoying more of it"
+      },
+      {
+        "key": "b",
+        "text": "The gap between hardware and software"
+      },
+      {
+        "key": "c",
+        "text": "The division of a hard disk into partitions"
+      },
+      {
+        "key": "d",
+        "text": "A split between two social networks"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The discrepancy in access to ICT is called the digital divide.",
+    "source": "CSC 584 Courseware, Unit 1, 1.6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "ICT's importance to economic development is often credited with ushering in which industrial revolution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Fourth Industrial Revolution"
+      },
+      {
+        "key": "b",
+        "text": "The First Industrial Revolution"
+      },
+      {
+        "key": "c",
+        "text": "The Second Industrial Revolution"
+      },
+      {
+        "key": "d",
+        "text": "The Agricultural Revolution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The courseware links ICT to the Fourth Industrial Revolution and the digital age.",
+    "source": "CSC 584 Courseware, Unit 1, 1.6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which challenges does ICT create, according to the courseware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "New opportunities for cybercrime"
+      },
+      {
+        "key": "b",
+        "text": "Automation displacing workers in repetitive tasks"
+      },
+      {
+        "key": "c",
+        "text": "Cyberbullying and isolation"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed equal access for everyone"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ICT also widens the digital divide rather than guaranteeing equal access.",
+    "source": "CSC 584 Courseware, Unit 1, 1.5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the developmental characteristics of ICTs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Knowledge management"
+      },
+      {
+        "key": "b",
+        "text": "Efficiency"
+      },
+      {
+        "key": "c",
+        "text": "Networks"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed success for any project"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ICTs are tools whose value depends on fit, incentives and skills; success is never guaranteed.",
+    "source": "CSC 584 Courseware, Unit 1, 1.7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Education and digital literacy are part of the human capacity building that affects ICT-driven development.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Human capacity building covers education, digital literacy and ICT skills.",
+    "source": "CSC 584 Courseware, Unit 1, 1.14.2"
+  }
+]
