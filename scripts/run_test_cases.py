@@ -94,19 +94,25 @@ def protected_routes_check() -> list[str]:
 
 
 def knowledge_base_check() -> list[str]:
+    """The two reviewed courses are unchanged; sample courses from the pipeline are counted separately."""
     db = testkit.admin()
-    courses = db.table("courses").select("code").neq("code", testkit.COURSE_CODE).execute().data
-    topics = db.table("topics").select("id, title, resources(id), quizzes(id, kind)").execute().data
-    approved = db.table("questions").select("id", count="exact", head=True).eq("status", "approved").execute().count
+    courses = db.table("courses").select("code, is_reviewed").neq("code", testkit.COURSE_CODE).execute().data
+    reviewed = sorted(c["code"] for c in courses if c["is_reviewed"])
+    sample = sorted(c["code"] for c in courses if not c["is_reviewed"])
+    topics = db.table("topics").select("id, title, courses(is_reviewed), resources(id), quizzes(id, kind)").execute().data
+    reviewed_topics = [t for t in topics if t["courses"]["is_reviewed"]]
+    approved = db.table("questions").select("id, topics!inner(courses!inner(is_reviewed))", count="exact", head=True) \
+        .eq("status", "approved").eq("topics.courses.is_reviewed", True).execute().count
     no_resource = [t["title"] for t in topics if not t["resources"]]
     no_quiz = [t["title"] for t in topics if not any(q["kind"] == "topic" for q in t["quizzes"])]
     diagnostics = db.table("quizzes").select("id", count="exact", head=True).eq("kind", "diagnostic").execute().count
     return [
-        f"{'PASS' if len(courses) == 2 else 'FAIL'}  {len(courses)} courses loaded ({', '.join(sorted(c['code'] for c in courses))})",
-        f"{'PASS' if len(topics) == 12 else 'FAIL'}  {len(topics)} topics",
-        f"{'PASS' if approved == 120 else 'FAIL'}  {approved} approved questions",
-        f"{'PASS' if not no_resource else 'FAIL'}  every topic has at least one resource" + (f" (missing: {no_resource})" if no_resource else ""),
-        f"{'PASS' if not no_quiz and diagnostics == 2 else 'FAIL'}  every topic has a topic quiz; {diagnostics} diagnostic quizzes",
+        f"{'PASS' if reviewed == ['CSC 531', 'CSC 574'] else 'FAIL'}  reviewed courses: {', '.join(reviewed)}",
+        f"{'PASS' if len(reviewed_topics) == 12 else 'FAIL'}  {len(reviewed_topics)} topics in the reviewed courses",
+        f"{'PASS' if approved == 120 else 'FAIL'}  {approved} approved questions in the reviewed courses",
+        f"INFO  {len(sample)} sample courses from the ingestion pipeline: {', '.join(sample)}",
+        f"{'PASS' if not no_resource else 'FAIL'}  every topic ({len(topics)}) has at least one resource" + (f" (missing: {no_resource})" if no_resource else ""),
+        f"{'PASS' if not no_quiz and diagnostics == len(courses) else 'FAIL'}  every topic has a topic quiz; {diagnostics} diagnostic quizzes for {len(courses)} courses",
     ]
 
 
@@ -192,7 +198,7 @@ def cases() -> list[Case]:
              "Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data"),
         Case("TC-09", "FR5", "Academic knowledge base",
              ["python content/validate.py", "Count courses, topics, approved questions, resources and quizzes in Supabase"],
-             "Validation passes; 2 courses, 12 topics, 120 approved questions; every topic has a resource and a topic quiz"),
+             "Validation passes; the reviewed courses have 12 topics and 120 approved questions; every topic in every course has a resource and a topic quiz"),
         Case("TC-10", "FR6", "Progress tracking and consistency",
              ["Sign in as Active Student and open the dashboard", "Run npm test (streak and strip logic)"],
              "Streak, 14-day activity strip and per-topic progress chart shown; logic tests pass"),
@@ -230,6 +236,11 @@ def cases() -> list[Case]:
         Case("TC-21", "FR6", "Notifications, reminders and weekly summary",
              ["Open the bell as Tolu", "Click a notification", "Check the weekly summary and progress chart", "Save reminder settings", "pytest scripts/test_reminders.py"],
              "Unread count; clicking marks read and follows the link; weekly summary and two-line chart labels; settings saved; each reminder kind fires at most once a day and stays private"),
+        Case("TC-22", "NFR5", "Course ingestion pipeline: raw files to the app",
+             ["python content/ingest/inventory.py", "python content/ingest/extract.py --course \"CSC 551\"",
+              "Write the course files from the extracted text, then python content/ingest/publish.py --course \"CSC 551\"",
+              "In Chrome: pick the course at onboarding, open it in the Knowledge Base, take a topic quiz, remove it again"],
+             "Every sample course validates and loads as is_reviewed = false; it appears in the Knowledge Base with the sample badge, its study note, past questions and topic quiz work, it gets its own getting-started list, and the demo accounts are unchanged"),
     ]
 
 
@@ -311,6 +322,9 @@ def evaluate(case: Case) -> None:
             case.evidence.append("FAIL  pytest ml: " + tail(tests, "failed"))
     elif case.id == "TC-16":
         case.evidence = portability_check()
+    elif case.id == "TC-22":
+        out = run("phase9", py + ["scripts/phase9_check.py"])
+        case.evidence = lines(out, "")
     elif case.id in PHASE7_NEEDLES:
         out = run("phase7", py + ["scripts/phase7_check.py"])
         case.evidence = lines(out, *PHASE7_NEEDLES[case.id])
@@ -357,7 +371,11 @@ def write_report(all_cases: list[Case]) -> None:
         "- First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a "
         "Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the "
         "old file layout (resources inside the course file, no study notes). Both were faults in the test script, not the app; "
-        "the script was updated and every case was run again for the table above.\n\n"
+        "the script was updated and every case was run again.\n"
+        "- First Phase 9 run (24 Oct 2026): 20 pass, 2 fail. TC-10 and TC-12 failed on 'dashboard shows a streak' (0-day streak) "
+        "because the demo accounts had last been reset on 19 October, so the seeded study days were no longer consecutive up to "
+        "today. After `python scripts/seed_demo.py --demo-only` the streak check passed, and every case was run again for the "
+        "table above. Reset the demo accounts on the day of the demo.\n\n"
         "## Details\n\n" + "\n".join(details)
     )
 

@@ -144,6 +144,20 @@ def main() -> int:
         refused("A updates B's reminder settings", lambda: a.table("profiles").update(
             {"daily_goal_minutes": 5}).eq("id", b_id).execute())
 
+        print("\n-- Enrollments (my courses)")
+        course_id = db.table("courses").select("id").eq("code", testkit.COURSE_CODE).execute().data[0]["id"]
+        b.table("enrollments").delete().eq("student_id", b_id).eq("course_id", course_id).execute()
+        allowed("B adds a course to own courses", lambda: b.table("enrollments").insert(
+            {"student_id": b_id, "course_id": course_id}).execute())
+        refused("A reads B's enrollments", lambda: a.table("enrollments").select("*").eq("student_id", b_id).execute())
+        refused("A enrols B in a course", lambda: a.table("enrollments").insert(
+            {"student_id": b_id, "course_id": course_id}).execute())
+        refused("A removes B's enrollment", lambda: a.table("enrollments").delete().eq("student_id", b_id).execute())
+        check("B's enrollment is still there", bool(b.table("enrollments").select("course_id").eq(
+            "course_id", course_id).execute().data))
+        allowed("B removes own enrollment", lambda: b.table("enrollments").delete().eq(
+            "student_id", b_id).eq("course_id", course_id).execute())
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

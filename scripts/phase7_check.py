@@ -67,7 +67,7 @@ def fr5(browser, shot: Shots) -> None:
     check("Knowledge Base page in the nav with live counts", " ".join(text.split()) == expected, text.replace("\n", " "))
     topics = page.get_by_test_id("kb-topic")
     expect(topics.first).to_be_visible()
-    check("courses, then topics in order with summaries and subtopics", topics.count() == 12,
+    check("courses, then topics in order with summaries and subtopics", topics.count() == stats["topics"],
           f"{topics.count()} topics; first: {topics.first.inner_text()}")
     groups = [g for g in ["Study notes", "Lecture slides", "Past questions"] if page.get_by_text(g, exact=True).count()]
     check("resources grouped by type", len(groups) == 3, ", ".join(groups))
@@ -120,9 +120,13 @@ def fr5(browser, shot: Shots) -> None:
     shot(page, "fr5-05-topic.png", full_page=True)
     page.close()
 
-    missing = [t["title"] for t in db.table("topics").select("title, resources(type), quizzes(kind)").execute().data
-               if not ({"note", "lecture"} <= {r["type"] for r in t["resources"]} and any(q["kind"] == "topic" for q in t["quizzes"]))]
-    check("every topic has a study note, a lecture link and a topic quiz", not missing, ", ".join(missing) or "12 of 12")
+    # Reviewed courses need a lecture link too; sample courses (Phase 9) have none until links.csv lists one.
+    all_topics = db.table("topics").select("title, courses(is_reviewed), resources(type), quizzes(kind)").execute().data
+    missing = [t["title"] for t in all_topics
+               if not (({"note", "lecture"} if t["courses"]["is_reviewed"] else {"note"}) <= {r["type"] for r in t["resources"]}
+                       and any(q["kind"] == "topic" for q in t["quizzes"]))]
+    check("every topic has a study note and a topic quiz (and a lecture link in reviewed courses)", not missing,
+          ", ".join(missing) or f"{len(all_topics)} of {len(all_topics)}")
 
     page = browser.new_page(viewport=PHONE)
     page.set_default_timeout(20_000)

@@ -120,7 +120,7 @@ Evidence: screenshots of the bell with unread count, the notifications list, rem
 | NFR2 Performance | Measured response times | [x] `scripts/timing.py`: times quiz submit, dashboard load and `/recommend` 20 times each and writes median, p95 and slowest to `docs/results/performance.md`. All within target at p95; one dashboard load (4.4 s) was slower than 3 s. |
 | NFR3 Security | Students only see their own data | [x] `scripts/rls_check.py --out docs/results/security.md` (40/40). [ ] Screenshot of the RLS policies in the Supabase dashboard (you take this one) |
 | NFR4 Reliability | New students get a sensible result, and failures degrade quietly | [x] "Kemi" screenshot with the cold-start list: `docs/screenshots/14-dashboard-new.png`. [x] ML service unreachable (requests blocked in the browser): dashboard still loads with saved recommendations and a quiet notice, `phase7/fr4-04-service-down.png` |
-| NFR5 Portability | A new course can be added without code changes | [ ] The course ingestion pipeline in `content/CLAUDE.md`, run on at least one extra course, with a screenshot of it appearing in the app (_partly: TC-16 adds a course from JSON files with no code change; no inventory or extraction yet_) |
+| NFR5 Portability | A new course can be added without code changes | [x] The course ingestion pipeline (`content/ingest/inventory.py`, `extract.py`, `publish.py`) run on every course in `content/sources/raw/`: 9 sample courses added, listed in `docs/results/courses.md`; `scripts/phase9_check.py` 19/19 and TC-22; screenshots in `docs/screenshots/phase9/` (Knowledge Base, study note, quiz, course list) |
 
 ## Priority order for Monday
 

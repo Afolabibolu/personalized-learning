@@ -23,7 +23,7 @@ If something will take long and is not on that list, skip it and note it in the 
 
 Phases 0 to 6 are built and working: sign-up, courses, diagnostic and topic quizzes, study logging, the ML recommendation service with probabilities and a rule baseline, a reminder banner, the consistency card, progress by topic, and the Phase 6 test cases and screenshots.
 
-The results defence is on Tuesday. What remains is closing the requirement gaps listed in `docs/requirements.md` (Phase 7), capturing results again (Phase 8), and, as a stretch, the course ingestion pipeline (Phase 9). The 19 October revision of this file widened the scope of Phases 2 to 5 (study notes, past questions, a Knowledge Base page, learning-preference matching, reasons on recommendations); those items are tracked as gaps in `docs/requirements.md`, not as unfinished boxes in the phases below.
+The results defence is on Tuesday. What remains is closing the requirement gaps listed in `docs/requirements.md` (Phase 7), capturing results again (Phase 8), and, as a stretch, the course ingestion pipeline (Phase 9, done 24 October: 9 sample courses added). The 19 October revision of this file widened the scope of Phases 2 to 5 (study notes, past questions, a Knowledge Base page, learning-preference matching, reasons on recommendations); those items are tracked as gaps in `docs/requirements.md`, not as unfinished boxes in the phases below.
 
 ## How to work with me
 
@@ -131,6 +131,8 @@ recsys/
 - Resource links come only from `content/sources/links.csv`. Each topic lists the lectures it covers (`lectures` in the course file); `content/apply_links.py` gives a lecture its own row's link, or the course's `all` fallback row (a Drive folder for CSC 574, labelled "Open lecture folder" in the app). Supplementary readings with no row in `links.csv` (Shneiderman, Tadeusiewicz, Bidgoli, Knowledge Representation in AI) are left out. `load.py` matches resources by topic and title, then by link, so a change updates the row in place.
 - Dashboard labels: ML recommendations with averaged probability of 0.5 or more show as "Needs attention"; below 0.5 they show as "Keep it up" with a suggestion (review if not studied for 7+ days, try the topic quiz if scoring 80%+, otherwise a light practice nudge). Cold-start items show as "Getting started".
 - Reminders (in-app, computed on dashboard load): a weak topic (below 50%) not studied for 7+ days or never, no study logged for 3+ days, and courses whose diagnostic has not been taken. Streak and the 14-day strip count days with a study log or a completed quiz.
+- Sample courses (24 Oct): every course added through the pipeline is `is_reviewed: false` and labelled "Sample content, pending lecturer review" in the app. Sample size: 4 to 6 topics, a 300 to 500-word note per topic, 8 practice questions per topic in at least three formats, every past question found, and no lecture links unless `links.csv` has them (their getting-started list is topic 1's note, topic 1's past questions, topic 2's note). Facts come only from the course's files; a lecture error (CSC 552 says first-order logic is decidable) is left out rather than repeated. M.Sc. papers filed with a course are labelled M.Sc.
+- My courses (24 Oct): students choose their courses (`enrollments`). New profiles start on the reviewed courses; onboarding and the course list add or remove others. Recommendations, reminders, the progress chart and the study-log picker cover only the student's courses; the Knowledge Base shows every course, the student's first, with an All/My courses toggle. The demo accounts stay on CSC 531 and CSC 574.
 - Training rows: one per student per topic. The label is the student's last attempt on the topic; features come only from attempts and study logs before it. ML recommendations are the top 3 topics overall, across all of the student's courses (ranked 1 to 3 by averaged probability). Cold-start lists stay per course.
 
 ## Database
@@ -285,6 +287,12 @@ Check: every test case has a recorded result, and every screenshot in the list c
 
 Build `inventory.py` and `extract.py` from `content/CLAUDE.md`, then add one extra course in the default mode (no API key). The point is to show that a course goes from files to the app without code changes.
 
+- [x] `content/ingest/inventory.py` (generic code detection, hand fixes in `inventory_fixes.csv`) and `extract.py` (text, scanned and image status)
+- [x] `content/ingest/publish.py`: links, validation, then loading, and nothing is loaded if validation fails
+- [x] All 500-level courses in `sources/raw/` plus CSC 412 and GES 103 added as sample courses (`is_reviewed: false`), listed in `docs/results/courses.md`; COS 102 skipped (reference textbook only)
+- [x] "My courses" (`enrollments` table) so recommendations, reminders and progress cover only the courses a student chose
+- [x] `scripts/phase9_check.py`, TC-22 in `docs/test-cases.md`, screenshots in `docs/screenshots/phase9/`
+
 Check: one course not built by hand appears in the app with topics, a study note and a working quiz, using only the pipeline commands.
 
 ## Commands
@@ -310,7 +318,10 @@ cd ml && python -m training.train --real-test ../real_rows.csv   # optional; row
 # data (from the repo root)
 python content/apply_links.py     # lecture resources from content/sources/links.csv
 python content/validate.py
-python content/load.py
+python content/load.py            # --course "CSC 551" for one course
+python content/ingest/inventory.py   # Phase 9: find and classify files in content/sources/raw/
+python content/ingest/extract.py --course "CSC 551"   # or --all
+python content/ingest/publish.py --course "CSC 551"   # links, validate, then load
 python scripts/seed_demo.py           # resets and recreates simulated students + demo accounts
 python scripts/seed_demo.py --demo-only   # resets only the two demo accounts (run before presenting)
 python scripts/rls_check.py      # Phase 1 check; cleans up its test users and course; --out docs/results/security.md
@@ -319,6 +330,7 @@ python scripts/phase3_check.py   # Phase 3 check in Chrome; needs npm run dev; -
 python scripts/phase4_check.py   # Phase 4 check; needs seed_demo, training.train and the ML service running
 python scripts/phase5_check.py   # Phase 5 dashboard check in Chrome; --mobile, --shots DIR
 python scripts/phase7_check.py   # Phase 7 checks in Chrome; --only fr5|fr4|fr6|fr1|fr23, --shots DIR
+python scripts/phase9_check.py   # Phase 9 pipeline check (commands, database, Chrome); --shots DIR
 python scripts/timing.py         # NFR2 response times, 20 runs each -> docs/results/performance.md
 python scripts/capture_screenshots.py  # every screen in docs/screenshots.md -> docs/screenshots/
 python scripts/run_test_cases.py       # all FR/NFR test cases -> docs/test-cases.md (--measure to re-time)

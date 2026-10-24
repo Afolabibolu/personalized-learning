@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-10-19 22:38 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-10-24 21:53 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 40 of 40 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 46 of 46 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -77,6 +77,17 @@ Run 2026-10-19 22:38 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | B changes the text of own notification | refused: 42501 permission denied for table notifications |
 | Pass | B marks own notification read | 1 row(s |
 | Pass | A updates B's reminder settings | 0 rows |
+
+### Enrollments (my courses)
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | B adds a course to own courses | 1 row(s |
+| Pass | A reads B's enrollments | 0 rows |
+| Pass | A enrols B in a course | refused: 42501 new row violates row-level security policy for table "enrollments" |
+| Pass | A removes B's enrollment | 0 rows |
+| Pass | B's enrollment is still there |  |
+| Pass | B removes own enrollment | 1 row(s |
 
 ### Profiles and content
 

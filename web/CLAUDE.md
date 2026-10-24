@@ -11,7 +11,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | Route | Page | Requirement |
 | --- | --- | --- |
 | `/` | Dashboard: weekly summary, recommendations, consistency, progress by topic | FR4, FR6 |
-| `/courses` | Course list with diagnostic status | FR2 |
+| `/courses` | My courses (with diagnostic status and Remove), then More courses with Add to my courses | FR2, NFR5 |
 | `/courses/:code` | Course page: topics with latest score, quiz history, "Take topic quiz" | FR2 |
 | `/knowledge` | Knowledge Base: search, courses, topics with subtopics, resources grouped by type, live counts | FR5 |
 | `/topics/:id` | Topic page: summary, subtopics, resources, latest score, "Take topic quiz", "Log study session" | FR5 |
@@ -30,6 +30,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 - `ProgressByTopic`: wrap long topic names onto two lines; show the full name in a tooltip. Keep the 50% line and the colour legend.
 - `StudyLogger`: label the custom box "Custom (minutes)", accept 1 to 300, and add an optional timer.
 - `KnowledgeBase`: a search box that filters as you type, course sections, and a resource type icon for each resource.
+- Sample courses (`is_reviewed = false`) carry the `SampleBadge` ("Sample content, pending lecturer review") on the course list, course page, topic page, Knowledge Base and onboarding.
 - Empty states on every list, each with one clear next step (for example, "No quizzes yet. Take the diagnostic quiz.").
 
 ## Rules
