@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which part of an email header can generally reveal the IP address of the sending computer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The 'Received:' lines"
+      },
+      {
+        "key": "b",
+        "text": "The Subject line"
+      },
+      {
+        "key": "c",
+        "text": "The From: field"
+      },
+      {
+        "key": "d",
+        "text": "The message body"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The From: field can be spoofed; Received lines show the sending IP.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Eleven 11.4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods of email bombing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mass mailing"
+      },
+      {
+        "key": "b",
+        "text": "List linking"
+      },
+      {
+        "key": "c",
+        "text": "Zip bombing"
+      },
+      {
+        "key": "d",
+        "text": "IPsec tunnelling"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Mass mailing, list linking and zip bombs overwhelm mailboxes or servers.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Eleven 11.3.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which IPsec protocol provides confidentiality in addition to authentication and integrity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Encapsulating Security Payload (ESP)"
+      },
+      {
+        "key": "b",
+        "text": "Authentication Header (AH)"
+      },
+      {
+        "key": "c",
+        "text": "Security Association (SA)"
+      },
+      {
+        "key": "d",
+        "text": "MIME"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "AH gives integrity and origin authentication; ESP adds confidentiality.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Twelve 12.4"
+  },
+  {
+    "format": "true_false",
+    "stem": "IPsec operates at the Internet layer, so it can protect any application traffic over an IP network.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "TLS and SSH work in upper layers; IPsec protects all IP traffic.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Twelve 12.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of cross-site scripting is saved by the server and shown to other users on normal pages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Persistent (stored) XSS"
+      },
+      {
+        "key": "b",
+        "text": "Non-persistent (reflected) XSS"
+      },
+      {
+        "key": "c",
+        "text": "Blind SQL injection"
+      },
+      {
+        "key": "d",
+        "text": "Clone phishing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Stored XSS is the more devastating variant.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Thirteen 13.1.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Phishing aimed specifically at senior executives is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Whaling"
+      },
+      {
+        "key": "b",
+        "text": "Spear phishing"
+      },
+      {
+        "key": "c",
+        "text": "Vishing"
+      },
+      {
+        "key": "d",
+        "text": "Clone phishing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Whaling targets high-profile individuals.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Thirteen 13.4.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is an object privilege rather than a system privilege in a database?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Create database"
+      },
+      {
+        "key": "b",
+        "text": "Backup database"
+      },
+      {
+        "key": "c",
+        "text": "Create table"
+      },
+      {
+        "key": "d",
+        "text": "Select"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Select is an object privilege; the others are system privileges.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Fourteen 14.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "OWASP publishes the OWASP Top 10, describing the major threats against web applications.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "OWASP is the emerging standards body for web application security.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Thirteen 13.5"
+  }
+]

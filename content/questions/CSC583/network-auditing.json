@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is network auditing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The systematic examination of an organisation's network infrastructure, configurations and activity"
+      },
+      {
+        "key": "b",
+        "text": "Installing antivirus software"
+      },
+      {
+        "key": "c",
+        "text": "Writing a network protocol"
+      },
+      {
+        "key": "d",
+        "text": "Designing a website"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It checks security, compliance and operational efficiency.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of network audit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Security audit"
+      },
+      {
+        "key": "b",
+        "text": "Compliance audit"
+      },
+      {
+        "key": "c",
+        "text": "Performance audit"
+      },
+      {
+        "key": "d",
+        "text": "Marketing audit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Security, compliance, performance and operational audits are described.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase of the audit lifecycle defines the scope, objectives and resources?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Planning"
+      },
+      {
+        "key": "b",
+        "text": "Execution"
+      },
+      {
+        "key": "c",
+        "text": "Reporting"
+      },
+      {
+        "key": "d",
+        "text": "Remediation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Planning is first; then execution, reporting, remediation and follow-up.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tool is widely used for packet analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Wireshark"
+      },
+      {
+        "key": "b",
+        "text": "Nessus"
+      },
+      {
+        "key": "c",
+        "text": "Zabbix"
+      },
+      {
+        "key": "d",
+        "text": "Netwrix Auditor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Wireshark analyses packets; Nmap does discovery; Nessus and OpenVAS assess vulnerabilities.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Compliance mapping checks that the network meets standards such as ISO 27001, GDPR, HIPAA or PCI-DSS.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is one of the key audit components.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a key component of a network audit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Asset inventory"
+      },
+      {
+        "key": "b",
+        "text": "Configuration review"
+      },
+      {
+        "key": "c",
+        "text": "Traffic analysis"
+      },
+      {
+        "key": "d",
+        "text": "Logo design"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The components include inventory, configuration, traffic, access, logs, vulnerabilities, compliance and reporting.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A sudden increase in outbound traffic from a single device may signal",
+    "options": [
+      {
+        "key": "a",
+        "text": "A compromised system"
+      },
+      {
+        "key": "b",
+        "text": "A healthy backup"
+      },
+      {
+        "key": "c",
+        "text": "A firewall upgrade"
+      },
+      {
+        "key": "d",
+        "text": "Normal login activity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The lecture gives this as an example of traffic anomaly detection.",
+    "source": "Computer Security(Dr Abiola).docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Integrating log monitoring with a SIEM enables real-time alerts and automated responses.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "SIEM tools make log monitoring more powerful.",
+    "source": "Computer Security(Dr Abiola).docx"
+  }
+]

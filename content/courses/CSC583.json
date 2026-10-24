@@ -1,0 +1,78 @@
+{
+  "code": "CSC 583",
+  "title": "Computer and Information Security",
+  "description": "Threats and attackers, passwords, the CIA triad, access control and authentication, non-repudiation, encryption and hashing, email, IPsec, web, database and distributed-system security, and network auditing.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "threats-passwords-and-the-cia-triad",
+      "title": "Threats, Passwords and the CIA Triad",
+      "summary": "Threats to computer systems fall into malware, security breaches, denial of service, web attacks, session hijacking and DNS poisoning, carried out by hackers whose 'hats' differ in intent. Passwords, the CIA goals of confidentiality, integrity and availability, and the balance of prevention and detection are the base of any defence.",
+      "subtopics": [
+        "Assessing the real level of threat",
+        "Six classes of attack: malware, breaches, DoS, web attacks, session hijacking, DNS poisoning",
+        "Hackers (white, black, grey hat), script kiddies and sneakers",
+        "Security devices and activities: firewall, proxy, IDS, authentication, auditing",
+        "Passwords: choosing, storing, verifying over a network, cracking",
+        "Confidentiality, integrity and availability; prevention and detection"
+      ],
+      "lectures": [1, 2, 6]
+    },
+    {
+      "slug": "access-control-and-authentication",
+      "title": "Access Control and Authentication",
+      "summary": "Access control decides what an authenticated subject may do to an object, through authorization, identification and authentication, access approval and accountability. The main models are discretionary, mandatory and role-based access control, and non-repudiation ties actions to a unique individual.",
+      "subtopics": [
+        "Subjects and objects; capability-based and ACL-based models",
+        "Authorization, I&A, access approval and accountability",
+        "Read, write and execute permissions",
+        "DAC, MAC (sensitivity labels, rule- and lattice-based) and RBAC",
+        "Types and factors of authentication",
+        "Non-repudiation, digital signatures and trusted third parties"
+      ],
+      "lectures": [3, 7, 8]
+    },
+    {
+      "slug": "encryption-and-hash-functions",
+      "title": "Encryption and Hash Functions",
+      "summary": "Encryption encodes messages so only authorised parties can read them, with symmetric schemes sharing one key and asymmetric (public-key) schemes using a public and a private key. Hash functions map data of any size to a fixed-size value and support hash tables, integrity checks and digital signatures.",
+      "subtopics": [
+        "Uses of encryption; symmetric and public-key encryption",
+        "Stream and block ciphers; AES, 3DES, Blowfish",
+        "Public-key infrastructure, certificate authorities and man-in-the-middle attacks",
+        "Hybrid cryptosystems; key revocation and leaked keys",
+        "Hash functions: uses and properties",
+        "Hash algorithms: perfect, universal, rolling and locality-sensitive hashing"
+      ],
+      "lectures": [4, 5, 9, 10]
+    },
+    {
+      "slug": "email-ip-web-and-database-security",
+      "title": "Email, IP, Web and Database Security",
+      "summary": "Email is protected by signing, body encryption and encrypted server links, but is abused by spoofing, spam worms and email bombs. IPsec secures IP traffic with AH and ESP, web applications face XSS, SQL injection and phishing, and databases and distributed systems need privileges, monitoring and their own security architecture.",
+      "subtopics": [
+        "Email delivery, MIME and message authentication codes",
+        "Malicious email: spoofing, spam and worms, email bombs; tracing the source",
+        "IPsec: AH, ESP, security associations, IKE",
+        "Web attacks: cross-site scripting, SQL injection, phishing; OWASP",
+        "Database security risks, system and object privileges, evaluation",
+        "Distributed systems and the DSSA"
+      ],
+      "lectures": [11, 12, 13, 14, 15]
+    },
+    {
+      "slug": "network-auditing",
+      "title": "Network Auditing",
+      "summary": "Network auditing systematically examines an organisation's network infrastructure, configurations and activity for security, compliance and performance. An audit inventories assets, reviews configurations, analyses traffic, logs and user access, scans for vulnerabilities and maps compliance, following a lifecycle from planning to follow-up.",
+      "subtopics": [
+        "What network auditing is and why it matters",
+        "Types of audit: security, compliance, performance, operational",
+        "Key components of a network audit",
+        "The audit lifecycle",
+        "Tools: Nmap, Wireshark, Nessus, OpenVAS and others",
+        "Log analysis, vulnerability scanning, configuration, traffic and user access auditing"
+      ],
+      "lectures": [16]
+    }
+  ]
+}

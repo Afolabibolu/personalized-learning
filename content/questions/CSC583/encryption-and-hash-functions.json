@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In symmetric-key encryption, the encryption and decryption keys are",
+    "options": [
+      {
+        "key": "a",
+        "text": "The same (a shared secret)"
+      },
+      {
+        "key": "b",
+        "text": "A public and a private key"
+      },
+      {
+        "key": "c",
+        "text": "Never used"
+      },
+      {
+        "key": "d",
+        "text": "Chosen at random for each bit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Symmetric schemes share one key; asymmetric schemes use a key pair.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Four 4.1.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In public-key encryption, which key decrypts a message encrypted for Bob?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bob's private key"
+      },
+      {
+        "key": "b",
+        "text": "Bob's public key"
+      },
+      {
+        "key": "c",
+        "text": "Alice's public key"
+      },
+      {
+        "key": "d",
+        "text": "Any public key"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The public key encrypts; only the matching private key decrypts.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Four 4.5.2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are symmetric algorithms listed in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AES (Rijndael)"
+      },
+      {
+        "key": "b",
+        "text": "Blowfish"
+      },
+      {
+        "key": "c",
+        "text": "3DES"
+      },
+      {
+        "key": "d",
+        "text": "RSA"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "RSA is a public-key algorithm.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Four 4.3; Lesson Five"
+  },
+  {
+    "format": "true_false",
+    "stem": "Among symmetric schemes, only the one-time pad can be proven secure against any adversary.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Every public-key scheme is open to brute-force key search.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Five 5.4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why are public-key systems usually used in hybrid cryptosystems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Public-key algorithms are computationally costly, so they encrypt only a short session key"
+      },
+      {
+        "key": "b",
+        "text": "They cannot encrypt text"
+      },
+      {
+        "key": "c",
+        "text": "They need no keys"
+      },
+      {
+        "key": "d",
+        "text": "They are faster than symmetric ciphers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The session key is then used with a fast symmetric cipher.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Five 5.5.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which property means a cryptographic hash's input cannot feasibly be reconstructed from the hash?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Non-invertibility"
+      },
+      {
+        "key": "b",
+        "text": "Uniformity"
+      },
+      {
+        "key": "c",
+        "text": "Continuity"
+      },
+      {
+        "key": "d",
+        "text": "Variable range"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cryptographic hashes are one-way functions.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Nine 9.3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a use of hash functions listed in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hash tables"
+      },
+      {
+        "key": "b",
+        "text": "Bloom filters"
+      },
+      {
+        "key": "c",
+        "text": "Finding duplicate records"
+      },
+      {
+        "key": "d",
+        "text": "Increasing network bandwidth"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are listed uses of hashing.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Nine 9.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Locality-sensitive hashing aims to make similar items collide in the same bucket.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Unlike cryptographic hashing, LSH maximises collisions of similar items.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Ten 10.1.12"
+  }
+]
