@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which criterion requires every instruction of an algorithm to be clear and unambiguous?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Definiteness"
+      },
+      {
+        "key": "b",
+        "text": "Finiteness"
+      },
+      {
+        "key": "c",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "d",
+        "text": "Output"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Definiteness means each instruction is clear and unambiguous; finiteness means it terminates.",
+    "source": "CSC 551 Study Session 1, 1.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are components of the space a program needs to run?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Instruction space"
+      },
+      {
+        "key": "b",
+        "text": "Data space"
+      },
+      {
+        "key": "c",
+        "text": "Environment stack space"
+      },
+      {
+        "key": "d",
+        "text": "Network bandwidth"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Space complexity is made of instruction space, data space and environment stack space.",
+    "source": "CSC 551 Study Session 1, 1.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "If an algorithm is O(n), it is also an O(n²) algorithm.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Big-O is an upper bound only, so anything that is O(n) is also O(n²).",
+    "source": "CSC 551 Study Session 1, 1.9.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using the master method, what is the solution of T(n) = 4T(n/4) + 5n?",
+    "options": [
+      {
+        "key": "a",
+        "text": "θ(n log n)"
+      },
+      {
+        "key": "b",
+        "text": "θ(n)"
+      },
+      {
+        "key": "c",
+        "text": "θ(n^1.16)"
+      },
+      {
+        "key": "d",
+        "text": "θ(n²)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "log₄4 = 1 equals the power of n in f(n), so it is case 2: θ(n log n).",
+    "source": "CSC 551 Study Session 1, 1.10.3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a method for solving recurrences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Substitution method"
+      },
+      {
+        "key": "b",
+        "text": "Recurrence tree method"
+      },
+      {
+        "key": "c",
+        "text": "Master method"
+      },
+      {
+        "key": "d",
+        "text": "Potential method"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The potential method is a technique of amortized analysis; the other three solve recurrences.",
+    "source": "CSC 551 Study Session 1, 1.10; Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When n doubles, by how much does the running time of a quadratic (n²) algorithm grow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It doubles"
+      },
+      {
+        "key": "b",
+        "text": "It increases four-fold"
+      },
+      {
+        "key": "c",
+        "text": "It increases eight-fold"
+      },
+      {
+        "key": "d",
+        "text": "It squares"
+      }
+    ],
+    "correct_answer": [
+      "b"
+    ],
+    "explanation": "For n² running times, doubling n increases the time four-fold; n³ gives eight-fold.",
+    "source": "CSC 551 Study Session 1, 1.4.4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods for performing amortized analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aggregate method"
+      },
+      {
+        "key": "b",
+        "text": "Accounting method"
+      },
+      {
+        "key": "c",
+        "text": "Potential method"
+      },
+      {
+        "key": "d",
+        "text": "Iteration method"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Amortized analysis uses the aggregate, accounting and potential methods.",
+    "source": "CSC 551 Study Session 7, 7.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Amortized analysis relies on probability to estimate the average cost of an operation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Amortized analysis doesn't involve probability; that is randomized analysis.",
+    "source": "CSC 551 Study Session 7, 7.2"
+  }
+]

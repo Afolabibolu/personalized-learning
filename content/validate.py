@@ -1,6 +1,6 @@
 """Checks every course and question file against the schema in CLAUDE.md.
 
-    python content/validate.py
+    python content/validate.py [--course "CSC 551"]
 
 Prints errors, then question counts per topic and per format. Exits non-zero
 on any error.
@@ -9,7 +9,10 @@ Course file, content/courses/<code>.json (code without spaces, e.g. CSC531.json)
     {"code": "CSC 531", "title": "...", "description": "...",
      "topics": [{"slug": "...", "title": "...", "summary": "two sentences",
                  "subtopics": ["..."], "lectures": [1, 2]}]}
-Topics are listed in teaching order.
+Topics are listed in teaching order. A sample course built by the ingestion
+pipeline (Phase 9) adds "is_reviewed": false; it then has 4 to 6 topics, 8
+practice questions per topic in at least three formats, and needs no lecture
+links (it has none unless one is added to content/sources/links.csv).
 
 Study note, content/notes/<code>/<topic-slug>.md: 300 to 500 words, last line
 "Source: Lecture N" or "Source: <file name>".
@@ -37,6 +40,12 @@ FORMATS = ("single_choice", "true_false", "multi_select", "odd_one_out")
 LINK_TYPES = ("lecture", "past_questions", "video")
 NOTE_WORDS = (300, 500)
 QUESTIONS_PER_TOPIC = 10
+SAMPLE_QUESTIONS_PER_TOPIC = 8
+SAMPLE_MIN_FORMATS = 3
+
+
+def is_sample(course: dict) -> bool:
+    return course.get("is_reviewed", True) is False
 
 
 def load_courses(errors: list[str]) -> list[dict]:
@@ -60,8 +69,11 @@ def check_course(course: dict, errors: list[str]) -> None:
     if course.get("code", "").replace(" ", "") != name:
         errors.append(f"{name}: file name should be the code without spaces ({course.get('code')!r})")
     topics = course.get("topics", [])
-    if not 5 <= len(topics) <= 6:
-        errors.append(f"{name}: has {len(topics)} topics, expected 5 or 6")
+    low = 4 if is_sample(course) else 5
+    if not low <= len(topics) <= 6:
+        errors.append(f"{name}: has {len(topics)} topics, expected {low} to 6")
+    if "is_reviewed" in course and not isinstance(course["is_reviewed"], bool):
+        errors.append(f"{name}: is_reviewed must be true or false")
     slugs = [t.get("slug") for t in topics]
     for slug, n in Counter(slugs).items():
         if n > 1:
@@ -79,7 +91,7 @@ def check_course(course: dict, errors: list[str]) -> None:
         if "resources" in topic:
             errors.append(f"{where}: resources belong in content/resources/, not the course file")
         check_note(name, topic.get("slug"), where, errors)
-    check_links(name, slugs, errors)
+    check_links(name, slugs, errors, lecture_required=not is_sample(course))
     check_past_questions(name, set(slugs), errors)
 
 
@@ -97,8 +109,10 @@ def check_note(course_file: str, slug: str, where: str, errors: list[str]) -> No
         errors.append(f"{where}: study note must end with a 'Source: ...' line")
 
 
-def check_links(course_file: str, slugs: list[str], errors: list[str]) -> None:
+def check_links(course_file: str, slugs: list[str], errors: list[str], lecture_required: bool = True) -> None:
     path = CONTENT / "resources" / f"{course_file}.json"
+    if not path.exists() and not lecture_required:
+        return  # a sample course with no links in links.csv yet
     if not path.exists():
         errors.append(f"{course_file}: missing {path.relative_to(CONTENT)} (run content/apply_links.py)")
         return
@@ -106,7 +120,7 @@ def check_links(course_file: str, slugs: list[str], errors: list[str]) -> None:
     for slug in slugs:
         where = f"{course_file}/{slug}"
         links = topics.get(slug, [])
-        if not any(link.get("type") == "lecture" for link in links):
+        if lecture_required and not any(link.get("type") == "lecture" for link in links):
             errors.append(f"{where}: no lecture link (add it to content/sources/links.csv)")
         for link in links:
             url = str(link.get("url", ""))
@@ -197,10 +211,16 @@ def check_question(q: dict, where: str, errors: list[str]) -> None:
 
 
 def main() -> int:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--course", help='only this course, e.g. "CSC 551"')
+    args = parser.parse_args()
     errors: list[str] = []
     courses = load_courses(errors)
+    if args.course:
+        courses = [c for c in courses if c.get("code") == args.course]
     if not courses:
-        errors.append("no course files in content/courses/")
+        errors.append(f"no course files in content/courses/{' for ' + args.course if args.course else ''}")
 
     per_topic: dict[str, Counter] = {}
     for course in courses:
@@ -232,10 +252,12 @@ def main() -> int:
                 stems[stem] = where
 
             total = sum(counts.values())
-            if total != QUESTIONS_PER_TOPIC:
-                errors.append(f"{label}: has {total} questions, expected {QUESTIONS_PER_TOPIC}")
-            if len(counts) < 2:
-                errors.append(f"{label}: uses fewer than two formats")
+            expected, min_formats = ((SAMPLE_QUESTIONS_PER_TOPIC, SAMPLE_MIN_FORMATS) if is_sample(course)
+                                     else (QUESTIONS_PER_TOPIC, 2))
+            if total != expected:
+                errors.append(f"{label}: has {total} questions, expected {expected}")
+            if len(counts) < min_formats:
+                errors.append(f"{label}: uses fewer than {min_formats} formats")
             for fmt, n in counts.items():
                 if n > total / 2:
                     errors.append(f"{label}: {fmt} is {n} of {total}, more than half")

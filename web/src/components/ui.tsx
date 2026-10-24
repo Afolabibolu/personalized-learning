@@ -116,3 +116,12 @@ export function ScoreBar({ score }: { score: number }) {
     </div>
   )
 }
+
+/** Label for courses added by the ingestion pipeline (courses.is_reviewed = false). */
+export function SampleBadge() {
+  return (
+    <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-semibold whitespace-nowrap text-amber-700 ring-1 ring-amber-200">
+      Sample content, pending lecturer review
+    </span>
+  )
+}

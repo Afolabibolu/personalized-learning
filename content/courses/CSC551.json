@@ -1,0 +1,77 @@
+{
+  "code": "CSC 551",
+  "title": "Design and Analysis of Algorithms",
+  "description": "Asymptotic notation and recurrences, the main design techniques (divide and conquer, dynamic programming, greedy, randomized), amortized analysis, graph algorithms, spanning trees and NP-completeness.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "algorithm-fundamentals-and-analysis",
+      "title": "Algorithm Fundamentals and Analysis",
+      "summary": "An algorithm is a finite sequence of clear instructions that always terminates, and its performance is measured by time and space complexity. Asymptotic notation, recurrences and amortized analysis describe how cost grows with input size and over a sequence of operations.",
+      "subtopics": [
+        "Definition and criteria of an algorithm: input, output, definiteness, finiteness, effectiveness",
+        "Time and space complexity; goals of algorithm design",
+        "Classification by implementation, design method and design approach",
+        "Rate of growth: Big-O, Big-Theta, little-o, little-omega",
+        "Recurrences: substitution, recurrence tree, master and iteration methods",
+        "Amortized analysis: aggregate, accounting and potential methods"
+      ],
+      "lectures": [1, 7]
+    },
+    {
+      "slug": "divide-and-conquer",
+      "title": "Divide and Conquer",
+      "summary": "Divide and conquer solves a problem by dividing it into sub-problems, solving them recursively and combining their answers. Merge sort and the closest pair of points problem are the worked examples, both running in O(n log n) time.",
+      "subtopics": [
+        "Divide, conquer and combine",
+        "Standard algorithms: quicksort, merge sort, closest pair, Strassen, Cooley–Tukey FFT, Karatsuba",
+        "How merge sort works and its recurrence T(n) = 2T(n/2) + θ(n)",
+        "Applications, advantages and drawbacks of merge sort",
+        "Closest pair of points by divide and conquer"
+      ],
+      "lectures": [2]
+    },
+    {
+      "slug": "dynamic-programming-and-memoization",
+      "title": "Dynamic Programming and Memoization",
+      "summary": "Dynamic programming breaks a problem into overlapping sub-problems and stores their results so they are never recomputed, turning exponential recursion into polynomial time. Memoization (top-down) and tabulation (bottom-up) are the two ways to store those results.",
+      "subtopics": [
+        "Meaning and characteristics of dynamic programming (Bellman, 1950s)",
+        "Recursion versus dynamic programming; drawbacks of recursion",
+        "Overlapping subproblems and optimal substructure",
+        "Top-down and bottom-up approaches",
+        "Longest common subsequence, Floyd–Warshall and Bellman–Ford",
+        "Memoization: 1-D, 2-D and 3-D; memoization versus tabulation"
+      ],
+      "lectures": [3, 6]
+    },
+    {
+      "slug": "greedy-and-randomized-algorithms",
+      "title": "Greedy and Randomized Algorithms",
+      "summary": "A greedy algorithm takes the best option available at each step and never reverses a choice, so it is simple but not always optimal. A randomized algorithm adds random bits to its logic, as in randomized quicksort (Las Vegas) and Karger's minimum cut (Monte Carlo).",
+      "subtopics": [
+        "Greedy choice property and optimal substructure",
+        "Advantages and drawbacks of the greedy approach",
+        "The greedy algorithm steps; coin change and activity selection",
+        "Types of greedy algorithm",
+        "Randomized algorithms: Las Vegas and Monte Carlo; amplification",
+        "Zero-sum games, randomized quicksort and Karger's minimum cut"
+      ],
+      "lectures": [4, 5]
+    },
+    {
+      "slug": "graphs-spanning-trees-and-np-completeness",
+      "title": "Graphs, Spanning Trees and NP-Completeness",
+      "summary": "Graphs model related objects as vertices and edges, are stored as adjacency matrices or lists, and are traversed with breadth-first or depth-first search in O(V + E) time. Minimum spanning trees are found greedily with Kruskal's or Prim's algorithm, while NP-complete problems have no known efficient algorithm.",
+      "subtopics": [
+        "Graph terminology and types of graph",
+        "Adjacency matrix and adjacency list",
+        "Breadth-first search and depth-first search",
+        "Spanning trees and minimum spanning trees",
+        "Kruskal's algorithm, union-find and Prim's algorithm",
+        "NP, NP-hard and NP-complete; solving NP-complete problems"
+      ],
+      "lectures": [8, 9, 10]
+    }
+  ]
+}

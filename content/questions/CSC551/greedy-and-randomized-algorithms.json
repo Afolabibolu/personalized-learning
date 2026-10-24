@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does a greedy algorithm do at each step?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chooses the best option available at that moment and never reverses it"
+      },
+      {
+        "key": "b",
+        "text": "Stores the results of sub-problems in a table"
+      },
+      {
+        "key": "c",
+        "text": "Explores every option and backtracks on failure"
+      },
+      {
+        "key": "d",
+        "text": "Picks a random choice to avoid the worst case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A greedy algorithm takes the local best choice and never reverses earlier decisions.",
+    "source": "CSC 551 Study Session 4, 4.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A greedy algorithm always produces the optimal solution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "In the longest-path example greedy finds 24 while the best path is 32, so greedy is not always optimal.",
+    "source": "CSC 551 Study Session 4, 4.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using N5, N2 and N1 coins greedily to make N18, which coins are chosen?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5, 5, 5, 2, 1"
+      },
+      {
+        "key": "b",
+        "text": "5, 5, 5, 1, 1, 1"
+      },
+      {
+        "key": "c",
+        "text": "5, 5, 2, 2, 2, 2"
+      },
+      {
+        "key": "d",
+        "text": "2 × 9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Take the largest coin that fits each time: three 5s make 15, then 2 makes 17, then 1 makes 18.",
+    "source": "CSC 551 Study Session 4, 4.4, Example 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are listed in the course as types of greedy algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kruskal's minimal spanning tree algorithm"
+      },
+      {
+        "key": "b",
+        "text": "Huffman coding"
+      },
+      {
+        "key": "c",
+        "text": "Prim's minimal spanning tree algorithm"
+      },
+      {
+        "key": "d",
+        "text": "Merge sort"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Kruskal, Prim and Huffman coding are greedy; merge sort is divide and conquer.",
+    "source": "CSC 551 Study Session 4, 4.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of randomized algorithm never gives an incorrect output, making the running time the random variable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Las Vegas"
+      },
+      {
+        "key": "b",
+        "text": "Monte Carlo"
+      },
+      {
+        "key": "c",
+        "text": "Deterministic"
+      },
+      {
+        "key": "d",
+        "text": "Greedy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Las Vegas algorithms are always correct but their time varies; Monte Carlo algorithms finish on time but may err.",
+    "source": "CSC 551 Study Session 5, 5.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Karger's minimum cut algorithm is an example of which approach?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Monte Carlo"
+      },
+      {
+        "key": "b",
+        "text": "Las Vegas"
+      },
+      {
+        "key": "c",
+        "text": "Dynamic programming"
+      },
+      {
+        "key": "d",
+        "text": "Divide and conquer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Karger's algorithm uses the Monte Carlo approach and is repeated to reduce the chance of error.",
+    "source": "CSC 551 Study Session 5, 5.2 and Example 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of a randomized algorithm as described in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Random bits added to the logic"
+      },
+      {
+        "key": "b",
+        "text": "Amplification to reduce erroneous outputs"
+      },
+      {
+        "key": "c",
+        "text": "Randomly chosen pivot"
+      },
+      {
+        "key": "d",
+        "text": "Randomizing the input data itself"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "In randomized algorithms the logic is randomised, not the input.",
+    "source": "CSC 551 Study Session 5, 5.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Randomizing merge sort does not change its time complexity, because merge sort's time does not depend on the input.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Randomization is only applied to algorithms whose complexity depends on the input, such as quicksort.",
+    "source": "CSC 551 Study Session 5, 5.3.2"
+  }
+]

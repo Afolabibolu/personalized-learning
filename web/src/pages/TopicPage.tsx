@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getTopic } from '../api/courses'
 import { ResourceList } from '../components/ResourceList'
-import { ButtonLink, Card, ErrorMessage, PageHeader, ScoreBadge, Spinner } from '../components/ui'
+import { ButtonLink, Card, ErrorMessage, PageHeader, SampleBadge, ScoreBadge, Spinner } from '../components/ui'
 
 export function TopicPage() {
   const { topicId = '' } = useParams()
@@ -27,6 +27,12 @@ export function TopicPage() {
           'No quiz attempts on this topic yet.'
         )}
       </PageHeader>
+
+      {!data.course.is_reviewed && (
+        <p className="-mt-3 mb-4">
+          <SampleBadge />
+        </p>
+      )}
 
       {data.summary && <p className="-mt-2 mb-6 max-w-2xl text-sm leading-relaxed text-slate-700">{data.summary}</p>}
 

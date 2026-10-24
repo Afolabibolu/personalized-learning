@@ -1,0 +1,10 @@
+{
+  "code": "CSC 551",
+  "topics": {
+    "algorithm-fundamentals-and-analysis": [],
+    "divide-and-conquer": [],
+    "dynamic-programming-and-memoization": [],
+    "greedy-and-randomized-algorithms": [],
+    "graphs-spanning-trees-and-np-completeness": []
+  }
+}

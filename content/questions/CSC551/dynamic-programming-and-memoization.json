@@ -1,0 +1,205 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who came up with the idea of dynamic programming in the 1950s?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Richard Bellman"
+      },
+      {
+        "key": "b",
+        "text": "Edsger Dijkstra"
+      },
+      {
+        "key": "c",
+        "text": "Joseph Kruskal"
+      },
+      {
+        "key": "d",
+        "text": "Alan Turing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The course credits Richard Bellman with dynamic programming in the 1950s.",
+    "source": "CSC 551 Study Session 3, 3.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which two properties show that a problem can be solved with dynamic programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Overlapping subproblems"
+      },
+      {
+        "key": "b",
+        "text": "Optimal substructure"
+      },
+      {
+        "key": "c",
+        "text": "Greedy choice property"
+      },
+      {
+        "key": "d",
+        "text": "Random pivot selection"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "The two signs of DP suitability are overlapping subproblems and optimal substructure.",
+    "source": "CSC 551 Study Session 3, 3.7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Binary search is a dynamic programming problem because it has overlapping subproblems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Binary search has no overlapping subproblems; each sub-problem searches a unique part of the array, so it is divide and conquer.",
+    "source": "CSC 551 Study Session 3, 3.7.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which technique speeds up programs by storing the results of function calls so the same input is not processed again?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Memoization"
+      },
+      {
+        "key": "b",
+        "text": "Amortization"
+      },
+      {
+        "key": "c",
+        "text": "Backtracking"
+      },
+      {
+        "key": "d",
+        "text": "Branch and bound"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Memoization caches the results of earlier calls and returns them for repeated inputs.",
+    "source": "CSC 551 Study Session 6, 6.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the time complexity of the Floyd–Warshall algorithm on n nodes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n³)"
+      },
+      {
+        "key": "b",
+        "text": "O(n²)"
+      },
+      {
+        "key": "c",
+        "text": "O(n log n)"
+      },
+      {
+        "key": "d",
+        "text": "O(2ⁿ)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Floyd–Warshall has three nested loops, giving O(n³).",
+    "source": "CSC 551 Study Session 3, 3.9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a dynamic programming algorithm or problem in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Longest common subsequence"
+      },
+      {
+        "key": "b",
+        "text": "Floyd–Warshall"
+      },
+      {
+        "key": "c",
+        "text": "Bellman–Ford"
+      },
+      {
+        "key": "d",
+        "text": "Merge sort"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Merge sort combines sub-problems that do not overlap, so it is not a DP problem.",
+    "source": "CSC 551 Study Session 3, 3.3 and 3.9"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the memoized (top-down) version, the look-up table is filled on demand, so not every entry is necessarily filled.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Tabulation fills every entry from the first; memoization fills the table only for sub-problems actually needed.",
+    "source": "CSC 551 Study Session 6, 6.7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the bottom-up (tabulation) approach are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It removes recursion"
+      },
+      {
+        "key": "b",
+        "text": "There is no stack overflow"
+      },
+      {
+        "key": "c",
+        "text": "It is usually faster than memoization"
+      },
+      {
+        "key": "d",
+        "text": "It fills the table only on demand"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Bottom-up removes recursion and its overhead and is faster; filling on demand describes memoization.",
+    "source": "CSC 551 Study Session 3, 3.6; CSC 551 Study Session 6, 6.7"
+  }
+]
