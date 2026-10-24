@@ -1,0 +1,78 @@
+{
+  "code": "CSC 554",
+  "title": "Semantics of Programming Languages",
+  "description": "Formal semantics of programs: abstract machines (SECD and the λ-calculus), operational, denotational and axiomatic semantics, Hoare logic, basic program analysis and program transformation.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "semantics-and-abstract-machines",
+      "title": "Semantics and Abstract Machines",
+      "summary": "Formal semantics rigorously specifies what programs mean, revealing ambiguities in language manuals and giving a basis for implementation and proofs of correctness. Abstract machines such as Landin's SECD machine, with its Stack, Environment, Control and Dump, give step-by-step meaning to languages like the λ-calculus.",
+      "subtopics": [
+        "Why formal semantics; syntax versus semantics",
+        "Abstract machines: memory and interpreter; the SMC machine",
+        "Types of abstract machine: WAM, SECD, RAM, LAM, CHAM and others",
+        "The SECD machine: Stack, Environment, Control and Dump",
+        "λ-calculus expressions: names, functions and applications",
+        "SECD initial and final states"
+      ],
+      "lectures": [1, 2]
+    },
+    {
+      "slug": "operational-and-denotational-semantics",
+      "title": "Operational and Denotational Semantics",
+      "summary": "Operational semantics gives a construct's meaning as the computation it induces on a machine, while denotational semantics maps each piece of syntax to a mathematical object that represents only its effect. A denotational definition has syntactic categories, BNF, semantic domains, semantic functions and semantic equations, and it is compositional.",
+      "subtopics": [
+        "Three ways to describe meaning: operational, denotational, axiomatic",
+        "Operational semantics: structural (small-step) and big-step (natural)",
+        "Denotational semantics: meaning maps syntax to semantics",
+        "The five parts of a denotational definition",
+        "Semantic domains (Boolean, Integer, Store) and semantic functions",
+        "Compositionality, direct style and fixed-point semantics"
+      ],
+      "lectures": [3, 4]
+    },
+    {
+      "slug": "axiomatic-semantics-and-hoare-logic",
+      "title": "Axiomatic Semantics and Hoare Logic",
+      "summary": "Axiomatic program verification proves with mathematics that a program meets its specification, using preconditions, postconditions, invariants and proof obligations. Tony Hoare's 1969 logic expresses this as triples {P} S {Q}, proved with the assignment, sequence and conditional rules.",
+      "subtopics": [
+        "Why testing alone cannot show the absence of bugs",
+        "Formal specifications, assertions and proof obligations",
+        "Hoare triples {P} S {Q} and checking validity",
+        "Assignment, sequence and conditional rules",
+        "Partial and total correctness",
+        "Dynamic logic and separation logic"
+      ],
+      "lectures": [5]
+    },
+    {
+      "slug": "basic-program-analysis",
+      "title": "Basic Program Analysis",
+      "summary": "Program analysis systematically examines programs to understand their behaviour, correctness and performance, statically without running them or dynamically while they run. Static analysis covers syntax, type, control flow and data flow analysis; dynamic analysis covers testing, profiling and program slicing.",
+      "subtopics": [
+        "What program analysis is and why it matters",
+        "Static analysis: linting, type checking, complexity metrics",
+        "Control flow analysis and control flow graphs",
+        "Data flow analysis: def-use, reaching definitions, live variables",
+        "Dynamic analysis: dynamic testing, program slicing, profiling",
+        "Tools: LLVM, GCC, SonarQube, Clang Static Analyzer, FindBugs, Valgrind"
+      ],
+      "lectures": [8]
+    },
+    {
+      "slug": "program-transformation",
+      "title": "Program Transformation",
+      "summary": "A program transformation takes a program and produces another while preserving its intended behaviour, for refactoring, optimization, translation, specialisation or obfuscation. Common techniques include AST manipulation, term rewriting, loop unrolling, constant folding, inlining and data structure transformation.",
+      "subtopics": [
+        "Kinds of transformation and why they matter",
+        "History: Burstall and Darlington's unfold/fold, refactoring",
+        "Techniques: AST manipulation, term rewriting, pattern matching, slicing, symbolic execution",
+        "Source-to-source transformation (transpilation)",
+        "Refactoring versus optimization; loop unrolling, constant folding, inlining",
+        "High-level versus low-level transformation; challenges"
+      ],
+      "lectures": [9]
+    }
+  ]
+}

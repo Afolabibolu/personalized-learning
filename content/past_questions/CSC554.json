@@ -1,0 +1,25 @@
+{
+  "code": "CSC 554",
+  "papers": [
+    {"year": "2024/2025", "paper": "1st Semester 2024/2025 Exam (CSC 554: Semantics of Programming Languages)", "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, pages 5–6"},
+    {"year": "2024/2025 test", "paper": "CSC 554: Semantics of Programming Languages Test (1 hour)", "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, page 1"}
+  ],
+  "questions": [
+    {"year": "2024/2025", "number": "1", "marks": 30, "topic": "semantics-and-abstract-machines",
+     "text": "a) i. Briefly describe the structure of a RAM machine. (3 marks)\nii. Write a simple RAM program to simulate the computation of y := x + 3, assuming x = 2. (6 marks)\nb) i. Define the denotational meaning of x := 2; y := x + 3. (2 marks)\nii. For b(i) above, use mathematical functions to evaluate the new state step-by-step. (5 marks)\nc) Evaluate the function expression:\n(λa. a * 2)(5)\ni. Show the initial configuration (2 marks)\nii. Show 2–3 key transition steps, especially when the Dump is not empty. (3 marks)\niii. Final value on the stack? (2 mark)\nd) i. Write a Hoare triple to verify:\n{ x = 2 } y := x + 3 { y = 5 }\n(3 marks)\nii. Use an appropriate inference rule to prove the triple is valid. (4 marks)"},
+    {"year": "2024/2025", "number": "2", "marks": 15, "topic": "operational-and-denotational-semantics",
+     "text": "Consider the snippet:\nx := 1; y := x + 2\na. Using small-step operational semantics, describe the state transitions from the initial state. (6 marks)\nb. Use big-step (natural) semantics to describe the outcome in one derivation. (5 marks)\nc. Briefly explain the difference between small-step and big-step semantics using layman-friendly terms. (4 marks)"},
+    {"year": "2024/2025", "number": "3", "marks": 15, "topic": "semantics-and-abstract-machines",
+     "text": "Simulate the machine evaluation of the expression:\n((λx. x + 1) 5)\na) List the initial configuration of the SECD machine. (3 marks)\nb) Show each step of the transition until the expression is fully evaluated. (8 marks)\nc) Indicate when the Dump becomes non-empty and when it is cleared. (2 marks)\nd) What value is left on the stack, and what does it represent? (2 marks)"},
+    {"year": "2024/2025", "number": "4", "marks": 15, "topic": "axiomatic-semantics-and-hoare-logic",
+     "text": "Consider the following sequence:\nx := 2; y := x + 3\na. Write individual Hoare triples for each assignment. (4 marks)\nb. Use the composition rule (inference rule) to prove the correctness of:\n{x = 2} x := 2; y := x + 3 {y = 5}\n(8 marks)\nc. What does it mean for a Hoare triple to be valid? (3 marks)"},
+    {"year": "2024/2025", "number": "5", "marks": 15, "topic": "axiomatic-semantics-and-hoare-logic",
+     "text": "Consider the loop:\nAnalyze the triple:\n{true} while true do skip {false}\na) Is it partially correct? Explain. (5 marks)\nb) Is it totally correct? Justify your answer. (5 marks)\nc) Using a real-life analogy, explain the difference between partial and total correctness. (5 marks)"},
+    {"year": "2024/2025 test", "number": "1", "topic": "operational-and-denotational-semantics",
+     "text": "a. Define the denotational meaning of x := 7; y := x + 9.\nb. For (a) above, use mathematical functions to evaluate the new state step-by-step."},
+    {"year": "2024/2025 test", "number": "2", "topic": "semantics-and-abstract-machines",
+     "text": "Evaluate the function expression:\n(λa. a * 3)(8)\ni. Show the initial configuration\nii. Show 2–3 key transition steps, especially when the Dump is not empty.\niii. Final value on the stack?"},
+    {"year": "2024/2025 test", "number": "3", "topic": "axiomatic-semantics-and-hoare-logic",
+     "text": "i. Write a Hoare triple to verify:\n{ i = 2 } j := i + 3 { j = 5 }\nii. Use an appropriate inference rule to prove the triple is valid."}
+  ]
+}

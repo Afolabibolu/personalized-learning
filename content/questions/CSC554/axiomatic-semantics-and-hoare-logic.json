@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does the Hoare triple {P} S {Q} state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "If P is true before S runs, then Q is true after S has run"
+      },
+      {
+        "key": "b",
+        "text": "S runs only if both P and Q are true"
+      },
+      {
+        "key": "c",
+        "text": "P and Q are always equal"
+      },
+      {
+        "key": "d",
+        "text": "S terminates in at most P steps"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P is the precondition and Q the postcondition of command S.",
+    "source": "CSC554 presentation-1.pdf, Overview of Hoare Logic"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which year did Tony Hoare introduce Hoare logic?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1969"
+      },
+      {
+        "key": "b",
+        "text": "1936"
+      },
+      {
+        "key": "c",
+        "text": "1964"
+      },
+      {
+        "key": "d",
+        "text": "1980"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C. A. R. Hoare introduced Hoare logic in 1969.",
+    "source": "CSC554 presentation-1.pdf, Hoare Logic as a Framework"
+  },
+  {
+    "format": "true_false",
+    "stem": "{x ≥ 0} x := x − 1 {x > 0} is a valid Hoare triple.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Substitution gives x > 1, and x = 0 satisfies x ≥ 0 but not x > 1, so the triple is not valid.",
+    "source": "CSC554 presentation-1.pdf, Identifying Valid Hoare Triples"
+  },
+  {
+    "format": "true_false",
+    "stem": "{x > 4} x := x + 3 {x > 5} is a valid Hoare triple.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Substitution gives x + 3 > 5, so x > 2, and x > 4 implies x > 2.",
+    "source": "CSC554 presentation-1.pdf, Identifying Valid Hoare Triples"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which assertions are used in axiomatic program verification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Preconditions"
+      },
+      {
+        "key": "b",
+        "text": "Postconditions"
+      },
+      {
+        "key": "c",
+        "text": "Invariants"
+      },
+      {
+        "key": "d",
+        "text": "Profiles"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Preconditions, postconditions and loop invariants are the common assertions.",
+    "source": "CSC554 presentation-1.pdf, Assertions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To prove {P} if B then S1 else S2 {Q} with the conditional rule, what must be shown?",
+    "options": [
+      {
+        "key": "a",
+        "text": "{B ∧ P} S1 {Q} and {¬B ∧ P} S2 {Q}"
+      },
+      {
+        "key": "b",
+        "text": "{P} S1 {Q} only"
+      },
+      {
+        "key": "c",
+        "text": "{B} S1 {¬B}"
+      },
+      {
+        "key": "d",
+        "text": "{Q} S2 {P}"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both branches must establish the postcondition Q.",
+    "source": "CSC554 presentation-1.pdf, Conditional Axiom"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In dynamic logic, which formula expresses total correctness?",
+    "options": [
+      {
+        "key": "a",
+        "text": "⟨P⟩true ∧ [P]φ"
+      },
+      {
+        "key": "b",
+        "text": "[P]φ"
+      },
+      {
+        "key": "c",
+        "text": "⟨P⟩false"
+      },
+      {
+        "key": "d",
+        "text": "φ → φ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "[P]φ is partial correctness; adding ⟨P⟩true requires termination, giving total correctness.",
+    "source": "CSC554 presentation-1.pdf, Hoare Logic vs Dynamic Logic"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a framework or rule of axiomatic program verification in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sequence axiom"
+      },
+      {
+        "key": "b",
+        "text": "Separation logic"
+      },
+      {
+        "key": "c",
+        "text": "Dynamic logic"
+      },
+      {
+        "key": "d",
+        "text": "Loop unrolling"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Loop unrolling is a program transformation, not a verification framework.",
+    "source": "CSC554 presentation-1.pdf; CSC 554 Group 3 Term Paper.pdf"
+  }
+]

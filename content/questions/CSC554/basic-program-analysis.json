@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is static program analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Analysis of a program performed without executing it"
+      },
+      {
+        "key": "b",
+        "text": "Analysis by running the program with inputs"
+      },
+      {
+        "key": "c",
+        "text": "Measuring execution time while the program runs"
+      },
+      {
+        "key": "d",
+        "text": "Rewriting the program in another language"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Static analysis is compile-time analysis done without executing the code.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 2.1.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of dynamic program analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dynamic testing"
+      },
+      {
+        "key": "b",
+        "text": "Profiling"
+      },
+      {
+        "key": "c",
+        "text": "Program slicing"
+      },
+      {
+        "key": "d",
+        "text": "Linting"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Dynamic testing, profiling and slicing run or trace the program; linting is static.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 2.1.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a control flow graph, what does each node represent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A basic block of statements that execute without branching"
+      },
+      {
+        "key": "b",
+        "text": "A variable definition"
+      },
+      {
+        "key": "c",
+        "text": "A function call only"
+      },
+      {
+        "key": "d",
+        "text": "A test case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Nodes are basic blocks; edges show control flow between them.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Control Flow Analysis"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which analysis traces how data moves through a program by building a def-use graph?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data flow analysis"
+      },
+      {
+        "key": "b",
+        "text": "Control flow analysis"
+      },
+      {
+        "key": "c",
+        "text": "Syntax analysis"
+      },
+      {
+        "key": "d",
+        "text": "Profiling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Data flow analysis links variable definitions to their uses.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Data Flow Analysis"
+  },
+  {
+    "format": "true_false",
+    "stem": "Dividing by zero in divide(10, 0) is detected by dynamic analysis when the code is run.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Running divide(10, 0) raises a division-by-zero error, which dynamic analysis observes at run time.",
+    "source": "Basic Program Analysis .pdf, Dynamic Program Analysis"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What can data flow analysis determine?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reaching definitions"
+      },
+      {
+        "key": "b",
+        "text": "Live variables"
+      },
+      {
+        "key": "c",
+        "text": "Available expressions"
+      },
+      {
+        "key": "d",
+        "text": "The programmer's intent"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Data flow analysis computes reaching definitions, live variables and available expressions.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Data Flow Analysis"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a static analysis tool or technique?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pylint"
+      },
+      {
+        "key": "b",
+        "text": "mypy"
+      },
+      {
+        "key": "c",
+        "text": "Radon"
+      },
+      {
+        "key": "d",
+        "text": "cProfile"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "cProfile profiles a running program (dynamic); Pylint, mypy and Radon analyse code without running it.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Static Analysis Techniques"
+  },
+  {
+    "format": "true_false",
+    "stem": "Interprocedural control flow analysis is simpler for object-oriented languages because of polymorphism.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Polymorphism and dynamic binding make interprocedural analysis more complex.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Control Flow Analysis"
+  }
+]
