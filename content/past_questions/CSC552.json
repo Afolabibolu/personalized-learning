@@ -1,0 +1,27 @@
+{
+  "code": "CSC 552",
+  "papers": [
+    {"year": "2024/2025", "paper": "First Semester Examination (CSC 552: Theory of Computation)", "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, pages 9–10"},
+    {"year": "2023/2024", "paper": "First Semester Examination (CSC 552: Theory of Computation)", "source": "CSC 552(2023_2024).pdf"}
+  ],
+  "questions": [
+    {"year": "2024/2025", "number": "1", "marks": 20, "topic": "turing-machines",
+     "text": "A mathematics teacher presents a riddle to the class: \"I have written down a number that is a palindrome and has either an odd or even number of digits. This number is significant because its structure helps in designing error-detecting algorithms and data validation tools.\"\n\nShe provides four student responses:\nBeatrice believes it must be an even palindrome since its digits sum to an even number.\nChidi argues that it can't be a palindrome because it contains repeated digits.\nAlex claims the number is an odd palindrome because it has five digits and reads identically forward and backward.\nDara says the number is both odd and even because it appears symmetrical.\n\nBased on the teacher's riddle and the students' responses,\nIdentify which student is correct (3marks)\nExplain the responses of the students and how the classification of odd and even palindromes applies in computational contexts. (7marks)\nDraw a Turing Machine for the Palindrome (10marks)"},
+    {"year": "2024/2025", "number": "2", "marks": 20, "topic": "turing-machines",
+     "text": "a) With the aid of a diagram explain the order of complexity of Finite State Machine, Push Down Automata and Turing Machine. (3mks)\nb) What are the language that each of the machines accepts? (3mks)\nc) Draw a Turing Machine with input tape alphabets aⁿ, bⁿ for n ≥1, with tape in control. (5mks)\nd) What is blank in Turing machine? (2mks)\ne) Discuss how a Turing Machine can be defined by 7 tuples. (7mks)"},
+    {"year": "2024/2025", "number": "3", "marks": 20, "topic": "turing-machines",
+     "text": "a. Explain the operations on the tape in Turing machine with appropriate diagram. (6mks)\nb. List out all the steps in Rule of Operations 1 and 2 with diagrams and explanation. (14mks)"},
+    {"year": "2024/2025", "number": "4", "marks": 20, "topic": "universal-turing-machine-church-turing-and-godel",
+     "text": "(a) Discuss Turing's Thesis and its arguments for accepting the thesis. (3mks)\n(b) Design a Turing Machine which recognizes the language L = 01*0*1. (6mks)\n(c) What makes a language to be Recursively Enumerable? (3mks)\n(d) Given a Turing Machine, will it halt when run on some particular given input? (3mks)\n(e) List and Explain the outcomes of non-deterministic computation. (5mks)"},
+    {"year": "2024/2025", "number": "5", "marks": 20, "topic": "turing-machines",
+     "text": "(i) Design a Turing Machine that recognize the left end of the tape, use $ sign in your design. (7mks)\n(i) Compare two strings of Turing Machine and decide if the strings in W # W are the same {W # W / W Ɛ {a,b,c}*}. (7mks)\n(ii) Build a Turing Machine to recognize the language L = 0ᴺ1ᴺ and write the algorithm for the machine. (6mks)"},
+    {"year": "2023/2024", "number": "1", "marks": 20, "topic": "turing-machines",
+     "text": "a) (i) Compare and contrast Finite State Machines (FSMs), Pushdown Automata (PDAs), and Turing Machines (TMs). (6marks)\n(ii) Discuss their differences in terms of computational power, memory and applications. (5marks)\nb) Draw a well labelled diagram of Finite State Machine (FSM), Pushdown Automata (PDA), and Turing Machine (TMs) and list the conventional Turing Machine Tape alphabet. Is blank a member of ∑ in TMs? (9marks)"},
+    {"year": "2023/2024", "number": "2", "marks": 20, "topic": "turing-machines",
+     "text": "a. (i) Describe the rule of operations for a Turing Machine (TM). (7marks)\n(ii) Explain how the TM's transition function, read/write head, and infinite tape work together to perform computations. (6marks)\nb. Design a Turing machine which recognizes the Language L= 101ⁿ001ⁿ0 for n greater than1. (7marks)"},
+    {"year": "2023/2024", "number": "3", "marks": 20, "topic": "turing-machines",
+     "text": "a) Design a Palindrome over the alphabet ∑ {a,b} which recognizes the strings L = aⁿbᵐabᵐaⁿ and L= aⁿbᵐbᵐaⁿ for m&n greater than1. (10marks)\nb) Design a Turing Machine which will recognize the left end of the tape with language L₁= aⁿ bᵐ aⁿ, L₂= bⁿ aᵐ bⁿ and the design should handle the language L₁ & L₂ for m,n > 1. (10marks)"},
+    {"year": "2023/2024", "number": "4", "marks": 20, "topic": "turing-machines",
+     "text": "(a) (i) List and discuss the 7-tuple of a Turing Machine. (7marks)\n(ii) Describe the concept of Nondeterministic Turing Machines (NTMs). (2marks)\n(iii) Explain 3 features of NTMs and 3 differences between Deterministic Turing Machines and NTMs. (6marks)\n(b) Draw a computational history for the Nondeterministic Turing Machine given below. (5marks)\n[Diagram in the original paper: a nondeterministic Turing machine with start state Q and states P, R, S, T, U, V and W, with transitions such as a/x,R and a/i,L.]"}
+  ]
+}

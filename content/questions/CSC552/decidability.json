@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is a decision problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A computational problem whose answer is yes or no"
+      },
+      {
+        "key": "b",
+        "text": "A problem with no solution"
+      },
+      {
+        "key": "c",
+        "text": "A problem solved by a greedy choice"
+      },
+      {
+        "key": "d",
+        "text": "A problem about real numbers only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A decision problem needs a yes or no answer, such as 'Is a given number prime?'",
+    "source": "CSC 552 Study Session 4, 4.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these languages are decidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ADFA (does a DFA accept w?)"
+      },
+      {
+        "key": "b",
+        "text": "EDFA (is a DFA's language empty?)"
+      },
+      {
+        "key": "c",
+        "text": "ACFG (does a CFG generate w?)"
+      },
+      {
+        "key": "d",
+        "text": "ATM (does a TM accept w?)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ADFA, EDFA and ACFG are decidable; ATM is undecidable.",
+    "source": "CSC 552 Study Session 4, 4.2–4.4"
+  },
+  {
+    "format": "true_false",
+    "stem": "ATM is Turing-recognisable even though it is undecidable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The universal TM U recognises ATM by simulation but loops whenever M loops, so it is not a decider.",
+    "source": "CSC 552 Study Session 4, 4.4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which technique, discovered by Georg Cantor in 1873, is used to prove that ATM is undecidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diagonalization"
+      },
+      {
+        "key": "b",
+        "text": "Reduction via computation histories"
+      },
+      {
+        "key": "c",
+        "text": "Pumping lemma"
+      },
+      {
+        "key": "d",
+        "text": "Dynamic programming"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cantor's diagonalization method gives the contradiction in the ATM proof.",
+    "source": "CSC 552 Study Session 4, 4.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How is EQDFA (do two DFAs recognise the same language?) shown to be decidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Build a DFA for the symmetric difference and test whether its language is empty"
+      },
+      {
+        "key": "b",
+        "text": "Run both DFAs on every possible string"
+      },
+      {
+        "key": "c",
+        "text": "Convert both DFAs to Turing machines and compare their states"
+      },
+      {
+        "key": "d",
+        "text": "Use diagonalization"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C accepts strings accepted by exactly one of A and B; L(C) is empty iff L(A) = L(B).",
+    "source": "CSC 552 Study Session 4, Theorem 4.5"
+  },
+  {
+    "format": "true_false",
+    "stem": "The set of real numbers is countable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Cantor proved the reals are uncountable; the positive rationals, by contrast, are countable.",
+    "source": "CSC 552 Study Session 4, 4.5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one does not belong with the others?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Recursive language"
+      },
+      {
+        "key": "b",
+        "text": "Decidable language"
+      },
+      {
+        "key": "c",
+        "text": "Language decided by a TM that always halts"
+      },
+      {
+        "key": "d",
+        "text": "Semi-decidable language that is not recursive"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Recursive, decidable and 'decided by an always-halting TM' mean the same thing; semi-decidable but not recursive languages are not decidable.",
+    "source": "CSC 552 Study Session 4, 4.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why does converting a CFG to Chomsky normal form make ACFG decidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Any derivation of a string of length n then has 2n − 1 steps, so only finitely many derivations need checking"
+      },
+      {
+        "key": "b",
+        "text": "It removes all variables from the grammar"
+      },
+      {
+        "key": "c",
+        "text": "It turns the grammar into a DFA"
+      },
+      {
+        "key": "d",
+        "text": "It makes every string accepted"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In Chomsky normal form, derivations of w have exactly 2n − 1 steps, so the search is finite.",
+    "source": "CSC 552 Study Session 4, Theorem 4.6"
+  }
+]

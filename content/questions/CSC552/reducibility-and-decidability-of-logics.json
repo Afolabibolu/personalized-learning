@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If problem A is undecidable and A reduces to problem B, what can we conclude?",
+    "options": [
+      {
+        "key": "a",
+        "text": "B is undecidable"
+      },
+      {
+        "key": "b",
+        "text": "B is decidable"
+      },
+      {
+        "key": "c",
+        "text": "A is decidable"
+      },
+      {
+        "key": "d",
+        "text": "Nothing about B"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A reduction lets a solution to B solve A, so B cannot be decidable when A is not.",
+    "source": "CSC 552 Study Session 5, 5.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which problem asks whether a Turing machine halts on a given input?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HALTTM"
+      },
+      {
+        "key": "b",
+        "text": "ETM"
+      },
+      {
+        "key": "c",
+        "text": "ADFA"
+      },
+      {
+        "key": "d",
+        "text": "EQDFA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "HALTTM is the halting problem; it is proved undecidable by reducing ATM to it.",
+    "source": "CSC 552 Study Session 5, 5.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "For linear bounded automata, the acceptance problem ALBA is decidable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "An LBA has only q·n·gⁿ configurations, so after that many steps without halting it must be looping.",
+    "source": "CSC 552 Study Session 5, Theorem 5.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is a linear bounded automaton?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A Turing machine whose head may not leave the part of the tape holding the input"
+      },
+      {
+        "key": "b",
+        "text": "A finite automaton with a stack"
+      },
+      {
+        "key": "c",
+        "text": "A Turing machine with several tapes"
+      },
+      {
+        "key": "d",
+        "text": "A Turing machine with a printer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An LBA's memory is limited to the input portion of the tape, linear in n.",
+    "source": "CSC 552 Study Session 5, 5.3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these problems are undecidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Post Correspondence Problem"
+      },
+      {
+        "key": "b",
+        "text": "ELBA (is an LBA's language empty?)"
+      },
+      {
+        "key": "c",
+        "text": "HALTTM"
+      },
+      {
+        "key": "d",
+        "text": "ADFA"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "PCP, ELBA and HALTTM are undecidable; ADFA is decidable.",
+    "source": "CSC 552 Study Session 4; CSC 552 Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a non-monotonic logic, adding new information can lead to retracting an earlier conclusion.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "In default logic, Fly(Tweety) is concluded from Bird(Tweety) but retracted on learning ¬Fly(Tweety).",
+    "source": "CSC 552 Study Session 6, 6.2–6.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why is propositional logic decidable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A truth table can evaluate every possible assignment of truth values"
+      },
+      {
+        "key": "b",
+        "text": "It has no connectives"
+      },
+      {
+        "key": "c",
+        "text": "It is non-monotonic"
+      },
+      {
+        "key": "d",
+        "text": "Its formulas cannot be written down"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Truth tables give a systematic procedure that always terminates for propositional formulas.",
+    "source": "CSC 552 Study Session 6, Example 6.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an everyday example of reduction given in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finding your way around a city reduces to getting a map"
+      },
+      {
+        "key": "b",
+        "text": "Travelling from Ibadan to Abuja reduces to buying a plane ticket"
+      },
+      {
+        "key": "c",
+        "text": "Measuring a rectangle's area reduces to measuring its length and width"
+      },
+      {
+        "key": "d",
+        "text": "Sorting a list reduces to choosing a random pivot"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The first three are the course's reduction examples; the last is about randomized quicksort, not reduction.",
+    "source": "CSC 552 Study Session 5, 5.1"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "code": "CSC 552",
+  "topics": {
+    "turing-machines": [],
+    "universal-turing-machine-church-turing-and-godel": [],
+    "decidability": [],
+    "reducibility-and-decidability-of-logics": [],
+    "computational-complexity-and-np-completeness": []
+  }
+}
