@@ -1,0 +1,212 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In distance scoring, which alignment is best?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The one with the smallest score"
+      },
+      {
+        "key": "b",
+        "text": "The one with the largest score"
+      },
+      {
+        "key": "c",
+        "text": "The one with most gaps"
+      },
+      {
+        "key": "d",
+        "text": "The one with a negative score"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Distance scores are non-negative and the best alignment has the smallest score.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In similarity scoring, which alignment is best?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The one with the largest score"
+      },
+      {
+        "key": "b",
+        "text": "The one with the smallest score"
+      },
+      {
+        "key": "c",
+        "text": "The one with a score of zero"
+      },
+      {
+        "key": "d",
+        "text": "The one with no matches"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "More similar means a larger positive score.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "true_false",
+    "stem": "Distance scoring is used to build phylogenetic trees, while similarity scoring is used for database searching.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The lecture links distance scores to phylogenetic trees and similarity scores to database searching.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which dynamic programming algorithm is used for global alignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Needleman–Wunsch"
+      },
+      {
+        "key": "b",
+        "text": "Smith–Waterman"
+      },
+      {
+        "key": "c",
+        "text": "BLAST"
+      },
+      {
+        "key": "d",
+        "text": "FASTA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Needleman–Wunsch (1970) is global; Smith–Waterman (1981) is local.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a dot plot, what does a diagonal stretch of dots show?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A region where the two sequences are similar"
+      },
+      {
+        "key": "b",
+        "text": "A random match"
+      },
+      {
+        "key": "c",
+        "text": "A gap penalty"
+      },
+      {
+        "key": "d",
+        "text": "A deletion in both sequences"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Diagonals mark similar regions; isolated dots off the diagonal are random matches.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods of pairwise sequence alignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Brute force"
+      },
+      {
+        "key": "b",
+        "text": "Dot matrix"
+      },
+      {
+        "key": "c",
+        "text": "Dynamic programming"
+      },
+      {
+        "key": "d",
+        "text": "MeSH indexing"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Brute force, dot matrix, dynamic programming and heuristics align sequences; MeSH indexes literature.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is a heuristic alignment method rather than a rigorous dynamic programming one?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Needleman–Wunsch"
+      },
+      {
+        "key": "b",
+        "text": "Smith–Waterman"
+      },
+      {
+        "key": "c",
+        "text": "BLAST"
+      },
+      {
+        "key": "d",
+        "text": "Optimal global alignment by dynamic programming"
+      }
+    ],
+    "correct_answer": [
+      "c"
+    ],
+    "explanation": "BLAST is a fast heuristic giving approximate alignments.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With s(a,a) = +5, s(a,b) = −3 and gap = −8, which of the course's two alignments of AGCCGTAT and ACGATT is better?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The one scoring −2"
+      },
+      {
+        "key": "b",
+        "text": "The one scoring −15"
+      },
+      {
+        "key": "c",
+        "text": "Both are equal"
+      },
+      {
+        "key": "d",
+        "text": "Neither can be scored"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In similarity scoring the larger score wins: −2 is better than −15.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  }
+]
