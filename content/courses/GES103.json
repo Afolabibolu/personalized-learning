@@ -1,0 +1,78 @@
+{
+  "code": "GES 103",
+  "title": "Government, Society and Economy",
+  "description": "A general studies introduction to the social sciences: the study of politics and the concept of government, forms of government, law, democracy and good governance in Nigeria, economics and development, and ICT in the social sciences.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "politics-and-the-concept-of-government",
+      "title": "The Study of Politics and the Concept of Government",
+      "summary": "Political science is the systematic study of politics, which has no single definition but always involves power, influence and authority. Government is the administrative apparatus of the state, whose four characteristics are a population, a defined territory, a functional government and sovereignty.",
+      "subtopics": [
+        "Definitions of politics: Aristotle, Lasswell, Easton",
+        "History and significance of the study of politics",
+        "Scope of political science and levels of politics",
+        "Power, influence and authority (traditional, charismatic)",
+        "Theories of the origin of the state",
+        "Elements of the modern state"
+      ],
+      "lectures": [1]
+    },
+    {
+      "slug": "organisation-and-classification-of-government",
+      "title": "Organisation and Classification of Government",
+      "summary": "Governments are classified by who rules and in whose interest (Aristotle's six forms), by how power is distributed (unitary, federal, confederal), by the structure of the executive (presidential, parliamentary, dual), and by ideology (capitalism, socialism, communism).",
+      "subtopics": [
+        "Arms of government and separation of powers",
+        "Aristotle's classification: good and perverted forms",
+        "Unitary, federal and confederal government",
+        "Presidential, parliamentary and dual executive systems",
+        "Capitalism, socialism and communism",
+        "Lijphart's typology and other forms of government"
+      ],
+      "lectures": [2]
+    },
+    {
+      "slug": "law-democracy-and-good-governance",
+      "title": "Law, Democracy and Good Governance in Nigeria",
+      "summary": "Law is a body of official rules found in constitutions, legislation and judicial opinions that governs a society and controls behaviour. It keeps public order, enables co-operation, confers legitimacy, upholds rights and duties and communicates standards, and it underpins democracy and good governance.",
+      "subtopics": [
+        "Definitions of law (Black's Law Dictionary, Austin)",
+        "Constitutional sovereignty, security and welfare, and citizens' duties",
+        "Functions of law",
+        "Law and morality",
+        "Substantive and procedural, public and private, civil and criminal law",
+        "Customary law; democracy and good governance"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "economics-and-development",
+      "title": "Economics and Development",
+      "summary": "Economics studies how scarce resources with alternative uses are allocated to satisfy unlimited wants, which forces choice and creates opportunity cost. Economic growth is a rise in productive capacity and national income, while economic development is broader, including the reduction of poverty, inequality and unemployment.",
+      "subtopics": [
+        "Scarcity, choice and opportunity cost",
+        "Production, consumption, distribution and exchange",
+        "The law of demand",
+        "Definitions of economics: Smith, Mill, Marshall, Robbins",
+        "Economics as a science; models",
+        "Economic growth versus economic development"
+      ],
+      "lectures": [7]
+    },
+    {
+      "slug": "ict-and-the-social-sciences",
+      "title": "ICT and the Social Sciences in the 21st Century",
+      "summary": "The social sciences study human relationships as systematically as the natural sciences study nature. ICT, which replaced the term IT in the early 1990s, supports social science teaching and learning through learning about, with and through ICT, information literacy, independent learning and new learning theories.",
+      "subtopics": [
+        "Natural sciences and social sciences",
+        "What ICT is",
+        "Learning about, with and through ICT",
+        "ICT in the social science disciplines",
+        "Basic issues: effectiveness, cost, equity, sustainability",
+        "ICT, information literacy and independent learning"
+      ],
+      "lectures": [14]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How did Austin (1832) define law?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A rule laid down for the guidance of an intelligent being by an intelligent being having power over him"
+      },
+      {
+        "key": "b",
+        "text": "Government by the people"
+      },
+      {
+        "key": "c",
+        "text": "Unwritten traditional rules"
+      },
+      {
+        "key": "d",
+        "text": "A moral guideline without sanctions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Law is the command of the sovereign to the citizens.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are functions of law in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maintaining public order"
+      },
+      {
+        "key": "b",
+        "text": "Conferring legitimacy"
+      },
+      {
+        "key": "c",
+        "text": "Upholding rights and duties"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteeing profits"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Law also facilitates co-operative action and communicates standards.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "According to the 1999 Constitution, sovereignty belongs to the people of Nigeria.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Government derives all its powers and authority from the people through the Constitution.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of law consists of the rules for processing civil and criminal cases through the courts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Procedural law"
+      },
+      {
+        "key": "b",
+        "text": "Substantive law"
+      },
+      {
+        "key": "c",
+        "text": "Customary law"
+      },
+      {
+        "key": "d",
+        "text": "Moral law"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Substantive law defines rights, duties and wrongs; procedural law governs how cases proceed.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which branch of law covers contracts, family relationships and torts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Private law"
+      },
+      {
+        "key": "b",
+        "text": "Public law"
+      },
+      {
+        "key": "c",
+        "text": "Constitutional law"
+      },
+      {
+        "key": "d",
+        "text": "Criminal law"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Private law governs relationships between persons.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "A violation of a moral rule always attracts a legal sanction.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Breaking a law brings sanctions; breaking a moral rule may not.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is a characteristic of customary law?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is written in the Constitution"
+      },
+      {
+        "key": "b",
+        "text": "It is uniform across Nigeria"
+      },
+      {
+        "key": "c",
+        "text": "It is identical in every ethnic group"
+      },
+      {
+        "key": "d",
+        "text": "It is largely unwritten and varies between communities"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Customary law is unwritten, traditional and varies, for example in inheritance.",
+    "source": "GES 103.pdf, Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How does Black's Law Dictionary define democracy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Government by the people, directly or through elected representatives"
+      },
+      {
+        "key": "b",
+        "text": "Rule by one person"
+      },
+      {
+        "key": "c",
+        "text": "Rule by the best"
+      },
+      {
+        "key": "d",
+        "text": "Rule by a mob"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Democracy also needs the rule of law, rights and a free press.",
+    "source": "GES 103.pdf, Chapter 4"
+  }
+]

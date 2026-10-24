@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the central subject matter of economics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Scarcity: unlimited wants and limited resources"
+      },
+      {
+        "key": "b",
+        "text": "Weather patterns"
+      },
+      {
+        "key": "c",
+        "text": "Political parties"
+      },
+      {
+        "key": "d",
+        "text": "Religious belief"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scarcity forces choice.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The next-best alternative given up when making a choice is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Opportunity cost"
+      },
+      {
+        "key": "b",
+        "text": "Profit"
+      },
+      {
+        "key": "c",
+        "text": "Inflation"
+      },
+      {
+        "key": "d",
+        "text": "Elasticity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Choosing one want precludes others; the forgone option is the opportunity cost.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "The law of demand states that the higher the price, the lower the quantity demanded.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Price and quantity demanded are inversely related.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Whose definition of economics is one of the most accepted: human behaviour as a relationship between ends and scarce means with alternative uses?",
+    "options": [
+      {
+        "key": "a",
+        "text": "L. Robbins"
+      },
+      {
+        "key": "b",
+        "text": "Adam Smith"
+      },
+      {
+        "key": "c",
+        "text": "J.S. Mill"
+      },
+      {
+        "key": "d",
+        "text": "Alfred Marshall"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Smith, Mill and Marshall gave other well-known definitions.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are part of economic development as redefined in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reducing poverty"
+      },
+      {
+        "key": "b",
+        "text": "Reducing inequality"
+      },
+      {
+        "key": "c",
+        "text": "Reducing unemployment"
+      },
+      {
+        "key": "d",
+        "text": "Increasing illiteracy"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Development is redefined as reducing poverty, inequality and unemployment in a growing economy.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Economic growth always means a country has achieved economic development.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Growth does not necessarily bring development, but development presupposes growth.",
+    "source": "GES 103.pdf, Chapter 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a definition of economics given in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An inquiry into the nature and causes of the wealth of nations"
+      },
+      {
+        "key": "b",
+        "text": "The study of mankind in the ordinary business of life"
+      },
+      {
+        "key": "c",
+        "text": "The practical science of the production and distribution of wealth"
+      },
+      {
+        "key": "d",
+        "text": "Who gets what, when and how"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "'Who gets what, when and how' is Lasswell's definition of politics.",
+    "source": "GES 103.pdf, Chapter 7; Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which book in 1776 marked the start of economics as a distinct discipline?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Adam Smith's Wealth of Nations"
+      },
+      {
+        "key": "b",
+        "text": "Aristotle's Politics"
+      },
+      {
+        "key": "c",
+        "text": "Marx's Capital"
+      },
+      {
+        "key": "d",
+        "text": "Hobbes's Leviathan"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Economics emerged as a distinct field with Smith's book.",
+    "source": "GES 103.pdf, Chapter 7"
+  }
+]

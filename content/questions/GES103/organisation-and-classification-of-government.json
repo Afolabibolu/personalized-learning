@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In Aristotle's classification, the corrupt form of monarchy is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tyranny"
+      },
+      {
+        "key": "b",
+        "text": "Oligarchy"
+      },
+      {
+        "key": "c",
+        "text": "Polity"
+      },
+      {
+        "key": "d",
+        "text": "Aristocracy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Monarchy decays into tyranny, aristocracy into oligarchy, polity into democracy.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which form did Aristotle see as the best: rule by the many in the interest of all?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Polity"
+      },
+      {
+        "key": "b",
+        "text": "Democracy"
+      },
+      {
+        "key": "c",
+        "text": "Aristocracy"
+      },
+      {
+        "key": "d",
+        "text": "Monarchy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Polity is constitutional democracy in Aristotle's scheme.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of government by the distribution of power?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unitary"
+      },
+      {
+        "key": "b",
+        "text": "Federal"
+      },
+      {
+        "key": "c",
+        "text": "Confederal"
+      },
+      {
+        "key": "d",
+        "text": "Theocratic"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Theocracy is listed among 'other forms of government'.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "A confederation is a league of sovereign states with a weak centre that is prone to secession.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Component units in a confederation keep their sovereignty.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which system features collective responsibility and fusion of powers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parliamentary (cabinet) government"
+      },
+      {
+        "key": "b",
+        "text": "Presidential government"
+      },
+      {
+        "key": "c",
+        "text": "Confederalism"
+      },
+      {
+        "key": "d",
+        "text": "Feudalism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The prime minister and cabinet come from the parliament.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which country is the most notable example of the dual executive system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "France"
+      },
+      {
+        "key": "b",
+        "text": "Nigeria"
+      },
+      {
+        "key": "c",
+        "text": "Britain"
+      },
+      {
+        "key": "d",
+        "text": "Ghana"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "France combines a president and a prime minister.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which country is given as an example of a unitary government?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nigeria"
+      },
+      {
+        "key": "b",
+        "text": "USA"
+      },
+      {
+        "key": "c",
+        "text": "Brazil"
+      },
+      {
+        "key": "d",
+        "text": "Ghana"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Ghana, Britain, France and Kenya are unitary; the others are federal.",
+    "source": "GES 103.pdf, Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Under capitalism, private individuals and firms own the means of production.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Socialism instead places them under collective or state ownership.",
+    "source": "GES 103.pdf, Chapter 2"
+  }
+]
