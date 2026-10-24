@@ -1,0 +1,10 @@
+{
+  "code": "CSC 554",
+  "topics": {
+    "semantics-and-abstract-machines": [],
+    "operational-and-denotational-semantics": [],
+    "axiomatic-semantics-and-hoare-logic": [],
+    "basic-program-analysis": [],
+    "program-transformation": []
+  }
+}

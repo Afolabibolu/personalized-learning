@@ -1,0 +1,214 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which kind of transformation improves code structure without changing its external behaviour?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Refactoring"
+      },
+      {
+        "key": "b",
+        "text": "Obfuscation"
+      },
+      {
+        "key": "c",
+        "text": "Translation"
+      },
+      {
+        "key": "d",
+        "text": "Specialisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Refactoring restructures code while keeping its external behaviour the same.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, Program Transformation 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does loop unrolling do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Expands a loop of known length to reduce loop-control overhead"
+      },
+      {
+        "key": "b",
+        "text": "Removes all loops from a program"
+      },
+      {
+        "key": "c",
+        "text": "Converts a loop into recursion"
+      },
+      {
+        "key": "d",
+        "text": "Reverses the order of a loop"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Loop unrolling writes out the iterations of a loop whose length is known.",
+    "source": "Basic Program Analysis .pdf, Loop Unrolling"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are common optimization techniques?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Loop unrolling"
+      },
+      {
+        "key": "b",
+        "text": "Constant folding and propagation"
+      },
+      {
+        "key": "c",
+        "text": "Dead code elimination"
+      },
+      {
+        "key": "d",
+        "text": "Renaming variables"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Renaming variables is a refactoring; the others are optimizations.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 3.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who introduced unfold/fold transformations for recursive programs in the 1970s?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Burstall and Darlington"
+      },
+      {
+        "key": "b",
+        "text": "Bird and Meertens"
+      },
+      {
+        "key": "c",
+        "text": "William Opdyke"
+      },
+      {
+        "key": "d",
+        "text": "Martin Fowler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Burstall and Darlington's paper introduced formal unfold/fold transformation rules.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 2.1 Historical Background"
+  },
+  {
+    "format": "true_false",
+    "stem": "Source-to-source transformation is also known as transpilation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Transpilation converts source code between languages or language versions, usually through an AST.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 3.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a low-level transformation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register allocation"
+      },
+      {
+        "key": "b",
+        "text": "Instruction scheduling"
+      },
+      {
+        "key": "c",
+        "text": "Peephole optimization"
+      },
+      {
+        "key": "d",
+        "text": "Architecture refactoring"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Architecture refactoring is high-level; the others work close to machine code.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 3.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Changing a list to a set to keep only unique values is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data structure transformation"
+      },
+      {
+        "key": "b",
+        "text": "Loop unrolling"
+      },
+      {
+        "key": "c",
+        "text": "Obfuscation"
+      },
+      {
+        "key": "d",
+        "text": "Program slicing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Replacing the data structure improves efficiency and removes duplicates.",
+    "source": "Basic Program Analysis .pdf, Data Structure Transformation"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are challenges of program transformation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Preserving correctness"
+      },
+      {
+        "key": "b",
+        "text": "Scaling to large systems"
+      },
+      {
+        "key": "c",
+        "text": "Keeping up with evolving languages"
+      },
+      {
+        "key": "d",
+        "text": "There are no challenges"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Correctness, scalability and language evolution are among the listed challenges.",
+    "source": "CSC 554 Group 3 Term Paper.pdf, 4.3"
+  }
+]

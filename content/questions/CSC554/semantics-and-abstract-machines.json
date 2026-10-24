@@ -1,0 +1,214 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What do the letters SECD stand for?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stack, Environment, Control, Dump"
+      },
+      {
+        "key": "b",
+        "text": "State, Expression, Command, Data"
+      },
+      {
+        "key": "c",
+        "text": "Stack, Evaluation, Code, Data"
+      },
+      {
+        "key": "d",
+        "text": "Store, Environment, Control, Definition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The SECD machine is named after its four registers: Stack, Environment, Control and Dump.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 17"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who first described the SECD machine, in 'The Mechanical Evaluation of Expressions' (1964)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Peter J. Landin"
+      },
+      {
+        "key": "b",
+        "text": "Tony Hoare"
+      },
+      {
+        "key": "c",
+        "text": "Gordon Plotkin"
+      },
+      {
+        "key": "d",
+        "text": "Alonzo Church"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Landin described the SECD machine in 1964, the first machine designed to evaluate λ-calculus expressions.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 18"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which SECD register saves the machine state on a function call and restores it on return?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Dump"
+      },
+      {
+        "key": "b",
+        "text": "The Stack"
+      },
+      {
+        "key": "c",
+        "text": "The Environment"
+      },
+      {
+        "key": "d",
+        "text": "The Control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The dump stores the stack, control and environment when a function is called and restores them when it returns.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slides 24–25"
+  },
+  {
+    "format": "true_false",
+    "stem": "The environment register is the only SECD stack commonly accessed by index rather than by stack operations.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Variables are found by level and index in the environment, unlike the other registers.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 28"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Why is rigorous formal semantics needed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It reveals ambiguities in apparently clear documents such as language manuals"
+      },
+      {
+        "key": "b",
+        "text": "It is a basis for implementation, analysis and verification"
+      },
+      {
+        "key": "c",
+        "text": "It supports proofs of correctness"
+      },
+      {
+        "key": "d",
+        "text": "It makes programs run faster on hardware"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The lecture gives revealing ambiguities and grounding implementation, analysis and proofs of correctness as the reasons.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slides 5–6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not listed as a type of abstract machine?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Warren Abstract Machine (WAM)"
+      },
+      {
+        "key": "b",
+        "text": "Random Access Machine (RAM)"
+      },
+      {
+        "key": "c",
+        "text": "Chemical Abstract Machine (CHAM)"
+      },
+      {
+        "key": "d",
+        "text": "Context-Free Grammar (CFG)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "WAM, RAM and CHAM are abstract machines; a context-free grammar is a way of defining syntax.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slides 15–16"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the SECD rules, what is the initial state for an expression e?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(nil, empty, e :: nil) :: nil"
+      },
+      {
+        "key": "b",
+        "text": "(e :: nil, empty, nil) :: nil"
+      },
+      {
+        "key": "c",
+        "text": "(nil, e, nil) :: nil"
+      },
+      {
+        "key": "d",
+        "text": "(e, e, e) :: e"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The machine starts with an empty stack and environment and e on the control; the result ends on the stack.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 40"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the forms an expression can take in the λ-calculus?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A name"
+      },
+      {
+        "key": "b",
+        "text": "A function, λ name.expression"
+      },
+      {
+        "key": "c",
+        "text": "An application of one expression to another"
+      },
+      {
+        "key": "d",
+        "text": "A Hoare triple"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An expression is a name, a function or an application.",
+    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 36"
+  }
+]
