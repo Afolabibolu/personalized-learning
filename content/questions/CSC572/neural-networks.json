@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In an artificial neuron, what is computed before the activation function is applied?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The weighted sum of the inputs plus a bias"
+      },
+      {
+        "key": "b",
+        "text": "The square of each input"
+      },
+      {
+        "key": "c",
+        "text": "The softmax of the labels"
+      },
+      {
+        "key": "d",
+        "text": "The median of the weights"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "z = Σ wᵢxᵢ + b is then passed through the activation function.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are layers of a multilayer perceptron?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Input layer"
+      },
+      {
+        "key": "b",
+        "text": "Hidden layers"
+      },
+      {
+        "key": "c",
+        "text": "Output layer"
+      },
+      {
+        "key": "d",
+        "text": "Dump layer"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An MLP has an input layer, one or more hidden layers and an output layer.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which activation function outputs 0 for negative inputs and passes positive inputs unchanged?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ReLU"
+      },
+      {
+        "key": "b",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "c",
+        "text": "Tanh"
+      },
+      {
+        "key": "d",
+        "text": "Softmax"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ReLU is simple and fast, the most popular in modern deep learning.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which output activation suits MNIST digit recognition (ten classes)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Softmax"
+      },
+      {
+        "key": "b",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "c",
+        "text": "Linear"
+      },
+      {
+        "key": "d",
+        "text": "ReLU"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Softmax turns scores into probabilities that sum to 1 across the classes.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tanh squashes values between −1 and 1 and is zero-centred.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Sigmoid's range is 0 to 1; tanh's is −1 to 1, with 0 as neutral.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which rule of calculus does backpropagation use to pass the error back through the layers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The chain rule"
+      },
+      {
+        "key": "b",
+        "text": "The product rule of probability"
+      },
+      {
+        "key": "c",
+        "text": "L'Hôpital's rule"
+      },
+      {
+        "key": "d",
+        "text": "The trapezium rule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The chain rule links the output error to each earlier weight.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a cost function used with neural networks in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mean squared error"
+      },
+      {
+        "key": "b",
+        "text": "Binary cross-entropy"
+      },
+      {
+        "key": "c",
+        "text": "Categorical cross-entropy"
+      },
+      {
+        "key": "d",
+        "text": "Adam"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Adam is an optimizer, not a cost function.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Activation functions introduce non-linearity, letting the network learn complex patterns rather than only straight lines.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Without non-linear activations, stacked layers stay linear.",
+    "source": "My CSC 572 Note1.pdf"
+  }
+]

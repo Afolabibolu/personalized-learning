@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How does machine learning differ from traditional programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data and outputs go in and the rules are learned"
+      },
+      {
+        "key": "b",
+        "text": "Data and rules go in and output comes out"
+      },
+      {
+        "key": "c",
+        "text": "Rules alone produce the data"
+      },
+      {
+        "key": "d",
+        "text": "There is no difference"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Traditional programming applies given rules; machine learning learns the rules from data and outputs.",
+    "source": "CSC 572 Week 1, Introduction to Machine Learning (lesson visuals and overview slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who defined machine learning as 'the field of study that gives computers the ability to learn without being explicitly programmed'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arthur Samuel (1959)"
+      },
+      {
+        "key": "b",
+        "text": "Alan Turing (1936)"
+      },
+      {
+        "key": "c",
+        "text": "Geoffrey Hinton (2012)"
+      },
+      {
+        "key": "d",
+        "text": "Tom Mitchell (1997)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The lesson quotes Arthur Samuel, 1959.",
+    "source": "CSC 572 Week 1, Introduction to Machine Learning (lesson visuals and overview slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of machine learning?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Supervised learning"
+      },
+      {
+        "key": "b",
+        "text": "Unsupervised learning"
+      },
+      {
+        "key": "c",
+        "text": "Reinforcement learning"
+      },
+      {
+        "key": "d",
+        "text": "Compiled learning"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The course lists supervised, unsupervised (and semi-supervised) and reinforcement learning.",
+    "source": "CSC 572 Week 1, Introduction to Machine Learning (lesson visuals and overview slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Grouping customers by their buying behaviour without labels is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clustering (unsupervised learning)"
+      },
+      {
+        "key": "b",
+        "text": "Regression"
+      },
+      {
+        "key": "c",
+        "text": "Classification"
+      },
+      {
+        "key": "d",
+        "text": "Reinforcement learning"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Clustering groups similar unlabelled data points.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A rule-based chess engine that does not learn from data is an AI system but not a machine learning system.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Rule-based systems and typical chess engines are AI, but they do not learn from data.",
+    "source": "ML Overview Slide_2025.pptx, notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which term describes values a model learns during training, as opposed to settings fixed before training?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parameters (weights)"
+      },
+      {
+        "key": "b",
+        "text": "Hyperparameters"
+      },
+      {
+        "key": "c",
+        "text": "Labels"
+      },
+      {
+        "key": "d",
+        "text": "Instances"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Parameters are learned; hyperparameters such as the learning rate are set before training.",
+    "source": "ML Overview Slide_2025.pptx, notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an ethical challenge of ML named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bias"
+      },
+      {
+        "key": "b",
+        "text": "Privacy"
+      },
+      {
+        "key": "c",
+        "text": "Transparency"
+      },
+      {
+        "key": "d",
+        "text": "Compilation speed"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bias, privacy, transparency and job impact are the listed concerns.",
+    "source": "CSC 572 Week 1, Introduction to Machine Learning (lesson visuals and overview slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Predicting the price of a house from its size and location is a classification task.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Predicting a continuous number is regression; classification predicts categories.",
+    "source": "My CSC 572 Note1.pdf"
+  }
+]

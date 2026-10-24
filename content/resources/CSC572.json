@@ -1,0 +1,11 @@
+{
+  "code": "CSC 572",
+  "topics": {
+    "introduction-to-machine-learning": [],
+    "linear-regression-and-gradient-descent": [],
+    "logistic-regression": [],
+    "feature-engineering": [],
+    "generalization-and-model-evaluation": [],
+    "neural-networks": []
+  }
+}
