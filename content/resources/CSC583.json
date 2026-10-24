@@ -1,0 +1,10 @@
+{
+  "code": "CSC 583",
+  "topics": {
+    "threats-passwords-and-the-cia-triad": [],
+    "access-control-and-authentication": [],
+    "encryption-and-hash-functions": [],
+    "email-ip-web-and-database-security": [],
+    "network-auditing": []
+  }
+}

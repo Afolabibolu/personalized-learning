@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In an ACL-based access control model, access depends on",
+    "options": [
+      {
+        "key": "a",
+        "text": "Whether the subject's identity appears on a list associated with the object"
+      },
+      {
+        "key": "b",
+        "text": "Holding an unforgeable capability"
+      },
+      {
+        "key": "c",
+        "text": "The time of day only"
+      },
+      {
+        "key": "d",
+        "text": "The size of the object"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ACLs work like a bouncer checking the guest list; capabilities work like a house key.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Three 3.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which essential services do access control systems provide?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Authorization"
+      },
+      {
+        "key": "b",
+        "text": "Identification and authentication"
+      },
+      {
+        "key": "c",
+        "text": "Accountability"
+      },
+      {
+        "key": "d",
+        "text": "Compression"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Access control provides authorization, I&A, access approval and accountability.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Three 3.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which access control model does the owner of an object decide who may access it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Discretionary access control (DAC)"
+      },
+      {
+        "key": "b",
+        "text": "Mandatory access control (MAC)"
+      },
+      {
+        "key": "c",
+        "text": "Role-based access control (RBAC)"
+      },
+      {
+        "key": "d",
+        "text": "Lattice-based control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DAC is determined by the owner; MAC by rules or labels; RBAC by the system.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Three 3.5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Under mandatory access control with sensitivity labels, a subject needs a sensitivity level equal to or higher than the object's to access it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is how labels enforce MAC.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Three 3.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A fingerprint is which factor of authentication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inherence (something the user is)"
+      },
+      {
+        "key": "b",
+        "text": "Knowledge (something the user knows)"
+      },
+      {
+        "key": "c",
+        "text": "Ownership (something the user has)"
+      },
+      {
+        "key": "d",
+        "text": "Location"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Biometrics are inherence factors.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Seven 7.4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does non-repudiation provide in digital security?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Proof of the integrity and origin of data"
+      },
+      {
+        "key": "b",
+        "text": "Confidentiality of the message body"
+      },
+      {
+        "key": "c",
+        "text": "Faster encryption"
+      },
+      {
+        "key": "d",
+        "text": "Load balancing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Non-repudiation ties data to its origin; signing does not give confidentiality.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Eight 8.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the three RBAC rules?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Role assignment"
+      },
+      {
+        "key": "b",
+        "text": "Role authorization"
+      },
+      {
+        "key": "c",
+        "text": "Transaction authorization"
+      },
+      {
+        "key": "d",
+        "text": "Owner discretion"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "RBAC is set by the system, not at the owner's discretion.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Three 3.5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Notaries are preferred over forensic analysts as trusted third parties because they also keep independent logs of transactions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Notaries verify identity and keep logs, giving double security.",
+    "source": "CSC 583 Lecture One (1).pdf, Lesson Eight 8.1"
+  }
+]
