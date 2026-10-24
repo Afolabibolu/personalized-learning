@@ -24,6 +24,8 @@ export type Course = {
   code: string
   title: string
   description: string | null
+  /** false for sample courses added by the ingestion pipeline (Phase 9) */
+  is_reviewed: boolean
 }
 
 export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video'

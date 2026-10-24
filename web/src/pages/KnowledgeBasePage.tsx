@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getKnowledgeBase, getKnowledgeStats, type KnowledgeTopic } from '../api/knowledge'
 import { ResourceList } from '../components/ResourceList'
-import { ButtonLink, Card, ErrorMessage, PageHeader, Spinner, inputClass } from '../components/ui'
+import { ButtonLink, Card, ErrorMessage, PageHeader, SampleBadge, Spinner, inputClass } from '../components/ui'
 
 function matches(text: string | null | undefined, query: string): boolean {
   return Boolean(text && text.toLowerCase().includes(query))
@@ -82,11 +82,7 @@ export function KnowledgeBasePage() {
               <h2 id={`course-${course.id}`} className="text-lg font-semibold">
                 <span className="text-brand-600">{course.code}</span> · {course.title}
               </h2>
-              {!course.is_reviewed && (
-                <span className="rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-semibold text-amber-700 ring-1 ring-amber-200">
-                  Auto-generated, under review
-                </span>
-              )}
+              {!course.is_reviewed && <SampleBadge />}
             </div>
             <ol className="grid gap-3">
               {course.topics.map((topic) => (

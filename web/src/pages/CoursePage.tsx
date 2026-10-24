@@ -1,13 +1,22 @@
 import { Link, useParams } from 'react-router-dom'
-import { useQuery } from '@tanstack/react-query'
-import { getCourse, listQuizHistory } from '../api/courses'
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { getCourse, listEnrolledCourseIds, listQuizHistory, setEnrolled } from '../api/courses'
 import { formatDate } from '../lib/format'
-import { ButtonLink, Card, ErrorMessage, PageHeader, ScoreBadge, ScoreBar, Spinner } from '../components/ui'
+import { Button, ButtonLink, Card, ErrorMessage, PageHeader, SampleBadge, ScoreBadge, ScoreBar, Spinner } from '../components/ui'
 
 export function CoursePage() {
   const { courseId = '' } = useParams()
   const course = useQuery({ queryKey: ['course', courseId], queryFn: () => getCourse(courseId) })
   const history = useQuery({ queryKey: ['quizHistory', courseId], queryFn: () => listQuizHistory(courseId) })
+  const enrolled = useQuery({ queryKey: ['course', 'enrolled'], queryFn: listEnrolledCourseIds })
+  const queryClient = useQueryClient()
+  const isMine = enrolled.data?.has(courseId) ?? false
+  const toggle = useMutation({
+    mutationFn: () => setEnrolled(courseId, !isMine),
+    onSuccess: () => {
+      for (const key of ['courses', 'dashboard', 'topicsByCourse', 'course']) queryClient.invalidateQueries({ queryKey: [key] })
+    },
+  })
 
   if (course.isPending) return <Spinner />
   if (course.isError) return <ErrorMessage error={course.error} />
@@ -21,8 +30,22 @@ export function CoursePage() {
         ← All courses
       </Link>
       <PageHeader eyebrow={data.code} title={data.title}>
+        {!data.is_reviewed && (
+          <span className="mb-2 block">
+            <SampleBadge />
+          </span>
+        )}
         {data.description}
       </PageHeader>
+
+      {enrolled.data && (
+        <div className="-mt-3 mb-6 flex flex-wrap items-center gap-3 text-sm text-slate-600">
+          <span>{isMine ? 'In your courses.' : 'Not in your courses yet.'}</span>
+          <Button variant={isMine ? 'ghost' : 'secondary'} className="px-3 py-1.5" onClick={() => toggle.mutate()} disabled={toggle.isPending}>
+            {isMine ? 'Remove from my courses' : 'Add to my courses'}
+          </Button>
+        </div>
+      )}
 
       {scored.length === 0 && data.diagnostic_quiz_id && (
         <Card className="mb-6 bg-brand-50 ring-brand-100">

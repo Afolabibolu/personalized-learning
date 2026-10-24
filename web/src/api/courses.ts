@@ -5,19 +5,39 @@ export type CourseSummary = Course & {
   topic_count: number
   diagnostic_quiz_id: string | null
   diagnostic_taken: boolean
+  enrolled: boolean
+}
+
+/** Ids of the courses the student chose ("my courses"). */
+export async function listEnrolledCourseIds(): Promise<Set<string>> {
+  const { data, error } = await supabase.from('enrollments').select('course_id')
+  if (error) throw error
+  return new Set(data.map((e) => e.course_id as string))
+}
+
+/** Adds a course to, or removes it from, the student's courses. */
+export async function setEnrolled(courseId: string, enrolled: boolean): Promise<void> {
+  const { data: auth } = await supabase.auth.getUser()
+  const studentId = auth.user?.id
+  if (!studentId) throw new Error('Not signed in')
+  const { error } = enrolled
+    ? await supabase.from('enrollments').upsert({ student_id: studentId, course_id: courseId }, { ignoreDuplicates: true })
+    : await supabase.from('enrollments').delete().eq('student_id', studentId).eq('course_id', courseId)
+  if (error) throw error
 }
 
 export async function listCourses(): Promise<CourseSummary[]> {
-  const [courses, attempts] = await Promise.all([
+  const [courses, attempts, enrolled] = await Promise.all([
     supabase
       .from('courses')
-      .select('id, code, title, description, topics(count), quizzes(id, kind)')
+      .select('id, code, title, description, is_reviewed, topics(count), quizzes(id, kind)')
       .order('code'),
     supabase
       .from('quiz_attempts')
       .select('quizzes!inner(course_id, kind)')
       .not('completed_at', 'is', null)
       .eq('quizzes.kind', 'diagnostic'),
+    listEnrolledCourseIds(),
   ])
   if (courses.error) throw courses.error
   if (attempts.error) throw attempts.error
@@ -30,6 +50,7 @@ export async function listCourses(): Promise<CourseSummary[]> {
     topic_count: (topics as unknown as { count: number }[])[0]?.count ?? 0,
     diagnostic_quiz_id: (quizzes as { id: string; kind: string }[]).find((q) => q.kind === 'diagnostic')?.id ?? null,
     diagnostic_taken: taken.has(course.id),
+    enrolled: enrolled.has(course.id),
   }))
 }
 
@@ -43,7 +64,7 @@ export type CourseDetail = Course & {
 export async function getCourse(courseId: string): Promise<CourseDetail> {
   const { data, error } = await supabase
     .from('courses')
-    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, summary, sequence_order), quizzes(id, kind)')
+    .select('id, code, title, description, is_reviewed, topics(id, course_id, slug, title, subtopics, summary, sequence_order), quizzes(id, kind)')
     .eq('id', courseId)
     .single()
   if (error) throw error
@@ -60,7 +81,7 @@ export async function getCourse(courseId: string): Promise<CourseDetail> {
 }
 
 export type TopicDetail = Topic & {
-  course: Pick<Course, 'id' | 'code' | 'title'>
+  course: Pick<Course, 'id' | 'code' | 'title' | 'is_reviewed'>
   resources: Resource[]
   quiz: Quiz | null
   latest_score: number | null
@@ -70,7 +91,7 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
   const { data, error } = await supabase
     .from('topics')
     .select(
-      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
+      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title, is_reviewed), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
     )
     .eq('id', topicId)
     .single()
@@ -87,14 +108,17 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
   }
 }
 
-/** Topics of every course, for pickers such as the study logger. */
-export async function listTopicsByCourse(): Promise<(Course & { topics: Topic[] })[]> {
-  const { data, error } = await supabase
-    .from('courses')
-    .select('id, code, title, description, topics(id, course_id, slug, title, subtopics, summary, sequence_order)')
-    .order('code')
+/** Topics of every course, for pickers such as the study logger; `enrolled` marks the student's courses. */
+export async function listTopicsByCourse(): Promise<(Course & { enrolled: boolean; topics: Topic[] })[]> {
+  const [{ data, error }, enrolled] = await Promise.all([
+    supabase
+      .from('courses')
+      .select('id, code, title, description, is_reviewed, topics(id, course_id, slug, title, subtopics, summary, sequence_order)')
+      .order('code'),
+    listEnrolledCourseIds(),
+  ])
   if (error) throw error
-  return data.map((c) => ({ ...c, topics: c.topics.sort((a, b) => a.sequence_order - b.sequence_order) }))
+  return data.map((c) => ({ ...c, enrolled: enrolled.has(c.id), topics: c.topics.sort((a, b) => a.sequence_order - b.sequence_order) }))
 }
 
 /**

@@ -46,6 +46,9 @@ export function LogStudyPage() {
   if (courses.isPending) return <Spinner />
   if (courses.isError) return <ErrorMessage error={courses.error} />
 
+  // The student's own courses, plus the course of a topic opened from elsewhere (?topic=).
+  const pickerCourses = courses.data.filter((c) => c.enrolled || c.topics.some((t) => t.id === topicId))
+
   return (
     <div className="mx-auto max-w-lg">
       <PageHeader eyebrow="Study log" title="Log a study session">
@@ -59,7 +62,7 @@ export function LogStudyPage() {
               <option value="" disabled>
                 Choose a topic
               </option>
-              {courses.data.map((c) => (
+              {pickerCourses.map((c) => (
                 <optgroup key={c.id} label={`${c.code}: ${c.title}`}>
                   {c.topics.map((t) => (
                     <option key={t.id} value={t.id}>

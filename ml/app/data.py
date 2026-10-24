@@ -75,6 +75,12 @@ def load_courses(db: Client) -> list[CourseData]:
     return list(courses.values())
 
 
+def enrolled_course_ids(db: Client, student_id: str) -> set[str]:
+    """The courses the student chose ("my courses"); recommendations cover only these."""
+    rows = db.table("enrollments").select("course_id").eq("student_id", student_id).execute().data
+    return {r["course_id"] for r in rows}
+
+
 def completed_attempts_per_course(db: Client, student_id: str) -> dict[str, int]:
     rows = db.table("quiz_attempts").select("quizzes(course_id)").eq("student_id", student_id).not_.is_(
         "completed_at", "null").execute().data

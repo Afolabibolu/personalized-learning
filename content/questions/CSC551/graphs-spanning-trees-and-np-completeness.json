@@ -1,0 +1,214 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which data structure does breadth-first search use for traversal?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Queue"
+      },
+      {
+        "key": "b",
+        "text": "Stack"
+      },
+      {
+        "key": "c",
+        "text": "Heap"
+      },
+      {
+        "key": "d",
+        "text": "Hash table"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "BFS pushes unvisited neighbours into a queue and visits nodes level by level.",
+    "source": "CSC 551 Study Session 8, 8.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the time complexity of BFS and DFS on a graph with V vertices and E edges?",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(V + E)"
+      },
+      {
+        "key": "b",
+        "text": "O(V × E)"
+      },
+      {
+        "key": "c",
+        "text": "O(V²)"
+      },
+      {
+        "key": "d",
+        "text": "O(E log E)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both traversals run in O(V + E).",
+    "source": "CSC 551 Study Session 8, 8.5 and 8.7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A graph whose vertices split into two disjoint sets, with every edge joining a vertex in one set to a vertex in the other, is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "A bipartite graph"
+      },
+      {
+        "key": "b",
+        "text": "A complete graph"
+      },
+      {
+        "key": "c",
+        "text": "A regular graph"
+      },
+      {
+        "key": "d",
+        "text": "A null graph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "That is the definition of a bipartite graph.",
+    "source": "CSC 551 Study Session 8, 8.4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the steps of Kruskal's algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sort all edges from low weight to high"
+      },
+      {
+        "key": "b",
+        "text": "Add the lowest-weight edge, rejecting it if it creates a cycle"
+      },
+      {
+        "key": "c",
+        "text": "Keep adding edges until all vertices are reached"
+      },
+      {
+        "key": "d",
+        "text": "Start from a vertex and add the nearest edge leaving the tree"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Starting from a vertex describes Prim's algorithm; Kruskal starts from the edges.",
+    "source": "CSC 551 Study Session 9, 9.3.1 and 9.3.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many spanning trees can be formed from a complete graph with 4 vertices?",
+    "options": [
+      {
+        "key": "a",
+        "text": "16"
+      },
+      {
+        "key": "b",
+        "text": "4"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "64"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A complete graph with n vertices has n^(n−2) spanning trees: 4² = 16.",
+    "source": "CSC 551 Study Session 9, 9.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A problem is NP-complete if it is in NP and every problem in NP can be reduced to it in polynomial time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "NP-complete means both in NP and NP-hard.",
+    "source": "CSC 551 Study Session 10, 10.3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an NP-complete problem from the course list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boolean satisfiability (SAT)"
+      },
+      {
+        "key": "b",
+        "text": "Vertex cover"
+      },
+      {
+        "key": "c",
+        "text": "Graph colouring"
+      },
+      {
+        "key": "d",
+        "text": "Minimum spanning tree"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Minimum spanning tree is solved in polynomial time; the others are NP-complete.",
+    "source": "CSC 551 Study Session 10, 10.4 and 10.7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which techniques are used to tackle NP-complete problems in practice?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Approximation"
+      },
+      {
+        "key": "b",
+        "text": "Heuristics"
+      },
+      {
+        "key": "c",
+        "text": "Restriction of the input"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed polynomial exact algorithms"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Approximation, randomization, restriction, parameterization and heuristics are used; no polynomial exact algorithm is known.",
+    "source": "CSC 551 Study Session 10, 10.5"
+  }
+]

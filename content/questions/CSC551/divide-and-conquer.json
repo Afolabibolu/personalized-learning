@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In divide and conquer, what happens in the 'combine' step?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The sub-problem answers are joined into the solution of the whole problem"
+      },
+      {
+        "key": "b",
+        "text": "The problem is split into smaller sub-problems"
+      },
+      {
+        "key": "c",
+        "text": "Sub-problems are solved by recursive calls"
+      },
+      {
+        "key": "d",
+        "text": "Results are stored in a table for reuse"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Combine joins the sub-problem answers; divide splits and conquer solves recursively.",
+    "source": "CSC 551 Study Session 2, 2.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the time complexity of merge sort in its worst case?",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n log n)"
+      },
+      {
+        "key": "b",
+        "text": "O(n²)"
+      },
+      {
+        "key": "c",
+        "text": "O(n)"
+      },
+      {
+        "key": "d",
+        "text": "O(log n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Merge sort is θ(n log n) in the best, average and worst case.",
+    "source": "CSC 551 Study Session 2, 2.4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Merge sort is an in-place sorting algorithm.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Merge sort is not in-place: it needs O(n) auxiliary space to copy elements.",
+    "source": "CSC 551 Study Session 2, 2.7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of merge sort?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stability"
+      },
+      {
+        "key": "b",
+        "text": "Guaranteed worst-case performance"
+      },
+      {
+        "key": "c",
+        "text": "Parallelizable"
+      },
+      {
+        "key": "d",
+        "text": "Optimal for small datasets"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Merge sort is stable, guaranteed O(n log n) and parallelizable, but not always optimal for small datasets.",
+    "source": "CSC 551 Study Session 2, 2.6–2.7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a standard divide-and-conquer algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Strassen's algorithm"
+      },
+      {
+        "key": "b",
+        "text": "Closest pair of points"
+      },
+      {
+        "key": "c",
+        "text": "Karatsuba multiplication"
+      },
+      {
+        "key": "d",
+        "text": "Activity selection"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Activity selection is solved greedily; the others are listed as divide-and-conquer algorithms.",
+    "source": "CSC 551 Study Session 2, 2.2; Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Merge sort's recurrence T(n) = 2T(n/2) + θ(n) falls into which case of the master method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Case 2"
+      },
+      {
+        "key": "b",
+        "text": "Case 1"
+      },
+      {
+        "key": "c",
+        "text": "Case 3"
+      },
+      {
+        "key": "d",
+        "text": "It cannot be solved by the master method"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "log₂2 = 1 equals the power of n in f(n), which is case 2, giving θ(n log n).",
+    "source": "CSC 551 Study Session 2, 2.4"
+  },
+  {
+    "format": "true_false",
+    "stem": "The closest pair of points problem can be solved in O(n log n) time by divide and conquer, compared with O(n²) by checking every pair.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Checking all pairs is O(n²); dividing the points by a middle line and checking a strip gives O(n log n).",
+    "source": "CSC 551 Study Session 2, 2.2 and 2.8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are drawbacks of merge sort?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Needs extra memory for merged sub-arrays"
+      },
+      {
+        "key": "b",
+        "text": "Not in-place"
+      },
+      {
+        "key": "c",
+        "text": "Not always optimal for small datasets"
+      },
+      {
+        "key": "d",
+        "text": "Unstable"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Merge sort's drawbacks are extra memory, not being in-place and slower performance on small datasets; it is stable.",
+    "source": "CSC 551 Study Session 2, 2.6–2.7"
+  }
+]

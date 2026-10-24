@@ -3,9 +3,11 @@
 Resources per topic: the study note (content/notes/, shown in the app), a
 past-questions set built from content/past_questions/ (if the topic has any),
 and the links in content/resources/ (from content/sources/links.csv). The
-cold-start sequence per course is: topic 1's note, topic 1's lecture, topic 2's note.
+cold-start sequence per course is: topic 1's note, topic 1's lecture (or, for a
+sample course with no lecture links, topic 1's past questions), topic 2's note.
+Sample courses ("is_reviewed": false) load with courses.is_reviewed = false.
 
-    python content/validate.py && python content/load.py
+    python content/validate.py && python content/load.py [--course "CSC 551"]
 
 Uses the service role key from content/.env. Safe to run again: rows are
 matched on their natural keys (course code, topic slug, resource url, quiz
@@ -76,10 +78,12 @@ def topic_resources(course_file: str, topic: dict, order: int, links: list[dict]
     resources += [dict(link) for link in links]
     lecture = next((r for r in resources if r["type"] == "lecture"), None)
     # Cold start: topic 1's note (1) and lecture (2), then topic 2's note (3).
+    # No lecture link (sample courses): topic 1's past questions take its place.
     if order == 1:
         note |= {"is_introductory": True, "intro_order": 1}
-        if lecture:
-            lecture |= {"is_introductory": True, "intro_order": 2}
+        second = lecture or past
+        if second:
+            second |= {"is_introductory": True, "intro_order": 2}
     elif order == 2:
         note |= {"is_introductory": True, "intro_order": 3}
     return resources
@@ -123,23 +127,31 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
 
 
 def main() -> int:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--course", help='only this course, e.g. "CSC 551"')
+    args = parser.parse_args()
     load_dotenv(CONTENT / ".env")
     db = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_ROLE_KEY"])
 
     course_files = sorted((CONTENT / "courses").glob("*.json"))
+    if args.course:
+        course_files = [p for p in course_files if json.loads(p.read_text())["code"] == args.course]
     if not course_files:
-        print("no course files in content/courses/")
+        print(f"no course files in content/courses/{' for ' + args.course if args.course else ''}")
         return 1
 
     for path in course_files:
         course = json.loads(path.read_text())
         course_id = db.table("courses").upsert(
-            {"code": course["code"], "title": course["title"], "description": course.get("description")},
+            {"code": course["code"], "title": course["title"], "description": course.get("description"),
+             "is_reviewed": course.get("is_reviewed", True)},
             on_conflict="code",
         ).execute().data[0]["id"]
 
         topics = course["topics"]
-        links_by_topic = json.loads((CONTENT / "resources" / f"{path.stem}.json").read_text())["topics"]
+        links_path = CONTENT / "resources" / f"{path.stem}.json"
+        links_by_topic = json.loads(links_path.read_text())["topics"] if links_path.exists() else {}
         question_total = 0
         for order, topic in enumerate(topics, start=1):
             topic_id = db.table("topics").upsert(

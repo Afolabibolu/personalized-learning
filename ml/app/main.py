@@ -46,7 +46,8 @@ def recommend(authorization: str | None = Header(default=None)):
     db = data.service_client()
 
     models = data.load_models()
-    courses = data.load_courses(db)
+    enrolled = data.enrolled_course_ids(db, student_id)
+    courses = [c for c in data.load_courses(db) if c.course_id in enrolled]
     attempts = data.completed_attempts_per_course(db, student_id)
     scores, logs = to_frames(*data.student_history(db, student_id))
     used = data.used_resource_ids(db, student_id)

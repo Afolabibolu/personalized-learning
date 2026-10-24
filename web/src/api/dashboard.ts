@@ -29,7 +29,7 @@ export async function getDashboardData(): Promise<DashboardData> {
   if (logs.error) throw logs.error
   if (attempts.error) throw attempts.error
 
-  const allTopicIds = topicsByCourse.flatMap((c) => c.topics.map((t) => t.id))
+  const allTopicIds = topicsByCourse.filter((c) => c.enrolled).flatMap((c) => c.topics.map((t) => t.id))
   const topicScores = await latestTopicScores(allTopicIds)
   const summaryById = new Map(courseSummaries.map((c) => [c.id, c]))
 
@@ -40,7 +40,8 @@ export async function getDashboardData(): Promise<DashboardData> {
     ],
     studyLogs: logs.data,
     topicScores,
-    courses: topicsByCourse.map((c) => ({
+    // Only the student's own courses feed reminders and progress.
+    courses: topicsByCourse.filter((c) => c.enrolled).map((c) => ({
       id: c.id,
       code: c.code,
       title: c.title,
