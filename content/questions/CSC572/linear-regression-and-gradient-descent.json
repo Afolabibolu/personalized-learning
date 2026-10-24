@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In simple linear regression y = b0 + b1·x, how is b1 estimated?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Covariance of x and y divided by the variance of x"
+      },
+      {
+        "key": "b",
+        "text": "Mean of y minus mean of x"
+      },
+      {
+        "key": "c",
+        "text": "Sum of y divided by sum of x"
+      },
+      {
+        "key": "d",
+        "text": "The largest value of y"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "b1 = Σ(x − x̄)(y − ȳ) / Σ(x − x̄)²; then b0 = ȳ − b1·x̄.",
+    "source": "CSC 572 Lesson 3, Basic Linear Regression"
+  },
+  {
+    "format": "true_false",
+    "stem": "Squaring errors in the squared error loss removes negative signs and makes large errors count more.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is why the squared error loss is used.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does gradient descent do to each parameter at every step?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Moves it in the opposite direction of the gradient, scaled by the learning rate"
+      },
+      {
+        "key": "b",
+        "text": "Sets it to zero"
+      },
+      {
+        "key": "c",
+        "text": "Moves it in the direction of the gradient"
+      },
+      {
+        "key": "d",
+        "text": "Doubles it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "new weight = old weight − learning rate × gradient.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What happens if the learning rate is too large?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The steps overshoot the minimum and may bounce or diverge"
+      },
+      {
+        "key": "b",
+        "text": "Training becomes extremely slow but stable"
+      },
+      {
+        "key": "c",
+        "text": "The parameters never change"
+      },
+      {
+        "key": "d",
+        "text": "The model always reaches the exact minimum"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A large learning rate can jump past the minimum; a small one is slow; zero never moves.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are strategies of gradient descent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Batch gradient descent"
+      },
+      {
+        "key": "b",
+        "text": "Stochastic gradient descent"
+      },
+      {
+        "key": "c",
+        "text": "Mini-batch gradient descent"
+      },
+      {
+        "key": "d",
+        "text": "Random forest descent"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Batch, stochastic and mini-batch are the three strategies.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which gradient descent strategy updates the parameters after every single training example?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stochastic gradient descent"
+      },
+      {
+        "key": "b",
+        "text": "Batch gradient descent"
+      },
+      {
+        "key": "c",
+        "text": "Mini-batch gradient descent"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SGD updates after each example: fast but noisy.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of the gradient descent pseudocode in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Initialise the parameters"
+      },
+      {
+        "key": "b",
+        "text": "Compute the gradient of the cost"
+      },
+      {
+        "key": "c",
+        "text": "Update the parameters"
+      },
+      {
+        "key": "d",
+        "text": "Encode categories with one-hot vectors"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "One-hot encoding is a feature engineering step, not part of gradient descent.",
+    "source": "My CSC 572 Note1.pdf; Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Mini-batch gradient descent is used by almost every deep learning model because it is both fast and stable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It combines the speed of SGD with the stability of batch updates.",
+    "source": "My CSC 572 Note1.pdf"
+  }
+]

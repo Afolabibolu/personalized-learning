@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does the sigmoid function do in logistic regression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maps any real value to a probability between 0 and 1"
+      },
+      {
+        "key": "b",
+        "text": "Squares the error"
+      },
+      {
+        "key": "c",
+        "text": "Sorts the features"
+      },
+      {
+        "key": "d",
+        "text": "Removes outliers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "σ(z) = 1 / (1 + e^(−z)) squashes z into (0, 1).",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With a threshold of 0.5, an input whose logistic output is 0.7 is assigned to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Class 1"
+      },
+      {
+        "key": "b",
+        "text": "Class 0"
+      },
+      {
+        "key": "c",
+        "text": "Neither class"
+      },
+      {
+        "key": "d",
+        "text": "Both classes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Values above the threshold belong to class 1.",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Logistic regression is mainly used for classification even though it is called regression.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It extends linear regression but predicts categories.",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are assumptions of logistic regression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Independent observations"
+      },
+      {
+        "key": "b",
+        "text": "A binary dependent variable"
+      },
+      {
+        "key": "c",
+        "text": "A linear relationship between the inputs and the log-odds"
+      },
+      {
+        "key": "d",
+        "text": "Many outliers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The assumptions also include no outliers and a large sample size.",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the probability of passing is 0.8, what are the odds of passing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "0.8"
+      },
+      {
+        "key": "c",
+        "text": "0.2"
+      },
+      {
+        "key": "d",
+        "text": "1.25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Odds = p / (1 − p) = 0.8 / 0.2 = 4.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which loss function is minimised when training logistic regression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary cross-entropy (negative log-likelihood)"
+      },
+      {
+        "key": "b",
+        "text": "Mean absolute error"
+      },
+      {
+        "key": "c",
+        "text": "Hinge loss"
+      },
+      {
+        "key": "d",
+        "text": "Rolling mean"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Maximising the log-likelihood is equivalent to minimising the binary cross-entropy.",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "For problems with more than two classes, the course says softmax functions are used instead of the binary sigmoid.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The binary-dependent-variable assumption notes that softmax handles more than two categories.",
+    "source": "Logistics Regression Explained.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a step of training logistic regression with gradient descent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Initialise w and b"
+      },
+      {
+        "key": "b",
+        "text": "Compute predictions and the loss"
+      },
+      {
+        "key": "c",
+        "text": "Compute gradients and update the parameters"
+      },
+      {
+        "key": "d",
+        "text": "Draw a box-and-whisker plot"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Box plots explore continuous data; they are not a training step.",
+    "source": "Logistics Regression Explained.pdf; Feature_Engineering_in_ML.pdf"
+  }
+]

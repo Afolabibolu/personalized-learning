@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A model scores 98% on training data but 62% on test data. What is the diagnosis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Overfitting (high variance)"
+      },
+      {
+        "key": "b",
+        "text": "Underfitting (high bias)"
+      },
+      {
+        "key": "c",
+        "text": "A good fit"
+      },
+      {
+        "key": "d",
+        "text": "Data leakage is impossible"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A large gap between training and test accuracy shows memorisation.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The test set should be used to tune hyperparameters such as the learning rate.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Hyperparameters are tuned on the validation set; the test set is used only once at the end.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "In k-fold cross-validation, every fold serves once as the validation set and the results are averaged.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Train on k − 1 folds, validate on the remaining one, repeat k times and average.",
+    "source": "My CSC 572 Note1.pdf; CSC 572 Lesson 9, Algorithm Comparison"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which cross-validation keeps the same class proportions in every fold, important for imbalanced fraud data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stratified cross-validation"
+      },
+      {
+        "key": "b",
+        "text": "Leave-nothing-out validation"
+      },
+      {
+        "key": "c",
+        "text": "Random hold-out"
+      },
+      {
+        "key": "d",
+        "text": "Rolling window validation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Stratified CV keeps class ratios in each fold.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With TP = 80, TN = 40, FN = 20 and FP = 10, what is the precision?",
+    "options": [
+      {
+        "key": "a",
+        "text": "80 / 90 ≈ 0.89"
+      },
+      {
+        "key": "b",
+        "text": "80 / 100 = 0.80"
+      },
+      {
+        "key": "c",
+        "text": "120 / 150 = 0.80"
+      },
+      {
+        "key": "d",
+        "text": "40 / 50 = 0.80"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Precision = TP / (TP + FP) = 80 / 90.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which help fix overfitting?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Getting more data"
+      },
+      {
+        "key": "b",
+        "text": "Adding regularization"
+      },
+      {
+        "key": "c",
+        "text": "Early stopping"
+      },
+      {
+        "key": "d",
+        "text": "Adding many irrelevant features"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "More data, regularization, dropout, early stopping and simpler models reduce overfitting.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which metric should be prioritised for cancer detection, where missing a sick patient is the disaster?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Recall"
+      },
+      {
+        "key": "b",
+        "text": "Precision"
+      },
+      {
+        "key": "c",
+        "text": "Accuracy"
+      },
+      {
+        "key": "d",
+        "text": "R²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Recall measures how many actual positives were found.",
+    "source": "My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a regression metric?",
+    "options": [
+      {
+        "key": "a",
+        "text": "MAE"
+      },
+      {
+        "key": "b",
+        "text": "RMSE"
+      },
+      {
+        "key": "c",
+        "text": "R²"
+      },
+      {
+        "key": "d",
+        "text": "F1-score"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "F1 is a classification metric.",
+    "source": "My CSC 572 Note1.pdf"
+  }
+]

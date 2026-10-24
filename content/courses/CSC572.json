@@ -1,0 +1,93 @@
+{
+  "code": "CSC 572",
+  "title": "Machine Learning",
+  "description": "What machine learning is and its types, linear regression and gradient descent, logistic regression, feature engineering, generalization and model evaluation, and neural networks, with Python practicals.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "introduction-to-machine-learning",
+      "title": "Introduction to Machine Learning",
+      "summary": "Machine learning is the branch of AI that lets computers learn patterns from data and improve without being explicitly programmed: data and outputs go in and the rules come out. Its main types are supervised, unsupervised, semi-supervised and reinforcement learning, and it raises ethical concerns such as bias and privacy.",
+      "subtopics": [
+        "AI, machine learning, deep learning and generative AI",
+        "Traditional programming versus machine learning",
+        "Supervised learning: classification and regression",
+        "Unsupervised learning: clustering and dimensionality reduction",
+        "Semi-supervised and reinforcement learning",
+        "Features, labels, instances; parameters and hyperparameters",
+        "Applications and ethics; Python tools (Anaconda, pip, scikit-learn)"
+      ],
+      "lectures": [1]
+    },
+    {
+      "slug": "linear-regression-and-gradient-descent",
+      "title": "Linear Regression and Gradient Descent",
+      "summary": "Linear regression fits the straight line (or hyperplane) that best predicts a continuous output, with weights and a bias learned by minimising the mean squared error. Gradient descent finds them by repeatedly stepping against the gradient, with the learning rate setting the step size.",
+      "subtopics": [
+        "Simple and multiple linear regression; y = b0 + b1·x",
+        "Estimating b0 and b1 from mean, variance and covariance",
+        "Weights, bias, loss and the mean squared error cost",
+        "Gradient descent and its update rule",
+        "Batch, stochastic and mini-batch gradient descent",
+        "Learning rate too small or too large; convergence"
+      ],
+      "lectures": [2, 3]
+    },
+    {
+      "slug": "logistic-regression",
+      "title": "Logistic Regression",
+      "summary": "Logistic regression is a supervised algorithm for binary classification that passes a linear combination of features through the sigmoid function to get a probability between 0 and 1, then applies a threshold such as 0.5. It is trained by maximum likelihood, which means minimising the binary cross-entropy loss with gradient descent.",
+      "subtopics": [
+        "What logistic regression is; the click-on-ad example",
+        "Assumptions of logistic regression",
+        "The sigmoid (logistic) function and the threshold",
+        "Odds, log-odds (logit) and the derivation of p(x)",
+        "Likelihood, negative log-likelihood and binary cross-entropy",
+        "Training with gradient descent"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "feature-engineering",
+      "title": "Feature Engineering",
+      "summary": "Feature engineering creates features from raw data or selects the best ones for a model. Discrete data is encoded with one-hot, label or ordinal encoding, and continuous data is transformed with min-max normalisation, log transforms, ratios and rolling windows, before irrelevant features are removed by feature selection.",
+      "subtopics": [
+        "Discrete data: count, categorical, binary, textual",
+        "One-hot, label and ordinal encoding",
+        "Lexical and semantic text similarity",
+        "Exploring continuous data: line, box, heatmap, scatter plots",
+        "Min-max normalisation, log transformation, ratios, rolling windows",
+        "Feature selection: supervised and unsupervised; filter, wrapper, embedded"
+      ],
+      "lectures": [5]
+    },
+    {
+      "slug": "generalization-and-model-evaluation",
+      "title": "Generalization and Model Evaluation",
+      "summary": "A good model generalizes to unseen data, balancing bias (underfitting) against variance (overfitting). Data is split into training, validation and test sets or evaluated with k-fold cross-validation, and models are judged with metrics from the confusion matrix (accuracy, precision, recall, F1) or regression errors (MAE, MSE, RMSE, R²).",
+      "subtopics": [
+        "Bias, variance, underfitting, overfitting and the trade-off",
+        "Fixing underfitting and overfitting; regularization, dropout, early stopping",
+        "Training, validation and test sets",
+        "k-fold and stratified cross-validation",
+        "Confusion matrix, accuracy, precision, recall, F1, specificity, ROC and PR curves",
+        "Regression metrics: MAE, MSE, RMSE, R²"
+      ],
+      "lectures": [6, 9]
+    },
+    {
+      "slug": "neural-networks",
+      "title": "Neural Networks",
+      "summary": "An artificial neuron multiplies inputs by weights, adds a bias and passes the sum through an activation function, and a multilayer perceptron stacks input, hidden and output layers of such neurons. The network learns by a forward pass, a loss, backpropagation of gradients with the chain rule, and weight updates by an optimizer.",
+      "subtopics": [
+        "Biological and artificial neurons; the perceptron",
+        "Multilayer perceptron: input, hidden and output layers",
+        "Activation functions: sigmoid, tanh, ReLU; softmax and linear outputs",
+        "Cost functions: MSE, binary and categorical cross-entropy",
+        "Forward propagation and backpropagation",
+        "Optimizers and hyperparameters"
+      ],
+      "lectures": [7, 8]
+    }
+  ]
+}

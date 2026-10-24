@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which encoding converts each unique category into a binary vector?",
+    "options": [
+      {
+        "key": "a",
+        "text": "One-hot encoding"
+      },
+      {
+        "key": "b",
+        "text": "Label encoding"
+      },
+      {
+        "key": "c",
+        "text": "Ordinal encoding"
+      },
+      {
+        "key": "d",
+        "text": "Log transformation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One-hot encoding gives each category its own 0/1 column.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which encoding should be used for 'Poor', 'Fair', 'Good', 'Excellent'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ordinal encoding, because the categories have a natural order"
+      },
+      {
+        "key": "b",
+        "text": "One-hot encoding only"
+      },
+      {
+        "key": "c",
+        "text": "Log transformation"
+      },
+      {
+        "key": "d",
+        "text": "Min-max normalisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ordinal encoding preserves rank: Poor 0 < Fair 1 < Good 2 < Excellent 3.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using min-max normalisation on ages 18, 22, 25, 30 and 40, what does 40 become?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "0.55"
+      },
+      {
+        "key": "d",
+        "text": "40"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(40 − 18) / (40 − 18) = 1; the minimum maps to 0.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Semantic similarity can rate 'He bought a car' and 'He purchased an automobile' as highly similar even with no exact word overlap.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Semantic similarity compares meaning using embeddings such as Word2Vec or BERT.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are techniques for creating features from continuous data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Min-max normalisation"
+      },
+      {
+        "key": "b",
+        "text": "Log transformation"
+      },
+      {
+        "key": "c",
+        "text": "Rolling windows"
+      },
+      {
+        "key": "d",
+        "text": "Label encoding"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Label encoding is for categorical data; the others are continuous-data techniques.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the main purpose of a log transformation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To reduce skewness and compress large values"
+      },
+      {
+        "key": "b",
+        "text": "To encode text"
+      },
+      {
+        "key": "c",
+        "text": "To remove duplicate rows"
+      },
+      {
+        "key": "d",
+        "text": "To split data into folds"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is useful for highly skewed data such as income or population.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is an unsupervised feature selection method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Wrapper method"
+      },
+      {
+        "key": "b",
+        "text": "Embedded method"
+      },
+      {
+        "key": "c",
+        "text": "Filter method using the target"
+      },
+      {
+        "key": "d",
+        "text": "Principal component analysis"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "PCA needs no labels; wrapper, embedded and target-based filter methods are supervised.",
+    "source": "Feature_Engineering_in_ML.pdf; My CSC 572 Note1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Feature selection helps prevent learning from noise, improve accuracy and reduce training time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "These are the three reasons the lecture gives.",
+    "source": "Feature_Engineering_in_ML.pdf"
+  }
+]
