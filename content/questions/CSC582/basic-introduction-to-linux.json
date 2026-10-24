@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which command displays the absolute path of the current working directory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "pwd"
+      },
+      {
+        "key": "b",
+        "text": "ls"
+      },
+      {
+        "key": "c",
+        "text": "cd"
+      },
+      {
+        "key": "d",
+        "text": "mkdir"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "pwd prints the working directory.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Linux, Sanger, sanger and SANGER are the same file name.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Linux is case-sensitive, so they are three distinct files.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does an absolute path describe?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every parent directory from the root down to the file"
+      },
+      {
+        "key": "b",
+        "text": "The path from the current working directory"
+      },
+      {
+        "key": "c",
+        "text": "Only the file name"
+      },
+      {
+        "key": "d",
+        "text": "The path to the home directory only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An absolute path starts at the root /; a relative path starts at the working directory.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which commands manipulate directories?",
+    "options": [
+      {
+        "key": "a",
+        "text": "mkdir"
+      },
+      {
+        "key": "b",
+        "text": "rmdir"
+      },
+      {
+        "key": "c",
+        "text": "cd"
+      },
+      {
+        "key": "d",
+        "text": "Ctrl+C"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "mkdir, rmdir and cd (with pwd and ls) manipulate directories; Ctrl+C ends a running program.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What happens if you run rmdir on a directory that still contains files?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An error says 'Directory not empty'"
+      },
+      {
+        "key": "b",
+        "text": "The directory and its files are removed"
+      },
+      {
+        "key": "c",
+        "text": "The files are moved to home"
+      },
+      {
+        "key": "d",
+        "text": "The command renames the directory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "rmdir only removes empty directories; rm -r removes recursively.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which shell is the default on most Linux installations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bash"
+      },
+      {
+        "key": "b",
+        "text": "Python"
+      },
+      {
+        "key": "c",
+        "text": "PowerShell"
+      },
+      {
+        "key": "d",
+        "text": "Clustal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Bash is the default interactive shell on most Linux systems.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a Linux distribution named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ubuntu"
+      },
+      {
+        "key": "b",
+        "text": "Fedora/Red Hat"
+      },
+      {
+        "key": "c",
+        "text": "Mandriva"
+      },
+      {
+        "key": "d",
+        "text": "Solaris"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Solaris is a separate UNIX variety; the others are Linux distributions.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  },
+  {
+    "format": "true_false",
+    "stem": "Linux is a clone of the original UNIX but does not contain its code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Linux reimplements UNIX; it is free and open source.",
+    "source": "CSC 582 Weeks 9 and 10, Basic Introduction to Linux"
+  }
+]

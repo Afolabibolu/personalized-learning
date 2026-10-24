@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is an optimal alignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The alignment with the highest score, showing the most correspondences and fewest differences"
+      },
+      {
+        "key": "b",
+        "text": "Any alignment without gaps"
+      },
+      {
+        "key": "c",
+        "text": "An alignment of identical sequences only"
+      },
+      {
+        "key": "d",
+        "text": "The alignment found by BLAST"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An optimal alignment has the highest score; it may or may not be biologically meaningful.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reasons to align sequences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Discovering functional information"
+      },
+      {
+        "key": "b",
+        "text": "Predicting molecular structure"
+      },
+      {
+        "key": "c",
+        "text": "Discovering evolutionary relationships"
+      },
+      {
+        "key": "d",
+        "text": "Compressing files"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Similar sequences probably share function, structure and ancestry.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Changing ACGTTGAC to ACGATGAC is an example of which mutation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Substitution"
+      },
+      {
+        "key": "b",
+        "text": "Insertion"
+      },
+      {
+        "key": "c",
+        "text": "Deletion"
+      },
+      {
+        "key": "d",
+        "text": "Duplication"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One residue is replaced by another, a substitution.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "true_false",
+    "stem": "Similarity always implies homology.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Similarity does not imply homology, though homology usually implies similarity.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Sequences related through gene duplication events are called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Paralogous"
+      },
+      {
+        "key": "b",
+        "text": "Orthologous"
+      },
+      {
+        "key": "c",
+        "text": "Identical"
+      },
+      {
+        "key": "d",
+        "text": "Random"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Paralogs arise from gene duplication; orthologs arise from speciation.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which alignment type finds the best match between subsequences, useful for proteins sharing a motif or domain?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Local alignment"
+      },
+      {
+        "key": "b",
+        "text": "Global alignment"
+      },
+      {
+        "key": "c",
+        "text": "Distance alignment"
+      },
+      {
+        "key": "d",
+        "text": "Brute force alignment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Local alignment finds the best matching subsequences.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "true_false",
+    "stem": "About 25% amino acid identity is required to call protein homology, and about 70% nucleotide identity to call gene homology.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "These are the thresholds given in the lecture.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a cause of differences between sequences listed in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Insertion"
+      },
+      {
+        "key": "b",
+        "text": "Deletion"
+      },
+      {
+        "key": "c",
+        "text": "Substitution"
+      },
+      {
+        "key": "d",
+        "text": "Translation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Insertion, deletion and substitution change sequences during evolution.",
+    "source": "CSC 582 Weeks 6 and 7, Sequence Alignment"
+  }
+]

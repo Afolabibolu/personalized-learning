@@ -1,0 +1,25 @@
+{
+  "code": "CSC 582",
+  "papers": [
+    {"year": "2020/2021 (M.Sc.)", "paper": "M.Sc. paper, CSC 725 (from the 2020/21 session; only the page from Question 1(d) onward is in the file)", "source": "CSC 725 2020-21 (2).jpeg"},
+    {"year": "2018/2019 (M.Sc.)", "paper": "M.Sc. Degree Examinations, Second Semester (CSC 725: Programming Lab for Bioinformatics)", "source": "CSC725 Q 2021.pdf (same paper as CSC725 Q 2021.docx)"}
+  ],
+  "questions": [
+    {"year": "2020/2021 (M.Sc.)", "number": "1(d)", "marks": 4, "topic": "alignment-scoring-and-methods",
+     "text": "Global and local alignments are the main methods for sequence comparison, which are mostly defined by dynamic programming approach; identify and briefly explain one dynamic programming technique used for the methods respectively. 4marks"},
+    {"year": "2020/2021 (M.Sc.)", "number": "2", "marks": 15, "topic": "basic-introduction-to-linux",
+     "text": "a. How do you change permissions under Linux? 3marks\nb. In Linux file system:\ni. What is the maximum length for a filename under Linux and What are filenames that are preceded by a dot? 2marks\nii. What is grep command and How do you terminate an ongoing process? 2marks\nc. What are the kinds of permissions under Linux? 3marks\nd. What are environmental variables and list any three? 5marks"},
+    {"year": "2020/2021 (M.Sc.)", "number": "3", "marks": 15, "topic": "sequence-alignment-and-homology",
+     "text": "a. Define multiple sequence alignment (MSA) and explain its significance in bioinformatics. 5marks\nb. Describe the progressive alignment approach for constructing an MSA. Include the steps involved and the main challenges associated with progressive alignment. 5marks\nc. Describe MSA's five primary applications. 5marks"},
+    {"year": "2020/2021 (M.Sc.)", "number": "4", "marks": 15, "topic": "biological-databases-and-tools",
+     "text": "a. What is protein structure prediction, and why is it important in bioinformatics? Briefly explain the three main methods used for protein structure prediction. 6marks\nb. A significant computer strategy for predicting protein structure is homology modeling. Describe homology modeling and list its main prerequisites. 4marks\nc. Discuss the limitations and challenges in predicting protein structures using computational methods. Provide examples of techniques used to overcome these limitations. 5 Marks"},
+    {"year": "2018/2019 (M.Sc.)", "number": "1", "marks": 30, "topic": "alignment-scoring-and-methods",
+     "text": "a) Alignment refers to sequence comparison to find similarity level between query sequence and different database sequences. List 4 reasons why you may want to align sequences. 4marks\nb) Global and local alignments are the main methods for sequence comparison, which are mostly defined by dynamic programming approach; identify and briefly explain one dynamic programming technique used for the methods respectively. 4marks\nc) With the mathematical representation, state the steps involved in each of the dynamic programming types mentioned above. 6marks\nd) Find the best alignment of these two sequences: 8marks\nACATTCA\nACATCA\nUsing -2 as a gap penalty, -3 as a mismatch penalty, and 2 as the score for a match.\ne) Find the best local alignment between these two sequences: 8marks\nATCATCCCAC\nTCTATCCT\nUsing -2 as a gap penalty, -3 as a mismatch penalty, and 2 as the score for a match."},
+    {"year": "2018/2019 (M.Sc.)", "number": "2", "marks": 20, "topic": "biological-databases-and-tools",
+     "text": "a) Protein function can be understood in terms of its structure, explain the four levels of protein structure. 4marks\nb) Highlight 2 experimental methods of protein structure prediction. 1marks\nc) Homology modeling is an important computational approach to protein structure prediction. Define homology modeling and state the major requirements of this method. 3marks\nd) List the steps involved in homology modeling accordingly. 7marks\ne) Give 2 examples of computational tools used for homology modeling and mention 4 importance of them. 5marks"},
+    {"year": "2018/2019 (M.Sc.)", "number": "3", "marks": 20, "topic": "basic-introduction-to-linux",
+     "text": "a) In Linux file system, differentiate between the following:\ni. Home and Working directory 2marks\nii. Absolute and Relative path 2marks\nb) Describe 4 commands used to manipulate directory in Linux 4marks\nc) Describe any 4 wildcards in Linux 4marks\nd) Describe environment variable? 2marks\ne) Explain any 3 examples of environment variable 6marks"},
+    {"year": "2018/2019 (M.Sc.)", "number": "4", "marks": 20, "topic": "sequence-alignment-and-homology",
+     "text": "a) Multiple Sequence Alignment (MSA) is a major step to many molecular sequence analyses. State the 5 steps of building an informative multiple alignment. 5marks\nb) List 2 MSA computational tools you know. 2marks\nc) Explain 4 main criteria for building a MSA. 6marks\nd) Explain 5 main applications of MSA. 7½marks"}
+  ]
+}

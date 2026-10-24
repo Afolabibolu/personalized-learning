@@ -1,0 +1,214 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which three databases make up the International Nucleotide Sequence Database Collaboration (INSDC)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NCBI GenBank"
+      },
+      {
+        "key": "b",
+        "text": "EMBL-EBI"
+      },
+      {
+        "key": "c",
+        "text": "DDBJ"
+      },
+      {
+        "key": "d",
+        "text": "PDB"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "GenBank, EMBL-EBI and DDBJ are the three primary DNA sequence databases in the INSDC; PDB holds structures.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which protein database is reviewed and manually annotated?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SWISS-PROT"
+      },
+      {
+        "key": "b",
+        "text": "TrEMBL"
+      },
+      {
+        "key": "c",
+        "text": "GenBank"
+      },
+      {
+        "key": "d",
+        "text": "dbSNP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SWISS-PROT is reviewed and manually annotated; TrEMBL is unreviewed and automatically annotated.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the main primary database for 3-D structures of macromolecules from X-ray crystallography and NMR?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PDB (Protein Data Bank)"
+      },
+      {
+        "key": "b",
+        "text": "GEO"
+      },
+      {
+        "key": "c",
+        "text": "RefSeq"
+      },
+      {
+        "key": "d",
+        "text": "PubMed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The PDB holds atomic coordinates of 3-D structures determined by X-ray crystallography and NMR.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "true_false",
+    "stem": "Secondary DNA sequence databases such as RefSeq are derived from the primary databases and are curated and non-redundant.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Secondary databases are built from primary ones and are curated, non-redundant and richly annotated.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which database is the largest general database of genetic variations, including InDels?",
+    "options": [
+      {
+        "key": "a",
+        "text": "dbSNP"
+      },
+      {
+        "key": "b",
+        "text": "CATH"
+      },
+      {
+        "key": "c",
+        "text": "ArrayExpress"
+      },
+      {
+        "key": "d",
+        "text": "Pfam"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "dbSNP from NCBI is the largest general database for genetic variation.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a gene expression database?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GEO"
+      },
+      {
+        "key": "b",
+        "text": "Expression Atlas"
+      },
+      {
+        "key": "c",
+        "text": "ArrayExpress"
+      },
+      {
+        "key": "d",
+        "text": "SCOP"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "SCOP is a structural classification database; the others hold gene expression data.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tool is a sequence retrieval system that searches multiple databases such as GenBank and Swiss-Prot?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Entrez"
+      },
+      {
+        "key": "b",
+        "text": "Clustal"
+      },
+      {
+        "key": "c",
+        "text": "TACG2"
+      },
+      {
+        "key": "d",
+        "text": "Rasmol"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Entrez is NCBI's retrieval system across many databases.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which tools are used to compare or align sequences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "BLAST"
+      },
+      {
+        "key": "b",
+        "text": "FASTA"
+      },
+      {
+        "key": "c",
+        "text": "Clustal"
+      },
+      {
+        "key": "d",
+        "text": "SEQIO"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "BLAST and FASTA compare sequences to databases and Clustal aligns multiple sequences; SEQIO converts sequence formats.",
+    "source": "CSC 582 Week 4, Biological Databases & Tools"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who runs PubMed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The NCBI, as a service of the National Library of Medicine"
+      },
+      {
+        "key": "b",
+        "text": "Elsevier"
+      },
+      {
+        "key": "c",
+        "text": "Google"
+      },
+      {
+        "key": "d",
+        "text": "EMBL-EBI"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "PubMed is a bibliographic database run by the NCBI, a service of the NLM.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What are MeSH terms?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Medical Subject Headings, the NLM's controlled vocabulary"
+      },
+      {
+        "key": "b",
+        "text": "A sequence alignment format"
+      },
+      {
+        "key": "c",
+        "text": "A type of Linux command"
+      },
+      {
+        "key": "d",
+        "text": "Protein family identifiers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MeSH is the set of controlled vocabulary terms the NLM uses to index articles.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "true_false",
+    "stem": "MeSH terms are assigned by subject specialists who read articles, so articles on the same subject are grouped together whatever words the authors used.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is the purpose of the controlled vocabulary.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reasons given for using PubMed/MEDLINE?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Comprehensive, current information"
+      },
+      {
+        "key": "b",
+        "text": "Literature from credible sources"
+      },
+      {
+        "key": "c",
+        "text": "Controlled vocabulary for indexing and searching"
+      },
+      {
+        "key": "d",
+        "text": "It only covers engineering journals"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "PubMed is comprehensive, credible and uses a controlled vocabulary; it covers biomedical literature.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which resource is described as the largest abstract and citation database of peer-reviewed literature?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Scopus"
+      },
+      {
+        "key": "b",
+        "text": "Google Scholar"
+      },
+      {
+        "key": "c",
+        "text": "eBlast"
+      },
+      {
+        "key": "d",
+        "text": "PubMed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scopus is the largest abstract and citation database across all scientific domains.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the first step in a literature search?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Know clearly what information you are looking for"
+      },
+      {
+        "key": "b",
+        "text": "Choose a journal to publish in"
+      },
+      {
+        "key": "c",
+        "text": "Download every result"
+      },
+      {
+        "key": "d",
+        "text": "Run BLAST on the topic"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Start by knowing what you want; then break the question into keywords.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a biomedical literature resource from the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PubMed"
+      },
+      {
+        "key": "b",
+        "text": "eBlast"
+      },
+      {
+        "key": "c",
+        "text": "ScienceDirect"
+      },
+      {
+        "key": "d",
+        "text": "Clustal"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Clustal is a multiple sequence alignment tool, not a literature resource.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval; CSC 582 Week 4, Biological Databases & Tools"
+  },
+  {
+    "format": "true_false",
+    "stem": "Because most literature is now available electronically, it is always easy to retrieve.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The lecture notes that electronic availability does not make the literature easier to retrieve.",
+    "source": "CSC 582 Week 5, Information Search & Retrieval"
+  }
+]

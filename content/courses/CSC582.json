@@ -1,0 +1,78 @@
+{
+  "code": "CSC 582",
+  "title": "Bioinformatics",
+  "description": "Biological databases and tools, searching the biomedical literature, sequence alignment and homology, alignment scoring and methods, and a basic introduction to Linux for bioinformatics work.",
+  "is_reviewed": false,
+  "topics": [
+    {
+      "slug": "biological-databases-and-tools",
+      "title": "Biological Databases and Tools",
+      "summary": "Biological databases organise data such as nucleotide and protein sequences, genomes, structures, genetic variation and gene expression, in primary and secondary forms. Tools such as Entrez, BLAST, FASTA and Clustal search and compare that data, mostly through NCBI and EMBL-EBI.",
+      "subtopics": [
+        "Types of database: public or private, generalised or specialised, curated or not",
+        "Nucleotide databases: GenBank, EMBL-EBI, DDBJ (INSDC); RefSeq, UniGene",
+        "Protein databases: PIR, SWISS-PROT, TrEMBL; PROSITE, Pfam",
+        "Genome, structural (PDB, CATH, SCOP), variation (dbSNP) and expression (GEO) databases",
+        "Tools: Entrez, BLAST, FASTA, Dotplot, Clustal, EMBOSS",
+        "Resources: NCBI and EMBL-EBI"
+      ],
+      "lectures": [4]
+    },
+    {
+      "slug": "information-search-and-retrieval",
+      "title": "Information Search and Retrieval",
+      "summary": "Searching the literature is an essential and often difficult part of research, made easier by resources such as PubMed, eBlast, Google Scholar, Scopus and ScienceDirect. PubMed searches are sharpened by breaking the question into keywords and using MeSH, the NLM's controlled vocabulary.",
+      "subtopics": [
+        "Why literature searching matters",
+        "PubMed and MEDLINE",
+        "eBlast, Google Scholar, Scopus, ScienceDirect",
+        "Why use PubMed",
+        "Steps in a literature search",
+        "MeSH terms"
+      ],
+      "lectures": [5]
+    },
+    {
+      "slug": "sequence-alignment-and-homology",
+      "title": "Sequence Alignment and Homology",
+      "summary": "Sequence alignment arranges two or more DNA, RNA or protein sequences, preserving their order, to show where they are similar and where they differ. Similarity can suggest shared function, structure and ancestry (homology), with orthologs arising from speciation and paralogs from gene duplication.",
+      "subtopics": [
+        "What sequence alignment is; optimal alignment",
+        "Why align: function, structure, evolution, annotation",
+        "Mutations: insertion, deletion, substitution; gaps",
+        "Identity, similarity and homology",
+        "Orthologous and paralogous sequences",
+        "Pairwise, multiple, global and local alignment"
+      ],
+      "lectures": [6]
+    },
+    {
+      "slug": "alignment-scoring-and-methods",
+      "title": "Alignment Scoring and Methods",
+      "summary": "An alignment is scored column by column, rewarding matches and penalising mismatches and gaps, using either distance scoring (lowest is best) or similarity scoring (highest is best). Alignments are found by brute force, dot plots, dynamic programming (Needleman–Wunsch, Smith–Waterman) or heuristics (BLAST, FASTA).",
+      "subtopics": [
+        "Scoring schemes: substitution scores and gap penalties",
+        "Distance scoring and its use in phylogenetic trees",
+        "Similarity scoring and its use in database searching",
+        "Brute force and the dot matrix method",
+        "Dynamic programming: Needleman–Wunsch (global), Smith–Waterman (local)",
+        "Heuristic methods: BLAST and FASTA"
+      ],
+      "lectures": [7]
+    },
+    {
+      "slug": "basic-introduction-to-linux",
+      "title": "Basic Introduction to Linux",
+      "summary": "Linux is a free, open-source clone of UNIX, used from a terminal running a shell such as Bash. Files sit in a hierarchy under the root /, reached by absolute or relative paths and managed with commands such as pwd, ls, cd, mkdir, rmdir, cp, mv and rm.",
+      "subtopics": [
+        "UNIX and Linux; why Linux; distributions",
+        "The terminal and the shell (Bash)",
+        "The UNIX file system; home and working directory",
+        "Absolute and relative paths; ~, . and ..",
+        "Directory commands: pwd, ls, mkdir, cd, rmdir",
+        "File commands cp, mv, rm; shortcuts and man pages"
+      ],
+      "lectures": [9, 10]
+    }
+  ]
+}
