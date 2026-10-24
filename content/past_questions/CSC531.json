@@ -1,72 +1,545 @@
 {
-  "code": "CSC 531",
-  "papers": [
-    {"year": "2023/2024", "paper": "B.Sc. Degree Examinations, First Semester (CSC 531)", "source": "CSC 531(2023_2024).pdf"},
-    {"year": "2020/2021", "paper": "M.Sc. Degree Examinations, Second Semester (CSC 777/MBC 738: Human Computer Interaction)", "source": "HCI 2020-21.jpeg, HCI 2020-21 (2).jpeg, HCI 2020-21 (3).jpeg"},
-    {"year": "2021/2022", "paper": "M.Sc. Degree Examinations, Second Semester (MSC 777/MBC 738: Human Computer Interaction)", "source": "HCI 2021-22.jpeg, HCI 2021-22 (2).jpeg, HCI 2021-22 (3).jpeg"}
-  ],
-  "questions": [
-    {"year": "2023/2024", "number": "1(a)", "marks": 6, "topic": "user-centred-design", "text": "How does the concept of human-centered design in HCI challenge traditional approaches to technology development? What are the key benefits and limitations of using human-centered design?"},
-    {"year": "2023/2024", "number": "1(b)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "You are tasked with improving the user interface of an e-commerce website that customers have reported as difficult to use. Describe the steps you would take to identify the problem areas and propose solutions based on HCI principles."},
-    {"year": "2023/2024", "number": "1(c)", "marks": 4, "topic": "cognitive-psychology", "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project. (Ensure to include your group title and a brief of what it's all about)"},
-    {"year": "2023/2024", "number": "1(d)", "marks": 6, "topic": "data-gathering-and-analysis", "text": "For each of the following products, consider what kinds of data gathering technique(s) would be appropriate with justification. Assume that product development is just starting and that there is sufficient time and resources to use any of the techniques. i. A new software app to support a small organic produce shop. There is a system running already with which the users are reasonably happy, but it is looking dated and needs upgrading. ii. An innovative device for diabetes sufferers to help them record and monitor their blood sugar levels. iii. An ecommerce website that sells fashion clothing for young people."},
-    {"year": "2023/2024", "number": "2(a)", "marks": 10, "topic": "prototyping-and-evaluation", "text": "Using Heuristic evaluation by Jakob Neilson, evaluate a well-known software or application that you consider having poor usability. (i) identify specific usability issues (ii) suggest improvements based on HCI principles."},
-    {"year": "2023/2024", "number": "2(b) a–c", "marks": null, "topic": "data-gathering-and-analysis", "text": "What is the difference between the following: a. quantitative and qualitative analysis b. Likert and semantic differential scale c. direct and indirect observation"},
-    {"year": "2023/2024", "number": "2(b) d", "marks": null, "topic": "hci-and-usability", "text": "What is the difference between the following: d. HCI and Software Engineering"},
-    {"year": "2023/2024", "number": "2(b) e", "marks": null, "topic": "user-centred-design", "text": "What is the difference between the following: e. Personas and Storyboard"},
-    {"year": "2023/2024", "number": "3(a)", "marks": 4, "topic": "hci-and-usability", "text": "Discuss extensively how banks can overcome the problem of providing a secure system while making the memory load easier for people wanting to use online and mobile phone banking?"},
-    {"year": "2023/2024", "number": "3(b)", "marks": 4, "topic": "data-gathering-and-analysis", "text": "In an experiment to determine which user interface (command-line, desktop metaphor, or virtual environment) allows users to perform their task quickest, what might the following be: (i) The independent variables and their levels (ii) The dependent variables. Justify your response."},
-    {"year": "2023/2024", "number": "3(c)", "marks": 5, "topic": "hci-and-usability", "text": "Consider the challenges of designing for low-literacy populations or users with limited technological experience. Discuss extensively how HCI principles can be applied to create an interface that is intuitive and usable for such groups?"},
-    {"year": "2023/2024", "number": "3(d)", "marks": 2, "topic": "hci-and-usability", "text": "Describe in detail the role of a UX researcher"},
-    {"year": "2023/2024", "number": "4(a)", "marks": 7, "topic": "data-gathering-and-analysis", "text": "The developers of a new device for reading books online want to find out how appealing it will be to young people aged 16–18, so they have decided to conduct some interviews. i. What is the goal of this data gathering session? ii. Suggest the most preferred way(s) of recording the interview data. Justify your response. iii. Suggest a set of questions for use in an unstructured interview that seeks to understand the appeal of reading books online to young people in the 16–18-year-old age group."},
-    {"year": "2023/2024", "number": "4(b)", "marks": 3, "topic": "hci-and-usability", "text": "What is usability, and why is it important in HCI?"},
-    {"year": "2023/2024", "number": "4(c)", "marks": 5, "topic": "prototyping-and-evaluation", "text": "XYZ organization has a product which is well thriving and widely-used for over a decade. Would such a product require usability study? Explain this extensively and support your answer with relevant illustrations or real-life examples."},
-    {"year": "2023/2024", "number": "5(a)", "marks": 6, "topic": "data-gathering-and-analysis", "text": "The data in the following table represents the time taken for a group of users to select and buy an item from an online shopping website. Generate a bar graph and a scatter diagram to provide an overall view of the data. From this representation, make two initial observations about the data that might form the basis of further investigation.\n\n| User | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Time | 15 | 10 | 12 | 10 | 14 | 13 | 11 | 18 | 10 | 17 | 20 | 15 | 18 | 24 | 12 | 16 | 18 | 20 | 26 |"},
-    {"year": "2023/2024", "number": "5(b)", "marks": 3, "topic": "user-centred-design", "text": "It's often tempting to start the design of an interactive product from the design of its interface. Discuss in detail what yielding to this temptation would result into."},
-    {"year": "2023/2024", "number": "5(c)", "marks": 3, "topic": "user-centred-design", "text": "Who are the stakeholders for an electricity smart meter for use in the home to help households control their energy consumption?"},
-    {"year": "2023/2024", "number": "5(d)", "marks": 3, "topic": "prototyping-and-evaluation", "text": "Explain why both summative and formative evaluations are needed in the development of interactive computer systems?"},
-
-    {"year": "2020/2021", "number": "1(a)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "XYZ organization has a product which is well thriving and widely-used for over a decade. Would such a product require usability study? Explain this extensively."},
-    {"year": "2020/2021", "number": "1(b)", "marks": 4, "topic": "hci-and-usability", "text": "Describe in detail the role of a UX researcher and the research/technical skills they require/use."},
-    {"year": "2020/2021", "number": "1(c)", "marks": 5, "topic": "prototyping-and-evaluation", "text": "What aspects would you want to evaluate for the following systems: (a) personal music player (e.g. a smartphone app) (b) a website for selling clothes"},
-    {"year": "2020/2021", "number": "1(d)", "marks": 4, "topic": "user-centred-design", "text": "It's often tempting to start the design of an interactive product from the design of its interface. Discuss in detail what yielding to this temptation would result into."},
-    {"year": "2020/2021", "number": "1(e)", "marks": 6, "topic": "data-gathering-and-analysis", "text": "An interactive device was tested by a group of potential users. Each user was asked to perform a certain task on the device. The following table shows the task completion times (in minutes) on the device.\n\n| User | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Time | 15 | 10 | 12 | 10 | 14 | 13 | 11 | 18 | 10 | 17 |\n\nDraw a scatter diagram to give you an overall view of the data. Then make initial observations and discuss if there are observations that might need further investigation."},
-    {"year": "2020/2021", "number": "1(f)", "marks": 4, "topic": "data-gathering-and-analysis", "text": "In an experiment to determine which user interface (command-line, desktop metaphor, or virtual environment) allows users to perform their task quickest, what might the following be: (i) The independent variables and their levels (ii) The dependent variables. Justify your response."},
-    {"year": "2020/2021", "number": "1(g)", "marks": 3, "topic": "data-gathering-and-analysis", "text": "Spot three poorly designed features in the questionnaire in Figure 1. [Figure 1, a questionnaire with poorly designed features, is in the original paper.]"},
-    {"year": "2020/2021", "number": "2(a)", "marks": 4, "topic": "hci-and-usability", "text": "Imagine you are the technical director of an electronic company that makes a wide range of product including home entertainment systems, safety-critical systems and business productivity tools. You wish to persuade the board of directors that they should employ a number of Human Factors people. Write some outline notes of the presentation you would make to the next board meeting."},
-    {"year": "2020/2021", "number": "2(b)", "marks": 2, "topic": "cognitive-psychology", "text": "What is meant by a 'gestalt,' illustrating your answer with an example?"},
-    {"year": "2020/2021", "number": "2(c)", "marks": 4, "topic": "cognitive-psychology", "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project. (Ensure to include your group nos/title)"},
-    {"year": "2020/2021", "number": "2(d)", "marks": 3, "topic": "user-centred-design", "text": "In practice, the makeup of a given design team depends on the kind of interactive product being built. Who do you think should be involved in developing an interactive educational website to accompany a TV series?"},
-    {"year": "2020/2021", "number": "2(e)", "marks": 3, "topic": "prototyping-and-evaluation", "text": "What is a prototype? Discuss briefly the 2 types of prototype"},
-    {"year": "2020/2021", "number": "2(f)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "A company is developing a new car seat to monitor if a person starts to fall asleep when driving and to provide a wake-up call using olfactory and haptic feedback. Where would you evaluate it?"},
-    {"year": "2020/2021", "number": "3(a)", "marks": 6, "topic": "prototyping-and-evaluation", "text": "UXer Company has hired you as a UX researcher to carry out a usability study on the high fidelity prototype of a product. Discuss the pros and cons of using the following methods to determine if the prototype is usable: Think Aloud and Walkthrough; Questionnaire"},
-    {"year": "2020/2021", "number": "3(b)", "marks": 5, "topic": "data-gathering-and-analysis", "text": "Why is a pilot study necessary? Explain how pilot study was used in your HCI project and discuss the gains benefitted from using it. (Remember to include your project number and title)"},
-    {"year": "2020/2021", "number": "3(c)", "marks": 6, "topic": "conceptual-models-and-ideation", "text": "A modern hotel has installed a sandwich making robot to supply room service sandwiches at any hour of the day. The hotel also has an automated delivery system that will take the completed sandwich to a specified room. You have been asked to program a software agent interface that guests can phone to order sandwiches. Would you use a voice recognition system or ask the user to push phone buttons to enter responses? Explain the relative advantages and disadvantages of each for this particular situation."},
-    {"year": "2020/2021", "number": "3(d)", "marks": 3, "topic": "hci-and-usability", "text": "What is the difference between the following: (i) HCI and User Experience (ii) HCI and Software Engineering (iii) Personas and Storyboard (iv) UX Methods and UX Tools"},
-    {"year": "2020/2021", "number": "4(a)", "marks": 5, "topic": "prototyping-and-evaluation", "text": "Come up with a graphical representation of the following Hierarchical Task Analysis (HTA): 0. In order to buy a DVD 1. locate DVD 2. add DVD to shopping basket 3. enter payment details 4. complete address 5. confirm order plan 0: If regular user do 1-2-5. If new user do 1-2-3-4-5."},
-    {"year": "2020/2021", "number": "4(b)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "Discuss how talk-aloud and cognitive walk-through can be used for evaluation of high-fidelity prototype."},
-    {"year": "2020/2021", "number": "4(c)", "marks": 5, "topic": "data-gathering-and-analysis", "text": "Spot all the design errors in the questionnaire in figure 3 and re-design the questionnaire. [Figure 3, a poorly designed questionnaire, is in the original paper.]"},
-    {"year": "2020/2021", "number": "4(d)", "marks": 3, "topic": "data-gathering-and-analysis", "text": "Why is a combination of ethnography and prototyping useful for the requirements elicitation process?"},
-    {"year": "2020/2021", "number": "4(e)", "marks": 3, "topic": "hci-and-usability", "text": "In not more than 100 words, explain the meaning of the sentence \"You can't design a user experience, you rather design for a user experience\"."},
-
-    {"year": "2021/2022", "number": "1 A(i)", "marks": 4, "topic": "hci-and-usability", "text": "What contributions do you think each of the following professionals can bring into the field of HCI: Sociologist and Computer Scientist"},
-    {"year": "2021/2022", "number": "1 A(ii)", "marks": 5, "topic": "user-centred-design", "text": "What is meant by user-centered design? How does evaluation fit into a user-centered design life-cycle?"},
-    {"year": "2021/2022", "number": "1 A(iii)", "marks": 6, "topic": "conceptual-models-and-ideation", "text": "Compare the following: a paperback book and an ebook; What are the main concepts and metaphors that have been used for each (think about the way time is conceptualized for each of them)? What aspects of the paper-based artifact have informed the digital app? How do they differ? What is the new functionality?"},
-    {"year": "2021/2022", "number": "1 A(iv)", "marks": 4, "topic": "hci-and-usability", "text": "Consider figure 1, which is good or poor design? Elaborate and justify your response. [Figure 1, two certificate designs, is in the original paper.]"},
-    {"year": "2021/2022", "number": "1 B(i)", "marks": 4, "topic": "conceptual-models-and-ideation", "text": "Ideation typically leads to various ideas or approaches to solving a problem. Discuss briefly all the ideas that emanated during/after the phase 1 of your HCI project. Further discuss how these ideas were resolved or fine-tuned putting emphasis on the techniques used for resolution of ideas."},
-    {"year": "2021/2022", "number": "1 B(ii)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "Typically, heuristics evaluation such as that of Jakob Neilsen are used to evaluate low-fidelity prototype from expert perspective. Discuss the outcomes of the heuristic evaluation of the low-fidelity prototype of your HCI project and the refinement that was made after evaluation."},
-    {"year": "2021/2022", "number": "1 B(iii)", "marks": 3, "topic": "cognitive-psychology", "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project."},
-    {"year": "2021/2022", "number": "2(a)", "marks": 10, "topic": "data-gathering-and-analysis", "text": "Design an experiment to determine which sounds users prefer to use as email arrival notification (e.g. a simple beep, a duck quaking, someone coughing, a trumpet etc.). Extend this experiment to consider what visual notification they prefer - none, a flashing icon, or a dialogue box. Think about the hypotheses and variables, and suitable people to act as subjects. Consider how you could make the experiment more general so that any member of the public could complete it. Also, discuss how this would feed into the design of email programs. From your experiment design, answer the following questions: (1) What would be the hypotheses? (2) What would be the dependent and independent variables? (3) What kind of users would you consider and why? (4) Which type of data gathering instrument would you use for the experiment and why? (5) What kind of questions would you ask users?"},
-    {"year": "2021/2022", "number": "2(b)", "marks": 6, "topic": "user-centred-design", "text": "In practice, the makeup of a given design team depends on the kind of interactive product being built. Who do you think should be involved in developing: 1. A public interactive display providing information about the exhibits available in a science museum? 2. An interactive educational website to accompany a TV series?"},
-    {"year": "2021/2022", "number": "2(c)", "marks": 4, "topic": "hci-and-usability", "text": "Argue for or against this statement/expression \"HCI! = Usability\""},
-    {"year": "2021/2022", "number": "3(a)–(b)", "marks": 6, "topic": "conceptual-models-and-ideation", "text": "(a) What is a storyboard? (1 Mark) (b) Draw a storyboard for a user interaction/process with an ATM. (5 marks)"},
-    {"year": "2021/2022", "number": "3(c)", "marks": 6, "topic": "hci-and-usability", "text": "Discuss 3 cultural factors that influence technology adoption and usage."},
-    {"year": "2021/2022", "number": "3(d)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "Shneiderman (1998) devised Eight Golden Rules for interface design. List 4 of these rules and give an example of each rule."},
-    {"year": "2021/2022", "number": "3(e)", "marks": 4, "topic": "cognitive-psychology", "text": "Consider the design in figure 2 which is intended to help users know the available type of hotels in a given city, the room type, contact number and prices based on room type. Identify what is wrong with the design. How can it be corrected and redraw it. [Figure 2, a hotel accommodation display, is in the original paper.]"},
-    {"year": "2021/2022", "number": "4(a)", "marks": 4, "topic": "hci-and-usability", "text": "African Lady booked a return ticket to fly from Benin to Ibadan for Christmas holiday using an online e-commerce site. She was impressed by the cheapness of the ticket and the fact that all the booking was done electronically. At the check point, on the day she was expected to embark on the journey, the airline representative said, \"You do know that you are flying back from Benin to Sokoto, don't you?\". She felt sad and let down. How would you redesign the online booking Web site interactions to avoid such problems?"},
-    {"year": "2021/2022", "number": "4(b)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "What is the difference between summative and formative evaluation? Why are both needed in the development of interactive computer systems?"},
-    {"year": "2021/2022", "number": "4(c)", "marks": 4, "topic": "data-gathering-and-analysis", "text": "Imagine you are a consultant who is employed to help develop a new computerized garden planning tool to be used by amateur and professional garden designers. Your goal is to find out how garden designers use an early prototype as they walk around their clients' gardens sketching design ideas, taking notes, and asking the clients about what they like and how they and their families use the garden. What type of data recording approach(es) would you recommend for this environment? Justify the reason for your choice(s) over others."},
-    {"year": "2021/2022", "number": "4(d)", "marks": 4, "topic": "data-gathering-and-analysis", "text": "What is the difference between the following: (i) quantitative and qualitative analysis (ii) probability sampling and non-probability sampling (iii) Likert and semantic differential scale (iv) direct and indirect observation"},
-    {"year": "2021/2022", "number": "4(e)", "marks": 4, "topic": "prototyping-and-evaluation", "text": "What are the system/design requirements of your HCI project? Develop a standard task for the evaluation of the high fidelity prototype of your group project. (Remember to include your project number and title)."}
-  ]
+ "code": "CSC 531",
+ "papers": [
+  {
+   "year": "2024/2025",
+   "paper": "B.Sc. Degree Examinations, First Semester (CSC 531: Human Computer Interaction)",
+   "source": "500 LEVEL 1ST SEMESTER PAST QUESTIONS 20242025 SESSION .pdf, pages 3–4"
+  },
+  {
+   "year": "2023/2024",
+   "paper": "B.Sc. Degree Examinations, First Semester (CSC 531)",
+   "source": "CSC 531(2023_2024).pdf"
+  },
+  {
+   "year": "2020/2021",
+   "paper": "M.Sc. Degree Examinations, Second Semester (CSC 777/MBC 738: Human Computer Interaction)",
+   "source": "HCI 2020-21.jpeg, HCI 2020-21 (2).jpeg, HCI 2020-21 (3).jpeg"
+  },
+  {
+   "year": "2021/2022",
+   "paper": "M.Sc. Degree Examinations, Second Semester (MSC 777/MBC 738: Human Computer Interaction)",
+   "source": "HCI 2021-22.jpeg, HCI 2021-22 (2).jpeg, HCI 2021-22 (3).jpeg"
+  }
+ ],
+ "questions": [
+  {
+   "year": "2024/2025",
+   "number": "1(a)",
+   "marks": 5,
+   "topic": "user-centred-design",
+   "text": "Congratulations! You have just been hired as a Human-Computer Interaction (HCI) researcher by a tech company that has focused solely on web development for the past 10 years. The organization has never had a dedicated design or UI/UX team and is currently staffed with only web developers and front-end engineers. As your first assignment, you are asked to draft a plan to discuss key steps and strategies you will take to transform the organization from a design and usability perspective. 5 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "1(b)",
+   "marks": 6,
+   "topic": "prototyping-and-evaluation",
+   "text": "You have been asked to design a simple digital interface for a new Telecom Company in a semi-urban area in Nigeria to enable its customers to recharge their account. Many of the users may have limited literacy or digital experience, and some may speak primarily local languages such as Yoruba, Hausa, or Igbo. Sketch and describe the layout and key features of your interface. Document the various HCI design principles you took into consideration. 6 Marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "1(c)",
+   "marks": 5,
+   "topic": "prototyping-and-evaluation",
+   "text": "You conducted a usability test with 10 users. Here is a summary of the results:\n○ Average time to complete Task A: 2.5 minutes\n○ Task A completion rate: 90%\n○ 3 users reported confusion about navigation\n(i) What does this data suggest about Task A? 2 Marks\n(ii) What further steps would you take to improve the interface and validate your findings? 3 Marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "1(d)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "In a startup with limited resources, how might one person play multiple HCI-related roles? Provide one example scenario. 4 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "2(a)",
+   "marks": 6,
+   "topic": "user-centred-design",
+   "text": "A community leader has approached you about various emerging problems affecting his community and has asked for your advice on how technology can be used to address them. In addition, he would like to know which problem to start with. As a HCI researcher, how will you approach this situation? What would be your advice in terms of applying technology appropriately? What criteria would you use to help the leader decide which problem to start with? Ensure you discuss this from the HCI perspective using appropriate terminologies and principles. 6 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "2(b)",
+   "marks": 3,
+   "topic": "user-centred-design",
+   "text": "Who are the primary users, secondary users and tertiary users for an electricity smart meter for use in the home to help households control their energy consumption? 3 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "2(c)",
+   "marks": 6,
+   "topic": "cognitive-psychology",
+   "text": "You have been tasked with designing the homepage of a local library mobile app that allows users to browse books, view events, and reserve seats. Sketch a simple interface layout for the homepage that applies at least three Gestalt principles to improve usability and visual clarity. Clearly label each part of the layout and indicate which Gestalt principle(s) you are applying and where. 6 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "3(a)",
+   "marks": 6,
+   "topic": "user-centred-design",
+   "text": "You joined a UX team working on a food delivery app for university students. The previous team created a persona named \"Busy Ade,\" a 25-year-old PhD student who orders food late at night due to his tight schedule. However, some stakeholders are questioning whether the persona is truly representative.\n(i) What characteristics make a persona effective and realistic? 1 mark\n(ii) What methods could you use to validate whether \"Busy Ben\" is an accurate persona? 3 marks\n(iii) If the persona proves inaccurate, what are the potential risks to the product design? 2 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "3(b)",
+   "marks": 9,
+   "topic": "data-gathering-and-analysis",
+   "text": "You conducted a user survey with 50 participants about a mobile health app. One of the questions on 5 Likert scale was: \"I find the app easy to navigate.\". Result is as follows - Strongly Agree: 10, Agree: 15, Neutral: 12, Disagree: 8, Strongly Disagree: 5\ni) Represent the data in a bar chart and interpret the trend. 4 marks\nii) What conclusions can be drawn about the app's usability? 2 marks\niii) What will you suggest as the next plan? Give at least 3 points 3 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "4(a)",
+   "marks": 9,
+   "topic": "hci-and-usability",
+   "text": "A popular social media platform has received criticism for causing user addiction, anxiety, and negative self-esteem due to excessive engagement, infinite scrolling, and algorithm-driven content. From an HCI perspective, discuss 3 various ways on how the platform can be redesigned to improve digital well-being while maintaining user engagement? Discuss this extensively. 9 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "4(b)",
+   "marks": 6,
+   "topic": "data-gathering-and-analysis",
+   "text": "What is the difference between the following 6 marks\n(i) quantitative and qualitative analysis\n(ii) probability sampling and non-probability sampling\n(iii) formative and summative evaluation\n(iv) direct and indirect observation\n(v) UX Methods and UX Tools\n(vi) HCI and Software Engineering"
+  },
+  {
+   "year": "2024/2025",
+   "number": "5(a)",
+   "marks": 6,
+   "topic": "data-gathering-and-analysis",
+   "text": "Two user groups, students and lecturers were asked to complete the same set of tasks on a new university course registration system. Students completed the tasks in 4.2 minutes on average, while lecturers took 6.8 minutes.\ni) identify and explain two possible reasons for this performance difference 3 marks\nii) suggest and explain two types of data you would collect or investigations you would conduct to better understand the reasons behind this difference. 3 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "5(b)",
+   "marks": 6,
+   "topic": "prototyping-and-evaluation",
+   "text": "African Lady booked a return ticket to fly from Benin to Ibadan for Christmas holiday using an online e-commerce site. She was impressed by the cheapness of the ticket and the fact that all the booking was done electronically. At the check point, on the day she was expected to embark on the journey, the airline representative said, \"You do know that you are flying back from Benin to Sokoto, don't you?\". She felt sad and let down. Which of the Neilsen evaluation heuristics is/are likely to have been violated in the design of the system? Ensure you list all violated heuristics in this scenario and justify your response extensively using HCI reasoning. 6 marks"
+  },
+  {
+   "year": "2024/2025",
+   "number": "5(c)",
+   "marks": 3,
+   "topic": "prototyping-and-evaluation",
+   "text": "Describe 3 situations in which a paper prototype would be preferred over high-fidelity prototype. 3 marks"
+  },
+  {
+   "year": "2023/2024",
+   "number": "1(a)",
+   "marks": 6,
+   "topic": "user-centred-design",
+   "text": "How does the concept of human-centered design in HCI challenge traditional approaches to technology development? What are the key benefits and limitations of using human-centered design?"
+  },
+  {
+   "year": "2023/2024",
+   "number": "1(b)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "You are tasked with improving the user interface of an e-commerce website that customers have reported as difficult to use. Describe the steps you would take to identify the problem areas and propose solutions based on HCI principles."
+  },
+  {
+   "year": "2023/2024",
+   "number": "1(c)",
+   "marks": 4,
+   "topic": "cognitive-psychology",
+   "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project. (Ensure to include your group title and a brief of what it's all about)"
+  },
+  {
+   "year": "2023/2024",
+   "number": "1(d)",
+   "marks": 6,
+   "topic": "data-gathering-and-analysis",
+   "text": "For each of the following products, consider what kinds of data gathering technique(s) would be appropriate with justification. Assume that product development is just starting and that there is sufficient time and resources to use any of the techniques. i. A new software app to support a small organic produce shop. There is a system running already with which the users are reasonably happy, but it is looking dated and needs upgrading. ii. An innovative device for diabetes sufferers to help them record and monitor their blood sugar levels. iii. An ecommerce website that sells fashion clothing for young people."
+  },
+  {
+   "year": "2023/2024",
+   "number": "2(a)",
+   "marks": 10,
+   "topic": "prototyping-and-evaluation",
+   "text": "Using Heuristic evaluation by Jakob Neilson, evaluate a well-known software or application that you consider having poor usability. (i) identify specific usability issues (ii) suggest improvements based on HCI principles."
+  },
+  {
+   "year": "2023/2024",
+   "number": "2(b) a–c",
+   "marks": null,
+   "topic": "data-gathering-and-analysis",
+   "text": "What is the difference between the following: a. quantitative and qualitative analysis b. Likert and semantic differential scale c. direct and indirect observation"
+  },
+  {
+   "year": "2023/2024",
+   "number": "2(b) d",
+   "marks": null,
+   "topic": "hci-and-usability",
+   "text": "What is the difference between the following: d. HCI and Software Engineering"
+  },
+  {
+   "year": "2023/2024",
+   "number": "2(b) e",
+   "marks": null,
+   "topic": "user-centred-design",
+   "text": "What is the difference between the following: e. Personas and Storyboard"
+  },
+  {
+   "year": "2023/2024",
+   "number": "3(a)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "Discuss extensively how banks can overcome the problem of providing a secure system while making the memory load easier for people wanting to use online and mobile phone banking?"
+  },
+  {
+   "year": "2023/2024",
+   "number": "3(b)",
+   "marks": 4,
+   "topic": "data-gathering-and-analysis",
+   "text": "In an experiment to determine which user interface (command-line, desktop metaphor, or virtual environment) allows users to perform their task quickest, what might the following be: (i) The independent variables and their levels (ii) The dependent variables. Justify your response."
+  },
+  {
+   "year": "2023/2024",
+   "number": "3(c)",
+   "marks": 5,
+   "topic": "hci-and-usability",
+   "text": "Consider the challenges of designing for low-literacy populations or users with limited technological experience. Discuss extensively how HCI principles can be applied to create an interface that is intuitive and usable for such groups?"
+  },
+  {
+   "year": "2023/2024",
+   "number": "3(d)",
+   "marks": 2,
+   "topic": "hci-and-usability",
+   "text": "Describe in detail the role of a UX researcher"
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(a)",
+   "marks": 7,
+   "topic": "data-gathering-and-analysis",
+   "text": "The developers of a new device for reading books online want to find out how appealing it will be to young people aged 16–18, so they have decided to conduct some interviews. i. What is the goal of this data gathering session? ii. Suggest the most preferred way(s) of recording the interview data. Justify your response. iii. Suggest a set of questions for use in an unstructured interview that seeks to understand the appeal of reading books online to young people in the 16–18-year-old age group."
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(b)",
+   "marks": 3,
+   "topic": "hci-and-usability",
+   "text": "What is usability, and why is it important in HCI?"
+  },
+  {
+   "year": "2023/2024",
+   "number": "4(c)",
+   "marks": 5,
+   "topic": "prototyping-and-evaluation",
+   "text": "XYZ organization has a product which is well thriving and widely-used for over a decade. Would such a product require usability study? Explain this extensively and support your answer with relevant illustrations or real-life examples."
+  },
+  {
+   "year": "2023/2024",
+   "number": "5(a)",
+   "marks": 6,
+   "topic": "data-gathering-and-analysis",
+   "text": "The data in the following table represents the time taken for a group of users to select and buy an item from an online shopping website. Generate a bar graph and a scatter diagram to provide an overall view of the data. From this representation, make two initial observations about the data that might form the basis of further investigation.\n\n| User | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Time | 15 | 10 | 12 | 10 | 14 | 13 | 11 | 18 | 10 | 17 | 20 | 15 | 18 | 24 | 12 | 16 | 18 | 20 | 26 |"
+  },
+  {
+   "year": "2023/2024",
+   "number": "5(b)",
+   "marks": 3,
+   "topic": "user-centred-design",
+   "text": "It's often tempting to start the design of an interactive product from the design of its interface. Discuss in detail what yielding to this temptation would result into."
+  },
+  {
+   "year": "2023/2024",
+   "number": "5(c)",
+   "marks": 3,
+   "topic": "user-centred-design",
+   "text": "Who are the stakeholders for an electricity smart meter for use in the home to help households control their energy consumption?"
+  },
+  {
+   "year": "2023/2024",
+   "number": "5(d)",
+   "marks": 3,
+   "topic": "prototyping-and-evaluation",
+   "text": "Explain why both summative and formative evaluations are needed in the development of interactive computer systems?"
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(a)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "XYZ organization has a product which is well thriving and widely-used for over a decade. Would such a product require usability study? Explain this extensively."
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(b)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "Describe in detail the role of a UX researcher and the research/technical skills they require/use."
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(c)",
+   "marks": 5,
+   "topic": "prototyping-and-evaluation",
+   "text": "What aspects would you want to evaluate for the following systems: (a) personal music player (e.g. a smartphone app) (b) a website for selling clothes"
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(d)",
+   "marks": 4,
+   "topic": "user-centred-design",
+   "text": "It's often tempting to start the design of an interactive product from the design of its interface. Discuss in detail what yielding to this temptation would result into."
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(e)",
+   "marks": 6,
+   "topic": "data-gathering-and-analysis",
+   "text": "An interactive device was tested by a group of potential users. Each user was asked to perform a certain task on the device. The following table shows the task completion times (in minutes) on the device.\n\n| User | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Time | 15 | 10 | 12 | 10 | 14 | 13 | 11 | 18 | 10 | 17 |\n\nDraw a scatter diagram to give you an overall view of the data. Then make initial observations and discuss if there are observations that might need further investigation."
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(f)",
+   "marks": 4,
+   "topic": "data-gathering-and-analysis",
+   "text": "In an experiment to determine which user interface (command-line, desktop metaphor, or virtual environment) allows users to perform their task quickest, what might the following be: (i) The independent variables and their levels (ii) The dependent variables. Justify your response."
+  },
+  {
+   "year": "2020/2021",
+   "number": "1(g)",
+   "marks": 3,
+   "topic": "data-gathering-and-analysis",
+   "text": "Spot three poorly designed features in the questionnaire in Figure 1. [Figure 1, a questionnaire with poorly designed features, is in the original paper.]"
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(a)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "Imagine you are the technical director of an electronic company that makes a wide range of product including home entertainment systems, safety-critical systems and business productivity tools. You wish to persuade the board of directors that they should employ a number of Human Factors people. Write some outline notes of the presentation you would make to the next board meeting."
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(b)",
+   "marks": 2,
+   "topic": "cognitive-psychology",
+   "text": "What is meant by a 'gestalt,' illustrating your answer with an example?"
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(c)",
+   "marks": 4,
+   "topic": "cognitive-psychology",
+   "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project. (Ensure to include your group nos/title)"
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(d)",
+   "marks": 3,
+   "topic": "user-centred-design",
+   "text": "In practice, the makeup of a given design team depends on the kind of interactive product being built. Who do you think should be involved in developing an interactive educational website to accompany a TV series?"
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(e)",
+   "marks": 3,
+   "topic": "prototyping-and-evaluation",
+   "text": "What is a prototype? Discuss briefly the 2 types of prototype"
+  },
+  {
+   "year": "2020/2021",
+   "number": "2(f)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "A company is developing a new car seat to monitor if a person starts to fall asleep when driving and to provide a wake-up call using olfactory and haptic feedback. Where would you evaluate it?"
+  },
+  {
+   "year": "2020/2021",
+   "number": "3(a)",
+   "marks": 6,
+   "topic": "prototyping-and-evaluation",
+   "text": "UXer Company has hired you as a UX researcher to carry out a usability study on the high fidelity prototype of a product. Discuss the pros and cons of using the following methods to determine if the prototype is usable: Think Aloud and Walkthrough; Questionnaire"
+  },
+  {
+   "year": "2020/2021",
+   "number": "3(b)",
+   "marks": 5,
+   "topic": "data-gathering-and-analysis",
+   "text": "Why is a pilot study necessary? Explain how pilot study was used in your HCI project and discuss the gains benefitted from using it. (Remember to include your project number and title)"
+  },
+  {
+   "year": "2020/2021",
+   "number": "3(c)",
+   "marks": 6,
+   "topic": "conceptual-models-and-ideation",
+   "text": "A modern hotel has installed a sandwich making robot to supply room service sandwiches at any hour of the day. The hotel also has an automated delivery system that will take the completed sandwich to a specified room. You have been asked to program a software agent interface that guests can phone to order sandwiches. Would you use a voice recognition system or ask the user to push phone buttons to enter responses? Explain the relative advantages and disadvantages of each for this particular situation."
+  },
+  {
+   "year": "2020/2021",
+   "number": "3(d)",
+   "marks": 3,
+   "topic": "hci-and-usability",
+   "text": "What is the difference between the following: (i) HCI and User Experience (ii) HCI and Software Engineering (iii) Personas and Storyboard (iv) UX Methods and UX Tools"
+  },
+  {
+   "year": "2020/2021",
+   "number": "4(a)",
+   "marks": 5,
+   "topic": "prototyping-and-evaluation",
+   "text": "Come up with a graphical representation of the following Hierarchical Task Analysis (HTA): 0. In order to buy a DVD 1. locate DVD 2. add DVD to shopping basket 3. enter payment details 4. complete address 5. confirm order plan 0: If regular user do 1-2-5. If new user do 1-2-3-4-5."
+  },
+  {
+   "year": "2020/2021",
+   "number": "4(b)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "Discuss how talk-aloud and cognitive walk-through can be used for evaluation of high-fidelity prototype."
+  },
+  {
+   "year": "2020/2021",
+   "number": "4(c)",
+   "marks": 5,
+   "topic": "data-gathering-and-analysis",
+   "text": "Spot all the design errors in the questionnaire in figure 3 and re-design the questionnaire. [Figure 3, a poorly designed questionnaire, is in the original paper.]"
+  },
+  {
+   "year": "2020/2021",
+   "number": "4(d)",
+   "marks": 3,
+   "topic": "data-gathering-and-analysis",
+   "text": "Why is a combination of ethnography and prototyping useful for the requirements elicitation process?"
+  },
+  {
+   "year": "2020/2021",
+   "number": "4(e)",
+   "marks": 3,
+   "topic": "hci-and-usability",
+   "text": "In not more than 100 words, explain the meaning of the sentence \"You can't design a user experience, you rather design for a user experience\"."
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 A(i)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "What contributions do you think each of the following professionals can bring into the field of HCI: Sociologist and Computer Scientist"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 A(ii)",
+   "marks": 5,
+   "topic": "user-centred-design",
+   "text": "What is meant by user-centered design? How does evaluation fit into a user-centered design life-cycle?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 A(iii)",
+   "marks": 6,
+   "topic": "conceptual-models-and-ideation",
+   "text": "Compare the following: a paperback book and an ebook; What are the main concepts and metaphors that have been used for each (think about the way time is conceptualized for each of them)? What aspects of the paper-based artifact have informed the digital app? How do they differ? What is the new functionality?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 A(iv)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "Consider figure 1, which is good or poor design? Elaborate and justify your response. [Figure 1, two certificate designs, is in the original paper.]"
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 B(i)",
+   "marks": 4,
+   "topic": "conceptual-models-and-ideation",
+   "text": "Ideation typically leads to various ideas or approaches to solving a problem. Discuss briefly all the ideas that emanated during/after the phase 1 of your HCI project. Further discuss how these ideas were resolved or fine-tuned putting emphasis on the techniques used for resolution of ideas."
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 B(ii)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "Typically, heuristics evaluation such as that of Jakob Neilsen are used to evaluate low-fidelity prototype from expert perspective. Discuss the outcomes of the heuristic evaluation of the low-fidelity prototype of your HCI project and the refinement that was made after evaluation."
+  },
+  {
+   "year": "2021/2022",
+   "number": "1 B(iii)",
+   "marks": 3,
+   "topic": "cognitive-psychology",
+   "text": "What is cognitive psychology? Discuss how you applied it to your HCI term project."
+  },
+  {
+   "year": "2021/2022",
+   "number": "2(a)",
+   "marks": 10,
+   "topic": "data-gathering-and-analysis",
+   "text": "Design an experiment to determine which sounds users prefer to use as email arrival notification (e.g. a simple beep, a duck quaking, someone coughing, a trumpet etc.). Extend this experiment to consider what visual notification they prefer - none, a flashing icon, or a dialogue box. Think about the hypotheses and variables, and suitable people to act as subjects. Consider how you could make the experiment more general so that any member of the public could complete it. Also, discuss how this would feed into the design of email programs. From your experiment design, answer the following questions: (1) What would be the hypotheses? (2) What would be the dependent and independent variables? (3) What kind of users would you consider and why? (4) Which type of data gathering instrument would you use for the experiment and why? (5) What kind of questions would you ask users?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "2(b)",
+   "marks": 6,
+   "topic": "user-centred-design",
+   "text": "In practice, the makeup of a given design team depends on the kind of interactive product being built. Who do you think should be involved in developing: 1. A public interactive display providing information about the exhibits available in a science museum? 2. An interactive educational website to accompany a TV series?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "2(c)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "Argue for or against this statement/expression \"HCI! = Usability\""
+  },
+  {
+   "year": "2021/2022",
+   "number": "3(a)–(b)",
+   "marks": 6,
+   "topic": "conceptual-models-and-ideation",
+   "text": "(a) What is a storyboard? (1 Mark) (b) Draw a storyboard for a user interaction/process with an ATM. (5 marks)"
+  },
+  {
+   "year": "2021/2022",
+   "number": "3(c)",
+   "marks": 6,
+   "topic": "hci-and-usability",
+   "text": "Discuss 3 cultural factors that influence technology adoption and usage."
+  },
+  {
+   "year": "2021/2022",
+   "number": "3(d)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "Shneiderman (1998) devised Eight Golden Rules for interface design. List 4 of these rules and give an example of each rule."
+  },
+  {
+   "year": "2021/2022",
+   "number": "3(e)",
+   "marks": 4,
+   "topic": "cognitive-psychology",
+   "text": "Consider the design in figure 2 which is intended to help users know the available type of hotels in a given city, the room type, contact number and prices based on room type. Identify what is wrong with the design. How can it be corrected and redraw it. [Figure 2, a hotel accommodation display, is in the original paper.]"
+  },
+  {
+   "year": "2021/2022",
+   "number": "4(a)",
+   "marks": 4,
+   "topic": "hci-and-usability",
+   "text": "African Lady booked a return ticket to fly from Benin to Ibadan for Christmas holiday using an online e-commerce site. She was impressed by the cheapness of the ticket and the fact that all the booking was done electronically. At the check point, on the day she was expected to embark on the journey, the airline representative said, \"You do know that you are flying back from Benin to Sokoto, don't you?\". She felt sad and let down. How would you redesign the online booking Web site interactions to avoid such problems?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "4(b)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "What is the difference between summative and formative evaluation? Why are both needed in the development of interactive computer systems?"
+  },
+  {
+   "year": "2021/2022",
+   "number": "4(c)",
+   "marks": 4,
+   "topic": "data-gathering-and-analysis",
+   "text": "Imagine you are a consultant who is employed to help develop a new computerized garden planning tool to be used by amateur and professional garden designers. Your goal is to find out how garden designers use an early prototype as they walk around their clients' gardens sketching design ideas, taking notes, and asking the clients about what they like and how they and their families use the garden. What type of data recording approach(es) would you recommend for this environment? Justify the reason for your choice(s) over others."
+  },
+  {
+   "year": "2021/2022",
+   "number": "4(d)",
+   "marks": 4,
+   "topic": "data-gathering-and-analysis",
+   "text": "What is the difference between the following: (i) quantitative and qualitative analysis (ii) probability sampling and non-probability sampling (iii) Likert and semantic differential scale (iv) direct and indirect observation"
+  },
+  {
+   "year": "2021/2022",
+   "number": "4(e)",
+   "marks": 4,
+   "topic": "prototyping-and-evaluation",
+   "text": "What are the system/design requirements of your HCI project? Develop a standard task for the evaluation of the high fidelity prototype of your group project. (Remember to include your project number and title)."
+  }
+ ]
 }
