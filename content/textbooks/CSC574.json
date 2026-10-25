@@ -1,0 +1,76 @@
+{
+  "code": "CSC 574",
+  "books": {
+    "aima": {
+      "title": "Artificial Intelligence: A Modern Approach",
+      "authors": "Stuart Russell and Peter Norvig",
+      "edition": "4th edition",
+      "publisher": "Pearson",
+      "year": 2020
+    },
+    "negn": {
+      "title": "Artificial Intelligence: A Guide to Intelligent Systems",
+      "authors": "Michael Negnevitsky",
+      "edition": "3rd edition",
+      "publisher": "Addison-Wesley",
+      "year": 2011
+    },
+    "ng": {
+      "title": "Intelligent Systems: Fusion, Tracking and Control",
+      "authors": "GeeWah Ng",
+      "edition": null,
+      "publisher": "Research Studies Press",
+      "year": 2003,
+      "in_course_files": "Intelligent Systems Fusion, Tracking, and Control - GeeWah Ng.pdf"
+    }
+  },
+  "topics": {
+    "introduction-and-agents": [
+      {
+        "book": "aima",
+        "read": "Chapter 1: Introduction; Chapter 2: Intelligent Agents",
+        "why": "The standard account of what AI is, agents, environments and agent types."
+      }
+    ],
+    "search": [
+      {
+        "book": "aima",
+        "read": "Chapter 3: Solving Problems by Searching",
+        "why": "Uninformed and informed (heuristic) search, including A*."
+      }
+    ],
+    "knowledge-representation": [
+      {
+        "book": "aima",
+        "read": "Chapter 7: Logical Agents; Chapter 8: First-Order Logic; Chapter 10: Knowledge Representation",
+        "why": "Propositional and first-order logic, and ontologies and categories."
+      }
+    ],
+    "expert-systems": [
+      {
+        "book": "negn",
+        "read": "Chapter 2: Rule-based expert systems; Chapter 3: Uncertainty management in rule-based expert systems",
+        "why": "Expert system structure, forward and backward chaining, and certainty factors."
+      }
+    ],
+    "fuzzy-logic": [
+      {
+        "book": "negn",
+        "read": "Chapter 4: Fuzzy expert systems",
+        "why": "Fuzzy sets, membership functions, fuzzy rules and Mamdani-style inference."
+      }
+    ],
+    "nature-inspired-and-other-ai": [
+      {
+        "book": "ng",
+        "read": "Chapter 3: Biologically Inspired Algorithms",
+        "why": "Neural networks and evolutionary algorithms, from the book in the course folder."
+      },
+      {
+        "book": "negn",
+        "read": "Chapter 6: Artificial neural networks; Chapter 7: Evolutionary computation",
+        "why": "The perceptron, multilayer networks and genetic algorithms, step by step."
+      }
+    ]
+  }
+}

@@ -7,6 +7,7 @@ export const RESOURCE_LABEL: Record<ResourceType, string> = {
   lecture: 'Lecture slides',
   past_questions: 'Past questions',
   video: 'Video',
+  textbook: 'Recommended textbook',
 }
 
 const GROUP_LABEL: Record<ResourceType, string> = {
@@ -14,6 +15,7 @@ const GROUP_LABEL: Record<ResourceType, string> = {
   lecture: 'Lecture slides',
   past_questions: 'Past questions',
   video: 'Videos',
+  textbook: 'Recommended textbooks',
 }
 
 const ICON_STYLE: Record<ResourceType, string> = {
@@ -21,6 +23,7 @@ const ICON_STYLE: Record<ResourceType, string> = {
   lecture: 'bg-sky-50 text-sky-700',
   past_questions: 'bg-amber-50 text-amber-700',
   video: 'bg-rose-50 text-rose-700',
+  textbook: 'bg-emerald-50 text-emerald-700',
 }
 
 export function ResourceIcon({ type, className = 'h-10 w-10' }: { type: ResourceType; className?: string }) {
@@ -29,6 +32,7 @@ export function ResourceIcon({ type, className = 'h-10 w-10' }: { type: Resource
     lecture: 'M4 5h16v11H4zM8 20h8M12 16v4',
     past_questions: 'M9 9a3 3 0 1 1 4 2.8c-.8.4-1 1-1 1.7V14M12 17.5v.5M5 3h14v18H5z',
     video: 'M4 6h12v12H4zM16 10l4-2v8l-4-2',
+    textbook: 'M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 19V5M8 7h7',
   }
   return (
     <span className={`grid shrink-0 place-items-center rounded-xl ${ICON_STYLE[type]} ${className}`} aria-hidden>
@@ -39,10 +43,15 @@ export function ResourceIcon({ type, className = 'h-10 w-10' }: { type: Resource
   )
 }
 
+/** Exam-style sets (courses with no past papers) are labelled as such, never as past questions. */
+export function isExamStyle(resource: Pick<Resource, 'type' | 'title'>): boolean {
+  return resource.type === 'past_questions' && resource.title.startsWith('Exam-style')
+}
+
 /** Where a resource opens: notes and past questions in the app, links in a new tab. */
 export function resourceHint(resource: Pick<Resource, 'type' | 'url'>): string {
   if (!resource.url) return 'Read in the app'
-  if (resource.url.includes('/drive/folders/')) return 'Open lecture folder'
+  if (resource.url.includes('/drive/folders/')) return resource.type === 'lecture' ? 'Open lecture folder' : 'Open folder'
   return 'Opens in a new tab'
 }
 
@@ -71,7 +80,7 @@ export function ResourceLink({ resource, compact = false }: { resource: Resource
   )
 }
 
-/** Resources grouped by type, in the order: notes, lecture slides, past questions, videos. */
+/** Resources grouped by type, in the order: notes, lecture slides, past questions, videos, textbooks. */
 export function ResourceList({ resources, compact = false }: { resources: Resource[]; compact?: boolean }) {
   if (resources.length === 0) {
     return <p className="text-sm text-slate-500">No resources for this topic yet.</p>
@@ -80,7 +89,11 @@ export function ResourceList({ resources, compact = false }: { resources: Resour
     <div className="grid gap-3">
       {RESOURCE_ORDER.filter((type) => resources.some((r) => r.type === type)).map((type) => (
         <div key={type}>
-          <p className="mb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">{GROUP_LABEL[type]}</p>
+          <p className="mb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">
+            {type === 'past_questions' && resources.filter((r) => r.type === type).every(isExamStyle)
+              ? 'Exam-style questions'
+              : GROUP_LABEL[type]}
+          </p>
           <div className="-mx-2 grid gap-0.5">
             {resources
               .filter((r) => r.type === type)

@@ -1,11 +1,53 @@
 {
   "code": "CSC 582",
   "topics": {
-    "biological-databases-and-tools": [],
-    "information-search-and-retrieval": [],
-    "sequence-alignment-and-homology": [],
-    "alignment-scoring-and-methods": [],
-    "multiple-alignment-and-protein-structure": [],
-    "basic-introduction-to-linux": []
+    "biological-databases-and-tools": [
+      {
+        "title": "Video: How to Use the NCBI’s Bioinformatics Tools and Databases (Science Buddies)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QLcmEqBayr0",
+        "source": "links.csv"
+      }
+    ],
+    "information-search-and-retrieval": [
+      {
+        "title": "Video: Searching PubMed with MeSH (Vanderbilt University)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sAGtK-JVlYc",
+        "source": "links.csv"
+      }
+    ],
+    "sequence-alignment-and-homology": [
+      {
+        "title": "Video: Sequence Alignment for Beginners | Pairwise vs Multiple sequence alignment | Similarity vs Identity (Biology Lectures)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9-PPZlD9F1A",
+        "source": "links.csv"
+      }
+    ],
+    "alignment-scoring-and-methods": [
+      {
+        "title": "Video: Global Sequence Alignment & Needleman-Wunsch || Algorithm and Example (Bioinformatica)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ipp-pNRIp4g",
+        "source": "links.csv"
+      }
+    ],
+    "multiple-alignment-and-protein-structure": [
+      {
+        "title": "Video: Multiple Sequence Alignment (Ahmet Sacan)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4ATPKSmYtF8",
+        "source": "links.csv"
+      }
+    ],
+    "basic-introduction-to-linux": [
+      {
+        "title": "Video: Command Line Basics for Beginners - Full Course (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mABpAI-pCw0",
+        "source": "links.csv"
+      }
+    ]
   }
 }

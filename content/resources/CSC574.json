@@ -13,6 +13,12 @@
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
         "source": "links.csv"
+      },
+      {
+        "title": "Video: Lecture - 2 Intelligent Agents (nptelhrd)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=d39tTuUbDVw",
+        "source": "links.csv"
       }
     ],
     "search": [
@@ -26,6 +32,12 @@
         "title": "Intelligent Systems past questions folder",
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: A* (A Star) Search Algorithm - Computerphile (Computerphile)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ySN5Wnu88nE",
         "source": "links.csv"
       }
     ],
@@ -41,6 +53,12 @@
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
         "source": "links.csv"
+      },
+      {
+        "title": "Video: Introduction to First Order Logic (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ARywou8HLQk",
+        "source": "links.csv"
       }
     ],
     "expert-systems": [
@@ -54,6 +72,12 @@
         "title": "Intelligent Systems past questions folder",
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Backward & Forward Chaining (Eddie Woo)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZhTt-GG7PiQ",
         "source": "links.csv"
       }
     ],
@@ -69,6 +93,12 @@
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
         "source": "links.csv"
+      },
+      {
+        "title": "Video: What Is Fuzzy Logic? | Fuzzy Logic, Part 1 (MATLAB)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=__0nZuG4sTw",
+        "source": "links.csv"
       }
     ],
     "nature-inspired-and-other-ai": [
@@ -82,6 +112,12 @@
         "title": "Intelligent Systems past questions folder",
         "type": "past_questions",
         "url": "https://drive.google.com/drive/folders/1T5Go4BORr1QhNY1NMe40twbIDkMeynzv",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: What is a Genetic Algorithm? (MATLAB)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1i8muvzZkPw",
         "source": "links.csv"
       }
     ]

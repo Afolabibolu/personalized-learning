@@ -1,0 +1,57 @@
+{
+  "code": "CSC 412",
+  "books": {
+    "mazidi": {
+      "title": "The 8051 Microcontroller and Embedded Systems: Using Assembly and C",
+      "authors": "Muhammad Ali Mazidi, Janice Gillispie Mazidi and Rolin D. McKinlay",
+      "edition": "2nd edition",
+      "publisher": "Pearson Prentice Hall",
+      "year": 2006
+    },
+    "ray": {
+      "title": "Advanced Microprocessors and Peripherals",
+      "authors": "A.K. Ray and K.M. Bhurchandi",
+      "edition": null,
+      "publisher": "McGraw-Hill",
+      "year": null,
+      "listed_in_course_files": "Case Studies Microprocessors and Microcontrollers.pptx (reading list)"
+    }
+  },
+  "topics": {
+    "8086-architecture-and-programming": [
+      {
+        "book": "ray",
+        "read": "The chapters on the 8086 architecture, instruction set and assembly programming",
+        "why": "Listed in the course slides' reading list; the standard Indian textbook on the 8086 family."
+      }
+    ],
+    "8086-system-bus-and-multiprocessing": [
+      {
+        "book": "ray",
+        "read": "The chapters on 8086 pin signals, minimum and maximum modes, and multiprocessor systems (8087)",
+        "why": "Covers bus cycles, timing and coprocessor configurations as in the slides."
+      }
+    ],
+    "interfacing-with-the-8086": [
+      {
+        "book": "ray",
+        "read": "The chapters on memory and I/O interfacing and the peripherals 8255, 8253/8254, 8251, 8259 and 8279",
+        "why": "Each peripheral chip in the slides, with interfacing diagrams."
+      }
+    ],
+    "8051-microcontroller-architecture": [
+      {
+        "book": "mazidi",
+        "read": "Chapter 1: The 8051 Microcontrollers; Chapter 5: 8051 Addressing Modes",
+        "why": "The standard 8051 textbook: features, pins, registers and RAM organisation."
+      }
+    ],
+    "8051-timers-and-serial-communication": [
+      {
+        "book": "mazidi",
+        "read": "Chapter 9: 8051 Timer Programming in Assembly and C; Chapter 10: 8051 Serial Port Programming",
+        "why": "TMOD, TCON, mode 1 delays with an 11.0592 MHz crystal, SCON and SBUF."
+      }
+    ]
+  }
+}

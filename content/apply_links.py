@@ -6,8 +6,11 @@ Each topic in content/courses/<code>.json lists the lectures it covers
 ("lectures": [4, 5]). For every lecture with its own row in links.csv the
 topic gets that link. Lectures without a row share the course's fallback row
 (lecture "all"), as one resource per topic. A topic that covers no lecture
-gets the fallback too. Past-question links work the same way (a course-wide
-"all" row goes on every topic). Links never come from anywhere else.
+gets the fallback too. Past-question and video links work the same way (a
+course-wide "all" row goes on every topic), and a row whose lecture column is a
+topic slug goes on that topic only (used for the one video per topic, each
+checked to exist through YouTube's oEmbed endpoint before it was added).
+Links never come from anywhere else.
 
 Study notes and transcribed past questions are not links: load.py reads them
 from content/notes/ and content/past_questions/.
@@ -66,7 +69,7 @@ def main() -> int:
             for kind, by_course in (("past_questions", past_by_course), ("video", videos_by_course)):
                 course_rows = by_course.get(code, {})
                 for key, row in course_rows.items():
-                    if key == "all" or (key.isdigit() and int(key) in lectures):
+                    if key == "all" or key == topic["slug"] or (key.isdigit() and int(key) in lectures):
                         links.append({"title": row["title"], "type": kind, "url": row["url"], "source": "links.csv"})
             if not links:
                 print(f"WARNING {code} / {topic['title']}: no link in links.csv for lectures {lectures}")

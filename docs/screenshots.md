@@ -81,6 +81,18 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 | 59 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
 | 60 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
 
+## Videos, textbooks and course requests (25 October)
+
+Taken by `python scripts/phase10_check.py --shots docs/screenshots/phase10`, with a temporary student for the course request, which is deleted afterwards.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 61 | Recommendation with a video and a textbook | Tolu Adeyemi | 'Also recommended': a YouTube video and a textbook chapter for Cognitive Psychology (FR4, FR5) | [`p10-01-also-recommended.png`](screenshots/phase10/p10-01-also-recommended.png) |
+| 62 | Recommended textbook card | Tolu Adeyemi | Interaction Design (5th ed.), Chapter 4: what to read and why, source: in the course folder (FR5) | [`p10-02-textbook.png`](screenshots/phase10/p10-02-textbook.png) |
+| 63 | Topic page with every resource type | Tolu Adeyemi | Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5) | [`p10-03-topic-resources.png`](screenshots/phase10/p10-03-topic-resources.png) |
+| 64 | Request a course | New student (Request Tester) | The form, 'Request sent', and the request listed as pending (NFR5) | [`p10-04-request-form.png`](screenshots/phase10/p10-04-request-form.png) |
+| 65 | Request a course on a phone (375 px) | New student | The form fits; the request now shows 'Added to your courses' (NFR1, NFR5) | [`p10-05-phone-request.png`](screenshots/phase10/p10-05-phone-request.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |
@@ -94,7 +106,7 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 | ml/results/simulation_rules.md | How the simulated students were generated | FR4 |
 | terminal: python scripts/rls_check.py | Output ending '46/46 checks passed' | NFR3 |
 | docs/results/performance.md | Response-time table (20 runs each) | NFR2 |
-| docs/results/security.md | Row-level security check, 46 checks | NFR3 |
+| docs/results/security.md | Row-level security check, 52 checks | NFR3 |
 | docs/results/courses.md | Every course in the knowledge base, with files used and skipped | NFR5 |
 | ml/results/summary.md | Results in plain words, for Chapter Four (simulated data) | FR4 |
 | Supabase dashboard: Authentication → Policies (taken by hand) | RLS enabled on every table, with its policies | NFR3 |

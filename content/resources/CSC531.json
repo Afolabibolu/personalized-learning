@@ -7,6 +7,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/1-PORIEFbqnm4Hco1wyvZdOhVWWobuMRz/view",
         "source": "Lecture 1"
+      },
+      {
+        "title": "Video: HCI - Human Computer Interaction. What Is HCI? (IxDF - Interaction Design Foundation)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yNzLBI0wsGU",
+        "source": "links.csv"
       }
     ],
     "user-centred-design": [
@@ -15,6 +21,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
         "source": "Lectures 2–3"
+      },
+      {
+        "title": "Video: What is user-centred design (UCD)? (Jadene Designs)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-f_nXBzaTPw",
+        "source": "links.csv"
       }
     ],
     "conceptual-models-and-ideation": [
@@ -23,6 +35,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
         "source": "Lectures 4–5"
+      },
+      {
+        "title": "Video: Chapter 3: Conceptualizing Interaction (Vasiliki - HCI)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QlYVtKjoZf0",
+        "source": "links.csv"
       }
     ],
     "data-gathering-and-analysis": [
@@ -31,6 +49,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/1T8DwjqK3QFSrfWWs9Lwo1_E8GCeM7As3/view",
         "source": "Lectures 4–5"
+      },
+      {
+        "title": "Video: Chapter 8: Data Gathering (Vasiliki - HCI)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0M1GWW7UUCQ",
+        "source": "links.csv"
       }
     ],
     "cognitive-psychology": [
@@ -39,6 +63,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/1B8pyE_QDUz3Fsd7hXwgZIaQyV5DZbLho/view",
         "source": "Lecture 6"
+      },
+      {
+        "title": "Video: Chapter 4: Cognitive Aspects (Vasiliki - HCI)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fTqBMWJvNGg",
+        "source": "links.csv"
       }
     ],
     "prototyping-and-evaluation": [
@@ -47,6 +77,12 @@
         "type": "lecture",
         "url": "https://drive.google.com/file/d/18vGa3L9h8OYcJJ4K3E8PWAyjV9PmL5GU/view",
         "source": "Lecture 7"
+      },
+      {
+        "title": "Video: Heuristic Evaluation of User Interfaces (NNgroup)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6Bw0n6Jvwxk",
+        "source": "links.csv"
       }
     ]
   }

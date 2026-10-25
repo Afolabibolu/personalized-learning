@@ -5,6 +5,7 @@ import { RequireAuth } from './components/RequireAuth'
 import { LoginPage, SignupPage } from './pages/AuthPages'
 import { CoursePage } from './pages/CoursePage'
 import { CoursesPage } from './pages/CoursesPage'
+import { RequestCoursePage } from './pages/RequestCoursePage'
 import { DashboardPage } from './pages/DashboardPage'
 import { KnowledgeBasePage } from './pages/KnowledgeBasePage'
 import { LogStudyPage } from './pages/LogStudyPage'
@@ -37,6 +38,7 @@ export default function App() {
             <Route path="/" element={<DashboardPage />} />
             <Route path="/courses" element={<CoursesPage />} />
             <Route path="/onboarding" element={<OnboardingPage />} />
+            <Route path="/courses/request" element={<RequestCoursePage />} />
             <Route path="/courses/:courseId" element={<CoursePage />} />
             <Route path="/topics/:topicId" element={<TopicPage />} />
             <Route path="/knowledge" element={<KnowledgeBasePage />} />

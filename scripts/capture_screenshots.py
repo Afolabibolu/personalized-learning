@@ -69,7 +69,7 @@ OTHER = [
     ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
     ("terminal: python scripts/rls_check.py", "Output ending '46/46 checks passed'", "NFR3"),
     ("docs/results/performance.md", "Response-time table (20 runs each)", "NFR2"),
-    ("docs/results/security.md", "Row-level security check, 46 checks", "NFR3"),
+    ("docs/results/security.md", "Row-level security check, 52 checks", "NFR3"),
     ("docs/results/courses.md", "Every course in the knowledge base, with files used and skipped", "NFR5"),
     ("ml/results/summary.md", "Results in plain words, for Chapter Four (simulated data)", "FR4"),
     ("Supabase dashboard: Authentication → Policies (taken by hand)", "RLS enabled on every table, with its policies", "NFR3"),
@@ -253,6 +253,15 @@ PHASE9 = [
 ]
 
 
+PHASE10 = [
+    Shot("p10-01-also-recommended.png", "Recommendation with a video and a textbook", "Tolu Adeyemi", "'Also recommended': a YouTube video and a textbook chapter for Cognitive Psychology (FR4, FR5)"),
+    Shot("p10-02-textbook.png", "Recommended textbook card", "Tolu Adeyemi", "Interaction Design (5th ed.), Chapter 4: what to read and why, source: in the course folder (FR5)"),
+    Shot("p10-03-topic-resources.png", "Topic page with every resource type", "Tolu Adeyemi", "Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5)"),
+    Shot("p10-04-request-form.png", "Request a course", "New student (Request Tester)", "The form, 'Request sent', and the request listed as pending (NFR5)"),
+    Shot("p10-05-phone-request.png", "Request a course on a phone (375 px)", "New student", "The form fits; the request now shows 'Added to your courses' (NFR1, NFR5)"),
+]
+
+
 def write_checklist() -> None:
     rows = "\n".join(
         f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/{s.file}) |"
@@ -281,6 +290,13 @@ def write_checklist() -> None:
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase9/{s.file}) |"
                      for i, s in enumerate(PHASE9, start=len(CHECKLIST) + len(PHASE7) + 1))
+        + "\n\n"
+        "## Videos, textbooks and course requests (25 October)\n\n"
+        "Taken by `python scripts/phase10_check.py --shots docs/screenshots/phase10`, with a temporary student for "
+        "the course request, which is deleted afterwards.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase10/{s.file}) |"
+                     for i, s in enumerate(PHASE10, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

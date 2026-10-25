@@ -9,6 +9,8 @@ export type Explanation = {
   probabilities: { logistic_regression: number; random_forest: number; average: number } | null
   top_factors: { feature: string; label: string; value: number; direction: 'raises risk' | 'lowers risk' }[]
   matched_preference: string | null
+  /** The topic's video and textbook, picked by the ML service alongside the main resource. */
+  also?: { resource_id: string; type: 'video' | 'textbook'; title: string; url: string | null }[]
 }
 
 export type Recommendation = {

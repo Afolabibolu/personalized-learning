@@ -1,0 +1,57 @@
+{
+  "code": "COS 102",
+  "books": {
+    "csi": {
+      "title": "Computer Science Illuminated",
+      "authors": "Nell Dale and John Lewis",
+      "edition": "7th edition",
+      "publisher": "Jones & Bartlett Learning",
+      "year": 2020,
+      "in_course_files": "Computer Science Illuminated 7th edition (2020).pdf"
+    },
+    "polya": {
+      "title": "How to Solve It: A New Aspect of Mathematical Method",
+      "authors": "George Polya",
+      "edition": null,
+      "publisher": "Princeton University Press",
+      "year": 1945
+    }
+  },
+  "topics": {
+    "computing-concepts-and-types-of-problems": [
+      {
+        "book": "csi",
+        "read": "Chapter 1: The Big Picture; Section 18.3 (the halting problem)",
+        "why": "The course folder's reference textbook."
+      }
+    ],
+    "problem-solving-process-and-algorithms": [
+      {
+        "book": "csi",
+        "read": "Chapter 7: Problem Solving and Algorithms (Section 7.1)",
+        "why": "Polya's method, the computer problem-solving process and top-down design."
+      }
+    ],
+    "problem-solving-techniques": [
+      {
+        "book": "polya",
+        "read": "Part III: Short Dictionary of Heuristic",
+        "why": "The classic book on problem-solving strategies such as analogy, working backwards and decomposition."
+      }
+    ],
+    "flowcharts-pseudocode-and-decision-tables": [
+      {
+        "book": "csi",
+        "read": "Section 6.5: Expressing Algorithms",
+        "why": "Pseudocode elements and following an algorithm by hand."
+      }
+    ],
+    "from-algorithm-to-program": [
+      {
+        "book": "csi",
+        "read": "Section 7.2: Algorithms with Simple Variables",
+        "why": "Selection and count- and event-controlled loops."
+      }
+    ]
+  }
+}

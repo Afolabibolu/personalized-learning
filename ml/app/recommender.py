@@ -33,15 +33,18 @@ class ResourceInfo:
     title: str
     is_introductory: bool
     intro_order: int | None
-    type: str = "lecture"  # note, past_questions, lecture or video
+    type: str = "lecture"  # note, past_questions, lecture, video or textbook
+    url: str | None = None
 
 
 # For a weak topic, which kind of resource to recommend first.
-RESOURCE_PREFERENCE = ["note", "past_questions", "lecture", "video"]
+RESOURCE_PREFERENCE = ["note", "past_questions", "lecture", "video", "textbook"]
+# Shown on each card under the main resource: a video and a textbook for the same topic.
+ALSO_TYPES = ["video", "textbook"]
 
 
 def resource_rank(resource: ResourceInfo, preferred: tuple[str, ...] = ()) -> tuple:
-    """The student's preferred types first (FR1), then note, past questions, lecture, video."""
+    """The student's preferred types first (FR1), then note, past questions, lecture, video, textbook."""
     kind = RESOURCE_PREFERENCE.index(resource.type) if resource.type in RESOURCE_PREFERENCE else len(RESOURCE_PREFERENCE)
     return (resource.type not in preferred, kind, not resource.is_introductory, resource.title)
 
@@ -66,6 +69,18 @@ class Recommendation:
     explanation: dict = field(default_factory=dict)
 
 
+def also_recommended(course: CourseData, topic_id: str, main_id: str | None, used_resource_ids: set[str]) -> list[dict]:
+    """The topic's first unused video and textbook (other than the main resource), for "Also recommended"."""
+    also = []
+    for kind in ALSO_TYPES:
+        options = sorted((r for r in course.resources if r.topic_id == topic_id and r.type == kind
+                          and r.id != main_id and r.id not in used_resource_ids), key=lambda r: r.title)
+        if options:
+            r = options[0]
+            also.append({"resource_id": r.id, "type": r.type, "title": r.title, "url": r.url})
+    return also
+
+
 def is_cold_start(completed_attempts: int, models: Models | None) -> bool:
     return models is None or completed_attempts < COLD_START_THRESHOLD
 
@@ -78,7 +93,7 @@ def cold_start(course: CourseData, used_resource_ids: set[str]) -> list[Recommen
     )
     return [
         Recommendation(topic_id=r.topic_id, rank=i, source="cold_start", resource_id=r.id,
-                       explanation=cold_start_explanation())
+                       explanation=cold_start_explanation() | {"also": also_recommended(course, r.topic_id, r.id, used_resource_ids)})
         for i, r in enumerate(intro, start=1)
     ]
 
@@ -130,6 +145,7 @@ def ml_recommendations(
         )
         if unused and unused[0].type in preferred:
             explanation["matched_preference"] = unused[0].type
+        explanation["also"] = also_recommended(course, topic_id, unused[0].id if unused else None, used_resource_ids)
         recs.append(Recommendation(
             topic_id=topic_id,
             rank=rank,

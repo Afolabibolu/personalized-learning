@@ -1,10 +1,45 @@
 {
   "code": "CSC 551",
   "topics": {
-    "algorithm-fundamentals-and-analysis": [],
-    "divide-and-conquer": [],
-    "dynamic-programming-and-memoization": [],
-    "greedy-and-randomized-algorithms": [],
-    "graphs-spanning-trees-and-np-completeness": []
+    "algorithm-fundamentals-and-analysis": [
+      {
+        "title": "Video: 1.8.1 Asymptotic Notations Big Oh - Omega - Theta #1 (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=A03oI0znAoc",
+        "source": "links.csv"
+      }
+    ],
+    "divide-and-conquer": [
+      {
+        "title": "Video: 2.4.1 Masters Theorem in Algorithms for Dividing Function #1 (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=OynWkEj0S-s",
+        "source": "links.csv"
+      }
+    ],
+    "dynamic-programming-and-memoization": [
+      {
+        "title": "Video: Algorithms: Memoization and Dynamic Programming (HackerRank)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=P8Xa2BitN3I",
+        "source": "links.csv"
+      }
+    ],
+    "greedy-and-randomized-algorithms": [
+      {
+        "title": "Video: 3.4 Huffman Coding - Greedy Method (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=co4_ahEDCho",
+        "source": "links.csv"
+      }
+    ],
+    "graphs-spanning-trees-and-np-completeness": [
+      {
+        "title": "Video: 3.5 Prims and Kruskals Algorithms - Greedy Method (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4ZlRH0eK-qQ",
+        "source": "links.csv"
+      }
+    ]
   }
 }

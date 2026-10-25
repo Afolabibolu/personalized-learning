@@ -100,6 +100,16 @@ export function CoursesPage() {
         </section>
       )}
 
+      <Card className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h2 className="font-semibold">Can't find your course?</h2>
+          <p className="text-sm text-slate-500">Request it, and it will be added to your courses once its materials are in.</p>
+        </div>
+        <ButtonLink to="/courses/request" variant="secondary" className="shrink-0">
+          Request a course
+        </ButtonLink>
+      </Card>
+
       <p className="mt-8 text-center text-sm text-slate-500">
         Studied something today?{' '}
         <Link to="/log" className="font-semibold text-brand-600 hover:text-brand-700">

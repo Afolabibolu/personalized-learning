@@ -30,7 +30,7 @@ export type Course = {
   level: number | null
 }
 
-export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video'
+export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video' | 'textbook'
 
 export type Resource = {
   id: string

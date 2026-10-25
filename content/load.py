@@ -2,6 +2,7 @@
 
 Resources per topic: the study note (content/notes/, shown in the app), a
 past-questions set built from content/past_questions/ (if the topic has any),
+recommended textbooks from content/textbooks/ (reading cards, shown in the app),
 and the links in content/resources/ (from content/sources/links.csv). The
 cold-start sequence per course is: topic 1's note, topic 1's lecture (or, for a
 sample course with no lecture links, topic 1's past questions), topic 2's note.
@@ -65,16 +66,46 @@ def past_questions_resource(course_file: str, topic: dict) -> dict | None:
     if not questions:
         return None
     papers = {p["year"]: p for p in data["papers"]}
-    parts = [f"# Past questions: {topic['title']}", "",
-             "Copied as written from past papers. Figures are in the original papers."]
+    # A course with no past papers may have exam-style questions written for practice, labelled as such.
+    label = "Exam-style questions" if data.get("exam_style") else "Past questions"
+    intro = ("Written for practice in the style of a university exam. These are not from a past paper."
+             if data.get("exam_style") else "Copied as written from past papers. Figures are in the original papers.")
+    parts = [f"# {label}: {topic['title']}", "", intro]
     for year in [y for y in papers if any(q["year"] == y for q in questions)]:
         parts += ["", f"## {year} · {papers[year]['paper']}", ""]
         for q in (q for q in questions if q["year"] == year):
             marks = f" ({q['marks']} marks)" if q.get("marks") else ""
             parts += [f"**Question {q['number']}**{marks}", "", q["text"], ""]
     sources = sorted({papers[q["year"]]["source"] for q in questions})
-    return {"title": f"Past questions: {topic['title']}", "type": "past_questions",
+    return {"title": f"{label}: {topic['title']}", "type": "past_questions",
             "body": "\n".join(parts).strip() + "\n", "source": "; ".join(sources)}
+
+
+def textbook_resources(course_file: str, topic: dict) -> list[dict]:
+    """One reading card per recommended book: the book, what to read for this topic, and why."""
+    path = CONTENT / "textbooks" / f"{course_file}.json"
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text())
+    cards = []
+    for entry in data["topics"].get(topic["slug"], []):
+        book = data["books"][entry["book"]]
+        details = ", ".join(str(x) for x in [book.get("edition"), book.get("publisher"), book.get("year")] if x)
+        if book.get("in_course_files"):
+            source = f"In the course folder: {book['in_course_files']}"
+        elif book.get("listed_in_course_files"):
+            source = f"Listed in the course files: {book['listed_in_course_files']}"
+        else:
+            source = "A standard textbook for this subject (not in the course folder)"
+        body = "\n".join([
+            f"# {book['title']}", "", f"{book['authors']}. {details}.", "",
+            f"## What to read for {topic['title']}", "", entry["read"], "",
+            "## Why this book", "", entry["why"], "",
+            f"Source: {source}",
+        ]) + "\n"
+        cards.append({"title": f"Textbook: {book['title']} ({entry['read'].split(';')[0]})", "type": "textbook",
+                      "body": body, "source": source})
+    return cards
 
 
 def topic_resources(course_file: str, topic: dict, order: int, links: list[dict]) -> list[dict]:
@@ -84,6 +115,7 @@ def topic_resources(course_file: str, topic: dict, order: int, links: list[dict]
     past = past_questions_resource(course_file, topic)
     if past:
         resources.append(past)
+    resources += textbook_resources(course_file, topic)
     resources += [dict(link) for link in links]
     lecture = next((r for r in resources if r["type"] == "lecture"), None)
     # Cold start: topic 1's note (1) and lecture (2), then topic 2's note (3).

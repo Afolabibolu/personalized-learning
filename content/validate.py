@@ -23,7 +23,9 @@ content/sources/links.csv): {"code": ..., "topics": {slug: [{"title", "type":
 
 Past questions, content/past_questions/<code>.json: {"code", "papers": [{"year",
 "paper", "source"}], "questions": [{"year", "number", "marks", "topic", "text"}]}.
-A topic with no past questions simply has none.
+A topic with no past questions simply has none. A course with no past papers may
+instead set "exam_style": true, with questions written for practice; its paper
+must say "not from a past paper", and the app titles them "Exam-style questions".
 
 Question file, content/questions/<code>/<topic-slug>.json: a list of
     {"format": "...", "stem": "...", "options": [{"key": "a", "text": "..."}],
@@ -40,6 +42,7 @@ FORMATS = ("single_choice", "true_false", "multi_select", "odd_one_out")
 LINK_TYPES = ("lecture", "past_questions", "video")
 NOTE_WORDS = (300, 500)
 QUESTIONS_PER_TOPIC = 10
+MAX_TOPICS = 7  # 7 since 25 Oct, for CSC 572 (decision trees)
 SAMPLE_QUESTIONS_PER_TOPIC = 8
 SAMPLE_MIN_FORMATS = 3
 
@@ -70,8 +73,8 @@ def check_course(course: dict, errors: list[str]) -> None:
         errors.append(f"{name}: file name should be the code without spaces ({course.get('code')!r})")
     topics = course.get("topics", [])
     low = 4 if is_sample(course) else 5
-    if not low <= len(topics) <= 6:
-        errors.append(f"{name}: has {len(topics)} topics, expected {low} to 6")
+    if not low <= len(topics) <= MAX_TOPICS:
+        errors.append(f"{name}: has {len(topics)} topics, expected {low} to {MAX_TOPICS}")
     if "level" in course and course["level"] not in (100, 200, 300, 400, 500):
         errors.append(f"{name}: level must be 100, 200, 300, 400 or 500")
     if "is_reviewed" in course and not isinstance(course["is_reviewed"], bool):
@@ -95,6 +98,7 @@ def check_course(course: dict, errors: list[str]) -> None:
         check_note(name, topic.get("slug"), where, errors)
     check_links(name, slugs, errors, lecture_required=not is_sample(course))
     check_past_questions(name, set(slugs), errors)
+    check_textbooks(name, set(slugs), errors)
 
 
 def check_note(course_file: str, slug: str, where: str, errors: list[str]) -> None:
@@ -145,6 +149,8 @@ def check_past_questions(course_file: str, slugs: set[str], errors: list[str]) -
         return  # optional: a course may have no past questions
     data = json.loads(path.read_text())
     years = {p.get("year") for p in data.get("papers", [])}
+    if data.get("exam_style") and any("not from a past paper" not in p.get("paper", "").lower() for p in data.get("papers", [])):
+        errors.append(f"{course_file} past questions: exam-style questions must be labelled 'not from a past paper'")
     for p in data.get("papers", []):
         if not p.get("year") or not p.get("paper") or not p.get("source"):
             errors.append(f"{course_file} past questions: each paper needs year, paper and source")
@@ -156,6 +162,25 @@ def check_past_questions(course_file: str, slugs: set[str], errors: list[str]) -
             errors.append(f"{where}: unknown topic {q.get('topic')!r}")
         if not str(q.get("text", "")).strip() or not q.get("number"):
             errors.append(f"{where}: needs number and text")
+
+
+def check_textbooks(course_file: str, slugs: set[str], errors: list[str]) -> None:
+    """content/textbooks/<code>.json (optional): books, and per topic which book and what to read."""
+    path = CONTENT / "textbooks" / f"{course_file}.json"
+    if not path.exists():
+        return
+    data = json.loads(path.read_text())
+    for key, book in data.get("books", {}).items():
+        if not book.get("title") or not book.get("authors"):
+            errors.append(f"{course_file} textbooks: book {key!r} needs title and authors")
+    for slug, entries in data.get("topics", {}).items():
+        if slug not in slugs:
+            errors.append(f"{course_file} textbooks: unknown topic {slug!r}")
+        for e in entries:
+            if e.get("book") not in data.get("books", {}):
+                errors.append(f"{course_file} textbooks: {slug} names unknown book {e.get('book')!r}")
+            if not e.get("read") or not e.get("why"):
+                errors.append(f"{course_file} textbooks: {slug} needs 'read' and 'why'")
 
 
 def check_question(q: dict, where: str, errors: list[str]) -> None:

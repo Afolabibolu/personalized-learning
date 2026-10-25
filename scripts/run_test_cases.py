@@ -241,6 +241,14 @@ def cases() -> list[Case]:
               "Write the course files from the extracted text, then python content/ingest/publish.py --course \"CSC 551\"",
               "In Chrome: pick the course at onboarding, open it in the Knowledge Base, take a topic quiz, remove it again"],
              "Every sample course validates and loads as is_reviewed = false; it appears in the Knowledge Base with the sample badge, its study note, past questions and topic quiz work, it gets its own getting-started list, and the demo accounts are unchanged"),
+        Case("TC-23", "FR4 / FR5", "Videos and textbooks in the recommendations",
+             ["Sign in as Active Student and refresh recommendations", "Open a recommendation's video and textbook",
+              "Open a topic page", "Search the Knowledge Base for a course with no past papers"],
+             "Each ML recommendation also suggests the topic's video and textbook; every video is a YouTube link that still exists; textbooks open as reading cards; courses with no past papers show labelled exam-style questions"),
+        Case("TC-24", "NFR5", "Course requests (scalability)",
+             ["As a new student, open Courses, then Request a course, and send the form",
+              "python scripts/course_requests.py, then add <id> --course \"CSC 412\"", "Reload the request page, notifications and Courses"],
+             "The request shows as pending, the admin script lists it and adds it, and the student sees it added, is notified and has the course in their courses; the form fits a phone"),
     ]
 
 
@@ -322,6 +330,10 @@ def evaluate(case: Case) -> None:
             case.evidence.append("FAIL  pytest ml: " + tail(tests, "failed"))
     elif case.id == "TC-16":
         case.evidence = portability_check()
+    elif case.id in ("TC-23", "TC-24"):
+        out = run("phase10", py + ["scripts/phase10_check.py"])
+        sections = out.split("-- Course requests")
+        case.evidence = lines(sections[0] if case.id == "TC-23" else (sections[1] if len(sections) > 1 else ""), "")
     elif case.id == "TC-22":
         out = run("phase9", py + ["scripts/phase9_check.py"])
         case.evidence = lines(out, "")
@@ -380,7 +392,10 @@ def write_report(all_cases: list[Case]) -> None:
         "(not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: "
         "`seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, "
         "so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of "
-        "every case for the table above.\n\n"
+        "every case for the table above. Later the same day `timing.py` failed for the same reason (no saved recommendations "
+        "after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output "
+        "(phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a "
+        "crash in either section is now reported as a failed check with the error).\n\n"
         "## Details\n\n" + "\n".join(details)
     )
 

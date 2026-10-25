@@ -1,0 +1,49 @@
+{
+  "code": "CSC 583",
+  "books": {
+    "stallings": {
+      "title": "Computer Security: Principles and Practice",
+      "authors": "William Stallings and Lawrie Brown",
+      "edition": "4th edition",
+      "publisher": "Pearson",
+      "year": 2018
+    }
+  },
+  "topics": {
+    "threats-passwords-and-the-cia-triad": [
+      {
+        "book": "stallings",
+        "read": "Chapter 1: Overview; Chapter 3: User Authentication",
+        "why": "The CIA triad, threats and attacks, and password-based authentication."
+      }
+    ],
+    "access-control-and-authentication": [
+      {
+        "book": "stallings",
+        "read": "Chapter 4: Access Control; Chapter 3: User Authentication",
+        "why": "Discretionary, mandatory and role-based access control."
+      }
+    ],
+    "encryption-and-hash-functions": [
+      {
+        "book": "stallings",
+        "read": "Chapter 2: Cryptographic Tools; Chapters 20–21 (symmetric and public-key encryption, message authentication)",
+        "why": "Symmetric and public-key encryption, hash functions and digital signatures."
+      }
+    ],
+    "email-ip-web-and-database-security": [
+      {
+        "book": "stallings",
+        "read": "Chapter 5: Database and Data Center Security; Chapter 22: Internet Security Protocols and Standards",
+        "why": "Database security, and secure email, IPsec and TLS for web traffic."
+      }
+    ],
+    "network-auditing": [
+      {
+        "book": "stallings",
+        "read": "Chapter 8: Intrusion Detection; Chapter 18: Security Auditing",
+        "why": "Intrusion detection systems and security audit trails."
+      }
+    ]
+  }
+}

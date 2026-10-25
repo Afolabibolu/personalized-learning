@@ -1,0 +1,56 @@
+{
+  "code": "CSC 584",
+  "books": {
+    "heeks": {
+      "title": "Information and Communication Technology for Development (ICT4D)",
+      "authors": "Richard Heeks",
+      "edition": null,
+      "publisher": "Routledge",
+      "year": 2018
+    },
+    "unwin": {
+      "title": "ICT4D: Information and Communication Technology for Development",
+      "authors": "Tim Unwin (editor)",
+      "edition": null,
+      "publisher": "Cambridge University Press",
+      "year": 2009
+    }
+  },
+  "topics": {
+    "ict-and-the-digital-divide": [
+      {
+        "book": "unwin",
+        "read": "The opening chapters on ICT4D and development",
+        "why": "An edited introduction to ICT for development and the digital divide."
+      }
+    ],
+    "applications-of-ict": [
+      {
+        "book": "unwin",
+        "read": "The chapters on ICT in education, health, enterprise and government",
+        "why": "Case studies of ICT applications in developing countries."
+      }
+    ],
+    "design-reality-gap": [
+      {
+        "book": "heeks",
+        "read": "The chapter on ICT4D systems and why they fail (design–reality gaps)",
+        "why": "Heeks proposed the design–reality gap model taught in this course."
+      }
+    ],
+    "developmental-informatics-and-big-data": [
+      {
+        "book": "heeks",
+        "read": "The chapters on ICT4D implementation and data-intensive development",
+        "why": "Development informatics, and data and digital platforms for development."
+      }
+    ],
+    "participatory-design-and-ict4d-technologies": [
+      {
+        "book": "unwin",
+        "read": "The chapters on ICT4D technologies and implementation",
+        "why": "Choosing appropriate technologies and involving communities."
+      }
+    ]
+  }
+}

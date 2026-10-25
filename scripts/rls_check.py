@@ -158,6 +158,20 @@ def main() -> int:
         allowed("B removes own enrollment", lambda: b.table("enrollments").delete().eq(
             "student_id", b_id).eq("course_id", course_id).execute())
 
+        print("\n-- Course requests (scalability)")
+        request = {"code": "CSC 999", "title": "Requested course"}
+        allowed("B requests a missing course", lambda: b.table("course_requests").insert(
+            {"student_id": b_id, **request}).execute())
+        refused("A reads B's course requests", lambda: a.table("course_requests").select("*").eq("student_id", b_id).execute())
+        refused("A sends a request in B's name", lambda: a.table("course_requests").insert(
+            {"student_id": b_id, **request}).execute())
+        refused("B sends a request already marked added", lambda: b.table("course_requests").insert(
+            {"student_id": b_id, **request, "status": "added"}).execute())
+        refused("B marks own request added", lambda: b.table("course_requests").update(
+            {"status": "added"}).eq("student_id", b_id).execute())
+        statuses = [r["status"] for r in b.table("course_requests").select("status").eq("student_id", b_id).execute().data]
+        check("B's request is still pending", statuses == ["pending"], ", ".join(statuses))
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

@@ -1,10 +1,45 @@
 {
   "code": "CSC 583",
   "topics": {
-    "threats-passwords-and-the-cia-triad": [],
-    "access-control-and-authentication": [],
-    "encryption-and-hash-functions": [],
-    "email-ip-web-and-database-security": [],
-    "network-auditing": []
+    "threats-passwords-and-the-cia-triad": [
+      {
+        "title": "Video: What is the CIA Triad (IBM Technology)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kPPFNrlN3zo",
+        "source": "links.csv"
+      }
+    ],
+    "access-control-and-authentication": [
+      {
+        "title": "Video: Explain Access Control Models| Discretionary DAC, Mandatory MAC, RBAC, Rule, Attribute, Risk based (CyberPlatter)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PjZH-CO1hX0",
+        "source": "links.csv"
+      }
+    ],
+    "encryption-and-hash-functions": [
+      {
+        "title": "Video: Public Key Cryptography - Computerphile (Computerphile)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GSIDS_lvRv4",
+        "source": "links.csv"
+      }
+    ],
+    "email-ip-web-and-database-security": [
+      {
+        "title": "Video: What Is SQL Injection? (Hacksplaining)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wcaiKgQU6VE",
+        "source": "links.csv"
+      }
+    ],
+    "network-auditing": [
+      {
+        "title": "Video: IDS vs IPS: Which to Use and When (CBT Nuggets)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wQSd_piqxQo",
+        "source": "links.csv"
+      }
+    ]
   }
 }

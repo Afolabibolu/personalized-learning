@@ -15,7 +15,7 @@ export type KnowledgeStats = {
   practice_questions: number
 }
 
-export const RESOURCE_ORDER: ResourceType[] = ['note', 'lecture', 'past_questions', 'video']
+export const RESOURCE_ORDER: ResourceType[] = ['note', 'lecture', 'past_questions', 'video', 'textbook']
 
 export function sortResources<T extends Pick<Resource, 'type' | 'title'>>(resources: T[]): T[] {
   return [...resources].sort(

@@ -1,0 +1,50 @@
+{
+  "code": "GES 103",
+  "books": {
+    "ges": {
+      "title": "GES 103: Government, Society and Economy (course book)",
+      "authors": "Centre for General Studies, University of Ibadan",
+      "edition": null,
+      "publisher": "University of Ibadan",
+      "year": 2019,
+      "in_course_files": "GES 103.pdf"
+    }
+  },
+  "topics": {
+    "politics-and-the-concept-of-government": [
+      {
+        "book": "ges",
+        "read": "Chapter 1",
+        "why": "The course book chapter this topic is built from."
+      }
+    ],
+    "organisation-and-classification-of-government": [
+      {
+        "book": "ges",
+        "read": "Chapter 2",
+        "why": "The course book chapter this topic is built from."
+      }
+    ],
+    "law-democracy-and-good-governance": [
+      {
+        "book": "ges",
+        "read": "Chapter 4",
+        "why": "The course book chapter this topic is built from."
+      }
+    ],
+    "economics-and-development": [
+      {
+        "book": "ges",
+        "read": "Chapter 7",
+        "why": "The course book chapter this topic is built from."
+      }
+    ],
+    "ict-and-the-social-sciences": [
+      {
+        "book": "ges",
+        "read": "Chapter 14",
+        "why": "The course book chapter this topic is built from."
+      }
+    ]
+  }
+}

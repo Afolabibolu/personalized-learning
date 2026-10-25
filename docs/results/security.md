@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-10-24 21:53 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-10-25 17:29 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 46 of 46 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 52 of 52 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -88,6 +88,17 @@ Run 2026-10-24 21:53 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | A removes B's enrollment | 0 rows |
 | Pass | B's enrollment is still there |  |
 | Pass | B removes own enrollment | 1 row(s |
+
+### Course requests (scalability)
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | B requests a missing course | 1 row(s |
+| Pass | A reads B's course requests | 0 rows |
+| Pass | A sends a request in B's name | refused: 42501 new row violates row-level security policy for table "course_requests" |
+| Pass | B sends a request already marked added | refused: 42501 permission denied for table course_requests |
+| Pass | B marks own request added | refused: 42501 permission denied for table course_requests |
+| Pass | B's request is still pending | pending |
 
 ### Profiles and content
 

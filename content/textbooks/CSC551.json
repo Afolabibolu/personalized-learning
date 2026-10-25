@@ -1,0 +1,49 @@
+{
+  "code": "CSC 551",
+  "books": {
+    "clrs": {
+      "title": "Introduction to Algorithms",
+      "authors": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
+      "edition": "4th edition",
+      "publisher": "MIT Press",
+      "year": 2022
+    }
+  },
+  "topics": {
+    "algorithm-fundamentals-and-analysis": [
+      {
+        "book": "clrs",
+        "read": "Chapters 1–3 (role of algorithms, getting started, running times); Chapter 16: Amortized Analysis",
+        "why": "Asymptotic notation, analysing running time and amortized analysis."
+      }
+    ],
+    "divide-and-conquer": [
+      {
+        "book": "clrs",
+        "read": "Chapter 4: Divide-and-Conquer",
+        "why": "Recurrences, the substitution and recursion-tree methods and the master method."
+      }
+    ],
+    "dynamic-programming-and-memoization": [
+      {
+        "book": "clrs",
+        "read": "Chapter 14: Dynamic Programming",
+        "why": "Optimal substructure, memoization and classic dynamic programming problems."
+      }
+    ],
+    "greedy-and-randomized-algorithms": [
+      {
+        "book": "clrs",
+        "read": "Chapter 15: Greedy Algorithms; Chapter 5: Probabilistic Analysis and Randomized Algorithms",
+        "why": "The greedy-choice property, Huffman codes and randomized algorithms."
+      }
+    ],
+    "graphs-spanning-trees-and-np-completeness": [
+      {
+        "book": "clrs",
+        "read": "Chapter 20: Elementary Graph Algorithms; Chapter 21: Minimum Spanning Trees; Chapter 34: NP-Completeness",
+        "why": "BFS and DFS, Kruskal's and Prim's algorithms, and NP-completeness."
+      }
+    ]
+  }
+}
