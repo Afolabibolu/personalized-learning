@@ -1,10 +1,45 @@
 {
   "code": "GES 103",
   "topics": {
-    "politics-and-the-concept-of-government": [],
-    "organisation-and-classification-of-government": [],
-    "law-democracy-and-good-governance": [],
-    "economics-and-development": [],
-    "ict-and-the-social-sciences": []
+    "politics-and-the-concept-of-government": [
+      {
+        "title": "Video: An introduction to the discipline of Politics (Macat)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YzIcWW3FWSQ",
+        "source": "links.csv"
+      }
+    ],
+    "organisation-and-classification-of-government": [
+      {
+        "title": "Video: Systems of Government:  Unitary, Federal, and Confederal Explained (Brad Cartwright)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Zu3dHmFMQBw",
+        "source": "links.csv"
+      }
+    ],
+    "law-democracy-and-good-governance": [
+      {
+        "title": "Video: What is the Rule of Law? (Harvard Law School)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HweAmzkb6m4",
+        "source": "links.csv"
+      }
+    ],
+    "economics-and-development": [
+      {
+        "title": "Video: Scarcity and Opportunity Cost | Economics Explained (Federal Reserve Bank of St. Louis)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fSo777le8qo",
+        "source": "links.csv"
+      }
+    ],
+    "ict-and-the-social-sciences": [
+      {
+        "title": "Video: Role of ICT in Education || Applications & Characteristics of ICT (DG Edutech)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wkbW1FBHCZw",
+        "source": "links.csv"
+      }
+    ]
   }
 }

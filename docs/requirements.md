@@ -70,6 +70,9 @@ Gaps:
 - [x] If the ML service is down, the dashboard keeps showing the last saved recommendations with a quiet notice, never an error screen (NFR4).
   _Done: a failed refresh shows "Recommendations will update shortly. Showing your last saved list." and keeps the list; the service falls back to cold start if a model is missing, corrupt or fails (`ml/app/data.py`, `ml/app/recommender.py`); screenshot `fr4-04-service-down.png`._
 
+- [x] (25 Oct) Each recommendation also suggests a good video and textbook for its topic.
+  _Done: the ML service adds the topic's first unused video and textbook to `explanation.also` (`ml/app/recommender.py`, tests in `ml/tests/test_recommender.py`), shown as "Also recommended" on each card; videos are YouTube links checked through oEmbed, textbooks are reading cards naming the chapters; `scripts/phase10_check.py`, TC-23, screenshot `docs/screenshots/phase10/p10-01-also-recommended.png`._
+
 Evidence: dashboard screenshots for both demo accounts, the "Why this?" panel open, and the results table from `ml/results/`.
 
 ### FR5: Academic knowledge base
@@ -89,6 +92,9 @@ Gaps:
   _Done: 12 notes in `content/notes/` (checked by `content/validate.py`: 300–500 words, source line), lecture links from `content/sources/links.csv`, topic quizzes from `content/load.py`; verified by `scripts/phase7_check.py --only fr5`._
 - [x] A small count on the page: "2 courses, 12 topics, N resources, N practice questions", read live from the database.
   _Done: `knowledge_base_stats` view (`supabase/migrations/20261019090000_knowledge_base.sql`), shown by `KnowledgeBasePage.tsx`: 2 courses, 12 topics, 40 resources, 120 practice questions._
+
+- [x] (25 Oct) Videos and recommended textbooks for every topic.
+  _Done: 64 YouTube videos (one per topic, two topics without a clear match) in `content/sources/links.csv`, each confirmed through YouTube's oEmbed endpoint; 68 textbook cards from `content/textbooks/<code>.json` (books in the course folders first, then standard textbooks), resource type `textbook` (`supabase/migrations/20261025120100_textbook_resources.sql`); screenshots `p10-02-textbook.png`, `p10-03-topic-resources.png`._
 
 Evidence: screenshots of the Knowledge Base page, a topic page, a study note and a past-questions set.
 
@@ -120,7 +126,7 @@ Evidence: screenshots of the bell with unread count, the notifications list, rem
 | NFR2 Performance | Measured response times | [x] `scripts/timing.py`: times quiz submit, dashboard load and `/recommend` 20 times each and writes median, p95 and slowest to `docs/results/performance.md`. All within target at p95; one dashboard load (4.4 s) was slower than 3 s. |
 | NFR3 Security | Students only see their own data | [x] `scripts/rls_check.py --out docs/results/security.md` (40/40). [ ] Screenshot of the RLS policies in the Supabase dashboard (you take this one) |
 | NFR4 Reliability | New students get a sensible result, and failures degrade quietly | [x] "Kemi" screenshot with the cold-start list: `docs/screenshots/14-dashboard-new.png`. [x] ML service unreachable (requests blocked in the browser): dashboard still loads with saved recommendations and a quiet notice, `phase7/fr4-04-service-down.png` |
-| NFR5 Portability | A new course can be added without code changes | [x] The course ingestion pipeline (`content/ingest/inventory.py`, `extract.py`, `publish.py`) run on every course in `content/sources/raw/`: 9 sample courses added, listed in `docs/results/courses.md`; `scripts/phase9_check.py` 19/19 and TC-22; screenshots in `docs/screenshots/phase9/` (Knowledge Base, study note, quiz, course list) |
+| NFR5 Portability | A new course can be added without code changes | [x] The course ingestion pipeline (`content/ingest/inventory.py`, `extract.py`, `publish.py`) run on every course in `content/sources/raw/`: 9 sample courses added, listed in `docs/results/courses.md`; `scripts/phase9_check.py` and TC-22; screenshots in `docs/screenshots/phase9/` (Knowledge Base, study note, quiz, course list). 25 Oct: COS 102 added (12 courses), and students can request a missing course (`course_requests` table, Request a course page, `scripts/course_requests.py` to add it); `scripts/phase10_check.py`, TC-24 |
 
 ## Priority order for Monday
 

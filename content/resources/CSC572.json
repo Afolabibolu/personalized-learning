@@ -1,11 +1,61 @@
 {
   "code": "CSC 572",
   "topics": {
-    "introduction-to-machine-learning": [],
-    "linear-regression-and-gradient-descent": [],
-    "logistic-regression": [],
-    "feature-engineering": [],
-    "generalization-and-model-evaluation": [],
-    "neural-networks": []
+    "introduction-to-machine-learning": [
+      {
+        "title": "Video: Supervised vs. Unsupervised Learning (IBM Technology)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=W01tIRP_Rqs",
+        "source": "links.csv"
+      }
+    ],
+    "linear-regression-and-gradient-descent": [
+      {
+        "title": "Video: Gradient Descent, Step-by-Step (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sDv4f4s2SB8",
+        "source": "links.csv"
+      }
+    ],
+    "logistic-regression": [
+      {
+        "title": "Video: StatQuest: Logistic Regression (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yIYKR4sgzI8",
+        "source": "links.csv"
+      }
+    ],
+    "feature-engineering": [
+      {
+        "title": "Video: One-Hot, Label, Target and K-Fold Target Encoding, Clearly Explained!!! (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=589nCGeWG1w",
+        "source": "links.csv"
+      }
+    ],
+    "generalization-and-model-evaluation": [
+      {
+        "title": "Video: Machine Learning Fundamentals: Bias and Variance (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
+        "source": "links.csv"
+      }
+    ],
+    "decision-trees-and-random-forests": [
+      {
+        "title": "Video: Decision and Classification Trees, Clearly Explained!!! (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_L39rN6gz7Y",
+        "source": "links.csv"
+      }
+    ],
+    "neural-networks": [
+      {
+        "title": "Video: But what is a neural network? | Deep learning chapter 1 (3Blue1Brown)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+        "source": "links.csv"
+      }
+    ]
   }
 }

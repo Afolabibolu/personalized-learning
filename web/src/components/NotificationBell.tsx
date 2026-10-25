@@ -12,6 +12,7 @@ const KIND_DOT: Record<NotificationKind, string> = {
   daily_goal_reached: 'bg-emerald-500',
   score_improved: 'bg-emerald-500',
   new_recommendations: 'bg-brand-600',
+  course_added: 'bg-emerald-500',
 }
 
 export function useNotifications() {

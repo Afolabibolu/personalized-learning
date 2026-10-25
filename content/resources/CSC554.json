@@ -1,11 +1,46 @@
 {
   "code": "CSC 554",
   "topics": {
-    "semantics-and-abstract-machines": [],
-    "operational-and-denotational-semantics": [],
-    "axiomatic-semantics-and-hoare-logic": [],
+    "semantics-and-abstract-machines": [
+      {
+        "title": "Video: Lambda Calculus - Computerphile (Computerphile)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eis11j_iGMs",
+        "source": "links.csv"
+      }
+    ],
+    "operational-and-denotational-semantics": [
+      {
+        "title": "Video: An introduction to denotational semantics (Ralf Laemmel)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yorSVVbhsCY",
+        "source": "links.csv"
+      }
+    ],
+    "axiomatic-semantics-and-hoare-logic": [
+      {
+        "title": "Video: 06 01 intro to hoare logic (COMP1600 Foundation of Computing)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=t-Mj4ji3tCw",
+        "source": "links.csv"
+      }
+    ],
     "algebraic-semantics-and-utp": [],
-    "basic-program-analysis": [],
-    "program-transformation": []
+    "basic-program-analysis": [
+      {
+        "title": "Video: Lecture \"Data Flow Analysis (Part 1, Available Expressions)\" of \"Program Analysis\" (Michael Pradel)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rJYgTJaXZU0",
+        "source": "links.csv"
+      }
+    ],
+    "program-transformation": [
+      {
+        "title": "Video: Compiler Optimizations (Premature Abstraction)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BOrAVwwCXq8",
+        "source": "links.csv"
+      }
+    ]
   }
 }

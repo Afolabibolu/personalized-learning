@@ -1,10 +1,45 @@
 {
   "code": "CSC 552",
   "topics": {
-    "turing-machines": [],
-    "universal-turing-machine-church-turing-and-godel": [],
-    "decidability": [],
-    "reducibility-and-decidability-of-logics": [],
-    "computational-complexity-and-np-completeness": []
+    "turing-machines": [
+      {
+        "title": "Video: Turing Machine - Introduction (Part 1) (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PvLaPKPzq2I",
+        "source": "links.csv"
+      }
+    ],
+    "universal-turing-machine-church-turing-and-godel": [
+      {
+        "title": "Video: The Church-Turing Thesis (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0D7yInuKvKs",
+        "source": "links.csv"
+      }
+    ],
+    "decidability": [
+      {
+        "title": "Video: Undecidability of the Halting Problem (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_eM0-KfAmhQ",
+        "source": "links.csv"
+      }
+    ],
+    "reducibility-and-decidability-of-logics": [
+      {
+        "title": "Video: 9. Reducibility (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=N28g_YBXY8Y",
+        "source": "links.csv"
+      }
+    ],
+    "computational-complexity-and-np-completeness": [
+      {
+        "title": "Video: 16. Complexity: P, NP, NP-completeness, Reductions (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=eHZifpgyH_4",
+        "source": "links.csv"
+      }
+    ]
   }
 }

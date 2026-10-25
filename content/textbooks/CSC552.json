@@ -1,0 +1,62 @@
+{
+  "code": "CSC 552",
+  "books": {
+    "mishra": {
+      "title": "Theory of Computer Science: Automata, Languages and Computation",
+      "authors": "K.L.P. Mishra and N. Chandrasekaran",
+      "edition": "3rd edition",
+      "publisher": "PHI Learning",
+      "year": 2006,
+      "in_course_files": "Theory of Computer Science (Automata, Languages and Computation) Third Edition ( PDFDrive ).pdf"
+    },
+    "sipser": {
+      "title": "Introduction to the Theory of Computation",
+      "authors": "Michael Sipser",
+      "edition": "3rd edition",
+      "publisher": "Cengage Learning",
+      "year": 2013
+    }
+  },
+  "topics": {
+    "turing-machines": [
+      {
+        "book": "mishra",
+        "read": "Chapter 9: Turing Machines and Linear Bounded Automata",
+        "why": "Turing machine definitions, moves and design, from the book in the course folder."
+      }
+    ],
+    "universal-turing-machine-church-turing-and-godel": [
+      {
+        "book": "sipser",
+        "read": "Chapter 3: The Church–Turing Thesis; Section 6.2 (decidability of logical theories and Gödel's incompleteness theorem)",
+        "why": "A clear account of Turing machine variants, the Church–Turing thesis and Gödel."
+      }
+    ],
+    "decidability": [
+      {
+        "book": "mishra",
+        "read": "Chapter 10: Decidability",
+        "why": "Decidable and undecidable problems, including the halting problem."
+      },
+      {
+        "book": "sipser",
+        "read": "Chapter 4: Decidability",
+        "why": "Decidable languages and the diagonalization proof that the halting problem is undecidable."
+      }
+    ],
+    "reducibility-and-decidability-of-logics": [
+      {
+        "book": "sipser",
+        "read": "Chapter 5: Reducibility; Section 6.2: Decidability of Logical Theories",
+        "why": "Reductions between problems, and which logical theories are decidable."
+      }
+    ],
+    "computational-complexity-and-np-completeness": [
+      {
+        "book": "sipser",
+        "read": "Chapter 7: Time Complexity",
+        "why": "The classes P and NP, polynomial-time reductions and NP-completeness."
+      }
+    ]
+  }
+}

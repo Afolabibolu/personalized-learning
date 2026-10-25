@@ -100,6 +100,9 @@ def measure_ui(email: str, quiz_ids: list[str], runs: int) -> tuple[list[float],
         page = browser.new_page(viewport={"width": 1280, "height": 900})
         page.set_default_timeout(30_000)
         sign_in(page, *ACTIVE)
+        # seed_demo.py --demo-only leaves no saved recommendations; compute them once, outside the timed runs.
+        with page.expect_response(lambda r: "/recommend" in r.url and r.request.method == "POST", timeout=30_000):
+            page.get_by_role("button", name="Refresh").click()
         for _ in range(runs):
             page.goto("about:blank")
             t0 = time.perf_counter()

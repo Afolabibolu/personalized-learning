@@ -1,0 +1,57 @@
+{
+  "code": "CSC 531",
+  "books": {
+    "id5": {
+      "title": "Interaction Design: Beyond Human-Computer Interaction",
+      "authors": "Helen Sharp, Yvonne Rogers and Jenny Preece",
+      "edition": "5th edition",
+      "publisher": "Wiley",
+      "year": 2019,
+      "in_course_files": "Helen Sharp, Jenny Preece, Yvonne Rogers - Interaction Design_ Beyond Human-Computer Interaction-Wiley (2019).pdf"
+    }
+  },
+  "topics": {
+    "hci-and-usability": [
+      {
+        "book": "id5",
+        "read": "Chapter 1: What Is Interaction Design?",
+        "why": "Defines interaction design, usability goals and user experience goals, as in the lectures."
+      }
+    ],
+    "user-centred-design": [
+      {
+        "book": "id5",
+        "read": "Chapter 2: The Process of Interaction Design; Chapter 11: Discovering Requirements",
+        "why": "The user-centred design process and how requirements are found."
+      }
+    ],
+    "conceptual-models-and-ideation": [
+      {
+        "book": "id5",
+        "read": "Chapter 3: Conceptualizing Interaction",
+        "why": "Conceptual models, interface metaphors and interaction types."
+      }
+    ],
+    "data-gathering-and-analysis": [
+      {
+        "book": "id5",
+        "read": "Chapter 8: Data Gathering; Chapter 9: Data Analysis, Interpretation, and Presentation",
+        "why": "Interviews, questionnaires and observation, then analysing what you gathered."
+      }
+    ],
+    "cognitive-psychology": [
+      {
+        "book": "id5",
+        "read": "Chapter 4: Cognitive Aspects",
+        "why": "Attention, perception, memory and the cognitive frameworks used in HCI."
+      }
+    ],
+    "prototyping-and-evaluation": [
+      {
+        "book": "id5",
+        "read": "Chapter 12: Design, Prototyping, and Construction; Chapters 14–16 (evaluation)",
+        "why": "Low- and high-fidelity prototyping, then usability testing, field studies and heuristic evaluation."
+      }
+    ]
+  }
+}

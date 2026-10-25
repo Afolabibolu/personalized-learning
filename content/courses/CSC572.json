@@ -17,7 +17,9 @@
         "Features, labels, instances; parameters and hyperparameters",
         "Applications and ethics; Python tools (Anaconda, pip, scikit-learn)"
       ],
-      "lectures": [1]
+      "lectures": [
+        1
+      ]
     },
     {
       "slug": "linear-regression-and-gradient-descent",
@@ -31,7 +33,10 @@
         "Batch, stochastic and mini-batch gradient descent",
         "Learning rate too small or too large; convergence"
       ],
-      "lectures": [2, 3]
+      "lectures": [
+        2,
+        3
+      ]
     },
     {
       "slug": "logistic-regression",
@@ -45,7 +50,9 @@
         "Likelihood, negative log-likelihood and binary cross-entropy",
         "Training with gradient descent"
       ],
-      "lectures": [4]
+      "lectures": [
+        4
+      ]
     },
     {
       "slug": "feature-engineering",
@@ -59,7 +66,9 @@
         "Min-max normalisation, log transformation, ratios, rolling windows",
         "Feature selection: supervised and unsupervised; filter, wrapper, embedded"
       ],
-      "lectures": [5]
+      "lectures": [
+        5
+      ]
     },
     {
       "slug": "generalization-and-model-evaluation",
@@ -73,7 +82,24 @@
         "Confusion matrix, accuracy, precision, recall, F1, specificity, ROC and PR curves",
         "Regression metrics: MAE, MSE, RMSE, R²"
       ],
-      "lectures": [6, 9]
+      "lectures": [
+        6,
+        9
+      ]
+    },
+    {
+      "slug": "decision-trees-and-random-forests",
+      "title": "Decision Trees and Random Forests",
+      "summary": "A decision tree predicts through a sequence of feature tests, choosing splits by entropy, information gain or Gini impurity, and is pruned to avoid overfitting. A random forest combines many trees built on bootstrap samples with random feature subsets, voting or averaging to reduce variance.",
+      "subtopics": [
+        "Nodes, branches and leaves",
+        "Splitting: entropy, information gain, Gini impurity, variance reduction",
+        "Overfitting and underfitting in trees",
+        "Pre-pruning and post-pruning",
+        "Bagging and random forests: voting and averaging",
+        "Bias–variance in random forests; strengths and weaknesses"
+      ],
+      "lectures": []
     },
     {
       "slug": "neural-networks",
@@ -87,7 +113,10 @@
         "Forward propagation and backpropagation",
         "Optimizers and hyperparameters"
       ],
-      "lectures": [7, 8]
+      "lectures": [
+        7,
+        8
+      ]
     }
   ]
 }

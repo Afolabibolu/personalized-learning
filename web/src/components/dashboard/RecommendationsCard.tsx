@@ -6,7 +6,7 @@ import { setRecommendationStatus, type Explanation, type Recommendation } from '
 import { formatDate, percent } from '../../lib/format'
 import { ATTENTION_PROBABILITY } from '../../lib/suggestions'
 import { PREFERENCE_PHRASE } from '../PreferencePicker'
-import { RESOURCE_LABEL } from '../ResourceList'
+import { RESOURCE_LABEL, ResourceIcon } from '../ResourceList'
 import { Button, Card } from '../ui'
 
 type Kind = 'attention' | 'getting-started' | 'keep-it-up'
@@ -150,6 +150,8 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
         </p>
       )}
 
+      {explanation?.also && explanation.also.length > 0 && <AlsoRecommended items={explanation.also} />}
+
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <Button className="px-3 py-1.5" onClick={accept} disabled={update.isPending}>
           Accept and open
@@ -265,5 +267,41 @@ function RefreshIcon({ spinning }: { spinning: boolean }) {
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" className={`h-4 w-4 ${spinning ? 'animate-spin' : ''}`} aria-hidden>
       <path d="M16 10a6 6 0 1 1-1.8-4.3M16 3.5v3.2h-3.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
+  )
+}
+
+/** A video and a textbook for the same topic: videos open on YouTube, textbooks as a reading card. */
+function AlsoRecommended({ items }: { items: NonNullable<Explanation['also']> }) {
+  return (
+    <div className="mt-2" data-testid="also-recommended">
+      <p className="text-xs font-semibold tracking-wide text-slate-500 uppercase">Also recommended</p>
+      <ul className="-mx-2 mt-1 grid gap-0.5">
+        {items.map((item) => {
+          const body = (
+            <>
+              <ResourceIcon type={item.type} className="h-7 w-7" />
+              <span className="min-w-0 flex-1 text-sm leading-snug">
+                <span className="font-medium">{item.type === 'video' ? 'Video' : 'Textbook'}:</span>{' '}
+                {item.title.replace(/^(Video|Textbook): /, '')}
+              </span>
+            </>
+          )
+          const style = 'flex items-center gap-2.5 rounded-lg p-1.5 transition hover:bg-slate-50'
+          return (
+            <li key={item.resource_id}>
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noreferrer" className={style} data-testid="also-link">
+                  {body}
+                </a>
+              ) : (
+                <Link to={`/resources/${item.resource_id}`} className={style} data-testid="also-link">
+                  {body}
+                </Link>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+    </div>
   )
 }

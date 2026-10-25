@@ -22,6 +22,8 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
   - `score_improved`: the latest attempt on a topic beat the previous one by 20 points or more
 - `knowledge_base_stats` (view): counts of courses, topics, resources by type, and approved questions, for the Knowledge Base page.
 
+- `course_requests` (25 Oct): student_id, code, title, level, semester, lecturer, details, status (pending, added, declined), admin_note, course_id. Students read and create their own; a column grant lets them fill in only the request, so status and outcome are set by `scripts/course_requests.py` with the service role. Notification kind `course_added` tells them the course is ready.
+- `resources.type` (25 Oct) also allows `textbook`: reading cards from `content/textbooks/`.
 - `enrollments` (Phase 9): student_id, course_id, created_at. Students read, add and remove their own rows. A trigger on `profiles` enrols every new profile in the reviewed courses. The ML service only recommends for enrolled courses.
 
 ## Demo data

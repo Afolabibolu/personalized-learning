@@ -1,0 +1,63 @@
+{
+  "code": "CSC 582",
+  "books": {
+    "pevsner": {
+      "title": "Bioinformatics and Functional Genomics",
+      "authors": "Jonathan Pevsner",
+      "edition": "3rd edition",
+      "publisher": "Wiley-Blackwell",
+      "year": 2015
+    },
+    "shotts": {
+      "title": "The Linux Command Line",
+      "authors": "William Shotts",
+      "edition": "2nd edition",
+      "publisher": "No Starch Press",
+      "year": 2019
+    }
+  },
+  "topics": {
+    "biological-databases-and-tools": [
+      {
+        "book": "pevsner",
+        "read": "Chapter 2: Access to Sequence Data and Related Information",
+        "why": "GenBank, RefSeq, Entrez and the main sequence databases."
+      }
+    ],
+    "information-search-and-retrieval": [
+      {
+        "book": "pevsner",
+        "read": "Chapter 2: Access to Sequence Data and Related Information (PubMed and Entrez)",
+        "why": "Searching PubMed and NCBI resources."
+      }
+    ],
+    "sequence-alignment-and-homology": [
+      {
+        "book": "pevsner",
+        "read": "Chapter 3: Pairwise Sequence Alignment",
+        "why": "Homology, identity and similarity, and global and local alignment."
+      }
+    ],
+    "alignment-scoring-and-methods": [
+      {
+        "book": "pevsner",
+        "read": "Chapter 3: Pairwise Sequence Alignment; Chapter 4: Basic Local Alignment Search Tool (BLAST)",
+        "why": "Scoring matrices, gap penalties, Needleman–Wunsch, Smith–Waterman and BLAST."
+      }
+    ],
+    "multiple-alignment-and-protein-structure": [
+      {
+        "book": "pevsner",
+        "read": "Chapter 6: Multiple Sequence Alignment; Chapter 13: Protein Structure",
+        "why": "Progressive alignment, MSA tools, levels of protein structure and homology modelling."
+      }
+    ],
+    "basic-introduction-to-linux": [
+      {
+        "book": "shotts",
+        "read": "Chapters 1–4 (the shell, navigation, exploring the system, manipulating files and directories)",
+        "why": "The commands in the lecture, explained with examples. Free to read online from the author."
+      }
+    ]
+  }
+}

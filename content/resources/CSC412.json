@@ -1,10 +1,45 @@
 {
   "code": "CSC 412",
   "topics": {
-    "8086-architecture-and-programming": [],
-    "8086-system-bus-and-multiprocessing": [],
-    "interfacing-with-the-8086": [],
-    "8051-microcontroller-architecture": [],
-    "8051-timers-and-serial-communication": []
+    "8086-architecture-and-programming": [
+      {
+        "title": "Video: 8086 Microprocessor Architecture - Bharat Acharya (Bharat Acharya Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DmwOSdwzZ3E",
+        "source": "links.csv"
+      }
+    ],
+    "8086-system-bus-and-multiprocessing": [
+      {
+        "title": "Video: Minimum Mode of 8086 Microprocessor: Basics and Overview (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=a5aFYiNG7Go",
+        "source": "links.csv"
+      }
+    ],
+    "interfacing-with-the-8086": [
+      {
+        "title": "Video: 8255 Programmable Peripheral Interface: Block Diagram and Working Explained (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JCAjbuvvXbA",
+        "source": "links.csv"
+      }
+    ],
+    "8051-microcontroller-architecture": [
+      {
+        "title": "Video: Introduction to 8051 Microcontroller | Part 1 | Bharat Acharya Education (Bharat Acharya Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2-geyR_aM28",
+        "source": "links.csv"
+      }
+    ],
+    "8051-timers-and-serial-communication": [
+      {
+        "title": "Video: TCON and TMOD Registers of 8051 Microcontroller: Working and Functions for Timer and Counter (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rB1M1Gl1XvY",
+        "source": "links.csv"
+      }
+    ]
   }
 }

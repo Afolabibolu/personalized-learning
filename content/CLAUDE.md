@@ -5,14 +5,16 @@ Read the root CLAUDE.md first. This file covers the knowledge base content (FR5)
 ## Two kinds of course
 
 - Reviewed: CSC 531 and CSC 574. Built carefully and checked by me. Their questions load as `approved`.
-- Sample (auto-generated): any other course added through the pipeline below, marked `"is_reviewed": false` in its course file, so `courses.is_reviewed = false`. A course file may set `"level"` (100 to 500) when the code does not show it; otherwise `load.py` takes it from the course number. The app shows these with a "Sample content, pending lecturer review" badge, and their questions still work in quizzes so the demo shows the pipeline end to end. Sample size: 4 to 6 topics, 8 practice questions per topic in at least three formats, no lecture link required. The list of courses built so far, with the files used and skipped, is in `docs/results/courses.md`.
+- Sample (auto-generated): any other course added through the pipeline below, marked `"is_reviewed": false` in its course file, so `courses.is_reviewed = false`. A course file may set `"level"` (100 to 500) when the code does not show it; otherwise `load.py` takes it from the course number. The app shows these with a "Sample content, pending lecturer review" badge, and their questions still work in quizzes so the demo shows the pipeline end to end. Sample size: 4 to 7 topics, 8 practice questions per topic in at least three formats, no lecture link required. The list of courses built so far, with the files used and skipped, is in `docs/results/courses.md`.
 
 ## Content rules (both kinds)
 
 - Each topic has: subtopics, a two-sentence summary, a study note (300 to 500 words, ending "Source: Lecture N" or "Source: <file name>"), past questions copied as written and tagged with year, and 10 practice questions in the four formats.
 - Every fact comes from the files in `content/sources/`. Where a student's summary note and a lecture slide disagree, follow the slide.
 - Exception for sample courses only: a topic the course needs but no file covers (an outline week with no slides, a topic the past papers ask about, or a course whose folder has only a textbook) may be written from general knowledge, following the course outline or the NUC CCMAS outline. Say so in the note's Source line, in each question's source, and in `docs/results/courses.md`. Never write past questions from general knowledge.
-- Never invent URLs. Lecture, past-question and video links come only from `content/sources/links.csv` (columns: course, lecture, kind, title, url).
+- Never invent URLs. Lecture, past-question and video links come only from `content/sources/links.csv` (columns: course, lecture, kind, title, url). A video row may put a topic slug in the lecture column; every video URL is confirmed through YouTube's oEmbed endpoint before it is added.
+- Recommended textbooks live in `content/textbooks/<code>.json` (books, then per topic the book, what to read and why). Prefer a book in the course folder; give chapter numbers only where they are certain.
+- A course with no past papers may have `"exam_style": true` questions in `content/past_questions/`, written for practice and labelled "not from a past paper"; the app titles them "Exam-style questions".
 - In `links.csv`, a row with lecture `all` is the fallback for that course: any lecture without its own row links to it. Some `all` rows point to a Drive folder, not a single file; label those "Open lecture folder" in the app.
 - `validate.py` must pass before anything is loaded.
 

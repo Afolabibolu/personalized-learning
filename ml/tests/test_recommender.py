@@ -123,3 +123,37 @@ def test_preferred_type_comes_first_and_is_recorded_as_matched():
     assert rec.resource_id == "pq" and rec.explanation["matched_preference"] == "past_questions"
     rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("video",))[0]
     assert rec.resource_id == "note" and rec.explanation["matched_preference"] is None
+
+
+def topic_with_video_and_textbook():
+    resources = [
+        ResourceInfo("note", "t1", "Study note", True, 1, "note"),
+        ResourceInfo("video", "t1", "Video: Topic 1 explained", False, None, "video", "https://www.youtube.com/watch?v=x"),
+        ResourceInfo("book", "t1", "Textbook: A Book (Chapter 1)", False, None, "textbook"),
+        ResourceInfo("other-video", "t2", "Video: Topic 2", False, None, "video", "https://www.youtube.com/watch?v=y"),
+    ]
+    return CourseData("c", ["t1", "t2"], resources, {"t1": "quiz-t1", "t2": "quiz-t2"})
+
+
+def test_each_recommendation_also_suggests_the_topics_video_and_textbook():
+    m = models({1.0: 0.9, 2.0: 0.1}, {1.0: 0.9, 2.0: 0.1})
+    recs = recommend_course(topic_with_video_and_textbook(), COLD_START_THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m, set())
+    first = next(r for r in recs if r.topic_id == "t1")
+    assert first.resource_id == "note"
+    assert [(a["resource_id"], a["type"]) for a in first.explanation["also"]] == [("video", "video"), ("book", "textbook")]
+    assert first.explanation["also"][0]["url"] == "https://www.youtube.com/watch?v=x"
+
+
+def test_also_skips_the_main_resource_and_used_ones():
+    m = models({1.0: 0.9, 2.0: 0.1}, {1.0: 0.9, 2.0: 0.1})
+    # The student prefers videos, so the video is the main resource; the textbook was dismissed earlier.
+    recs = recommend_course(topic_with_video_and_textbook(), COLD_START_THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m,
+                            {"note", "book"}, preferred=("video",))
+    first = next(r for r in recs if r.topic_id == "t1")
+    assert first.resource_id == "video"
+    assert first.explanation["also"] == []
+
+
+def test_cold_start_items_also_suggest_a_video_and_textbook():
+    recs = recommend_course(topic_with_video_and_textbook(), 0, features({"t1": 1.0, "t2": 2.0}), None, set())
+    assert [a["type"] for a in recs[0].explanation["also"]] == ["video", "textbook"]

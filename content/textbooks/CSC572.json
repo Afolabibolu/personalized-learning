@@ -1,0 +1,71 @@
+{
+  "code": "CSC 572",
+  "books": {
+    "geron": {
+      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+      "authors": "Aurélien Géron",
+      "edition": "3rd edition",
+      "publisher": "O'Reilly",
+      "year": 2022
+    },
+    "nielsen": {
+      "title": "Neural Networks and Deep Learning",
+      "authors": "Michael Nielsen",
+      "edition": null,
+      "publisher": "Independently published (also free online)",
+      "year": 2016,
+      "in_course_files": "Neural networks and deep learning -- Michael Nielsen -- 2016 -- Independently Published -- 486ef.pdf"
+    }
+  },
+  "topics": {
+    "introduction-to-machine-learning": [
+      {
+        "book": "geron",
+        "read": "Chapter 1: The Machine Learning Landscape",
+        "why": "Types of machine learning, main challenges, and testing and validating models."
+      }
+    ],
+    "linear-regression-and-gradient-descent": [
+      {
+        "book": "geron",
+        "read": "Chapter 4: Training Models (linear regression and gradient descent)",
+        "why": "The normal equation and batch, stochastic and mini-batch gradient descent."
+      }
+    ],
+    "logistic-regression": [
+      {
+        "book": "geron",
+        "read": "Chapter 4: Training Models (the logistic regression section)",
+        "why": "Estimating probabilities with the sigmoid, the log loss and decision boundaries."
+      }
+    ],
+    "feature-engineering": [
+      {
+        "book": "geron",
+        "read": "Chapter 2: End-to-End Machine Learning Project (preparing the data)",
+        "why": "Handling missing values, encoding categories and feature scaling in scikit-learn."
+      }
+    ],
+    "generalization-and-model-evaluation": [
+      {
+        "book": "geron",
+        "read": "Chapter 3: Classification (performance measures); Chapter 2 (cross-validation)",
+        "why": "Confusion matrices, precision and recall, ROC curves and cross-validation."
+      }
+    ],
+    "decision-trees-and-random-forests": [
+      {
+        "book": "geron",
+        "read": "Chapter 6: Decision Trees; Chapter 7: Ensemble Learning and Random Forests",
+        "why": "CART, Gini and entropy, regularising trees, bagging and random forests."
+      }
+    ],
+    "neural-networks": [
+      {
+        "book": "nielsen",
+        "read": "Chapter 1: Using neural nets to recognize handwritten digits; Chapter 2: How the backpropagation algorithm works",
+        "why": "Perceptrons, sigmoid neurons, gradient descent and backpropagation, from the book in the course folder."
+      }
+    ]
+  }
+}

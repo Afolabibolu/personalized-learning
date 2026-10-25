@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a decision tree, what does a leaf node hold?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The prediction: a class or a number"
+      },
+      {
+        "key": "b",
+        "text": "A test on one feature"
+      },
+      {
+        "key": "c",
+        "text": "The bootstrap sample"
+      },
+      {
+        "key": "d",
+        "text": "The learning rate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Internal nodes test features; leaves give the prediction.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the entropy of a node that holds two classes in a 50/50 split?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "0.5"
+      },
+      {
+        "key": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "H = −(0.5 log₂ 0.5 + 0.5 log₂ 0.5) = 1; a pure node has entropy 0.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are pre-pruning (early stopping) limits for a decision tree?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maximum depth"
+      },
+      {
+        "key": "b",
+        "text": "Minimum samples to split a node"
+      },
+      {
+        "key": "c",
+        "text": "Minimum samples per leaf"
+      },
+      {
+        "key": "d",
+        "text": "Cost-complexity pruning after the tree is grown"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Cost-complexity pruning is post-pruning: the full tree is grown first, then cut back.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A very deep tree that fits the training data almost perfectly but does badly on new data is overfitting.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Deep trees have low bias but high variance.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How does a random forest combine its trees for a classification task?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Majority vote of the trees"
+      },
+      {
+        "key": "b",
+        "text": "It keeps only the deepest tree"
+      },
+      {
+        "key": "c",
+        "text": "It averages the training errors"
+      },
+      {
+        "key": "d",
+        "text": "It multiplies the trees' outputs"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Classification uses a vote; regression averages the trees' predictions.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of how a random forest builds diverse trees?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bootstrap samples of the training data"
+      },
+      {
+        "key": "b",
+        "text": "A random subset of features at each split"
+      },
+      {
+        "key": "c",
+        "text": "Aggregating the trees' predictions"
+      },
+      {
+        "key": "d",
+        "text": "Scaling every feature to the range 0 to 1"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Trees need no feature scaling; bagging plus feature randomness makes the trees differ.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Adding more trees to a random forest always causes overfitting.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "More trees make predictions more stable without overfitting, but the gains level off and the cost rises.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why does a random forest usually need no pruning?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Averaging many varied trees reduces the variance that deep trees have"
+      },
+      {
+        "key": "b",
+        "text": "Its trees are always shallow"
+      },
+      {
+        "key": "c",
+        "text": "It uses no training data"
+      },
+      {
+        "key": "d",
+        "text": "Pruning is impossible for trees"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each tree has low bias and high variance; averaging lowers the variance.",
+    "source": "General knowledge (topics asked in the 2023/24 CSC 572 paper, Questions 2 and 3)"
+  }
+]

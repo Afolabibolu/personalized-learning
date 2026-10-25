@@ -1,0 +1,71 @@
+{
+  "code": "CSC 554",
+  "books": {
+    "dragon": {
+      "title": "Compilers: Principles, Techniques, and Tools",
+      "authors": "Alfred V. Aho, Monica S. Lam, Ravi Sethi and Jeffrey D. Ullman",
+      "edition": "2nd edition",
+      "publisher": "Pearson",
+      "year": 2006
+    },
+    "nnh": {
+      "title": "Principles of Program Analysis",
+      "authors": "Flemming Nielson, Hanne Riis Nielson and Chris Hankin",
+      "edition": null,
+      "publisher": "Springer",
+      "year": 1999
+    },
+    "slonneger": {
+      "title": "Formal Syntax and Semantics of Programming Languages: A Laboratory Based Approach",
+      "authors": "Kenneth Slonneger and Barry L. Kurtz",
+      "edition": null,
+      "publisher": "Addison Wesley Longman",
+      "year": 1994,
+      "in_course_files": "Kenneth Slonneger, Barry L. Kurtz - Formal Syntax and Semantics of Programming Languages_ A Laboratory Based Approach-Addison Wesley Longman (1994).pdf"
+    }
+  },
+  "topics": {
+    "semantics-and-abstract-machines": [
+      {
+        "book": "slonneger",
+        "read": "Chapter 5: The Lambda Calculus; Chapter 8: Traditional Operational Semantics",
+        "why": "The λ-calculus and abstract machines such as the SECD machine, from the book in the course folder."
+      }
+    ],
+    "operational-and-denotational-semantics": [
+      {
+        "book": "slonneger",
+        "read": "Chapter 8: Traditional Operational Semantics; Chapter 9: Denotational Semantics; Chapter 10: Domain Theory and Fixed-Point Semantics",
+        "why": "Operational and denotational definitions of small languages, with semantic domains."
+      }
+    ],
+    "axiomatic-semantics-and-hoare-logic": [
+      {
+        "book": "slonneger",
+        "read": "Chapter 11: Axiomatic Semantics",
+        "why": "Hoare triples, the inference rules and proving programs correct."
+      }
+    ],
+    "algebraic-semantics-and-utp": [
+      {
+        "book": "slonneger",
+        "read": "Chapter 12: Algebraic Semantics",
+        "why": "Signatures, equations, modules and initial algebras."
+      }
+    ],
+    "basic-program-analysis": [
+      {
+        "book": "nnh",
+        "read": "Chapter 1: Introduction (data flow analysis, abstract interpretation)",
+        "why": "The standard text on static program analysis."
+      }
+    ],
+    "program-transformation": [
+      {
+        "book": "dragon",
+        "read": "Chapter 9: Machine-Independent Optimizations",
+        "why": "Data flow analysis and transformations such as constant folding and loop optimisations."
+      }
+    ]
+  }
+}

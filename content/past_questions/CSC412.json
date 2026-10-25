@@ -1,0 +1,83 @@
+{
+  "code": "CSC 412",
+  "exam_style": true,
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Not from a past paper: written for this app from the course's study notes",
+      "source": "Written for this app from the CSC 412 study notes, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "marks": 20,
+      "topic": "8086-architecture-and-programming",
+      "text": "a) State three features of the 8086 microprocessor, including the sizes of its data and address buses and the memory it can address. (3 marks)\nb) With a block diagram, describe the two functional units of the 8086 and explain how the instruction queue allows pipelining. (7 marks)\nc) A memory operand has segment address 2000H and offset 0345H. Calculate its 20-bit physical address, showing your working. (4 marks)\nd) List the general-purpose and segment registers of the 8086 and state the role of each segment register. (6 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "marks": 15,
+      "topic": "8086-architecture-and-programming",
+      "text": "a) Distinguish between the conditional flags and the control flags of the 8086 flag register, giving two examples of each. (6 marks)\nb) Explain any four addressing modes of the 8086, with an example instruction for each. (6 marks)\nc) Name the groups into which the 8086 instruction set is divided. (3 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "marks": 20,
+      "topic": "8086-system-bus-and-multiprocessing",
+      "text": "a) Explain why the lines AD0–AD15 of the 8086 are multiplexed, and how the address is separated from the data. (4 marks)\nb) What is a bus cycle? Describe the T-states of an 8086 bus cycle and explain when wait states are inserted. (6 marks)\nc) Define setup time and hold time. (2 marks)\nd) Compare the minimum mode and maximum mode of the 8086, stating the pin that selects each mode. (8 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "marks": 15,
+      "topic": "8086-system-bus-and-multiprocessing",
+      "text": "a) Describe how the 8087 coprocessor works with the 8086 in a closely coupled configuration. (6 marks)\nb) What is a loosely coupled multiprocessor system? (4 marks)\nc) State five advantages of multiprocessor configurations. (5 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "marks": 20,
+      "topic": "interfacing-with-the-8086",
+      "text": "a) Distinguish between synchronous and asynchronous data transfer. (4 marks)\nb) Compare memory-mapped I/O with I/O-mapped I/O, giving two advantages of each. (6 marks)\nc) Describe the 8255 Programmable Peripheral Interface, its ports and its modes of operation. (10 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "marks": 15,
+      "topic": "interfacing-with-the-8086",
+      "text": "a) State the function of each of the following peripheral chips: 8251 USART, 8253/8254 timer, 8259 interrupt controller and 8279 keyboard/display controller. (8 marks)\nb) With a diagram, explain how an analogue-to-digital converter is interfaced to the 8086. (7 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "marks": 20,
+      "topic": "8051-microcontroller-architecture",
+      "text": "a) Distinguish between a microprocessor and a microcontroller. (4 marks)\nb) State five features of the 8051, and how the 8031 and 8052 differ from it. (7 marks)\nc) Describe the four ports of the 8051 and the function of the EA pin. (5 marks)\nd) Explain the use of the program counter, stack pointer and DPTR. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "marks": 15,
+      "topic": "8051-microcontroller-architecture",
+      "text": "a) Describe the internal RAM organisation of the 8051, including the four register banks and how a bank is selected. (7 marks)\nb) What are special function registers? Give four examples. (4 marks)\nc) Explain any two addressing modes of the 8051 with an example instruction for each. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "marks": 20,
+      "topic": "8051-timers-and-serial-communication",
+      "text": "a) Describe the bits of the TMOD register: GATE, C/T, M1 and M0. (6 marks)\nb) State the role of the TR and TF bits in TCON. (2 marks)\nc) List the steps for programming Timer 0 in mode 1 to generate a time delay. (6 marks)\nd) With an 11.0592 MHz crystal, calculate the timer clock period, and the delay produced when Timer 0 counts from FFF2H to roll-over. (6 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "marks": 15,
+      "topic": "8051-timers-and-serial-communication",
+      "text": "a) Distinguish between synchronous and asynchronous serial communication. (4 marks)\nb) Define baud rate. (2 marks)\nc) Explain the functions of the SCON and SBUF registers in 8051 serial communication. (6 marks)\nd) Explain how a timer is used to generate a square wave on a port pin. (3 marks)"
+    }
+  ]
+}

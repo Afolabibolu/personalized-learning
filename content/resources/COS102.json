@@ -1,10 +1,45 @@
 {
   "code": "COS 102",
   "topics": {
-    "computing-concepts-and-types-of-problems": [],
-    "problem-solving-process-and-algorithms": [],
-    "problem-solving-techniques": [],
-    "flowcharts-pseudocode-and-decision-tables": [],
-    "from-algorithm-to-program": []
+    "computing-concepts-and-types-of-problems": [
+      {
+        "title": "Video: What is Computational Thinking? (The Tech Interactive)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NEBRe_EULiY",
+        "source": "links.csv"
+      }
+    ],
+    "problem-solving-process-and-algorithms": [
+      {
+        "title": "Video: What's an algorithm? - David J. Malan (TED-Ed)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6hfOvs8pY1k",
+        "source": "links.csv"
+      }
+    ],
+    "problem-solving-techniques": [
+      {
+        "title": "Video: Decomposition, Abstraction & Algorithmic Thinking (MrBrownCS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qkIVheIgtWw",
+        "source": "links.csv"
+      }
+    ],
+    "flowcharts-pseudocode-and-decision-tables": [
+      {
+        "title": "Video: Flowcharts and Pseudocode - #1 | GCSE (9-1) in Computer Science | AQA, OCR and Edexcel (Stuff Made Easy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yq1OPs5hCt0",
+        "source": "links.csv"
+      }
+    ],
+    "from-algorithm-to-program": [
+      {
+        "title": "Video: Python Tutorial for Beginners 6: Conditionals and Booleans - If, Else, and Elif Statements (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DZwmZ8Usvnk",
+        "source": "links.csv"
+      }
+    ]
   }
 }

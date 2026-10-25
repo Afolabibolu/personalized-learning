@@ -1,0 +1,83 @@
+{
+  "code": "GES 103",
+  "exam_style": true,
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Not from a past paper: written for this app from the course's study notes",
+      "source": "Written for this app from the GES 103 study notes, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "marks": 15,
+      "topic": "politics-and-the-concept-of-government",
+      "text": "a) Discuss any three definitions of politics, by Aristotle, Harold Lasswell and David Easton. (6 marks)\nb) Distinguish between power, influence and authority, and explain traditional and charismatic authority. (5 marks)\nc) State the four elements of the modern state. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "marks": 15,
+      "topic": "politics-and-the-concept-of-government",
+      "text": "a) Explain the significance of the study of politics. (5 marks)\nb) Discuss any two theories of the origin of the state. (6 marks)\nc) Identify the levels at which politics takes place. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "marks": 15,
+      "topic": "organisation-and-classification-of-government",
+      "text": "a) Explain the doctrine of separation of powers and the three arms of government. (5 marks)\nb) Outline Aristotle's classification of governments into good and perverted forms. (6 marks)\nc) Distinguish between unitary, federal and confederal systems of government. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "marks": 15,
+      "topic": "organisation-and-classification-of-government",
+      "text": "a) Compare the presidential and parliamentary systems of government. (8 marks)\nb) Distinguish between capitalism, socialism and communism. (7 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "marks": 15,
+      "topic": "law-democracy-and-good-governance",
+      "text": "a) Define law, with reference to Black's Law Dictionary and John Austin. (4 marks)\nb) Discuss any four functions of law in society. (6 marks)\nc) Explain the relationship between law and morality. (5 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "marks": 15,
+      "topic": "law-democracy-and-good-governance",
+      "text": "a) Distinguish between: i. substantive and procedural law; ii. public and private law; iii. civil and criminal law. (9 marks)\nb) What is customary law? (2 marks)\nc) Explain the link between democracy and good governance in Nigeria. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "marks": 15,
+      "topic": "economics-and-development",
+      "text": "a) Explain scarcity, choice and opportunity cost, with an example. (6 marks)\nb) Discuss the definitions of economics given by Adam Smith, Alfred Marshall and Lionel Robbins. (6 marks)\nc) State the law of demand. (3 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "marks": 15,
+      "topic": "economics-and-development",
+      "text": "a) Distinguish between economic growth and economic development. (6 marks)\nb) In what sense is economics a science? Explain the use of models. (5 marks)\nc) Explain why distribution and exchange are needed between production and consumption. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "marks": 15,
+      "topic": "ict-and-the-social-sciences",
+      "text": "a) Distinguish between the natural sciences and the social sciences. (4 marks)\nb) What is ICT? Explain learning about, learning with and learning through ICT. (7 marks)\nc) Identify two ways ICT supports any one social science discipline. (4 marks)"
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "marks": 15,
+      "topic": "ict-and-the-social-sciences",
+      "text": "a) Discuss the basic issues in using ICT in education: effectiveness, cost, equity and sustainability. (8 marks)\nb) Explain how ICT promotes information literacy and independent learning. (7 marks)"
+    }
+  ]
+}

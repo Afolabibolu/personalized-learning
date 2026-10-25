@@ -7,6 +7,7 @@ export type NotificationKind =
   | 'score_improved'
   | 'new_recommendations'
   | 'weak_topic_unstudied'
+  | 'course_added'
 
 export type AppNotification = {
   id: string

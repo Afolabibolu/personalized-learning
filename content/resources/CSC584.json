@@ -1,10 +1,38 @@
 {
   "code": "CSC 584",
   "topics": {
-    "ict-and-the-digital-divide": [],
-    "applications-of-ict": [],
+    "ict-and-the-digital-divide": [
+      {
+        "title": "Video: The Digital Divide, Explained (Freethink)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aMi3ky04XqY",
+        "source": "links.csv"
+      }
+    ],
+    "applications-of-ict": [
+      {
+        "title": "Video: ICT for Development Explained (Plan International Suomi)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EqmnhR2moTU",
+        "source": "links.csv"
+      }
+    ],
     "design-reality-gap": [],
-    "developmental-informatics-and-big-data": [],
-    "participatory-design-and-ict4d-technologies": []
+    "developmental-informatics-and-big-data": [
+      {
+        "title": "Video: Big Data for Development (FHI 360)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=CgTicR-32eg",
+        "source": "links.csv"
+      }
+    ],
+    "participatory-design-and-ict4d-technologies": [
+      {
+        "title": "Video: Introduction to Participatory Design for Development (MIT D-Lab)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=n3jMzJxS0Dg",
+        "source": "links.csv"
+      }
+    ]
   }
 }
