@@ -53,7 +53,7 @@ CHECKLIST = [
     Shot("14-dashboard-new.png", "Dashboard, cold start", "Kemi Balogun (new.student@demo.example.com)", "'Hi Kemi'; reminders to log study and take diagnostics; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4)"),
     Shot("15-dashboard-active.png", "Dashboard, ML recommendations", "Tolu Adeyemi (active.student@demo.example.com)", "'Hi Tolu'; bell with unread count; weekly summary; Cognitive Psychology and Fuzzy Logic 'Needs attention' with reason lines and 'Matched to your preference'; one 'Keep it up'; streak, 14-day strip, progress chart (FR1, FR4, FR6)"),
     Shot("16-why-this.png", "'Why this?' panel", "Tolu Adeyemi", "Logistic Regression and Random Forest probabilities, their average, and the factors that raise risk (FR4)"),
-    Shot("17-progress-csc574.png", "Progress chart, CSC 574 tab", "Tolu Adeyemi", "Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6)"),
+    Shot("17-progress-csc574.png", "Progress chart, CSC 574 picked in the course dropdown", "Tolu Adeyemi", "Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6)"),
     Shot("18-phone-dashboard.png", "Dashboard on a phone (390 px)", "Tolu Adeyemi", "One column; menu button and bell stay in the header (NFR1)"),
     Shot("19-phone-quiz.png", "Quiz on a phone (390 px)", "Tolu Adeyemi", "Question and options fit the screen, Back/Next reachable (NFR1)"),
 ]
@@ -182,7 +182,7 @@ def demo_flows(browser) -> None:
     first.scroll_into_view_if_needed()
     page.evaluate("window.scrollBy(0, -80)")
     save(page, "16-why-this.png")
-    page.get_by_role("tab", name="CSC 574").click()
+    page.get_by_role("combobox", name="Course").select_option(label="CSC 574 · Intelligent Systems")
     page.get_by_test_id("progress-chart").scroll_into_view_if_needed()
     page.evaluate("window.scrollBy(0, 160)")
     save(page, "17-progress-csc574.png")
@@ -239,8 +239,9 @@ PHASE7 = [
 
 PHASE9 = [
     Shot("p9-01-onboarding-courses.png", "Onboarding with course choice", "New sign-up (Phase Nine Student)", "Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5)"),
-    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
+    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses grouped by level (500, 400, 200) with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
     Shot("p9-03-knowledge-base.png", "Knowledge Base with a sample course", "New sign-up", "CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5)"),
+    Shot("p9-03b-knowledge-base-collapsed.png", "Knowledge Base, all courses collapsed", "New sign-up", "One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5)"),
     Shot("p9-04-study-note.png", "Sample course study note", "New sign-up", "Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5)"),
     Shot("p9-05-past-questions.png", "Sample course past questions", "New sign-up", "CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5)"),
     Shot("p9-06-topic.png", "Sample course topic page", "New sign-up", "Badge, summary, Take topic quiz (NFR5)"),

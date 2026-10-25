@@ -32,6 +32,13 @@ function CourseCard({ course, onToggle, busy }: { course: CourseSummary; onToggl
   )
 }
 
+/** Courses grouped by level, highest first (500, 400, ...); courses with no level go last. */
+function levels(courses: CourseSummary[]): [number, CourseSummary[]][] {
+  const groups = new Map<number, CourseSummary[]>()
+  for (const c of courses) groups.set(c.level ?? 0, [...(groups.get(c.level ?? 0) ?? []), c])
+  return [...groups].sort(([a], [b]) => (b || -1) - (a || -1))
+}
+
 export function CoursesPage() {
   const queryClient = useQueryClient()
   const courses = useQuery({ queryKey: ['courses'], queryFn: listCourses })
@@ -82,7 +89,14 @@ export function CoursesPage() {
               for a lecturer to review them.
             </p>
           </div>
-          {others.map(card)}
+          {levels(others).map(([level, list]) => (
+            <div key={level} className="grid gap-4" aria-labelledby={`level-${level}`} role="group">
+              <h3 id={`level-${level}`} className="mt-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">
+                {level ? `${level} level` : 'Other courses'}
+              </h3>
+              {list.map(card)}
+            </div>
+          ))}
         </section>
       )}
 

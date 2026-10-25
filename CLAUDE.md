@@ -140,7 +140,7 @@ recsys/
 | Table | Key columns | Students can |
 | --- | --- | --- |
 | profiles | id (= auth user id), full_name, department, level, learning_preferences, is_simulated | read and update own row (a trigger on `auth.users` creates the row at sign-up) |
-| courses | id, code, title | read |
+| courses | id, code, title, description, is_reviewed, level (100 to 500) | read |
 | topics | id, course_id, title, sequence_order, subtopics (list), summary (Phase 7) | read |
 | resources | id, topic_id, title, type (now pdf, video, link; Phase 7: note, lecture, past_questions, video), url (for links), body (Markdown, for in-app content, Phase 7), source, is_introductory, intro_order | read |
 | quizzes | id, course_id, topic_id (null for diagnostic), kind (diagnostic or topic), question_count | read |

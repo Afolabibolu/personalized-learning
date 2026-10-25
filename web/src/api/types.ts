@@ -26,6 +26,8 @@ export type Course = {
   description: string | null
   /** false for sample courses added by the ingestion pipeline (Phase 9) */
   is_reviewed: boolean
+  /** 100 to 500, from the course code; groups the Courses page */
+  level: number | null
 }
 
 export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video'

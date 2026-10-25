@@ -13,6 +13,7 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
 - `profiles`: add `study_days` (list of weekdays), `preferred_study_time` (time), `daily_goal_minutes` (integer, default 30), `browser_notifications` (boolean, default false). Students update their own row.
 - `recommendations`: add `explanation` (jsonb), written by the ML service only.
 - `courses`: add `is_reviewed` (boolean, default true). Courses added by the ingestion pipeline are false.
+- `courses.level` (smallint, 100 to 500): set by `load.py` from the course file's `level`, or from the first digit of the course number. Groups the Courses page.
 - `notifications` (new): id, student_id, kind, title, body, link, created_at, read_at. Students read their own and can set `read_at` only. Add a unique index on student_id, kind and the date part of created_at, so each kind fires at most once a day.
 - `generate_reminders()` (new, security definer, uses `auth.uid()`): called by the dashboard on load. Inserts, at most once a day each:
   - `streak_at_risk`: today is one of the student's study days, it is past their preferred time, and nothing is logged today

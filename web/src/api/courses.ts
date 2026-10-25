@@ -30,7 +30,7 @@ export async function listCourses(): Promise<CourseSummary[]> {
   const [courses, attempts, enrolled] = await Promise.all([
     supabase
       .from('courses')
-      .select('id, code, title, description, is_reviewed, topics(count), quizzes(id, kind)')
+      .select('id, code, title, description, is_reviewed, level, topics(count), quizzes(id, kind)')
       .order('code'),
     supabase
       .from('quiz_attempts')
@@ -64,7 +64,7 @@ export type CourseDetail = Course & {
 export async function getCourse(courseId: string): Promise<CourseDetail> {
   const { data, error } = await supabase
     .from('courses')
-    .select('id, code, title, description, is_reviewed, topics(id, course_id, slug, title, subtopics, summary, sequence_order), quizzes(id, kind)')
+    .select('id, code, title, description, is_reviewed, level, topics(id, course_id, slug, title, subtopics, summary, sequence_order), quizzes(id, kind)')
     .eq('id', courseId)
     .single()
   if (error) throw error
@@ -81,7 +81,7 @@ export async function getCourse(courseId: string): Promise<CourseDetail> {
 }
 
 export type TopicDetail = Topic & {
-  course: Pick<Course, 'id' | 'code' | 'title' | 'is_reviewed'>
+  course: Pick<Course, 'id' | 'code' | 'title' | 'is_reviewed' | 'level'>
   resources: Resource[]
   quiz: Quiz | null
   latest_score: number | null
@@ -91,7 +91,7 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
   const { data, error } = await supabase
     .from('topics')
     .select(
-      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title, is_reviewed), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
+      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title, is_reviewed, level), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
     )
     .eq('id', topicId)
     .single()
@@ -113,7 +113,7 @@ export async function listTopicsByCourse(): Promise<(Course & { enrolled: boolea
   const [{ data, error }, enrolled] = await Promise.all([
     supabase
       .from('courses')
-      .select('id, code, title, description, is_reviewed, topics(id, course_id, slug, title, subtopics, summary, sequence_order)')
+      .select('id, code, title, description, is_reviewed, level, topics(id, course_id, slug, title, subtopics, summary, sequence_order)')
       .order('code'),
     listEnrolledCourseIds(),
   ])

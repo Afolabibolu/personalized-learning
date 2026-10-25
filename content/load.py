@@ -17,6 +17,7 @@ is set back to draft rather than deleted, because old answers may point to it.
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -26,6 +27,14 @@ from supabase import create_client
 CONTENT = Path(__file__).parent
 DIAGNOSTIC_PER_TOPIC = 3
 TOPIC_QUIZ_QUESTIONS = 5
+
+
+def course_level(course: dict) -> int | None:
+    """The course file's "level", else the first digit of the course number times 100 (CSC 551 -> 500)."""
+    if course.get("level"):
+        return int(course["level"])
+    digits = re.search(r"\d", course["code"])
+    return int(digits.group()) * 100 if digits and digits.group() in "12345" else None
 
 
 def upsert_quiz(db, course_id: str, topic_id: str | None, kind: str, title: str, count: int) -> None:
@@ -145,7 +154,7 @@ def main() -> int:
         course = json.loads(path.read_text())
         course_id = db.table("courses").upsert(
             {"code": course["code"], "title": course["title"], "description": course.get("description"),
-             "is_reviewed": course.get("is_reviewed", True)},
+             "is_reviewed": course.get("is_reviewed", True), "level": course_level(course)},
             on_conflict="code",
         ).execute().data[0]["id"]
 

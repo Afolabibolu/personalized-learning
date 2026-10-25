@@ -11,9 +11,9 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | Route | Page | Requirement |
 | --- | --- | --- |
 | `/` | Dashboard: weekly summary, recommendations, consistency, progress by topic | FR4, FR6 |
-| `/courses` | My courses (with diagnostic status and Remove), then More courses with Add to my courses | FR2, NFR5 |
+| `/courses` | My courses (with diagnostic status and Remove), then More courses grouped by level (500 first) with Add to my courses | FR2, NFR5 |
 | `/courses/:code` | Course page: topics with latest score, quiz history, "Take topic quiz" | FR2 |
-| `/knowledge` | Knowledge Base: search, courses, topics with subtopics, resources grouped by type, live counts | FR5 |
+| `/knowledge` | Knowledge Base: search, collapsible course sections (own courses open; a search opens every match; Expand all, Collapse all), topics with subtopics, resources grouped by type, live counts | FR5 |
 | `/topics/:id` | Topic page: summary, subtopics, resources, latest score, "Take topic quiz", "Log study session" | FR5 |
 | `/resources/:id` | Resource viewer: notes and past questions rendered with react-markdown | FR5 |
 | `/quiz/:attemptId` | Quiz player | FR2 |
@@ -27,7 +27,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 - `RecommendationCard`: label (Needs attention, Getting started, Keep it up), course code, probability, topic, resource title and type, the reason line, a "Matched to your preference" line when it applies, Accept (opens the resource) and Dismiss. A "Why this?" toggle shows both model probabilities, their average and the top factors. The reason and factors come from the `explanation` field the ML service writes; do not compute them in the browser.
 - `NotificationBell` and `NotificationList`: unread count from `notifications` where `read_at` is null. Clicking an item marks it read and follows its link.
 - `WeeklySummary`: minutes this week against last week, topics whose latest score went up, and the top recommended topic.
-- `ProgressByTopic`: wrap long topic names onto two lines; show the full name in a tooltip. Keep the 50% line and the colour legend.
+- `ProgressByTopic`: a course dropdown (the student's courses), not tabs, so it scales to many courses. Wrap long topic names onto two lines; show the full name in a tooltip. Keep the 50% line and the colour legend.
 - `StudyLogger`: label the custom box "Custom (minutes)", accept 1 to 300, and add an optional timer.
 - `KnowledgeBase`: a search box that filters as you type, course sections, and a resource type icon for each resource.
 - Sample courses (`is_reviewed = false`) carry the `SampleBadge` ("Sample content, pending lecturer review") on the course list, course page, topic page, Knowledge Base and onboarding.

@@ -5,7 +5,7 @@ Read the root CLAUDE.md first. This file covers the knowledge base content (FR5)
 ## Two kinds of course
 
 - Reviewed: CSC 531 and CSC 574. Built carefully and checked by me. Their questions load as `approved`.
-- Sample (auto-generated): any other course added through the pipeline below, marked `"is_reviewed": false` in its course file, so `courses.is_reviewed = false`. The app shows these with a "Sample content, pending lecturer review" badge, and their questions still work in quizzes so the demo shows the pipeline end to end. Sample size: 4 to 6 topics, 8 practice questions per topic in at least three formats, no lecture link required. The list of courses built so far, with the files used and skipped, is in `docs/results/courses.md`.
+- Sample (auto-generated): any other course added through the pipeline below, marked `"is_reviewed": false` in its course file, so `courses.is_reviewed = false`. A course file may set `"level"` (100 to 500) when the code does not show it; otherwise `load.py` takes it from the course number. The app shows these with a "Sample content, pending lecturer review" badge, and their questions still work in quizzes so the demo shows the pipeline end to end. Sample size: 4 to 6 topics, 8 practice questions per topic in at least three formats, no lecture link required. The list of courses built so far, with the files used and skipped, is in `docs/results/courses.md`.
 
 ## Content rules (both kinds)
 
