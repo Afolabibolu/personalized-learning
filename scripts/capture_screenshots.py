@@ -239,7 +239,7 @@ PHASE7 = [
 
 PHASE9 = [
     Shot("p9-01-onboarding-courses.png", "Onboarding with course choice", "New sign-up (Phase Nine Student)", "Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5)"),
-    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses grouped by level (500, 400, 200) with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
+    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses grouped by level (500, 400, 200, 100) with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
     Shot("p9-03-knowledge-base.png", "Knowledge Base with a sample course", "New sign-up", "CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5)"),
     Shot("p9-03b-knowledge-base-collapsed.png", "Knowledge Base, all courses collapsed", "New sign-up", "One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5)"),
     Shot("p9-04-study-note.png", "Sample course study note", "New sign-up", "Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5)"),

@@ -135,7 +135,7 @@ def browser_checks(folder: Path | None) -> None:
                   f"{cards.count()} course cards")
             groups = page.locator("[id^=level-]").all_inner_texts()
             check("more courses are grouped by level, highest first",
-                  [g.lower() for g in groups] == ["500 level", "400 level", "200 level"], " | ".join(groups))
+                  [g.lower() for g in groups] == ["500 level", "400 level", "200 level", "100 level"], " | ".join(groups))
             shot(folder, page, "p9-02-courses.png", full_page=True)
 
             # Knowledge Base: the sample course with its badge; a study note and past questions.
@@ -263,6 +263,9 @@ def browser_checks(folder: Path | None) -> None:
         page.get_by_label("Password").fill(DEMO_PASSWORD)
         page.get_by_role("button", name="Sign in").click()
         page.wait_for_url(f"{APP}/")
+        # seed_demo.py --demo-only leaves no recommendations, so recompute them first.
+        with page.expect_response(lambda r: "/recommend" in r.url and r.request.method == "POST", timeout=30_000):
+            page.get_by_role("button", name="Refresh").click()
         items = page.get_by_test_id("recommendation")
         expect(items.first).to_be_visible()
         check("Kemi's dashboard is unchanged: six getting-started items for CSC 531 and CSC 574",

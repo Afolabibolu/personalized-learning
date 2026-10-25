@@ -28,30 +28,30 @@
   },
   {
     "format": "single_choice",
-    "stem": "Who first described the SECD machine, in 'The Mechanical Evaluation of Expressions' (1964)?",
+    "stem": "With x in register 1 and y in register 2, which RAM program computes y := x + 3 for x = 2?",
     "options": [
       {
         "key": "a",
-        "text": "Peter J. Landin"
+        "text": "LOAD =2; STORE 1; LOAD 1; ADD =3; STORE 2; HALT"
       },
       {
         "key": "b",
-        "text": "Tony Hoare"
+        "text": "LOAD 2; ADD 3; STORE =1; HALT"
       },
       {
         "key": "c",
-        "text": "Gordon Plotkin"
+        "text": "STORE 2; LOAD =3; ADD 1; HALT"
       },
       {
         "key": "d",
-        "text": "Alonzo Church"
+        "text": "ADD =3; LOAD =2; STORE 1; HALT"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Landin described the SECD machine in 1964, the first machine designed to evaluate λ-calculus expressions.",
-    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 18"
+    "explanation": "x is stored first, then loaded into the accumulator, 3 is added as an immediate operand, and the result 5 is stored in register 2.",
+    "source": "General knowledge (CSC554 Course Outline.pdf, week 2: RAM machine)"
   },
   {
     "format": "single_choice",
@@ -82,7 +82,7 @@
   },
   {
     "format": "true_false",
-    "stem": "The environment register is the only SECD stack commonly accessed by index rather than by stack operations.",
+    "stem": "In the RAM machine, register r0 acts as the accumulator and a program counter selects the next instruction.",
     "options": [
       {
         "key": "true",
@@ -96,8 +96,8 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "Variables are found by level and index in the environment, unlike the other registers.",
-    "source": "Semantic of Programming Language.pdf (CSC 554 lecture slides), slide 28"
+    "explanation": "The RAM has unbounded integer registers, with r0 as the accumulator, and runs a numbered list of instructions.",
+    "source": "General knowledge (CSC554 Course Outline.pdf, week 2: RAM machine)"
   },
   {
     "format": "multi_select",

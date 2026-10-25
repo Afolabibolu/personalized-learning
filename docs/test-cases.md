@@ -1,6 +1,6 @@
 # Test cases (Chapter Four)
 
-Run 2026-10-25 02:11 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-10-25 06:36 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
 **Summary:** 21 pass, 1 partial, 0 fail.
 
@@ -36,6 +36,8 @@ Notes
 - TC-13 targets were set for this test; see docs/results/performance.md for all samples and caveats.
 - First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the old file layout (resources inside the course file, no study notes). Both were faults in the test script, not the app; the script was updated and every case was run again.
 - First Phase 9 run (24 Oct 2026): 20 pass, 2 fail. TC-10 and TC-12 failed on 'dashboard shows a streak' (0-day streak) because the demo accounts had last been reset on 19 October, so the seeded study days were no longer consecutive up to today. After `python scripts/seed_demo.py --demo-only` the streak check passed, and every case was run again for the table above. Reset the demo accounts on the day of the demo.
+
+- Runs on 25 Oct 2026 (12 courses): one run had TC-10 fail because npm was not on the PATH of the shell running this script (not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: `seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of every case for the table above.
 
 ## Details
 
@@ -96,9 +98,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 27.78)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 16.67)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 49.24s)
+    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 47.96s)
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -112,7 +114,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 25 passed in 49.24s
+    PASS  pytest scripts: 25 passed in 47.96s
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -191,7 +193,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 42 passed in 2.05s
+    PASS  pytest ml (features, simulator, cold start, ranking): 42 passed in 2.06s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -210,9 +212,9 @@ Notes
     PASS  reviewed courses: CSC 531, CSC 574
     PASS  12 topics in the reviewed courses
     PASS  120 approved questions in the reviewed courses
-    INFO  9 sample courses from the ingestion pipeline: CSC 412, CSC 551, CSC 552, CSC 554, CSC 572, CSC 582, CSC 583, CSC 584, GES 103
-    PASS  every topic (58) has at least one resource
-    PASS  every topic has a topic quiz; 11 diagnostic quizzes for 11 courses
+    INFO  10 sample courses from the ingestion pipeline: COS 102, CSC 412, CSC 551, CSC 552, CSC 554, CSC 572, CSC 582, CSC 583, CSC 584, GES 103
+    PASS  every topic (65) has at least one resource
+    PASS  every topic has a topic quiz; 12 diagnostic quizzes for 12 courses
 ```
 
 ### TC-10 · FR6 · Progress tracking and consistency
@@ -388,7 +390,7 @@ Notes
 
 ```
     PASS  results: first attempt on a topic says so
-    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (40% to 40%, no change)
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (20% to 40%, up 20 points)
     PASS  'Custom (minutes)' is labelled and rejects 400
     PASS  'Custom (minutes)' accepts 45
     PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
@@ -437,8 +439,8 @@ Notes
 **Actual:** 11 of 11 checks passed. **Result: Pass**
 
 ```
-    PASS  Knowledge Base page in the nav with live counts  (11 courses 58 topics 115 resources 488 practice questions)
-    PASS  courses, then topics in order with summaries and subtopics  (58 topics; first: HCI, Interactive Systems and Usability)
+    PASS  Knowledge Base page in the nav with live counts  (12 courses 65 topics 121 resources 544 practice questions)
+    PASS  courses, then topics in order with summaries and subtopics  (65 topics; first: HCI, Interactive Systems and Usability)
     PASS  resources grouped by type  (Study notes, Lecture slides, Past questions)
     PASS  search filters topics as you type  ('fuzzy' -> 1 topic(s))
     PASS  empty search shows a clear next step
@@ -446,7 +448,7 @@ Notes
     PASS  past questions open inside the app, grouped by year (tables rendered)  (4 papers, 2 table(s))
     PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
     PASS  topic page: summary, subtopics, resources by type, quiz and log buttons
-    PASS  every topic has a study note and a topic quiz (and a lecture link in reviewed courses)  (58 of 58)
+    PASS  every topic has a study note and a topic quiz (and a lecture link in reviewed courses)  (65 of 65)
     PASS  phone width (375 px): menu button opens the nav; no sideways scroll
 ```
 
@@ -470,12 +472,12 @@ Notes
     PASS  bell opens a list of reminders and feedback, each with a time  (4 shown)
     PASS  clicking a notification marks it read and follows its link  (2 -> 1 unread, now at /topics/6c2abef1-016b-4cad-b49e-6f83fb56fe75)
     PASS  full notifications page
-    PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 5130 min ▲ 2565 min vs last week (2565 min) | TOPICS IMPROVED A topic 80% → 100% A topic 80% → 100% and 15 more | FOCUS NEXT Fuzzy Logic Systems CSC 5)
+    PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 5445 min ▲ 2655 min vs last week (2790 min) | TOPICS IMPROVED A topic 80% → 100% A topic 80% → 100% and 15 more | FOCUS NEXT Fuzzy Logic Systems CSC 5)
     PASS  progress chart: long names on two lines, full name on hover  (6 wrapped)
     PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
     PASS  phone width: bell stays visible and its list fits
     PASS  'Custom (minutes)' is labelled and rejects 400
-    PASS  pytest test_reminders.py: 6 passed in 25.54s
+    PASS  pytest test_reminders.py: 6 passed in 20.76s
 ```
 
 ### TC-22 · NFR5 · Course ingestion pipeline: raw files to the app
@@ -494,21 +496,21 @@ Notes
 ```
     PASS  inventory.py finds the courses in sources/raw/ and writes inventory.csv  (79 files, 12 courses: COS 102, CSC 412, CSC 531, CSC 551, CSC 552, CSC 554, CSC 572, CSC 574, CSC 582, CSC 583, CSC 584, GES 103)
     PASS  extract.py extracts CSC 551 and marks scanned PDFs  (5 files: scanned, text)
-    PASS  validate.py passes for every sample course  (9 sample courses)
-    PASS  every sample course is loaded with is_reviewed = false  (9 of 9)
-    PASS  each topic has a study note, a topic quiz and at least 8 practice questions  (46 topics)
+    PASS  validate.py passes for every sample course  (10 sample courses)
+    PASS  every sample course is loaded with is_reviewed = false  (10 of 10)
+    PASS  each topic has a study note, a topic quiz and at least 8 practice questions  (53 topics)
     PASS  the reviewed courses are unchanged
-    PASS  onboarding lists every course, with the two reviewed courses ticked and sample courses labelled  (11 courses, 2 ticked)
+    PASS  onboarding lists every course, with the two reviewed courses ticked and sample courses labelled  (12 courses, 2 ticked)
     PASS  choosing CSC 551 at onboarding enrols the student  (CSC 531, CSC 551, CSC 574)
-    PASS  course list shows my courses, then more courses with the sample badge  (11 course cards)
-    PASS  more courses are grouped by level, highest first  (500 LEVEL | 400 LEVEL | 200 LEVEL)
+    PASS  course list shows my courses, then more courses with the sample badge  (12 course cards)
+    PASS  more courses are grouped by level, highest first  (500 LEVEL | 400 LEVEL | 200 LEVEL | 100 LEVEL)
     PASS  Knowledge Base shows the sample course with the 'Sample content' badge
     PASS  Knowledge Base: other courses start collapsed; a header, Expand all and Collapse all toggle them
     PASS  'My courses' filter shows only the student's courses  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a sample course's study note opens in the app  (Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2)
     PASS  its past questions open in the app, grouped by paper  (2024/2025 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms); 2023/2024 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms))
     PASS  topic page shows the badge and the topic quiz button
-    PASS  a sample course's topic quiz is graded and shows results  (067ba024)
+    PASS  a sample course's topic quiz is graded and shows results  (28d09544)
     PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Study note: Algorithm Fundamentals and Analysis; Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer)
     PASS  progress chart: a course dropdown lists only my courses and switches the chart  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a course can be removed from my courses

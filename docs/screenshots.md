@@ -69,7 +69,7 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
 | 49 | Onboarding with course choice | New sign-up (Phase Nine Student) | Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5) | [`p9-01-onboarding-courses.png`](screenshots/phase9/p9-01-onboarding-courses.png) |
-| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses grouped by level (500, 400, 200) with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
+| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses grouped by level (500, 400, 200, 100) with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
 | 51 | Knowledge Base with a sample course | New sign-up | CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5) | [`p9-03-knowledge-base.png`](screenshots/phase9/p9-03-knowledge-base.png) |
 | 52 | Knowledge Base, all courses collapsed | New sign-up | One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5) | [`p9-03b-knowledge-base-collapsed.png`](screenshots/phase9/p9-03b-knowledge-base-collapsed.png) |
 | 53 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |

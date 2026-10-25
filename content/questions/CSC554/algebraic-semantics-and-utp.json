@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What are the two parts of an algebraic specification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The signature and the equations"
+      },
+      {
+        "key": "b",
+        "text": "The stack and the dump"
+      },
+      {
+        "key": "c",
+        "text": "The precondition and the postcondition"
+      },
+      {
+        "key": "d",
+        "text": "The lexer and the parser"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The signature names sorts and operations; the equations constrain how the operations behave.",
+    "source": "Slonneger and Kurtz, Formal Syntax and Semantics of Programming Languages, Chapter 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In an algebraic specification, an operation with no domain, such as emptyList : List, represents",
+    "options": [
+      {
+        "key": "a",
+        "text": "A constant of that sort"
+      },
+      {
+        "key": "b",
+        "text": "An error"
+      },
+      {
+        "key": "c",
+        "text": "A hidden sort"
+      },
+      {
+        "key": "d",
+        "text": "A conditional equation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Operations with no domain are constants, such as zero, true and emptyList.",
+    "source": "Slonneger and Kurtz, Formal Syntax and Semantics of Programming Languages, Chapter 12"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the Naturals module, succ has no equations, so 0, succ(0) and succ(succ(0)) are all different values.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "succ is a constructor; values are equal only when the equations make them equal.",
+    "source": "Slonneger and Kurtz, Formal Syntax and Semantics of Programming Languages, Chapter 12"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the initial algebra of a specification are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It equates only the terms the equations force to be equal"
+      },
+      {
+        "key": "b",
+        "text": "At least one always exists"
+      },
+      {
+        "key": "c",
+        "text": "It is the finest-grained model"
+      },
+      {
+        "key": "d",
+        "text": "It must contain junk"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A model with junk has values no term denotes; the initial algebra has neither junk nor confusion.",
+    "source": "Slonneger and Kurtz, Formal Syntax and Semantics of Programming Languages, Chapter 12"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a part of a module in an algebraic specification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "imports"
+      },
+      {
+        "key": "b",
+        "text": "exports"
+      },
+      {
+        "key": "c",
+        "text": "equations"
+      },
+      {
+        "key": "d",
+        "text": "dump"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Modules import, export, declare sorts, operations, variables and equations; the dump is an SECD register.",
+    "source": "Slonneger and Kurtz, Formal Syntax and Semantics of Programming Languages, Chapter 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a term rewriting system, a term to which no rewrite rule applies is in",
+    "options": [
+      {
+        "key": "a",
+        "text": "Normal form"
+      },
+      {
+        "key": "b",
+        "text": "Initial state"
+      },
+      {
+        "key": "c",
+        "text": "Weakest precondition"
+      },
+      {
+        "key": "d",
+        "text": "Confusion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "If rewriting terminates and is confluent, each term has exactly one normal form.",
+    "source": "General knowledge (CSC554 Course Outline.pdf, weeks 6 and 7)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Unifying Theories of Programming, a program is described as",
+    "options": [
+      {
+        "key": "a",
+        "text": "A predicate relating initial observations (x) to final observations (x′)"
+      },
+      {
+        "key": "b",
+        "text": "A sequence of RAM instructions"
+      },
+      {
+        "key": "c",
+        "text": "A set of SECD transitions"
+      },
+      {
+        "key": "d",
+        "text": "A control flow graph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "UTP, by Hoare and He, treats programs and specifications alike as predicates.",
+    "source": "General knowledge (CSC554 Course Outline.pdf, weeks 6 and 7)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In UTP, healthiness conditions are properties that every predicate in a theory must satisfy.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "An example is that nothing can be observed before a program starts.",
+    "source": "General knowledge (CSC554 Course Outline.pdf, weeks 6 and 7)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Comparing the current state with the goal and choosing an action that reduces the difference is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Means-end analysis"
+      },
+      {
+        "key": "b",
+        "text": "Brainstorming"
+      },
+      {
+        "key": "c",
+        "text": "Morphological analysis"
+      },
+      {
+        "key": "d",
+        "text": "Research"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Means-end analysis repeatedly reduces the gap between the current state and the goal.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Listing a problem's main attributes and the options for each, then examining the combinations, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Morphological analysis"
+      },
+      {
+        "key": "b",
+        "text": "Root cause analysis"
+      },
+      {
+        "key": "c",
+        "text": "Trial and error"
+      },
+      {
+        "key": "d",
+        "text": "Proof"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Morphological analysis explores combinations of attribute options systematically.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which techniques are mainly about generating many new ideas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Brainstorming"
+      },
+      {
+        "key": "b",
+        "text": "Lateral thinking"
+      },
+      {
+        "key": "c",
+        "text": "Method of focal objects"
+      },
+      {
+        "key": "d",
+        "text": "Proof"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Proof confirms a solution is correct rather than generating ideas.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In brainstorming, ideas are judged as soon as each one is suggested.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Ideas are listed without judging and evaluated afterwards.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Turning 'is this name in the list?' into a standard search problem with a known solution is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reduction"
+      },
+      {
+        "key": "b",
+        "text": "Hypothesis testing"
+      },
+      {
+        "key": "c",
+        "text": "Root cause analysis"
+      },
+      {
+        "key": "d",
+        "text": "Brainstorming"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Reduction transforms a problem into one that already has a solution.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a way of testing or searching for a solution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Trial and error"
+      },
+      {
+        "key": "b",
+        "text": "Hypothesis testing"
+      },
+      {
+        "key": "c",
+        "text": "Means-end analysis"
+      },
+      {
+        "key": "d",
+        "text": "Method of focal objects"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The method of focal objects generates ideas by combining features of unrelated objects.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Asking 'why?' repeatedly until the underlying cause of a problem appears is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Root cause analysis"
+      },
+      {
+        "key": "b",
+        "text": "Analogy"
+      },
+      {
+        "key": "c",
+        "text": "Abstraction"
+      },
+      {
+        "key": "d",
+        "text": "Divide and conquer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Fixing only a symptom lets the problem return.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Showing by logical argument that a solution is correct for every case is called proof.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Proof covers every case, not only the cases tested.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  }
+]

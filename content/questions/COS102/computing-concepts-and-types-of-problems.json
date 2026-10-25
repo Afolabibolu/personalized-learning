@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A computing system is made up of which three things, which interact to solve problems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hardware, software and data"
+      },
+      {
+        "key": "b",
+        "text": "Hardware, users and electricity"
+      },
+      {
+        "key": "c",
+        "text": "Software, networks and printers"
+      },
+      {
+        "key": "d",
+        "text": "Data, keyboards and monitors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Computer hardware, software and data interact to solve problems.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are layers of a computing system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Information"
+      },
+      {
+        "key": "b",
+        "text": "Hardware"
+      },
+      {
+        "key": "c",
+        "text": "Operating systems"
+      },
+      {
+        "key": "d",
+        "text": "Spreadsheets"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The layers are information, hardware, programming, operating systems, applications and communications; a spreadsheet is one application.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is information, as distinct from data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data that has been organised or processed in a useful manner"
+      },
+      {
+        "key": "b",
+        "text": "Raw values or facts"
+      },
+      {
+        "key": "c",
+        "text": "The physical parts of a computer"
+      },
+      {
+        "key": "d",
+        "text": "Instructions the computer executes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Data are basic values or facts; information is data organised or processed usefully.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Abstraction is a mental model that removes complex details.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Abstraction keeps only the details that matter to the viewer.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Calculating a student's average from five scores with a known formula is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "A routine problem"
+      },
+      {
+        "key": "b",
+        "text": "A non-routine problem"
+      },
+      {
+        "key": "c",
+        "text": "An unsolvable problem"
+      },
+      {
+        "key": "d",
+        "text": "A heuristic"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A routine problem has been met before and has a known method.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a routine problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Converting a decimal number to binary"
+      },
+      {
+        "key": "b",
+        "text": "Sorting a list of names"
+      },
+      {
+        "key": "c",
+        "text": "Finding why a system fails only sometimes"
+      },
+      {
+        "key": "d",
+        "text": "Computing the total of a bill"
+      }
+    ],
+    "correct_answer": [
+      "c"
+    ],
+    "explanation": "A failure that appears only sometimes has no ready-made method, so it is non-routine.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The halting problem asks whether",
+    "options": [
+      {
+        "key": "a",
+        "text": "A given program will eventually stop with a given input"
+      },
+      {
+        "key": "b",
+        "text": "A computer will run out of power"
+      },
+      {
+        "key": "c",
+        "text": "A loop counts to its limit"
+      },
+      {
+        "key": "d",
+        "text": "A program has syntax errors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Given a program and an input, determine whether the program eventually stops.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 18"
+  },
+  {
+    "format": "true_false",
+    "stem": "The halting problem can be solved by running the program and waiting to see whether it stops.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "If the program does not stop you cannot know how long to wait; Turing showed the problem is unsolvable.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 18"
+  }
+]

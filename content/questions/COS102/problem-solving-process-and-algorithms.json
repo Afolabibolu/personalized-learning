@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the first step in Polya's How to Solve It list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Understand the problem"
+      },
+      {
+        "key": "b",
+        "text": "Devise a plan"
+      },
+      {
+        "key": "c",
+        "text": "Carry out the plan"
+      },
+      {
+        "key": "d",
+        "text": "Look back"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The four steps are understand the problem, devise a plan, carry out the plan and look back.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which of Polya's steps does the textbook call the heart of problem solving?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finding the connection between the information and the solution"
+      },
+      {
+        "key": "b",
+        "text": "Checking each step of the plan"
+      },
+      {
+        "key": "c",
+        "text": "Examining the solution obtained"
+      },
+      {
+        "key": "d",
+        "text": "Drawing a figure"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The second step, devising a plan, is where the connection is found.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are phases of the computer problem-solving process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Analysis and specification"
+      },
+      {
+        "key": "b",
+        "text": "Algorithm development"
+      },
+      {
+        "key": "c",
+        "text": "Implementation"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth phase is maintenance.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the textbook's definition, an algorithm solves a problem",
+    "options": [
+      {
+        "key": "a",
+        "text": "With unambiguous instructions in a finite amount of time using a finite amount of data"
+      },
+      {
+        "key": "b",
+        "text": "As quickly as possible with any instructions"
+      },
+      {
+        "key": "c",
+        "text": "Only when written in a programming language"
+      },
+      {
+        "key": "d",
+        "text": "Using as much data as is available"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An algorithm is unambiguous instructions for solving a problem in finite time with finite data.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A heuristic always guarantees the best solution to a problem.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A heuristic is a rule of thumb that usually gives a good answer quickly, without a guarantee.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a strategy suggested by Polya's list in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ask questions"
+      },
+      {
+        "key": "b",
+        "text": "Look for familiar things"
+      },
+      {
+        "key": "c",
+        "text": "Divide and conquer"
+      },
+      {
+        "key": "d",
+        "text": "Skip the testing"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The textbook stresses testing an algorithm before coding it.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The problem-solving strategy that produces a hierarchy of tasks, refining each module until every step is concrete, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Top-down design"
+      },
+      {
+        "key": "b",
+        "text": "Object-oriented design"
+      },
+      {
+        "key": "c",
+        "text": "Trial and error"
+      },
+      {
+        "key": "d",
+        "text": "Brainstorming"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Top-down design parallels Polya's outline; object-oriented design produces a hierarchy of data objects.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Algorithms should be tested before they are implemented, because problems found earlier are cheaper and easier to fix.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Testing only the finished program is far too late to rely on.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+  }
+]

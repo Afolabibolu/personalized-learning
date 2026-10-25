@@ -11,12 +11,15 @@
       "subtopics": [
         "Why formal semantics; syntax versus semantics",
         "Abstract machines: memory and interpreter; the SMC machine",
-        "Types of abstract machine: WAM, SECD, RAM, LAM, CHAM and others",
+        "Types of abstract machine; the RAM machine: registers, accumulator, instructions",
         "The SECD machine: Stack, Environment, Control and Dump",
         "λ-calculus expressions: names, functions and applications",
         "SECD initial and final states"
       ],
-      "lectures": [1, 2]
+      "lectures": [
+        1,
+        2
+      ]
     },
     {
       "slug": "operational-and-denotational-semantics",
@@ -30,7 +33,10 @@
         "Semantic domains (Boolean, Integer, Store) and semantic functions",
         "Compositionality, direct style and fixed-point semantics"
       ],
-      "lectures": [3, 4]
+      "lectures": [
+        3,
+        4
+      ]
     },
     {
       "slug": "axiomatic-semantics-and-hoare-logic",
@@ -44,7 +50,23 @@
         "Partial and total correctness",
         "Dynamic logic and separation logic"
       ],
-      "lectures": [5]
+      "lectures": [
+        5
+      ]
+    },
+    {
+      "slug": "algebraic-semantics-and-utp",
+      "title": "Algebraic Semantics and Unifying Theories of Programming",
+      "summary": "Algebraic semantics specifies data types and language constructs by a signature of sorts and operations and by equations, with the initial algebra as the finest-grained model. Unifying Theories of Programming (Hoare and He) describes programs as predicates on observations, so different semantic styles share one framework.",
+      "subtopics": [
+        "Signatures: sorts and operations",
+        "Equations, conditional equations and constructors",
+        "Modules: imports, exports, hidden symbols, parameters",
+        "Initial algebras, junk and confusion",
+        "Equational reasoning and term rewriting",
+        "UTP: predicates, healthiness conditions, refinement; predicate transformers"
+      ],
+      "lectures": []
     },
     {
       "slug": "basic-program-analysis",
@@ -58,7 +80,9 @@
         "Dynamic analysis: dynamic testing, program slicing, profiling",
         "Tools: LLVM, GCC, SonarQube, Clang Static Analyzer, FindBugs, Valgrind"
       ],
-      "lectures": [8]
+      "lectures": [
+        8
+      ]
     },
     {
       "slug": "program-transformation",
@@ -72,7 +96,9 @@
         "Refactoring versus optimization; loop unrolling, constant folding, inlining",
         "High-level versus low-level transformation; challenges"
       ],
-      "lectures": [9]
+      "lectures": [
+        9
+      ]
     }
   ]
 }
