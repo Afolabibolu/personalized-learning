@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A multiple sequence alignment aligns",
+    "options": [
+      {
+        "key": "a",
+        "text": "Three or more sequences so that matching positions sit in the same column"
+      },
+      {
+        "key": "b",
+        "text": "Exactly two sequences"
+      },
+      {
+        "key": "c",
+        "text": "A sequence against a 3D structure"
+      },
+      {
+        "key": "d",
+        "text": "Reads to a reference genome only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Pairwise alignment handles two sequences; MSA handles three or more.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of multiple sequence alignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Building phylogenetic trees"
+      },
+      {
+        "key": "b",
+        "text": "Finding conserved motifs and domains"
+      },
+      {
+        "key": "c",
+        "text": "Designing PCR primers from conserved regions"
+      },
+      {
+        "key": "d",
+        "text": "Measuring a protein's mass"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "MSA also supports structure and function prediction and annotation.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the correct order of the steps in progressive alignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pairwise distances, guide tree, align in tree order"
+      },
+      {
+        "key": "b",
+        "text": "Guide tree, pairwise distances, align at random"
+      },
+      {
+        "key": "c",
+        "text": "Align all at once, then build the tree"
+      },
+      {
+        "key": "d",
+        "text": "Build the 3D model, then align"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Clustal aligns the most similar sequences first, following the guide tree.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In progressive alignment, a gap introduced early is never removed later.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "'Once a gap, always a gap' is the method's main weakness; iterative methods refine the alignment.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a multiple sequence alignment tool?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clustal Omega"
+      },
+      {
+        "key": "b",
+        "text": "MUSCLE"
+      },
+      {
+        "key": "c",
+        "text": "MAFFT"
+      },
+      {
+        "key": "d",
+        "text": "MODELLER"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "MODELLER is a homology modelling tool.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which level of protein structure is the full 3D fold of a single chain?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tertiary"
+      },
+      {
+        "key": "b",
+        "text": "Primary"
+      },
+      {
+        "key": "c",
+        "text": "Secondary"
+      },
+      {
+        "key": "d",
+        "text": "Quaternary"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Primary is the sequence, secondary the helices and sheets, quaternary several chains.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Homology modelling requires",
+    "options": [
+      {
+        "key": "a",
+        "text": "A template of known structure with clear sequence similarity to the target"
+      },
+      {
+        "key": "b",
+        "text": "No known structures at all"
+      },
+      {
+        "key": "c",
+        "text": "Only the protein's mass"
+      },
+      {
+        "key": "d",
+        "text": "An NMR spectrum of the target"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The model is built from a related protein of known structure.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  },
+  {
+    "format": "true_false",
+    "stem": "X-ray crystallography and NMR spectroscopy are computational methods of protein structure prediction.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are experimental methods; homology modelling, threading and ab initio are computational.",
+    "source": "General knowledge (topics asked in the CSC 725 M.Sc. papers filed with CSC 582)"
+  }
+]

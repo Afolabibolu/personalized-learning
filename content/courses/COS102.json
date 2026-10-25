@@ -1,0 +1,79 @@
+{
+  "code": "COS 102",
+  "title": "Problem Solving",
+  "description": "Problem-solving processes, algorithms and heuristics, solution techniques, flowcharts, pseudocode, decision tables and decision trees, and simple programs. The course folder holds only a reference textbook, so this course follows the NUC CCMAS outline for COS 102: facts come from that textbook (Computer Science Illuminated) where it covers a topic, and from general knowledge of the subject elsewhere.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "computing-concepts-and-types-of-problems",
+      "title": "Computing Concepts and Types of Problems",
+      "summary": "A computing system is hardware, software and data working together to solve problems, organised in layers from information up to communications. Problems can be routine or non-routine, and some, such as the halting problem, cannot be solved by any program.",
+      "subtopics": [
+        "Computing system: hardware, software and data",
+        "Layers of a computing system",
+        "Data, information and abstraction",
+        "Identifying and stating a problem",
+        "Routine and non-routine problems",
+        "Solvable and unsolvable problems: the halting problem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "problem-solving-process-and-algorithms",
+      "title": "The Problem-Solving Process and Algorithms",
+      "summary": "Polya's How to Solve It gives four steps: understand the problem, devise a plan, carry out the plan and look back. In computing, the plan is an algorithm, developed top-down through the analysis, algorithm development, implementation and maintenance phases, while heuristics give good-enough answers without a guarantee.",
+      "subtopics": [
+        "Polya's four steps",
+        "Ask questions, look for familiar things, divide and conquer",
+        "The computer problem-solving process: four phases",
+        "Definition and properties of an algorithm",
+        "Algorithms and heuristics",
+        "Top-down design and testing an algorithm"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "problem-solving-techniques",
+      "title": "Problem-Solving Techniques",
+      "summary": "The CCMAS outline lists techniques for finding a solution, from abstraction, analogy and brainstorming to means-end analysis, root cause analysis and divide and conquer. Each suits a different kind of problem, and they are often combined.",
+      "subtopics": [
+        "Abstraction, analogy and reduction",
+        "Brainstorming and lateral thinking",
+        "Trial and error and hypothesis testing",
+        "Means-end analysis",
+        "Method of focal objects and morphological analysis",
+        "Research, root cause analysis, proof, divide and conquer"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "flowcharts-pseudocode-and-decision-tables",
+      "title": "Flowcharts, Pseudocode, Decision Tables and Decision Trees",
+      "summary": "A solution is designed before it is coded, using pseudocode (variables, assignment, input/output, selection and repetition), flowcharts with standard symbols, or decision tables and trees when an action depends on several conditions.",
+      "subtopics": [
+        "Pseudocode elements: variables, assignment, input/output",
+        "Selection (if-then, if-then-else) and repetition (while)",
+        "Flowchart symbols and flowlines",
+        "Decision tables: conditions, actions and rules",
+        "Decision trees",
+        "Following (tracing) an algorithm by hand"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "from-algorithm-to-program",
+      "title": "From Algorithm to Program",
+      "summary": "In the implementation phase an algorithm is translated into a programming language such as Python, using assignment, input and output, conditions and loops. Count-controlled and event-controlled loops repeat work, and testing and debugging confirm that the program gives correct results.",
+      "subtopics": [
+        "Assignment and input-output statements",
+        "Condition statements (if, elif, else)",
+        "Count-controlled loops",
+        "Event-controlled loops and infinite loops",
+        "Testing and debugging",
+        "Simple programs in Python"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -11,6 +11,7 @@ Read the root CLAUDE.md first. This file covers the knowledge base content (FR5)
 
 - Each topic has: subtopics, a two-sentence summary, a study note (300 to 500 words, ending "Source: Lecture N" or "Source: <file name>"), past questions copied as written and tagged with year, and 10 practice questions in the four formats.
 - Every fact comes from the files in `content/sources/`. Where a student's summary note and a lecture slide disagree, follow the slide.
+- Exception for sample courses only: a topic the course needs but no file covers (an outline week with no slides, a topic the past papers ask about, or a course whose folder has only a textbook) may be written from general knowledge, following the course outline or the NUC CCMAS outline. Say so in the note's Source line, in each question's source, and in `docs/results/courses.md`. Never write past questions from general knowledge.
 - Never invent URLs. Lecture, past-question and video links come only from `content/sources/links.csv` (columns: course, lecture, kind, title, url).
 - In `links.csv`, a row with lecture `all` is the fallback for that course: any lecture without its own row links to it. Some `all` rows point to a Drive folder, not a single file; label those "Open lecture folder" in the app.
 - `validate.py` must pass before anything is loaded.

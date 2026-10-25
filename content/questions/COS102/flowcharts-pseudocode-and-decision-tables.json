@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which pseudocode statement stores 0 in the variable sum?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Set sum to 0"
+      },
+      {
+        "key": "b",
+        "text": "Read sum"
+      },
+      {
+        "key": "c",
+        "text": "Write sum"
+      },
+      {
+        "key": "d",
+        "text": "WHILE (sum < 0)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Assignment can be written 'Set sum to 0' or 'sum <— 0'.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which concepts must pseudocode be able to express, according to the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Variables and assignment"
+      },
+      {
+        "key": "b",
+        "text": "Input/output"
+      },
+      {
+        "key": "c",
+        "text": "Selection and repetition"
+      },
+      {
+        "key": "d",
+        "text": "Fixed grammar rules"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Pseudocode has no special grammar rules.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Pseudocode has strict grammar rules, like a real programming language.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Pseudocode is a shorthand-like language with no special grammar rules; consistency within a project is still a good idea.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which flowchart symbol represents a decision?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diamond"
+      },
+      {
+        "key": "b",
+        "text": "Rectangle"
+      },
+      {
+        "key": "c",
+        "text": "Parallelogram"
+      },
+      {
+        "key": "d",
+        "text": "Oval"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A diamond has one exit for Yes and one for No.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a standard flowchart symbol meaning?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Oval: start or stop"
+      },
+      {
+        "key": "b",
+        "text": "Parallelogram: input or output"
+      },
+      {
+        "key": "c",
+        "text": "Rectangle: process"
+      },
+      {
+        "key": "d",
+        "text": "Triangle: loop counter"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A small circle is a connector; there is no standard triangle for a loop counter.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A decision table with 3 yes/no conditions has how many possible rules?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "With n yes/no conditions there are 2 to the power n rules, so 2³ = 8.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a decision tree, each leaf represents",
+    "options": [
+      {
+        "key": "a",
+        "text": "An action or outcome"
+      },
+      {
+        "key": "b",
+        "text": "A condition being tested"
+      },
+      {
+        "key": "c",
+        "text": "A variable"
+      },
+      {
+        "key": "d",
+        "text": "A comment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Internal nodes test conditions; leaves are actions.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the if-then-else construct, the statements below ELSE run when the condition is false.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "If-then-else chooses between two actions based on a Boolean expression.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+  }
+]

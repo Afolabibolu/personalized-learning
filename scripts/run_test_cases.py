@@ -376,6 +376,11 @@ def write_report(all_cases: list[Case]) -> None:
         "because the demo accounts had last been reset on 19 October, so the seeded study days were no longer consecutive up to "
         "today. After `python scripts/seed_demo.py --demo-only` the streak check passed, and every case was run again for the "
         "table above. Reset the demo accounts on the day of the demo.\n\n"
+        "- Runs on 25 Oct 2026 (12 courses): one run had TC-10 fail because npm was not on the PATH of the shell running this script "
+        "(not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: "
+        "`seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, "
+        "so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of "
+        "every case for the table above.\n\n"
         "## Details\n\n" + "\n".join(details)
     )
 

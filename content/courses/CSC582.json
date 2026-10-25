@@ -16,7 +16,9 @@
         "Tools: Entrez, BLAST, FASTA, Dotplot, Clustal, EMBOSS",
         "Resources: NCBI and EMBL-EBI"
       ],
-      "lectures": [4]
+      "lectures": [
+        4
+      ]
     },
     {
       "slug": "information-search-and-retrieval",
@@ -30,7 +32,9 @@
         "Steps in a literature search",
         "MeSH terms"
       ],
-      "lectures": [5]
+      "lectures": [
+        5
+      ]
     },
     {
       "slug": "sequence-alignment-and-homology",
@@ -44,7 +48,9 @@
         "Orthologous and paralogous sequences",
         "Pairwise, multiple, global and local alignment"
       ],
-      "lectures": [6]
+      "lectures": [
+        6
+      ]
     },
     {
       "slug": "alignment-scoring-and-methods",
@@ -58,7 +64,23 @@
         "Dynamic programming: Needleman–Wunsch (global), Smith–Waterman (local)",
         "Heuristic methods: BLAST and FASTA"
       ],
-      "lectures": [7]
+      "lectures": [
+        7
+      ]
+    },
+    {
+      "slug": "multiple-alignment-and-protein-structure",
+      "title": "Multiple Sequence Alignment and Protein Structure Prediction",
+      "summary": "A multiple sequence alignment lines up three or more sequences to reveal conserved regions, and progressive methods such as Clustal build it along a guide tree. Protein structure is described at four levels and is determined experimentally or predicted by homology modelling, threading or ab initio methods.",
+      "subtopics": [
+        "What MSA is and why it matters",
+        "Applications of MSA",
+        "Progressive alignment and its weaknesses; iterative and consistency-based methods",
+        "MSA tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee",
+        "Four levels of protein structure; experimental methods",
+        "Homology modelling, threading and ab initio prediction"
+      ],
+      "lectures": []
     },
     {
       "slug": "basic-introduction-to-linux",
@@ -72,7 +94,10 @@
         "Directory commands: pwd, ls, mkdir, cd, rmdir",
         "File commands cp, mv, rm; shortcuts and man pages"
       ],
-      "lectures": [9, 10]
+      "lectures": [
+        9,
+        10
+      ]
     }
   ]
 }

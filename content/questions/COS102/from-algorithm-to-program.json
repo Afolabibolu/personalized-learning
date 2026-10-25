@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three parts of a count-controlled loop?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Initialise the loop control variable"
+      },
+      {
+        "key": "b",
+        "text": "Test it"
+      },
+      {
+        "key": "c",
+        "text": "Increment it"
+      },
+      {
+        "key": "d",
+        "text": "Print it"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Initialisation, testing and incrementation.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If count starts at 0 and the loop runs WHILE (count < limit), adding 1 each time, how many times does it run?",
+    "options": [
+      {
+        "key": "a",
+        "text": "limit times"
+      },
+      {
+        "key": "b",
+        "text": "limit - 1 times"
+      },
+      {
+        "key": "c",
+        "text": "limit + 1 times"
+      },
+      {
+        "key": "d",
+        "text": "Forever"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs for count = 0, 1, ..., limit - 1, which is limit times.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A loop that repeats until an event inside the loop occurs, such as reading a negative value, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "An event-controlled loop"
+      },
+      {
+        "key": "b",
+        "text": "A count-controlled loop"
+      },
+      {
+        "key": "c",
+        "text": "A decision table"
+      },
+      {
+        "key": "d",
+        "text": "A syntax error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The event must be initialised, tested and updated.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+  },
+  {
+    "format": "true_false",
+    "stem": "If the incrementation statement is left out of a count-controlled loop whose condition starts true, the loop runs forever.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The Boolean expression never changes, giving an infinite loop.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Python, what does score = int(input()) do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reads text from the user, converts it to a whole number and stores it in score"
+      },
+      {
+        "key": "b",
+        "text": "Prints the value of score"
+      },
+      {
+        "key": "c",
+        "text": "Tests whether score is an integer"
+      },
+      {
+        "key": "d",
+        "text": "Compares score with the input"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "input returns text; int converts it; = assigns it.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a kind of program error?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Syntax error"
+      },
+      {
+        "key": "b",
+        "text": "Runtime error"
+      },
+      {
+        "key": "c",
+        "text": "Logic error"
+      },
+      {
+        "key": "d",
+        "text": "Pretest error"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Pretest describes a while loop that tests before running its body.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A logic error always stops the program with an error message.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A logic error gives wrong answers without a message, so it is found only by testing.",
+    "source": "General knowledge (CCMAS COS 102 outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why is the while loop called a pretest loop?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The test happens before the body runs, so the body may not run at all"
+      },
+      {
+        "key": "b",
+        "text": "It must be tested by hand before coding"
+      },
+      {
+        "key": "c",
+        "text": "It always runs at least once"
+      },
+      {
+        "key": "d",
+        "text": "It tests the program after it finishes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "If the condition is false initially, the loop is not entered.",
+    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+  }
+]
