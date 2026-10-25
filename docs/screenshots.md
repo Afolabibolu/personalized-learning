@@ -22,7 +22,7 @@ Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.co
 | 14 | Dashboard, cold start | Kemi Balogun (new.student@demo.example.com) | 'Hi Kemi'; reminders to log study and take diagnostics; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4) | [`14-dashboard-new.png`](screenshots/14-dashboard-new.png) |
 | 15 | Dashboard, ML recommendations | Tolu Adeyemi (active.student@demo.example.com) | 'Hi Tolu'; bell with unread count; weekly summary; Cognitive Psychology and Fuzzy Logic 'Needs attention' with reason lines and 'Matched to your preference'; one 'Keep it up'; streak, 14-day strip, progress chart (FR1, FR4, FR6) | [`15-dashboard-active.png`](screenshots/15-dashboard-active.png) |
 | 16 | 'Why this?' panel | Tolu Adeyemi | Logistic Regression and Random Forest probabilities, their average, and the factors that raise risk (FR4) | [`16-why-this.png`](screenshots/16-why-this.png) |
-| 17 | Progress chart, CSC 574 tab | Tolu Adeyemi | Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6) | [`17-progress-csc574.png`](screenshots/17-progress-csc574.png) |
+| 17 | Progress chart, CSC 574 picked in the course dropdown | Tolu Adeyemi | Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6) | [`17-progress-csc574.png`](screenshots/17-progress-csc574.png) |
 | 18 | Dashboard on a phone (390 px) | Tolu Adeyemi | One column; menu button and bell stay in the header (NFR1) | [`18-phone-dashboard.png`](screenshots/18-phone-dashboard.png) |
 | 19 | Quiz on a phone (390 px) | Tolu Adeyemi | Question and options fit the screen, Back/Next reachable (NFR1) | [`19-phone-quiz.png`](screenshots/19-phone-quiz.png) |
 
@@ -69,16 +69,17 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
 | 49 | Onboarding with course choice | New sign-up (Phase Nine Student) | Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5) | [`p9-01-onboarding-courses.png`](screenshots/phase9/p9-01-onboarding-courses.png) |
-| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
+| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses grouped by level (500, 400, 200) with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
 | 51 | Knowledge Base with a sample course | New sign-up | CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5) | [`p9-03-knowledge-base.png`](screenshots/phase9/p9-03-knowledge-base.png) |
-| 52 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |
-| 53 | Sample course past questions | New sign-up | CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5) | [`p9-05-past-questions.png`](screenshots/phase9/p9-05-past-questions.png) |
-| 54 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
-| 55 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
-| 56 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
-| 57 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
-| 58 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
-| 59 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
+| 52 | Knowledge Base, all courses collapsed | New sign-up | One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5) | [`p9-03b-knowledge-base-collapsed.png`](screenshots/phase9/p9-03b-knowledge-base-collapsed.png) |
+| 53 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |
+| 54 | Sample course past questions | New sign-up | CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5) | [`p9-05-past-questions.png`](screenshots/phase9/p9-05-past-questions.png) |
+| 55 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
+| 56 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
+| 57 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
+| 58 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
+| 59 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
+| 60 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
 
 ## Figures from files and the terminal
 

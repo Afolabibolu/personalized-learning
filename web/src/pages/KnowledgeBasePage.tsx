@@ -26,17 +26,22 @@ export function KnowledgeBasePage() {
   const enrolled = useQuery({ queryKey: ['course', 'enrolled'], queryFn: listEnrolledCourseIds })
   const [search, setSearch] = useState('')
   const [onlyMine, setOnlyMine] = useState(false)
+  // Sections the student opened or closed; the rest follow the default (own courses open).
+  const [toggled, setToggled] = useState<Record<string, boolean>>({})
   const query = search.trim().toLowerCase()
+  const mine = useMemo(() => enrolled.data ?? new Set<string>(), [enrolled.data])
+  // A search opens every course with a match.
+  const isOpen = (id: string) => Boolean(query) || (toggled[id] ?? mine.has(id))
+  const setAll = (open: boolean) => setToggled(Object.fromEntries(filtered.map((c) => [c.id, open])))
 
   // The student's own courses first, then the rest by code.
   const filtered = useMemo(() => {
-    const mine = enrolled.data ?? new Set<string>()
     return (courses.data ?? [])
       .filter((c) => !onlyMine || mine.has(c.id))
       .map((c) => ({ ...c, topics: c.topics.map((t) => filterTopic(t, query)).filter((t): t is KnowledgeTopic => t !== null) }))
       .filter((c) => c.topics.length > 0)
       .sort((a, b) => Number(mine.has(b.id)) - Number(mine.has(a.id)) || a.code.localeCompare(b.code))
-  }, [courses.data, enrolled.data, query, onlyMine])
+  }, [courses.data, mine, query, onlyMine])
 
   return (
     <>
@@ -68,7 +73,8 @@ export function KnowledgeBasePage() {
         />
       </div>
 
-      <div className="-mt-3 mb-6 flex gap-2" role="group" aria-label="Which courses to show">
+      <div className="-mt-3 mb-6 flex flex-wrap items-center justify-between gap-2">
+      <div className="flex gap-2" role="group" aria-label="Which courses to show">
         {[
           { mine: false, label: 'All courses' },
           { mine: true, label: 'My courses' },
@@ -86,6 +92,17 @@ export function KnowledgeBasePage() {
           </button>
         ))}
       </div>
+        {!query && filtered.length > 1 && (
+          <div className="flex gap-3 text-xs font-semibold">
+            <button type="button" onClick={() => setAll(true)} className="text-brand-600 hover:text-brand-700">
+              Expand all
+            </button>
+            <button type="button" onClick={() => setAll(false)} className="text-slate-500 hover:text-slate-800">
+              Collapse all
+            </button>
+          </div>
+        )}
+      </div>
 
       {courses.isPending && <Spinner />}
       {courses.isError && <ErrorMessage error={courses.error} />}
@@ -99,16 +116,34 @@ export function KnowledgeBasePage() {
         </Card>
       )}
 
-      <div className="grid gap-8">
-        {filtered.map((course) => (
-          <section key={course.id} aria-labelledby={`course-${course.id}`}>
+      <div className="grid gap-4">
+        {filtered.map((course) => {
+          const open = isOpen(course.id)
+          return (
+          <section key={course.id} aria-labelledby={`course-${course.id}`} className={open ? 'pb-4' : ''}>
             <div className="mb-3 flex flex-wrap items-center gap-2">
               <h2 id={`course-${course.id}`} className="text-lg font-semibold">
-                <span className="text-brand-600">{course.code}</span> · {course.title}
+                <button
+                  type="button"
+                  aria-expanded={open}
+                  aria-controls={`topics-${course.id}`}
+                  disabled={Boolean(query)}
+                  onClick={() => setToggled((t) => ({ ...t, [course.id]: !open }))}
+                  className="flex items-center gap-2 text-left hover:text-brand-700 disabled:cursor-default disabled:hover:text-inherit"
+                >
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden className={`h-4 w-4 shrink-0 text-slate-400 transition ${open ? 'rotate-90' : ''}`}>
+                    <path d="M7.2 4.2a1 1 0 0 1 1.4 0l5.1 5.1a1 1 0 0 1 0 1.4l-5.1 5.1a1 1 0 1 1-1.4-1.4L11.6 10 7.2 5.6a1 1 0 0 1 0-1.4Z" />
+                  </svg>
+                  <span>
+                    <span className="text-brand-600">{course.code}</span> · {course.title}
+                  </span>
+                </button>
               </h2>
+              {!open && <span className="text-xs text-slate-500">{course.topics.length} topics</span>}
               {!course.is_reviewed && <SampleBadge />}
             </div>
-            <ol className="grid gap-3">
+            {open && (
+            <ol className="grid gap-3" id={`topics-${course.id}`}>
               {course.topics.map((topic) => (
                 <li key={topic.id}>
                   <Card className="p-4 sm:p-5" >
@@ -146,8 +181,10 @@ export function KnowledgeBasePage() {
                 </li>
               ))}
             </ol>
+            )}
           </section>
-        ))}
+          )
+        })}
       </div>
     </>
   )

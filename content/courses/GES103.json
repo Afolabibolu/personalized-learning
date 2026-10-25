@@ -3,6 +3,7 @@
   "title": "Government, Society and Economy",
   "description": "A general studies introduction to the social sciences: the study of politics and the concept of government, forms of government, law, democracy and good governance in Nigeria, economics and development, and ICT in the social sciences.",
   "is_reviewed": false,
+  "level": 200,
   "topics": [
     {
       "slug": "politics-and-the-concept-of-government",
@@ -16,7 +17,9 @@
         "Theories of the origin of the state",
         "Elements of the modern state"
       ],
-      "lectures": [1]
+      "lectures": [
+        1
+      ]
     },
     {
       "slug": "organisation-and-classification-of-government",
@@ -30,7 +33,9 @@
         "Capitalism, socialism and communism",
         "Lijphart's typology and other forms of government"
       ],
-      "lectures": [2]
+      "lectures": [
+        2
+      ]
     },
     {
       "slug": "law-democracy-and-good-governance",
@@ -44,7 +49,9 @@
         "Substantive and procedural, public and private, civil and criminal law",
         "Customary law; democracy and good governance"
       ],
-      "lectures": [4]
+      "lectures": [
+        4
+      ]
     },
     {
       "slug": "economics-and-development",
@@ -58,7 +65,9 @@
         "Economics as a science; models",
         "Economic growth versus economic development"
       ],
-      "lectures": [7]
+      "lectures": [
+        7
+      ]
     },
     {
       "slug": "ict-and-the-social-sciences",
@@ -72,7 +81,9 @@
         "Basic issues: effectiveness, cost, equity, sustainability",
         "ICT, information literacy and independent learning"
       ],
-      "lectures": [14]
+      "lectures": [
+        14
+      ]
     }
   ]
 }

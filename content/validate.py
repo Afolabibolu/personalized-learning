@@ -72,6 +72,8 @@ def check_course(course: dict, errors: list[str]) -> None:
     low = 4 if is_sample(course) else 5
     if not low <= len(topics) <= 6:
         errors.append(f"{name}: has {len(topics)} topics, expected {low} to 6")
+    if "level" in course and course["level"] not in (100, 200, 300, 400, 500):
+        errors.append(f"{name}: level must be 100, 200, 300, 400 or 500")
     if "is_reviewed" in course and not isinstance(course["is_reviewed"], bool):
         errors.append(f"{name}: is_reviewed must be true or false")
     slugs = [t.get("slug") for t in topics]

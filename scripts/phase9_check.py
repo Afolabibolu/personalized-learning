@@ -7,9 +7,11 @@
 2. Database: sample courses are loaded with is_reviewed = false, each with
    topics, study notes, practice questions and quizzes.
 3. In Chrome: a new student picks a sample course at onboarding, sees it in
-   the Knowledge Base with the "Sample content" badge, opens a study note and
+   the course list grouped by level, the Knowledge Base (collapsible course
+   sections) with the "Sample content" badge, opens a study note and
    past questions, takes a topic quiz, gets a getting-started list for that
-   course, and can remove it again; the demo accounts are unchanged.
+   course (and picks it in the progress chart's dropdown), and can remove it
+   again; the demo accounts are unchanged.
 Needs the Vite dev server and the ML service. Cleans up its test student.
 """
 
@@ -131,6 +133,9 @@ def browser_checks(folder: Path | None) -> None:
                   page.get_by_role("heading", name="More courses").is_visible()
                   and page.get_by_text("Sample content, pending lecturer review").count() >= 1,
                   f"{cards.count()} course cards")
+            groups = page.locator("[id^=level-]").all_inner_texts()
+            check("more courses are grouped by level, highest first",
+                  [g.lower() for g in groups] == ["500 level", "400 level", "200 level"], " | ".join(groups))
             shot(folder, page, "p9-02-courses.png", full_page=True)
 
             # Knowledge Base: the sample course with its badge; a study note and past questions.
@@ -141,6 +146,18 @@ def browser_checks(folder: Path | None) -> None:
             check("Knowledge Base shows the sample course with the 'Sample content' badge", badge.is_visible())
             heading.scroll_into_view_if_needed()
             shot(folder, page, "p9-03-knowledge-base.png")
+            other = page.get_by_role("button", name="CSC 412 · Microprocessor")
+            closed = other.get_attribute("aria-expanded") == "false"
+            other.click()
+            opened = other.get_attribute("aria-expanded") == "true"
+            page.get_by_role("button", name="Collapse all").click()
+            none_open = page.get_by_test_id("kb-topic").count() == 0
+            page.evaluate("window.scrollTo(0, 0)")
+            shot(folder, page, "p9-03b-knowledge-base-collapsed.png", full_page=True)
+            page.get_by_role("button", name="Expand all").click()
+            all_open = page.get_by_test_id("kb-topic").count() == db.table("knowledge_base_stats").select("topics").execute().data[0]["topics"]
+            check("Knowledge Base: other courses start collapsed; a header, Expand all and Collapse all toggle them",
+                  closed and opened and none_open and all_open)
             page.get_by_role("button", name="My courses").click()
             shown = page.locator("section h2").all_inner_texts()
             check("'My courses' filter shows only the student's courses", len(shown) == len(mine), " | ".join(shown))
@@ -202,6 +219,12 @@ def browser_checks(folder: Path | None) -> None:
                   "; ".join(r["resources"]["title"] for r in sample_recs if r["resources"]))
             page.goto(f"{APP}/")
             expect(page.get_by_test_id("recommendation").first).to_be_visible()
+            picker = page.get_by_role("combobox", name="Course")
+            options = picker.locator("option").all_inner_texts()
+            picker.select_option(label=next(o for o in options if o.startswith(SAMPLE)))
+            check("progress chart: a course dropdown lists only my courses and switches the chart",
+                  len(options) == len(mine) and page.get_by_test_id("progress-chart").get_by_text("Divide and Conquer").count() >= 1,
+                  " | ".join(options))
             shot(folder, page, "p9-09-dashboard.png", full_page=True)
 
             # Remove the course again from its course page.

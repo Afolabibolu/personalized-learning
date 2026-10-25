@@ -58,21 +58,18 @@ export function ProgressCard({ courses }: { courses: DashboardData['courses'] })
           <h2 className="font-semibold">Progress by topic</h2>
           <p className="text-xs text-slate-500">Latest quiz score on each topic</p>
         </div>
-        <div className="flex rounded-xl bg-slate-100 p-1" role="tablist">
+        <select
+          aria-label="Course"
+          value={course.id}
+          onChange={(e) => setCourseId(e.target.value)}
+          className="w-full min-w-0 rounded-xl border border-slate-300 bg-white py-1.5 pr-8 pl-3 text-sm font-semibold text-slate-800 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none sm:w-72"
+        >
           {courses.map((c) => (
-            <button
-              key={c.id}
-              role="tab"
-              aria-selected={c.id === course.id}
-              onClick={() => setCourseId(c.id)}
-              className={`rounded-lg px-3 py-1 text-xs font-semibold transition ${
-                c.id === course.id ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500 hover:text-slate-800'
-              }`}
-            >
-              {c.code}
-            </button>
+            <option key={c.id} value={c.id}>
+              {c.code} · {c.title}
+            </option>
           ))}
-        </div>
+        </select>
       </div>
 
       <div style={{ height: data.length * 48 + 28 }} data-testid="progress-chart">
