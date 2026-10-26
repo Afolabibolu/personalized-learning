@@ -81,17 +81,17 @@ def main() -> int:
     _, again = recommendations_for("active.student@demo.example.com")
     check("same number of pending recommendations after a second run", len(again) == len(rows), f"{len(again)}")
 
-    print("\n-- Results (simulated data)")
+    print("\n-- Results")
     expected = [
-        "metrics_simulated_data.md", "metrics_simulated_data.csv",
-        "confusion_rule_baseline_simulated_data.png", "confusion_logistic_regression_simulated_data.png",
-        "confusion_random_forest_simulated_data.png", "model_comparison_simulated_data.png",
-        "feature_weights_simulated_data.csv", "feature_weights_simulated_data.png", "simulation_rules.md",
+        "metrics.md", "metrics.csv",
+        "confusion_rule_baseline.png", "confusion_logistic_regression.png",
+        "confusion_random_forest.png", "model_comparison.png",
+        "feature_weights.csv", "feature_weights.png", "simulation_rules.md",
     ]
     missing = [f for f in expected if not (RESULTS / f).exists()]
-    table = (RESULTS / "metrics_simulated_data.md").read_text() if (RESULTS / "metrics_simulated_data.md").exists() else ""
+    table = (RESULTS / "metrics.md").read_text() if (RESULTS / "metrics.md").exists() else ""
     check("metrics table compares the rule baseline with both models",
-          all(name in table for name in ["Rule baseline", "Logistic Regression", "Random Forest"]) and "simulated data" in table)
+          all(name in table for name in ["Rule baseline", "Logistic Regression", "Random Forest"]) and "simulated students" in table)
     check("ml/results holds the three-row metrics table, the charts and simulation_rules.md", not missing, "missing: " + ", ".join(missing) if missing else f"{len(expected)} files")
 
     print(f"\n{sum(results)}/{len(results)} checks passed")

@@ -106,7 +106,7 @@ def test_simulation_never_uses_the_label_rule():
 def test_rules_file_lists_the_parameter_values():
     from training.synthetic import CONFIG, describe_rules
     text = describe_rules()
-    assert "simulated data" in text
+    assert "simulated students, not real students" in text
     for value in [CONFIG.seed, CONFIG.max_learning_gain, CONFIG.memory_stability_days, CONFIG.attempt_noise_sd]:
         assert f"{value:g}" in text
     assert "never uses the 50% label rule" in text

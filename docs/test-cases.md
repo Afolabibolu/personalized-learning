@@ -1,6 +1,6 @@
 # Test cases (Chapter Four)
 
-Run 2026-10-25 18:10 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-10-26 19:06 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
 **Summary:** 23 pass, 1 partial, 0 fail.
 
@@ -13,7 +13,7 @@ Run 2026-10-25 18:10 with `python scripts/run_test_cases.py`. One or more cases 
 | TC-05 | FR3 | Log a study session | Session saved with topic, duration and activity type; logging for someone else is refused | 3 of 3 checks passed | **Pass** |
 | TC-06 | FR4 | ML recommendations rank weak topics first | Top 3 overall from the models; the two weak topics ranked 1 and 2; re-running does not duplicate pending recommendations | 4 of 4 checks passed | **Pass** |
 | TC-07 | FR4 / NFR4 | Cold-start fallback for a new student | For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores | 4 of 4 checks passed | **Pass** |
-| TC-08 | FR4 | Model training and comparison with a rule baseline (simulated data) | Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data | 3 of 3 checks passed | **Pass** |
+| TC-08 | FR4 | Model training and comparison with a rule baseline | Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data | 3 of 3 checks passed | **Pass** |
 | TC-09 | FR5 | Academic knowledge base | Validation passes; the reviewed courses have 12 topics and 120 approved questions; every topic in every course has a resource and a topic quiz | 6 of 6 checks passed | **Pass** |
 | TC-10 | FR6 | Progress tracking and consistency | Streak, 14-day activity strip and per-topic progress chart shown; logic tests pass | 5 of 5 checks passed | **Pass** |
 | TC-11 | FR6 | Reminders and recommendation feedback | Weak-topic and diagnostic reminders shown; Accept and Dismiss change only the status column | 7 of 7 checks passed | **Pass** |
@@ -34,12 +34,12 @@ Run 2026-10-25 18:10 with `python scripts/run_test_cases.py`. One or more cases 
 Notes
 
 - TC-12 is partial by design: the automated walkthrough shows the core tasks complete without assistance, but the SUS questionnaire with student participants (Section 3.14.3) was not run for this demo and is future work.
-- TC-08 metrics come from simulated students, not real students (simulated data).
+- TC-08 metrics come from the simulated students described in `ml/results/simulation_rules.md`, not from real students.
 - TC-13 targets were set for this test; see docs/results/performance.md for all samples and caveats.
 - First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the old file layout (resources inside the course file, no study notes). Both were faults in the test script, not the app; the script was updated and every case was run again.
 - First Phase 9 run (24 Oct 2026): 20 pass, 2 fail. TC-10 and TC-12 failed on 'dashboard shows a streak' (0-day streak) because the demo accounts had last been reset on 19 October, so the seeded study days were no longer consecutive up to today. After `python scripts/seed_demo.py --demo-only` the streak check passed, and every case was run again for the table above. Reset the demo accounts on the day of the demo.
 
-- Runs on 25 Oct 2026 (12 courses): one run had TC-10 fail because npm was not on the PATH of the shell running this script (not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: `seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of every case for the table above. Later the same day `timing.py` failed for the same reason (no saved recommendations after a reset); it now refreshes them once before the timed dashboard loads.
+- Runs on 25 Oct 2026 (12 courses): one run had TC-10 fail because npm was not on the PATH of the shell running this script (not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: `seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of every case for the table above. Later the same day `timing.py` failed for the same reason (no saved recommendations after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output (phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a crash in either section is now reported as a failed check with the error).
 
 ## Details
 
@@ -100,9 +100,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 38.89)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 22.22)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 49.20s)
+    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 51.89s)
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -116,7 +116,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 25 passed in 49.20s
+    PASS  pytest scripts: 25 passed in 51.89s
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -177,7 +177,7 @@ Notes
     PASS  introductory list: topic 1's note and lecture, then topic 2's note, for each course  (6 items)
 ```
 
-### TC-08 · FR4 · Model training and comparison with a rule baseline (simulated data)
+### TC-08 · FR4 · Model training and comparison with a rule baseline
 
 **Steps**
 
@@ -195,7 +195,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 45 passed in 2.23s
+    PASS  pytest ml (features, simulator, cold start, ranking): 45 passed in 2.47s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -393,12 +393,12 @@ Notes
 
 ```
     PASS  results: first attempt on a topic says so
-    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (40% to 20%, down 20 points)
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (20% to 40%, up 20 points)
     PASS  'Custom (minutes)' is labelled and rejects 400
     PASS  'Custom (minutes)' accepts 45
     PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
     PASS  after saving: confirmation, and recommendations refresh in the background
-    PASS  course page: quiz history with date, quiz and score  (21 Oct 2026 Cognitive Psychology and Perception quiz 40% · Needs attention)
+    PASS  course page: quiz history with date, quiz and score  (22 Oct 2026 Cognitive Psychology and Perception quiz 40% · Needs attention)
     PASS  phone width: logger with timer fits
 ```
 
@@ -471,16 +471,16 @@ Notes
 
 ```
     PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
-    PASS  bell in the nav with an unread count  (2 unread; kinds: daily_goal_reached, new_recommendations, score_improved, weak_topic_unstudied)
-    PASS  bell opens a list of reminders and feedback, each with a time  (4 shown)
-    PASS  clicking a notification marks it read and follows its link  (2 -> 1 unread, now at /topics/6c2abef1-016b-4cad-b49e-6f83fb56fe75)
+    PASS  bell in the nav with an unread count  (3 unread; kinds: daily_goal_reached, new_recommendations, score_improved, streak_at_risk, weak_topic_unstudied)
+    PASS  bell opens a list of reminders and feedback, each with a time  (5 shown)
+    PASS  clicking a notification marks it read and follows its link  (3 -> 2 unread, now at /log)
     PASS  full notifications page
     PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 5580 min ▲ 2715 min vs last week (2865 min) | TOPICS IMPROVED A topic 80% → 100% A topic 80% → 100% and 14 more | FOCUS NEXT Fuzzy Logic Systems CSC 5)
     PASS  progress chart: long names on two lines, full name on hover  (6 wrapped)
     PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
     PASS  phone width: bell stays visible and its list fits
     PASS  'Custom (minutes)' is labelled and rejects 400
-    PASS  pytest test_reminders.py: 6 passed in 21.97s
+    PASS  pytest test_reminders.py: 6 passed in 20.38s
 ```
 
 ### TC-22 · NFR5 · Course ingestion pipeline: raw files to the app
@@ -513,7 +513,7 @@ Notes
     PASS  a sample course's study note opens in the app  (Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2)
     PASS  its past questions open in the app, grouped by paper  (2024/2025 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms); 2023/2024 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms))
     PASS  topic page shows the badge and the topic quiz button
-    PASS  a sample course's topic quiz is graded and shows results  (c5a03315)
+    PASS  a sample course's topic quiz is graded and shows results  (e01aa241)
     PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Study note: Algorithm Fundamentals and Analysis; Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer)
     PASS  progress chart: a course dropdown lists only my courses and switches the chart  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a course can be removed from my courses
@@ -559,8 +559,8 @@ Notes
 **Actual:** 7 of 7 checks passed. **Result: Pass**
 
 ```
-    PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessors and Microcontrollers Pending Sent 25 Oct 2026 · 400 level · first semester)
-    PASS  scripts/course_requests.py lists the pending request  (f70ac19b  pending   2026-10-25  CSC 412 · Microprocessors and Microcontrollers  (Request Tester))
+    PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessors and Microcontrollers Pending Sent 26 Oct 2026 · 400 level · first semester)
+    PASS  scripts/course_requests.py lists the pending request  (cc010fd2  pending   2026-10-26  CSC 412 · Microprocessors and Microcontrollers  (Request Tester))
     PASS  adding it enrols the student and notifies them  (Added: CSC 412 · Microprocessors and Microcontrollers is now in the student's courses, and they have been notified.)
     PASS  the student sees the request as added, with a link to the course
     PASS  the student gets a 'course is ready' notification

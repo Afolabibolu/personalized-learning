@@ -1,4 +1,4 @@
-# Simulation rules (simulated data)
+# Simulation rules
 
 The training data for the models comes from simulated students, not real students. This file is
 written by `scripts/seed_demo.py` from the config block at the top of `ml/training/synthetic.py`,

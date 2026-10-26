@@ -193,7 +193,7 @@ def cases() -> list[Case]:
         Case("TC-07", "FR4 / NFR4", "Cold-start fallback for a new student",
              ["Sign in as New Student (no quiz attempts or study logs)", "POST /recommend", "Open the dashboard"],
              "For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores"),
-        Case("TC-08", "FR4", "Model training and comparison with a rule baseline (simulated data)",
+        Case("TC-08", "FR4", "Model training and comparison with a rule baseline",
              ["python scripts/seed_demo.py (writes simulation_rules.md)", "cd ml && python -m training.train", "Inspect ml/results/"],
              "Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data"),
         Case("TC-09", "FR5", "Academic knowledge base",
@@ -282,7 +282,7 @@ def evaluate(case: Case) -> None:
         case.evidence = lines(out4, "every recommendation is cold start", "one introductory list") + \
             lines(out5, "'Getting started'", "introductory list")
     elif case.id == "TC-08":
-        md = (ROOT / "ml/results/metrics_simulated_data.md").read_text()
+        md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]
         rows = [l for l in cv_section.splitlines() if l.startswith(("| Rule", "| Logistic", "| Random"))]
         case.evidence = lines(run("phase4", py + ["scripts/phase4_check.py"]), "metrics table", "simulation_rules") + \
@@ -378,7 +378,7 @@ def write_report(all_cases: list[Case]) -> None:
         "Notes\n\n"
         "- TC-12 is partial by design: the automated walkthrough shows the core tasks complete without assistance, but the "
         "SUS questionnaire with student participants (Section 3.14.3) was not run for this demo and is future work.\n"
-        "- TC-08 metrics come from simulated students, not real students (simulated data).\n"
+        "- TC-08 metrics come from the simulated students described in `ml/results/simulation_rules.md`, not from real students.\n"
         "- TC-13 targets were set for this test; see docs/results/performance.md for all samples and caveats.\n"
         "- First Phase 8 run (19 Oct 2026): 18 pass, 1 partial, 2 fail. TC-02 failed because the test still looked for a "
         "Sign out button in the top bar, which Phase 7 moved into the profile menu. TC-16 failed because its test course used the "

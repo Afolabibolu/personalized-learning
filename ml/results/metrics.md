@@ -1,4 +1,4 @@
-# Model comparison (simulated data)
+# Model comparison
 
 All figures come from simulated students created by `scripts/seed_demo.py` (rules in `simulation_rules.md`), not from real students.
 
@@ -6,9 +6,9 @@ All figures come from simulated students created by `scripts/seed_demo.py` (rule
 - Positive class (requires attention: next attempt below 50%): 30.6%
 - Features: mean_score, last_score, attempt_count, session_count, total_minutes, days_since_last_studied
 - The rule baseline uses only last_score; the models use all six features.
-- Trained: 2026-10-19 21:39 UTC, model version v1
+- Trained: 2026-10-26 17:57 UTC, model version v1
 
-## 5-fold stratified cross-validation, mean ± standard deviation (simulated data)
+## 5-fold stratified cross-validation, mean ± standard deviation
 
 | Model | Accuracy | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@ All figures come from simulated students created by `scripts/seed_demo.py` (rule
 | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
 | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
 
-## Hold-out test set: 25%, stratified, the same rows for all three (simulated data)
+## Hold-out test set: 25%, stratified, the same rows for all three
 
 | Model | Accuracy | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ All figures come from simulated students created by `scripts/seed_demo.py` (rule
 | Random Forest | 0.771 | 0.661 | 0.507 | 0.574 |
 | System ranking (average of LR and RF probabilities) | 0.775 | 0.679 | 0.493 | 0.571 |
 
-## What each model relies on (simulated data)
+## What each model relies on
 
 Logistic Regression coefficients are on standardised features: positive means a higher value makes "requires attention" more likely. Random Forest importances sum to 1.
 

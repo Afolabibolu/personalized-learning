@@ -60,18 +60,18 @@ CHECKLIST = [
 
 # Not taken by this script; captured from files or the terminal.
 OTHER = [
-    ("ml/results/model_comparison_simulated_data.png", "Rule baseline vs LR vs RF on four metrics (simulated data)", "FR4"),
-    ("ml/results/confusion_rule_baseline_simulated_data.png", "Rule baseline confusion matrix (simulated data)", "FR4"),
-    ("ml/results/confusion_logistic_regression_simulated_data.png", "LR confusion matrix (simulated data)", "FR4"),
-    ("ml/results/confusion_random_forest_simulated_data.png", "RF confusion matrix (simulated data)", "FR4"),
-    ("ml/results/feature_weights_simulated_data.png", "LR coefficients and RF importances (simulated data)", "FR4"),
-    ("ml/results/metrics_simulated_data.md", "Three-row metrics table (simulated data)", "FR4"),
+    ("ml/results/model_comparison.png", "Rule baseline vs LR vs RF on four metrics", "FR4"),
+    ("ml/results/confusion_rule_baseline.png", "Rule baseline confusion matrix", "FR4"),
+    ("ml/results/confusion_logistic_regression.png", "LR confusion matrix", "FR4"),
+    ("ml/results/confusion_random_forest.png", "RF confusion matrix", "FR4"),
+    ("ml/results/feature_weights.png", "LR coefficients and RF importances", "FR4"),
+    ("ml/results/metrics.md", "Three-row metrics table", "FR4"),
     ("ml/results/simulation_rules.md", "How the simulated students were generated", "FR4"),
     ("terminal: python scripts/rls_check.py", "Output ending '46/46 checks passed'", "NFR3"),
     ("docs/results/performance.md", "Response-time table (20 runs each)", "NFR2"),
     ("docs/results/security.md", "Row-level security check, 52 checks", "NFR3"),
     ("docs/results/courses.md", "Every course in the knowledge base, with files used and skipped", "NFR5"),
-    ("ml/results/summary.md", "Results in plain words, for Chapter Four (simulated data)", "FR4"),
+    ("ml/results/summary.md", "Results in plain words, for Chapter Four", "FR4"),
     ("Supabase dashboard: Authentication → Policies (taken by hand)", "RLS enabled on every table, with its policies", "NFR3"),
 ]
 
@@ -301,7 +301,8 @@ def write_checklist() -> None:
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"
         f"{other}\n\n"
-        "Charts and tables from `ml/results/` come from simulated students; keep \"simulated data\" in every caption.\n"
+        "Charts and tables from `ml/results/` come from simulated students. Say so once in the report (in the methodology "
+        "and at the start of the model results), not on every caption.\n"
     )
 
 
