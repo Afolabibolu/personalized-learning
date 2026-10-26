@@ -231,7 +231,7 @@ def describe_rules(cfg: SimConfig = CONFIG) -> str:
         f"| {h.cram_probability:.0%} |" for h in cfg.habits)
     half_gain = cfg.practice_scale_minutes * math.log(2)
     half_life = cfg.memory_stability_days * math.log(2)
-    return f"""# Simulation rules (simulated data)
+    return f"""# Simulation rules
 
 The training data for the models comes from simulated students, not real students. This file is
 written by `scripts/seed_demo.py` from the config block at the top of `ml/training/synthetic.py`,

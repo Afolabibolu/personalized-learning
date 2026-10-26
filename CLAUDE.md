@@ -105,7 +105,7 @@ recsys/
 - The ML service verifies the caller by passing their access token to Supabase (`auth.get_user`), not by decoding the JWT itself, and only recomputes recommendations for that user. It allows CORS from the Vite dev server.
 - Every schema change is a new migration file. Never edit an applied migration.
 - ML features use only data from before the moment being predicted. Never use the score that defines the label as a feature.
-- Metrics from simulated students are always labelled "simulated data" in file names, table titles and chart titles. Never present them as results from real students.
+- Metrics come from simulated students. Say so once, clearly: at the top of `ml/results/metrics.md` and `summary.md`, and in the report's methodology and at the start of its model results (26 Oct: no longer on every file name, chart and caption). Never present them as results from real students.
 - The UI works on a phone first, and also looks clean on a laptop for screenshots.
 - Reminders are shown inside the app only. There is no SMS or email service.
 
@@ -237,7 +237,7 @@ Check: a brand-new account can sign up, finish onboarding, take a diagnostic qui
   - a confusion matrix chart for each of the three
   - one bar chart comparing all three on the four metrics
   - Logistic Regression coefficients and Random Forest feature importances, as a table and a chart
-  - every file and chart title says "simulated data"
+  - `metrics.md` and `summary.md` say at the top that the data is simulated (file names and chart titles do not repeat it)
 - [x] `train.py --real-test <file>` (optional, only if time allows): scores the already-trained models and the rule on a CSV of real student rows exported from the app (`scripts/export_real_rows.py`), and saves a separate table titled "real student data".
 - [x] `POST /recommend`:
   1. Below the cold-start threshold on a course, write that course's introductory resources in order with source `cold_start`.

@@ -48,6 +48,6 @@ Other reminder kinds (streak at risk, inactivity, daily goal, score improved) co
 ## Training and results
 
 - Keep the three-way comparison: rule baseline (last score below 50%), Logistic Regression, Random Forest. Same split, same folds.
-- Everything in `ml/results/` is titled "simulated data", plus `simulation_rules.md`.
+- `ml/results/metrics.md` and `summary.md` say once, at the top, that the data comes from simulated students (rules in `simulation_rules.md`). File names and chart titles do not repeat it. Never present the numbers as results from real students.
 - `python -m training.train` must finish in under two minutes on a laptop.
 - Add `ml/results/summary.md`: one short paragraph per model in plain words, the results table, and which features mattered most. This feeds Chapter Four.

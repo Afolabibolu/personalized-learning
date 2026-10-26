@@ -8,8 +8,8 @@ Reads simulated students' attempts and study logs from Supabase and builds one
 row per student per topic (features.training_rows). The rule baseline ("last
 score below 50%"), Logistic Regression and Random Forest are scored on the
 same stratified hold-out split and the same 5-fold cross-validation folds.
-Saves the models to ml/models/ and the results, all labelled "simulated
-data", to ml/results/.
+Saves the models to ml/models/ and the results to ml/results/. The metrics
+table and summary say once, at the top, that the data is simulated.
 
 --real-test scores the already-trained models and the rule on a CSV of real
 student rows (from scripts/export_real_rows.py) and saves a separate table
@@ -45,7 +45,9 @@ from training.baseline import LastScoreRule  # noqa: E402
 from training.features import FEATURES, to_frames, training_rows  # noqa: E402
 
 SEED = 42
-TAG = "simulated_data"
+# Result files written by each run; anything else listed here from an earlier run is removed first.
+RESULT_FILES = ["metrics.csv", "metrics.md", "confusion_*.png", "model_comparison.png", "feature_weights.csv", "feature_weights.png",
+                "*_simulated_data.*"]  # the last pattern: file names used before 26 Oct
 METRICS = ["accuracy", "precision", "recall", "f1"]
 METRIC_LABELS = {"accuracy": "Accuracy", "precision": "Precision", "recall": "Recall", "f1": "F1"}
 RULE, LR, RF = "Rule baseline (last score < 50%)", "Logistic Regression", "Random Forest"
@@ -101,8 +103,9 @@ def markdown_table(df: pd.DataFrame) -> str:
 def train_and_compare() -> None:
     RESULTS_DIR.mkdir(exist_ok=True)
     MODELS_DIR.mkdir(exist_ok=True)
-    for old in RESULTS_DIR.glob(f"*_{TAG}.*"):
-        old.unlink()  # so nothing stale from an earlier run is left behind
+    for pattern in RESULT_FILES:
+        for old in RESULTS_DIR.glob(pattern):
+            old.unlink()  # so nothing stale from an earlier run is left behind
 
     rows = load_training_data()
     X, y = rows[FEATURES], rows["requires_attention"]
@@ -132,7 +135,7 @@ def train_and_compare() -> None:
     system = scores_for(y_test, (average >= 0.5).astype(int))
 
     # Tables
-    metrics.to_csv(RESULTS_DIR / f"metrics_{TAG}.csv", index=False)
+    metrics.to_csv(RESULTS_DIR / f"metrics.csv", index=False)
     display = pd.DataFrame({
         "Model": metrics["model"],
         **{METRIC_LABELS[m]: [f"{r[f'{m}_cv_mean']:.3f} ± {r[f'{m}_cv_sd']:.3f}" for _, r in metrics.iterrows()] for m in METRICS},
@@ -142,8 +145,8 @@ def train_and_compare() -> None:
         **{METRIC_LABELS[m]: [*(f"{v:.3f}" for v in metrics[f"{m}_test"]), f"{system[m]:.3f}"] for m in METRICS},
     })
     trained_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    (RESULTS_DIR / f"metrics_{TAG}.md").write_text(
-        "# Model comparison (simulated data)\n\n"
+    (RESULTS_DIR / f"metrics.md").write_text(
+        "# Model comparison\n\n"
         "All figures come from simulated students created by `scripts/seed_demo.py` (rules in "
         "`simulation_rules.md`), not from real students.\n\n"
         f"- Rows: {len(rows)} student-topic pairs from {n_students} simulated students\n"
@@ -151,9 +154,9 @@ def train_and_compare() -> None:
         f"- Features: {', '.join(FEATURES)}\n"
         "- The rule baseline uses only last_score; the models use all six features.\n"
         f"- Trained: {trained_at}, model version {MODEL_VERSION}\n\n"
-        "## 5-fold stratified cross-validation, mean ± standard deviation (simulated data)\n\n"
+        "## 5-fold stratified cross-validation, mean ± standard deviation\n\n"
         f"{markdown_table(display)}\n\n"
-        "## Hold-out test set: 25%, stratified, the same rows for all three (simulated data)\n\n"
+        "## Hold-out test set: 25%, stratified, the same rows for all three\n\n"
         f"{markdown_table(holdout)}\n"
     )
 
@@ -163,9 +166,9 @@ def train_and_compare() -> None:
         ConfusionMatrixDisplay.from_predictions(
             y_test, model.predict(X_test), display_labels=["Adequately\nmastered", "Requires\nattention"],
             cmap="Blues", ax=ax, colorbar=False)
-        ax.set_title(f"{name}: confusion matrix\n(simulated data)")
+        ax.set_title(f"{name}: confusion matrix")
         fig.tight_layout()
-        fig.savefig(RESULTS_DIR / f"confusion_{slug(name)}_{TAG}.png", dpi=150)
+        fig.savefig(RESULTS_DIR / f"confusion_{slug(name)}.png", dpi=150)
         plt.close(fig)
 
     # All three on the four metrics (cross-validation mean, error bar = one standard deviation)
@@ -181,10 +184,10 @@ def train_and_compare() -> None:
     ax.set_xticks(xs, [METRIC_LABELS[m] for m in METRICS])
     ax.set_ylim(0, 1.1)
     ax.set_ylabel("5-fold cross-validation mean")
-    ax.set_title("Rule baseline vs Logistic Regression vs Random Forest (simulated data)")
+    ax.set_title("Rule baseline vs Logistic Regression vs Random Forest")
     ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=3, frameon=False, fontsize=8)
     fig.tight_layout()
-    fig.savefig(RESULTS_DIR / f"model_comparison_{TAG}.png", dpi=150)
+    fig.savefig(RESULTS_DIR / f"model_comparison.png", dpi=150)
     plt.close(fig)
 
     # What each model relies on: LR coefficients (standardised features) and RF importances
@@ -195,10 +198,10 @@ def train_and_compare() -> None:
         "lr_coefficient_standardised": lr_coef.round(3).values,
         "rf_importance": rf_imp.round(3).values,
     })
-    weights.to_csv(RESULTS_DIR / f"feature_weights_{TAG}.csv", index=False)
-    with open(RESULTS_DIR / f"metrics_{TAG}.md", "a") as f:
+    weights.to_csv(RESULTS_DIR / f"feature_weights.csv", index=False)
+    with open(RESULTS_DIR / f"metrics.md", "a") as f:
         f.write(
-            "\n## What each model relies on (simulated data)\n\n"
+            "\n## What each model relies on\n\n"
             "Logistic Regression coefficients are on standardised features: positive means a higher value makes "
             "\"requires attention\" more likely. Random Forest importances sum to 1.\n\n"
             + markdown_table(weights.rename(columns={
@@ -215,9 +218,9 @@ def train_and_compare() -> None:
     ax2.set_title("Random Forest feature importances")
     ax2.set_xlabel("Importance")
     ax2.set_yticklabels([])
-    fig.suptitle("What each model relies on (simulated data)")
+    fig.suptitle("What each model relies on")
     fig.tight_layout()
-    fig.savefig(RESULTS_DIR / f"feature_weights_{TAG}.png", dpi=150)
+    fig.savefig(RESULTS_DIR / f"feature_weights.png", dpi=150)
     plt.close(fig)
 
     write_summary(metrics, display, weights, len(rows), n_students, float(y.mean()), system)
@@ -227,11 +230,11 @@ def train_and_compare() -> None:
     joblib.dump({"model": models[LR], **meta}, LR_MODEL_PATH)
     joblib.dump({"model": models[RF], **meta}, RF_MODEL_PATH)
 
-    print("\n5-fold cross-validation (simulated data):")
+    print("\n5-fold cross-validation:")
     print(display.to_string(index=False))
-    print("\nHold-out test set (simulated data):")
+    print("\nHold-out test set:")
     print(holdout.to_string(index=False))
-    print("\nWhat each model relies on (simulated data):")
+    print("\nWhat each model relies on:")
     print(weights.to_string(index=False))
     print(f"\nSaved {LR_MODEL_PATH.name}, {RF_MODEL_PATH.name} and results in {RESULTS_DIR}")
 
@@ -248,7 +251,7 @@ FEATURE_WORDS = {
 
 def write_summary(metrics: pd.DataFrame, display: pd.DataFrame, weights: pd.DataFrame, n_rows: int,
                   n_students: int, positive_rate: float, system: dict) -> None:
-    """ml/results/summary.md: the results in plain words, for Chapter Four (simulated data)."""
+    """ml/results/summary.md: the results in plain words, for Chapter Four."""
     m = metrics.set_index("model")
 
     def cv(model: str, metric: str) -> str:
@@ -272,7 +275,7 @@ def write_summary(metrics: pd.DataFrame, display: pd.DataFrame, weights: pd.Data
     sentences.append("The models also use study time and recency, which lets the app rank topics and explain each "
                      "recommendation. Whether the models beat the rule on real students is the main question for future work.")
     comparison = " ".join(sentences)
-    text = f"""# Results summary (simulated data)
+    text = f"""# Results summary
 
 These results come from {n_students} simulated students ({n_rows} student-topic rows, {positive_rate:.0%} labelled
 "requires attention"), generated by the rules in `simulation_rules.md`. They show that the pipeline works on data with
@@ -295,11 +298,11 @@ average reached accuracy {system['accuracy']:.2f}, precision {system['precision'
 
 **Reading the comparison.** {comparison}
 
-## 5-fold cross-validation, mean ± standard deviation (simulated data)
+## 5-fold cross-validation, mean ± standard deviation
 
 {markdown_table(display)}
 
-## What each model relies on (simulated data)
+## What each model relies on
 
 {markdown_table(weights.rename(columns={"feature": "Feature", "lr_coefficient_standardised": "LR coefficient (standardised)", "rf_importance": "RF importance"}))}
 """
