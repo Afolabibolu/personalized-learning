@@ -1,0 +1,107 @@
+{
+  "code": "MAT 352",
+  "title": "Probability Distributions and Elementary Limit Theorems",
+  "description": "Probability spaces and axioms; conditional probability, independence and Bayes' theorem; random variables, distribution functions and expectation; moment and probability generating functions; the standard discrete and continuous distributions; joint distributions, independence and change of variable; and Markov's and Chebyshev's inequalities, modes of convergence and the limit theorems. The folder has no lecture notes, so the course follows the outline in a student's notes, with those notes used where they apply and the rest written from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "probability-foundations",
+      "title": "Probability Spaces and Axioms",
+      "summary": "Probability measures how likely events are, defined by the classical, empirical and axiomatic approaches. A probability measure on a sample space satisfies Kolmogorov's axioms, from which the complement, addition and inclusion-exclusion rules follow.",
+      "subtopics": [
+        "Random experiments, sample spaces and events",
+        "Classical, empirical and axiomatic approaches",
+        "Probability measure and Kolmogorov's axioms",
+        "Complement and monotonicity theorems",
+        "Addition theorem and inclusion-exclusion",
+        "Counting: sampling with and without replacement"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "conditional-probability-and-bayes",
+      "title": "Conditional Probability, Independence and Bayes' Theorem",
+      "summary": "Conditional probability P(A|B) = P(A ∩ B) ÷ P(B) updates a probability given that B occurred. Events are independent when P(A ∩ B) = P(A)P(B); the law of total probability and Bayes' theorem reverse the conditioning over a partition.",
+      "subtopics": [
+        "Conditional probability and its properties",
+        "The multiplication rule",
+        "Independent events; pairwise and mutual independence",
+        "Partitions and the law of total probability",
+        "Bayes' theorem",
+        "Applications: medical tests, references, rental cars"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "random-variables-and-distributions",
+      "title": "Random Variables, Distribution Functions and Expectation",
+      "summary": "A random variable assigns a number to each outcome; it is discrete with a probability mass function or continuous with a density. The distribution function F(x) = P(X ≤ x) gives probabilities of intervals, and expectation and variance summarise the distribution.",
+      "subtopics": [
+        "Discrete and continuous random variables",
+        "Probability mass and density functions",
+        "The cumulative distribution function and its properties",
+        "The indicator function",
+        "Expectation and its properties",
+        "Variance and standard deviation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "generating-functions",
+      "title": "Moment and Probability Generating Functions",
+      "summary": "The moment generating function M(t) = E(e^(tX)) produces the moments of X by differentiation at t = 0. The probability generating function G(s) = E(s^X) does the same for discrete variables, and both uniquely identify a distribution.",
+      "subtopics": [
+        "Moments about the origin and the mean",
+        "The moment generating function",
+        "Finding mean and variance from the MGF",
+        "The probability generating function",
+        "MGF of a sum of independent variables",
+        "Uniqueness of the MGF"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "standard-distributions",
+      "title": "Standard Discrete and Continuous Distributions",
+      "summary": "Important discrete distributions are the Bernoulli, binomial, geometric, Poisson and discrete uniform; important continuous ones are the uniform, exponential, gamma and normal. Each has a known probability function, moment generating function, mean and variance.",
+      "subtopics": [
+        "Bernoulli and binomial distributions",
+        "Geometric and Poisson distributions",
+        "Discrete and continuous uniform distributions",
+        "Exponential and gamma distributions",
+        "The normal (Gaussian) distribution",
+        "Table of MGFs, means and variances"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "joint-distributions-and-independence",
+      "title": "Joint Distributions, Independence and Transformations",
+      "summary": "Two random variables have a joint pdf or pmf, from which marginal and conditional distributions follow. They are stochastically independent when the joint density factorises; sums of independent variables and change of variable give the distributions of new variables.",
+      "subtopics": [
+        "Joint probability density and mass functions",
+        "Marginal distributions",
+        "Conditional distributions and conditional expectation",
+        "Stochastic independence; covariance and correlation",
+        "Distribution of sums of independent random variables",
+        "The change-of-variable technique"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "inequalities-and-limit-theorems",
+      "title": "Inequalities, Convergence and Limit Theorems",
+      "summary": "Markov's and Chebyshev's inequalities bound tail probabilities using only the mean and variance. Sequences of random variables converge in probability, in distribution, in mean square or almost surely, giving the law of large numbers and the central limit theorem.",
+      "subtopics": [
+        "Markov's inequality",
+        "Chebyshev's inequality and its use",
+        "Modes of convergence",
+        "The weak law of large numbers",
+        "The central limit theorem",
+        "Normal approximation to the binomial"
+      ],
+      "lectures": []
+    }
+  ]
+}

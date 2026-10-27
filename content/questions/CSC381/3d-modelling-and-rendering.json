@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which projection makes distant objects look smaller?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Perspective"
+      },
+      {
+        "key": "b",
+        "text": "Parallel (orthographic)"
+      },
+      {
+        "key": "c",
+        "text": "Oblique cabinet only"
+      },
+      {
+        "key": "d",
+        "text": "Isometric"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Parallel projection preserves sizes.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The z-buffer stores, for each pixel,",
+    "options": [
+      {
+        "key": "a",
+        "text": "The depth of the nearest surface"
+      },
+      {
+        "key": "b",
+        "text": "The pixel's colour only"
+      },
+      {
+        "key": "c",
+        "text": "The light position"
+      },
+      {
+        "key": "d",
+        "text": "The texture coordinates"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A fragment is drawn only if it is closer.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Subdivision surfaces make smooth curved shapes from a coarse polygon cage.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Faces are split repeatedly.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which shading interpolates normals and computes colour at each pixel?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Phong shading"
+      },
+      {
+        "key": "b",
+        "text": "Flat shading"
+      },
+      {
+        "key": "c",
+        "text": "Gouraud shading"
+      },
+      {
+        "key": "d",
+        "text": "Wireframe"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gouraud interpolates vertex colours.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in creating a film creature model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Building a polygon mesh"
+      },
+      {
+        "key": "b",
+        "text": "Digital sculpting"
+      },
+      {
+        "key": "c",
+        "text": "Rigging"
+      },
+      {
+        "key": "d",
+        "text": "Line clipping only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Texturing and rendering follow.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3a)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a hidden-surface method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bézier curves"
+      },
+      {
+        "key": "b",
+        "text": "Z-buffer"
+      },
+      {
+        "key": "c",
+        "text": "Back-face culling"
+      },
+      {
+        "key": "d",
+        "text": "Painter's algorithm"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Bézier curves define smooth shapes.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Wrapping a 2D image onto a 3D surface for detail is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Texture mapping"
+      },
+      {
+        "key": "b",
+        "text": "Rigging"
+      },
+      {
+        "key": "c",
+        "text": "Culling"
+      },
+      {
+        "key": "d",
+        "text": "Projection"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Bump and normal maps fake relief.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Flat shading gives each vertex its own colour and blends them smoothly.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Flat shading gives each polygon one colour; Gouraud blends vertex colours.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

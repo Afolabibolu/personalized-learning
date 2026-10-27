@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = C x²(1 − x) on [0, 1] to be a pdf, C must be",
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∫₀¹ (x² − x³) dx = 1/12.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 2a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The distribution function is defined as",
+    "options": [
+      {
+        "key": "a",
+        "text": "F(x) = P(X ≤ x)"
+      },
+      {
+        "key": "b",
+        "text": "F(x) = P(X = x)"
+      },
+      {
+        "key": "c",
+        "text": "F(x) = P(X > x)"
+      },
+      {
+        "key": "d",
+        "text": "F(x) = E(X)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is non-decreasing from 0 to 1.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a continuous random variable, P(X = x) = 0 for every single value x.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Probabilities come from areas under the density.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The expected value of an indicator function I_A is",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A)"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "P(Aᶜ)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E(I_A) = 1 × P(A) + 0 × P(Aᶜ).",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2023/24 test, Question 3a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a distribution function F?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Non-decreasing"
+      },
+      {
+        "key": "b",
+        "text": "Tends to 1 as x → ∞"
+      },
+      {
+        "key": "c",
+        "text": "Right-continuous"
+      },
+      {
+        "key": "d",
+        "text": "Always differentiable"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Mixed and discrete distributions have jumps.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a formula for variance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(X) − [E(X)]²"
+      },
+      {
+        "key": "b",
+        "text": "E[(X − μ)²]"
+      },
+      {
+        "key": "c",
+        "text": "E(X²) − [E(X)]²"
+      },
+      {
+        "key": "d",
+        "text": "E(X²) − μ²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Variance uses E(X²), not E(X).",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a fair four-sided die, Var(X) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.25"
+      },
+      {
+        "key": "b",
+        "text": "2.5"
+      },
+      {
+        "key": "c",
+        "text": "7.5"
+      },
+      {
+        "key": "d",
+        "text": "0.25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E(X²) − [E(X)]² = 7.5 − 6.25.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 3b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Var(aX + b) = a Var(X) + b.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Var(aX + b) = a² Var(X); adding a constant does not change spread.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  }
+]

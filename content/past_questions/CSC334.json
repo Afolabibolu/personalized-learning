@@ -1,0 +1,132 @@
+{
+  "code": "CSC 334",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "CSC 334 examination 2020/2021, as copied in a student's answer file (headed \"CSC 334 2020/2021 Past Question\" and \"Exam PQ\")",
+      "source": "CSC 334 System Programming Past Questions answer.pdf and CSC 334 Test PQ solution.pdf (a student's handwritten answers; only the question wording is copied, and the wording is the student's copy of the paper)"
+    },
+    {
+      "year": "Test",
+      "paper": "CSC 334 test, year not shown, as copied in a student's answer file",
+      "source": "CSC 334 System Programming Past Questions answer.pdf and CSC 334 Test PQ solution.pdf (a student's handwritten answers; only the question wording is copied, and the wording is the student's copy of the paper)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "2021/2022 Session Second Semester Examinations (CSC 334: Systems Programming). Attempt Question 1 and any two others; 2 hours",
+      "source": "Past Question/CSC 334 20212022.pdf (scanned; handwritten answers on the copy are not copied)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "2024/2025 First Semester Examination Questions (CSC 334: Systems Programming). Answer all questions in Section A and any 2 questions in Section B; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, pages 7–8 (scanned)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1(a)–(c)",
+      "marks": null,
+      "topic": "java-threads-and-synchronization",
+      "text": "1a. When do threads sleep and why do you think it is programmed so in application?\n1b. Using a Lock with a fairness policy helps avoid indefinite postponement, but has a drawback. (i) What is the drawback of ReentrantLock's fairness policy? (ii) In what situation would you necessarily use a fair lock? (iii) What does the ReentrantLock's fairness policy state when the Boolean argument is set to true? (iv) What is the importance when the Boolean argument in (iii) is set to false?\n1c. At any time, a thread is said to be in one of several thread states. Beginning at the Runnable state, explain what happens when a thread is said to attain the following states: i. Timed waiting ii. New iii. Waiting iv. Runnable v. Terminated"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1(d)",
+      "marks": null,
+      "topic": "processes-threads-and-concurrency",
+      "text": "1d. An Online Application user is downloading a large video file from the Internet but does not want to wait until the entire lengthy clip completely downloads before playing it back. How do you solve this problem as a concurrency programmer?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2–4",
+      "marks": null,
+      "topic": "computer-organisation-and-ports",
+      "text": "2a. Draw and label the pin-out diagram of a PS/2 female connector detailing the pins and their description.\n2b. Registers are used to quickly accept, store and transfer data and instructions that are being used immediately by the Central Processing Unit (CPU). Various types of registers are used for various purposes. Mention and briefly describe any 5 types of register.\n2c. In the computer system design, memory hierarchy as a development and enhancement is very key. The memory hierarchy was developed based on a program behavior known as Locality of Reference. Explain the economic trend vertically upward and downward the memory hierarchy designs.\n3a. Identify and explain the operations performed by register.\n3b. Distinguish between the two sub-divisions of communication ports with an example for each.\n3c. Produce the pin-out diagram of DE-9 or RS-232 male and female port.\n4a. Describe a Digital Video Interface (DVI).\n4b. Characterise both the Mini-DVI and Micro-DVI."
+    },
+    {
+      "year": "2020/2021",
+      "number": "Other",
+      "marks": null,
+      "topic": "memory-segments-and-assembly-basics",
+      "text": "Four 32-bit Data Registers are used for arithmetic, logical and other operations. These 32-bit registers can be used in three ways. Identify and explain the ways it could be used illustrating with a well labelled diagram.\nBriefly comment on the size of the code, data, stack and heap segment during the execution of a program with a well labelled diagram."
+    },
+    {
+      "year": "2020/2021",
+      "number": "5(a)",
+      "marks": null,
+      "topic": "java-threads-and-synchronization",
+      "text": "5a. Explain the following key concepts: 1. Operating System's thread scheduler 2. Round robin policy 3. Preemptive scheduling 4. Starvation 5. Dispatching the thread 6. Quantum 7. ReentrantLock's fairness policy 8. Deadlock 9. Event-dispatching thread 10. Client-server relationship"
+    },
+    {
+      "year": "Test",
+      "number": "1–6",
+      "marks": null,
+      "topic": "computer-organisation-and-ports",
+      "text": "1. Briefly describe the term, \"Locality of References\"\n2. Characterize the different level of memory hierarchy using a well labelled diagram (15mks)\n3. Draw and label the pin-out diagram of a PS/2 female connector detailing the pins and their description.\n4. Ethernet is a networking technology that is used to connect your computer to Internet and communicate with other computers or networking devices. The interface that is used for computer networking and telecommunications is known as Registered Jack (RJ-45). Give the wire arrangement of the RJ-45 connector as in the pin-out diagram.\n5. Describe the .bss segment.\n6. Everything in life that has a disadvantage has an advantage. Little did we know that, when we solve a problem using technology or otherwise, we create a new one but one thing to note on problem solving is that, the advantages of the preferred solution must far outweigh the disadvantages of the new created problem then, we say, \"a problem has been solved\". Assembly language was invented to relate directly with the resources on the systems with little or no intervention of the operating system but there are drawbacks to it too. Briefly identify the advantages of Assembly language."
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "marks": null,
+      "topic": "computer-organisation-and-ports",
+      "text": "1. Systems Programming is characterized by the fact that it is aimed at producing systems software that provide services to the computer hardware or specialized systems services. Many-a-times, systems programming directly deals with the peripheral devices with a focus on input, process (storage) and output.\na. identify other essential characteristics of Systems programming (6 mks)\nb. Systems programming though of tremendous benefits, has limitations as well. Provide the limitations of Systems programming (3 mks)\nc. Computer organization refers to the operational units and their instruction that realize architectural specification. What does computer organization involve? (1 ½ mk)\nd. In the Computer System Design, Memory Hierarchy is an enhancement to organize the memory such that it can minimize the access time. The Memory Hierarchy was developed based on a program behavior known as Locality of References. What is Locality of References? (2 mk)\ne. Level 2 or Main memory is on a level on the memory hierarchy technology. Describe it. (2 mks)\nf. Program Counter (AC) and Memory Data Register (MDR) are some of the very important and mostly used registers. Briefly, describe these two registers. (8 mks)\ng. Program Status Word (PSW) is a collection of information that encapsulates the basic execution state of a program at any instant. It permits an interrupted process to resume operation after the interrupt has been handled. It also, contained some common fields and flags. Identify six of these flags, specifying what purpose they serve (6 mks)\nh. list three optional registers (3 mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": 15,
+      "topic": "memory-segments-and-assembly-basics",
+      "text": "2a. A Computer Port is an interface or a point of connection between the computer and its peripheral devices. Some of the common peripherals are mouse, keyboard, monitor or display unit, printer, speaker, flash drive. Describe briefly, a Parallel port. (3 mks)\nb. Briefly describe the P/S 2 connector (2 mks)\nc. A Compiler driver invokes the language preprocessor, compiler, assembler, and linker, as needed on behalf of the user. It can generate three types of object files depending upon the options supplied to the compiler driver. Identify and explain any three types of object file. (7 mks)\nd. An assembly language does not have a syntactical structure like the high-level language but has its own strengths. What are the strengths of Assembly language? (3 mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 15,
+      "topic": "memory-segments-and-assembly-basics",
+      "text": "3a. DB-25 is a kind of computer port, briefly describe it (2 mks)\nb. If the processor were to bring the value 0725H from register to memory to save. How would it have been saved? Support your answer with a well-drawn diagram to illustrate the task (5 mks)\nc. Write an assembly language program to display, \"Hello World !\" on the screen. (5 mks)\nd. Four 32-bit data registers are used for arithmetic, logical, and other operations. These 32-bit registers can be used in three ways. Identify the three ways with examples. (3 mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 15,
+      "topic": "assembly-instructions",
+      "text": "4a. DE-9 is popularly mis-named DB-9 but actual name is DE-9 or COM port. Explain the peculiarities of DE-9 port. (2 ½ mks)\nb. Do an annotative pin-out diagrams of both the male and female DE-9 port (5 by 2 =10 mks)\nc. State what the following assembly language syntax do: (2 ½ mks) i. MOV TOTAL, 48 ii. ADD AH, BH iii. AND MASK1, 128 iv. INC COUNT v. MOV AL, 10"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 15,
+      "topic": "memory-segments-and-assembly-basics",
+      "text": "5a. Give a vivid description of the S/PDIF/TOSLINK connectors (2 mks)\nb. The 32-bit instruction pointer register and the 32-bit flags register combined are considered as the control registers. Many instructions involve comparisons and mathematical calculations and change the status of the flags and some other conditional instructions test the value of these status flags to take the control flow to other location. List the common flag bits and describe what they do? (9 mks)\nc. The text section, in assembly language, is used for keeping the actual code. Give the syntax for declaring the Code Segment with comments to state what they do. (4 mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "Section A, 1–2",
+      "marks": 30,
+      "topic": "unix-processes-and-ipc",
+      "text": "QUESTION ONE (15 marks)\nWrite a C program to do the following (2.5 marks each)\na. Create a text file giving it any name of choice\nb. Write 5 lines of text into the file.\nc. Read the content of the file to the console\nd. Delete the file\nQUESTION TWO (15 marks)\nWrite a C Program that\na. accepts a Hexadecimal Value (base 16) (3 marks)\nb. converts it to a Decimal value (base 10) (9 marks)\nc. prints out the converted value. (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "Section B, 1",
+      "marks": 15,
+      "topic": "processes-threads-and-concurrency",
+      "text": "A. \"The efficiency and stability of a computer system depend heavily on the interplay between hardware and the operating system.\" Analyze this statement by discussing how the operating system utilizes core hardware components to manage processes, memory, and I/O devices. In your response, evaluate how design decisions in OS architecture (e.g., monolithic vs microkernel) can impact this interplay, especially in terms of performance and fault tolerance. (9 marks)\nB. Compare the process management and memory management strategies employed by batch operating systems, time-sharing systems, and real-time operating systems. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "Section B, 2",
+      "marks": 15,
+      "topic": "unix-processes-and-ipc",
+      "text": "A. Examine the role of fork() and exec() in process creation, highlighting how their interplay enables modular execution. Analyze the trade-offs involved in using fork() versus vfork() in performance-critical applications. Support your discussion with practical examples such as shell execution, daemon processes, or server spawning. (5 marks)\nB. Discuss the lifecycle of a UNIX/Linux process, from creation to termination, and analyze the operating system's role in managing this lifecycle. (5 marks)\nC. Signals provide an asynchronous mechanism for inter-process communication in UNIX/Linux, but they introduce challenges in process control. Evaluate the benefits and limitations of signal handling in process management. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "Section B, 3",
+      "marks": 15,
+      "topic": "unix-processes-and-ipc",
+      "text": "A. Discuss the various methods of Interprocess Communication (IPC) in UNIX/Linux systems. Compare and contrast each method in terms of complexity, speed, use case, and typical scenarios. Support your discussion with code snippets where applicable. (5 marks)\nB. Explain how shared memory works as an IPC mechanism. What are the advantages and disadvantages of shared memory over other IPC methods? Include an example that shows how two processes can use shared memory to exchange data. (5 marks)\nC. A developer is designing a client-server application on a Linux system. Recommend the most suitable IPC method for real-time data exchange between the client and server. Justify your choice by discussing the communication needs, performance considerations, and implementation complexity. (5 marks)"
+    }
+  ]
+}

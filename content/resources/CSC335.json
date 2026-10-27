@@ -1,0 +1,103 @@
+{
+  "code": "CSC 335",
+  "topics": {
+    "software-process-and-life-cycle": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Software Development Life Cycle: Explained (AltexSoft)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SaCYkPD4_K0",
+        "source": "links.csv"
+      }
+    ],
+    "waterfall-and-v-models": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Waterfall model | | Software Engineering | SE |  Lec-04 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=x-jqSXYE4S4",
+        "source": "links.csv"
+      }
+    ],
+    "prototyping-phased-and-spiral-models": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Spiral Process - Georgia Tech - Software Development Process (Udacity)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mp22SDTnsQQ",
+        "source": "links.csv"
+      }
+    ],
+    "agile-rad-and-choosing-a-process": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: What Is Agile Methodology? | Introduction to Agile Methodology in Six Minutes | Simplilearn (Simplilearn)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8eVXTyIZ1Hs",
+        "source": "links.csv"
+      }
+    ],
+    "requirements-and-modelling-notations": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Functional and Nonfunctional Requirements - Georgia Tech - Software Development Process (Udacity)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zCX-N1H8Vps",
+        "source": "links.csv"
+      }
+    ],
+    "dependability-and-formal-methods": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: An Introduction to Safety Critical Software (WITTENSTEIN High Integrity Systems)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0mHwXH144cA",
+        "source": "links.csv"
+      }
+    ],
+    "testing-quality-and-maintenance": [
+      {
+        "title": "Software Engineering lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hgQm-iBQpQ714xnnpBRjwrO84bvcx1Ps",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Levels of Testing - Unit, Integration, System & Acceptance | ArtOfTesting (ArtOfTesting)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=v-mIDYqotf8",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Unix was developed at",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bell Labs"
+      },
+      {
+        "key": "b",
+        "text": "Microsoft"
+      },
+      {
+        "key": "c",
+        "text": "IBM"
+      },
+      {
+        "key": "d",
+        "text": "Apple"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "By Ken Thompson, Dennis Ritchie and others in the 1970s.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which redirection symbol appends output to an existing file?",
+    "options": [
+      {
+        "key": "a",
+        "text": ">>"
+      },
+      {
+        "key": "b",
+        "text": ">"
+      },
+      {
+        "key": "c",
+        "text": "<"
+      },
+      {
+        "key": "d",
+        "text": "|"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "> overwrites the file.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 12"
+  },
+  {
+    "format": "true_false",
+    "stem": "A pipe sends the standard output of the command on its left to the standard input of the command on its right.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Data flows left to right.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A command that reads from another program, changes the data and writes to standard output is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Filter"
+      },
+      {
+        "key": "b",
+        "text": "Kernel"
+      },
+      {
+        "key": "c",
+        "text": "Device driver"
+      },
+      {
+        "key": "d",
+        "text": "Partition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Filters are often used in pipes.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 12"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Unix-like operating systems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Solaris"
+      },
+      {
+        "key": "b",
+        "text": "FreeBSD"
+      },
+      {
+        "key": "c",
+        "text": "Linux"
+      },
+      {
+        "key": "d",
+        "text": "MS-DOS"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "MS-DOS is not Unix-like.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a layer of the Unix architecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spooler"
+      },
+      {
+        "key": "b",
+        "text": "Hardware"
+      },
+      {
+        "key": "c",
+        "text": "Kernel"
+      },
+      {
+        "key": "d",
+        "text": "Shell"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The layers are hardware, kernel, shell, and files and directories.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The < symbol tells a command to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Take its input from a file instead of the keyboard"
+      },
+      {
+        "key": "b",
+        "text": "Overwrite a file"
+      },
+      {
+        "key": "c",
+        "text": "Append to a file"
+      },
+      {
+        "key": "d",
+        "text": "Pipe its output"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It redirects standard input.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 12"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Unix system can only run one shell at a time, shared by all users.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "There is one kernel but there may be a shell for each logged-in user.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 13"
+  }
+]

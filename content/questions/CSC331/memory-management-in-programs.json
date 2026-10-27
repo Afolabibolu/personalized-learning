@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which memory area holds the frames of active method calls?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Run-time stack"
+      },
+      {
+        "key": "b",
+        "text": "Heap"
+      },
+      {
+        "key": "c",
+        "text": "Static area"
+      },
+      {
+        "key": "d",
+        "text": "Cache"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A frame is pushed on each call and popped on return.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dynamically allocated values reached through pointers are stored in the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Heap"
+      },
+      {
+        "key": "b",
+        "text": "Static area"
+      },
+      {
+        "key": "c",
+        "text": "Instruction register"
+      },
+      {
+        "key": "d",
+        "text": "Stack frame header"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The heap's blocks are scattered unpredictably.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "A stack frame contains a static link and a dynamic link.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The dynamic link points to the caller's frame.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Passing an argument's address so the method can change the caller's variable is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pass by reference"
+      },
+      {
+        "key": "b",
+        "text": "Pass by value"
+      },
+      {
+        "key": "c",
+        "text": "Widening"
+      },
+      {
+        "key": "d",
+        "text": "Garbage collection"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In C++, & marks a reference parameter.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about Java memory are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Objects are created on the heap"
+      },
+      {
+        "key": "b",
+        "text": "The JVM collects garbage automatically"
+      },
+      {
+        "key": "c",
+        "text": "Programmers need not write destructors"
+      },
+      {
+        "key": "d",
+        "text": "Programmers must free every object"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Freeing objects by hand is the C++ approach.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3 and 13"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the three run-time memory areas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register file"
+      },
+      {
+        "key": "b",
+        "text": "Static area"
+      },
+      {
+        "key": "c",
+        "text": "Run-time stack"
+      },
+      {
+        "key": "d",
+        "text": "Heap"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Memory divides into static area, stack and heap.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A structure (record) differs from an array because its elements",
+    "options": [
+      {
+        "key": "a",
+        "text": "Need not share the same type"
+      },
+      {
+        "key": "b",
+        "text": "Must be integers"
+      },
+      {
+        "key": "c",
+        "text": "Are always on the stack"
+      },
+      {
+        "key": "d",
+        "text": "Cannot be named"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An array's elements all have the same type.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "In C++, forgetting to free a heap object causes no problem while the program runs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It causes a memory leak until the program stops.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3"
+  }
+]

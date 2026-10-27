@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who first described the spiral model, in 1986?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Barry Boehm"
+      },
+      {
+        "key": "b",
+        "text": "Winston Royce"
+      },
+      {
+        "key": "c",
+        "text": "Kent Beck"
+      },
+      {
+        "key": "d",
+        "text": "Ivar Jacobson"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a risk-driven model.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Starting with a small subsystem and adding functionality with each release is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Incremental development"
+      },
+      {
+        "key": "b",
+        "text": "Iterative development"
+      },
+      {
+        "key": "c",
+        "text": "Waterfall development"
+      },
+      {
+        "key": "d",
+        "text": "Big-bang integration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Iterative development starts with the full system and changes it each release.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The spiral model places very high emphasis on risk analysis.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each loop includes evaluation and risk analysis.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A disadvantage of the spiral model is",
+    "options": [
+      {
+        "key": "a",
+        "text": "The risk of running the spiral indefinitely"
+      },
+      {
+        "key": "b",
+        "text": "No prototypes are allowed"
+      },
+      {
+        "key": "c",
+        "text": "Requirements cannot change"
+      },
+      {
+        "key": "d",
+        "text": "Users never see the system"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It needs very strict management.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are phases of each spiral?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identification"
+      },
+      {
+        "key": "b",
+        "text": "Design"
+      },
+      {
+        "key": "c",
+        "text": "Construct or build"
+      },
+      {
+        "key": "d",
+        "text": "Big-bang integration"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is evaluation and risk analysis.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an advantage of software prototyping?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Scope always shrinks"
+      },
+      {
+        "key": "b",
+        "text": "More user involvement"
+      },
+      {
+        "key": "c",
+        "text": "Defects detected earlier"
+      },
+      {
+        "key": "d",
+        "text": "Missing functionality identified easily"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scope may actually expand beyond original plans.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In phased development, the version currently in use is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Production system (release n)"
+      },
+      {
+        "key": "b",
+        "text": "Development system (release n + 1)"
+      },
+      {
+        "key": "c",
+        "text": "Prototype"
+      },
+      {
+        "key": "d",
+        "text": "Spiral"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The development system is the next version.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A prototype always holds the exact logic of the final software.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It may not hold the exact logic of the original software.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  }
+]

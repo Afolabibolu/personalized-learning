@@ -1,0 +1,107 @@
+{
+  "code": "CSC 335",
+  "title": "Software Engineering",
+  "description": "The software process and life cycle; waterfall and V models; prototyping, phased and spiral development; agile methods and RAD and how to choose a process; requirements and modelling notations; dependability, critical systems and formal methods; and software testing, quality and maintenance. Built from the CSC 335 lecture on software process models (weeks 3 and 4); requirements, dependability, testing, quality and maintenance, which the 2021/22 paper tests but no file covers, are written from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "software-process-and-life-cycle",
+      "title": "The Software Process and Life Cycle",
+      "summary": "A process is a series of steps involving activities, constraints and resources that produce an intended output. The software life cycle runs from requirements analysis through design, coding, testing and delivery to maintenance, and process models describe how those activities are organised.",
+      "subtopics": [
+        "Meaning and characteristics of a process",
+        "Importance of processes and reasons for modelling them",
+        "Phases of the software development cycle",
+        "Requirements, design, implementation, testing, installation, maintenance",
+        "The software life cycle",
+        "List of software process models"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "waterfall-and-v-models",
+      "title": "The Waterfall and V Models",
+      "summary": "The waterfall model breaks development into linear, sequential phases, each finished before the next, which suits stable, well-understood requirements. The V model bends the steps upward after coding, pairing each development phase with a testing phase.",
+      "subtopics": [
+        "Characteristics of the waterfall model",
+        "When to use the waterfall model",
+        "Advantages and disadvantages of the waterfall model",
+        "Waterfall with prototyping",
+        "The V model: verification and validation",
+        "Merits and demerits of the V model"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "prototyping-phased-and-spiral-models",
+      "title": "Prototyping, Phased and Spiral Models",
+      "summary": "Prototyping builds a working model with limited functionality to clarify requirements early. Phased development delivers the system in pieces, incrementally or iteratively, and Boehm's spiral model repeats identification, design, construction and risk analysis in loops.",
+      "subtopics": [
+        "The prototype model and its advantages and disadvantages",
+        "Incremental and iterative development",
+        "Production and development systems in parallel",
+        "The spiral model (Boehm, 1986)",
+        "Spiral phases: identification, design, construct, evaluation and risk analysis",
+        "When to use the spiral model"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "agile-rad-and-choosing-a-process",
+      "title": "Agile Methods, RAD and Choosing a Process",
+      "summary": "Agile methods value individuals, working software, customer collaboration and responding to change, delivering incremental builds in time boxes. RAD uses minimal planning and parallel prototypes, and the right process depends on customer involvement, requirement stability, team and experience.",
+      "subtopics": [
+        "The agile manifesto",
+        "Iterations, time boxes and incremental builds",
+        "Merits and demerits of agile methods",
+        "Rapid application development",
+        "When RAD applies; its advantages and disadvantages",
+        "Factors in choosing a software process"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "requirements-and-modelling-notations",
+      "title": "Requirements Engineering and Modelling Notations",
+      "summary": "Requirements engineering elicits, analyses, specifies and validates what a system must do, separating functional from non-functional requirements. Systems are modelled with notations such as UML use case, class, sequence, activity and state diagrams, and data flow diagrams.",
+      "subtopics": [
+        "Requirements engineering activities",
+        "Functional and non-functional requirements",
+        "The requirements document",
+        "Modelling notations: UML diagrams and DFDs",
+        "Use case diagrams; include and extend",
+        "Modelling a library system"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "dependability-and-formal-methods",
+      "title": "Dependability, Critical Systems and Formal Methods",
+      "summary": "Critical systems are those whose failure causes serious loss, so they must be dependable: available, reliable, safe and secure, as well as repairable, maintainable, survivable and error-tolerant. Formal methods use mathematical specification and proof to build such systems.",
+      "subtopics": [
+        "Safety-, mission- and business-critical systems",
+        "Dimensions of dependability: availability, reliability, safety, security",
+        "Other properties: repairability, maintainability, survivability, error tolerance",
+        "Fault avoidance, detection and tolerance",
+        "Formal methods and formal specification",
+        "Why developers use formal methods"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "testing-quality-and-maintenance",
+      "title": "Software Testing, Quality and Maintenance",
+      "summary": "Testing shows a program does what it should and finds defects, from unit and integration testing to release and acceptance testing. Quality assurance applies principles to produce quality systems, and maintenance keeps software useful as it evolves.",
+      "subtopics": [
+        "The software testing process: test cases, data, results, reports",
+        "Development, release and user testing; alpha, beta and acceptance tests",
+        "Verification and validation",
+        "Software quality assurance and quality principles",
+        "Types of maintenance: corrective, adaptive, perfective, preventive",
+        "Factors affecting maintainability; Lehman's laws"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The ability of a language to clearly reflect the meaning intended by the programmer is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Expressivity"
+      },
+      {
+        "key": "b",
+        "text": "Portability"
+      },
+      {
+        "key": "c",
+        "text": "Pedagogy"
+      },
+      {
+        "key": "d",
+        "text": "Efficiency"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the first evaluation criterion.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A language implemented on many machines with a machine-independent design is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Portable"
+      },
+      {
+        "key": "b",
+        "text": "Orthogonal"
+      },
+      {
+        "key": "c",
+        "text": "Expressive"
+      },
+      {
+        "key": "d",
+        "text": "Efficient"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ANSI-standardised languages tend to be more portable.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "BASIC and Pascal were designed especially for teaching.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is the pedagogy criterion.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Binding the real value 1.5 to its IEEE 754 representation happens at",
+    "options": [
+      {
+        "key": "a",
+        "text": "Language implementation time"
+      },
+      {
+        "key": "b",
+        "text": "Run time"
+      },
+      {
+        "key": "c",
+        "text": "Program writing time"
+      },
+      {
+        "key": "d",
+        "text": "Compile time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It happens when the translator is written.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the book's nine evaluation criteria?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Well-definedness"
+      },
+      {
+        "key": "b",
+        "text": "Modularity"
+      },
+      {
+        "key": "c",
+        "text": "Generality"
+      },
+      {
+        "key": "d",
+        "text": "Popularity on social media"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The others include data types, I/O, portability, efficiency and pedagogy.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is a counter-example of orthogonality given in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java's + for both addition and string concatenation"
+      },
+      {
+        "key": "b",
+        "text": "A symbol with one meaning everywhere"
+      },
+      {
+        "key": "c",
+        "text": "A small set of predictable features"
+      },
+      {
+        "key": "d",
+        "text": "Consistent operator meanings"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Orthogonality means features keep the same meaning in every context.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language was elegant but nearly impossible to implement efficiently?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ALGOL 68"
+      },
+      {
+        "key": "b",
+        "text": "C"
+      },
+      {
+        "key": "c",
+        "text": "BASIC"
+      },
+      {
+        "key": "d",
+        "text": "Java"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its specification was too complex.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Interpreted programs are usually more efficient than compiled programs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Compiled programs are usually more efficient.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 5"
+  }
+]

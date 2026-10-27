@@ -135,7 +135,9 @@ def browser_checks(folder: Path | None) -> None:
                   f"{cards.count()} course cards")
             groups = page.locator("[id^=level-]").all_inner_texts()
             check("more courses are grouped by level, highest first",
-                  [g.lower() for g in groups] == ["500 level", "400 level", "200 level", "100 level"], " | ".join(groups))
+                  len(groups) >= 2 and all(g.lower().endswith(" level") for g in groups)
+                  and [int(g.split()[0]) for g in groups] == sorted((int(g.split()[0]) for g in groups), reverse=True),
+                  " | ".join(groups))
             shot(folder, page, "p9-02-courses.png", full_page=True)
 
             # Knowledge Base: the sample course with its badge; a study note and past questions.

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The marginal density of X is found by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Integrating the joint density over y"
+      },
+      {
+        "key": "b",
+        "text": "Multiplying the joint density by y"
+      },
+      {
+        "key": "c",
+        "text": "Differentiating with respect to x"
+      },
+      {
+        "key": "d",
+        "text": "Setting y = 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f_X(x) = ∫ f(x, y) dy.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x, y) = C x y² on 0 ≤ y ≤ x ≤ 1, C must be",
+    "options": [
+      {
+        "key": "a",
+        "text": "15"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The double integral of x y² over the triangle is 1/15.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 2b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "X and Y are independent if and only if their joint density factorises into the product of the marginals.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "f(x, y) = f_X(x) f_Y(y).",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With Y uniform on [0, 2π], A = sin Y and B = cos Y are",
+    "options": [
+      {
+        "key": "a",
+        "text": "Uncorrelated but not independent"
+      },
+      {
+        "key": "b",
+        "text": "Independent"
+      },
+      {
+        "key": "c",
+        "text": "Perfectly correlated"
+      },
+      {
+        "key": "d",
+        "text": "Identical"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A² + B² = 1 links them, though E(AB) = 0.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 3a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true for independent X and Y?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(X + Y) = E(X) + E(Y)"
+      },
+      {
+        "key": "b",
+        "text": "Var(X + Y) = Var(X) + Var(Y)"
+      },
+      {
+        "key": "c",
+        "text": "M_(X+Y)(t) = Mₓ(t)M_Y(t)"
+      },
+      {
+        "key": "d",
+        "text": "Cov(X, Y) = 1"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Independent variables have zero covariance.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which sum of independent variables is not of the same family as its parts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two Exponential(λ) give a Gamma"
+      },
+      {
+        "key": "b",
+        "text": "Two Poissons give a Poisson"
+      },
+      {
+        "key": "c",
+        "text": "Two normals give a normal"
+      },
+      {
+        "key": "d",
+        "text": "Two binomials with the same p give a binomial"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A sum of exponentials is gamma, not exponential.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If X is uniform on (0, 1), Y = −ln X follows",
+    "options": [
+      {
+        "key": "a",
+        "text": "Exponential(1)"
+      },
+      {
+        "key": "b",
+        "text": "Uniform(0, 1)"
+      },
+      {
+        "key": "c",
+        "text": "Normal(0, 1)"
+      },
+      {
+        "key": "d",
+        "text": "Poisson(1)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The change-of-variable formula gives f_Y(y) = e^(−y).",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Zero correlation always implies independence.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Uncorrelated variables can still be dependent.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 3a)"
+  }
+]

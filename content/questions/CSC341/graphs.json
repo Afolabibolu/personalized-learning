@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The adjacency matrix of an undirected graph is always",
+    "options": [
+      {
+        "key": "a",
+        "text": "Symmetric"
+      },
+      {
+        "key": "b",
+        "text": "Upper triangular"
+      },
+      {
+        "key": "c",
+        "text": "Empty"
+      },
+      {
+        "key": "d",
+        "text": "Never symmetric"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An edge (i, j) implies the edge (j, i).",
+    "source": "Graph Adj List.pdf, page 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Depth-first search uses which structure to remember where to continue?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A stack"
+      },
+      {
+        "key": "b",
+        "text": "A queue"
+      },
+      {
+        "key": "c",
+        "text": "A hash table"
+      },
+      {
+        "key": "d",
+        "text": "A heap"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Breadth-first search uses a queue.",
+    "source": "Graph Adj List.pdf, page 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Breadth-first search can be used to find the shortest path from one vertex to another.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It visits vertices in order of distance from the start.",
+    "source": "Graph Adj List.pdf, page 14"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many edges does a spanning tree of a graph with n vertices have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n − 1"
+      },
+      {
+        "key": "b",
+        "text": "n"
+      },
+      {
+        "key": "c",
+        "text": "n + 1"
+      },
+      {
+        "key": "d",
+        "text": "n²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It connects all vertices with the fewest edges and no cycle.",
+    "source": "Graph Adj List.pdf, page 21"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of an adjacency matrix?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple to implement"
+      },
+      {
+        "key": "b",
+        "text": "Adding or removing an edge takes O(1) time"
+      },
+      {
+        "key": "c",
+        "text": "Checking for an edge takes O(1) time"
+      },
+      {
+        "key": "d",
+        "text": "Little memory for big graphs"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It uses a lot of memory for big graphs.",
+    "source": "Graph Adj List.pdf, page 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not used to find a minimum spanning tree?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary search"
+      },
+      {
+        "key": "b",
+        "text": "Kruskal's algorithm"
+      },
+      {
+        "key": "c",
+        "text": "Prim's algorithm"
+      },
+      {
+        "key": "d",
+        "text": "A greedy approach"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Kruskal and Prim are both greedy algorithms.",
+    "source": "Graph Adj List.pdf, pages 21–22"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A complete graph with 3 vertices can have at most how many spanning trees?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n^(n−2) = 3^1 = 3.",
+    "source": "Graph Adj List.pdf, page 20"
+  },
+  {
+    "format": "true_false",
+    "stem": "A disconnected graph has at least one spanning tree.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It cannot be spanned to all its vertices.",
+    "source": "Graph Adj List.pdf, page 20"
+  }
+]

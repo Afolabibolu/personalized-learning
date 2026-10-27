@@ -1,0 +1,103 @@
+{
+  "code": "MAT 352",
+  "topics": {
+    "probability-foundations": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: L01.4 Probability Axioms (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pA83XtLeVig",
+        "source": "links.csv"
+      }
+    ],
+    "conditional-probability-and-bayes": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Bayes theorem, the geometry of changing beliefs (3Blue1Brown)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM",
+        "source": "links.csv"
+      }
+    ],
+    "random-variables-and-distributions": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Probability Distribution Functions (PMF, PDF, CDF) (zedstatistics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YXLVjCKVP7U",
+        "source": "links.csv"
+      }
+    ],
+    "generating-functions": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: What is a Moment Generating Function (MGF)? (\"Best explanation on YouTube\") (Iain Explains Signals, Systems, and Digital Comms)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wjwLTNYOuI4",
+        "source": "links.csv"
+      }
+    ],
+    "standard-distributions": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Introduction to Poisson Distribution - Probability & Statistics (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=m0o-585xwW0",
+        "source": "links.csv"
+      }
+    ],
+    "joint-distributions-and-independence": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Joint Probability Distributions: Marginal and Conditional Densities (Steve Brunton)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pribJ8bUBzo",
+        "source": "links.csv"
+      }
+    ],
+    "inequalities-and-limit-theorems": [
+      {
+        "title": "Probability Distributions and Elementary Limit Theorems past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1hgT20_zzdik66VrrxXLpxyxRgtT4fBjZ",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: L18.3 The Chebyshev Inequality (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=d5pnfFvggYk",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The mean and variance of Binomial(n, p) are",
+    "options": [
+      {
+        "key": "a",
+        "text": "np and npq"
+      },
+      {
+        "key": "b",
+        "text": "np and np"
+      },
+      {
+        "key": "c",
+        "text": "n/p and q/p²"
+      },
+      {
+        "key": "d",
+        "text": "p and pq"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "q = 1 − p.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which distribution has mean and variance both equal to λ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Poisson"
+      },
+      {
+        "key": "b",
+        "text": "Exponential"
+      },
+      {
+        "key": "c",
+        "text": "Binomial"
+      },
+      {
+        "key": "d",
+        "text": "Uniform"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The exponential has mean 1/λ and variance 1/λ².",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 3)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The exponential distribution is memoryless.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "P(X > s + t | X > s) = P(X > t).",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The variance of Uniform(a, b) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(b − a)²/12"
+      },
+      {
+        "key": "b",
+        "text": "(a + b)/2"
+      },
+      {
+        "key": "c",
+        "text": "(b − a)/12"
+      },
+      {
+        "key": "d",
+        "text": "(b − a)²/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its mean is (a + b)/2.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 3)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are continuous distributions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Exponential"
+      },
+      {
+        "key": "b",
+        "text": "Gamma"
+      },
+      {
+        "key": "c",
+        "text": "Normal"
+      },
+      {
+        "key": "d",
+        "text": "Poisson"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Poisson is discrete.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 3)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which distribution is not discrete?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gamma"
+      },
+      {
+        "key": "b",
+        "text": "Binomial"
+      },
+      {
+        "key": "c",
+        "text": "Geometric"
+      },
+      {
+        "key": "d",
+        "text": "Poisson"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gamma is continuous.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The number of trials up to the first success follows the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Geometric distribution"
+      },
+      {
+        "key": "b",
+        "text": "Normal distribution"
+      },
+      {
+        "key": "c",
+        "text": "Gamma distribution"
+      },
+      {
+        "key": "d",
+        "text": "Uniform distribution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its mean is 1/p.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Gamma(α, λ) distribution with α = 2 is the exponential distribution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is exponential when α = 1.",
+    "source": "MAT 352 Assignment; general knowledge, following the MAT 352 course outline and past papers"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which of these is system software?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An operating system"
+      },
+      {
+        "key": "b",
+        "text": "Microsoft Office"
+      },
+      {
+        "key": "c",
+        "text": "A web browser game"
+      },
+      {
+        "key": "d",
+        "text": "Adobe Photoshop"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "System software also includes utilities such as disk formatters.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which generation of operating systems did multiprogramming appear?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Third (1965–80)"
+      },
+      {
+        "key": "b",
+        "text": "First"
+      },
+      {
+        "key": "c",
+        "text": "Second"
+      },
+      {
+        "key": "d",
+        "text": "Fourth"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It kept the CPU busy nearly 100 percent of the time.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The efficiency of a batch system is measured in throughput.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Throughput is the number of jobs completed in a given time.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An air-bag controller, where even the shortest delay is unacceptable, needs a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hard real-time OS"
+      },
+      {
+        "key": "b",
+        "text": "Soft real-time OS"
+      },
+      {
+        "key": "c",
+        "text": "Batch OS"
+      },
+      {
+        "key": "d",
+        "text": "Network OS"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Soft real-time systems, like an ATM, have less strict deadlines.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which tasks must every OS manager perform?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Monitor its resources continuously"
+      },
+      {
+        "key": "b",
+        "text": "Enforce the allocation policies"
+      },
+      {
+        "key": "c",
+        "text": "Allocate and deallocate the resource"
+      },
+      {
+        "key": "d",
+        "text": "Compile user programs"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the four tasks of every manager.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the four basic OS managers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spreadsheet manager"
+      },
+      {
+        "key": "b",
+        "text": "Memory manager"
+      },
+      {
+        "key": "c",
+        "text": "Processor manager"
+      },
+      {
+        "key": "d",
+        "text": "File manager"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The fourth is the device manager.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Computers in cars, traffic lights and digital cameras typically run",
+    "options": [
+      {
+        "key": "a",
+        "text": "An embedded OS"
+      },
+      {
+        "key": "b",
+        "text": "A network OS"
+      },
+      {
+        "key": "c",
+        "text": "A batch OS"
+      },
+      {
+        "key": "d",
+        "text": "A distributed OS"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An embedded OS runs one task for a device that is not a computer.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "MS-DOS is a multitasking operating system.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "MS-DOS is single-tasking.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 2"
+  }
+]

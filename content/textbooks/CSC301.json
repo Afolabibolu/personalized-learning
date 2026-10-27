@@ -1,0 +1,70 @@
+{
+  "code": "CSC 301",
+  "books": {
+    "koontz": {
+      "title": "Essentials of Management: An International, Innovation, and Leadership Perspective",
+      "authors": "Harold Koontz, Heinz Weihrich and Mark V. Cannice",
+      "edition": "10th edition",
+      "publisher": "McGraw-Hill",
+      "year": 2016
+    },
+    "itil": {
+      "title": "ITIL Foundation, ITIL 4 Edition",
+      "authors": "AXELOS",
+      "edition": "ITIL 4",
+      "publisher": "TSO",
+      "year": 2019
+    }
+  },
+  "topics": {
+    "computer-centre-management-and-planning": [
+      {
+        "book": "itil",
+        "read": "Chapters on service management concepts and the ITIL practices (service desk, service level management, information security, continuity)",
+        "why": "Standard practice for running IT services, matching the course note's aspects of computer centre management."
+      }
+    ],
+    "management-concepts-and-roles": [
+      {
+        "book": "koontz",
+        "read": "Part 1: The Basis of Global Management Theory and Practice",
+        "why": "Koontz and O'Donnell's definition of management is quoted in the lectures; this covers functions, roles and skills."
+      }
+    ],
+    "management-theories": [
+      {
+        "book": "koontz",
+        "read": "Part 1, the evolution of management thought (Taylor, Fayol, Weber, Mayo)",
+        "why": "The classical and human-relations theories in Lecture 2."
+      }
+    ],
+    "planning-and-objectives": [
+      {
+        "book": "koontz",
+        "read": "Part 2: Planning (essentials of planning, MBO, strategies, decision making)",
+        "why": "The planning process, types of plans and MBO, as in Lecture 3."
+      }
+    ],
+    "organizing-and-staffing": [
+      {
+        "book": "koontz",
+        "read": "Parts 3 and 4: Organizing; Staffing",
+        "why": "Departmentation, authority, delegation, span of control, and selection, appraisal and training."
+      }
+    ],
+    "leadership-motivation-and-communication": [
+      {
+        "book": "koontz",
+        "read": "Part 5: Leading (motivation, leadership, communication)",
+        "why": "Maslow, Herzberg, Vroom and Adams, leadership styles and communication."
+      }
+    ],
+    "it-projects-and-data-centre-security": [
+      {
+        "book": "itil",
+        "read": "Practices: project management, service level management, information security management",
+        "why": "SLAs, project control and security practice for a data centre."
+      }
+    ]
+  }
+}

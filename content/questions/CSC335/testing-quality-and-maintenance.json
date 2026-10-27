@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Testing by a separate team of a complete version before it is released is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Release testing"
+      },
+      {
+        "key": "b",
+        "text": "Development testing"
+      },
+      {
+        "key": "c",
+        "text": "Unit testing"
+      },
+      {
+        "key": "d",
+        "text": "Alpha testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "User testing follows release testing.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 5a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"Are we building the right product?\" describes",
+    "options": [
+      {
+        "key": "a",
+        "text": "Validation"
+      },
+      {
+        "key": "b",
+        "text": "Verification"
+      },
+      {
+        "key": "c",
+        "text": "Debugging"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Verification asks if we are building the product right.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Beta testing gives a release to a wider group of users before final release.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Alpha testing is done with the developer.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Changing software to work with a new operating system is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Adaptive maintenance"
+      },
+      {
+        "key": "b",
+        "text": "Corrective maintenance"
+      },
+      {
+        "key": "c",
+        "text": "Perfective maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Preventive maintenance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Corrective maintenance fixes faults.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 4a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which factors affect the maintainability of software?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quality of documentation"
+      },
+      {
+        "key": "b",
+        "text": "Program modularity"
+      },
+      {
+        "key": "c",
+        "text": "Staff stability and skills"
+      },
+      {
+        "key": "d",
+        "text": "The office furniture"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Age, size and language also matter.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 4a)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the three stages of system testing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilation testing"
+      },
+      {
+        "key": "b",
+        "text": "Development testing"
+      },
+      {
+        "key": "c",
+        "text": "Release testing"
+      },
+      {
+        "key": "d",
+        "text": "User testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "User testing includes alpha, beta and acceptance tests.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 5a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "High cohesion and low coupling are principles of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quality design (modularity)"
+      },
+      {
+        "key": "b",
+        "text": "Release testing"
+      },
+      {
+        "key": "c",
+        "text": "Corrective maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Requirements elicitation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They make systems easier to understand and change.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 3a)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Lehman's laws say a system in use can stay unchanged and remain equally useful forever.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It must change continually or become less useful.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  }
+]

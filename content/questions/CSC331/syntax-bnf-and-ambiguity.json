@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In BNF, the symbol { } means",
+    "options": [
+      {
+        "key": "a",
+        "text": "Zero or more repetitions"
+      },
+      {
+        "key": "b",
+        "text": "Exactly one occurrence"
+      },
+      {
+        "key": "c",
+        "text": "Zero or one occurrence"
+      },
+      {
+        "key": "d",
+        "text": "Exclusive or"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "[ ] means zero or one occurrence.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A grammar is ambiguous if",
+    "options": [
+      {
+        "key": "a",
+        "text": "One expression has two different parse trees"
+      },
+      {
+        "key": "b",
+        "text": "It has no terminals"
+      },
+      {
+        "key": "c",
+        "text": "It uses BNF"
+      },
+      {
+        "key": "d",
+        "text": "It has a start symbol"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 − 3 − 4 can then mean 3 or −5.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "A program can be syntactically correct and yet lack meaning.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Syntax is a prerequisite of meaning, not a guarantee.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase of compilation turns program text into a stream of tokens?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lexical analysis"
+      },
+      {
+        "key": "b",
+        "text": "Syntactic analysis"
+      },
+      {
+        "key": "c",
+        "text": "Code generation"
+      },
+      {
+        "key": "d",
+        "text": "Optimisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Syntactic analysis then builds the parse tree.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are lexical categories (tokens) of a language?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identifiers"
+      },
+      {
+        "key": "b",
+        "text": "Literals"
+      },
+      {
+        "key": "c",
+        "text": "Operators"
+      },
+      {
+        "key": "d",
+        "text": "Parse trees"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Separators and keywords are the other two.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a way the book gives to handle delimiters like BEGIN and END?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Banning comments"
+      },
+      {
+        "key": "b",
+        "text": "Reserved words"
+      },
+      {
+        "key": "c",
+        "text": "Keywords flagged by delimiters"
+      },
+      {
+        "key": "d",
+        "text": "Context, as in PL/1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These are the three solutions.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dangling else problem is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Syntactic ambiguity"
+      },
+      {
+        "key": "b",
+        "text": "A type error"
+      },
+      {
+        "key": "c",
+        "text": "A memory leak"
+      },
+      {
+        "key": "d",
+        "text": "Late binding"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The ELSE can attach to either IF.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Reserved words make lexical analysis harder for the compiler.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Reserved words simplify lexical analysis.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 6"
+  }
+]

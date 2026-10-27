@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The pumping lemma is used to show that a language",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is not regular"
+      },
+      {
+        "key": "b",
+        "text": "Is regular"
+      },
+      {
+        "key": "c",
+        "text": "Is finite"
+      },
+      {
+        "key": "d",
+        "text": "Is ambiguous"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a necessary condition only.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the pumping lemma for regular languages, which condition holds?",
+    "options": [
+      {
+        "key": "a",
+        "text": "|v| ≥ 1"
+      },
+      {
+        "key": "b",
+        "text": "|v| = 0"
+      },
+      {
+        "key": "c",
+        "text": "|uv| > n"
+      },
+      {
+        "key": "d",
+        "text": "uv^i w ∉ L"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Also |uv| ≤ n and uv^i w ∈ L for all i ≥ 0.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Regular languages are closed under complement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They are closed under union, intersection, complement and more.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which machine recognises Type 2 (context-free) languages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pushdown automaton"
+      },
+      {
+        "key": "b",
+        "text": "Finite automaton"
+      },
+      {
+        "key": "c",
+        "text": "Turing machine"
+      },
+      {
+        "key": "d",
+        "text": "Linear bounded automaton"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Type 3 uses finite automata and Type 0 Turing machines.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which decision problems are decidable for regular languages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Membership"
+      },
+      {
+        "key": "b",
+        "text": "Emptiness"
+      },
+      {
+        "key": "c",
+        "text": "Finiteness"
+      },
+      {
+        "key": "d",
+        "text": "None of them"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Equivalence of two DFAs is also decidable.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Under which operation are context-free languages not closed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intersection"
+      },
+      {
+        "key": "b",
+        "text": "Union"
+      },
+      {
+        "key": "c",
+        "text": "Concatenation"
+      },
+      {
+        "key": "d",
+        "text": "Kleene star"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CFLs are not closed under intersection or complement.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 8 and 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language does the book prove is not regular?",
+    "options": [
+      {
+        "key": "a",
+        "text": "{a^i b^i | i ≥ 0}"
+      },
+      {
+        "key": "b",
+        "text": "{a}*"
+      },
+      {
+        "key": "c",
+        "text": "{ab}"
+      },
+      {
+        "key": "d",
+        "text": "∅"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Pumping adds a's without adding b's.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "A language that satisfies the pumping lemma must be regular.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Satisfying it is necessary but not sufficient.",
+    "source": "general knowledge, following the undated CSC 351 paper"
+  }
+]

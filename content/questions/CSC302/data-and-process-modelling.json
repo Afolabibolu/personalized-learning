@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which DFD diagram shows the whole system as a single process with its external entities?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Context diagram"
+      },
+      {
+        "key": "b",
+        "text": "Level 0 diagram"
+      },
+      {
+        "key": "c",
+        "text": "Level 2 diagram"
+      },
+      {
+        "key": "d",
+        "text": "ER diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its single process is numbered 0.",
+    "source": "general knowledge, following the CSC 302 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A process with inputs but no outputs is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Black hole"
+      },
+      {
+        "key": "b",
+        "text": "Gray hole"
+      },
+      {
+        "key": "c",
+        "text": "Spontaneous generation"
+      },
+      {
+        "key": "d",
+        "text": "Data store"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Spontaneous generation has outputs but no inputs.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 paper, Question 1(e))"
+  },
+  {
+    "format": "true_false",
+    "stem": "Data can flow directly from one external entity to another in a DFD.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Data must pass through a process.",
+    "source": "general knowledge, following the CSC 302 past papers (2021/22 paper, Question 1(ii))"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Expanding a context diagram into a level 0 diagram is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decomposing (exploding) it"
+      },
+      {
+        "key": "b",
+        "text": "Normalizing it"
+      },
+      {
+        "key": "c",
+        "text": "Compiling it"
+      },
+      {
+        "key": "d",
+        "text": "Balancing it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Balancing means inputs and outputs match between levels.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 test)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are DFD symbols?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Process"
+      },
+      {
+        "key": "b",
+        "text": "Data flow"
+      },
+      {
+        "key": "c",
+        "text": "Data store"
+      },
+      {
+        "key": "d",
+        "text": "Actor stick figure"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth DFD symbol is the external entity; stick figures belong to UML.",
+    "source": "general knowledge, following the CSC 302 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a way to describe a process's logic?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "b",
+        "text": "Structured English"
+      },
+      {
+        "key": "c",
+        "text": "Decision table"
+      },
+      {
+        "key": "d",
+        "text": "Decision tree"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A Gantt chart is a scheduling tool.",
+    "source": "general knowledge, following the CSC 302 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The central store of facts about a system's data elements, flows and stores is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data dictionary"
+      },
+      {
+        "key": "b",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "c",
+        "text": "Use case"
+      },
+      {
+        "key": "d",
+        "text": "Fishbone diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called the data repository.",
+    "source": "general knowledge, following the CSC 302 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "A logical model shows what the system must do, regardless of how it is implemented.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A physical model shows how it will be built.",
+    "source": "general knowledge, following the CSC 302 past papers"
+  }
+]

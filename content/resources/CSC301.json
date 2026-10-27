@@ -1,0 +1,103 @@
+{
+  "code": "CSC 301",
+  "topics": {
+    "computer-centre-management-and-planning": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: How Data Centers Actually Work (MEP Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cTwvUqLNQrM",
+        "source": "links.csv"
+      }
+    ],
+    "management-concepts-and-roles": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Four Functions of Management Planning, Organizing, Leading Controlling Video Lesson and Example   Yo (Rizwan Shaikh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KBfp4pzBIm8",
+        "source": "links.csv"
+      }
+    ],
+    "management-theories": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Classical Management Theory (Organizational Communication Channel)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=d1jOwD-CTLI",
+        "source": "links.csv"
+      }
+    ],
+    "planning-and-objectives": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: MBO | What is Management By Objective? | Advantages & Disadvantages of MBO #mbo (Educationleaves)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K57rvR2nGu0",
+        "source": "links.csv"
+      }
+    ],
+    "organizing-and-staffing": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Span of Control Explained (EPM)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-RIF5G9y3Y4",
+        "source": "links.csv"
+      }
+    ],
+    "leadership-motivation-and-communication": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Maslow's Hierarchy of Needs (Sprouts)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O-4ithG_07Q",
+        "source": "links.csv"
+      }
+    ],
+    "it-projects-and-data-centre-security": [
+      {
+        "title": "Computer Centre Management lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hPlxuQ1XGdxlwSl_vnWcsWG2gx-3kl6t",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Cloud Computing Services Models - IaaS PaaS SaaS Explained (Ecourse Review)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=36zducUX16w",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

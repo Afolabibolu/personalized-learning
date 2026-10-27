@@ -1,0 +1,145 @@
+{
+  "code": "CSC 322",
+  "topics": {
+    "data-communication-fundamentals": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Simplex, Half-Duplex and Full-Duplex Communication | Transmission Modes in Communication System (ALL ABOUT ELECTRONICS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RzAXEQ4XsSI",
+        "source": "links.csv"
+      }
+    ],
+    "transmission-media": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: CN 5 : Transmission Media | Guided & Unguided Media with Examples (CS & IT Tutorials by Vrushali 👩‍🎓)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HryzQDpKvwA",
+        "source": "links.csv"
+      }
+    ],
+    "networks-and-internetworking": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Classification of Computer Networks (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9BIN99rHOCQ",
+        "source": "links.csv"
+      }
+    ],
+    "osi-and-tcp-ip-models": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: OSI and TCP IP Models - Best Explanation (_Drunk Engineer_)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3b_TAYtzuho",
+        "source": "links.csv"
+      }
+    ],
+    "switching": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Circuit Switching vs Packet Switching (PowerCert Animated Videos)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=G7n8thqwO2c",
+        "source": "links.csv"
+      }
+    ],
+    "routing": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Distance Vector Algorithm (Bellman Ford) - Computerphile (Computerphile)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NdKcjKfJocE",
+        "source": "links.csv"
+      }
+    ],
+    "network-layer-protocols-and-ip-addressing": [
+      {
+        "title": "Principles of Data Communication lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1frGatJEMnF4re37wgUZ2r3sgzwZHs_R9",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: CN 18 : Network Layers Protocols | IP | ARP | ICMP | IGMP (CS & IT Tutorials by Vrushali 👩‍🎓)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=iZoqFJKAuPE",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

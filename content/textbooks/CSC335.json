@@ -1,0 +1,70 @@
+{
+  "code": "CSC 335",
+  "books": {
+    "sommerville": {
+      "title": "Software Engineering",
+      "authors": "Ian Sommerville",
+      "edition": "10th edition",
+      "publisher": "Pearson",
+      "year": 2016
+    },
+    "pfleeger": {
+      "title": "Software Engineering: Theory and Practice",
+      "authors": "Shari Lawrence Pfleeger and Joanne M. Atlee",
+      "edition": "4th edition",
+      "publisher": "Pearson",
+      "year": 2010
+    }
+  },
+  "topics": {
+    "software-process-and-life-cycle": [
+      {
+        "book": "pfleeger",
+        "read": "Chapter 2: Modeling the Process and Life Cycle",
+        "why": "The lecture's meaning of process, its characteristics and the reasons for modelling follow this chapter."
+      }
+    ],
+    "waterfall-and-v-models": [
+      {
+        "book": "pfleeger",
+        "read": "Chapter 2, Section 2.2: Software Process Models (waterfall, V model, prototyping)",
+        "why": "The waterfall, waterfall-with-prototype and V models as in the lecture."
+      }
+    ],
+    "prototyping-phased-and-spiral-models": [
+      {
+        "book": "pfleeger",
+        "read": "Chapter 2, Section 2.2 (phased development, spiral model)",
+        "why": "Increments and iterations, production and development systems, and Boehm's spiral."
+      }
+    ],
+    "agile-rad-and-choosing-a-process": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 3: Agile Software Development",
+        "why": "The agile manifesto, agile practices and when to use plan-driven or agile approaches."
+      }
+    ],
+    "requirements-and-modelling-notations": [
+      {
+        "book": "sommerville",
+        "read": "Chapters 4 and 5: Requirements Engineering; System Modeling",
+        "why": "Functional and non-functional requirements, use case, sequence, class and state diagrams."
+      }
+    ],
+    "dependability-and-formal-methods": [
+      {
+        "book": "sommerville",
+        "read": "Chapters 10 and 12: Dependable Systems; Safety Engineering (formal methods)",
+        "why": "Critical systems, the dimensions of dependability and the role of formal methods."
+      }
+    ],
+    "testing-quality-and-maintenance": [
+      {
+        "book": "sommerville",
+        "read": "Chapters 8, 9 and 24: Software Testing; Software Evolution; Quality Management",
+        "why": "Development, release and user testing, maintenance and Lehman's laws, and quality assurance."
+      }
+    ]
+  }
+}

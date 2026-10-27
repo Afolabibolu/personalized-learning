@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which part of the CPU is called its heart?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Control unit"
+      },
+      {
+        "key": "b",
+        "text": "ALU"
+      },
+      {
+        "key": "c",
+        "text": "Cache"
+      },
+      {
+        "key": "d",
+        "text": "Bus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It holds the PC, IR, and timing and control logic.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A control unit that stores control words in a control memory is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Microprogrammed"
+      },
+      {
+        "key": "b",
+        "text": "Hardwired"
+      },
+      {
+        "key": "c",
+        "text": "Pipelined"
+      },
+      {
+        "key": "d",
+        "text": "Superscalar"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Hardwired control uses gates and decoders.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "The basic component of an ALU's arithmetic circuit is a parallel adder built from full adders.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Multiplexers select the operation.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which addressing mode is the operand itself part of the instruction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Immediate"
+      },
+      {
+        "key": "b",
+        "text": "Direct"
+      },
+      {
+        "key": "c",
+        "text": "Indirect"
+      },
+      {
+        "key": "d",
+        "text": "Indexed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used to initialise registers.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are inputs to the control unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clock"
+      },
+      {
+        "key": "b",
+        "text": "Instruction register"
+      },
+      {
+        "key": "c",
+        "text": "Flags"
+      },
+      {
+        "key": "d",
+        "text": "Hard disk"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Control signals from the control bus are the fourth input.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a CPU organization?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cache organization"
+      },
+      {
+        "key": "b",
+        "text": "Single accumulator"
+      },
+      {
+        "key": "c",
+        "text": "General register"
+      },
+      {
+        "key": "d",
+        "text": "Stack"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These are the three types of CPU organization.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Zero-address instructions are used in which organization?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stack"
+      },
+      {
+        "key": "b",
+        "text": "Single accumulator"
+      },
+      {
+        "key": "c",
+        "text": "General register"
+      },
+      {
+        "key": "d",
+        "text": "Harvard"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Operands are taken from the top of the stack.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "In indirect addressing, the address field holds the operand itself.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It holds the address of the operand's address.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 7"
+  }
+]

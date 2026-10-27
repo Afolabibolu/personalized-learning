@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Monitoring and planning for the growth of computing resources to handle increasing workloads is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Capacity planning"
+      },
+      {
+        "key": "b",
+        "text": "Compliance planning"
+      },
+      {
+        "key": "c",
+        "text": "Facility management"
+      },
+      {
+        "key": "d",
+        "text": "Help desk services"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is part of infrastructure planning.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which aspect of computer centre management covers access control, surveillance and temperature control?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Facility management"
+      },
+      {
+        "key": "b",
+        "text": "Network management"
+      },
+      {
+        "key": "c",
+        "text": "Budgeting"
+      },
+      {
+        "key": "d",
+        "text": "Service desk"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also covers power and cooling.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Disaster recovery planning starts by identifying the systems and data critical to the organization.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Then backup, recovery and continuity plans are made.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 2.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A central point of contact where users report issues and get help is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Help desk"
+      },
+      {
+        "key": "b",
+        "text": "Data centre"
+      },
+      {
+        "key": "c",
+        "text": "Firewall"
+      },
+      {
+        "key": "d",
+        "text": "Router"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is part of service desk and user support.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are aspects of computer centre management in the course note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Network management"
+      },
+      {
+        "key": "b",
+        "text": "System administration"
+      },
+      {
+        "key": "c",
+        "text": "Budgeting and financial management"
+      },
+      {
+        "key": "d",
+        "text": "Product advertising"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Infrastructure, facility, security, resource and support management are the others.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the ten areas of planning in the note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Marketing campaigns"
+      },
+      {
+        "key": "b",
+        "text": "Security planning"
+      },
+      {
+        "key": "c",
+        "text": "Compliance planning"
+      },
+      {
+        "key": "d",
+        "text": "Communication planning"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The ten include strategic, infrastructure, disaster recovery and training planning.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 2.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Ensuring the centre keeps abreast of industry regulations and standards is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compliance planning"
+      },
+      {
+        "key": "b",
+        "text": "Capacity planning"
+      },
+      {
+        "key": "c",
+        "text": "Task scheduling"
+      },
+      {
+        "key": "d",
+        "text": "Network design"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It plans measures to comply with them.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 2.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Planning in computer centre management is done once and never revised.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It needs regular review and revision with feedback.",
+    "source": "CSC301 Lecture Note.pdf (Computer Centre Management lecture note, I. T. Ayorinde), Section 2.1"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Why is a thread called a lightweight process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It has its own stack but shares the process's code and data"
+      },
+      {
+        "key": "b",
+        "text": "It has no program counter"
+      },
+      {
+        "key": "c",
+        "text": "It runs only on GPUs"
+      },
+      {
+        "key": "d",
+        "text": "It cannot be scheduled"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has its own program counter, registers and stack.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which model can one blocking system call block the whole process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Many-to-one"
+      },
+      {
+        "key": "b",
+        "text": "One-to-one"
+      },
+      {
+        "key": "c",
+        "text": "Many-to-many"
+      },
+      {
+        "key": "d",
+        "text": "Two-tier"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "All its user threads share one kernel thread.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Threads of the same process share code, data and open files.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each keeps its own program counter, registers and stack.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Linux and Windows 95 to XP use which threading model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "One-to-one"
+      },
+      {
+        "key": "b",
+        "text": "Many-to-one"
+      },
+      {
+        "key": "c",
+        "text": "Many-to-many"
+      },
+      {
+        "key": "d",
+        "text": "Two-tier"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each user thread gets its own kernel thread.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are benefits of multithreading listed in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Responsiveness"
+      },
+      {
+        "key": "b",
+        "text": "Economy"
+      },
+      {
+        "key": "c",
+        "text": "Scalability"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed freedom from deadlock"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth benefit is resource sharing.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a thread library named in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SQL threads"
+      },
+      {
+        "key": "b",
+        "text": "POSIX Pthreads"
+      },
+      {
+        "key": "c",
+        "text": "Win32 threads"
+      },
+      {
+        "key": "d",
+        "text": "Java threads"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three are Pthreads, Win32 and Java threads.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "On a single-core chip, the threads of a multithreaded application are",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interleaved (concurrent)"
+      },
+      {
+        "key": "b",
+        "text": "Run in true parallel"
+      },
+      {
+        "key": "c",
+        "text": "Run one after the other only after each finishes"
+      },
+      {
+        "key": "d",
+        "text": "Never scheduled"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A multi-core chip allows true parallelism.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the many-to-many model, users are limited to one thread per process.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Users have no restriction on the number of threads.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 7"
+  }
+]

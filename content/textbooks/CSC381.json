@@ -1,0 +1,70 @@
+{
+  "code": "CSC 381",
+  "books": {
+    "hearn": {
+      "title": "Computer Graphics with OpenGL",
+      "authors": "Donald Hearn, M. Pauline Baker and Warren R. Carithers",
+      "edition": "4th edition",
+      "publisher": "Pearson",
+      "year": 2014
+    },
+    "deberg": {
+      "title": "Computational Geometry: Algorithms and Applications",
+      "authors": "Mark de Berg, Otfried Cheong, Marc van Kreveld and Mark Overmars",
+      "edition": "3rd edition",
+      "publisher": "Springer",
+      "year": 2008
+    }
+  },
+  "topics": {
+    "introduction-and-applications": [
+      {
+        "book": "hearn",
+        "read": "Chapter 1: Computer Graphics Applications",
+        "why": "A survey of graphics applications, from CAD to simulation and visualisation."
+      }
+    ],
+    "graphics-hardware-and-software": [
+      {
+        "book": "hearn",
+        "read": "Chapter 2: Computer Graphics Hardware; Chapter 3: Computer Graphics Software",
+        "why": "Displays, frame buffers, GPUs and graphics APIs."
+      }
+    ],
+    "output-primitives-and-line-drawing": [
+      {
+        "book": "hearn",
+        "read": "Chapters 4 and 6: Graphics Output Primitives; Implementation Algorithms for Graphics Primitives",
+        "why": "DDA, Bresenham's line algorithm, the midpoint circle algorithm and antialiasing."
+      }
+    ],
+    "polygons-and-filling": [
+      {
+        "book": "hearn",
+        "read": "Chapter 4 (polygon fill areas) and Chapter 8: Two-Dimensional Viewing (clipping)",
+        "why": "Polygon types, inside-outside tests, fill algorithms and clipping."
+      }
+    ],
+    "geometric-transformations": [
+      {
+        "book": "hearn",
+        "read": "Chapters 7 and 9: Two-Dimensional and Three-Dimensional Geometric Transformations",
+        "why": "Translation, rotation, scaling, homogeneous coordinates and composite transformations."
+      }
+    ],
+    "3d-modelling-and-rendering": [
+      {
+        "book": "hearn",
+        "read": "Chapters 10–18 (viewing, visible-surface detection, illumination and surface rendering)",
+        "why": "Projection, the z-buffer, Phong and Gouraud shading and texture mapping."
+      }
+    ],
+    "computational-geometry": [
+      {
+        "book": "deberg",
+        "read": "Chapters 1, 2, 7, 9 and 13: Convex Hulls; Line Segment Intersection; Voronoi Diagrams; Delaunay Triangulations; Robot Motion Planning",
+        "why": "The standard text on computational geometry, including robot motion planning."
+      }
+    ]
+  }
+}

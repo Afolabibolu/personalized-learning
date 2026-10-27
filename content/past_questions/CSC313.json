@@ -1,0 +1,47 @@
+{
+  "code": "CSC 313",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "BSc Degree Examination (Second Semester, 2020/2021), CSC 313 (Computer Architecture and organization). Answer any three questions; 2 hours",
+      "source": "Past Questions/CSC 313 (2020_2021) (1).pdf (scanned); the expression for Question 3b, missing on that copy, is taken from Csc 313 Test part 2.pdf, a second copy of Question 3"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "marks": 20,
+      "topic": "computer-evolution-and-performance",
+      "text": "1a. Define the following terms with respect to performance measurement of a digital computer system architecture a. Million Instructions-Per-Second (MIPS), b. Clock per Instruction (CPI) c. Central processing units time (CPU time) (3 marks)\n1b. The performance measurement in table 1 were recorded for different computing machine architectures A,B and C while executing a set of benchmark programs Assuming the clock rate were 400MHz and the number of instructions executed is 100.\n\nTable 1\n\n| Machine A: instruction category | % of occurrence | No of cycles/ins | Machine B: instruction category | % of occurrence | No of cycles/ins | Machine C: instruction category | % of occurrence | No of cycles/ins |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| ALU | 38 | 1 | ALU | 35 | 1 | ALU | 39 | 1 |\n| LOAD | 15 | 3 | LOAD | 30 | 2 | LOAD | 16 | 3 |\n| BRANCH | 42 | 4 | BRANCH | 15 | 3 | BRANCH | 15 | 4 |\n| OTHERS | 5 | 5 | OTHERS | 20 | 5 | OTHERS | 30 | 2 |\n\ni. Compute the overall CPI for the systems (4.5marks) ii. The MIPS rating for the systems (4 marks) iii. The CPU time (4.5marks) iv. State why MIPS rating alone can give accurate performance (1 marks) v. Compare the performances of the Machines (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "marks": 20,
+      "topic": "pipelining",
+      "text": "2a. Define Parallelism as relates to performance and speed of RICS architecture. (1 mark)\n2b. What is pipelining in computer architecture and explain types of Pipeline Hazards (7 marks)\n2c. Five instructions code below was executed on computing machine. In a tabular form determine the data dependency of the instruction\nI1: ADD: R3 ← R1, R2\nI2: SUB : R4 ← R3, R1\nI3: ADD : R5 ← R1, R3\nI4: MUL : R6 ← R3, R4\nI5: ADD : R7 ← R2, R3 [the last register is partly unclear on the copy]\nAssuming a standard 5-stage MIPS pipeline instruction cycle (IF, ID, EX, MEM, WB) (2.5 marks)\n2d. Using the instructions code in question 2c, assume a standard 5-stage MIPS pipeline class (IF, ID, EX, MEM, WB). Schedule pipeline for execution of the above instructions correctly in tabular form indicating the 14 cycles (time) on the horizontal axis and 5 instructions on vertical axis and label all stalls with asterisks *. Present your scheduling in without forwarding and with forwarding format. (9.5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "marks": 20,
+      "topic": "cpu-alu-and-addressing-modes",
+      "text": "3a. With the aid of a labelled diagram design a 4bits ALU that can perform ADDITION, AND, OR and XOR in a computer architecture (9 marks)\n3b. Execute the programme below with assembly language notation X = (S+T)*(K+L) using the following types of address instructions i. Three address instruction (2 marks) ii. Two address instruction (3 marks) iii. One address instruction (3 marks) iv. Zero address instruction (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "marks": 20,
+      "topic": "risc-cisc-and-parallelism",
+      "text": "4a. Explain in details the term computer Organization. (4 marks)\n4b.(i) With a suitable diagram, describe the components of the Von Neumann and Harvard computer architecture (10 marks)\nb. (ii) Compare the characteristic differences between RISC and CISC (4 marks)\n(iii) State the types of Computer Architecture (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "marks": 20,
+      "topic": "memory-hierarchy-and-cache",
+      "text": "5a State and explain Flynn's model of parallelism in computer architecture (8 marks)\n5b State four characteristics of memory hierarchy (2 marks)\n5c Describe any two purposes of using Register in a computer system (4 marks)\n5d. State any four register type and explain any two (6 marks)"
+    }
+  ]
+}

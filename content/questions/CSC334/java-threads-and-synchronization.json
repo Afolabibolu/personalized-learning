@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A new Java thread stays in the new state until",
+    "options": [
+      {
+        "key": "a",
+        "text": "The program starts it"
+      },
+      {
+        "key": "b",
+        "text": "It finishes"
+      },
+      {
+        "key": "c",
+        "text": "It acquires a lock"
+      },
+      {
+        "key": "d",
+        "text": "Another thread signals it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Starting it places it in the runnable state.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is Java's NORM_PRIORITY?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "10"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Priorities range from MIN_PRIORITY 1 to MAX_PRIORITY 10.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "A fair ReentrantLock gives the lock to the longest-waiting thread.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It avoids indefinite postponement but can reduce efficiency.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Calling await or signal without holding the lock throws",
+    "options": [
+      {
+        "key": "a",
+        "text": "IllegalMonitorStateException"
+      },
+      {
+        "key": "b",
+        "text": "BindException"
+      },
+      {
+        "key": "c",
+        "text": "InterruptedException"
+      },
+      {
+        "key": "d",
+        "text": "NullPointerException"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The thread must acquire the condition's lock first.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are good practices with Java locks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Call unlock in a finally block"
+      },
+      {
+        "key": "b",
+        "text": "Call await in a loop that tests the condition"
+      },
+      {
+        "key": "c",
+        "text": "Remember to signal waiting threads"
+      },
+      {
+        "key": "d",
+        "text": "Never release the lock"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Never releasing a lock leads to deadlock.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a Java thread state in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compiled"
+      },
+      {
+        "key": "b",
+        "text": "New"
+      },
+      {
+        "key": "c",
+        "text": "Timed waiting"
+      },
+      {
+        "key": "d",
+        "text": "Terminated"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Runnable and waiting are the other states.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which interface declares the single method run?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Runnable"
+      },
+      {
+        "key": "b",
+        "text": "Executor"
+      },
+      {
+        "key": "c",
+        "text": "Lock"
+      },
+      {
+        "key": "d",
+        "text": "Condition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Executor declares execute.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "Without synchronization, a producer/consumer program always consumes each value exactly once.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Values can be lost or read twice; synchronization fixes this.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 11"
+  }
+]

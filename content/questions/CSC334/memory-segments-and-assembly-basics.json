@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Uninitialised global and static variables are stored in the",
+    "options": [
+      {
+        "key": "a",
+        "text": ".bss segment"
+      },
+      {
+        "key": "b",
+        "text": "Text segment"
+      },
+      {
+        "key": "c",
+        "text": "Heap"
+      },
+      {
+        "key": "d",
+        "text": "Stack only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The .bss segment is zero-filled.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which NASM section holds the actual code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "section .text"
+      },
+      {
+        "key": "b",
+        "text": "section .data"
+      },
+      {
+        "key": "c",
+        "text": "section .bss"
+      },
+      {
+        "key": "d",
+        "text": "section .stack"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It must begin with global _start.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Assembly language requires less memory and execution time than most high-level code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is one of its advantages.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To make a Linux system call in assembly, the call number is placed in",
+    "options": [
+      {
+        "key": "a",
+        "text": "EAX"
+      },
+      {
+        "key": "b",
+        "text": "EBX"
+      },
+      {
+        "key": "c",
+        "text": "ECX"
+      },
+      {
+        "key": "d",
+        "text": "ESP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Arguments go in EBX, ECX, EDX, ESI, EDI and EBP; then int 80h.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are ways the four 32-bit data registers can be used?",
+    "options": [
+      {
+        "key": "a",
+        "text": "As 32-bit registers (EAX…)"
+      },
+      {
+        "key": "b",
+        "text": "As 16-bit registers (AX…)"
+      },
+      {
+        "key": "c",
+        "text": "As 8-bit halves (AH, AL…)"
+      },
+      {
+        "key": "d",
+        "text": "As 128-bit registers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three ways.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a type of assembly language statement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Comments"
+      },
+      {
+        "key": "b",
+        "text": "Executable instructions"
+      },
+      {
+        "key": "c",
+        "text": "Assembler directives"
+      },
+      {
+        "key": "d",
+        "text": "Macros"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Comments begin with a semicolon but are not one of the three statement types.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Binary 1000 1100 1101 0001 is which hexadecimal number?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8CD1"
+      },
+      {
+        "key": "b",
+        "text": "8DC1"
+      },
+      {
+        "key": "c",
+        "text": "9CD1"
+      },
+      {
+        "key": "d",
+        "text": "8CD0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each group of four bits gives one hex digit.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "The heap and stack segment sizes are fixed as soon as compilation is complete.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The text and data sizes are fixed; the stack and heap grow at run time.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 3"
+  }
+]

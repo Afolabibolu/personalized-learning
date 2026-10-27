@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A process is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A program in execution"
+      },
+      {
+        "key": "b",
+        "text": "A file on disk"
+      },
+      {
+        "key": "c",
+        "text": "A device driver"
+      },
+      {
+        "key": "d",
+        "text": "A memory partition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A job becomes a process when it takes hold of the processor.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A process enters the running state only from the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ready state"
+      },
+      {
+        "key": "b",
+        "text": "Blocked state"
+      },
+      {
+        "key": "c",
+        "text": "Suspended state"
+      },
+      {
+        "key": "d",
+        "text": "Terminated state"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Processes enter the system in the ready state.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every process has its own process control block.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The PCB holds the information needed to manage it.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Saving one process's state in its PCB and loading another's is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "A context switch"
+      },
+      {
+        "key": "b",
+        "text": "Compaction"
+      },
+      {
+        "key": "c",
+        "text": "Spooling"
+      },
+      {
+        "key": "d",
+        "text": "Aging"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Preemptive algorithms context switch often.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are contents of a PCB?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Process identification"
+      },
+      {
+        "key": "b",
+        "text": "Process status"
+      },
+      {
+        "key": "c",
+        "text": "Register contents"
+      },
+      {
+        "key": "d",
+        "text": "The user's password"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also holds memory address, resources, priority and accounting information.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a level of process scheduling?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Instant-term scheduling"
+      },
+      {
+        "key": "b",
+        "text": "Long-term"
+      },
+      {
+        "key": "c",
+        "text": "Medium-term"
+      },
+      {
+        "key": "d",
+        "text": "Short-term"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three are long-, medium- and short-term.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which scheduler controls the degree of multiprogramming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Long-term scheduler"
+      },
+      {
+        "key": "b",
+        "text": "Short-term scheduler"
+      },
+      {
+        "key": "c",
+        "text": "Dispatcher"
+      },
+      {
+        "key": "d",
+        "text": "Interrupt handler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It decides which jobs are admitted.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "The medium-term scheduler chooses which ready process runs next.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is the short-term scheduler (dispatcher); the medium-term scheduler handles swapping.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 6"
+  }
+]

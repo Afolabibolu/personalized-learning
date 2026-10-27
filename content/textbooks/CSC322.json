@@ -1,0 +1,75 @@
+{
+  "code": "CSC 322",
+  "books": {
+    "forouzan": {
+      "title": "Data Communications and Networking",
+      "authors": "Behrouz A. Forouzan",
+      "edition": "5th edition",
+      "publisher": "McGraw-Hill",
+      "year": 2013
+    },
+    "tanenbaum": {
+      "title": "Computer Networks",
+      "authors": "Andrew S. Tanenbaum and David J. Wetherall",
+      "edition": "5th edition",
+      "publisher": "Pearson",
+      "year": 2011
+    }
+  },
+  "topics": {
+    "data-communication-fundamentals": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 1: Introduction (data communications, networks, protocols)",
+        "why": "The five components, data flow modes and network criteria the papers ask about."
+      }
+    ],
+    "transmission-media": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 7: Transmission Media; Chapter 3: Introduction to Physical Layer (transmission impairment)",
+        "why": "Guided and unguided media, fibre propagation modes, and attenuation, distortion and noise."
+      }
+    ],
+    "networks-and-internetworking": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 1: Introduction (network types and physical topologies)",
+        "why": "LAN, MAN, WAN and the bus, ring, star and mesh topologies."
+      }
+    ],
+    "osi-and-tcp-ip-models": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 2: Network Models; Chapter 10: Error Detection and Correction",
+        "why": "The OSI and TCP/IP layers, parity and CRC."
+      },
+      {
+        "book": "tanenbaum",
+        "read": "Chapter 1, Section 1.4: Reference Models",
+        "why": "OSI compared with TCP/IP, as the 2021/22 paper asks."
+      }
+    ],
+    "switching": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 8: Switching",
+        "why": "Circuit switching, datagram networks and virtual-circuit setup with VCIs."
+      }
+    ],
+    "routing": [
+      {
+        "book": "forouzan",
+        "read": "Chapter 20: Unicast Routing",
+        "why": "Distance-vector and link-state routing with Dijkstra's algorithm."
+      }
+    ],
+    "network-layer-protocols-and-ip-addressing": [
+      {
+        "book": "forouzan",
+        "read": "Chapters 18 and 19: Introduction to Network Layer; Network-Layer Protocols",
+        "why": "IPv4 addressing, the datagram and fragmentation, ARP, ICMP and IGMP."
+      }
+    ]
+  }
+}

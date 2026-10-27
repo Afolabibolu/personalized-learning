@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An NFA accepts a string if",
+    "options": [
+      {
+        "key": "a",
+        "text": "At least one branch of the computation ends in an accept state"
+      },
+      {
+        "key": "b",
+        "text": "Every branch ends in an accept state"
+      },
+      {
+        "key": "c",
+        "text": "No branch dies"
+      },
+      {
+        "key": "d",
+        "text": "The last symbol is 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Branches that die or reject do not matter.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The ε-closure of a state is",
+    "options": [
+      {
+        "key": "a",
+        "text": "The set of states reachable from it by ε-transitions alone, including itself"
+      },
+      {
+        "key": "b",
+        "text": "The states reachable on input 0"
+      },
+      {
+        "key": "c",
+        "text": "Only the accept states"
+      },
+      {
+        "key": "d",
+        "text": "The empty set"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the first step in converting an ε-NFA.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5; 2021/22 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every NFA can be converted into an equivalent DFA.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The subset construction does it.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the subset construction, a DFA state is final if",
+    "options": [
+      {
+        "key": "a",
+        "text": "It contains any final state of the NFA"
+      },
+      {
+        "key": "b",
+        "text": "It contains every NFA state"
+      },
+      {
+        "key": "c",
+        "text": "It is the start state"
+      },
+      {
+        "key": "d",
+        "text": "It has no transitions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Step 6 of the algorithm.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of an NFA?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A state may have zero, one or many arrows for a symbol"
+      },
+      {
+        "key": "b",
+        "text": "Arrows may be labelled ε"
+      },
+      {
+        "key": "c",
+        "text": "Its δ gives a set of next states"
+      },
+      {
+        "key": "d",
+        "text": "It accepts languages that no DFA can accept"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "NFAs and DFAs accept the same (regular) languages.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which machine does not accept exactly the regular languages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pushdown automaton"
+      },
+      {
+        "key": "b",
+        "text": "DFA"
+      },
+      {
+        "key": "c",
+        "text": "NFA"
+      },
+      {
+        "key": "d",
+        "text": "ε-NFA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A PDA accepts the context-free languages.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5 and 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The book's example NFA R1 accepts all strings that contain",
+    "options": [
+      {
+        "key": "a",
+        "text": "101 or 11 as a substring"
+      },
+      {
+        "key": "b",
+        "text": "Only 0s"
+      },
+      {
+        "key": "c",
+        "text": "An even number of 1s"
+      },
+      {
+        "key": "d",
+        "text": "No 1s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Found by experimenting with its runs.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "An NFA is always larger than its equivalent DFA.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An NFA may be much smaller than its deterministic counterpart.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  }
+]

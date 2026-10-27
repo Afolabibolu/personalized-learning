@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Inorder traversal visits nodes in the order",
+    "options": [
+      {
+        "key": "a",
+        "text": "Left, root, right"
+      },
+      {
+        "key": "b",
+        "text": "Root, left, right"
+      },
+      {
+        "key": "c",
+        "text": "Left, right, root"
+      },
+      {
+        "key": "d",
+        "text": "Right, root, left"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Preorder is root, left, right; postorder is left, right, root.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A node with no children is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Leaf"
+      },
+      {
+        "key": "b",
+        "text": "Root"
+      },
+      {
+        "key": "c",
+        "text": "Parent"
+      },
+      {
+        "key": "d",
+        "text": "Sibling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Nodes with the same parent are siblings.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Inorder traversal of a binary search tree lists its keys in sorted order.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Smaller keys are always on the left.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When deleting a BST node with two non-empty subtrees, it is replaced by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its inorder successor or predecessor"
+      },
+      {
+        "key": "b",
+        "text": "Its left child always"
+      },
+      {
+        "key": "c",
+        "text": "The root"
+      },
+      {
+        "key": "d",
+        "text": "A new leaf"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The successor is the smallest key in the right subtree.",
+    "source": "general knowledge, following the CSC 341 past papers (2021/22 and 2022/23 papers)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In an AVL tree, the heights of a node's two subtrees differ by at most",
+    "options": [
+      {
+        "key": "a",
+        "text": "One"
+      },
+      {
+        "key": "b",
+        "text": "Two"
+      },
+      {
+        "key": "c",
+        "text": "Zero"
+      },
+      {
+        "key": "d",
+        "text": "The tree's height"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Rotations restore balance after an insertion.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a red-black tree?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The root is black"
+      },
+      {
+        "key": "b",
+        "text": "A red node has no red child"
+      },
+      {
+        "key": "c",
+        "text": "Every root-to-leaf path has the same number of black nodes"
+      },
+      {
+        "key": "d",
+        "text": "Every node is red"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These rules keep the tree roughly balanced.",
+    "source": "general knowledge, following the CSC 341 past papers (2020/21 paper)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a traversal of a binary tree?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Crossorder"
+      },
+      {
+        "key": "b",
+        "text": "Preorder"
+      },
+      {
+        "key": "c",
+        "text": "Inorder"
+      },
+      {
+        "key": "d",
+        "text": "Postorder"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three are preorder, inorder and postorder.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a B+ tree, records are stored in the internal nodes as well as the leaves.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "All records are in the linked leaves; internal nodes are an index.",
+    "source": "general knowledge, following the CSC 341 past papers (2021/22 paper)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which uses hardwired control and fixed-length instructions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "RISC"
+      },
+      {
+        "key": "b",
+        "text": "CISC"
+      },
+      {
+        "key": "c",
+        "text": "VAX"
+      },
+      {
+        "key": "d",
+        "text": "IBM 370"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CISC uses microprogrammed control.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Flynn's taxonomy, several processors running the same instructions on different data is",
+    "options": [
+      {
+        "key": "a",
+        "text": "SIMD"
+      },
+      {
+        "key": "b",
+        "text": "SISD"
+      },
+      {
+        "key": "c",
+        "text": "MISD"
+      },
+      {
+        "key": "d",
+        "text": "MIMD"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MIMD processors each have their own instructions.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "In RISC architecture, memory is accessed only by load and store instructions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "All other operations work within CPU registers.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If 50 percent of a program can be parallelised, the maximum speedup by Amdahl's law is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "50"
+      },
+      {
+        "key": "c",
+        "text": "Infinite"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Speedup = 1 ÷ (1 − 0.5) with unlimited processors.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of CISC?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Many addressing modes"
+      },
+      {
+        "key": "b",
+        "text": "Variable-length instructions"
+      },
+      {
+        "key": "c",
+        "text": "Microprogrammed control"
+      },
+      {
+        "key": "d",
+        "text": "Single-cycle execution of all instructions"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Single-cycle execution is a RISC feature.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of Flynn's categories?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SIDM"
+      },
+      {
+        "key": "b",
+        "text": "SISD"
+      },
+      {
+        "key": "c",
+        "text": "MISD"
+      },
+      {
+        "key": "d",
+        "text": "MIMD"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The four are SISD, SIMD, MISD and MIMD.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Examples of CISC machines given in the unit are",
+    "options": [
+      {
+        "key": "a",
+        "text": "DEC VAX and IBM 370"
+      },
+      {
+        "key": "b",
+        "text": "Berkeley RISC I and MIPS"
+      },
+      {
+        "key": "c",
+        "text": "Cray-1 and CDC 7600"
+      },
+      {
+        "key": "d",
+        "text": "ARM and SPARC"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Berkeley RISC I is a RISC CPU.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "MISD computers are the most common parallel computers in practice.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "SIMD and MIMD are the most common; MISD has few real examples.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 10"
+  }
+]

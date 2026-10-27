@@ -1,0 +1,64 @@
+{
+  "code": "CSC 302",
+  "books": {
+    "shelly": {
+      "title": "Systems Analysis and Design",
+      "authors": "Harry J. Rosenblatt (Shelly Cashman Series)",
+      "edition": "9th edition",
+      "publisher": "Course Technology, Cengage Learning",
+      "year": 2012,
+      "listed_in_course_files": true
+    }
+  },
+  "topics": {
+    "introduction-to-systems-analysis": [
+      {
+        "book": "shelly",
+        "read": "Chapter 1: Introduction to Systems Analysis and Design",
+        "why": "The recommended textbook named in the course introductory slide; the lectures follow this chapter."
+      }
+    ],
+    "business-case-and-feasibility": [
+      {
+        "book": "shelly",
+        "read": "Chapter 2: Analyzing the Business Case",
+        "why": "Strategic planning, SWOT, feasibility and the preliminary investigation."
+      }
+    ],
+    "managing-systems-projects": [
+      {
+        "book": "shelly",
+        "read": "Chapter 3: Managing Systems Projects",
+        "why": "Task estimates, Gantt and PERT/CPM charts, the critical path and risk management."
+      }
+    ],
+    "requirements-modelling-and-fact-finding": [
+      {
+        "book": "shelly",
+        "read": "Chapter 4: Requirements Modeling",
+        "why": "JAD, RAD, agile methods, the requirements checklist and fact-finding."
+      }
+    ],
+    "data-and-process-modelling": [
+      {
+        "book": "shelly",
+        "read": "Chapter 5: Data and Process Modeling",
+        "why": "DFD symbols, context and level 0 diagrams, DFD errors, the data dictionary and process descriptions."
+      }
+    ],
+    "object-modelling-and-uml": [
+      {
+        "book": "shelly",
+        "read": "Chapter 6: Object Modeling",
+        "why": "Objects, classes, use case, class, sequence, state transition and activity diagrams."
+      }
+    ],
+    "development-strategies-and-system-design": [
+      {
+        "book": "shelly",
+        "read": "Chapter 7: Development Strategies; Chapter 9: Data Design; Chapter 10: System Architecture",
+        "why": "In-house versus packages and outsourcing, ERDs and normalization, and client/server and Internet-based architecture."
+      }
+    ]
+  }
+}

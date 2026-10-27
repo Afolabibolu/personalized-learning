@@ -1,0 +1,145 @@
+{
+  "code": "CSC 351",
+  "topics": {
+    "words-and-languages": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: STRINGS and LANGUAGES - Theory of Computation (TrevTutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=afLFTsNenjE",
+        "source": "links.csv"
+      }
+    ],
+    "regular-expressions": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Regular Expression (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=upu_TeZImN0",
+        "source": "links.csv"
+      }
+    ],
+    "deterministic-finite-automata": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Deterministic Finite Automata (Example 1) (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=40i4PKpM0cI",
+        "source": "links.csv"
+      }
+    ],
+    "nondeterministic-finite-automata": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Conversion of NFA to DFA (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=--CSVsFIDng",
+        "source": "links.csv"
+      }
+    ],
+    "properties-of-regular-languages": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Pumping Lemma (For Regular Languages) (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dikEDuepOtI",
+        "source": "links.csv"
+      }
+    ],
+    "context-free-grammars": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Derivations of CFGs (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3rzTRtjUM_I",
+        "source": "links.csv"
+      }
+    ],
+    "pushdown-automata": [
+      {
+        "title": "Formal Languages and Automata Theory lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lruZfBk4up7eoFAsl7cQVGB9IRVRY-UA",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Pushdown Automata (Introduction) (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4ejIAmp_Atw",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the length of the empty word ε?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "Undefined"
+      },
+      {
+        "key": "d",
+        "text": "Infinite"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|ε| = 0, since it has no symbols.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If w1 = xxzyyx and w2 = zxxz, what is w1w2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "xxzyyxzxxz"
+      },
+      {
+        "key": "b",
+        "text": "zxxzxxzyyx"
+      },
+      {
+        "key": "c",
+        "text": "xxzyyx"
+      },
+      {
+        "key": "d",
+        "text": "xzxzyxyz"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Concatenation writes w2 after w1.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Concatenation of words is associative but usually not commutative.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "w1(w2w3) = (w1w2)w3, but w1w2 is usually not w2w1.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Over an alphabet of k symbols, how many words of length n are there?",
+    "options": [
+      {
+        "key": "a",
+        "text": "k^n"
+      },
+      {
+        "key": "b",
+        "text": "n^k"
+      },
+      {
+        "key": "c",
+        "text": "k × n"
+      },
+      {
+        "key": "d",
+        "text": "k + n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each of the n positions can hold any of the k symbols.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about Σ* and Σ+ are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ* contains ε"
+      },
+      {
+        "key": "b",
+        "text": "Σ+ = Σ* − {ε}"
+      },
+      {
+        "key": "c",
+        "text": "∅* = {ε}"
+      },
+      {
+        "key": "d",
+        "text": "Σ+ contains ε"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Σ+ is the set of non-empty words.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For L = {1, 00}, which word is in L²?",
+    "options": [
+      {
+        "key": "a",
+        "text": "100"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "000"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "L² = {11, 100, 001, 0000}.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1, Example 1.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the three tools for defining languages named in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilers"
+      },
+      {
+        "key": "b",
+        "text": "Grammars"
+      },
+      {
+        "key": "c",
+        "text": "Automata"
+      },
+      {
+        "key": "d",
+        "text": "Regular expressions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Grammars generate, automata recognise and regular expressions describe languages.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "∅+ = {ε}.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "∅* = {ε} but ∅+ = ∅.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 1"
+  }
+]

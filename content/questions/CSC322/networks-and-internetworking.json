@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which network covers a single person's workspace using Bluetooth or Zigbee?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PAN"
+      },
+      {
+        "key": "b",
+        "text": "LAN"
+      },
+      {
+        "key": "c",
+        "text": "MAN"
+      },
+      {
+        "key": "d",
+        "text": "WAN"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its range is 1 to 100 m.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which network typically covers 5 to 50 km, such as a city?",
+    "options": [
+      {
+        "key": "a",
+        "text": "MAN"
+      },
+      {
+        "key": "b",
+        "text": "PAN"
+      },
+      {
+        "key": "c",
+        "text": "CAN"
+      },
+      {
+        "key": "d",
+        "text": "LAN"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A WAN covers more than 50 km.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Internet is the most common example of a WAN.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "WANs span very large areas.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Connecting two LANs through a router, rather than a switch or hub, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Internetworking"
+      },
+      {
+        "key": "b",
+        "text": "Extending the LAN"
+      },
+      {
+        "key": "c",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "d",
+        "text": "Multiplexing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Internetworking works at Layer 3.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three units of internetworking?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intranet"
+      },
+      {
+        "key": "b",
+        "text": "Extranet"
+      },
+      {
+        "key": "c",
+        "text": "Internet"
+      },
+      {
+        "key": "d",
+        "text": "Ethernet"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Ethernet is a LAN technology.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a network topology?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Router"
+      },
+      {
+        "key": "b",
+        "text": "Bus"
+      },
+      {
+        "key": "c",
+        "text": "Star"
+      },
+      {
+        "key": "d",
+        "text": "Mesh"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A router is a device, not a topology.",
+    "source": "general knowledge, following the CSC 322 past papers (2021/22 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A MAC address is",
+    "options": [
+      {
+        "key": "a",
+        "text": "48 bits long, written as 12 hexadecimal digits"
+      },
+      {
+        "key": "b",
+        "text": "32 bits long, in dotted decimal"
+      },
+      {
+        "key": "c",
+        "text": "128 bits long"
+      },
+      {
+        "key": "d",
+        "text": "16 bits long"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The first six digits are the manufacturer's OUI.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a star topology, a failure of the central hub leaves the rest of the network working.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The hub is a single point of failure.",
+    "source": "general knowledge, following the CSC 322 past papers"
+  }
+]

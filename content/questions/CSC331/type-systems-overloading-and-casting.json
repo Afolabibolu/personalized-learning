@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A type is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A set of values and the operations on them"
+      },
+      {
+        "key": "b",
+        "text": "A memory address"
+      },
+      {
+        "key": "c",
+        "text": "A keyword"
+      },
+      {
+        "key": "d",
+        "text": "A loop"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example, int with +, −, * and /.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language is strongly and statically typed according to the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java"
+      },
+      {
+        "key": "b",
+        "text": "C"
+      },
+      {
+        "key": "c",
+        "text": "JavaScript"
+      },
+      {
+        "key": "d",
+        "text": "Assembly"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C is weak and static; JavaScript is strong and dynamic.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Java, a char takes 16 bits because Java uses Unicode.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "C uses one byte of ASCII per character.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two methods with the same name but different parameters is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Method overloading"
+      },
+      {
+        "key": "b",
+        "text": "Narrowing"
+      },
+      {
+        "key": "c",
+        "text": "Aliasing"
+      },
+      {
+        "key": "d",
+        "text": "Garbage collection"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a form of polymorphism.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Why does Java not support operator overloading?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It makes code complex"
+      },
+      {
+        "key": "b",
+        "text": "It confuses programmers"
+      },
+      {
+        "key": "c",
+        "text": "Method overloading achieves the same"
+      },
+      {
+        "key": "d",
+        "text": "It speeds up the JVM"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also keeps tools like IDEs simpler.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which C++ operator cannot be overloaded?",
+    "options": [
+      {
+        "key": "a",
+        "text": "::"
+      },
+      {
+        "key": "b",
+        "text": "+"
+      },
+      {
+        "key": "c",
+        "text": "[ ]"
+      },
+      {
+        "key": "d",
+        "text": "<<"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scope resolution (::), member selection (.) and .* cannot be overloaded.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Converting int to double automatically is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Widening"
+      },
+      {
+        "key": "b",
+        "text": "Narrowing"
+      },
+      {
+        "key": "c",
+        "text": "Casting down"
+      },
+      {
+        "key": "d",
+        "text": "Hiding"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Narrowing may lose information.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "Java silently allows a narrowing assignment from double to int without a cast.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is a compile-time error unless the programmer casts explicitly.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 10"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "code": "MAT 352",
+  "books": {
+    "hogg": {
+      "title": "Introduction to Mathematical Statistics",
+      "authors": "Robert V. Hogg, Joseph W. McKean and Allen T. Craig",
+      "edition": "8th edition",
+      "publisher": "Pearson",
+      "year": 2019
+    },
+    "ross": {
+      "title": "A First Course in Probability",
+      "authors": "Sheldon Ross",
+      "edition": "10th edition",
+      "publisher": "Pearson",
+      "year": 2019
+    }
+  },
+  "topics": {
+    "probability-foundations": [
+      {
+        "book": "ross",
+        "read": "Chapters 1 and 2: Combinatorial Analysis; Axioms of Probability",
+        "why": "Sample spaces, the axioms, inclusion-exclusion and counting with and without replacement."
+      }
+    ],
+    "conditional-probability-and-bayes": [
+      {
+        "book": "ross",
+        "read": "Chapter 3: Conditional Probability and Independence",
+        "why": "Conditional probability, pairwise and mutual independence, total probability and Bayes' formula."
+      }
+    ],
+    "random-variables-and-distributions": [
+      {
+        "book": "ross",
+        "read": "Chapters 4 and 5: Random Variables; Continuous Random Variables",
+        "why": "Pmfs, pdfs, distribution functions, expectation and variance."
+      }
+    ],
+    "generating-functions": [
+      {
+        "book": "hogg",
+        "read": "Chapter 1, Section 1.9: Some Special Expectations (moment generating functions)",
+        "why": "MGFs, moments and uniqueness, as asked in every MAT 352 paper."
+      }
+    ],
+    "standard-distributions": [
+      {
+        "book": "hogg",
+        "read": "Chapter 3: Some Special Distributions",
+        "why": "Binomial, Poisson, gamma, exponential and normal distributions with their MGFs, means and variances."
+      }
+    ],
+    "joint-distributions-and-independence": [
+      {
+        "book": "hogg",
+        "read": "Chapter 2: Multivariate Distributions",
+        "why": "Joint, marginal and conditional distributions, independence, correlation and transformations."
+      }
+    ],
+    "inequalities-and-limit-theorems": [
+      {
+        "book": "hogg",
+        "read": "Chapter 1, Section 1.10 (Markov and Chebyshev) and Chapter 5: Consistency and Limiting Distributions",
+        "why": "The inequalities, modes of convergence, the law of large numbers and the central limit theorem."
+      }
+    ]
+  }
+}

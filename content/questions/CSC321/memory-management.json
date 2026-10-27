@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Unused space inside a fixed partition that is larger than its job is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Internal fragmentation"
+      },
+      {
+        "key": "b",
+        "text": "External fragmentation"
+      },
+      {
+        "key": "c",
+        "text": "A sliver"
+      },
+      {
+        "key": "d",
+        "text": "Compaction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "No other job can use that space.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Small scattered holes between allocated areas in dynamic partitions cause",
+    "options": [
+      {
+        "key": "a",
+        "text": "External fragmentation"
+      },
+      {
+        "key": "b",
+        "text": "Internal fragmentation"
+      },
+      {
+        "key": "c",
+        "text": "Thrashing"
+      },
+      {
+        "key": "d",
+        "text": "Starvation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The small holes are called slivers.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "Compaction merges scattered free fragments into one large block.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is also called defragmentation or garbage collection.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which placement strategy puts a job in the first hole large enough?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First fit"
+      },
+      {
+        "key": "b",
+        "text": "Best fit"
+      },
+      {
+        "key": "c",
+        "text": "Worst fit"
+      },
+      {
+        "key": "d",
+        "text": "Next partition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It lets the OS decide quickly.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What do the four early memory schemes have in common?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A process is loaded in its entirety"
+      },
+      {
+        "key": "b",
+        "text": "It is loaded into contiguous memory"
+      },
+      {
+        "key": "c",
+        "text": "It stays in memory until it completes"
+      },
+      {
+        "key": "d",
+        "text": "It is split into pages"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Paging came later with virtual memory.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the early memory allocation schemes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Demand paging"
+      },
+      {
+        "key": "b",
+        "text": "Single-user contiguous"
+      },
+      {
+        "key": "c",
+        "text": "Fixed partitions"
+      },
+      {
+        "key": "d",
+        "text": "Relocatable dynamic partitions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Demand paging is a virtual-memory scheme.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In fixed partitions, each partition's bounds are held in",
+    "options": [
+      {
+        "key": "a",
+        "text": "A base register and a limit register"
+      },
+      {
+        "key": "b",
+        "text": "The accumulator only"
+      },
+      {
+        "key": "c",
+        "text": "The PCB only"
+      },
+      {
+        "key": "d",
+        "text": "A pipe"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They give the lower and upper addresses.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "Single-user contiguous allocation supports multiprogramming.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It handles only one job at a time.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 9"
+  }
+]

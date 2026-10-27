@@ -1,0 +1,132 @@
+{
+  "code": "CSC 351",
+  "papers": [
+    {
+      "year": "2020/2021 test",
+      "paper": "CSC 351 (Formal Languages & Automata Theory) 300 Level Mid-Semester Test, 1st Semester 2020/21. Answer all; 50 minutes",
+      "source": "Past Questions/CSC 351 2020-21 TEST.pdf (scanned)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "First Semester Examination 2021/2022 (CSC 351: Theory of Automata and Formal Languages). Answer 3 questions; 2 hours",
+      "source": "Past Questions/csc 351 20212022.pdf (scanned; a student's name and answers on the copy are not copied)"
+    },
+    {
+      "year": "Undated",
+      "paper": "CSC 351 examination, year not shown (page 2 of 2 only; it starts at Question 2(b))",
+      "source": "Past Questions/CSC 351 (2).jpeg"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "First Semester Examination 2024/2025 (CSC 351: Theory of Automata and Formal Languages). Answer question one and any other two; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, pages 20–21 (scanned)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021 test",
+      "number": "1",
+      "marks": 6,
+      "topic": "deterministic-finite-automata",
+      "text": "Give the formal definition of the finite automaton, M, shown below. [a four-state automaton over {a, b} with states q1 to q4; diagram in the original paper] Indicate which of the following strings the machine will accept or reject: (i). aab (ii). abb (iii). abab (6mks)"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "2–3",
+      "marks": 9,
+      "topic": "regular-expressions",
+      "text": "2. Given that Σ = {0,1}, convert this regular expression to NFA: 0(011)* ∪ 1 (5mks)\n3. Given that L1 and L2 are regular languages, prove that the languages are closed under union operation. (4mks)"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "4",
+      "marks": 10,
+      "topic": "context-free-grammars",
+      "text": "Let G = (V, T, P, S) such that Σ = {0,1} and the set of rules are given below:\nX = YY | Z\nY = 0Y | Y0 | 1\nZ = 0Z00 | 1\n(i). Give the formal definition of G. (2mks) (ii). Describe L(G) in English (1mk) (iii). Give one string G can generate and one string it cannot generate (2mks) (iv). Prove that L(G) is not regular. (5mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "marks": 20,
+      "topic": "nondeterministic-finite-automata",
+      "text": "Convert the following ε - NFA to its equivalent NFA [states A, B and C: A loops on 0, A → B on ε, B loops on 1, B → C on ε, C (accepting) loops on 0, 1; diagram in the original paper]\n(i) Find E - closure of each state (3mks).\n(ii) Draw E - closure transition for all 0's and 1's in transition table (8mks).\n(iii) Draw the transition diagram of the NFA (5mks).\n(iv) List and give reason for your accept states (4mks)."
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": 20,
+      "topic": "nondeterministic-finite-automata",
+      "text": "(a) Construct NFA which accepts all strings over an alphabet Σ = {0, 1} where giving strings ends with \"0, 1\". L = {01, 001, 101, 10001 etc.}. (4mks)\n(b) Construct NFA with ε and without ε which accepts all strings over alphabet Σ = {a, b, c} which contains multiple a's followed by multiple b's and followed by multiple c's (6mks)\n(c) Discuss the tuples notations in ε – NFA (5mks)\n(d.) Construct a PDA that accepts the language L = {WCWR} over Σ = {a, b, c} W = (a+b)* (5mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 20,
+      "topic": "pushdown-automata",
+      "text": "(a) Push Down Automata (PDA) is a complement of finite state machine with more memory capacity which makes it more powerful with the stack implementation. Discuss based on its model diagram, stack and tuples with a sample of PDA. (15mks)\n(b) Construct a DFA that accepts 01 or a string of at least one \"1\" followed by 0 over Σ = (0,1) show an instance of trap state in your transition diagram. (5mks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 19,
+      "topic": "words-and-languages",
+      "text": "(a) In a tabular form discuss the following terms: Power of an alphabet, Language, Strings, Alphabet (Σ) and Sigma plus (Σ+). (10mks)\n(b) Given: Σ = {a, b}, L = {x∈Σ*|x is a string combination}, write all strings in Σ4. (4mks)\n(c) Write the strings that the following DFA will accept (3mks) [diagram in the original paper]\n(d) What does the following figure most correctly represents? (2mks) [a single accepting start state F with a loop on x]\n(e) Write the strings that will not be accepted by the following DFA? Give one reason for your answer (2mks) [diagram in the original paper]"
+    },
+    {
+      "year": "Undated",
+      "number": "2(b)",
+      "marks": 4,
+      "topic": "properties-of-regular-languages",
+      "text": "(b) Explain the following statement: satisfying the pumping lemma (for regular languages) is a necessary condition for a language to be regular language, but not a sufficient condition. Use examples of languages satisfying the pumping lemma where necessary, in order to make your point. (4 marks)"
+    },
+    {
+      "year": "Undated",
+      "number": "3",
+      "marks": 20,
+      "topic": "context-free-grammars",
+      "text": "(a) Let the context free grammar G be <VN, {a, b, c}, P, S> where: P = {S → aSb, S → c}. Using G, show derivations of the following strings from S: i. aaacbbb ii. aaaaacbbbbb iii. acb iv. aacbb (2 marks each)\n(b) Convert the productions of the following grammars into Greibach Normal Form. i. G = {VN, VT, P, S} where P = { S → aSb, S → ab} ii. G = {VN, VT, P, S} where P = {S → aaSbb, S → c} (4 marks each)\n(c) Find a context free grammar that can generate the following language: L = {a^n b^n : n ≥ 1} ∪ {a^n b^2n : n ≥ 1} (4 marks)"
+    },
+    {
+      "year": "Undated",
+      "number": "4",
+      "marks": 20,
+      "topic": "deterministic-finite-automata",
+      "text": "(a) Give the state diagram for a deterministic finite state automaton each that recognizes the following languages: I. {w | w does not contain a substring ab}. II. {w | w does not contain a substring baba}. III. {w| w does not contain exactly two a's} IV. {w| w = ε or a} (4 marks each)\n(b) From the finite state acceptors, arrived at in 4a(I) and 4a(IV) above, formally, derive regular grammars that can generate the same languages. (2 marks each)"
+    },
+    {
+      "year": "Undated",
+      "number": "5",
+      "marks": 20,
+      "topic": "pushdown-automata",
+      "text": "(a) Translate each of the following context free grammar production sets into Backus Naur Form (BNF). i. {S → aSA, bSB, S → C, C → cC, C → ε, A → a, B → b} ii. {S → aSBB, B → b, S → ε} iii. {S → aASB, S → ε, B → b A → a } iv. {S → aAASBB, S → ε A → a, B → b} (2 marks each)\n(b) For each of these languages, find a description for each of the languages in (a) i to iv above. (1 mark each)\n(c) For each of (a) (i) and (ii), derive non-deterministic pushdown automata that accept the same language as the respective grammar generates. (4 marks each)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "marks": 20,
+      "topic": "pushdown-automata",
+      "text": "a) Construct a PDA that accepts the Language {a^n b^n /n ≥ 1} over alphabet (a, b) and list three major conditions in the language as well as three strings from the language. (7mks)\nb) Construct a PDA that accepts the language L= {wcw^R} over Σ = {a,b,c} where w = (a+b)*. List three strings from the language. (7mks)\nc) Write the strings that the following DFA in C1 will accept. (3mks) [diagram in the original paper]\nd) What does the figure in D1 most correctly represent? (3mks) [a single accepting start state F with a loop on x]"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "marks": 20,
+      "topic": "deterministic-finite-automata",
+      "text": "(a) Construct a DFA that accepts any string over {0,1} that does not contain the string 0011 in Σ = {0, 1}. (8mks)\n(b) Discuss Push Down Automata (PDA), its components and its tuples in details with a well labelled diagram. (8mks)\n(c) Construct NFA with ε and without ε which accepts all strings over alphabet Σ = {a, b, c} which contains multiple a's followed by multiple b's and followed by multiple c's. (4mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "marks": 20,
+      "topic": "nondeterministic-finite-automata",
+      "text": "Convert the following epsilon ε NFA to its equivalent NFA. (10mks) [states q0 to q3: q0 loops on 0, q0 → q1 on ε, q1 → q2 on ε, q2 (accepting) loops on 1, q1 → q3 on 0 and q3 → q1 on 1; diagram in the original paper]\n(d) Convert the following epsilon ε NFA to its equivalent NFA. (10mks) [states q0 to q4 with q2 accepting; diagram in the original paper]\nFind E - closure of each state (2mks). (ii) Draw E - closure transition for all 0's and 1's in transition table (3mks). (iii) Draw the transition diagram of the NFA (3mks). (iv) List and give reason for your accept states (2mks)."
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "marks": 20,
+      "topic": "pushdown-automata",
+      "text": "a. Construct a DFA that accepts 01 or a string of at least one \"1\" followed by 0 over Σ = (0,1) and show an instance of trap state in your transition diagram. (5mks)\nb. Construct a PDA that accepts the language L = {0^n 1^(n+m) 0^m / m, n>1} where Σ = {0, 1} (10mks)\nc. Discuss the tuples notations in ε – NFA (5mks)"
+    }
+  ]
+}

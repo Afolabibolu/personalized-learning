@@ -1,0 +1,107 @@
+{
+  "code": "CSC 381",
+  "title": "Computer Graphics",
+  "description": "Applications of computer graphics, including simulation, robotics and aerial mapping; graphics hardware and software; output primitives and line and circle drawing; polygons, polygon filling and meshes; two- and three-dimensional transformations; 3D modelling, viewing and rendering; and computational geometry. The folder has only the 2023/24 paper, so every topic is written from general knowledge of a standard computer graphics course and labelled so.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "introduction-and-applications",
+      "title": "Introduction and Applications of Computer Graphics",
+      "summary": "Computer graphics creates, stores and manipulates images by computer, in raster or vector form. It is used in design, entertainment, visualisation, simulation and training, robotics and the automatic mapping of buildings from aerial images.",
+      "subtopics": [
+        "What computer graphics is; raster and vector images",
+        "Interactive and non-interactive graphics",
+        "Applications: CAD, entertainment, visualisation, GIS",
+        "Simulation and training",
+        "Graphics in autonomous robots",
+        "Building detection and mapping from aerial images"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "graphics-hardware-and-software",
+      "title": "Graphics Hardware and Software",
+      "summary": "Graphics systems display images on raster screens refreshed from a frame buffer and drawn by a graphics processing unit. Choosing a workstation involves the CPU, RAM, storage, graphics card and monitor, and graphics software ranges from APIs such as OpenGL to design and collaboration tools.",
+      "subtopics": [
+        "Raster-scan and random-scan displays",
+        "Frame buffer, resolution, colour depth and refresh",
+        "The GPU and graphics pipeline",
+        "Workstation choice: CPU, RAM, storage, graphics card, monitor",
+        "Graphics APIs and design software",
+        "Collaborative software for design teams"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "output-primitives-and-line-drawing",
+      "title": "Output Primitives and Line and Circle Drawing",
+      "summary": "Output primitives are the basic elements of a picture: points, lines, circles, polygons and text. Scan-conversion algorithms such as DDA, Bresenham's line algorithm and the midpoint circle algorithm decide which pixels to light.",
+      "subtopics": [
+        "Points, lines and other primitives",
+        "Scan conversion",
+        "The DDA line algorithm",
+        "Bresenham's line algorithm",
+        "The midpoint circle algorithm and symmetry",
+        "Antialiasing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "polygons-and-filling",
+      "title": "Shapes, Polygons and Polygon Filling",
+      "summary": "Shapes and polygons are the building blocks of graphics models: convex and concave polygons, triangles and polygon meshes. Areas are filled by scan-line, boundary-fill and flood-fill algorithms, and polygons are clipped to the viewing window.",
+      "subtopics": [
+        "Polygon types: convex, concave, regular",
+        "Inside-outside tests: even-odd and winding-number rules",
+        "Scan-line polygon filling",
+        "Boundary-fill and flood-fill",
+        "Polygon meshes and triangulation",
+        "Clipping lines and polygons"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "geometric-transformations",
+      "title": "Geometric Transformations",
+      "summary": "Transformations move and reshape objects: translation, scaling, rotation, reflection and shear. Homogeneous coordinates write them all as matrices, so sequences of transformations combine into one composite matrix, in two and three dimensions.",
+      "subtopics": [
+        "Translation, scaling and rotation in 2D",
+        "Reflection and shear",
+        "Homogeneous coordinates and matrix form",
+        "Composite transformations; rotation about a point",
+        "3D transformations",
+        "Window-to-viewport mapping"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "3d-modelling-and-rendering",
+      "title": "3D Modelling, Viewing and Rendering",
+      "summary": "3D models are built from polygon meshes, curves and surfaces, then viewed through parallel or perspective projection. Rendering removes hidden surfaces and applies lighting, shading and texture to produce realistic images, as in film creatures.",
+      "subtopics": [
+        "Polygon meshes, subdivision and sculpting",
+        "Curves and surfaces: Bézier and B-splines",
+        "Parallel and perspective projection",
+        "Hidden-surface removal: z-buffer and back-face culling",
+        "Lighting and shading: flat, Gouraud, Phong",
+        "Texture mapping, rigging and animation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "computational-geometry",
+      "title": "Computational Geometry",
+      "summary": "Computational geometry develops efficient algorithms for geometric problems: convex hulls, segment intersection, point location, triangulation and Voronoi diagrams. Its applications include robot motion planning, obstacle avoidance and localisation, GIS, computer-aided design and graphics.",
+      "subtopics": [
+        "What computational geometry is; applications",
+        "Convex hulls: Graham scan, gift wrapping",
+        "Line-segment intersection and point-in-polygon",
+        "Triangulation, Delaunay triangulation and Voronoi diagrams",
+        "Robot motion planning: configuration space, visibility graphs",
+        "Obstacle avoidance and localisation"
+      ],
+      "lectures": []
+    }
+  ]
+}

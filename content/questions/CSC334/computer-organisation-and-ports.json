@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which register holds the address of the next instruction to be executed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Program counter"
+      },
+      {
+        "key": "b",
+        "text": "Accumulator"
+      },
+      {
+        "key": "c",
+        "text": "Memory buffer register"
+      },
+      {
+        "key": "d",
+        "text": "Data register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is called the instruction pointer in x86.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The memory hierarchy is based on a program behaviour called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Locality of reference"
+      },
+      {
+        "key": "b",
+        "text": "Thrashing"
+      },
+      {
+        "key": "c",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "d",
+        "text": "Paging"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Programs tend to reuse the same or nearby memory locations.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Registers are at the top of the memory hierarchy.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They are the fastest and most expensive storage per bit.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which port is often miscalled DB-9?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DE-9"
+      },
+      {
+        "key": "b",
+        "text": "DB-25"
+      },
+      {
+        "key": "c",
+        "text": "RJ-45"
+      },
+      {
+        "key": "d",
+        "text": "PS/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DE-9 is the main RS-232 serial (COM) port.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are flags found in the program status word?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sign"
+      },
+      {
+        "key": "b",
+        "text": "Zero"
+      },
+      {
+        "key": "c",
+        "text": "Carry"
+      },
+      {
+        "key": "d",
+        "text": "Cache"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also holds equal, overflow, interrupt and supervisor flags.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an operation performed by registers in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compile"
+      },
+      {
+        "key": "b",
+        "text": "Fetch"
+      },
+      {
+        "key": "c",
+        "text": "Decode"
+      },
+      {
+        "key": "d",
+        "text": "Execute"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three operations are fetch, decode and execute.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which connector is used for Ethernet networking?",
+    "options": [
+      {
+        "key": "a",
+        "text": "RJ-45"
+      },
+      {
+        "key": "b",
+        "text": "RJ-11"
+      },
+      {
+        "key": "c",
+        "text": "VGA"
+      },
+      {
+        "key": "d",
+        "text": "S/PDIF"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "RJ-11 is used for telephones, modems and ADSL.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "A parallel port sends data one bit at a time over a single line.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That describes a serial port.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 1"
+  }
+]

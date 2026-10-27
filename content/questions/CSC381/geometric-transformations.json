@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Rotating (1, 0) by 90° anticlockwise about the origin gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "(0, 1)"
+      },
+      {
+        "key": "b",
+        "text": "(1, 1)"
+      },
+      {
+        "key": "c",
+        "text": "(−1, 0)"
+      },
+      {
+        "key": "d",
+        "text": "(0, −1)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x′ = cos 90° = 0, y′ = sin 90° = 1.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Homogeneous coordinates let which transformation be written as a matrix product?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Translation"
+      },
+      {
+        "key": "b",
+        "text": "Scaling"
+      },
+      {
+        "key": "c",
+        "text": "Rotation"
+      },
+      {
+        "key": "d",
+        "text": "None of them"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scaling and rotation already are 2 × 2 matrices.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Matrix multiplication of transformations is not commutative, so their order matters.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Translate-then-rotate differs from rotate-then-translate.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Rotating about a fixed point uses which sequence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Translate to origin, rotate, translate back"
+      },
+      {
+        "key": "b",
+        "text": "Rotate, then scale"
+      },
+      {
+        "key": "c",
+        "text": "Scale, translate, scale"
+      },
+      {
+        "key": "d",
+        "text": "Reflect twice"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "M = T(xr, yr) R(θ) T(−xr, −yr).",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are basic 2D transformations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Translation"
+      },
+      {
+        "key": "b",
+        "text": "Scaling"
+      },
+      {
+        "key": "c",
+        "text": "Rotation"
+      },
+      {
+        "key": "d",
+        "text": "Rasterisation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Reflection and shear are also transformations.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one does not change an object's shape or position?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The identity transformation"
+      },
+      {
+        "key": "b",
+        "text": "Shear"
+      },
+      {
+        "key": "c",
+        "text": "Scaling by 2"
+      },
+      {
+        "key": "d",
+        "text": "Translation by (3, 4)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The identity matrix leaves every point unchanged.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In 3D, homogeneous transformation matrices are",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 × 4"
+      },
+      {
+        "key": "b",
+        "text": "3 × 3"
+      },
+      {
+        "key": "c",
+        "text": "2 × 2"
+      },
+      {
+        "key": "d",
+        "text": "5 × 5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2D uses 3 × 3.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Reflecting about the x-axis maps (x, y) to (−x, y).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It maps (x, y) to (x, −y).",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

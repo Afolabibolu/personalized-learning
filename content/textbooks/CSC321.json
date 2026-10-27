@@ -1,0 +1,75 @@
+{
+  "code": "CSC 321",
+  "books": {
+    "osc": {
+      "title": "Operating System Concepts",
+      "authors": "Abraham Silberschatz, Peter B. Galvin and Greg Gagne",
+      "edition": "10th edition",
+      "publisher": "Wiley",
+      "year": 2018
+    },
+    "mcho": {
+      "title": "Understanding Operating Systems",
+      "authors": "Ann McIver McHoes and Ida M. Flynn",
+      "edition": "8th edition",
+      "publisher": "Cengage Learning",
+      "year": 2018
+    }
+  },
+  "topics": {
+    "introduction-and-types-of-operating-systems": [
+      {
+        "book": "mcho",
+        "read": "Chapter 1: Introducing Operating Systems",
+        "why": "The four managers, their tasks and the types of OS, which the course book follows closely."
+      }
+    ],
+    "architecture-kernels-and-shells": [
+      {
+        "book": "osc",
+        "read": "Chapter 2: Operating-System Structures",
+        "why": "System calls, user and kernel mode, and monolithic, layered, microkernel and hybrid structures."
+      }
+    ],
+    "process-management": [
+      {
+        "book": "osc",
+        "read": "Chapter 3: Processes",
+        "why": "Process states, the PCB, context switching and the levels of scheduling."
+      }
+    ],
+    "threads": [
+      {
+        "book": "osc",
+        "read": "Chapter 4: Threads & Concurrency",
+        "why": "The benefits of threads and the many-to-one, one-to-one and many-to-many models the course book uses."
+      }
+    ],
+    "cpu-scheduling": [
+      {
+        "book": "mcho",
+        "read": "Chapter 4: Processor Management",
+        "why": "FCFS, SJN, SRT, round robin and priority scheduling with worked job tables like the past papers."
+      },
+      {
+        "book": "osc",
+        "read": "Chapter 5: CPU Scheduling",
+        "why": "Scheduling criteria, multilevel queues and real-time scheduling."
+      }
+    ],
+    "memory-management": [
+      {
+        "book": "mcho",
+        "read": "Chapter 2: Early Memory Management Systems",
+        "why": "Single-user, fixed, dynamic and relocatable dynamic partitions, as in the course book."
+      }
+    ],
+    "unix-and-shell-programming": [
+      {
+        "book": "mcho",
+        "read": "Chapter 13: UNIX Operating Systems",
+        "why": "Unix design, redirection, pipes and filters."
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which managerial function precedes all the others?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Planning"
+      },
+      {
+        "key": "b",
+        "text": "Organizing"
+      },
+      {
+        "key": "c",
+        "text": "Controlling"
+      },
+      {
+        "key": "d",
+        "text": "Staffing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It establishes the objectives.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Broad plans by top managers on the firm's direction are",
+    "options": [
+      {
+        "key": "a",
+        "text": "Strategic plans"
+      },
+      {
+        "key": "b",
+        "text": "Tactical plans"
+      },
+      {
+        "key": "c",
+        "text": "Standing plans"
+      },
+      {
+        "key": "d",
+        "text": "Single-use plans"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Tactical plans implement them.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Standing plans handle recurring, routine situations.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They include policies, rules and procedures.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Management by objectives owes its importance to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Peter Drucker"
+      },
+      {
+        "key": "b",
+        "text": "Frederick Taylor"
+      },
+      {
+        "key": "c",
+        "text": "Abraham Maslow"
+      },
+      {
+        "key": "d",
+        "text": "Max Weber"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He wrote on it in 1954.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in the planning process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Establishing objectives"
+      },
+      {
+        "key": "b",
+        "text": "Developing planning premises"
+      },
+      {
+        "key": "c",
+        "text": "Quantifying plans by budgeting"
+      },
+      {
+        "key": "d",
+        "text": "Hiring all staff first"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Others include evaluating and selecting a course of action.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a barrier to effective planning?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Contingency planning"
+      },
+      {
+        "key": "b",
+        "text": "Lack of commitment"
+      },
+      {
+        "key": "c",
+        "text": "Resistance to change"
+      },
+      {
+        "key": "d",
+        "text": "Lack of top support"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Contingency planning helps avoid barriers.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "PEST analysis examines political, economic, social and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technological factors"
+      },
+      {
+        "key": "b",
+        "text": "Team factors"
+      },
+      {
+        "key": "c",
+        "text": "Tax factors"
+      },
+      {
+        "key": "d",
+        "text": "Time factors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SWOT examines strengths, weaknesses, opportunities and threats.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2017/18 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Long-range plans cover one year or less.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Short-range plans cover a year or less; long-range plans cover five years or more.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 3"
+  }
+]

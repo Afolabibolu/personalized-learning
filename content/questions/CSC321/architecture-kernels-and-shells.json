@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Privileged instructions can be executed only in",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kernel mode"
+      },
+      {
+        "key": "b",
+        "text": "User mode"
+      },
+      {
+        "key": "c",
+        "text": "Batch mode"
+      },
+      {
+        "key": "d",
+        "text": "Safe mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "User programs run in user mode.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A user program asks the kernel for a service through a",
+    "options": [
+      {
+        "key": "a",
+        "text": "System call"
+      },
+      {
+        "key": "b",
+        "text": "Pipe"
+      },
+      {
+        "key": "c",
+        "text": "Filter"
+      },
+      {
+        "key": "d",
+        "text": "Context switch"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is usually implemented as a software interrupt.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a microkernel, most OS services run in user space and communicate by message passing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only a few core services stay in the kernel.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which architecture puts every OS component in the kernel with unrestricted access?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Monolithic"
+      },
+      {
+        "key": "b",
+        "text": "Layered"
+      },
+      {
+        "key": "c",
+        "text": "Microkernel"
+      },
+      {
+        "key": "d",
+        "text": "Exokernel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is efficient but errors are hard to isolate.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are functions of the kernel?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Memory management"
+      },
+      {
+        "key": "b",
+        "text": "Scheduling processes"
+      },
+      {
+        "key": "c",
+        "text": "Device management through drivers"
+      },
+      {
+        "key": "d",
+        "text": "Formatting documents"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also handles system calls and inter-process communication.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a command-line shell?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Windows Explorer"
+      },
+      {
+        "key": "b",
+        "text": "Bash"
+      },
+      {
+        "key": "c",
+        "text": "Korn shell"
+      },
+      {
+        "key": "d",
+        "text": "C shell"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Windows Explorer is a GUI shell.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A hybrid kernel is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A microkernel with some non-essential code in kernel space for speed"
+      },
+      {
+        "key": "b",
+        "text": "A kernel with no services"
+      },
+      {
+        "key": "c",
+        "text": "A layered kernel without layers"
+      },
+      {
+        "key": "d",
+        "text": "A kernel that runs only in user mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a compromise between monolithic and microkernel designs.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "The kernel and the operating system are the same thing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The kernel is a central module of the OS, not the whole OS.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 10"
+  }
+]

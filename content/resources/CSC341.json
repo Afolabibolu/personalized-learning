@@ -1,0 +1,145 @@
+{
+  "code": "CSC 341",
+  "topics": {
+    "data-structure-concepts-and-arrays": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Types of Data Structures (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=T9DSBhBR_I4",
+        "source": "links.csv"
+      }
+    ],
+    "linked-lists": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Introduction to Linked List (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=R9PTBwOzceo",
+        "source": "links.csv"
+      }
+    ],
+    "stacks-and-expressions": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Infix to Postfix using stack (mycodeschool)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vq-nUF0G4fI",
+        "source": "links.csv"
+      }
+    ],
+    "queues-and-deques": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: 4.1 Queue in Data Structure | Introduction to Queue | Data Structures Tutorials (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zp6pBNbUB2U",
+        "source": "links.csv"
+      }
+    ],
+    "trees-and-search-trees": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: 5.10 Binary Search Trees (BST) - Insertion and Deletion | DSA Full Course (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cySVml6e_Fc",
+        "source": "links.csv"
+      }
+    ],
+    "graphs": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: 6.1 Graph Representation in Data Structure(Graph Theory)|Adjacency Matrix and Adjacency List (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5hPfm_uqXmw",
+        "source": "links.csv"
+      }
+    ],
+    "sorting-searching-and-hashing": [
+      {
+        "title": "Data Structures lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1dXcnR2A-eTXdxJFIgmbME5o0sr3n2ftL",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: 8.1 Hashing Techniques to Resolve Collision| Separate Chaining and Linear Probing | Data structure (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zeMa9sg-VJM",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

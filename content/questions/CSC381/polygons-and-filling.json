@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A polygon in which every interior angle is less than 180° is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Convex"
+      },
+      {
+        "key": "b",
+        "text": "Concave"
+      },
+      {
+        "key": "c",
+        "text": "Self-intersecting"
+      },
+      {
+        "key": "d",
+        "text": "Open"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A concave polygon has an angle over 180°.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 1b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By the even-odd rule, a point is inside a polygon if a ray from it crosses the edges",
+    "options": [
+      {
+        "key": "a",
+        "text": "An odd number of times"
+      },
+      {
+        "key": "b",
+        "text": "An even number of times"
+      },
+      {
+        "key": "c",
+        "text": "Exactly twice"
+      },
+      {
+        "key": "d",
+        "text": "Never"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The winding-number rule is the alternative.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Triangles are preferred in meshes because they are always convex and planar.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "GPUs rasterise triangles quickly.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Filling from a seed point until a boundary colour is reached is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boundary fill"
+      },
+      {
+        "key": "b",
+        "text": "Flood fill"
+      },
+      {
+        "key": "c",
+        "text": "Scan-line fill"
+      },
+      {
+        "key": "d",
+        "text": "Clipping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Flood fill replaces one original colour.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Why are shapes and polygons useful in graphics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They build 2D and 3D models"
+      },
+      {
+        "key": "b",
+        "text": "They help simulate real-world objects"
+      },
+      {
+        "key": "c",
+        "text": "They are fast to render"
+      },
+      {
+        "key": "d",
+        "text": "They remove the need for lighting"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Polygon models still need lighting and shading.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 1b)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a polygon-filling algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cohen-Sutherland"
+      },
+      {
+        "key": "b",
+        "text": "Scan-line fill"
+      },
+      {
+        "key": "c",
+        "text": "Boundary fill"
+      },
+      {
+        "key": "d",
+        "text": "Flood fill"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cohen-Sutherland is a line-clipping algorithm.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Triangulating a polygon with 7 vertices gives how many triangles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5"
+      },
+      {
+        "key": "b",
+        "text": "7"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n − 2 triangles.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Cohen-Sutherland clipping, a line whose endpoint codes are both 0000 is rejected.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Both codes 0000 means the line is fully inside and accepted.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

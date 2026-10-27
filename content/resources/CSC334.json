@@ -1,0 +1,145 @@
+{
+  "code": "CSC 334",
+  "topics": {
+    "computer-organisation-and-ports": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Every Computer Port Explained in 9 Minutes (Byte Sized Explainer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fkCDXw4NzX8",
+        "source": "links.csv"
+      }
+    ],
+    "memory-segments-and-assembly-basics": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Learning x86 with NASM - Making your First Program (OliveStem)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IGo2ldg2Mp0",
+        "source": "links.csv"
+      }
+    ],
+    "assembly-instructions": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: x86 Addressing Modes (Jacob Schrum)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XOnzjEd_dLg",
+        "source": "links.csv"
+      }
+    ],
+    "processes-threads-and-concurrency": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Concurrency Vs Parallelism! (ByteByteGo)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RlM9AfWf1WU",
+        "source": "links.csv"
+      }
+    ],
+    "java-threads-and-synchronization": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Multithreading in Java Explained in 10 Minutes (Coding with John)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=r_MbozD32eo",
+        "source": "links.csv"
+      }
+    ],
+    "network-programming-in-java": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Socket Programming in Java | Client-Server App Tutorial | Learn Socket Programming in 10 Minutes (Java Coding Community)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-YXeBksk5As",
+        "source": "links.csv"
+      }
+    ],
+    "unix-processes-and-ipc": [
+      {
+        "title": "Systems Programming lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1hA4UAzoOfj-B2hU1OnHDx8f2J44AW4ls",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: fork() and exec() System Calls (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IFEFVXvjiHY",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

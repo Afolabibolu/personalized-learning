@@ -1,0 +1,76 @@
+{
+  "code": "CSC 351",
+  "books": {
+    "sipser": {
+      "title": "Introduction to the Theory of Computation",
+      "authors": "Michael Sipser",
+      "edition": "2nd edition",
+      "publisher": "Thomson Course Technology",
+      "year": 2006,
+      "listed_in_course_files": true
+    },
+    "hmu": {
+      "title": "Introduction to Automata Theory, Languages, and Computation",
+      "authors": "John E. Hopcroft, Rajeev Motwani and Jeffrey D. Ullman",
+      "edition": "3rd edition",
+      "publisher": "Pearson",
+      "year": 2006
+    }
+  },
+  "topics": {
+    "words-and-languages": [
+      {
+        "book": "sipser",
+        "read": "Chapter 0: Introduction (strings and languages)",
+        "why": "The course book's first reference; defines alphabets, strings and languages the same way."
+      }
+    ],
+    "regular-expressions": [
+      {
+        "book": "sipser",
+        "read": "Chapter 1, Section 1.3: Regular Expressions",
+        "why": "Regular expressions and their equivalence with finite automata, used throughout the course book."
+      }
+    ],
+    "deterministic-finite-automata": [
+      {
+        "book": "sipser",
+        "read": "Chapter 1, Section 1.1: Finite Automata",
+        "why": "The 5-tuple definition and the automaton examples the course book reuses."
+      },
+      {
+        "book": "hmu",
+        "read": "Chapter 4: Properties of Regular Languages (equivalence and minimization of automata)",
+        "why": "The table-filling method for minimising a DFA."
+      }
+    ],
+    "nondeterministic-finite-automata": [
+      {
+        "book": "sipser",
+        "read": "Chapter 1, Section 1.2: Nondeterminism",
+        "why": "NFAs, ε-transitions and the subset construction, with the NFA N1 the course book uses."
+      }
+    ],
+    "properties-of-regular-languages": [
+      {
+        "book": "sipser",
+        "read": "Chapter 1, Section 1.4: Nonregular Languages",
+        "why": "The pumping lemma and proofs that languages are not regular."
+      }
+    ],
+    "context-free-grammars": [
+      {
+        "book": "sipser",
+        "read": "Chapter 2, Section 2.1: Context-Free Grammars",
+        "why": "CFGs, derivations, ambiguity and Chomsky normal form."
+      }
+    ],
+    "pushdown-automata": [
+      {
+        "book": "sipser",
+        "read": "Chapter 2, Section 2.2: Pushdown Automata",
+        "why": "PDAs and their equivalence with context-free grammars."
+      }
+    ]
+  }
+}

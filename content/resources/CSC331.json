@@ -1,0 +1,145 @@
+{
+  "code": "CSC 331",
+  "topics": {
+    "programming-fundamentals-and-language-types": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Compiler and Interpreter: Compiled Language vs Interpreted Programming Languages (Coding Mentors)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=I1f45REi3k4",
+        "source": "links.csv"
+      }
+    ],
+    "programming-paradigms": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Imperative vs Declarative Programming (ui․dev)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=E7Fbf7R3x6I",
+        "source": "links.csv"
+      }
+    ],
+    "evaluating-programming-languages": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: 1.3.1. Language Evaluation Criteria (ngit_kmec)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=al0QrR4oR-E",
+        "source": "links.csv"
+      }
+    ],
+    "syntax-bnf-and-ambiguity": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Programming Language Syntax: Backus-Naur Form (BNF) (Jacob Schrum)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MMxMeX5emUA",
+        "source": "links.csv"
+      }
+    ],
+    "type-systems-overloading-and-casting": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Static vs. Dynamic typing and Strong vs. Weak typing (interviewmaker)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=geS85Z3jkAs",
+        "source": "links.csv"
+      }
+    ],
+    "control-structures-scope-and-binding": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Static and Dynamic Scoping (Part-1) (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=L53nqHCSSFY",
+        "source": "links.csv"
+      }
+    ],
+    "memory-management-in-programs": [
+      {
+        "title": "Programming Principles and Paradigms lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1lm_hKTW78Z3pTkojzZ9rgEuckpmqr18E",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Pointers and dynamic memory - stack vs heap (mycodeschool)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_8-ht2AKyH4",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

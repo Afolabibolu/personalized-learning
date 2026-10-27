@@ -1,0 +1,107 @@
+{
+  "code": "CSC 321",
+  "title": "Operating Systems I",
+  "description": "What an operating system is and does, its types, architecture, kernel and shell; processes, threads and the process control block; CPU scheduling algorithms; early memory management; and the Unix operating system with redirection, pipes, filters and shell programming. Built from the Ibadan Distance Learning course book for CSC 321.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "introduction-and-types-of-operating-systems",
+      "title": "Introduction and Types of Operating Systems",
+      "summary": "An operating system is the system software that manages the hardware and all other software and acts as an interface between user and computer. Operating systems are batch, multitasking, network, distributed, real-time or embedded, and every one has memory, processor, device and file managers.",
+      "subtopics": [
+        "System and application software",
+        "Definitions, goals and functions of an OS",
+        "History: four generations",
+        "Batch, multitasking, network and distributed systems",
+        "Real-time (hard and soft) and embedded systems",
+        "The OS managers and their four tasks"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "architecture-kernels-and-shells",
+      "title": "OS Architecture, Kernels and Shells",
+      "summary": "The kernel is the core of the OS; the CPU runs privileged instructions only in kernel mode, and user programs reach the kernel through system calls. OS architectures are monolithic, layered, microkernel or hybrid, and the shell is the outer layer through which users give commands.",
+      "subtopics": [
+        "Kernel mode, user mode and system calls",
+        "Monolithic, layered and microkernel architectures",
+        "Types of kernel: monolithic, micro, hybrid, nano, exo",
+        "Functions of the kernel",
+        "The user interface: CLI and GUI",
+        "Shells: command-line, GUI and GCLI"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "process-management",
+      "title": "Process Management",
+      "summary": "A process is a program in execution, described by a process control block. Processes move between ready, running and blocked states (plus suspended states), and long-, medium- and short-term schedulers control which ones are admitted, swapped and run.",
+      "subtopics": [
+        "Jobs, processes and the process table",
+        "Process states and transitions",
+        "The process control block (PCB)",
+        "Context switching",
+        "Long-term, medium-term and short-term scheduling",
+        "The dispatcher"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "threads",
+      "title": "Threads and Multithreading",
+      "summary": "A thread is a lightweight path of execution within a process with its own program counter, registers and stack, sharing the process's code and data. User threads are mapped to kernel threads by the many-to-one, one-to-one or many-to-many model.",
+      "subtopics": [
+        "Single-threaded and multithreaded processes",
+        "Benefits: responsiveness, resource sharing, economy, scalability",
+        "Concurrency on one core and parallelism on many",
+        "User threads and kernel threads",
+        "Many-to-one, one-to-one and many-to-many models",
+        "Thread libraries: Pthreads, Win32, Java"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "cpu-scheduling",
+      "title": "CPU Scheduling",
+      "summary": "The short-term scheduler chooses the next process to run, judged by waiting time, turnaround time, throughput and response time. The algorithms are first-come first-served, shortest job next, shortest remaining time, round robin and priority scheduling.",
+      "subtopics": [
+        "Functions of the process scheduler",
+        "Scheduling metrics",
+        "Preemptive and non-preemptive policies",
+        "FCFS, SJN and SRT",
+        "Round robin and the time quantum",
+        "Priority scheduling, starvation and aging"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "memory-management",
+      "title": "Memory Management",
+      "summary": "The memory manager decides how main memory is allocated to processes. Early schemes were single-user contiguous allocation, fixed partitions, dynamic partitions and relocatable dynamic partitions, which introduced internal and external fragmentation and compaction.",
+      "subtopics": [
+        "Role of the memory manager; overlays",
+        "Single-user contiguous allocation",
+        "Fixed partitions and internal fragmentation",
+        "Base and limit registers",
+        "Dynamic partitions: first fit, best fit, worst fit; external fragmentation",
+        "Relocatable dynamic partitions and compaction"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "unix-and-shell-programming",
+      "title": "Unix, Pipes, Filters and Shell Programming",
+      "summary": "Unix, written in C at Bell Labs, is portable, multi-user and multitasking, with a layered architecture of hardware, kernel, shell, and files and directories. Its standard input and output can be redirected, commands are joined by pipes, and shell programs automate commands.",
+      "subtopics": [
+        "History and properties of Unix",
+        "Unix-like systems",
+        "The Unix architecture",
+        "Standard input, output and error",
+        "Redirection: >, >> and <",
+        "Pipes, filters and shell programs"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "code": "CSC 331",
+  "books": {
+    "sebesta": {
+      "title": "Concepts of Programming Languages",
+      "authors": "Robert W. Sebesta",
+      "edition": "11th edition",
+      "publisher": "Pearson",
+      "year": 2016
+    },
+    "tucker": {
+      "title": "Programming Languages: Principles and Paradigms",
+      "authors": "Allen B. Tucker and Robert E. Noonan",
+      "edition": "2nd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2007
+    }
+  },
+  "topics": {
+    "programming-fundamentals-and-language-types": [
+      {
+        "book": "sebesta",
+        "read": "Chapter 2: Evolution of the Major Programming Languages",
+        "why": "The history of FORTRAN, ALGOL, LISP, COBOL, BASIC, Pascal, C, C++ and Java that the course book surveys."
+      }
+    ],
+    "programming-paradigms": [
+      {
+        "book": "tucker",
+        "read": "Chapter 1 (paradigms) and Chapters 12–14: Imperative, Object-Oriented and Functional Programming",
+        "why": "The course book cites Tucker and Noonan (2002); these chapters cover the same paradigms."
+      }
+    ],
+    "evaluating-programming-languages": [
+      {
+        "book": "sebesta",
+        "read": "Chapter 1: Preliminaries (language evaluation criteria)",
+        "why": "Readability, writability and reliability, the three main criteria the 2024/25 paper asks for."
+      }
+    ],
+    "syntax-bnf-and-ambiguity": [
+      {
+        "book": "sebesta",
+        "read": "Chapter 3: Describing Syntax and Semantics",
+        "why": "BNF, EBNF, syntax diagrams, parse trees and ambiguity."
+      },
+      {
+        "book": "tucker",
+        "read": "Chapter 2: Syntax",
+        "why": "The grammars, lexical syntax and dangling-else example the course book uses."
+      }
+    ],
+    "type-systems-overloading-and-casting": [
+      {
+        "book": "tucker",
+        "read": "Chapters 5 and 6: Types; Type Systems",
+        "why": "Types, type maps, static and dynamic typing, conversions — the source of the course book's examples."
+      }
+    ],
+    "control-structures-scope-and-binding": [
+      {
+        "book": "sebesta",
+        "read": "Chapter 5: Names, Bindings, and Scopes; Chapter 8: Statement-Level Control Structures",
+        "why": "Binding times, lifetime, scope, aliasing and loop and selection statements."
+      }
+    ],
+    "memory-management-in-programs": [
+      {
+        "book": "tucker",
+        "read": "Chapters 9 and 11: Functions; Memory Management",
+        "why": "Stack frames, parameter passing and the static area, stack and heap as the course book describes them."
+      }
+    ]
+  }
+}

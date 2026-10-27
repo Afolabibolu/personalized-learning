@@ -1,0 +1,186 @@
+{
+  "code": "CSC 322",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "B.Sc. Degree Examination, First Semester 2020/2021 (CSC 322: Principle of Data Communication). Answer Question 1 and any other two; 2 hours",
+      "source": "Past Question/CSC 322 2020-21.pdf (scanned; handwritten answers on the copy are not copied)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "First Semester Examinations 2021/2022 (CSC 322: Principle of Data Communication). Answer 1 and any other 3 questions; 2 hours",
+      "source": "Past Question/csc 322 20212022.pdf (scanned)"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "First Semester (B.Sc. Degree) 2023/2024 Session Examinations (CSC 322: Principles of Data Communications). Attempt question 1 and two others; 2 hours",
+      "source": "Past Question/CSC 322 2023_24 PQ.jpeg and CSC 322 2023_24 PQ (2).jpeg (two printings of Question 5 differ; both are kept)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "2024/2025 Examination (CSC 322: Principle of Data Communication). Section A: answer Question 1 and any other 2 questions; 2 hours 30 minutes",
+      "source": "2024-2025-300-PQ.pdf, pages 15–16 (scanned)"
+    },
+    {
+      "year": "2025 test",
+      "paper": "CSC 322: Principle of Data Communication, Test 2, 2025 (only Questions 17 to 20 are on the torn copy)",
+      "source": "2024-2025-300-PQ.pdf, page 2 (handwritten answers are not copied)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1(a)",
+      "marks": 10,
+      "topic": "network-layer-protocols-and-ip-addressing",
+      "text": "In Figure 1, H1 sends a 1420bytes datagram to H8. Assuming the Maximum Transmission unit (MTU) for the two Ethernet is 1500 bytes, 4500 bytes for FDDI and 332 bytes for Point to point network. Note: IP header takes 20 bytes. [Figure 1: Data Packet Transmission, a network of two Ethernets, an FDDI ring and a point-to-point link joined by routers R1, R2 and R3; diagram in the original paper]\nUsing Figure 1 above: (i) Identify the network where data fragmentation will occur among Routers R1, R2 and R3. (2marks) (ii) How many fragments does datagram breaks into before recombination (3marks) (iii) State the size in bytes of each data fragment (5marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1(b)",
+      "marks": 10,
+      "topic": "osi-and-tcp-ip-models",
+      "text": "1b. (i) With the aid of diagram, explain the layers in the ISO (7marks) (ii) Compare ISO layers with TCP/IP layers (3marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2(a)",
+      "marks": 10,
+      "topic": "networks-and-internetworking",
+      "text": "2a. A new network structure for a courier company based in Lagos having two offices. The first office has Ethernet network while the second office has FDDI. As a network administrator, you are expected to Link Lagos network with Ibadan office having two new offices opened in Bodija and Ojoo Ibadan on Ethernet network. Using this information (i) State the numbers of hardware (routers) needed (2marks) (ii) State the type of network topology that is recommended with reasons (3marks) (iii) Sketch your designed network (5marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2(b)",
+      "marks": 10,
+      "topic": "network-layer-protocols-and-ip-addressing",
+      "text": "2b. State the number of bits and the functions of the following components of Figure 2 [Figure 2: IPv4 Datagram] (i) Identification (ii) Flag (iii) Header Checksum (iv) Fragment Offset (v) Destination Address (10marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "marks": 20,
+      "topic": "networks-and-internetworking",
+      "text": "3(a) State the four classification of a network (4marks)\n3(b) List and explain network types (8 marks)\n3(c) State and explain three common class of IP Address used in networks (8marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "marks": 20,
+      "topic": "osi-and-tcp-ip-models",
+      "text": "4a Explain with the aid of a diagram the following error types (i) Single-bit errors (2marks) (ii) Burst errors (2marks)\n4b Explain the following types of transmission error detection and correction mechanisms (i) Parity check (3marks) (ii) Cyclic Redundancy Check (3marks)\n4c Define Transmission impairments in any network (2marks)\n4d. State and explain two types of impairments (4marks)\n4f. Discuss the following media (i) Microwave (2marks) (ii) Twisted pair cable (2marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1(a)–(d)",
+      "marks": 25,
+      "topic": "osi-and-tcp-ip-models",
+      "text": "(1a). Give the definition of a Service and a Protocol. Discuss with illustration the fundamental differences between a service and a protocol. 3mks\n(1b). Describe the OSI seven Layer Model. Draw a diagram and explain each layers in the Model. Contrast to the OSI model you have just described with the TCP_IP reference model. Show the correspondence between relevant protocol layers in the two models. 12mks\n(1C). Discuss the relative merits of each of these models in the context of modern computer Networking. 6mks\n(1d). Explain using a bit pattern 01111110 how bit stuffing is used to preserve frame boundaries when transmitting binary data at the Data Link level of the protocol stack. Assuming payload bit stream 00111111111011111101111010001110011010. Show the transmitted stream. 4mks [some digits of the stream are hard to read on the scanned copy]"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1(e)–2",
+      "marks": 15,
+      "topic": "switching",
+      "text": "(1e). A setup request frame is sent from the source to destination. Explain the process of the setup request in the switching process below. 5mks [virtual-circuit network: A → Switch 1 (incoming port 1, VCI 14; outgoing port 3) → Switch 2 (incoming port 1, VCI 66; outgoing port 2) → Switch 3 (incoming port 2, VCI 22; outgoing port 3) → B, with VCI = 77 at B; diagram in the original paper]\n2. a. Switches are devices capable of creating temporary connections between two or more devices linked to the switch. With the aid of a block diagram describe the categories of switching in networking. 3.5mks\n2b. The actual communication in a circuit-switched network requires three phases: connection setup, data transfer, and connection teardown. Explain the three phases. Why is circuit-switched networks not efficient and the delay type of the network is minimal. 2.5mks\n2c. Show by using table the comparism between datagram network and virtual circuit network based on the following issues: Routing, congestion control, Addressing, Quality of service, Effect of router failure and state information. 4mks"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 10,
+      "topic": "routing",
+      "text": "3a. Give an overview of the distance vector method of updating routing table information. 4mks\n3b In particular explain using an example how information about a node failure propagates using this algorithm. 3mks\n3c. What problem is encountered in deciding whether a host has become unreachable. 3mks"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 10,
+      "topic": "networks-and-internetworking",
+      "text": "4a. Consider an HTTP client that wants to retrieve a Web document at a given URL. The IP address of the HTTP server is initially unknown. The Web document at the URL has one embedded GIF image that resides at the same server as the original document. What transport and application layer protocols besides HTTP are needed in this scenario?.1mks\n4b. A data communications system has five components. Discuss three component of this data communication you know. 3mks\n4c. State 3 each disadvantages of ring topology and star topology. Also 3 each advantages of a mesh topology and bus topology. 6mks"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 10,
+      "topic": "routing",
+      "text": "5a. Consider the use of TCP over a wireless channel, which is much more prone to bit-level errors than a wire or optical fiber. Comment on how well suited TCP's (i) error detection mechanism, and (ii) its window-based congestion control algorithm are for such a bit-error-prone environment. 4mks\n5b. Consider the network shown below. Show the operation of Dijkstra's (Link State) algorithm for computing the least cost path from D to all destinations. 4mks [weighted graph on nodes A to F; diagram in the original paper]\n5c. What is the difference between congestion control and flow control. 2mks"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1",
+      "marks": 30,
+      "topic": "networks-and-internetworking",
+      "text": "1i. Communications takes place between two or among many network nodes. It could be unicast, multicast or broadcast in nature. These communications are, usually, between device A and another, B or many other IoT devices. Draw an annotated diagram only to show the components of a communication system (3 mks)\nii. Inter-networking is comprising of 2 words, inter and networking which implies an association between totally different nodes or segments. This connection area unit is established through intercessor devices akin to routers or gateway. This interconnection is often among or between public, private, commercial, industrial, or governmental networks. Once a network communicates with another network having constant communication procedures, it's called Inter-networking. Inter-networking was designed to resolve the matter of delivering a packet of information through many links. Meanwhile there are, chiefly, 3 units of Inter-networking. Identify and explain them (12 mks)\niii. Briefly describe the three kinds of inter-network addresses (15 mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2",
+      "marks": 15,
+      "topic": "osi-and-tcp-ip-models",
+      "text": "2a. Explain the phenomenon, \"Store and Forward\" in packet switching and its important. (2 mks)\nb. Identify and explain the functions of the Data Link Layer of the OSI model (10 mks)\nc. Transport Layer of the OSI model's Connection-Oriented Service (3 mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3",
+      "marks": 15,
+      "topic": "routing",
+      "text": "3a. In Packet Switching networks, data packets move from one hop to the other. Processing takes place at each of the hops which might induce a kind of delay. Suggest how these delays could be minimized in packet-switched network. (3 mks)\nb. One of the routing techniques is Static routing. Describe Static routing. State its advantages too. (7mks)\nc. What are the advantages and disadvantages of dynamic routing? (5 mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4",
+      "marks": 15,
+      "topic": "network-layer-protocols-and-ip-addressing",
+      "text": "4a. Briefly explain RARP protocol (5 mks)\nb. In Science, we have various variable measurements taken in International Standard unit. Specifically, in Data communications, routing metrics and costs are variables used for determining the best route to the destination. Suggest the most common routing metrics (10 mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "5",
+      "marks": 15,
+      "topic": "network-layer-protocols-and-ip-addressing",
+      "text": "5a. How does ARP protocol work? (3 mks)\nb. In networking, ping utility is used to check the connectivity between two points, A and B, on a network. Ping works by sending an Internet Control Message Protocol (ICMP) Echo Request to a specified interface on the network and waiting for a reply. It is usually issued in the form, ping www.yahoo.com. In this respect, www.yahoo.com serves as the name of a server somewhere on the inter-network. This utility makes use of Internet Control Message Protocol (ICMP) to handle both control and error messages, but its main function is to report the error back to the sender but not to correct them. Explain the Source Quench error message as handled by the ICMP protocol. (4 mks)\nc. The lowest layer of the OSI reference model is the physical layer. Identify and explain the functions of the physical layer of the OSI model (8 mks)\n[A second printing of Question 5 in the folder asks instead: b. ... Time exceeded is one of the error types ICMP handles. In what circumstances are Time Exceeded messages generated on a network? (4 mks) c. One of the functions of Transmission Control Protocol (TCP) is, end-to-end flow control. How does the flow control mechanism work on an IP networks. (7 mks) d. Identify the layers of the TCP/IP model for the Internet (1 mks)]"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1(a)–(d)",
+      "marks": 15,
+      "topic": "transmission-media",
+      "text": "1(a). Describe 5 Components of Data Communications System and 3 important Network Criteria in Data communication. 4mks.\n1(b). With the aid of a diagram draw the classes of transmission media and propagation modes. What is the difference between multimode step-index fiber and multimode graded-index fiber. 4mks.\n1(c). Consider the Virtual switching Network below. Construct the label switching table and mention 1 advantage of the Network. 4mks. [two switches with inputs IN_A and IN_B and outputs OUT_A and OUT_B, carrying labelled packets; diagram in the original paper]\n1(d). Mention Three strategies used to handle the transition from IP version 4 to version 6. 3mks"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1(e)–(g)",
+      "marks": 15,
+      "topic": "switching",
+      "text": "1(e). A setup request frame is sent from source to destination. Explain the process of setup request in the switching process below. 5mks. [the same virtual-circuit network as the 2021/22 paper, Question 1(e); diagram in the original paper]\n1(f). Explain the following Protocol of TCP/IP in the Network layer: Address resolution protocol (ARP), Reverse Address resolution protocol(RARP), Internet Control Message Protocol (ICMP), Internet Group Message Protocol (IGMP). 6mks.\n1(g). With the aid of a table, show the comparism between datagram network and virtual circuit network considering the following issues: congestion control, Quality of Service, Routing and Addressing. 4mks."
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "marks": 15,
+      "topic": "osi-and-tcp-ip-models",
+      "text": "2(a). Mention and explain three major fields that are related to fragmentation and reassembly of IPv4 Packets. 6mks.\n2(b). Explain and mention the functionality of Layer 2, Layer 3 and Layer 4 of the OSI model. 6mks.\n2(c). Mention three factors that Data rate depends on in data communication: 3mks."
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "marks": 15,
+      "topic": "data-communication-fundamentals",
+      "text": "3(a). What is the propagation time and the transmission time for a 1.5-kbyte message (an e-mail) if the bandwidth of the network is 1 Gbps? Assume that the distance between the sender and the receiver is 15,000 km and light travels at 2.4 x 10^8 m/s. 6mks\n3(b). What is out-of-order delivery and how is out-of-order delivery fixed? Mention three security risks in packet switching. 4mks\n3(c). Explain the concept of initialization, sharing and updating in distance vector routing to achieve minimum distance route. What is periodic and triggered update in distance vector routing. 5mks."
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "marks": null,
+      "topic": "network-layer-protocols-and-ip-addressing",
+      "text": "4.(a) Find the class of each Address: (a) 227.34.78.7 (b). 246.7.3.8 (c) 129.6.8.4 (d) 198.7.6.9.23. (e) 4.23.145.90. 5mks.\n4(b). Mention three restrictions in classless addressing\n4(c). Find the error, if any, in the following IPv4 addresses. a. 111.56.045.78 b. 221.34.7.8.20 c. 75.45.301.14 d. 11100010.23.14.67"
+    },
+    {
+      "year": "2025 test",
+      "number": "17–20",
+      "marks": 15,
+      "topic": "switching",
+      "text": "17. What protocol is typically used in circuit switching? Why is circuit switching not used for the internet? Mention two kind of service benefit from circuit switching. 4mks\n18. What is call setup delay? What is the difference between circuit and message switching? What is space division switching? 4mks\n19. What is the difference between connectionless and connection-oriented services? Which type of service is provided by IPv4? Which type of service does IPv6 provide? 4mks\n20. Mention three strategies used to handle the transition from IP version 4 to version 6. 3mks"
+    }
+  ]
+}

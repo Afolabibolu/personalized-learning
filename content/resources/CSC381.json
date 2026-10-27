@@ -1,0 +1,103 @@
+{
+  "code": "CSC 381",
+  "topics": {
+    "introduction-and-applications": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Introduction to Computer Graphics | Computer Graphics @GateSmashers (Gate Smashers)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wibh3x3h03I",
+        "source": "links.csv"
+      }
+    ],
+    "graphics-hardware-and-software": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Raster Scan Display | CG | Computer Graphics | Lec-07 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sXZFgrkSVLk",
+        "source": "links.csv"
+      }
+    ],
+    "output-primitives-and-line-drawing": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Bresenham's Line Algorithm | Introduction | CG | Computer Graphics | Lec-16 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ujyCaZJIDcg",
+        "source": "links.csv"
+      }
+    ],
+    "polygons-and-filling": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: scan line polygon fill algorithm in computer graphics(✔) | computer graphics notes (QuickCS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PZZA92YS9do",
+        "source": "links.csv"
+      }
+    ],
+    "geometric-transformations": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Homogeneous Coordinates | CG | Computer Graphics | Lec-25 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=p4NG28KeruY",
+        "source": "links.csv"
+      }
+    ],
+    "3d-modelling-and-rendering": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Z Buffer | Method | CG | Computer Graphics | Lec-53 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FqDNXXgS5dw",
+        "source": "links.csv"
+      }
+    ],
+    "computational-geometry": [
+      {
+        "title": "Computer Graphics past questions folder",
+        "type": "past_questions",
+        "url": "https://drive.google.com/drive/folders/1EP-0PilEp7x0L5vDmVwiM64kAasb8zWa",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Convex Hull Algorithm - Graham Scan and Jarvis March tutorial (Stable Sort)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=B2AJoQSZf4M",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

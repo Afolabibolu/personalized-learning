@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An image stored as a grid of pixels is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Raster image"
+      },
+      {
+        "key": "b",
+        "text": "Vector image"
+      },
+      {
+        "key": "c",
+        "text": "Polygon mesh"
+      },
+      {
+        "key": "d",
+        "text": "Bézier curve"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Vector images are built from geometric primitives.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which algorithm finds straight lines such as building edges in an image?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hough transform"
+      },
+      {
+        "key": "b",
+        "text": "Bresenham's algorithm"
+      },
+      {
+        "key": "c",
+        "text": "Flood fill"
+      },
+      {
+        "key": "d",
+        "text": "Z-buffer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used in automatic building detection.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 2b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Vector images can be scaled without losing quality.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They are described geometrically, not by pixels.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Testing a robot in a virtual 3D world before using real hardware is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simulation"
+      },
+      {
+        "key": "b",
+        "text": "Rasterisation"
+      },
+      {
+        "key": "c",
+        "text": "Clipping"
+      },
+      {
+        "key": "d",
+        "text": "Antialiasing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is cheaper and safer.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 2a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of computer graphics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Computer-aided design"
+      },
+      {
+        "key": "b",
+        "text": "Film special effects"
+      },
+      {
+        "key": "c",
+        "text": "Medical visualisation"
+      },
+      {
+        "key": "d",
+        "text": "Compiling source code"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Compiling is not a graphics task.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a step in detecting buildings from aerial images?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bresenham line drawing"
+      },
+      {
+        "key": "b",
+        "text": "Edge detection"
+      },
+      {
+        "key": "c",
+        "text": "Segmentation and classification"
+      },
+      {
+        "key": "d",
+        "text": "Shape regularisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Bresenham draws lines rather than detecting them.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 2b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Building a map of the surroundings while tracking the robot's position is",
+    "options": [
+      {
+        "key": "a",
+        "text": "SLAM"
+      },
+      {
+        "key": "b",
+        "text": "CAD"
+      },
+      {
+        "key": "c",
+        "text": "GIS"
+      },
+      {
+        "key": "d",
+        "text": "VRAM"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Simultaneous localisation and mapping.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 2a)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Non-interactive graphics lets the user control the image in real time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is interactive graphics.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A system whose failure may cause injury or death is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Safety-critical"
+      },
+      {
+        "key": "b",
+        "text": "Business-critical"
+      },
+      {
+        "key": "c",
+        "text": "Mission-critical"
+      },
+      {
+        "key": "d",
+        "text": "Non-critical"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An air-bag controller is an example.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 2b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The probability that a system is up and able to deliver services when requested is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "Availability"
+      },
+      {
+        "key": "b",
+        "text": "Reliability"
+      },
+      {
+        "key": "c",
+        "text": "Safety"
+      },
+      {
+        "key": "d",
+        "text": "Survivability"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Reliability is correct service over a given time.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 1b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The four principal dimensions of dependability are availability, reliability, safety and security.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Other properties extend the list.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 1b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A system's ability to keep delivering services while under attack is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Survivability"
+      },
+      {
+        "key": "b",
+        "text": "Repairability"
+      },
+      {
+        "key": "c",
+        "text": "Usability"
+      },
+      {
+        "key": "d",
+        "text": "Portability"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is one of the further dependability properties.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 1c)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reasons for using formal methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They remove ambiguity"
+      },
+      {
+        "key": "b",
+        "text": "They reveal requirement errors early"
+      },
+      {
+        "key": "c",
+        "text": "They allow proof against the specification"
+      },
+      {
+        "key": "d",
+        "text": "They need no specialist skills"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They do need specialist skills.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 4b)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a dependability property?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Colourfulness"
+      },
+      {
+        "key": "b",
+        "text": "Repairability"
+      },
+      {
+        "key": "c",
+        "text": "Maintainability"
+      },
+      {
+        "key": "d",
+        "text": "Error tolerance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Survivability is another property.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 1c)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using spare capacity so a system keeps working when a part fails is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Redundancy"
+      },
+      {
+        "key": "b",
+        "text": "Diversity"
+      },
+      {
+        "key": "c",
+        "text": "Ambiguity"
+      },
+      {
+        "key": "d",
+        "text": "Prototyping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Diversity uses different implementations of the same function.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "A car air-bag controller is best developed with an informal, trial-and-error process.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Safety-critical systems suit formal methods or a disciplined model.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 2b)"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "code": "CSC 334",
+  "books": {
+    "stallings": {
+      "title": "Computer Organization and Architecture",
+      "authors": "William Stallings",
+      "edition": "10th edition",
+      "publisher": "Pearson",
+      "year": 2016,
+      "listed_in_course_files": true
+    },
+    "deitel": {
+      "title": "Java How to Program",
+      "authors": "Paul Deitel and Harvey Deitel",
+      "edition": "6th edition",
+      "publisher": "Prentice Hall",
+      "year": 2005
+    },
+    "kerrisk": {
+      "title": "The Linux Programming Interface",
+      "authors": "Michael Kerrisk",
+      "edition": "1st edition",
+      "publisher": "No Starch Press",
+      "year": 2010
+    }
+  },
+  "topics": {
+    "computer-organisation-and-ports": [
+      {
+        "book": "stallings",
+        "read": "Chapters on processor structure and the memory hierarchy (register organisation, cache and internal memory)",
+        "why": "The course book lists Stallings for registers, the PSW and the memory hierarchy."
+      }
+    ],
+    "memory-segments-and-assembly-basics": [
+      {
+        "book": "stallings",
+        "read": "Chapters on instruction sets and assembly language",
+        "why": "Instruction formats, x86 registers and the link between assembly and machine code."
+      }
+    ],
+    "assembly-instructions": [
+      {
+        "book": "stallings",
+        "read": "Chapters on instruction sets: addressing modes and formats",
+        "why": "Register, immediate and memory addressing and the x86 instruction types the course uses."
+      }
+    ],
+    "processes-threads-and-concurrency": [
+      {
+        "book": "deitel",
+        "read": "Chapter 23: Multithreading (introduction and thread states)",
+        "why": "The course book's thread units are taken from Deitel's multithreading chapter."
+      }
+    ],
+    "java-threads-and-synchronization": [
+      {
+        "book": "deitel",
+        "read": "Chapter 23: Multithreading",
+        "why": "Thread states, priorities, executors, locks, conditions and the producer/consumer examples, as in the course book."
+      }
+    ],
+    "network-programming-in-java": [
+      {
+        "book": "deitel",
+        "read": "Chapter 24: Networking",
+        "why": "URLs, stream-socket servers and clients and datagram programs; the course book names Java How to Program, Sixth Edition."
+      }
+    ],
+    "unix-processes-and-ipc": [
+      {
+        "book": "kerrisk",
+        "read": "Chapters 20–28 (signals and process creation) and 43–54 (interprocess communication)",
+        "why": "fork, exec, vfork, signals, pipes, message queues and shared memory, which the 2024/25 paper asks about."
+      }
+    ]
+  }
+}

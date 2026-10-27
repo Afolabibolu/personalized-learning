@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which was the first operational general-purpose electronic computer, built with vacuum tubes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ENIAC"
+      },
+      {
+        "key": "b",
+        "text": "EDSAC"
+      },
+      {
+        "key": "c",
+        "text": "UNIVAC I"
+      },
+      {
+        "key": "d",
+        "text": "Z1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "EDSAC was the first fully operational stored-program computer.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "CPU time equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "Instruction count × CPI ÷ clock rate"
+      },
+      {
+        "key": "b",
+        "text": "Clock rate × CPI"
+      },
+      {
+        "key": "c",
+        "text": "MIPS × instruction count"
+      },
+      {
+        "key": "d",
+        "text": "CPI ÷ clock rate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It can also be written IC × CPI × cycle time.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Machines with separate memories for instructions and data are said to use the Harvard architecture.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The name comes from Harvard's MARK III and IV.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Machine A: 50 ns cycle, CPI 4.0. Machine B: 65 ns cycle, CPI 2.5. Which is faster, and by about how much?",
+    "options": [
+      {
+        "key": "a",
+        "text": "B, about 1.23 times"
+      },
+      {
+        "key": "b",
+        "text": "A, about 1.23 times"
+      },
+      {
+        "key": "c",
+        "text": "B, about 2 times"
+      },
+      {
+        "key": "d",
+        "text": "They are equal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A takes 200 ns per instruction, B 162.5 ns.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are performance measures discussed in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CPI"
+      },
+      {
+        "key": "b",
+        "text": "MIPS"
+      },
+      {
+        "key": "c",
+        "text": "MFLOPS"
+      },
+      {
+        "key": "d",
+        "text": "Hit ratio of the disk"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "None of them alone defines a machine's performance consistently.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a microprocessor or computer from the history in Unit 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java Virtual Machine"
+      },
+      {
+        "key": "b",
+        "text": "Intel 4004"
+      },
+      {
+        "key": "c",
+        "text": "PDP-8"
+      },
+      {
+        "key": "d",
+        "text": "Cray-1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The JVM is software.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "MIPS equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clock rate ÷ (CPI × 10⁶)"
+      },
+      {
+        "key": "b",
+        "text": "CPI × clock rate"
+      },
+      {
+        "key": "c",
+        "text": "Instruction count ÷ CPI"
+      },
+      {
+        "key": "d",
+        "text": "10⁶ ÷ clock rate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It counts millions of instructions per second.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A high MIPS rating alone always means a machine runs programs faster.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "MIPS ignores how much work each instruction does.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 1; 2020/21 paper"
+  }
+]

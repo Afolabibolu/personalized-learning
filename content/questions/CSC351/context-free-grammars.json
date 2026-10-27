@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which grammar generates {0^n#1^n | n ≥ 0}?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A → 0A1 | B, B → #"
+      },
+      {
+        "key": "b",
+        "text": "A → 0A | 1A | #"
+      },
+      {
+        "key": "c",
+        "text": "A → A0 | 1"
+      },
+      {
+        "key": "d",
+        "text": "A → 01A | #"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each step adds a 0 on the left and a 1 on the right.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A grammar is ambiguous if some string has",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two or more different leftmost derivations"
+      },
+      {
+        "key": "b",
+        "text": "A rightmost derivation"
+      },
+      {
+        "key": "c",
+        "text": "Only one parse tree"
+      },
+      {
+        "key": "d",
+        "text": "No derivation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Two leftmost derivations means two parse trees.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a leftmost derivation, the leftmost variable is replaced at every step.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A rightmost derivation replaces the rightmost variable.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Chomsky normal form, every production is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A → BC or A → a"
+      },
+      {
+        "key": "b",
+        "text": "A → aB only"
+      },
+      {
+        "key": "c",
+        "text": "A → b D1…Dn"
+      },
+      {
+        "key": "d",
+        "text": "A → ε only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "GNF has productions A → b D1…Dn.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in simplifying a CFG?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Removing useless symbols"
+      },
+      {
+        "key": "b",
+        "text": "Removing unit productions"
+      },
+      {
+        "key": "c",
+        "text": "Removing null productions"
+      },
+      {
+        "key": "d",
+        "text": "Adding ε to every rule"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are reduction, unit and null removal.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a component of a context-free grammar?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A stack"
+      },
+      {
+        "key": "b",
+        "text": "Terminals"
+      },
+      {
+        "key": "c",
+        "text": "Non-terminals"
+      },
+      {
+        "key": "d",
+        "text": "Productions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The fourth component is the start symbol.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A production of the form A → B, with both non-terminals, is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unit production"
+      },
+      {
+        "key": "b",
+        "text": "Null production"
+      },
+      {
+        "key": "c",
+        "text": "Useless production"
+      },
+      {
+        "key": "d",
+        "text": "GNF production"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is removed by adding A → x for each B → x.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "A context-free language is inherently ambiguous if at least one of its grammars is ambiguous.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Every grammar for it must be ambiguous.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 9"
+  }
+]
