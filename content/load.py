@@ -14,6 +14,7 @@ Uses the service role key from content/.env. Safe to run again: rows are
 matched on their natural keys (course code, topic slug, resource url, quiz
 kind, question stem) and updated in place. A question removed from its file
 is set back to draft rather than deleted, because old answers may point to it.
+A topic removed from its course file is deleted if no student has used it.
 """
 
 import json
@@ -67,9 +68,10 @@ def past_questions_resource(course_file: str, topic: dict) -> dict | None:
         return None
     papers = {p["year"]: p for p in data["papers"]}
     # A course with no past papers may have exam-style questions written for practice, labelled as such.
-    label = "Exam-style questions" if data.get("exam_style") else "Past questions"
-    intro = ("Written for practice in the style of a university exam. These are not from a past paper."
-             if data.get("exam_style") else "Copied as written from past papers. Figures are in the original papers.")
+    # A file may set its own "label" and "intro", e.g. review questions copied from a course book.
+    label = data.get("label") or ("Exam-style questions" if data.get("exam_style") else "Past questions")
+    intro = data.get("intro") or ("Written for practice in the style of a university exam. These are not from a past paper."
+                                  if data.get("exam_style") else "Copied as written from past papers. Figures are in the original papers.")
     parts = [f"# {label}: {topic['title']}", "", intro]
     for year in [y for y in papers if any(q["year"] == y for q in questions)]:
         parts += ["", f"## {year} · {papers[year]['paper']}", ""]
@@ -167,6 +169,24 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
             db.table("resources").delete().eq("id", stale_id).execute()
 
 
+def remove_dropped_topics(db, course_id: str, code: str, slugs: set[str]) -> None:
+    """Deletes topics no longer in the course file, with their resources, quizzes and questions, but only if no
+    student has used them (no quiz attempts or study logs); a topic in use is kept and reported instead."""
+    for topic in db.table("topics").select("id, slug, title").eq("course_id", course_id).execute().data:
+        if topic["slug"] in slugs:
+            continue
+        quiz_ids = [q["id"] for q in db.table("quizzes").select("id").eq("topic_id", topic["id"]).execute().data]
+        attempts = db.table("quiz_attempts").select("id", count="exact", head=True).in_("quiz_id", quiz_ids).execute().count if quiz_ids else 0
+        logs = db.table("study_logs").select("id", count="exact", head=True).eq("topic_id", topic["id"]).execute().count
+        if attempts or logs:
+            print(f"KEPT {code} / {topic['title']}: no longer in the course file, but has {attempts} quiz attempts "
+                  f"and {logs} study logs")
+            continue
+        db.table("recommendations").delete().eq("topic_id", topic["id"]).execute()
+        db.table("topics").delete().eq("id", topic["id"]).execute()  # resources, quizzes and questions cascade
+        print(f"Removed {code} / {topic['title']}: no longer in the course file")
+
+
 def main() -> int:
     import argparse
     parser = argparse.ArgumentParser()
@@ -229,6 +249,7 @@ def main() -> int:
                 db.table("questions").update({"status": "draft"}).in_("id", stale).execute()
             question_total += len(rows)
 
+        remove_dropped_topics(db, course_id, course["code"], {t["slug"] for t in topics})
         upsert_quiz(db, course_id, None, "diagnostic", f"{course['code']} diagnostic",
                     DIAGNOSTIC_PER_TOPIC * len(topics))
         print(f"{course['code']}: {len(topics)} topics, {question_total} questions, "

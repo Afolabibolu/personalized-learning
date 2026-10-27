@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which theory judges actions by the will behind them rather than by their consequences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deontology"
+      },
+      {
+        "key": "b",
+        "text": "Utilitarianism"
+      },
+      {
+        "key": "c",
+        "text": "Egoism"
+      },
+      {
+        "key": "d",
+        "text": "Hedonism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An act is good if the person had a good reason; it carries a duty.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Under which theory is an action good if it benefits the maximum number of people?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Utilitarianism"
+      },
+      {
+        "key": "b",
+        "text": "Egoism"
+      },
+      {
+        "key": "c",
+        "text": "Emotivism"
+      },
+      {
+        "key": "d",
+        "text": "Relativism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Egoism puts the individual's own happiness first.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of consequentialism in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Egoism"
+      },
+      {
+        "key": "b",
+        "text": "Utilitarianism"
+      },
+      {
+        "key": "c",
+        "text": "Altruism"
+      },
+      {
+        "key": "d",
+        "text": "Deontology"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Deontology ignores consequences.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Relativism holds that right and wrong are relative to society, culture or the individual.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It denies the existence of universal moral norms.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theory holds that ethical statements are neither true nor false but express feelings?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Emotivism"
+      },
+      {
+        "key": "b",
+        "text": "Hedonism"
+      },
+      {
+        "key": "c",
+        "text": "Human nature"
+      },
+      {
+        "key": "d",
+        "text": "Rule utilitarianism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Hedonism holds that pleasure is the only good.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an element of the framework for ethical decision making?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Knowing the parties involved"
+      },
+      {
+        "key": "b",
+        "text": "Being aware of alternatives"
+      },
+      {
+        "key": "c",
+        "text": "Understanding who will be affected"
+      },
+      {
+        "key": "d",
+        "text": "Choosing the cheapest option regardless of others"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The framework weighs ethical dimensions, facts, parties, alternatives and impact.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In altruism, an action is right if its consequences are favourable to",
+    "options": [
+      {
+        "key": "a",
+        "text": "All except the actor"
+      },
+      {
+        "key": "b",
+        "text": "Only the actor"
+      },
+      {
+        "key": "c",
+        "text": "Only the majority"
+      },
+      {
+        "key": "d",
+        "text": "No one"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is one of the three forms of consequentialism discussed.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Ethical reasoning based only on intuition is always correct.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Intuitive reasoning can lead to wrong decisions; ethical reasoning integrates principles.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 3"
+  }
+]

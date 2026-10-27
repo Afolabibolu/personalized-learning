@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A printer made shareable by spooling output to a disk is an example of a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Virtual device"
+      },
+      {
+        "key": "b",
+        "text": "Dedicated device"
+      },
+      {
+        "key": "c",
+        "text": "Shared device"
+      },
+      {
+        "key": "d",
+        "text": "Sequential device"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Virtual devices are dedicated devices transformed into shared devices.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which add up to the time to access a record on a movable-head disk?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Seek time"
+      },
+      {
+        "key": "b",
+        "text": "Search (rotational delay) time"
+      },
+      {
+        "key": "c",
+        "text": "Transfer time"
+      },
+      {
+        "key": "d",
+        "text": "Compaction time"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Seek time does not apply to fixed-head devices.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which disk scheduling policy next serves the request on the track closest to the current one?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SSTF"
+      },
+      {
+        "key": "b",
+        "text": "FCFS"
+      },
+      {
+        "key": "c",
+        "text": "C-SCAN"
+      },
+      {
+        "key": "d",
+        "text": "LOOK"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SSTF suits moderate loads.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Direct memory access lets a control unit transfer data to main memory without the CPU handling each word.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "DMA frees the CPU once reading or writing has begun.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In chained (linked) file storage, what does a null pointer signify?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The last block of the file"
+      },
+      {
+        "key": "b",
+        "text": "A deleted file"
+      },
+      {
+        "key": "c",
+        "text": "A free disk"
+      },
+      {
+        "key": "d",
+        "text": "An access violation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each block points to the next block in the chain.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a physical storage allocation method for files?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Contiguous"
+      },
+      {
+        "key": "b",
+        "text": "Chained"
+      },
+      {
+        "key": "c",
+        "text": "Indexed"
+      },
+      {
+        "key": "d",
+        "text": "Best fit"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Best fit is a memory placement strategy.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which table lists users against files with rights such as read, write, execute and delete?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Access control matrix"
+      },
+      {
+        "key": "b",
+        "text": "Page map table"
+      },
+      {
+        "key": "c",
+        "text": "Job table"
+      },
+      {
+        "key": "d",
+        "text": "Master file directory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A dash means access is not allowed.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the LOOK policy, the arm always travels to the edge of the disk before reversing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "LOOK reverses at the last request; SCAN goes to the edge.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 7"
+  }
+]

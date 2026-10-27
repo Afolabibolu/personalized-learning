@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which regular expression operator has the highest precedence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kleene closure (*)"
+      },
+      {
+        "key": "b",
+        "text": "Concatenation"
+      },
+      {
+        "key": "c",
+        "text": "Union (|)"
+      },
+      {
+        "key": "d",
+        "text": "They are all equal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Concatenation is second and | is lowest; all are left associative.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does x? mean in a regular expression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "At most one occurrence of x"
+      },
+      {
+        "key": "b",
+        "text": "One or more occurrences of x"
+      },
+      {
+        "key": "c",
+        "text": "Zero or more occurrences of x"
+      },
+      {
+        "key": "d",
+        "text": "Exactly two occurrences of x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x* is zero or more and x+ one or more.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which regular expression describes an identifier in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(letter)(letter | digit)*"
+      },
+      {
+        "key": "b",
+        "text": "(digit)(letter)*"
+      },
+      {
+        "key": "c",
+        "text": "(sign)?(digit)+"
+      },
+      {
+        "key": "d",
+        "text": "(letter | digit)+(sign)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(sign)?(digit)+ describes a decimal.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are part of the mathematical model of a finite automaton?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A finite set of states Q"
+      },
+      {
+        "key": "b",
+        "text": "A set of input symbols Σ"
+      },
+      {
+        "key": "c",
+        "text": "A transition function δ"
+      },
+      {
+        "key": "d",
+        "text": "A symbol table"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The model also has a start state q0 and a set of final states qf.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Java regular expressions, \\d matches any digit character.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "\\w matches a word character and \\s white space.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an operation on languages in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Union"
+      },
+      {
+        "key": "b",
+        "text": "Concatenation"
+      },
+      {
+        "key": "c",
+        "text": "Kleene closure"
+      },
+      {
+        "key": "d",
+        "text": "Compaction"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Compaction belongs to memory management.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When the scanner reads 'int' in 'int intvalue;', the rule that decides the token by the longest available match is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Longest match rule"
+      },
+      {
+        "key": "b",
+        "text": "First fit rule"
+      },
+      {
+        "key": "c",
+        "text": "Left factoring rule"
+      },
+      {
+        "key": "d",
+        "text": "Panic mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Rule priority also gives reserved words priority over identifiers.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a finite automaton diagram, final states are drawn as single circles with no arrows.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Final states are drawn as double circles.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 4"
+  }
+]

@@ -3,7 +3,7 @@ import remarkGfm from 'remark-gfm'
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getResource } from '../api/knowledge'
-import { RESOURCE_LABEL, ResourceIcon, isExamStyle } from '../components/ResourceList'
+import { RESOURCE_LABEL, ResourceIcon, isExamStyle, practiceLabel } from '../components/ResourceList'
 import { ButtonLink, Card, ErrorMessage, Spinner } from '../components/ui'
 
 /** In-app viewer for study notes and past questions (Markdown). */
@@ -25,7 +25,7 @@ export function ResourcePage() {
       <div className="mb-4 flex items-center gap-3">
         <ResourceIcon type={data.type} />
         <div>
-          <p className="text-xs font-semibold tracking-wide text-brand-600 uppercase">{isExamStyle(data) ? 'Exam-style questions' : RESOURCE_LABEL[data.type]}</p>
+          <p className="text-xs font-semibold tracking-wide text-brand-600 uppercase">{isExamStyle(data) ? practiceLabel(data) : RESOURCE_LABEL[data.type]}</p>
           <p className="text-sm text-slate-500">{topic.course.code} · {topic.course.title}</p>
         </div>
       </div>

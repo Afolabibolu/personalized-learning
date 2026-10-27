@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is A * (B + C / D) in Polish (postfix) notation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ABCD/+*"
+      },
+      {
+        "key": "b",
+        "text": "AB*CD/+"
+      },
+      {
+        "key": "c",
+        "text": "*A+B/CD"
+      },
+      {
+        "key": "d",
+        "text": "ABC+D/*"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Operands keep their order and operators follow their operands in evaluation order.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which intermediate form has the fields operator, operand1, operand2, result?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quadruple"
+      },
+      {
+        "key": "b",
+        "text": "Triple"
+      },
+      {
+        "key": "c",
+        "text": "Polish notation"
+      },
+      {
+        "key": "d",
+        "text": "Parse tree"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A triple has op, arg1 and arg2, with results referred to by position.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are semantic errors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Type mismatch"
+      },
+      {
+        "key": "b",
+        "text": "Undeclared variable"
+      },
+      {
+        "key": "c",
+        "text": "Multiple declaration in one scope"
+      },
+      {
+        "key": "d",
+        "text": "A misspelt keyword"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A misspelt keyword is a lexical error.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "Synthesized attributes take their values from the child nodes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Inherited attributes take values from the parent or siblings.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which semantic routine checks the symbol table for a name and returns its address?",
+    "options": [
+      {
+        "key": "a",
+        "text": "LOOK_UP(name, p)"
+      },
+      {
+        "key": "b",
+        "text": "INSERT(name, p)"
+      },
+      {
+        "key": "c",
+        "text": "ENTER(op, a, b, c)"
+      },
+      {
+        "key": "d",
+        "text": "CHECK_TYPE(p, n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "INSERT adds a name; CHECK_TYPE checks an entry's type.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an intermediate language for semantic analysis in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Polish notation"
+      },
+      {
+        "key": "b",
+        "text": "Quadruples"
+      },
+      {
+        "key": "c",
+        "text": "Triples"
+      },
+      {
+        "key": "d",
+        "text": "BNF"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "BNF describes syntax.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why are indirect triples an improvement over triples?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They use pointers, so sub-expressions can be moved during optimization"
+      },
+      {
+        "key": "b",
+        "text": "They use no operators"
+      },
+      {
+        "key": "c",
+        "text": "They need no symbol table"
+      },
+      {
+        "key": "d",
+        "text": "They are evaluated at run time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ordinary triples refer to results by position, which makes code immovable.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "An array index out of range is usually detected by static semantic analysis at compile time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is a dynamic semantic error, detected at run time.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 9"
+  }
+]

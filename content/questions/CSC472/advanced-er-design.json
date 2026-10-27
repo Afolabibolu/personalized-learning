@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Multiplicity is made up of which two constraints?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cardinality and participation"
+      },
+      {
+        "key": "b",
+        "text": "Selection and projection"
+      },
+      {
+        "key": "c",
+        "text": "Atomicity and durability"
+      },
+      {
+        "key": "d",
+        "text": "Union and difference"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cardinality is the maximum; participation is mandatory or optional.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'Newspapers advertise properties for rent' is an example of which kind of relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Many-to-many (*:*)"
+      },
+      {
+        "key": "b",
+        "text": "One-to-one (1:1)"
+      },
+      {
+        "key": "c",
+        "text": "One-to-many (1:*)"
+      },
+      {
+        "key": "d",
+        "text": "Recursive"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A member of staff manages a branch is 1:1.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A model that suggests a relationship between entity types, but with no pathway between certain occurrences, has a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chasm trap"
+      },
+      {
+        "key": "b",
+        "text": "Fan trap"
+      },
+      {
+        "key": "c",
+        "text": "Weak entity"
+      },
+      {
+        "key": "d",
+        "text": "Disjoint constraint"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A fan trap has an ambiguous pathway.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Specialization is a top-down process that maximizes the differences between members of an entity.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Generalization minimizes the differences by finding common characteristics.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about superclasses and subclasses are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A subclass inherits the attributes of its superclass"
+      },
+      {
+        "key": "b",
+        "text": "The superclass/subclass relationship is one-to-one"
+      },
+      {
+        "key": "c",
+        "text": "'Manager IS-A member of staff' expresses one"
+      },
+      {
+        "key": "d",
+        "text": "A subclass must have more attributes than any other entity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The hierarchy is also called an IS-A hierarchy.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a constraint on specialization or generalization?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mandatory participation"
+      },
+      {
+        "key": "b",
+        "text": "Optional participation"
+      },
+      {
+        "key": "c",
+        "text": "Disjoint constraint"
+      },
+      {
+        "key": "d",
+        "text": "Primary key constraint"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The two kinds are participation and disjoint constraints.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'Branch Has Staff', a whole-part relationship, is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aggregation"
+      },
+      {
+        "key": "b",
+        "text": "Specialization"
+      },
+      {
+        "key": "c",
+        "text": "A fan trap"
+      },
+      {
+        "key": "d",
+        "text": "A weak entity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Aggregation represents has-a or is-part-of.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The disjoint constraint applies even when a superclass has only one subclass.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It applies only when there is more than one subclass.",
+    "source": "LN_Week 3- Database Systems.pdf"
+  }
+]

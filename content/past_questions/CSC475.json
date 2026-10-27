@@ -1,0 +1,63 @@
+{
+  "code": "CSC 475",
+  "exam_style": true,
+  "label": "Review questions",
+  "intro": "Copied as written from the self-assessment questions in the course book. These are not from a past paper.",
+  "papers": [
+    {
+      "year": "Course book",
+      "paper": "Self-assessment questions from the CSC 475 course book, copied as written (not from a past paper)",
+      "source": "CSC 476 Computer Ethics DLC book.docx, the self-assessment questions at the end of Units 1 to 8"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Course book",
+      "number": "Unit 1",
+      "topic": "professional-issues",
+      "text": "1. Define professionalism and list three elements of professionalism.\n2. Why are the following concepts important for professionalism? Justify your answers.\n• Commitment\n• Integrity\n• Responsibility\n• Accountability\n3. Discuss the merits of licensing software professionals.\n4. Give an example of a decision that involves the examination of all four categories of codes.\n5. Why is ethical decision making like software engineering?\n6. Why is it so difficult to make an ethical decision in today's technologically driven society?\n7. What role does guilt play in professional decision making? Why it is so important?"
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 2",
+      "topic": "morality-and-the-law",
+      "text": "1. How do morality and law relate to each other?\n2. What is moral relativism?\n3. What is the connection between law and morality?\n4. Why is reasoning so important in morality?\n5. Is morality evolutionary or revolutionary? Discuss.\n6. Happiness is human. Discuss.\n7. What is the role of education in moral behavior?\n8. Show how and why the following rules are culture-free:\n(a) The Golden Rule\n(b) The Bronze Rule\n(c) The Iron Rule.\n9. If you were charged with creating a \"new\" human society, what moral code would you design and why?\n10. We tend to live a moral script everyday. Reflect on what is in your script.\n11. Morality is time sensitive. Discuss.\n12. Study the Native American Ten Commandments and the Christian Ten Commandments. Without comparing them, discuss the common thread between them.\n13. How does guilt help to shape our moral journey?\n14. Discuss the interplay between guilt and conscious.\n15. Natural law is universal. Discuss."
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 3",
+      "topic": "ethics-and-ethical-analysis",
+      "text": "1. How would you define ethics in this age of technological advancement?\n2. Why are acts such as abortion legal in some societies and not in others?\n3. Does technology bring relevant changes in ethics?\n4. What are the merits of computer ethics education?\n5. Why should we study computer ethics?\n6. There are two views on teaching computer ethics. State these views. What view do you agree with and why?"
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 4",
+      "topic": "intellectual-property-rights",
+      "text": "1. Discuss the problems faced by software developers trying to apply for protection under trade secret statutes.\n2. Why is it difficult to apply patent laws to software?\n3. Why is it possible to apply patent law to software?\n4. Is it possible to trademark software?\n5. Discuss the ethical and legal issues surrounding software ownership.\n6. There is a move to do away with the current copyright law. Why?\n7. Why is the copyright law, in its present form, considered to be unenforceable?\n8. What changes would you suggest in the current copyright laws to make it enforceable in cyberspace?"
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 5",
+      "topic": "intellectual-property-rights",
+      "text": "1. Has the Internet made software protection easier or more difficult? Why or why not?\n2. There is a movement (that includes hackers) that is advocating for free software! Discuss the merits of this idea, if any.\n3. Because of income disparities between north and south, and haves and havenots, fair pricing of computer products is impossible. Discuss.\n4. Most copyright violations are found in developing, usually poor, countries. Why?\n5. Does the high price of software marketing in developing countries justify the high rate of software piracy in those countries? Why?\n6. What do you think is the cause of the rising cost of software?\n7. Is globalization a means through which the developed, usually northern, countries will enforce the copyright laws?"
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 6",
+      "topic": "anonymity-security-and-privacy",
+      "text": "1. Define security and privacy. Why are both important in the information age?\n2. What is anonymity? Discuss two forms of anonymity.\n3. Discuss the importance of anonymity on the Internet.\n4. Is total anonymity possible? Is it useful?"
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 7",
+      "topic": "anonymity-security-and-privacy",
+      "text": "1. Is personal privacy dead? Discuss.\n2. List and discuss the major threats to individual privacy.\n3. Identity theft is the fastest growing crime. Why?\n4. Why is it so easy to steal a person's identity?\n5. Suggest steps necessary to protect personal identity.\n6. Governments are partners in the demise of personal privacy. Discuss.\n7. Anonymity is a doubly edged sword. Discuss."
+    },
+    {
+      "year": "Course book",
+      "number": "Unit 8",
+      "topic": "software-risks-and-liabilities",
+      "text": "1. Discuss the difficulties faced by software producers.\n2. Discuss ways software customers can protect themselves from substandard software products\n3. It has been said that software's problems are a direct result of its differences from hardware. Discuss.\n4. Discuss the elements of software quality. How can software quality be a solution to many of software's liability problems?\n5. Do safe software systems imply reliable systems? Why or why not?\n6. Software reliability, especially in critical systems, is vital. Discuss the necessary conditions for reliability.\n7. With the development of scanning and snooping software, computer systems cannot be assured of security. Discuss what steps need to be taken to ensure system safety.\n8. We discussed in this chapter that risk can be both voluntary and involuntary. Give examples in each case."
+    }
+  ]
+}

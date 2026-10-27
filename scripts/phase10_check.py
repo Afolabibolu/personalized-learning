@@ -68,10 +68,11 @@ def content(db) -> None:
     dead = [v["url"] for v in videos if not oembed_ok(v["url"])]
     check("every video is a YouTube link that oEmbed confirms exists", videos and not not_youtube and not dead,
           f"{len(videos)} videos for {len(topics)} topics" + (f"; failing: {not_youtube + dead}" if not_youtube or dead else ""))
-    exam = [r for t in topics for r in t["resources"] if r["type"] == "past_questions" and r["title"].startswith("Exam-style")]
-    labelled = all("These are not from a past paper." in r["body"] for r in exam)
+    exam = [r for t in topics for r in t["resources"]
+            if r["type"] == "past_questions" and r["title"].startswith(("Exam-style", "Review questions"))]
+    labelled = all("not from a past paper" in r["body"].lower() for r in exam)
     courses = sorted({t["courses"]["code"] for t in topics for r in t["resources"] if r in exam})
-    check("exam-style sets are labelled as not from a past paper", exam and labelled,
+    check("exam-style and review-question sets are labelled as not from a past paper", exam and labelled,
           f"{len(exam)} sets in {', '.join(courses)}")
     csc572 = [t for t in topics if t["courses"]["code"] == "CSC 572"]
     check("CSC 572 has 7 topics, including Decision Trees and Random Forests",
@@ -120,9 +121,13 @@ def recommendations(browser, db, folder: Path | None) -> None:
           page.get_by_text("Videos", exact=True).is_visible() and page.get_by_text("Recommended textbooks", exact=True).is_visible())
     shot(folder, page, "p10-03-topic-resources.png", full_page=True)
     page.goto(f"{APP}/knowledge")
-    page.get_by_label("Search topics and resources").fill("8051 Timers")
+    page.get_by_label("Search topics and resources").fill("Economics and Development")
     expect(page.get_by_text("Exam-style questions", exact=True).first).to_be_visible()
     check("a course with no past papers shows 'Exam-style questions', not 'Past questions'",
+          page.get_by_text("Past questions", exact=True).count() == 0)
+    page.get_by_label("Search topics and resources").fill("Device and File Management")
+    expect(page.get_by_text("Review questions", exact=True).first).to_be_visible()
+    check("a course book's own review questions show as 'Review questions', not 'Past questions'",
           page.get_by_text("Past questions", exact=True).count() == 0)
     page.close()
 
@@ -144,7 +149,7 @@ def course_requests(browser, db, folder: Path | None) -> None:
         page.get_by_role("link", name="Request a course").click()
         page.wait_for_url(f"{APP}/courses/request")
         page.get_by_label("Course code").fill("csc 412")
-        page.get_by_label("Course title").fill("Microprocessors and Microcontrollers")
+        page.get_by_label("Course title").fill("Microprocessor Interfacing")
         page.get_by_label("Level").select_option("400")
         page.get_by_label("Semester").select_option("1")
         page.get_by_label("Details (optional)").fill("8086 and 8051; slides are in the department folder.")

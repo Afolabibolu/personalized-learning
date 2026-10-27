@@ -1,0 +1,72 @@
+{
+  "code": "CSC 476",
+  "papers": [
+    {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree First Semester Examination 2022/2023 (CSC 476: Research Methodology). Answer question one and any other two; 2 hours. Question 1 carries 30 marks and Questions 2 to 5 carry 15 marks each.",
+      "source": "CSC 476(2022_2023).pdf (scanned, read from the page images)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2022/2023",
+      "number": "1(a)",
+      "topic": "research-reports-and-project-writing",
+      "text": "a. Outline and briefly explain the basic structure of a research report or write-up. [10%]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(b)",
+      "topic": "ideation-and-the-research-problem",
+      "text": "b. Study the following narrative on a research/project and deduce the research gap, problem definition, goal, research methodology and outcome. [6%]\n\nThe project aimed to address the challenges of resource sharing and data management across multiple departments and campuses within the university. The project involved the design and implementation of a robust network infrastructure, the integration of various computing systems and technologies, and the development of a distributed file system for seamless data sharing and management. The project team also ensured the security and privacy of data by implementing access control mechanisms, data encryption, and secure communication protocols. The project resulted in improved collaboration, resource utilization, and data management across various departments and campuses within the university. The case study highlights the challenges encountered during the implementation process and the lessons learned, including the importance of stakeholder engagement, effective project management, and technical expertise. The successful implementation of this university-wide distributed system has provided a scalable and reliable solution to address the university's resource sharing and data management needs, positioning it for future growth and development.\n(Source: Group 15 Semester Project, 2023 p. 3)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(c)",
+      "topic": "research-reports-and-project-writing",
+      "text": "c. As a prospective finalist, provide a checklist of the guide for selecting a problem for computer science based innovative project/research. [5.5%]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(d)–(e)",
+      "topic": "citation-and-journal-writing",
+      "text": "d. i) Provide an example of the correct way of in-text citation of related multiple sources on common literary information. [1.5%]\nii) How is a source by multiple authors of more than two authors at a first occurrence in literature review best cited? [1.5%]\niii) Specify an example of in-text citing of a source by two authors. [1.5%]\ne. Identify four(4) errors in the following literature extract of a project; [2%]\n\"Building on the works of Frank M. Thiesing and Oliver Vornberger, we can deduce that \"neural networks trained with the back-propagation algorithm are applied to predict the future values of time series that consist of the weekly demand on items.\""
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(f)",
+      "topic": "meaning-and-types-of-research",
+      "text": "f. Distinguish between induction and deduction methods of drawing conclusions from observed data? [2%]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2",
+      "topic": "meaning-and-types-of-research",
+      "text": "a) The approach to conducting research is determined by its purpose. In the light of this assertion, expatiate four (4) types of research and cite suitable examples of each. [8%]\nb) With reference to semester projects in this course, specify the theme of the assigned project and the research methodology you selected. Include necessary documentation [7%]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(a)",
+      "topic": "research-tools-and-methodology",
+      "text": "a) Compare and contrast the following concepts [10.5%]\ni. Basic and Applied research [4%]\nii. Quantitative and Qualitative Methods [4%]\niii. Research Methodology and Research Methods [2.5%]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(b)",
+      "topic": "citation-and-journal-writing",
+      "text": "b) Provide suitable reference for each of the following bibliographic information in APA Style. [4.5%]\ni) Website article without author or date\nii) Wikipedia entry\niii) Journal article"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4",
+      "topic": "research-tools-and-methodology",
+      "text": "a. Problem definition is critical to an acceptable or valid research, hence enumerate the checklist for creating a problem statement. [3%]\nb. Briefly discuss the advantages of probability sampling over non-probability sampling. [3%]\nc. As a prospective Researcher who should not undermine the indispensability of Literature survey to effective research, unravel the criteria to the conduct of such survey. [5%]\nd. Describe and provide a suitable example for each of the following data collection methods. [4%]\ni) Open-Ended Questions ii) Closed-Ended Questions:"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5",
+      "topic": "research-tools-and-methodology",
+      "text": "a. Enumerate eight (8) types of Research Instruments [2.5%]\nb. Briefly elucidate three (3) Techniques for developing Questionnaires [4.5%]\nc. 'A literature review or survey is an organised write-up showing previous work done concerning a research topic or question in your field'. As a prospective final year project student, generate a checklist of the criteria to guide you when undertaking a Literature survey. [7%]\nd. Briefly state the requirement for writing a legitimate paraphrase? [1%]"
+    }
+  ]
+}

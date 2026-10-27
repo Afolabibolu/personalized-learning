@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a relation instance, the number of rows is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cardinality"
+      },
+      {
+        "key": "b",
+        "text": "Degree"
+      },
+      {
+        "key": "c",
+        "text": "Arity"
+      },
+      {
+        "key": "d",
+        "text": "Schema"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The number of fields is the degree (arity).",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If {sid} is a key for Students, then {sid, gpa} is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Superkey"
+      },
+      {
+        "key": "b",
+        "text": "Foreign key"
+      },
+      {
+        "key": "c",
+        "text": "Candidate key"
+      },
+      {
+        "key": "d",
+        "text": "Discriminator"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A key must also be minimal; a superkey need not be.",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are SQL options for a foreign key when the referenced tuple is deleted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CASCADE"
+      },
+      {
+        "key": "b",
+        "text": "SET NULL"
+      },
+      {
+        "key": "c",
+        "text": "NO ACTION"
+      },
+      {
+        "key": "d",
+        "text": "PROJECT"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "SET DEFAULT is the fourth.",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  },
+  {
+    "format": "true_false",
+    "stem": "Projection in relational algebra eliminates duplicate rows.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Relations are sets of distinct tuples.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which relational algebra operation selects the rows that satisfy a condition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Selection (σ)"
+      },
+      {
+        "key": "b",
+        "text": "Projection (π)"
+      },
+      {
+        "key": "c",
+        "text": "Cross-product (×)"
+      },
+      {
+        "key": "d",
+        "text": "Union (∪)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Projection keeps columns.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the basic relational algebra operations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Selection"
+      },
+      {
+        "key": "b",
+        "text": "Projection"
+      },
+      {
+        "key": "c",
+        "text": "Set difference"
+      },
+      {
+        "key": "d",
+        "text": "Aggregation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The five basics are selection, projection, cross-product, set difference and union.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An equi-join on all common fields is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Natural join"
+      },
+      {
+        "key": "b",
+        "text": "Theta join"
+      },
+      {
+        "key": "c",
+        "text": "Cross-product"
+      },
+      {
+        "key": "d",
+        "text": "Division"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A condition join is a cross-product followed by a selection.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "true_false",
+    "stem": "By looking at one database instance, we can prove that an integrity constraint always holds.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An instance can show a violation but never prove an IC holds for all instances.",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  }
+]

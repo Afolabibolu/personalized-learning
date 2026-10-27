@@ -1,0 +1,103 @@
+{
+  "code": "CSC 475",
+  "topics": {
+    "professional-issues": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Computer Ethics Fundamentals (Learners Coach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ZiSqjADnlw",
+        "source": "links.csv"
+      }
+    ],
+    "morality-and-the-law": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: What is the difference between Ethics, Morality and the Law? (The Ethics Centre)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Xki2fRA0bY8",
+        "source": "links.csv"
+      }
+    ],
+    "ethics-and-ethical-analysis": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Different Ethical Theories & Approaches (Christopher Kalodikis)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FRd8MmmkXs0",
+        "source": "links.csv"
+      }
+    ],
+    "intellectual-property-rights": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Difference Between Copyright vs. Trademark vs. Patent (Business Lawyer For Entrepreneurs)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gXV21NqsoLI",
+        "source": "links.csv"
+      }
+    ],
+    "anonymity-security-and-privacy": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: The Beginner’s Guide to Digital Privacy (Techlore)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=u8_9AQYLSbo",
+        "source": "links.csv"
+      }
+    ],
+    "software-risks-and-liabilities": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: When Software Kills:  Fatal Bugs in the Therac-25 (Dave's Garage)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UXt5SG0qlR0",
+        "source": "links.csv"
+      }
+    ],
+    "codes-of-ethics": [
+      {
+        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: ACM IEEE professional ethics (CKnow)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=190mtY6zSG4",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

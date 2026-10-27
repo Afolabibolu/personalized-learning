@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three basic requirements of a professional?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Highly developed skills and deep knowledge"
+      },
+      {
+        "key": "b",
+        "text": "Autonomy"
+      },
+      {
+        "key": "c",
+        "text": "Observance of a code of conduct"
+      },
+      {
+        "key": "d",
+        "text": "Owning a company"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These elements have taken different forms as professions evolved.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which code is at the centre of the four concentric circles of codes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The community code"
+      },
+      {
+        "key": "b",
+        "text": "The professional code"
+      },
+      {
+        "key": "c",
+        "text": "The personal code"
+      },
+      {
+        "key": "d",
+        "text": "The institutional code"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The institutional, personal and professional codes surround it in that order.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The four pillars of professionalism are commitment, integrity, responsibility and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Accountability"
+      },
+      {
+        "key": "b",
+        "text": "Profitability"
+      },
+      {
+        "key": "c",
+        "text": "Popularity"
+      },
+      {
+        "key": "d",
+        "text": "Anonymity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Accountability is the obligation to answer for one's responsibilities.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Integrity comes from the Latin integratas, meaning entire, undivided or whole.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its three maxims are vision, love and commitment.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A professional's responsibility for the client's safety from physical and financial harm after a service is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Consequential responsibility"
+      },
+      {
+        "key": "b",
+        "text": "Product responsibility"
+      },
+      {
+        "key": "c",
+        "text": "Service responsibility"
+      },
+      {
+        "key": "d",
+        "text": "Institutional responsibility"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Service and product responsibilities cover delivery and quality.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a sanction a hearing committee may recommend?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Probation"
+      },
+      {
+        "key": "b",
+        "text": "Revocation of certification"
+      },
+      {
+        "key": "c",
+        "text": "Suspension"
+      },
+      {
+        "key": "d",
+        "text": "Promotion"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A request for resignation is another sanction.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Accountability involves outcome measures, performance standards and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Incentives or penalties"
+      },
+      {
+        "key": "b",
+        "text": "Trade secrets"
+      },
+      {
+        "key": "c",
+        "text": "Firewalls"
+      },
+      {
+        "key": "d",
+        "text": "Patents"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Incentives must not create undesirable motives.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A professional should enter commitments easily, without research, to save time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A commitment must not be made easily; the professional should check it is not a Trojan horse.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 1"
+  }
+]

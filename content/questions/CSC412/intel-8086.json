@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How much memory can the 8086 address with its 20-bit address bus?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 MB"
+      },
+      {
+        "key": "b",
+        "text": "64 KB"
+      },
+      {
+        "key": "c",
+        "text": "16 MB"
+      },
+      {
+        "key": "d",
+        "text": "4 GB"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2^20 = 1,048,576 bytes.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which unit of the 8086 fetches instructions and calculates memory addresses?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bus Interface Unit (BIU)"
+      },
+      {
+        "key": "b",
+        "text": "Execution Unit (EU)"
+      },
+      {
+        "key": "c",
+        "text": "ALU"
+      },
+      {
+        "key": "d",
+        "text": "Flag register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The EU decodes and executes instructions.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 11"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are segment registers of the 8086?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CS"
+      },
+      {
+        "key": "b",
+        "text": "DS"
+      },
+      {
+        "key": "c",
+        "text": "SS"
+      },
+      {
+        "key": "d",
+        "text": "SP"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ES is the fourth; SP is the stack pointer.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 8086 BIU can prefetch up to six instruction bytes into a queue.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Overlapping fetch and execution is pipelining.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Applying logic 0 to the MN/MX pin selects",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maximum mode, a multiprocessor configuration"
+      },
+      {
+        "key": "b",
+        "text": "Minimum mode, a single-processor configuration"
+      },
+      {
+        "key": "c",
+        "text": "Reset mode"
+      },
+      {
+        "key": "d",
+        "text": "Halt mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Logic 1 selects minimum mode.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an 8086 addressing mode?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register"
+      },
+      {
+        "key": "b",
+        "text": "Immediate"
+      },
+      {
+        "key": "c",
+        "text": "Based and indexed"
+      },
+      {
+        "key": "d",
+        "text": "Port C upper"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Port C upper belongs to the 8255.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If CS = 348AH, where does the code segment start?",
+    "options": [
+      {
+        "key": "a",
+        "text": "348A0H"
+      },
+      {
+        "key": "b",
+        "text": "0348AH"
+      },
+      {
+        "key": "c",
+        "text": "348AH"
+      },
+      {
+        "key": "d",
+        "text": "8A340H"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The BIU appends four zero bits to the segment register.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A jump instruction makes the prefetched bytes in the 8086 queue useless, so the queue is refilled.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the main drawback of the prefetch queue.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 11"
+  }
+]

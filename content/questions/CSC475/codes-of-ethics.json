@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "When did the ACM Executive Council adopt the revised Code of Ethics described in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "16 October 1992"
+      },
+      {
+        "key": "b",
+        "text": "1 January 2000"
+      },
+      {
+        "key": "c",
+        "text": "12 March 1985"
+      },
+      {
+        "key": "d",
+        "text": "4 July 1976"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The code is supplemented by explanatory guidelines.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are general moral imperatives of the ACM Code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Avoid harm to others"
+      },
+      {
+        "key": "b",
+        "text": "Be honest and trustworthy"
+      },
+      {
+        "key": "c",
+        "text": "Respect the privacy of others"
+      },
+      {
+        "key": "d",
+        "text": "Maximize company profit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Others include honoring property rights and confidentiality.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'Access computing and communication resources only when authorized to do so' belongs to which part of the ACM Code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "More specific professional responsibilities"
+      },
+      {
+        "key": "b",
+        "text": "General moral imperatives"
+      },
+      {
+        "key": "c",
+        "text": "Organizational leadership imperatives"
+      },
+      {
+        "key": "d",
+        "text": "Penal code"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is responsibility 2.8.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "Codes of ethics are followed by members of professional bodies such as the ACM and IEEE.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They are rules, guidelines, canons and advisories.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the instruments through which ethics is governed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Principles"
+      },
+      {
+        "key": "b",
+        "text": "Public policies"
+      },
+      {
+        "key": "c",
+        "text": "Legal instruments"
+      },
+      {
+        "key": "d",
+        "text": "Firewalls"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Codes of conduct are the fourth.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'Manage personnel and resources to build systems that enhance the quality of working life' is an",
+    "options": [
+      {
+        "key": "a",
+        "text": "Organizational leadership imperative"
+      },
+      {
+        "key": "b",
+        "text": "General moral imperative"
+      },
+      {
+        "key": "c",
+        "text": "Trade secret"
+      },
+      {
+        "key": "d",
+        "text": "Etiquette"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It applies to ACM members who are organizational leaders.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'Contribute to society and human well-being' affirms an obligation to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Protect fundamental human rights and respect the diversity of cultures"
+      },
+      {
+        "key": "b",
+        "text": "Avoid all computing"
+      },
+      {
+        "key": "c",
+        "text": "Patent every idea"
+      },
+      {
+        "key": "d",
+        "text": "Keep all information secret"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It concerns the quality of life of all people.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "The ACM Code's imperatives apply only to hardware engineers, not to computing professionals generally.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They apply to ACM members and computing professionals.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 9"
+  }
+]

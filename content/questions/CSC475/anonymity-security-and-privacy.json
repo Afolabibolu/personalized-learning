@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three elements of security?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "b",
+        "text": "Integrity"
+      },
+      {
+        "key": "c",
+        "text": "Availability"
+      },
+      {
+        "key": "d",
+        "text": "Anonymity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Security prevents unauthorized access, use, alteration and theft.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Being identified by a pen name, code or number, as in witness protection, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pseudo-identity"
+      },
+      {
+        "key": "b",
+        "text": "Untraceable identity"
+      },
+      {
+        "key": "c",
+        "text": "Full disclosure"
+      },
+      {
+        "key": "d",
+        "text": "Intimacy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the most common variant of anonymity.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which firewall type combines packet filtering and proxy functions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stateful inspection"
+      },
+      {
+        "key": "b",
+        "text": "Packet filter"
+      },
+      {
+        "key": "c",
+        "text": "Proxy server"
+      },
+      {
+        "key": "d",
+        "text": "Encryption"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is more complex and advanced.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Asymmetric (public-key) encryption uses a public key and a private key.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Symmetric encryption uses one shared key, whose distribution is a problem.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which element of privacy is the right to control one's personal information?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reserve"
+      },
+      {
+        "key": "b",
+        "text": "Solitude"
+      },
+      {
+        "key": "c",
+        "text": "Intimacy"
+      },
+      {
+        "key": "d",
+        "text": "Anonymity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Solitude is the right to be alone; intimacy the right not to be monitored.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the four cardinal password rules?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Never publicize a password"
+      },
+      {
+        "key": "b",
+        "text": "Never write it down"
+      },
+      {
+        "key": "c",
+        "text": "Never choose one easy to guess"
+      },
+      {
+        "key": "d",
+        "text": "Always share it with colleagues"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth rule is never to keep the same password for long.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The four mechanisms of physical security are deterrence, prevention, detection and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Response"
+      },
+      {
+        "key": "b",
+        "text": "Encryption"
+      },
+      {
+        "key": "c",
+        "text": "Anonymity"
+      },
+      {
+        "key": "d",
+        "text": "Retribution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Response acts when the first three fail.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Anonymity on the Internet through anonymous servers is always 100% anonymous.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Neither anonymity nor pseudonymity is 100% anonymous.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 6"
+  }
+]

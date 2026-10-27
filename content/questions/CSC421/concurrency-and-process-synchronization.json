@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In which multiprocessing configuration does one processor manage all files, devices, memory and the other processors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Master/slave"
+      },
+      {
+        "key": "b",
+        "text": "Loosely coupled"
+      },
+      {
+        "key": "c",
+        "text": "Symmetric"
+      },
+      {
+        "key": "d",
+        "text": "Distributed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "If the master fails, the whole system fails.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A semaphore's P operation does what?",
+    "options": [
+      {
+        "key": "a",
+        "text": "If s > 0, decrements s by 1"
+      },
+      {
+        "key": "b",
+        "text": "Increments s by 1"
+      },
+      {
+        "key": "c",
+        "text": "Sets s to zero"
+      },
+      {
+        "key": "d",
+        "text": "Reads s without changing it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "V increments s by 1; both must be indivisible.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of the symmetric configuration?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is more reliable"
+      },
+      {
+        "key": "b",
+        "text": "It uses resources effectively"
+      },
+      {
+        "key": "c",
+        "text": "It balances loads well"
+      },
+      {
+        "key": "d",
+        "text": "It needs no synchronization"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also degrades gracefully, but shared access requires careful synchronization.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Test-and-set can lead to busy waiting, where waiting processes loop while testing the condition code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "WAIT and SIGNAL were designed to remove busy waiting.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A part of a program that must complete before other processes may use the same resource is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Critical region"
+      },
+      {
+        "key": "b",
+        "text": "Page frame"
+      },
+      {
+        "key": "c",
+        "text": "Working set"
+      },
+      {
+        "key": "d",
+        "text": "Buffer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Synchronization enforces mutual exclusion on critical regions.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a synchronization mechanism described in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Test-and-set"
+      },
+      {
+        "key": "b",
+        "text": "WAIT and SIGNAL"
+      },
+      {
+        "key": "c",
+        "text": "Semaphores"
+      },
+      {
+        "key": "d",
+        "text": "C-SCAN"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "C-SCAN is a disk scheduling policy.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which constructs tell a compiler which instructions may be processed concurrently?",
+    "options": [
+      {
+        "key": "a",
+        "text": "COBEGIN and COEND"
+      },
+      {
+        "key": "b",
+        "text": "BEGIN and END"
+      },
+      {
+        "key": "c",
+        "text": "WAIT and SIGNAL"
+      },
+      {
+        "key": "d",
+        "text": "P and V"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Concurrent processing cut the example expression from seven steps to four.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 12"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the readers and writers problem, a writer may use the resource while readers are reading it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A writer needs exclusive access; readers can share when no writer is active.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 5"
+  }
+]

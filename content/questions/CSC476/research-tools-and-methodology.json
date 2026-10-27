@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Using more than one data collection method to study the same phenomenon is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Triangulation"
+      },
+      {
+        "key": "b",
+        "text": "Plagiarism"
+      },
+      {
+        "key": "c",
+        "text": "Pre-testing"
+      },
+      {
+        "key": "d",
+        "text": "Coding"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Triangulation adds rigour to qualitative research.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "'What do you think about ...?' is an example of which type of question?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Open-ended"
+      },
+      {
+        "key": "b",
+        "text": "Closed-ended"
+      },
+      {
+        "key": "c",
+        "text": "Ranking"
+      },
+      {
+        "key": "d",
+        "text": "Classification"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A closed-ended question asks the respondent to choose an option.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are research instruments for computer science named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Programs"
+      },
+      {
+        "key": "b",
+        "text": "Formal languages"
+      },
+      {
+        "key": "c",
+        "text": "Questionnaires"
+      },
+      {
+        "key": "d",
+        "text": "Diaries of the supervisor"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Systems, evaluated in their context of use, are the fourth.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Methodology explains why a particular research approach was chosen and how it will be implemented.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A method is the approach, procedure and guidelines themselves.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is an advantage of probability sampling over non-probability sampling?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Less bias and better generalization to the population"
+      },
+      {
+        "key": "b",
+        "text": "It needs no sample at all"
+      },
+      {
+        "key": "c",
+        "text": "It relies only on the researcher's convenience"
+      },
+      {
+        "key": "d",
+        "text": "It removes the need for data analysis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Every member has a known chance of selection.",
+    "source": "Akintayo Lanre's 476 Note.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a quantitative data collection tool in Table 5.1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Observation checklist"
+      },
+      {
+        "key": "b",
+        "text": "Questionnaire"
+      },
+      {
+        "key": "c",
+        "text": "Electronic data capture"
+      },
+      {
+        "key": "d",
+        "text": "Participant observation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Participant observation is a qualitative technique.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Something between a model and a method, a not completely detailed structure for reaching a goal, is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Framework"
+      },
+      {
+        "key": "b",
+        "text": "Hypothesis"
+      },
+      {
+        "key": "c",
+        "text": "Instrument"
+      },
+      {
+        "key": "d",
+        "text": "Sample"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Frameworks often contain one or more models.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "In quantitative research the design is flexible and changes as themes emerge.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Quantitative designs are fixed before data collection; qualitative designs are flexible.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 5"
+  }
+]

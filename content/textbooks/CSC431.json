@@ -1,0 +1,63 @@
+{
+  "code": "CSC 431",
+  "books": {
+    "dragon": {
+      "title": "Compilers: Principles, Techniques, and Tools",
+      "authors": "Alfred V. Aho, Monica S. Lam, Ravi Sethi and Jeffrey D. Ullman",
+      "edition": "2nd edition",
+      "publisher": "Pearson",
+      "year": 2006
+    }
+  },
+  "topics": {
+    "translators-and-compiler-overview": [
+      {
+        "book": "dragon",
+        "read": "Chapter 1: Introduction",
+        "why": "Language processors, the structure of a compiler and its phases."
+      }
+    ],
+    "linguistic-analysis-and-grammars": [
+      {
+        "book": "dragon",
+        "read": "Chapter 4: Syntax Analysis (context-free grammars, ambiguity)",
+        "why": "Grammars, derivations and ambiguity as used in compilers."
+      }
+    ],
+    "regular-expressions-and-finite-automata": [
+      {
+        "book": "dragon",
+        "read": "Chapter 3: Lexical Analysis (regular expressions, finite automata)",
+        "why": "Specifying tokens with regular expressions and recognising them with automata."
+      }
+    ],
+    "language-structure-and-lexical-analysis": [
+      {
+        "book": "dragon",
+        "read": "Chapter 3: Lexical Analysis; Chapter 7: Run-Time Environments",
+        "why": "The scanner's work, and storage and parameter passing at run time."
+      }
+    ],
+    "syntax-analysis": [
+      {
+        "book": "dragon",
+        "read": "Chapter 4: Syntax Analysis",
+        "why": "Left recursion, left factoring, FIRST and FOLLOW, top-down and bottom-up parsing."
+      }
+    ],
+    "semantic-analysis-and-intermediate-code": [
+      {
+        "book": "dragon",
+        "read": "Chapter 5: Syntax-Directed Translation; Chapter 6: Intermediate-Code Generation",
+        "why": "Synthesized and inherited attributes, quadruples, triples and type checking."
+      }
+    ],
+    "optimization-code-generation-and-error-handling": [
+      {
+        "book": "dragon",
+        "read": "Chapter 8: Code Generation; Chapter 9: Machine-Independent Optimizations",
+        "why": "Register allocation, peephole optimization and loop optimization."
+      }
+    ]
+  }
+}

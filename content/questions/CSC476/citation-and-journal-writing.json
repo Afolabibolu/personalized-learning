@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How is a source by two authors cited in brackets in APA style?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(Akinola & Usman, 2017)"
+      },
+      {
+        "key": "b",
+        "text": "[1]"
+      },
+      {
+        "key": "c",
+        "text": "(Akinola, 2017; Usman, 2017)"
+      },
+      {
+        "key": "d",
+        "text": "(Akinola et al.)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In running text, 'and' is used: Akinola and Usman (2017).",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How are several sources supporting one point cited together in APA?",
+    "options": [
+      {
+        "key": "a",
+        "text": "In one bracket, alphabetical, separated by semicolons"
+      },
+      {
+        "key": "b",
+        "text": "In separate footnotes"
+      },
+      {
+        "key": "c",
+        "text": "In square brackets with numbers"
+      },
+      {
+        "key": "d",
+        "text": "Only the most recent is cited"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The order follows the first authors' surnames.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the APA reference list are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is in alphabetical order by first author"
+      },
+      {
+        "key": "b",
+        "text": "Works with no author are ordered by title"
+      },
+      {
+        "key": "c",
+        "text": "It contains every in-text reference"
+      },
+      {
+        "key": "d",
+        "text": "It is ordered by page number"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Same-author, same-year works get letters a, b, c.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "IEEE style uses numbered citations in square brackets and a numerically ordered reference list.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The author's name and date are not needed in the text.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Under the course book's APA rules, how is a source with three to five authors cited after the first time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First author followed by et al."
+      },
+      {
+        "key": "b",
+        "text": "All authors again"
+      },
+      {
+        "key": "c",
+        "text": "Only the year"
+      },
+      {
+        "key": "d",
+        "text": "A number in brackets"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Six or more authors use et al. from the first citation.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a citation style named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "APA"
+      },
+      {
+        "key": "b",
+        "text": "MLA"
+      },
+      {
+        "key": "c",
+        "text": "IEEE"
+      },
+      {
+        "key": "d",
+        "text": "HTML"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Chicago/Turabian is the other style named.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A source with no author is cited in the text by",
+    "options": [
+      {
+        "key": "a",
+        "text": "A short title in quotation marks with the year"
+      },
+      {
+        "key": "b",
+        "text": "The publisher's address"
+      },
+      {
+        "key": "c",
+        "text": "Leaving it out"
+      },
+      {
+        "key": "d",
+        "text": "The word Anonymous only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The example is (\"APA Citation\", 2017).",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "In an APA journal article reference, the publisher and location are replaced by the journal title, volume, issue and pages.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example Mendeley Journal, 67(2), 81-95.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 11"
+  }
+]

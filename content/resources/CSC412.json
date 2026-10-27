@@ -1,43 +1,101 @@
 {
   "code": "CSC 412",
   "topics": {
-    "8086-architecture-and-programming": [
+    "microcomputer-and-microprocessor-basics": [
       {
-        "title": "Video: 8086 Microprocessor Architecture - Bharat Acharya (Bharat Acharya Education)",
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Harvard Architecture versus Von Neumann Architecture (Computer Science Lessons)",
         "type": "video",
-        "url": "https://www.youtube.com/watch?v=DmwOSdwzZ3E",
+        "url": "https://www.youtube.com/watch?v=4nY7mNHLrLk",
         "source": "links.csv"
       }
     ],
-    "8086-system-bus-and-multiprocessing": [
+    "embedded-systems-and-microcontrollers": [
       {
-        "title": "Video: Minimum Mode of 8086 Microprocessor: Basics and Overview (Engineering Funda)",
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Difference between Microprocessor and Microcontroller (ALL ABOUT ELECTRONICS)",
         "type": "video",
-        "url": "https://www.youtube.com/watch?v=a5aFYiNG7Go",
+        "url": "https://www.youtube.com/watch?v=dcNk0urQsQM",
         "source": "links.csv"
       }
     ],
-    "interfacing-with-the-8086": [
+    "intel-8085": [
       {
-        "title": "Video: 8255 Programmable Peripheral Interface: Block Diagram and Working Explained (Engineering Funda)",
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Introduction to 8085 Microprocessor (μP) (Neso Academy)",
         "type": "video",
-        "url": "https://www.youtube.com/watch?v=JCAjbuvvXbA",
+        "url": "https://www.youtube.com/watch?v=-Q99XiiKfXg",
         "source": "links.csv"
       }
     ],
-    "8051-microcontroller-architecture": [
+    "memory-and-io-interfacing": [
       {
-        "title": "Video: Introduction to 8051 Microcontroller | Part 1 | Bharat Acharya Education (Bharat Acharya Education)",
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Memory Mapped IO vs IO Mapped IO in 8085 Microprocessor: Key Differences Explained (Engineering Funda)",
         "type": "video",
-        "url": "https://www.youtube.com/watch?v=2-geyR_aM28",
+        "url": "https://www.youtube.com/watch?v=iDzdyRCdqnA",
         "source": "links.csv"
       }
     ],
-    "8051-timers-and-serial-communication": [
+    "interrupt-and-dma-controllers": [
       {
-        "title": "Video: TCON and TMOD Registers of 8051 Microcontroller: Working and Functions for Timer and Counter (Engineering Funda)",
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: 8259 Programmable Interrupt Controller: Block Diagram and Working Explained (Engineering Funda)",
         "type": "video",
-        "url": "https://www.youtube.com/watch?v=rB1M1Gl1XvY",
+        "url": "https://www.youtube.com/watch?v=GPpYzCk38VI",
+        "source": "links.csv"
+      }
+    ],
+    "intel-8086": [
+      {
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Architecture of 8086 Microprocessor: Detailed Block Diagram and Data Flow Model 8086 (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Uuxa90Xl4Rs",
+        "source": "links.csv"
+      }
+    ],
+    "intel-8051": [
+      {
+        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: 8051 microcontroller architecture | Part-1/2 | MPMC | Lec-53 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hZDReT0vzBU",
         "source": "links.csv"
       }
     ]

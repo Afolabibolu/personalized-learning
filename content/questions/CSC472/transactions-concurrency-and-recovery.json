@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which ACID property ensures that either all of a transaction's operations happen or none do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Atomicity"
+      },
+      {
+        "key": "b",
+        "text": "Consistency"
+      },
+      {
+        "key": "c",
+        "text": "Isolation"
+      },
+      {
+        "key": "d",
+        "text": "Durability"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Durability keeps committed updates after a failure.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A schedule is conflict serializable if and only if its precedence graph is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Acyclic"
+      },
+      {
+        "key": "b",
+        "text": "Complete"
+      },
+      {
+        "key": "c",
+        "text": "Disconnected"
+      },
+      {
+        "key": "d",
+        "text": "Cyclic"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A topological sort then gives an equivalent serial order.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are transaction states?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Active"
+      },
+      {
+        "key": "b",
+        "text": "Partially committed"
+      },
+      {
+        "key": "c",
+        "text": "Aborted"
+      },
+      {
+        "key": "d",
+        "text": "Normalized"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Committed and failed are the others.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two-phase locking guarantees freedom from deadlock.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "2PL ensures conflict serializability but deadlocks can still occur.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In two-phase locking, the phase in which a transaction may obtain locks but not release any is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Growing phase"
+      },
+      {
+        "key": "b",
+        "text": "Shrinking phase"
+      },
+      {
+        "key": "c",
+        "text": "Commit phase"
+      },
+      {
+        "key": "d",
+        "text": "Recovery phase"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In the shrinking phase it releases locks and obtains none.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a lock mode or locking protocol in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shared lock"
+      },
+      {
+        "key": "b",
+        "text": "Exclusive lock"
+      },
+      {
+        "key": "c",
+        "text": "Strict two-phase locking"
+      },
+      {
+        "key": "d",
+        "text": "Third normal form"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Third normal form belongs to schema refinement.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which component is responsible for ensuring isolation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Concurrency control"
+      },
+      {
+        "key": "b",
+        "text": "Recovery management"
+      },
+      {
+        "key": "c",
+        "text": "The query optimizer"
+      },
+      {
+        "key": "d",
+        "text": "The DDL compiler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Recovery management ensures durability.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  },
+  {
+    "format": "true_false",
+    "stem": "Log-based recovery and shadow paging are the two approaches to recovery in the course.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Shadow paging keeps a shadow copy of the page table.",
+    "source": "DBMS Lecture Notes.pdf, Unit IV"
+  }
+]

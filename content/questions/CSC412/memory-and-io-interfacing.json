@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In peripheral-mapped (I/O-mapped) I/O, how many input devices can the 8085 address?",
+    "options": [
+      {
+        "key": "a",
+        "text": "256"
+      },
+      {
+        "key": "b",
+        "text": "64K"
+      },
+      {
+        "key": "c",
+        "text": "16"
+      },
+      {
+        "key": "d",
+        "text": "1024"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "8-bit port addresses give 2^8 = 256 inputs and 256 outputs.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which scheme are I/O devices treated as memory locations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Memory-mapped I/O"
+      },
+      {
+        "key": "b",
+        "text": "Peripheral-mapped I/O"
+      },
+      {
+        "key": "c",
+        "text": "DMA"
+      },
+      {
+        "key": "d",
+        "text": "Polling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Any memory instruction can then access the device.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which belong to Group A of the 8255?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Port A"
+      },
+      {
+        "key": "b",
+        "text": "Port C upper (PC7–PC4)"
+      },
+      {
+        "key": "c",
+        "text": "Group A control"
+      },
+      {
+        "key": "d",
+        "text": "Port B"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Group B is port B and port C lower.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Mode 2 of the 8255 is a bidirectional bus mode that uses port A only.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Five port C lines provide the handshaking.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which 8255 mode provides strobed input/output with handshaking?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mode 1"
+      },
+      {
+        "key": "b",
+        "text": "Mode 0"
+      },
+      {
+        "key": "c",
+        "text": "Mode 2"
+      },
+      {
+        "key": "d",
+        "text": "BSR mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mode 0 is basic input/output.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an 8255 port?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Port A"
+      },
+      {
+        "key": "b",
+        "text": "Port B"
+      },
+      {
+        "key": "c",
+        "text": "Port C"
+      },
+      {
+        "key": "d",
+        "text": "Port D"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The 8255 has three ports.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A 74LS138 or NAND gates are used when interfacing memory as a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Address decoder"
+      },
+      {
+        "key": "b",
+        "text": "Data buffer"
+      },
+      {
+        "key": "c",
+        "text": "Clock generator"
+      },
+      {
+        "key": "d",
+        "text": "Flag register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The decoder enables the chip only for its address range.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 8255 control word register can be both written and read.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It can only be written.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 8"
+  }
+]

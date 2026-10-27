@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Unused space inside a fixed partition that is larger than its job is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Internal fragmentation"
+      },
+      {
+        "key": "b",
+        "text": "External fragmentation"
+      },
+      {
+        "key": "c",
+        "text": "Thrashing"
+      },
+      {
+        "key": "d",
+        "text": "Compaction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "External fragmentation is free space split into pieces between allocated areas.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which placement algorithm allocates the first free area large enough for the job?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First fit"
+      },
+      {
+        "key": "b",
+        "text": "Best fit"
+      },
+      {
+        "key": "c",
+        "text": "Worst fit"
+      },
+      {
+        "key": "d",
+        "text": "Next fit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In first fit the free list is sorted by memory location.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which register holds the value added to each address so a moved program reaches the right location?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Relocation register"
+      },
+      {
+        "key": "b",
+        "text": "Bounds register"
+      },
+      {
+        "key": "c",
+        "text": "Instruction register"
+      },
+      {
+        "key": "d",
+        "text": "Status register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The bounds register limits the locations a program may access.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "In single contiguous allocation, only one job is in memory at a time, so there is no multiprogramming.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The CPU is idle while that job waits for I/O.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are disadvantages of relocatable dynamic partitions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Relocation hardware increases the cost"
+      },
+      {
+        "key": "b",
+        "text": "Compaction time may be substantial"
+      },
+      {
+        "key": "c",
+        "text": "Some free space may still be too small for a partition"
+      },
+      {
+        "key": "d",
+        "text": "Internal fragmentation in every partition"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Compaction eliminates fragmentation, but at a cost in hardware and time.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a storage management strategy named in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Placement"
+      },
+      {
+        "key": "b",
+        "text": "Replacement"
+      },
+      {
+        "key": "c",
+        "text": "Fetch"
+      },
+      {
+        "key": "d",
+        "text": "Encryption"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three strategies are placement, replacement and fetch.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Gathering empty blocks of memory into one large block by moving programs is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compaction"
+      },
+      {
+        "key": "b",
+        "text": "Swapping"
+      },
+      {
+        "key": "c",
+        "text": "Spooling"
+      },
+      {
+        "key": "d",
+        "text": "Blocking"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Everything must wait while compaction takes place.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "With fixed partitions, a partition's size can be changed while jobs are running.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Fixed (static) partition sizes are set when the system starts and change only at restart.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 2"
+  }
+]

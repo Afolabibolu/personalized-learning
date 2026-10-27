@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Replacing the leftmost non-terminal first at each step is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Leftmost derivation"
+      },
+      {
+        "key": "b",
+        "text": "Rightmost derivation"
+      },
+      {
+        "key": "c",
+        "text": "Left factoring"
+      },
+      {
+        "key": "d",
+        "text": "Bottom-up parse"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A rightmost derivation replaces the rightmost non-terminal first.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How is the immediately left-recursive production A ⇒ Aα | β rewritten?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A ⇒ βA′ and A′ ⇒ αA′ | ε"
+      },
+      {
+        "key": "b",
+        "text": "A ⇒ αβ"
+      },
+      {
+        "key": "c",
+        "text": "A ⇒ Aβ | α"
+      },
+      {
+        "key": "d",
+        "text": "A ⇒ ε"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Left recursion can send a top-down parser into an endless loop.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about parse trees are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "All leaf nodes are terminals"
+      },
+      {
+        "key": "b",
+        "text": "All interior nodes are non-terminals"
+      },
+      {
+        "key": "c",
+        "text": "An in-order traversal gives the input string"
+      },
+      {
+        "key": "d",
+        "text": "The root is a terminal"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The start symbol is the root.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "A predictive LL(1) parser uses a look-ahead symbol and needs no backtracking.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Recursive descent parsing uses one function per non-terminal.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Bottom-up parsing, which builds the tree from the leaves to the root, is also called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shift-reduce parsing"
+      },
+      {
+        "key": "b",
+        "text": "Recursive descent"
+      },
+      {
+        "key": "c",
+        "text": "Predictive parsing"
+      },
+      {
+        "key": "d",
+        "text": "Panic mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "LR parsers are bottom-up.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a precedence relation in operator precedence parsing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Less than (<)"
+      },
+      {
+        "key": "b",
+        "text": "Greater than (>)"
+      },
+      {
+        "key": "c",
+        "text": "Equal (=)"
+      },
+      {
+        "key": "d",
+        "text": "Not equal to the start symbol"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "At most one of <, > or = may hold between any pair of terminals.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Removing a common prefix shared by several productions so a top-down parser can choose is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Left factoring"
+      },
+      {
+        "key": "b",
+        "text": "Left recursion"
+      },
+      {
+        "key": "c",
+        "text": "Coercion"
+      },
+      {
+        "key": "d",
+        "text": "Strength reduction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It helps the parser decide which production to use.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "A syntax analyser can tell whether a variable was declared before it is used.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Declaration and type checks belong to the semantic analyser.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 8"
+  }
+]

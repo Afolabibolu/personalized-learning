@@ -1,0 +1,103 @@
+{
+  "code": "CSC 472",
+  "topics": {
+    "introduction-to-database-systems": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Three-Schema Architecture & Data Independence (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vuXnRRG-m5M",
+        "source": "links.csv"
+      }
+    ],
+    "er-modelling": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Basic Concepts of Entity-Relationship Model (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wOD02sezmX8",
+        "source": "links.csv"
+      }
+    ],
+    "advanced-er-design": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Extended ER Features (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uujDdvDQsaE",
+        "source": "links.csv"
+      }
+    ],
+    "relational-model-and-algebra": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Relational Algebra Operations - Unary (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8PJGw123zeE",
+        "source": "links.csv"
+      }
+    ],
+    "sql": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: SQL Tutorial for Beginners (Kevin Stratvert)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=h0nxCDiD-zg",
+        "source": "links.csv"
+      }
+    ],
+    "normalization-and-physical-design": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF (Decomplexify)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GFQaEYEc8_8",
+        "source": "links.csv"
+      }
+    ],
+    "transactions-concurrency-and-recovery": [
+      {
+        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: ACID Properties in Databases With Examples (ByteByteGo)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GAe5oB742dw",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

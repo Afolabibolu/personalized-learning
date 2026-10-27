@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Automatic conversion of a value of one data type to another is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Coercion"
+      },
+      {
+        "key": "b",
+        "text": "Binding"
+      },
+      {
+        "key": "c",
+        "text": "Parsing"
+      },
+      {
+        "key": "d",
+        "text": "Bootstrapping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It lets mixed-type expressions give a definite result.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Passing parameters so the called procedure can return values to the caller through them is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Call by reference"
+      },
+      {
+        "key": "b",
+        "text": "Call by value"
+      },
+      {
+        "key": "c",
+        "text": "Call by name"
+      },
+      {
+        "key": "d",
+        "text": "Coercion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Call by value cannot return a value to the calling program.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are tasks of lexical analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Breaking the source program into tokens"
+      },
+      {
+        "key": "b",
+        "text": "Producing tables for the tokens"
+      },
+      {
+        "key": "c",
+        "text": "Presenting the program in an internal form"
+      },
+      {
+        "key": "d",
+        "text": "Generating relocatable machine code"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Code generation comes much later.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Binding a variable to a value usually takes place at execution time and happens over and over.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Other bindings happen when the program is written or compiled.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which scanner routine reports errors with their position in the source text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mark"
+      },
+      {
+        "key": "b",
+        "text": "Get_Next_Char"
+      },
+      {
+        "key": "c",
+        "text": "LOOK_UP"
+      },
+      {
+        "key": "d",
+        "text": "ENTER"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Get_Next_Char delivers the next symbol.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a kind of token listed in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Constants"
+      },
+      {
+        "key": "b",
+        "text": "Identifiers"
+      },
+      {
+        "key": "c",
+        "text": "Keywords"
+      },
+      {
+        "key": "d",
+        "text": "Page frames"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Tokens also include operator and punctuation symbols.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why are regular expressions used for tokens rather than grammars?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lexical rules are simple and regular expressions are concise and give efficient scanners"
+      },
+      {
+        "key": "b",
+        "text": "Grammars cannot describe any tokens"
+      },
+      {
+        "key": "c",
+        "text": "Regular expressions are more powerful than grammars"
+      },
+      {
+        "key": "d",
+        "text": "Tokens have no structure"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Grammars are more powerful, but that power is not needed for tokens.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "The scanner returns eof when it reads an illegal character such as $.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It returns null for an illegal character and eof at the end of the text.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 7"
+  }
+]

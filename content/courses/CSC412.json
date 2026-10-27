@@ -1,78 +1,107 @@
 {
   "code": "CSC 412",
-  "title": "Microprocessors and Microcontrollers",
-  "description": "The Intel 8086 microprocessor (architecture, addressing modes, instructions, system bus, multiprocessor configurations), interfacing peripherals such as the 8255, 8251, 8253, 8279 and 8259, and the 8051 microcontroller and its timers and serial port.",
+  "title": "Microprocessor Interfacing",
+  "description": "Microcomputers and microprocessors, embedded systems and microcontrollers, the Intel 8085, interfacing memory and I/O and the 8255, the 8259A interrupt controller and 8257 DMA controller, the 8086 and the 8051. Built from the CSC 412 course material by Adebola K. Ojo, the case-study slides and the 2022/23 examination.",
   "is_reviewed": false,
+  "level": 400,
   "topics": [
     {
-      "slug": "8086-architecture-and-programming",
-      "title": "8086 Architecture and Programming",
-      "summary": "The 8086, launched by Intel in 1978, is a 16-bit microprocessor with a 20-bit address bus (1 MB) whose Bus Interface Unit prefetches instructions into a queue while the Execution Unit decodes and executes them. It has general-purpose, pointer, index, segment and flag registers, eight addressing modes and eight groups of instructions.",
+      "slug": "microcomputer-and-microprocessor-basics",
+      "title": "Microcomputer and Microprocessor Basics",
+      "summary": "A microcomputer has input, memory, processor (ALU and control unit) and output units, organized in a von Neumann or Harvard architecture. A microprocessor is a single-chip VLSI CPU, made in technologies such as TTL, ECL and CMOS, classified by word length and by instruction set (CISC, RISC, VLIW, superscalar), and chosen by factors such as word size and speed.",
       "subtopics": [
-        "8086 features: 16-bit data bus, 20-bit address bus, 1 MB memory",
-        "Bus Interface Unit, Execution Unit and the instruction queue (pipelining)",
-        "Registers: AX–DX, SP, BP, SI, DI, IP, CS, DS, SS, ES",
-        "The flag register: conditional and control flags",
-        "Memory segmentation and 20-bit physical addresses",
-        "Addressing modes and the instruction set groups"
+        "Types and basic blocks of a microcomputer",
+        "Computer architecture: ISA, microarchitecture, system design",
+        "Von Neumann and Harvard architectures",
+        "What a microprocessor is: bit, word, address, data and control buses",
+        "Technologies and classification of microprocessors",
+        "CISC, RISC, VLIW and superscalar; selection factors"
       ],
-      "lectures": [1]
+      "lectures": []
     },
     {
-      "slug": "8086-system-bus-and-multiprocessing",
-      "title": "8086 System Bus and Multiprocessing",
-      "summary": "The 8086 multiplexes address and data on its pins, runs bus cycles of four T-states with wait states for slow devices, and works in minimum mode (it makes its own control signals) or maximum mode (with an 8288 bus controller). Maximum mode supports coprocessor, closely coupled and loosely coupled multiprocessor configurations.",
+      "slug": "embedded-systems-and-microcontrollers",
+      "title": "Embedded Systems and Microcontrollers",
+      "summary": "An embedded system is a computer designed for specific control functions within a larger system, running firmware from ROM or flash with limited resources. A microcontroller is a processor with on-chip memory and peripherals that works as a standalone system, whereas a microprocessor needs external memory and peripherals but offers more computing power.",
       "subtopics": [
-        "Pin diagram and signal description; multiplexed AD0–AD15",
-        "Bus cycles, T-states and wait states; setup and hold time",
-        "Minimum mode and maximum mode",
-        "Coprocessor (8087) and closely coupled configurations",
-        "Loosely coupled multiprocessor systems",
-        "Advantages of multiprocessor configurations"
+        "What an embedded system is",
+        "Characteristics: dedicated task, real-time constraints, firmware",
+        "User interfaces and applications of embedded systems",
+        "Memory in embedded systems: ROM, flash and RAM",
+        "What a microcontroller is",
+        "Microcontrollers versus microprocessors"
       ],
-      "lectures": [2]
+      "lectures": []
     },
     {
-      "slug": "interfacing-with-the-8086",
-      "title": "Interfacing with the 8086",
-      "summary": "Memory and I/O devices are connected to the 8086 through address decoding, with memory-mapped or I/O-mapped I/O. Programmable peripherals handle parallel I/O (8255 PPI), serial communication (8251 USART), conversion (ADC 0809, DAC 0800), timing (8253/8254), keyboard and display (8279) and interrupts (8259).",
+      "slug": "intel-8085",
+      "title": "The Intel 8085 Microprocessor",
+      "summary": "The 8085 is an 8-bit, 40-pin microprocessor with a 16-bit address bus (64 KB), an accumulator, six general-purpose registers, a flag register (S, Z, AC, P, CY), and 16-bit program counter and stack pointer. Its instructions are classified by function and by length, it has four addressing modes, and five hardware interrupts with TRAP the highest priority.",
       "subtopics": [
-        "Synchronous and asynchronous data transfer",
-        "Memory and I/O interfacing; memory-mapped versus I/O-mapped I/O",
-        "8255 Programmable Peripheral Interface and its modes",
-        "8251 USART for serial communication",
-        "ADC and DAC interfacing; 8253/8254 timer modes",
-        "8279 keyboard/display controller and 8259 interrupt controller"
+        "Features and pin signal groups",
+        "ALU, accumulator, registers and flags",
+        "Program counter, stack pointer and buses; ALE, RD, WR, IO/M, S1 and S0",
+        "Instructions by function and by length (one-, two-, three-byte)",
+        "Addressing modes",
+        "Interrupts: TRAP, RST 7.5, 6.5, 5.5 and INTR; RST instructions"
       ],
-      "lectures": [3]
+      "lectures": []
     },
     {
-      "slug": "8051-microcontroller-architecture",
-      "title": "8051 Microcontroller Architecture",
-      "summary": "The 8051 is Intel's 8-bit microcontroller with 4 KB on-chip ROM, 128 bytes of RAM in four register banks, 32 I/O lines on four ports, two 16-bit timer/counters and a UART. It has special function registers, five groups of instructions and addressing modes from immediate to indexed.",
+      "slug": "memory-and-io-interfacing",
+      "title": "Interfacing Memory and I/O with the 8085",
+      "summary": "Memory chips are interfaced to the 8085 through address decoders (NAND gates or the 74LS138), and I/O devices are interfaced either as peripheral-mapped (I/O-mapped) I/O or as memory-mapped I/O. The 8255 Programmable Peripheral Interface provides three 8-bit ports in two groups, programmed by a control word in modes 0, 1 and 2.",
       "subtopics": [
-        "8051 features and the 8031/8052 variants",
-        "Pin diagram, ports P0–P3 and the EA pin",
-        "Program counter, stack pointer, DPTR, ALU and flags",
-        "Memory structure and the four register banks",
-        "Special function registers",
-        "Instruction groups and addressing modes"
+        "Interfacing memory chips with address decoders",
+        "Peripheral-mapped (I/O-mapped) I/O",
+        "Memory-mapped I/O",
+        "The 8255: ports A, B and C; groups A and B",
+        "8255 modes 0, 1 and 2",
+        "The control word register"
       ],
-      "lectures": [4]
+      "lectures": []
     },
     {
-      "slug": "8051-timers-and-serial-communication",
-      "title": "8051 Timers and Serial Communication",
-      "summary": "The 8051's two timer/counters are set up with TMOD and controlled with TCON; they count machine cycles up to FFFFH and raise the TF flag when they roll over, which can generate delays and square waves. Serial communication uses SCON and SBUF with start and stop bits, at a baud rate set by a timer.",
+      "slug": "interrupt-and-dma-controllers",
+      "title": "The 8259A Interrupt Controller and 8257 DMA Controller",
+      "summary": "The 8259A Programmable Interrupt Controller handles eight prioritized, maskable interrupts and can be cascaded to 64. Direct memory access transfers data between a device and memory without the CPU; the 8257 is a four-channel DMA controller that requests the bus with HOLD and starts after HLDA.",
       "subtopics": [
-        "TMOD: GATE, C/T and the timer modes",
-        "TCON: TR and TF flags",
-        "Timer mode 1 programming steps",
-        "Delay calculation for an 11.0592 MHz crystal",
-        "Generating square waves",
-        "Serial communication: synchronous and asynchronous, baud rate, SCON and SBUF"
+        "The 8259A: eight interrupts, vectoring and priority",
+        "Masking, status registers and cascading",
+        "What DMA is and why it is fastest",
+        "HOLD and HLDA; DMA read, write and verify cycles",
+        "The 8257: four channels, address and terminal count registers",
+        "Mode set register; DMA modes of operation"
       ],
-      "lectures": [5]
+      "lectures": []
+    },
+    {
+      "slug": "intel-8086",
+      "title": "The Intel 8086 Microprocessor",
+      "summary": "The 8086 is a 16-bit microprocessor with a 20-bit address bus (1 MB), divided into a Bus Interface Unit that prefetches up to six instruction bytes and an Execution Unit that executes them, which pipelines fetch and execution. It uses segmented memory, eight addressing modes, and works in minimum (single-processor) or maximum (multiprocessor) mode.",
+      "subtopics": [
+        "Features of the 8086",
+        "BIU, EU and pipelining",
+        "Registers and flags",
+        "Memory segmentation and physical addresses",
+        "Minimum and maximum modes (MN/MX)",
+        "Addressing modes and instruction groups"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "intel-8051",
+      "title": "The Intel 8051 Microcontroller",
+      "summary": "The 8051 is an 8-bit microcontroller with 4 KB of on-chip ROM, four register banks, four I/O ports, two 16-bit timers and a serial port. Its timers are configured with TMOD and TCON, delays are computed from the 1.085 µs machine cycle at 11.0592 MHz, and serial data uses SCON and SBUF.",
+      "subtopics": [
+        "Features; 8031 and 8052",
+        "Ports P0–P3 and the EA pin",
+        "Registers, SFRs and addressing modes",
+        "TMOD and TCON; timer modes",
+        "Programming Timer 0 in mode 1; delay calculation",
+        "Serial communication: SCON and SBUF"
+      ],
+      "lectures": []
     }
   ]
 }

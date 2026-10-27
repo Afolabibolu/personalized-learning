@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Gender coded 1 for male and 2 for female is measured on which scale?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nominal"
+      },
+      {
+        "key": "b",
+        "text": "Ordinal"
+      },
+      {
+        "key": "c",
+        "text": "Continuous"
+      },
+      {
+        "key": "d",
+        "text": "Ratio"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The numbers only name categories.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which scale has rank order, equal units and an absolute zero?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ratio"
+      },
+      {
+        "key": "b",
+        "text": "Nominal"
+      },
+      {
+        "key": "c",
+        "text": "Ordinal"
+      },
+      {
+        "key": "d",
+        "text": "Categorical"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Body Mass Index is an example.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the median are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is the middle value"
+      },
+      {
+        "key": "b",
+        "text": "It is unchanged if the largest value increases"
+      },
+      {
+        "key": "c",
+        "text": "It equals the mean in a normal distribution"
+      },
+      {
+        "key": "d",
+        "text": "It is always larger than the mean"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The magnitudes of the other values are irrelevant to it.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Nominal and ordinal data are analysed with non-parametric tests.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Continuous and ratio data are parametric.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which analysis predicts a dichotomous outcome such as yes or no?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Logistic regression"
+      },
+      {
+        "key": "b",
+        "text": "Linear regression"
+      },
+      {
+        "key": "c",
+        "text": "Pearson correlation"
+      },
+      {
+        "key": "d",
+        "text": "A frequency distribution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Linear regression suits a normally distributed continuous outcome.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of qualitative data analysis in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data management"
+      },
+      {
+        "key": "b",
+        "text": "Data reduction"
+      },
+      {
+        "key": "c",
+        "text": "Coding"
+      },
+      {
+        "key": "d",
+        "text": "Pearson correlation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Pearson correlation is a quantitative test for continuous data.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To test the association between two nominal variables, the course suggests the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Chi-square test"
+      },
+      {
+        "key": "b",
+        "text": "Pearson correlation"
+      },
+      {
+        "key": "c",
+        "text": "Linear regression"
+      },
+      {
+        "key": "d",
+        "text": "Median"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Pearson correlation is for continuous or ratio data.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "A data analysis plan should only be written after all the data has been collected.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It should be created at the start of the project and amended as needed.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 8"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are among the four necessary conditions for deadlock?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mutual exclusion"
+      },
+      {
+        "key": "b",
+        "text": "Resource holding"
+      },
+      {
+        "key": "c",
+        "text": "Circular wait"
+      },
+      {
+        "key": "d",
+        "text": "Compaction"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is no preemption.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which algorithm avoids deadlock by never granting a request that moves the system from a safe to an unsafe state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Banker's algorithm"
+      },
+      {
+        "key": "b",
+        "text": "Havender's algorithm"
+      },
+      {
+        "key": "c",
+        "text": "LRU"
+      },
+      {
+        "key": "d",
+        "text": "SSTF"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Dijkstra's Banker's algorithm needs each job's maximum needs in advance.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Havender's solution prevents deadlock by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Numbering resources and requesting them in order, preventing circular wait"
+      },
+      {
+        "key": "b",
+        "text": "Terminating every job"
+      },
+      {
+        "key": "c",
+        "text": "Swapping pages out"
+      },
+      {
+        "key": "d",
+        "text": "Giving every job all memory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Removing any one of the four conditions prevents deadlock.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "An unsafe state always means the system is already deadlocked.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An unsafe state is not necessarily deadlock, but it is a candidate for one.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a directed resource graph, what shows a deadlock?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A cycle (circle) of requests and holdings"
+      },
+      {
+        "key": "b",
+        "text": "A process with no lines"
+      },
+      {
+        "key": "c",
+        "text": "A resource with no requests"
+      },
+      {
+        "key": "d",
+        "text": "A single solid line"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Processes are circles and resources squares.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the seven cases of deadlock in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Deadlocks on file requests"
+      },
+      {
+        "key": "b",
+        "text": "Deadlocks in spooling"
+      },
+      {
+        "key": "c",
+        "text": "Deadlocks in a network"
+      },
+      {
+        "key": "d",
+        "text": "Deadlocks in page frames"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others include databases, dedicated and multiple devices, and disk sharing.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A job kept waiting indefinitely for resources that never become available suffers",
+    "options": [
+      {
+        "key": "a",
+        "text": "Starvation"
+      },
+      {
+        "key": "b",
+        "text": "Deadlock"
+      },
+      {
+        "key": "c",
+        "text": "Thrashing"
+      },
+      {
+        "key": "d",
+        "text": "A page fault"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Starvation affects a single job; deadlock ties up several.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "When choosing a deadlock victim, the OS usually leaves high-priority jobs and jobs close to completion alone.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The victim should have the least negative effect.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 6"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "code": "CSC 431",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "B.Sc. Degree Examinations, First Semester 2018/2019 (CSC 431: Compiler Construction)",
+      "source": "Compiler Construction Past Questions(1).pdf (question wording only; the answers written in the file are not copied)"
+    },
+    {
+      "year": "2017/2018",
+      "paper": "B.Sc. Degree Examinations, First Semester 2017/2018 (CSC 431: Compiler Construction)",
+      "source": "Compiler Construction Past Questions(1).pdf (question wording only; the answers written in the file are not copied)"
+    },
+    {
+      "year": "2016/2017",
+      "paper": "B.Sc. Degree Examinations, First Semester 2016/2017 (CSC 431: Compiler Construction)",
+      "source": "Compiler Construction Past Questions(1).pdf (question wording only; the answers written in the file are not copied)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2016/2017",
+      "number": "1(a)–(d)",
+      "marks": 20,
+      "topic": "translators-and-compiler-overview",
+      "text": "(a) Discuss with a diagram the general overview of a compiler. [7 marks]\n(b) What are the qualities of a good compiler? [3 marks]\n(c) Give two similarities and two differences between compilers and interpreters. [4 marks]\n(d) Differentiate between\n(i) Compiler Pass and Compiler Phase. [3 marks]\n(ii) Compiler-compilers and Cross compilers [3 marks]"
+    },
+    {
+      "year": "2016/2017",
+      "number": "1(e)",
+      "marks": 10,
+      "topic": "linguistic-analysis-and-grammars",
+      "text": "(e) Given the grammar:\nG = ({S, A, B}, {a, b, c}, { S→aA, A →bA, A →cB, B →bB, B → a}, S)\n(i) Explain the four tuples that make up the grammar G [2 marks]\n(ii) Obtain the derivation trees for the following sentences abbcba and acbbba [8 marks]"
+    },
+    {
+      "year": "2016/2017",
+      "number": "2",
+      "marks": 20,
+      "topic": "syntax-analysis",
+      "text": "Given the grammar:\nG = ({S, T, F}, { +, a, *, (, )}, {S →S + T/T, T →T * F / F, F → ( S ) / a}, S)\nBy Using a precedence matrix algorithm, show if a * (a + a ) is a sentence accepted by the language. [20 marks]"
+    },
+    {
+      "year": "2016/2017",
+      "number": "3",
+      "marks": 20,
+      "topic": "semantic-analysis-and-intermediate-code",
+      "text": "(a) Identify and explain any five significant routines necessary for implementing a semantic analyser. [5 marks]\n(b) Explain any two intermediate languages that can be used in semantic analysis to re-write codes accepted by the syntax analyser. [3 marks each = 6]\n(c) Consider the following FORTRAN code snippet:\nDIMENSION A(100)\nIF (A(I) .LE. A(J) ) GOTO 10\nT = A(2 * (J + 1))\nA(J) = A(I)\nA(2) = T\n10 A = A + B + C\nRe-write the FORTRAN code snippet using a Semantic analysis intermediate language of your choice. [9 marks]"
+    },
+    {
+      "year": "2016/2017",
+      "number": "4",
+      "marks": 20,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) Give any five sources of error in program design and implementation [5 marks]\n(b) What is the purpose of error handling in compiler construction? [3 marks]\n(c) Explain the tasks of error handling routine in compilers. [3 marks]\n(d) Explain the different classifications of errors in compiler error diagnostics [9 marks]"
+    },
+    {
+      "year": "2017/2018",
+      "number": "1(a)–(c)",
+      "marks": 19,
+      "topic": "linguistic-analysis-and-grammars",
+      "text": "(a) Give two reasons why a Computer Science Student must study the design and construction of compilers. [2 marks]\n(b) Give two reasons why knowledge of Linguistic Analysis is very important in Compiler design [2 marks]\n(c) Explain the following types of grammar:\n(i) Context Free Grammar\n(ii) Context Sensitive Grammar\n(iii) Chomsky Type III Grammar\n(iv) Precedence Grammar\n(v) Operator Precedence Grammar [3 marks each = 15]"
+    },
+    {
+      "year": "2017/2018",
+      "number": "1(d)–(e)",
+      "marks": 11,
+      "topic": "linguistic-analysis-and-grammars",
+      "text": "(d) Consider the following grammar productions\nP1: aAb →acdeb\nP2: A → cde\n(i) Identify the type of Grammar applicable to the two productions above [2 marks]\n(ii) Identify one sentence and one sentential form from the productions [2 marks]\n(iii) Apply P1 on the following strings pqaAbr, fgcAb and aAc and make your Conclusions [3 marks]\n(e) What grammar generates the following language? L(G) = {abk abk a / k >= 0} [4 marks]"
+    },
+    {
+      "year": "2017/2018",
+      "number": "2",
+      "marks": 15,
+      "topic": "language-structure-and-lexical-analysis",
+      "text": "(a) What is the importance of BNF in Compiler Construction? Given that A represents Numbers, B and C are digits, interpret the following BNF notations.\n(i) A → B| [+ | - ] . C | B . C\n(ii) A → B{B} [5 marks]\n(b) Write an algorithm that uses a stack to convert an infix expression to its postfix equivalent [5 marks]\n(c) Explain literarily or using algorithm how operator precedence parsing algorithm works [5 marks]"
+    },
+    {
+      "year": "2017/2018",
+      "number": "3",
+      "marks": 15,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) Briefly explain with the aid of a diagram, the different phases of compilation [6 marks]\n(b) Despite the many advantages of interpreters, compilers are still preferred. Discuss. [5 marks]\n(c) Identify and explain the four alternatives for generating object codes in compiler construction [4 marks]"
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "marks": 15,
+      "topic": "semantic-analysis-and-intermediate-code",
+      "text": "(a) Identify and explain any five significant routines necessary for implementing a semantic analyser. [5 marks]\n(c) Explain any two intermediate languages that can be used in semantic analysis to re-write codes accepted by the syntax analyser. [3 marks each = 6]\n(d) Consider the following FORTRAN code snippet:\nDIMENSION A(100)\nIF (A(I) .LE. A(J) ) GOTO 10\nT = A(2 * (J + 1))\nA(J) = A(I)\nA(2) = T\n10 A = A + B + C\nRe-write the FORTRAN code snippet using a Semantic analysis intermediate language of your choice. [4 marks]"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1(a)",
+      "marks": 12,
+      "topic": "semantic-analysis-and-intermediate-code",
+      "text": "(a) Consider the following high level code, re-write the code using a Semantic analysis intermediate language of your choice.\nsum = 0, j = 2\ni = 1\n10 sum += i + j\nj++\ni++\nif i > 5 GOTO 10 [12 marks]"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1(b)–(e)",
+      "marks": 18,
+      "topic": "translators-and-compiler-overview",
+      "text": "(b) What are the qualities of a good compiler? [3 marks]\n(c) Give two similarities and two differences between compilers and interpreters. [4 marks]\n(d) Differentiate between\n(iii) Compiler Pass and Compiler Phase. [3 marks]\n(iv) Compiler-compilers and Cross compilers [3 marks]\n(e) Explain why a compiled program is faster than the interpreted one [5 marks]"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "marks": 20,
+      "topic": "syntax-analysis",
+      "text": "(a) What is the importance of BNF in Compiler Construction? Given that A represents Numbers, B and C are digits, interpret the following BNF notations\n(iii) A → B| [+ | - ] . C | B . C\n(iv) A → B{B} [5 marks]\n(b) Write an algorithm that uses a stack to convert an infix expression to its postfix equivalent [7 marks]\n(c) Explain literarily or using algorithm how operator precedence parsing algorithm works [8 marks]"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "marks": 20,
+      "topic": "linguistic-analysis-and-grammars",
+      "text": "(a) Derive the grammar G that generates the language L(G) = {10k10n /k, n >= 0} [5 marks]\n(b) Write short notes on the following grammars, citing relative examples:\n(i) Chomsky Type I\n(ii) Chomsky Type III\n(iii) Ambiguous Context Free Grammars [5 marks each = 15]"
+    },
+    {
+      "year": "2018/2019",
+      "number": "4",
+      "marks": 20,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) Explain the Code Optimization and Generation Phase of a compiler.\n(b) What difficulties are usually encountered in code generation?\n(c) What are the alternatives available for generating outputs in code generation?\n(d) In between compilers and interpreters, which will you prefer and why? [5 marks each = 20]"
+    }
+  ]
+}
