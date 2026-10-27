@@ -1,0 +1,103 @@
+{
+  "code": "CSC 313",
+  "topics": {
+    "computer-evolution-and-performance": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: CPU Performance Parameters in COA: Average CPI, MIPS, and Execution Time | COA (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5ayaVunXFUY",
+        "source": "links.csv"
+      }
+    ],
+    "organization-architecture-and-instruction-cycle": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: The Fetch-Execute Cycle: What's Your Computer Actually Doing? (Tom Scott)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Z5JC9Ve1sfI",
+        "source": "links.csv"
+      }
+    ],
+    "registers-and-number-representation": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Data Representation using 2's Complement (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kxcL0Vb5bEQ",
+        "source": "links.csv"
+      }
+    ],
+    "cpu-alu-and-addressing-modes": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Processor Addressing Modes (Computer Science Lessons)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TGcjn8zMhfM",
+        "source": "links.csv"
+      }
+    ],
+    "risc-cisc-and-parallelism": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: RISC vs CISC - Is it Still a Thing? (Gary Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g16wZWKcao4",
+        "source": "links.csv"
+      }
+    ],
+    "pipelining": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Data Hazards in Pipelining: Pipelining Hazards and Case Studies | COA (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3bkgwvfQSNQ",
+        "source": "links.csv"
+      }
+    ],
+    "memory-hierarchy-and-cache": [
+      {
+        "title": "Computer Organization and Architecture lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1h-iWQyuAMbx6G4x-GcGBpBPaWbdLC3vs",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Direct Memory Mapping (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=V_QS1HzJ8Bc",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

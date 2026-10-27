@@ -1,0 +1,107 @@
+{
+  "code": "CSC 351",
+  "title": "Formal Languages and Automata Theory",
+  "description": "Words, languages and regular expressions; deterministic and nondeterministic finite automata; the pumping lemma, closure and decision properties and the Chomsky hierarchy; context-free grammars and normal forms; and pushdown automata. Built from the CSC 351 course book (Study Sessions 1 to 11).",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "words-and-languages",
+      "title": "Words, Alphabets and Languages",
+      "summary": "A word is a finite sequence of symbols from an alphabet, and a language is a set of words. Words and languages are combined by concatenation, powers, reversal and the Kleene star and plus.",
+      "subtopics": [
+        "Alphabets, words and the empty word ε",
+        "Length, concatenation, powers and reversal",
+        "Prefixes, subwords and scattered subwords",
+        "Finite, cofinite, empty and singleton languages",
+        "Σ*, Σ+, complement and language operations",
+        "Kleene star L* and L+"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "regular-expressions",
+      "title": "Regular Expressions and Regular Languages",
+      "summary": "A regular expression defines a language using union, concatenation and the Kleene star; the languages so defined are the regular languages. Algebraic laws simplify expressions, and every regular expression has an equivalent finite automaton.",
+      "subtopics": [
+        "Regular expressions and operator precedence",
+        "The family of regular languages",
+        "Building expressions: L(E + F), L(EF), L(E*)",
+        "Algebraic laws: identity, annihilator, distributive, idempotent",
+        "Laws of the Kleene closure",
+        "Converting between regular expressions and automata"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "deterministic-finite-automata",
+      "title": "Deterministic Finite Automata",
+      "summary": "A deterministic finite automaton is a 5-tuple (Q, Σ, δ, q0, F) that reads a string symbol by symbol and accepts it if it ends in an accept state. DFAs are designed for a language, and minimised by merging equivalent states.",
+      "subtopics": [
+        "State diagrams and computation",
+        "Formal definition: the 5-tuple",
+        "Designing a DFA for a language",
+        "Trap (dead) states",
+        "Equivalent and distinguishable states",
+        "Minimisation: table filling and partitioning"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "nondeterministic-finite-automata",
+      "title": "Nondeterministic Finite Automata",
+      "summary": "An NFA may have zero, one or many transitions for a symbol, and ε-transitions that consume no input; it accepts if any branch ends in an accept state. Every NFA and ε-NFA can be converted to an equivalent DFA.",
+      "subtopics": [
+        "Nondeterminism and parallel branches",
+        "Formal definition: δ: Q × Σε → P(Q)",
+        "ε-NFA and ε-closure",
+        "Converting an ε-NFA to an NFA",
+        "Subset construction: NFA to DFA",
+        "Equivalence of DFA, NFA and ε-NFA"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "properties-of-regular-languages",
+      "title": "Properties of Regular Languages and the Chomsky Hierarchy",
+      "summary": "The pumping lemma shows that languages such as {0^n 1^n} are not regular, and regular languages are closed under union, intersection, complement and more. The Chomsky hierarchy ranks languages, grammars and machines from Type 3 to Type 0.",
+      "subtopics": [
+        "The pumping lemma for regular languages",
+        "Proving a language is not regular",
+        "Closure properties",
+        "Decision problems: membership, emptiness, finiteness, equivalence",
+        "Chomsky hierarchy: Types 0 to 3",
+        "Closure of each class under union, intersection and complement"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "context-free-grammars",
+      "title": "Context-Free Grammars and Normal Forms",
+      "summary": "A context-free grammar of terminals, non-terminals, productions and a start symbol generates a context-free language; derivations and parse trees show how. Grammars may be ambiguous, and can be simplified and put into Chomsky or Greibach normal form.",
+      "subtopics": [
+        "Components and formal definition of a CFG",
+        "Derivations: leftmost and rightmost",
+        "Parse trees and yield",
+        "Ambiguity and inherently ambiguous languages",
+        "Removing useless, unit and null productions",
+        "Chomsky and Greibach normal forms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "pushdown-automata",
+      "title": "Pushdown Automata",
+      "summary": "A pushdown automaton is a finite automaton with a stack, which lets it recognise context-free languages such as {0^n 1^n}. It accepts by final state or by empty stack, and PDAs and CFGs describe the same languages.",
+      "subtopics": [
+        "Input tape, control unit and stack",
+        "Formal definition: the 7-tuple",
+        "Transitions a, b → c and instantaneous descriptions",
+        "Acceptance by final state and by empty stack",
+        "PDAs for {0^n 1^n} and {wcw^R}",
+        "Converting between CFGs and PDAs"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which of these is one of Kolmogorov's axioms?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(S) = 1"
+      },
+      {
+        "key": "b",
+        "text": "P(A) can be negative"
+      },
+      {
+        "key": "c",
+        "text": "P(A ∪ B) = P(A)P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(∅) = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The others are non-negativity and countable additivity.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Four letters are chosen at random with repeats allowed. How many codes are possible?",
+    "options": [
+      {
+        "key": "a",
+        "text": "26⁴"
+      },
+      {
+        "key": "b",
+        "text": "26 × 4"
+      },
+      {
+        "key": "c",
+        "text": "4²⁶"
+      },
+      {
+        "key": "d",
+        "text": "26!"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each of the four positions can be any of 26 letters.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 2a)"
+  },
+  {
+    "format": "true_false",
+    "stem": "P(Aᶜ) = 1 − P(A).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "S is the disjoint union of A and Aᶜ.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "P(A ∪ B) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A) + P(B) − P(A ∩ B)"
+      },
+      {
+        "key": "b",
+        "text": "P(A) + P(B)"
+      },
+      {
+        "key": "c",
+        "text": "P(A)P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(A) − P(B)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Subtract the overlap so it is not counted twice.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are approaches to defining probability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Classical"
+      },
+      {
+        "key": "b",
+        "text": "Empirical (relative frequency)"
+      },
+      {
+        "key": "c",
+        "text": "Axiomatic"
+      },
+      {
+        "key": "d",
+        "text": "Geometric only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three approaches in the notes.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which assignment is not permissible for four mutually exclusive outcomes making up S?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.12, 0.63, 0.45, −0.20"
+      },
+      {
+        "key": "b",
+        "text": "0.25, 0.25, 0.25, 0.25"
+      },
+      {
+        "key": "c",
+        "text": "0.1, 0.2, 0.3, 0.4"
+      },
+      {
+        "key": "d",
+        "text": "0.5, 0.3, 0.1, 0.1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A probability cannot be negative.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 1c)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Three fuses are drawn without replacement from 20, of which 5 are defective. The chance all three are defective is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/114"
+      },
+      {
+        "key": "b",
+        "text": "1/64"
+      },
+      {
+        "key": "c",
+        "text": "3/20"
+      },
+      {
+        "key": "d",
+        "text": "1/8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(5 × 4 × 3) ÷ (20 × 19 × 18).",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 2c)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If A ⊆ B then P(A) ≥ P(B).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Monotonicity gives P(A) ≤ P(B).",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  }
+]

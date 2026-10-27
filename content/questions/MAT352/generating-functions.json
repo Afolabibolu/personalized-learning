@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The moment generating function of X is",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(e^(tX))"
+      },
+      {
+        "key": "b",
+        "text": "E(tˣ)"
+      },
+      {
+        "key": "c",
+        "text": "E(X)ᵗ"
+      },
+      {
+        "key": "d",
+        "text": "P(X ≤ t)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its derivatives at 0 give the moments.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "E(X) is found from the MGF as",
+    "options": [
+      {
+        "key": "a",
+        "text": "M′(0)"
+      },
+      {
+        "key": "b",
+        "text": "M(0)"
+      },
+      {
+        "key": "c",
+        "text": "M″(0)"
+      },
+      {
+        "key": "d",
+        "text": "M(1)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "M(0) = 1 always.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Var(X) = M″(0) − [M′(0)]².",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is E(X²) − [E(X)]².",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The MGF of a Poisson(λ) variable is",
+    "options": [
+      {
+        "key": "a",
+        "text": "e^(λ(eᵗ − 1))"
+      },
+      {
+        "key": "b",
+        "text": "(q + peᵗ)ⁿ"
+      },
+      {
+        "key": "c",
+        "text": "λ/(λ − t)"
+      },
+      {
+        "key": "d",
+        "text": "e^(μt + σ²t²/2)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both its mean and variance are λ.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2023/24 test, Question 2b)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of MGFs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They uniquely determine a distribution"
+      },
+      {
+        "key": "b",
+        "text": "The MGF of a sum of independent variables is the product of their MGFs"
+      },
+      {
+        "key": "c",
+        "text": "M_(aX + b)(t) = e^(bt) Mₓ(at)"
+      },
+      {
+        "key": "d",
+        "text": "They always exist for every t"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An MGF need not exist for all t.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not obtained from an MGF by differentiating at t = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The median"
+      },
+      {
+        "key": "b",
+        "text": "E(X)"
+      },
+      {
+        "key": "c",
+        "text": "E(X²)"
+      },
+      {
+        "key": "d",
+        "text": "E(X³)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The MGF gives moments, not the median.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mean of a Gamma(α, λ) distribution, from its MGF (1 − t/λ)^(−α), is",
+    "options": [
+      {
+        "key": "a",
+        "text": "α/λ"
+      },
+      {
+        "key": "b",
+        "text": "α/λ²"
+      },
+      {
+        "key": "c",
+        "text": "λ/α"
+      },
+      {
+        "key": "d",
+        "text": "αλ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its variance is α/λ².",
+    "source": "MAT 352 Assignment (CSC MAT 352 Assignment.pdf)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a probability generating function, E(X) = G′(0).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "E(X) = G′(1); G is evaluated at 1.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  }
+]

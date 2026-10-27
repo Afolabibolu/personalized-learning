@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In the waterfall model, each phase",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is completed before the next begins"
+      },
+      {
+        "key": "b",
+        "text": "Runs in parallel with all others"
+      },
+      {
+        "key": "c",
+        "text": "Is repeated many times"
+      },
+      {
+        "key": "d",
+        "text": "Is skipped if risky"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "There is no backing up or repeating phases.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The V model is also known as the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Verification and Validation model"
+      },
+      {
+        "key": "b",
+        "text": "Spiral model"
+      },
+      {
+        "key": "c",
+        "text": "RAD model"
+      },
+      {
+        "key": "d",
+        "text": "Incremental model"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Coding joins its two sides.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The waterfall model suits projects whose requirements are clear, fixed and well documented.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is poor when requirements change.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A disadvantage of the waterfall model is that",
+    "options": [
+      {
+        "key": "a",
+        "text": "No working software is produced until late"
+      },
+      {
+        "key": "b",
+        "text": "It is hard to explain to customers"
+      },
+      {
+        "key": "c",
+        "text": "It has no milestones"
+      },
+      {
+        "key": "d",
+        "text": "It needs constant customer involvement"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Integration happens as a big bang at the end.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of the waterfall model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple and easy to understand"
+      },
+      {
+        "key": "b",
+        "text": "Clearly defined stages and milestones"
+      },
+      {
+        "key": "c",
+        "text": "Well documented"
+      },
+      {
+        "key": "d",
+        "text": "Adapts easily to changing requirements"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It is inflexible to change.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which field is named in the lecture as using the V model because it is strictly disciplined?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Medical"
+      },
+      {
+        "key": "b",
+        "text": "Video games"
+      },
+      {
+        "key": "c",
+        "text": "Social media"
+      },
+      {
+        "key": "d",
+        "text": "Fashion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The V model suits disciplined domains.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A partially developed product used to assess designs or show users the interface is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prototype"
+      },
+      {
+        "key": "b",
+        "text": "Deliverable"
+      },
+      {
+        "key": "c",
+        "text": "Spiral"
+      },
+      {
+        "key": "d",
+        "text": "Milestone"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Waterfall with prototyping adds it to the model.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The V model is flexible and cheap to change when requirements change.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is inflexible, and changes are very expensive.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  }
+]

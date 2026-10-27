@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which register holds the address of the memory location to be accessed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "MAR"
+      },
+      {
+        "key": "b",
+        "text": "MDR"
+      },
+      {
+        "key": "c",
+        "text": "Accumulator"
+      },
+      {
+        "key": "d",
+        "text": "Data register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The MDR holds the data read or written.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is 22 in binary?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10110"
+      },
+      {
+        "key": "b",
+        "text": "10011"
+      },
+      {
+        "key": "c",
+        "text": "11010"
+      },
+      {
+        "key": "d",
+        "text": "10101"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "16 + 4 + 2 = 22.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two's complement has only one representation of zero.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Sign-magnitude and one's complement have two.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In one's complement, −1 in five bits is",
+    "options": [
+      {
+        "key": "a",
+        "text": "11110"
+      },
+      {
+        "key": "b",
+        "text": "11111"
+      },
+      {
+        "key": "c",
+        "text": "10001"
+      },
+      {
+        "key": "d",
+        "text": "00001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Invert every bit of 00001.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which representations have two zeros?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sign-magnitude"
+      },
+      {
+        "key": "b",
+        "text": "One's complement"
+      },
+      {
+        "key": "c",
+        "text": "Two's complement"
+      },
+      {
+        "key": "d",
+        "text": "None of them"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "Two's complement has a single zero.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 4 and 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a number base used in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Base 7"
+      },
+      {
+        "key": "b",
+        "text": "Binary"
+      },
+      {
+        "key": "c",
+        "text": "Octal"
+      },
+      {
+        "key": "d",
+        "text": "Hexadecimal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Decimal, binary, octal and hexadecimal are covered.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With 3 bits, two's complement represents the range",
+    "options": [
+      {
+        "key": "a",
+        "text": "−4 to 3"
+      },
+      {
+        "key": "b",
+        "text": "−3 to 3"
+      },
+      {
+        "key": "c",
+        "text": "0 to 7"
+      },
+      {
+        "key": "d",
+        "text": "−7 to 7"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Negative values slide down by one compared with one's complement.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Most modern computers use sign-magnitude for integers because its hardware is fastest.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They use two's complement; sign-magnitude hardware is slower and more complex.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 4"
+  }
+]

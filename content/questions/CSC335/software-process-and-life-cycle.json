@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A series of steps involving activities, constraints and resources that produce an intended output is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Process"
+      },
+      {
+        "key": "b",
+        "text": "Prototype"
+      },
+      {
+        "key": "c",
+        "text": "Milestone"
+      },
+      {
+        "key": "d",
+        "text": "Module"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A process uses a set of tools and techniques.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase is the combination of programming and debugging?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Implementation"
+      },
+      {
+        "key": "b",
+        "text": "Design"
+      },
+      {
+        "key": "c",
+        "text": "Maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Requirements analysis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the main activity of software construction.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Each process activity has entry and exit criteria.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is one characteristic of a process.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Cost-effective support after the software is delivered is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maintenance"
+      },
+      {
+        "key": "b",
+        "text": "Design"
+      },
+      {
+        "key": "c",
+        "text": "Elicitation"
+      },
+      {
+        "key": "d",
+        "text": "Prototyping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It includes bug fixing and upgrades.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reasons for modelling a process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To form a common understanding"
+      },
+      {
+        "key": "b",
+        "text": "To find inconsistencies, redundancies and omissions"
+      },
+      {
+        "key": "c",
+        "text": "To tailor a general process to a situation"
+      },
+      {
+        "key": "d",
+        "text": "To avoid all testing"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It also helps find activities for reaching process goals.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a level of testing in the development cycle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilation testing"
+      },
+      {
+        "key": "b",
+        "text": "Unit testing"
+      },
+      {
+        "key": "c",
+        "text": "Integration testing"
+      },
+      {
+        "key": "d",
+        "text": "System testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Installation and acceptance testing follow system testing.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When a process involves building software, it may be called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Software life cycle"
+      },
+      {
+        "key": "b",
+        "text": "Spiral"
+      },
+      {
+        "key": "c",
+        "text": "Time box"
+      },
+      {
+        "key": "d",
+        "text": "Iteration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs from requirements to maintenance.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Processes make activities less consistent and harder to improve.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They impose consistency and structure and help us improve activities.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  }
+]

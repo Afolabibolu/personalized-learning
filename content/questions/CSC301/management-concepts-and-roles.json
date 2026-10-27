@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which function fills positions with the right people in the right job at the right time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Staffing"
+      },
+      {
+        "key": "b",
+        "text": "Planning"
+      },
+      {
+        "key": "c",
+        "text": "Controlling"
+      },
+      {
+        "key": "d",
+        "text": "Directing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Organizing sets up the structure of working relationships.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Mintzberg's roles, receiving guests on behalf of the organization is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Figurehead role"
+      },
+      {
+        "key": "b",
+        "text": "Negotiator role"
+      },
+      {
+        "key": "c",
+        "text": "Monitor role"
+      },
+      {
+        "key": "d",
+        "text": "Resource allocator role"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is an interpersonal role.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Conceptual skills are most needed at the top level of management.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Top managers must see the big picture.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which skills are most useful at the supervisory (lower) level?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technical skills"
+      },
+      {
+        "key": "b",
+        "text": "Conceptual skills"
+      },
+      {
+        "key": "c",
+        "text": "Political skills"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Supervisors train others in the actual job.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are decisional roles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Entrepreneur"
+      },
+      {
+        "key": "b",
+        "text": "Disturbance handler"
+      },
+      {
+        "key": "c",
+        "text": "Negotiator"
+      },
+      {
+        "key": "d",
+        "text": "Liaison"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Resource allocator is also decisional; liaison is interpersonal.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of Mintzberg's informational roles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Leader"
+      },
+      {
+        "key": "b",
+        "text": "Monitor"
+      },
+      {
+        "key": "c",
+        "text": "Disseminator"
+      },
+      {
+        "key": "d",
+        "text": "Spokesperson"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Leader is an interpersonal role.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Doing the right things is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "b",
+        "text": "Efficiency"
+      },
+      {
+        "key": "c",
+        "text": "Delegation"
+      },
+      {
+        "key": "d",
+        "text": "Centralization"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Efficiency is concentrating resources on them.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Management is only a science and never an art.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is both a science and an art, and the two are complementary.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 1"
+  }
+]

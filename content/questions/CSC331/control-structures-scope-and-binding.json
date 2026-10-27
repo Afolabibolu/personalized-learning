@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which loop is guaranteed to execute its body at least once?",
+    "options": [
+      {
+        "key": "a",
+        "text": "do ... while"
+      },
+      {
+        "key": "b",
+        "text": "for"
+      },
+      {
+        "key": "c",
+        "text": "while"
+      },
+      {
+        "key": "d",
+        "text": "None of them"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It tests after each iteration.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which statement ends the current iteration and goes straight to the loop test?",
+    "options": [
+      {
+        "key": "a",
+        "text": "continue"
+      },
+      {
+        "key": "b",
+        "text": "break"
+      },
+      {
+        "key": "c",
+        "text": "switch"
+      },
+      {
+        "key": "d",
+        "text": "return"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "break exits the loop or the current case.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "C, C++ and Java use static scoping.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "References are resolved from the program text.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When an inner scope re-declares a name from an outer scope, the inner declaration",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hides the outer one"
+      },
+      {
+        "key": "b",
+        "text": "Deletes the outer variable"
+      },
+      {
+        "key": "c",
+        "text": "Causes a syntax error always"
+      },
+      {
+        "key": "d",
+        "text": "Merges with it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A name is visible where it is in scope and not hidden.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 12"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which languages allow nested functions or procedures?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pascal"
+      },
+      {
+        "key": "b",
+        "text": "Modula"
+      },
+      {
+        "key": "c",
+        "text": "ADA"
+      },
+      {
+        "key": "d",
+        "text": "C"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "C and Java do not allow nested function declarations.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 12"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the four kinds of control flow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilation"
+      },
+      {
+        "key": "b",
+        "text": "Sequencing"
+      },
+      {
+        "key": "c",
+        "text": "Selection"
+      },
+      {
+        "key": "d",
+        "text": "Iteration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The fourth is recursion.",
+    "source": "general knowledge, following the CSC 331 past papers (2021/22 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two names referring to the same memory location is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aliasing"
+      },
+      {
+        "key": "b",
+        "text": "Overloading"
+      },
+      {
+        "key": "c",
+        "text": "Widening"
+      },
+      {
+        "key": "d",
+        "text": "Hiding"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Changing one then changes the other.",
+    "source": "general knowledge, following the CSC 331 past papers (2021/22 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a switch statement, the case test can be any Boolean expression, just like in an if statement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "switch compares for equality with literals.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 11"
+  }
+]

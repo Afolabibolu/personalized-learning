@@ -1,0 +1,107 @@
+{
+  "code": "CSC 331",
+  "title": "Programming Principles and Paradigms",
+  "description": "Programming fundamentals and the families of programming languages; imperative, procedural, object-oriented, functional and logic paradigms; criteria for evaluating languages; syntax, BNF and ambiguity; type systems, overloading and casting; control structures, scope and binding; and memory management in programs. Built from the Ibadan Distance Learning course book and lecture slides for CSC 331.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "programming-fundamentals-and-language-types",
+      "title": "Programming Fundamentals and Types of Languages",
+      "summary": "Programming is writing source code that a compiler or interpreter turns into a meaningful task, at levels from declarative and high-level languages down to assembly and machine code. Languages are grouped by purpose: scientific, business, educational, object-oriented, functional, declarative, scripting and web languages.",
+      "subtopics": [
+        "Meaning of programming and its stakeholders",
+        "Four levels of language: declarative, high-level, assembly, machine",
+        "Compilers and interpreters",
+        "Scientific, business and education-oriented languages",
+        "Object-oriented, functional, declarative and scripting languages",
+        "Strongly, weakly and loosely typed languages"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "programming-paradigms",
+      "title": "Programming Paradigms",
+      "summary": "A paradigm is a fundamental style of programming: imperative (structured, procedural, modular, object-oriented) says how, while declarative (functional, logic) says what. Functional languages treat functions as first-class values and rest on the lambda calculus.",
+      "subtopics": [
+        "Imperative and declarative paradigms",
+        "Structured, procedural and modular programming",
+        "Object-oriented programming",
+        "Imperative languages and the von Neumann model",
+        "Functional programming and its advantages",
+        "The lambda calculus"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "evaluating-programming-languages",
+      "title": "Evaluating Programming Languages",
+      "summary": "Languages are compared on expressivity, well-definedness, data types, modularity, I/O facilities, portability, efficiency, pedagogy and generality. Other design criteria include simplicity, binding, orthogonality, reliability, applicability, abstraction and efficient implementation.",
+      "subtopics": [
+        "Expressivity and well-definedness",
+        "Data types, modularity and I/O facilities",
+        "Portability, efficiency, pedagogy and generality",
+        "Simplicity and binding times",
+        "Orthogonality and reliability",
+        "Abstraction and efficient implementation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "syntax-bnf-and-ambiguity",
+      "title": "Syntax, BNF and Ambiguity",
+      "summary": "Syntax is the set of rules for well-formed programs; semantics gives their meaning. BNF defines syntax with rewriting rules; lexical analysis turns code into tokens and syntax analysis builds a parse tree, where an ambiguous grammar gives two trees.",
+      "subtopics": [
+        "Syntax and semantics; static and dynamic semantics",
+        "Backus-Naur Form and its symbols",
+        "Lexical categories: identifiers, literals, operators, separators, keywords",
+        "Reserved words and keywords",
+        "The compiling process: lexical, syntactic and semantic analysis",
+        "Syntactic ambiguity and the dangling else"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "type-systems-overloading-and-casting",
+      "title": "Type Systems, Overloading and Casting",
+      "summary": "A type is a set of values with operations on them, and a type system assigns types to program constructs to catch errors statically or dynamically. Overloading gives one name several meanings, and conversion or casting turns a value of one type into another.",
+      "subtopics": [
+        "Types, type systems and type errors",
+        "Elementary and structured types and their storage",
+        "Static and dynamic, weak and strong typing",
+        "Function and method overloading",
+        "Operator overloading in C++ and Java",
+        "Widening, narrowing and explicit casting"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "control-structures-scope-and-binding",
+      "title": "Control Structures, Scope and Binding",
+      "summary": "Control statements (sequence, selection, iteration, recursion; for, while, do, switch, break, continue) order a program's execution. The scope of a declaration is the statements that can use it; names are hidden by inner declarations, and bindings have a lifetime.",
+      "subtopics": [
+        "for, while and do loops",
+        "switch statements, break and continue",
+        "Sequencing, selection, iteration and recursion",
+        "Static scope: global, local and nested",
+        "Visibility and hiding",
+        "Names, bindings, lifetime and aliasing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "memory-management-in-programs",
+      "title": "Memory Management in Programs",
+      "summary": "At run time a program's memory is divided into a static area, a run-time stack of method frames and a heap for dynamic data. Arguments are passed by value or by reference, and pointers, arrays and structures are stored in these areas.",
+      "subtopics": [
+        "Static memory, the run-time stack and the heap",
+        "Stack frames, static and dynamic links",
+        "Garbage collection and memory leaks",
+        "Passing by value and by reference",
+        "Pointers",
+        "Arrays and structures"
+      ],
+      "lectures": []
+    }
+  ]
+}

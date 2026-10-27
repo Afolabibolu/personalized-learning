@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the expected duration when B = 30, P = 35 and W = 45 days?",
+    "options": [
+      {
+        "key": "a",
+        "text": "About 35.8 days"
+      },
+      {
+        "key": "b",
+        "text": "36.7 days"
+      },
+      {
+        "key": "c",
+        "text": "35 days"
+      },
+      {
+        "key": "d",
+        "text": "40 days"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(30 + 4 × 35 + 45) ÷ 6 = 215 ÷ 6.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The longest sequence of dependent tasks, which sets the project's duration, is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Critical path"
+      },
+      {
+        "key": "b",
+        "text": "Slack"
+      },
+      {
+        "key": "c",
+        "text": "Milestone"
+      },
+      {
+        "key": "d",
+        "text": "Scope"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Any delay on it delays the whole project.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tasks on the critical path have zero slack.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Slack is how long a task can slip without delaying the project.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 and 2021/22 papers)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which chart shows tasks as horizontal bars against a calendar?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "b",
+        "text": "PERT/CPM chart"
+      },
+      {
+        "key": "c",
+        "text": "Data flow diagram"
+      },
+      {
+        "key": "d",
+        "text": "ER diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It gives a rapid overview of timing and progress.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four main tasks of a project manager?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Planning"
+      },
+      {
+        "key": "b",
+        "text": "Scheduling"
+      },
+      {
+        "key": "c",
+        "text": "Monitoring and controlling"
+      },
+      {
+        "key": "d",
+        "text": "Coding every module"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is project reporting.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a step in software change control?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hire more staff"
+      },
+      {
+        "key": "b",
+        "text": "Complete a change request form"
+      },
+      {
+        "key": "c",
+        "text": "Analyse the impact of the change"
+      },
+      {
+        "key": "d",
+        "text": "Determine the disposition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The other step is taking initial action on the request.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Brooks's Law says that adding people to a late project",
+    "options": [
+      {
+        "key": "a",
+        "text": "Makes it later"
+      },
+      {
+        "key": "b",
+        "text": "Always speeds it up"
+      },
+      {
+        "key": "c",
+        "text": "Has no effect"
+      },
+      {
+        "key": "d",
+        "text": "Removes project creep"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "More people mean more interactions and training.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Gantt charts and PERT/CPM charts are mutually exclusive techniques.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are not mutually exclusive; many managers use both.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 3"
+  }
+]

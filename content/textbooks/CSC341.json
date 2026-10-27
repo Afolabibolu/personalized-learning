@@ -1,0 +1,75 @@
+{
+  "code": "CSC 341",
+  "books": {
+    "lipschutz": {
+      "title": "Data Structures (Schaum's Outline Series)",
+      "authors": "Seymour Lipschutz",
+      "edition": "Revised first edition",
+      "publisher": "McGraw-Hill",
+      "year": 2014
+    },
+    "goodrich": {
+      "title": "Data Structures and Algorithms in Python",
+      "authors": "Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser",
+      "edition": "1st edition",
+      "publisher": "Wiley",
+      "year": 2013
+    }
+  },
+  "topics": {
+    "data-structure-concepts-and-arrays": [
+      {
+        "book": "lipschutz",
+        "read": "Chapters 1 and 4: Introduction and Overview; Arrays, Records and Pointers",
+        "why": "Classifies data structures and gives the array addressing formulas the past papers use."
+      }
+    ],
+    "linked-lists": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 5: Linked Lists",
+        "why": "Singly, doubly and circular lists with insertion, deletion and traversal."
+      }
+    ],
+    "stacks-and-expressions": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 6: Stacks, Queues, Recursion",
+        "why": "Stack operations and infix, prefix and postfix conversion and evaluation."
+      }
+    ],
+    "queues-and-deques": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 6: Stacks, Queues, Recursion",
+        "why": "Queues, circular queues, deques and priority queues."
+      }
+    ],
+    "trees-and-search-trees": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 7: Trees",
+        "why": "Binary trees, traversal, expression trees, binary search trees, AVL trees and B-trees."
+      },
+      {
+        "book": "goodrich",
+        "read": "Chapters 8 and 11: Trees; Search Trees",
+        "why": "Python versions of traversal, BSTs, AVL and red-black trees, matching the papers' Python questions."
+      }
+    ],
+    "graphs": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 8: Graphs and Their Applications",
+        "why": "Adjacency matrices and lists, DFS, BFS and spanning trees."
+      }
+    ],
+    "sorting-searching-and-hashing": [
+      {
+        "book": "lipschutz",
+        "read": "Chapter 9: Sorting and Searching",
+        "why": "Sorting and searching algorithms, hashing and collision resolution."
+      }
+    ]
+  }
+}

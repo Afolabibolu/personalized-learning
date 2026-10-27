@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An information system's five key components are hardware, software, data, processes and",
+    "options": [
+      {
+        "key": "a",
+        "text": "People"
+      },
+      {
+        "key": "b",
+        "text": "Profits"
+      },
+      {
+        "key": "c",
+        "text": "Printers"
+      },
+      {
+        "key": "d",
+        "text": "Protocols"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "People include stakeholders and users.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which development method uses the SDLC and the waterfall model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Structured analysis"
+      },
+      {
+        "key": "b",
+        "text": "Object-oriented analysis"
+      },
+      {
+        "key": "c",
+        "text": "Agile methods"
+      },
+      {
+        "key": "d",
+        "text": "Scrum"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a predictive, process-centred approach.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A mission-critical system is one that is vital to a company's operations.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Transaction processing systems are often mission-critical.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method emphasises continuous feedback and iterative development?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Agile methods"
+      },
+      {
+        "key": "b",
+        "text": "Waterfall"
+      },
+      {
+        "key": "c",
+        "text": "Structured analysis"
+      },
+      {
+        "key": "d",
+        "text": "Batch processing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Scrum and Extreme Programming are examples.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are systems development guidelines from the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Develop a project plan"
+      },
+      {
+        "key": "b",
+        "text": "Involve users and listen carefully"
+      },
+      {
+        "key": "c",
+        "text": "Remain flexible"
+      },
+      {
+        "key": "d",
+        "text": "Avoid estimating costs"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Using project management tools and developing accurate cost and benefit information are the others.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of the IT department shown in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Payroll"
+      },
+      {
+        "key": "b",
+        "text": "Application development"
+      },
+      {
+        "key": "c",
+        "text": "Database administration"
+      },
+      {
+        "key": "d",
+        "text": "Quality assurance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Payroll is a business function, not an IT group.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Data transformed into output that is valuable to users is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Information"
+      },
+      {
+        "key": "b",
+        "text": "Hardware"
+      },
+      {
+        "key": "c",
+        "text": "A process"
+      },
+      {
+        "key": "d",
+        "text": "A protocol"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Data is the system's raw material.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A systems analyst mainly needs technical knowledge; communication skills are not required.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Strong oral and written communication skills are required.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  }
+]

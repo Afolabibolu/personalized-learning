@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In packet switching, each hop stores the whole packet and then forwards it. This is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Store and forward"
+      },
+      {
+        "key": "b",
+        "text": "Circuit reservation"
+      },
+      {
+        "key": "c",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "d",
+        "text": "Flooding"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It lets damaged packets be discarded at a hop.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which delay depends on the distance between nodes and the signal speed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Propagation delay"
+      },
+      {
+        "key": "b",
+        "text": "Transmission delay"
+      },
+      {
+        "key": "c",
+        "text": "Processing delay"
+      },
+      {
+        "key": "d",
+        "text": "Queuing delay"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Transmission delay depends on packet size and bandwidth.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In virtual-circuit packet switching, all packets follow the same path and arrive in order.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A logical path is set up before transmission.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Ordinary voice telephone service uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "Circuit switching"
+      },
+      {
+        "key": "b",
+        "text": "Datagram switching"
+      },
+      {
+        "key": "c",
+        "text": "Message switching"
+      },
+      {
+        "key": "d",
+        "text": "Store and forward only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A dedicated path is held for the call.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three phases of circuit switching?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Connection establishment"
+      },
+      {
+        "key": "b",
+        "text": "Data transfer"
+      },
+      {
+        "key": "c",
+        "text": "Connection release"
+      },
+      {
+        "key": "d",
+        "text": "Routing table broadcast"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Setup, data transfer and teardown.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which protocol does not use the virtual-circuit approach?",
+    "options": [
+      {
+        "key": "a",
+        "text": "UDP"
+      },
+      {
+        "key": "b",
+        "text": "X.25"
+      },
+      {
+        "key": "c",
+        "text": "Frame Relay"
+      },
+      {
+        "key": "d",
+        "text": "ATM"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "UDP is connectionless; MPLS also uses virtual circuits.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In datagram switching, each packet",
+    "options": [
+      {
+        "key": "a",
+        "text": "Carries full addressing information and is routed independently"
+      },
+      {
+        "key": "b",
+        "text": "Follows a reserved circuit"
+      },
+      {
+        "key": "c",
+        "text": "Carries only a local VCI"
+      },
+      {
+        "key": "d",
+        "text": "Needs a setup phase"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Packets may arrive out of order.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Circuit switching supports store and forward.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Packet switching supports store and forward; circuit switching does not.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 3"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The contract defining the services and performance levels expected from an outside supplier is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A service-level agreement"
+      },
+      {
+        "key": "b",
+        "text": "A mission statement"
+      },
+      {
+        "key": "c",
+        "text": "A job description"
+      },
+      {
+        "key": "d",
+        "text": "A Gantt chart"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It sets targets such as uptime and response time.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 3b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Adding a random value to a password before hashing it is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Salting"
+      },
+      {
+        "key": "b",
+        "text": "Spoofing"
+      },
+      {
+        "key": "c",
+        "text": "Mirroring"
+      },
+      {
+        "key": "d",
+        "text": "Poisoning"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It defeats rainbow-table attacks.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 4c)"
+  },
+  {
+    "format": "true_false",
+    "stem": "AES-256 uses a 256-bit key.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is a symmetric block cipher with 14 rounds.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 3d)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Inserting false records into a DNS resolver's cache to redirect users is",
+    "options": [
+      {
+        "key": "a",
+        "text": "DNS cache poisoning"
+      },
+      {
+        "key": "b",
+        "text": "Password salting"
+      },
+      {
+        "key": "c",
+        "text": "RAID"
+      },
+      {
+        "key": "d",
+        "text": "Load balancing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DNSSEC helps prevent it.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 4d)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are cloud service models?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IaaS"
+      },
+      {
+        "key": "b",
+        "text": "PaaS"
+      },
+      {
+        "key": "c",
+        "text": "SaaS"
+      },
+      {
+        "key": "d",
+        "text": "RAID"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "RAID is a disk storage technique.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 4b)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a project scheduling tool?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AES-256"
+      },
+      {
+        "key": "b",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "c",
+        "text": "Bar chart"
+      },
+      {
+        "key": "d",
+        "text": "Activity network"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "AES-256 is an encryption standard.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (course outline)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Key points that mark the completion of major project stages are",
+    "options": [
+      {
+        "key": "a",
+        "text": "Milestones"
+      },
+      {
+        "key": "b",
+        "text": "Deliverables"
+      },
+      {
+        "key": "c",
+        "text": "Salts"
+      },
+      {
+        "key": "d",
+        "text": "Hygiene factors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Deliverables are the tangible outputs.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (course outline)"
+  },
+  {
+    "format": "true_false",
+    "stem": "RAID removes the need for any backups.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "RAID protects against disk failure, but backups are still needed.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2023/24 paper, Question 3c)"
+  }
+]

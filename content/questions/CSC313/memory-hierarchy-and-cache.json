@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "As you move down the memory hierarchy, which increases?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Capacity and access time"
+      },
+      {
+        "key": "b",
+        "text": "Cost per bit"
+      },
+      {
+        "key": "c",
+        "text": "Speed"
+      },
+      {
+        "key": "d",
+        "text": "Volatility of every level"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cost per bit increases going up.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 12b"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which ROM is erased with ultraviolet light?",
+    "options": [
+      {
+        "key": "a",
+        "text": "EPROM"
+      },
+      {
+        "key": "b",
+        "text": "EEPROM"
+      },
+      {
+        "key": "c",
+        "text": "PROM"
+      },
+      {
+        "key": "d",
+        "text": "Flash"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "EEPROM is erased electrically.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 12b"
+  },
+  {
+    "format": "true_false",
+    "stem": "DRAM must be refreshed periodically because its capacitors leak charge.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "SRAM holds data as long as power is applied.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Finding the required data in the cache is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cache hit"
+      },
+      {
+        "key": "b",
+        "text": "Cache miss"
+      },
+      {
+        "key": "c",
+        "text": "Page fault"
+      },
+      {
+        "key": "d",
+        "text": "Stall"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Otherwise main memory is searched (a miss).",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of cache mapping?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Direct"
+      },
+      {
+        "key": "b",
+        "text": "Associative"
+      },
+      {
+        "key": "c",
+        "text": "Set-associative"
+      },
+      {
+        "key": "d",
+        "text": "Sequential"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They decide where a memory block goes in the cache.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a kind of ROM?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SRAM"
+      },
+      {
+        "key": "b",
+        "text": "PROM"
+      },
+      {
+        "key": "c",
+        "text": "EEPROM"
+      },
+      {
+        "key": "d",
+        "text": "Flash memory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SRAM is static RAM.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 12b and 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Data just used being likely to be used again soon is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Temporal locality"
+      },
+      {
+        "key": "b",
+        "text": "Spatial locality"
+      },
+      {
+        "key": "c",
+        "text": "Associative mapping"
+      },
+      {
+        "key": "d",
+        "text": "Refresh"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Spatial locality concerns nearby locations.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "SRAM is cheaper and denser than DRAM, so it is used for main memory.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "SRAM is fast but expensive and used for cache; DRAM makes up main memory.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  }
+]

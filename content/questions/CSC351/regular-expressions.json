@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which regular-expression operator has the highest precedence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kleene star"
+      },
+      {
+        "key": "b",
+        "text": "Concatenation"
+      },
+      {
+        "key": "c",
+        "text": "Union"
+      },
+      {
+        "key": "d",
+        "text": "All are equal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The order is star, then concatenation, then union.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which law states that ∅E = E∅ = ∅?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Annihilator"
+      },
+      {
+        "key": "b",
+        "text": "Identity"
+      },
+      {
+        "key": "c",
+        "text": "Idempotent"
+      },
+      {
+        "key": "d",
+        "text": "Distributive"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The identity law is E + ∅ = E and εE = Eε = E.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "E + E = E is the idempotent law.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Adding a language to itself changes nothing.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "E+ is equal to",
+    "options": [
+      {
+        "key": "a",
+        "text": "EE*"
+      },
+      {
+        "key": "b",
+        "text": "E*E*"
+      },
+      {
+        "key": "c",
+        "text": "ε + E"
+      },
+      {
+        "key": "d",
+        "text": "E + ∅"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E? = ε + E, and E+ + ε = E*.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of regular expressions and finite automata?",
+    "options": [
+      {
+        "key": "a",
+        "text": "For every DFA there is an equivalent regular expression"
+      },
+      {
+        "key": "b",
+        "text": "For every regular expression there is an equivalent ε-NFA"
+      },
+      {
+        "key": "c",
+        "text": "A language is regular if a DFA can be built for it"
+      },
+      {
+        "key": "d",
+        "text": "Some regular expressions have no automaton"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They are interchangeable.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an operation used to form regular expressions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intersection"
+      },
+      {
+        "key": "b",
+        "text": "Union"
+      },
+      {
+        "key": "c",
+        "text": "Concatenation"
+      },
+      {
+        "key": "d",
+        "text": "Kleene star"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Regular expressions use union, concatenation and star.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which of these is equal to (E*)*?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E*"
+      },
+      {
+        "key": "b",
+        "text": "E+"
+      },
+      {
+        "key": "c",
+        "text": "ε"
+      },
+      {
+        "key": "d",
+        "text": "∅"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Applying the star twice adds nothing new.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "ε* = ∅.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "ε* = ε, and ∅* = ε as well.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 2"
+  }
+]

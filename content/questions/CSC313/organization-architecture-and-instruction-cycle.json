@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The attributes visible to the programmer, such as the instruction set, are the computer's",
+    "options": [
+      {
+        "key": "a",
+        "text": "Architecture"
+      },
+      {
+        "key": "b",
+        "text": "Organization"
+      },
+      {
+        "key": "c",
+        "text": "Firmware"
+      },
+      {
+        "key": "d",
+        "text": "Bus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Organization is how the architecture is realised.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which register holds the instruction just fetched?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Instruction register"
+      },
+      {
+        "key": "b",
+        "text": "Program counter"
+      },
+      {
+        "key": "c",
+        "text": "Accumulator"
+      },
+      {
+        "key": "d",
+        "text": "MAR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The PC holds the address of the next instruction.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the von Neumann architecture, data and instructions are stored in a single read-write memory.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Execution is sequential unless modified.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With a 12-bit address field, how many words can be addressed directly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4096"
+      },
+      {
+        "key": "b",
+        "text": "1024"
+      },
+      {
+        "key": "c",
+        "text": "16"
+      },
+      {
+        "key": "d",
+        "text": "65,536"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2¹² = 4096.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four main structural components of a computer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CPU"
+      },
+      {
+        "key": "b",
+        "text": "Main memory"
+      },
+      {
+        "key": "c",
+        "text": "I/O"
+      },
+      {
+        "key": "d",
+        "text": "Compiler"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is system interconnection, such as the bus.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an instruction cycle state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Operand compilation (oco)"
+      },
+      {
+        "key": "b",
+        "text": "Instruction fetch (if)"
+      },
+      {
+        "key": "c",
+        "text": "Operand fetch (of)"
+      },
+      {
+        "key": "d",
+        "text": "Data operation (do)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Others are iac, iod, oac and os.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which gate gives a high output only if all its inputs are high?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AND"
+      },
+      {
+        "key": "b",
+        "text": "OR"
+      },
+      {
+        "key": "c",
+        "text": "XOR"
+      },
+      {
+        "key": "d",
+        "text": "NOR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "OR gives 1 if any input is high.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "The XOR gate gives a high output when both of its two inputs are high.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It gives 1 when either, but not both, inputs are high.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 3"
+  }
+]

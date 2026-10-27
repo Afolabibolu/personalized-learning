@@ -1,0 +1,113 @@
+{
+  "code": "CSC 321",
+  "papers": [
+    {
+      "year": "2021/2022",
+      "paper": "B.Sc. Degree Examination, First Semester 2021/2022 (CSC 321: Computer Operating Systems). Answer all questions; 2 hours",
+      "source": "Past Questions/csc 321 20212022.pdf (scanned; handwritten answers on the copy are not copied)"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "CSC 321 examination 2022/2023 (page 2 only; Questions 3(B) to 5)",
+      "source": "Past Questions/CSC 321 2022_23 PQ (2).jpeg"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "B.Sc. Degree Examinations, First Semester 2024/2025 (CSC 321: Operating System I). Answer any three questions; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, pages 13–14 (scanned)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2021/2022",
+      "number": "1–4",
+      "marks": null,
+      "topic": "introduction-and-types-of-operating-systems",
+      "text": "1) The first operating system was a uniprogramming O/S but this quickly gave way to multiprogramming O/S. What is this technique called multiprogramming? (2 marks)\n2) (a) Which O/S is referred to as Embedded Operating System? (2 marks) (b) List any 4 devices that can run this O/S. (2 marks)\n3) (a) Regardless of the type of O/S, most operating systems are made up of 6 distinct components/managers. List out these 6 distinct components/managers. (3 marks) (b) What four tasks must each manager perform? (4marks)\n4) Write a short note on Real-time operating systems. (4 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 7,
+      "topic": "process-management",
+      "text": "5) (a) In operating systems, what is referred to as a process? (2marks) (b) With a suitable diagram/ illustration, describe the 5 process states. (5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "7–8",
+      "marks": 6,
+      "topic": "threads",
+      "text": "7. Using a suitable computer science example, describe what is referred to as Spawning. (3 marks)\n8. With the aid of diagrams ONLY, illustrate the different Multithreading Models. (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "9–11",
+      "marks": null,
+      "topic": "cpu-scheduling",
+      "text": "9. A good scheduling policy strives to maximize Throughput, minimize Turnaround time, Minimize Waiting time, minimize Response time, while maximizing CPU efficiency. Define the underlined terms and show their relationship, if any. (4 marks)\n10. Assuming the table below is the job table for a uni-processing computer system.\n\n| Job No | Priority | Arrival time | CPU time | Waiting time | Start time | Finish time | Turnaround time |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Job A | 1 | 9:00 AM | 20 mins | | | | |\n| Job B | 2 | 9:05 AM | 25 mins | | | | |\n| Job C | 3 | 9:10 AM | 30 mins | | | | |\n| Job D | 1 | 9:15 AM | 15 mins | | | | |\n\nNote: the highest priority is 3.\n(a) Copy and complete the table for (i) FCFS scheduling algorithm (4 marks) (ii) Priority scheduling (4marks)\n(b) Draw the gantt chart, assuming the system is using Round Robin (quantum = 20mins) (3 marks)\n11. Why do processes 'age'? (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "12–13",
+      "marks": 12,
+      "topic": "memory-management",
+      "text": "12. The Moniya community has a large piece of land for farming, which they usually divide into several plots yearly. In 2022, they adopted a scheme whereby each farmer was to request the size of plot that he needed for planting. This exact size is then allotted to him. If he harvests his crops and is done with the land, another farmers' need may be carved out of that plot.\na) Using your knowledge of Memory management, which computer term would you give each to the farmers and the land? (3 marks)\nb) From your understanding, what would you call the scheme employed above? With suitable diagram(s) describe this scheme in O/S terms and be sure to mention the problem this scheme created (if any). (5 marks)\n13. Most recent computing devices have multiple processors and this was invented, in a bid to increase throughput. With an appropriate diagram, discuss the multiprocessing configuration you think recent systems employ. (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(B)–(C)",
+      "marks": 9,
+      "topic": "memory-management",
+      "text": "B. Briefly describe the memory allocation scheme that was first developed to eliminate the problem of fragmentation. (5 marks)\nC. When does a process make a system call? What happens thereafter? (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4",
+      "marks": 15,
+      "topic": "threads",
+      "text": "Question 4. (15 marks)\nA. What are the four major categories of benefits to multi-threading, especially in a uniprocessor? (4 marks)\nB. Sketch a well labelled and annotated figure of the five-state process state diagram. (3 marks)\nC. The Unix Operating System has some unique features and symbols. What is the usefulness of the following in the Unix operating system environment? (3 marks) i. Pipe ii. Filter iii. >>\nD. Using suitable diagrams compare and contrast internal and external fragmentation. (5 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5",
+      "marks": 15,
+      "topic": "memory-management",
+      "text": "Question 5. (15 marks)\nA. A Graphic Designer Tamilore organized a competition for some students, where he asked them to draw any scene/ object of their choice on a piece of paper and bring along to be submitted the following day. On the day of submission, Tamilore the graphic designer provided a large wall that he divided into sections of different sizes. For each student to prove that he/she had done the drawing by himself/herself, the student was expected to redraw the drawing in any suitable section of their choice on the wall! The drawing must also be drawn at the same scale as the one on their paper. Unfortunately, some students' drawing could not completely fit into any section while some other students' drawing did not completely cover the chosen section. If any drawing could not completely fit into any section, the student would not be allowed to draw on the wall.\ni. Using your knowledge of Memory management, which computer term would you give each to the drawing and the wall? (2 marks)\nii. From your understanding, what memory allocation scheme do you think the designer implemented? Describe this scheme in O/S terms. (4 marks)\niii. What term could be used to describe the phenomenon described by the underlined phrase? (2 marks) [the underlined phrase is \"while some other students' drawing did not completely cover the chosen section\"]\nB. What is Context Switching? When can it be performed by a non-preemptive scheduling algorithm? (4 marks)\nC. How are priorities assigned to jobs? (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "marks": 20,
+      "topic": "cpu-scheduling",
+      "text": "Consider the following five processes, each arriving at different times with the specified CPU burst times.\n\nTable 1: Job Information\n\n| Job | Arrival Time | CPU Burst Time (minutes) | Start Time | Finish Time | Waiting Time |\n| --- | --- | --- | --- | --- | --- |\n| Job 1 | 7:00 AM | 25 | | | |\n| Job 2 | 7:05 AM | 35 | | | |\n| Job 3 | 7:10 AM | 15 | | | |\n| Job 4 | 7:15 AM | 30 | | | |\n| Job 5 | 7:25 AM | 20 | | | |\n\n1a. Using the above table, calculate the start time, finish time, waiting time and average waiting time for First Come First Serve and Shortest Remaining Time. Also show the Gantt Chart. (10 Marks)\n1b. Using the above table, calculate the start time, finish time, waiting time and average waiting time for Round Robin scheduling algorithm (with a quantum time of 5). Also show the Gantt Charts. (5 Marks)\n1c. Explain the roles of kernel mode and user mode in an operating system. Discuss how this separation enhances system security and stability. (5 Marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "marks": 20,
+      "topic": "memory-management",
+      "text": "2a. In a system using dynamic partitioning with the First Fit strategy, the following sequence occurs: Initially, memory has a free block of 1200KB. Process A (200KB), Process B (300KB), Process C (400KB), and Process D (200KB) are loaded in sequence. Process B terminates. Process E (250KB) arrives. Process C terminates. Process F (350KB) arrives. Process A terminates. Process G (200KB) arrives.\ni) With the aid of diagrams show how memory is allocated at each step. (7 marks)\nii) Explain the problem that may occur and suggest a solution. (2 marks)\niii) Calculate the total number of unused memory remaining after all the allocations. (1 mark)\n2b. Compare the Many-to-One, One-to-One, and Many-to-Many threading models, highlighting one key limitation of each. (9 Mark)\n2c. What is multiprogramming? (1 mark)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "marks": 20,
+      "topic": "process-management",
+      "text": "3a. Consider a situation where a high-priority process is pre-empted by an even higher-priority interrupt-driven I/O request. Using a suitable diagram explain all the possible state transitions the process could experience from submission to completion, including any possible transitions back to the ready state due to pre-emption. (5 marks)\n3b. Mention 4 functions of memory management (4 marks)\n3c. What is the importance of the Process Control Block? Explain any 5 of its components. (6 marks)\n3d. Explain dispatcher and why it is essential in preemptive scheduling. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "marks": 20,
+      "topic": "cpu-scheduling",
+      "text": "4a. In a multi-programmed system, the long-term scheduler inadvertently loads 80% I/O-bound processes and 20% CPU-bound processes. Predict the impact on CPU utilization and overall throughput, and explain how the medium-term scheduler could help correct this imbalance. (8 Marks).\n4b. Explain the concept of Multilevel Queue Scheduling. Give examples of each. (5 Marks)\n4c. A real-time medical monitoring system controls a pacemaker. The pacemaker must deliver an electrical pulse exactly every 800ms. If it misses even one pulse, the patient may suffer life-threatening consequences. What type of real-time system is this? What are the implications of a deadline miss? What OS scheduling mechanism should be used to guarantee deadline adherence? (7 Marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "marks": 20,
+      "topic": "architecture-kernels-and-shells",
+      "text": "5a. In a multi-user system using non-preemptive priority scheduling, several high-priority batch jobs continuously enter the ready queue. A low-priority system diagnostic task has been waiting indefinitely. Explain the problem faced by the diagnostic task. Suggest a technique to address this issue and maintain fairness without affecting critical task responsiveness. (5 marks)\n5b. Discuss the concept of Shell in operating system and explain the types of shell and give one example of each. (6 Marks)\n5c. Write short notes on the following: i. Long term scheduling ii. Medium term scheduling iii. Short term scheduling iv. Context switching (4 marks)\n5d. Explain 5 services of the operating system known to you. (5 marks)"
+    }
+  ]
+}

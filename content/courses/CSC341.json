@@ -1,0 +1,105 @@
+{
+  "code": "CSC 341",
+  "title": "Data Structures",
+  "description": "Linear and non-linear data structures: arrays, linked lists, stacks and expression conversion, queues and deques, trees and search trees, graphs, and sorting, searching and hashing. Built from the CSC 341 lecture notes, the graph and sorting notes and the practicals; trees, linked lists and hashing, which the past papers test but the notes do not cover, are written from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "data-structure-concepts-and-arrays",
+      "title": "Data Structure Concepts and Arrays",
+      "summary": "A data structure organises data so it can be used efficiently; structures are primitive or non-primitive, linear or non-linear, static or dynamic. Arrays store elements of one type in contiguous memory, so an element's address is computed from the base address.",
+      "subtopics": [
+        "Primitive and non-primitive data types",
+        "Linear and non-linear data structures",
+        "Static and dynamic structures; abstraction and encapsulation",
+        "Arrays and contiguous storage",
+        "Number of elements and row-major and column-major addressing",
+        "Array operations: traversing, insertion, deletion, merging, copying"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "linked-lists",
+      "title": "Linked Lists",
+      "summary": "A linked list is a chain of nodes, each holding data and a pointer to the next node, so it grows and shrinks at run time. Singly, doubly and circular lists trade memory for easier movement through the list.",
+      "subtopics": [
+        "Nodes, pointers and the head",
+        "Singly, doubly and circular linked lists",
+        "Insertion, deletion, traversal, search and reversal",
+        "Arrays compared with linked lists"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "stacks-and-expressions",
+      "title": "Stacks and Expression Conversion",
+      "summary": "A stack is a last-in, first-out structure where insertion (push) and deletion (pop) happen at one end, the top. Stacks check balanced parentheses and convert and evaluate infix, prefix and postfix expressions.",
+      "subtopics": [
+        "LIFO and the top pointer",
+        "push, pop, peek, isEmpty, isFull; overflow and underflow",
+        "Array and linked-list implementations",
+        "Applications: symbol balancing, undo, recursion, DFS, backtracking",
+        "Infix, prefix and postfix notation; precedence and associativity",
+        "Infix-to-postfix conversion and postfix evaluation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "queues-and-deques",
+      "title": "Queues and Deques",
+      "summary": "A queue is a first-in, first-out structure: items join at the rear (enqueue) and leave from the front (dequeue). Circular queues reuse freed space, deques allow both ends, and priority queues serve the highest priority first.",
+      "subtopics": [
+        "FIFO, front and rear",
+        "enqueue, dequeue, peek, isFull, isEmpty",
+        "Circular queues",
+        "Deques: input-restricted and output-restricted",
+        "Priority queues",
+        "Applications: CPU and disk scheduling, buffers, printers, BFS"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "trees-and-search-trees",
+      "title": "Trees and Search Trees",
+      "summary": "A tree is a hierarchical structure of nodes with one root; binary trees are traversed in preorder, inorder or postorder. Binary search trees, AVL trees and B-trees keep keys ordered so searching stays fast.",
+      "subtopics": [
+        "Root, parent, child, sibling, leaf, level and degree",
+        "Binary trees and expression trees",
+        "Preorder, inorder and postorder traversal",
+        "Binary search trees: search, insertion, deletion",
+        "AVL and red-black trees",
+        "B-trees and B+ trees; tries"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "graphs",
+      "title": "Graphs and Spanning Trees",
+      "summary": "A graph is a set of vertices joined by edges, stored as an adjacency matrix or an adjacency list. Graphs are traversed depth first with a stack or breadth first with a queue, and spanning trees connect all vertices with the fewest edges.",
+      "subtopics": [
+        "Vertex, edge, path and adjacency; directed and undirected graphs",
+        "Adjacency matrix and adjacency list",
+        "Depth-first search",
+        "Breadth-first search",
+        "Spanning trees and their properties",
+        "Minimum spanning trees: Kruskal and Prim"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sorting-searching-and-hashing",
+      "title": "Sorting, Searching and Hashing",
+      "summary": "Sorting arranges data in order (bubble, selection, insertion, quick sort), and searching finds a target by linear, binary or interpolation search. Hashing maps keys to table positions directly, resolving collisions by probing or chaining.",
+      "subtopics": [
+        "Internal and external sorting",
+        "Bubble, selection, insertion and quick sort",
+        "Linear, binary and interpolation search",
+        "Hash functions and hash tables",
+        "Collision resolution: linear and quadratic probing, chaining",
+        "Sequential and indexed sequential file organisation"
+      ],
+      "lectures": []
+    }
+  ]
+}

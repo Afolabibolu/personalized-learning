@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which level of language says what to do rather than how, such as SQL?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Declarative"
+      },
+      {
+        "key": "b",
+        "text": "Assembly"
+      },
+      {
+        "key": "c",
+        "text": "Machine"
+      },
+      {
+        "key": "d",
+        "text": "Microcode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Declarative languages are English-like command languages.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which translator produces an object program?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compiler"
+      },
+      {
+        "key": "b",
+        "text": "Interpreter"
+      },
+      {
+        "key": "c",
+        "text": "Editor"
+      },
+      {
+        "key": "d",
+        "text": "Linker only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An interpreter translates and executes line by line.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Assembly and machine languages are machine dependent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each machine species has its own machine and assembly language.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language introduced the record data structure for business data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "COBOL"
+      },
+      {
+        "key": "b",
+        "text": "FORTRAN"
+      },
+      {
+        "key": "c",
+        "text": "LISP"
+      },
+      {
+        "key": "d",
+        "text": "Logo"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A record clusters dissimilar data such as name, ID and age.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are object-oriented languages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simula"
+      },
+      {
+        "key": "b",
+        "text": "Smalltalk"
+      },
+      {
+        "key": "c",
+        "text": "Java"
+      },
+      {
+        "key": "d",
+        "text": "COBOL"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "COBOL is business-oriented.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an education-oriented language in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prolog"
+      },
+      {
+        "key": "b",
+        "text": "BASIC"
+      },
+      {
+        "key": "c",
+        "text": "Pascal"
+      },
+      {
+        "key": "d",
+        "text": "Logo"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Prolog is a logic (declarative) language.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In FORTRAN, a variable whose name starts with I to N is implicitly",
+    "options": [
+      {
+        "key": "a",
+        "text": "Integer"
+      },
+      {
+        "key": "b",
+        "text": "Real"
+      },
+      {
+        "key": "c",
+        "text": "Character"
+      },
+      {
+        "key": "d",
+        "text": "Boolean"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "That is why the book calls FORTRAN weakly typed.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "LISP was developed at Bell Labs for operating systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "LISP came from John McCarthy at MIT; C was developed for operating systems.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 2"
+  }
+]

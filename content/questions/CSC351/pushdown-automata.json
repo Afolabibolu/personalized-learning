@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A pushdown automaton is a finite automaton plus",
+    "options": [
+      {
+        "key": "a",
+        "text": "A stack"
+      },
+      {
+        "key": "b",
+        "text": "A queue"
+      },
+      {
+        "key": "c",
+        "text": "A second tape"
+      },
+      {
+        "key": "d",
+        "text": "A random-access memory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The stack lets it recognise context-free languages.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A PDA is formally a",
+    "options": [
+      {
+        "key": "a",
+        "text": "7-tuple"
+      },
+      {
+        "key": "b",
+        "text": "5-tuple"
+      },
+      {
+        "key": "c",
+        "text": "4-tuple"
+      },
+      {
+        "key": "d",
+        "text": "3-tuple"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(Q, Σ, S, δ, q0, I, F).",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "A PDA must read the top of the stack in every transition.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It may or may not read an input symbol.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A transition labelled a, b → c means",
+    "options": [
+      {
+        "key": "a",
+        "text": "On input a with b on top, pop b and push c"
+      },
+      {
+        "key": "b",
+        "text": "Push a, then b, then c"
+      },
+      {
+        "key": "c",
+        "text": "Read a, b and c from the input"
+      },
+      {
+        "key": "d",
+        "text": "Pop c and push b"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Then the machine moves to the target state.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are ways a PDA can accept a string?",
+    "options": [
+      {
+        "key": "a",
+        "text": "By final state"
+      },
+      {
+        "key": "b",
+        "text": "By empty stack"
+      },
+      {
+        "key": "c",
+        "text": "By reading the whole string and halting in any state"
+      },
+      {
+        "key": "d",
+        "text": "By overflowing the stack"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "These are the two acceptance definitions.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a component of a PDA?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A parse tree"
+      },
+      {
+        "key": "b",
+        "text": "An input tape"
+      },
+      {
+        "key": "c",
+        "text": "A control unit"
+      },
+      {
+        "key": "d",
+        "text": "A stack"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A parse tree belongs to a grammar's derivation.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A PDA for {0^n 1^n} pushes each 0 and then",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pops one 0 for each 1"
+      },
+      {
+        "key": "b",
+        "text": "Pushes each 1"
+      },
+      {
+        "key": "c",
+        "text": "Pops two 0s for each 1"
+      },
+      {
+        "key": "d",
+        "text": "Ignores the 1s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It accepts when the bottom marker $ is reached.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "PDAs are more capable than Turing machines.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are more capable than finite automata but less capable than Turing machines.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 11"
+  }
+]

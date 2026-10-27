@@ -1,0 +1,77 @@
+{
+  "code": "CSC 313",
+  "books": {
+    "stallings": {
+      "title": "Computer Organization and Architecture: Designing for Performance",
+      "authors": "William Stallings",
+      "edition": "10th edition",
+      "publisher": "Pearson",
+      "year": 2016
+    },
+    "mano": {
+      "title": "Computer System Architecture",
+      "authors": "M. Morris Mano",
+      "edition": "3rd edition",
+      "publisher": "Prentice Hall",
+      "year": 1993
+    },
+    "ph": {
+      "title": "Computer Organization and Design: The Hardware/Software Interface (MIPS edition)",
+      "authors": "David A. Patterson and John L. Hennessy",
+      "edition": "5th edition",
+      "publisher": "Morgan Kaufmann",
+      "year": 2014
+    }
+  },
+  "topics": {
+    "computer-evolution-and-performance": [
+      {
+        "book": "ph",
+        "read": "Chapter 1: Computer Abstractions and Technology (performance)",
+        "why": "CPU time, CPI, clock rate and MIPS with worked comparisons like the 2020/21 paper."
+      }
+    ],
+    "organization-architecture-and-instruction-cycle": [
+      {
+        "book": "stallings",
+        "read": "Chapters 1–3: Basic Concepts; Performance Issues; A Top-Level View of Computer Function",
+        "why": "Organization versus architecture, the von Neumann model and the instruction cycle the course book follows."
+      }
+    ],
+    "registers-and-number-representation": [
+      {
+        "book": "stallings",
+        "read": "Chapters 9 and 10: Number Systems; Computer Arithmetic",
+        "why": "Number bases, sign-magnitude, two's complement and floating point."
+      }
+    ],
+    "cpu-alu-and-addressing-modes": [
+      {
+        "book": "mano",
+        "read": "Chapter 8: Central Processing Unit",
+        "why": "Register organization, instruction formats with three-, two-, one- and zero-address examples, and addressing modes as in the course book."
+      }
+    ],
+    "risc-cisc-and-parallelism": [
+      {
+        "book": "mano",
+        "read": "Chapter 8, Section 8-8: Reduced Instruction Set Computer; Chapter 9: Pipeline and Vector Processing (Flynn)",
+        "why": "CISC and RISC characteristics, Berkeley RISC I and register windows, and Flynn's classification."
+      }
+    ],
+    "pipelining": [
+      {
+        "book": "ph",
+        "read": "Chapter 4: The Processor (pipelining and hazards)",
+        "why": "The five-stage MIPS pipeline, hazards, stalls and forwarding asked in the 2020/21 paper."
+      }
+    ],
+    "memory-hierarchy-and-cache": [
+      {
+        "book": "stallings",
+        "read": "Chapters 4 and 5: Cache Memory; Internal Memory",
+        "why": "The memory hierarchy, cache mapping, SRAM, DRAM and ROM types."
+      }
+    ]
+  }
+}

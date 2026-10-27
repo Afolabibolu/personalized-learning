@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The memory that stores the image displayed on a raster screen is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Frame buffer"
+      },
+      {
+        "key": "b",
+        "text": "Z-buffer"
+      },
+      {
+        "key": "c",
+        "text": "Cache"
+      },
+      {
+        "key": "d",
+        "text": "ROM"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The screen is refreshed from it.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How much frame buffer does a 1920 × 1080 screen at 24 bits per pixel need?",
+    "options": [
+      {
+        "key": "a",
+        "text": "About 6.2 MB"
+      },
+      {
+        "key": "b",
+        "text": "About 2 MB"
+      },
+      {
+        "key": "c",
+        "text": "About 50 MB"
+      },
+      {
+        "key": "d",
+        "text": "About 24 KB"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1920 × 1080 × 3 bytes.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "The GPU is a highly parallel processor designed for rendering images.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It runs the graphics pipeline.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 4a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is a graphics API?",
+    "options": [
+      {
+        "key": "a",
+        "text": "OpenGL"
+      },
+      {
+        "key": "b",
+        "text": "Trello"
+      },
+      {
+        "key": "c",
+        "text": "Dropbox"
+      },
+      {
+        "key": "d",
+        "text": "NVMe"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Vulkan, Direct3D and WebGL are others.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which tools support real-time collaboration in a design agency?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Figma"
+      },
+      {
+        "key": "b",
+        "text": "Google Drive"
+      },
+      {
+        "key": "c",
+        "text": "Slack"
+      },
+      {
+        "key": "d",
+        "text": "A single offline laptop"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Collaboration needs shared, connected tools.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 4c)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a stage of the graphics pipeline?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilation"
+      },
+      {
+        "key": "b",
+        "text": "Vertex processing"
+      },
+      {
+        "key": "c",
+        "text": "Rasterisation"
+      },
+      {
+        "key": "d",
+        "text": "Fragment shading"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Primitive assembly is another stage.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a design studio, storage that speeds up opening large files is",
+    "options": [
+      {
+        "key": "a",
+        "text": "An NVMe SSD"
+      },
+      {
+        "key": "b",
+        "text": "A floppy disk"
+      },
+      {
+        "key": "c",
+        "text": "A DVD"
+      },
+      {
+        "key": "d",
+        "text": "Magnetic tape"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Large HDDs or network storage suit archives.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 4a)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A random-scan display fills large areas better than a raster display.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Random-scan draws lines and cannot fill areas well.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

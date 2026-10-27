@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Twisting the wires of a twisted pair cable mainly reduces",
+    "options": [
+      {
+        "key": "a",
+        "text": "Crosstalk"
+      },
+      {
+        "key": "b",
+        "text": "Bandwidth"
+      },
+      {
+        "key": "c",
+        "text": "Cost"
+      },
+      {
+        "key": "d",
+        "text": "Propagation speed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Crosstalk is a signal leaking from one wire to another.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which part of an optical fibre reflects light back into the core?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cladding"
+      },
+      {
+        "key": "b",
+        "text": "Sheath"
+      },
+      {
+        "key": "c",
+        "text": "Jacket core"
+      },
+      {
+        "key": "d",
+        "text": "Shield"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sheath protects the cable.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "STP is heavier and costlier than UTP.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its shield gives greater protection from interference.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In multimode graded-index fibre, the refractive index",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decreases gradually from the centre of the core"
+      },
+      {
+        "key": "b",
+        "text": "Changes abruptly at the cladding"
+      },
+      {
+        "key": "c",
+        "text": "Is the same everywhere"
+      },
+      {
+        "key": "d",
+        "text": "Increases towards the edge"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Rays curve smoothly, giving less distortion than step-index.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are guided media?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Twisted pair"
+      },
+      {
+        "key": "b",
+        "text": "Coaxial cable"
+      },
+      {
+        "key": "c",
+        "text": "Optical fibre"
+      },
+      {
+        "key": "d",
+        "text": "Microwave"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Microwave is unguided.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an unguided medium?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Coaxial cable"
+      },
+      {
+        "key": "b",
+        "text": "Microwave"
+      },
+      {
+        "key": "c",
+        "text": "Radio waves"
+      },
+      {
+        "key": "d",
+        "text": "Infrared"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Coaxial cable is guided.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Loss of signal energy over distance is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Attenuation"
+      },
+      {
+        "key": "b",
+        "text": "Crosstalk"
+      },
+      {
+        "key": "c",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "d",
+        "text": "Routing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Amplifiers or repeaters restore it.",
+    "source": "general knowledge, following the CSC 322 past papers (2020/21 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In microwave communication, a lower tower gives a greater range.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The higher the tower, the greater the range.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Systems analysis is which phase of the five-phase SDLC?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Second"
+      },
+      {
+        "key": "b",
+        "text": "First"
+      },
+      {
+        "key": "c",
+        "text": "Third"
+      },
+      {
+        "key": "d",
+        "text": "Fifth"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It follows systems planning.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which team method has the phases requirements planning, user design, construction and cutover?",
+    "options": [
+      {
+        "key": "a",
+        "text": "RAD"
+      },
+      {
+        "key": "b",
+        "text": "JAD"
+      },
+      {
+        "key": "c",
+        "text": "Scrum"
+      },
+      {
+        "key": "d",
+        "text": "Waterfall"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "RAD aims to cut development time and expense.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Scrum, the pigs include the product owner, the facilitator and the development team.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The chickens are users, other stakeholders and managers.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"The system must support 25 users online simultaneously\" is which kind of requirement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Performance"
+      },
+      {
+        "key": "b",
+        "text": "Output"
+      },
+      {
+        "key": "c",
+        "text": "Input"
+      },
+      {
+        "key": "d",
+        "text": "Control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Response time limits are also performance requirements.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are sampling methods named in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Systematic"
+      },
+      {
+        "key": "b",
+        "text": "Stratified"
+      },
+      {
+        "key": "c",
+        "text": "Random"
+      },
+      {
+        "key": "d",
+        "text": "Sequential-only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A sample must represent the overall population accurately.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a fact-finding technique?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compiling"
+      },
+      {
+        "key": "b",
+        "text": "Interviews"
+      },
+      {
+        "key": "c",
+        "text": "Observation"
+      },
+      {
+        "key": "d",
+        "text": "Questionnaires"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Document review, sampling and research are others.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "People behaving differently because they know they are being watched is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hawthorne effect"
+      },
+      {
+        "key": "b",
+        "text": "Brooks effect"
+      },
+      {
+        "key": "c",
+        "text": "Zachman effect"
+      },
+      {
+        "key": "d",
+        "text": "Scope creep"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a risk of observation.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Leading questions should be used in interviews to get quick answers.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Leading questions should be avoided.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 4"
+  }
+]

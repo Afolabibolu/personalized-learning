@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which line algorithm uses only integer arithmetic?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bresenham's algorithm"
+      },
+      {
+        "key": "b",
+        "text": "DDA"
+      },
+      {
+        "key": "c",
+        "text": "Ray tracing"
+      },
+      {
+        "key": "d",
+        "text": "Phong shading"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DDA uses floating point and rounding.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the DDA algorithm, the number of steps is",
+    "options": [
+      {
+        "key": "a",
+        "text": "max(|dx|, |dy|)"
+      },
+      {
+        "key": "b",
+        "text": "dx + dy"
+      },
+      {
+        "key": "c",
+        "text": "min(|dx|, |dy|)"
+      },
+      {
+        "key": "d",
+        "text": "dx × dy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It steps along the axis with the larger change.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "A circle has eight-way symmetry, so only one octant needs computing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The others come from swapping and negating coordinates.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The stepped look of slanted lines on a raster display is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aliasing"
+      },
+      {
+        "key": "b",
+        "text": "Clipping"
+      },
+      {
+        "key": "c",
+        "text": "Culling"
+      },
+      {
+        "key": "d",
+        "text": "Shear"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Antialiasing reduces it.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are output primitives?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Points"
+      },
+      {
+        "key": "b",
+        "text": "Lines"
+      },
+      {
+        "key": "c",
+        "text": "Polygons"
+      },
+      {
+        "key": "d",
+        "text": "Frame buffers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Circles, curves and text are others.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an antialiasing technique?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Back-face culling"
+      },
+      {
+        "key": "b",
+        "text": "Supersampling"
+      },
+      {
+        "key": "c",
+        "text": "Area sampling"
+      },
+      {
+        "key": "d",
+        "text": "Intensity shading of edge pixels"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Back-face culling removes hidden polygons.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The midpoint circle algorithm starts with decision parameter",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 − r"
+      },
+      {
+        "key": "b",
+        "text": "2dy − dx"
+      },
+      {
+        "key": "c",
+        "text": "r²"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2dy − dx starts Bresenham's line algorithm.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Scan conversion turns pixels back into continuous shapes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It approximates continuous shapes by choosing pixels.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

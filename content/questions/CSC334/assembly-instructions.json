@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which addressing mode is fastest because no memory is involved?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register addressing"
+      },
+      {
+        "key": "b",
+        "text": "Immediate addressing"
+      },
+      {
+        "key": "c",
+        "text": "Direct memory addressing"
+      },
+      {
+        "key": "d",
+        "text": "Indirect addressing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both operands are in registers.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which directive defines a 2-byte (word) value?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DW"
+      },
+      {
+        "key": "b",
+        "text": "DB"
+      },
+      {
+        "key": "c",
+        "text": "DD"
+      },
+      {
+        "key": "d",
+        "text": "DQ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DB is 1 byte, DD 4 and DQ 8.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "DIV produces both a quotient and a remainder.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "DIV is for unsigned data and IDIV for signed data.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "XORing a register with itself",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clears it to zero"
+      },
+      {
+        "key": "b",
+        "text": "Doubles it"
+      },
+      {
+        "key": "c",
+        "text": "Sets every bit"
+      },
+      {
+        "key": "d",
+        "text": "Reverses its bits"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "NOT reverses the bits.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are NASM directives for constants?",
+    "options": [
+      {
+        "key": "a",
+        "text": "EQU"
+      },
+      {
+        "key": "b",
+        "text": "%assign"
+      },
+      {
+        "key": "c",
+        "text": "%define"
+      },
+      {
+        "key": "d",
+        "text": "MOV"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "MOV is an instruction.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a Boolean logic instruction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CMP"
+      },
+      {
+        "key": "b",
+        "text": "AND"
+      },
+      {
+        "key": "c",
+        "text": "OR"
+      },
+      {
+        "key": "d",
+        "text": "XOR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CMP compares operands; TEST and NOT are the other logic instructions.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The LOOP instruction uses which register as its counter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ECX"
+      },
+      {
+        "key": "b",
+        "text": "EAX"
+      },
+      {
+        "key": "c",
+        "text": "EDX"
+      },
+      {
+        "key": "d",
+        "text": "ESI"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CX is the count register.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "ADD and SUB can add one memory location directly to another.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Memory-to-memory operations are not possible with ADD and SUB.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 5"
+  }
+]

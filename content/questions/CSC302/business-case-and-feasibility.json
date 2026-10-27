@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The reasons, or justification, for a proposal are its",
+    "options": [
+      {
+        "key": "a",
+        "text": "Business case"
+      },
+      {
+        "key": "b",
+        "text": "Mission statement"
+      },
+      {
+        "key": "c",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "d",
+        "text": "Data dictionary"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A strong business case shows the firm should pursue the alternative.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "SWOT stands for strengths, weaknesses, opportunities and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Threats"
+      },
+      {
+        "key": "b",
+        "text": "Tasks"
+      },
+      {
+        "key": "c",
+        "text": "Targets"
+      },
+      {
+        "key": "d",
+        "text": "Tools"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used in strategic planning.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Even a feasible systems request might not be necessary.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Feasible and necessary are different tests.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which feasibility asks whether projected benefits outweigh the costs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic"
+      },
+      {
+        "key": "b",
+        "text": "Operational"
+      },
+      {
+        "key": "c",
+        "text": "Technical"
+      },
+      {
+        "key": "d",
+        "text": "Schedule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It includes total cost of ownership and tangible and intangible benefits.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are external factors that affect systems projects?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Competitors"
+      },
+      {
+        "key": "b",
+        "text": "Suppliers"
+      },
+      {
+        "key": "c",
+        "text": "Government"
+      },
+      {
+        "key": "d",
+        "text": "Top managers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Top managers are an internal factor.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the four types of feasibility?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Graphical feasibility"
+      },
+      {
+        "key": "b",
+        "text": "Operational"
+      },
+      {
+        "key": "c",
+        "text": "Technical"
+      },
+      {
+        "key": "d",
+        "text": "Schedule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The four are operational, technical, economic and schedule.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A diagram for investigating causes and effects is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fishbone (Ishikawa) diagram"
+      },
+      {
+        "key": "b",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "c",
+        "text": "Context diagram"
+      },
+      {
+        "key": "d",
+        "text": "Use case diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used to understand the problem in the preliminary investigation.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Better employee morale is a tangible benefit.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is intangible; tangible benefits can be measured in money.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 2"
+  }
+]

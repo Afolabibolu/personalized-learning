@@ -1,6 +1,6 @@
 # Test cases (Chapter Four)
 
-Run 2026-10-27 05:52 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-10-27 12:46 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
 **Summary:** 23 pass, 1 partial, 0 fail.
 
@@ -100,9 +100,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 33.33)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 22.22)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 48.85s)
+    PASS  pytest: diagnostic covers every topic and scores each one (25 passed in 54.72s)
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -116,7 +116,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 25 passed in 48.85s
+    PASS  pytest scripts: 25 passed in 54.72s
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -195,7 +195,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 45 passed in 2.48s
+    PASS  pytest ml (features, simulator, cold start, ranking): 45 passed in 2.15s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -214,9 +214,9 @@ Notes
     PASS  reviewed courses: CSC 531, CSC 574
     PASS  12 topics in the reviewed courses
     PASS  120 approved questions in the reviewed courses
-    INFO  15 sample courses from the ingestion pipeline: COS 102, CSC 412, CSC 421, CSC 431, CSC 472, CSC 475, CSC 476, CSC 551, CSC 552, CSC 554, CSC 572, CSC 582, CSC 583, CSC 584, GES 103
-    PASS  every topic (103) has at least one resource
-    PASS  every topic has a topic quiz; 17 diagnostic quizzes for 17 courses
+    INFO  27 sample courses from the ingestion pipeline: COS 102, CSC 301, CSC 302, CSC 313, CSC 321, CSC 322, CSC 331, CSC 334, CSC 335, CSC 341, CSC 351, CSC 381, CSC 412, CSC 421, CSC 431, CSC 472, CSC 475, CSC 476, CSC 551, CSC 552, CSC 554, CSC 572, CSC 582, CSC 583, CSC 584, GES 103, MAT 352
+    PASS  every topic (187) has at least one resource
+    PASS  every topic has a topic quiz; 29 diagnostic quizzes for 29 courses
 ```
 
 ### TC-10 · FR6 · Progress tracking and consistency
@@ -231,8 +231,8 @@ Notes
 **Actual:** 5 of 5 checks passed. **Result: Pass**
 
 ```
-    PASS  dashboard shows a streak  (7-day streak)
-    PASS  14-day activity strip  (9 active days)
+    PASS  dashboard shows a streak  (2-day streak)
+    PASS  14-day activity strip  (7 active days)
     PASS  progress chart has a bar per topic  (6 bars)
     PASS  no streak yet
     PASS  npm test: Tests  13 passed (13)
@@ -289,10 +289,10 @@ Notes
 **Actual:** 4 of 4 checks passed. **Result: Pass**
 
 ```
-    PASS  quiz_submit_api: median 0.19 s, p95 0.22 s, target 1.0 s (20 runs, 2026-10-26 23:35)
-    PASS  quiz_submit_ui: median 0.33 s, p95 0.35 s, target 2.0 s (20 runs, 2026-10-26 23:35)
-    PASS  dashboard_load_ui: median 0.84 s, p95 0.88 s, target 3.0 s (20 runs, 2026-10-26 23:35)
-    PASS  recommend_api: median 2.90 s, p95 3.04 s, target 5.0 s (20 runs, 2026-10-26 23:35)
+    PASS  quiz_submit_api: median 0.18 s, p95 0.21 s, target 1.0 s (20 runs, 2026-10-27 07:41)
+    PASS  quiz_submit_ui: median 0.33 s, p95 0.35 s, target 2.0 s (20 runs, 2026-10-27 07:41)
+    PASS  dashboard_load_ui: median 0.84 s, p95 1.36 s, target 3.0 s (20 runs, 2026-10-27 07:41)
+    PASS  recommend_api: median 2.73 s, p95 2.97 s, target 5.0 s (20 runs, 2026-10-27 07:41)
 ```
 
 ### TC-14 · NFR3 · Security: row-level security
@@ -393,7 +393,7 @@ Notes
 
 ```
     PASS  results: first attempt on a topic says so
-    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (20% to 20%, no change)
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (20% to 40%, up 20 points)
     PASS  'Custom (minutes)' is labelled and rejects 400
     PASS  'Custom (minutes)' accepts 45
     PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
@@ -442,8 +442,8 @@ Notes
 **Actual:** 11 of 11 checks passed. **Result: Pass**
 
 ```
-    PASS  Knowledge Base page in the nav with live counts  (17 courses 103 topics 489 resources 848 practice questions)
-    PASS  courses, then topics in order with summaries and subtopics  (103 topics; first: HCI, Interactive Systems and Usability)
+    PASS  Knowledge Base page in the nav with live counts  (29 courses 187 topics 948 resources 1520 practice questions)
+    PASS  courses, then topics in order with summaries and subtopics  (187 topics; first: HCI, Interactive Systems and Usability)
     PASS  resources grouped by type  (Study notes, Lecture slides, Past questions)
     PASS  search filters topics as you type  ('fuzzy' -> 1 topic(s))
     PASS  empty search shows a clear next step
@@ -451,7 +451,7 @@ Notes
     PASS  past questions open inside the app, grouped by year (tables rendered)  (4 papers, 2 table(s))
     PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
     PASS  topic page: summary, subtopics, resources by type, quiz and log buttons
-    PASS  every topic has a study note and a topic quiz (and a lecture link in reviewed courses)  (103 of 103)
+    PASS  every topic has a study note and a topic quiz (and a lecture link in reviewed courses)  (187 of 187)
     PASS  phone width (375 px): menu button opens the nav; no sideways scroll
 ```
 
@@ -480,7 +480,7 @@ Notes
     PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
     PASS  phone width: bell stays visible and its list fits
     PASS  'Custom (minutes)' is labelled and rejects 400
-    PASS  pytest test_reminders.py: 6 passed in 19.11s
+    PASS  pytest test_reminders.py: 6 passed in 23.14s
 ```
 
 ### TC-22 · NFR5 · Course ingestion pipeline: raw files to the app
@@ -497,23 +497,23 @@ Notes
 **Actual:** 22 of 22 checks passed. **Result: Pass**
 
 ```
-    PASS  inventory.py finds the courses in sources/raw/ and writes inventory.csv  (114 files, 17 courses: COS 102, CSC 412, CSC 421, CSC 431, CSC 472, CSC 475, CSC 476, CSC 531, CSC 551, CSC 552, CSC 554, CSC 572, CSC 574, CSC 582, CSC 583, CSC 584, GES 103)
+    PASS  inventory.py finds the courses in sources/raw/ and writes inventory.csv  (180 files, 29 courses: COS 102, CSC 301, CSC 302, CSC 313, CSC 321, CSC 322, CSC 331, CSC 334, CSC 335, CSC 341, CSC 351, CSC 381, CSC 412, CSC 421, CSC 431, CSC 472, CSC 475, CSC 476, CSC 531, CSC 551, CSC 552, CSC 554, CSC 572, CSC 574, CSC 582, CSC 583, CSC 584, GES 103, MAT 352)
     PASS  extract.py extracts CSC 551 and marks scanned PDFs  (5 files: scanned, text)
-    PASS  validate.py passes for every sample course  (15 sample courses)
-    PASS  every sample course is loaded with is_reviewed = false  (15 of 15)
-    PASS  each topic has a study note, a topic quiz and at least 8 practice questions  (91 topics)
+    PASS  validate.py passes for every sample course  (27 sample courses)
+    PASS  every sample course is loaded with is_reviewed = false  (27 of 27)
+    PASS  each topic has a study note, a topic quiz and at least 8 practice questions  (175 topics)
     PASS  the reviewed courses are unchanged
-    PASS  onboarding lists every course, with the two reviewed courses ticked and sample courses labelled  (17 courses, 2 ticked)
+    PASS  onboarding lists every course, with the two reviewed courses ticked and sample courses labelled  (29 courses, 2 ticked)
     PASS  choosing CSC 551 at onboarding enrols the student  (CSC 531, CSC 551, CSC 574)
-    PASS  course list shows my courses, then more courses with the sample badge  (17 course cards)
-    PASS  more courses are grouped by level, highest first  (500 LEVEL | 400 LEVEL | 200 LEVEL | 100 LEVEL)
+    PASS  course list shows my courses, then more courses with the sample badge  (29 course cards)
+    PASS  more courses are grouped by level, highest first  (500 LEVEL | 400 LEVEL | 300 LEVEL | 200 LEVEL | 100 LEVEL)
     PASS  Knowledge Base shows the sample course with the 'Sample content' badge
     PASS  Knowledge Base: other courses start collapsed; a header, Expand all and Collapse all toggle them
     PASS  'My courses' filter shows only the student's courses  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a sample course's study note opens in the app  (Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2)
     PASS  its past questions open in the app, grouped by paper  (2024/2025 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms); 2023/2024 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms))
     PASS  topic page shows the badge and the topic quiz button
-    PASS  a sample course's topic quiz is graded and shows results  (d88a0b63)
+    PASS  a sample course's topic quiz is graded and shows results  (718c54ed)
     PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Study note: Algorithm Fundamentals and Analysis; Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer)
     PASS  progress chart: a course dropdown lists only my courses and switches the chart  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a course can be removed from my courses
@@ -535,8 +535,8 @@ Notes
 **Actual:** 9 of 9 checks passed. **Result: Pass**
 
 ```
-    PASS  every topic has a recommended textbook card  (103 topics)
-    PASS  every video is a YouTube link that oEmbed confirms exists  (101 videos for 103 topics)
+    PASS  every topic has a recommended textbook card  (187 topics)
+    PASS  every video is a YouTube link that oEmbed confirms exists  (185 videos for 187 topics)
     PASS  exam-style and review-question sets are labelled as not from a past paper  (5 sets in GES 103)
     PASS  CSC 572 has 7 topics, including Decision Trees and Random Forests  (7 topics)
     PASS  each ML recommendation also suggests a video and a textbook for its topic  (3 of 3 cards)
@@ -560,7 +560,7 @@ Notes
 
 ```
     PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessor Interfacing Pending Sent 27 Oct 2026 · 400 level · first semester)
-    PASS  scripts/course_requests.py lists the pending request  (e04803f3  pending   2026-10-27  CSC 412 · Microprocessor Interfacing  (Request Tester))
+    PASS  scripts/course_requests.py lists the pending request  (e5d4469f  pending   2026-10-27  CSC 412 · Microprocessor Interfacing  (Request Tester))
     PASS  adding it enrols the student and notifies them  (Added: CSC 412 · Microprocessor Interfacing is now in the student's courses, and they have been notified.)
     PASS  the student sees the request as added, with a link to the course
     PASS  the student gets a 'course is ready' notification

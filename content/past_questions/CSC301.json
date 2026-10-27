@@ -1,0 +1,59 @@
+{
+  "code": "CSC 301",
+  "papers": [
+    {
+      "year": "2017/2018",
+      "paper": "CSC 301: Computer Centre Management examination, 2017/2018. Answer question 1 and 3 other questions; 2 hours",
+      "source": "Past Questions/301exam201718.pdf"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "CSC 301 examination 2023/2024 (page 2 only; Questions 3 and 4)",
+      "source": "Past Questions/CSC 301 2023_24 PQ (2).jpeg"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2017/2018",
+      "number": "1–2",
+      "marks": 24,
+      "topic": "planning-and-objectives",
+      "text": "Q1. Why is management necessary for an information technology professional? 1 mark\nUse the scenario below to answer all questions. Demola is an information technology professional who had successful developed a mobile app. There is a huge demand for his skill as a software developer. He has decided to register his own company Demola Nigeria Limited. Apply the functions of management to the following:\nQ2. Demola assembles a team to plan for the success of the new organization.\na. Develop a vision/mission statement for the new organization. 3 marks\nb. State 5 reasons for planning the new organization. 5 marks\nc. Use the SWOT or PEST method to analyze the organization. 5 marks\nd. Discuss the planning steps that the organization will to determine if to reside in Lagos, Abuja or Port Harcourt. 10 marks"
+    },
+    {
+      "year": "2017/2018",
+      "number": "3",
+      "marks": 23,
+      "topic": "organizing-and-staffing",
+      "text": "Q3. Demola attended a seminar where organizing the operations was rated high.\na. Differentiate between organization and organizational structure. 3 marks\nb. Identify 5 roles/units relevant for the success of Demola Nigeria Limited. 5 marks\nc. Draw an organizational structure for Demola Nigeria Limited. 5 marks\nd. Explain briefly the responsibilities for each of the 5 roles/units identified earlier. 10 marks"
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "marks": 23,
+      "topic": "organizing-and-staffing",
+      "text": "Q4. Demola Nigeria Limited recently secured a N100million funding. It wants to expand.\na. State 3 positions in the organization that require more staffing. 3 marks\nb. Write a job description for a position in Demola Nigeria Limited. 5 marks\nc. Describe a suitable process for staff recruitment. 5 marks\nd. How should staff be rewarded and promoted. 5 marks\ne. Discuss the merits and demerits of Demola employing his illiterate cousin into a position in the organization. 5 marks"
+    },
+    {
+      "year": "2017/2018",
+      "number": "5",
+      "marks": 23,
+      "topic": "management-theories",
+      "text": "Q5. The organization is running and making profit from its operations.\na. What services or products are created by Demola Nigeria Limited? 3 marks\nb. Briefly state ways that the organization can make profit from its operations. 5 marks\nc. Describe a tool that can be used to measure an aspect of the organization. 5 marks\nd. What management approach should be used to get work done? Why? 10 marks"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3",
+      "marks": 15,
+      "topic": "it-projects-and-data-centre-security",
+      "text": "a) For each of the following IT devices and scenarios, identify the most likely security concern and suggest a preventive measure: i. An employee's official laptop ii. Computers and printers in an unsupervised laboratory iii. Client data stored with a data center provider (6 marks)\nb) You are in charge of putting an agreement in place between your organization and a supplier of support services from outside your company. What is the name of the document that you must create? (2 marks)\nc) What role does RAID play in ensuring security? (2 marks)\nd) Write short note on AES 256 (5 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4",
+      "marks": 15,
+      "topic": "it-projects-and-data-centre-security",
+      "text": "a) Argue for or against the statement: \"Customer dissatisfaction leads to revenue loss.\" Support your argument with a real-world example where an IT solution failed to meet customer expectations, and it impact on business if any. Analyze the reasons for the failure and suggest how it could have been prevented. (5 marks)\nb) Differentiate between Infrastructure as a Service (IAAS) & Platform (PAAS) with appropriate example (3 marks)\nc) Explain the term \"password salting\" (2 marks)\nd) Explain DNS cache poisoning and how it can be prevented. (5 marks)"
+    }
+  ]
+}

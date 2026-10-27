@@ -1,0 +1,125 @@
+{
+  "code": "MAT 352",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "Department of Mathematics, B.Sc., B.Ed Degree Examinations, 2020/2021 Second Semester Examination (MAT 352: Probability Distributions and Elementary Limit Theorems), 10 December 2021. Attempt one and any other three questions; 3 hours",
+      "source": "300Level/SECOND SEMESTER/CSC 381/Past Questions/MAT 352 2020-21.pdf (filed in the CSC 381 folder; scanned)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "Department of Mathematics, B.Sc., B.Ed Degree Examinations 2021/2022 (MAT 352: Probability Distributions and Elementary Limit Theorems), 16 June 2023. Attempt four questions; 2.5 hours",
+      "source": "300Level/SECOND SEMESTER/CSC 381/Past Questions/mat 352 20212022.pdf (filed in the CSC 381 folder; scanned; handwritten working on the copy is not copied)"
+    },
+    {
+      "year": "2023/2024 test",
+      "paper": "MAT 352 Test, 2023/2024 (13 March 2024). Answer all questions; 45 minutes",
+      "source": "MAT352/Past Question/MAT 352 2023_24 CA TEST.jpeg"
+    },
+    {
+      "year": "CA",
+      "paper": "MAT 352 continuous assessment, Part B (answer any 2 questions; 30 marks), year not shown",
+      "source": "MAT352/Past Question/MAT 352 CA SCANNED.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "marks": 15,
+      "topic": "random-variables-and-distributions",
+      "text": "1. (a) Consider a random variable X which has the distribution function F_X(x) = 0 for x < −1; (x + 1)/2 for −1 < x < 1; 1 for x ≥ 1. i. Sketch the graph of F_X(x), and calculate ii. P(X > 1/2) iii. P(−1/2 < X ≤ 3/4) iv. P(|X| ≤ 1/2) (9)\n(b) Let A, B and C be events. Prove that i. If P(A) > P(B) and P(C|A) > P(C|B) then P(A|C) > P(B|C) ii. If A ⊆ B then P(A) ≤ P(B) (6)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "marks": 15,
+      "topic": "joint-distributions-and-independence",
+      "text": "2. (a) Suppose you are to select four letters at random from the English alphabet (26 letters, a–z) in order to create a security code. Repeats are possible. i. Identify your sample space Ω. ii. How many elements does Ω have? iii. Assuming that all outcomes are equally likely, compute the probability that your security code begins with a vowel? (7)\n(b) Let the joint probability density function of X and Y be: f_X,Y(x, y) = C x y² for 0 ≤ y ≤ x ≤ 1, 0 otherwise. i. For what value of C is the pdf valid. ii. Find the marginal probability density functions of X and Y. Are X and Y independent? (8)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "marks": 15,
+      "topic": "joint-distributions-and-independence",
+      "text": "3. (a) Let Y be distributed uniformly on [0, 2π]. Define A := sin(Y), B := cos(Y). Prove or disprove: i. A and B are independent. ii. A and B are correlated. (6)\n(b) Suppose that X₁ and X₂ joint probability density function f_X1,X2(x₁, x₂) = 21e^(−3x₁ − 4x₂) for 0 < x₂ < x₁, 0 otherwise. Find i. f_X1|X2(x₁|2). ii. P(X₁ > 5/2 | X₂ = 2). (9)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "marks": 15,
+      "topic": "inequalities-and-limit-theorems",
+      "text": "4. (a) i. Let X be a random variable that takes only nonnegative values. Then for any positive real number a, if E(X) exist, show that P(X ≥ a) ≤ E(X)/a. ii. State and prove the Chebyshev's Inequality using 4(ai) above. iii. Let X ~ Exponential(λ). Using Chebyshev's inequality find an upper bound for P(|X − E[X]| ≥ a), where a > 0. iv. Let X ~ Binomial(n, p). Find an upper bound on P(X ≥ bn), where p < b < 1. Evaluate the bound for p = 1/2 and b = 3/4. (10)\n(b) Let X ~ Poisson(λ). Compute E[1/(1 + X)]. (5)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "marks": 15,
+      "topic": "conditional-probability-and-bayes",
+      "text": "5. (a) i. Let E₁, E₂, ..., Eₙ be a partition of a sample space S. Let A ⊆ S be any event. Show that P(Eᵢ|A) = P(Eᵢ)P(A|Eᵢ) / Σⱼ P(Eⱼ)P(A|Eⱼ). ii. Consider a test to detect a disease that 0.1 % of the population have. The test is 99 % effective in detecting an infected person. However, the test gives a false positive result in 0.5 % of cases. If a person tests positive for the disease what is the probability that they actually have it? (8)\n(b) Let X be a random variable whose probability density function is given by f_X(x) = e^(−2x) + (1/2)e^(−x) for x > 0, 0 otherwise. Find the moment generating function for X and use it to compute the first and second moments of X. (7)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "marks": 15,
+      "topic": "random-variables-and-distributions",
+      "text": "1. (a) Consider a random variable X which has the distribution function F(x) = 0 for x ≤ 0; (1/3)x for 0 < x < 1; 1/3 for 1 ≤ x < 2; (1/3)x for 2 ≤ x < 3; 1 for x ≥ 3. (i.) Sketch the graph of F(x), and calculate (ii.) P{1 ≤ X < 2} (iii.) P{X = 2} (iv.) P{X ≥ 2 | X > 1} (9)\n(b) Let S be a sample space and A₁ and A₂ be events in S. Prove that (i.) P(A₁ᶜ) = 1 − P(A₁) (ii.) If A₁ ⊆ A₂ then P(A₁) ≤ P(A₂) (iii.) P(A₁ \\ A₂) = P(A₁) − P(A₁ ∩ A₂) (6)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": 15,
+      "topic": "random-variables-and-distributions",
+      "text": "2. (a) Let probability density function of X be: f_X(x) = C x²(1 − x) for 0 ≤ x ≤ 1, 0 otherwise. i. For what value of C is the pdf valid. ii. Give the cumulative distribution function of X and P(−1/2 ≤ X ≤ 1/2). (10)\n(b) Throw two dice. Let A be the event \"the sum of the points is 7\", B the event \"die #1 came up 3\", and C the event \"die #2 came up 4\". Are the three events pairwise and mutually independent? (5)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 15,
+      "topic": "conditional-probability-and-bayes",
+      "text": "3. (a) i. Suppose that E₁, E₂, ..., Eₙ form a partition of a sample space S. For any event A ⊆ S such that P(A) > 0 and P(A|Eᵢ), P(Eᵢ) are known for i = 1, 2, ..., n prove that P(Eᵢ|A) = P(A|Eᵢ)P(Eᵢ) / Σₖ P(A|Eₖ)P(Eₖ). ii. A student has asked his supervisor for a letter of recommendation for a workshop. He estimates that there is an 80% chance that he will be selected if he receives a strong recommendation, a 40% chance if he receives a moderately good recommendation, and a 10% chance if he receives a weak recommendation. He further estimates that the probabilities that the recommendation will be strong, moderate, or weak are 0.7, 0.2 and 0.1, respectively. Define the events A that he gets selected, B₁ that he gets a strong reference, B₂ that he gets a moderate reference and B₃ that he gets a weak reference. Given that he is selected, how likely he feels that the recommendation he has received is (i) strong (ii) moderate (ii) weak? (11)\n(b) Suppose that you have a fair 4-sided die, and let X be the random variable representing the value of the number rolled. Write down the moment generating function, Mₓ(t), for X. Use this moment generating function to find the first and second moments of X, then compute the variance of X. (4)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 15,
+      "topic": "inequalities-and-limit-theorems",
+      "text": "4. (a) (i.) Let X be a continuous random variable that takes only nonnegative values. Given any ε > 0 and assume that E(X) exists, prove that P{X ≥ ε} ≤ E(X)/ε. (ii.) A coin is weighted so that its probability of landing on heads is 20%, independently of other flips. Suppose the coin is flipped 20 times. Use Markov's inequality to bound the probability it lands on heads at least 16 times. Compare this to the actual probability that this happens, is the derived bound good enough? (7)\n(b) State and prove the Chebyshev's Inequality. Using the Chebyshev's inequality derive a bound for the problem in question 4(aii.). Any observation? (8)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 15,
+      "topic": "joint-distributions-and-independence",
+      "text": "5. (a) Let the joint probability density function of X and Y be: f_X,Y(x, y) = (6/7)(x² + xy/2) for 0 < x < 1, 0 < y < 2, 0 otherwise. i. Verify that this is indeed a joint density function and compute the marginal density function of X. Are Y and X independent? ii. Find P(Y > 1/2 | X < 1/2) and E(X). (8)\n(b) Let X ~ Poisson(λ). Compute E[1/(1 + X)]. Find the probability generating function of X, use it to compute E(X) and Var(X). (7)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "6",
+      "marks": 15,
+      "topic": "joint-distributions-and-independence",
+      "text": "6. (a) Assume that Y has a uniform distribution on the subset of the integers given by {1, 2, 3, ..., 47}. Compute the probability of the event that Y is even and the expected value of Y. (6)\n(b) Let g(t) denote a non-negative, integrable function of a single variable with the property that ∫₀^∞ g(t) dt = 1. Define f(x, y) = 2g(√(x² + y²)) / (π√(x² + y²)) for 0 < x < ∞, 0 < y < ∞, 0 otherwise. Show that f(x, y) is a joint pdf for two random variables X and Y. (9)"
+    },
+    {
+      "year": "2023/2024 test",
+      "number": "1–3",
+      "marks": null,
+      "topic": "generating-functions",
+      "text": "1a What is a Probability Measure?\nb Prove that the Probability for any event A, B, C is given by P(A∪B∪C) = P(A)+P(B)+P(C)−P(A∩C)−P(A∩B)−P(B∩C)+P(A∩B∩C)\n2a Define the Moment Generating function Mₓ(t).\nb If a random variable X has the Poisson distribution P(x) = e^(−λ)λˣ/x!, x = 0, 1, 2, .... By first finding the Moment generating function, determine its Mean and Variance\nc Given that the pdf of a Gaussian distribution is given as F(x, μ, σ²) = (1/√(2πσ²)) e^(−(x−μ)²/(2σ²)). Find its Moment Generating function and use it to determine its Mean and Variance\n3a What is an Indicator function?\nb Let X have the distribution function F(x) = 0 if x < −1; 1 − p if −1 ≤ x < 0; 1 − p + (1/2)xp if 0 ≤ x ≤ 2; 1 if x > 2. i P(X = −1) ii P(X = 0) iii P(X ≥ 1)"
+    },
+    {
+      "year": "CA",
+      "number": "Part B, 1–2",
+      "marks": null,
+      "topic": "probability-foundations",
+      "text": "1a What is a Probability Measure? State its axioms.\nb Prove that the Probability for any event A, B, C in a sample space, S is given by P(A∪B∪C) = P(A)+P(B)+P(C)−P(A∩C)−P(A∩B)−P(B∩C)+P(A∩B∩C)\nc Given that an experiment has four possible outcomes A, B, C, D, that are mutually exclusive events, using the axioms in 1a above explain why the following assignments of probabilities are not permissible. (i) P(A) = 0.12, P(B) = 0.63, P(C) = 0.45, P(D) = −0.20 (ii) P(A) = 9/120, P(B) = 45/120, P(C) = 27/120, P(D) = 46/120\n2a Given that the events E₁, E₂, E₃, defined on a sample space Ω are such that E₂ > 0, Prove that (i) 0 ≤ P(E₁|E₂) ≤ 1, (ii) P(E₂|E₂) = 1\nb Find the Probabilities of randomly drawing two aces in succession from an ordinary pack of 52 playing cards if we sample (i) with replacement (ii) without replacement\nc A box of fuses contains 20 fuses of which 5 are defective. If 3 of the fuses are selected at random and removed from the box in succession without replacement. What is the probability that all the 3 fuses are defective.\nd The members of a consulting firm rent cars from 3 rental agencies. 60 percent from agency 1, 30 percent from agency 2 and 10 percent from agency 3. If 9 percent of the cars from agency 1 needs an oil change, 20 percent of the cars from agency 2 needs an oil change and 6 percent of the cars from agency 3 needs an oil change. Using the Bayes' theorem or otherwise, find the probability that a rental car delivered to the firm will need an oil change?"
+    },
+    {
+      "year": "CA",
+      "number": "Part B, 3",
+      "marks": null,
+      "topic": "standard-distributions",
+      "text": "3 Consider the following Probability distributions (i) Binomial (ii) Exponential (iii) Gamma (iv) Geometric (v) Normal (vi) Poisson (vii) Uniform. In a tabular form, state respectively a the type of the distribution. b the probability mass function c the Moment generating function d their respective mean and variance"
+    }
+  ]
+}

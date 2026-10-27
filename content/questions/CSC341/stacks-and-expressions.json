@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A stack follows which principle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Last in, first out"
+      },
+      {
+        "key": "b",
+        "text": "First in, first out"
+      },
+      {
+        "key": "c",
+        "text": "Highest priority first"
+      },
+      {
+        "key": "d",
+        "text": "Random access"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Insertion and deletion both happen at the top.",
+    "source": "CSC 341(Data structure).pdf, page 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Popping an empty stack causes",
+    "options": [
+      {
+        "key": "a",
+        "text": "Underflow"
+      },
+      {
+        "key": "b",
+        "text": "Overflow"
+      },
+      {
+        "key": "c",
+        "text": "A collision"
+      },
+      {
+        "key": "d",
+        "text": "Thrashing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Pushing onto a full stack causes overflow.",
+    "source": "CSC 341(Data structure).pdf, page 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "push(), pop(), isEmpty() and peek() all take O(1) time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "None of them runs a loop.",
+    "source": "CSC 341(Data structure).pdf, page 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the postfix form of (A + B) * (C − D)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A B + C D − *"
+      },
+      {
+        "key": "b",
+        "text": "A B C D + − *"
+      },
+      {
+        "key": "c",
+        "text": "* + A B − C D"
+      },
+      {
+        "key": "d",
+        "text": "A + B C − D *"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each bracket's operator follows its operands, then * comes last.",
+    "source": "CSC 341(Data structure).pdf, pages 21–23"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does the postfix expression 4 5 6 * + evaluate to?",
+    "options": [
+      {
+        "key": "a",
+        "text": "34"
+      },
+      {
+        "key": "b",
+        "text": "54"
+      },
+      {
+        "key": "c",
+        "text": "26"
+      },
+      {
+        "key": "d",
+        "text": "120"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5 × 6 = 30, then 4 + 30 = 34.",
+    "source": "CSC 341(Data structure).pdf, page 30"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of a stack listed in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Balancing of symbols"
+      },
+      {
+        "key": "b",
+        "text": "Undo and redo"
+      },
+      {
+        "key": "c",
+        "text": "Recursion"
+      },
+      {
+        "key": "d",
+        "text": "CPU scheduling"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "CPU scheduling is a queue application.",
+    "source": "CSC 341(Data structure).pdf, pages 11–12"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which notation needs parentheses to show the order of operations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Infix"
+      },
+      {
+        "key": "b",
+        "text": "Prefix"
+      },
+      {
+        "key": "c",
+        "text": "Postfix"
+      },
+      {
+        "key": "d",
+        "text": "Reverse Polish"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In prefix and postfix the operator positions fix the order.",
+    "source": "CSC 341(Data structure).pdf, page 26"
+  },
+  {
+    "format": "true_false",
+    "stem": "In infix-to-postfix conversion, an operand is pushed onto the stack.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Operands go straight to the output; only operators and parentheses are pushed.",
+    "source": "CSC 341(Data structure).pdf, page 21"
+  }
+]

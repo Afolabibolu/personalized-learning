@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "\"A member can search the catalogue by title\" is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "Non-functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "Design constraint"
+      },
+      {
+        "key": "d",
+        "text": "Test case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It states a service the system provides.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A response-time limit is which kind of requirement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Non-functional"
+      },
+      {
+        "key": "b",
+        "text": "Functional"
+      },
+      {
+        "key": "c",
+        "text": "Domain-free"
+      },
+      {
+        "key": "d",
+        "text": "Optional"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Performance, reliability and security are non-functional.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Requirements validation checks that requirements are complete, consistent and what the customer wants.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is one of the requirements engineering activities.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which UML diagram shows objects exchanging messages over time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sequence diagram"
+      },
+      {
+        "key": "b",
+        "text": "Use case diagram"
+      },
+      {
+        "key": "c",
+        "text": "Class diagram"
+      },
+      {
+        "key": "d",
+        "text": "DFD"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use case diagrams show actors and system functions.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 5b)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are modelling notations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Use case diagram"
+      },
+      {
+        "key": "b",
+        "text": "Class diagram"
+      },
+      {
+        "key": "c",
+        "text": "Data flow diagram"
+      },
+      {
+        "key": "d",
+        "text": "Gantt chart only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A Gantt chart is a scheduling tool.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 5b)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a requirements engineering activity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compilation"
+      },
+      {
+        "key": "b",
+        "text": "Elicitation and analysis"
+      },
+      {
+        "key": "c",
+        "text": "Specification"
+      },
+      {
+        "key": "d",
+        "text": "Validation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A feasibility study begins the process.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a library use case diagram, \"Borrow item\" always using \"Check membership\" is which relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Include"
+      },
+      {
+        "key": "b",
+        "text": "Extend"
+      },
+      {
+        "key": "c",
+        "text": "Generalization"
+      },
+      {
+        "key": "d",
+        "text": "Aggregation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Extend is for optional behaviour.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper (Question 5c)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Non-functional requirements are never critical to a system's success.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Failing one can make the whole system unusable.",
+    "source": "general knowledge, following the CSC 335 course and the 2021/22 paper"
+  }
+]

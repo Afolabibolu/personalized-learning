@@ -1,0 +1,107 @@
+{
+  "code": "CSC 322",
+  "title": "Principles of Data Communication",
+  "description": "Data communication systems and transmission media; network types, topologies and internetworking; the OSI and TCP/IP models; circuit and packet switching; routing; and the network-layer protocols ARP, RARP, ICMP and IGMP with IPv4 addressing. Built from the CSC 322 lecture notes (Lectures 1 to 5); transmission timing, error detection, IP addressing and distance-vector routing, which the papers test, are added from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "data-communication-fundamentals",
+      "title": "Data Communication Fundamentals",
+      "summary": "Data communication is the exchange of data between devices over a transmission medium following a protocol. A system has five components, and data flows in simplex, half-duplex or full-duplex mode.",
+      "subtopics": [
+        "The five components of a communication system",
+        "Protocols: TCP and IP",
+        "Simplex, half-duplex and full-duplex communication",
+        "Network criteria: performance, reliability, security",
+        "Unicast, multicast and broadcast",
+        "Transmission and propagation time"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "transmission-media",
+      "title": "Transmission Media",
+      "summary": "Guided media carry signals along cables (twisted pair, coaxial, optical fibre) and unguided media send them through the air (microwave, radio, infrared). Signals weaken and change on the way, which is transmission impairment.",
+      "subtopics": [
+        "Guided and unguided media",
+        "Twisted pair: UTP and STP",
+        "Coaxial cable",
+        "Optical fibre and its propagation modes",
+        "Microwave, radio waves and infrared",
+        "Transmission impairments"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "networks-and-internetworking",
+      "title": "Network Types, Topologies and Internetworking",
+      "summary": "Networks are classified by size as PAN, LAN, CAN, MAN or WAN and arranged in bus, ring, star or mesh topologies. Internetworking joins separate networks through routers, giving intranets, extranets and the Internet.",
+      "subtopics": [
+        "PAN, LAN, CAN, MAN and WAN",
+        "Client/server and peer-to-peer LANs; VLANs",
+        "Bus, ring, star and mesh topologies",
+        "Internetworking: intranet, extranet, Internet",
+        "Data-link, MAC and network-layer addresses",
+        "Challenges of internetworking"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "osi-and-tcp-ip-models",
+      "title": "The OSI and TCP/IP Models",
+      "summary": "The OSI model, developed by ISO, divides communication into seven layers from physical to application, each with its own functions. The TCP/IP model used on the Internet merges them into fewer layers.",
+      "subtopics": [
+        "The seven OSI layers and their data units",
+        "Physical and data link layers; framing and bit stuffing",
+        "Error detection: parity and CRC",
+        "Network and transport layers",
+        "Session, presentation and application layers",
+        "The TCP/IP model compared with OSI"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "switching",
+      "title": "Circuit and Packet Switching",
+      "summary": "Circuit switching reserves a dedicated path for the whole connection, while packet switching sends data in independent packets by store and forward. Packet switching is done by virtual circuits or datagrams and suffers four kinds of delay.",
+      "subtopics": [
+        "Packet switching and store and forward",
+        "Transmission, propagation, processing and queuing delays",
+        "Virtual-circuit (connection-oriented) switching",
+        "Datagram (connectionless) switching",
+        "Circuit switching and its three phases",
+        "Circuit switching compared with packet switching"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "routing",
+      "title": "Routing",
+      "summary": "Routing selects the path packets take from source to destination; routers choose routes by metrics such as hop count, delay and bandwidth. Routes are static, default or dynamic, and dynamic protocols use distance-vector or link-state algorithms.",
+      "subtopics": [
+        "Routers and routing tables",
+        "Routing metrics: hop count, delay, bandwidth, load, reliability",
+        "Static routing",
+        "Default routing",
+        "Dynamic routing: RIP and OSPF",
+        "Distance-vector and link-state (Dijkstra) routing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "network-layer-protocols-and-ip-addressing",
+      "title": "Network-Layer Protocols and IP Addressing",
+      "summary": "ARP finds a MAC address from an IP address, RARP the reverse, ICMP reports errors back to the sender, and IGMP manages multicast groups. IPv4 datagrams carry 32-bit addresses in classes A to E and may be fragmented on the way.",
+      "subtopics": [
+        "ARP and the ARP cache",
+        "RARP",
+        "ICMP error reporting",
+        "IGMP and multicasting",
+        "The IPv4 datagram and fragmentation",
+        "IPv4 address classes and the move to IPv6"
+      ],
+      "lectures": []
+    }
+  ]
+}

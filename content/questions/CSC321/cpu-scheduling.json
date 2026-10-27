@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Turnaround time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Waiting time plus service time"
+      },
+      {
+        "key": "b",
+        "text": "Service time only"
+      },
+      {
+        "key": "c",
+        "text": "The time quantum"
+      },
+      {
+        "key": "d",
+        "text": "Arrival time minus waiting time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It can also be computed as finish time minus arrival time.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which algorithm is the preemptive version of shortest job next?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shortest remaining time"
+      },
+      {
+        "key": "b",
+        "text": "First-come first-served"
+      },
+      {
+        "key": "c",
+        "text": "Round robin"
+      },
+      {
+        "key": "d",
+        "text": "Priority scheduling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A shorter new job pre-empts the running one.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "In round robin, a very large time quantum makes it behave like FCFS.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each job would finish within its quantum.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Raising a waiting process's priority over time to prevent starvation is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aging"
+      },
+      {
+        "key": "b",
+        "text": "Spooling"
+      },
+      {
+        "key": "c",
+        "text": "Thrashing"
+      },
+      {
+        "key": "d",
+        "text": "Compaction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Eventually its priority exceeds incoming jobs.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are non-preemptive algorithms in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First-come first-served"
+      },
+      {
+        "key": "b",
+        "text": "Shortest job next"
+      },
+      {
+        "key": "c",
+        "text": "Priority scheduling"
+      },
+      {
+        "key": "d",
+        "text": "Round robin"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Round robin and SRT are preemptive.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Jobs 1 (2 h, arrives 10:00), 2 (1 h, 10:10) and 3 (30 min, 10:30) are run FCFS. When does job 3 finish?",
+    "options": [
+      {
+        "key": "a",
+        "text": "13:30"
+      },
+      {
+        "key": "b",
+        "text": "12:30"
+      },
+      {
+        "key": "c",
+        "text": "11:00"
+      },
+      {
+        "key": "d",
+        "text": "13:00"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Job 1 ends at 12:00, job 2 at 13:00, job 3 at 13:30.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a scheduling metric?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Partition size"
+      },
+      {
+        "key": "b",
+        "text": "Waiting time"
+      },
+      {
+        "key": "c",
+        "text": "Turnaround time"
+      },
+      {
+        "key": "d",
+        "text": "Service time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Partition size belongs to memory management.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Shortest job next works well in interactive systems where users cannot estimate run times.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It needs CPU estimates, so it suits batch systems.",
+    "source": "CSC 321 DLC Final.pdf (Computer Operating System course book), Study Session 8"
+  }
+]

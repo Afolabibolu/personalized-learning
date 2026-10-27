@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which is not one of the five components of a data communication system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compiler"
+      },
+      {
+        "key": "b",
+        "text": "Message"
+      },
+      {
+        "key": "c",
+        "text": "Protocol"
+      },
+      {
+        "key": "d",
+        "text": "Transmission medium"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The five are message, sender, receiver, medium and protocol.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A walkie-talkie uses which mode of communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Half duplex"
+      },
+      {
+        "key": "b",
+        "text": "Simplex"
+      },
+      {
+        "key": "c",
+        "text": "Full duplex"
+      },
+      {
+        "key": "d",
+        "text": "Broadcast only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both sides can send, but not at the same time.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "TCP divides messages into packets at the source and reassembles them at the destination.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "IP handles the destination address.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How long does a 12,000-bit message take to transmit on a 1 Gbps link?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12 μs"
+      },
+      {
+        "key": "b",
+        "text": "12 ms"
+      },
+      {
+        "key": "c",
+        "text": "1.2 s"
+      },
+      {
+        "key": "d",
+        "text": "62.5 ms"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Transmission time = size ÷ bandwidth = 12,000 ÷ 10⁹ s.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three main network criteria?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Performance"
+      },
+      {
+        "key": "b",
+        "text": "Reliability"
+      },
+      {
+        "key": "c",
+        "text": "Security"
+      },
+      {
+        "key": "d",
+        "text": "Colour"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Performance covers transit and response time.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a type of data flow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Triplex"
+      },
+      {
+        "key": "b",
+        "text": "Simplex"
+      },
+      {
+        "key": "c",
+        "text": "Half duplex"
+      },
+      {
+        "key": "d",
+        "text": "Full duplex"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three modes are simplex, half duplex and full duplex.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Propagation time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Distance ÷ propagation speed"
+      },
+      {
+        "key": "b",
+        "text": "Message size ÷ bandwidth"
+      },
+      {
+        "key": "c",
+        "text": "Bandwidth × distance"
+      },
+      {
+        "key": "d",
+        "text": "Queue length ÷ bandwidth"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Transmission time is size ÷ bandwidth.",
+    "source": "general knowledge, following the CSC 322 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a computer network, each computer can start, stop or control the others.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A network is a collection of autonomous computers.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 1"
+  }
+]

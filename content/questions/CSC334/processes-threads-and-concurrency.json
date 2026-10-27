@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Saving a stopped process's registers and restoring another's is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Context switch"
+      },
+      {
+        "key": "b",
+        "text": "Fork"
+      },
+      {
+        "key": "c",
+        "text": "Granule"
+      },
+      {
+        "key": "d",
+        "text": "Datagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The register context is held in the PCB.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A process that has exited but not yet been cleaned up by its parent is in the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Zombie state"
+      },
+      {
+        "key": "b",
+        "text": "Ready state"
+      },
+      {
+        "key": "c",
+        "text": "Running state"
+      },
+      {
+        "key": "d",
+        "text": "New state"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The parent's wait() call lets the OS clean it up.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "It takes less time to create and terminate a thread than a process.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Threads share the process's address space.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Serving only one client at a moment while switching between them is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Concurrent execution"
+      },
+      {
+        "key": "b",
+        "text": "Parallel execution"
+      },
+      {
+        "key": "c",
+        "text": "Granularity"
+      },
+      {
+        "key": "d",
+        "text": "Deadlock"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Parallel execution serves several at once.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which data identify each thread?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Program counter"
+      },
+      {
+        "key": "b",
+        "text": "Registers"
+      },
+      {
+        "key": "c",
+        "text": "Stack"
+      },
+      {
+        "key": "d",
+        "text": "Its own copy of the code segment"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Threads share the process's code.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an action in creating a process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compacting memory"
+      },
+      {
+        "key": "b",
+        "text": "Setting up the PCB"
+      },
+      {
+        "key": "c",
+        "text": "Allocating an address space"
+      },
+      {
+        "key": "d",
+        "text": "Loading the program"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The fourth action is passing the description to the scheduler.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The amount of computation done in parallel relative to the whole program is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Granularity"
+      },
+      {
+        "key": "b",
+        "text": "Throughput"
+      },
+      {
+        "key": "c",
+        "text": "Locality"
+      },
+      {
+        "key": "d",
+        "text": "Latency"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a qualitative measure of computation to communication.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "User-level threads are created and managed by the operating system kernel.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are managed by users at the application level, without the OS.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 9"
+  }
+]

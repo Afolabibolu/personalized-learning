@@ -1,0 +1,107 @@
+{
+  "code": "CSC 301",
+  "title": "Computer Centre Management",
+  "description": "Managing a computer centre: infrastructure, facilities, networks, security, support and budgets; the meaning, functions, roles and skills of management and the classical and human-relations theories; planning and objectives; organizing and staffing; leadership, motivation and communication; and IT projects and data-centre security and services. Built from the CSC 301 lecture note (Ayorinde) and the Principles of Management lectures; project costing and scheduling and data-centre security, which the outline and the 2023/24 paper cover, are added from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "computer-centre-management-and-planning",
+      "title": "Computer Centre Management and Planning",
+      "summary": "Computer centre management plans, organizes and coordinates resources so a computer or data centre gives reliable, secure and efficient services. Its planning covers strategy, infrastructure, security, disaster recovery, budgets, resources, training, compliance and communication.",
+      "subtopics": [
+        "Infrastructure and facility management",
+        "Network management and system administration",
+        "Security, resource allocation and the service desk",
+        "Budgeting and financial management",
+        "Strategic, infrastructure and security planning",
+        "Disaster recovery, training, compliance and review"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "management-concepts-and-roles",
+      "title": "The Meaning, Functions and Roles of Management",
+      "summary": "Management is the coordination of all resources through planning, organizing, directing and controlling to attain stated objectives. Managers play interpersonal, informational and decisional roles and need technical, human and conceptual skills.",
+      "subtopics": [
+        "Definitions and characteristics of management",
+        "Management as an art and a science",
+        "Functions: planning, organizing, staffing, directing, controlling",
+        "Mintzberg's managerial roles",
+        "Technical, human and conceptual skills",
+        "The internal, market and macro environment"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "management-theories",
+      "title": "Management Theories",
+      "summary": "Classical theory includes Taylor's scientific management, Fayol's 14 principles and Weber's bureaucracy. The human relations school of Elton Mayo, Schein's assumptions about people and McGregor's Theory X and Theory Y turned attention to people and their social needs.",
+      "subtopics": [
+        "Taylor's scientific management",
+        "Fayol's administrative theory and 14 principles",
+        "Weber's bureaucracy and its weaknesses",
+        "Elton Mayo and the Hawthorne studies",
+        "Schein's four assumptions about people",
+        "McGregor's Theory X and Theory Y"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "planning-and-objectives",
+      "title": "Planning and Objectives",
+      "summary": "Planning decides what objectives to accomplish, the actions to achieve them and who is responsible; it precedes every other function. Plans are strategic, tactical or operational; the planning process has eight steps; MBO links individual and organizational goals; and SWOT and PEST analyses inform strategy.",
+      "subtopics": [
+        "Meaning and importance of planning",
+        "Strategic, tactical and operational plans; standing and single-use plans",
+        "Corporate, business and functional strategy; mission and objectives",
+        "The planning process",
+        "Management by objectives",
+        "Barriers to planning; SWOT and PEST"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "organizing-and-staffing",
+      "title": "Organizing and Staffing",
+      "summary": "Organizing creates a structure of roles through division of work, departmentation, coordination, chain and unity of command and span of control. Staffing fills positions with the right people through job analysis, recruitment, selection, training, appraisal and reward.",
+      "subtopics": [
+        "Principles of organizing",
+        "Authority, power, responsibility and accountability; delegation",
+        "Functional, product, geographical and customer designs",
+        "Line and staff; centralization and span of control",
+        "Job descriptions, recruitment and selection",
+        "Training, appraisal, rewards and promotion"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "leadership-motivation-and-communication",
+      "title": "Leadership, Motivation and Communication",
+      "summary": "Leadership is influencing people to strive willingly toward group goals, studied through trait, behavioural (autocratic, democratic, laissez-faire) and situational approaches. Motivation is explained by content theories (Maslow, Herzberg) and process theories (Vroom, Adams), and communication links it all.",
+      "subtopics": [
+        "Meaning and importance of leadership",
+        "Trait and behavioural approaches; leadership styles",
+        "Managerial grid and situational models (Fiedler)",
+        "Maslow's hierarchy and Herzberg's two-factor theory",
+        "Expectancy and equity theories",
+        "Communication, its channels and barriers; groups and change"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "it-projects-and-data-centre-security",
+      "title": "IT Projects, Data-Centre Security and Services",
+      "summary": "IT projects are proposed, costed, scheduled with milestones, Gantt charts and activity networks, monitored and reported, with risks managed throughout. A data centre protects devices and data with encryption, RAID, salting and secure DNS, and buys services through SLAs and cloud models.",
+      "subtopics": [
+        "Proposal writing and project costing",
+        "Milestones, deliverables, Gantt charts and activity networks",
+        "Monitoring, reviews, report writing and risk management",
+        "Security of laptops, labs and hosted data; RAID",
+        "AES-256, password salting and DNS cache poisoning",
+        "Service-level agreements; IaaS, PaaS and SaaS"
+      ],
+      "lectures": []
+    }
+  ]
+}

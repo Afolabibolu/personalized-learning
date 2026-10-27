@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which stage of the five-stage RISC pipeline writes the result to a register?",
+    "options": [
+      {
+        "key": "a",
+        "text": "WB"
+      },
+      {
+        "key": "b",
+        "text": "MEM"
+      },
+      {
+        "key": "c",
+        "text": "EX"
+      },
+      {
+        "key": "d",
+        "text": "ID"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The stages are IF, ID, EX, MEM and WB.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a k-stage pipeline running n instructions, the pipelined time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(k + n − 1) × Tp"
+      },
+      {
+        "key": "b",
+        "text": "n × k × Tp"
+      },
+      {
+        "key": "c",
+        "text": "k × Tp"
+      },
+      {
+        "key": "d",
+        "text": "(n − k) × Tp"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The non-pipelined time is n × k × Tp.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a non-uniform delay pipeline, the cycle time equals the maximum stage delay.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Stages of 2, 8, 3 and 10 ns give Tp = 10 ns.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 12a"
+  },
+  {
+    "format": "single_choice",
+    "stem": "ADD R3 ← R1, R2 followed by SUB R4 ← R3, R1 is which hazard?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data hazard (RAW)"
+      },
+      {
+        "key": "b",
+        "text": "Structural hazard"
+      },
+      {
+        "key": "c",
+        "text": "Control hazard"
+      },
+      {
+        "key": "d",
+        "text": "No hazard"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SUB reads R3 before ADD has written it.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11; 2020/21 paper"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of pipeline hazard (dependency)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Structural"
+      },
+      {
+        "key": "b",
+        "text": "Data"
+      },
+      {
+        "key": "c",
+        "text": "Control"
+      },
+      {
+        "key": "d",
+        "text": "Lexical"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They introduce stalls in the pipeline.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one does not reduce pipeline stalls?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Removing the pipeline registers"
+      },
+      {
+        "key": "b",
+        "text": "Operand forwarding"
+      },
+      {
+        "key": "c",
+        "text": "Branch prediction"
+      },
+      {
+        "key": "d",
+        "text": "Separate instruction and data memories"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Interface registers are needed between stages.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dividing the pipeline into more, shorter stages is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Super-pipelining"
+      },
+      {
+        "key": "b",
+        "text": "Superscalar"
+      },
+      {
+        "key": "c",
+        "text": "Forwarding"
+      },
+      {
+        "key": "d",
+        "text": "Stalling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Superscalar uses several pipelines in parallel.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "The speedup of a pipeline can grow without limit as more instructions run.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It approaches k, the number of stages.",
+    "source": "CSC 313-Computer Organization and Architecture.pdf (course material, T. Oguntunde), Unit 11"
+  }
+]

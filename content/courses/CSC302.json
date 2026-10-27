@@ -1,0 +1,107 @@
+{
+  "code": "CSC 302",
+  "title": "Systems Analysis and Design",
+  "description": "Information systems and development methods; the business case, strategic planning and feasibility; project management with Gantt and PERT/CPM charts; requirements modelling and fact-finding; data and process modelling with DFDs; object modelling with UML; and development strategies, data design and system architecture. Built from the CSC 302 lecture slides (Shelly Cashman, Chapters 1 to 4); data and process modelling, UML, data design and architecture, which the papers test, are added from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "introduction-to-systems-analysis",
+      "title": "Introduction to Systems Analysis and Design",
+      "summary": "An information system combines hardware, software, data, processes and people to support business requirements, and systems analysis and design is the step-by-step process for developing it. Systems are built with structured analysis (the SDLC), object-oriented analysis or agile methods.",
+      "subtopics": [
+        "Information technology and information systems",
+        "The five components of an information system",
+        "How business uses information systems",
+        "Structured analysis and the SDLC (waterfall)",
+        "Object-oriented and agile methods; JAD, RAD and others",
+        "The IT department and the systems analyst"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "business-case-and-feasibility",
+      "title": "The Business Case and Feasibility",
+      "summary": "A business case is the justification for a proposal; strategic planning and SWOT analysis give the framework, and systems requests start the process. A preliminary investigation studies operational, technical, economic and schedule feasibility and reports to management.",
+      "subtopics": [
+        "Business case and strategic planning; SWOT and mission statement",
+        "Reasons for systems projects; internal and external factors",
+        "Systems requests and the systems review committee",
+        "Operational, technical, economic and schedule feasibility",
+        "Setting priorities; tangible and intangible benefits",
+        "The six steps of the preliminary investigation; fishbone diagram"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "managing-systems-projects",
+      "title": "Managing Systems Projects",
+      "summary": "Project managers plan, schedule, monitor and report on projects so they finish on time and within budget. Gantt and PERT/CPM charts show tasks, dependencies and the critical path, and risk management and change control keep the project on track.",
+      "subtopics": [
+        "Project planning and identifying tasks; Brooks's law",
+        "Estimating time: best, probable and worst cases",
+        "Gantt charts and PERT/CPM charts",
+        "Task patterns, critical path and slack",
+        "Risk management, monitoring and reporting",
+        "Software change control and keys to project success"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "requirements-modelling-and-fact-finding",
+      "title": "Requirements Modelling and Fact-Finding",
+      "summary": "The systems analysis phase models requirements, data and processes, and objects. Team methods (JAD, RAD, agile) involve users, the requirements checklist covers outputs, inputs, processes, performance and controls, and fact-finding uses interviews, observation, questionnaires, sampling and research.",
+      "subtopics": [
+        "Systems analysis phase activities and skills",
+        "JAD, RAD and agile methods (Scrum)",
+        "System requirements checklist; scalability and TCO",
+        "Fact-finding: who, what, where, when, how and why",
+        "Interviews: the seven steps",
+        "Observation, questionnaires, sampling, research and documentation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-and-process-modelling",
+      "title": "Data and Process Modelling",
+      "summary": "Data flow diagrams model a system's processes, data flows, data stores and external entities, from the context diagram down through level 0 and lower levels. DFDs follow rules that rule out black holes, gray holes and spontaneous generation, and are backed by a data dictionary and process descriptions.",
+      "subtopics": [
+        "DFD symbols: process, data flow, data store, entity",
+        "Context diagram and level 0 diagram",
+        "Leveling, balancing and decomposition",
+        "DFD rules and errors: black hole, gray hole, spontaneous generation",
+        "Data dictionary",
+        "Process descriptions: structured English, decision tables and trees"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "object-modelling-and-uml",
+      "title": "Object Modelling and the UML",
+      "summary": "Object-oriented analysis describes a system as objects that belong to classes and interact by messages. The UML models it with use case, class, sequence, state transition and activity diagrams.",
+      "subtopics": [
+        "Objects, classes, attributes, methods and messages",
+        "Advantages of object-oriented modelling",
+        "Use case diagrams; include and extend relationships",
+        "Class diagrams; generalization and aggregation",
+        "Sequence and activity diagrams",
+        "State transition diagrams"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "development-strategies-and-system-design",
+      "title": "Development Strategies, Data Design and Architecture",
+      "summary": "A system may be developed in-house, bought as a package, outsourced or delivered as a service. Data design uses entity-relationship diagrams and normalization to third normal form, and system architecture ranges from file servers and client/server to Internet-based designs.",
+      "subtopics": [
+        "In-house development versus software packages and outsourcing",
+        "Evaluating vendors and packages",
+        "Entity-relationship diagrams and cardinality",
+        "Normalization: 1NF, 2NF, 3NF",
+        "File server and client/server architecture",
+        "Internet-based architecture; top-down and bottom-up design"
+      ],
+      "lectures": []
+    }
+  ]
+}

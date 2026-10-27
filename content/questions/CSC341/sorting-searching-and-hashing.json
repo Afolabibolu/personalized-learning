@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Sorting data that cannot fit in main memory at once is",
+    "options": [
+      {
+        "key": "a",
+        "text": "External sorting"
+      },
+      {
+        "key": "b",
+        "text": "Internal sorting"
+      },
+      {
+        "key": "c",
+        "text": "Bubble sorting"
+      },
+      {
+        "key": "d",
+        "text": "Hashing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Internal sorting fits in main memory.",
+    "source": "Graph Adj List.pdf, page 23"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Bubble sort takes",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n²) time"
+      },
+      {
+        "key": "b",
+        "text": "O(log n) time"
+      },
+      {
+        "key": "c",
+        "text": "O(1) time"
+      },
+      {
+        "key": "d",
+        "text": "O(n log n) time always"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It repeatedly compares and swaps adjacent elements.",
+    "source": "Graph Adj List.pdf, page 24"
+  },
+  {
+    "format": "true_false",
+    "stem": "Insertion sort is stable: it keeps the relative order of equal keys.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The notes describe it as stable.",
+    "source": "Graph Adj List.pdf, page 26"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Binary search requires the array to be",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sorted"
+      },
+      {
+        "key": "b",
+        "text": "Unsorted"
+      },
+      {
+        "key": "c",
+        "text": "Circular"
+      },
+      {
+        "key": "d",
+        "text": "Stored by columns"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It halves the sorted search interval each step.",
+    "source": "Graph Adj List.pdf, page 37"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two keys hashing to the same slot is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "A collision"
+      },
+      {
+        "key": "b",
+        "text": "An overflow"
+      },
+      {
+        "key": "c",
+        "text": "An underflow"
+      },
+      {
+        "key": "d",
+        "text": "A rotation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Overflow is when a bucket has no room left.",
+    "source": "general knowledge, following the CSC 341 past papers (2021/22 paper)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are collision-resolution techniques?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear probing"
+      },
+      {
+        "key": "b",
+        "text": "Quadratic probing"
+      },
+      {
+        "key": "c",
+        "text": "Chaining"
+      },
+      {
+        "key": "d",
+        "text": "Bubble sorting"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Bubble sort is a sorting algorithm.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a sorting algorithm in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear search"
+      },
+      {
+        "key": "b",
+        "text": "Quick sort"
+      },
+      {
+        "key": "c",
+        "text": "Selection sort"
+      },
+      {
+        "key": "d",
+        "text": "Insertion sort"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Linear search is a searching technique.",
+    "source": "Graph Adj List.pdf, pages 23 and 32"
+  },
+  {
+    "format": "true_false",
+    "stem": "With linear probing, a deleted slot can safely be marked as empty.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An empty mark would stop later searches early; it is marked deleted instead.",
+    "source": "general knowledge, following the CSC 341 past papers (2021/22 paper)"
+  }
+]

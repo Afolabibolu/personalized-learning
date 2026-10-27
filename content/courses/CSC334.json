@@ -1,0 +1,107 @@
+{
+  "code": "CSC 334",
+  "title": "Systems Programming",
+  "description": "Computer organisation, registers and ports; memory segments and x86 assembly language programming with NASM; processes, threads and concurrency; Java multithreading and synchronization; network programming with Java sockets; and Unix processes and inter-process communication. Built from the CSC 334 course book (Units 1 to 15); Unix processes, signals and IPC, which the 2024/25 paper tests, are added from general knowledge.",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "computer-organisation-and-ports",
+      "title": "Computer Organisation, Registers and Ports",
+      "summary": "A computer is organised into processor, memory and I/O, and registers sit at the top of the memory hierarchy as the fastest storage. Ports are the connection points for peripherals, serial or parallel, from PS/2 and DE-9 to USB, HDMI and RJ-45.",
+      "subtopics": [
+        "Characteristics and limitations of systems programming",
+        "Registers: AC, DR, AR, PC, MDR, index register, MBR",
+        "Fetch, decode and execute; memory hierarchy and locality of reference",
+        "User-visible and control and status registers; the PSW flags",
+        "Serial and parallel ports; PS/2, DB-25 and DE-9",
+        "Video, audio, USB and network ports"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "memory-segments-and-assembly-basics",
+      "title": "Memory Segments and Assembly Language Basics",
+      "summary": "A program's memory holds code (text), initialised data, uninitialised data (.bss), stack and heap segments. An assembly program has data, bss and text sections; NASM assembles it, and Linux system calls are made through registers and int 80h.",
+      "subtopics": [
+        "Code, data, .bss, stack and heap segments",
+        "Object files: relocatable, executable, shared",
+        "Advantages of assembly language; binary and hexadecimal",
+        "Sections, statements and comments in NASM",
+        "IA-32 registers and flags",
+        "Assembling, linking and Linux system calls"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "assembly-instructions",
+      "title": "Assembly Instructions, Procedures and Macros",
+      "summary": "Instructions reach operands by register, immediate or memory addressing, and storage is set aside with define, reserve, TIMES and EQU directives. Arithmetic, logical, compare and jump instructions, loops, procedures, the stack and macros build complete programs.",
+      "subtopics": [
+        "Register, immediate and memory addressing; MOV",
+        "Define and reserve directives, TIMES, EQU, %assign, %define",
+        "INC, DEC, ADD, SUB, MUL/IMUL, DIV/IDIV",
+        "AND, OR, XOR, TEST, NOT",
+        "CMP, JMP, conditional jumps and LOOP",
+        "Procedures, the stack, recursion and macros"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "processes-threads-and-concurrency",
+      "title": "Processes, Threads and Concurrency",
+      "summary": "The OS tracks each process in a process list and PCB through creation, execution and termination. Threads are lightweight processes; concurrent execution interleaves them on one processor, while parallel execution runs them at the same time on several.",
+      "subtopics": [
+        "Process list, PCB and context switch",
+        "Process creation and states",
+        "Threads and their advantages over processes",
+        "Concurrent and parallel execution; granularity",
+        "User and kernel threads; multithreading models",
+        "Uses and benefits of multithreading"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "java-threads-and-synchronization",
+      "title": "Java Threads and Synchronization",
+      "summary": "Java threads move through new, runnable, waiting, timed waiting and terminated states and are scheduled by priority and time slicing. Executors run Runnable tasks in thread pools, and locks and conditions synchronize threads that share data, as in the producer/consumer relationship.",
+      "subtopics": [
+        "Thread states and the thread scheduler",
+        "Priorities, time slicing and preemption",
+        "Runnable, Executor and ExecutorService",
+        "Locks, ReentrantLock and the fairness policy",
+        "Conditions: await, signal, signalAll; deadlock",
+        "Producer/consumer with and without synchronization"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "network-programming-in-java",
+      "title": "Network Programming in Java",
+      "summary": "Java's java.net package supports stream-based (TCP, connection-oriented) and packet-based (UDP, connectionless) communication. A server opens a ServerSocket and accepts clients on Socket streams; datagram programs exchange DatagramPackets.",
+      "subtopics": [
+        "Client-server relationship; java.net",
+        "Stream sockets and datagram sockets",
+        "Manipulating URLs and reading a file on a web server",
+        "Establishing a server: the five steps",
+        "Establishing a client: the four steps",
+        "Connectionless communication with datagrams"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "unix-processes-and-ipc",
+      "title": "Unix Processes, Signals and IPC",
+      "summary": "Unix creates processes with fork() and runs new programs with exec(), managing them from creation to termination. Signals notify processes asynchronously, and processes exchange data through pipes, message queues, shared memory and sockets.",
+      "subtopics": [
+        "fork(), exec() and vfork()",
+        "The Unix process lifecycle; zombies and orphans",
+        "Signals and signal handling",
+        "IPC: pipes, FIFOs, message queues, semaphores, sockets",
+        "Shared memory",
+        "File handling and number conversion in C"
+      ],
+      "lectures": []
+    }
+  ]
+}

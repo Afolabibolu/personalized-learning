@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which protocol finds a MAC address when the IP address is known?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ARP"
+      },
+      {
+        "key": "b",
+        "text": "RARP"
+      },
+      {
+        "key": "c",
+        "text": "ICMP"
+      },
+      {
+        "key": "d",
+        "text": "IGMP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "RARP finds an IP address from a physical address.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which ICMP message asks a source to slow down because a router is congested?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Source quench"
+      },
+      {
+        "key": "b",
+        "text": "Redirection"
+      },
+      {
+        "key": "c",
+        "text": "Time exceeded"
+      },
+      {
+        "key": "d",
+        "text": "Parameter problem"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used for congestion control.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "ICMP reports errors back to the sender but does not correct them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It can only send messages to the source.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "IGMP supports",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multicasting"
+      },
+      {
+        "key": "b",
+        "text": "Address resolution"
+      },
+      {
+        "key": "c",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "d",
+        "text": "Circuit switching"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It identifies the members of multicast groups.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which IPv4 header fields are used in fragmentation and reassembly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identification"
+      },
+      {
+        "key": "b",
+        "text": "Flags"
+      },
+      {
+        "key": "c",
+        "text": "Fragment offset"
+      },
+      {
+        "key": "d",
+        "text": "Source port"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Ports belong to the transport layer.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an IGMP message type?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Echo Request"
+      },
+      {
+        "key": "b",
+        "text": "Membership Query"
+      },
+      {
+        "key": "c",
+        "text": "Membership Report"
+      },
+      {
+        "key": "d",
+        "text": "Leave Report"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Echo request is an ICMP message used by ping.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The address 129.6.8.4 belongs to which class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Class B"
+      },
+      {
+        "key": "b",
+        "text": "Class A"
+      },
+      {
+        "key": "c",
+        "text": "Class C"
+      },
+      {
+        "key": "d",
+        "text": "Class D"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Class B first bytes run from 128 to 191.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "75.45.301.14 is a valid IPv4 address.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Each byte must be 0 to 255, and 301 is too large.",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  }
+]

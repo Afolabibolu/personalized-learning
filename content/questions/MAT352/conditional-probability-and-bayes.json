@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "P(A | B) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A ∩ B) ÷ P(B)"
+      },
+      {
+        "key": "b",
+        "text": "P(A) ÷ P(B)"
+      },
+      {
+        "key": "c",
+        "text": "P(A ∩ B) ÷ P(A)"
+      },
+      {
+        "key": "d",
+        "text": "P(A)P(B)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Defined for P(B) > 0.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Events A and B are independent when",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A ∩ B) = P(A)P(B)"
+      },
+      {
+        "key": "b",
+        "text": "P(A ∩ B) = 0"
+      },
+      {
+        "key": "c",
+        "text": "P(A) = P(B)"
+      },
+      {
+        "key": "d",
+        "text": "A ⊆ B"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mutually exclusive events with positive probability are not independent.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Pairwise independence of three events does not guarantee mutual independence.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The two-dice example is pairwise but not mutually independent.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 2b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A disease affects 0.1% of people; a test detects 99% of cases and gives 0.5% false positives. P(disease | positive) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.165"
+      },
+      {
+        "key": "b",
+        "text": "0.99"
+      },
+      {
+        "key": "c",
+        "text": "0.5"
+      },
+      {
+        "key": "d",
+        "text": "0.001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Most positives are false because the disease is rare.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 5a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are needed to apply Bayes' theorem over a partition E₁, …, Eₙ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The prior probabilities P(Eᵢ)"
+      },
+      {
+        "key": "b",
+        "text": "The likelihoods P(A | Eᵢ)"
+      },
+      {
+        "key": "c",
+        "text": "That the Eᵢ are mutually exclusive and exhaustive"
+      },
+      {
+        "key": "d",
+        "text": "That A is independent of every Eᵢ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "If A were independent of every Eᵢ, the posterior would equal the prior.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which formula is not a correct probability rule?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A ∩ B) = P(A) + P(B)"
+      },
+      {
+        "key": "b",
+        "text": "P(A ∩ B) = P(A)P(B | A)"
+      },
+      {
+        "key": "c",
+        "text": "P(A) = Σ P(A | Eᵢ)P(Eᵢ)"
+      },
+      {
+        "key": "d",
+        "text": "P(Aᶜ) = 1 − P(A)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Intersection uses multiplication, not addition.",
+    "source": "Lanre_s 352 note.pdf (a student's handwritten MAT 352 lecture notes, used as secondary)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "60%, 30% and 10% of cars come from agencies needing oil changes at rates 9%, 20% and 6%. P(oil change) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.12"
+      },
+      {
+        "key": "b",
+        "text": "0.35"
+      },
+      {
+        "key": "c",
+        "text": "0.20"
+      },
+      {
+        "key": "d",
+        "text": "0.09"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.054 + 0.06 + 0.006 = 0.12.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (scanned CA, Question 2d)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If A and B are independent, then A and Bᶜ are dependent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Independence of A and B implies independence of A and Bᶜ.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Stream sockets use which protocol?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TCP"
+      },
+      {
+        "key": "b",
+        "text": "UDP"
+      },
+      {
+        "key": "c",
+        "text": "ICMP"
+      },
+      {
+        "key": "d",
+        "text": "ARP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Datagram sockets use UDP.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which ServerSocket method waits for a client to connect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "accept"
+      },
+      {
+        "key": "b",
+        "text": "connect"
+      },
+      {
+        "key": "c",
+        "text": "listenOnce"
+      },
+      {
+        "key": "d",
+        "text": "send"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It returns a Socket when a client connects.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "Connectionless services generally offer greater performance but less reliability than connection-oriented services.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "UDP trades reliability for speed.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Port numbers below which value are reserved for system services?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1024"
+      },
+      {
+        "key": "b",
+        "text": "65,535"
+      },
+      {
+        "key": "c",
+        "text": "80"
+      },
+      {
+        "key": "d",
+        "text": "8080"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ports run from 0 to 65,535.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 13"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in establishing a simple server?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Create a ServerSocket"
+      },
+      {
+        "key": "b",
+        "text": "Wait for a connection with accept"
+      },
+      {
+        "key": "c",
+        "text": "Get the socket's streams"
+      },
+      {
+        "key": "d",
+        "text": "Create a DatagramPacket only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The last two steps are processing and closing.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 13"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which class is not used for stream-socket communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DatagramPacket"
+      },
+      {
+        "key": "b",
+        "text": "ServerSocket"
+      },
+      {
+        "key": "c",
+        "text": "Socket"
+      },
+      {
+        "key": "d",
+        "text": "ObjectOutputStream"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DatagramPacket is for connectionless communication.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 14"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Specifying a port that is already in use for a ServerSocket causes",
+    "options": [
+      {
+        "key": "a",
+        "text": "A BindException"
+      },
+      {
+        "key": "b",
+        "text": "A deadlock"
+      },
+      {
+        "key": "c",
+        "text": "A buffer overflow"
+      },
+      {
+        "key": "d",
+        "text": "Nothing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An invalid port number also causes it.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "Datagram packets are always delivered in the order they were sent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Packets can be lost, duplicated or arrive out of order.",
+    "source": "CSC 334- Systems Programming - new1.docx (course book), Unit 12"
+  }
+]

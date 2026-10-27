@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who is known as the father of scientific management?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Frederick Taylor"
+      },
+      {
+        "key": "b",
+        "text": "Henri Fayol"
+      },
+      {
+        "key": "c",
+        "text": "Max Weber"
+      },
+      {
+        "key": "d",
+        "text": "Elton Mayo"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Fayol is the father of classical organization theory.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Fayol's principle that an employee should receive orders from only one superior is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unity of command"
+      },
+      {
+        "key": "b",
+        "text": "Unity of direction"
+      },
+      {
+        "key": "c",
+        "text": "Scalar chain"
+      },
+      {
+        "key": "d",
+        "text": "Esprit de corps"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Unity of direction is one head and one plan.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Hawthorne studies found that the need to belong to a group can matter more than money.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Elton Mayo led the studies.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Max Weber's model of organization is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bureaucracy"
+      },
+      {
+        "key": "b",
+        "text": "Scientific management"
+      },
+      {
+        "key": "c",
+        "text": "Theory Y"
+      },
+      {
+        "key": "d",
+        "text": "MBO"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs on rules and a hierarchy of authority.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among Fayol's 14 principles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Division of work"
+      },
+      {
+        "key": "b",
+        "text": "Scalar chain"
+      },
+      {
+        "key": "c",
+        "text": "Esprit de corps"
+      },
+      {
+        "key": "d",
+        "text": "Job enrichment"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Job enrichment comes from Herzberg.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of Schein's assumptions about people?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mechanical man"
+      },
+      {
+        "key": "b",
+        "text": "Rational-economic man"
+      },
+      {
+        "key": "c",
+        "text": "Social man"
+      },
+      {
+        "key": "d",
+        "text": "Self-actualizing man"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The fourth is complex man.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "McGregor's assumption that people dislike work and must be controlled is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Theory X"
+      },
+      {
+        "key": "b",
+        "text": "Theory Y"
+      },
+      {
+        "key": "c",
+        "text": "Theory Z"
+      },
+      {
+        "key": "d",
+        "text": "Equity theory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Theory Y sees work as natural as play.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Scientific management took full account of workers' social needs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It overlooked social needs and assumed workers wanted only money.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 2"
+  }
+]

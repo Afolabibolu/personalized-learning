@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The agile manifesto values working software over",
+    "options": [
+      {
+        "key": "a",
+        "text": "Comprehensive documentation"
+      },
+      {
+        "key": "b",
+        "text": "Customer collaboration"
+      },
+      {
+        "key": "c",
+        "text": "Responding to change"
+      },
+      {
+        "key": "d",
+        "text": "Individuals and interactions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also values customer collaboration over contract negotiation.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In agile, tasks are divided into small time frames called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Time boxes"
+      },
+      {
+        "key": "b",
+        "text": "Spirals"
+      },
+      {
+        "key": "c",
+        "text": "Milestones"
+      },
+      {
+        "key": "d",
+        "text": "Phases"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each delivers specific features for a release.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "RAD uses minimal planning in favour of rapid prototyping.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Modules are built in parallel as prototypes.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "RAD should only be used when the system can be",
+    "options": [
+      {
+        "key": "a",
+        "text": "Modularised for incremental delivery"
+      },
+      {
+        "key": "b",
+        "text": "Built without users"
+      },
+      {
+        "key": "c",
+        "text": "Fully specified in advance"
+      },
+      {
+        "key": "d",
+        "text": "Written in one module"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "If the project cannot be broken into modules, RAD may fail.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are factors in choosing a software process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Customer involvement"
+      },
+      {
+        "key": "b",
+        "text": "Stability of requirements"
+      },
+      {
+        "key": "c",
+        "text": "Developer experience"
+      },
+      {
+        "key": "d",
+        "text": "The colour of the logo"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Team size and familiarity with technology and domain are others.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is a demerit of agile methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "High dependence on individuals because documentation is minimal"
+      },
+      {
+        "key": "b",
+        "text": "Rapid delivery of functionality"
+      },
+      {
+        "key": "c",
+        "text": "Promotes teamwork"
+      },
+      {
+        "key": "d",
+        "text": "Suits changing requirements"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The others are merits.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "RAD was a response to plan-driven waterfall processes such as",
+    "options": [
+      {
+        "key": "a",
+        "text": "SSADM"
+      },
+      {
+        "key": "b",
+        "text": "Scrum"
+      },
+      {
+        "key": "c",
+        "text": "XP"
+      },
+      {
+        "key": "d",
+        "text": "Spiral"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called adaptive software development.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Agile methods depend little on customer interaction.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They depend heavily on it; an unclear customer can lead the team astray.",
+    "source": "week 3 and 4 -Software Process.pdf (CSC 335 lecture slides, Software Process Models)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The number of subordinates who report directly to one manager is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Span of control"
+      },
+      {
+        "key": "b",
+        "text": "Chain of command"
+      },
+      {
+        "key": "c",
+        "text": "Scalar chain"
+      },
+      {
+        "key": "d",
+        "text": "Line function"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It depends on factors such as the rate of change.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which flows upward in the organizational hierarchy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Accountability"
+      },
+      {
+        "key": "b",
+        "text": "Authority"
+      },
+      {
+        "key": "c",
+        "text": "Power"
+      },
+      {
+        "key": "d",
+        "text": "Delegation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Authority and power flow down; responsibility stays with the person.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Responsibility cannot be delegated.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A supervisor remains responsible even after delegating authority.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Grouping specialists such as marketing, HR and finance is which design?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Functional"
+      },
+      {
+        "key": "b",
+        "text": "Product"
+      },
+      {
+        "key": "c",
+        "text": "Geographical"
+      },
+      {
+        "key": "d",
+        "text": "Customer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the most common design.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are basic principles of organizing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Division of work"
+      },
+      {
+        "key": "b",
+        "text": "Departmentation"
+      },
+      {
+        "key": "c",
+        "text": "Unity of command"
+      },
+      {
+        "key": "d",
+        "text": "Job rotation only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Coordination, chain of command and span of control are others.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a stage of staffing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Departmentation"
+      },
+      {
+        "key": "b",
+        "text": "Recruitment"
+      },
+      {
+        "key": "c",
+        "text": "Selection"
+      },
+      {
+        "key": "d",
+        "text": "Performance appraisal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Departmentation is a principle of organizing.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2017/18 paper, Question 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A written statement of a job's title, duties, reporting line and qualifications is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Job description"
+      },
+      {
+        "key": "b",
+        "text": "Mission statement"
+      },
+      {
+        "key": "c",
+        "text": "Budget"
+      },
+      {
+        "key": "d",
+        "text": "Span of control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It comes from job analysis.",
+    "source": "general knowledge, following the CSC 301 course outline and past papers (2017/18 paper, Question 4b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A manager can delegate the functions of planning and controlling to a subordinate.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "These cannot be delegated without breaking down performance.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 4"
+  }
+]

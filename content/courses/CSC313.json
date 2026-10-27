@@ -1,0 +1,107 @@
+{
+  "code": "CSC 313",
+  "title": "Computer Organization and Architecture",
+  "description": "The evolution of computers and performance measures; computer organization and architecture, the von Neumann model and the instruction cycle; registers and number representation; the CPU, ALU, instruction formats and addressing modes; RISC, CISC and parallel processing; pipelining and its hazards; and the memory hierarchy, RAM, ROM and cache. Built from the Ibadan Distance Learning course material for CSC 313 (Units 1 to 13).",
+  "is_reviewed": false,
+  "level": 300,
+  "topics": [
+    {
+      "slug": "computer-evolution-and-performance",
+      "title": "Computer Evolution and Performance",
+      "summary": "Computers developed from the Z1, ENIAC and EDSAC through mainframes, minicomputers and microprocessors to parallel machines and grids. Performance is measured by clock rate, CPI, MIPS, MFLOPS and CPU time, none of which alone defines a machine's performance.",
+      "subtopics": [
+        "History: Z1, ENIAC, EDVAC, EDSAC, UNIVAC, IBM 360, PDP-8, Intel 4004",
+        "General-purpose and special-purpose machines",
+        "Architectural styles: CISC and RISC; scale of integration",
+        "Clock rate, CPI and CPU time",
+        "MIPS and MFLOPS",
+        "Comparing machines; speedup"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "organization-architecture-and-instruction-cycle",
+      "title": "Organization, Architecture and the Instruction Cycle",
+      "summary": "Architecture is the set of attributes visible to the programmer; organization is the operational units that realise it. A von Neumann computer stores data and instructions in one memory and executes instructions in sequence through fetch and execute cycles, built from logic gates.",
+      "subtopics": [
+        "Computer organization versus architecture",
+        "Basic functions and the four structural components",
+        "Von Neumann and Harvard architecture",
+        "The instruction fetch and execute cycle",
+        "Instruction cycle states",
+        "Logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "registers-and-number-representation",
+      "title": "Registers and Number Representation",
+      "summary": "Registers hold the data and addresses the CPU uses immediately, and perform fetch, decode and execute. Numbers are held in binary, octal and hexadecimal, and signed integers as sign-magnitude, one's complement or two's complement, with real numbers in fixed or floating point.",
+      "subtopics": [
+        "Types and operations of registers",
+        "Binary, octal, decimal and hexadecimal conversion",
+        "Binary arithmetic",
+        "Unsigned and sign-magnitude integers",
+        "One's and two's complement",
+        "Fixed-point and floating-point representation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "cpu-alu-and-addressing-modes",
+      "title": "The CPU, ALU, Instruction Formats and Addressing Modes",
+      "summary": "The CPU is a processor unit (ALU and registers) plus a control unit, which may be hardwired or microprogrammed. Instructions have opcode, address and mode fields in zero-, one-, two- or three-address formats, and addressing modes specify how the operand is found.",
+      "subtopics": [
+        "Processor unit, buses and micro-operations",
+        "The control unit: hardwired and microprogrammed",
+        "ALU design from adders and multiplexers",
+        "Instruction formats and CPU organizations",
+        "Zero-, one-, two- and three-address instructions",
+        "Addressing modes"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "risc-cisc-and-parallelism",
+      "title": "RISC, CISC and Parallel Processing",
+      "summary": "CISC machines offer many complex instructions and addressing modes; RISC machines use few simple, fixed-length instructions executed in registers with hardwired control. Parallel processing runs parts of a task on several processors, classified by Flynn and limited by Amdahl's law.",
+      "subtopics": [
+        "CISC characteristics",
+        "RISC characteristics; Berkeley RISC I; register windows",
+        "RISC compared with CISC",
+        "Need for parallel processing; programs, processes and threads",
+        "Flynn's taxonomy: SISD, SIMD, MISD, MIMD, SPMD",
+        "Amdahl's law and granularity"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "pipelining",
+      "title": "Pipelining and Pipeline Hazards",
+      "summary": "Pipelining overlaps the stages of successive instructions like an assembly line; the RISC pipeline has five stages. Speedup approaches the number of stages, but structural, data and control hazards cause stalls, which forwarding and other techniques reduce.",
+      "subtopics": [
+        "The pipelining idea; space-time diagrams",
+        "The five MIPS stages: IF, ID, EX, MEM, WB",
+        "Pipelined execution time and speedup",
+        "Uniform and non-uniform delay pipelines",
+        "Structural, data and control hazards; stalls and forwarding",
+        "Super-pipelining and superscalar processors"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "memory-hierarchy-and-cache",
+      "title": "Memory Hierarchy and Cache",
+      "summary": "The memory hierarchy, from registers through cache and main memory to secondary storage, trades cost per bit against capacity and access time and rests on locality of reference. Memory is ROM (PROM, EPROM, EEPROM, flash) or RAM (SRAM, DRAM), and cache performance is measured by hit ratio.",
+      "subtopics": [
+        "Levels and characteristics of the memory hierarchy",
+        "ROM types: mask ROM, PROM, EPROM, EEPROM, EAROM, flash",
+        "RAM: SRAM and DRAM; SDRAM",
+        "Cache memory and its levels",
+        "Locality of reference: temporal and spatial",
+        "Hit ratio and cache mapping"
+      ],
+      "lectures": []
+    }
+  ]
+}

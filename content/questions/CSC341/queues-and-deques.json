@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A queue follows which principle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First in, first out"
+      },
+      {
+        "key": "b",
+        "text": "Last in, first out"
+      },
+      {
+        "key": "c",
+        "text": "Last in, last out only for the rear"
+      },
+      {
+        "key": "d",
+        "text": "Random order"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The item stored first is accessed first.",
+    "source": "CSC 341(Data structure).pdf, page 31"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a queue, new items are added at the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rear"
+      },
+      {
+        "key": "b",
+        "text": "Front"
+      },
+      {
+        "key": "c",
+        "text": "Top"
+      },
+      {
+        "key": "d",
+        "text": "Middle"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They are removed from the front.",
+    "source": "CSC 341(Data structure).pdf, page 33"
+  },
+  {
+    "format": "true_false",
+    "stem": "Dequeuing from an empty queue is an underflow condition.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Enqueuing into a full queue is overflow.",
+    "source": "CSC 341(Data structure).pdf, page 32"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An input-restricted deque allows",
+    "options": [
+      {
+        "key": "a",
+        "text": "Insertion at one end only, deletion at both ends"
+      },
+      {
+        "key": "b",
+        "text": "Deletion at one end only, insertion at both ends"
+      },
+      {
+        "key": "c",
+        "text": "Insertion and deletion at one end only"
+      },
+      {
+        "key": "d",
+        "text": "No deletion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An output-restricted deque is the reverse.",
+    "source": "general knowledge, following the CSC 341 past papers (2023/24 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A circular queue lets positions freed at the front of the array be used again.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Rear wraps round to the start of the array.",
+    "source": "CSC 341 ALL PRACTICALS AND SOLN.pdf; general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of a queue given in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CPU and disk scheduling"
+      },
+      {
+        "key": "b",
+        "text": "I/O buffers and pipes"
+      },
+      {
+        "key": "c",
+        "text": "Call-centre phone systems"
+      },
+      {
+        "key": "d",
+        "text": "Balancing parentheses"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Balancing parentheses uses a stack.",
+    "source": "CSC 341(Data structure).pdf, page 37"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a queue operation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "push"
+      },
+      {
+        "key": "b",
+        "text": "enqueue"
+      },
+      {
+        "key": "c",
+        "text": "dequeue"
+      },
+      {
+        "key": "d",
+        "text": "isfull"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "push is a stack operation.",
+    "source": "CSC 341(Data structure).pdf, pages 32–33"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Processes A (10), B (3), C (7) and D (2) wait in a priority queue where a larger number means higher priority. Which runs first?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A"
+      },
+      {
+        "key": "b",
+        "text": "B"
+      },
+      {
+        "key": "c",
+        "text": "C"
+      },
+      {
+        "key": "d",
+        "text": "D"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The highest-priority item is served first.",
+    "source": "general knowledge, following the CSC 341 past papers (2024/25 paper)"
+  }
+]

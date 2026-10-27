@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a file server architecture, the processing is done by",
+    "options": [
+      {
+        "key": "a",
+        "text": "The client computers"
+      },
+      {
+        "key": "b",
+        "text": "The server"
+      },
+      {
+        "key": "c",
+        "text": "The router"
+      },
+      {
+        "key": "d",
+        "text": "The printer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The server only stores shared files.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 test, Question 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Removing transitive dependencies brings a table to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Third normal form"
+      },
+      {
+        "key": "b",
+        "text": "First normal form"
+      },
+      {
+        "key": "c",
+        "text": "Second normal form"
+      },
+      {
+        "key": "d",
+        "text": "Unnormalized form"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2NF removes partial dependencies.",
+    "source": "general knowledge, following the CSC 302 past papers (2021/22 paper, Question 2b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A many-to-many relationship is resolved by an associative entity.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example, Registration between Student and Course.",
+    "source": "general knowledge, following the CSC 302 past papers (2021/22 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "One team has many players. This cardinality is",
+    "options": [
+      {
+        "key": "a",
+        "text": "One-to-many"
+      },
+      {
+        "key": "b",
+        "text": "One-to-one"
+      },
+      {
+        "key": "c",
+        "text": "Many-to-many"
+      },
+      {
+        "key": "d",
+        "text": "Zero-to-zero"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It comes from the 2020/21 basketball league question.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 paper, Question 1)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are alternatives to in-house development?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Buying a software package"
+      },
+      {
+        "key": "b",
+        "text": "Outsourcing"
+      },
+      {
+        "key": "c",
+        "text": "Using a service provider"
+      },
+      {
+        "key": "d",
+        "text": "Ignoring the requirements"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "End-user development is another option.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 paper, Question 2a)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a normal form?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Zero normal form of keys"
+      },
+      {
+        "key": "b",
+        "text": "First normal form"
+      },
+      {
+        "key": "c",
+        "text": "Second normal form"
+      },
+      {
+        "key": "d",
+        "text": "Third normal form"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The usual forms are 1NF, 2NF and 3NF (and BCNF).",
+    "source": "general knowledge, following the CSC 302 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Starting from the whole system and breaking it into functions is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Top-down design"
+      },
+      {
+        "key": "b",
+        "text": "Bottom-up design"
+      },
+      {
+        "key": "c",
+        "text": "Normalization"
+      },
+      {
+        "key": "d",
+        "text": "Outsourcing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A functional decomposition diagram shows the result.",
+    "source": "general knowledge, following the CSC 302 past papers (2024/25 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Client/server architecture sends whole files across the network for every request.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The server processes the request and returns only the results.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 test, Question 3)"
+  }
+]

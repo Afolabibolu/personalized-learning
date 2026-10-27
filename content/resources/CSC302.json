@@ -1,0 +1,145 @@
+{
+  "code": "CSC 302",
+  "topics": {
+    "introduction-to-systems-analysis": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Chapter 1: The Systems Development Environment (CTS 285 Systems Analysis and Design)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zhUbpqydHS0",
+        "source": "links.csv"
+      }
+    ],
+    "business-case-and-feasibility": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: How to Conduct a Feasibility Study - Project Management Training (ProjectManager)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WI6_snOjlm0",
+        "source": "links.csv"
+      }
+    ],
+    "managing-systems-projects": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Project Scheduling - PERT/CPM | Finding Critical Path (Joshua Emmanuel)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-TDh-5n90vk",
+        "source": "links.csv"
+      }
+    ],
+    "requirements-modelling-and-fact-finding": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Requirement Gathering Techniques For A Business Analyst (Stefano - The Agile Business Analyst)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8EBWxW5Cn1g",
+        "source": "links.csv"
+      }
+    ],
+    "data-and-process-modelling": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: How to create a Level-0 Data Flow Diagram (DFD) (Degan Kettles)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bL00UAW_ygE",
+        "source": "links.csv"
+      }
+    ],
+    "object-modelling-and-uml": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: UML use case diagrams: Everything you need to know (Lucid Software)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4emxjxonNRI",
+        "source": "links.csv"
+      }
+    ],
+    "development-strategies-and-system-design": [
+      {
+        "title": "Systems Analysis and Design lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1liwep3MukMWdlmdCZ0u9DwS3qDXWzJ2i",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF (Decomplexify)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GFQaEYEc8_8",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

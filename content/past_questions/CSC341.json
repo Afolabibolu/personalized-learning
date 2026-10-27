@@ -1,0 +1,280 @@
+{
+  "code": "CSC 341",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "First Semester Exam 2020/2021 (CSC 341: Data Structure). Answer Question 1 and any other two; 2 hours",
+      "source": "Past Questions/CSC 341 2020-21.pdf (scanned)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "B.Sc. Degree Examination, First Semester 2021/2022 (CSC 341: Data Structures). Answer questions 1, 2 and any other two; 2 hours",
+      "source": "Past Questions/csc341 20212022.pdf and CSC 341 2021_22 PQ.jpeg (scanned)"
+    },
+    {
+      "year": "2021/2022 test",
+      "paper": "CSC 341 Semester Test 2021/2022 Session, and a second test dated 25 January 2023 (35 minutes)",
+      "source": "Past Questions/CSC 341 2021_22 CA TEST.jpeg and csc341 test2 20212022.pdf (scanned; handwritten answers on the copies are not copied)"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examination, First Semester 2022/2023 (CSC 341: Data Structures). Answer questions 1, 2 and any other two; 2 hours. Only page 1 is in the folder",
+      "source": "Past Questions/CSC 341 2022_23 PQ.jpeg"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "B.Sc. Degree Examination, First Semester 2023/2024 (CSC 341: Data Structures). Answer Question 1 and any other two; 2 hours",
+      "source": "Past Questions/CSC 321 2023_24 PQ.jpeg (page 1, filed under the wrong code) and CSC 341 2023_24 PQ (2).jpeg (page 2)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "B.Sc. Degree Examination, First Semester 2024/2025 (CSC 341: Data Structures). Answer Question 1 and any other two; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, pages 22–23 (scanned)"
+    },
+    {
+      "year": "2024/2025 test",
+      "paper": "CSC 341 Data Structures Mid-Semester Test, 1st Semester 2024/2025 Session. Answer all questions; 30 minutes",
+      "source": "2024-2025-300-PQ.pdf, page 4 (handwritten working on the copy is not copied)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1(a)",
+      "marks": 5,
+      "topic": "graphs",
+      "text": "a. Draw the adjacency list representation of the graph below (5 marks) [directed graph on vertices 1 to 5; diagram in the original paper]"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1(b)",
+      "marks": 7,
+      "topic": "trees-and-search-trees",
+      "text": "b. Given the following traversals\nPost order: H I D E B F G C A    In Order: H D I B E A F C G\n(i) Draw the tree that represents this. (5 marks)\n(ii) Produce a mirror image of (i). (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1(c)–(d)",
+      "marks": 8,
+      "topic": "stacks-and-expressions",
+      "text": "c. Write a simple algorithm for Push operation in a stack (3 marks)\nd. Convert this Infix Expression into Postfix Expression using a stack data structure Z = P + Q * R (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2(a)–(c)",
+      "marks": 15,
+      "topic": "data-structure-concepts-and-arrays",
+      "text": "a. Explain the classification of data structure with the aid of a simple diagram (5 marks)\nb. What do you understand by static and dynamic data structures (5 marks)\nc. Dry run and write out the output of the program below (5 marks) [a C program that sets n[i] = i + 100 for i = 0 to 4 and prints each element; program listing in the original paper]"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2(d)",
+      "marks": 5,
+      "topic": "trees-and-search-trees",
+      "text": "d. What do you understand by Red-black tree (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3(a)",
+      "marks": 5,
+      "topic": "data-structure-concepts-and-arrays",
+      "text": "3a. Dry run and write out the output of the program below (5 marks) [a C program declaring struct Books with title, author, subject and book_id, filling two books and printing them; program listing in the original paper]"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3(b)–(c)",
+      "marks": 10,
+      "topic": "stacks-and-expressions",
+      "text": "b. State the algorithm for converting Infix expression to Postfix (5 marks)\nc. Mention any 3 differences between Stack and Queue Data Structures (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3(d)",
+      "marks": 5,
+      "topic": "trees-and-search-trees",
+      "text": "d. Produce the inorder and Post-order traversal of the tree below (5 marks) [binary tree A with children B and C; B has D and E, C has F and G; diagram in the original paper]"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "marks": 20,
+      "topic": "graphs",
+      "text": "a. State two applications of Queue Data Structure in operating system (4 marks)\nb. Draw the adjacency matrix represented by the graphs below (6 marks) [an undirected and a directed graph on vertices 1 to 5; diagram in the original paper]\nc. What is major the difference between the graph and a tree? (4 marks)\nd. Write a recursive C/C++ routine to find the nth factorial of a given number n. (6 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "marks": 20,
+      "topic": "linked-lists",
+      "text": "a. Define the term Graph. (5 Marks)\nb. Draw the node representation of a double linked list (typical structure). Give an example of a simple doubly linked list with four nodes (5 Marks)\nc. State three areas of applications of the graph (5 Marks)\nd. Convert this Infix Expression into Postfix Expression... using a stack data structure A*B + C*D (5 Marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1(a)–(b)",
+      "marks": 8,
+      "topic": "linked-lists",
+      "text": "a. Write a C/C++/Python program that outputs the reverse of the content of a linked list (4 marks)\nb. Draw your family tree rooted at your mommy's father (maternal grandfather). Using your tree, identify the following: members in level two; degree; leaf/leaves (4 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1(c)",
+      "marks": 7,
+      "topic": "graphs",
+      "text": "c. Let graph G be defined as <A,B,5><B,C,2><C,B,1><C,D,2><B,D,6><E,D,4><E,C,10><A,E,2><E,B,6><A,C,3> where <A,B,5> means that there is an edge AB with weight 5. Draw the:\ni. Corresponding graph G\nii. Adjacency matrix representation of G\niii. Linked list representation of G (7 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2(a)–(c)",
+      "marks": 13,
+      "topic": "queues-and-deques",
+      "text": "a. Enqueue the following (seven) characters CSC_341 into an initially empty queue, Q. Show snapshots of Q when there are 4 peek operations and 4 dequeue operations in the given sequence. (6 marks)\nb. Explain the difference(s) between each of the following pairs: i. Collision and Overflow ii. Stack and Queue iii. B tree and B+ tree (3 marks)\nc. Using C/C++/Python: i. Give four built-in (primitive) data types ii. Describe any two operations on each data type in i. (4 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2(d)",
+      "marks": 2,
+      "topic": "sorting-searching-and-hashing",
+      "text": "d. If the size of the hash table is 150 and the bucket size is 5. Answer the following questions and justify your answers.\ni. How many buckets are in the hash table?\nii. How many items can a bucket hold? (2 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 13,
+      "topic": "trees-and-search-trees",
+      "text": "a. i. Explain the purpose for AVL tree. (2 marks) ii. Insert into an initially empty AVL tree the vowels of the English language alphabets. (5 marks)\nb. Write a C/C++/Python program to traverse a binary tree in preorder (4 marks)\nc. Suppose that an item is to be removed from a hash table that was implemented using linear probing. Why wouldn't you mark the position of item to be deleted as empty? (2 marks)\nd. How many elements are in a newly created binary search tree? Justify your answer. (2 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 15,
+      "topic": "trees-and-search-trees",
+      "text": "a. i. Construct expression tree for each of the following: (((A+B)/C-D)*E)   ((A+B)/(C-D*E))   A+B/C-D*E ii. Traverse each tree in inorder and postorder iii. Which of these traversals is most useful? Justify your answer (8 marks)\nb. i. The staff of CSC 341 company are each to be given additional 10% of their monthly salary as new year bonus in the month of January. Write a program in C/C++/Python that output the January salary of each staff. Assume there are 20 members of staff in the company. ii. What data structure did you use for i and why? (4 marks)\nc. Mention any six operations on (linked) list. (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 14,
+      "topic": "sorting-searching-and-hashing",
+      "text": "a. Explain how collision is resolved using any two of the following: linear probing; random probing; quadratic probing (4 marks)\nb. Given the keys MOD STO SET TRA EXR ADD END SUB in that order: i. Construct the corresponding binary search tree ii. Explain how to delete a node with two nonempty subtrees/children iii. Draw the tree after deleting STO iv. Draw the tree after inserting STO to the binary search tree in iii. (7 marks)\nc. Describe depth first search of a graph. (2 marks)\nd. State any 4 operations that can be applied on pointers. (2 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "6",
+      "marks": 13,
+      "topic": "linked-lists",
+      "text": "a. Briefly discuss the BlockChain Technology (3 marks)\nb. i. What list, L, operation has the following pre and post conditions? Precondition: L has been created. Postcondition: Every element in L has been removed; L is empty. Justify your answer. ii. Using C/C++/Python, write a program that does the above. (3 marks)\nc. Give one example each of the applications of the following data structures: i. Stack ii. Array iii. Deque iv. Graph (2 marks)\nd. Insert the keys 98 30 15 60 42 75 96 50 10 82 2 35 28 95 12 19 7 and 40 into an initially empty B tree of order 5. (5 marks)"
+    },
+    {
+      "year": "2021/2022 test",
+      "number": "Semester test 1–10",
+      "marks": null,
+      "topic": "trees-and-search-trees",
+      "text": "1. Stacks and queues are limited access data structures. True or False? (Justify your answer)\n2. Show the binary tree representation of the following arithmetic expression: (a-b) + 40/x\n3. Which data structure will you recommend for the following applications: (Justify your answer) a. Text Editor with an undo mechanism b. Web-browser history c. Printing jobs d. HTML Data e. Social Media f. Google Map\n4. Write an algorithm for the in-order traversal of a binary tree.\n5. Insert the following integers 2,9,5,8,1 in an initially empty stack, S. Show S snapshots when there are 2 peek operations and 3 pop operations in this sequence.\n6. Describe depth first search of a graph.\n7. Explain how collision is resolved using linear probing.\n8. Insert the following into an initially empty AVL tree: k,t,v,p,x,g\n9. Insert the keys 98, 30, 42, 15, 75, 96, 10, 50, 82, 2, 35, 40, 60, 95, 8, 12, 16 and 7 into an initially empty B-tree of order 5.\n10. Explain any 2 basic operations of a linked list."
+    },
+    {
+      "year": "2021/2022 test",
+      "number": "Test 2, 1–10",
+      "marks": null,
+      "topic": "trees-and-search-trees",
+      "text": "Answer all questions.\n1. Give any four operations on (linked) list.\n2. Describe depth first search of a graph.\n3. Let the inorder and preorder traversals of a binary tree be inorder: EACKFHDBG, preorder: FAEKCDHGB. a. Construct the corresponding binary tree b. Traverse the binary tree in postorder.\n4. Suppose that an item is to be removed from a hash table that was implemented using linear probing. Why wouldn't you mark the position of the item to be deleted as empty?\n5. a. Insert keys ONE TWO THR FOU FIV SIX SEV in that order into an initially empty binary search tree. b. How many comparison(s) is (are) needed to search for key THI. Justify your answer. c. Draw the binary search tree after deleting its root.\n6. What data structure will you recommend for each of the following applications? Justify your answer. a. Flight Schedule with emergencies b. Routers and Switches in network c. Post-fix Expression d. Call Logs e. Notifications (Email, Social Media etc) f. File Systems\n7. a. Explain the purpose for AVL tree. b. Given an initially empty AVL tree, insert the following: T,K,G,P,V\n8. Construct the expression tree of the following: (A-B) + 40 /X.\n9. Write pre and post conditions for each of these operations: PUSH; DEQUEUE\n10. Insert the keys 98 30 15 60 42 75 96 50 10 82 2 35 40 95 12 19 7 and 28 into an initially empty B tree of order 5."
+    },
+    {
+      "year": "2022/2023",
+      "number": "1",
+      "marks": 15,
+      "topic": "stacks-and-expressions",
+      "text": "1a. Write a Python program to traverse a binary tree in postorder. (4 marks)\n1b. i. State the rules to check for correctness of parentheses using a stack. ii. Using your rules, show stack snapshots of the following expressions. Indicate positions and type of errors (if any): ((x − y))   (a + b)) (7 marks)\n1c. How many elements are in array XY(A:B, C:D)? Array A(1:7, 1:10) is stored in memory by rows. If base location = 0 and the element size is 1, what is the address of element A(5,7)? (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2",
+      "marks": 15,
+      "topic": "trees-and-search-trees",
+      "text": "2a. i. Explain how to delete a node with two nonempty subtrees from a binary search tree. (2 marks) ii. Give two other possible cases. (1 mark)\n2b. Construct a B-tree of order 8 whose keys are the letters of the English alphabet. (6 marks)\n2c. Differentiate between each of the following pairs: i. Underflow and Overflow ii. Graph and Tree iii. Enqueue and Dequeue (3 marks)\n2d. Give three data structures in Python and describe one operation on each. (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3",
+      "marks": 15,
+      "topic": "trees-and-search-trees",
+      "text": "3a. Given the keys MIN SYS BIN SEP INT POW TRY END OUT ABS FOR SUM in that order: i. Construct the corresponding binary search tree ii. Show how many comparison(s) are needed to search for key SET iii. Draw the tree in i. after deleting its root iv. Insert key MAX to the tree in i. v. Traverse the tree in iv. in inorder (8 marks)\n3b. Explain each of the following: i. Column-major-order. ii. FIFO iii. Circular list (3 marks)\n3c. Write a Python program that uses a stack to convert an infix expression to its postfix equivalent. (4 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1",
+      "marks": null,
+      "topic": "trees-and-search-trees",
+      "text": "1a. Use the tree below to answer questions (i) - (iii). [binary tree: a has children b and c; b has child d; c has children e and f] (i). Identify the parent node, siblings and leaves in this tree (3mks) (ii). Give the Inorder traversal of this tree (2mks) (iii). What type of tree is this? (1mk)\nb. You are a network administrator responsible for monitoring the connectivity between various servers in a company's network. The network can be represented as an undirected graph where each server is a node, and an edge between two nodes indicates that they can directly communicate. You need to write a function that checks if there is a path between two given servers (A and B) using a Breadth-First Search (BFS) algorithm. Describe how BFS can be used to solve this problem. (6mks)\nc. Differentiate between input restricted deque and an output restricted deque. (4mks)\nd. Let P = Put next item in the stack, R = Remove the item on top of the stack, Input stream = A, B, C, D, E and F while the sequence of operation is PPRRPRPRPPRR. Find the output stream. (4mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2",
+      "marks": null,
+      "topic": "trees-and-search-trees",
+      "text": "2a. Insert the following numbers in the binary tree shown below: 55, 260 and 720. Is the tree balanced before or after the insertions? (7 mks) [binary search tree: 100 with children 20 and 500; 20 has children 10 and 30]\nb. Differentiate between the following: (i). An array and a Linked list. (4mks) (ii). LIFO and FIFO (2mks) (iii). Binary search tree and AVL tree (4mks)\nc. Write an algorithm to test if a queue is full. (3mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3",
+      "marks": 20,
+      "topic": "data-structure-concepts-and-arrays",
+      "text": "1a. Given an array P(3:4, 5:7, 6:8). Find the number of elements in the array and draw its row major order (8mks)\nb. With the aid of given examples, differentiate between the following: (8mks) (i). Data abstraction and encapsulation (ii). Primitive and non-primitive data types\nc. Write an algorithm for a POP operation. (4mks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4",
+      "marks": 20,
+      "topic": "queues-and-deques",
+      "text": "4a. You are managing a system that logs events and needs to provide access to both the latest and the oldest events. The events are recorded as they occur and can either be processed in the order they were added (from the oldest to the newest) or in reverse (from the newest to the oldest). You also need the ability to remove events from either end as they're processed. Design a system using a deque to perform the following operations: i. Add a new event to the log. ii. Process the oldest event. iii. Process the latest event. iv. Check how many events are currently in the log. Describe how a deque can be used for this scenario, what operations would be performed, and the expected outcomes. (12 mks) (Hint: You may use python functions for your explanation but not necessarily writing the program)\nb. Briefly explain linear and non-linear data structures with examples. (4mks)\nc. Draw a directed graph and use its features to explain the following: vertex, edge, adjacent vertices and path. (4mks)."
+    },
+    {
+      "year": "2023/2024",
+      "number": "5",
+      "marks": 20,
+      "topic": "sorting-searching-and-hashing",
+      "text": "5a. Illustrate with examples each and in relation to storage and retrieval, the difference between sequential file organization and indexed sequential file organization. (6mks)\nb. You are tasked with designing a phonebook application where each contact is stored with a unique name (as a key) and their phone number (as a value). The phonebook must allow for efficient search, insertion, and deletion of contacts. Describe how a hash table can be used to implement this phonebook and explain how it performs these operations. (10mks)\nc. Given an array P(1:4, 1:6) and BA is 80, find the location of element P(3,5). (4mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "marks": null,
+      "topic": "trees-and-search-trees",
+      "text": "a. A developer is designing a file explorer application that should allow users to browse folders and files in a hierarchical manner. What data structure is most suitable, and how would you represent this scenario? (3mks)\nb. Given the following processes on a queue with their various priority numbers, list their order of execution. ProcessA (10), ProcessB (3), ProcessC (7) and ProcessD (2). (2mks)\nc. Let P = Put next item in the stack, R = Remove the item on top of the stack. Input stream = G, H, I, J, K and L while the sequence of operation is PPRRPRPRPPRR. Find the output stream. (4mks)\nd. Draw a binary tree for this arithmetic expression: Z = (P**4) + ((R*2)/B) - 24. (4mks) From the tree drawn, (i). Give the inorder and postorder traversals. (2mks) (ii). Which traversal produces the original structure. (1mk)\ne. Discuss the two standard ways of traversing a graph (4mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "marks": 20,
+      "topic": "sorting-searching-and-hashing",
+      "text": "a. Briefly explain hashing in Data Structure (2mks)\nb. Describe the insert operation of a hash table (2mks)\nc. Explain Collision resolution in Hashing. (2mks)\nd. Linear probing is a collision resolution technique used in hash tables, briefly describe this technique (3mks)\ne. Write the algorithm for inserting a key using Linear probing (5mks)\nf. Explain the following i. Sequential File Organisation (3mks) ii. Indexed sequential file organisation (3mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "marks": 20,
+      "topic": "trees-and-search-trees",
+      "text": "a. In an office setting, multiple employees send documents to a shared printer. The printer must print the documents in the order they were submitted. Explain the data structure that can be used for this. (4mks)\nb. Insert the following numbers in the binary tree shown below: 12, 2 and 5. Is the tree balanced before or after the insertions? (8 mks) [binary search tree: 8 with children 3 and 10; 3 has children 1 and 6; 6 has children 4 and 7; 10 has right child 14; 14 has left child 13]\nc. For this tree, list (i). All the leaf nodes (ii). All the parent nodes (iii). All nodes in Level 3 (3mks)\nd. Write an algorithm for a PUSH operation (5mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "marks": null,
+      "topic": "graphs",
+      "text": "a. A compiler must check whether parentheses in a mathematical expression like ((2 + 3) * (5 - 1)) are balanced. How can a stack be used to solve this? (4mks).\nb. Briefly explain the following: i. Adjacency matrix (3mks) ii. Graph Data Structure (3mks)\nc. Briefly explain the following terms in data structures: (4mks). (i). Traversing (ii). Concatenation (iii). Merging (iv). Copying\nd. How can a social media platform like Facebook use a graph data structure to suggest new friends to users? (6mks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "marks": null,
+      "topic": "graphs",
+      "text": "a. How can a tree help implement an efficient autocomplete feature in a search engine or messaging app? (5mks)\nb. (i) Draw the directed graph G(V,E) that corresponds to the adjacency matrix given below: (3mks)\n\n| | a | b | c | d | e |\n| --- | --- | --- | --- | --- | --- |\n| a | False | False | True | False | False |\n| b | True | False | False | False | True |\n| c | False | False | False | True | True |\n| d | True | False | True | False | False |\n| e | False | False | False | True | False |\n\n(ii). List the elements of sets V and E (3mks)\nc. Assuming the graph you drew in 'b' above is un-directed, create the adjacency matrix for the un-directed graph (4mks)\nd. Write algorithm for a dequeue operation (5mks)"
+    },
+    {
+      "year": "2024/2025 test",
+      "number": "1–5",
+      "marks": 20,
+      "topic": "data-structure-concepts-and-arrays",
+      "text": "1. Given a two dimensional array Q(3:5, 4:7) with base address 13, use a mapping function to find the location of element Q(4,5). Also, draw the lexicographic ordering of the array. (8mks)\n2. You are building a calculator that parses and evaluates arithmetic expressions like (3 + (2 * 5)). Draw a tree for this expression and evaluate it using the right traversal. (4mks)\n3. A user is typing in a word processor. Each time he performs an action (e.g., typing or deleting text), the system should allow him to \"undo\" previous actions one by one. What type of data structure will you use to implement this? (2mks)\n4. Write an algorithm for enqueue operation. What is another name for \"enqueue\"? (4mks)\n5. With the aid of any example of your choice, draw a graph that is both weighted and directed. (2mks)"
+    }
+  ]
+}

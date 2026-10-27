@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Routing is performed by a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Router"
+      },
+      {
+        "key": "b",
+        "text": "Repeater"
+      },
+      {
+        "key": "c",
+        "text": "Hub"
+      },
+      {
+        "key": "d",
+        "text": "Modem"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It works at the network layer.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which metric counts the routers a packet passes through?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hop count"
+      },
+      {
+        "key": "b",
+        "text": "Bandwidth"
+      },
+      {
+        "key": "c",
+        "text": "Load"
+      },
+      {
+        "key": "d",
+        "text": "Reliability"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The path with the least hops is best under this metric.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Static routing has no CPU overhead on the router.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Routes are added manually by the administrator.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which routing type suits a network with a single exit point?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Default routing"
+      },
+      {
+        "key": "b",
+        "text": "Dynamic routing"
+      },
+      {
+        "key": "c",
+        "text": "Flooding"
+      },
+      {
+        "key": "d",
+        "text": "Link-state routing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "All packets go to one next-hop device.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are disadvantages of dynamic routing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "More CPU usage"
+      },
+      {
+        "key": "b",
+        "text": "More bandwidth usage"
+      },
+      {
+        "key": "c",
+        "text": "Less secure"
+      },
+      {
+        "key": "d",
+        "text": "Routes must be added manually"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Manual routes are a feature of static routing.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a routing metric?",
+    "options": [
+      {
+        "key": "a",
+        "text": "MAC address"
+      },
+      {
+        "key": "b",
+        "text": "Hop count"
+      },
+      {
+        "key": "c",
+        "text": "Delay"
+      },
+      {
+        "key": "d",
+        "text": "Bandwidth"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Load and reliability are the other metrics in the notes.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Link-state routers find least-cost paths with",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dijkstra's algorithm"
+      },
+      {
+        "key": "b",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "c",
+        "text": "Binary search"
+      },
+      {
+        "key": "d",
+        "text": "CRC"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each router builds a map of the whole network.",
+    "source": "general knowledge, following the CSC 322 past papers (2021/22 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In distance-vector routing, tables are only ever sent when something changes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are also sent at regular intervals (periodic update).",
+    "source": "general knowledge, following the CSC 322 past papers (2024/25 paper)"
+  }
+]

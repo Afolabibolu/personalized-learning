@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Each node of a singly linked list holds",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data and a pointer to the next node"
+      },
+      {
+        "key": "b",
+        "text": "Only data"
+      },
+      {
+        "key": "c",
+        "text": "Two pointers and no data"
+      },
+      {
+        "key": "d",
+        "text": "An index into an array"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The pointer of the last node is NULL.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which list lets you move both forwards and backwards?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Doubly linked list"
+      },
+      {
+        "key": "b",
+        "text": "Singly linked list"
+      },
+      {
+        "key": "c",
+        "text": "Array"
+      },
+      {
+        "key": "d",
+        "text": "Stack"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each node also points to the previous node.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a circular linked list, the last node points back to the first node.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So the list can be traversed round from any node.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "According to the course notes, what is the drawback of implementing a stack with a linked list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It needs extra memory for pointers"
+      },
+      {
+        "key": "b",
+        "text": "It cannot grow at run time"
+      },
+      {
+        "key": "c",
+        "text": "Push takes O(n) time"
+      },
+      {
+        "key": "d",
+        "text": "It cannot be empty"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its advantage is that it can grow and shrink at run time.",
+    "source": "CSC 341(Data structure).pdf, page 16"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of a linked list over an array?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It grows and shrinks at run time"
+      },
+      {
+        "key": "b",
+        "text": "Insertion needs no shifting of elements"
+      },
+      {
+        "key": "c",
+        "text": "Direct access to any element by index"
+      },
+      {
+        "key": "d",
+        "text": "No memory is used for pointers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "Arrays have direct indexing and no pointer overhead.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a kind of linked list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary list"
+      },
+      {
+        "key": "b",
+        "text": "Singly linked"
+      },
+      {
+        "key": "c",
+        "text": "Doubly linked"
+      },
+      {
+        "key": "d",
+        "text": "Circular"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The three kinds are singly, doubly and circular.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To delete a node from a singly linked list you",
+    "options": [
+      {
+        "key": "a",
+        "text": "Make the previous node point to the node after it"
+      },
+      {
+        "key": "b",
+        "text": "Shift every later node one place left"
+      },
+      {
+        "key": "c",
+        "text": "Set the head to NULL"
+      },
+      {
+        "key": "d",
+        "text": "Swap it with the last node"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Relinking the pointer removes it; its memory is then freed.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Access to the tenth node of a linked list is as fast as access to the tenth element of an array.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The list must be followed node by node from the head.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A DFA is formally a",
+    "options": [
+      {
+        "key": "a",
+        "text": "5-tuple (Q, Σ, δ, q0, F)"
+      },
+      {
+        "key": "b",
+        "text": "7-tuple"
+      },
+      {
+        "key": "c",
+        "text": "4-tuple (S, N, T, P)"
+      },
+      {
+        "key": "d",
+        "text": "3-tuple"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "States, alphabet, transition function, start state and accept states.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a DFA, the transition function has the type",
+    "options": [
+      {
+        "key": "a",
+        "text": "δ: Q × Σ → Q"
+      },
+      {
+        "key": "b",
+        "text": "δ: Q × Σε → P(Q)"
+      },
+      {
+        "key": "c",
+        "text": "δ: Q → Σ"
+      },
+      {
+        "key": "d",
+        "text": "δ: Σ → Q × Q"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The NFA's δ returns a set of states.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "A finite automaton may have zero accept states.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The formal definition allows F to be empty.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A non-accepting state whose transitions all loop back to itself is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Trap (dead) state"
+      },
+      {
+        "key": "b",
+        "text": "Start state"
+      },
+      {
+        "key": "c",
+        "text": "Accept state"
+      },
+      {
+        "key": "d",
+        "text": "ε-state"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Once entered, the string can never be accepted.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 4; 2021/22 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two states are distinguishable if",
+    "options": [
+      {
+        "key": "a",
+        "text": "Some string leads one to an accepting state and the other to a non-accepting state"
+      },
+      {
+        "key": "b",
+        "text": "They have the same transitions"
+      },
+      {
+        "key": "c",
+        "text": "Both are accepting"
+      },
+      {
+        "key": "d",
+        "text": "They are both unreachable"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A DFA is minimal when all its states are distinguishable.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in minimising a DFA?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Remove states unreachable from the start state"
+      },
+      {
+        "key": "b",
+        "text": "Mark pairs where one state is final and the other is not"
+      },
+      {
+        "key": "c",
+        "text": "Merge the pairs that stay unmarked"
+      },
+      {
+        "key": "d",
+        "text": "Add an ε-transition between every pair"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "This is the table-filling method.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not part of a DFA's 5-tuple?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A stack"
+      },
+      {
+        "key": "b",
+        "text": "Set of states"
+      },
+      {
+        "key": "c",
+        "text": "Alphabet"
+      },
+      {
+        "key": "d",
+        "text": "Accept states"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A stack belongs to a pushdown automaton.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a DFA, a state may have two exiting arrows for the same symbol.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is allowed only in an NFA.",
+    "source": "CSC 351 Formal Languages and Automata Theory.pdf, Study Session 5"
+  }
+]

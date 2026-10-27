@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which paradigm describes only what the result should be, not the steps?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Declarative"
+      },
+      {
+        "key": "b",
+        "text": "Imperative"
+      },
+      {
+        "key": "c",
+        "text": "Procedural"
+      },
+      {
+        "key": "d",
+        "text": "Structured"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Functional and logic programming are declarative.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which programming style replaces GOTO jumps with sequence, selection and iteration?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Structured programming"
+      },
+      {
+        "key": "b",
+        "text": "Machine programming"
+      },
+      {
+        "key": "c",
+        "text": "Logic programming"
+      },
+      {
+        "key": "d",
+        "text": "Scripting"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also breaks a program into modules.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In procedure-oriented programming, most functions share global data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This makes global data vulnerable to accidental change.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The principal operation in imperative languages is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Assignment"
+      },
+      {
+        "key": "b",
+        "text": "Function application"
+      },
+      {
+        "key": "c",
+        "text": "Unification"
+      },
+      {
+        "key": "d",
+        "text": "Pattern matching"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Functional languages rely on function application instead.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are features of pure functional programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Functions are first-class objects"
+      },
+      {
+        "key": "b",
+        "text": "Recursion replaces loops"
+      },
+      {
+        "key": "c",
+        "text": "No side effects"
+      },
+      {
+        "key": "d",
+        "text": "Frequent assignment to variables"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "There is no assignment statement.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a sub-type of imperative programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Logic programming"
+      },
+      {
+        "key": "b",
+        "text": "Structured programming"
+      },
+      {
+        "key": "c",
+        "text": "Procedural programming"
+      },
+      {
+        "key": "d",
+        "text": "Modular programming"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Logic programming is declarative.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The lambda calculus was defined by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Alonzo Church and Stephen Kleene"
+      },
+      {
+        "key": "b",
+        "text": "John Backus"
+      },
+      {
+        "key": "c",
+        "text": "Dennis Ritchie"
+      },
+      {
+        "key": "d",
+        "text": "Niklaus Wirth"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In the 1930s, before computers existed.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Functional languages can compute fewer things than imperative languages.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The lambda calculus and Turing machines are equivalent in power.",
+    "source": "CSC 331 Programming Principles and Paradigms.pdf (course book), Study Session 8"
+  }
+]

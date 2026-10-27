@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An object is a member of a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Class"
+      },
+      {
+        "key": "b",
+        "text": "Process"
+      },
+      {
+        "key": "c",
+        "text": "Data store"
+      },
+      {
+        "key": "d",
+        "text": "Phase"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The class defines its attributes and methods.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which UML diagram shows actors and the things the system does for them?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Use case diagram"
+      },
+      {
+        "key": "b",
+        "text": "Sequence diagram"
+      },
+      {
+        "key": "c",
+        "text": "Class diagram"
+      },
+      {
+        "key": "d",
+        "text": "Activity diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Actors are stick figures and use cases are ovals.",
+    "source": "general knowledge, following the CSC 302 past papers (2024/25 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Objects and classes can be reused, which saves time and cost.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Reuse is an advantage of object-oriented modelling.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 test, Question 2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An optional use case that adds behaviour to another under certain conditions uses which relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Extend"
+      },
+      {
+        "key": "b",
+        "text": "Include"
+      },
+      {
+        "key": "c",
+        "text": "Aggregation"
+      },
+      {
+        "key": "d",
+        "text": "Generalization"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Include is used when one use case always uses another.",
+    "source": "general knowledge, following the CSC 302 past papers (2021/22 paper, Question 1(vi))"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are UML diagrams?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Class diagram"
+      },
+      {
+        "key": "b",
+        "text": "Sequence diagram"
+      },
+      {
+        "key": "c",
+        "text": "State transition diagram"
+      },
+      {
+        "key": "d",
+        "text": "Fishbone diagram"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fishbone diagram is a cause-and-effect tool.",
+    "source": "general knowledge, following the CSC 302 past papers (2024/25 paper)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which relationship is a whole-part (has a) relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Aggregation"
+      },
+      {
+        "key": "b",
+        "text": "Generalization"
+      },
+      {
+        "key": "c",
+        "text": "Inheritance"
+      },
+      {
+        "key": "d",
+        "text": "Is a"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Generalization is an \"is a\" relationship.",
+    "source": "general knowledge, following the CSC 302 past papers (2021/22 paper, Question 1(vi))"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A diagram showing how an object changes state in response to events is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "State transition diagram"
+      },
+      {
+        "key": "b",
+        "text": "Use case diagram"
+      },
+      {
+        "key": "c",
+        "text": "Context diagram"
+      },
+      {
+        "key": "d",
+        "text": "Gantt chart"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example, a book moving from Available to On Loan.",
+    "source": "general knowledge, following the CSC 302 past papers (2020/21 and 2024/25 papers)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Methods are the properties that describe an object.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Attributes are properties; methods are the tasks that change them.",
+    "source": "CSC 302 Lecture 1.pdf and Lecture 2.pdf (lecture slides from Shelly Cashman, Systems Analysis and Design, 9th ed.), Chapter 1"
+  }
+]

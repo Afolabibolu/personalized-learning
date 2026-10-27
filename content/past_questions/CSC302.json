@@ -1,0 +1,144 @@
+{
+  "code": "CSC 302",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "First Semester, 2020/2021 Academic Session (CSC 302: System Analysis and Design). Answer all questions in Section A and any two in Section B; 2 hours 30 minutes",
+      "source": "Past Questions/CSC 302 (2020_2021) (1).pdf (scanned)"
+    },
+    {
+      "year": "2020/2021 test",
+      "paper": "CSC 302 test question, 20 minutes",
+      "source": "Past Questions/CSC 302 TEST.pdf (scanned)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "B.Sc. Degree Examination, First Semester 2021/2022 Session (CSC 302: System Analysis). Answer Question 1 and any other two; 2.5 hours",
+      "source": "Past Questions/CSC 302.pdf (scanned)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "1st Semester 2024/2025 Exam (CSC 302: Systems Analysis). Answer Question 1 and any other 2; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, page 12 (scanned)"
+    },
+    {
+      "year": "2024/2025 test",
+      "paper": "CSC 302 Test, 1 hour. Answer all questions",
+      "source": "2024-2025-300-PQ.pdf, pages 1 and 3 (two photos of the same test; handwritten answers are not copied)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1(a)–(b)",
+      "marks": 11,
+      "topic": "development-strategies-and-system-design",
+      "text": "The University of Ibadan sports' council has newly introduced the basketball game and has come to request that you create an IS for keeping track of the league's information. From the requirement gathering, the following are key considerations. i. There is more than one stadium and each stadium has a team. ii. Each team has players that participates in games iii. For each player and game, there are game statistics.\na) Draw the Entity-Relationship diagram showing relationships and cardinality between entities for the scenario above. (5 Marks)\n\nTable 1: Basketball League\n\n| GameNo | Date | Stadium Name | teamName | playerName | playerId | position | Score |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 001 | 1/6/21 | Kuti | Group14 | Victor | 1 | powerforward | 12 |\n| 002 | 15/6/21 | Balewa | Group1 | David | 2 | smallforward | 33 |\n| 001 | 1/6/21 | Kuti | Group14 | Edeh | 3 | center | 28 |\n| 001 | 1/6/21 | Kuti | Group14 | Bolu | 4 | pointguard | 22 |\n| 003 | 8/7/21 | Melanby | Group12 | Sharon | 5 | center | 15 |\n\nb) Normalize the Basketball league table to 3rd Normal Form. It is important to state the criteria for each NF conversion (6 Marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1(c)–(e)",
+      "marks": 19,
+      "topic": "requirements-modelling-and-fact-finding",
+      "text": "c) Discuss any three (3) technique for collecting system requirements. (9 Marks)\nd) A new automobile servicing company wants to expand their operations and for that reason has employed you as her new IT consultant. A typical operation in the company is that a customer request for their service, a service writer prepares work order and invoices and a mechanic carries out the required service. You are to present a use case diagram to show your understanding of their operation in view of upcoming stakeholder's meeting. (5 Marks)\ne) Figure 1 shows a data flow diagram for a lecture schedule. Study the figure and state rules violation in DFD (5 Marks) [Figure 1: processes 1 Assign Advisor, 2 Meet with Advisor and 3 Check Open Classes, data stores D5 Class Roster and D6 Seating Chart, and the entity Instructor; diagram in the original paper]"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "marks": 15,
+      "topic": "development-strategies-and-system-design",
+      "text": "a) In-house development is often the first option that comes to mind when software development is required, however, it is not a feasible option many times. i. Briefly explain three (3) instances whereby In-house development may be said not to be feasible. (6 Marks) ii. Explain two (2) other alternatives to in-house development. (4 Marks)\nb) Draw a state transition diagram for a typical course registration procedure which flows as stated below: Visit ui.edu.ng website; Login to the course registration portal; Select courses to register; Preview selected courses; Register; Lock registration; Logout. State possible user events not captured in the above list. (5 Marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "marks": 15,
+      "topic": "managing-systems-projects",
+      "text": "a) A system project could be completed in as few as 30 days or could take as many as 45 days, but most likely will require 35 days. What will be the: i. Best-case estimate ii. Probable-case estimate iii. Worst-case estimate iv. Expected duration of the project. (4 Marks)\nb) Using the information in Table 2, supposing that the project team will work for five (5) working days in 1 week and that all tasks will start as scheduled, address the following questions.\n\nTable 2: Project Schedule\n\n| Task | Description | Duration (Working Days) | Predecessor/s |\n| --- | --- | --- | --- |\n| A | kick-off plan | 2 | |\n| B | Requirement Analysis | 5 | A |\n| C | System Design | 15 | B |\n| D | Programming | 25 | C |\n| E | Hardware Installation | 30 | C |\n| F | Integration | 10 | D |\n| G | Testing | 10 | E,F |\n| H | Training | 5 | G |\n| I | Deployment | 5 | H |\n\ni. Draw the PERT/CPM chart for table 2 (3 Marks) ii. Determine the critical path of the project (2 Marks) iii. Calculate the planned duration of the project in weeks (3 Marks) iv. Identify any non-critical task(s) and the float (free slack) on each. (3 Marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4–5",
+      "marks": 30,
+      "topic": "business-case-and-feasibility",
+      "text": "Question 4\na) Define the term feasibility study and briefly explain the four major types. (10 Marks)\nb) Ethical Issue Alert! Assuming you are a software consultant, advising business clients about the most appropriate, effective, and affordable software they can purchase. Now assume that a software vendor you know has referred a client to you, expecting you to recommend their software to the client. In your own opinion, however, this vendor's software is not the correct choice for the business referred. You have an ethical dilemma: if you recommend the vendor's software, you will not be serving the client well but if you don't, you may alienate the vendor. What are you to do in this instance? (5 Marks)\nQuestion 5\na) Other than SDLC being the typical process for the development of Information Systems, discuss any other three (3) methods of system development stating two (2) strengths and weaknesses of each method. (9 Marks)\nb) Discuss three (3) advantages and three (3) disadvantages of any internet based architecture in system deployment (6 Marks)"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "1–3",
+      "marks": 20,
+      "topic": "data-and-process-modelling",
+      "text": "Question 1: Decompose the e-learning system's context diagram into a level 0 DFD. (10 Marks) [context diagram: process 0 Information System with entities Students, Lecturers, Courses and Lectures, and flows Results, Courses Offered, Lecture Materials, Student Details, Student Results, Lecturer Details, Student Work and Course Details; diagram in the original paper]\nQuestion 2: What is the advantage of object oriented modeling over traditional modeling? (5 Marks)\nQuestion 3: What is the major difference between file server and client server architecture? (5 Marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "marks": 22,
+      "topic": "data-and-process-modelling",
+      "text": "i) a. What is systems thinking? b. How is it useful for thinking about computer-based Information Systems (IS)? [3%]\nii) Evaluate each of the following DFDs for correctness and justify your conclusion. [3%] [(a) one process sending data flows A and B to two other processes; (b) a data flow joining two interfaces directly; diagram in the original paper]\niii) a. What are Cookies crumbs? [1.5%] b. Provide one suitable example of its application to Web site design. [1.5%]\niv) Describe systems analysis and the major activities that occur during this phase of the systems development life cycle. [3%]\nv) When completing a project, some tasks are independent of others, whereas some are interdependent. a. What does task interdependence mean in regards to slack? [1.5%] b. How are slack and the critical path related? [1.5%]\nvi) Use appropriate modelling examples to differentiate between the following pair of object-oriented analysis tools: [5%] a. extends and includes relationship b. Generalisation and Aggregation relationship\nvii) Deduce the intangible benefits an organization might obtain from the development of an IS? [2%]\nviii) Study the E-R diagram in the below Figure. Based on this E-R diagram, answer the following questions: [4%] [entities PROJECT, EMPLOYEE, TASK, TOOL and CITY with relationships Works_on, Includes, Used_on and Done_at; diagram in the original paper] a. How many PROJECTs can an employee work on? b. What is the degree of the \"includes\" relationship? c. Are there any associative entities on this diagram? If so, name them. d. How else could the attribute \"Skill\" be modeled? e. Is it possible to attach any attributes to the Includes relationship? f. Could \"TASK\" be modeled as an associative entity?"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": 16,
+      "topic": "development-strategies-and-system-design",
+      "text": "a. State your Semester Project title and briefly present its overview. Create the Project Scope Statement for the Information System project. [7%]\nb. Assume that at UI Equipment and Furniture, products are comprised of components, products are assigned to salespersons; such that a product is assigned to exactly one salesperson, while a salesperson can be assigned to one-to-many products, and components are produced by vendors. Also assume that in the relation PRODUCT(Prodname, Salesperson, Compname, Vendor) Vendor is functionally dependent on Compname, and Compname is functionally dependent on Prodname. Eliminate the transitive dependency in this relation and form 3NF relations. State any other applied assumption in your design and justify your solution. [6%]\nc. When should you use an Agile method and an engineering-based method respectively for system development? [3%]"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 17,
+      "topic": "data-and-process-modelling",
+      "text": "a. What are some useful character traits for an analyst involved in requirements determination? [3%]\nb. Using the case of an online cell phone apps store: [9%] i. list relevant data flows, data stores, processes, and sources/sinks. ii. Draw a context diagram and a level-0 diagram that represent the app store. iii. Explain why you chose certain elements as processes versus sources/sinks.\nc. What are the deliverables from coding, testing, and installation? [5%]"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 17,
+      "topic": "managing-systems-projects",
+      "text": "a. Assume you have a project with seven activities labeled A–G as depicted in the following Table. Derive the early finish–EF, late finish–LF, and slack for each of the following tasks. Which tasks are on the critical path? [9%]\n\n| Activity | Time | Immediate Predecessors |\n| --- | --- | --- |\n| A | 5 | -- |\n| B | 3 | A |\n| C | 4 | A |\n| D | 6 | C |\n| E | 4 | B, C |\n| F | 1 | D |\n| G | 5 | D, E, F |\n\nb. Draw a Network diagram for the tasks in question (4a) and highlight the critical path. [3%]\nc. Explain two reasons for putting the effort required at the analysis phase of an IS project. [4%]\nd. Enumerate two modern techniques for collecting information during analysis. [1%]"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 17,
+      "topic": "requirements-modelling-and-fact-finding",
+      "text": "a. Differentiate between the following systems analysis concepts and cite an example of each: [7%] i) Strategic and operational Information needs ii) Functional requirements and Non-functional requirements\nb. A restaurant chain has several store locations in a city (with a name and zip code stored for each), and each is managed by one manager. Managers manage only one store. Each restaurant location has its own unique set of menus. Most have more than one menu (e.g., lunch and dinner menus). Each menu has many menu items, and items can appear on multiple menus, and with different prices on different menus. Represent the above scenario with an E-R diagram and include documentation. [7%]\nc. What methods can a systems analyst employ to verify vendor claims about a software package? [3%]"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "marks": 30,
+      "topic": "object-modelling-and-uml",
+      "text": "University of Ibadan is designing an Online Student Portal System that will allow students to register for courses, view results, pay fees, and update personal information. You are part of the system analysis team.\na) Identify four key stakeholders in the system and explain the role each plays in its development or use. (4 Marks)\nb) Briefly outline seven phases of the Software Development Life Cycle (SDLC) and explain how each phase would apply in developing this portal. (7 Marks)\nc) Using a top-down approach, decompose the portal into at least three main functional areas, and for each, list two sub-functions. Use a hierarchy/outline structure. (6 Marks)\nd) Draw a simple ER diagram showing the following entities and their relationships: (Student, Course, and Registration). Include attributes and appropriate cardinalities. (5 Marks)\ne) Draw a state transition diagram for a student using the portal to register for a course—from login to confirmation. Include at least four states and transitions. (4 Marks)\nf) Sketch a Use Case Diagram with one actor (Student) and at least four use cases from the portal system. (4 Marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "marks": 15,
+      "topic": "data-and-process-modelling",
+      "text": "You've been asked to analyze and design a Hostel Management System.\na) Draw a Context-level DFD for the system with at least two external entities. (4 marks)\nb) Create a Use Case Diagram showing interactions between the Admin, Student, and the system. (4 marks)\nc) Describe one scenario where Bottom-Up analysis might be more effective than Top-Down. (4 marks)\nd) Why is process modeling important before implementation? (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "marks": 15,
+      "topic": "object-modelling-and-uml",
+      "text": "University of Ibadan Microfinance bank wants to automate its Customer Complaint System.\na) Describe how the Software Development Life Cycle (SDLC) would guide this system's development. (4 marks)\nb) Draw a State Transition Diagram showing complaint flow from \"Complaint Logged\" to \"Resolved\". (4 marks)\nc) Identify three data stores and their role if you were designing a Level 0 DFD for this system. (3 marks)\nd) Describe two advantages and one limitation each of the Top-Down and Bottom-Up approaches. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "marks": 15,
+      "topic": "object-modelling-and-uml",
+      "text": "Assume you are leading a team to develop a University Library System.\na) Create an ER Diagram showing Book, Borrower, and Loan. (3 marks)\nb) Draw a Level 0 DFD showing how books are searched and borrowed. (3 marks)\nc) Suggest how a state diagram can model the state of a borrowed book. (3 marks)\nd) List any three UML diagrams covered in this course and briefly describe what each represents. (3 marks)\ne) Identify three actors and five use cases for the system in a Use Case Diagram. (3 marks)"
+    },
+    {
+      "year": "2024/2025 test",
+      "number": "a–e",
+      "marks": null,
+      "topic": "development-strategies-and-system-design",
+      "text": "a. A university cafeteria system receives student meal requests, processes payments, and issues receipts. Decompose this system into its key components using the general system structure (inputs, processes, outputs, feedback, boundary, and environment).\nb. You are assigned to help build a hostel allocation system. List and briefly describe the key phases of the Software Development Life Cycle (SDLC) that your team will follow.\nc. Identify four stakeholders in a university result management system and explain the role of each stakeholder in the system development process.\nd. Design a simple ER diagram for a Library System that includes the entities: Book, Student, and Loan. Show relationships and appropriate cardinalities between them.\ne. Given the unnormalized relation: Student(Name, RegNo, Department, CourseCode, CourseTitle, InstructorName) Normalize this relation up to 3rd Normal Form (3NF)."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "code": "CSC 321",
+  "topics": {
+    "introduction-and-types-of-operating-systems": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Types of Operating Systems(Batch, Multiprogramming, Time Sharing, Multiprocessing, Real Time) (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PY6zEUELn8s",
+        "source": "links.csv"
+      }
+    ],
+    "architecture-kernels-and-shells": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: microkernel Vs monolithic kernel [ 6 differences EXPLAINED] (Techdose)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=S-zxoWY5u6s",
+        "source": "links.csv"
+      }
+    ],
+    "process-management": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Process State (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jZ_6PXoaoxo",
+        "source": "links.csv"
+      }
+    ],
+    "threads": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Multithreading Models & Hyperthreading (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HW2Wcx-ktsc",
+        "source": "links.csv"
+      }
+    ],
+    "cpu-scheduling": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: CPU Scheduling Algorithms (FCFS, SJF, Round Robin) | Learn Coding (Learn Coding)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pPAKs7tT8sw",
+        "source": "links.csv"
+      }
+    ],
+    "memory-management": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Memory Partitioning 1: Fixed Partitioning (Jacob Schrum)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Aq_apMR31Kw",
+        "source": "links.csv"
+      }
+    ],
+    "unix-and-shell-programming": [
+      {
+        "title": "Operating Systems I lecture folder",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1e4U32GgRVCJyM2k-KmW3NjIcwTeSBSqq",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "300 Level past questions, 2024/25 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1tS383XzeKP_PtUF1R0tfbKsRhZeRHF_h/view",
+        "source": "links.csv"
+      },
+      {
+        "title": "Video: Linux Terminal Commands: Pipes and Redirection (Gary Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oyc_6UfoW3w",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

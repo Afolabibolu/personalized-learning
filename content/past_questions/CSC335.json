@@ -1,0 +1,47 @@
+{
+  "code": "CSC 335",
+  "papers": [
+    {
+      "year": "2021/2022",
+      "paper": "2021/2022 Second Semester Examinations (CSC 335: Software Engineering). Answer any three questions; 2 hours",
+      "source": "Past Question/csc 335 20212022.pdf (scanned; handwritten answers on the copy are not copied)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "marks": 20,
+      "topic": "dependability-and-formal-methods",
+      "text": "1a. You have been employed as a software engineer for a leading company in Nigeria. The company has just developed a system for automating Human Resources Operations in the University of Ibadan. You are required to lead the testing team of this project; using a descriptive diagram, explain the Software Testing Process you will adopt bearing in mind the Standard Software Quality Assurance Principles. 10 Marks.\n1b. Dependable Systems are desired features of Critical Systems to establish trust and confidence in the developed system; Using a descriptive diagram, illustrate an overview of the dimensions of dependability. 6 Marks.\n1c. Enumerate four (4) dependability properties not mentioned in the diagram on 1b. above. 4 Marks."
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": 20,
+      "topic": "agile-rad-and-choosing-a-process",
+      "text": "2a. As a software development consultant to a leading company in Ibadan, you have been asked to train junior software developers on process modelling. Highlight 5 factors you will advise them to consider when deciding the choice of software process model to adopt when developing a system. 10 Marks\n2b. Giving reasons for your answer, suggest the most appropriate software process model that can be used as a basis for managing the development of the following systems: (i) A system that monitors patient's blood Sugar level (2½ Marks) (ii) A system that models the car airbag during an accident (2½ Marks) (iii) An interactive system that models the vending machine problem (2½ Marks) (iv) A New University of Ibadan Portal that replaces an existing one (2½ Marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 20,
+      "topic": "waterfall-and-v-models",
+      "text": "3a. Quality in system design is key to the successful implementation of a system, explain any five of these guiding principles to adhere to in order to achieve quality system design. 10 Marks.\n3b. The waterfall model is a breakdown of project activities into linear sequential phases, where each phase depends on the deliverables of the previous one and corresponds to a specialization of tasks. Using a descriptive diagram, illustrate an overview of the Waterfall Model. 10 Marks."
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 20,
+      "topic": "testing-quality-and-maintenance",
+      "text": "4a. System Maintenance is a spectrum that last the entire life time of a system, as a software Engineer, you need to take special care of evolutionary principles that guide the effective maintenance of application systems, discuss succinctly, 5 factors that affect the Maintainability of Software Applications. 10 Marks.\n4b. Formal methods are a preferred choice in some system development paradigm, explain briefly 5 reasons why system developers would consider using formal methods. 10 Marks."
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 20,
+      "topic": "requirements-and-modelling-notations",
+      "text": "5a. System Testing is a key phase of system development aimed at ensuring quality software is developed and deployed to satisfy user's need. Enumerate the 3 Stages of System Testing you are familiar with. 10 Marks.\n5b. List 4 common modeling notations you are familiar with. 4 Marks.\n5c. Using any appropriate modeling notation, describe the interactions involved in a simple library information system. 6 Marks"
+    }
+  ]
+}

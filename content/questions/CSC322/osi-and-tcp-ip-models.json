@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which OSI layer is responsible for routing and logical (IP) addressing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Network layer"
+      },
+      {
+        "key": "b",
+        "text": "Data link layer"
+      },
+      {
+        "key": "c",
+        "text": "Transport layer"
+      },
+      {
+        "key": "d",
+        "text": "Session layer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its device is the router.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The data unit at the data link layer is called a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Frame"
+      },
+      {
+        "key": "b",
+        "text": "Segment"
+      },
+      {
+        "key": "c",
+        "text": "Packet"
+      },
+      {
+        "key": "d",
+        "text": "Bit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Segments are at the transport layer, packets at the network layer.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Switches and bridges are data link layer devices.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Hubs, repeaters and modems are physical layer devices.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In bit stuffing with the flag 01111110, the sender inserts a 0 after",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every five consecutive 1s"
+      },
+      {
+        "key": "b",
+        "text": "Every byte"
+      },
+      {
+        "key": "c",
+        "text": "Every 0"
+      },
+      {
+        "key": "d",
+        "text": "Every eight 1s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So the payload never imitates the flag.",
+    "source": "general knowledge, following the CSC 322 past papers (2021/22 paper)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are functions of the presentation layer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Translation"
+      },
+      {
+        "key": "b",
+        "text": "Encryption and decryption"
+      },
+      {
+        "key": "c",
+        "text": "Compression"
+      },
+      {
+        "key": "d",
+        "text": "Routing"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Routing belongs to the network layer.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the seven OSI layers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Internet layer"
+      },
+      {
+        "key": "b",
+        "text": "Session layer"
+      },
+      {
+        "key": "c",
+        "text": "Presentation layer"
+      },
+      {
+        "key": "d",
+        "text": "Physical layer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Internet layer belongs to the TCP/IP model.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which error-detection method appends the remainder of a division by a generator?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cyclic redundancy check"
+      },
+      {
+        "key": "b",
+        "text": "Single parity check"
+      },
+      {
+        "key": "c",
+        "text": "Bit stuffing"
+      },
+      {
+        "key": "d",
+        "text": "Checksum of ASCII codes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The receiver repeats the division; a non-zero remainder means an error.",
+    "source": "general knowledge, following the CSC 322 past papers (2020/21 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The OSI model is the model actually implemented on the Internet.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is a reference model; the Internet uses TCP/IP.",
+    "source": "CSC322-Combined.pdf (CSC 322 lecture notes), Lecture 2"
+  }
+]

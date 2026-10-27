@@ -1,0 +1,40 @@
+{
+  "code": "CSC 381",
+  "papers": [
+    {
+      "year": "2023/2024",
+      "paper": "Second Semester Examination, Session 2023/2024 (CSC 381: Computer Graphics). Answer three questions in all; 2 hours",
+      "source": "Past Questions/CSC 381 2023_24 PQ.jpeg"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2023/2024",
+      "number": "1",
+      "marks": 20,
+      "topic": "computational-geometry",
+      "text": "(a) Computational geometry is a field of study that focuses on the development of efficient algorithms for solving geometric problems. Discuss 5 application areas of computational geometry in real-life scenarios. (10marks).\n(b) Shapes and polygons are the building blocks of computer graphics. Discuss at-least 3 usefulness of shapes and polygons in creating 2D and 3D models, simulate real-world objects, and render images. (10marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2",
+      "marks": 20,
+      "topic": "introduction-and-applications",
+      "text": "(a) Discuss how computer graphics can contribute to the development and operation of autonomous robots, highlighting its role in simulation, sensor data processing, and decision-making. (10marks)\n(b) Discuss the key concepts, techniques and algorithms that are involved during auto detection of buildings and mapping from aerial images. (10marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3",
+      "marks": 20,
+      "topic": "3d-modelling-and-rendering",
+      "text": "(a) A special effects company wants to create a 3D model of a fantasy creature for a movie. Discuss how shapes and polygons can be used as building blocks to create this 3D model, highlighting the key techniques and algorithms involved. (10marks)\n(b) Explain how computational geometry can be used to solve the problem of a robot automatically navigating through a crowded warehouse, focusing on the development of efficient algorithms for tasks such as motion planning, obstacle avoidance, and localization (10marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4",
+      "marks": 20,
+      "topic": "graphics-hardware-and-software",
+      "text": "(a) A graphic design studio wants to upgrade its computer systems to improve the efficiency and quality of its design work. Discuss the hardware components that the studio should consider, including the central processing unit (CPU), memory (RAM), storage, graphics card, and monitor. (10marks)\n(c) A graphic design agency wants to implement a collaborative workflow to improve communication and productivity among team members. Discuss the software components that the agency could use to facilitate collaboration, including project management software, file sharing software, and design software with real-time collaboration features. (10marks)"
+    }
+  ]
+}

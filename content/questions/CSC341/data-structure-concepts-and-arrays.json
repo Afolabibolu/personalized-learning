@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which of these is a non-linear data structure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tree"
+      },
+      {
+        "key": "b",
+        "text": "Stack"
+      },
+      {
+        "key": "c",
+        "text": "Queue"
+      },
+      {
+        "key": "d",
+        "text": "Array"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Trees and graphs are non-linear; their elements sit on several levels.",
+    "source": "CSC 341(Data structure).pdf, page 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "All the elements of a linear data structure can be traversed in a single run.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each element is attached to its previous and next element.",
+    "source": "CSC 341(Data structure).pdf, page 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An array stores its elements",
+    "options": [
+      {
+        "key": "a",
+        "text": "At contiguous memory locations"
+      },
+      {
+        "key": "b",
+        "text": "Anywhere in memory, joined by pointers"
+      },
+      {
+        "key": "c",
+        "text": "In a hierarchy of levels"
+      },
+      {
+        "key": "d",
+        "text": "Only on disk"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "That is why an element's address is the base address plus an offset.",
+    "source": "CSC 341(Data structure).pdf, page 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many elements does the array P(1:4, 1:6) hold?",
+    "options": [
+      {
+        "key": "a",
+        "text": "24"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "20"
+      },
+      {
+        "key": "d",
+        "text": "30"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(4 − 1 + 1) × (6 − 1 + 1) = 4 × 6 = 24.",
+    "source": "general knowledge, following the CSC 341 past papers (2023/24 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A(1:7, 1:10) is stored by rows with base address 0 and element size 1. What is the address of A(5, 7)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "46"
+      },
+      {
+        "key": "b",
+        "text": "34"
+      },
+      {
+        "key": "c",
+        "text": "56"
+      },
+      {
+        "key": "d",
+        "text": "70"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0 + [(5 − 1) × 10 + (7 − 1)] = 46.",
+    "source": "general knowledge, following the CSC 341 past papers (2022/23 paper)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are primitive data types?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Integer"
+      },
+      {
+        "key": "b",
+        "text": "Character"
+      },
+      {
+        "key": "c",
+        "text": "Float"
+      },
+      {
+        "key": "d",
+        "text": "Linked list"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A linked list is a non-primitive structure built from primitive types.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a linear data structure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Graph"
+      },
+      {
+        "key": "b",
+        "text": "Stack"
+      },
+      {
+        "key": "c",
+        "text": "Queue"
+      },
+      {
+        "key": "d",
+        "text": "Linked list"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A graph is non-linear.",
+    "source": "CSC 341(Data structure).pdf, page 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "An array is a dynamic data structure whose size changes while the program runs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A plain array is static: its size is fixed in advance.",
+    "source": "general knowledge, following the CSC 341 past papers"
+  }
+]

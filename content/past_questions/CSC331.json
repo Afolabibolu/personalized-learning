@@ -1,0 +1,87 @@
+{
+  "code": "CSC 331",
+  "papers": [
+    {
+      "year": "2021/2022",
+      "paper": "B.Sc. Degree Examination, First Semester 2021/22 (CSC 331: Programming Principles and Paradigms). Answer Question 1 and any other two; 2.5 hours",
+      "source": "Past Questions/csc331 20212022.pdf (scanned; a name written on the copy is not copied)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "B.Sc. Degree Examinations, First Semester 2024/2025 (CSC 331: Programming Principles and Paradigms). Answer all questions; 2 hours",
+      "source": "2024-2025-300-PQ.pdf, pages 17 and 19 (page 18 is a blurred duplicate of page 17)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2021/2022",
+      "number": "1(a)",
+      "marks": 25,
+      "topic": "syntax-bnf-and-ambiguity",
+      "text": "a. Given the following grammar:\nprogram → stmt_list $\nstmt_list → stmt_list stmt | stmt\nstmt → id := expr | read id | write id\nexpr → term | expr add_op term\nterm → factor | term mult_op factor\nfactor → (expr) | id | number\nadd_op → + | -\nmult_op → * | /\nAnd the following program code\nread A\nread B\navg := (A + B) / 2\nwrite avg\ni. Is the grammar LL or LR? Justify your answer. (3 marks)\nii. Parse the program code through the grammar and show the derivation (DO NOT USE A PARSE TREE). (10 marks)\niii. Find the FIRST and FOLLOW of any 3 non-terminal symbols of the grammar. (12 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1(b)",
+      "marks": 5,
+      "topic": "control-structures-scope-and-binding",
+      "text": "b. Define the following concepts with respect to program object names, scopes and bindings (5 marks): i. CFG ii. Lifetime of a binding iii. Scope iv. Aliasing v. Binding time"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "marks": null,
+      "topic": "syntax-bnf-and-ambiguity",
+      "text": "a. Given the following grammar:\nexpr ::= expr + term | expr - term | term\nterm ::= term * factor | term / factor | factor\nfactor ::= int | ( expr )\nint ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7\nShow the derivation of the following expressions according to the above grammar (12 marks): i. 2 + 3 * 3 ii. 5 * (6 + 7) iii. 5 - 6 / 2\nb. A junior student in your department found the course CSC331 (Programming Principles and Paradigms) in the Computer Science curriculum. He was wondering what this course would be all about and whether it would not be completely boring. With concise points, explain to your junior friend why the study of programming languages is necessary for a Computer Science student. (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "marks": 15,
+      "topic": "programming-paradigms",
+      "text": "a. Create a mapping of the following programming languages to their respective categories: (9 marks) Javascript, Java, Python, PHP, Haskell, Prolog, Lisp, C#, C, Fortran, Pascal, Smalltalk, C++, Perl, Julia, Matlab, Typescript, Basic\nb. What do you understand by the term \"side effect\"? (3 marks)\nc. Compare and contrast overloaded, polymorphic and generic functions. (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "marks": 15,
+      "topic": "control-structures-scope-and-binding",
+      "text": "a. Briefly describe (with examples) each of the following types of control flow: (8 marks) i. Sequencing ii. Selection iii. Iteration iv. Recursion\nb. What is the significant difference in the usage of action routines when semantic analysis and code generation are within the same phase of compilation as against when they are separate phases of compilation? (4 marks)\nc. With the aid of diagrams, compare and contrast compilation and interpretation (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "marks": 15,
+      "topic": "evaluating-programming-languages",
+      "text": "a. With the aid of a diagram, illustrate the process of program compilation. (5 marks)\nb. Program object binding times can significantly impact performance. What significant difference exists between early and late binging times and what impact does this have on the performance of the programming language? (2 marks)\nc. Give brief descriptions of the following concepts: (8 marks) i. Attribute grammar ii. Action routine iii. Parse tree annotation iv. Semantic functions"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1–3",
+      "marks": 15,
+      "topic": "evaluating-programming-languages",
+      "text": "1. There are several programming languages belonging to different paradigms. Irrespective of the paradigm, all programming languages are evaluated using 3 main criteria. Briefly explain these 3 criteria. (3 marks)\n2. What is referred to as Programming Paradigm? (2 marks) Briefly discuss any two, with examples. (6 marks)\n3. Is it possible for a program written in any programming language to be syntactically correct and yet lack any meaning? Justify your answer. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4–6",
+      "marks": 14,
+      "topic": "syntax-bnf-and-ambiguity",
+      "text": "4. Assuming XYZ mobile network decides that all the phone numbers in their network will have 12 digits and in addition to that, the first four digits of each number must be any of the following :- 0803, 0806, 0813, 0816, 0703, 0706, 0713, 0716, 0903, 0906, 0913, 0916. Design a regular expression that can be used to validate any of these numbers. (4 marks)\n5. A context free grammar is used to define a language, usually called the language of the grammar. a. When is a grammar said to be ambiguous? (1 mark) b. Suppose a CFG for a simple arithmetic expression given below, is supplied with an input of 8+2*7, state with reasons, if this CFG is ambiguous or not. (4 marks)\nexpr → expr + expr | expr * expr | ( expr ) | number\nnumber → number digit | digit\ndigit → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9\n6. Draw the Syntax diagram(s) for the EBNF rules for simple integer arithmetic expressions shown below. (5 marks)\nexpr → term { + term }\nterm → factor { * factor }\nfactor → ( expr ) | number\nnumber → digit { digit }\ndigit → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9"
+    },
+    {
+      "year": "2024/2025",
+      "number": "7–8",
+      "marks": 15,
+      "topic": "control-structures-scope-and-binding",
+      "text": "7. When describing the semantics of any programming language, mention is usually made of Name and Attributes, Bindings and Scope of Bindings. What do these refer to? (5 marks)\n8. Below is a C-style pseudocode.\n\n    int x;\n    void p(void) {\n        char y;\n        ...\n        { int i;\n          ...\n        }\n    }\n    void q(void) {\n        double z;\n        ...\n    }\n    main() {\n        int w[10];\n        ...\n    }\n\na. Copy the pseudocode and use brackets to show the binding scopes of the names you can identify. (4 marks)\nb. Rewrite the pseudocode in either Java or Python. (6 marks)."
+    },
+    {
+      "year": "2024/2025",
+      "number": "9–10",
+      "marks": 6,
+      "topic": "type-systems-overloading-and-casting",
+      "text": "9. With suitable examples, define what is referred to as data types? (3 marks)\n10. With any suitable example and use, describe what is referred to as control structures in programming languages? (3 marks)"
+    }
+  ]
+}

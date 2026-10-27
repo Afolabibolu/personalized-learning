@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The smallest convex polygon containing a set of points is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "Convex hull"
+      },
+      {
+        "key": "b",
+        "text": "Voronoi diagram"
+      },
+      {
+        "key": "c",
+        "text": "Triangulation"
+      },
+      {
+        "key": "d",
+        "text": "Bounding box"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Like a rubber band around nails.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 1a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Graham scan computes a convex hull in",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n log n) time"
+      },
+      {
+        "key": "b",
+        "text": "O(n³) time"
+      },
+      {
+        "key": "c",
+        "text": "O(1) time"
+      },
+      {
+        "key": "d",
+        "text": "O(2ⁿ) time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gift wrapping takes O(nh).",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Voronoi diagram is the dual of the Delaunay triangulation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each Voronoi region holds the points nearest one site.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Shrinking a robot to a point and growing obstacles by its size is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Configuration space"
+      },
+      {
+        "key": "b",
+        "text": "Rasterisation"
+      },
+      {
+        "key": "c",
+        "text": "Texture mapping"
+      },
+      {
+        "key": "d",
+        "text": "Antialiasing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Planning then finds a path for a point.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3b)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of computational geometry?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Robot motion planning"
+      },
+      {
+        "key": "b",
+        "text": "GIS map overlay"
+      },
+      {
+        "key": "c",
+        "text": "Collision detection in games"
+      },
+      {
+        "key": "d",
+        "text": "Spell checking"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Spell checking is a string problem.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 1a)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a path-planning tool?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gouraud shading"
+      },
+      {
+        "key": "b",
+        "text": "Visibility graph"
+      },
+      {
+        "key": "c",
+        "text": "A* search"
+      },
+      {
+        "key": "d",
+        "text": "Probabilistic roadmap"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gouraud shading is a rendering method.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper (Question 3b)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The sign of a cross product tells whether three points",
+    "options": [
+      {
+        "key": "a",
+        "text": "Turn left, turn right or are collinear"
+      },
+      {
+        "key": "b",
+        "text": "Are coloured"
+      },
+      {
+        "key": "c",
+        "text": "Are hidden"
+      },
+      {
+        "key": "d",
+        "text": "Are textured"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Most geometric algorithms build on this orientation test.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  },
+  {
+    "format": "true_false",
+    "stem": "Delaunay triangulation produces as many thin triangles as possible.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It maximises the smallest angles, avoiding thin triangles.",
+    "source": "general knowledge, following the CSC 381 2023/24 paper"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which leadership style keeps all authority with the leader and uses one-way communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Autocratic"
+      },
+      {
+        "key": "b",
+        "text": "Democratic"
+      },
+      {
+        "key": "c",
+        "text": "Laissez-faire"
+      },
+      {
+        "key": "d",
+        "text": "Participative"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Decisions are quick but morale may suffer.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Maslow's hierarchy, which needs are at the top?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Self-actualization"
+      },
+      {
+        "key": "b",
+        "text": "Physiological"
+      },
+      {
+        "key": "c",
+        "text": "Safety"
+      },
+      {
+        "key": "d",
+        "text": "Social"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Esteem and self-actualization are higher-order needs.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Herzberg's hygiene factors prevent dissatisfaction but do not motivate.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Motivators such as achievement and recognition motivate.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theory says people compare their outcome-to-input ratio with others'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Equity theory"
+      },
+      {
+        "key": "b",
+        "text": "Expectancy theory"
+      },
+      {
+        "key": "c",
+        "text": "Two-factor theory"
+      },
+      {
+        "key": "d",
+        "text": "Theory X"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It was advanced by Stacy Adams.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are situational factors in Fiedler's model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Position power"
+      },
+      {
+        "key": "b",
+        "text": "Task structure"
+      },
+      {
+        "key": "c",
+        "text": "Leader-member relations"
+      },
+      {
+        "key": "d",
+        "text": "The leader's height"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These decide the right style.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is a process theory of motivation, not a content theory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vroom's expectancy theory"
+      },
+      {
+        "key": "b",
+        "text": "Maslow's hierarchy"
+      },
+      {
+        "key": "c",
+        "text": "Herzberg's two-factor theory"
+      },
+      {
+        "key": "d",
+        "text": "Alderfer's needs theory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Equity theory is also a process theory.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Informal communication passing through an organization by word of mouth is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Grapevine"
+      },
+      {
+        "key": "b",
+        "text": "Scalar chain"
+      },
+      {
+        "key": "c",
+        "text": "Hierarchy"
+      },
+      {
+        "key": "d",
+        "text": "Span of control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Formal channels run downward, upward and horizontally.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "The trait approach succeeded because research agreed on which traits make leaders.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It failed partly because research findings did not agree.",
+    "source": "CSC301-LectureNotes.pdf (Principles of Management lectures), Lecture 6"
+  }
+]

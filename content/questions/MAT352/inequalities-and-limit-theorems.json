@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Markov's inequality states that for non-negative X and a > 0",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(X ≥ a) ≤ E(X)/a"
+      },
+      {
+        "key": "b",
+        "text": "P(X ≥ a) ≥ E(X)/a"
+      },
+      {
+        "key": "c",
+        "text": "P(X ≥ a) ≤ Var(X)/a²"
+      },
+      {
+        "key": "d",
+        "text": "P(X ≥ a) = E(X)/a"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It needs only the mean.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2020/21 Question 4a)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Chebyshev's inequality bounds P(|X − μ| ≥ k) by",
+    "options": [
+      {
+        "key": "a",
+        "text": "σ²/k²"
+      },
+      {
+        "key": "b",
+        "text": "μ/k"
+      },
+      {
+        "key": "c",
+        "text": "k/σ"
+      },
+      {
+        "key": "d",
+        "text": "σ/k"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It comes from Markov applied to (X − μ)².",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 4b)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The central limit theorem says standardised sample means converge in distribution to the standard normal.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This holds for i.i.d. variables with finite variance.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With 20 flips and P(heads) = 0.2, Markov's bound on P(X ≥ 16) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.25"
+      },
+      {
+        "key": "b",
+        "text": "0.022"
+      },
+      {
+        "key": "c",
+        "text": "0.8"
+      },
+      {
+        "key": "d",
+        "text": "0.05"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E(X) = 4, so the bound is 4/16.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 4a)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are modes of convergence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "In probability"
+      },
+      {
+        "key": "b",
+        "text": "In distribution"
+      },
+      {
+        "key": "c",
+        "text": "Almost surely"
+      },
+      {
+        "key": "d",
+        "text": "In colour"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Mean-square convergence is another mode.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (course outline)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not needed for the weak law of large numbers as proved by Chebyshev?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Normally distributed variables"
+      },
+      {
+        "key": "b",
+        "text": "Independence"
+      },
+      {
+        "key": "c",
+        "text": "A common mean"
+      },
+      {
+        "key": "d",
+        "text": "Finite variance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The variables need not be normal.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Convergence in probability implies",
+    "options": [
+      {
+        "key": "a",
+        "text": "Convergence in distribution"
+      },
+      {
+        "key": "b",
+        "text": "Almost-sure convergence"
+      },
+      {
+        "key": "c",
+        "text": "Mean-square convergence"
+      },
+      {
+        "key": "d",
+        "text": "Nothing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Almost-sure and mean-square convergence each imply convergence in probability.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Markov's inequality usually gives a tighter bound than Chebyshev's inequality.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Chebyshev uses the variance too and is usually tighter; in the coin example 0.022 versus 0.25.",
+    "source": "general knowledge, following the MAT 352 course outline and past papers (2021/22 Question 4b)"
+  }
+]

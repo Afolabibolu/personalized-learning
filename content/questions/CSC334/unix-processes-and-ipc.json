@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does fork() return in the child process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "The child's PID"
+      },
+      {
+        "key": "c",
+        "text": "-1 always"
+      },
+      {
+        "key": "d",
+        "text": "The parent's PID"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The parent receives the child's PID.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which call replaces a process's program with a new one?",
+    "options": [
+      {
+        "key": "a",
+        "text": "exec()"
+      },
+      {
+        "key": "b",
+        "text": "fork()"
+      },
+      {
+        "key": "c",
+        "text": "wait()"
+      },
+      {
+        "key": "d",
+        "text": "pipe()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A shell forks a child, and the child execs the command.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Shared memory is usually the fastest IPC method because data is not copied.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Access must be synchronized, often with semaphores.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which signal cannot be caught or ignored?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SIGKILL"
+      },
+      {
+        "key": "b",
+        "text": "SIGINT"
+      },
+      {
+        "key": "c",
+        "text": "SIGTERM"
+      },
+      {
+        "key": "d",
+        "text": "SIGCHLD"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SIGSTOP cannot be caught either.",
+    "source": "general knowledge, following the CSC 334 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Unix IPC methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pipes"
+      },
+      {
+        "key": "b",
+        "text": "Message queues"
+      },
+      {
+        "key": "c",
+        "text": "Shared memory"
+      },
+      {
+        "key": "d",
+        "text": "Context switches"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Sockets and semaphores are others.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which C function does not deal with files?",
+    "options": [
+      {
+        "key": "a",
+        "text": "malloc"
+      },
+      {
+        "key": "b",
+        "text": "fopen"
+      },
+      {
+        "key": "c",
+        "text": "fclose"
+      },
+      {
+        "key": "d",
+        "text": "remove"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "malloc allocates heap memory.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper, Section A)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With vfork(), the child",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shares the parent's address space while the parent waits"
+      },
+      {
+        "key": "b",
+        "text": "Gets a full copy of memory immediately"
+      },
+      {
+        "key": "c",
+        "text": "Runs on another machine"
+      },
+      {
+        "key": "d",
+        "text": "Cannot call exec"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is fast when the child will exec at once.",
+    "source": "general knowledge, following the CSC 334 past papers (2024/25 paper)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An unnamed pipe can be used between any two unrelated processes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Unnamed pipes connect related processes; named pipes (FIFOs) serve unrelated ones.",
+    "source": "general knowledge, following the CSC 334 past papers"
+  }
+]
