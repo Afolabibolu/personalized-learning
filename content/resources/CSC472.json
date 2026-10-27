@@ -3,10 +3,16 @@
   "topics": {
     "introduction-to-database-systems": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Three-Schema Architecture & Data Independence (Neso Academy)",
@@ -17,10 +23,16 @@
     ],
     "er-modelling": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Basic Concepts of Entity-Relationship Model (Neso Academy)",
@@ -31,10 +43,16 @@
     ],
     "advanced-er-design": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Extended ER Features (Neso Academy)",
@@ -45,10 +63,16 @@
     ],
     "relational-model-and-algebra": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Relational Algebra Operations - Unary (Neso Academy)",
@@ -59,10 +83,16 @@
     ],
     "sql": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: SQL Tutorial for Beginners (Kevin Stratvert)",
@@ -73,10 +103,16 @@
     ],
     "normalization-and-physical-design": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF (Decomplexify)",
@@ -87,10 +123,16 @@
     ],
     "transactions-concurrency-and-recovery": [
       {
-        "title": "Database Systems lecture files (400 Level folder, open the CSC 472 folder)",
+        "title": "Database Systems lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/13imL57S8nkn8Bsl-h9yAAPb5WIjyBlFD",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: ACID Properties in Databases With Examples (ByteByteGo)",

@@ -2,6 +2,11 @@
   "code": "CSC 431",
   "papers": [
     {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examinations, First Semester 2022/2023 (CSC 431: Compiler Construction). Answer Question 1 and any other two; 2 hours",
+      "source": "400 Level PQ.pdf (the 400 Level past-questions file in the shared Drive folder; text read from Drive's extraction, obvious scanning errors corrected)"
+    },
+    {
       "year": "2018/2019",
       "paper": "B.Sc. Degree Examinations, First Semester 2018/2019 (CSC 431: Compiler Construction)",
       "source": "Compiler Construction Past Questions(1).pdf (question wording only; the answers written in the file are not copied)"
@@ -18,6 +23,48 @@
     }
   ],
   "questions": [
+    {
+      "year": "2022/2023",
+      "number": "1(a)–(c)",
+      "marks": 20,
+      "topic": "translators-and-compiler-overview",
+      "text": "(a) A compiler can broadly be divided into two phases based on the way they compile. Explain with a simple illustrative diagram. [6 marks]\n(b) Explain the following types of compilers: (i) single pass compilers (ii) multiple pass compilers (iii) Compiler-Compilers (iv) Cross Compilers (v) Source-to-source Compiler [2 marks each = 10 marks]\n(c) State any four (4) qualities of a good compiler [4 marks]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(d)",
+      "marks": 3,
+      "topic": "language-structure-and-lexical-analysis",
+      "text": "(d) State the tasks that are involved in lexical analysis. [3 marks]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(e)",
+      "marks": 7,
+      "topic": "syntax-analysis",
+      "text": "(e) What are the important tasks performed by the parser? [7 marks]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2",
+      "marks": 15,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) Discuss the reasons for including Error Handling routines in Compiler design and construction [6 marks]\n(b) The use of an undeclared identifier in a program is an error. The error could have arisen in several ways. Discuss. [3 marks]\n(c) Explain the following levels of error in compiler construction: Notes, Comments, Warnings, Errors, Fatal errors and Deadly Errors [3 marks]\n(d) What are the wish list of a compiler error handler? [3 marks]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3",
+      "marks": 15,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) The aspect of code generation in compiler construction is actually an arduous task. Why? [3 marks]\n(b) The code generator should take some factors into consideration in order to generate the target code. Discuss any three of these factors [8 marks]\n(c) Explain the alternatives available to a compiler designer to generate outputs after the quadruples, triples or the postfix forms of the source language have been generated [4 marks]"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4",
+      "marks": 15,
+      "topic": "optimization-code-generation-and-error-handling",
+      "text": "(a) What is Optimization in Compiler Construction? [3 marks]\n(b) A code optimizing process must follow three rules. What are they? [3 marks]\n(c) Explain with relative examples, the differences between Machine Dependent and Machine Independent Optimization techniques in Compiler Construction [6 marks]\n(d) What is an \"Unreachable Code\"? How is it handled in Code Optimization? [3 marks]"
+    },
     {
       "year": "2016/2017",
       "number": "1(a)–(d)",

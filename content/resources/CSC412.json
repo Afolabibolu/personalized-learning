@@ -3,10 +3,16 @@
   "topics": {
     "microcomputer-and-microprocessor-basics": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Harvard Architecture versus Von Neumann Architecture (Computer Science Lessons)",
@@ -17,10 +23,16 @@
     ],
     "embedded-systems-and-microcontrollers": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Difference between Microprocessor and Microcontroller (ALL ABOUT ELECTRONICS)",
@@ -31,10 +43,16 @@
     ],
     "intel-8085": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Introduction to 8085 Microprocessor (μP) (Neso Academy)",
@@ -45,10 +63,16 @@
     ],
     "memory-and-io-interfacing": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Memory Mapped IO vs IO Mapped IO in 8085 Microprocessor: Key Differences Explained (Engineering Funda)",
@@ -59,10 +83,16 @@
     ],
     "interrupt-and-dma-controllers": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: 8259 Programmable Interrupt Controller: Block Diagram and Working Explained (Engineering Funda)",
@@ -73,10 +103,16 @@
     ],
     "intel-8086": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Architecture of 8086 Microprocessor: Detailed Block Diagram and Data Flow Model 8086 (Engineering Funda)",
@@ -87,10 +123,16 @@
     ],
     "intel-8051": [
       {
-        "title": "Microprocessor Interfacing lecture files (400 Level folder, open the CSC 412 folder)",
+        "title": "Microprocessor Interfacing lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1BwNgamD_Tqx3ztxMz9X31a-N92n-_GWu",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: 8051 microcontroller architecture | Part-1/2 | MPMC | Lec-53 | Bhanu Priya (Education 4u)",
