@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In G = (VN, VT, P, S), what is P?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The productions (re-writing rules)"
+      },
+      {
+        "key": "b",
+        "text": "The set of terminals"
+      },
+      {
+        "key": "c",
+        "text": "The start symbol"
+      },
+      {
+        "key": "d",
+        "text": "The set of non-terminals"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "VN are non-terminals, VT terminals and S the start symbol.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Chomsky type is the context-free grammar?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Type 2"
+      },
+      {
+        "key": "b",
+        "text": "Type 0"
+      },
+      {
+        "key": "c",
+        "text": "Type 1"
+      },
+      {
+        "key": "d",
+        "text": "Type 3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Type 0 is unrestricted, Type 1 context sensitive and Type 3 regular.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every sentence is a sentential form, but not every sentential form is a sentence.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A sentence contains only terminals; a sentential form may also contain non-terminals.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the sets VN and VT are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They have no element in common"
+      },
+      {
+        "key": "b",
+        "text": "Their union is the total vocabulary V"
+      },
+      {
+        "key": "c",
+        "text": "The start symbol S belongs to VN"
+      },
+      {
+        "key": "d",
+        "text": "Every terminal is also a non-terminal"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "No symbol can be both terminal and non-terminal.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A grammar is ambiguous when",
+    "options": [
+      {
+        "key": "a",
+        "text": "Some sentence has more than one derivation tree"
+      },
+      {
+        "key": "b",
+        "text": "It has more than one start symbol"
+      },
+      {
+        "key": "c",
+        "text": "It has no terminals"
+      },
+      {
+        "key": "d",
+        "text": "Every production is recursive"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ambiguity is removed by rewriting the grammar or adding precedence and associativity rules.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a level of Chomsky's hierarchy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unrestricted"
+      },
+      {
+        "key": "b",
+        "text": "Context sensitive"
+      },
+      {
+        "key": "c",
+        "text": "Regular"
+      },
+      {
+        "key": "d",
+        "text": "Operator precedence"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Operator precedence grammars are a kind of context-free grammar.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A grammar with no production having two consecutive non-terminals on its right side is",
+    "options": [
+      {
+        "key": "a",
+        "text": "An operator grammar"
+      },
+      {
+        "key": "b",
+        "text": "A regular grammar"
+      },
+      {
+        "key": "c",
+        "text": "An ambiguous grammar"
+      },
+      {
+        "key": "d",
+        "text": "An unrestricted grammar"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An operator precedence grammar adds at most one relation between each pair of terminals.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every regular grammar is also context free.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Lower grammars are subsets of higher ones.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 3"
+  }
+]

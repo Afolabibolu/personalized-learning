@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An operating system is best defined as",
+    "options": [
+      {
+        "key": "a",
+        "text": "A program that acts as an interface between the user and the hardware and controls the execution of programs"
+      },
+      {
+        "key": "b",
+        "text": "A program that only manages files"
+      },
+      {
+        "key": "c",
+        "text": "A compiler for high-level languages"
+      },
+      {
+        "key": "d",
+        "text": "The physical parts of the computer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The OS manages memory, processors, devices and files and controls program execution.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four main managers of an operating system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Memory manager"
+      },
+      {
+        "key": "b",
+        "text": "Processor manager"
+      },
+      {
+        "key": "c",
+        "text": "Device manager"
+      },
+      {
+        "key": "d",
+        "text": "Spreadsheet manager"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is the file manager.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The program that keeps track of the processor and the status of processes is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Traffic controller"
+      },
+      {
+        "key": "b",
+        "text": "I/O controller"
+      },
+      {
+        "key": "c",
+        "text": "File system"
+      },
+      {
+        "key": "d",
+        "text": "Spooler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The I/O controller tracks devices.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a batch operating system, users interact with the computer directly while their jobs run.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Batch users submit jobs offline; lack of interaction is one of the problems of batch systems.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Sharing one processor among two or more programs that reside in memory at the same time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multiprogramming"
+      },
+      {
+        "key": "b",
+        "text": "Spooling"
+      },
+      {
+        "key": "c",
+        "text": "Compaction"
+      },
+      {
+        "key": "d",
+        "text": "Paging"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Multiprogramming keeps the CPU busy by always having a job to run.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a type of operating system described in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Batch"
+      },
+      {
+        "key": "b",
+        "text": "Time-sharing"
+      },
+      {
+        "key": "c",
+        "text": "Real-time"
+      },
+      {
+        "key": "d",
+        "text": "Relocatable"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The types are batch, time-sharing, distributed, network and real-time.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Processes can communicate with one another by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shared memory or message passing"
+      },
+      {
+        "key": "b",
+        "text": "Compaction or relocation"
+      },
+      {
+        "key": "c",
+        "text": "Paging or segmentation"
+      },
+      {
+        "key": "d",
+        "text": "Polling or DMA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Communication may be implemented by shared memory or message passing.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Multitasking operating systems are also known as time-sharing systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The CPU switches between jobs so often that users can interact with each program.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 1"
+  }
+]

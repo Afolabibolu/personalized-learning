@@ -15,6 +15,8 @@ Read the root CLAUDE.md first. This file covers the knowledge base content (FR5)
 - Never invent URLs. Lecture, past-question and video links come only from `content/sources/links.csv` (columns: course, lecture, kind, title, url). A video row may put a topic slug in the lecture column; every video URL is confirmed through YouTube's oEmbed endpoint before it is added.
 - Recommended textbooks live in `content/textbooks/<code>.json` (books, then per topic the book, what to read and why). Prefer a book in the course folder; give chapter numbers only where they are certain.
 - A course with no past papers may have `"exam_style": true` questions in `content/past_questions/`, written for practice and labelled "not from a past paper"; the app titles them "Exam-style questions".
+- When a course book has its own review or self-assessment questions and there is no past paper, copy those as written instead, with `"exam_style": true`, `"label": "Review questions"` and an `"intro"` saying where they come from and that they are not from a past paper (CSC 421, CSC 475). `load.py` uses `label` and `intro` when set.
+- Rebuilding a course with different topics: `load.py` deletes topics that are no longer in the course file, with their resources, quizzes and questions, unless a student has quiz attempts or study logs on them (then it keeps them and prints "KEPT"). CSC 412 was rebuilt this way on 26 Oct.
 - In `links.csv`, a row with lecture `all` is the fallback for that course: any lecture without its own row links to it. Some `all` rows point to a Drive folder, not a single file; label those "Open lecture folder" in the app.
 - `validate.py` must pass before anything is loaded.
 

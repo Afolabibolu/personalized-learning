@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How much memory can the 8085 address with its 16-bit address bus?",
+    "options": [
+      {
+        "key": "a",
+        "text": "64 KB"
+      },
+      {
+        "key": "b",
+        "text": "1 MB"
+      },
+      {
+        "key": "c",
+        "text": "256 bytes"
+      },
+      {
+        "key": "d",
+        "text": "4 KB"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2^16 = 65,536 bytes.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which 8085 interrupt is non-maskable and has the highest priority?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TRAP"
+      },
+      {
+        "key": "b",
+        "text": "RST 7.5"
+      },
+      {
+        "key": "c",
+        "text": "RST 5.5"
+      },
+      {
+        "key": "d",
+        "text": "INTR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "INTR has the lowest priority.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are flags in the 8085 flag register?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sign (S)"
+      },
+      {
+        "key": "b",
+        "text": "Zero (Z)"
+      },
+      {
+        "key": "c",
+        "text": "Auxiliary Carry (AC)"
+      },
+      {
+        "key": "d",
+        "text": "Overflow (OF)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The 8085 flags are S, Z, AC, P and CY; overflow is an 8086 flag.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 8085 stack pointer is a 16-bit register.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It points to the top of the stack in R/W memory.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "MVI A, 7FH is an example of a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two-byte instruction"
+      },
+      {
+        "key": "b",
+        "text": "One-byte instruction"
+      },
+      {
+        "key": "c",
+        "text": "Three-byte instruction"
+      },
+      {
+        "key": "d",
+        "text": "Four-byte instruction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The opcode is followed by one data byte.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a group of 8085 instructions by function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data transfer"
+      },
+      {
+        "key": "b",
+        "text": "Arithmetic"
+      },
+      {
+        "key": "c",
+        "text": "Machine control"
+      },
+      {
+        "key": "d",
+        "text": "Segment override"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The groups are data transfer, arithmetic, logical, branching and machine control.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which 8085 signal distinguishes an I/O operation from a memory operation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IO/M"
+      },
+      {
+        "key": "b",
+        "text": "ALE"
+      },
+      {
+        "key": "c",
+        "text": "HLDA"
+      },
+      {
+        "key": "d",
+        "text": "READY"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ALE marks when an address is on AD0–AD7.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "The S flag of the 8085 is a copy of bit D7 of the accumulator.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A 1 in D7 indicates a negative number.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 6"
+  }
+]

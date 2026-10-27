@@ -1,0 +1,103 @@
+{
+  "code": "CSC 431",
+  "topics": {
+    "translators-and-compiler-overview": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Different Phases of Compiler (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TApMNhQPaCM",
+        "source": "links.csv"
+      }
+    ],
+    "linguistic-analysis-and-grammars": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Chomsky Hierarchy - Computerphile (Computerphile)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=224plb3bCog",
+        "source": "links.csv"
+      }
+    ],
+    "regular-expressions-and-finite-automata": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Regular Expression (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=upu_TeZImN0",
+        "source": "links.csv"
+      }
+    ],
+    "language-structure-and-lexical-analysis": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Lexical Analyzer – Tokenization (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MZ9NZdZteG4",
+        "source": "links.csv"
+      }
+    ],
+    "syntax-analysis": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: FIRST() and FOLLOW() Functions (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oOCromcWnfc",
+        "source": "links.csv"
+      }
+    ],
+    "semantic-analysis-and-intermediate-code": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Three Address, Quadruples, Triples and Indirect Triples (TutorialsPoint)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jNbSX8dID3g",
+        "source": "links.csv"
+      }
+    ],
+    "optimization-code-generation-and-error-handling": [
+      {
+        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Code Optimisation technique | CD | Compiler Design | Lec-51 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Cv9ZzALVR5o",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

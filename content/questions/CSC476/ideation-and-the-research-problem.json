@@ -1,0 +1,206 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "According to the course, the first step in research is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identification of the problem"
+      },
+      {
+        "key": "b",
+        "text": "Selection of a topic"
+      },
+      {
+        "key": "c",
+        "text": "Writing the abstract"
+      },
+      {
+        "key": "d",
+        "text": "Data analysis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Selection of the problem is governed by reflective thinking.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of a good research problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Specific"
+      },
+      {
+        "key": "b",
+        "text": "Measurable"
+      },
+      {
+        "key": "c",
+        "text": "Time bound"
+      },
+      {
+        "key": "d",
+        "text": "Vague"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It should also be achievable and realistic.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase of reading an article stops where you lose the picture and clears up unknown terms before going on?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technical reading"
+      },
+      {
+        "key": "b",
+        "text": "Surface reading"
+      },
+      {
+        "key": "c",
+        "text": "Guided reading"
+      },
+      {
+        "key": "d",
+        "text": "Speed reading"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Guided reading is done with a supervisor.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Kerlinger's criteria say a problem statement should be stated clearly and unambiguously in question form.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It should also relate two or more variables and be amenable to empirical testing.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an element of a research problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Why"
+      },
+      {
+        "key": "b",
+        "text": "What"
+      },
+      {
+        "key": "c",
+        "text": "Who"
+      },
+      {
+        "key": "d",
+        "text": "Which font"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The elements are why, what, where, when and who.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is a common mistake in formulating a research problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Not emphasizing why the problem is important"
+      },
+      {
+        "key": "b",
+        "text": "Stating the problem as a question"
+      },
+      {
+        "key": "c",
+        "text": "Reviewing previous research"
+      },
+      {
+        "key": "d",
+        "text": "Consulting the supervisor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Others include weak structuring and blind data mining.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are sources of research ideas in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Previous research activities"
+      },
+      {
+        "key": "b",
+        "text": "Observations"
+      },
+      {
+        "key": "c",
+        "text": "Discussions and colloquia"
+      },
+      {
+        "key": "d",
+        "text": "Plagiarism"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Article readings and experience are also sources.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "A research topic and a research problem are exactly the same thing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The topic is the verbal statement that delimits the broader problem.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 4"
+  }
+]

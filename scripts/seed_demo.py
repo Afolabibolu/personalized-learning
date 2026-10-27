@@ -83,10 +83,16 @@ def reset(db: Client, domains: tuple[str, ...] = (SIM_DOMAIN, DEMO_DOMAIN)) -> i
 
 
 def load_content(db: Client):
-    courses = db.table("courses").select("id, code").order("code").execute().data
-    topics = db.table("topics").select("id, course_id, slug, sequence_order").order("sequence_order").execute().data
-    quizzes = db.table("quizzes").select("id, course_id, topic_id, kind").execute().data
-    questions = db.table("questions").select("id, topic_id, options, correct_answer").eq("status", "approved").execute().data
+    """The reviewed courses (CSC 531, CSC 574) only: the simulation and the demo accounts are built on them,
+    so sample courses added later through the pipeline change neither the training data nor the demo."""
+    courses = db.table("courses").select("id, code").eq("is_reviewed", True).order("code").execute().data
+    ids = {c["id"] for c in courses}
+    topics = [t for t in db.table("topics").select("id, course_id, slug, sequence_order").order("sequence_order").execute().data
+              if t["course_id"] in ids]
+    topic_ids = {t["id"] for t in topics}
+    quizzes = [q for q in db.table("quizzes").select("id, course_id, topic_id, kind").execute().data if q["course_id"] in ids]
+    questions = [q for q in db.table("questions").select("id, topic_id, options, correct_answer").eq("status", "approved")
+                 .in_("topic_id", list(topic_ids)).execute().data]
     if not questions:
         raise SystemExit("No approved questions. Run python content/load.py first.")
     return courses, topics, quizzes, {q["id"]: q for q in questions}

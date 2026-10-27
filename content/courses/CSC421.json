@@ -1,0 +1,107 @@
+{
+  "code": "CSC 421",
+  "title": "Operating System II",
+  "description": "Operating system concepts: memory management from early schemes to virtual memory, concurrent processing and synchronization, deadlock, device and file management, performance and security. Built from the Ibadan Distance Learning course book for CSC 421 (Ogunseye and Woods).",
+  "is_reviewed": false,
+  "level": 400,
+  "topics": [
+    {
+      "slug": "overview-of-operating-systems",
+      "title": "Overview of the Operating System",
+      "summary": "An operating system is the program that acts as an interface between the user and the hardware, managing memory, processors, devices and files. Systems differ by type (batch, time-sharing, distributed, network, real-time) and all provide services such as program execution, I/O, communication, error handling and protection.",
+      "subtopics": [
+        "Definition and the four managers: memory, processor, device, file",
+        "Other activities: security, performance control, job accounting, error aids",
+        "Batch, time-sharing, distributed, network and real-time systems",
+        "Multitasking and multiprogramming",
+        "Operating system services",
+        "Protection and resource management"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "early-memory-management",
+      "title": "Memory Management: Early Systems",
+      "summary": "Early memory managers loaded each job whole and contiguously: single contiguous allocation, then fixed partitions, dynamic partitions with first-fit or best-fit placement, and relocatable dynamic partitions with compaction. Each scheme trades simplicity against fragmentation.",
+      "subtopics": [
+        "Placement, replacement and fetch strategies",
+        "Single contiguous allocation",
+        "Fixed partitions and internal fragmentation",
+        "Dynamic partitions: first fit, best fit, next fit, worst fit",
+        "Relocatable dynamic partitions and compaction",
+        "Bounds and relocation registers"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "virtual-memory",
+      "title": "Virtual Memory",
+      "summary": "Virtual memory lets a job run without being wholly in main memory. Paged and demand-paged allocation divide jobs into equal pages tracked by job, page map and memory map tables, page replacement policies such as FIFO and LRU decide what to swap out, and segmentation divides jobs into logical modules.",
+      "subtopics": [
+        "Virtual memory: advantages and disadvantages",
+        "Paged memory allocation: JT, PMT and MMT",
+        "Demand paging, swapping and the page interrupt handler",
+        "Locality of reference and working sets",
+        "Page replacement: FIFO, LRU and others",
+        "Segmented and segmented/demand-paged memory"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "concurrency-and-process-synchronization",
+      "title": "Concurrent Processing and Process Synchronization",
+      "summary": "Multiprocessing systems run processes on several processors, arranged as master/slave, loosely coupled or symmetric configurations. Processes sharing a resource must synchronize so only one is in a critical region at a time, using test-and-set, WAIT and SIGNAL, or semaphores, as in the producers-and-consumers and readers-and-writers problems.",
+      "subtopics": [
+        "Multiprogramming, multiprocessing and parallel processing",
+        "Master/slave, loosely coupled and symmetric configurations",
+        "Critical regions and mutual exclusion",
+        "Test-and-set, WAIT and SIGNAL",
+        "Semaphores: P and V",
+        "Producers and consumers, readers and writers; concurrent programming"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "deadlock",
+      "title": "Deadlock, Starvation and Race Conditions",
+      "summary": "Deadlock is a system-wide tangle in which jobs hold resources while waiting for resources held by others. It needs four conditions at once (mutual exclusion, resource holding, no preemption, circular wait), and the operating system can prevent, avoid (Banker's algorithm), detect (directed graphs) or recover from it.",
+      "subtopics": [
+        "Deadlock and the four necessary conditions",
+        "Seven cases of deadlock",
+        "Modelling deadlock with directed graphs",
+        "Prevention and Havender's ordering",
+        "Avoidance: safe states and the Banker's algorithm",
+        "Detection, recovery, starvation and race conditions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "device-and-file-management",
+      "title": "Device and File Management",
+      "summary": "The device manager allocates dedicated, shared and virtual devices and schedules disk requests to keep seek time low (FCFS, SSTF, SCAN, LOOK, C-SCAN). The file manager organizes files sequentially, directly or indexed, and stores them contiguously, chained or indexed, with an access control matrix for permissions.",
+      "subtopics": [
+        "Dedicated, shared and virtual devices",
+        "Sequential and direct access storage; seek, search and transfer time",
+        "I/O subsystem: channels, control units, interrupts, DMA, buffers",
+        "Disk scheduling: FCFS, SSTF, SCAN, LOOK, C-SCAN, C-LOOK",
+        "File organization and record formats",
+        "Contiguous, chained and indexed storage; access control matrix"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "performance-and-security",
+      "title": "System Performance and Security",
+      "summary": "Performance is measured by turnaround time, response time, throughput, capacity and resource utilization, evaluated with timing, benchmarks and simulation, and kept stable with feedback loops. Security protects resources through access control, surveillance, auditing and passwords at the physical, human, operating system and network levels.",
+      "subtopics": [
+        "Performance measures: turnaround, response, throughput, capacity, utilization",
+        "Evaluation techniques: timing, instruction mixes, benchmarks, simulation",
+        "Benchmarks: Whetstone, LINPACK, Dhrystone",
+        "Bottlenecks, saturation and feedback loops",
+        "Security measures: access control, surveillance, auditing, passwords",
+        "Levels of protection: physical, human, operating system, network"
+      ],
+      "lectures": []
+    }
+  ]
+}

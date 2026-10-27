@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which architecture uses a single storage structure for both instructions and data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Von Neumann"
+      },
+      {
+        "key": "b",
+        "text": "Harvard"
+      },
+      {
+        "key": "c",
+        "text": "VLIW"
+      },
+      {
+        "key": "d",
+        "text": "Superscalar"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sharing one path causes the von Neumann bottleneck.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which architecture has separate memories for instructions and data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Harvard"
+      },
+      {
+        "key": "b",
+        "text": "Von Neumann"
+      },
+      {
+        "key": "c",
+        "text": "CISC"
+      },
+      {
+        "key": "d",
+        "text": "Single contiguous"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is named after the Harvard Mark 1.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are basic blocks of a microcomputer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Input unit"
+      },
+      {
+        "key": "b",
+        "text": "Memory unit"
+      },
+      {
+        "key": "c",
+        "text": "Processor (ALU and control unit)"
+      },
+      {
+        "key": "d",
+        "text": "Compiler unit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The output unit is the fourth.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The data bus of a microprocessor is bidirectional, while the address bus is unidirectional.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Data flows both ways between processor, memory and I/O.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Intel's first microprocessor, introduced in 1971, was the",
+    "options": [
+      {
+        "key": "a",
+        "text": "4004"
+      },
+      {
+        "key": "b",
+        "text": "8085"
+      },
+      {
+        "key": "c",
+        "text": "8086"
+      },
+      {
+        "key": "d",
+        "text": "Pentium"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The 8085 followed in 1976.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a microprocessor manufacturing technology named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TTL"
+      },
+      {
+        "key": "b",
+        "text": "ECL"
+      },
+      {
+        "key": "c",
+        "text": "CMOS"
+      },
+      {
+        "key": "d",
+        "text": "UART"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A UART is a serial communication interface.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The abstract view of a computer seen by an assembly language programmer, including the instruction set and registers, is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Instruction set architecture (ISA)"
+      },
+      {
+        "key": "b",
+        "text": "Microarchitecture"
+      },
+      {
+        "key": "c",
+        "text": "System design"
+      },
+      {
+        "key": "d",
+        "text": "Firmware"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The microarchitecture describes how the parts implement the ISA.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A RISC processor has a large set of complex instructions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That describes CISC; RISC uses fewer, simpler instructions.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 3"
+  }
+]

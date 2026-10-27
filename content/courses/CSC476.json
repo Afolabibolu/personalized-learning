@@ -1,0 +1,107 @@
+{
+  "code": "CSC 476",
+  "title": "Research Methods in Computer Science",
+  "description": "Research methodology for computer scientists: the meaning and types of research, the research problem, tools and methodology, data analysis, report and project writing, citation in APA and IEEE styles, journal writing, plagiarism and patents. Built from the CSC 476 course book and the 2022/23 examination (titled CSC 476: Research Methodology).",
+  "is_reviewed": false,
+  "level": 400,
+  "topics": [
+    {
+      "slug": "meaning-and-types-of-research",
+      "title": "The Meaning and Types of Research",
+      "summary": "Research is a systematic investigation to gain new knowledge, rising from data through information to knowledge, and its contribution must be original. Research is basic or applied, quantitative or qualitative, primary or secondary, and computer science research ranges from pure theory and descriptive studies to experiments, surveys and simulation.",
+      "subtopics": [
+        "Meaning of research and the knowledge hierarchy",
+        "Knowledge, theories and areas of originality",
+        "Why do research; characteristics of good research",
+        "The dialectic: thesis, antithesis, synthesis",
+        "Basic and applied; quantitative and qualitative; primary and secondary",
+        "Classifications of computer science research"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "ideation-and-the-research-problem",
+      "title": "Research Ideation and the Research Problem",
+      "summary": "Research ideas come from previous research, reading, observation, experience and discussion. The research problem is a clear statement of a concern to investigate; it should be specific, measurable, achievable, realistic and time bound, and it is identified, formulated and stated in steps.",
+      "subtopics": [
+        "Planning research and the research process",
+        "Sources of research ideas; phases of reading an article",
+        "Meaning and importance of a research problem",
+        "Characteristics and elements of a research problem",
+        "Identifying and formulating a research problem; common mistakes",
+        "Statement of the problem (Kerlinger's criteria)"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "research-tools-and-methodology",
+      "title": "Research Tools and Methodology",
+      "summary": "Quantitative tools such as observation checklists, questionnaires and electronic data capture collect objective, standardized data; qualitative tools such as interviews and participant observation explore meanings and are triangulated. Methodology explains and justifies the methods chosen, using instruments such as programs, formal languages, systems and questionnaires.",
+      "subtopics": [
+        "Quantitative data collection tools",
+        "Qualitative techniques and triangulation",
+        "Questionnaire design and types of question; sampling",
+        "Research method versus research methodology",
+        "Research instruments in computer science",
+        "Framework versus model"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-analysis",
+      "title": "Data Analysis",
+      "summary": "Analysis follows a plan written at the start of the project. Measurement scales (nominal, ordinal, continuous, ratio) decide the statistics: descriptive measures of central tendency and dispersion, and tests for association and causality such as chi-square, Pearson correlation and regression; qualitative analysis relies on coding, rigour, validity and reliability.",
+      "subtopics": [
+        "The data analysis plan",
+        "Measurement scales: nominal, ordinal, continuous, ratio",
+        "Descriptive statistics and frequency distributions",
+        "Mean, median and measures of dispersion",
+        "Correlation, group comparison and regression",
+        "Qualitative analysis: rigour, validity and reliability"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "research-reports-and-project-writing",
+      "title": "Research Reports and Computer Science Project Writing",
+      "summary": "A research report has preliminary pages, an introduction, a literature review, methods, results and discussion. A computer science project is chosen with care, planned, proposed and written up in a standard format, with Chapter Two reviewing theory and related works and ending with the gap that justifies the study.",
+      "subtopics": [
+        "Features of and reasons for research reports",
+        "Research report format",
+        "Choosing a computer science project",
+        "Planning, supervision and project proposals",
+        "Project format: preliminary pages and Chapter One",
+        "Chapter Two: the literature review"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "citation-and-journal-writing",
+      "title": "Citation, Referencing and Journal Writing",
+      "summary": "Citation gives credit to the authors whose work is used. APA style uses author-date in-text citations and an alphabetical reference list, while IEEE uses numbered citations in square brackets. Journal articles should be prepared carefully for a suitable, indexed journal, and citations are measured by the h-index and i10-index.",
+      "subtopics": [
+        "Citation and citation styles (APA, MLA, Chicago, IEEE)",
+        "APA reference list rules",
+        "APA in-text citation for one, two and more authors",
+        "Citing books, chapters, e-books, journal and newspaper articles",
+        "IEEE in-text citation and reference list",
+        "Writing for and choosing a journal; h-index and i10-index"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "plagiarism-and-patents",
+      "title": "Plagiarism and Patents",
+      "summary": "Plagiarism is using another's words or ideas, or one's own earlier work, without due credit; it may be intentional, unintentional, of ideas, word-for-word, mosaic or self-plagiarism, and is avoided by good notes, paraphrasing, quoting, citation and checking tools. A patent grants exclusive rights to an innovation, usually for 20 years, after provisional and complete filing.",
+      "subtopics": [
+        "Meaning of plagiarism",
+        "Types of plagiarism",
+        "Steps and tips to avoid plagiarism",
+        "Paraphrasing and quoting",
+        "Meaning of a patent",
+        "Filing a patent: provisional and complete specification"
+      ],
+      "lectures": []
+    }
+  ]
+}

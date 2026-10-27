@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An entity that cannot be identified uniquely without the primary key of its owner entity is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Weak entity"
+      },
+      {
+        "key": "b",
+        "text": "Strong entity"
+      },
+      {
+        "key": "c",
+        "text": "Derived entity"
+      },
+      {
+        "key": "d",
+        "text": "Composite entity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Dependants of an employee are an example.",
+    "source": "DB Lecture Note 2.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Phone_no, where a person can have several numbers, is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multivalued attribute"
+      },
+      {
+        "key": "b",
+        "text": "Derived attribute"
+      },
+      {
+        "key": "c",
+        "text": "Composite attribute"
+      },
+      {
+        "key": "d",
+        "text": "Key attribute"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gender is single-valued.",
+    "source": "DB Lecture Note 2.pptx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are fact-finding techniques for gathering database requirements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Examining documentation"
+      },
+      {
+        "key": "b",
+        "text": "Interviewing"
+      },
+      {
+        "key": "c",
+        "text": "Questionnaires"
+      },
+      {
+        "key": "d",
+        "text": "Normalization"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Observing the enterprise and research are also listed.",
+    "source": "DB Lecture Note 2.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "A weak entity set must have total participation in its identifying relationship.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It relates to the owner through a one-to-many relationship.",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A candidate key made up of two or more attributes is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Composite key"
+      },
+      {
+        "key": "b",
+        "text": "Foreign key"
+      },
+      {
+        "key": "c",
+        "text": "Superkey of one attribute"
+      },
+      {
+        "key": "d",
+        "text": "Discriminator"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only the combination of its attributes is unique.",
+    "source": "DB Lecture Note 2.pptx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a degree of relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unary"
+      },
+      {
+        "key": "b",
+        "text": "Binary"
+      },
+      {
+        "key": "c",
+        "text": "Ternary"
+      },
+      {
+        "key": "d",
+        "text": "Derived"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Derived describes an attribute, such as age.",
+    "source": "DB Lecture Note 2.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If employees can have several addresses, address should be modelled as",
+    "options": [
+      {
+        "key": "a",
+        "text": "An entity"
+      },
+      {
+        "key": "b",
+        "text": "A single-valued attribute"
+      },
+      {
+        "key": "c",
+        "text": "A derived attribute"
+      },
+      {
+        "key": "d",
+        "text": "A primary key"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Attribute values are atomic, so several addresses need an entity.",
+    "source": "DBMS Lecture Notes.pdf, Unit I"
+  },
+  {
+    "format": "true_false",
+    "stem": "Years_in_service, computed from the date of employment, is a derived attribute.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Derived attributes are computed from other attributes.",
+    "source": "DB Lecture Note 2.pptx"
+  }
+]

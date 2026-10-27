@@ -85,7 +85,7 @@ def measure_ui(email: str, quiz_ids: list[str], runs: int) -> tuple[list[float],
         for i in range(runs):
             page.goto(f"{APP}/quiz/{quiz_ids[i % len(quiz_ids)]}")
             page.get_by_role("button", name="Start quiz").click()
-            expect(page.get_by_text("/ 5", exact=False)).to_be_visible()
+            expect(page.get_by_text("/ 5", exact=False).first).to_be_visible()
             for q in range(5):
                 page.get_by_role("radio").first.click() if page.get_by_role("checkbox").count() == 0 else page.get_by_role("checkbox").first.click()
                 if q < 4:

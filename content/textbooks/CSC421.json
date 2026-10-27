@@ -1,0 +1,63 @@
+{
+  "code": "CSC 421",
+  "books": {
+    "osc": {
+      "title": "Operating System Concepts",
+      "authors": "Abraham Silberschatz, Peter B. Galvin and Greg Gagne",
+      "edition": "10th edition",
+      "publisher": "Wiley",
+      "year": 2018
+    }
+  },
+  "topics": {
+    "overview-of-operating-systems": [
+      {
+        "book": "osc",
+        "read": "Chapter 1: Introduction; Chapter 2: Operating-System Structures",
+        "why": "What an operating system does, its services and system structure."
+      }
+    ],
+    "early-memory-management": [
+      {
+        "book": "osc",
+        "read": "Chapter 9: Main Memory (contiguous memory allocation)",
+        "why": "Contiguous allocation, first fit and best fit, fragmentation and compaction."
+      }
+    ],
+    "virtual-memory": [
+      {
+        "book": "osc",
+        "read": "Chapter 9: Main Memory (paging, segmentation); Chapter 10: Virtual Memory",
+        "why": "Paging, page tables, demand paging, page replacement and thrashing."
+      }
+    ],
+    "concurrency-and-process-synchronization": [
+      {
+        "book": "osc",
+        "read": "Chapter 6: Synchronization Tools; Chapter 7: Synchronization Examples",
+        "why": "Critical sections, test-and-set, semaphores, and the bounded-buffer and readers-writers problems."
+      }
+    ],
+    "deadlock": [
+      {
+        "book": "osc",
+        "read": "Chapter 8: Deadlocks",
+        "why": "Necessary conditions, resource-allocation graphs, prevention, the banker's algorithm, detection and recovery."
+      }
+    ],
+    "device-and-file-management": [
+      {
+        "book": "osc",
+        "read": "Chapter 11: Mass-Storage Structure; Chapter 13: File-System Interface; Chapter 14: File-System Implementation",
+        "why": "Disk scheduling, file access methods and allocation methods."
+      }
+    ],
+    "performance-and-security": [
+      {
+        "book": "osc",
+        "read": "Chapter 16: Security; Chapter 17: Protection",
+        "why": "Threats, authentication and access control; the course book covers the performance measures."
+      }
+    ]
+  }
+}

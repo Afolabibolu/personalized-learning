@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which table, one per job, lists each page number and its page frame address?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Page Map Table"
+      },
+      {
+        "key": "b",
+        "text": "Job Table"
+      },
+      {
+        "key": "c",
+        "text": "Memory Map Table"
+      },
+      {
+        "key": "d",
+        "text": "Segment Map Table"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The JT locates each PMT; the MMT, one per system, lists each frame's status.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which page replacement policy removes the page that has not been referenced for the longest time?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Least recently used (LRU)"
+      },
+      {
+        "key": "b",
+        "text": "First-in first-out (FIFO)"
+      },
+      {
+        "key": "c",
+        "text": "Random"
+      },
+      {
+        "key": "d",
+        "text": "Least frequently used"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "FIFO removes the page that has been in memory longest.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which fields does the PMT need for demand paging?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Whether the page is in memory"
+      },
+      {
+        "key": "b",
+        "text": "Whether it has been modified"
+      },
+      {
+        "key": "c",
+        "text": "Whether it was referenced recently"
+      },
+      {
+        "key": "d",
+        "text": "The user's password"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A modified page must be written back to secondary storage when swapped out.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In paged memory allocation, internal fragmentation can occur only on a job's last page.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Every page except the last fills its frame completely.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The tendency for a referenced location to be referenced again very soon is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Temporal locality"
+      },
+      {
+        "key": "b",
+        "text": "Spatial locality"
+      },
+      {
+        "key": "c",
+        "text": "Thrashing"
+      },
+      {
+        "key": "d",
+        "text": "Swapping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Spatial locality is the tendency to reference nearby locations.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a page replacement policy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "FIFO"
+      },
+      {
+        "key": "b",
+        "text": "LRU"
+      },
+      {
+        "key": "c",
+        "text": "NUR"
+      },
+      {
+        "key": "d",
+        "text": "Best fit"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Best fit is a placement strategy for dynamic partitions.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dividing a job into logical modules of different sizes, such as subroutines, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Segmented memory management"
+      },
+      {
+        "key": "b",
+        "text": "Paged memory allocation"
+      },
+      {
+        "key": "c",
+        "text": "Fixed partitioning"
+      },
+      {
+        "key": "d",
+        "text": "Spooling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Segmentation supports dynamic linking and shared segments.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Virtual memory limits a job's size to the size of main memory.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Virtual memory removes that limit, at the cost of hardware and paging overhead.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 3"
+  }
+]

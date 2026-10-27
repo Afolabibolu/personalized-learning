@@ -1,0 +1,75 @@
+{
+  "code": "CSC 472",
+  "papers": [
+    {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examination, First Semester 2022/2023 (CSC 472: Database Systems). Attempt questions (1) and any two (2); 2.5 hours",
+      "source": "CSC 472(2022_2023).pdf (scanned, read from the page images; a second copy is identical)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2022/2023",
+      "number": "1(a)",
+      "marks": 12,
+      "topic": "advanced-er-design",
+      "text": "The academic world is an interesting example of international cooperation and exchange. This problem is concerned with modeling of a database that contains information on researchers, academic institutions, and collaborations among researchers. A researcher can either be employed as a professor or a lab assistant. There are three kinds of professors: Assistant, associate, and full professors. The following should be stored:\n• For each researcher, his/her name, year of birth, and current position (if any).\n• For each institution, its name, country, and inauguration year.\n• For each institution, the names of its faculties (e.g., Faculty of Law, Faculty of Business, Faculty of Computer Science, . . .).\n• An employment history, including information on all employments (start and end date, position, and what Faculty).\n• Information about co-authorships, i.e., which researchers have co-authored a research paper. The titles of common research papers should also be stored.\n• For each researcher, information on his/her highest degree (BSc, MSc or PhD), including who was the main supervisor, and at what Faculty.\n• For each professor, information on what research projects (title, start date, and end date) he/she is involved in, and the total amount of grant money for which he/she was the main applicant\na) Draw an E-R model for the above scenario. (12marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(b)",
+      "marks": 5,
+      "topic": "relational-model-and-algebra",
+      "text": "b) Suppose there exist a relation Authoring defined as follows:\nCREATE TABLE Authoring (\narticleID INT REFERENCES Article (ID) ON DELETE SET NULL,\nauthorID INT REFERENCES Author (ID) ON DELETE CASCADE\n)\nIndicate which of the following statements are true, and which are not. (1mark each)\ni. If we try to delete a tuple from Authoring, the tuple is not deleted. Instead, articleID is set to NULL.\nii. If we delete a tuple from Authoring, any tuples in Author referred to by this tuple are also deleted.\niii. If we delete a tuple from Article, some attributes of Authoring may have their values set to NULL.\niv. If we try to insert a tuple into Author, with an ID that is not referred to in Authoring, the operation is rejected.\nv. If we try to insert a tuple into Authoring, with an ID that does not exist in Author, the operation is rejected."
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(c)–(d)",
+      "marks": 11,
+      "topic": "normalization-and-physical-design",
+      "text": "c) What is meant by functional dependency in the context of database normalization? (2 marks)\nd) Study the table provided below and do the following:\n\n| ProjectNum | ProjectName | EmpName | Job_class | Charge_Hour | Hours_worked | Total_charge |\n| --- | --- | --- | --- | --- | --- | --- |\n| 21 | Railsystem | Eniola | Engineer | 25,000 | 145 | 3.625M |\n| 23 | AirlineReserve | Lora, Tolu | DBA,DBA | 18,000 | 300 | 5.4M |\n| 23 | AirlineReserve | Eniola | DBA | 18,000 | 150 | 2.7M |\n| 18 | smartmove | Nifise | Programmer | 21,000 | 300 | 6.3M |\n| 18 | smartmove | Maxwell | Engineer | 25,000 | 110 | 2.75M |\n\ni. Identify the Normal Form (NF) the relation is currently. (1mark)\nii. Normalize to Boyce-Codd Normal Form (BCNF). Provide detailed steps for the normalization process. (8marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1(e)",
+      "marks": 2,
+      "topic": "relational-model-and-algebra",
+      "text": "e) What do you understand by the term referential integrity? (2marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2",
+      "marks": 15,
+      "topic": "sql",
+      "text": "Study the following schema and answer the questions that follows:\nEmp(eid: integer, ename: string, age: integer, salary: real)\nWorks(eid: integer, did: integer, pct time: integer)\nDept(did: integer, dname: string, budget: real, managerid: integer)\na) Write the SQL statements required to create the above relations, including appropriate primary and foreign key integrity constraints. (5marks)\nb) Define the Dept relation in SQL so that every department is guaranteed to have a manager. (2marks)\nc) Write an SQL statement to give every employee a 10% raise. (2marks)\nd) i) Write an SQL statement to delete the 'Toy' department. (2 marks)\nii) Given the referential integrity constraints you chose for this schema, explain what happens when this statement is executed. (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(a)",
+      "marks": 6,
+      "topic": "introduction-to-database-systems",
+      "text": "a) Company A recently bought company B. The two companies want to integrate their databases. Indicate three challenges that the integration will face. For each challenge give a concrete example. (6 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(b)",
+      "marks": 8,
+      "topic": "transactions-concurrency-and-recovery",
+      "text": "b) In a banking system, consider a scenario where a customer initiates a fund transfer from their savings account (Account A) to their current account (Account B) through an online banking platform. This process includes debiting a specific amount from Account A and crediting an identical amount to Account B. Explain how this situation illustrates the ACID properties of a transaction and elucidate the importance of each property in upholding the transaction's reliability, consistency, and integrity within the banking system. (8 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "3(c)",
+      "marks": 1,
+      "topic": "er-modelling",
+      "text": "c) What is the difference between a candidate key and a primary key. (1 mark)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4",
+      "marks": 15,
+      "topic": "normalization-and-physical-design",
+      "text": "Consider the following BCNF relation, which lists the ids, types (e.g., nuts or bolts), and costs of various parts, along with the number available or in stock: Parts (pid, pname, cost, num avail)\nYou are told that the following two queries are extremely important:\ni. Find the total number available by part type, for all types. (That is, the sum of the num avail value of all nuts, the sum of the num avail value of all bolts, and so forth)\nii. List the pids of parts with the highest cost.\na) In your physical design for this relation, what kind of a file structure would you choose for the set of Parts records, and what indexes would you create? (6marks)\nb) Suppose your customers subsequently complain that performance is still not satisfactory (given the indexes and file organization you chose for the Parts relation in response to (a). Since you cannot afford to buy new hardware or software, you have to consider a schema redesign. Explain how you would try to obtain better performance by describing the schema for the relation(s) that you would use and your choice of file organizations and indexes on these relations. (6marks)\nc) How would your answers to the two questions above change, if at all, if your system did not support indexes with multiple-attribute search keys? (3marks)"
+    }
+  ]
+}

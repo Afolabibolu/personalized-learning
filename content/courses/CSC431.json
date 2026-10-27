@@ -1,0 +1,107 @@
+{
+  "code": "CSC 431",
+  "title": "Compiler Construction",
+  "description": "Translators and the structure of a compiler, grammars and the Chomsky hierarchy, regular expressions and finite automata, lexical, syntax and semantic analysis, intermediate code, optimization, code generation and error handling. Built from the Ibadan Distance Learning course material for CSC 431 and past papers from 2016/17 to 2018/19.",
+  "is_reviewed": false,
+  "level": 400,
+  "topics": [
+    {
+      "slug": "translators-and-compiler-overview",
+      "title": "Translators and the Compiler Overview",
+      "summary": "Translators convert high-level or assembly programs into machine code; compilers translate the whole program at once, interpreters one statement at a time, and assemblers translate assembly language. A compiler has an analysis front end (scanner, syntax and semantic analysers) and a synthesis back end (preparation for code generation, code generation), all using tables of information such as the symbol table.",
+      "subtopics": [
+        "High-level, assembly and machine languages",
+        "Compilers, interpreters and assemblers: similarities and differences",
+        "Linkers and loaders",
+        "Analysis and synthesis phases; the symbol table",
+        "Phases and passes; single-pass and multi-pass compilers",
+        "Compiler-compilers, cross compilers, source-to-source compilers; qualities of a good compiler"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "linguistic-analysis-and-grammars",
+      "title": "Linguistic Analysis and Grammars",
+      "summary": "A language is a set of sentences over an alphabet, described by a grammar G = (VN, VT, P, S) of non-terminals, terminals, productions and a start symbol. Chomsky's hierarchy runs from Type 0 (unrestricted) through Type 1 (context sensitive) and Type 2 (context free) to Type 3 (regular), and some context-free grammars are ambiguous.",
+      "subtopics": [
+        "Alphabet, string, sentence, V* and V+",
+        "The four tuples of a grammar G = (VN, VT, P, S)",
+        "Sentences and sentential forms; derivation",
+        "Chomsky Types 0, 1, 2 and 3",
+        "Ambiguous context-free grammars",
+        "Precedence, operator and operator precedence grammars"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "regular-expressions-and-finite-automata",
+      "title": "Regular Expressions and Finite Automata",
+      "summary": "Regular expressions specify the patterns of tokens using union, concatenation and Kleene closure, with * binding tightest and | loosest. Finite automata recognise those patterns, and the scanner uses the longest match rule to choose between possible tokens.",
+      "subtopics": [
+        "Regular languages and regular grammars",
+        "Union, concatenation and Kleene closure",
+        "Precedence and associativity of operators",
+        "x*, x+, x? and character classes",
+        "Tokens as regular expressions: identifiers, decimals",
+        "Finite automata (Q, Σ, q0, qf, δ) and the longest match rule"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "language-structure-and-lexical-analysis",
+      "title": "Programming Language Structure and Lexical Analysis",
+      "summary": "Before building a compiler, its designer studies the language's syntax and semantics, tokens, data elements, binding, operators, coercion, storage management and parameter passing. The scanner then breaks the source program into tokens, builds their tables and passes an internal form to the parser.",
+      "subtopics": [
+        "Syntax and semantics; the character set",
+        "Tokens and BNF notation",
+        "Data elements, identifiers and binding",
+        "Operators and coercion of data types",
+        "Storage management and parameter passing",
+        "The scanner's tasks and routines (Get_Next_Char, Mark)"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "syntax-analysis",
+      "title": "Syntax Analysis (Parsing)",
+      "summary": "The parser checks the token sequence against a context-free grammar and builds a parse tree, using leftmost or rightmost derivations. Grammars are prepared by removing left recursion and left factoring and computing FIRST and FOLLOW sets, and parsing is top-down (predictive, recursive descent) or bottom-up (shift-reduce, LR, operator precedence).",
+      "subtopics": [
+        "Tasks of the parser",
+        "Leftmost and rightmost derivation; parse trees",
+        "Associativity and precedence",
+        "Left recursion and left factoring",
+        "FIRST and FOLLOW sets",
+        "Top-down and bottom-up parsing; the operator precedence algorithm"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "semantic-analysis-and-intermediate-code",
+      "title": "Semantic Analysis and Intermediate Code",
+      "summary": "Semantic analysis checks meaning that parsing cannot, such as declarations, types and scope, using attribute grammars with synthesized and inherited attributes. It rewrites accepted code in an intermediate language: Polish (postfix) notation, quadruples or triples, using routines such as LOOK_UP, INSERT, ENTER and CHECK_TYPE.",
+      "subtopics": [
+        "Functions of semantic analysis and semantic errors",
+        "Static and dynamic semantic analysis",
+        "Attribute grammars: synthesized and inherited attributes",
+        "Polish (postfix) notation and stack evaluation",
+        "Quadruples, triples and indirect triples",
+        "Semantic routines: LOOK_UP, INSERT, ENTER, CHECK_TYPE"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "optimization-code-generation-and-error-handling",
+      "title": "Code Optimization, Code Generation and Error Handling",
+      "summary": "Optimization improves code without changing its meaning, at the source, intermediate and machine level, for example by removing redundant instructions and unreachable code and optimizing loops. The code generator maps intermediate code to target instructions using register and address descriptors, and the error handler detects, reports and recovers from lexical, syntactic, semantic and logical errors.",
+      "subtopics": [
+        "Rules of optimization; machine-independent and machine-dependent",
+        "Peephole optimizations and strength reduction",
+        "Loop optimization",
+        "Code generation: instruction selection, register allocation, descriptors",
+        "Four alternatives for generating object code; bootstrapping",
+        "Error classes and recovery: panic mode, statement mode, error productions, global correction"
+      ],
+      "lectures": []
+    }
+  ]
+}

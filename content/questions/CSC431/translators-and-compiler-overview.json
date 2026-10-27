@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which translator reads one statement, converts it to intermediate code, executes it, then takes the next?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interpreter"
+      },
+      {
+        "key": "b",
+        "text": "Compiler"
+      },
+      {
+        "key": "c",
+        "text": "Assembler"
+      },
+      {
+        "key": "d",
+        "text": "Linker"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A compiler reads the whole program; an interpreter stops at the first error.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of an interpreter over a compiler, according to the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "More versatile across machines"
+      },
+      {
+        "key": "b",
+        "text": "Easier debugging of run-time errors"
+      },
+      {
+        "key": "c",
+        "text": "Can simulate a machine not yet built"
+      },
+      {
+        "key": "d",
+        "text": "Faster execution of the program"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Compiled programs run ten to a hundred times faster.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which program merges object files into one executable and resolves references between modules?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linker"
+      },
+      {
+        "key": "b",
+        "text": "Loader"
+      },
+      {
+        "key": "c",
+        "text": "Scanner"
+      },
+      {
+        "key": "d",
+        "text": "Interpreter"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The loader, part of the OS, loads the executable into memory and starts it.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The analysis phase of a compiler is its front end and produces an intermediate representation and the symbol table.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The synthesis phase (back end) then generates the target program.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A compiler that runs on platform A and generates executable code for platform B is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cross compiler"
+      },
+      {
+        "key": "b",
+        "text": "Compiler-compiler"
+      },
+      {
+        "key": "c",
+        "text": "Single-pass compiler"
+      },
+      {
+        "key": "d",
+        "text": "Source-to-source compiler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Compiler-compilers generate compilers from a language definition.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a logical part of a compiler in the course's diagram?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Scanner"
+      },
+      {
+        "key": "b",
+        "text": "Syntax and semantic analysis"
+      },
+      {
+        "key": "c",
+        "text": "Code generation"
+      },
+      {
+        "key": "d",
+        "text": "Spooler"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The parts are the scanner, analysers, preparation for code generation and code generation, sharing the tables.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the difference between a compiler phase and a compiler pass?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A phase is one stage such as lexical analysis; a pass is a traversal of the whole program and may contain several phases"
+      },
+      {
+        "key": "b",
+        "text": "They are the same thing"
+      },
+      {
+        "key": "c",
+        "text": "A pass is one stage; a phase contains several passes"
+      },
+      {
+        "key": "d",
+        "text": "A phase runs only at run time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Single-pass compilers do all processes in one module.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "A compiled source program must be translated again every time it is executed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is translated once; an interpreter translates on every run.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 1"
+  }
+]

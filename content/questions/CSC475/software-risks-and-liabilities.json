@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Showing consistency between code and its specification using proof of correctness and testing is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Verification and validation"
+      },
+      {
+        "key": "b",
+        "text": "Quality of service"
+      },
+      {
+        "key": "c",
+        "text": "Risk assessment"
+      },
+      {
+        "key": "d",
+        "text": "Piracy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Proof is static; testing is dynamic.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are human factors in software failure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rush to finish"
+      },
+      {
+        "key": "b",
+        "text": "Overconfidence and untested algorithms"
+      },
+      {
+        "key": "c",
+        "text": "Complacency"
+      },
+      {
+        "key": "d",
+        "text": "Hardware wear and tear"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Memory lapses and malice are also listed.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why can't software reliability be measured like hardware reliability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Software does not wear out, and fewer errors do not mean more reliability"
+      },
+      {
+        "key": "b",
+        "text": "Software is always error-free"
+      },
+      {
+        "key": "c",
+        "text": "Software has no instructions"
+      },
+      {
+        "key": "d",
+        "text": "Software never runs on hardware"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "No system can be certified error-free.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Software that is safe in one environment may be unsafe in another.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Software is designed and used by different people in different environments.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase of risk management in use outlines the policies for security management?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Planning"
+      },
+      {
+        "key": "b",
+        "text": "Assessment"
+      },
+      {
+        "key": "c",
+        "text": "Implementation"
+      },
+      {
+        "key": "d",
+        "text": "Testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Assessment identifies vulnerabilities; implementation matches needs with tools.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a cause of failure rooted in the nature of software?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Complexity"
+      },
+      {
+        "key": "b",
+        "text": "Difficult testing"
+      },
+      {
+        "key": "c",
+        "text": "Ease of programming"
+      },
+      {
+        "key": "d",
+        "text": "Good design specifications"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Misunderstood design specifications cause failures.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Risk from lightning or fire, which happens without our consent, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Involuntary"
+      },
+      {
+        "key": "b",
+        "text": "Voluntary"
+      },
+      {
+        "key": "c",
+        "text": "Contractual"
+      },
+      {
+        "key": "d",
+        "text": "Consequential"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Voluntary risk comes from activities we choose.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "Because of complexity, a complete set of tests can always be written to find every software bug.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "There will never be a complete set of tests for all bugs.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 8"
+  }
+]

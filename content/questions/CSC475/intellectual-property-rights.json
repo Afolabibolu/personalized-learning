@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Copyright protects",
+    "options": [
+      {
+        "key": "a",
+        "text": "Expressions such as literary and musical works"
+      },
+      {
+        "key": "b",
+        "text": "Inventions and discoveries"
+      },
+      {
+        "key": "c",
+        "text": "Trade figures kept secret"
+      },
+      {
+        "key": "d",
+        "text": "Brand names only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Patents protect inventions or discoveries.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which conditions must an invention meet to be patentable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Utility"
+      },
+      {
+        "key": "b",
+        "text": "Novelty"
+      },
+      {
+        "key": "c",
+        "text": "Non-obviousness"
+      },
+      {
+        "key": "d",
+        "text": "Popularity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Disclosure is the fourth condition.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Information such as a formula that gives a business a competitive advantage is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Trade secret"
+      },
+      {
+        "key": "b",
+        "text": "Copyright"
+      },
+      {
+        "key": "c",
+        "text": "Public domain work"
+      },
+      {
+        "key": "d",
+        "text": "Service mark"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It loses its status if many outsiders know it.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "When a copyright expires, the work goes into the public domain.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Government works and ideas and facts are also in the public domain.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Intentionally supporting infringement without taking part in it is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inducement infringement"
+      },
+      {
+        "key": "b",
+        "text": "Direct infringement"
+      },
+      {
+        "key": "c",
+        "text": "Contributory infringement"
+      },
+      {
+        "key": "d",
+        "text": "Fair use"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Contributory infringement means taking part in it.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a category of trademark in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Service mark"
+      },
+      {
+        "key": "b",
+        "text": "Certification mark"
+      },
+      {
+        "key": "c",
+        "text": "Collective mark"
+      },
+      {
+        "key": "d",
+        "text": "Patent mark"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Trademark is a general term covering service, certification and collective marks.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To prove trademark infringement, one must show that the infringer's action was likely to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Confuse the public"
+      },
+      {
+        "key": "b",
+        "text": "Increase sales"
+      },
+      {
+        "key": "c",
+        "text": "Reduce prices"
+      },
+      {
+        "key": "d",
+        "text": "Be patented"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This makes trademark infringement hard to prove.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Ideas, facts and blank forms can be protected by copyright.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are excluded as trivial or utilitarian.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 4"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Research undertaken to solve a specific problem or answer a practical question is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Applied research"
+      },
+      {
+        "key": "b",
+        "text": "Basic (pure) research"
+      },
+      {
+        "key": "c",
+        "text": "Secondary research"
+      },
+      {
+        "key": "d",
+        "text": "Exploratory research"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Pure research explores a concept without regard to a specific problem.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which kind of research answers questions such as 'how much?', 'how many?' and 'how often?'",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quantitative research"
+      },
+      {
+        "key": "b",
+        "text": "Qualitative research"
+      },
+      {
+        "key": "c",
+        "text": "Action research"
+      },
+      {
+        "key": "d",
+        "text": "Normative research"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Qualitative research answers why, how and in what way.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are areas of originality according to Cryer (1996)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Exploring the unknown"
+      },
+      {
+        "key": "b",
+        "text": "Exploring the unanticipated"
+      },
+      {
+        "key": "c",
+        "text": "New use of data"
+      },
+      {
+        "key": "d",
+        "text": "Copying an existing study exactly"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "New tools, techniques, procedures and methods are the fourth area.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Secondary research uses existing sources of data, such as census or archive data, rather than collecting original data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Primary research collects original data, for example by questionnaire.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the dialectic of research, an argument that challenges a previous idea is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Antithesis"
+      },
+      {
+        "key": "b",
+        "text": "Thesis"
+      },
+      {
+        "key": "c",
+        "text": "Synthesis"
+      },
+      {
+        "key": "d",
+        "text": "Hypothesis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A synthesis forms a new argument that resolves the contradiction.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a characteristic of research in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It demands a clear statement of the problem"
+      },
+      {
+        "key": "b",
+        "text": "It requires a plan"
+      },
+      {
+        "key": "c",
+        "text": "It builds on existing data"
+      },
+      {
+        "key": "d",
+        "text": "It avoids collecting any new data"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "New data should be collected as required to answer the research questions.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Research that investigates an area with little or no prior knowledge, using no earlier model, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Exploratory"
+      },
+      {
+        "key": "b",
+        "text": "Descriptive"
+      },
+      {
+        "key": "c",
+        "text": "Causal"
+      },
+      {
+        "key": "d",
+        "text": "Normative"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Descriptive research describes what is happening rather than why.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the knowledge hierarchy, data on its own already has meaning without interpretation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Data takes on meaning, becoming information, only when interpreted.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 1"
+  }
+]

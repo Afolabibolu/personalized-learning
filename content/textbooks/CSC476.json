@@ -1,0 +1,80 @@
+{
+  "code": "CSC 476",
+  "books": {
+    "cb": {
+      "title": "CSC 476: Research Methods in Computer Science (course book)",
+      "authors": "Department of Computer Science, University of Ibadan",
+      "edition": null,
+      "publisher": "University of Ibadan",
+      "year": null,
+      "in_course_files": "CSC 476 Research Methods in Computer Science.pdf"
+    },
+    "dawson": {
+      "title": "Projects in Computing and Information Systems: A Student's Guide",
+      "authors": "Christian W. Dawson",
+      "edition": null,
+      "publisher": "Pearson",
+      "year": null,
+      "listed_in_course_files": "CSC 476 Research Methods in Computer Science.pdf (cited as Dawson, 2005)"
+    },
+    "apa": {
+      "title": "APA Style: Seventh Edition (guide)",
+      "authors": "Based on the Publication Manual of the American Psychological Association",
+      "edition": "7th edition",
+      "publisher": null,
+      "year": 2020,
+      "in_course_files": "APA7-Style.pdf"
+    }
+  },
+  "topics": {
+    "meaning-and-types-of-research": [
+      {
+        "book": "cb",
+        "read": "Units 1 and 2: Meaning and Importance of Research; Types and Classifications of Research",
+        "why": "The course book chapters this topic follows."
+      }
+    ],
+    "ideation-and-the-research-problem": [
+      {
+        "book": "cb",
+        "read": "Units 3 and 4: Research Project's Ideation; The Research Problem",
+        "why": "Sources of ideas, and identifying, formulating and stating the problem."
+      }
+    ],
+    "research-tools-and-methodology": [
+      {
+        "book": "cb",
+        "read": "Units 5 and 6: Research Tools; The Research Methodology",
+        "why": "Data collection tools, method versus methodology and research instruments."
+      }
+    ],
+    "data-analysis": [
+      {
+        "book": "cb",
+        "read": "Unit 8: Data Analysis",
+        "why": "Measurement scales, descriptive statistics, tests and qualitative rigour."
+      }
+    ],
+    "research-reports-and-project-writing": [
+      {
+        "book": "dawson",
+        "read": "The chapters on choosing a project, literature reviews and presenting the project in written form",
+        "why": "A practical guide to computing projects, cited by the course book."
+      }
+    ],
+    "citation-and-journal-writing": [
+      {
+        "book": "apa",
+        "read": "In-text citations and the reference list",
+        "why": "The current APA rules, including et al. for three or more authors."
+      }
+    ],
+    "plagiarism-and-patents": [
+      {
+        "book": "cb",
+        "read": "Units 13 and 14: Plagiarism in Research Papers; Patents",
+        "why": "Types of plagiarism, paraphrasing and the patent filing process."
+      }
+    ]
+  }
+}

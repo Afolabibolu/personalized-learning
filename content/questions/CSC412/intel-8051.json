@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How much on-chip program ROM does the 8051 have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 KB"
+      },
+      {
+        "key": "b",
+        "text": "64 KB"
+      },
+      {
+        "key": "c",
+        "text": "1 MB"
+      },
+      {
+        "key": "d",
+        "text": "256 bytes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its program address space is 64 KB.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which TMOD setting selects a 16-bit timer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mode 1"
+      },
+      {
+        "key": "b",
+        "text": "Mode 0"
+      },
+      {
+        "key": "c",
+        "text": "Mode 2"
+      },
+      {
+        "key": "d",
+        "text": "Mode 3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mode 2 is 8-bit auto-reload; mode 0 is 13-bit.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are features of the 8051?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Four register banks"
+      },
+      {
+        "key": "b",
+        "text": "32 I/O lines in four ports"
+      },
+      {
+        "key": "c",
+        "text": "Two 16-bit timers"
+      },
+      {
+        "key": "d",
+        "text": "A 20-bit address bus"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The 20-bit address bus belongs to the 8086.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "With an 11.0592 MHz crystal, one 8051 machine cycle takes 1.085 µs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Delays are computed from this value.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which TCON flag is set when TH–TL rolls over from FFFFH to 0000H?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TF"
+      },
+      {
+        "key": "b",
+        "text": "TR"
+      },
+      {
+        "key": "c",
+        "text": "GATE"
+      },
+      {
+        "key": "d",
+        "text": "C/T"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "TR is set by the program to start the timer.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an 8051 special function register?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TMOD"
+      },
+      {
+        "key": "b",
+        "text": "SCON"
+      },
+      {
+        "key": "c",
+        "text": "SBUF"
+      },
+      {
+        "key": "d",
+        "text": "DPTR2"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The 8051 has one 16-bit data pointer, DPTR.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which register holds the byte sent on TxD or received on RxD?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SBUF"
+      },
+      {
+        "key": "b",
+        "text": "SCON"
+      },
+      {
+        "key": "c",
+        "text": "TMOD"
+      },
+      {
+        "key": "d",
+        "text": "PSW"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SCON controls the serial port.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "In asynchronous serial framing, the start bit is always 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The start bit is always 0 and the stop bit 1.",
+    "source": "Case Studies Microprocessors and Microcontrollers.pptx, Unit 5"
+  }
+]

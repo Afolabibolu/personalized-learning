@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "When updates to data in one file are not reflected in other files holding the same data, the problem is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data redundancy and inconsistency"
+      },
+      {
+        "key": "b",
+        "text": "Data independence"
+      },
+      {
+        "key": "c",
+        "text": "Referential integrity"
+      },
+      {
+        "key": "d",
+        "text": "Normalization"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Redundancy means the same data is duplicated in several files.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are problems of file-based systems?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data isolation"
+      },
+      {
+        "key": "b",
+        "text": "Limited data sharing"
+      },
+      {
+        "key": "c",
+        "text": "Lack of concurrent access"
+      },
+      {
+        "key": "d",
+        "text": "Physical data independence"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Data independence is an advantage of database systems.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who proposed the relational data model in 1970?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E. F. Codd"
+      },
+      {
+        "key": "b",
+        "text": "Peter Chen"
+      },
+      {
+        "key": "c",
+        "text": "Charles Bachman"
+      },
+      {
+        "key": "d",
+        "text": "John von Neumann"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Codd's paper at IBM began the second generation of DBMSs.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Logical data independence is the immunity of the external schemas to changes in the conceptual schema.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Physical data independence protects the conceptual schema from changes in the internal schema.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which level of the three-level architecture describes how the data is physically stored?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Internal"
+      },
+      {
+        "key": "b",
+        "text": "External"
+      },
+      {
+        "key": "c",
+        "text": "Conceptual"
+      },
+      {
+        "key": "d",
+        "text": "View"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The external level holds the users' views; the conceptual level the community view.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the five components of the DBMS environment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hardware"
+      },
+      {
+        "key": "b",
+        "text": "Software"
+      },
+      {
+        "key": "c",
+        "text": "Procedures"
+      },
+      {
+        "key": "d",
+        "text": "Normal forms"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The five are hardware, software, data, procedures and people.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language is used to create and define the structure of a database?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data Definition Language (DDL)"
+      },
+      {
+        "key": "b",
+        "text": "Data Manipulation Language (DML)"
+      },
+      {
+        "key": "c",
+        "text": "Query language"
+      },
+      {
+        "key": "d",
+        "text": "Relational calculus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The query language is part of the DML.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Hierarchical and network (CODASYL) systems were the first generation of DBMSs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "IMS and IDS were developed in the mid-1960s.",
+    "source": "DB_LECTURE NOTE 1.pdf"
+  }
+]

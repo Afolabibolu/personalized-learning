@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An embedded system is best described as a computer system",
+    "options": [
+      {
+        "key": "a",
+        "text": "Designed for specific control functions within a larger system"
+      },
+      {
+        "key": "b",
+        "text": "Designed for general-purpose desktop use"
+      },
+      {
+        "key": "c",
+        "text": "That has no processor"
+      },
+      {
+        "key": "d",
+        "text": "Used only in supercomputers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its key characteristic is being dedicated to a task.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Programs written for embedded systems and stored in ROM or flash are called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Firmware"
+      },
+      {
+        "key": "b",
+        "text": "Middleware"
+      },
+      {
+        "key": "c",
+        "text": "Shareware"
+      },
+      {
+        "key": "d",
+        "text": "Malware"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They run with limited hardware resources.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about microcontrollers are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They have on-chip memory and peripherals"
+      },
+      {
+        "key": "b",
+        "text": "They are also called embedded controllers"
+      },
+      {
+        "key": "c",
+        "text": "They can work as standalone systems"
+      },
+      {
+        "key": "d",
+        "text": "They always need many external interfacing ICs"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They need few additional ICs.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 12"
+  },
+  {
+    "format": "true_false",
+    "stem": "A microprocessor usually needs external memory for programs and data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A microcontroller has the required memory on chip.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Compared with microcontrollers, microprocessors usually have",
+    "options": [
+      {
+        "key": "a",
+        "text": "Higher clock speeds and more computing power"
+      },
+      {
+        "key": "b",
+        "text": "Built-in peripherals and on-chip memory"
+      },
+      {
+        "key": "c",
+        "text": "Clock speeds limited to tens of MHz"
+      },
+      {
+        "key": "d",
+        "text": "No need for memory"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Microcontroller clock speeds are limited to a few tens of MHz.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 12"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a characteristic of an embedded system in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Designed for a specific task"
+      },
+      {
+        "key": "b",
+        "text": "Often has real-time constraints"
+      },
+      {
+        "key": "c",
+        "text": "Runs firmware from ROM or flash"
+      },
+      {
+        "key": "d",
+        "text": "Always a standalone general-purpose computer"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Many embedded systems are parts of a larger device.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why can designers reduce the size and cost of an embedded system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Because it is dedicated to a specific task"
+      },
+      {
+        "key": "b",
+        "text": "Because it has unlimited memory"
+      },
+      {
+        "key": "c",
+        "text": "Because it has no software"
+      },
+      {
+        "key": "d",
+        "text": "Because it is always handmade"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Being dedicated lets designers optimize it.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "The microcontroller's evolution is called 'silent' because ordinary users are hardly aware of its impact.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The technology has changed greatly since the early 1970s.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 12"
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "code": "CSC 421",
+  "topics": {
+    "overview-of-operating-systems": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Introduction to Operating Systems (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vBURTt97EkA",
+        "source": "links.csv"
+      }
+    ],
+    "early-memory-management": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: L-5.5: First Fit, Next Fit, Best Fit, Worst fit Memory Allocation | Memory Management | OS (Gate Smashers)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=N3rG_1CEQkQ",
+        "source": "links.csv"
+      }
+    ],
+    "virtual-memory": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Lec28 Page replacement Introduction| FIFO page replacement algorithm with example| Operating System (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FWoMSiMep80",
+        "source": "links.csv"
+      }
+    ],
+    "concurrency-and-process-synchronization": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Semaphores (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XDIOC2EY5JE",
+        "source": "links.csv"
+      }
+    ],
+    "deadlock": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Lec23 Deadlock Avoidance: Banker's Algorithm with example | Operating System (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bYFVbzLLxfY",
+        "source": "links.csv"
+      }
+    ],
+    "device-and-file-management": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: L-6.4: FCFS in Disk scheduling with Example | Operating System (Gate Smashers)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yP89YlEGCqA",
+        "source": "links.csv"
+      }
+    ],
+    "performance-and-security": [
+      {
+        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Protection in Operating System (TutorialsPoint)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O_WbprDZMDw",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

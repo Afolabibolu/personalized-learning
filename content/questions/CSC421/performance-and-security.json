@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The number of jobs completed in a given amount of time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Throughput"
+      },
+      {
+        "key": "b",
+        "text": "Turnaround time"
+      },
+      {
+        "key": "c",
+        "text": "Response time"
+      },
+      {
+        "key": "d",
+        "text": "Capacity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Capacity is the maximum throughput a system may have.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a batch system, the time from job submission until its output is returned is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Turnaround time"
+      },
+      {
+        "key": "b",
+        "text": "Response time"
+      },
+      {
+        "key": "c",
+        "text": "System reaction time"
+      },
+      {
+        "key": "d",
+        "text": "Seek time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Response time applies to interactive systems.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are performance evaluation techniques?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Benchmarks"
+      },
+      {
+        "key": "b",
+        "text": "Simulation"
+      },
+      {
+        "key": "c",
+        "text": "Kernel programs"
+      },
+      {
+        "key": "d",
+        "text": "Phishing"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Phishing is a security threat.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "A negative feedback loop slows the arrival of requests when the system is congested.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A positive feedback loop increases requests when the system is underused.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which benchmark measures how effectively an architecture runs system programs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dhrystone"
+      },
+      {
+        "key": "b",
+        "text": "Whetstone"
+      },
+      {
+        "key": "c",
+        "text": "LINPACK"
+      },
+      {
+        "key": "d",
+        "text": "Savage"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Whetstone and LINPACK measure floating-point work; Savage checks trigonometric accuracy.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a level of protection in the unit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical"
+      },
+      {
+        "key": "b",
+        "text": "Human"
+      },
+      {
+        "key": "c",
+        "text": "Network"
+      },
+      {
+        "key": "d",
+        "text": "Cache"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The four levels are physical, human, operating system and network.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Searching the trash for written-down passwords is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dumpster diving"
+      },
+      {
+        "key": "b",
+        "text": "Phishing"
+      },
+      {
+        "key": "c",
+        "text": "Password cracking"
+      },
+      {
+        "key": "d",
+        "text": "Auditing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These are human-level threats.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "Survivability is a system's ability to fulfil its mission in time despite attacks, failures or accidents.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is one of the goals of system security.",
+    "source": "Operating System CSC 421 for DLC2.docx, Unit 10"
+  }
+]

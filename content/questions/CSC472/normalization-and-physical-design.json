@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Being unable to store some information without also storing unrelated information is",
+    "options": [
+      {
+        "key": "a",
+        "text": "An insertion anomaly"
+      },
+      {
+        "key": "b",
+        "text": "A deletion anomaly"
+      },
+      {
+        "key": "c",
+        "text": "An update anomaly"
+      },
+      {
+        "key": "d",
+        "text": "A lossless join"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Redundancy causes insertion, deletion and update anomalies.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A relation is in 2NF if it is in 1NF and",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every nonprime attribute is fully functionally dependent on a whole key"
+      },
+      {
+        "key": "b",
+        "text": "It has no keys"
+      },
+      {
+        "key": "c",
+        "text": "Every attribute is part of a key"
+      },
+      {
+        "key": "d",
+        "text": "It has only one tuple"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A dependency on part of a key violates 2NF.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Armstrong's axioms?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reflexivity"
+      },
+      {
+        "key": "b",
+        "text": "Augmentation"
+      },
+      {
+        "key": "c",
+        "text": "Transitivity"
+      },
+      {
+        "key": "d",
+        "text": "Normalization"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Rules such as decomposition follow from them.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every relation in BCNF is also in 3NF.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The normal forms are increasingly restrictive.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In SUPPLIER(SNAME, STREET, CITY, STATE, TAX) with STATE → TAX, which normal form is violated?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3NF, because of a transitive dependency"
+      },
+      {
+        "key": "b",
+        "text": "1NF"
+      },
+      {
+        "key": "c",
+        "text": "2NF, because of a partial key"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "TAX moves to TAXINFO(STATE, TAX).",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a problem caused by redundancy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Update anomalies"
+      },
+      {
+        "key": "b",
+        "text": "Deletion anomalies"
+      },
+      {
+        "key": "c",
+        "text": "Redundant storage"
+      },
+      {
+        "key": "d",
+        "text": "Data independence"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Data independence is an aim of the three-level architecture.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A relation R is in BCNF if, for every FD X → A,",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is trivial or X contains a key"
+      },
+      {
+        "key": "b",
+        "text": "A is part of some key"
+      },
+      {
+        "key": "c",
+        "text": "X is a single attribute"
+      },
+      {
+        "key": "d",
+        "text": "A is a foreign key"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "3NF also allows A to be part of some key.",
+    "source": "DBMS Lecture Notes.pdf, Unit III"
+  },
+  {
+    "format": "true_false",
+    "stem": "A range query through an unclustered index can be slower than scanning the whole file.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each matching entry may point to a different data page.",
+    "source": "DATABASE MANAGEMENT solution.pdf, Answer 8.3"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Replacing x * 2 by x << 1 is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Strength reduction"
+      },
+      {
+        "key": "b",
+        "text": "Unreachable code removal"
+      },
+      {
+        "key": "c",
+        "text": "Panic mode"
+      },
+      {
+        "key": "d",
+        "text": "Bootstrapping"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It replaces a costly operation with a cheaper one giving the same result.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the four alternatives for generating object code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Absolute machine language"
+      },
+      {
+        "key": "b",
+        "text": "Relocatable machine language"
+      },
+      {
+        "key": "c",
+        "text": "Assembly language"
+      },
+      {
+        "key": "d",
+        "text": "Lexemes"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is another programming language, such as BASIC to Pascal.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which descriptor tells the code generator which values each register holds?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register descriptor"
+      },
+      {
+        "key": "b",
+        "text": "Address descriptor"
+      },
+      {
+        "key": "c",
+        "text": "Symbol table"
+      },
+      {
+        "key": "d",
+        "text": "Job table"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The address descriptor tracks where each identifier's value is stored.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "An optimization must not change the meaning of the program.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It should also increase speed and be fast itself.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Writing a compiler for a small subset of a language and extending it in steps is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bootstrapping"
+      },
+      {
+        "key": "b",
+        "text": "Left factoring"
+      },
+      {
+        "key": "c",
+        "text": "Coercion"
+      },
+      {
+        "key": "d",
+        "text": "Global correction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each step gives a more powerful language to write the next extension in.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not an error-recovery strategy for parsers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Panic mode"
+      },
+      {
+        "key": "b",
+        "text": "Statement mode"
+      },
+      {
+        "key": "c",
+        "text": "Error productions"
+      },
+      {
+        "key": "d",
+        "text": "Strength reduction"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth strategy is global correction.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In panic-mode recovery the parser",
+    "options": [
+      {
+        "key": "a",
+        "text": "Discards input symbols until it finds a synchronizing token such as a semicolon"
+      },
+      {
+        "key": "b",
+        "text": "Rewrites the whole program"
+      },
+      {
+        "key": "c",
+        "text": "Inserts every missing token"
+      },
+      {
+        "key": "d",
+        "text": "Stops compilation immediately"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the easiest method and avoids infinite loops.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "Deadly errors cause compilation to terminate abruptly.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Notes, comments and warnings report anomalies; errors can be repaired.",
+    "source": "CSC 431 Compiler Construction.pdf, Study Session 11"
+  }
+]

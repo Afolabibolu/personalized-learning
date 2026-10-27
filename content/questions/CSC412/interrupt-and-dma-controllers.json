@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many interrupt inputs does a single 8259A handle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eight"
+      },
+      {
+        "key": "b",
+        "text": "Four"
+      },
+      {
+        "key": "c",
+        "text": "Sixteen"
+      },
+      {
+        "key": "d",
+        "text": "Two"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cascaded 8259As can handle up to 64.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Up to how many interrupts can cascaded 8259As handle in a master–slave configuration?",
+    "options": [
+      {
+        "key": "a",
+        "text": "64"
+      },
+      {
+        "key": "b",
+        "text": "8"
+      },
+      {
+        "key": "c",
+        "text": "16"
+      },
+      {
+        "key": "d",
+        "text": "256"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The CAS lines identify the slave.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which can the 8259A do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Resolve eight levels of priority"
+      },
+      {
+        "key": "b",
+        "text": "Mask each interrupt individually"
+      },
+      {
+        "key": "c",
+        "text": "Report pending, in-service and masked interrupts"
+      },
+      {
+        "key": "d",
+        "text": "Transfer memory blocks without the CPU"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Block transfer without the CPU is DMA.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "DMA is the fastest mode of data transfer, moving data between a device and memory without the CPU.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The DMA controller takes the bus after HLDA.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many DMA channels does the 8257 have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Four"
+      },
+      {
+        "key": "b",
+        "text": "Eight"
+      },
+      {
+        "key": "c",
+        "text": "Two"
+      },
+      {
+        "key": "d",
+        "text": "Sixteen"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Four peripherals can request DMA independently.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a register of the 8257?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DMA address register"
+      },
+      {
+        "key": "b",
+        "text": "Terminal count register"
+      },
+      {
+        "key": "c",
+        "text": "Mode set register"
+      },
+      {
+        "key": "d",
+        "text": "Interrupt mask register"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The IMR belongs to the 8259A.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which DMA mode does the controller transfer a whole block before releasing the bus?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Burst mode"
+      },
+      {
+        "key": "b",
+        "text": "Cycle stealing mode"
+      },
+      {
+        "key": "c",
+        "text": "Polling mode"
+      },
+      {
+        "key": "d",
+        "text": "Idle mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cycle stealing takes the bus only when the CPU is not using it.",
+    "source": "My CSC 412 Note-7.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The DMA transfer starts as soon as the DMA controller sends HOLD, before HLDA.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The transfer is initiated only after the CPU's HLDA.",
+    "source": "CSC 412 MICROPROCESSOR INTERFACING.pdf, Study Session 10"
+  }
+]

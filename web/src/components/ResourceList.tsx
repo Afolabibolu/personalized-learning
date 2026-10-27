@@ -43,9 +43,14 @@ export function ResourceIcon({ type, className = 'h-10 w-10' }: { type: Resource
   )
 }
 
-/** Exam-style sets (courses with no past papers) are labelled as such, never as past questions. */
+/** Question sets that are not from past papers (exam-style or course-book review questions) are never labelled past questions. */
 export function isExamStyle(resource: Pick<Resource, 'type' | 'title'>): boolean {
-  return resource.type === 'past_questions' && resource.title.startsWith('Exam-style')
+  return resource.type === 'past_questions' && /^(Exam-style|Review) questions/.test(resource.title)
+}
+
+/** The label for a question set that is not from past papers: "Review questions" or "Exam-style questions". */
+export function practiceLabel(resource: Pick<Resource, 'title'>): string {
+  return resource.title.startsWith('Review questions') ? 'Review questions' : 'Exam-style questions'
 }
 
 /** Where a resource opens: notes and past questions in the app, links in a new tab. */
@@ -91,7 +96,7 @@ export function ResourceList({ resources, compact = false }: { resources: Resour
         <div key={type}>
           <p className="mb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">
             {type === 'past_questions' && resources.filter((r) => r.type === type).every(isExamStyle)
-              ? 'Exam-style questions'
+              ? practiceLabel(resources.find((r) => r.type === type)!)
               : GROUP_LABEL[type]}
           </p>
           <div className="-mx-2 grid gap-0.5">

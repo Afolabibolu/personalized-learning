@@ -1,0 +1,70 @@
+{
+  "code": "CSC 475",
+  "books": {
+    "kizza": {
+      "title": "Ethical and Social Issues in the Information Age",
+      "authors": "Joseph Migga Kizza",
+      "edition": null,
+      "publisher": "Springer",
+      "year": null
+    },
+    "acm": {
+      "title": "ACM Code of Ethics and Professional Conduct",
+      "authors": "Association for Computing Machinery",
+      "edition": "2018 revision",
+      "publisher": "ACM",
+      "year": 2018
+    }
+  },
+  "topics": {
+    "professional-issues": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Ethics and the Professions'",
+        "why": "The course units follow this book's chapters and examples closely."
+      }
+    ],
+    "morality-and-the-law": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Morality and the Law'",
+        "why": "Moral theories, Sagan's rules, natural and conventional law."
+      }
+    ],
+    "ethics-and-ethical-analysis": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Ethics, Technology, and Value'",
+        "why": "Ethical theories and the framework for ethical decision making."
+      }
+    ],
+    "intellectual-property-rights": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Intellectual Property Rights and Computer Technology'",
+        "why": "Copyright, patents, trade secrets, trademarks and infringement."
+      }
+    ],
+    "anonymity-security-and-privacy": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Anonymity, Security, Privacy, and Civil Liberties'",
+        "why": "Forms of anonymity, security controls, privacy and identity theft."
+      }
+    ],
+    "software-risks-and-liabilities": [
+      {
+        "book": "kizza",
+        "read": "The chapter 'Software Issues: Risks and Liabilities'",
+        "why": "Standards, reliability, causes of failure and risk management."
+      }
+    ],
+    "codes-of-ethics": [
+      {
+        "book": "acm",
+        "read": "The whole code: general ethical principles, professional responsibilities and leadership principles",
+        "why": "The current version of the code the course reproduces in its 1992 form."
+      }
+    ]
+  }
+}

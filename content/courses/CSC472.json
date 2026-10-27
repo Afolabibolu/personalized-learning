@@ -1,0 +1,107 @@
+{
+  "code": "CSC 472",
+  "title": "Database Systems",
+  "description": "Database systems from the problems of file-based systems to the three-level architecture, entity-relationship and enhanced ER design, the relational model and algebra, SQL, normalization and physical design, and transactions, concurrency control and recovery. Built from the CSC 472 lecture notes and the 2022/23 examination.",
+  "is_reviewed": false,
+  "level": 400,
+  "topics": [
+    {
+      "slug": "introduction-to-database-systems",
+      "title": "Introduction to Database Systems",
+      "summary": "File-based systems suffered from redundancy, isolation, poor sharing and weak security, so database management systems emerged to manage shared, integrated data. The three-level ANSI-SPARC architecture (external, conceptual, internal) gives logical and physical data independence, and a DBMS provides a DDL to define and a DML to query the database.",
+      "subtopics": [
+        "Problems of file-based systems",
+        "Data, information, database and DBMS; components of the DBMS environment",
+        "History: hierarchical, network, relational and object generations",
+        "Advantages and disadvantages of a DBMS",
+        "Three-level architecture; logical and physical data independence",
+        "Data models; DDL and DML"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "er-modelling",
+      "title": "Entity-Relationship Modelling",
+      "summary": "Conceptual design gathers requirements from stakeholders and models them as entities, attributes and relationships. Attributes are simple or composite, single or multivalued, or derived; relationships have a degree; keys identify entities; and weak entities depend on an owner entity.",
+      "subtopics": [
+        "Requirement gathering and fact finding",
+        "Strong and weak entities",
+        "Simple, composite, single-valued, multivalued and derived attributes",
+        "Relationships, their degree and recursive relationships",
+        "Candidate, primary and other keys",
+        "Entity or attribute? Entity or relationship?"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "advanced-er-design",
+      "title": "Structural Constraints and Enhanced ER Design",
+      "summary": "Multiplicity, made up of cardinality and participation, captures business rules on relationships (1:1, 1:*, *:*). Enhanced ER modelling adds superclasses and subclasses with attribute inheritance, specialization and generalization with participation and disjoint constraints, and aggregation; fan and chasm traps are problems to avoid.",
+      "subtopics": [
+        "Attributes on relationships",
+        "Multiplicity: cardinality and participation",
+        "One-to-one, one-to-many and many-to-many relationships",
+        "Fan traps and chasm traps",
+        "Superclasses, subclasses and attribute inheritance",
+        "Specialization, generalization, their constraints, and aggregation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "relational-model-and-algebra",
+      "title": "The Relational Model and Relational Algebra",
+      "summary": "A relational database is a set of relations, each with a schema and an instance of distinct tuples. Integrity constraints, especially primary and foreign keys, keep instances legal, and referential integrity actions decide what happens on delete. Relational algebra (selection, projection, set operations, cross-product, joins) and relational calculus are the formal query languages behind SQL.",
+      "subtopics": [
+        "Relations: schema, instance, cardinality and degree",
+        "Integrity constraints; keys, superkeys and candidate keys",
+        "Foreign keys and referential integrity: NO ACTION, CASCADE, SET NULL, SET DEFAULT",
+        "Views",
+        "Relational algebra: selection, projection, union, difference, cross-product, joins",
+        "Tuple and domain relational calculus"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sql",
+      "title": "SQL",
+      "summary": "SQL defines relations with CREATE TABLE, domain types and constraints, changes data with INSERT, DELETE and UPDATE, and queries it with SELECT-FROM-WHERE. Queries can remove duplicates, rename, nest subqueries with IN, EXISTS and UNIQUE, combine results with set operations, and summarise with aggregate functions, GROUP BY and HAVING.",
+      "subtopics": [
+        "DDL: CREATE TABLE, domain types, NOT NULL and PRIMARY KEY",
+        "Insert, delete, update; DROP and ALTER TABLE",
+        "SELECT, FROM, WHERE; DISTINCT and rename",
+        "Nested and correlated queries: IN, EXISTS, UNIQUE",
+        "Set operations: UNION, INTERSECT, EXCEPT",
+        "Aggregates, GROUP BY, HAVING and null values"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "normalization-and-physical-design",
+      "title": "Functional Dependencies, Normalization and Physical Design",
+      "summary": "Redundancy causes update, insertion and deletion anomalies, and functional dependencies identify it. Normal forms (1NF, 2NF, 3NF, BCNF) guide decomposition, which should be lossless and dependency preserving. Physical design then chooses file organizations and indexes, clustered or unclustered, for the important queries.",
+      "subtopics": [
+        "Redundancy and update, insertion and deletion anomalies",
+        "Functional dependencies, closure and Armstrong's axioms",
+        "First, second and third normal forms",
+        "Boyce-Codd normal form",
+        "Decomposition",
+        "File organizations and indexes: clustered and unclustered"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "transactions-concurrency-and-recovery",
+      "title": "Transactions, Concurrency Control and Recovery",
+      "summary": "A transaction is a unit of work that must be atomic, consistent, isolated and durable (ACID), passing through active, partially committed, committed, failed and aborted states. Concurrency control ensures serializable schedules, through locking (two-phase locking) or timestamps, and recovery uses logs or shadow paging after failures.",
+      "subtopics": [
+        "The ACID properties",
+        "Transaction states",
+        "Schedules: serial and concurrent",
+        "Conflict and view serializability; precedence graphs",
+        "Shared and exclusive locks; two-phase locking; deadlock",
+        "Timestamp ordering; log-based recovery and shadow paging"
+      ],
+      "lectures": []
+    }
+  ]
+}

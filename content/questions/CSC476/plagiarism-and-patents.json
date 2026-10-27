@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Reusing your own previously published work without citing it is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Self-plagiarism"
+      },
+      {
+        "key": "b",
+        "text": "Mosaic plagiarism"
+      },
+      {
+        "key": "c",
+        "text": "Paraphrasing"
+      },
+      {
+        "key": "d",
+        "text": "Quoting"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Your own earlier work must be cited too.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The word plagiarism comes from the Latin plagiare, meaning",
+    "options": [
+      {
+        "key": "a",
+        "text": "To kidnap"
+      },
+      {
+        "key": "b",
+        "text": "To write"
+      },
+      {
+        "key": "c",
+        "text": "To quote"
+      },
+      {
+        "key": "d",
+        "text": "To publish"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Plagiarism takes another's words or ideas without due credit.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of plagiarism in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intentional"
+      },
+      {
+        "key": "b",
+        "text": "Mosaic (patchwork)"
+      },
+      {
+        "key": "c",
+        "text": "Plagiarism of ideas"
+      },
+      {
+        "key": "d",
+        "text": "Proper paraphrasing with citation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Proper paraphrasing with citation avoids plagiarism.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "A legitimate paraphrase must do more than change or rearrange a few words of the original.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Write the idea in your own words, compare with the original and cite it.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How long does a complete patent specification usually last?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20 years from filing"
+      },
+      {
+        "key": "b",
+        "text": "One year"
+      },
+      {
+        "key": "c",
+        "text": "Five years"
+      },
+      {
+        "key": "d",
+        "text": "Forever"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A provisional specification is valid for only one year.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 14"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a reference manager named in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "EndNote"
+      },
+      {
+        "key": "b",
+        "text": "Mendeley"
+      },
+      {
+        "key": "c",
+        "text": "BibTeX"
+      },
+      {
+        "key": "d",
+        "text": "Photoshop"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "RefWorks is also named.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which form requests examination of a patent application?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Form 18"
+      },
+      {
+        "key": "b",
+        "text": "Form 1"
+      },
+      {
+        "key": "c",
+        "text": "Form 3"
+      },
+      {
+        "key": "d",
+        "text": "Form 5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Form 1 applies for grant; Form 5 declares inventorship.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 14"
+  },
+  {
+    "format": "true_false",
+    "stem": "Using another author's work with wrong paraphrasing or improper citation is not plagiarism if it was not intended.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is unintentional plagiarism.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 13"
+  }
+]

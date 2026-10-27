@@ -1,83 +1,131 @@
 {
   "code": "CSC 412",
-  "exam_style": true,
   "papers": [
     {
-      "year": "Practice set",
-      "paper": "Not from a past paper: written for this app from the course's study notes",
-      "source": "Written for this app from the CSC 412 study notes, because no past papers were found for the course"
+      "year": "2022/2023",
+      "paper": "1st Semester Examination 2022/2023 Session (CSC 412: Microprocessor Interfacing). Answer any three questions; 2 hours; 7 December 2023",
+      "source": "CSC 412(2022_2023).pdf (scanned, read from the page images; handwritten notes on the scan are not copied)"
     }
   ],
   "questions": [
     {
-      "year": "Practice set",
-      "number": "1",
-      "marks": 20,
-      "topic": "8086-architecture-and-programming",
-      "text": "a) State three features of the 8086 microprocessor, including the sizes of its data and address buses and the memory it can address. (3 marks)\nb) With a block diagram, describe the two functional units of the 8086 and explain how the instruction queue allows pipelining. (7 marks)\nc) A memory operand has segment address 2000H and offset 0345H. Calculate its 20-bit physical address, showing your working. (4 marks)\nd) List the general-purpose and segment registers of the 8086 and state the role of each segment register. (6 marks)"
+      "year": "2022/2023",
+      "number": "1(a)",
+      "marks": 5,
+      "topic": "intel-8085",
+      "text": "(a) Write instructions to load the two hexadecimal numbers 32H and 48H in registers A and B, respectively. Add the numbers and display the sum at the LED output port PORT. (5 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "2",
-      "marks": 15,
-      "topic": "8086-architecture-and-programming",
-      "text": "a) Distinguish between the conditional flags and the control flags of the 8086 flag register, giving two examples of each. (6 marks)\nb) Explain any four addressing modes of the 8086, with an example instruction for each. (6 marks)\nc) Name the groups into which the 8086 instruction set is divided. (3 marks)"
+      "year": "2022/2023",
+      "number": "1(b)",
+      "marks": 8,
+      "topic": "intel-8085",
+      "text": "(b) What are the various interrupts in 8085 microprocessor? Which is the highest priority interrupt? State two reasons why Interrupt is significant in any microprocessor? (8 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "3",
-      "marks": 20,
-      "topic": "8086-system-bus-and-multiprocessing",
-      "text": "a) Explain why the lines AD0–AD15 of the 8086 are multiplexed, and how the address is separated from the data. (4 marks)\nb) What is a bus cycle? Describe the T-states of an 8086 bus cycle and explain when wait states are inserted. (6 marks)\nc) Define setup time and hold time. (2 marks)\nd) Compare the minimum mode and maximum mode of the 8086, stating the pin that selects each mode. (8 marks)"
+      "year": "2022/2023",
+      "number": "1(c)",
+      "marks": 3,
+      "topic": "microcomputer-and-microprocessor-basics",
+      "text": "(c) What type of architecture is used in 8088 microprocessor? What is the function of accumulator in an 8088 microprocessor? Is 8088 a CISC or RISC? (3 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "4",
-      "marks": 15,
-      "topic": "8086-system-bus-and-multiprocessing",
-      "text": "a) Describe how the 8087 coprocessor works with the 8086 in a closely coupled configuration. (6 marks)\nb) What is a loosely coupled multiprocessor system? (4 marks)\nc) State five advantages of multiprocessor configurations. (5 marks)"
+      "year": "2022/2023",
+      "number": "1(d)",
+      "marks": 4,
+      "topic": "intel-8085",
+      "text": "(d)(i) What is the length of stack pointer in 8085 microprocessor? And what is its use? (2 marks)\n(ii) What are the two machine control operations used in 8085 microprocessor? (2 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "5",
-      "marks": 20,
-      "topic": "interfacing-with-the-8086",
-      "text": "a) Distinguish between synchronous and asynchronous data transfer. (4 marks)\nb) Compare memory-mapped I/O with I/O-mapped I/O, giving two advantages of each. (6 marks)\nc) Describe the 8255 Programmable Peripheral Interface, its ports and its modes of operation. (10 marks)"
+      "year": "2022/2023",
+      "number": "2(a)",
+      "marks": 7,
+      "topic": "intel-8085",
+      "text": "(a) If the 8085 adds 87H and 79H, specify the contents of the accumulator and the status of the S, Z, and CY flag. (7 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "6",
-      "marks": 15,
-      "topic": "interfacing-with-the-8086",
-      "text": "a) State the function of each of the following peripheral chips: 8251 USART, 8253/8254 timer, 8259 interrupt controller and 8279 keyboard/display controller. (8 marks)\nb) With a diagram, explain how an analogue-to-digital converter is interfaced to the 8086. (7 marks)"
+      "year": "2022/2023",
+      "number": "2(b)",
+      "marks": 4,
+      "topic": "interrupt-and-dma-controllers",
+      "text": "(b) What is meant by DMA operation? What are the modes of operation of DMA? (4 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "7",
-      "marks": 20,
-      "topic": "8051-microcontroller-architecture",
-      "text": "a) Distinguish between a microprocessor and a microcontroller. (4 marks)\nb) State five features of the 8051, and how the 8031 and 8052 differ from it. (7 marks)\nc) Describe the four ports of the 8051 and the function of the EA pin. (5 marks)\nd) Explain the use of the program counter, stack pointer and DPTR. (4 marks)"
+      "year": "2022/2023",
+      "number": "2(c)",
+      "marks": 3,
+      "topic": "intel-8085",
+      "text": "(c) Explain the function of ALU and IO/M signals in the 8085 architecture. (3 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "8",
-      "marks": 15,
-      "topic": "8051-microcontroller-architecture",
-      "text": "a) Describe the internal RAM organisation of the 8051, including the four register banks and how a bank is selected. (7 marks)\nb) What are special function registers? Give four examples. (4 marks)\nc) Explain any two addressing modes of the 8051 with an example instruction for each. (4 marks)"
+      "year": "2022/2023",
+      "number": "2(d)",
+      "marks": 6,
+      "topic": "memory-and-io-interfacing",
+      "text": "(d) (i) How many memory locations can be addressed by a microprocessor with 14 address lines? (2 marks)\n(ii) Specify the number of registers and memory cells required in a 128 x 4 memory chip? (2 marks)\n(iii) Define two-byte instruction with one example. (2 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "9",
-      "marks": 20,
-      "topic": "8051-timers-and-serial-communication",
-      "text": "a) Describe the bits of the TMOD register: GATE, C/T, M1 and M0. (6 marks)\nb) State the role of the TR and TF bits in TCON. (2 marks)\nc) List the steps for programming Timer 0 in mode 1 to generate a time delay. (6 marks)\nd) With an 11.0592 MHz crystal, calculate the timer clock period, and the delay produced when Timer 0 counts from FFF2H to roll-over. (6 marks)"
+      "year": "2022/2023",
+      "number": "3(a)",
+      "marks": 4,
+      "topic": "embedded-systems-and-microcontrollers",
+      "text": "(a) Describe the trade-offs between using a microcontroller and a microprocessor in an embedded system design. When would you prefer one over the other? (4 marks)"
     },
     {
-      "year": "Practice set",
-      "number": "10",
-      "marks": 15,
-      "topic": "8051-timers-and-serial-communication",
-      "text": "a) Distinguish between synchronous and asynchronous serial communication. (4 marks)\nb) Define baud rate. (2 marks)\nc) Explain the functions of the SCON and SBUF registers in 8051 serial communication. (6 marks)\nd) Explain how a timer is used to generate a square wave on a port pin. (3 marks)"
+      "year": "2022/2023",
+      "number": "3(b)–(e)",
+      "marks": 16,
+      "topic": "intel-8086",
+      "text": "(b) Identify five different addressing schemes of 8086 microprocessor. Illustrate any two of them. (7 marks)\n(c) Explain the concept of pipelining in 8086. Discuss two advantages and one disadvantage. (4 marks)\n(d) What is the difference between minimum and maximum modes of 8086? How are these modes selected? (3 marks)\n(e) Explain the memory segmentation in the 8086 microprocessor and its significance. (2 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4(a)",
+      "marks": 6,
+      "topic": "embedded-systems-and-microcontrollers",
+      "text": "(a) (i) Describe the various memory types used in embedded systems and their purposes.\n(ii) Explain how embedded system is different from processors. (6 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4(b)–(c)",
+      "marks": 8,
+      "topic": "intel-8086",
+      "text": "(b) Give the two major register classifications of 8086 and highlight four of its segment registers. (6 marks)\n(c) List the two functional parts of 8086 microprocessors. (2 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "4(d)–(e)",
+      "marks": 6,
+      "topic": "intel-8085",
+      "text": "(d) Draw the format of 8085 flag register. (4 marks)\n(e) Specify the function of the address bus and the direction of the information flow on the address bus. (2 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5(a)",
+      "marks": 8,
+      "topic": "microcomputer-and-microprocessor-basics",
+      "text": "(a) Compare and contrast Harvard and Von Neumann architectures in the context of microcontrollers. Discuss their implications on embedded system design. (8 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5(b)",
+      "marks": 7,
+      "topic": "intel-8085",
+      "text": "(b) How are the instructions of 8085 classified based on their (i) function and (ii) word length? Give an example each. (7 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5(c)",
+      "marks": 3,
+      "topic": "interrupt-and-dma-controllers",
+      "text": "(c) What are the control signals used for DMA operation? (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "5(d)",
+      "marks": 2,
+      "topic": "microcomputer-and-microprocessor-basics",
+      "text": "(d) (i) What determines whether a Microprocessor is an 8, 16 or 32 bit?\n(ii) Why is the data bus bidirectional? (2 marks)"
     }
   ]
 }

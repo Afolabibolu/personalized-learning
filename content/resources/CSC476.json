@@ -1,0 +1,103 @@
+{
+  "code": "CSC 476",
+  "topics": {
+    "meaning-and-types-of-research": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Quantitative vs. Qualitative Research: The Differences Explained | Scribbr 🎓 (Scribbr)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=a-XtVF7Bofg",
+        "source": "links.csv"
+      }
+    ],
+    "ideation-and-the-research-problem": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: The Research Problem & Problem Statement: Plain-Language Explainer (With Examples) + FREE Templates (Grad Coach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fFyaJl9T74g",
+        "source": "links.csv"
+      }
+    ],
+    "research-tools-and-methodology": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Qualitative vs Quantitative vs Mixed Methods Research: How To Choose Research Methodology (Grad Coach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hECPeKv5tPM",
+        "source": "links.csv"
+      }
+    ],
+    "data-analysis": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: Descriptive Statistics: FULL Tutorial - Mean, Median, Mode, Variance & SD (With Examples) (Grad Coach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SplCk-t1BeA",
+        "source": "links.csv"
+      }
+    ],
+    "research-reports-and-project-writing": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: How to Write a Literature Review: 3 Minute Step-by-step Guide | Scribbr 🎓 (Scribbr)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zIYC6zG265E",
+        "source": "links.csv"
+      }
+    ],
+    "citation-and-journal-writing": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: APA 7th Edition: The Basics of APA In-text Citations | Scribbr 🎓 (Scribbr)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=opp259YvaoE",
+        "source": "links.csv"
+      }
+    ],
+    "plagiarism-and-patents": [
+      {
+        "title": "Research Methods in Computer Science lecture files (400 Level folder, open the CSC 476 folder)",
+        "type": "lecture",
+        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "source": "Lecture folder"
+      },
+      {
+        "title": "Video: How to Avoid Plagiarism with 3 Simple Tricks | Scribbr 🎓 (Scribbr)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uQhVDH9p7aU",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

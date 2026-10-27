@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "'Do not do unto others what you would not have them do unto you' is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Silver Rule"
+      },
+      {
+        "key": "b",
+        "text": "Golden Rule"
+      },
+      {
+        "key": "c",
+        "text": "Iron Rule"
+      },
+      {
+        "key": "d",
+        "text": "Tin Rule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Golden Rule is 'Do unto others as you would have them do unto you'.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which rule, 'Pay homage to those above you and intimidate those below you', is called the bully rule?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tin Rule"
+      },
+      {
+        "key": "b",
+        "text": "Bronze Rule"
+      },
+      {
+        "key": "c",
+        "text": "Silver Rule"
+      },
+      {
+        "key": "d",
+        "text": "Nepotism Rule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Iron Rule can create dictatorships.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are functions of punishment under the penal code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Retributive"
+      },
+      {
+        "key": "b",
+        "text": "Corrective"
+      },
+      {
+        "key": "c",
+        "text": "Deterrent"
+      },
+      {
+        "key": "d",
+        "text": "Decorative"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The penal code is the enforcement mechanism of law.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Natural law is unwritten, universal and discoverable by reason.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Conventional law is made by people, for example in legislatures.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Conventional law that restates what natural law declares, such as forbidding murder, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Declarative"
+      },
+      {
+        "key": "b",
+        "text": "Determinative"
+      },
+      {
+        "key": "c",
+        "text": "Etiquette"
+      },
+      {
+        "key": "d",
+        "text": "Penal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Determinative law fixes ways of acting, such as contracts and traffic rules.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not one of the rules in Sagan's list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Golden Rule"
+      },
+      {
+        "key": "b",
+        "text": "The Bronze Rule"
+      },
+      {
+        "key": "c",
+        "text": "The Iron Rule"
+      },
+      {
+        "key": "d",
+        "text": "The Diamond Rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Sagan's list also includes the Silver, Tin and Nepotism rules.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Conscience comes from the Latin conscientia, meaning",
+    "options": [
+      {
+        "key": "a",
+        "text": "Knowing with"
+      },
+      {
+        "key": "b",
+        "text": "Kidnap"
+      },
+      {
+        "key": "c",
+        "text": "Whole"
+      },
+      {
+        "key": "d",
+        "text": "Law"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the inner voice that judges our actions.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Etiquette is a code of behaviour that is usually written down and enforced by courts.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Etiquette rules are usually unwritten and unenforced.",
+    "source": "CSC 476 Computer Ethics DLC book.docx (CSC 475 course book), Unit 2"
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "code": "CSC 475",
+  "title": "Professional Ethics for Computer Science",
+  "description": "Professional and ethical responsibilities in computing: professionalism, morality and the law, ethical theories and analysis, intellectual property, anonymity, security and privacy, software risks and liabilities, and codes of ethics such as the ACM Code. Built from the Ibadan Distance Learning course book for CSC 475 (ed. O. A. Abiola).",
+  "is_reviewed": false,
+  "level": 400,
+  "topics": [
+    {
+      "slug": "professional-issues",
+      "title": "Professional Issues in Computer Science",
+      "summary": "A profession rests on deep knowledge, autonomy and the observance of codes: professional, personal, institutional and community codes. Professionalism is supported by four pillars, commitment, integrity, responsibility and accountability, and professional bodies enforce standards through hearings, sanctions and appeals.",
+      "subtopics": [
+        "Meaning and evolution of professions",
+        "Requirements of a professional: knowledge, autonomy, codes of conduct",
+        "The four codes: professional, personal, institutional, community",
+        "Commitment and integrity",
+        "Responsibility: service, product and consequential",
+        "Accountability; hearings, sanctions and appeals"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "morality-and-the-law",
+      "title": "Morality and the Law",
+      "summary": "Morality is a set of rules for right conduct, built into moral theories, decision making and codes such as the Golden Rule. Law, natural or conventional, protects life, liberty and property and is enforced through a penal code, while morality is self-enforced; etiquette is a further, unenforced code of manners.",
+      "subtopics": [
+        "Morality and moral theories",
+        "Moral decision making",
+        "Moral codes: the Golden, Silver, Bronze, Iron and Tin rules",
+        "Moral standards, guilt and conscience",
+        "Natural and conventional law; the purpose of law",
+        "The penal code; morality versus law; etiquette"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "ethics-and-ethical-analysis",
+      "title": "Ethics and Ethical Analysis",
+      "summary": "Ethics is the study of right and wrong in human conduct, interpreted through ethical theories: consequentialism (egoism, utilitarianism, altruism), deontology, human nature, relativism, hedonism and emotivism. Ethical reasoning applies these in a decision-making framework, and ethical arguments are built and evaluated for validity.",
+      "subtopics": [
+        "Meaning of ethics",
+        "Consequentialism: egoism, utilitarianism, altruism",
+        "Deontology and human nature",
+        "Relativism, hedonism and emotivism",
+        "Ethical reasoning and the decision-making framework",
+        "Making and evaluating ethical arguments"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "intellectual-property-rights",
+      "title": "Intellectual Property Rights and Computer Technology",
+      "summary": "Intellectual property rights protect creations through copyright (expressions), patents (inventions that are useful, novel, non-obvious and disclosed), trade secrets and trademarks. Infringement may be direct, induced or contributory, and software can be protected under copyright, patent and trademark law against piracy.",
+      "subtopics": [
+        "Computer products, services and software",
+        "Copyright and the public domain",
+        "Patents: what is patentable and how long protection lasts",
+        "Trade secrets and their characteristics",
+        "Trademarks: categories, characteristics and registration",
+        "Intellectual property crimes, infringement and software piracy"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "anonymity-security-and-privacy",
+      "title": "Anonymity, Security, Privacy and Civil Liberties",
+      "summary": "Anonymity can be pseudo, untraceable or through pseudo-addresses, and has advantages and dangers. Security protects confidentiality, integrity and availability through physical controls, passwords, firewalls, encryption and authentication, while privacy (solitude, anonymity, intimacy, reserve) is a civil liberty threatened by information gathering and identity theft.",
+      "subtopics": [
+        "Types of anonymity; anonymity on the Internet",
+        "Advantages and disadvantages of anonymity",
+        "Security: confidentiality, integrity, availability; physical security",
+        "Passwords, firewalls, encryption and authentication",
+        "Privacy: its elements, types and value",
+        "Identity theft, information gathering and civil liberties"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "software-risks-and-liabilities",
+      "title": "Software Issues: Risks and Liabilities",
+      "summary": "Software buyers depend on developers' claims of quality, tested through standards, verification and validation, and reliability. Software fails through human factors, the nature of software (complexity, difficult testing) and its environment, so risk is assessed and managed through assessment, planning and implementation.",
+      "subtopics": [
+        "Standards, verification and validation",
+        "Reliability and security of software",
+        "Safety, quality and quality of service",
+        "Causes of failure: human factors",
+        "Causes of failure: the nature of software; hazards and risk",
+        "Risk assessment and management"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "codes-of-ethics",
+      "title": "Codes of Ethics",
+      "summary": "Codes of ethics are the rules, guidelines and canons followed by members of professional bodies such as the ACM and IEEE. The ACM Code of Ethics and Professional Conduct sets out general moral imperatives, more specific professional responsibilities and organizational leadership imperatives.",
+      "subtopics": [
+        "What codes of ethics are",
+        "Principles, public policies, codes of conduct and legal instruments",
+        "The ACM Code: general moral imperatives",
+        "More specific professional responsibilities",
+        "Organizational leadership imperatives",
+        "Compliance with the code"
+      ],
+      "lectures": []
+    }
+  ]
+}

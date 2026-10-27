@@ -1,0 +1,72 @@
+{
+  "code": "CSC 472",
+  "books": {
+    "rg": {
+      "title": "Database Management Systems",
+      "authors": "Raghu Ramakrishnan and Johannes Gehrke",
+      "edition": "3rd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2003,
+      "listed_in_course_files": "DATABASE MANAGEMENT solution.pdf (the book's solutions manual, in the course folder)"
+    },
+    "cb": {
+      "title": "Database Systems: A Practical Approach to Design, Implementation, and Management",
+      "authors": "Thomas Connolly and Carolyn Begg",
+      "edition": null,
+      "publisher": "Pearson",
+      "year": null,
+      "listed_in_course_files": "the CSC 472 lecture notes, which cite its DreamHome case study (Chapter 11), Section 12.7 and Figure 13.9"
+    }
+  },
+  "topics": {
+    "introduction-to-database-systems": [
+      {
+        "book": "rg",
+        "read": "Chapter 1: Overview of Database Systems",
+        "why": "Why a DBMS, levels of abstraction and data independence."
+      }
+    ],
+    "er-modelling": [
+      {
+        "book": "cb",
+        "read": "Chapter 11 (the DreamHome case study) and Chapter 12 (entity-relationship modelling)",
+        "why": "The lecture notes refer to these chapters for requirements and ER modelling."
+      }
+    ],
+    "advanced-er-design": [
+      {
+        "book": "cb",
+        "read": "Chapter 12 (structural constraints, Section 12.7 on connection traps) and Chapter 13 (enhanced ER modelling)",
+        "why": "The source of the lecture's multiplicity, fan and chasm traps, and specialization examples."
+      }
+    ],
+    "relational-model-and-algebra": [
+      {
+        "book": "rg",
+        "read": "Chapter 3: The Relational Model; Chapter 4: Relational Algebra and Calculus",
+        "why": "Keys, foreign keys, referential integrity actions, algebra and calculus."
+      }
+    ],
+    "sql": [
+      {
+        "book": "rg",
+        "read": "Chapter 5: SQL: Queries, Constraints, Triggers",
+        "why": "Basic, nested and aggregate queries, with the Sailors examples used in the notes."
+      }
+    ],
+    "normalization-and-physical-design": [
+      {
+        "book": "rg",
+        "read": "Chapter 19: Schema Refinement and Normal Forms; Chapter 8: Overview of Storage and Indexing; Chapter 20: Physical Database Design and Tuning",
+        "why": "Functional dependencies and normal forms, then files, indexes and physical design."
+      }
+    ],
+    "transactions-concurrency-and-recovery": [
+      {
+        "book": "rg",
+        "read": "Chapter 16: Overview of Transaction Management; Chapter 17: Concurrency Control; Chapter 18: Crash Recovery",
+        "why": "ACID, serializability, two-phase locking, timestamps and recovery."
+      }
+    ]
+  }
+}

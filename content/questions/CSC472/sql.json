@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword removes duplicate rows from a query result?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DISTINCT"
+      },
+      {
+        "key": "b",
+        "text": "ALL"
+      },
+      {
+        "key": "c",
+        "text": "UNIQUE"
+      },
+      {
+        "key": "d",
+        "text": "GROUP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SQL keeps duplicates by default.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which clause filters groups formed by GROUP BY?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HAVING"
+      },
+      {
+        "key": "b",
+        "text": "WHERE"
+      },
+      {
+        "key": "c",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "d",
+        "text": "FROM"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "WHERE filters tuples before grouping.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are SQL aggregate functions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "COUNT"
+      },
+      {
+        "key": "b",
+        "text": "AVG"
+      },
+      {
+        "key": "c",
+        "text": "MAX"
+      },
+      {
+        "key": "d",
+        "text": "EXISTS"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "EXISTS is a set comparison operator; SUM and MIN are also aggregates.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "true_false",
+    "stem": "Aggregate functions such as AVG ignore null values.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Nulls complicate conditions, but aggregates simply skip them.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A tuple occurring m times in r and n times in s occurs how many times in r UNION ALL s?",
+    "options": [
+      {
+        "key": "a",
+        "text": "m + n"
+      },
+      {
+        "key": "b",
+        "text": "max(m, n)"
+      },
+      {
+        "key": "c",
+        "text": "max(0, m − n)"
+      },
+      {
+        "key": "d",
+        "text": "min(m, n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "max(0, m − n) is for EXCEPT ALL.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a set comparison operator for subqueries?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IN"
+      },
+      {
+        "key": "b",
+        "text": "EXISTS"
+      },
+      {
+        "key": "c",
+        "text": "UNIQUE"
+      },
+      {
+        "key": "d",
+        "text": "ALTER"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ALTER TABLE changes a relation's schema.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When ALTER TABLE adds an attribute, what value do existing tuples get for it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Null"
+      },
+      {
+        "key": "b",
+        "text": "Zero"
+      },
+      {
+        "key": "c",
+        "text": "The primary key"
+      },
+      {
+        "key": "d",
+        "text": "The previous attribute's value"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "All existing tuples are assigned null.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  },
+  {
+    "format": "true_false",
+    "stem": "Aggregate operations can be nested, as in AVG(MAX(balance)).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Aggregate operations cannot be nested.",
+    "source": "DBMS Lecture Notes.pdf, Unit II"
+  }
+]

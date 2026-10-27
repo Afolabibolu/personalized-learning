@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which part of a research report contains the title page, preface and table of contents?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The preliminary section"
+      },
+      {
+        "key": "b",
+        "text": "The introduction"
+      },
+      {
+        "key": "c",
+        "text": "The methods"
+      },
+      {
+        "key": "d",
+        "text": "The results"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The introduction follows the preliminary section.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Chapter Two, which sub-heading summarizes the literature and shows the gap that justifies the study?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Appraisal of reviewed literature"
+      },
+      {
+        "key": "b",
+        "text": "Conceptual framework"
+      },
+      {
+        "key": "c",
+        "text": "Theoretical framework"
+      },
+      {
+        "key": "d",
+        "text": "Empirical studies"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It often ends with a summary table of related works.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which belong in the introduction of a research report?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The problem"
+      },
+      {
+        "key": "b",
+        "text": "Aim and objectives"
+      },
+      {
+        "key": "c",
+        "text": "Definition of important terms"
+      },
+      {
+        "key": "d",
+        "text": "The principal findings"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The principal findings belong in the results.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "A computer science project should have an achievable core with room for extension.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It must also be the right size and have significant computer science content.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How recent should the existing solutions reviewed in Chapter Two be, for instance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Within the last three years"
+      },
+      {
+        "key": "b",
+        "text": "Over twenty years old"
+      },
+      {
+        "key": "c",
+        "text": "From before computers"
+      },
+      {
+        "key": "d",
+        "text": "It does not matter"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Their drawbacks should also be discussed.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which one is not a usual source of computer science project ideas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Supervisors' suggestions"
+      },
+      {
+        "key": "b",
+        "text": "Past years' projects"
+      },
+      {
+        "key": "c",
+        "text": "Proposals from industry"
+      },
+      {
+        "key": "d",
+        "text": "Copying a classmate's project"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Ideas proposed by the candidate are also a source.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a literature review, the course advises students to prefer",
+    "options": [
+      {
+        "key": "a",
+        "text": "Paraphrasing to direct quotation"
+      },
+      {
+        "key": "b",
+        "text": "Long direct quotations"
+      },
+      {
+        "key": "c",
+        "text": "Harsh criticism of past authors"
+      },
+      {
+        "key": "d",
+        "text": "No citations"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Derailing into criticism is unprofessional and unethical.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "An application program whose main intellectual effort lies outside computing is a suitable computer science project.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Projects must have significant computer science content.",
+    "source": "CSC 476 Research Methods in Computer Science.pdf, Unit 9"
+  }
+]

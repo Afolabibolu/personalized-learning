@@ -1,12 +1,20 @@
 {
   "code": "CSC 412",
   "books": {
-    "mazidi": {
-      "title": "The 8051 Microcontroller and Embedded Systems: Using Assembly and C",
-      "authors": "Muhammad Ali Mazidi, Janice Gillispie Mazidi and Rolin D. McKinlay",
-      "edition": "2nd edition",
-      "publisher": "Pearson Prentice Hall",
-      "year": 2006
+    "ojo": {
+      "title": "Microprocessor Interfacing: A Course Material for CSC 412",
+      "authors": "Adebola K. Ojo",
+      "edition": null,
+      "publisher": "University of Ibadan",
+      "year": null,
+      "in_course_files": "CSC 412 MICROPROCESSOR INTERFACING.pdf"
+    },
+    "gaonkar": {
+      "title": "Microprocessor Architecture, Programming, and Applications with the 8085",
+      "authors": "Ramesh S. Gaonkar",
+      "edition": null,
+      "publisher": "Penram International",
+      "year": null
     },
     "ray": {
       "title": "Advanced Microprocessors and Peripherals",
@@ -15,42 +23,68 @@
       "publisher": "McGraw-Hill",
       "year": null,
       "listed_in_course_files": "Case Studies Microprocessors and Microcontrollers.pptx (reading list)"
+    },
+    "mazidi": {
+      "title": "The 8051 Microcontroller and Embedded Systems: Using Assembly and C",
+      "authors": "Muhammad Ali Mazidi, Janice Gillispie Mazidi and Rolin D. McKinlay",
+      "edition": "2nd edition",
+      "publisher": "Pearson Prentice Hall",
+      "year": 2006
     }
   },
   "topics": {
-    "8086-architecture-and-programming": [
+    "microcomputer-and-microprocessor-basics": [
       {
-        "book": "ray",
-        "read": "The chapters on the 8086 architecture, instruction set and assembly programming",
-        "why": "Listed in the course slides' reading list; the standard Indian textbook on the 8086 family."
+        "book": "ojo",
+        "read": "Study Sessions 1 to 4",
+        "why": "The course material this topic follows."
       }
     ],
-    "8086-system-bus-and-multiprocessing": [
+    "embedded-systems-and-microcontrollers": [
       {
-        "book": "ray",
-        "read": "The chapters on 8086 pin signals, minimum and maximum modes, and multiprocessor systems (8087)",
-        "why": "Covers bus cycles, timing and coprocessor configurations as in the slides."
+        "book": "ojo",
+        "read": "Study Sessions 5 and 12",
+        "why": "Embedded systems, and microcontrollers versus microprocessors."
       }
     ],
-    "interfacing-with-the-8086": [
+    "intel-8085": [
       {
-        "book": "ray",
-        "read": "The chapters on memory and I/O interfacing and the peripherals 8255, 8253/8254, 8251, 8259 and 8279",
-        "why": "Each peripheral chip in the slides, with interfacing diagrams."
+        "book": "gaonkar",
+        "read": "The chapters on the 8085 architecture, instruction set and interrupts",
+        "why": "The standard 8085 textbook: registers, flags, instructions and interrupts."
+      },
+      {
+        "book": "ojo",
+        "read": "Study Session 6",
+        "why": "The course's own treatment of the 8085."
       }
     ],
-    "8051-microcontroller-architecture": [
+    "memory-and-io-interfacing": [
+      {
+        "book": "gaonkar",
+        "read": "The chapters on memory interfacing, I/O interfacing and the 8255",
+        "why": "Address decoding, I/O-mapped and memory-mapped I/O, and the 8255 modes."
+      }
+    ],
+    "interrupt-and-dma-controllers": [
+      {
+        "book": "ray",
+        "read": "The chapters on the 8259A interrupt controller and DMA controllers",
+        "why": "Each controller in the course, with interfacing diagrams."
+      }
+    ],
+    "intel-8086": [
+      {
+        "book": "ray",
+        "read": "The chapters on the 8086 architecture, minimum and maximum modes, and addressing modes",
+        "why": "Listed in the course slides' reading list."
+      }
+    ],
+    "intel-8051": [
       {
         "book": "mazidi",
-        "read": "Chapter 1: The 8051 Microcontrollers; Chapter 5: 8051 Addressing Modes",
-        "why": "The standard 8051 textbook: features, pins, registers and RAM organisation."
-      }
-    ],
-    "8051-timers-and-serial-communication": [
-      {
-        "book": "mazidi",
-        "read": "Chapter 9: 8051 Timer Programming in Assembly and C; Chapter 10: 8051 Serial Port Programming",
-        "why": "TMOD, TCON, mode 1 delays with an 11.0592 MHz crystal, SCON and SBUF."
+        "read": "Chapter 1: The 8051 Microcontrollers; Chapter 9: 8051 Timer Programming in Assembly and C; Chapter 10: 8051 Serial Port Programming",
+        "why": "The standard 8051 textbook: registers, timers and the serial port."
       }
     ]
   }
