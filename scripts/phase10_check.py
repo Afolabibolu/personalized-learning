@@ -125,10 +125,6 @@ def recommendations(browser, db, folder: Path | None) -> None:
     expect(page.get_by_text("Exam-style questions", exact=True).first).to_be_visible()
     check("a course with no past papers shows 'Exam-style questions', not 'Past questions'",
           page.get_by_text("Past questions", exact=True).count() == 0)
-    page.get_by_label("Search topics and resources").fill("Device and File Management")
-    expect(page.get_by_text("Review questions", exact=True).first).to_be_visible()
-    check("a course book's own review questions show as 'Review questions', not 'Past questions'",
-          page.get_by_text("Past questions", exact=True).count() == 0)
     page.close()
 
 

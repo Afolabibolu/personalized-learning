@@ -3,10 +3,16 @@
   "topics": {
     "professional-issues": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Computer Ethics Fundamentals (Learners Coach)",
@@ -17,10 +23,16 @@
     ],
     "morality-and-the-law": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: What is the difference between Ethics, Morality and the Law? (The Ethics Centre)",
@@ -31,10 +43,16 @@
     ],
     "ethics-and-ethical-analysis": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Different Ethical Theories & Approaches (Christopher Kalodikis)",
@@ -45,10 +63,16 @@
     ],
     "intellectual-property-rights": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Difference Between Copyright vs. Trademark vs. Patent (Business Lawyer For Entrepreneurs)",
@@ -59,10 +83,16 @@
     ],
     "anonymity-security-and-privacy": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: The Beginner’s Guide to Digital Privacy (Techlore)",
@@ -73,10 +103,16 @@
     ],
     "software-risks-and-liabilities": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: When Software Kills:  Fatal Bugs in the Therac-25 (Dave's Garage)",
@@ -87,10 +123,16 @@
     ],
     "codes-of-ethics": [
       {
-        "title": "Professional Ethics for Computer Science lecture files (400 Level folder, open the CSC 475 folder)",
+        "title": "Professional Ethics for Computer Science lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1iZO8VRUeQP4Dx9kPa1pccBO7LCSRf1Pm",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: ACM IEEE professional ethics (CKnow)",

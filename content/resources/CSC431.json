@@ -3,10 +3,16 @@
   "topics": {
     "translators-and-compiler-overview": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Different Phases of Compiler (Neso Academy)",
@@ -17,10 +23,16 @@
     ],
     "linguistic-analysis-and-grammars": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Chomsky Hierarchy - Computerphile (Computerphile)",
@@ -31,10 +43,16 @@
     ],
     "regular-expressions-and-finite-automata": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Regular Expression (Neso Academy)",
@@ -45,10 +63,16 @@
     ],
     "language-structure-and-lexical-analysis": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Lexical Analyzer – Tokenization (Neso Academy)",
@@ -59,10 +83,16 @@
     ],
     "syntax-analysis": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: FIRST() and FOLLOW() Functions (Neso Academy)",
@@ -73,10 +103,16 @@
     ],
     "semantic-analysis-and-intermediate-code": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Three Address, Quadruples, Triples and Indirect Triples (TutorialsPoint)",
@@ -87,10 +123,16 @@
     ],
     "optimization-code-generation-and-error-handling": [
       {
-        "title": "Compiler Construction lecture files (400 Level folder, open the CSC 431 folder)",
+        "title": "Compiler Construction lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1XQ93OQMpkU51TYv3u9Y3FmJs_ndi9Yow",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Code Optimisation technique | CD | Compiler Design | Lec-51 | Bhanu Priya (Education 4u)",

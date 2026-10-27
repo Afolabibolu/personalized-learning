@@ -3,10 +3,16 @@
   "topics": {
     "overview-of-operating-systems": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Introduction to Operating Systems (Neso Academy)",
@@ -17,10 +23,16 @@
     ],
     "early-memory-management": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: L-5.5: First Fit, Next Fit, Best Fit, Worst fit Memory Allocation | Memory Management | OS (Gate Smashers)",
@@ -31,10 +43,16 @@
     ],
     "virtual-memory": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Lec28 Page replacement Introduction| FIFO page replacement algorithm with example| Operating System (Jenny's Lectures CS IT)",
@@ -45,10 +63,16 @@
     ],
     "concurrency-and-process-synchronization": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Semaphores (Neso Academy)",
@@ -59,10 +83,16 @@
     ],
     "deadlock": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Lec23 Deadlock Avoidance: Banker's Algorithm with example | Operating System (Jenny's Lectures CS IT)",
@@ -73,10 +103,16 @@
     ],
     "device-and-file-management": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: L-6.4: FCFS in Disk scheduling with Example | Operating System (Gate Smashers)",
@@ -87,10 +123,16 @@
     ],
     "performance-and-security": [
       {
-        "title": "Operating System II lecture files (400 Level folder, open the CSC 421 folder)",
+        "title": "Operating System II lecture folder",
         "type": "lecture",
-        "url": "https://drive.google.com/drive/folders/1aqy8fT268x1qYf-LugNH0unJ035yjdT7",
+        "url": "https://drive.google.com/drive/folders/1UMVfAHegLLbn4Kb7QroR3eBAp-k1T14u",
         "source": "Lecture folder"
+      },
+      {
+        "title": "400 Level past questions, 2022/23 (PDF)",
+        "type": "past_questions",
+        "url": "https://drive.google.com/file/d/1G2zIUytseHhzPevc42nlgaZbcnxuzsXz/view",
+        "source": "links.csv"
       },
       {
         "title": "Video: Protection in Operating System (TutorialsPoint)",

@@ -1,75 +1,82 @@
 {
   "code": "CSC 421",
-  "exam_style": true,
-  "label": "Review questions",
-  "intro": "Copied as written from the review questions in the course book. These are not from a past paper.",
   "papers": [
     {
-      "year": "Course book",
-      "paper": "Review questions from the CSC 421 course book, copied as written (not from a past paper)",
-      "source": "Operating System CSC 421 for DLC2.docx, the review questions at the end of Units 1 to 10"
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examination, First Semester 2022/2023 (CSC 421: Operating Systems). Answer any three questions; 2 hours",
+      "source": "400 Level PQ.pdf (the 400 Level past-questions file in the shared Drive folder; text read from Drive's extraction, obvious scanning errors corrected)"
     }
   ],
   "questions": [
     {
-      "year": "Course book",
-      "number": "Unit 1",
-      "topic": "overview-of-operating-systems",
-      "text": "a. List and explain the different types of O/S?\nb. When is an O/S termed a multiprogramming O/S?\nc. What is the basic role of an operating system?\nd. List and describe the services provided by the O/S."
+      "year": "2022/2023",
+      "number": "1(A)",
+      "marks": 3,
+      "topic": "device-and-file-management",
+      "text": "A. Each file stored on any computing device, in every directory contains information describing such files. List and define (where appropriate) any 6 file descriptors. (3 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 2",
-      "topic": "early-memory-management",
-      "text": "a. Compare and contrast Internal and External fragmentation.\nb. In which allocation scheme are the Bound Register and Relocation Register used?  What are they used for?\nc. What is common to all the memory allocation schemes described in this unit?\nd. Which memory allocation scheme first allowed multiprogramming? Justify your answer."
+      "year": "2022/2023",
+      "number": "1(B)(i)",
+      "marks": 6,
+      "topic": "concurrency-and-process-synchronization",
+      "text": "B. A certain computing device, for personal use, was designed to run several applications, some of which are over 1GB in size. This device was labelled as Core i7, with 32GB RAM and a 1TB hard disk, among other specifications. Having studied operating systems, you know that this computing device needs an Operating System to function properly.\ni. Describe (with any suitable diagram) the arrangement of the processor(s) for this computing device. (6 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 3",
+      "year": "2022/2023",
+      "number": "1(B)(ii)",
+      "marks": 4,
       "topic": "virtual-memory",
-      "text": "a. Differentiate between Segmented memory management and Paged memory management?\nb. Define the terms: Page; Segment; Page fault; Internal Fragmentation; External Fragmentation; Swapping; Thrashing\nc. Give a vivid example of how shared segments can be use in any software package that you know and use.\nd. How can the size of the page frame affect Paged Memory Management."
+      "text": "B. A certain computing device, for personal use, was designed to run several applications, some of which are over 1GB in size. This device was labelled as Core i7, with 32GB RAM and a 1TB hard disk, among other specifications. Having studied operating systems, you know that this computing device needs an Operating System to function properly.\nii. Briefly describe the Memory allocation scheme you think the operating system should employ. (4 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 4",
+      "year": "2022/2023",
+      "number": "1(C)–(D)",
+      "marks": 7,
+      "topic": "device-and-file-management",
+      "text": "C. Given the information below, generate its Access Control Matrix. (5 marks)\n\n| User name | List of files (access) |\n| --- | --- |\n| Aminat | EDP.xml (full); FORTRAN.exe (full); Java.pdf (read only); Database.doc (read and write only) |\n| Bobby | EDP.xml (read only); Java.pdf (read only); Database.doc (read and write only) |\n| Mayor | 233_Asgn.java (full); Java.pdf (read only); Database.doc (read and write only) |\n| Soni | EDP.xml (full); FORTRAN.exe (full); Java.pdf (read and write only); 233_Asgn.java (full) |\n\nD. What is a lockword? (2 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2(A), 2(C)",
+      "marks": 9,
+      "topic": "virtual-memory",
+      "text": "A. Jobs A, B, C, and D have some of their pages already resident in memory that uses demand paged memory allocation scheme. Job C then requests that another page of its job be loaded into the memory. Write an algorithm that might be used to load any Job's page into the memory, bearing in mind that it is possible for all the page frames to be occupied. (4 marks)\nC. Define the following terms: i. Thrashing (2 marks) ii. Page fault (1 mark) iii. Page swapping (2 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2(B)",
+      "marks": 4,
+      "topic": "performance-and-security",
+      "text": "B. To prevent the processor from spending more time doing overhead than executing jobs, the operating system must continuously monitor the system and feed this information to the Job Scheduler via a mechanism. What is this mechanism called and how does it function? (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "2(D)",
+      "marks": 7,
       "topic": "concurrency-and-process-synchronization",
-      "text": "a. Differentiate between multiprogramming and multiprocessing systems.\nb. Assuming you have just been hired to assist HP design a multi-user interactive system applying the concept of multi-processing.  Which configuration would you implement and why would you choose that configuration?"
+      "text": "D. There are three methods to enforce mutual exclusion in a multiprocessing environment. These three methods can be classified into hardware methods and software methods.\ni. Describe the hardware methods and state the main advantage one has over the other. (5 marks)\nii. Describe the software method. (2 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 5",
-      "topic": "concurrency-and-process-synchronization",
-      "text": "a. When is a process said to be in a critical region?\nb. What mechanisms are used to enforce mutual exclusion?  Describe these mechanisms.\nc. With suitable examples, describe the problem of Readers and Writers."
-    },
-    {
-      "year": "Course book",
-      "number": "Unit 6",
+      "year": "2022/2023",
+      "number": "3",
+      "marks": 20,
       "topic": "deadlock",
-      "text": "a. State the four necessary conditions for deadlock to occur?\nb. Differentiate between Deadlock, Starvation and Race condition.\nc. When is system said to be in a safe state?\nd. List and explain any 4 methods you can use to recover your system from a deadlock situation."
+      "text": "The Management of Charles University decided for safety purposes, that students should no longer cook in their rooms. They have provided kitchenettes on all the floors in the hostels where students must cook. Each kitchenette is equipped with 3 pots, 2 hotplates, 2 knives, 1 chop board, 2 frying pans, a dustbin and 5 taps for water; these are not to be taken away from the kitchenette. Students are allowed to bring any other item they need to cook except the provided items. Once a student takes any of the provided items she is not to release it until she is done using it even if she is waiting for other items. In addition to that, you cannot start cooking until you have all you need. You can only cook on your floor. In addition to that, students are not allowed to share any of the provided items. After having lectures all day, Eunice, Affiong, Jane, Busayo and Fatima who reside on the same floor, decided to cook their dinner. Luckily for them, the kitchenette was empty.\n\nEunice wants to make concoction Spaghetti, so she quickly grabs a pot and starts to prepare her ingredients. Eunice needs a hotplate to complete her cooking. Affiong, who wants to make jollof rice also picks a pot to start her food preparation. She is yet to get a hotplate. Jane wants to make rice and stew in two separate pots. Jane grabs a pot for her rice and puts it on a hotplate. She still needs a knife to start chopping onion and tomatoes and a hotplate to make her stew. Busayo wants to make dodo and fried eggs so she takes a knife to start slicing her plantain. She would need a hotplate, frying pan and chop board to complete her cooking. Fatima is eating light; she takes a chop board, puts all her vegetables for making salad on it and needs a knife to start chopping.\n\nAt this point, the floor manager, Abigail enters the kitchenette amidst all the commotion and thinks that these ladies will not be able to finish cooking their meals.\n\nA. With respect to deadlocks, what would you term the underlined phrase. Define the condition that is depicted by the underlined phrase. (3 marks) [The underlining is not visible in the copy used.]\nB. Using deadlock models, draw a directed graph depicting the current situation of the kitchenette to assist Abigail know its current state. Please state your assumptions. (10 marks)\nC. With respect to the knives alone, define the situation between Jane and Fatima. (2 marks)\nD. If Abigail decides to resolve the commotion, what steps will she take to make it worse? (2 marks)\nE. Is it possible for Abigail to assist these ladies to finish cooking their meals in peace? If so, list the steps Abigail should take and the results of each step. (3 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 7",
+      "year": "2022/2023",
+      "number": "4(A)",
+      "marks": 10,
       "topic": "device-and-file-management",
-      "text": "a. What the component of an I/O subsystem and what are their functions?\nb. With suitable diagrams, compare and contrast the structure of the hard disk with that of the CD-ROM.\nc. System devices can be broadly classified into 3.  List and describe these three.\nd. In a bid to reduce the outbreak of malaria on the ground floor of Nando Hall, the hall warden authorized that the rooms on that floor be sprayed by Mr Peace.  There are 30 rooms on that floor and the students are to make requests to Mr. Peace for their room to be sprayed.  At a point in time, Mr. Peace was heading to the beginning of the floor (ie lower room numbers) but stopped in room no. 10 to service a request.  The outstanding requests he has are in the order: 1, 11, 29, 14, 22 room numbers.  It takes Mr Peace, 1 second to move from one room to the next.  Ignoring how long it will take to spray a room, state the sequence of Mr Peace movement along the floor and calculate the total seek time only if he is using:\ni. Shortest Seek Time First\nii. FCFS\niii. LOOK"
+      "text": "A. A young Computer Scientist has heard about OS interrupts and he's been wondering what they are or why they're even needed. He's wondering if the computer would do just as well without interrupts as with interrupts. In concise terms and with the aid of a diagram, help him understand the concept of OS interrupts, the need for them and some various classes of interrupts. (10 marks)"
     },
     {
-      "year": "Course book",
-      "number": "Unit 8",
-      "topic": "device-and-file-management",
-      "text": "a. What are the two main ways that files are stored on any storage medium?\nb. What is fragmentation?\nc. In the chained storage, what does a null pointer signify?\nd. Why is compaction performed by the operating system?\ne. File A is stored using chained storage and File B which is the same size as file A is stored using indexed storage.  Which of the file will occupy more space on the disk?\nf. Describe the linked storage with a suitable diagram?\ng. Write short notes on any 5 types of File System."
-    },
-    {
-      "year": "Course book",
-      "number": "Unit 9",
-      "topic": "performance-and-security",
-      "text": "a. Differentiate between Negative feedback loops and positive feedback loops.\nb. When doe a system become a bottleneck\nc. Write short notes on Turnaround Time, Response Time, System Reaction Time, Throughput."
-    },
-    {
-      "year": "Course book",
-      "number": "Unit 10",
-      "topic": "performance-and-security",
-      "text": "a. What are the different levels of protecting a system?\nb. If a password is made up of 5 characters, how many possible combinations of the characters are there?\nc. Can a virus harm your system? How?"
+      "year": "2022/2023",
+      "number": "4(B)",
+      "marks": 10,
+      "topic": "concurrency-and-process-synchronization",
+      "text": "B. If you are to design a multi-user real-time system using the concept of concurrent processing, which configuration would you implement and why? (10 marks)"
     }
   ]
 }
