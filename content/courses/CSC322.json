@@ -1,6 +1,7 @@
 {
   "code": "CSC 322",
   "title": "Principles of Data Communication",
+  "semester": 1,
   "description": "Data communication systems and transmission media; network types, topologies and internetworking; the OSI and TCP/IP models; circuit and packet switching; routing; and the network-layer protocols ARP, RARP, ICMP and IGMP with IPv4 addressing. Built from the CSC 322 lecture notes (Lectures 1 to 5); transmission timing, error detection, IP addressing and distance-vector routing, which the papers test, are added from general knowledge.",
   "is_reviewed": false,
   "level": 300,

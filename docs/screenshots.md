@@ -68,18 +68,19 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
-| 49 | Onboarding with course choice | New sign-up (Phase Nine Student) | Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5) | [`p9-01-onboarding-courses.png`](screenshots/phase9/p9-01-onboarding-courses.png) |
-| 50 | Course list: my courses and more courses | New sign-up | My courses with Remove; More courses with search, level filter pills and collapsible level groups (500, 400, 300, 200, 100) with course counts with 'Sample content, pending lecturer review' and Add to my courses (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
-| 51 | Knowledge Base with a sample course | New sign-up | CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5) | [`p9-03-knowledge-base.png`](screenshots/phase9/p9-03-knowledge-base.png) |
-| 52 | Knowledge Base, all courses collapsed | New sign-up | One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5) | [`p9-03b-knowledge-base-collapsed.png`](screenshots/phase9/p9-03b-knowledge-base-collapsed.png) |
-| 53 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |
-| 54 | Sample course past questions | New sign-up | CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5) | [`p9-05-past-questions.png`](screenshots/phase9/p9-05-past-questions.png) |
-| 55 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
-| 56 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
-| 57 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
-| 58 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
-| 59 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
-| 60 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
+| 49 | Onboarding with course choice | New sign-up (Phase Nine Student) | Opens on 500 level with level tabs, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled, the chosen courses listed (NFR5) | [`p9-01-onboarding-courses.png`](screenshots/phase9/p9-01-onboarding-courses.png) |
+| 50 | Course list: my courses and level cards | New sign-up | My courses with Remove; Browse courses with one card per level (100 to 500) and its course count (NFR5) | [`p9-02-courses.png`](screenshots/phase9/p9-02-courses.png) |
+| 51 | A level page | New sign-up | 500 level courses split into First semester and Second semester, 'Back to all levels', sample badges and Add to my courses (NFR5) | [`p9-02b-level-page.png`](screenshots/phase9/p9-02b-level-page.png) |
+| 52 | Knowledge Base with a sample course | New sign-up | CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5) | [`p9-03-knowledge-base.png`](screenshots/phase9/p9-03-knowledge-base.png) |
+| 53 | Knowledge Base, one level, collapsed | New sign-up | The 400 level picked; one header per course with its level, topic count and sample badge; Expand all and Collapse all (FR5, NFR5) | [`p9-03b-knowledge-base-collapsed.png`](screenshots/phase9/p9-03b-knowledge-base-collapsed.png) |
+| 54 | Sample course study note | New sign-up | Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5) | [`p9-04-study-note.png`](screenshots/phase9/p9-04-study-note.png) |
+| 55 | Sample course past questions | New sign-up | CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5) | [`p9-05-past-questions.png`](screenshots/phase9/p9-05-past-questions.png) |
+| 56 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
+| 57 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
+| 58 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
+| 59 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
+| 60 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
+| 61 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
 
 ## Videos, textbooks and course requests (25 October)
 
@@ -87,11 +88,11 @@ Taken by `python scripts/phase10_check.py --shots docs/screenshots/phase10`, wit
 
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
-| 61 | Recommendation with a video and a textbook | Tolu Adeyemi | 'Also recommended': a YouTube video and a textbook chapter for Cognitive Psychology (FR4, FR5) | [`p10-01-also-recommended.png`](screenshots/phase10/p10-01-also-recommended.png) |
-| 62 | Recommended textbook card | Tolu Adeyemi | Interaction Design (5th ed.), Chapter 4: what to read and why, source: in the course folder (FR5) | [`p10-02-textbook.png`](screenshots/phase10/p10-02-textbook.png) |
-| 63 | Topic page with every resource type | Tolu Adeyemi | Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5) | [`p10-03-topic-resources.png`](screenshots/phase10/p10-03-topic-resources.png) |
-| 64 | Request a course | New student (Request Tester) | The form, 'Request sent', and the request listed as pending (NFR5) | [`p10-04-request-form.png`](screenshots/phase10/p10-04-request-form.png) |
-| 65 | Request a course on a phone (375 px) | New student | The form fits; the request now shows 'Added to your courses' (NFR1, NFR5) | [`p10-05-phone-request.png`](screenshots/phase10/p10-05-phone-request.png) |
+| 62 | Recommendation with a video and a textbook | Tolu Adeyemi | 'Also recommended': a YouTube video and a textbook chapter for Cognitive Psychology (FR4, FR5) | [`p10-01-also-recommended.png`](screenshots/phase10/p10-01-also-recommended.png) |
+| 63 | Recommended textbook card | Tolu Adeyemi | Interaction Design (5th ed.), Chapter 4: what to read and why, source: in the course folder (FR5) | [`p10-02-textbook.png`](screenshots/phase10/p10-02-textbook.png) |
+| 64 | Topic page with every resource type | Tolu Adeyemi | Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5) | [`p10-03-topic-resources.png`](screenshots/phase10/p10-03-topic-resources.png) |
+| 65 | Request a course | New student (Request Tester) | The form, 'Request sent', and the request listed as pending (NFR5) | [`p10-04-request-form.png`](screenshots/phase10/p10-04-request-form.png) |
+| 66 | Request a course on a phone (375 px) | New student | The form fits; the request now shows 'Added to your courses' (NFR1, NFR5) | [`p10-05-phone-request.png`](screenshots/phase10/p10-05-phone-request.png) |
 
 ## Figures from files and the terminal
 

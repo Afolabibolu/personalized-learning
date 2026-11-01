@@ -1,6 +1,7 @@
 {
   "code": "CSC 302",
   "title": "Systems Analysis and Design",
+  "semester": 1,
   "description": "Information systems and development methods; the business case, strategic planning and feasibility; project management with Gantt and PERT/CPM charts; requirements modelling and fact-finding; data and process modelling with DFDs; object modelling with UML; and development strategies, data design and system architecture. Built from the CSC 302 lecture slides (Shelly Cashman, Chapters 1 to 4); data and process modelling, UML, data design and architecture, which the papers test, are added from general knowledge.",
   "is_reviewed": false,
   "level": 300,

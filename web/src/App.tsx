@@ -4,6 +4,7 @@ import { AppLayout } from './components/AppLayout'
 import { RequireAuth } from './components/RequireAuth'
 import { LoginPage, SignupPage } from './pages/AuthPages'
 import { CoursePage } from './pages/CoursePage'
+import { CourseLevelPage } from './pages/CourseLevelPage'
 import { CoursesPage } from './pages/CoursesPage'
 import { RequestCoursePage } from './pages/RequestCoursePage'
 import { DashboardPage } from './pages/DashboardPage'
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/courses" element={<CoursesPage />} />
             <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/courses/request" element={<RequestCoursePage />} />
+            <Route path="/courses/level/:level" element={<CourseLevelPage />} />
             <Route path="/courses/:courseId" element={<CoursePage />} />
             <Route path="/topics/:topicId" element={<TopicPage />} />
             <Route path="/knowledge" element={<KnowledgeBasePage />} />

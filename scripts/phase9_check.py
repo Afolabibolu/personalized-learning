@@ -102,7 +102,7 @@ def browser_checks(folder: Path | None) -> None:
         page = browser.new_page(viewport=LAPTOP)
         page.set_default_timeout(20_000)
         try:
-            # Sign up; onboarding lists every course, the reviewed ones ticked.
+            # Sign up; onboarding opens on the student's level (500 by default), the reviewed ones ticked.
             page.goto(f"{APP}/signup")
             page.get_by_label("Full name").fill("Phase Nine Student")
             page.get_by_label("Email").fill(email)
@@ -113,8 +113,17 @@ def browser_checks(folder: Path | None) -> None:
             expect(boxes.first).to_be_visible()
             ticked = [boxes.nth(i).is_checked() for i in range(boxes.count())]
             sample_label = page.get_by_text("Sample content, pending lecturer review").count()
-            check("onboarding lists every course, with the two reviewed courses ticked and sample courses labelled",
-                  boxes.count() >= 3 and sum(ticked) == 2 and sample_label >= 1, f"{boxes.count()} courses, {sum(ticked)} ticked")
+            by_level = {}
+            for r in db.table("courses").select("level").execute().data:
+                by_level[r["level"]] = by_level.get(r["level"], 0) + 1
+            check("onboarding opens on the student's level, with the two reviewed courses ticked and sample courses labelled",
+                  boxes.count() == by_level.get(500, 0) and sum(ticked) == 2 and sample_label >= 1,
+                  f"{boxes.count()} courses at 500 level, {sum(ticked)} ticked")
+            page.get_by_role("group", name="Show courses for").get_by_role("button", name="300").click()
+            at_300 = page.get_by_role("checkbox").count()
+            page.get_by_role("group", name="Show courses for").get_by_role("button", name="500").click()
+            check("onboarding level tabs show one level at a time", at_300 == by_level.get(300, 0),
+                  f"300 level tab: {at_300} courses")
             page.get_by_label(f"{SAMPLE}").check() if page.get_by_label(SAMPLE).count() else \
                 page.locator("label", has_text=SAMPLE).get_by_role("checkbox").check()
             page.get_by_role("button", name="Reading notes").click()
@@ -125,20 +134,35 @@ def browser_checks(folder: Path | None) -> None:
             mine = sorted(r["courses"]["code"] for r in db.table("enrollments").select("courses(code)").eq("student_id", uid).execute().data)
             check(f"choosing {SAMPLE} at onboarding enrols the student", SAMPLE in mine, ", ".join(mine))
 
-            # Courses page: my courses and more courses.
+            # Courses page: my courses, then one card per level; a level page splits its courses by semester.
             page.goto(f"{APP}/courses")
             cards = page.get_by_test_id("course-card")
             expect(cards.first).to_be_visible()
-            check("course list shows my courses, then more courses with the sample badge",
-                  page.get_by_role("heading", name="More courses").is_visible()
-                  and page.get_by_text("Sample content, pending lecturer review").count() >= 1,
-                  f"{cards.count()} course cards")
-            groups = page.locator("[id^=level-]").all_inner_texts()
-            check("more courses are grouped by level, highest first",
-                  len(groups) >= 2 and all(g.lower().endswith(" level") for g in groups)
-                  and [int(g.split()[0]) for g in groups] == sorted((int(g.split()[0]) for g in groups), reverse=True),
-                  " | ".join(groups))
+            level_cards = page.get_by_test_id("level-card")
+            shown = {int(level_cards.nth(i).get_attribute("data-level")): int(level_cards.nth(i).get_attribute("data-count"))
+                     for i in range(level_cards.count())}
+            check("course list shows my courses, then a card per level with its course count",
+                  page.get_by_role("heading", name="Browse courses").is_visible() and cards.count() == len(mine)
+                  and list(shown) == [100, 200, 300, 400, 500]
+                  and all(shown[l] == by_level.get(l, 0) for l in shown),
+                  f"{cards.count()} my courses; " + ", ".join(f"{l}: {n}" for l, n in shown.items()))
             shot(folder, page, "p9-02-courses.png", full_page=True)
+            page.get_by_role("link", name="500 level").click()
+            page.wait_for_url(f"{APP}/courses/level/500")
+            semesters = page.locator("[id^=semester-]").all_inner_texts()
+            check("a level page lists that level's courses by semester, with the sample badge",
+                  page.get_by_test_id("course-card").count() == by_level.get(500, 0)
+                  and [t.split(" ·")[0].lower() for t in semesters] == ["first semester", "second semester"]
+                  and page.get_by_text("Sample content, pending lecturer review").count() >= 1,
+                  " | ".join(" ".join(t.split()) for t in semesters))
+            shot(folder, page, "p9-02b-level-page.png", full_page=True)
+            page.go_back()
+            page.wait_for_url(f"{APP}/courses")
+            page.go_forward()
+            page.wait_for_url(f"{APP}/courses/level/500")
+            page.get_by_role("link", name="Back to all levels").click()
+            page.wait_for_url(f"{APP}/courses")
+            check("each level has its own URL; the browser back button and 'Back to all levels' return to the levels", True)
 
             # Knowledge Base: the sample course with its badge; a study note and past questions.
             page.goto(f"{APP}/knowledge")
@@ -148,6 +172,7 @@ def browser_checks(folder: Path | None) -> None:
             check("Knowledge Base shows the sample course with the 'Sample content' badge", badge.is_visible())
             heading.scroll_into_view_if_needed()
             shot(folder, page, "p9-03-knowledge-base.png")
+            page.get_by_role("button", name="400 level").click()
             other = page.get_by_role("button", name="CSC 412 · Microprocessor")
             closed = other.get_attribute("aria-expanded") == "false"
             other.click()
@@ -157,13 +182,18 @@ def browser_checks(folder: Path | None) -> None:
             page.evaluate("window.scrollTo(0, 0)")
             shot(folder, page, "p9-03b-knowledge-base-collapsed.png", full_page=True)
             page.get_by_role("button", name="Expand all").click()
-            all_open = page.get_by_test_id("kb-topic").count() == db.table("knowledge_base_stats").select("topics").execute().data[0]["topics"]
-            check("Knowledge Base: other courses start collapsed; a header, Expand all and Collapse all toggle them",
+            level_ids = [r["id"] for r in db.table("courses").select("id").eq("level", 400).execute().data]
+            level_topics = db.table("topics").select("id", count="exact").in_("course_id", level_ids).execute().count
+            all_open = page.get_by_test_id("kb-topic").count() == level_topics
+            check("Knowledge Base: the level picker shows one level; its courses start collapsed; a header, Expand all and Collapse all toggle them",
                   closed and opened and none_open and all_open)
             page.get_by_role("button", name="My courses").click()
             shown = page.locator("section h2").all_inner_texts()
             check("'My courses' filter shows only the student's courses", len(shown) == len(mine), " | ".join(shown))
-            page.get_by_role("button", name="All courses").click()
+            page.get_by_label("Search topics and resources").fill("Compiler")
+            found = page.get_by_role("heading", name="CSC 431 · Compiler Construction")
+            check("search covers every course, with the level next to each result",
+                  found.is_visible() and found.locator("xpath=..").get_by_text("400 level").is_visible())
             page.get_by_label("Search topics and resources").fill("Divide and Conquer")
             page.get_by_role("link", name="Study note: Divide and Conquer").click()
             page.wait_for_url(f"{APP}/resources/**")

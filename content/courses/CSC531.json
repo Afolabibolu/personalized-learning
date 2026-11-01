@@ -1,6 +1,7 @@
 {
   "code": "CSC 531",
   "title": "Human-Computer Interaction",
+  "semester": 1,
   "description": "Principles and methods of interaction design: understanding users, conceptual design, data gathering and analysis, cognition, prototyping and evaluation.",
   "topics": [
     {

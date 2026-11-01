@@ -28,6 +28,8 @@ export type Course = {
   is_reviewed: boolean
   /** 100 to 500, from the course code; groups the Courses page */
   level: number | null
+  /** 1 (first) or 2 (second); splits a level page */
+  semester: number | null
 }
 
 export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video' | 'textbook'

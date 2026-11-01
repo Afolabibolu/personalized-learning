@@ -77,6 +77,8 @@ def check_course(course: dict, errors: list[str]) -> None:
         errors.append(f"{name}: has {len(topics)} topics, expected {low} to {MAX_TOPICS}")
     if "level" in course and course["level"] not in (100, 200, 300, 400, 500):
         errors.append(f"{name}: level must be 100, 200, 300, 400 or 500")
+    if course.get("semester") not in (1, 2):
+        errors.append(f"{name}: semester must be 1 or 2 (first or second)")
     if "is_reviewed" in course and not isinstance(course["is_reviewed"], bool):
         errors.append(f"{name}: is_reviewed must be true or false")
     slugs = [t.get("slug") for t in topics]

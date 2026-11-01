@@ -11,10 +11,11 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | Route | Page | Requirement |
 | --- | --- | --- |
 | `/` | Dashboard: weekly summary, recommendations, consistency, progress by topic | FR4, FR6 |
-| `/courses` | My courses (with diagnostic status and Remove), then More courses: search, level filter pills, and collapsible level groups (500 first, with course counts; the student's own level open, the rest collapsed; Expand all, Collapse all) with Add to my courses | FR2, NFR5 |
+| `/courses` | My courses (with diagnostic status and Remove), then Browse courses: one card per level (100 to 500) with its course count; a level with no courses says "No courses yet. Request one." | FR2, NFR5 |
+| `/courses/level/:level` | One level's courses, split into First semester and Second semester, with Add to my courses and "Back to all levels" | FR2, NFR5 |
 | `/courses/request` | Request a course: form (code, title, level, semester, lecturer, details) and the student's requests with their status | NFR5 |
 | `/courses/:code` | Course page: topics with latest score, quiz history, "Take topic quiz" | FR2 |
-| `/knowledge` | Knowledge Base: search, collapsible course sections (own courses open; a search opens every match; Expand all, Collapse all), topics with subtopics, resources grouped by type, live counts | FR5 |
+| `/knowledge` | Knowledge Base: a picker (My courses, then one level at a time; opens on My courses), search across every course with the level shown on each, collapsible course sections (own courses open; a search opens every match; Expand all, Collapse all), topics with subtopics, resources grouped by type, live counts | FR5 |
 | `/topics/:id` | Topic page: summary, subtopics, resources, latest score, "Take topic quiz", "Log study session" | FR5 |
 | `/resources/:id` | Resource viewer: notes and past questions rendered with react-markdown | FR5 |
 | `/quiz/:attemptId` | Quiz player | FR2 |
@@ -32,6 +33,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 - `StudyLogger`: label the custom box "Custom (minutes)", accept 1 to 300, and add an optional timer.
 - `KnowledgeBase`: a search box that filters as you type, course sections, and a resource type icon for each resource.
 - Sample courses (`is_reviewed = false`) carry the `SampleBadge` ("Sample content, pending lecturer review") on the course list, course page, topic page, Knowledge Base and onboarding.
+- Onboarding course picker: opens on the level the student picks, with tabs to switch level, and a line listing every course chosen so far.
 - Empty states on every list, each with one clear next step (for example, "No quizzes yet. Take the diagnostic quiz.").
 
 ## Rules

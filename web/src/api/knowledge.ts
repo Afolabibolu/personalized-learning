@@ -28,7 +28,7 @@ export async function getKnowledgeBase(): Promise<KnowledgeCourse[]> {
   const { data, error } = await supabase
     .from('courses')
     .select(
-      'id, code, title, description, is_reviewed, ' +
+      'id, code, title, description, is_reviewed, level, semester, ' +
         'topics(id, course_id, slug, title, subtopics, summary, sequence_order, ' +
         'resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, kind))',
     )

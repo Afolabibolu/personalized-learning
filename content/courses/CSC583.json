@@ -1,6 +1,7 @@
 {
   "code": "CSC 583",
   "title": "Computer and Information Security",
+  "semester": 2,
   "description": "Threats and attackers, passwords, the CIA triad, access control and authentication, non-repudiation, encryption and hashing, email, IPsec, web, database and distributed-system security, and network auditing.",
   "is_reviewed": false,
   "topics": [

@@ -1,6 +1,7 @@
 {
   "code": "CSC 554",
   "title": "Semantics of Programming Languages",
+  "semester": 1,
   "description": "Formal semantics of programs: abstract machines (SECD and the λ-calculus), operational, denotational and axiomatic semantics, Hoare logic, basic program analysis and program transformation.",
   "is_reviewed": false,
   "topics": [

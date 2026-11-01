@@ -1,6 +1,7 @@
 {
   "code": "CSC 301",
   "title": "Computer Centre Management",
+  "semester": 2,
   "description": "Managing a computer centre: infrastructure, facilities, networks, security, support and budgets; the meaning, functions, roles and skills of management and the classical and human-relations theories; planning and objectives; organizing and staffing; leadership, motivation and communication; and IT projects and data-centre security and services. Built from the CSC 301 lecture note (Ayorinde) and the Principles of Management lectures; project costing and scheduling and data-centre security, which the outline and the 2023/24 paper cover, are added from general knowledge.",
   "is_reviewed": false,
   "level": 300,

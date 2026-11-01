@@ -206,7 +206,7 @@ def main() -> int:
         course = json.loads(path.read_text())
         course_id = db.table("courses").upsert(
             {"code": course["code"], "title": course["title"], "description": course.get("description"),
-             "is_reviewed": course.get("is_reviewed", True), "level": course_level(course)},
+             "is_reviewed": course.get("is_reviewed", True), "level": course_level(course), "semester": course["semester"]},
             on_conflict="code",
         ).execute().data[0]["id"]
 

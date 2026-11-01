@@ -1,6 +1,7 @@
 {
   "code": "CSC 313",
   "title": "Computer Organization and Architecture",
+  "semester": 2,
   "description": "The evolution of computers and performance measures; computer organization and architecture, the von Neumann model and the instruction cycle; registers and number representation; the CPU, ALU, instruction formats and addressing modes; RISC, CISC and parallel processing; pipelining and its hazards; and the memory hierarchy, RAM, ROM and cache. Built from the Ibadan Distance Learning course material for CSC 313 (Units 1 to 13).",
   "is_reviewed": false,
   "level": 300,

@@ -1,6 +1,7 @@
 {
   "code": "CSC 476",
   "title": "Research Methods in Computer Science",
+  "semester": 1,
   "description": "Research methodology for computer scientists: the meaning and types of research, the research problem, tools and methodology, data analysis, report and project writing, citation in APA and IEEE styles, journal writing, plagiarism and patents. Built from the CSC 476 course book and the 2022/23 examination (titled CSC 476: Research Methodology).",
   "is_reviewed": false,
   "level": 400,

@@ -1,6 +1,7 @@
 {
   "code": "CSC 572",
   "title": "Machine Learning",
+  "semester": 2,
   "description": "What machine learning is and its types, linear regression and gradient descent, logistic regression, feature engineering, generalization and model evaluation, and neural networks, with Python practicals.",
   "is_reviewed": false,
   "topics": [

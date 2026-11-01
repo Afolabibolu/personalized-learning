@@ -1,6 +1,7 @@
 {
   "code": "CSC 334",
   "title": "Systems Programming",
+  "semester": 1,
   "description": "Computer organisation, registers and ports; memory segments and x86 assembly language programming with NASM; processes, threads and concurrency; Java multithreading and synchronization; network programming with Java sockets; and Unix processes and inter-process communication. Built from the CSC 334 course book (Units 1 to 15); Unix processes, signals and IPC, which the 2024/25 paper tests, are added from general knowledge.",
   "is_reviewed": false,
   "level": 300,

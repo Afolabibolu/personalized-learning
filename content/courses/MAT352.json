@@ -1,6 +1,7 @@
 {
   "code": "MAT 352",
   "title": "Probability Distributions and Elementary Limit Theorems",
+  "semester": 2,
   "description": "Probability spaces and axioms; conditional probability, independence and Bayes' theorem; random variables, distribution functions and expectation; moment and probability generating functions; the standard discrete and continuous distributions; joint distributions, independence and change of variable; and Markov's and Chebyshev's inequalities, modes of convergence and the limit theorems. The folder has no lecture notes, so the course follows the outline in a student's notes, with those notes used where they apply and the rest written from general knowledge.",
   "is_reviewed": false,
   "level": 300,

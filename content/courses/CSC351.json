@@ -1,6 +1,7 @@
 {
   "code": "CSC 351",
   "title": "Formal Languages and Automata Theory",
+  "semester": 1,
   "description": "Words, languages and regular expressions; deterministic and nondeterministic finite automata; the pumping lemma, closure and decision properties and the Chomsky hierarchy; context-free grammars and normal forms; and pushdown automata. Built from the CSC 351 course book (Study Sessions 1 to 11).",
   "is_reviewed": false,
   "level": 300,

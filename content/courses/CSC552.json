@@ -1,6 +1,7 @@
 {
   "code": "CSC 552",
   "title": "Theory of Computation",
+  "semester": 1,
   "description": "Turing machines and their variants, the universal Turing machine, the Church–Turing thesis, Gödel's incompleteness theorems, decidability, reducibility, computational complexity and NP-completeness.",
   "is_reviewed": false,
   "topics": [

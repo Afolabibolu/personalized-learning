@@ -1,6 +1,7 @@
 {
   "code": "CSC 582",
   "title": "Bioinformatics",
+  "semester": 1,
   "description": "Biological databases and tools, searching the biomedical literature, sequence alignment and homology, alignment scoring and methods, and a basic introduction to Linux for bioinformatics work.",
   "is_reviewed": false,
   "topics": [

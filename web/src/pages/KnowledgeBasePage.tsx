@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { listEnrolledCourseIds } from '../api/courses'
 import { getKnowledgeBase, getKnowledgeStats, type KnowledgeTopic } from '../api/knowledge'
+import { LevelTabs } from '../components/LevelTabs'
 import { ResourceList } from '../components/ResourceList'
 import { ButtonLink, Card, ErrorMessage, PageHeader, SampleBadge, Spinner, inputClass } from '../components/ui'
+import { LEVELS } from '../lib/levels'
 
 function matches(text: string | null | undefined, query: string): boolean {
   return Boolean(text && text.toLowerCase().includes(query))
@@ -25,7 +27,8 @@ export function KnowledgeBasePage() {
   const stats = useQuery({ queryKey: ['knowledgeStats'], queryFn: getKnowledgeStats })
   const enrolled = useQuery({ queryKey: ['course', 'enrolled'], queryFn: listEnrolledCourseIds })
   const [search, setSearch] = useState('')
-  const [onlyMine, setOnlyMine] = useState(false)
+  // The student's own courses, or one level at a time; a search covers every course.
+  const [view, setView] = useState<'mine' | number>('mine')
   // Sections the student opened or closed; the rest follow the default (own courses open).
   const [toggled, setToggled] = useState<Record<string, boolean>>({})
   const query = search.trim().toLowerCase()
@@ -37,11 +40,11 @@ export function KnowledgeBasePage() {
   // The student's own courses first, then the rest by code.
   const filtered = useMemo(() => {
     return (courses.data ?? [])
-      .filter((c) => !onlyMine || mine.has(c.id))
+      .filter((c) => Boolean(query) || (view === 'mine' ? mine.has(c.id) : c.level === view))
       .map((c) => ({ ...c, topics: c.topics.map((t) => filterTopic(t, query)).filter((t): t is KnowledgeTopic => t !== null) }))
       .filter((c) => c.topics.length > 0)
       .sort((a, b) => Number(mine.has(b.id)) - Number(mine.has(a.id)) || a.code.localeCompare(b.code))
-  }, [courses.data, mine, query, onlyMine])
+  }, [courses.data, mine, query, view])
 
   return (
     <>
@@ -74,24 +77,15 @@ export function KnowledgeBasePage() {
       </div>
 
       <div className="-mt-3 mb-6 flex flex-wrap items-center justify-between gap-2">
-      <div className="flex gap-2" role="group" aria-label="Which courses to show">
-        {[
-          { mine: false, label: 'All courses' },
-          { mine: true, label: 'My courses' },
-        ].map((o) => (
-          <button
-            key={o.label}
-            type="button"
-            aria-pressed={onlyMine === o.mine}
-            onClick={() => setOnlyMine(o.mine)}
-            className={`rounded-full px-3 py-1 text-xs font-semibold ring-1 transition ${
-              onlyMine === o.mine ? 'bg-brand-600 text-white ring-brand-600' : 'bg-white text-slate-600 ring-slate-300 hover:ring-brand-500'
-            }`}
-          >
-            {o.label}
-          </button>
-        ))}
-      </div>
+        <LevelTabs
+          label="Which courses to show"
+          value={view}
+          onChange={setView}
+          options={[
+            { value: 'mine' as const, label: 'My courses', count: courses.data ? courses.data.filter((c) => mine.has(c.id)).length : undefined },
+            ...LEVELS.map((l) => ({ value: l, label: `${l} level`, count: courses.data?.filter((c) => c.level === l).length })),
+          ]}
+        />
         {!query && filtered.length > 1 && (
           <div className="flex gap-3 text-xs font-semibold">
             <button type="button" onClick={() => setAll(true)} className="text-brand-600 hover:text-brand-700">
@@ -107,7 +101,22 @@ export function KnowledgeBasePage() {
       {courses.isPending && <Spinner />}
       {courses.isError && <ErrorMessage error={courses.error} />}
 
-      {courses.data && filtered.length === 0 && (
+      {query && (
+        <p className="-mt-3 mb-4 text-xs text-slate-500">Searching every course, at every level.</p>
+      )}
+
+      {courses.data && !query && filtered.length === 0 && (
+        <Card className="text-center">
+          <p className="text-sm text-slate-600">
+            {view === 'mine' ? 'You have not added any courses yet. Pick a level above to browse.' : `No ${view} level courses yet.`}
+          </p>
+          <ButtonLink to={view === 'mine' ? '/courses' : '/courses/request'} variant="secondary" className="mt-3">
+            {view === 'mine' ? 'Go to Courses' : 'Request a course'}
+          </ButtonLink>
+        </Card>
+      )}
+
+      {courses.data && query && filtered.length === 0 && (
         <Card className="text-center">
           <p className="text-sm text-slate-600">No topics or resources match “{search.trim()}”.</p>
           <button onClick={() => setSearch('')} className="mt-2 text-sm font-semibold text-brand-600 hover:text-brand-700">
@@ -139,6 +148,9 @@ export function KnowledgeBasePage() {
                   </span>
                 </button>
               </h2>
+              {course.level && (
+                <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600">{course.level} level</span>
+              )}
               {!open && <span className="text-xs text-slate-500">{course.topics.length} topics</span>}
               {!course.is_reviewed && <SampleBadge />}
             </div>

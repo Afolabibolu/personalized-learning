@@ -1,6 +1,7 @@
 {
   "code": "CSC 331",
   "title": "Programming Principles and Paradigms",
+  "semester": 1,
   "description": "Programming fundamentals and the families of programming languages; imperative, procedural, object-oriented, functional and logic paradigms; criteria for evaluating languages; syntax, BNF and ambiguity; type systems, overloading and casting; control structures, scope and binding; and memory management in programs. Built from the Ibadan Distance Learning course book and lecture slides for CSC 331.",
   "is_reviewed": false,
   "level": 300,

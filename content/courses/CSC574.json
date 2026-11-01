@@ -1,6 +1,7 @@
 {
   "code": "CSC 574",
   "title": "Intelligent Systems",
+  "semester": 1,
   "description": "Foundations of intelligent systems: agents, search, knowledge representation, expert systems, fuzzy logic and nature-inspired techniques.",
   "topics": [
     {

@@ -1,6 +1,7 @@
 {
   "code": "CSC 341",
   "title": "Data Structures",
+  "semester": 1,
   "description": "Linear and non-linear data structures: arrays, linked lists, stacks and expression conversion, queues and deques, trees and search trees, graphs, and sorting, searching and hashing. Built from the CSC 341 lecture notes, the graph and sorting notes and the practicals; trees, linked lists and hashing, which the past papers test but the notes do not cover, are written from general knowledge.",
   "is_reviewed": false,
   "level": 300,

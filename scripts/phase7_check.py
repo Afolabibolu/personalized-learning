@@ -67,8 +67,11 @@ def fr5(browser, shot: Shots) -> None:
     check("Knowledge Base page in the nav with live counts", " ".join(text.split()) == expected, text.replace("\n", " "))
     topics = page.get_by_test_id("kb-topic")
     expect(topics.first).to_be_visible()
-    page.get_by_role("button", name="Expand all").click()  # only the student's own courses start open
-    check("courses, then topics in order with summaries and subtopics", topics.count() == stats["topics"],
+    page.get_by_role("button", name="Expand all").click()  # opens on the student's own courses
+    uid = next(u.id for u in db.auth.admin.list_users(page=1, per_page=1000) if u.email == ACTIVE)
+    own = [r["course_id"] for r in db.table("enrollments").select("course_id").eq("student_id", uid).execute().data]
+    own_topics = db.table("topics").select("id", count="exact").in_("course_id", own).execute().count
+    check("the student's courses, then topics in order with summaries and subtopics", topics.count() == own_topics,
           f"{topics.count()} topics; first: {topics.first.inner_text()}")
     groups = [g for g in ["Study notes", "Lecture slides", "Past questions"] if page.get_by_text(g, exact=True).count()]
     check("resources grouped by type", len(groups) == 3, ", ".join(groups))

@@ -125,8 +125,10 @@ def new_student_flow(browser, email: str) -> None:
     expect(page.get_by_role("button", name="Start quiz")).to_be_visible()
     save(page, "05-quiz-intro.png")
     page.get_by_role("button", name="Start quiz").click()
+    # Wait for the first question, so a multi-select first question is not mistaken for a radio one.
+    expect(page.get_by_role("radio").or_(page.get_by_role("checkbox")).first).to_be_visible()
 
-    wanted = {"Single choice": "06-quiz-single-choice.png", "True or false": "07-quiz-true-false.png",
+    wanted ={"Single choice": "06-quiz-single-choice.png", "True or false": "07-quiz-true-false.png",
               "Multiple answers": "08-quiz-multi-select.png", "Odd one out": "09-quiz-odd-one-out.png"}
     for i in range(18):
         label = page.locator("p.uppercase").first.inner_text().strip().capitalize()
@@ -198,6 +200,7 @@ def demo_flows(browser) -> None:
     page.locator("ol a").nth(4).click()
     page.get_by_role("link", name="Take topic quiz").click()
     page.get_by_role("button", name="Start quiz").click()
+    expect(page.get_by_role("radio").or_(page.get_by_role("checkbox")).first).to_be_visible()
     page.get_by_role("radio").first.click() if page.get_by_role("checkbox").count() == 0 else page.get_by_role("checkbox").first.click()
     save(page, "19-phone-quiz.png")
     page.close()
@@ -238,10 +241,11 @@ PHASE7 = [
 
 
 PHASE9 = [
-    Shot("p9-01-onboarding-courses.png", "Onboarding with course choice", "New sign-up (Phase Nine Student)", "Every course listed, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled (NFR5)"),
-    Shot("p9-02-courses.png", "Course list: my courses and more courses", "New sign-up", "My courses with Remove; More courses with search, level filter pills and collapsible level groups (500, 400, 300, 200, 100) with course counts with 'Sample content, pending lecturer review' and Add to my courses (NFR5)"),
+    Shot("p9-01-onboarding-courses.png", "Onboarding with course choice", "New sign-up (Phase Nine Student)", "Opens on 500 level with level tabs, CSC 531 and CSC 574 ticked, CSC 551 added, sample courses labelled, the chosen courses listed (NFR5)"),
+    Shot("p9-02-courses.png", "Course list: my courses and level cards", "New sign-up", "My courses with Remove; Browse courses with one card per level (100 to 500) and its course count (NFR5)"),
+    Shot("p9-02b-level-page.png", "A level page", "New sign-up", "500 level courses split into First semester and Second semester, 'Back to all levels', sample badges and Add to my courses (NFR5)"),
     Shot("p9-03-knowledge-base.png", "Knowledge Base with a sample course", "New sign-up", "CSC 551 section with the sample badge, topics, study notes and past questions (FR5, NFR5)"),
-    Shot("p9-03b-knowledge-base-collapsed.png", "Knowledge Base, all courses collapsed", "New sign-up", "One header per course with its topic count and sample badge; Expand all and Collapse all (FR5, NFR5)"),
+    Shot("p9-03b-knowledge-base-collapsed.png", "Knowledge Base, one level, collapsed", "New sign-up", "The 400 level picked; one header per course with its level, topic count and sample badge; Expand all and Collapse all (FR5, NFR5)"),
     Shot("p9-04-study-note.png", "Sample course study note", "New sign-up", "Divide and Conquer note ending 'Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2' (NFR5)"),
     Shot("p9-05-past-questions.png", "Sample course past questions", "New sign-up", "CSC 551 Graphs past questions grouped by paper (2024/25, 2023/24) (NFR5)"),
     Shot("p9-06-topic.png", "Sample course topic page", "New sign-up", "Badge, summary, Take topic quiz (NFR5)"),

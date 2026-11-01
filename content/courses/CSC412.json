@@ -1,6 +1,7 @@
 {
   "code": "CSC 412",
   "title": "Microprocessor Interfacing",
+  "semester": 1,
   "description": "Microcomputers and microprocessors, embedded systems and microcontrollers, the Intel 8085, interfacing memory and I/O and the 8255, the 8259A interrupt controller and 8257 DMA controller, the 8086 and the 8051. Built from the CSC 412 course material by Adebola K. Ojo, the case-study slides and the 2022/23 examination.",
   "is_reviewed": false,
   "level": 400,

@@ -1,6 +1,7 @@
 {
   "code": "CSC 551",
   "title": "Design and Analysis of Algorithms",
+  "semester": 1,
   "description": "Asymptotic notation and recurrences, the main design techniques (divide and conquer, dynamic programming, greedy, randomized), amortized analysis, graph algorithms, spanning trees and NP-completeness.",
   "is_reviewed": false,
   "topics": [

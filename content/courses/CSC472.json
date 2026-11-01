@@ -1,6 +1,7 @@
 {
   "code": "CSC 472",
   "title": "Database Systems",
+  "semester": 1,
   "description": "Database systems from the problems of file-based systems to the three-level architecture, entity-relationship and enhanced ER design, the relational model and algebra, SQL, normalization and physical design, and transactions, concurrency control and recovery. Built from the CSC 472 lecture notes and the 2022/23 examination.",
   "is_reviewed": false,
   "level": 400,

@@ -1,6 +1,7 @@
 {
   "code": "COS 102",
   "title": "Problem Solving",
+  "semester": 2,
   "description": "Problem-solving processes, algorithms and heuristics, solution techniques, flowcharts, pseudocode, decision tables and decision trees, and simple programs. The course folder holds only a reference textbook, so this course follows the NUC CCMAS outline for COS 102: facts come from that textbook (Computer Science Illuminated) where it covers a topic, and from general knowledge of the subject elsewhere.",
   "is_reviewed": false,
   "level": 100,

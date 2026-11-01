@@ -1,6 +1,7 @@
 {
   "code": "CSC 335",
   "title": "Software Engineering",
+  "semester": 2,
   "description": "The software process and life cycle; waterfall and V models; prototyping, phased and spiral development; agile methods and RAD and how to choose a process; requirements and modelling notations; dependability, critical systems and formal methods; and software testing, quality and maintenance. Built from the CSC 335 lecture on software process models (weeks 3 and 4); requirements, dependability, testing, quality and maintenance, which the 2021/22 paper tests but no file covers, are written from general knowledge.",
   "is_reviewed": false,
   "level": 300,
