@@ -11,7 +11,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | Route | Page | Requirement |
 | --- | --- | --- |
 | `/` | Dashboard: weekly summary, recommendations, consistency, progress by topic | FR4, FR6 |
-| `/courses` | My courses (with diagnostic status and Remove), then More courses grouped by level (500 first) with Add to my courses | FR2, NFR5 |
+| `/courses` | My courses (with diagnostic status and Remove), then More courses: search, level filter pills, and collapsible level groups (500 first, with course counts; the student's own level open, the rest collapsed; Expand all, Collapse all) with Add to my courses | FR2, NFR5 |
 | `/courses/request` | Request a course: form (code, title, level, semester, lecturer, details) and the student's requests with their status | NFR5 |
 | `/courses/:code` | Course page: topics with latest score, quiz history, "Take topic quiz" | FR2 |
 | `/knowledge` | Knowledge Base: search, collapsible course sections (own courses open; a search opens every match; Expand all, Collapse all), topics with subtopics, resources grouped by type, live counts | FR5 |
