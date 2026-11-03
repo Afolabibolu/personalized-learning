@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "With A = [1 2 3; 4 5 6; 7 8 9], what is A(1, :)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "[1 2 3]"
+      },
+      {
+        "key": "b",
+        "text": "[1; 4; 7]"
+      },
+      {
+        "key": "c",
+        "text": "[7 8 9]"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The colon selects every column of row 1.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With the same A, what is A(:, 2)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "[2; 5; 8]"
+      },
+      {
+        "key": "b",
+        "text": "[4 5 6]"
+      },
+      {
+        "key": "c",
+        "text": "[2 5 8] as a row"
+      },
+      {
+        "key": "d",
+        "text": "5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the second column, a column vector.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "MATLAB array indices start at 0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They start at 1.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is dot([1 2 3], [2 5 8])?",
+    "options": [
+      {
+        "key": "a",
+        "text": "36"
+      },
+      {
+        "key": "b",
+        "text": "[2 10 24]"
+      },
+      {
+        "key": "c",
+        "text": "15"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1·2 + 2·5 + 3·8 = 36.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To square every element of a vector t, write",
+    "options": [
+      {
+        "key": "a",
+        "text": "t.^2"
+      },
+      {
+        "key": "b",
+        "text": "t^2"
+      },
+      {
+        "key": "c",
+        "text": "t*t"
+      },
+      {
+        "key": "d",
+        "text": "square(t)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "t^2 means the matrix power, which fails for a non-square vector.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which create a row vector from 0 to 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0:0.25:1"
+      },
+      {
+        "key": "b",
+        "text": "linspace(0, 1, 5)"
+      },
+      {
+        "key": "c",
+        "text": "[0 0.25 0.5 0.75 1]"
+      },
+      {
+        "key": "d",
+        "text": "[0; 0.25; 0.5; 0.75; 1]"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Semicolons make a column vector.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an element-wise operator?",
+    "options": [
+      {
+        "key": "a",
+        "text": ".*"
+      },
+      {
+        "key": "b",
+        "text": "./"
+      },
+      {
+        "key": "c",
+        "text": ".^"
+      },
+      {
+        "key": "d",
+        "text": "*"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "* is matrix multiplication.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "cross(B, C) requires both vectors to have three elements.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The cross product is defined for 3-element vectors.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  }
+]

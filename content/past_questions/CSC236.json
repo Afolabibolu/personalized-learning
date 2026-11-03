@@ -1,0 +1,225 @@
+{
+  "code": "CSC 236",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "Distant Learning Programme, 2018/2019 Second Semester Examination (CSC 236: Introduction to Algorithms). Answer any 2 questions; 1 hour 30 minutes",
+      "source": "SECOND SEMESTER BMAS/CSC 236-ALGORITHM/WhatsApp Image 2021-09-14 at 2.40.34 PM.jpeg"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "B.Sc. Degree Examinations, Second Semester 2020/2021 (CSC 236: Introduction to Algorithms). Answer Question 1 and any other two; 2 hours",
+      "source": "SECOND SEMESTER BMAS/CSC 236-ALGORITHM/CSC 236 2020-21.pdf"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "paper": "CSC 236 (Intro. to Algorithms) Assessment, an online objective test of October 2021; 20 minutes. Some option lists are jumbled in the printout and are reconstructed from it",
+      "source": "SECOND SEMESTER BMAS/CSC 236-ALGORITHM/CSC 236 (intro. to Algorithms) Assessment.pdf"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "2024/2025 Second Semester B.Sc. Degree Examinations (CSC 236: Introduction to Algorithms). Answer Question 1 and any other two; 2 hours. Photographed copy; parts of Question 1 are hard to read",
+      "source": "SECOND SEMESTER BMAS/CSC 236-ALGORITHM/CSC 236 2025.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "recurrences-and-master-theorem",
+      "text": "(a) What are the characteristic features of Divide and Conquer Algorithms? (3 marks) (b) Briefly explain three algorithms that use Divide and Conquer problem solving approach. (3 marks) (c) Describe how to analyze Divide and Conquer algorithms. (4 marks) (d) Write down the general recurrence equation for Divide and Conquer algorithms (4 marks) (e) Analyse the time complexities of Merge and Quick sort algorithms using the general recurrence equation. (8 marks) (f) On what conditions would (i) Insertion sort run at best case? (ii) Quick sort run as Insertion sort? (iii) Quick sort run as Merge sort? (iv) Linear search run at worst case? (2 marks each = 8)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "(a) Four programs are to carry out the same task. They all work with different efficiencies as follows: (ai) Program A has a running time of O(nLgn) (aii) Program B has a running time of Ω(n²) (aiii) Program C has a running time of o(nLgn) (aiv) Program D has a running time of Θ(n²). (i) Rank the algorithms in increasing order of speed from the slowest to the fastest. Defend your ranking. (5 marks) (ii) Explain the meaning and implications of the time complexities in (ai) – (aiv) above (5 marks) (b) State the conditions for using Master Theorem for solving recurrences. (4 marks) (c) Use the Master Theorem to solve the following recurrence equations where possible: (i) T(n) = 16T(n/2) + n (ii) T(n) = T(2n − 1/3) + 1 (iii) T(n) = 3T(n/4) + n lg n, where lg is to base 2. (iv) T(n) = 2T(n/2) + n lg n (4 marks each = 16)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "topic": "quicksort-and-merge-sort",
+      "text": "(a) Of what importance are algorithms in software development? (2 marks) (b) Why are running times of algorithms not based on computer system's generated times? (2 marks) (c) The bulk of the work in the Quicksort algorithm is concentrated on partitioning a list into two regions. (i) What is the likely problem that may come up when the first element is taken as the pivot? (2 marks) (ii) Explain how we can achieve a balanced partitioning in Quicksort algorithm. (2 marks) (iii) Write out the partition algorithm of the Quicksort algorithm (10 marks) (iv) Attempt to analyse the best, average and worst case running times of Quicksort algorithm (12 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1a",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "(i) Give a concise definition for algorithm. (2 marks) (ii) When is an algorithm efficient? (2 marks) (iii) Space and time are the relative terms used to describe efficiency of algorithms. What is the trade-off between the two terms? (2 marks) (iv) Given the following recurrence: T(n) = 3T(n/4) + n lg n, where lg is to base 2. i. Use the Substitution method to obtain the asymptotic running time of T(n) (2 marks) ii. Use Master Theorem to confirm your solution for T(n) (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1b",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "Consider the following algorithm:\n1. ▷ Summing numbers\n2. i ← 1\n3. sum ← 0\n4. while i <= n Do\n5.   sum ← sum + i\n6.   i ← i + 1\n7. end do\n8. Print sum\n(i) Summarize what this algorithm does in one or two lines (1 mark) (ii) What is the purpose of line 1? Give a reason. (1 mark) (iii) What type of algorithm is presented here? (1 mark) (iv) Assign Cost (c) and Times (t) to each line and attempt to obtain the Big O of the algorithm (7 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "algorithms-and-their-types",
+      "text": "Write formal algorithms to achieve the following tasks: (5 marks each) (a) Getting the maximum and minimum elements in a list of n data items. (b) Determining how many commas (,) and full-stops (.) occur in a string S. (c) Determining if a number x in a list of n elements is prime or not. (d) Generating a 4 x 4 matrix having 1s in its leading (left) diagonal and 0s elsewhere"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "quicksort-and-merge-sort",
+      "text": "(a) Describe to a layman how Quicksort algorithm works. (5 marks) (b) The bulk of the work in the Quicksort algorithm is concentrated on partitioning a list into two regions. (i) Write an algorithm to partition an array into two regions with the first element taken as the pivot or key element. (8 marks) (ii) What is the likely problem that may come up when the first element is taken as the pivot? (3 marks) (iii) Explain how we can achieve a balanced partitioning in Quicksort algorithm. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "recurrences-and-master-theorem",
+      "text": "(a) In which sorting algorithms are the following terms common and what are their purposes in those algorithms? (i) small (ii) key (iii) pivot (6 marks) (b) What are the characteristic features of Divide and Conquer Algorithms? (6 marks) (c) Write down and explain the general recurrence equation for Divide and Conquer algorithms and explain the component terms (4 marks) (e) Attempt to analyse the time complexities of either Merge or Quick sort algorithm using the general recurrence equation. (4 marks)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "1",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "Given that the computed running time of an algorithm is 3n-squared + 10n + 10 + Lgn; the best case time complexity for this algorithm when n = 16 would be: n-squared; nLgn; Lgn; O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "2",
+      "topic": "elementary-sorting",
+      "text": "A simple sorting technique in which we arrange the elements of the list by forming pairs of adjacent elements is called: Quicksort; Bubble sort; Tree sort; Merge sort"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "3",
+      "topic": "algorithms-and-their-types",
+      "text": "A programming language which is augmented with natural language description details, where convenient, or with compact mathematical notation is called: Algorithm; Pseudocode; Program; Python"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "4",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "The Theta notation: asymptotically bounds a function from above and below; gives the lower bound of a function; gives the average bound of a function; gives upper bound of a function"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "5",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "Given that the computed running time of an algorithm is 3n-squared + 10n + 10 + Lgn; the worst case time complexity for this algorithm when n = 16 would be: n-squared; nLgn; Lgn; O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "6",
+      "topic": "quicksort-and-merge-sort",
+      "text": "The Conquer stage of Merge sort algorithm is to: Sort the two list subsequences recursively; Divide a list into two subsequences; Combine the two list subsequences recursively; Partition the list into two subsequences"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "7",
+      "topic": "recurrences-and-master-theorem",
+      "text": "The total running time of a Divide and Conquer algorithm when we have only one element in a list is: O(1); aT(n/b) + D(n) + C(n); nLgn; O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "8",
+      "topic": "algorithms-and-their-types",
+      "text": "One of the properties of Algorithms is: Definiteness; Capability; Definition; Capacity"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "9",
+      "topic": "algorithms-and-their-types",
+      "text": "An algorithm is said to be correct if, for every input instance: It halts with the correct output; It generates an output; It transforms the input instances; It is error free"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "10",
+      "topic": "quicksort-and-merge-sort",
+      "text": "Both the best case time complexities of Quicksort and Merge sort algorithms are: O(n-squared); O(nLgn); O(Lgn); O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "11",
+      "topic": "quicksort-and-merge-sort",
+      "text": "The worst case time complexity for Quicksort is: O(n-squared); O(nLgn); O(Lgn); O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "12",
+      "topic": "algorithms-and-their-types",
+      "text": "All algorithms must satisfy the following criteria except: Zero or more input values; Clear and unambiguous instructions; Atomic steps that take constant time; None of the options"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "13",
+      "topic": "algorithms-and-their-types",
+      "text": "Backtracking algorithms are based on: depth-first recursive search; breadth-first recursive search; Heuristic search; Backtrack search"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "14",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "Usually the aspect of most interest in determining the performance of algorithms is: Space complexity; Platform independence; Time complexity; Correctness"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "15",
+      "topic": "recursion-and-problem-solving",
+      "text": "Which of the following is true of a recursive function? A recursive function is a function that calls itself; Each successive call works on a more refined set of inputs, bringing us closer and closer to the solution of a problem; The recursive function contains base and recursive steps; All the options are correct"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "16",
+      "topic": "algorithms-and-their-types",
+      "text": "All of these algorithms are used for optimization problems except: Dynamic programming algorithm; Greedy algorithm; Branch and bound algorithms; Divide and Conquer algorithms"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "17",
+      "topic": "quicksort-and-merge-sort",
+      "text": "Choosing the first element as quicksort pivot key in already sorted list will produce: an imbalanced partition; a balanced partition; a good partition; a better partition"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "18",
+      "topic": "quicksort-and-merge-sort",
+      "text": "A good way to choose a pivot key in quicksort is to: choose the key at the beginning of the list; use a random number generator; choose the key at the end of the list; choose the key at the middle of the list"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "19",
+      "topic": "quicksort-and-merge-sort",
+      "text": "A presorted list given to Quicksort algorithm will have a time complexity of: O(n-squared); O(nLgn); O(Lgn); O(n)"
+    },
+    {
+      "year": "2021/2022 assessment",
+      "number": "20",
+      "topic": "recursion-and-problem-solving",
+      "text": "A simple recursive algorithm: Solves the base cases directly; Recurs with a simpler subproblem; Does some extra work to convert the solution to the simpler subproblem into a solution to the given problem; All of the options are correct"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "topic": "recursion-and-problem-solving",
+      "text": "(a) Explain the meaning of an algorithm and outline the key characteristics that every valid algorithm must possess (6 marks) (b) Compare recursive and iterative problem-solving techniques, highlighting their similarities and differences (6 marks) (c) Describe the divide-and-conquer strategy and illustrate how merge sort applies this technique (5 marks) (d) Describe simple recursive algorithms and provide one real-world programming example where simple recursion is suitable (3 marks) (e) Ternary Search Algorithm (TSA) has been proposed to be a better solution over the existing linear and binary search algorithms. The TSA divides an ordered list into three rough partitions, with two mid-pointers. Data at the two mid-pointers are compared with the search-element to determine if any of the elements at the mid-pointers matches the element x being searched. Otherwise, x is searched in the appropriate partition of the list. Write a recursive algorithm or code for the Ternary Search Algorithm. What would be the Time Complexity of the algorithm? (10 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "topic": "quicksort-and-merge-sort",
+      "text": "(a) Explain why partitioning is central to quicksort performance. (4 marks) (b) What is the significance of analyzing the worst-case running time of an algorithm? Provide an example. (7 marks) (c) Briefly explain what makes an algorithm \"correct\" and discuss why correctness is essential. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "topic": "elementary-sorting",
+      "text": "Consider the Routine below:\nRoutine (A) Do\n  for i ← 1 to n Do\n    for j ← (i+1) to n Do\n      if Ai > Aj Do\n        temp ← Aj\n        Aj ← Ai\n        Ai ← temp\n      end if\n    End Do\n  End Do\nEnd Do\n(a) What is the purpose of Routine? (1 mark) (b) Give a suitable name to the routine (1 mark) (c) Describe to a layman, how the Routine works (3 marks) (d) What do 'A' and '←' represent in the Routine? (1 mark) (e) If you were to analyse the run time complexity of the algorithm using standard procedure, what would be the Time Complexity of the Routine? State a cogent reason for your answer (2 marks) (f) What is the practical behaviour of this Routine when the size of data is large? (2 marks) (g) Implement the Routine using a Java syntax only (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "topic": "recurrences-and-master-theorem",
+      "text": "(a) What is the purpose of key / pivot element in Quicksort algorithm? (2 marks) (b) Describe how the choice of key / pivot affects the efficiency of Quicksort Algorithm. (3 marks) (c) What is the use of Master Theorem in Algorithm Analysis? (1 mark) (d) State the Master Theorem equation and explain the terms in the equation (5 marks) (e) What are the conditions surrounding the use of Master Theorem (2 marks) (f) What condition will render Master Theorem useless during analysis of Quicksort (2 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "topic": "analysis-and-asymptotic-notation",
+      "text": "With illustrative diagrams and sample equations, briefly explain the following Time Complexities: (a) θ-notation (b) Big O-notation (c) Ω-notation (d) Small / Little o-notation (e) Small / Little omega ω-notation (3 marks each)"
+    }
+  ]
+}

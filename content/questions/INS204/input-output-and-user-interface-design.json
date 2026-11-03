@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which control should be used when only one option may be selected, such as a payment method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Radio buttons"
+      },
+      {
+        "key": "b",
+        "text": "Checkboxes"
+      },
+      {
+        "key": "c",
+        "text": "Text area"
+      },
+      {
+        "key": "d",
+        "text": "Multi-select list"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Checkboxes allow independent selections.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Checking that a password was typed correctly by asking the user to enter it twice is",
+    "options": [
+      {
+        "key": "a",
+        "text": "verification"
+      },
+      {
+        "key": "b",
+        "text": "validation"
+      },
+      {
+        "key": "c",
+        "text": "output design"
+      },
+      {
+        "key": "d",
+        "text": "normalisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Validation checks that data is acceptable.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Day-to-day transaction reports, such as a daily class list, are",
+    "options": [
+      {
+        "key": "a",
+        "text": "operational reports"
+      },
+      {
+        "key": "b",
+        "text": "management reports"
+      },
+      {
+        "key": "c",
+        "text": "analytical reports"
+      },
+      {
+        "key": "d",
+        "text": "audit logs only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Management reports summarise for decisions.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why is server-side validation essential even when client-side validation exists?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Client-side checks can be bypassed"
+      },
+      {
+        "key": "b",
+        "text": "Browsers cannot run code"
+      },
+      {
+        "key": "c",
+        "text": "It makes pages load slower"
+      },
+      {
+        "key": "d",
+        "text": "It removes the need for a database"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Users can disable or alter client code.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "true_false",
+    "stem": "Good input design preserves the user's input when an error occurs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Users should not have to retype everything.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "true_false",
+    "stem": "A technically correct system cannot fail because of its interface.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It can fail if users cannot understand or use it.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are objectives of input design?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Capture the correct data"
+      },
+      {
+        "key": "b",
+        "text": "Minimise unnecessary data entry"
+      },
+      {
+        "key": "c",
+        "text": "Protect sensitive input"
+      },
+      {
+        "key": "d",
+        "text": "Maximise the number of fields"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Fewer, necessary fields are better.",
+    "source": "Input, Output and User Interface Design note"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a principle of good user interface design in the note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Consistency"
+      },
+      {
+        "key": "b",
+        "text": "Feedback"
+      },
+      {
+        "key": "c",
+        "text": "Error prevention"
+      },
+      {
+        "key": "d",
+        "text": "Hidden navigation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Visibility is a principle; hiding navigation is not.",
+    "source": "Input, Output and User Interface Design note"
+  }
+]

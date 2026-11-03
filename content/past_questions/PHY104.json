@@ -1,0 +1,202 @@
+{
+  "code": "PHY 104",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "PHY 105: Introductory Waves, Optics and Modern Physics (set as PHY 105, this course's former code), First Continuous Assessment Test 2018/2019 (Wednesday, 11 December 2019), 30 minutes; g = 10 m/s²",
+      "source": "(Seyiezekiels copy of PHY 105 pq).004.pdf"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "PHY 104 and 105 Second CA Test 2020/2021, PHY 105 part (Wednesday, 20 October 2021), 20 minutes; speed of sound 340 m/s; refractive indices: air 1.00, glass 1.50, oil 1.44, water 1.33",
+      "source": "PHY 104 AND 105 SECOND CA TEST 2020~2021.pdf (page 2)"
+    },
+    {
+      "year": "Modern physics test",
+      "paper": "PHY 105 modern physics test, undated, 15 minutes; h = 6.63 × 10⁻³⁴ J s, e = 1.6 × 10⁻¹⁹ C, mₑ = 9.11 × 10⁻³¹ kg (the shaded answers on the copy are not copied)",
+      "source": "(Seyiezekiels copy of PHY 105 pq).001.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "Identify which of the following equations could be wave function(s). i. y = 2x + 3t ii. y = 4/(5x − 3t)² iii. y = 3 sin(πx − t²) A. i only B. i and ii only C. i, ii, and iii D. i and iii only"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "Which of the following statements about Huygens Principle is true? A. Primary waves always have infinite sources. B. Secondary waves always have infinite sources. C. Both primary and secondary waves always have infinite sources. D. None of the above options is true."
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "A sound wave propagates through a non-uniform Aluminium rod whose thickness increases from point A to B. Which of the following statements is TRUE about the speed of the wave on the rod? A. It increases from A to B. B. It decreases from A to B. C. It is constant from A to B. D. It increases and decreases from A to B."
+    },
+    {
+      "year": "2018/2019",
+      "number": "4",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "Use the following information to answer questions 4 to 6: A transverse wave propagates according to the equation: y(x, t) = 4 sin π(0.01X − t), where y, X are in centimetre and t is in second. The directions of vibration and propagation are given by: A. X and y respectively. B. y and X respectively C. X only D. y only."
+    },
+    {
+      "year": "2018/2019",
+      "number": "5",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "(Same wave.) The speed of the wave equals A. 160 cm/s B. 62.8 cm/s C. 200 cm/s D. 100 cm/s"
+    },
+    {
+      "year": "2018/2019",
+      "number": "6",
+      "topic": "wave-motion-and-the-wave-equation",
+      "text": "(Same wave.) The maximum value of particle speed the wave produces is given by A. 100π cm/s B. 0.04π cm/s C. 4π cm/s D. 200π cm/s"
+    },
+    {
+      "year": "2018/2019",
+      "number": "7",
+      "topic": "waves-on-strings-and-standing-waves",
+      "text": "One end of a uniform thick rope of length 3 m and linear density 0.05 kg/m is vertically attached to the ceiling while a 4 kg mass is suspended at its lower end. A transverse wave is set up at the lower end of the rope. At what speed does the wave reach the ceiling? A. 28.3 m/s B. 32.4 m/s C. 28.8 m/s D. 34.2 m/s"
+    },
+    {
+      "year": "2018/2019",
+      "number": "8",
+      "topic": "waves-on-strings-and-standing-waves",
+      "text": "A copper wire of diameter 2.4 mm stretched horizontally is used to suspend a 2kg mass across a pulley. A transverse disturbance is sent along the wire. How fast does the disturbance travel? (Density of copper = 8920 kg/m³) A. 22.26 m/s B. 0.28 m/s C. 2.80 m/s D. 18.86 m/s"
+    },
+    {
+      "year": "2018/2019",
+      "number": "9",
+      "topic": "sound-and-the-doppler-effect",
+      "text": "At rest, a car's horn sounds the note A (440 Hz). The horn is sounded while the car moves down the road. A cyclist following the car at 108 km/h hears a frequency of 415 Hz. What is the speed of the car? (V_sound = 343 m/s) A. 189 km/h B. 108 km/h C. 220 km/h D. It cannot be determined"
+    },
+    {
+      "year": "2018/2019",
+      "number": "10",
+      "topic": "waves-on-strings-and-standing-waves",
+      "text": "Calculate the second overtone of the air column trapped in a cylindrical drum of length 80 cm that is open at only one end. (Take the speed of sound in air to be 340 m/s) A. 319 Hz B. 531 Hz C. 638 Hz D. 820 Hz"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "sound-and-the-doppler-effect",
+      "text": "A siren vehicle moving towards the East at a constant velocity blows its siren continuously at a frequency f = 1200 Hz. When the vehicle reaches a point x = a, an observer that is also moving towards the East at constant velocity is at a point x > a. Which of the following statements about the frequency f' noticed by the observer is correct? A. f' is greater than 1200 Hz B. f' is less than 1200Hz. C. f' is equal to 1200Hz. D. f' could be equal to, less than or greater than 1200 Hz depending on whether V₀ = Vₛ or V₀ < Vₛ or V₀ > Vₛ."
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "sound-and-the-doppler-effect",
+      "text": "Two blowing whistles P and Q have a frequency of 500 Hz each. P is stationary while Q is moving towards the right (away from P) at a velocity 6 m/s. An observer in between P and Q is also moving to the right at a velocity of 2 m/s. What beat frequency does the observer notice? A. 0 beat/s B. 8 beats/s C. 3 beats/s D. 2 beats/s"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "reflection-and-mirrors",
+      "text": "A very small object is placed 10.0 cm from the centre of a plane mirror. The mirror is rotated through angle 15° about the point of normal incidence. What is the shortest distance between the object and its image after the rotation? A. 20.0 cm B. 19.3 cm C. 5.2 cm D. 17.3 cm"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "reflection-and-mirrors",
+      "text": "An object is placed somewhere along the principal axis of a converging mirror of radius of curvature 20.0 cm such that the virtual image of the object is 4 times its size. Determine the object and the image distances from the mirror. A. 12.5 cm and 50.0 cm B. 10.5 and 40.2 cm C. 7.5 and 30.0 cm D. Indeterminate"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "refraction-and-lenses",
+      "text": "Two converging lenses C and D of focal lengths 4 and 6 cm are placed at 5 cm and 33 cm marks on an optical bench, respectively. An optical pin is erected at the 0 cm mark. Calculate the positions of the two images formed. A. 20 cm-mark and 24 cm-mark B. 25 cm-mark and 19 cm-mark C. 20 cm-mark and 48 cm-mark D. 25 cm-mark and 57 cm-mark"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6",
+      "topic": "refraction-and-lenses",
+      "text": "A glass block is placed inside water contained in a bowl. A layer of oil is poured on the water surface. A ray of light from air strikes the oil surface at an angle of incidence of 35.0°. Determine the angle of refraction at the oil-water interface. A. 22.5° B. 23.5° C. 25.5° D. 27.5°"
+    },
+    {
+      "year": "2020/2021",
+      "number": "7",
+      "topic": "sound-and-the-doppler-effect",
+      "text": "An object that is a source of sound wave is moving at the speed of sound in the air medium. Which of the following statements are true: I. A barrier wave is formed. II. A bow wave is formed. III. Doppler effect breaks down for all observers in front of the object. IV. Doppler effect breaks down for all observers behind the object. A. I and III B. II and III C. I and IV D. II and IV"
+    },
+    {
+      "year": "2020/2021",
+      "number": "8",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "If the nuclear radius of ²⁷Al is 3.6 fm, the approximate nuclear radius of ⁶⁴Cu is ____ (Experimental constant 1.2 fm) A. 2.4 fm B. 3.6 fm C. 2.0 fm D. 4.8 fm"
+    },
+    {
+      "year": "2020/2021",
+      "number": "9",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "Find the values of p and q in this nuclear reaction: ²³⁸₈₈Ra → ᵖ_qX + 3α + β⁻ (as printed) A. p = 227, q = 82 B. p = 226, q = 81 C. p = 226, q = 83 D. p = 225, q = 83 (partly cut off)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "10",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "A radionuclide has a half-life of 30 days. How long does it take 20% of a given sample of the radionuclide to disintegrate? A. 24.0 days B. 9.7 days C. 6.7 days D. 6.0 days"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "1",
+      "topic": "atomic-structure-and-quantum-effects",
+      "text": "An atom X is excited to an energy level E₂ from the ground state E₀ by collision with an atom. Which of the following statements is correct? i. the electrons in X lose energy just after the collision ii. the excited atom X emits a radiation given by hf = E₂ − E₀. iii. the colliding atom must have lost energy to excite X A. i only B. ii only C. iii only D. ii and iii only"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "2",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "The time taken for a radioactive material to decay away 63/64 of its original quantity is A. 2 Half Life B. 4 Half Life C. 6 Half Life D. 8 Half Life"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "3",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "The radioactive behaviour of the atom of an element is solely dependent on A. its nucleus B. the orbital electrons C. the neutron D. the proton and electrons"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "4",
+      "topic": "atomic-structure-and-quantum-effects",
+      "text": "Mechanical model of atom can explain any of the following except A. law of multiple proportion B. kinetic theory of gas C. law of constant proportion D. electrovalent bonding"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "5",
+      "topic": "atomic-structure-and-quantum-effects",
+      "text": "Cathode rays can be produced by which of the following: A. thermionic emission B. covalent bonding C. electrovalent bonding D. fusions"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "6",
+      "topic": "atomic-structure-and-quantum-effects",
+      "text": "The ionization energy of a hydrogen atom is 13.6 eV. It absorbed a photon of frequency 3.8 × 10¹⁵ Hz and emitted an electron. Calculate the kinetic energy of the emitted electron A. 2.15 eV B. 15.7 eV C. 28.9 eV D. 25.2 eV"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "7",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "During the decay of a radionuclide, its half-life A. decreases B. increases C. does not change D. any of the above, depending on the nuclide"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "8",
+      "topic": "atomic-structure-and-quantum-effects",
+      "text": "Which of the following atomic models offers explanation for the existence of line spectral in hydrogen atom? A. Rutherford's model B. Thomson's model C. Mechanical atomic model D. Bohr's model"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "9",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "Use the following information to answer question 9 and 10. The half-life of ²²⁶Ra is 1620yrs. The atomic weight of ²²⁶Ra is 226 Kg/Kmol and Avogadro's number, Nₐ is 6.02 × 10²⁶ atoms/Kmol. How long will it take for 6/10 of a given sample of ²²⁶Ra to decay? A. 5383 years B. 2142 years C. 1024 years D. 5002 years"
+    },
+    {
+      "year": "Modern physics test",
+      "number": "10",
+      "topic": "nuclear-physics-and-radioactivity",
+      "text": "(Same data.) How many disintegrations will occur in 15g of the element in a day? A. 4.68 × 10¹⁶ disintegrations B. 1.56 × 10¹⁶ disintegrations C. 8.24 × 10¹⁶ disintegrations D. 3.01 × 10¹⁶ disintegrations"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The marginal density of X is found from f(x, y) by",
+    "options": [
+      {
+        "key": "a",
+        "text": "integrating or summing out y"
+      },
+      {
+        "key": "b",
+        "text": "integrating out x"
+      },
+      {
+        "key": "c",
+        "text": "dividing by f_Y(y)"
+      },
+      {
+        "key": "d",
+        "text": "multiplying by f_Y(y)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Integrate over all y.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x, y) = (2/3)(x + 2y) on the unit square, f_X(x) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "(2/3)(x + 1)"
+      },
+      {
+        "key": "b",
+        "text": "(1/3)(1 + 4y)"
+      },
+      {
+        "key": "c",
+        "text": "(2/3)x"
+      },
+      {
+        "key": "d",
+        "text": "x + 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∫ from 0 to 1 of (2/3)(x + 2y) dy.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Cov(X, Y) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(XY) − E(X)E(Y)"
+      },
+      {
+        "key": "b",
+        "text": "E(X)E(Y)"
+      },
+      {
+        "key": "c",
+        "text": "E(X + Y)"
+      },
+      {
+        "key": "d",
+        "text": "Var(X) + Var(Y)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is zero for independent variables.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = 2x on (0, 1) and Y = 8X³, f_Y(y) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "(1/6)y^(−1/3) on (0, 8)"
+      },
+      {
+        "key": "b",
+        "text": "16x"
+      },
+      {
+        "key": "c",
+        "text": "(1/8)y on (0, 8)"
+      },
+      {
+        "key": "d",
+        "text": "24x²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use the CDF method.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "X and Y are independent if and only if f(x, y) = f_X(x)f_Y(y).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The joint density factorises.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Zero covariance always proves that X and Y are independent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Independence implies zero covariance, not the reverse.",
+    "source": "General knowledge of STA 211"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(x|y) = f(x, y)/f_Y(y)"
+      },
+      {
+        "key": "b",
+        "text": "Var(X + Y) = Var(X) + Var(Y) + 2Cov(X, Y)"
+      },
+      {
+        "key": "c",
+        "text": "E(Y|X = x) as a function of x is the regression curve"
+      },
+      {
+        "key": "d",
+        "text": "Marginals are found by multiplying joint densities"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Marginals come from summing or integrating.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method for finding the distribution of Y = g(X)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The CDF method"
+      },
+      {
+        "key": "b",
+        "text": "The transformation method"
+      },
+      {
+        "key": "c",
+        "text": "The moment generating function method"
+      },
+      {
+        "key": "d",
+        "text": "The quartile method"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Quartiles describe position, not distributions of functions.",
+    "source": "General knowledge of STA 211"
+  }
+]

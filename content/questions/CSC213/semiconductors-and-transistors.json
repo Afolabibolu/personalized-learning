@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In an N-type semiconductor the majority carriers are",
+    "options": [
+      {
+        "key": "a",
+        "text": "electrons"
+      },
+      {
+        "key": "b",
+        "text": "holes"
+      },
+      {
+        "key": "c",
+        "text": "protons"
+      },
+      {
+        "key": "d",
+        "text": "neutrons"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A pentavalent donor gives a spare electron.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Two"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Silicon is made P-type by doping it with",
+    "options": [
+      {
+        "key": "a",
+        "text": "boron"
+      },
+      {
+        "key": "b",
+        "text": "phosphorus"
+      },
+      {
+        "key": "c",
+        "text": "arsenic"
+      },
+      {
+        "key": "d",
+        "text": "germanium"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Boron is trivalent, so it leaves a hole (an acceptor).",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Two"
+  },
+  {
+    "format": "true_false",
+    "stem": "Reverse biasing a P-N junction widens the depletion region, so almost no current flows.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Majority carriers are pulled away from the junction.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Two"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The free electron falling back into a hole in an intrinsic semiconductor is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "recombination"
+      },
+      {
+        "key": "b",
+        "text": "doping"
+      },
+      {
+        "key": "c",
+        "text": "biasing"
+      },
+      {
+        "key": "d",
+        "text": "pinch-off"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Thermal energy frees electrons and they recombine with holes.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Two"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An NPN transistor has β = 200. What base current switches a 4 mA load?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20 µA"
+      },
+      {
+        "key": "b",
+        "text": "40 µA"
+      },
+      {
+        "key": "c",
+        "text": "800 µA"
+      },
+      {
+        "key": "d",
+        "text": "0.8 µA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "IB = IC / β = 4 mA / 200 = 20 µA.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Three"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about FETs are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They are voltage-operated devices"
+      },
+      {
+        "key": "b",
+        "text": "No current flows into the gate"
+      },
+      {
+        "key": "c",
+        "text": "They have very high input impedance"
+      },
+      {
+        "key": "d",
+        "text": "They are bipolar devices"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "FETs are unipolar: they conduct by electrons or holes only.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Three"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which device is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Zener diode"
+      },
+      {
+        "key": "b",
+        "text": "Schottky diode"
+      },
+      {
+        "key": "c",
+        "text": "Light emitting diode"
+      },
+      {
+        "key": "d",
+        "text": "MOSFET"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The MOSFET is a transistor; the others are diodes.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lectures Two and Three"
+  },
+  {
+    "format": "true_false",
+    "stem": "A transistor switch with no base current is said to be saturated.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "With no base current it is cut off; with enough base current it is saturated.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Three"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which is a legal Python variable name?",
+    "options": [
+      {
+        "key": "a",
+        "text": "_var"
+      },
+      {
+        "key": "b",
+        "text": "my-name"
+      },
+      {
+        "key": "c",
+        "text": "class"
+      },
+      {
+        "key": "d",
+        "text": "12MoreDrawings"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A name may start with an underscore; hyphens, keywords and leading digits are not allowed.",
+    "source": "CSC 103 2023/24 examination"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does (42 + 5) * 3 evaluate to?",
+    "options": [
+      {
+        "key": "a",
+        "text": "141"
+      },
+      {
+        "key": "b",
+        "text": "57"
+      },
+      {
+        "key": "c",
+        "text": "47"
+      },
+      {
+        "key": "d",
+        "text": "126"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Brackets are evaluated first.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "single_choice",
+    "stem": "x = 10; y = 20; result = \"x is greater\" if x > y else \"y is greater\". What is printed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "y is greater"
+      },
+      {
+        "key": "b",
+        "text": "x is greater"
+      },
+      {
+        "key": "c",
+        "text": "SyntaxError"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x > y is False, so the else value is used.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does int(\"Hello\") do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Raises a ValueError"
+      },
+      {
+        "key": "b",
+        "text": "Returns 0"
+      },
+      {
+        "key": "c",
+        "text": "Returns \"Hello\""
+      },
+      {
+        "key": "d",
+        "text": "Returns None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The string cannot be converted to an integer.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Python, the code inside an if block must be indented.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Indentation defines code blocks in Python.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "true_false",
+    "stem": "With num = 10, the code if not (num > 5): print(\"Condition met\") else: print(\"Condition not met\") prints \"Condition met\".",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "num > 5 is True, so not makes it False and the else branch runs.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are valid Python escape characters from the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\\n (new line)"
+      },
+      {
+        "key": "b",
+        "text": "\\t (tab)"
+      },
+      {
+        "key": "c",
+        "text": "\\\\ (backslash)"
+      },
+      {
+        "key": "d",
+        "text": "\\q (quote)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Quotes are escaped as \\' and \\\".",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which type is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "int"
+      },
+      {
+        "key": "b",
+        "text": "float"
+      },
+      {
+        "key": "c",
+        "text": "complex"
+      },
+      {
+        "key": "d",
+        "text": "list"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "list is a sequence type; the others are numeric types.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  }
+]

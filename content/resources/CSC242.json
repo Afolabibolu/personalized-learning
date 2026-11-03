@@ -1,0 +1,61 @@
+{
+  "code": "CSC 242",
+  "topics": {
+    "propositional-logic-and-quantifiers": [
+      {
+        "title": "Video: Lecture 1 - Propositional Logic (nptelhrd)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xlUFkMKSB3Y",
+        "source": "links.csv"
+      }
+    ],
+    "sets-functions-and-sequences": [
+      {
+        "title": "Video: INTRODUCTION to SET THEORY - DISCRETE MATHEMATICS (TrevTutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tyDKR4FG3Yw",
+        "source": "links.csv"
+      }
+    ],
+    "algorithms-and-growth-of-functions": [
+      {
+        "title": "Video: Growth of Functions - Discrete Mathematics (Jan Go)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=77wtG_fFY3Q",
+        "source": "links.csv"
+      }
+    ],
+    "number-theory-and-cryptography": [
+      {
+        "title": "Video: Lecture 10: Cryptography (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hRDOmMEZtPo",
+        "source": "links.csv"
+      }
+    ],
+    "induction-and-recursion": [
+      {
+        "title": "Video: Intro to Mathematical Induction (Dr. Trefor Bazett)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GdM_iA1Zek4",
+        "source": "links.csv"
+      }
+    ],
+    "counting-and-recurrence-relations": [
+      {
+        "title": "Video: Lecture 7: Recurrences (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PvuwfciiH2U",
+        "source": "links.csv"
+      }
+    ],
+    "relations-and-graphs": [
+      {
+        "title": "Video: Introduction to Graph Theory: A Computer Science Perspective (Reducible)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LFKZLXVO-Dg",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

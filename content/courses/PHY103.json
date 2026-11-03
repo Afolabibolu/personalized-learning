@@ -1,0 +1,108 @@
+{
+  "code": "PHY 103",
+  "title": "Heat and Thermodynamics",
+  "semester": 1,
+  "description": "The heat and thermodynamics course (Basic Principles of Physics, BMAS): temperature and thermometry, thermal expansion, heat capacity and latent heat, conduction, convection and radiation, kinetic theory and ideal gases, the first law and thermodynamic processes, and heat engines, refrigerators, the second law and entropy. Built from the PHY 103 slides of Dr E. Oyeniyi and Mr A. O. Ayoola and the heat engine, Carnot, conduction and radiation slides, with the 2010/11 PHY 115 paper and a typed PHY 103 exam.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "temperature-and-thermometry",
+      "title": "Temperature and Thermometry",
+      "summary": "Temperature tells whether bodies are in thermal equilibrium, and the zeroth law makes thermometers possible. Thermometers use properties that change with temperature, calibrated on the Kelvin, Celsius and Fahrenheit scales.",
+      "subtopics": [
+        "Heat, thermal contact and thermal equilibrium",
+        "The zeroth law of thermodynamics",
+        "Thermometric properties and types of thermometer",
+        "The Kelvin scale, triple point and absolute zero",
+        "Celsius and Fahrenheit conversions",
+        "Linear temperature scales from fixed points"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "thermal-expansion",
+      "title": "Thermal Expansion",
+      "summary": "Most materials expand when heated. Linear, area and volume expansivities describe the change, and preventing expansion produces large thermal stresses.",
+      "subtopics": [
+        "Linear expansivity α",
+        "Area expansivity (2α) and volume expansivity (3α)",
+        "Expansion of holes and hollow bodies",
+        "Effect on density",
+        "Thermal stress in restrained rods",
+        "Expansion of liquids"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "heat-capacity-and-latent-heat",
+      "title": "Heat Capacity, Latent Heat and Calorimetry",
+      "summary": "Heat raises temperature according to the specific heat capacity and changes state according to the latent heat. Calorimetry balances heat lost and gained in mixtures.",
+      "subtopics": [
+        "Heat capacity and specific heat capacity",
+        "Q = mcΔT",
+        "Latent heat of fusion and vaporisation",
+        "Calorimetry: heat lost = heat gained",
+        "Mixtures with ice",
+        "Electrical heating"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "heat-transfer",
+      "title": "Heat Transfer: Conduction, Convection and Radiation",
+      "summary": "Heat travels by conduction through matter, by convection in fluids and by radiation through empty space. Fourier's law and the Stefan–Boltzmann law make conduction and radiation quantitative.",
+      "subtopics": [
+        "Conduction and Fourier's law",
+        "Thermal conductivity and composite walls",
+        "Convection in liquids and gases",
+        "Thermal radiation and emissivity",
+        "The Stefan–Boltzmann law",
+        "Blackbodies and net radiation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "kinetic-theory-and-ideal-gases",
+      "title": "Kinetic Theory and Ideal Gases",
+      "summary": "The ideal gas law relates pressure, volume, temperature and amount of gas. Kinetic theory explains pressure by molecular impacts and links the average kinetic energy of molecules to absolute temperature.",
+      "subtopics": [
+        "Gas laws and the ideal gas equation",
+        "Moles, molar mass and Avogadro's number",
+        "Kinetic-theory assumptions",
+        "Pressure from molecular impacts",
+        "Average kinetic energy and temperature",
+        "Root-mean-square speed"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "first-law-and-thermodynamic-processes",
+      "title": "The First Law and Thermodynamic Processes",
+      "summary": "The first law states that heat supplied equals the rise in internal energy plus the work done by the system. Isothermal, adiabatic, isobaric, isochoric and cyclic processes each apply it differently, and work is the area under the P–V curve.",
+      "subtopics": [
+        "Internal energy, heat and work",
+        "The first law: Q = ΔU + W",
+        "Work done as the area under a P–V curve",
+        "Isobaric and isochoric processes",
+        "Isothermal processes",
+        "Adiabatic processes and cyclic processes"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "heat-engines-second-law-and-entropy",
+      "title": "Heat Engines, the Second Law and Entropy",
+      "summary": "A heat engine takes heat from a hot reservoir, does work and rejects heat to a cold reservoir; a refrigerator reverses this. The Carnot cycle sets the upper limit on efficiency, the second law forbids perfect engines, and entropy measures the direction of natural processes.",
+      "subtopics": [
+        "Heat engines and efficiency",
+        "The Carnot cycle and Carnot efficiency",
+        "Refrigerators, heat pumps and COP",
+        "Statements of the second law",
+        "Entropy and its changes",
+        "Reversible and irreversible processes; the third law"
+      ],
+      "lectures": []
+    }
+  ]
+}

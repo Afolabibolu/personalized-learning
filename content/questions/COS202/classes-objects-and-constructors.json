@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A blueprint for creating objects is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "class"
+      },
+      {
+        "key": "b",
+        "text": "method"
+      },
+      {
+        "key": "c",
+        "text": "constructor"
+      },
+      {
+        "key": "d",
+        "text": "package"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Objects are instances of a class.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which keyword creates an object in Java?",
+    "options": [
+      {
+        "key": "a",
+        "text": "new"
+      },
+      {
+        "key": "b",
+        "text": "class"
+      },
+      {
+        "key": "c",
+        "text": "this"
+      },
+      {
+        "key": "d",
+        "text": "extends"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example new Main().",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A constructor that creates a new object by copying another object's data is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "copy constructor"
+      },
+      {
+        "key": "b",
+        "text": "default constructor"
+      },
+      {
+        "key": "c",
+        "text": "private constructor"
+      },
+      {
+        "key": "d",
+        "text": "static constructor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Parameterised constructors take values instead.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A constructor must have the same name as its class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "And it has no return type.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A constructor's return type is void.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A constructor has no return type, not even void.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of an object in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "State"
+      },
+      {
+        "key": "b",
+        "text": "Behaviour"
+      },
+      {
+        "key": "c",
+        "text": "Identity"
+      },
+      {
+        "key": "d",
+        "text": "Bytecode"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Identity distinguishes objects with the same data.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of constructor in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Default"
+      },
+      {
+        "key": "b",
+        "text": "Parameterised"
+      },
+      {
+        "key": "c",
+        "text": "Copy"
+      },
+      {
+        "key": "d",
+        "text": "Abstract"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth type is the private constructor.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If a class defines no constructor,",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java creates a default one"
+      },
+      {
+        "key": "b",
+        "text": "objects cannot be created"
+      },
+      {
+        "key": "c",
+        "text": "the class will not compile"
+      },
+      {
+        "key": "d",
+        "text": "it must be declared abstract"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "All classes have constructors by default.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  }
+]

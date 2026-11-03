@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A recursive function is a function that",
+    "options": [
+      {
+        "key": "a",
+        "text": "calls itself"
+      },
+      {
+        "key": "b",
+        "text": "never terminates"
+      },
+      {
+        "key": "c",
+        "text": "uses only loops"
+      },
+      {
+        "key": "d",
+        "text": "has no parameters"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each call works on a smaller input.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Recursion terminates when",
+    "options": [
+      {
+        "key": "a",
+        "text": "a base case is recognised"
+      },
+      {
+        "key": "b",
+        "text": "the loop counter overflows"
+      },
+      {
+        "key": "c",
+        "text": "the program has no input"
+      },
+      {
+        "key": "d",
+        "text": "a repetition statement fails"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Iteration terminates when the loop condition fails.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Iteration uses a selection control statement and recursion uses a repetition statement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is the other way round.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The next term of the Fibonacci series 0, 1, 1, 2, 3, 5, 8, 13 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "21"
+      },
+      {
+        "key": "b",
+        "text": "18"
+      },
+      {
+        "key": "c",
+        "text": "20"
+      },
+      {
+        "key": "d",
+        "text": "26"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each term is the sum of the previous two.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of a recursive function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It calls itself"
+      },
+      {
+        "key": "b",
+        "text": "Each successive call works on a more refined input"
+      },
+      {
+        "key": "c",
+        "text": "It contains base and recursive steps"
+      },
+      {
+        "key": "d",
+        "text": "It always runs faster than a loop"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Recursion has call overhead, so it is often slower.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the commonest problem-solving techniques in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Recursion"
+      },
+      {
+        "key": "b",
+        "text": "Backtracking"
+      },
+      {
+        "key": "c",
+        "text": "Divide and conquer"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three techniques are recursion, backtracking and divide and conquer.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "The main demerit of recursion is the overhead of repeated method calls.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each call costs processor time and memory.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The three steps of divide and conquer are",
+    "options": [
+      {
+        "key": "a",
+        "text": "divide, conquer, combine"
+      },
+      {
+        "key": "b",
+        "text": "sort, search, merge"
+      },
+      {
+        "key": "c",
+        "text": "input, process, output"
+      },
+      {
+        "key": "d",
+        "text": "guess, verify, prove"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Merge sort follows them exactly.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 2"
+  }
+]

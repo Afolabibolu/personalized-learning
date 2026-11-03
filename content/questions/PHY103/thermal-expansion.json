@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A steel rod (α = 1 × 10⁻⁵ K⁻¹) grows 5 mm when heated by 10 °C. Its initial length is",
+    "options": [
+      {
+        "key": "a",
+        "text": "50 m"
+      },
+      {
+        "key": "b",
+        "text": "45.45 m"
+      },
+      {
+        "key": "c",
+        "text": "5 m"
+      },
+      {
+        "key": "d",
+        "text": "4545 m"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "L₀ = ΔL/(αΔT).",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A 100 cm³ pot at 20 °C is 100.6 cm³ at 100 °C. The linear expansivity is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.5 × 10⁻⁵ /°C"
+      },
+      {
+        "key": "b",
+        "text": "7.5 × 10⁻⁵ /°C"
+      },
+      {
+        "key": "c",
+        "text": "6.0 × 10⁻⁵ /°C"
+      },
+      {
+        "key": "d",
+        "text": "2.25 × 10⁻⁴ /°C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "γ = 0.6/(100 × 80) = 7.5 × 10⁻⁵ = 3α.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The force in a restrained steel beam (A = 200 cm², Y = 2 × 10¹¹ Pa, α = 1.2 × 10⁻⁵ /°C) heated from 5 °C to 30 °C is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.2 × 10⁶ N"
+      },
+      {
+        "key": "b",
+        "text": "1.2 × 10⁴ N"
+      },
+      {
+        "key": "c",
+        "text": "3.2 × 10⁴ N"
+      },
+      {
+        "key": "d",
+        "text": "2.0 × 10⁶ N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "F = YAαΔT.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The area expansivity of a material with linear expansivity α is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2α"
+      },
+      {
+        "key": "b",
+        "text": "α"
+      },
+      {
+        "key": "c",
+        "text": "3α"
+      },
+      {
+        "key": "d",
+        "text": "α²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ΔA/A = 2αΔT.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "true_false",
+    "stem": "When an iron bar is heated, its volume increases and its density decreases.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Mass is unchanged.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A hole in a metal plate gets smaller when the plate is heated.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A hole expands as if filled with the material.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of water between 0 °C and 4 °C?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It contracts on heating"
+      },
+      {
+        "key": "b",
+        "text": "Its density rises"
+      },
+      {
+        "key": "c",
+        "text": "Its density is greatest at 4 °C"
+      },
+      {
+        "key": "d",
+        "text": "It expands normally"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "This anomaly explains why ponds freeze from the top.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which expansivity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear α"
+      },
+      {
+        "key": "b",
+        "text": "Area 2α"
+      },
+      {
+        "key": "c",
+        "text": "Volume 3α"
+      },
+      {
+        "key": "d",
+        "text": "Conductivity k"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Thermal conductivity is about heat flow, not expansion.",
+    "source": "General knowledge of PHY 103"
+  }
+]

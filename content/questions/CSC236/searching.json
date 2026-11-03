@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which search should be used on an unordered list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear (sequential) search"
+      },
+      {
+        "key": "b",
+        "text": "Binary search"
+      },
+      {
+        "key": "c",
+        "text": "Interpolation search"
+      },
+      {
+        "key": "d",
+        "text": "Either; it makes no difference"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Binary search requires a sorted list.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The prerequisite for binary search is that",
+    "options": [
+      {
+        "key": "a",
+        "text": "the list must be sorted"
+      },
+      {
+        "key": "b",
+        "text": "the list must be short"
+      },
+      {
+        "key": "c",
+        "text": "the key must be the first element"
+      },
+      {
+        "key": "d",
+        "text": "the list must have no duplicates"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It compares with the middle element and halves the list.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Binary search on a list of n elements takes about",
+    "options": [
+      {
+        "key": "a",
+        "text": "log₂ n comparisons"
+      },
+      {
+        "key": "b",
+        "text": "n comparisons"
+      },
+      {
+        "key": "c",
+        "text": "n² comparisons"
+      },
+      {
+        "key": "d",
+        "text": "n/2 comparisons always"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each comparison halves the remaining part.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Linear search runs at its worst case when the key is the last element or is absent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Then every element is examined.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of linear search?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It compares the key with each element in turn"
+      },
+      {
+        "key": "b",
+        "text": "It works on unordered lists"
+      },
+      {
+        "key": "c",
+        "text": "Its worst case is O(n)"
+      },
+      {
+        "key": "d",
+        "text": "It needs the list to be sorted"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Only binary search needs a sorted list.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a case used in analysing a search algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Best case"
+      },
+      {
+        "key": "b",
+        "text": "Worst case"
+      },
+      {
+        "key": "c",
+        "text": "Average case"
+      },
+      {
+        "key": "d",
+        "text": "Compile case"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Analysis uses the best, worst and average cases.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Binary search can be written both recursively and non-recursively.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The course book gives both versions.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "About how many comparisons does binary search need on 1,000,000 sorted elements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20"
+      },
+      {
+        "key": "b",
+        "text": "1,000"
+      },
+      {
+        "key": "c",
+        "text": "500,000"
+      },
+      {
+        "key": "d",
+        "text": "1,000,000"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "log₂ 1,000,000 ≈ 20.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 5"
+  }
+]

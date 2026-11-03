@@ -1,0 +1,63 @@
+{
+  "code": "SEN 201",
+  "books": {
+    "sommerville": {
+      "title": "Software Engineering",
+      "authors": "Ian Sommerville",
+      "edition": "9th edition",
+      "publisher": "Addison-Wesley (Pearson)",
+      "year": 2011
+    }
+  },
+  "topics": {
+    "software-engineering-foundations": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 1, Introduction",
+        "why": "In the course folder; the lecture notes follow it closely."
+      }
+    ],
+    "software-process-models": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 2, Software Processes",
+        "why": "The process models and Boehm's spiral model."
+      }
+    ],
+    "agile-and-extreme-programming": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 3, Agile Software Development",
+        "why": "Agile principles and Extreme Programming."
+      }
+    ],
+    "requirements-engineering": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 4, Requirements Engineering",
+        "why": "Functional and non-functional requirements and the SRS."
+      }
+    ],
+    "design-uml-and-architecture": [
+      {
+        "book": "sommerville",
+        "read": "Chapters 5 to 7 (System Modeling, Architectural Design, Design and Implementation)",
+        "why": "UML models and architectural views."
+      }
+    ],
+    "validation-and-testing": [
+      {
+        "book": "sommerville",
+        "read": "Chapter 8, Software Testing",
+        "why": "Development, release and user testing."
+      }
+    ],
+    "evolution-maintenance-and-management": [
+      {
+        "book": "sommerville",
+        "read": "Chapters 9 and 22 (Software Evolution; Project Management)",
+        "why": "Maintenance, re-engineering and teams."
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A conic section with eccentricity e > 1 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A hyperbola"
+      },
+      {
+        "key": "b",
+        "text": "An ellipse"
+      },
+      {
+        "key": "c",
+        "text": "A parabola"
+      },
+      {
+        "key": "d",
+        "text": "A circle"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "e = 1 gives a parabola and e < 1 an ellipse.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An ellipse has e = 4/5 and foci (0, ±4). Its equation is",
+    "options": [
+      {
+        "key": "a",
+        "text": "x²/9 + y²/25 = 1"
+      },
+      {
+        "key": "b",
+        "text": "x²/25 + y²/9 = 1"
+      },
+      {
+        "key": "c",
+        "text": "x²/5 + y²/25 = 1"
+      },
+      {
+        "key": "d",
+        "text": "x²/3 + y²/5 = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ae = 4 gives a = 5; b² = 25 − 16.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The tangent to y² = 4ax at (x₁, y₁) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "yy₁ = 2a(x + x₁)"
+      },
+      {
+        "key": "b",
+        "text": "xx₁ = 2a(y + y₁)"
+      },
+      {
+        "key": "c",
+        "text": "yy₁ = 4a(x − x₁)"
+      },
+      {
+        "key": "d",
+        "text": "y = 2ax₁"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Uses the slope 2a/y₁ and y₁² = 4ax₁.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The asymptotes of 9x² − 4y² = 36 are",
+    "options": [
+      {
+        "key": "a",
+        "text": "y = ±(3/2)x"
+      },
+      {
+        "key": "b",
+        "text": "y = ±(2/3)x"
+      },
+      {
+        "key": "c",
+        "text": "y = ±3x"
+      },
+      {
+        "key": "d",
+        "text": "y = ±(9/4)x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x²/4 − y²/9 = 1, so b/a = 3/2.",
+    "source": "General knowledge of MTH 103"
+  },
+  {
+    "format": "true_false",
+    "stem": "For an ellipse, b² = a²(1 − e²).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For a hyperbola, b² = a²(e² − 1).",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The foci of the ellipse x²/a² + y²/b² = 1 (a > b) are at (0, ±ae).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are at (±ae, 0) when the major axis is horizontal.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of the hyperbola x²/a² − y²/b² = 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its vertices are (±a, 0)"
+      },
+      {
+        "key": "b",
+        "text": "Its foci are (±ae, 0)"
+      },
+      {
+        "key": "c",
+        "text": "Its directrices are x = ±a/e"
+      },
+      {
+        "key": "d",
+        "text": "Its eccentricity is less than 1"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A hyperbola has e > 1.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which curve is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parabola"
+      },
+      {
+        "key": "b",
+        "text": "Ellipse"
+      },
+      {
+        "key": "c",
+        "text": "Hyperbola"
+      },
+      {
+        "key": "d",
+        "text": "Straight line through the origin"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The other three are conic sections defined by a focus and directrix.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  }
+]

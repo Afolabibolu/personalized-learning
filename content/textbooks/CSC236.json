@@ -1,0 +1,87 @@
+{
+  "code": "CSC 236",
+  "books": {
+    "dlc": {
+      "title": "CSC 236: Introduction to Algorithms (course book)",
+      "authors": "Department of Computer Science, University of Ibadan"
+    },
+    "clrs": {
+      "title": "Introduction to Algorithms",
+      "authors": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
+      "edition": "3rd edition",
+      "publisher": "MIT Press",
+      "year": 2009
+    }
+  },
+  "topics": {
+    "algorithms-and-their-types": [
+      {
+        "book": "dlc",
+        "read": "Unit 1, Meaning, Importance and Types of Algorithms",
+        "why": "The course's own classification of algorithms."
+      }
+    ],
+    "recursion-and-problem-solving": [
+      {
+        "book": "dlc",
+        "read": "Unit 2, Problem Solving Techniques",
+        "why": "Recursion, iteration and divide and conquer."
+      }
+    ],
+    "elementary-sorting": [
+      {
+        "book": "dlc",
+        "read": "Unit 3, Sorting Techniques I, and Unit 8",
+        "why": "Bubble, selection and insertion sort with code."
+      },
+      {
+        "book": "clrs",
+        "read": "Chapter 2, Getting Started (insertion sort and its analysis)",
+        "why": "The source of much of the course book's material."
+      }
+    ],
+    "quicksort-and-merge-sort": [
+      {
+        "book": "dlc",
+        "read": "Unit 4, Sorting Techniques II",
+        "why": "Quicksort partitioning and the MERGE procedure."
+      },
+      {
+        "book": "clrs",
+        "read": "Chapter 7, Quicksort, and Section 2.3 (merge sort)",
+        "why": "Fuller analysis of both algorithms."
+      }
+    ],
+    "searching": [
+      {
+        "book": "dlc",
+        "read": "Unit 5, Searching Techniques",
+        "why": "Linear and binary search, recursive and non-recursive."
+      }
+    ],
+    "analysis-and-asymptotic-notation": [
+      {
+        "book": "dlc",
+        "read": "Units 6, 7 and 10 (analysis, Big O, growth of functions)",
+        "why": "Worst-case analysis and the notations."
+      },
+      {
+        "book": "clrs",
+        "read": "Chapter 3, Growth of Functions",
+        "why": "Formal definitions of O, Ω, Θ, o and ω."
+      }
+    ],
+    "recurrences-and-master-theorem": [
+      {
+        "book": "dlc",
+        "read": "Units 9 and 11 to 13 (divide-and-conquer analysis; recurrences)",
+        "why": "The substitution, recursion-tree and master methods."
+      },
+      {
+        "book": "clrs",
+        "read": "Chapter 4, Divide-and-Conquer (the master method)",
+        "why": "The master theorem and its proof."
+      }
+    ]
+  }
+}

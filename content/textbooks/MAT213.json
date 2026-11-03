@@ -1,0 +1,76 @@
+{
+  "code": "MAT 213",
+  "books": {
+    "onasanya": {
+      "title": "Algebra I (MAT 213) lecture notes",
+      "authors": "B. O. Onasanya",
+      "publisher": "Department of Mathematics, University of Ibadan"
+    },
+    "lipschutz": {
+      "title": "Schaum's Outline of Linear Algebra",
+      "authors": "Seymour Lipschutz and Marc Lipson",
+      "publisher": "McGraw-Hill"
+    }
+  },
+  "topics": {
+    "sets-and-functions": [
+      {
+        "book": "onasanya",
+        "read": "Chapter 1, Sets and Functions",
+        "why": "The course notes, with worked examples."
+      }
+    ],
+    "relations-and-orderings": [
+      {
+        "book": "onasanya",
+        "read": "Chapters 2 and 3, Relations and Orderings",
+        "why": "The relation properties and POSET terms the papers ask about."
+      }
+    ],
+    "introduction-to-number-theory": [
+      {
+        "book": "onasanya",
+        "read": "Chapter 4, Introduction to Number Theory",
+        "why": "Worked gcd and congruence examples."
+      }
+    ],
+    "groups": [
+      {
+        "book": "onasanya",
+        "read": "Chapter 5, groups, homomorphisms and the symmetric group",
+        "why": "The definitions from groupoid to group."
+      }
+    ],
+    "rings-and-fields": [
+      {
+        "book": "onasanya",
+        "read": "Chapter 5, rings, subrings and fields",
+        "why": "Zero divisors, integral domains and fields."
+      }
+    ],
+    "matrices-and-determinants": [
+      {
+        "book": "onasanya",
+        "read": "Chapter 6, Matrices and Other Concepts",
+        "why": "Echelon form, determinants and inverses."
+      },
+      {
+        "book": "lipschutz",
+        "read": "The chapters on matrices, determinants and the inverse",
+        "why": "Many solved problems."
+      }
+    ],
+    "linear-systems-eigenvalues-and-vector-spaces": [
+      {
+        "book": "onasanya",
+        "read": "Chapters 6 and 7 (systems, eigenvalues; vector spaces and linear transformations)",
+        "why": "The examples behind the exam questions."
+      },
+      {
+        "book": "lipschutz",
+        "read": "The chapters on vector spaces, linear mappings and eigenvalues",
+        "why": "Standard practice problems."
+      }
+    ]
+  }
+}

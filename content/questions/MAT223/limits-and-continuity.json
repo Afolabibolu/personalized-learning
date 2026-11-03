@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the open ball B_(1/3)(−3)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(−10/3, −8/3)"
+      },
+      {
+        "key": "b",
+        "text": "(−3, 1/3)"
+      },
+      {
+        "key": "c",
+        "text": "[−10/3, −8/3]"
+      },
+      {
+        "key": "d",
+        "text": "(−1/3, 1/3)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is (x0 − r, x0 + r).",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To prove f(x) = 3x² − 2x + 1 is continuous at 5, which δ works?",
+    "options": [
+      {
+        "key": "a",
+        "text": "min(1, ε/31)"
+      },
+      {
+        "key": "b",
+        "text": "ε"
+      },
+      {
+        "key": "c",
+        "text": "31ε"
+      },
+      {
+        "key": "d",
+        "text": "5ε"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|f(x) − f(5)| = |x − 5||3x + 13|.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using x_n = 1/n shows the signum-type function is discontinuous at 0 because",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(x_n) = 1 does not tend to f(0) = 0"
+      },
+      {
+        "key": "b",
+        "text": "x_n does not tend to 0"
+      },
+      {
+        "key": "c",
+        "text": "f is not defined at 0"
+      },
+      {
+        "key": "d",
+        "text": "f is unbounded"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is sequential discontinuity.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which function is not uniformly continuous on (0, 1)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/x"
+      },
+      {
+        "key": "b",
+        "text": "x²"
+      },
+      {
+        "key": "c",
+        "text": "x"
+      },
+      {
+        "key": "d",
+        "text": "3x + 2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1/x grows without bound near 0.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "If f and g are continuous at x0, then fg is continuous at x0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Products of continuous functions are continuous.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A function continuous on a closed bounded interval [a, b] need not be uniformly continuous there.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Continuity on [a, b] implies uniform continuity.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "If f and g are continuous at x0, which are continuous at x0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f + g"
+      },
+      {
+        "key": "b",
+        "text": "f − g"
+      },
+      {
+        "key": "c",
+        "text": "αf for real α"
+      },
+      {
+        "key": "d",
+        "text": "f/g when g(x0) = 0"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "f/g needs g(x0) ≠ 0.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a bounded interval?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(x, y)"
+      },
+      {
+        "key": "b",
+        "text": "[x, y]"
+      },
+      {
+        "key": "c",
+        "text": "[x, y)"
+      },
+      {
+        "key": "d",
+        "text": "(x, ∞)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "(x, ∞) is unbounded.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  }
+]

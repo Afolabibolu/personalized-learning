@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For n = 5 from an exponential distribution, T1 = x̄ and T2 = (2X1 + X2 + X3 − X4 + 3X5)/6. The efficiency of T1 relative to T2 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "20/9"
+      },
+      {
+        "key": "b",
+        "text": "9/20"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "5/16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Var(T2)/Var(T1) = (4θ²/9)/(θ²/5).",
+    "source": "STA 221 Lecture 1 (Estimation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "BMI values 23.0, 21.0, 18.5, 17.0, 18.0, 19.0, 20.5 have mean and variance",
+    "options": [
+      {
+        "key": "a",
+        "text": "19.6 and 4.2"
+      },
+      {
+        "key": "b",
+        "text": "18.6 and 0.77"
+      },
+      {
+        "key": "c",
+        "text": "19.6 and 2.04"
+      },
+      {
+        "key": "d",
+        "text": "18.6 and 2.04"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sum is 137; the squared deviations sum to about 25.2, divided by 6.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mean squared error of an estimator equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "Var(T) + (Bias)²"
+      },
+      {
+        "key": "b",
+        "text": "Var(T) − (Bias)²"
+      },
+      {
+        "key": "c",
+        "text": "Bias/Var(T)"
+      },
+      {
+        "key": "d",
+        "text": "Var(T) only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MSE = Var(T) + (E(T) − θ)².",
+    "source": "STA 221 Lecture 1 (Estimation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For X ~ Binomial(100, 0.4), which has the smaller MSE: T1 = X/n or T2 = (X + 1)/(n + 2)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "T2"
+      },
+      {
+        "key": "b",
+        "text": "T1"
+      },
+      {
+        "key": "c",
+        "text": "They are equal"
+      },
+      {
+        "key": "d",
+        "text": "Neither is defined"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MSE(T1) = 0.0024 and MSE(T2) ≈ 0.00231.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Σ(xi − x̄)²/n is an unbiased estimator of the population variance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The divisor n − 1 gives the unbiased estimator.",
+    "source": "STA 221 Lecture 1 (Estimation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For two unbiased estimators, the efficiency of T1 relative to T2 is Var(T2)/Var(T1).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "MSE reduces to variance when there is no bias.",
+    "source": "STA 221 Lecture 1 (Estimation)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a good point estimator named in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unbiasedness"
+      },
+      {
+        "key": "b",
+        "text": "Efficiency"
+      },
+      {
+        "key": "c",
+        "text": "Consistency"
+      },
+      {
+        "key": "d",
+        "text": "A large bias"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Robustness is the fourth.",
+    "source": "STA 221 Lecture 1 (Estimation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which symbol is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x̄"
+      },
+      {
+        "key": "b",
+        "text": "S²"
+      },
+      {
+        "key": "c",
+        "text": "p̂"
+      },
+      {
+        "key": "d",
+        "text": "σ"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "σ is a population parameter; the others are sample statistics.",
+    "source": "STA 221 past papers"
+  }
+]

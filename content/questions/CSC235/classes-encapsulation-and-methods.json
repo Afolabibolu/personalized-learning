@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In OOP, the actions an object may take are called its",
+    "options": [
+      {
+        "key": "a",
+        "text": "methods"
+      },
+      {
+        "key": "b",
+        "text": "classes"
+      },
+      {
+        "key": "c",
+        "text": "namespaces"
+      },
+      {
+        "key": "d",
+        "text": "identifiers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Objects of the same kind share a class.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which access specifier lets only functions of the same class reach a member?",
+    "options": [
+      {
+        "key": "a",
+        "text": "private"
+      },
+      {
+        "key": "b",
+        "text": "public"
+      },
+      {
+        "key": "c",
+        "text": "internal"
+      },
+      {
+        "key": "d",
+        "text": "protected internal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Not even an instance of the class can access private members.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which access specifier lets a child class access members of its base class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "protected"
+      },
+      {
+        "key": "b",
+        "text": "private"
+      },
+      {
+        "key": "c",
+        "text": "internal"
+      },
+      {
+        "key": "d",
+        "text": "static"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It supports inheritance.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Encapsulation prevents access to implementation details.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is implemented with access specifiers.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are elements of a C# method definition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Access specifier"
+      },
+      {
+        "key": "b",
+        "text": "Return type"
+      },
+      {
+        "key": "c",
+        "text": "Parameter list"
+      },
+      {
+        "key": "d",
+        "text": "Namespace declaration"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The namespace is part of the program, not the method.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every C# program has at least one class with a method named Main.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Main is the entry point.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a C# access specifier?",
+    "options": [
+      {
+        "key": "a",
+        "text": "public"
+      },
+      {
+        "key": "b",
+        "text": "private"
+      },
+      {
+        "key": "c",
+        "text": "internal"
+      },
+      {
+        "key": "d",
+        "text": "virtual"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "virtual marks a method that derived classes can override.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Abstraction and encapsulation are related because",
+    "options": [
+      {
+        "key": "a",
+        "text": "abstraction makes relevant information visible and encapsulation implements the desired level of it"
+      },
+      {
+        "key": "b",
+        "text": "they are two names for inheritance"
+      },
+      {
+        "key": "c",
+        "text": "both are loop structures"
+      },
+      {
+        "key": "d",
+        "text": "both are data types"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the lecture's description.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  }
+]

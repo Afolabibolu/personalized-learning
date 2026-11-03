@@ -2,77 +2,105 @@
   "code": "COS 102",
   "title": "Problem Solving",
   "semester": 2,
-  "description": "Problem-solving processes, algorithms and heuristics, solution techniques, flowcharts, pseudocode, decision tables and decision trees, and simple programs. The course folder holds only a reference textbook, so this course follows the NUC CCMAS outline for COS 102: facts come from that textbook (Computer Science Illuminated) where it covers a topic, and from general knowledge of the subject elsewhere.",
+  "description": "The second computing course (formerly CSC 102): the layers of a computing system, data representation and networks; problems and computational problems with Pólya's method; identifying problems with the Five Whys, Gemba walk, SWOT, fishbone and brainstorming; algorithms and heuristics; pseudocode, flowcharts and control structures; and programming in Python, from variables and types to decisions and loops. Rebuilt on 2 November from Dr A. B. Sakpere's COS 102 lectures (CCMAS, 2025) and the CSC 102 slides, practice sheets and practicals.",
   "is_reviewed": false,
   "level": 100,
   "topics": [
     {
-      "slug": "computing-concepts-and-types-of-problems",
-      "title": "Computing Concepts and Types of Problems",
-      "summary": "A computing system is hardware, software and data working together to solve problems, organised in layers from information up to communications. Problems can be routine or non-routine, and some, such as the halting problem, cannot be solved by any program.",
+      "slug": "computing-systems-and-networks",
+      "title": "Computing Systems, Data and Networks",
+      "summary": "A computing system is like an onion with layers, from information at the centre to communication at the outside. Data is digitised in binary, and computers share resources through networks of different sizes and topologies.",
       "subtopics": [
-        "Computing system: hardware, software and data",
-        "Layers of a computing system",
-        "Data, information and abstraction",
-        "Identifying and stating a problem",
-        "Routine and non-routine problems",
-        "Solvable and unsolvable problems: the halting problem"
+        "The layers of a computing system",
+        "CPU, memory, storage and capacity units",
+        "Bits, bytes and how many values n bits give",
+        "Text, image and compression",
+        "LAN, MAN, WAN, clients and servers",
+        "Network topologies and the Internet"
       ],
       "lectures": []
     },
     {
-      "slug": "problem-solving-process-and-algorithms",
-      "title": "The Problem-Solving Process and Algorithms",
-      "summary": "Polya's How to Solve It gives four steps: understand the problem, devise a plan, carry out the plan and look back. In computing, the plan is an algorithm, developed top-down through the analysis, algorithm development, implementation and maintenance phases, while heuristics give good-enough answers without a guarantee.",
+      "slug": "computing-concepts-and-types-of-problems",
+      "title": "Problems and Computational Problems",
+      "summary": "A problem is a gap between an existing state and a desired state, and computer science is about solving problems computationally. Computational problems come in types such as decision, search and optimisation, and Pólya's four steps give a general method.",
       "subtopics": [
-        "Polya's four steps",
-        "Ask questions, look for familiar things, divide and conquer",
-        "The computer problem-solving process: four phases",
-        "Definition and properties of an algorithm",
-        "Algorithms and heuristics",
-        "Top-down design and testing an algorithm"
+        "What a problem is, and defining it",
+        "Can computers solve all problems?",
+        "The six steps to solve a computer problem",
+        "Types of computational problems",
+        "Pólya's four strategies",
+        "Solvable and unsolvable problems"
       ],
       "lectures": []
     },
     {
       "slug": "problem-solving-techniques",
-      "title": "Problem-Solving Techniques",
-      "summary": "The CCMAS outline lists techniques for finding a solution, from abstraction, analogy and brainstorming to means-end analysis, root cause analysis and divide and conquer. Each suits a different kind of problem, and they are often combined.",
+      "title": "Identifying Problems: Techniques, Routine and Non-Routine",
+      "summary": "Good problem solving starts with identifying the real problem and its root cause, not a symptom. COS 102 uses observational (Five Whys, Gemba walk), analytical (SWOT, fishbone) and collaborative (brainstorming) techniques, and separates routine from non-routine problems.",
       "subtopics": [
-        "Abstraction, analogy and reduction",
-        "Brainstorming and lateral thinking",
-        "Trial and error and hypothesis testing",
-        "Means-end analysis",
-        "Method of focal objects and morphological analysis",
-        "Research, root cause analysis, proof, divide and conquer"
+        "Steps in identifying a problem",
+        "The Five Whys",
+        "The Gemba walk",
+        "SWOT analysis",
+        "The fishbone (Ishikawa) diagram and brainstorming",
+        "Routine and non-routine problems"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "problem-solving-process-and-algorithms",
+      "title": "Algorithms and Heuristics",
+      "summary": "Computing problems are solved through definition, analysis, design, implementation, testing and evaluation. An algorithm is a finite, precise procedure that guarantees a solution; a heuristic is a rule of thumb that finds a good-enough answer quickly.",
+      "subtopics": [
+        "Stages of problem solving in computing",
+        "Characteristics of a good algorithm",
+        "Heuristics and their characteristics",
+        "Greedy approach and trial and error",
+        "Rule-based systems and means-ends analysis",
+        "Analogy-based reasoning"
       ],
       "lectures": []
     },
     {
       "slug": "flowcharts-pseudocode-and-decision-tables",
-      "title": "Flowcharts, Pseudocode, Decision Tables and Decision Trees",
-      "summary": "A solution is designed before it is coded, using pseudocode (variables, assignment, input/output, selection and repetition), flowcharts with standard symbols, or decision tables and trees when an action depends on several conditions.",
+      "title": "Pseudocode, Flowcharts and Control Structures",
+      "summary": "Algorithms are written as pseudocode, structured plain English, or drawn as flowcharts with standard symbols. Any algorithm can be built from three control structures: sequence, selection and iteration.",
       "subtopics": [
-        "Pseudocode elements: variables, assignment, input/output",
-        "Selection (if-then, if-then-else) and repetition (while)",
-        "Flowchart symbols and flowlines",
-        "Decision tables: conditions, actions and rules",
-        "Decision trees",
-        "Following (tracing) an algorithm by hand"
+        "Sequence, selection and iteration",
+        "Pseudocode vocabulary: READ, COMPUTE, DISPLAY",
+        "if, if...else and the if ladder",
+        "while and for loops in pseudocode",
+        "Flowchart symbols and uses",
+        "Worked examples"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "programs-and-programming-languages",
+      "title": "Programs, Programming Languages and Python Basics",
+      "summary": "A program is a sequence of instructions a computer executes, written in a programming language with its own syntax and semantics. Python, the course language, is built from expressions, variables, types, assignments, input, output and comments.",
+      "subtopics": [
+        "Programs, programming and features of a good program",
+        "Machine, assembly and high-level languages; translators",
+        "Compiled and interpreted languages; paradigms",
+        "Syntax, semantics and kinds of error",
+        "Python variables, types and operators",
+        "Strings, input, output and comments"
       ],
       "lectures": []
     },
     {
       "slug": "from-algorithm-to-program",
-      "title": "From Algorithm to Program",
-      "summary": "In the implementation phase an algorithm is translated into a programming language such as Python, using assignment, input and output, conditions and loops. Count-controlled and event-controlled loops repeat work, and testing and debugging confirm that the program gives correct results.",
+      "title": "Python: Decisions and Loops",
+      "summary": "Control structures change the sequential flow of a Python program: if, if...else, elif and nested if for decisions, and for and while for loops. The course ends with usability heuristics for programs people can use.",
       "subtopics": [
-        "Assignment and input-output statements",
-        "Condition statements (if, elif, else)",
-        "Count-controlled loops",
-        "Event-controlled loops and infinite loops",
-        "Testing and debugging",
-        "Simple programs in Python"
+        "Conditions, relational and logical operators",
+        "if, if...else, elif and nested if",
+        "Indentation and common errors",
+        "for loops and range()",
+        "while loops, infinite loops, break and continue",
+        "Usability heuristics"
       ],
       "lectures": []
     }

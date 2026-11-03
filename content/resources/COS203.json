@@ -1,0 +1,61 @@
+{
+  "code": "COS 203",
+  "topics": {
+    "modular-programming-and-namespaces": [
+      {
+        "title": "Video: Modules in Python | Python Tutorials for Beginners #lec97 (Jenny's Lectures CS IT)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=L6BoHn8NdX4",
+        "source": "links.csv"
+      }
+    ],
+    "reading-and-writing-files": [
+      {
+        "title": "Video: Python Tutorial: File Objects - Reading and Writing to Files (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Uh2ebFW8OYM",
+        "source": "links.csv"
+      }
+    ],
+    "classes-and-objects-in-python": [
+      {
+        "title": "Video: Python OOP Tutorial 1: Classes and Instances (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM",
+        "source": "links.csv"
+      }
+    ],
+    "inheritance-and-polymorphism-in-python": [
+      {
+        "title": "Video: Lecture 19: Inheritance (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rgM7Z9BNm1s",
+        "source": "links.csv"
+      }
+    ],
+    "external-libraries-and-pip": [
+      {
+        "title": "Video: Python Packages & pip (Add External Libraries to Your Code Easily) #24 (Programiz)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TIt2EOuC-Bo",
+        "source": "links.csv"
+      }
+    ],
+    "data-analysis-with-pandas": [
+      {
+        "title": "Video: Learning Pandas for Data Analysis? Start Here. (Rob Mulla)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DkjCaAMBGWM",
+        "source": "links.csv"
+      }
+    ],
+    "apis-and-web-data": [
+      {
+        "title": "Video: Python Requests Tutorial: Request Web Pages, Download Images, POST Data, Read JSON, and More (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the maximum number of members in a partnership, according to Module 7?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Twenty"
+      },
+      {
+        "key": "b",
+        "text": "Two"
+      },
+      {
+        "key": "c",
+        "text": "Fifty"
+      },
+      {
+        "key": "d",
+        "text": "Unlimited"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Legal and accounting firms are exempt.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Act is the key statute on companies in Nigeria?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Companies and Allied Matters Act (CAMA) 2020"
+      },
+      {
+        "key": "b",
+        "text": "Labour Act"
+      },
+      {
+        "key": "c",
+        "text": "Nigeria Data Protection Act"
+      },
+      {
+        "key": "d",
+        "text": "Pension Reform Act"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It governs company formation.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Under the Nigerian Start-up Act 2022, a start-up is a limited liability company in existence for up to",
+    "options": [
+      {
+        "key": "a",
+        "text": "10 years"
+      },
+      {
+        "key": "b",
+        "text": "2 years"
+      },
+      {
+        "key": "c",
+        "text": "25 years"
+      },
+      {
+        "key": "d",
+        "text": "6 months"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its objects involve digital technology.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which number must every business in Nigeria obtain from the FIRS?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A Tax Identification Number (TIN)"
+      },
+      {
+        "key": "b",
+        "text": "A patent number"
+      },
+      {
+        "key": "c",
+        "text": "A NAFDAC number"
+      },
+      {
+        "key": "d",
+        "text": "A matric number"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is needed for tax and banking.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The death of a partner automatically terminates a partnership.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Module 7 says it does not.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tax is purely statutory.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is imposed by law.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are sources of business law in Nigeria?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Constitution"
+      },
+      {
+        "key": "b",
+        "text": "Case law"
+      },
+      {
+        "key": "c",
+        "text": "Customary law"
+      },
+      {
+        "key": "d",
+        "text": "Company slogans"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Legislation, received English law and international law are others.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of incorporated company in Module 7?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Company limited by shares"
+      },
+      {
+        "key": "b",
+        "text": "Company limited by guarantee"
+      },
+      {
+        "key": "c",
+        "text": "Unlimited company"
+      },
+      {
+        "key": "d",
+        "text": "Sole proprietorship"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A sole proprietorship is not incorporated.",
+    "source": "ENT 211-7 Legal Issues in Entrepreneurship (Prof J. Lokulo-Sodipe)"
+  }
+]

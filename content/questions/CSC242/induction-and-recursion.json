@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "A proof by mathematical induction consists of",
+    "options": [
+      {
+        "key": "a",
+        "text": "a basis step"
+      },
+      {
+        "key": "b",
+        "text": "an inductive step"
+      },
+      {
+        "key": "c",
+        "text": "the induction hypothesis used in the inductive step"
+      },
+      {
+        "key": "d",
+        "text": "checking every integer one by one"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The two steps together cover all positive integers.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the inductive step we prove",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(n) → P(n + 1)"
+      },
+      {
+        "key": "b",
+        "text": "P(1)"
+      },
+      {
+        "key": "c",
+        "text": "P(n + 1) → P(n)"
+      },
+      {
+        "key": "d",
+        "text": "P(n) for one chosen n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Together with the basis step this proves P(n) for all n.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The recursive definition of the factorial is",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(0) = 1, f(n + 1) = (n + 1)·f(n)"
+      },
+      {
+        "key": "b",
+        "text": "f(0) = 0, f(n + 1) = f(n) + n"
+      },
+      {
+        "key": "c",
+        "text": "f(1) = 1, f(n) = f(n − 1) + f(n − 2)"
+      },
+      {
+        "key": "d",
+        "text": "f(n) = 2ⁿ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Fibonacci is the third definition.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With f(0) = 0, f(1) = 1 and f(n) = f(n − 1) + f(n − 2), what is f(6)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "13"
+      },
+      {
+        "key": "d",
+        "text": "6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sequence runs 0, 1, 1, 2, 3, 5, 8.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For every recursive algorithm there is an equivalent iterative algorithm.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Recursive versions are often shorter but can be slower.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The recursive Fibonacci algorithm is more efficient than an iterative one.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It recomputes the same values many times.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a part of a proof by induction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Basis step"
+      },
+      {
+        "key": "b",
+        "text": "Inductive step"
+      },
+      {
+        "key": "c",
+        "text": "Induction hypothesis"
+      },
+      {
+        "key": "d",
+        "text": "Caesar cipher"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are parts of a proof by induction.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which principle is used to prove that every integer greater than 1 is a product of primes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The second principle of mathematical induction"
+      },
+      {
+        "key": "b",
+        "text": "The pigeonhole principle"
+      },
+      {
+        "key": "c",
+        "text": "Inclusion-exclusion"
+      },
+      {
+        "key": "d",
+        "text": "Binary search"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Strong induction assumes the result for all smaller integers.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  }
+]

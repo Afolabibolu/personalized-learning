@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If p then q; not q; therefore not p. This valid form is",
+    "options": [
+      {
+        "key": "a",
+        "text": "modus tollens"
+      },
+      {
+        "key": "b",
+        "text": "modus ponens"
+      },
+      {
+        "key": "c",
+        "text": "hypothetical syllogism"
+      },
+      {
+        "key": "d",
+        "text": "disjunctive syllogism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It denies the consequent.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If p then q; p; therefore q. This valid form is",
+    "options": [
+      {
+        "key": "a",
+        "text": "modus ponens"
+      },
+      {
+        "key": "b",
+        "text": "modus tollens"
+      },
+      {
+        "key": "c",
+        "text": "constructive dilemma"
+      },
+      {
+        "key": "d",
+        "text": "affirming the consequent"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It affirms the antecedent.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"If it rains, the ground will be wet. The ground is wet. Therefore, it rained.\" This commits",
+    "options": [
+      {
+        "key": "a",
+        "text": "affirming the consequent"
+      },
+      {
+        "key": "b",
+        "text": "modus ponens"
+      },
+      {
+        "key": "c",
+        "text": "disjunctive syllogism"
+      },
+      {
+        "key": "d",
+        "text": "the law of identity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The ground could be wet for another reason.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A sound argument is one that is",
+    "options": [
+      {
+        "key": "a",
+        "text": "valid with true premises"
+      },
+      {
+        "key": "b",
+        "text": "invalid with true premises"
+      },
+      {
+        "key": "c",
+        "text": "inductive and probable"
+      },
+      {
+        "key": "d",
+        "text": "valid with false premises"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Unless valid, an argument cannot be sound.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A valid argument can have false premises and a false conclusion.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Validity depends on form, not truth.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Validity and invalidity belong to statements, while truth belongs to arguments.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is the other way round.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are valid argument forms in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hypothetical syllogism"
+      },
+      {
+        "key": "b",
+        "text": "Constructive dilemma"
+      },
+      {
+        "key": "c",
+        "text": "Destructive dilemma"
+      },
+      {
+        "key": "d",
+        "text": "Denying the antecedent"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Denying the antecedent is a fallacy.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a valid rule of inference?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Modus ponens"
+      },
+      {
+        "key": "b",
+        "text": "Modus tollens"
+      },
+      {
+        "key": "c",
+        "text": "Disjunctive syllogism"
+      },
+      {
+        "key": "d",
+        "text": "Affirming the consequent"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Affirming the consequent is a formal fallacy.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  }
+]

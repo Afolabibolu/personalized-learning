@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Two point charges attract with 96.48 N at 10 m. At 5 m the force is",
+    "options": [
+      {
+        "key": "a",
+        "text": "385.92 N"
+      },
+      {
+        "key": "b",
+        "text": "192.96 N"
+      },
+      {
+        "key": "c",
+        "text": "48.24 N"
+      },
+      {
+        "key": "d",
+        "text": "24.12 N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "F ∝ 1/r²; halving r multiplies F by 4.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "+6 μC and +4 μC are 10 cm apart, with +2 μC midway. The net force on the test charge is",
+    "options": [
+      {
+        "key": "a",
+        "text": "14.4 N away from q₁"
+      },
+      {
+        "key": "b",
+        "text": "28.8 N towards q₁"
+      },
+      {
+        "key": "c",
+        "text": "43.2 N away from q₁"
+      },
+      {
+        "key": "d",
+        "text": "Zero"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "43.2 N − 28.8 N, directed away from the larger charge.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A positively charged object is earthed. What happens?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Electrons flow from the ground to the object"
+      },
+      {
+        "key": "b",
+        "text": "Protons flow from the ground to the object"
+      },
+      {
+        "key": "c",
+        "text": "Electrons flow from the object to the ground"
+      },
+      {
+        "key": "d",
+        "text": "Protons flow from the object to the ground"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only electrons are mobile.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The force between the electron and proton in hydrogen (r = 5.3 × 10⁻¹¹ m) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "8.2 × 10⁻⁸ N"
+      },
+      {
+        "key": "b",
+        "text": "4.35 × 10⁻¹⁸ N"
+      },
+      {
+        "key": "c",
+        "text": "5.13 × 10⁻¹¹ N"
+      },
+      {
+        "key": "d",
+        "text": "2.72 × 10⁻¹ N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ke²/r².",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A body is negatively charged when it contains more electrons than protons.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It has gained electrons.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "Coulomb's force is inversely proportional to the distance between the charges.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is inversely proportional to the square of the distance.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about electric charge are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Like charges repel"
+      },
+      {
+        "key": "b",
+        "text": "Charge is conserved"
+      },
+      {
+        "key": "c",
+        "text": "Charge is quantised in units of e"
+      },
+      {
+        "key": "d",
+        "text": "Protons move freely in a metal"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "In metals the free electrons carry current.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which quantity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Charge"
+      },
+      {
+        "key": "b",
+        "text": "Coulomb's constant k"
+      },
+      {
+        "key": "c",
+        "text": "Permittivity ε₀"
+      },
+      {
+        "key": "d",
+        "text": "Gravitational constant G"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "G belongs to gravitation; the others to electrostatics.",
+    "source": "General knowledge of PHY 102"
+  }
+]

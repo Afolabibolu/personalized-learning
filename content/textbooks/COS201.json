@@ -1,0 +1,63 @@
+{
+  "code": "COS 201",
+  "books": {
+    "farrell": {
+      "title": "Java Programming",
+      "authors": "Joyce Farrell",
+      "edition": "9th edition",
+      "publisher": "Cengage Learning",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "programming-languages-and-generations": [
+      {
+        "book": "farrell",
+        "read": "Chapter 1, Creating Java Programs",
+        "why": "Programming concepts, compiling and running a first program."
+      }
+    ],
+    "programming-paradigms": [
+      {
+        "book": "farrell",
+        "read": "Chapter 1, Creating Java Programs",
+        "why": "Procedural and object-oriented programming."
+      }
+    ],
+    "programming-approaches-pseudocode-and-flowcharts": [
+      {
+        "book": "farrell",
+        "read": "Chapters 3 and 5 (methods and decisions)",
+        "why": "Designing programs with modules and decisions."
+      }
+    ],
+    "data-types-variables-and-strings": [
+      {
+        "book": "farrell",
+        "read": "Chapter 2, Using Data; Chapter 7, Characters, Strings and the StringBuilder",
+        "why": "Primitive types, casting, Scanner and strings."
+      }
+    ],
+    "operators-and-selection": [
+      {
+        "book": "farrell",
+        "read": "Chapter 2 (operators) and Chapter 5, Making Decisions",
+        "why": "Arithmetic and logical operators, if and switch."
+      }
+    ],
+    "loops-and-iteration": [
+      {
+        "book": "farrell",
+        "read": "Chapter 6, Looping",
+        "why": "for, while and do-while loops."
+      }
+    ],
+    "arrays-and-methods": [
+      {
+        "book": "farrell",
+        "read": "Chapter 3, Using Methods, Classes and Objects; Chapter 8, Arrays",
+        "why": "Methods, overloading and arrays."
+      }
+    ]
+  }
+}

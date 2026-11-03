@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "∫₁³ x² dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "26/3"
+      },
+      {
+        "key": "b",
+        "text": "9"
+      },
+      {
+        "key": "c",
+        "text": "8/3"
+      },
+      {
+        "key": "d",
+        "text": "27"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "27/3 − 1/3.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The area enclosed between y = x and y = x² is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/6"
+      },
+      {
+        "key": "b",
+        "text": "1/2"
+      },
+      {
+        "key": "c",
+        "text": "1/3"
+      },
+      {
+        "key": "d",
+        "text": "1/12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∫₀¹ (x − x²) dx.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "∫₀^(π/2) sin⁸x dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "35π/256"
+      },
+      {
+        "key": "b",
+        "text": "35π/128"
+      },
+      {
+        "key": "c",
+        "text": "π/16"
+      },
+      {
+        "key": "d",
+        "text": "7π/16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(7/8)(5/6)(3/4)(1/2)(π/2).",
+    "source": "General knowledge of MTH 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A particle has initial speed 20 m/s and acceleration 18 − 2t. Its speed after 3 s is",
+    "options": [
+      {
+        "key": "a",
+        "text": "65 m/s"
+      },
+      {
+        "key": "b",
+        "text": "38 m/s"
+      },
+      {
+        "key": "c",
+        "text": "74 m/s"
+      },
+      {
+        "key": "d",
+        "text": "45 m/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "v = 20 + 18t − t².",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "∫ₐᵇ f(x) dx = −∫ᵇₐ f(x) dx.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "F(b) − F(a) = −(F(a) − F(b)).",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a definite integral, the constant of integration must be added to the answer.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It cancels in F(b) − F(a).",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of definite integrals in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "∫ₐᵇ f = ∫ₐᶜ f + ∫ᶜᵇ f"
+      },
+      {
+        "key": "b",
+        "text": "∫ₐᵇ f = −∫ᵇₐ f"
+      },
+      {
+        "key": "c",
+        "text": "The area under f from a to b is ∫ₐᵇ f dx"
+      },
+      {
+        "key": "d",
+        "text": "∫ₐᵇ fg = (∫ₐᵇ f)(∫ₐᵇ g)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The integral of a product is not the product of integrals.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which statement is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Velocity = ∫ acceleration dt"
+      },
+      {
+        "key": "b",
+        "text": "Displacement = ∫ velocity dt"
+      },
+      {
+        "key": "c",
+        "text": "Area = ∫ (upper − lower) dx"
+      },
+      {
+        "key": "d",
+        "text": "Gradient = ∫ f(x) dx"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The gradient is the derivative, not the integral.",
+    "source": "MAT 121 Lecture Notes"
+  }
+]

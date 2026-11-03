@@ -1,90 +1,115 @@
 [
   {
     "format": "single_choice",
-    "stem": "A computing system is made up of which three things, which interact to solve problems?",
+    "stem": "\"What is the cheapest way to travel across 5 cities?\" is which type of computational problem?",
     "options": [
       {
         "key": "a",
-        "text": "Hardware, software and data"
+        "text": "Optimisation"
       },
       {
         "key": "b",
-        "text": "Hardware, users and electricity"
+        "text": "Decision"
       },
       {
         "key": "c",
-        "text": "Software, networks and printers"
+        "text": "Counting"
       },
       {
         "key": "d",
-        "text": "Data, keyboards and monitors"
+        "text": "Sorting"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Computer hardware, software and data interact to solve problems.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
-  },
-  {
-    "format": "multi_select",
-    "stem": "Which of these are layers of a computing system?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Information"
-      },
-      {
-        "key": "b",
-        "text": "Hardware"
-      },
-      {
-        "key": "c",
-        "text": "Operating systems"
-      },
-      {
-        "key": "d",
-        "text": "Spreadsheets"
-      }
-    ],
-    "correct_answer": [
-      "a",
-      "b",
-      "c"
-    ],
-    "explanation": "The layers are information, hardware, programming, operating systems, applications and communications; a spreadsheet is one application.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+    "explanation": "It asks for the best among many solutions.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
   },
   {
     "format": "single_choice",
-    "stem": "What is information, as distinct from data?",
+    "stem": "\"Is this number prime?\" is a",
     "options": [
       {
         "key": "a",
-        "text": "Data that has been organised or processed in a useful manner"
+        "text": "Decision problem"
       },
       {
         "key": "b",
-        "text": "Raw values or facts"
+        "text": "Search problem"
       },
       {
         "key": "c",
-        "text": "The physical parts of a computer"
+        "text": "Function problem"
       },
       {
         "key": "d",
-        "text": "Instructions the computer executes"
+        "text": "Classification problem"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Data are basic values or facts; information is data organised or processed usefully.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
+    "explanation": "Its answer is yes or no.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The first of Pólya's four strategies is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Understanding the problem"
+      },
+      {
+        "key": "b",
+        "text": "Devising a plan"
+      },
+      {
+        "key": "c",
+        "text": "Carrying out the plan"
+      },
+      {
+        "key": "d",
+        "text": "Looking back"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its output is a clear problem statement.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two numbers have sum 15 and product 50. They are",
+    "options": [
+      {
+        "key": "a",
+        "text": "5 and 10"
+      },
+      {
+        "key": "b",
+        "text": "3 and 12"
+      },
+      {
+        "key": "c",
+        "text": "6 and 9"
+      },
+      {
+        "key": "d",
+        "text": "2 and 25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x² − 15x + 50 = (x − 5)(x − 10).",
+    "source": "COS 102 Problem Solving (Lecture 4)"
   },
   {
     "format": "true_false",
-    "stem": "Abstraction is a mental model that removes complex details.",
+    "stem": "A computational problem defines what needs to be computed, not how.",
     "options": [
       {
         "key": "true",
@@ -98,93 +123,12 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "Abstraction keeps only the details that matter to the viewer.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 1"
-  },
-  {
-    "format": "single_choice",
-    "stem": "Calculating a student's average from five scores with a known formula is an example of",
-    "options": [
-      {
-        "key": "a",
-        "text": "A routine problem"
-      },
-      {
-        "key": "b",
-        "text": "A non-routine problem"
-      },
-      {
-        "key": "c",
-        "text": "An unsolvable problem"
-      },
-      {
-        "key": "d",
-        "text": "A heuristic"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "A routine problem has been met before and has a known method.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "odd_one_out",
-    "stem": "Which one is not a routine problem?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Converting a decimal number to binary"
-      },
-      {
-        "key": "b",
-        "text": "Sorting a list of names"
-      },
-      {
-        "key": "c",
-        "text": "Finding why a system fails only sometimes"
-      },
-      {
-        "key": "d",
-        "text": "Computing the total of a bill"
-      }
-    ],
-    "correct_answer": [
-      "c"
-    ],
-    "explanation": "A failure that appears only sometimes has no ready-made method, so it is non-routine.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "single_choice",
-    "stem": "The halting problem asks whether",
-    "options": [
-      {
-        "key": "a",
-        "text": "A given program will eventually stop with a given input"
-      },
-      {
-        "key": "b",
-        "text": "A computer will run out of power"
-      },
-      {
-        "key": "c",
-        "text": "A loop counts to its limit"
-      },
-      {
-        "key": "d",
-        "text": "A program has syntax errors"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "Given a program and an input, determine whether the program eventually stops.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 18"
+    "explanation": "The algorithm supplies the how.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
   },
   {
     "format": "true_false",
-    "stem": "The halting problem can be solved by running the program and waiting to see whether it stops.",
+    "stem": "A computer can solve any problem without being told what to do.",
     "options": [
       {
         "key": "true",
@@ -198,7 +142,63 @@
     "correct_answer": [
       "false"
     ],
-    "explanation": "If the program does not stop you cannot know how long to wait; Turing showed the problem is unsolvable.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 18"
+    "explanation": "It relies on solutions provided by humans.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the six steps to solve a computer problem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Formulate a model"
+      },
+      {
+        "key": "b",
+        "text": "Develop an algorithm"
+      },
+      {
+        "key": "c",
+        "text": "Test the program"
+      },
+      {
+        "key": "d",
+        "text": "Buy a faster computer"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The others are understand, write the program and evaluate the solution.",
+    "source": "COS 102 Problem Solving (Lecture 4)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sorting students' scores from highest to lowest"
+      },
+      {
+        "key": "b",
+        "text": "Arranging a playlist by song title"
+      },
+      {
+        "key": "c",
+        "text": "Organising exam papers by score"
+      },
+      {
+        "key": "d",
+        "text": "Finding a specific email in a large inbox"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Finding one email is a search problem; the others are sorting.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   }
 ]

@@ -1,0 +1,196 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A constructor has",
+    "options": [
+      {
+        "key": "a",
+        "text": "the same name as its class and no return type"
+      },
+      {
+        "key": "b",
+        "text": "a name starting with ~"
+      },
+      {
+        "key": "c",
+        "text": "a return type of void"
+      },
+      {
+        "key": "d",
+        "text": "to be called explicitly before every use"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Destructors are the ones prefixed with ~.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A destructor can take parameters.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It neither returns a value nor takes parameters.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Inheritance implements which relationship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IS-A"
+      },
+      {
+        "key": "b",
+        "text": "HAS-A"
+      },
+      {
+        "key": "c",
+        "text": "USES-A"
+      },
+      {
+        "key": "d",
+        "text": "PART-OF"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A dog IS-A mammal.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "true_false",
+    "stem": "C# supports multiple inheritance of classes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It does not, but interfaces can be used to implement multiple inheritance.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of static polymorphism in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Function overloading"
+      },
+      {
+        "key": "b",
+        "text": "Operator overloading"
+      },
+      {
+        "key": "c",
+        "text": "Early binding of functions at compile time"
+      },
+      {
+        "key": "d",
+        "text": "Virtual functions overridden at run time"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Virtual functions give dynamic polymorphism.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "You cannot create an instance of",
+    "options": [
+      {
+        "key": "a",
+        "text": "an abstract class"
+      },
+      {
+        "key": "b",
+        "text": "a derived class"
+      },
+      {
+        "key": "c",
+        "text": "a sealed class"
+      },
+      {
+        "key": "d",
+        "text": "a class with a constructor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An abstract class is completed by derived classes.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a feature of an interface in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a syntactical contract"
+      },
+      {
+        "key": "b",
+        "text": "It defines the 'what'"
+      },
+      {
+        "key": "c",
+        "text": "It contains only declarations"
+      },
+      {
+        "key": "d",
+        "text": "It must be sealed"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Interfaces are implemented by deriving classes, so sealing makes no sense.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Polymorphism is often expressed as 'one interface, multiple functions'.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It means having many forms.",
+    "source": "QuickGuideCsharp.pdf (C# Quick Guide, filed with the course)"
+  }
+]

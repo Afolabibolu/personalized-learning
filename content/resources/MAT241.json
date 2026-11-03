@@ -1,0 +1,61 @@
+{
+  "code": "MAT 241",
+  "topics": {
+    "introduction-to-odes": [
+      {
+        "title": "Video: Introduction to Differential Equations (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QbkWlNf2Xtw",
+        "source": "links.csv"
+      }
+    ],
+    "first-order-differential-equations": [
+      {
+        "title": "Video: First Order Linear Differential Equations (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gd1FYn86P0c",
+        "source": "links.csv"
+      }
+    ],
+    "higher-order-linear-homogeneous-equations": [
+      {
+        "title": "Video: Second Order Linear Differential Equations (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uI2xt8nTOlQ",
+        "source": "links.csv"
+      }
+    ],
+    "undetermined-coefficients-and-variation-of-parameters": [
+      {
+        "title": "Video: Undetermined Coefficients: Solving non-homogeneous ODEs (Dr. Trefor Bazett)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AgyeJEO2a-k",
+        "source": "links.csv"
+      }
+    ],
+    "the-operator-d-method": [
+      {
+        "title": "Video: 🔵25 - D Operator Method for Solving Second Order Linear Differential Equations (SkanCity Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-J42jS8LnTw",
+        "source": "links.csv"
+      }
+    ],
+    "difference-equations": [
+      {
+        "title": "Video: First Order Difference Equations - Ordinary Differential Equations | Lecture 11 (Jason Bramburger)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f8IFM15Kv6c",
+        "source": "links.csv"
+      }
+    ],
+    "numerical-interpolation-and-integration": [
+      {
+        "title": "Video: Interpolation | Lecture 43 | Numerical Methods for Engineers (Jeffrey Chasnov)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RpxoN9-i7Jc",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

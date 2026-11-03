@@ -1,0 +1,245 @@
+{
+  "code": "STA 121",
+  "exam_style": true,
+  "intro": "No STA 121 past papers were found (the course folder has no past-question folder). These are the lecturers' own questions, copied as written from the lecture exercises, the Lecture 1 post-test and the pre-tests. They are not from a past paper.",
+  "label": "Lecturer questions",
+  "papers": [
+    {
+      "year": "Lecture 1 post-test",
+      "paper": "STA 121 Lecture 1 (Sampling) post-test, Dr O.E. Olubusoye; not from a past paper",
+      "source": "STA 121 LECTURE_1_SAMPLING.pdf"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "paper": "STA 121 Lecture 5 exercise sheet (sample size and hypothesis testing), Dr O.E. Olubusoye; not from a past paper",
+      "source": "STA 121 LECTURE_5_Exercise.pdf"
+    },
+    {
+      "year": "Lecture 7 exercises",
+      "paper": "STA 121 Lecture 7 practical exercises (the t-distribution), Dr O.E. Olubusoye; not from a past paper",
+      "source": "STA 121 LECTURE_7_EXERCISE.pdf"
+    },
+    {
+      "year": "Pre-tests",
+      "paper": "Pre-test questions from STA 121 Lectures 5 and 6 (Dr O.E. Olubusoye) and the 2018 Lecture 5 (Dr O.I. Shittu); not from a past paper",
+      "source": "STA 121 LECTURE_5_TEST_OF_HYPOTHESIS.pdf; STA 121 LECTURE_6_TEST_OF_HYPOTHESIS_LARGE_SAMPLE.pdf; STA 121 2018 Lecture 5 Hypothesis Testing.pdf"
+    },
+    {
+      "year": "2018 lecture exercises",
+      "paper": "Exercises at the end of the 2018 STA 121 lectures: Hypothesis Testing I and II (Dr O.I. Shittu) and Regression and Correlation (Dr O.E. Olubusoye); not from a past paper",
+      "source": "STA 121 2018 Lecture 5 Hypothesis Testing.pdf; STA 121 2018 Lecture 6 Hypothesis testing 2.pdf; STA 121 2018 Lecture 7-Regression_Correlation.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Lecture 1 post-test",
+      "number": "1",
+      "topic": "population-sampling-and-sampling-methods",
+      "text": "Briefly explain (a) the fundamental reason for sampling (b) some of the reasons why a sample is chosen instead of testing the entire population."
+    },
+    {
+      "year": "Lecture 1 post-test",
+      "number": "2",
+      "topic": "population-sampling-and-sampling-methods",
+      "text": "Distinguish between sampling and non-sampling errors. What are their sources? How can these errors be controlled?"
+    },
+    {
+      "year": "Lecture 1 post-test",
+      "number": "3",
+      "topic": "population-sampling-and-sampling-methods",
+      "text": "To study the average effect of fish on human cholesterol level (in blood), a researcher randomly selects 500 males of 25 years of age who have never taken fish more than once a week and measures their cholesterol level. The researcher then serves all the individuals 8 ounces of fish everyday for one year. After one year the researcher measures the cholesterol level of each individual again, and calculates the difference with the year before value (difference = pre-diet level minus post diet level). Determine the (a) population (b) sample (c) variable under study and (d) the parameter of interest."
+    },
+    {
+      "year": "Lecture 1 post-test",
+      "number": "4",
+      "topic": "population-sampling-and-sampling-methods",
+      "text": "List and explain the various sampling methods."
+    },
+    {
+      "year": "Lecture 1 post-test",
+      "number": "5",
+      "topic": "population-sampling-and-sampling-methods",
+      "text": "Define the following: (a) sampling unit (b) sampling frame (c) sampling interval (d) sampling method (e) sampling error."
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "1",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "List five factors determining the size of a sample."
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "2",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "In a study of the reading habits of elected government officials it is desired to estimate the average number of newspapers they read per week. How large a sample would be required if one wants to be able to assert with a probability of 0.99 that the sample mean will not be \"off\" by more than 1.2? Assume that it is reasonable to use a standard deviation of 5.3."
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "3",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "If we want to estimate the proportion of adults who prefer traveling by plane to all other modes of transportation, how large a random sample will we need to be able to assert with a probability of 0.95 that the error we make by using the sample proportion will be less than 0.04?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "4",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "What is meant by the test of a statistical hypothesis?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "5",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "What is the principle steps involved in hypothesis testing?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "6",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "Discuss the difference in purpose between the estimation of parameters and the testing of statistical hypothesis."
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "7",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "What is the role of standard error in testing of hypothesis?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "8",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "What is a test statistic? How is it used in hypothesis testing?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "9",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "Define the term 'level of significance'. How is it related to the probability of committing Type I error?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "10",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "How is power related to the probability of making a Type II error?"
+    },
+    {
+      "year": "Lecture 5 exercises",
+      "number": "11",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "Write short notes on the following: (a) Acceptance and rejection regions (b) Type I and Type II errors (c) Null and Alternative hypotheses (d) One-tailed and two-tailed tests."
+    },
+    {
+      "year": "Lecture 7 exercises",
+      "number": "1",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "What are the properties of t-distribution?"
+    },
+    {
+      "year": "Lecture 7 exercises",
+      "number": "2",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "Outline five uses of a t-distribution."
+    },
+    {
+      "year": "Lecture 7 exercises",
+      "number": "3",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "The yields of alfalfa from six test plots are 1.2, 1.6, 0.9, 1.1, 2.0, and 1.0 tons per acre. Test at a level of significance of 0.05 whether this supports the contention that the true average yield for this kind of alfalfa is 1.5 tons per acre."
+    },
+    {
+      "year": "Lecture 7 exercises",
+      "number": "4",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "Measurements performed on random samples of two kinds of cigarettes yielded the following results on their nicotine content (in milligrams): Brand A: 26.4, 22.5, 24.9, 23.7, 21.5; Brand B: 25.7, 29.0, 23.4, 27.6, 22.3. Use a level of significance of 0.05 to check on the claim that Brand B has higher average nicotine content than Brand A."
+    },
+    {
+      "year": "Pre-tests",
+      "number": "L5-1",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "For a given sample size, an increase in confidence level is achieved by widening (or making less precise) the confidence interval obtained. Explain."
+    },
+    {
+      "year": "Pre-tests",
+      "number": "L5-2",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "The width of a confidence interval is twice the margin of the sampling error. True or False?"
+    },
+    {
+      "year": "Pre-tests",
+      "number": "L5-3",
+      "topic": "estimation-confidence-intervals-and-sample-size",
+      "text": "If X̄ = 25, σ = 5, and n = 25, compute the margin of error at 95 per cent confidence."
+    },
+    {
+      "year": "Pre-tests",
+      "number": "L6-2",
+      "topic": "sampling-distribution-of-the-mean",
+      "text": "The central limit theorem assures that the sampling distribution of the mean (a) is always normal (b) is always normal for large sample sizes (c) approaches normal distribution as sample size increases (d) none of the above"
+    },
+    {
+      "year": "Pre-tests",
+      "number": "L6-3",
+      "topic": "sampling-distribution-of-the-mean",
+      "text": "The sampling distribution of mean is normal provided (a) population distribution is normal (b) population distribution is not normal but the sample size is large (n ≥ 30) (c) population distribution is approximately the normal distribution with mean μ and standard deviation σ/√n (d) all of the above"
+    },
+    {
+      "year": "Pre-tests",
+      "number": "2018 L5-1",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "A woman was sentenced to 10 years imprisonment. After serving 5 years, evidence emerged that another woman in the neighbourhood was responsible for the offence. What type of error has the court committed for sentencing a wrong woman?"
+    },
+    {
+      "year": "Pre-tests",
+      "number": "2018 L5-2",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "Four Yahoo boys were arrested by a dutiful officer. However, the judge ruled that they were not guilty of the offence. If they were actually guilty, what type of error has the judge committed?"
+    },
+    {
+      "year": "Pre-tests",
+      "number": "2018 L5-3",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "A firm believes that the batteries produced by process A on an average last longer than batteries produced by process B. To test this belief, random samples of 50 batteries produced by the two processes were tested. The average lifetime (in hours) of batteries by the two processes are 22400 and 21800 respectively, with corresponding standard deviation of 1000 each. Is there significant evidence at a 5% level of significance that the firm is correct in its belief?"
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "HT1-1",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "The mean life of a sample of 400 fluorescent bulbs produced by a company is found to be 1570 hours with standard deviation of 150 hours. Test the hypothesis that the mean lifetime of the bulbs produced by the company is 1600 hours at 1% level of significance."
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "HT1-2",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "The mean grade point average for statistical inference I course in a particular session is 2.45, with a variance of 0.4761. It is believed that statistics majors have higher grade point average than the overall mean. A sample of 100 statistics majors had a mean grade point average of 2.65. Test this claim at 1% level of significance."
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "HT1-3",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "A researcher examined 200 students on academic performances. He discovered that the average score of the students in major courses is 68 with variance of 8. It is believed that the average score of these students in major courses is 65. Test this claim at 1% significance level."
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "HT2-1",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "Test the hypothesis that σ² = 45,000 against the alternative hypothesis that σ² < 45,000, where S² = 27,000 for a sample of 20 independent observations on a normally distributed random variable."
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "HT2-2",
+      "topic": "tests-for-means-proportions-and-variances",
+      "text": "Use the following data to test the hypothesis that σ² = 30 against the hypothesis that σ² > 30: 5, 8, 12, 18, 26, 25, 11. (a) What is the appropriate test statistic? (b) How is the test statistic distributed if H0 is correct? (c) What is the value of the test statistic?"
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "RC-1",
+      "topic": "regression-and-correlation",
+      "text": "The scores of seven students in Physics and Mathematics were observed as presented in the table below. Obtain the estimate of the regression equation. Physics mark (y): 50, 72, 36, 64, 52, 56, 80; Maths mark (x): 38, 51, 19, 53, 39, 38, 66."
+    },
+    {
+      "year": "2018 lecture exercises",
+      "number": "RC-2",
+      "topic": "regression-and-correlation",
+      "text": "In a consumer preference test to compare four global services mobile providers, two independent judges ranked the four GSM providers in order of preference. The following ranks were obtained for the four GSM providers labeled A, B, C, D: Judge 1: 2, 1, 3, 4; Judge 2: 1, 2, 3, 4. Calculate the rank correlation coefficient."
+    }
+  ]
+}

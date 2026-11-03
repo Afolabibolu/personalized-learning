@@ -1,0 +1,61 @@
+{
+  "code": "INS 202",
+  "topics": {
+    "introduction-to-hci": [
+      {
+        "title": "Video: Introduction to Human-Computer Interaction (HCI): Lecture 1 Part 1 (NPTEL-NOC IITM)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IjrqtXlFGYA",
+        "source": "links.csv"
+      }
+    ],
+    "foundations-interaction-styles-and-accessibility": [
+      {
+        "title": "Video: HMI #10 - Interaction Styles - Part 1 | CLI | Menus | Natural Language | QnA & Query | HMI | BTB (Be The Best)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2ibNuU4OBzk",
+        "source": "links.csv"
+      }
+    ],
+    "cognition-and-human-factors": [
+      {
+        "title": "Video: GOMS and the Keystroke-Level Model | Human Factors Engineering (University of Michigan Division of Integrative Systems + Design)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ocz1hV34flk",
+        "source": "links.csv"
+      }
+    ],
+    "physical-ergonomics": [
+      {
+        "title": "Video: HCI 3.4 Ergonomics with Examples | Ergonomics VS Human Factors | HCI (CS & IT Tutorials by Vrushali 👩‍🎓)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=clEamOgt7X8",
+        "source": "links.csv"
+      }
+    ],
+    "user-centred-design": [
+      {
+        "title": "Video: Principles of Human-Centered Design (Don Norman) (NNgroup)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rmM0kRf8Dbk",
+        "source": "links.csv"
+      }
+    ],
+    "gui-design-principles": [
+      {
+        "title": "Video: Lec 14: Norman's Principles (NPTEL IIT Guwahati)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=weCDkSH0cNU",
+        "source": "links.csv"
+      }
+    ],
+    "design-methods-and-evaluation": [
+      {
+        "title": "Video: Heuristic Evaluation in UX Design. What are the 10 Usability Heuristics (IxDF - Interaction Design Foundation)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TQ5jY1kKUNk",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

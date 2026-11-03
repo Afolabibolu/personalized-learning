@@ -1,0 +1,108 @@
+{
+  "code": "MAT 213",
+  "title": "Algebra I",
+  "semester": 1,
+  "description": "Algebra for non-majors: sets and functions, relations and orderings, an introduction to number theory, groups, rings and fields, matrices and determinants, and linear systems, eigenvalues and vector spaces. Built from the MAT 213 lecture notes (Algebra I, B. O. Onasanya, University of Ibadan) and their chapter files in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "sets-and-functions",
+      "title": "Sets and Functions",
+      "summary": "A set is a collection of elements, compared by subset and equality and combined by union, intersection, complement, difference and symmetric difference. Partitions split a set into disjoint blocks, and functions may be injective, surjective or bijective.",
+      "subtopics": [
+        "Sets, cardinality and the empty set",
+        "Subsets, proper subsets and the universal set",
+        "Set operations and symmetric difference",
+        "Cartesian products and partitions",
+        "Functions: domain, codomain and image",
+        "Injective, surjective and bijective functions; composition"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "relations-and-orderings",
+      "title": "Relations, Equivalence and Orderings",
+      "summary": "A relation on a set may be reflexive, symmetric, antisymmetric or transitive; equivalence relations partition a set into equivalence classes. A partial order makes a POSET, which may be a chain or well ordered and has first, last, minimal and maximal elements.",
+      "subtopics": [
+        "Relations, inverse relations and relations on a set",
+        "Reflexive, symmetric, antisymmetric and transitive",
+        "Equivalence relations and congruence modulo m",
+        "Equivalence classes and the quotient set",
+        "Partial orders, POSETs and chains",
+        "First, last, minimal, maximal and well ordered"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "introduction-to-number-theory",
+      "title": "Introduction to Number Theory",
+      "summary": "The integers have ordered and divisibility properties; every integer from 2 up factors uniquely into primes. The Euclidean algorithm gives gcd(a, b) and integers u, v with d = au + bv, which solve linear congruences in the residue classes Zₘ.",
+      "subtopics": [
+        "Properties of (Z, +) and (Z, ·)",
+        "Divisibility, primes and the fundamental theorem of arithmetic",
+        "The division (Euclidean) algorithm",
+        "GCD, LCM and d = au + bv",
+        "Modular arithmetic, residue classes and Euler's phi function",
+        "Solving congruence equations"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "groups",
+      "title": "Algebraic Systems and Groups",
+      "summary": "A binary operation on a set may be closed, commutative, associative or distributive, with identities and inverses. Groupoids, semigroups and monoids lead to groups; cyclic groups, subgroups, homomorphisms and symmetric groups follow.",
+      "subtopics": [
+        "Binary operations and their properties",
+        "Identity and inverse elements",
+        "Groupoid, semigroup and monoid",
+        "Groups, abelian groups and cyclic groups",
+        "Order of a group and of an element; subgroups and Lagrange",
+        "Homomorphisms and the symmetric group Sₙ"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "rings-and-fields",
+      "title": "Rings, Integral Domains and Fields",
+      "summary": "A ring has two operations: it is an abelian group under addition and a semigroup under multiplication, with distributivity. Zero divisors, integral domains, characteristic, subrings, division rings and fields refine the idea.",
+      "subtopics": [
+        "Definition of a ring",
+        "Examples: Z, mZ, Zₘ, R[x], Z[i] and matrices",
+        "Commutative and unital rings",
+        "Zero divisors and integral domains",
+        "Characteristic and subrings",
+        "Division rings and fields"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "matrices-and-determinants",
+      "title": "Matrices and Determinants",
+      "summary": "Matrices over a field have transposes and special forms such as symmetric and orthogonal. Elementary row operations give the row reduced echelon form and the rank, and determinants, cofactors and adjoints give the inverse.",
+      "subtopics": [
+        "Types of matrix: square, row, column",
+        "Transpose; symmetric, skew-symmetric, normal and orthogonal",
+        "Matrix addition and multiplication",
+        "Elementary row operations and elementary matrices",
+        "Row reduced echelon form and rank",
+        "Determinants, cofactors, adjoint and the inverse"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "linear-systems-eigenvalues-and-vector-spaces",
+      "title": "Linear Systems, Eigenvalues and Vector Spaces",
+      "summary": "Systems AX = B are homogeneous or not and are classified by the ranks of A and [A | B]. Eigenvalues are roots of the characteristic polynomial, with the Cayley-Hamilton theorem and diagonalisation; vector spaces, bases and linear transformations generalise these ideas.",
+      "subtopics": [
+        "Homogeneous and non-homogeneous systems",
+        "Consistency from ranks",
+        "Characteristic polynomial, eigenvalues and eigenvectors",
+        "The Cayley-Hamilton theorem and similar matrices",
+        "Vector spaces, linear combinations, independence and bases",
+        "Linear transformations, kernel, nullity and rank"
+      ],
+      "lectures": []
+    }
+  ]
+}

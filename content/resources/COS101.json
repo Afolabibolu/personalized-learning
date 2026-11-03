@@ -1,0 +1,61 @@
+{
+  "code": "COS 101",
+  "topics": {
+    "computer-science-as-a-discipline": [
+      {
+        "title": "Video: What is computer science? | Intro to CS - Python | Khan Academy (Khan Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5LeZflr8Zfs",
+        "source": "links.csv"
+      }
+    ],
+    "history-and-generations-of-computers": [
+      {
+        "title": "Video: Computers: A History (Gresham College)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=OwQ9DFeJysw",
+        "source": "links.csv"
+      }
+    ],
+    "computer-categories-and-hardware": [
+      {
+        "title": "Video: CSIT 103 - SESSION 2 – INTRODUCTION TO COMPUTER HARDWARE AND SOFTWARE (University of Ghana Distance Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RC3zXVnSr0g",
+        "source": "links.csv"
+      }
+    ],
+    "software-and-programming-languages": [
+      {
+        "title": "Video: The First Programming Languages: Crash Course Computer Science #11 (CrashCourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RU1u-js7db8",
+        "source": "links.csv"
+      }
+    ],
+    "number-systems-and-data-representation": [
+      {
+        "title": "Video: Representing Numbers and Letters with Binary: Crash Course Computer Science #4 (CrashCourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1GSjbWt0c9M",
+        "source": "links.csv"
+      }
+    ],
+    "problem-solving-algorithms-and-python": [
+      {
+        "title": "Video: Lecture 1: Introduction to CS and Programming Using Python (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xAcTmDO6NTI",
+        "source": "links.csv"
+      }
+    ],
+    "networks-and-the-internet": [
+      {
+        "title": "Video: Computer Networks: Crash Course Computer Science #28 (CrashCourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3QhU9jd03a0",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

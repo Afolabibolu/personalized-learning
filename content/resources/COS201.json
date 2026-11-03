@@ -1,0 +1,61 @@
+{
+  "code": "COS 201",
+  "topics": {
+    "programming-languages-and-generations": [
+      {
+        "title": "Video: The Generations of Programming Languages | Computer Science History (ForrestKnight)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZFIeEV2HfPQ",
+        "source": "links.csv"
+      }
+    ],
+    "programming-paradigms": [
+      {
+        "title": "Video: Programming Paradigms | Functional Programming | Object Oriented Programming | Logic | java world (Java World)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ySBTM-FKEtg",
+        "source": "links.csv"
+      }
+    ],
+    "programming-approaches-pseudocode-and-flowcharts": [
+      {
+        "title": "Video: Algorithm and Flowchart (Manocha Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MUkvVLGz89k",
+        "source": "links.csv"
+      }
+    ],
+    "data-types-variables-and-strings": [
+      {
+        "title": "Video: Java Tutorial - Basic data types and variables (LinkedIn Learning)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sVIvhzEizEQ",
+        "source": "links.csv"
+      }
+    ],
+    "operators-and-selection": [
+      {
+        "title": "Video: Java if statements 🚧【6 minutes】 (Bro Code)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MY03bt_0JQI",
+        "source": "links.csv"
+      }
+    ],
+    "loops-and-iteration": [
+      {
+        "title": "Video: Java For Beginners: While, Do While & For Loops (7/10) (Codecourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6djggrlkHY8",
+        "source": "links.csv"
+      }
+    ],
+    "arrays-and-methods": [
+      {
+        "title": "Video: Arrays In Java Tutorial #10 (Alex Lee)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xzjZy-dHHLw",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

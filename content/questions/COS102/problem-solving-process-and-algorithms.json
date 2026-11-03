@@ -1,117 +1,115 @@
 [
   {
     "format": "single_choice",
-    "stem": "What is the first step in Polya's How to Solve It list?",
+    "stem": "Which characteristic means each step of an algorithm must be precisely defined and unambiguous?",
     "options": [
       {
         "key": "a",
-        "text": "Understand the problem"
+        "text": "Definiteness"
       },
       {
         "key": "b",
-        "text": "Devise a plan"
+        "text": "Finiteness"
       },
       {
         "key": "c",
-        "text": "Carry out the plan"
+        "text": "Effectiveness"
       },
       {
         "key": "d",
-        "text": "Look back"
+        "text": "Output"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "The four steps are understand the problem, devise a plan, carry out the plan and look back.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+    "explanation": "Finiteness means it must terminate.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "single_choice",
-    "stem": "Which of Polya's steps does the textbook call the heart of problem solving?",
+    "stem": "With ₦1000 and snacks at ₦100, ₦200, ₦300, ₦400 and ₦500, the greedy \"cheapest first\" rule buys how many snacks?",
     "options": [
       {
         "key": "a",
-        "text": "Finding the connection between the information and the solution"
+        "text": "4"
       },
       {
         "key": "b",
-        "text": "Checking each step of the plan"
+        "text": "3"
       },
       {
         "key": "c",
-        "text": "Examining the solution obtained"
+        "text": "5"
       },
       {
         "key": "d",
-        "text": "Drawing a figure"
+        "text": "2"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "The second step, devising a plan, is where the connection is found.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
-  },
-  {
-    "format": "multi_select",
-    "stem": "Which are phases of the computer problem-solving process?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Analysis and specification"
-      },
-      {
-        "key": "b",
-        "text": "Algorithm development"
-      },
-      {
-        "key": "c",
-        "text": "Implementation"
-      },
-      {
-        "key": "d",
-        "text": "Advertising"
-      }
-    ],
-    "correct_answer": [
-      "a",
-      "b",
-      "c"
-    ],
-    "explanation": "The fourth phase is maintenance.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+    "explanation": "100 + 200 + 300 + 400 = 1000.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "single_choice",
-    "stem": "In the textbook's definition, an algorithm solves a problem",
+    "stem": "Which heuristic compares the current state with the goal and reduces the difference step by step?",
     "options": [
       {
         "key": "a",
-        "text": "With unambiguous instructions in a finite amount of time using a finite amount of data"
+        "text": "Means–ends analysis"
       },
       {
         "key": "b",
-        "text": "As quickly as possible with any instructions"
+        "text": "Trial and error"
       },
       {
         "key": "c",
-        "text": "Only when written in a programming language"
+        "text": "Greedy approach"
       },
       {
         "key": "d",
-        "text": "Using as much data as is available"
+        "text": "Analogy-based reasoning"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "An algorithm is unambiguous instructions for solving a problem in finite time with finite data.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+    "explanation": "It is goal-directed gap reduction.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Learning to use Google Docs after Microsoft Word is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Analogy-based reasoning"
+      },
+      {
+        "key": "b",
+        "text": "A rule-based system"
+      },
+      {
+        "key": "c",
+        "text": "The greedy approach"
+      },
+      {
+        "key": "d",
+        "text": "Means–ends analysis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Past experience is transferred to a similar problem.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "true_false",
-    "stem": "A heuristic always guarantees the best solution to a problem.",
+    "stem": "A heuristic always guarantees the exact, optimal solution.",
     "options": [
       {
         "key": "true",
@@ -125,66 +123,12 @@
     "correct_answer": [
       "false"
     ],
-    "explanation": "A heuristic is a rule of thumb that usually gives a good answer quickly, without a guarantee.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "odd_one_out",
-    "stem": "Which one is not a strategy suggested by Polya's list in the textbook?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Ask questions"
-      },
-      {
-        "key": "b",
-        "text": "Look for familiar things"
-      },
-      {
-        "key": "c",
-        "text": "Divide and conquer"
-      },
-      {
-        "key": "d",
-        "text": "Skip the testing"
-      }
-    ],
-    "correct_answer": [
-      "d"
-    ],
-    "explanation": "The textbook stresses testing an algorithm before coding it.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
-  },
-  {
-    "format": "single_choice",
-    "stem": "The problem-solving strategy that produces a hierarchy of tasks, refining each module until every step is concrete, is",
-    "options": [
-      {
-        "key": "a",
-        "text": "Top-down design"
-      },
-      {
-        "key": "b",
-        "text": "Object-oriented design"
-      },
-      {
-        "key": "c",
-        "text": "Trial and error"
-      },
-      {
-        "key": "d",
-        "text": "Brainstorming"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "Top-down design parallels Polya's outline; object-oriented design produces a hierarchy of data objects.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+    "explanation": "It gives a good-enough, often approximate, answer.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "true_false",
-    "stem": "Algorithms should be tested before they are implemented, because problems found earlier are cheaper and easier to fix.",
+    "stem": "A rule-based system makes decisions from predefined IF–THEN rules.",
     "options": [
       {
         "key": "true",
@@ -198,7 +142,63 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "Testing only the finished program is far too late to rely on.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.1"
+    "explanation": "It is one of the earliest forms of AI.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of a good algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finiteness"
+      },
+      {
+        "key": "b",
+        "text": "Definiteness"
+      },
+      {
+        "key": "c",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "d",
+        "text": "It must have no output"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It must produce at least one output.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which approach is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Greedy approach"
+      },
+      {
+        "key": "b",
+        "text": "Trial and error"
+      },
+      {
+        "key": "c",
+        "text": "Rule of thumb"
+      },
+      {
+        "key": "d",
+        "text": "Bubble sort of student scores"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bubble sort is an algorithm; the others are heuristics.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   }
 ]

@@ -1,0 +1,209 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A signal that is discrete in value and time is",
+    "options": [
+      {
+        "key": "a",
+        "text": "digital"
+      },
+      {
+        "key": "b",
+        "text": "analogue"
+      },
+      {
+        "key": "c",
+        "text": "continuous"
+      },
+      {
+        "key": "d",
+        "text": "sinusoidal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Analogue signals vary continuously.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Data becomes information only after it has been processed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Data on its own has no meaning.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the four basic functions of a computer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data processing"
+      },
+      {
+        "key": "b",
+        "text": "Data storage"
+      },
+      {
+        "key": "c",
+        "text": "Data movement"
+      },
+      {
+        "key": "d",
+        "text": "Control"
+      },
+      {
+        "key": "e",
+        "text": "Data deletion"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "All four are built around data.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In 8-bit sign-magnitude form, −25 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "10011001"
+      },
+      {
+        "key": "b",
+        "text": "11100110"
+      },
+      {
+        "key": "c",
+        "text": "11100111"
+      },
+      {
+        "key": "d",
+        "text": "00011001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sign bit 1 is followed by the true magnitude 0011001.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In 8-bit 2's complement, −25 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "11100111"
+      },
+      {
+        "key": "b",
+        "text": "11100110"
+      },
+      {
+        "key": "c",
+        "text": "10011001"
+      },
+      {
+        "key": "d",
+        "text": "00011001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Invert 00011001 to get 11100110, then add 1.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Unsigned integers can represent negative numbers.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They represent zero and positive integers only.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among ways of representing signed integers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sign-magnitude"
+      },
+      {
+        "key": "b",
+        "text": "1's complement"
+      },
+      {
+        "key": "c",
+        "text": "2's complement"
+      },
+      {
+        "key": "d",
+        "text": "Fixed-point fraction"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Fixed-point is a way to represent real numbers with a fractional part.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which signed-number form is used most?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2's complement"
+      },
+      {
+        "key": "b",
+        "text": "Sign-magnitude"
+      },
+      {
+        "key": "c",
+        "text": "1's complement"
+      },
+      {
+        "key": "d",
+        "text": "Excess-3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sign-magnitude is rarely used.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  }
+]

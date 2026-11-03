@@ -1,0 +1,49 @@
+{
+  "code": "CSC 203",
+  "books": {
+    "epp": {
+      "title": "Discrete Mathematics with Applications",
+      "authors": "Susanna S. Epp",
+      "edition": "4th edition",
+      "publisher": "Cengage Learning",
+      "year": 2011
+    }
+  },
+  "topics": {
+    "logic-and-quantified-statements": [
+      {
+        "book": "epp",
+        "read": "Chapters 2 and 3 (the logic of compound and quantified statements)",
+        "why": "Connectives, truth tables and quantifier rules."
+      }
+    ],
+    "sets": [
+      {
+        "book": "epp",
+        "read": "Chapter 6 (set theory)",
+        "why": "Set operations, power sets and Cartesian products."
+      }
+    ],
+    "functions-and-sequences": [
+      {
+        "book": "epp",
+        "read": "Chapter 7 (functions) and Section 5.1 (sequences)",
+        "why": "One-to-one and onto functions and sequence formulas."
+      }
+    ],
+    "algorithms-and-number-theory": [
+      {
+        "book": "epp",
+        "read": "Chapter 4 (elementary number theory) and Chapter 11 (analysis of algorithm efficiency)",
+        "why": "Divisibility, gcd and big-O."
+      }
+    ],
+    "mathematical-reasoning-and-proofs": [
+      {
+        "book": "epp",
+        "read": "Section 2.3 (valid and invalid arguments), Chapter 4 (methods of proof) and Chapter 5 (mathematical induction)",
+        "why": "Rules of inference and the direct, indirect and inductive proofs in the notes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "{dog, cat, horse} and {cat, horse, dog, dog} are the same set.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Order and repetition do not matter in a set.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the cardinality of {5, {2, 3}, {9, 4}, 6, {3, 7, 8}}?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each inner set counts as one element.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If |A| = 3, how many subsets does A have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The power set has 2ⁿ elements.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A ∩ B = ∅ means A and B are",
+    "options": [
+      {
+        "key": "a",
+        "text": "disjoint"
+      },
+      {
+        "key": "b",
+        "text": "equal"
+      },
+      {
+        "key": "c",
+        "text": "complements"
+      },
+      {
+        "key": "d",
+        "text": "subsets of each other"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They have no element in common.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements are always true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "∅ ⊆ A for every set A"
+      },
+      {
+        "key": "b",
+        "text": "A ⊆ A for every set A"
+      },
+      {
+        "key": "c",
+        "text": "|A × B| = |A| · |B|"
+      },
+      {
+        "key": "d",
+        "text": "A ⊂ A"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A is not a proper subset of itself.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a group of 100, 40 attend workshop A, 30 attend B and 15 attend both. How many attend at least one?",
+    "options": [
+      {
+        "key": "a",
+        "text": "55"
+      },
+      {
+        "key": "b",
+        "text": "70"
+      },
+      {
+        "key": "c",
+        "text": "85"
+      },
+      {
+        "key": "d",
+        "text": "45"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "40 + 30 − 15 = 55.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a set operation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Union"
+      },
+      {
+        "key": "b",
+        "text": "Intersection"
+      },
+      {
+        "key": "c",
+        "text": "Difference"
+      },
+      {
+        "key": "d",
+        "text": "Implication"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Implication is a logical operator; the others are set operations.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The complement of A contains the elements of the universal set that are not in A.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is written Aᶜ.",
+    "source": "2. Sets.ppt (CSC 203 slides)"
+  }
+]

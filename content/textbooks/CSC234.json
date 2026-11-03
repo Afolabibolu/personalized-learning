@@ -1,0 +1,73 @@
+{
+  "code": "CSC 234",
+  "books": {
+    "ayorinde": {
+      "title": "CSC 234: Assembly Language Programming (Ibadan Distance Learning Series)",
+      "authors": "Ibiyinka Temilola Ayorinde",
+      "publisher": "Distance Learning Centre, University of Ibadan"
+    },
+    "hyde": {
+      "title": "The Art of Assembly Language",
+      "authors": "Randall Hyde",
+      "edition": "2nd edition",
+      "publisher": "No Starch Press",
+      "year": 2010
+    }
+  },
+  "topics": {
+    "data-representation": [
+      {
+        "book": "ayorinde",
+        "read": "Study Session 1, Data Representation",
+        "why": "Number systems and signed numbers with SAQs."
+      },
+      {
+        "book": "hyde",
+        "read": "The chapter on data representation",
+        "why": "Cited by the course book."
+      }
+    ],
+    "architecture-and-registers": [
+      {
+        "book": "ayorinde",
+        "read": "Study Session 2, Introduction to Assembly Language",
+        "why": "Buses, registers and physical addresses."
+      }
+    ],
+    "instructions-and-operands": [
+      {
+        "book": "ayorinde",
+        "read": "Study Session 3, Mnemonics and Operands",
+        "why": "Operand types and MOV rules."
+      }
+    ],
+    "addressing-modes": [
+      {
+        "book": "ayorinde",
+        "read": "Study Session 4, The 80x86 Addressing Modes",
+        "why": "Worked programs in each mode."
+      }
+    ],
+    "interrupts-and-io-functions": [
+      {
+        "book": "ayorinde",
+        "read": "Study Sessions 5 and 6, Interrupts and Common Functions",
+        "why": "INT 10h, 11h, 21h and the emu8086 functions."
+      }
+    ],
+    "arithmetic-logic-and-flow-control": [
+      {
+        "book": "ayorinde",
+        "read": "Study Sessions 7 and 8, Arithmetic and Logic; Program Flow Control",
+        "why": "Flags, jumps and loops."
+      }
+    ],
+    "procedures-stack-and-macros": [
+      {
+        "book": "ayorinde",
+        "read": "Study Sessions 9 to 12 (Procedures, Stack, Macros, Interfacing C)",
+        "why": "CALL and RET, PUSH and POP, and macros."
+      }
+    ]
+  }
+}

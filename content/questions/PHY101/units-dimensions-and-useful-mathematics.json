@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The dimension of Planck's constant h, from E = hc/λ, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ML²T⁻¹"
+      },
+      {
+        "key": "b",
+        "text": "MLT⁻¹"
+      },
+      {
+        "key": "c",
+        "text": "ML²T⁻²"
+      },
+      {
+        "key": "d",
+        "text": "ML¹T⁻²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "h = Eλ/c = (ML²T⁻²)(L)/(LT⁻¹).",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For PV^β = K, which graph gives β and K?",
+    "options": [
+      {
+        "key": "a",
+        "text": "log P against log V"
+      },
+      {
+        "key": "b",
+        "text": "log P against log K"
+      },
+      {
+        "key": "c",
+        "text": "1/log P against 1/log K"
+      },
+      {
+        "key": "d",
+        "text": "P against V"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "log P = −β log V + log K is a straight line.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In vⁿ = 2ax, with v in m/s, a in m/s² and x in m, n must be",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "−1"
+      },
+      {
+        "key": "d",
+        "text": "−2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2ax has dimension L²T⁻².",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dimension of pressure is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ML⁻¹T⁻²"
+      },
+      {
+        "key": "b",
+        "text": "MLT⁻²"
+      },
+      {
+        "key": "c",
+        "text": "ML²T⁻²"
+      },
+      {
+        "key": "d",
+        "text": "ML⁻³"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Force per area: MLT⁻²/L².",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Regardless of the unit used for a physical quantity, its dimension does not change.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Units set the scale; the dimension is fixed.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "Dimensionless physical quantities never have units.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Angles are dimensionless but measured in radians or degrees.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are fundamental quantities in SI?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mass"
+      },
+      {
+        "key": "b",
+        "text": "Electric current"
+      },
+      {
+        "key": "c",
+        "text": "Luminous intensity"
+      },
+      {
+        "key": "d",
+        "text": "Force"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Force is derived (MLT⁻²).",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which unit is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Metre"
+      },
+      {
+        "key": "b",
+        "text": "Kilogram"
+      },
+      {
+        "key": "c",
+        "text": "Kelvin"
+      },
+      {
+        "key": "d",
+        "text": "Newton"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The newton is derived; the others are base units.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  }
+]

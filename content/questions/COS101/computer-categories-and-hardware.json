@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which bus passes information in both directions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data bus"
+      },
+      {
+        "key": "b",
+        "text": "Address bus"
+      },
+      {
+        "key": "c",
+        "text": "Control bus"
+      },
+      {
+        "key": "d",
+        "text": "Ram bus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The address bus locates storage and the control bus says read or write.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The four operations of a CPU machine cycle are",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fetch, decode, execute, store"
+      },
+      {
+        "key": "b",
+        "text": "Input, process, output, store"
+      },
+      {
+        "key": "c",
+        "text": "Read, write, copy, delete"
+      },
+      {
+        "key": "d",
+        "text": "Load, link, compile, run"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They repeat for every instruction.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The largest type of microcomputer, used in scientific and engineering applications, is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Workstation"
+      },
+      {
+        "key": "b",
+        "text": "Laptop"
+      },
+      {
+        "key": "c",
+        "text": "Mainframe"
+      },
+      {
+        "key": "d",
+        "text": "Supercomputer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mainframes and supercomputers are not microcomputers.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Magnetic ink character recognition (MICR) is used mainly for",
+    "options": [
+      {
+        "key": "a",
+        "text": "Processing cheques in banking"
+      },
+      {
+        "key": "b",
+        "text": "Reading pencil marks on answer sheets"
+      },
+      {
+        "key": "c",
+        "text": "Scanning photographs"
+      },
+      {
+        "key": "d",
+        "text": "Reading bar codes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "OMR reads pencil marks.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "true_false",
+    "stem": "RAM is volatile: its contents are lost when the power is turned off.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "ROM and secondary storage are non-volatile.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Magnetic tape gives direct access to any record, like a hard disk.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Tape is sequential; disks are direct access storage devices.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three essential components of the von Neumann architecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Input/output devices"
+      },
+      {
+        "key": "b",
+        "text": "Memory"
+      },
+      {
+        "key": "c",
+        "text": "The central processing unit"
+      },
+      {
+        "key": "d",
+        "text": "The network card"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Memory holds both data and programs.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which device is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Keyboard"
+      },
+      {
+        "key": "b",
+        "text": "Light pen"
+      },
+      {
+        "key": "c",
+        "text": "Scanner"
+      },
+      {
+        "key": "d",
+        "text": "Printer"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A printer is an output device; the others are input devices.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  }
+]

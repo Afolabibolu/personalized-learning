@@ -1,0 +1,573 @@
+{
+  "code": "MTH 103",
+  "papers": [
+    {
+      "year": "Undated",
+      "paper": "MAT 141 examination, undated (multiple choice and Section B; set as MAT 141, this course's former code). Only the legible items are copied: the photographed pages are blurred in places",
+      "source": "MAT 141_pq.pdf"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "MAT 141: Analytical Geometry and Mechanics, Second Semester Examinations 2021/2022 (Monday, June 5, 2023), 2½ hours. Answer all questions (multiple choice, 2 marks each)",
+      "source": "MAT141 EXAM 2023.pdf (identical copies in Past questions and Materials)"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "MAT 141: Analytical Geometry and Mechanics, Second Semester Examinations 2022/2023 (Monday, April 8, 2024), 2½ hours. Answer all questions (short answers with workings)",
+      "source": "2022 exam.JPG and 2022 exams.JPG"
+    },
+    {
+      "year": "2025 test",
+      "paper": "MTH 103 test questions (2025), as recalled by a student and shared on WhatsApp; not the official question paper",
+      "source": "2025 test questions.png"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Undated",
+      "number": "1",
+      "topic": "circles-and-polar-coordinates",
+      "text": "A quadrilateral with vertices A(−5, −1), B(2, 6), C(5, 3) and D(−2, −4) (partly cut off) is such that the circumference circle centered at E(4, 2) and radius 3 units is such that the circumference of the circle intersects the quadrilateral on the sides BC and CD. At what point did the circle intersect the rectangle on the line BC? (a) (6.87, 1.13) (b) (3.13, 4.87) (c) (3, 5) (d) (7, 1)"
+    },
+    {
+      "year": "Undated",
+      "number": "2",
+      "topic": "circles-and-polar-coordinates",
+      "text": "(Same quadrilateral and circle.) At what point did the circle intersect the rectangle on the line CD? (a) (1.88, −0.12) (b) (6.12, 4.12) (c) (1.89, −0.13) (d) (6.20, 4.12)"
+    },
+    {
+      "year": "Undated",
+      "number": "3",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(Same quadrilateral.) What can you say about the line BC and AD? (a) Perpendicular (b) At acute angle (c) At obtuse angle (d) Parallel"
+    },
+    {
+      "year": "Undated",
+      "number": "4",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(Same quadrilateral.) What can you say about the line BC and CD? (a) Perpendicular (b) At acute angle (c) At obtuse angle (d) Parallel"
+    },
+    {
+      "year": "Undated",
+      "number": "5",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(Same quadrilateral.) What type of quadrilateral is ABCD? (a) Rectangle (b) Trapezium (c) Parallelogram (d) None"
+    },
+    {
+      "year": "Undated",
+      "number": "6",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(Same quadrilateral.) Find the area of quadrilateral ABCD. (a) 49 (b) 46 (c) 44 (d) 42"
+    },
+    {
+      "year": "Undated",
+      "number": "7",
+      "topic": "circles-and-polar-coordinates",
+      "text": "(Same quadrilateral.) At what point should the circle be centered to divide DC in the ratio 1:1? (a) (1.5, −0.5) (b) (−1.5, 0.5) (c) (−1.5, −0.5) (d) (1.5, 0.5)"
+    },
+    {
+      "year": "Undated",
+      "number": "8",
+      "topic": "conic-sections",
+      "text": "Given that the eccentricity e of a conic section is greater than 1, the locus represented is (a) Ellipse (b) Parabola (c) Hyperbola (d) Circle"
+    },
+    {
+      "year": "Undated",
+      "number": "9",
+      "topic": "conic-sections",
+      "text": "Which of the following loci is represented by the property b² = a²(e² − 1) (a) Ellipse (b) Parabola (c) Hyperbola (d) Circle"
+    },
+    {
+      "year": "Undated",
+      "number": "10",
+      "topic": "conic-sections",
+      "text": "Find the equation of the normal to the parabola y² = 4x at (2, 4). (a) 2x − y = 8 (b) y − 2x = 8 (c) y − 2x − 8 = 0 (d) y + 2x = 8"
+    },
+    {
+      "year": "Undated",
+      "number": "11",
+      "topic": "circles-and-polar-coordinates",
+      "text": "Find the area of the circle x² + y² − 8x − 10y + 32 = 0 (Leave your answer in term of π). (a) 9π (b) 6π (c) 4π (d) 1.6π"
+    },
+    {
+      "year": "Undated",
+      "number": "12",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "Find the perpendicular distance between the line 2x − y = 4 and the point (9, 5). (a) 5/√3 (b) −9/√5 (c) 9/√5 (d) −5/√3"
+    },
+    {
+      "year": "Undated",
+      "number": "22",
+      "topic": "vectors-and-their-products",
+      "text": "If a = 10i + 10j + 5k and b = 5i − 2j − 14k, determine the angle between the vectors a and b. (A) 130.04° (B) 100.24° (C) 112.22° (D) 81.52°"
+    },
+    {
+      "year": "Undated",
+      "number": "23",
+      "topic": "vectors-and-their-products",
+      "text": "If a = 10i + 10j + 5k, b = 5i − 2j − 14k and c = 4i + 7j − 4k, determine a × (b × c) (A) −210i + 710j + 425k (B) 110i + 108j + 61k (C) 610i + 100j − 1420k (D) 245i + 160j − 170k"
+    },
+    {
+      "year": "Undated",
+      "number": "24",
+      "topic": "vectors-and-their-products",
+      "text": "Evaluate a · (b × c), if a = 2i − 3j + 6k, b = 10i + 2j + 11k and c = 2i − 9j − 6k. (A) −220 (B) 414 (C) −636 (D) 915"
+    },
+    {
+      "year": "Undated",
+      "number": "25",
+      "topic": "vectors-and-their-products",
+      "text": "Find the volume of the parallelepiped having a + c, a − c and c as concurrent edges given that a = 2i − 2j + k, b = i + 8j − 4k and c = 12i − 4j − 3k (A) 24 (B) 64 (C) 0 (D) 14"
+    },
+    {
+      "year": "Undated",
+      "number": "26",
+      "topic": "vectors-and-their-products",
+      "text": "Find a unit vector perpendicular to the plane of the vectors a = 4i − j + 3k and b = −2i + j − 2k (A) −(1/5)(−i + 2j + 2k) (B) (1/3)(2i − j + k) (C) (1/3)(−i + 2j + 2k) (D) (1/3)(2i + j + 2k)."
+    },
+    {
+      "year": "Undated",
+      "number": "36",
+      "topic": "dynamics-and-moment-of-inertia",
+      "text": "Forces of 15N and 10N are at an angle of 90° to each other. Find the direction of the resultant of these two forces with respect to the 15N force. (A) 30.24° (B) 24.04° (C) 33.69° (D) 42.13°"
+    },
+    {
+      "year": "Undated",
+      "number": "37",
+      "topic": "dynamics-and-moment-of-inertia",
+      "text": "The angular velocity of a rotating rigid body about an axis of rotation is given by ω = 4i + j − 2k. Find the linear velocity of a point P on the body whose position vector relative to a point on the axis of rotation is 2i − 3j + k. (A) 7i + 4j − 12k (B) −5i − 8j − 14k (C) 6i + 7j − 2k (D) −2i − 5j + 13k."
+    },
+    {
+      "year": "Undated",
+      "number": "38",
+      "topic": "dynamics-and-moment-of-inertia",
+      "text": "A motorcyclist moves with an acceleration of 5ms⁻¹ (as printed) a horizontal road against a total resistance of 120N. The total mass of the rider and the motorcycle is 400kg. Find the driving force provided by the engine. (A) 1110N (B) 2300N (C) 1680N (D) 2120N"
+    },
+    {
+      "year": "Undated",
+      "number": "40",
+      "topic": "kinematics-and-projectiles",
+      "text": "The trajectory of a projectile launched from ground is given by the equation y = −0.025x² + 0.5x, where x and y are the coordinate of the projectile on a rectangular system of axes. Find the angle at which the projectile is launched. (A) 31.3° (B) 26.5° (C) 18.3° (D) 24.3°"
+    },
+    {
+      "year": "Undated",
+      "number": "B1",
+      "topic": "dynamics-and-moment-of-inertia",
+      "text": "Consider a rectangular plate of lamina density 0.05kgm⁻² and mass 2kg which is situated as shown below (a 100cm by 40cm plate, with a 50cm mark and an elemental strip δx in the figure). Find (a) the moment of inertia (I) and (b) the radius of gyration (K)."
+    },
+    {
+      "year": "Undated",
+      "number": "B2",
+      "topic": "kinematics-and-projectiles",
+      "text": "(a) Find the angles of the triangle whose vertices have position vectors i + j − k, 2i − j + k, −i + j + k (partly cut off). (b) A particle is projected with speed 49ms⁻¹ at an elevation tan⁻¹(3/4). Find its horizontal and vertical distances from the point of projection, and its velocity (in magnitude and direction) after 2seconds. (c) Two forces act on a body of mass 2.5kg. One has a magnitude of 5N in the direction N30°E and the second one has a magnitude of 8N in the direction E. Find the magnitude of the resultant of the forces, its direction and the acceleration produced."
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "At what ratio is the point (4b − 2a, 9c − a) divides the line joining the points (a + b, 3c + 5a) and (5b − 3a, 11c − 3a) (A) (a − b) : (b − a) (B) 3 : 1 (C) 2 : 3 (D) 1 : 3."
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "topic": "vectors-and-their-products",
+      "text": "Evaluate |(A + B)·(A − B)| if A = 2i − 3j + 5k and B = 3i + j − 2k. (A) 34 (B) 18 (C) 24 (D) −8"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "topic": "vectors-and-their-products",
+      "text": "Determine the work done by a force of F = (2i − 5j + 4k) newtons acting at a point on a body, when A(2, 5, −3) is displaced to point B(1, −3, 0). (A) 50J (B) 15J (C) 45J (D) 54J"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "A point C moves so that its distance from two fixed points A(5, 3) and B(7, 4) are always equal. Find the equation of the locus of C. (A) 2x + 4y = 31 (B) 4x + 2y = 31 (C) 2x + 2y = 62 (D) 8x + 4y = 31."
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "topic": "lines-and-planes-in-space",
+      "text": "Find the vector equation of the straight line joining A(5, 2, 6) and B(−3, 6, 2). (A) (5 + 2α, 2 − α, 6 + α) (B) (3 + 5α, 3 − α, 6 − 2α) (C) (5 − α, 1 + 2α, 6 + α) (D) (5 − 2α, 2 + α, 6 − α)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "6",
+      "topic": "conic-sections",
+      "text": "Find the equations of the tangents to the ellipse 4x² + 5y² = 20 which are parallel to the line 2y − 6x = 7. (A) y = 7x ± 3 (B) y = x ± 1 (C) y = 2x ± 3 (D) y = 3x ± 7."
+    },
+    {
+      "year": "2021/2022",
+      "number": "7",
+      "topic": "lines-and-planes-in-space",
+      "text": "Find the equation of the plane containing the point A with vector position a = i + 5j + 3k and perpendicular to the vector 2i + 3j + 6k. (A) x + y + z = 18 (B) 2x − y − z = 15 (C) 2x + 3y + 6z = 35 (D) x + 3y − 2z = 15"
+    },
+    {
+      "year": "2021/2022",
+      "number": "8",
+      "topic": "conic-sections",
+      "text": "Find the equation of the tangent line to the parabola y² = 4px at the point (x₀, y₀) (A) y² = 2px² (B) 2y² = 2px² (C) 2p(y − y₀) = −y₀(x − x₀) (D) yy₀ = 2p(x + x₀)."
+    },
+    {
+      "year": "2021/2022",
+      "number": "9",
+      "topic": "vectors-and-their-products",
+      "text": "A force of (2i − j + k) newtons acts on a line through point P having coordinates (0, 3, 1) meters. Determine the moment vector and its magnitude about point Q having coordinates (4, 0, −1) meters. (A) 7.46J (B) 9.64J (C) 3.76J (D) 4.49J"
+    },
+    {
+      "year": "2021/2022",
+      "number": "10",
+      "topic": "circles-and-polar-coordinates",
+      "text": "Find the equation of the circle centre (7, −6), which touches the line 3x − 4y + 5 = 0 (A) (x + 7)² + (y − 6)² = 10² (B) (x − 7)² + (y − 6)² = 4² (C) (x − 7)² + (y + 6)² = 10² (D) (x + 6)² + (y − 6)² = 10²"
+    },
+    {
+      "year": "2021/2022",
+      "number": "11",
+      "topic": "conic-sections",
+      "text": "What is the vertex of the parabola x² − 2x + 8y + 9 = 0? (A) (−1, −1) (B) (1, −1) (C) (−1, 1) (D) (1, 1)."
+    },
+    {
+      "year": "2021/2022",
+      "number": "12",
+      "topic": "conic-sections",
+      "text": "What is the nature of the graph of the equation 6x² − 9y² − 8x − 36y − 69 = 0? (A) parabola (B) hyperbola (C) circle (D) ellipse"
+    },
+    {
+      "year": "2021/2022",
+      "number": "13",
+      "topic": "vectors-and-their-products",
+      "text": "The position vectors of U, V and W are respectively u = (12i + 8j + k), v = (3i + 2j − 5k) and w = (−3i − 2j + βk). Find the value of β for which W and UV are parallel. (A) −2 (B) −9 (C) −3 (D) 6"
+    },
+    {
+      "year": "2021/2022",
+      "number": "14",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "If the points A(5, 6), P(x, y) and B(2, 3) are collinear, express x in terms of y (A) x = y − 1 (B) y = x − 1 (C) x = 2y − 1 (D) x = y − 2."
+    },
+    {
+      "year": "2021/2022",
+      "number": "15",
+      "topic": "lines-and-planes-in-space",
+      "text": "If r₁ = r₂, where lines r₁ = (2i + 2j − 4k) + t(i + 3j − 3k) and r₂ = (i + j + k) + s(i + 2j − 4k). Find t and s. (A) −1, −3 (B) 3, −2 (C) 1, 2 (D) 1, −3"
+    },
+    {
+      "year": "2021/2022",
+      "number": "16",
+      "topic": "vectors-and-their-products",
+      "text": "If a = 2i − j + k and b = i + 2j − 3k, find |(2a + b) × (a − 2b)|. (A) 5√3 (B) 15√5 (C) 25√3 (D) 5√5"
+    },
+    {
+      "year": "2021/2022",
+      "number": "17",
+      "topic": "vectors-and-their-products",
+      "text": "Given the vector a = 4i − 2j + 3k and b = 5i + j − 4k, find the area of the parallelogram enclosed by a and b. (A) √1321 (B) √513 (C) √1182 (D) √117"
+    },
+    {
+      "year": "2021/2022",
+      "number": "18",
+      "topic": "kinematics-and-projectiles",
+      "text": "Given that a = 8 − 2t² and when t = 0, v = 0, and s = 0, find the distance covered by the particle in first 2 seconds of its motion. (A) 10⅔ (B) 11⅓ (C) 13⅓ (D) 17⅓"
+    },
+    {
+      "year": "2021/2022",
+      "number": "19",
+      "topic": "vectors-and-their-products",
+      "text": "Given that AB = i − 2j + 3k and AC = 3i − 4k, find the length of the projection of AC on AB. (A) −9/5 (B) 15/√5 (C) −3/√14 (D) −9/√14"
+    },
+    {
+      "year": "2021/2022",
+      "number": "20",
+      "topic": "conic-sections",
+      "text": "Find the locus of the point P which moves so that the sum of its distances from two fixed points A and B 8 units apart is always 14 units. Take AB and its perpendicular bisector as the axes x and y respectively. (A) x²/49 + y²/33 (B) x²/7 + y²/11 (C) x²/33 + y²/49 (D) x²/39 + y²/43."
+    },
+    {
+      "year": "2021/2022",
+      "number": "21",
+      "topic": "vectors-and-their-products",
+      "text": "Given the scalar field defined by θ(x, y, z) = 3x²z − zy³ + 5, find θ(1, −2, 2). (A) −7 (B) 9 (C) 17 (D) 19"
+    },
+    {
+      "year": "2021/2022",
+      "number": "22",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "Use this information to answer questions twenty-two and twenty-three: the ends of a line segment are (p − q, p + q) and (p + q, p − q). Find the coordinates of its mid-point. (A) (2p, p) (B) (p, q) (C) (p, p) (D) (q, −2p)."
+    },
+    {
+      "year": "2021/2022",
+      "number": "23",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(Same line segment.) Find the length of the line segment. (A) 2p√3 (B) 3q√2 (C) 2q√2 (D) 2pq√2."
+    },
+    {
+      "year": "2021/2022",
+      "number": "24",
+      "topic": "conic-sections",
+      "text": "Find the equation of the normal to the hyperbola 9x² − 4y² = 36 at the point (4, 3√3). (A) 3y = −√3x + 13√3 (B) 3y = √3x + 3√3 (C) y = √3x − √3 (D) 2y = −√3x + 13√2."
+    },
+    {
+      "year": "2021/2022",
+      "number": "25",
+      "topic": "vectors-and-their-products",
+      "text": "Find the cosine of the angle β which the vector a = 3i − 6j + 2k makes with the y-axis. (A) 3/7 (B) −6/7 (C) 2/7 (D) 3/2"
+    },
+    {
+      "year": "2021/2022",
+      "number": "26",
+      "topic": "conic-sections",
+      "text": "Find the equation of the tangent at any point on the parabola x = 6t, y = 3t². (A) 2tx² + 2tx + 4y = 0 (B) tx + 2y − 31 = 0 (C) tx + 2y = 62 (D) 3t² − tx + y = 0."
+    },
+    {
+      "year": "2021/2022",
+      "number": "27",
+      "topic": "vectors-and-their-products",
+      "text": "Find the area of the triangle with vertices at P(2, 3, 5), Q(4, 2, −1) and R(3, 6, 4). (A) √1183 (B) √113 (C) ½√426 (D) ½√413"
+    },
+    {
+      "year": "2021/2022",
+      "number": "28",
+      "topic": "conic-sections",
+      "text": "Find the asymptote of the hyperbola 9x² − 4y² = 36. (A) y = ±7x − 3 (B) y = ±2/3 (C) y = ±3/2 (D) y = ±3x − 7."
+    },
+    {
+      "year": "2021/2022",
+      "number": "29",
+      "topic": "vectors-and-their-products",
+      "text": "Find a unit vector perpendicular to the plane of the vector P = 3i − 2j + 4k and Q = i + j − 2k. (A) ±(1/3)(i − 2j + k) (B) ±(1/√5)(2j + k) (C) ±(1/√3)(2i − j + 3k) (D) ±(1/3)(−2j + 3k)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "30",
+      "topic": "conic-sections",
+      "text": "An ellipse has eccentricity e = 4/5, its foci are the points (0, ±4), write its equation. (A) x²/25 + y²/3 (B) x²/9 + y²/25 (C) x²/3 + y²/5 (D) x²/5 + y²/25."
+    },
+    {
+      "year": "2022/2023",
+      "number": "1",
+      "topic": "kinematics-and-projectiles",
+      "text": "A particle starts from rest. Its acceleration after t seconds is 1/(1 + 2t)² ms⁻². Find its speed and how far it has moved after 2seconds."
+    },
+    {
+      "year": "2022/2023",
+      "number": "2",
+      "topic": "vectors-and-their-products",
+      "text": "Find the value of β if the vector a = (3, β, 5), b = (2, −1, 1) and c = (1, 2, −3) are coplanar."
+    },
+    {
+      "year": "2022/2023",
+      "number": "3",
+      "topic": "vectors-and-their-products",
+      "text": "The position vectors of points A and B relative to an origin O are i + j and i + j + √2k. Find angle AOB."
+    },
+    {
+      "year": "2022/2023",
+      "number": "4",
+      "topic": "kinematics-and-projectiles",
+      "text": "A particle is projected with a velocity 100ms⁻¹ at an angle of 30° to the horizontal. Find the greatest height attained and the time of flight."
+    },
+    {
+      "year": "2022/2023",
+      "number": "5",
+      "topic": "vectors-and-their-products",
+      "text": "Given that a = 5i + 2j − k and b = i − 3j + k. Find (a + b) × (a − b)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "6",
+      "topic": "lines-and-planes-in-space",
+      "text": "Find the perpendicular distance of the point P(2, 3, 4) from the line r = (i + 15j + 11k) + λ(4i − 12j − 3k)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "7",
+      "topic": "dynamics-and-moment-of-inertia",
+      "text": "A body of mass 500g is moving with a velocity of (5i − 2j)ms⁻¹. A force of (mi + nj)N acts on the body for 10seconds, after which the body has a velocity of (25i + 58j)ms⁻¹. Find m and n"
+    },
+    {
+      "year": "2022/2023",
+      "number": "8",
+      "topic": "vectors-and-their-products",
+      "text": "Find the value of α if the vectors αi + 4j and −2i + 6j are parallel."
+    },
+    {
+      "year": "2022/2023",
+      "number": "9",
+      "topic": "vectors-and-their-products",
+      "text": "If a = 3i + 7j − 4k, b = i − 5j − 8k and c = 6i − 2j + 12k. Find the direction cosines of their sum."
+    },
+    {
+      "year": "2022/2023",
+      "number": "10",
+      "topic": "vectors-and-their-products",
+      "text": "Find the value of t such that the variable vector (4, 6, 10) + t(−1, 2, 3) is perpendicular to the vector (4, 2, −7)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "11",
+      "topic": "vectors-and-their-products",
+      "text": "The sum of the vectors 3i + 2j − 4k, pi − 5j + 3k and 6i − 2j + 7k, is 10i − qj + 6k. Find the values of p and q."
+    },
+    {
+      "year": "2022/2023",
+      "number": "12",
+      "topic": "vectors-and-their-products",
+      "text": "The vector AB and AC are (−2, 6, −3) and (−2, −3, 6) respectively. Calculate the acute angle between the vectors. Give the angle in degrees correct to one decimal place."
+    },
+    {
+      "year": "2022/2023",
+      "number": "13",
+      "topic": "lines-and-planes-in-space",
+      "text": "The point (1, 2, 4) lies in plane P which is perpendicular to the vector a = 2i − 3j + k. Given r = xi + yj + zk which is the position vector of another point in the plane, find the equation of the plane."
+    },
+    {
+      "year": "2022/2023",
+      "number": "14",
+      "topic": "vectors-and-their-products",
+      "text": "Find the volume of the parallelepiped whose edges are represented by a = 2i − 3j + k, b = i − 2j + k and c = 3i + 2j − k."
+    },
+    {
+      "year": "2022/2023",
+      "number": "15",
+      "topic": "lines-and-planes-in-space",
+      "text": "Find the coordinates of the point of intersection of the line r = (1, 0, 1) + s(2, 1, −3) with the plane 3x + 2y + 4z = 11."
+    },
+    {
+      "year": "2022/2023",
+      "number": "16",
+      "topic": "conic-sections",
+      "text": "Find the locus of the point P which moves so that the sum of its distances from two fixed points A and B 10 units apart is always 18 units. Take AB and its perpendicular bisector as the axes x and y respectively."
+    },
+    {
+      "year": "2022/2023",
+      "number": "17",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "The ends of a line segment are (a − b, a + b) and (a + b, a − b). Find the length of the line segment."
+    },
+    {
+      "year": "2022/2023",
+      "number": "18",
+      "topic": "conic-sections",
+      "text": "Find the equation of the normal to the hyperbola 9x² − 4y² = 36 at the point (4, 3√3)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "19",
+      "topic": "conic-sections",
+      "text": "Find the asymptote of the hyperbola 2y² − 3x² − 4y + 12x + 8 = 0."
+    },
+    {
+      "year": "2022/2023",
+      "number": "20",
+      "topic": "conic-sections",
+      "text": "Find the slope of the normal at any point on the hyperbola x²/a² − y²/b² = 1."
+    },
+    {
+      "year": "2022/2023",
+      "number": "21",
+      "topic": "conic-sections",
+      "text": "Given that the equation of an ellipse is 25x² + 4y² − 50x − 16y − 59 = 0. Write the equation in it's canonical form."
+    },
+    {
+      "year": "2022/2023",
+      "number": "22",
+      "topic": "conic-sections",
+      "text": "Find the equation of the tangent at the point x = 3t, y = 3t² on the parabola x² = 3y."
+    },
+    {
+      "year": "2022/2023",
+      "number": "23",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "A point C moves so that its distance from two fixed points A(5, 3) and B(7, 4) are always equal. Find the equation of the locus of C."
+    },
+    {
+      "year": "2022/2023",
+      "number": "24",
+      "topic": "circles-and-polar-coordinates",
+      "text": "Find the equation of the circle centre (7, −6), which touches the line 3x − 4y + 5 = 0."
+    },
+    {
+      "year": "2022/2023",
+      "number": "25",
+      "topic": "conic-sections",
+      "text": "An ellipse has eccentricity e = 4/5, its foci are the points (0, ±4). Write its equation in canonical form."
+    },
+    {
+      "year": "2022/2023",
+      "number": "26",
+      "topic": "conic-sections",
+      "text": "Find the equation of the tangent line to the parabola y² = 4px at the point (x₀, y₀)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "27",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "At what ratio is the point (4b − 2a, 9c − a) divides the line joining the points (a + b, 3c + 5a) and (5b − 3a, 11c − 3a)."
+    },
+    {
+      "year": "2022/2023",
+      "number": "28",
+      "topic": "conic-sections",
+      "text": "Find the equations of the tangents to the ellipse 4x² + 5y² = 20 which are parallel to the line 2y − 6x = 7."
+    },
+    {
+      "year": "2022/2023",
+      "number": "29",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "If the points A(5, 6), P(x, y) and B(2, 3) are collinear, express x in terms of y."
+    },
+    {
+      "year": "2022/2023",
+      "number": "30",
+      "topic": "conic-sections",
+      "text": "Find the slopes of the tangents from the point (k, h) to the ellipse x²/a² + y²/b² = 1."
+    },
+    {
+      "year": "2025 test",
+      "number": "1",
+      "topic": "kinematics-and-projectiles",
+      "text": "Position x = e^(−t) cos t, y = e^(−t) sin t, z = e^(−t). Find the magnitude of the acceleration."
+    },
+    {
+      "year": "2025 test",
+      "number": "2",
+      "topic": "conic-sections",
+      "text": "y = mx + c is a tangent to a curve 4x² + 3y² = 12. Find an expression for c²"
+    },
+    {
+      "year": "2025 test",
+      "number": "3",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "If (q + r, q − r) and (q − r, q + r) are the end points of a line segment, find the length of the segment"
+    },
+    {
+      "year": "2025 test",
+      "number": "4",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "A line joining the point (4, 3) and the intercept of the lines y = 2x + 5 & y = x + 4... find the equation of the line."
+    },
+    {
+      "year": "2025 test",
+      "number": "5",
+      "topic": "circles-and-polar-coordinates",
+      "text": "If the equation of the cartasian form is x² + y² = 4y, find the equation in polar form"
+    },
+    {
+      "year": "2025 test",
+      "number": "6",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "Find the gradient and the intercept on the x axis of the equation 5y + 2x + 7 = 0"
+    },
+    {
+      "year": "2025 test",
+      "number": "7",
+      "topic": "coordinate-geometry-of-lines",
+      "text": "(1, alpha), (6, gamma), (alpha, 2) if the 3 points are collinear, find an expression for alpha in terms of gamma."
+    },
+    {
+      "year": "2025 test",
+      "number": "8",
+      "topic": "vectors-and-their-products",
+      "text": "Find the angle between vector a = i + j + k and vector b = i + j + 3k, leaving your answer in cos⁻¹"
+    }
+  ]
+}

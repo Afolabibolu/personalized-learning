@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A single labelled column of data in Pandas is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Series"
+      },
+      {
+        "key": "b",
+        "text": "DataFrame"
+      },
+      {
+        "key": "c",
+        "text": "Index"
+      },
+      {
+        "key": "d",
+        "text": "Panel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A DataFrame is a full table.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many rows does df.iloc[0:2] return?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two"
+      },
+      {
+        "key": "b",
+        "text": "Three"
+      },
+      {
+        "key": "c",
+        "text": "One"
+      },
+      {
+        "key": "d",
+        "text": "All rows"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "iloc follows normal Python slicing.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many rows does df.loc[0:2] return on a default integer index?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Three"
+      },
+      {
+        "key": "b",
+        "text": "Two"
+      },
+      {
+        "key": "c",
+        "text": "One"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "loc includes the end label.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which operator combines two conditions with AND in a Pandas filter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "&"
+      },
+      {
+        "key": "b",
+        "text": "and"
+      },
+      {
+        "key": "c",
+        "text": "&&"
+      },
+      {
+        "key": "d",
+        "text": "+"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use &, | and ~, with parentheses.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "df.info() shows each column's data type and non-null count.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is used when inspecting a new dataset.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "groupby() follows a split, apply, combine pattern.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example the mean total per level.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which methods help handle missing data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "isnull()"
+      },
+      {
+        "key": "b",
+        "text": "dropna()"
+      },
+      {
+        "key": "c",
+        "text": "fillna()"
+      },
+      {
+        "key": "d",
+        "text": "nlargest()"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "nlargest() picks the top rows.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a way to inspect a DataFrame in the lesson note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "df.head()"
+      },
+      {
+        "key": "b",
+        "text": "df.shape"
+      },
+      {
+        "key": "c",
+        "text": "df.describe()"
+      },
+      {
+        "key": "d",
+        "text": "df.merge()"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "merge joins two DataFrames.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  }
+]

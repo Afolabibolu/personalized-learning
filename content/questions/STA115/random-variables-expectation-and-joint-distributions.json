@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A wheel pays 1, 5 or 30 with probabilities 0.50, 0.45 and 0.05. The expected payout is",
+    "options": [
+      {
+        "key": "a",
+        "text": "4.25"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "12"
+      },
+      {
+        "key": "d",
+        "text": "3.75"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.5 + 2.25 + 1.5.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = k(1 − x²) on −1 < x ≤ 1 to be a pdf, k must be",
+    "options": [
+      {
+        "key": "a",
+        "text": "3/4"
+      },
+      {
+        "key": "b",
+        "text": "4/3"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The integral of 1 − x² over (−1, 1) is 4/3.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If f(x) = x/6 for x = 1, 2, 3, then E(X) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "7/3"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "5/6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(1 + 4 + 9)/6 = 14/6.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If Var(X) = 4, then Var(3X + 2) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "36"
+      },
+      {
+        "key": "b",
+        "text": "14"
+      },
+      {
+        "key": "c",
+        "text": "12"
+      },
+      {
+        "key": "d",
+        "text": "38"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Var(aX + b) = a²Var(X).",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a continuous random variable, P(X = a) = 0 for any single value a.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Probabilities come from areas over intervals.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The maximum and the sum of two dice rolls are independent random variables.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "P(A = 3, B = 7) = 0 but the product of the marginals is not 0.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which rules are true for a random variable X and constants a and b?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E[a + bX] = a + bE[X]"
+      },
+      {
+        "key": "b",
+        "text": "Var(aX + b) = a²Var(X)"
+      },
+      {
+        "key": "c",
+        "text": "Var(b) = 0"
+      },
+      {
+        "key": "d",
+        "text": "E[X²] = (E[X])² always"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "E[X²] − (E[X])² is the variance, which is usually positive.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which item is not a random variable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The sum of two dice"
+      },
+      {
+        "key": "b",
+        "text": "The number of successful transplants out of 20"
+      },
+      {
+        "key": "c",
+        "text": "The time to finish a 40 km race"
+      },
+      {
+        "key": "d",
+        "text": "The act of tossing a fair coin twice"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The last is an experiment, not a numerical function of outcomes.",
+    "source": "STA 115 Lecture 4: Random Variables (Shittu) and Lecture 7: Joint and Marginal Probability Distribution (Shittu, 2021)"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "code": "MTH 202",
+  "books": {
+    "boyce": {
+      "title": "Elementary Differential Equations and Boundary Value Problems",
+      "authors": "William E. Boyce and Richard C. DiPrima",
+      "edition": "11th edition",
+      "publisher": "Wiley",
+      "note": "In the course folder."
+    },
+    "stroud": {
+      "title": "Engineering Mathematics",
+      "authors": "K. A. Stroud",
+      "publisher": "Palgrave Macmillan",
+      "note": "In the course folder."
+    },
+    "tenenbaum": {
+      "title": "Ordinary Differential Equations",
+      "authors": "Morris Tenenbaum and Harry Pollard",
+      "publisher": "Dover",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "introduction-to-odes": [
+      {
+        "book": "boyce",
+        "read": "Chapter 1, Introduction",
+        "why": "Classification of differential equations and models."
+      }
+    ],
+    "first-order-differential-equations": [
+      {
+        "book": "boyce",
+        "read": "Chapter 2, First Order Differential Equations",
+        "why": "Separable, linear, exact and Bernoulli equations."
+      }
+    ],
+    "higher-order-linear-homogeneous-equations": [
+      {
+        "book": "boyce",
+        "read": "Chapters 3 and 4 (Second Order and Higher Order Linear Equations)",
+        "why": "Characteristic equations and their roots."
+      }
+    ],
+    "undetermined-coefficients-and-variation-of-parameters": [
+      {
+        "book": "boyce",
+        "read": "Chapter 3, Second Order Linear Equations (nonhomogeneous equations, variation of parameters)",
+        "why": "Particular integrals."
+      }
+    ],
+    "the-operator-d-method": [
+      {
+        "book": "stroud",
+        "read": "The programmes on second-order differential equations (operator D)",
+        "why": "The D-operator method."
+      }
+    ],
+    "difference-equations": [
+      {
+        "book": "tenenbaum",
+        "read": "The chapter on difference equations",
+        "why": "Linear difference equations with constant coefficients."
+      }
+    ],
+    "numerical-interpolation-and-integration": [
+      {
+        "book": "stroud",
+        "read": "The programmes on numerical methods",
+        "why": "Interpolation and numerical integration."
+      }
+    ]
+  }
+}

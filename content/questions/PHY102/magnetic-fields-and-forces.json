@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The magnetic force on a charge q moving with velocity v in a field B is",
+    "options": [
+      {
+        "key": "a",
+        "text": "qv × B"
+      },
+      {
+        "key": "b",
+        "text": "qB/v"
+      },
+      {
+        "key": "c",
+        "text": "qE"
+      },
+      {
+        "key": "d",
+        "text": "q(v·B)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is perpendicular to v and B.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The radius of the circular path of a charge q (mass m, speed v) in a uniform field B is",
+    "options": [
+      {
+        "key": "a",
+        "text": "mv/(qB)"
+      },
+      {
+        "key": "b",
+        "text": "qB/(mv)"
+      },
+      {
+        "key": "c",
+        "text": "mvqB"
+      },
+      {
+        "key": "d",
+        "text": "v/(qB)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From qvB = mv²/r.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In crossed fields, a particle passes undeflected when its speed is",
+    "options": [
+      {
+        "key": "a",
+        "text": "E/B"
+      },
+      {
+        "key": "b",
+        "text": "B/E"
+      },
+      {
+        "key": "c",
+        "text": "EB"
+      },
+      {
+        "key": "d",
+        "text": "√(E/B)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "qE = qvB.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The magnetic field at distance r from a long straight wire carrying current I is",
+    "options": [
+      {
+        "key": "a",
+        "text": "μ₀I/(2πr)"
+      },
+      {
+        "key": "b",
+        "text": "μ₀nI"
+      },
+      {
+        "key": "c",
+        "text": "μ₀I/(2r)"
+      },
+      {
+        "key": "d",
+        "text": "μ₀I r"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ampère's law around a circle.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "A magnetic field does no work on a moving charged particle.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The force is always perpendicular to the velocity.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two parallel wires carrying currents in the same direction repel each other.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Same-direction currents attract.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the magnetic force on a moving charge are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is greatest when v is perpendicular to B"
+      },
+      {
+        "key": "b",
+        "text": "It is zero when v is parallel to B"
+      },
+      {
+        "key": "c",
+        "text": "Its direction reverses for a negative charge"
+      },
+      {
+        "key": "d",
+        "text": "It increases the particle's speed"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It changes only the direction.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which device is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cyclotron"
+      },
+      {
+        "key": "b",
+        "text": "Mass spectrometer"
+      },
+      {
+        "key": "c",
+        "text": "Moving-coil galvanometer"
+      },
+      {
+        "key": "d",
+        "text": "Electroscope"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "An electroscope detects static charge; the others use magnetic forces.",
+    "source": "PHY 104 Part 2: Magnetism (P. O. Adesina)"
+  }
+]

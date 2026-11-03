@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For my_list = [10, 20, 30, 40, 50], what is my_list[1:4]?",
+    "options": [
+      {
+        "key": "a",
+        "text": "[20, 30, 40]"
+      },
+      {
+        "key": "b",
+        "text": "[10, 20, 30, 40]"
+      },
+      {
+        "key": "c",
+        "text": "[20, 30, 40, 50]"
+      },
+      {
+        "key": "d",
+        "text": "[20, 40]"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The slice includes index 1 and excludes index 4.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "single_choice",
+    "stem": "my_list = [1, 2, 3]; my_list[1] = 10; print(my_list) shows",
+    "options": [
+      {
+        "key": "a",
+        "text": "[1, 10, 3]"
+      },
+      {
+        "key": "b",
+        "text": "[10, 2, 3]"
+      },
+      {
+        "key": "c",
+        "text": "[1, 2, 3]"
+      },
+      {
+        "key": "d",
+        "text": "An error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Lists are mutable; index 1 is replaced.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For even = {2, 4, 6, 8, 10} and big = {6, 7, 8, 9, 10}, big - even is",
+    "options": [
+      {
+        "key": "a",
+        "text": "{7, 9}"
+      },
+      {
+        "key": "b",
+        "text": "{2, 4}"
+      },
+      {
+        "key": "c",
+        "text": "{6, 8, 10}"
+      },
+      {
+        "key": "d",
+        "text": "{2, 4, 7, 9}"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Subtraction keeps big numbers that are not even.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "single_choice",
+    "stem": "my_dict = {\"name\": \"Alice\", \"age\": 25}; print(my_dict[\"city\"]) gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "KeyError: 'city'"
+      },
+      {
+        "key": "b",
+        "text": "None"
+      },
+      {
+        "key": "c",
+        "text": "\"city\""
+      },
+      {
+        "key": "d",
+        "text": "An empty string"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use get() to supply a default instead.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tuples are immutable, so append() cannot be used on them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Convert to a list to change the values.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "true_false",
+    "stem": "my_set = {} creates an empty set.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "{} creates an empty dictionary; use set().",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which ways remove the key \"age\" from my_dict?",
+    "options": [
+      {
+        "key": "a",
+        "text": "my_dict.pop(\"age\")"
+      },
+      {
+        "key": "b",
+        "text": "del my_dict[\"age\"]"
+      },
+      {
+        "key": "c",
+        "text": "my_dict.clear() (which removes it along with all other keys)"
+      },
+      {
+        "key": "d",
+        "text": "my_dict.remove(\"age\")"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Dictionaries have no remove() method.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which collection is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "List"
+      },
+      {
+        "key": "b",
+        "text": "Dictionary"
+      },
+      {
+        "key": "c",
+        "text": "Set"
+      },
+      {
+        "key": "d",
+        "text": "Tuple"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A tuple is immutable; lists, dictionaries and sets can be changed.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which function lets a child class call its parent's methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "super()"
+      },
+      {
+        "key": "b",
+        "text": "self()"
+      },
+      {
+        "key": "c",
+        "text": "parent()"
+      },
+      {
+        "key": "d",
+        "text": "base()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example super().__init__(name).",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "GoldenRetriever → Dog → Animal is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "multilevel inheritance"
+      },
+      {
+        "key": "b",
+        "text": "single inheritance"
+      },
+      {
+        "key": "c",
+        "text": "multiple inheritance"
+      },
+      {
+        "key": "d",
+        "text": "polymorphism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a chain of classes.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which special method is called by print() for a readable result?",
+    "options": [
+      {
+        "key": "a",
+        "text": "__str__"
+      },
+      {
+        "key": "b",
+        "text": "__repr__"
+      },
+      {
+        "key": "c",
+        "text": "__init__"
+      },
+      {
+        "key": "d",
+        "text": "__len__"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "__repr__ is for developers.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If a class defines __repr__ but not __str__, print() uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "__repr__"
+      },
+      {
+        "key": "b",
+        "text": "an error"
+      },
+      {
+        "key": "c",
+        "text": "__init__"
+      },
+      {
+        "key": "d",
+        "text": "nothing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Python falls back to __repr__.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Python supports method overloading by parameter list in the same way as Java.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A later definition replaces the earlier one.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Python supports multiple inheritance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A class can inherit from more than one parent.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are benefits of inheritance in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Avoids repeating code (DRY)"
+      },
+      {
+        "key": "b",
+        "text": "Builds specialised versions of a general class"
+      },
+      {
+        "key": "c",
+        "text": "Organises code hierarchically"
+      },
+      {
+        "key": "d",
+        "text": "Removes the need for methods"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Methods are still needed.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four topics in the Advanced OOP notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inheritance"
+      },
+      {
+        "key": "b",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "c",
+        "text": "Method overriding"
+      },
+      {
+        "key": "d",
+        "text": "File compression"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is special methods.",
+    "source": "Advanced OOP Concepts_.docx (Week 4)"
+  }
+]

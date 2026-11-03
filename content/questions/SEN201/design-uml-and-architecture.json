@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are design activities in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Architectural design"
+      },
+      {
+        "key": "b",
+        "text": "Interface design"
+      },
+      {
+        "key": "c",
+        "text": "Database design"
+      },
+      {
+        "key": "d",
+        "text": "Market design"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is component design.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "UML models that describe the static structure of a system are",
+    "options": [
+      {
+        "key": "a",
+        "text": "structural models"
+      },
+      {
+        "key": "b",
+        "text": "dynamic models"
+      },
+      {
+        "key": "c",
+        "text": "interaction models"
+      },
+      {
+        "key": "d",
+        "text": "process views"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Dynamic models show interactions.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Object-oriented systems are easier to change than systems developed using functional approaches.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Objects combine data and operations.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A system context model is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a structural model of the other systems in the environment"
+      },
+      {
+        "key": "b",
+        "text": "a dynamic model of interactions"
+      },
+      {
+        "key": "c",
+        "text": "a test plan"
+      },
+      {
+        "key": "d",
+        "text": "a database schema"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An interaction model is dynamic.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which architectural view shows how software components are distributed across processors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical view"
+      },
+      {
+        "key": "b",
+        "text": "Logical view"
+      },
+      {
+        "key": "c",
+        "text": "Process view"
+      },
+      {
+        "key": "d",
+        "text": "Development view"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It helps plan deployment.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Software architecture affects performance, robustness, distributability and maintainability.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is why it is important.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four fundamental architectural views?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Logical view"
+      },
+      {
+        "key": "b",
+        "text": "Process view"
+      },
+      {
+        "key": "c",
+        "text": "Development view"
+      },
+      {
+        "key": "d",
+        "text": "Marketing view"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is the physical view.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Precise interface specifications allow components to be",
+    "options": [
+      {
+        "key": "a",
+        "text": "designed in parallel and used without knowing their implementation"
+      },
+      {
+        "key": "b",
+        "text": "skipped in testing"
+      },
+      {
+        "key": "c",
+        "text": "written in any order without design"
+      },
+      {
+        "key": "d",
+        "text": "deleted later"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Interfaces must be unambiguous.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

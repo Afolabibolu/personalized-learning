@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The two major categories of software are",
+    "options": [
+      {
+        "key": "a",
+        "text": "System and application software"
+      },
+      {
+        "key": "b",
+        "text": "Operating and disk operating software"
+      },
+      {
+        "key": "c",
+        "text": "Utility and application software"
+      },
+      {
+        "key": "d",
+        "text": "System and operating software"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Utilities and the OS are both system software.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which software manages hardware resources and provides common services for application software?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The operating system"
+      },
+      {
+        "key": "b",
+        "text": "A spreadsheet"
+      },
+      {
+        "key": "c",
+        "text": "A compiler"
+      },
+      {
+        "key": "d",
+        "text": "A presentation package"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It manages the CPU, memory and I/O.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A language translator that converts assembly language into machine code is",
+    "options": [
+      {
+        "key": "a",
+        "text": "An assembler"
+      },
+      {
+        "key": "b",
+        "text": "A compiler"
+      },
+      {
+        "key": "c",
+        "text": "A loader"
+      },
+      {
+        "key": "d",
+        "text": "A linker"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A compiler translates high-level languages.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which language was developed in the 1960s for business transactions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "COBOL"
+      },
+      {
+        "key": "b",
+        "text": "FORTRAN"
+      },
+      {
+        "key": "c",
+        "text": "Pascal"
+      },
+      {
+        "key": "d",
+        "text": "C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "FORTRAN was developed for mathematical calculation.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Programs written in machine language are portable between different types of computer.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Machine language is machine-dependent.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "true_false",
+    "stem": "DOS uses a command-line interface, so users must type commands line by line.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Windows replaced this with a graphical user interface.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are examples of system software named in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Operating systems"
+      },
+      {
+        "key": "b",
+        "text": "Language translators"
+      },
+      {
+        "key": "c",
+        "text": "Linkers and loaders"
+      },
+      {
+        "key": "d",
+        "text": "Spreadsheets"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Spreadsheets are application software.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which program is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Word processor"
+      },
+      {
+        "key": "b",
+        "text": "Spreadsheet"
+      },
+      {
+        "key": "c",
+        "text": "Presentation software"
+      },
+      {
+        "key": "d",
+        "text": "Disk defragmenter"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A disk defragmenter is a utility (system software); the others are application software.",
+    "source": "COS 101 / CSC 101 past questions"
+  }
+]

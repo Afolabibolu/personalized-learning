@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For the shipment example with f(0) = 10/28, f(1) = 15/28, f(2) = 3/28, E(X) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.75"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "1.5"
+      },
+      {
+        "key": "d",
+        "text": "0.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "15/28 + 6/28 = 21/28.",
+    "source": "STA 204 Lecture 5 (Mathematical Expectation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "E(aX + b) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "aE(X) + b"
+      },
+      {
+        "key": "b",
+        "text": "a²E(X) + b"
+      },
+      {
+        "key": "c",
+        "text": "aE(X)"
+      },
+      {
+        "key": "d",
+        "text": "E(X) + b²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Expectation is linear.",
+    "source": "STA 204 Lecture 5 (Mathematical Expectation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Var(aX + b) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "a²Var(X)"
+      },
+      {
+        "key": "b",
+        "text": "aVar(X) + b"
+      },
+      {
+        "key": "c",
+        "text": "a²Var(X) + b"
+      },
+      {
+        "key": "d",
+        "text": "Var(X)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Adding a constant does not change spread.",
+    "source": "STA 204 Lecture 5 (Mathematical Expectation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If Var(X) = 16, then Var(2X + 4) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "64"
+      },
+      {
+        "key": "b",
+        "text": "36"
+      },
+      {
+        "key": "c",
+        "text": "32"
+      },
+      {
+        "key": "d",
+        "text": "68"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2² × 16.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "true_false",
+    "stem": "Var(X) = E(X²) − [E(X)]².",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the computing formula for variance.",
+    "source": "STA 204 Lecture 5 (Mathematical Expectation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The first moment about the mean equals the variance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The first moment about the mean is zero; the second is the variance.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(c) = c"
+      },
+      {
+        "key": "b",
+        "text": "Var(c) = 0"
+      },
+      {
+        "key": "c",
+        "text": "E(X + Y) = E(X) + E(Y)"
+      },
+      {
+        "key": "d",
+        "text": "E(XY) = E(X)E(Y) for all X and Y"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "E(XY) = E(X)E(Y) requires independence.",
+    "source": "STA 204 Lecture 5 (Mathematical Expectation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a moment-related quantity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mean"
+      },
+      {
+        "key": "b",
+        "text": "Variance"
+      },
+      {
+        "key": "c",
+        "text": "Skewness"
+      },
+      {
+        "key": "d",
+        "text": "Median"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The median is a positional measure, not a moment.",
+    "source": "General knowledge of STA 202"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Light bulbs have mean life 1500 hours and standard deviation 100 hours, sold in boxes of 25. The sampling distribution of the mean has parameters",
+    "options": [
+      {
+        "key": "a",
+        "text": "1500 and 20"
+      },
+      {
+        "key": "b",
+        "text": "1500 and 100"
+      },
+      {
+        "key": "c",
+        "text": "1500 and 4"
+      },
+      {
+        "key": "d",
+        "text": "1500 and 2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Standard error = 100/√25 = 20.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Samples of 49 from a population with mean 36 and standard deviation 15: P(x̄ < 33) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.0808"
+      },
+      {
+        "key": "b",
+        "text": "0.5808"
+      },
+      {
+        "key": "c",
+        "text": "0.4192"
+      },
+      {
+        "key": "d",
+        "text": "0.1608"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "z = (33 − 36)/(15/7) = −1.4.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If p = 0.5 and the standard error of the sample proportion is 0.01, the sample size is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2500"
+      },
+      {
+        "key": "b",
+        "text": "250"
+      },
+      {
+        "key": "c",
+        "text": "3000"
+      },
+      {
+        "key": "d",
+        "text": "3500"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n = pq/SE² = 0.25/0.0001.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For the population 3, 5, 7, sampling two without replacement, the standard deviation of the sampling distribution of means is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.816"
+      },
+      {
+        "key": "b",
+        "text": "1.155"
+      },
+      {
+        "key": "c",
+        "text": "1.633"
+      },
+      {
+        "key": "d",
+        "text": "0.667"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sample means 4, 5, 6 have variance 2/3.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "When sampling without replacement from a finite population, the standard error of the mean is multiplied by √((N − n)/(N − 1)).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the finite population correction.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Quota sampling is a probability sampling method.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Quota sampling is non-random.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are probability (random) sampling methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple random sampling"
+      },
+      {
+        "key": "b",
+        "text": "Stratified sampling"
+      },
+      {
+        "key": "c",
+        "text": "Systematic sampling"
+      },
+      {
+        "key": "d",
+        "text": "Snowball sampling"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Snowball sampling relies on referrals.",
+    "source": "General knowledge of STA 221"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which sampling method is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quota sampling"
+      },
+      {
+        "key": "b",
+        "text": "Convenience sampling"
+      },
+      {
+        "key": "c",
+        "text": "Purposive sampling"
+      },
+      {
+        "key": "d",
+        "text": "Cluster sampling"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Cluster sampling is a probability method; the others are not.",
+    "source": "STA 221 past papers"
+  }
+]

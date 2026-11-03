@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A recurrence is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an equation that describes a function in terms of its value on smaller inputs"
+      },
+      {
+        "key": "b",
+        "text": "a loop that never ends"
+      },
+      {
+        "key": "c",
+        "text": "a sorting algorithm"
+      },
+      {
+        "key": "d",
+        "text": "a type of graph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Divide-and-conquer running times are recurrences.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The general recurrence for a divide-and-conquer algorithm on a large input is",
+    "options": [
+      {
+        "key": "a",
+        "text": "T(n) = aT(n/b) + D(n) + C(n)"
+      },
+      {
+        "key": "b",
+        "text": "T(n) = n²"
+      },
+      {
+        "key": "c",
+        "text": "T(n) = T(n − 1) only"
+      },
+      {
+        "key": "d",
+        "text": "T(n) = log n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a subproblems of size n/b, plus divide and combine costs.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The merge sort recurrence T(n) = 2T(n/2) + Θ(n) has the solution",
+    "options": [
+      {
+        "key": "a",
+        "text": "Θ(n lg n)"
+      },
+      {
+        "key": "b",
+        "text": "Θ(n²)"
+      },
+      {
+        "key": "c",
+        "text": "Θ(lg n)"
+      },
+      {
+        "key": "d",
+        "text": "Θ(n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is case 2 of the master theorem.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 9 and 13"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the substitution method, we guess a bound and then use mathematical induction to prove it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is where the method gets its name.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a recursion tree, each node represents the cost of a single subproblem.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Costs are summed level by level.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 12"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which conditions apply to the master method's recurrence T(n) = aT(n/b) + f(n)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "a ≥ 1"
+      },
+      {
+        "key": "b",
+        "text": "b > 1"
+      },
+      {
+        "key": "c",
+        "text": "f(n) asymptotically positive"
+      },
+      {
+        "key": "d",
+        "text": "a must equal b"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "a and b need not be equal.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 13"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method for solving recurrences in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Substitution method"
+      },
+      {
+        "key": "b",
+        "text": "Recursion-tree method"
+      },
+      {
+        "key": "c",
+        "text": "Master method"
+      },
+      {
+        "key": "d",
+        "text": "Bubble method"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three methods are substitution, recursion tree and master.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 11 to 13"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By the master theorem, T(n) = 16T(n/2) + n is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Θ(n⁴)"
+      },
+      {
+        "key": "b",
+        "text": "Θ(n lg n)"
+      },
+      {
+        "key": "c",
+        "text": "Θ(n)"
+      },
+      {
+        "key": "d",
+        "text": "Θ(n²)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n^(log₂ 16) = n⁴ dominates f(n) = n, so case 1 applies.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 13"
+  }
+]

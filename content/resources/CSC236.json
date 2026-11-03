@@ -1,0 +1,61 @@
+{
+  "code": "CSC 236",
+  "topics": {
+    "algorithms-and-their-types": [
+      {
+        "title": "Video: 1. Introduction to Algorithms (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0IAPZzGSbME",
+        "source": "links.csv"
+      }
+    ],
+    "recursion-and-problem-solving": [
+      {
+        "title": "Video: Lecture 15: Recursion (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Bbyp4VRbmyY",
+        "source": "links.csv"
+      }
+    ],
+    "elementary-sorting": [
+      {
+        "title": "Video: Sorting: Bubble, Insertion, Selection, Merge, Quick, Counting Sort - DSA Course in Python Lecture 10 (Greg Hogg)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gcRUIO-8r3U",
+        "source": "links.csv"
+      }
+    ],
+    "quicksort-and-merge-sort": [
+      {
+        "title": "Video: 2.8.1  QuickSort Algorithm (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7h1s2SojIRw",
+        "source": "links.csv"
+      }
+    ],
+    "searching": [
+      {
+        "title": "Video: 12. Searching and Sorting (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6LOwPhPDwVc",
+        "source": "links.csv"
+      }
+    ],
+    "analysis-and-asymptotic-notation": [
+      {
+        "title": "Video: 1.8.1 Asymptotic Notations Big Oh - Omega - Theta #1 (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=A03oI0znAoc",
+        "source": "links.csv"
+      }
+    ],
+    "recurrences-and-master-theorem": [
+      {
+        "title": "Video: 2.4.1 Masters Theorem in Algorithms for Dividing Function #1 (Abdul Bari)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=OynWkEj0S-s",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

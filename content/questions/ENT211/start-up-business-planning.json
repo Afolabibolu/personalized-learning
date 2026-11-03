@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How long is an elevator pitch?",
+    "options": [
+      {
+        "key": "a",
+        "text": "30 to 60 seconds"
+      },
+      {
+        "key": "b",
+        "text": "10 to 20 minutes"
+      },
+      {
+        "key": "c",
+        "text": "About an hour"
+      },
+      {
+        "key": "d",
+        "text": "One full day"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "About the length of an elevator ride.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many elements does the Business Model Canvas have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nine"
+      },
+      {
+        "key": "b",
+        "text": "Five"
+      },
+      {
+        "key": "c",
+        "text": "Twelve"
+      },
+      {
+        "key": "d",
+        "text": "Three"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Developed by Osterwalder and Pigneur.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The 10/20/30 rule for pitch decks means",
+    "options": [
+      {
+        "key": "a",
+        "text": "10 slides, 20 minutes, at least 30-point font"
+      },
+      {
+        "key": "b",
+        "text": "10 investors, 20 products, 30 days"
+      },
+      {
+        "key": "c",
+        "text": "10 pages, 20 charts, 30 graphs"
+      },
+      {
+        "key": "d",
+        "text": "10 minutes, 20 slides, 30 questions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Small fonts mean too much detail.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which section of a business plan gives a brief overview of the whole plan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The executive summary"
+      },
+      {
+        "key": "b",
+        "text": "The funding request"
+      },
+      {
+        "key": "c",
+        "text": "The market analysis"
+      },
+      {
+        "key": "d",
+        "text": "The appendix"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It includes the mission and key goals.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Business planning is a one-time activity completed before launch.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is an ongoing, dynamic process.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A business concept acts as a bridge between an initial idea and a full business plan.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It defines the new business idea.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which threats must a robust business model fend off?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Imitation"
+      },
+      {
+        "key": "b",
+        "text": "Holdup"
+      },
+      {
+        "key": "c",
+        "text": "Substitution"
+      },
+      {
+        "key": "d",
+        "text": "Profitability"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is slack.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an element of the Business Model Canvas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Value propositions"
+      },
+      {
+        "key": "b",
+        "text": "Customer segments"
+      },
+      {
+        "key": "c",
+        "text": "Revenue streams"
+      },
+      {
+        "key": "d",
+        "text": "Elevator pitch"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The pitch is a separate tool.",
+    "source": "ENT 211-5 Start-up Business Planning (O. F. Sopeju)"
+  }
+]

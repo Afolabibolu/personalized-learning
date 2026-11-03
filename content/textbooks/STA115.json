@@ -1,0 +1,64 @@
+{
+  "code": "STA 115",
+  "books": {
+    "navidi": {
+      "title": "Statistics for Engineers and Scientists",
+      "authors": "William Navidi",
+      "edition": "3rd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2011,
+      "note": "A reference book in the STA 115 course folder."
+    }
+  },
+  "topics": {
+    "counting-techniques": [
+      {
+        "book": "navidi",
+        "read": "Section 2.2 (Counting Methods)",
+        "why": "Permutations and combinations with worked examples."
+      }
+    ],
+    "axiomatic-and-conditional-probability": [
+      {
+        "book": "navidi",
+        "read": "Sections 2.1 and 2.3 (Basic Ideas; Conditional Probability and Independence)",
+        "why": "Axioms, the addition rule, conditional probability and independence."
+      }
+    ],
+    "total-probability-and-bayes-rule": [
+      {
+        "book": "navidi",
+        "read": "Section 2.3 (Conditional Probability and Independence)",
+        "why": "Includes the law of total probability and Bayes' rule."
+      }
+    ],
+    "random-variables-expectation-and-joint-distributions": [
+      {
+        "book": "navidi",
+        "read": "Sections 2.4 and 2.6 (Random Variables; Jointly Distributed Random Variables)",
+        "why": "Expectation, variance and joint and marginal distributions."
+      }
+    ],
+    "discrete-distributions": [
+      {
+        "book": "navidi",
+        "read": "Sections 4.1 to 4.4 (Bernoulli, Binomial, Poisson and Some Other Discrete Distributions)",
+        "why": "The discrete distributions in this topic, including the hypergeometric and geometric."
+      }
+    ],
+    "normal-distribution": [
+      {
+        "book": "navidi",
+        "read": "Section 4.5 (The Normal Distribution)",
+        "why": "Standardising and using the normal table."
+      }
+    ],
+    "sampling-distributions-and-estimation": [
+      {
+        "book": "navidi",
+        "read": "Sections 4.9 and 4.11 (Some Principles of Point Estimation; The Central Limit Theorem)",
+        "why": "Unbiased estimators and the sampling distribution of the mean."
+      }
+    ]
+  }
+}

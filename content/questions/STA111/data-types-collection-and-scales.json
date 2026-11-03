@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The measurement scale with a true zero value is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ratio scale"
+      },
+      {
+        "key": "b",
+        "text": "Interval scale"
+      },
+      {
+        "key": "c",
+        "text": "Ordinal scale"
+      },
+      {
+        "key": "d",
+        "text": "Nominal scale"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Weight and height are ratio data.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a broad sense, statistics is divided into",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two: descriptive and inferential"
+      },
+      {
+        "key": "b",
+        "text": "Two: descriptive and generalisation"
+      },
+      {
+        "key": "c",
+        "text": "Three: descriptive, inferential and general"
+      },
+      {
+        "key": "d",
+        "text": "Four"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Descriptive summarises; inferential generalises.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The characteristic or attribute that is measured is called a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Variable"
+      },
+      {
+        "key": "b",
+        "text": "Datum"
+      },
+      {
+        "key": "c",
+        "text": "Statistic"
+      },
+      {
+        "key": "d",
+        "text": "Parameter"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Data are its recorded values.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The number of children in a family is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Discrete quantitative data"
+      },
+      {
+        "key": "b",
+        "text": "Continuous quantitative data"
+      },
+      {
+        "key": "c",
+        "text": "Nominal data"
+      },
+      {
+        "key": "d",
+        "text": "Ordinal data"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It takes whole-number values.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "true_false",
+    "stem": "Temperature in degrees Celsius is measured on an interval scale.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "0 °C is not a true absence of temperature.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "true_false",
+    "stem": "Ordinal data have meaningful equal differences between categories.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Ordinal data are ordered, but differences are not meaningful.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are measures of good data quality in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Accuracy"
+      },
+      {
+        "key": "b",
+        "text": "Completeness"
+      },
+      {
+        "key": "c",
+        "text": "Timeliness"
+      },
+      {
+        "key": "d",
+        "text": "Large font size"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Others are accessibility, interpretability, relevance, security and objectivity.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which scale is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nominal"
+      },
+      {
+        "key": "b",
+        "text": "Ordinal"
+      },
+      {
+        "key": "c",
+        "text": "Interval"
+      },
+      {
+        "key": "d",
+        "text": "Binary"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The four scales are nominal, ordinal, interval and ratio.",
+    "source": "STA 111 2025 test"
+  }
+]

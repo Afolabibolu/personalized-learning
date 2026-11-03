@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Learning in which the data have no output variable Y is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unsupervised learning"
+      },
+      {
+        "key": "b",
+        "text": "Supervised learning"
+      },
+      {
+        "key": "c",
+        "text": "Classification"
+      },
+      {
+        "key": "d",
+        "text": "Regression"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only the X's are available.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Predicting a metric (interval or ratio) target is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Predictive (regression) task"
+      },
+      {
+        "key": "b",
+        "text": "Classification task"
+      },
+      {
+        "key": "c",
+        "text": "Clustering task"
+      },
+      {
+        "key": "d",
+        "text": "Self-supervised task"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Categorical targets give classification.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is another name for the target variable Y?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Label"
+      },
+      {
+        "key": "b",
+        "text": "Feature"
+      },
+      {
+        "key": "c",
+        "text": "Covariate"
+      },
+      {
+        "key": "d",
+        "text": "Regressor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Features, covariates and regressors are names for X.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For Ŷ = 0.04 + 0.4x₁ + 4x₂ + 5.6x₃ + 2.3x₄, what is Ŷ when x₁ = x₂ = x₃ = x₄ = 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12.34"
+      },
+      {
+        "key": "b",
+        "text": "12.3"
+      },
+      {
+        "key": "c",
+        "text": "11.94"
+      },
+      {
+        "key": "d",
+        "text": "4.04"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.04 + 0.4 + 4 + 5.6 + 2.3.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Classifying emails as spam (1) or not spam (0) is supervised classification.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The target is categorical and labelled.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In supervised learning the model is tested on the same data used to train it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Testing uses new data.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are names for the input X in Y ~ f(X)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Features"
+      },
+      {
+        "key": "b",
+        "text": "Predictor variable"
+      },
+      {
+        "key": "c",
+        "text": "Explanatory variable"
+      },
+      {
+        "key": "d",
+        "text": "Response variable"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The response is Y.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which task is not supervised?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spam detection"
+      },
+      {
+        "key": "b",
+        "text": "Cancer diagnosis"
+      },
+      {
+        "key": "c",
+        "text": "Predicting exam scores"
+      },
+      {
+        "key": "d",
+        "text": "Grouping customers into clusters"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Clustering has no target, so it is unsupervised.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  }
+]

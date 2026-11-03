@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is ∫ from 1 to 4 of (3x/2 + 1) dx?",
+    "options": [
+      {
+        "key": "a",
+        "text": "57/4"
+      },
+      {
+        "key": "b",
+        "text": "16"
+      },
+      {
+        "key": "c",
+        "text": "7/4"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "[3x²/4 + x] from 1 to 4.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The disk method about the x-axis gives volume",
+    "options": [
+      {
+        "key": "a",
+        "text": "π ∫ [f(x)]² dx"
+      },
+      {
+        "key": "b",
+        "text": "2π ∫ x f(x) dx"
+      },
+      {
+        "key": "c",
+        "text": "∫ f(x) dx"
+      },
+      {
+        "key": "d",
+        "text": "∫ √(1 + f'²) dx"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sum circular disks of radius f(x).",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Rotating y = sin x on [0, π] about the x-axis gives a volume of",
+    "options": [
+      {
+        "key": "a",
+        "text": "π²/2"
+      },
+      {
+        "key": "b",
+        "text": "2π²"
+      },
+      {
+        "key": "c",
+        "text": "π"
+      },
+      {
+        "key": "d",
+        "text": "π/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use sin²x = (1 − cos 2x)/2.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The arc length of y = f(x) from a to b is",
+    "options": [
+      {
+        "key": "a",
+        "text": "∫ √(1 + [f'(x)]²) dx"
+      },
+      {
+        "key": "b",
+        "text": "∫ [f(x)]² dx"
+      },
+      {
+        "key": "c",
+        "text": "∫ f'(x) dx"
+      },
+      {
+        "key": "d",
+        "text": "π ∫ f(x) dx"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From ds² = dx² + dy².",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The area between two curves is found by integrating upper minus lower.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Split the integral where curves cross.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C holds for n = −1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "For n = −1 the integral is ln|x| + C.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of integration in the study guide?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Area between curves"
+      },
+      {
+        "key": "b",
+        "text": "Volume of revolution"
+      },
+      {
+        "key": "c",
+        "text": "Arc length"
+      },
+      {
+        "key": "d",
+        "text": "Finding a derivative"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Average value is the fourth.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method for volumes of revolution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Disk method"
+      },
+      {
+        "key": "b",
+        "text": "Shell method"
+      },
+      {
+        "key": "c",
+        "text": "Rotation about the y-axis using x as a function of y"
+      },
+      {
+        "key": "d",
+        "text": "The quotient rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The quotient rule is for differentiation.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  }
+]

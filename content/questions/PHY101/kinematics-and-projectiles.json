@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A jet lands at 100 m/s on a 1 km runway. The minimum constant acceleration to stop is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−5.0 m/s²"
+      },
+      {
+        "key": "b",
+        "text": "−10 m/s²"
+      },
+      {
+        "key": "c",
+        "text": "−2 m/s²"
+      },
+      {
+        "key": "d",
+        "text": "10 m/s²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a = −u²/(2s).",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Relief material is dropped from a plane at 40 m/s and 100 m height. It lands this far ahead:",
+    "options": [
+      {
+        "key": "a",
+        "text": "180.8 m"
+      },
+      {
+        "key": "b",
+        "text": "100 m"
+      },
+      {
+        "key": "c",
+        "text": "408.2 m"
+      },
+      {
+        "key": "d",
+        "text": "816.4 m"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "t = √(200/9.8) = 4.52 s; 40t.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For v = 14 − 8t + t² m/s, the average acceleration between t = 2 s and 4 s is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−2 m/s²"
+      },
+      {
+        "key": "b",
+        "text": "1.2 m/s²"
+      },
+      {
+        "key": "c",
+        "text": "3 m/s²"
+      },
+      {
+        "key": "d",
+        "text": "−1 m/s²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(v(4) − v(2))/2 = (−2 − 2)/2.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The range of a projectile on level ground is greatest at a projection angle of",
+    "options": [
+      {
+        "key": "a",
+        "text": "45°"
+      },
+      {
+        "key": "b",
+        "text": "30°"
+      },
+      {
+        "key": "c",
+        "text": "60°"
+      },
+      {
+        "key": "d",
+        "text": "90°"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R = u² sin 2α/g is greatest when 2α = 90°.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "true_false",
+    "stem": "At the top of a projectile's path, its velocity and acceleration are perpendicular.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The velocity is horizontal and g is vertical.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A heavier ball thrown down from a cliff at the same speed as a lighter ball thrown up lands faster.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Both land with the same speed; mass does not matter without air resistance.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are equations of uniformly accelerated motion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "v = u + at"
+      },
+      {
+        "key": "b",
+        "text": "s = ut + ½at²"
+      },
+      {
+        "key": "c",
+        "text": "v² = u² + 2as"
+      },
+      {
+        "key": "d",
+        "text": "v = u + a/t"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "v = u + a/t is dimensionally wrong.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which statement about projectile motion is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Horizontal velocity is constant"
+      },
+      {
+        "key": "b",
+        "text": "Vertical acceleration is g"
+      },
+      {
+        "key": "c",
+        "text": "The two motions are independent"
+      },
+      {
+        "key": "d",
+        "text": "Horizontal acceleration is g"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "There is no horizontal acceleration.",
+    "source": "General knowledge of PHY 101"
+  }
+]

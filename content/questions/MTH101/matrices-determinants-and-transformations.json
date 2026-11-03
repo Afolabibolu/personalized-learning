@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If A is a 3 × 2 matrix and B is a 2 × 2 matrix, then AB is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A 3 × 2 matrix"
+      },
+      {
+        "key": "b",
+        "text": "A 2 × 3 matrix"
+      },
+      {
+        "key": "c",
+        "text": "A 2 × 2 matrix"
+      },
+      {
+        "key": "d",
+        "text": "Not defined"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Columns of A equal rows of B; the result is (rows of A) × (columns of B).",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For A = (1 2; 4 3), which holds?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A² − 4A − 5I = 0"
+      },
+      {
+        "key": "b",
+        "text": "A² = I"
+      },
+      {
+        "key": "c",
+        "text": "A² + 4A + 5I = 0"
+      },
+      {
+        "key": "d",
+        "text": "A is not invertible"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A² = (9 8; 16 17).",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Evaluate |2 3 −4; 1 5 −2; 3 −1 6|.",
+    "options": [
+      {
+        "key": "a",
+        "text": "84"
+      },
+      {
+        "key": "b",
+        "text": "38"
+      },
+      {
+        "key": "c",
+        "text": "46"
+      },
+      {
+        "key": "d",
+        "text": "−84"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "46 − (−38) by the diagonal method.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using Cramer's rule on 3x − 2y + 3z = 8, x + y − 2z = −3, 2x + y + 4z = 16 gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "(1, 2, 3)"
+      },
+      {
+        "key": "b",
+        "text": "(3, 2, 1)"
+      },
+      {
+        "key": "c",
+        "text": "(1, −2, 3)"
+      },
+      {
+        "key": "d",
+        "text": "(2, 1, 3)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|A| = 31, |B₁| = 31, |B₂| = 62, |B₃| = 93.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "true_false",
+    "stem": "A skew-symmetric matrix satisfies Aᵀ = −A.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its entries satisfy aᵢⱼ = −aⱼᵢ.",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For square matrices, AB always equals BA.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Matrix multiplication is not commutative in general.",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are elementary row operations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interchanging two rows"
+      },
+      {
+        "key": "b",
+        "text": "Multiplying a row by a non-zero number"
+      },
+      {
+        "key": "c",
+        "text": "Adding a multiple of one row to another"
+      },
+      {
+        "key": "d",
+        "text": "Squaring every entry of a row"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These three generate all elementary matrices.",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which matrix is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diagonal matrix"
+      },
+      {
+        "key": "b",
+        "text": "Upper triangular matrix"
+      },
+      {
+        "key": "c",
+        "text": "Identity matrix"
+      },
+      {
+        "key": "d",
+        "text": "Row matrix"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A row matrix is not square; the others are square matrices.",
+    "source": "MAT 111 Module 3: Matrices and Determinants (Sangodapo, 2020/21)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of an algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finiteness"
+      },
+      {
+        "key": "b",
+        "text": "Definiteness"
+      },
+      {
+        "key": "c",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "d",
+        "text": "Randomness"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An algorithm's steps must be precise and finite.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Binary search can only be used when the list is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ordered"
+      },
+      {
+        "key": "b",
+        "text": "short"
+      },
+      {
+        "key": "c",
+        "text": "unordered"
+      },
+      {
+        "key": "d",
+        "text": "made of strings"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It relies on comparing with the middle term.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Linear search on n items uses at most how many comparisons?",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n)"
+      },
+      {
+        "key": "b",
+        "text": "O(log n)"
+      },
+      {
+        "key": "c",
+        "text": "O(1)"
+      },
+      {
+        "key": "d",
+        "text": "O(n²)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It may check every item once.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The fundamental theorem of arithmetic says every integer greater than 1 is a product of primes in exactly one way, apart from order.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is unique prime factorisation.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "gcd(287, 91) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "7"
+      },
+      {
+        "key": "b",
+        "text": "13"
+      },
+      {
+        "key": "c",
+        "text": "91"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "287 mod 91 = 14 and 91 mod 14 = 7, which divides 14.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With A = 0, a shift cipher with key 4 encrypts S (= 18) as",
+    "options": [
+      {
+        "key": "a",
+        "text": "W"
+      },
+      {
+        "key": "b",
+        "text": "V"
+      },
+      {
+        "key": "c",
+        "text": "O"
+      },
+      {
+        "key": "d",
+        "text": "X"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(18 + 4) mod 26 = 22, which is W.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a searching or scanning algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear search"
+      },
+      {
+        "key": "b",
+        "text": "Binary search"
+      },
+      {
+        "key": "c",
+        "text": "Finding the maximum element"
+      },
+      {
+        "key": "d",
+        "text": "Caesar cipher"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The Caesar cipher encrypts; the others are searching or scanning algorithms.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "true_false",
+    "stem": "17 ≡ 5 (mod 6).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "6 divides 17 − 5 = 12.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  }
+]

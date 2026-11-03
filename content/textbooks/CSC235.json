@@ -1,0 +1,70 @@
+{
+  "code": "CSC 235",
+  "books": {
+    "quickguide": {
+      "title": "C# Quick Guide",
+      "authors": "Tutorials Point",
+      "publisher": "tutorialspoint.com",
+      "year": 2019
+    },
+    "deitel": {
+      "title": "Visual C# How to Program",
+      "authors": "Paul Deitel and Harvey Deitel",
+      "publisher": "Pearson"
+    }
+  },
+  "topics": {
+    "programming-languages-and-csharp": [
+      {
+        "book": "quickguide",
+        "read": "Overview and Environment",
+        "why": "Filed with the course; covers C#'s features and the .NET framework."
+      }
+    ],
+    "program-structure-and-syntax": [
+      {
+        "book": "quickguide",
+        "read": "Program Structure and Basic Syntax",
+        "why": "The source of the Hello World and Rectangle examples in the slides."
+      }
+    ],
+    "data-types-variables-and-conversion": [
+      {
+        "book": "quickguide",
+        "read": "Data Types, Type Conversion and Variables",
+        "why": "The value, reference and pointer types and casting."
+      }
+    ],
+    "decision-making-and-loops": [
+      {
+        "book": "quickguide",
+        "read": "Decision Making and Loops",
+        "why": "The tables of if, switch and loop statements in the slides."
+      }
+    ],
+    "classes-encapsulation-and-methods": [
+      {
+        "book": "quickguide",
+        "read": "Encapsulation, Methods and Classes",
+        "why": "Access specifiers and method definitions."
+      },
+      {
+        "book": "deitel",
+        "read": "The chapters introducing classes, objects and methods",
+        "why": "A standard C# textbook with many worked programs."
+      }
+    ],
+    "constructors-inheritance-and-polymorphism": [
+      {
+        "book": "quickguide",
+        "read": "Classes (constructors), Inheritance, Polymorphism and Interfaces",
+        "why": "The guide's sections behind this topic."
+      },
+      {
+        "book": "deitel",
+        "read": "The chapters on inheritance, polymorphism and interfaces",
+        "why": "Fuller treatment with exercises."
+      }
+    ]
+  }
+}

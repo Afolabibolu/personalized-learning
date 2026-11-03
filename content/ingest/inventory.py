@@ -7,7 +7,7 @@ classifies each file as outline, lecture, past_questions, notes or textbook
 from its name, and writes content/ingest/inventory.csv (code, title, file,
 kind, pages, duplicate_of). Files it cannot place get code UNKNOWN; correct
 them in inventory_fixes.csv (file, code, kind, title; a row with no file sets
-a course title), which is applied on every run; extract.py reads the result. Exact duplicates (same
+a course title, and a file ending in / covers a whole folder), which is applied on every run; extract.py reads the result. Exact duplicates (same
 bytes) are listed with duplicate_of set and are not extracted again.
 No API key needed. Never reads outside content/sources/.
 """
@@ -67,14 +67,17 @@ def title_from_names(rows: list[dict]) -> dict[str, str]:
 
 
 def apply_fixes(rows: list[dict]) -> None:
-    """Hand corrections from inventory_fixes.csv (file, code, kind, title); blank cells keep the detected value."""
+    """Hand corrections from inventory_fixes.csv (file, code, kind, title); blank cells keep the detected value.
+    A file ending in "/" is a folder: the row applies to every file under it (the longest matching folder
+    wins, and a row for the file itself wins over both), e.g. a folder whose files carry an old course code."""
     if not FIXES.exists():
         return
     fixes = list(csv.DictReader(FIXES.open()))
-    by_file = {f["file"]: f for f in fixes if f.get("file")}
+    by_file = {f["file"]: f for f in fixes if f.get("file") and not f["file"].endswith("/")}
+    folders = sorted((f for f in fixes if f.get("file", "").endswith("/")), key=lambda f: -len(f["file"]))
     titles = {f["code"]: f["title"] for f in fixes if not f.get("file") and f.get("title")}
     for r in rows:
-        fix = by_file.get(r["file"], {})
+        fix = by_file.get(r["file"]) or next((f for f in folders if r["file"].startswith(f["file"])), {})
         for key in ("code", "kind"):
             if fix.get(key):
                 r[key] = fix[key]

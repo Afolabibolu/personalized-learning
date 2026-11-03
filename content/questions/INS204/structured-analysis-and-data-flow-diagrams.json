@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A DFD process with inputs but no outputs is called a",
+    "options": [
+      {
+        "key": "a",
+        "text": "black hole"
+      },
+      {
+        "key": "b",
+        "text": "miracle"
+      },
+      {
+        "key": "c",
+        "text": "data store"
+      },
+      {
+        "key": "d",
+        "text": "context diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A miracle has outputs but no inputs.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which DFD symbol represents a person or organisation outside the system that exchanges data with it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "External entity"
+      },
+      {
+        "key": "b",
+        "text": "Process"
+      },
+      {
+        "key": "c",
+        "text": "Data store"
+      },
+      {
+        "key": "d",
+        "text": "Data flow"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example a student or a bank.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The diagram that shows the whole system as one process with its external entities is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "context diagram"
+      },
+      {
+        "key": "b",
+        "text": "entity relationship diagram"
+      },
+      {
+        "key": "c",
+        "text": "class diagram"
+      },
+      {
+        "key": "d",
+        "text": "Gantt chart"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Lower levels decompose it.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Keeping a child DFD's inputs and outputs consistent with its parent process is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "balancing"
+      },
+      {
+        "key": "b",
+        "text": "normalisation"
+      },
+      {
+        "key": "c",
+        "text": "encapsulation"
+      },
+      {
+        "key": "d",
+        "text": "piloting"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CASE tools can check it automatically.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a DFD, a data store may be connected directly to another data store without a process.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A process must sit between them.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Process names in a DFD should describe actions, such as 'Validate Registration'.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Use meaningful action names.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four DFD symbol types?",
+    "options": [
+      {
+        "key": "a",
+        "text": "External entity"
+      },
+      {
+        "key": "b",
+        "text": "Process"
+      },
+      {
+        "key": "c",
+        "text": "Data store"
+      },
+      {
+        "key": "d",
+        "text": "Class"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is data flow.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which analyst is not named as a pioneer of structured analysis in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tom DeMarco"
+      },
+      {
+        "key": "b",
+        "text": "Chris Gane"
+      },
+      {
+        "key": "c",
+        "text": "Edward Yourdon"
+      },
+      {
+        "key": "d",
+        "text": "Tim Berners-Lee"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Trish Sarson is the fourth.",
+    "source": "INS 204 Lecture 4 & 5 (Structured Analysis and DFDs)"
+  }
+]

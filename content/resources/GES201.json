@@ -1,0 +1,61 @@
+{
+  "code": "GES 201",
+  "topics": {
+    "the-english-sound-system": [
+      {
+        "title": "Video: Phonetics: Classification of Speech Sounds | Lecture: 22 (Linguistics-I) (khursheed Ujan)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rNgy5JMT0u8",
+        "source": "links.csv"
+      }
+    ],
+    "syllables-and-stress": [
+      {
+        "title": "Video: Syllables and Word Stress - English Pronunciation Lesson (Oxford Online English)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Vu6UVwkUgzc",
+        "source": "links.csv"
+      }
+    ],
+    "intonation-and-rhythm": [
+      {
+        "title": "Video: English Pronunciation | Rhythm Intonation Stress | Improve English Accent (Mad English TV)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FhKgxZmJpV8",
+        "source": "links.csv"
+      }
+    ],
+    "literature-and-figures-of-speech": [
+      {
+        "title": "Video: Top 20 Figures of Speech in the English Language (7ESL Learning English)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=H8N64oWBr0I",
+        "source": "links.csv"
+      }
+    ],
+    "prose-fiction": [
+      {
+        "title": "Video: Analysing Prose Fiction (Grades 11-12) Lesson 1 | Schooling Online (Schooling Online)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SSqSI68IlmA",
+        "source": "links.csv"
+      }
+    ],
+    "drama-and-poetry-appreciation": [
+      {
+        "title": "Video: Literary appreciation (SS 1, JAMB Tutorial, WAEC, NECO, Post-UTME, NABTEB) (Klacify Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YRpT66U4ox0",
+        "source": "links.csv"
+      }
+    ],
+    "punctuation-and-forms-of-writing": [
+      {
+        "title": "Video: English Punctuation Guide - English Writing Lesson (Oxford Online English)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gfYq2ng9s4E",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

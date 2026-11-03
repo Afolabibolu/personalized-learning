@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which tag holds the content that is displayed in the browser window?",
+    "options": [
+      {
+        "key": "a",
+        "text": "<body>"
+      },
+      {
+        "key": "b",
+        "text": "<head>"
+      },
+      {
+        "key": "c",
+        "text": "<title>"
+      },
+      {
+        "key": "d",
+        "text": "<html> only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The head holds information about the page.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tag creates a hyperlink?",
+    "options": [
+      {
+        "key": "a",
+        "text": "<a>"
+      },
+      {
+        "key": "b",
+        "text": "<link> only"
+      },
+      {
+        "key": "c",
+        "text": "<href>"
+      },
+      {
+        "key": "d",
+        "text": "<url>"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The href attribute gives the target.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In an HTML table, which tag creates a row?",
+    "options": [
+      {
+        "key": "a",
+        "text": "<tr>"
+      },
+      {
+        "key": "b",
+        "text": "<td>"
+      },
+      {
+        "key": "c",
+        "text": "<th>"
+      },
+      {
+        "key": "d",
+        "text": "<row>"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "<td> creates a data cell.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which table attribute sets the space between a cell's edge and its content?",
+    "options": [
+      {
+        "key": "a",
+        "text": "cellpadding"
+      },
+      {
+        "key": "b",
+        "text": "cellspacing"
+      },
+      {
+        "key": "c",
+        "text": "border"
+      },
+      {
+        "key": "d",
+        "text": "width"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "cellspacing is between cells.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "A simple text editor such as Notepad is suitable for writing HTML.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Word processors add unwanted formatting.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "A web browser acts as an interpreter for HTML.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It reads the tags and displays the page.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are valid uses of the href attribute in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jumping to a place in the same page"
+      },
+      {
+        "key": "b",
+        "text": "Linking to another page in the site"
+      },
+      {
+        "key": "c",
+        "text": "Opening an email with mailto:"
+      },
+      {
+        "key": "d",
+        "text": "Setting a table border"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "border is a table attribute.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an HTML table tag?",
+    "options": [
+      {
+        "key": "a",
+        "text": "<table>"
+      },
+      {
+        "key": "b",
+        "text": "<tr>"
+      },
+      {
+        "key": "c",
+        "text": "<td>"
+      },
+      {
+        "key": "d",
+        "text": "<li>"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "<li> is a list item.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

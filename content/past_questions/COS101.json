@@ -1,0 +1,1202 @@
+{
+  "code": "COS 101",
+  "papers": [
+    {
+      "year": "2016",
+      "paper": "CSC 101 Sample Questions 2016 (multiple choice; items 16 and 17 are not in the file, and items 32 and 50 rely on gate diagrams and are left out)",
+      "source": "CSC PQ 2016.pdf (identical to CSC PQ.pdf)"
+    },
+    {
+      "year": "2019 test",
+      "paper": "CSC 101 Test 2019, 30 minutes (multiple choice)",
+      "source": "Csc2019test.pdf (a student's scanned copy; the marked answers are not copied)"
+    },
+    {
+      "year": "2021/2022 CA",
+      "paper": "CSC 101 Mid-Semester CA 2022, an online multiple-choice test",
+      "source": "CSC 101 2021 CA.pdf (a printout of one student's form; their details and answers are not copied)"
+    },
+    {
+      "year": "2022/2023 test",
+      "paper": "CSC 101 2022/2023 test questions, as recalled and compiled by a student (the compiler's answers are not copied; items given without options are fill-in questions)",
+      "source": "CSC101 2022_2023 TEST QUESTIONS .pdf"
+    },
+    {
+      "year": "2025 test",
+      "paper": "COS 101 test 2025, an online form (only questions shown in full in the screenshots; the student's answers and details are not copied)",
+      "source": "The 2025 test screenshots in the Past Questions folder"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2016",
+      "number": "1",
+      "topic": "number-systems-and-data-representation",
+      "text": "How many bits make a nibble? A) 8 B) 16 C) 4 D) 2"
+    },
+    {
+      "year": "2016",
+      "number": "2",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What message(s) are displayed when the user enters 3.0 upon executing the following code:\n\n```python\nph = float(raw_input(\"Enter the ph level: \"))\nif ph < 7.0:\n    print \"It's acidic!\"\nelif ph < 4.0:\n    print \"It's a strong acid!\"\n```\n\nA) It's acidic B) It's a strong acid! C) Nothing is printed D) The code will not run because of error"
+    },
+    {
+      "year": "2016",
+      "number": "3",
+      "topic": "number-systems-and-data-representation",
+      "text": "Convert 26351₈ to hexadecimal A) AC73₁₆ B) 5BC2₁₆ C) 2CE9₁₆ D) 2BE9₁₆"
+    },
+    {
+      "year": "2016",
+      "number": "4",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What are the new values of x and y in the following algorithm: Create a new variable x, and assign it the value 10.5. Create a new variable y, and assign it the value 4. Sum x and y, and associate the resulting value with x. A) 10.5, 4 B) 4, 10.5 C) 14.5, 4 D) 4, 14.5"
+    },
+    {
+      "year": "2016",
+      "number": "5",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of these will display both messages when a value less than 4 is entered. A)\n\n```python\nph = float(raw_input(\"Enter the ph level: \"))\nif ph < 7.0:\n    print \"It's acidic!\"\n    print \"It's a strong acid!\"\n```\n\nB)\n\n```python\nph = float(raw_input(\"Enter the ph level: \"))\nif ph < 7.0:\n    print \"It's acidic!\"\nprint \"It's a strong acid!\"\n```\n\nC) A & B D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "6",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What value will be produced for the following Python expression: 'Computer' + 'Science' A) Computer Science B) 'ComputerScience' C) ComputerScience D) Syntax error"
+    },
+    {
+      "year": "2016",
+      "number": "7",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What are the types of operators in computing? A) Mathematical, Scientific, standard B) Combinational, relational, logical C) Abstract, logical, relational D) Computational, relational, logical"
+    },
+    {
+      "year": "2016",
+      "number": "8",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the followings correctly defines a LAN? A) Connected devices that share the resources of a single processor or server within a small geographic area B) Normally find within a business and school C) These are computers that share resources over a large area D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "9",
+      "topic": "computer-science-as-a-discipline",
+      "text": "Application of computers to various sectors has impacted our society positively in the following ways: i) Medical diagnosis and patients monitoring are handled electronically ii) Susceptibility to security breach of sensitive and financial information iii) Teleconferencing aids students in different locations to learn concurrently iv) E-banking through internet and ATM make transactions easier and faster. A) i, ii, iii B) ii, iii, iv C) i, iii, iv D) all of the above"
+    },
+    {
+      "year": "2016",
+      "number": "10",
+      "topic": "networks-and-the-internet",
+      "text": "What address identifies each computer uniquely in a network? A) Network Address B) Router Address C) IP Address D) Mac Address"
+    },
+    {
+      "year": "2016",
+      "number": "11",
+      "topic": "history-and-generations-of-computers",
+      "text": "Von Neumann initiated -------- concept. A) General purpose B) automatic program C) Turing machine D) stored program"
+    },
+    {
+      "year": "2016",
+      "number": "12",
+      "topic": "history-and-generations-of-computers",
+      "text": "______ was prominent in the fourth generation computers A) LSI B) SSI C) VLSI D) VSSI"
+    },
+    {
+      "year": "2016",
+      "number": "13",
+      "topic": "software-and-programming-languages",
+      "text": "What are the two major categories of software A) Operating and disk operating software B) System and operating software C) Utility and application software D) System and application software"
+    },
+    {
+      "year": "2016",
+      "number": "14",
+      "topic": "number-systems-and-data-representation",
+      "text": "Which of the followings will perform the same task as Exclusive-OR (XOR) logic gates? A) OR gates and NOT gates B) multiple OR gates C) AND gates and NOT gates D) AND gates, OR gates, and NOT gates"
+    },
+    {
+      "year": "2016",
+      "number": "15",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What would be the result of executing the followig program\n\n```python\nnum2 = 10\nnum3 = 15\nsum = num1 + num2 + num3\nnum1 = 5\nprint sum\n```\n\nA) 25 wii be displayed B) 30 will be dispplayed C) Nothing will be displayed D) An error message will be displayed"
+    },
+    {
+      "year": "2016",
+      "number": "18",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What will be the value of X if the following code is executed? A=1; B=1; C=2; X = (B**2)+B*C-(C**4)/(4*A*B**2*C) A) 0 B) 1 C) 2 D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "19",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the following statements will compute 92 as the value of fahrenheit if celsius = 60 A) fahrenheit = int((9 / 5) * celsius + 32) B) fahrenheit = (9 / 5) * celsius + 32 C) fahrenheit = 9 / 5 * celsius + 32 D) All of the above"
+    },
+    {
+      "year": "2016",
+      "number": "20",
+      "topic": "number-systems-and-data-representation",
+      "text": "The following are the states representation of data except -------------- A) True and False B) On and Off C) 0 and 1 D) bit and byte"
+    },
+    {
+      "year": "2016",
+      "number": "21",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the followings will give True as its answer A) True or True and False B) 4 != 4.0 C) A & B D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "22",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Convert the following logical statement into Python expression: X is not less than Y implies that the sum of X and Y is greater than X A) if (X>=Y): (X+Y)>X B) if (X<=Y): (X+Y)>X C) if (X!=Y): (X+Y)>X D) if (X>Y): (X+Y)>X"
+    },
+    {
+      "year": "2016",
+      "number": "23",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Show the result of the following code: s = '2' + '3'; print(s) A) 5 B) 23 C) s D) Syntax error"
+    },
+    {
+      "year": "2016",
+      "number": "24",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "IF a=2, b=2 and y=1, Find which of the followings will evaluate to 2 A) a*y+b**2/3*b*y-2 B) (a*y+b**2)/3*b*y-2 C) Both A & B D) Neither A nor B"
+    },
+    {
+      "year": "2016",
+      "number": "25",
+      "topic": "networks-and-the-internet",
+      "text": "A useful as internet is to us, the following enumerates the disadvantages except A) Lack of data security B) It can become addictive C) Research information for school projects and business D) Moral abuse through pornographic pictures"
+    },
+    {
+      "year": "2016",
+      "number": "26",
+      "topic": "computer-science-as-a-discipline",
+      "text": "Choose the option which best describes the function of a Computer Scientist. I. creates and manages tools that support and enhance the use of modern computer II. creates and formulates theories for predicting agents III. creates models of tools before they are developed IV. uses existing mathematical structures to create mathematical theories. A. II & IV B. I, II & III C. IV, III, & I D. Nome of the above"
+    },
+    {
+      "year": "2016",
+      "number": "27",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What would be the output of the following Python code?\n\n```python\ny = 3; z = 4\nif y<z:\n    print (\"y is less\")\nprint (\"y is not less\")\n```\n\nA) y is less / y is not less B) y is less C) y is not less D) The program will not run because of error"
+    },
+    {
+      "year": "2016",
+      "number": "28",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What will be the values of X and Y in the following Python statements\n\n```python\nX = (0 == 1) and (2 < 3)\nY = (1 == 1) or (3 < 3) and (7 < 6)\n```\n\nA) X=true, Y=false B) X=false, Y=true C) X=true, Y=true D) X=false, Y=false"
+    },
+    {
+      "year": "2016",
+      "number": "29",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "IF a=2, b=2 and y=1, what would be the resultof executing the following instruction: (a*y)+(b**2)/(3*b*y-2) A) 1 B) 2 C) 3 D) 0"
+    },
+    {
+      "year": "2016",
+      "number": "30",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "IF a=2, b=3 and y=4, what would be the resultof executing the following instruction: (a*y)+(b**2)/(3*b*y-2) A) 5 B) 6 C) 7 D) 8"
+    },
+    {
+      "year": "2016",
+      "number": "31",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which line is used as a counter in the following code?\n\n```python\ni = 1\nwhile (i <= 4):\n    print (\"i =\", i)\n    i = += 1\n```\n\nA) line 1 B) line 2 C) Line 3 D) Line 4"
+    },
+    {
+      "year": "2016",
+      "number": "33",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the following statement correctly prints Hello Python on the screen A) print \"Hello Python\" B) print 'hello python' C) A & B D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "34",
+      "topic": "number-systems-and-data-representation",
+      "text": "Which logic gate does the following truth table represent? A B Output: 0 0 1; 0 1 1; 1 0 1; 1 1 0. A) EXCLUSIVE-OR B) AND C) NAND D) OR"
+    },
+    {
+      "year": "2016",
+      "number": "35",
+      "topic": "history-and-generations-of-computers",
+      "text": "What was the main contribution of Herman Hollerith in the early age of computers? A) Automatic Controlled calculator B) Tabulating machine C) Accounting analysis machine D) Statistical Analysis machine"
+    },
+    {
+      "year": "2016",
+      "number": "36",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Convert the following artimetic expression to Python expression: (a² − y + b)/(2ab) + aby A) a**2 - y+b/2*a*b + a*b*y B) (a**2 - y+b)/(2*a*b + a*b*y) C) (a**2 - y+b)/(2*a*b) + a*b*y D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "37",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What would be the output of the following Python code?\n\n```python\ny = 6; z = 2\nif y>z:\nprint (\"y is less\")\nprint (\"y is not less\")\n```\n\nA) y is less / y is not less B) y is less C) y is not less D) The program will not run because of error"
+    },
+    {
+      "year": "2016",
+      "number": "40",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of these could Python run without errors? A)\n\n```python\nA = 5\nif A < 10:\nprint(\"hi\")\n```\n\nB)\n\n```python\nA = 5\nif A < 10\n    print(\"hi\")\n```\n\nC) Both A & B D) Neither A nor B"
+    },
+    {
+      "year": "2016",
+      "number": "41",
+      "topic": "number-systems-and-data-representation",
+      "text": "What combination of A, B and C will produce an output of 1 in the following boolean operation? (A + B)′ ⊕ C (the bar is over A + B) A) 0,1,1 B) 1,1,1 C) A&B D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "42",
+      "topic": "software-and-programming-languages",
+      "text": "Which of the followings perform the function of running and loading programs and the usage of peripherals in the computer? A) Application Programs B) Operating System C) System loader D) Peripheral System"
+    },
+    {
+      "year": "2016",
+      "number": "43",
+      "topic": "number-systems-and-data-representation",
+      "text": "Convert 11000111110010₂ to hexadecimal A) 13A2₁₆ B) AB15₁₆ C) 31F2₁₆ D) 49B1₁₆"
+    },
+    {
+      "year": "2016",
+      "number": "44",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "How would you represent the following in Python: X = (B² + BC − C⁴)/(4AB²C) A) X = (B**2)+B*C-(C**4)/(4*A*B**2*C) B) X = (B**2+B*C-C**4)/(4*A*B**2*C) C) X = (B**2-C**4)/4*A*B**2*C D) X = (B**2+(B*C)-C**4)/(4*A*B**2*C)"
+    },
+    {
+      "year": "2016",
+      "number": "45",
+      "topic": "software-and-programming-languages",
+      "text": "The following are examples of High level languages except __________ A) FORTRAN B) BASIC C) C++ D) ATX++"
+    },
+    {
+      "year": "2016",
+      "number": "46",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "What would be the output of the following Python code?\n\n```python\na=3; b=4; c=5\nprint a+b+c/2*(b-5)\n```\n\nA) 13 B) 10 C) 5 D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "47",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the following codes will produce an error when run? A)\n\n```python\nB = 5\nif B < 10:\nprint(\"hi\")\n```\n\nB)\n\n```python\nB = 5\nif b < 10:\nprint(\"hi\")\n```\n\nC) A and B D) None of the above"
+    },
+    {
+      "year": "2016",
+      "number": "48",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Suppose x = 1, y = -1, and z = 1. What will be displayed by the following statement?\n\n```python\nx = 2; y = 2; z = 2\nif x > 0:\n  if y > 0:\n    print(\"x > 0 and y > 0\")\n  elif z > 0:\n    print(\"x < 0 and z > 0\")\n```\n\nA) x > 0 and y > 0 B) x < 0 and z < 0 C) Nothing is displayed D) The program won't run because of syntax error"
+    },
+    {
+      "year": "2016",
+      "number": "49",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "A flowchart: Start → Input A → A ← A+3 → Is A>5? Yes: Print A → Stop; No: Stop. What will be output if A = 4 A) Nothing B) 7 C) 4 D) A"
+    },
+    {
+      "year": "2019 test",
+      "number": "1",
+      "topic": "computer-categories-and-hardware",
+      "text": "All modern computers have the same underlying structure known as (A) von Neumann (B) Processor (C) Control Bus (D) Ram Bus"
+    },
+    {
+      "year": "2019 test",
+      "number": "2",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ are circuitry paths for transmitting data and signals among the parts of the computer system. (A) Chipset (B) Motherboard (C) CPU (D) Buses"
+    },
+    {
+      "year": "2019 test",
+      "number": "3",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ transmits signals for locating a given address in primary storage, indicating where data should be placed. (A) Address bus (B) Control Bus (C) Ram Bus (D) Flip."
+    },
+    {
+      "year": "2019 test",
+      "number": "4",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ transmits signals specifying whether to read or write data to or from primary storage, input device or output device. (A) Address bus (B) Control Bus (C) Ram Bus (D) Data Bus."
+    },
+    {
+      "year": "2019 test",
+      "number": "5",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ passes information in a bi-directional manner. (A) Address bus (B) Control Bus (C) Rom Bus (D) Data Bus"
+    },
+    {
+      "year": "2019 test",
+      "number": "6",
+      "topic": "computer-science-as-a-discipline",
+      "text": "The first department of computer science in the U.S. was established at.......... in 1962. (A) Purdue University. (B) MIT (C) University College London (D) University of Cambridge."
+    },
+    {
+      "year": "2019 test",
+      "number": "7",
+      "topic": "computer-science-as-a-discipline",
+      "text": "Computer Science as a discipline is divided into two areas: ____ and ____ (A) Hardware and Software (B) Model and Theory (C) Structures and Program (D) Application and Systems."
+    },
+    {
+      "year": "2019 test",
+      "number": "8",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ manipulates raw data into more useful form and controls the other parts of the computer system. (A) Chipset (B) Motherboard (C) CPU (D) Adapter Card"
+    },
+    {
+      "year": "2019 test",
+      "number": "9",
+      "topic": "history-and-generations-of-computers",
+      "text": "__________ wrote a program for the difference engine for computing Bernoulli numbers. (A) Lady Ada Byron (B) Charles baggage (C) Bill gate (D) Michael Faraday"
+    },
+    {
+      "year": "2019 test",
+      "number": "10",
+      "topic": "history-and-generations-of-computers",
+      "text": "__________ was a British inventor who designed two important machines Difference engine and Analytical engine. (A) Ada Byron (B) Charles baggage (C) Gottfried Wilhelm (D) Michael Faraday"
+    },
+    {
+      "year": "2019 test",
+      "number": "11",
+      "topic": "history-and-generations-of-computers",
+      "text": "The major feature of the second generation was the use of high-level programming languages such as (A) Fortran and Cobol (B) C++ (C) Java (D) Python"
+    },
+    {
+      "year": "2019 test",
+      "number": "12",
+      "topic": "history-and-generations-of-computers",
+      "text": "__________ allowed the equivalent of tens of thousands of transistors to be incorporated on a single chip (A) VLSI (B) MSLS (C) BNMD (D) Python"
+    },
+    {
+      "year": "2019 test",
+      "number": "13",
+      "topic": "history-and-generations-of-computers",
+      "text": "__________ is a piece of software that is so useful that people will buy a computer to use that application. (A) Killer application (B) Application software (C) Spreadsheet program (D) Python soft ware"
+    },
+    {
+      "year": "2019 test",
+      "number": "14",
+      "topic": "history-and-generations-of-computers",
+      "text": "The __________ floppy disk becomes the standard for software. (A) 5 ½ inch (B) 3.5 inch (C) 2.5 inch (D) 4.5 inch"
+    },
+    {
+      "year": "2019 test",
+      "number": "15",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ is the largest type of microcomputer and is generally used in scientific and engineering applications. (A) workstation (B) laptop (C) macro computer (D) super computer"
+    },
+    {
+      "year": "2019 test",
+      "number": "16",
+      "topic": "computer-categories-and-hardware",
+      "text": "Primary storage is a category of computer storage, often called (A) Main memory (B) ROM (C) RAM (D) EPROM"
+    },
+    {
+      "year": "2019 test",
+      "number": "17",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ is used for short-term storage of data or program instructions. (A) SDRAM (B) DDRAM (C) RAM (D) EPROM"
+    },
+    {
+      "year": "2019 test",
+      "number": "18",
+      "topic": "computer-categories-and-hardware",
+      "text": "__________ is a programmable read only memory Blank ROM chip onto which a programmer can write permanently (A) PROM (B) EEPROM (C) DDRAM (D) EPROM"
+    },
+    {
+      "year": "2019 test",
+      "number": "19",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "The expression A>B is (A) Logical expression (B) Control structure (C) Algorithm (D) Repetition"
+    },
+    {
+      "year": "2019 test",
+      "number": "20",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "The logic pattern in programming in which certain actions are repeated whenever a specified condition occurs is (A) control logic (B) control structure (C) iteration construct (D) repetition"
+    },
+    {
+      "year": "2019 test",
+      "number": "21",
+      "topic": "computer-categories-and-hardware",
+      "text": "Desktop PC with monitor stacked on top of the system unit is (A) horizontal oriented system (B) vertical oriented system (C) flat oriented system (D) circular oriented system"
+    },
+    {
+      "year": "2019 test",
+      "number": "22",
+      "topic": "software-and-programming-languages",
+      "text": "The type of software which is used to create slide show is (A) web design software (B) presentation software (C) word-processing software (D) spreadsheet software"
+    },
+    {
+      "year": "2019 test",
+      "number": "23",
+      "topic": "computer-categories-and-hardware",
+      "text": "There are supercomputers which can perform up to (A) quadrillions of FLOPS (B) billions of FLOPS (C) trillions of FLOPS (D) thousands of FLOPS"
+    },
+    {
+      "year": "2019 test",
+      "number": "24",
+      "topic": "computer-categories-and-hardware",
+      "text": "Storage element for a static RAM is (A) diode (B) resistor (C) capacitor (D) flip-flop"
+    },
+    {
+      "year": "2019 test",
+      "number": "25",
+      "topic": "networks-and-the-internet",
+      "text": "WAN is (A) Web And Network (B) Website Area Network (C) Wide Area Network (D) West Area Network"
+    },
+    {
+      "year": "2019 test",
+      "number": "26",
+      "topic": "networks-and-the-internet",
+      "text": "Cable connection for two similar devices. (A) CAT 6 Cable (B) Crossover cable (C) Straight through cable (D) Crosslink cable"
+    },
+    {
+      "year": "2019 test",
+      "number": "27",
+      "topic": "computer-categories-and-hardware",
+      "text": "The following are hardware components of a computer system except (A) VGA Card (B) SDRAM (C) Corel Draw (D) Power pack"
+    },
+    {
+      "year": "2019 test",
+      "number": "28",
+      "topic": "computer-science-as-a-discipline",
+      "text": "Data which has been converted or processed into a more useful or intelligible form is called (A) Operating System (B) Software (C) Information (D) Program"
+    },
+    {
+      "year": "2019 test",
+      "number": "29",
+      "topic": "computer-categories-and-hardware",
+      "text": "The physical parts or components of a computer system is (A) Compiler (B) System Software (C) Hardware (D) Data Component"
+    },
+    {
+      "year": "2019 test",
+      "number": "30",
+      "topic": "history-and-generations-of-computers",
+      "text": "ENIAC is (A) Electronic Numerical Integer And Computer (B) Electronic Numbering Integrator And Computer (C) Electric Numbering In A Computer (D) Electronic Numerical Integrator And Computer"
+    },
+    {
+      "year": "2019 test",
+      "number": "31",
+      "topic": "networks-and-the-internet",
+      "text": "The following are types of Computing except. (A) Cloud Computing (B) Distributed Computing (C) ENIAC Computing (D) Utility Computing"
+    },
+    {
+      "year": "2019 test",
+      "number": "32",
+      "topic": "networks-and-the-internet",
+      "text": "Grid computing is the collection of computer resources from multiple locations to reach a common goal (A) Cloud Computing (B) Distributed Computing (C) Grid Computing (D) Utility Computing"
+    },
+    {
+      "year": "2019 test",
+      "number": "33",
+      "topic": "computer-categories-and-hardware",
+      "text": "The CPU consists of the following (A) Memory and RAM (B) Memory and Accumulator (C) ALU and Control Unit (D) System Unit and Control Unit"
+    },
+    {
+      "year": "2019 test",
+      "number": "34",
+      "topic": "software-and-programming-languages",
+      "text": "__________ is a generic term referring to the computer programs used to start and run computer systems including diverse application software and networks. (A) System software (B) Application software (C) Network Software (D) Data Processing"
+    },
+    {
+      "year": "2019 test",
+      "number": "35",
+      "topic": "software-and-programming-languages",
+      "text": "__________ is a set of one or more programs designed to permit the user to perform a group of coordinated functions, tasks, or activities. (A) Application software (B) System Software (C) Central Processing Unit (D) Software and Hardware"
+    },
+    {
+      "year": "2019 test",
+      "number": "36",
+      "topic": "software-and-programming-languages",
+      "text": "__________ is a set of programs that manage computer hardware resources and provide common services for application software. (A) An Application System (B) An Operating System (C) Hardware System (D) Microsoft Packages"
+    },
+    {
+      "year": "2019 test",
+      "number": "37",
+      "topic": "software-and-programming-languages",
+      "text": "__________ is a type of software designed to help analyse, configure, optimize and maintain the computer. (A) Information Software (B) Operating System (C) Utility software (D) Antivirus"
+    },
+    {
+      "year": "2019 test",
+      "number": "38",
+      "topic": "computer-categories-and-hardware",
+      "text": "The RAM is the __________ in the computer. (A) Tertiary Storage (B) Secondary Storage (C) Primary Storage (D) Hardwire"
+    },
+    {
+      "year": "2019 test",
+      "number": "39",
+      "topic": "software-and-programming-languages",
+      "text": "A revised version of software that usually includes fixes of known problems, plus enhancements to existing capabilities (A) Software updates (B) Software updating (C) Software upgrades (D) Software Licensing"
+    },
+    {
+      "year": "2019 test",
+      "number": "40",
+      "topic": "software-and-programming-languages",
+      "text": "The following are Utility software except (A) Virus scanner (B) Disk defragmenter (C) System monitor (D) Memory controller"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "1",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "In computer science, an algorithm refers to a pictorial representation of a flowchart. True / False"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "2",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "The process of drawing a flowchart for an algorithm is called __________ Performance / Evaluation / Algorithmic Representation / Flowcharting"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "3",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Actual instructions in flowcharting are represented in __________ Circles / Boxes / Arrows / Lines"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "4",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "In computer science, an algorithm refers to a special method usable by a computer for the solution to a problem. True / False"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "5",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the following is incorrect? Algorithms can be represented: a) as pseudo codes b) as syntax c) as programs d) as flowcharts"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "6",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "When an algorithm is written in the form of a programming language, it becomes a _________ a) Flowchart b) Program c) Pseudocode d) Syntax"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "7",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "A box that can represent two different conditions. a) Rectangle b) Diamond c) Circle d) Parallelogram"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "8",
+      "topic": "networks-and-the-internet",
+      "text": "OSI stands for: open system interconnection / operating system interface / optical service implementation / none of the mentioned"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "9",
+      "topic": "networks-and-the-internet",
+      "text": "The _________ layer lies between the session layer and the application layer. a. network layer b. transport layer c. data link layer d. presentation layer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "10",
+      "topic": "networks-and-the-internet",
+      "text": "Which address identifies a process on a host? physical address / logical address / port address / specific address"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "11",
+      "topic": "networks-and-the-internet",
+      "text": "The _________ layer uses data compression to reduce the number of bits to be transmitted. presentation / network / data link / application"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "12",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the following is Layer-7? Presentation Layer / Session Layer / Application Layer / Transport Layer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "13",
+      "topic": "networks-and-the-internet",
+      "text": "Which layer helps to understand data representation in one form on a host to other hosts in their native representation? A. Application Layer B. Presentation Layer C. Session Layer D. Transport Layer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "14",
+      "topic": "networks-and-the-internet",
+      "text": "HTTP is an example of a? A. Session Layer B. Presentation Layer C. Data Link Layer D. Application Layer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "15",
+      "topic": "networks-and-the-internet",
+      "text": "Which layer helps to uniquely identify hosts beyond the subnets and defines the path that the packets will follow or be routed to reach the destination? Physical Layer / Data Link Layer / Network Layer / Transport Layer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "16",
+      "topic": "networks-and-the-internet",
+      "text": "The network layer is responsible for carrying data from one host to another. TRUE / FALSE / Can be true or false / Can not say"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "17",
+      "topic": "networks-and-the-internet",
+      "text": "Which type of topology is best suited for large businesses which must carefully control and coordinate the operation of distributed branch outlets? a. Ring b. Local area c. Hierarchical d. Star"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "18",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the following transmission directions listed is not a legitimate channel? a. Simplex b. Half Duplex c. Full Duplex d. Double Duplex"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "19",
+      "topic": "networks-and-the-internet",
+      "text": "What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interferences? a. Unshielded twisted pair b. Optical fiber c. Coaxial cable d. Microwave"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "20",
+      "topic": "networks-and-the-internet",
+      "text": "The location of a resource on the internet is given by its? a. Protocol b. URL c. E-mail address d. ICQ"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "21",
+      "topic": "networks-and-the-internet",
+      "text": "The term HTTP stands for? a. Hyper terminal tracing program b. Hypertext tracing protocol c. Hypertext transfer protocol d. Hypertext transfer program"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "22",
+      "topic": "networks-and-the-internet",
+      "text": "Which software prevents external access to a system? a. Firewall b. Gateway c. Router d. Virus checker"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "23",
+      "topic": "networks-and-the-internet",
+      "text": "Which one of the following is the most common internet protocol? a. HTML b. NetBEUI c. TCP/IP d. IPX/SPX"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "24",
+      "topic": "networks-and-the-internet",
+      "text": "The term FTP stands for? a. File transfer program b. File transmission protocol c. File transfer protocol d. File transfer protection"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "25",
+      "topic": "networks-and-the-internet",
+      "text": "Which one of the following is not a network topology? a. Star b. Ring c. Bus d. Peer to Peer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "26",
+      "topic": "networks-and-the-internet",
+      "text": "The IP network 192.168.50.0 is to be divided into 10 equal-sized subnets. Which of the following subnet masks can be used for the above requirement? a. 255.243.240 b. 255.255.0.0 c. 255.255.255.0 d. 255.255.255"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "27",
+      "topic": "networks-and-the-internet",
+      "text": "When the mail server sends mail to another mail server it becomes ___? a. SMTP client b. SMTP server c. Peer d. Master"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "28",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the following methods provides a dedicated communication channel between two stations? (A) Circuit switching (B) Switch network (C) Packet switching (D) None of these"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "29",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the following items is not used in the local area network (LAN)? (A) Cable (B) Printer (C) Modem (D) Computer"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "30",
+      "topic": "networks-and-the-internet",
+      "text": "The term LAN stands for? a. Local Area Net b. Local Aera Network c. Local Array Network d. Local Array Net"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "31",
+      "topic": "networks-and-the-internet",
+      "text": "In specific, if the systems use separate protocols, which one of the following devices is used to link two systems? a. Repeater b. Gateway c. Bridge d. Hub"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "32",
+      "topic": "history-and-generations-of-computers",
+      "text": "The fourth generation was based on integrated circuits. a) True b) False"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "33",
+      "topic": "history-and-generations-of-computers",
+      "text": "Which generation is based on a VLSI microprocessor. a) 1st b) 2nd c) 3rd d) 4th"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "34",
+      "topic": "history-and-generations-of-computers",
+      "text": "ENIAC stands for ______________________________. A. Electronic Numerator Integration Computer B. Electronic Numerical Integrator and Calculator C. Electrical Numerical Integration and Computer D. Electrical Numerical Integrator and Calculator"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "35",
+      "topic": "history-and-generations-of-computers",
+      "text": "Operating system was developed from which generation? A. First-generation B. Second generation C. Third generation D. Fourth generation"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "36",
+      "topic": "history-and-generations-of-computers",
+      "text": "In which generation of computer microprocessors was introduced? A. First-generation B. Second generation C. Third generation D. Fourth generation E. Fifth-generation"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "37",
+      "topic": "history-and-generations-of-computers",
+      "text": "The major talking point of fifth-generation computers are___________. A. VLSI B. Artificial Intelligence C. Batch processing D. System knowledge"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "38",
+      "topic": "history-and-generations-of-computers",
+      "text": "Vacuum tubes were introduced in ________ generations. A. First B. Second C. Third D. Fourth E. Fifth"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "39",
+      "topic": "history-and-generations-of-computers",
+      "text": "What was the period of the second generation of computers? A. 1946-1959 B. 1959-1965 C. 1965-1971 D. 1971-1980"
+    },
+    {
+      "year": "2021/2022 CA",
+      "number": "40",
+      "topic": "history-and-generations-of-computers",
+      "text": "Which of the following terms defines the technological advancement in the field of computers through the ages? A. Growth B. Gradation C. Generation D. Development"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "1",
+      "topic": "computer-categories-and-hardware",
+      "text": "What does MAR stand for?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "2",
+      "topic": "software-and-programming-languages",
+      "text": "You want to set such that when you type Baishakh and drag the fill handle, Excel should produce Jestha, Aashadh and so on. What will you set to effect that?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "3",
+      "topic": "computer-categories-and-hardware",
+      "text": "The main memory accommodate?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "4",
+      "topic": "networks-and-the-internet",
+      "text": "What is the correct HTML for making hyperlink?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "5",
+      "topic": "networks-and-the-internet",
+      "text": "<b> tag makes the enclosed text bold. What is other tag to make text bold?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "6",
+      "topic": "computer-categories-and-hardware",
+      "text": "Which is considered a direct entry input device? A) Optical scanner B) Mouse and digitizer C) Light pen D) All of the above"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "7",
+      "topic": "software-and-programming-languages",
+      "text": "A computer language that is written in binary codes only is _______"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "8",
+      "topic": "networks-and-the-internet",
+      "text": "A topology that is responsible for describing the geometric arrangement of components that make up the LAN ________"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "9",
+      "topic": "networks-and-the-internet",
+      "text": "Which of these is not a medium for e-mail? A) Intranet B) Internet C) Extranet D) Mobile Phone"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "10",
+      "topic": "networks-and-the-internet",
+      "text": "A webpage displays a picture. What tag was used to display that picture?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "11",
+      "topic": "networks-and-the-internet",
+      "text": "Choose the correct HTML tag to make a text italic."
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "12",
+      "topic": "software-and-programming-languages",
+      "text": "Which of the keystroke is used for updating a field? A) F9 B) F7 C) F5 D) F2"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "13",
+      "topic": "networks-and-the-internet",
+      "text": "Which of the following protocols is used in the internet? A) DNS, HTTP and DNS B) DHCP C) DNS D) HTTP"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "14",
+      "topic": "software-and-programming-languages",
+      "text": "Footnotes, endnotes, and indexes are all inserted as ____"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "15",
+      "topic": "history-and-generations-of-computers",
+      "text": "Operating system is used in which generation of computer for the first time?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "16",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "_________ is used to show hierarchy in a pseudo code. A) Indentation B) Curly braces C) Round brackets D) Semicolon"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "17",
+      "topic": "software-and-programming-languages",
+      "text": "Which one of the following is not a real time operating system? A) RTlinus B) Palm OS C) QNX D) VxWorks"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "18",
+      "topic": "networks-and-the-internet",
+      "text": "Which of these is not used by intranet? A) BSNL B) TCP C) IP D) HTTP"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "19",
+      "topic": "computer-categories-and-hardware",
+      "text": "Size of the primary memory of a PC ranges between A) 256KB & 640KB B) 64KB & 256KB C) 2KB & 8KB D) None"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "20",
+      "topic": "software-and-programming-languages",
+      "text": "You can merge the main document with data source in Excel. In mail merge operation, Word is usually A) client B) source C) server D) none"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "21",
+      "topic": "number-systems-and-data-representation",
+      "text": "The octal equivalent of 1100101.001010 is ______"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "22",
+      "topic": "history-and-generations-of-computers",
+      "text": "Which generation of computer used Power Book and Pentium microprocessor for the first time?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "23",
+      "topic": "number-systems-and-data-representation",
+      "text": "Any set of digits or alphabets are generally referred as ______"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "24",
+      "topic": "networks-and-the-internet",
+      "text": "WAN is a most used abbreviation in Networking, what is its full form?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "25",
+      "topic": "networks-and-the-internet",
+      "text": "What is internet?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "26",
+      "topic": "computer-categories-and-hardware",
+      "text": "What are the three decisions making operations performed by ALU of a computer? A) Greater than B) Less than C) Equal to D) All of the above"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "27",
+      "topic": "software-and-programming-languages",
+      "text": "Before creating a master document, you must switch to A) Outline View B) Normal View C) Web Layout View D) Print Layout View"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "28",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Algorithm and Flow chart help us to ______"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "29",
+      "topic": "history-and-generations-of-computers",
+      "text": "Which is an example of first generation computer? A) EDVAC B) EDSAC C) ENIAC D) DUNIVAC"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "30",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "When an algorithm is written in the form of a programming language, it becomes a ______ A) Pseudo code B) Syntax C) Flowchart D) Program"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "31",
+      "topic": "networks-and-the-internet",
+      "text": "A topology that involves Tokens is A) Star B) Ring C) Bus D) Mesh"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "32",
+      "topic": "software-and-programming-languages",
+      "text": "____ enables you to send the same letter to different persons? A) Mail merge B) Template C) Macros D) None"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "33",
+      "topic": "number-systems-and-data-representation",
+      "text": "The decimal representation for the character '!' in ASCII is _____ A) 33 B) 32 C) 34 D) 31"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "34",
+      "topic": "networks-and-the-internet",
+      "text": "Tags and test that are not directly displayed on the page are written in ____ section. A) <html> B) <head> C) <title> D) <body>"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "35",
+      "topic": "number-systems-and-data-representation",
+      "text": "Convert the binary equivalent 10101 to its decimal equivalent."
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "36",
+      "topic": "computer-categories-and-hardware",
+      "text": "If the control signals are generated by combinational logic, then they are generated by a type of _____ controlled unit. A) Micro programmed B) Software C) Logic D) Bus"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "37",
+      "topic": "number-systems-and-data-representation",
+      "text": "Which of the following is not a binary number? A) 111 B) 101 C) 11E D) 000"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "38",
+      "topic": "history-and-generations-of-computers",
+      "text": "The basic architecture of computer was developed by?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "39",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "Which of the following is incorrect? Algorithms can be represented: A) as syntax B) as pseudo codes C) as programs D) as flowcharts E. None of the above"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "40",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "A data structure that follows the FIFO principle. A) Stack B) Queue C) Union D) LL"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "41",
+      "topic": "number-systems-and-data-representation",
+      "text": "Which of the following is the correct representation of a binary number? A) (124)₂ B) 110-1 C) 110₂ D) 000"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "42",
+      "topic": "computer-categories-and-hardware",
+      "text": "Which of the following disk is fixed disk? A) Hard disks B) Flash disks C) Blu-Ray Disks D) DVDs"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "43",
+      "topic": "number-systems-and-data-representation",
+      "text": "The input hexadecimal representation of 1110 is _____"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "44",
+      "topic": "software-and-programming-languages",
+      "text": "Which of the following is not the correct method of editing the cell content? A) Press the Alt key B) Press the F2 key C) Click the formula bar D) Double click the cell"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "45",
+      "topic": "computer-categories-and-hardware",
+      "text": "Which of the following is correct acronym of VGA?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "46",
+      "topic": "problem-solving-algorithms-and-python",
+      "text": "A statement used to close the IF block is ______"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "47",
+      "topic": "software-and-programming-languages",
+      "text": "How can you update the values of formula cells if Auto Calculate mode of Excel is disabled? A) F11 B) F9 C) F2 D) F1"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "48",
+      "topic": "number-systems-and-data-representation",
+      "text": "What does ASCII stand for?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "49",
+      "topic": "software-and-programming-languages",
+      "text": "Which of the following enables you to move directly to specific location in a document?"
+    },
+    {
+      "year": "2022/2023 test",
+      "number": "50",
+      "topic": "computer-categories-and-hardware",
+      "text": "The main memory accommodates _________ A) CPU B) user processes C) operating system D) all of the mentioned"
+    },
+    {
+      "year": "2025 test",
+      "number": "1",
+      "topic": "networks-and-the-internet",
+      "text": "internet start with Defense Advanced Research Projects Agency in 1968 / 1978 / 1988 / 1962"
+    },
+    {
+      "year": "2025 test",
+      "number": "2",
+      "topic": "networks-and-the-internet",
+      "text": "Define the word topology"
+    },
+    {
+      "year": "2025 test",
+      "number": "3",
+      "topic": "history-and-generations-of-computers",
+      "text": "IBM Start as an equipment company for punch card in 1953 / 1956 / 1990 / 2000"
+    },
+    {
+      "year": "2025 test",
+      "number": "4",
+      "topic": "networks-and-the-internet",
+      "text": "how is www and internet different from each other"
+    },
+    {
+      "year": "2025 test",
+      "number": "5",
+      "topic": "history-and-generations-of-computers",
+      "text": "Vacuum tube, generation of computer reign between 1826-1900 / 1946-1957 / 1990-1999 / 2001-2010"
+    },
+    {
+      "year": "2025 test",
+      "number": "6",
+      "topic": "number-systems-and-data-representation",
+      "text": "The difference between 1001000 and 1111001 is 10011 / 10111 / 11100 / 01101"
+    },
+    {
+      "year": "2025 test",
+      "number": "7",
+      "topic": "number-systems-and-data-representation",
+      "text": "The following form of data cannot be represented in Electromagnetic wave: Audio wave / light wave / sound wave / non of the above"
+    },
+    {
+      "year": "2025 test",
+      "number": "8",
+      "topic": "networks-and-the-internet",
+      "text": "what is the protocol for Transport layer in TCP/IP: UDP / TCP / TSL / TCP/UDP"
+    },
+    {
+      "year": "2025 test",
+      "number": "9",
+      "topic": "number-systems-and-data-representation",
+      "text": "how many binary digits are needed to represent all sixteen hexadecimal symbols: sixteen / eight / two / four"
+    },
+    {
+      "year": "2025 test",
+      "number": "10",
+      "topic": "networks-and-the-internet",
+      "text": "list two applications of internet"
+    },
+    {
+      "year": "2025 test",
+      "number": "11",
+      "topic": "number-systems-and-data-representation",
+      "text": "What colour in image representation is (255, 255, 255): Red / blue / green / white"
+    },
+    {
+      "year": "2025 test",
+      "number": "12",
+      "topic": "history-and-generations-of-computers",
+      "text": "von Neumann had his: doctoral degree in 1928 / doctoral degree in 1938 / doctoral degree in 1927 / doctoral degree in 1920 (the options run across two screenshots)"
+    },
+    {
+      "year": "2025 test",
+      "number": "13",
+      "topic": "number-systems-and-data-representation",
+      "text": "colour representation of purple is: 255, 0, 255 / 0, 0, 255 / 255 255 0 / 255 255 255"
+    },
+    {
+      "year": "2025 test",
+      "number": "14",
+      "topic": "number-systems-and-data-representation",
+      "text": "convert 26.85 to binary: 11010.110110 / 10010.110110 / 11000.110110 / 11010.11010"
+    },
+    {
+      "year": "2025 test",
+      "number": "15",
+      "topic": "networks-and-the-internet",
+      "text": "What Email internet Protocol: SMTP / FFP / TCP / IP address"
+    },
+    {
+      "year": "2025 test",
+      "number": "16",
+      "topic": "software-and-programming-languages",
+      "text": "software is"
+    },
+    {
+      "year": "2025 test",
+      "number": "17",
+      "topic": "networks-and-the-internet",
+      "text": "An Internal company that uses HTML, HTTP & TCP/IP protocols & software is called: Internet / ethernet / Intranet / www"
+    },
+    {
+      "year": "2025 test",
+      "number": "18",
+      "topic": "networks-and-the-internet",
+      "text": "www.ui.edu.ng is called university of Ibadan: Domain service / Domain indicator / Domain name / URL"
+    },
+    {
+      "year": "2025 test",
+      "number": "19",
+      "topic": "number-systems-and-data-representation",
+      "text": "what is the symbol set used in hexadecimal: 1-9, A-z / 0-9, A-f / 1-9, A-z / 0-9, A-F"
+    },
+    {
+      "year": "2025 test",
+      "number": "20",
+      "topic": "number-systems-and-data-representation",
+      "text": "evaluate the decimal value of (1100.1011) in base2: 12.6875 / 12.6785 / 12.8567 / 12.7865"
+    },
+    {
+      "year": "2025 test",
+      "number": "21",
+      "topic": "number-systems-and-data-representation",
+      "text": "Convert 127 decimal to binary: 1011111 / 1111111 / 1111110 / 1111000"
+    }
+  ]
+}

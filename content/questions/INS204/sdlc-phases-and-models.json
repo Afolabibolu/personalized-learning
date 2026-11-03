@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which changeover method runs the old and new systems side by side?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parallel changeover"
+      },
+      {
+        "key": "b",
+        "text": "Direct changeover"
+      },
+      {
+        "key": "c",
+        "text": "Pilot changeover"
+      },
+      {
+        "key": "d",
+        "text": "Big Bang"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It continues until the new system is trusted.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which SDLC model emphasises risk analysis in repeated spirals?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spiral"
+      },
+      {
+        "key": "b",
+        "text": "Big Bang"
+      },
+      {
+        "key": "c",
+        "text": "Waterfall"
+      },
+      {
+        "key": "d",
+        "text": "Incremental"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its phases are planning, risk analysis, engineering and evaluation.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phase of the SDLC specifies how the system will meet the requirements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "System design"
+      },
+      {
+        "key": "b",
+        "text": "Planning"
+      },
+      {
+        "key": "c",
+        "text": "Maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It begins by identifying outputs.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Trying a new system in one part of the organisation first is",
+    "options": [
+      {
+        "key": "a",
+        "text": "pilot changeover"
+      },
+      {
+        "key": "b",
+        "text": "parallel changeover"
+      },
+      {
+        "key": "c",
+        "text": "direct changeover"
+      },
+      {
+        "key": "d",
+        "text": "maintenance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is then introduced elsewhere.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The SDLC is considered the oldest formalised methodology framework for building information systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It emerged in the 1960s.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Big Bang model is best for large, well-planned projects.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It suits small or practice projects.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three aspects of feasibility in the preliminary investigation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technical"
+      },
+      {
+        "key": "b",
+        "text": "Economic"
+      },
+      {
+        "key": "c",
+        "text": "Operational"
+      },
+      {
+        "key": "d",
+        "text": "Astrological"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Lecture 3 adds legal and schedule.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a phase of the seven-phase SDLC?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirements analysis"
+      },
+      {
+        "key": "b",
+        "text": "Testing"
+      },
+      {
+        "key": "c",
+        "text": "Maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Planning, design, development and implementation are the others.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  }
+]

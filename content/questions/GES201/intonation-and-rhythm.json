@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which intonation tune is usually used for yes/no questions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rise"
+      },
+      {
+        "key": "b",
+        "text": "Fall"
+      },
+      {
+        "key": "c",
+        "text": "Rise-fall"
+      },
+      {
+        "key": "d",
+        "text": "Level"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Wh-questions usually take a fall.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which part of the tone-unit is obligatory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The tonic syllable"
+      },
+      {
+        "key": "b",
+        "text": "The pre-head"
+      },
+      {
+        "key": "c",
+        "text": "The head"
+      },
+      {
+        "key": "d",
+        "text": "The tail"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The others are optional.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "English is described as",
+    "options": [
+      {
+        "key": "a",
+        "text": "stress-timed"
+      },
+      {
+        "key": "b",
+        "text": "syllable-timed"
+      },
+      {
+        "key": "c",
+        "text": "tone-timed"
+      },
+      {
+        "key": "d",
+        "text": "mora-timed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Yoruba and Igbo are syllable-timed.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In stress-timing, the unit of rhythm is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "foot"
+      },
+      {
+        "key": "b",
+        "text": "phoneme"
+      },
+      {
+        "key": "c",
+        "text": "morpheme"
+      },
+      {
+        "key": "d",
+        "text": "paragraph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A foot is a stressed syllable plus following unstressed ones.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A fall-rise tune can express uncertainty or a polite request.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example 'You are capable.'",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "true_false",
+    "stem": "When listing items, every item including the last takes a rise tune.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The last item naturally has a fall.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are functions of intonation in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Grammatical"
+      },
+      {
+        "key": "b",
+        "text": "Attitudinal"
+      },
+      {
+        "key": "c",
+        "text": "Discourse"
+      },
+      {
+        "key": "d",
+        "text": "Orthographic"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is accentual.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four major forms of intonation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rise"
+      },
+      {
+        "key": "b",
+        "text": "Fall"
+      },
+      {
+        "key": "c",
+        "text": "Fall-rise"
+      },
+      {
+        "key": "d",
+        "text": "Rise-rise-fall"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is rise-fall.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  }
+]

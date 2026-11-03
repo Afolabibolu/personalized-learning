@@ -1,0 +1,61 @@
+{
+  "code": "STA 121",
+  "topics": {
+    "population-sampling-and-sampling-methods": [
+      {
+        "title": "Video: STA 121: Statistical Inference 1 || Sampling || Lect 1 (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VfBO5GWrut0",
+        "source": "links.csv"
+      }
+    ],
+    "sampling-distribution-of-the-mean": [
+      {
+        "title": "Video: STA 121: Statistical Inference I || Sampling Distribution of a Statistic (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2LwTxMIpXUA",
+        "source": "links.csv"
+      }
+    ],
+    "sampling-distribution-of-proportions": [
+      {
+        "title": "Video: Sampling distribution of sample proportion part 1 | AP Statistics | Khan Academy (Khan Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Br067hrasc8",
+        "source": "links.csv"
+      }
+    ],
+    "estimation-confidence-intervals-and-sample-size": [
+      {
+        "title": "Video: STA 121: Statistical Inference I || Estimation and Confidence Intervals (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ljo-8Z6C56c",
+        "source": "links.csv"
+      }
+    ],
+    "principles-of-hypothesis-testing": [
+      {
+        "title": "Video: STA 121: Statistical Inference I || Sample Size Determination and Hypothesis Testing (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ojcjcv_5KeM",
+        "source": "links.csv"
+      }
+    ],
+    "tests-for-means-proportions-and-variances": [
+      {
+        "title": "Video: STA 121: Statistical Inference I || Hypothesis Testing for Population Parameters with Large Samples (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Q5GCkpcq2Lc",
+        "source": "links.csv"
+      }
+    ],
+    "regression-and-correlation": [
+      {
+        "title": "Video: STA 121: Statistical Inference I || Association: Correlation and Regression (Olusanya Olubusoye)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kD0yBRnXXpQ",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

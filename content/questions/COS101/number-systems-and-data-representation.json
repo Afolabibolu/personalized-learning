@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The decimal value of octal 642 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "418"
+      },
+      {
+        "key": "b",
+        "text": "642"
+      },
+      {
+        "key": "c",
+        "text": "1068"
+      },
+      {
+        "key": "d",
+        "text": "322"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6 × 64 + 4 × 8 + 2.",
+    "source": "Week 5 Number Systems.ppt (CSC 101 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Convert 11000111110010₂ to hexadecimal.",
+    "options": [
+      {
+        "key": "a",
+        "text": "31F2"
+      },
+      {
+        "key": "b",
+        "text": "13A2"
+      },
+      {
+        "key": "c",
+        "text": "AB15"
+      },
+      {
+        "key": "d",
+        "text": "49B1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Group in fours from the right: 0011 0001 1111 0010.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The decimal value of (1100.1011)₂ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "12.6875"
+      },
+      {
+        "key": "b",
+        "text": "12.6785"
+      },
+      {
+        "key": "c",
+        "text": "12.8567"
+      },
+      {
+        "key": "d",
+        "text": "12.7865"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "12 + 0.5 + 0.125 + 0.0625.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many characters could the original 7-bit ASCII represent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "128"
+      },
+      {
+        "key": "b",
+        "text": "256"
+      },
+      {
+        "key": "c",
+        "text": "65,536"
+      },
+      {
+        "key": "d",
+        "text": "32"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Extended ASCII uses 8 bits for 256.",
+    "source": "Week 4b Data_representation.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Sign-magnitude representation has both a plus zero and a minus zero.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is why two's complement is used.",
+    "source": "Week 4b Data_representation.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The XOR gate outputs 1 when both inputs are the same.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "XOR outputs 1 when the inputs are different.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are text compression techniques in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Keyword encoding"
+      },
+      {
+        "key": "b",
+        "text": "Run-length encoding"
+      },
+      {
+        "key": "c",
+        "text": "Huffman encoding"
+      },
+      {
+        "key": "d",
+        "text": "Two's complement"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Two's complement represents negative numbers.",
+    "source": "Week 4b Data_representation.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which RGB statement is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(255, 255, 0) is yellow"
+      },
+      {
+        "key": "b",
+        "text": "(255, 255, 255) is white"
+      },
+      {
+        "key": "c",
+        "text": "(255, 0, 255) is purple"
+      },
+      {
+        "key": "d",
+        "text": "(0, 0, 255) is red"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "(0, 0, 255) is blue.",
+    "source": "COS 101 / CSC 101 past questions"
+  }
+]

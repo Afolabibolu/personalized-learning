@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many samples of size 2 can be drawn with replacement from a population of 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "16"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Nⁿ = 4².",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many samples of size 2 can be drawn without replacement from a population of 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "16"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "4C2 = 6.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the wire example (means 4500 and 4000, SE 41.23), P(x̄_A − x̄_B ≥ 600) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.0075"
+      },
+      {
+        "key": "b",
+        "text": "0.075"
+      },
+      {
+        "key": "c",
+        "text": "0.75"
+      },
+      {
+        "key": "d",
+        "text": "0.00075"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "z = 100/41.23 ≈ 2.43.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If σ = 12 and n = 36, the standard error of the mean is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "12"
+      },
+      {
+        "key": "c",
+        "text": "1/3"
+      },
+      {
+        "key": "d",
+        "text": "6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "12/√36.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The standard error of the mean gets smaller as the sample size increases.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is σ/√n.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The central limit theorem requires the population itself to be normal.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It applies whatever the population's shape, for large n.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of the sampling distribution of x̄?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its mean is µ"
+      },
+      {
+        "key": "b",
+        "text": "Its standard error is σ/√n"
+      },
+      {
+        "key": "c",
+        "text": "It is close to normal for large n"
+      },
+      {
+        "key": "d",
+        "text": "Its standard deviation equals σ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Its spread is σ/√n, not σ.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term does not belong with sampling distributions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Standard error"
+      },
+      {
+        "key": "b",
+        "text": "Central limit theorem"
+      },
+      {
+        "key": "c",
+        "text": "Finite correction factor"
+      },
+      {
+        "key": "d",
+        "text": "Ogive"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "An ogive is a cumulative frequency graph.",
+    "source": "STA 121 Lecture 2: Sampling Distribution of a Statistic (Olubusoye)"
+  }
+]

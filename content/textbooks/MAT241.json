@@ -1,0 +1,48 @@
+{
+  "code": "MAT 241",
+  "books": {
+    "tejumola": {
+      "title": "MAT 241 Ordinary Differential Equation",
+      "authors": "H. O. Tejumola",
+      "publisher": "Distance Learning Centre, University of Ibadan",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "introduction-to-odes": [
+      {
+        "book": "tejumola",
+        "read": "The chapters on the classification and formation of ODEs",
+        "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ],
+    "first-order-differential-equations": [
+      {
+        "book": "tejumola",
+        "read": "The chapters on first-order equations",
+        "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ],
+    "higher-order-linear-homogeneous-equations": [
+      {
+        "book": "tejumola",
+        "read": "The chapters on linear equations with constant coefficients",
+        "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ],
+    "undetermined-coefficients-and-variation-of-parameters": [
+      {
+        "book": "tejumola",
+        "read": "The chapters on particular integrals",
+        "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ],
+    "the-operator-d-method": [
+      {
+        "book": "tejumola",
+        "read": "The chapters on the operator D",
+        "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ]
+  }
+}

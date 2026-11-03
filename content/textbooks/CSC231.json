@@ -1,0 +1,54 @@
+{
+  "code": "CSC 231",
+  "books": {
+    "chapman": {
+      "title": "MATLAB Programming for Engineers",
+      "authors": "Stephen J. Chapman",
+      "publisher": "Cengage Learning"
+    },
+    "downey": {
+      "title": "Think Python: How to Think Like a Computer Scientist",
+      "authors": "Allen B. Downey",
+      "edition": "2nd edition",
+      "publisher": "O'Reilly",
+      "year": 2015
+    }
+  },
+  "topics": {
+    "matlab-environment-and-scripts": [
+      {
+        "book": "chapman",
+        "read": "The introductory chapters on the MATLAB environment, variables and script files",
+        "why": "A standard MATLAB textbook for engineering and science students."
+      }
+    ],
+    "arrays-vectors-and-matrices": [
+      {
+        "book": "chapman",
+        "read": "The chapters on arrays, vectors and matrices",
+        "why": "Indexing and matrix operations as in the tests."
+      }
+    ],
+    "plotting-and-anonymous-functions": [
+      {
+        "book": "chapman",
+        "read": "The chapters on plotting and user-defined functions",
+        "why": "Labelled plots and anonymous functions."
+      }
+    ],
+    "python-basics-and-control-flow": [
+      {
+        "book": "downey",
+        "read": "Chapters 1 to 7 (values, variables, conditionals, iteration)",
+        "why": "A free, widely used introduction to Python."
+      }
+    ],
+    "python-functions-and-numpy": [
+      {
+        "book": "downey",
+        "read": "Chapters 3 and 6 (functions and fruitful functions)",
+        "why": "Defining functions with parameters and return values; use the NumPy documentation for arrays."
+      }
+    ]
+  }
+}

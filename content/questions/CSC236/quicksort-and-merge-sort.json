@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The conquer stage of merge sort is to",
+    "options": [
+      {
+        "key": "a",
+        "text": "sort the two subsequences recursively"
+      },
+      {
+        "key": "b",
+        "text": "divide the list into two subsequences"
+      },
+      {
+        "key": "c",
+        "text": "partition the list around a pivot"
+      },
+      {
+        "key": "d",
+        "text": "merge the subsequences"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Combining is the merge step.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Choosing the first element as the quicksort key in an already sorted list produces",
+    "options": [
+      {
+        "key": "a",
+        "text": "an imbalanced partition"
+      },
+      {
+        "key": "b",
+        "text": "a balanced partition"
+      },
+      {
+        "key": "c",
+        "text": "a perfect split"
+      },
+      {
+        "key": "d",
+        "text": "no partition at all"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "No element is less than the key.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The worst-case time complexity of quicksort is",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n²)"
+      },
+      {
+        "key": "b",
+        "text": "O(n log n)"
+      },
+      {
+        "key": "c",
+        "text": "O(log n)"
+      },
+      {
+        "key": "d",
+        "text": "O(n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It happens with very unbalanced partitions.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "The best-case time complexity of both quicksort and merge sort is O(n log n).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Balanced splits give n log n work.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 4 and 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A good way to choose a pivot key in quicksort is to",
+    "options": [
+      {
+        "key": "a",
+        "text": "choose the key at the middle of the list"
+      },
+      {
+        "key": "b",
+        "text": "always choose the first element"
+      },
+      {
+        "key": "c",
+        "text": "always choose the last element"
+      },
+      {
+        "key": "d",
+        "text": "choose the largest element"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A middle (or random) key tends to split the list in half.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps of merge sort?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Divide the sequence into two halves"
+      },
+      {
+        "key": "b",
+        "text": "Sort each half recursively"
+      },
+      {
+        "key": "c",
+        "text": "Merge the sorted halves"
+      },
+      {
+        "key": "d",
+        "text": "Choose a pivot"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Choosing a pivot belongs to quicksort.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a divide-and-conquer sorting algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Merge sort"
+      },
+      {
+        "key": "b",
+        "text": "Quicksort"
+      },
+      {
+        "key": "c",
+        "text": "Recursive merge of sorted runs"
+      },
+      {
+        "key": "d",
+        "text": "Bubble sort"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bubble sort is iterative.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 3 and 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "The MERGE procedure runs in Θ(n) time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each element is copied and compared a constant number of times.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 4"
+  }
+]

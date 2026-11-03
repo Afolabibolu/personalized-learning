@@ -1,0 +1,240 @@
+{
+  "code": "STA 211",
+  "papers": [
+    {
+      "year": "2014 test",
+      "paper": "STA 211 Test I (2014), 50 minutes. Answer all the questions",
+      "source": "STA 202 folder photos (IMG-20260520-WA0011 to 0013)"
+    },
+    {
+      "year": "Undated test",
+      "paper": "STA 211 Test (3 units), 1 hour 30 minutes. Answer all the questions",
+      "source": "STA 211 TEST.pdf"
+    },
+    {
+      "year": "2018/2019",
+      "paper": "STA 211: Probability II, B.Sc. Degree Examination 2018/2019 (5 October, 2019), 3 hours. Answer any four questions",
+      "source": "STA 211 2018-19.pdf"
+    },
+    {
+      "year": "2020/2021 CA",
+      "paper": "STA 211 Probability II Continuous Assessment Test, 2020/2021 (Thursday, June 24, 2021), 1 hour. Attempt all questions",
+      "source": "STA 211 2021.pdf"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "STA 211: Probability II, First Semester 2020/2021 (Friday, July 17, 2021), 2 hours. Answer any four questions",
+      "source": "STA 211 2021 EXAM.pdf"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "STA 211: Probability II, Undergraduate Examination 2023/2024 (December 2023), 2 hours. Answer any four questions",
+      "source": "Exam 2023-24.jpeg and its two companion photos"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "STA 211: Probability II, Undergraduate Examination 2024/2025 (October 2024), 2½ hours. Answer any four questions",
+      "source": "IMG_20240817 photos and the STA 202 folder photo of page 1"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2014 test",
+      "number": "1",
+      "topic": "further-permutations-and-combinations",
+      "text": "Show that: (i) Σ from r = 0 to k of C(m, r)C(n, k − r) = C(m + n, k) (ii) C(n, r) = C(n − 1, r) + C(n − 1, r − 1) (iii) C(n, r) = C(n, n − r) (iv) If A, B, and C are any three events in a sample space S, show that P(A ∪ B ∪ C) = P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C) − P(B ∩ C) + P(A ∩ B ∩ C)."
+    },
+    {
+      "year": "2014 test",
+      "number": "2",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "Given that f(x) = k/(π(1 + x²)), for 0 < x < 1, obtain the followings: (i) k (ii) μ'2 (iii) μ'3 (iv) Var(X) (v) Var((2/3)X + 3)."
+    },
+    {
+      "year": "2014 test",
+      "number": "3",
+      "topic": "probability-laws-conditional-probability-and-bayes",
+      "text": "(a) Given that f(x) = 3e^(−3x) for x > 0, obtain (i) F(x) (ii) μ'2 (iii) μ'1. (b) The table below shows the number of survey subjects who have received and not received a speeding ticket in the last year, and the color of their car. Find the probability that a randomly chosen person: a) has a red car and got a speeding ticket; b) has a red car or got a speeding ticket; c) has a speeding ticket given they have a red car; d) has a red car given they have a speeding ticket. Red car: 15 speeding ticket, 135 no speeding ticket, total 150; Not red car: 45, 470, 515; Total: 60, 605, 665."
+    },
+    {
+      "year": "Undated test",
+      "number": "a",
+      "topic": "probability-laws-conditional-probability-and-bayes",
+      "text": "Show that: (i) Σ from r = 0 to k of C(m, r)C(n, k − r) = C(m + n, k) (ii) C(n, r) = (n/(n − r))C(n − 1, r) (iii) f(x) = (1/2)^x for x = 1, 2, 3, ...; show that E(2^X) does not exist. (iii) Every Saturday a fisherman goes to the river, the sea and the lake to fish, he catches fish with probabilities 0.25, 0.5 and 0.25 respectively. If he goes to the sea, there is a 75% chance of catching fish, the corresponding figures for the river and lake are 45% and 60% respectively. (i) Find the probability that he catches a fish on a given Saturday? (ii) What is the probability that he catches fish on at least three of the five consecutive Saturdays? (iii) If on a Saturday, he comes home with very large volume of fish, where is it most likely he has been?"
+    },
+    {
+      "year": "Undated test",
+      "number": "b",
+      "topic": "joint-marginal-and-conditional-distributions",
+      "text": "Given the joint probability density f(x, y) = 4(x + y − 3) for 0 < x < 2, 0 < y < 2, find (i) the conditional expectation of X given Y = y (ii) use your result in (i) to evaluate E(X | Y = 1/2). (iii) If X ~ Pois(λ), show that M_X(t) = e^(λ(e^t − 1))."
+    },
+    {
+      "year": "Undated test",
+      "number": "c",
+      "topic": "joint-marginal-and-conditional-distributions",
+      "text": "Two caplets are selected at random from a bottle containing 3 aspirin, 2 sedatives, and 4 laxative caplets. If X and Y are, respectively, the numbers of aspirin and laxative caplets included among the 2 caplets drawn from the bottle; (i) find the probabilities associated with all possible pairs of values of X and Y; (ii) if column and row totals are the probabilities that X and Y will take on the values 0, 1, and 2, compute (i) E(XY) (ii) E(X) (iii) E(Y) (iv) Cov(XY) (v) Interpret your result in (iv)."
+    },
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "probability-laws-conditional-probability-and-bayes",
+      "text": "(a) Define the followings (i) Permutation (ii) Combination (iii) Sample Space (iv) Expected value (v) Random Variable. (b) Show that: (i) Σ from r = 0 to k of C(m, r)C(n, k − r) = C(m + n, k) (ii) C(n, r) = (n/(n − r))C(n − 1, r) (iii) Every Saturday a fisherman goes to the river, the sea and the lake to fish, he catches fish with probabilities 0.5, 0.3 and 0.2 respectively. If he goes to the sea, there is a 75% chance of catching fish, the corresponding figures for the river and lake are 45% and 60% respectively. (i) Find the probability that he catches a fish on a given Saturday? (ii) What is the probability that he catches fish on at least three days of his entire fishing career if the mean λ = 4? (iii) If on a Saturday, he comes home with very large volume of fish, where is it most likely he has been? (c) If the probability density of X is given by f(x) = 1/(x ln 3) for 1 < x < 3, find E(X), E(X²), and E(X³). Use the results to determine E(X³ + 2X² − 3X + 1)."
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a)(i) What is probability density function? (ii) If the probability density of X is given by f(x) = x/2 for 0 < x ≤ 1, 1/2 for 1 < x ≤ 2, (3 − x)/2 for 2 < x ≤ 3 and 0 elsewhere, find the expected value of g(X) = X² − 5X + 3. (b) Given that f(x) = k/(π(1 + x²)), for 0 < x < 1, obtain (i) k (ii) E(X) (iii) E(X + 4) (iv) E(2X) (v) E(X/2). (c) A lot of 12 Electronic sets includes 2 with white cords. If 3 of the sets are chosen at random for shipment to the Department of Statistics, University of Ibadan, how many sets with white cords can the shipper expect to send to the Department? (Interpret your result)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) Define (i) Moment about the origin (ii) Moment about the mean (iii) Moment generating function (iv) Product Moments. (b)(i) The pdf of Uniform distribution is given by f(x) = 1/(b − a) for a ≤ x ≤ b. Use the moment generating function to obtain (i) Mean (ii) Variance. (ii) If the probability distribution of X is given by f(x) = (1/2)^x for x = 1, 2, 3, ..., show that E(2^X) does not exist. (c) Given that X has the probability distribution f(x) = λ^x e^(−λ)/x!, x = 0, 1, 2, ..., λ > 0, obtain (i) μ'1 (ii) μ'2 (iii) μ2 and (iv) show that the mean and variance of a Poisson distribution is the same."
+    },
+    {
+      "year": "2018/2019",
+      "number": "4",
+      "topic": "joint-marginal-and-conditional-distributions",
+      "text": "(a) Define Marginal Distribution and Marginal Density. (b) Two caplets are selected at random from a bottle containing 4 aspirin, 3 sedatives, and 2 laxative caplets. If X and Y are, respectively, the numbers of aspirin and sedative caplets included among the 2 caplets drawn from the bottle; (i) find the probabilities associated with all possible pairs of values of X and Y; (ii) if column and row totals are the probabilities that X and Y will take on the values 0, 1, and 2, compute (i) E(XY) (ii) E(X) (iii) E(Y) (iv) Cov(XY) (v) Interpret your result in (vi). (c) (i) Find the covariance of the random variables whose joint probability density is given by f(x, y) = 2 for x > 0, y > 0, x + y < 1, and 0 elsewhere. (ii) Find k if the joint probability density of X, Y and Z is given by f(x, y, z) = kxy(1 − z) for 0 < x < 1, 0 < y < 1, 0 < z < 1, x + y + z < 1. Find P(X + Y < 1/2)."
+    },
+    {
+      "year": "2018/2019",
+      "number": "5",
+      "topic": "joint-marginal-and-conditional-distributions",
+      "text": "(a) Define conditional mean of random variables. (b) Given the joint probability density f(x, y) = 4(x + y − 3) for 0 < x < 2, 0 < y < 2, find (i) the conditional expectation of X given Y = y (ii) use your result in (i) to evaluate E(X | Y = 1/2). (c) The joint density of the random variables X and Y is given by f(x, y) = (1/4)(2x + y) for 0 < x < 1, 0 < y < 2, and 0 elsewhere. (i) Find the regression curve of Y on X (ii) obtain the variance of your answer in (i) (iii) if X = 1/4 what will be the estimate of (i) and (ii)."
+    },
+    {
+      "year": "2018/2019",
+      "number": "6",
+      "topic": "continuous-distributions",
+      "text": "(a) A random variable X is said to have a geometric distribution given by f(x) = pq^(x−1) for x = 1, 2, 3, .... Obtain its mean and variance using moment generating function. (b) The pdf of a random variable X is given by f(x) = 2x, 0 < x < 1. Find the pdf of Y = 8X³. (c)(i) Let x1 and x2 be a random sample of size 2 from the distribution having pdf f(x) = e^(−x), 0 < x < ∞. Let y1 = x1/(x1 + x2) and y2 = x1 + x2. Obtain the joint distribution of g(y1, y2). (ii) Consider that X has the uniform distribution with pdf f(x) = 1, 0 < x < 1. Find the distribution of Y = −2 log_e X. (iii) The distribution function of the random variable X is given by F(x) = 1 − (1 + x)e^(−x) for x > 0, and 0 for x ≤ 0. Find (i) P(X ≤ 2) (ii) P(1 < X < 3) (iii) P(X > 4)."
+    },
+    {
+      "year": "2020/2021 CA",
+      "number": "1",
+      "topic": "probability-laws-conditional-probability-and-bayes",
+      "text": "A survey of 500 students taking one or more courses in Algebra, Physics and Statistics during one semester revealed the following numbers of students in indicated subjects: Algebra 186, Physics 295, Statistics 329, Algebra and Physics 83, Physics and Statistics 217, Algebra and Statistics 63. A student is selected at random, what is the probability that he takes (i) all the three subjects? (ii) Statistics but not Physics and Algebra? (iii) Statistics, Algebra but not Physics?"
+    },
+    {
+      "year": "2020/2021 CA",
+      "number": "2",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "A discrete random variable X has a pmf of the form f(x) = k(8 − x) for x = 0, 1, 2, 3, 4, 5, and zero otherwise. (a) Find the constant k (b) Find the CDF, F(x) (c) Find P(X > 2) (d) Find E(X) (e) Find Var(X)."
+    },
+    {
+      "year": "2020/2021 CA",
+      "number": "3",
+      "topic": "continuous-distributions",
+      "text": "Given that the moment generating function of Gamma distributed random variable X is (1/(1 − βt))^α. Obtain the first moment about zero of X."
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "further-permutations-and-combinations",
+      "text": "(a) Define the following terms: (i) Permutation (ii) Combination (iii) Sample Space (iv) Random variable. (b) If C(10, r) = C(10, r − 2), find C(r, 6). (c) Prove that C(n, r) + C(n, r − 1) = C(n + 1, r)."
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "probability-laws-conditional-probability-and-bayes",
+      "text": "(a) A magician has 20 coins in his pocket. Twelve of these coins are fair coins (with one head and one tail) and eight are defective coins (with heads on both sides). The magician randomly draws a coin from his pocket and flips it. Given that the flipped coin shows a head, what is the probability that it is defective? (b) Given any three events L, M and N in a sample space, S and P(L) > 0, define (i) independence of L and M (ii) conditional probability of M given L. (c) Suppose 15% of apple and 10% consignment were toxic. If the consignment consist of 60% apple and 40% mango, what is the probability that a fruit selected at random is toxic?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "joint-marginal-and-conditional-distributions",
+      "text": "Suppose that X and Y are continuous random variable with joint probability density function given by f(x, y) = c(x + y) for 0 ≤ y ≤ x² ≤ 1, and 0 elsewhere. Find: (a) the value of the constant c, (b) the marginal probability density function of X (c) the marginal probability density function of Y (d) P(X ≤ 0.5) (e) P(Y = 0.5)."
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "binomial-geometric-and-negative-binomial",
+      "text": "Let X be a random variable whose probability density function is given by f(x) = 2x for 0 ≤ x ≤ 1, and 0 elsewhere. If g1(x) = x², g2(x) = 1 − x, and g3(x) = √x, compute (a) E[g1(X) + g2(X) + g3(X)]? (b) If X ~ bin(10, 0.4), Y ~ bin(20, 0.5) and Cov(X, Y) = 2.5: (i) compute Var(X + Y) if X and Y are independent (ii) compute Var(X − Y) if X and Y are dependent. (c) If X ~ N(μ, 100) and P(X > 16.34) = 0.1212. Find the expected value of X?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "continuous-distributions",
+      "text": "(a) Define the moment generating function of a continuous random variable X. (b) Let X have a gamma distribution with pdf f(x) = x^(α−1)e^(−x/β)/(β^α Γ(α)), x > 0, and 0 elsewhere. Given that the mgf of X = (1/(1 − βt))^α, obtain the (i) the first moment of X about the origin (ii) the second moment of X about the mean. (c) What is the usefulness of moment generating function (mgf) in statistics?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6",
+      "topic": "continuous-distributions",
+      "text": "(a) Define (i) Moment about the origin (ii) Moment about the mean. The pdf of Uniform distribution is given by f(x) = 1/(b − a) for a ≤ x ≤ b. (b) Obtain the moment generating function of X. (c) From the mgf in b, obtain the mean and variance of X. (d) If the probability distribution of X is given by f(x) = (1/2)^x for x = 1, 2, 3, ..., show that E(2^X) does not exist."
+    },
+    {
+      "year": "2023/2024",
+      "number": "1",
+      "topic": "continuous-distributions",
+      "text": "(a) The probability density function of a uniform distribution is given by f(x) = 1/(β − α) for α ≤ x ≤ β. Obtain the mean and the variance of X. (b) In a certain experiment, the error made in determining the density of a substance is a random variable having a uniform density with α = −0.015 and β = 0.015. Find the probabilities that: (i) such an error will be between 0.01 and 0.02 (ii) the size of such an error will exceed 0.005. (c) Differentiate between a discrete random variable and a continuous random variable."
+    },
+    {
+      "year": "2023/2024",
+      "number": "2",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) Define expectation function for a continuous and discrete random variable. (b) If the probability density of X is given by f(x) = 2(1 − x) for 0 < x < 1, and 0 otherwise, show that E(X^r) = 2/((r + 1)(r + 2)) and use this result to evaluate E[(2X + 1)²]. (c) Show that first moment about the mean equal to zero and second moments mean equal the variance."
+    },
+    {
+      "year": "2023/2024",
+      "number": "3",
+      "topic": "binomial-geometric-and-negative-binomial",
+      "text": "(a) State 4 properties of a Binomial distribution. (b) If 5 senators out of the 12 presents in a function are from the northern part of the country, and 3 are selected for an award, what is the probability that only one of the senators comes from the northern part of the country? (c) If X has the probability density f(x) = ke^(−3x) for x > 0, and 0 elsewhere, find k and P(0.5 ≤ X ≤ 1). (d) nP4 = 20 nP2, find n."
+    },
+    {
+      "year": "2023/2024",
+      "number": "4",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) Define the following terms: (i) moment about the origin for both continuous and discrete random variable (ii) moment about the mean for both continuous and discrete random variable (iii) conditional probability. (b) Express the third moment about the mean in terms of moment about the origin. (c) A continuous random variable X has the PDF f(x) = (3/4)x(2 − x) for 0 < x < 2, and 0 elsewhere. Find the first four moment about the mean."
+    },
+    {
+      "year": "2023/2024",
+      "number": "5",
+      "topic": "poisson-and-hypergeometric-distributions",
+      "text": "(a) Find the number of ways in which a team consisting of 11 players can be selected from 14 players. Also, find how many of these (i) will include the captain (ii) will not include the captain. (b) Given the independent random variable X1, X2, and X3 with the probability densities f1(x1) = e^(−x1) for x1 > 0, f2(x2) = 2e^(−2x2) for x2 > 0, f3(x3) = 3e^(−3x3) for x3 > 0, and 0 elsewhere, find their joint probability density. (c) Given that a random variable X follows a Poisson distribution with parameter θ; show that E(X) = V(X) = θ."
+    },
+    {
+      "year": "2023/2024",
+      "number": "6",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) State the Chebyshev's theorem. (b) Define the following probability concepts: (i) Mutually Exclusive Events (ii) Independent Events (iii) Conditional Probability. (c) A random variable has mean μ = 12 and σ² = 9 and an unknown probability distribution. Using Chebyshev's inequality, find the probability of X ranging between 6 and 18. (d) Given the joint probability density f(x, y) = (2/3)(x + 2y) for 0 < x < 1, 0 < y < 1, and 0 elsewhere, find the marginal densities of X and Y."
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) State the Chebyshev's theorem. (b) Define the following probability concepts: (i) Mutually Exclusive Events (ii) Independent Events (iii) Conditional Probability. (c) A continuous random variable X has a pdf given as f(x) = (1/6)(2x + 1) for 0 < x < 2, and 0 elsewhere. Find the (i) mean of X (ii) variance of X (iii) third raw moment and hence, (iv) third central moments. (d) How many three-digit numbers can be formed from 8 digits 1, 2, 3, ..., 8, if (a) repetitions are not allowed (b) repetitions are allowed."
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "topic": "continuous-distributions",
+      "text": "(a) The probability density function of a uniform distribution is given by f(x) = 1/(b − a) for a ≤ x ≤ b. Obtain the mean and the variance of X. (b) In a certain experiment, the error made in determining the density of a substance is a random variable having a uniform density with α = −0.015 and β = 0.015. Find the probabilities that: (i) such an error will be between 0.01 and 0.02 (ii) the size of such an error will exceed 0.005. (c) Given the joint probability density f(x, y) = (2/3)(x + 2y) for 0 < x < 1, 0 < y < 1, and 0 elsewhere, find the marginal densities of X and Y."
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) Define expectation function for a continuous and discrete random variable. (b) If the probability density of X is given by f(x) = 2(1 − x) for 0 < x < 1, and 0 otherwise, show that E(X^q) = 2/((q + 1)(q + 2)) and use this result to evaluate E[(2q + 1)²]. (c) Show that first moment about the mean equal to zero and second moments mean equal the variance."
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "topic": "binomial-geometric-and-negative-binomial",
+      "text": "(a) State 4 properties of a Binomial distribution. (b) If a fair dice is thrown together once (as printed), find the probability of obtaining (i) no six (ii) four sixes (iii) at least one six. (c) If X has the probability density f(x) = ke^(−3x) for x > 0, and 0 elsewhere, find k and P(0.5 ≤ X ≤ 1). (d) nC12 = nC8, find nC17 and 22Cn."
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "topic": "random-variables-expectation-and-moments",
+      "text": "(a) Define the following terms: (i) moment about the origin for both continuous and discrete random variable (ii) moment about the mean for both continuous and discrete random variable (iii) state Bayes' theorem. (b) Express the third moment about the mean in terms of moment about the origin. (c) Given that E(X + 4) = 10, and E[(X + 4)²] = 116, find (i) E(X) (ii) Var(X) (iii) Var[2X + 4]."
+    },
+    {
+      "year": "2024/2025",
+      "number": "6",
+      "topic": "poisson-and-hypergeometric-distributions",
+      "text": "(a) If 5 senators out of the 12 presents in a function are from the mother part of the country, and 3 are selected for an award, what is the probability that only one of the senators comes from the northern part of the country? (b) Given the independent random variable X1, X2, and X3 with the probability densities f1(x1) = e^(−x1) for x1 > 0, f2(x2) = 2e^(−2x2) for x2 > 0, f3(x3) = 3e^(−3x3) for x3 > 0, and 0 elsewhere, find their joint probability density. (c) Given that a random variable X follows a Poisson distribution with parameter θ; use the moment generating functions approach to obtain the mean and the variance of X."
+    }
+  ]
+}

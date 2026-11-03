@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The word \"prose\" comes from the Latin \"prosa\", meaning",
+    "options": [
+      {
+        "key": "a",
+        "text": "straightforward"
+      },
+      {
+        "key": "b",
+        "text": "song"
+      },
+      {
+        "key": "c",
+        "text": "imagination"
+      },
+      {
+        "key": "d",
+        "text": "drama"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Prose is narrative and denotative.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is the shortest form of prose fiction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Flash fiction"
+      },
+      {
+        "key": "b",
+        "text": "Short story"
+      },
+      {
+        "key": "c",
+        "text": "Novella"
+      },
+      {
+        "key": "d",
+        "text": "Novel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From 6 to about 700 words.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A novel told through letters is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an epistolary novel"
+      },
+      {
+        "key": "b",
+        "text": "a picaresque novel"
+      },
+      {
+        "key": "c",
+        "text": "a gothic novel"
+      },
+      {
+        "key": "d",
+        "text": "a historical novel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So Long a Letter is an example.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A character whose name is the title of the work is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an eponymous character"
+      },
+      {
+        "key": "b",
+        "text": "a foil"
+      },
+      {
+        "key": "c",
+        "text": "a flat character"
+      },
+      {
+        "key": "d",
+        "text": "an antagonist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example Oliver Twist.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A memoir focuses on a specific period of the subject's life, unlike a full autobiography.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Soyinka's Aké is an example.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A flat character undergoes significant changes during the story.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is a round character; flat characters are predictable.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of non-fiction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Biography"
+      },
+      {
+        "key": "b",
+        "text": "Autobiography"
+      },
+      {
+        "key": "c",
+        "text": "Diary"
+      },
+      {
+        "key": "d",
+        "text": "Novella"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A novella is fiction.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the three ways of creating characters in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Naming"
+      },
+      {
+        "key": "b",
+        "text": "Showing"
+      },
+      {
+        "key": "c",
+        "text": "Telling"
+      },
+      {
+        "key": "d",
+        "text": "Rhyming"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Showing is also called the dramatic technique.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 5 (C. T. Akinsete)"
+  }
+]

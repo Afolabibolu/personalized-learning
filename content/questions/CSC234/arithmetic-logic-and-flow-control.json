@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which flag is set to 1 when the result of an operation is zero?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Zero Flag (ZF)"
+      },
+      {
+        "key": "b",
+        "text": "Carry Flag (CF)"
+      },
+      {
+        "key": "c",
+        "text": "Sign Flag (SF)"
+      },
+      {
+        "key": "d",
+        "text": "Parity Flag (PF)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For a non-zero result ZF is 0.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Adding bytes 255 + 1 sets which flag because of an unsigned overflow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Carry Flag (CF)"
+      },
+      {
+        "key": "b",
+        "text": "Overflow Flag (OF)"
+      },
+      {
+        "key": "c",
+        "text": "Direction Flag (DF)"
+      },
+      {
+        "key": "d",
+        "text": "Interrupt Flag (IF)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "OF is for signed overflow.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Adding bytes 100 + 50 sets which flag because of a signed overflow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Overflow Flag (OF)"
+      },
+      {
+        "key": "b",
+        "text": "Carry Flag (CF)"
+      },
+      {
+        "key": "c",
+        "text": "Zero Flag (ZF)"
+      },
+      {
+        "key": "d",
+        "text": "Parity Flag (PF)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "150 is outside −128 to 127.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "JMP is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an unconditional jump"
+      },
+      {
+        "key": "b",
+        "text": "a conditional jump"
+      },
+      {
+        "key": "c",
+        "text": "a loop counter"
+      },
+      {
+        "key": "d",
+        "text": "an interrupt"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Conditional jumps include JE and JNE.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 8"
+  },
+  {
+    "format": "true_false",
+    "stem": "JE jumps if the first operand is equal to the second, as set by CMP.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "JNE jumps if they are not equal.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which instructions set the flags that JZ tests?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CMP"
+      },
+      {
+        "key": "b",
+        "text": "SUB"
+      },
+      {
+        "key": "c",
+        "text": "AND"
+      },
+      {
+        "key": "d",
+        "text": "JMP"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "JMP only transfers control.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Sessions 7 and 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a flag in the 8086 flags register?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Carry Flag"
+      },
+      {
+        "key": "b",
+        "text": "Sign Flag"
+      },
+      {
+        "key": "c",
+        "text": "Direction Flag"
+      },
+      {
+        "key": "d",
+        "text": "Segment Flag"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "There is no segment flag.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "A label can start with a number.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A label name followed by ':' cannot start with a number.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 8"
+  }
+]

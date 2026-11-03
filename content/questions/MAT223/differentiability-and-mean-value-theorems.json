@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which function is continuous at 0 but not differentiable there?",
+    "options": [
+      {
+        "key": "a",
+        "text": "|x|"
+      },
+      {
+        "key": "b",
+        "text": "x²"
+      },
+      {
+        "key": "c",
+        "text": "x³"
+      },
+      {
+        "key": "d",
+        "text": "sin x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its one-sided slopes are 1 and −1.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For g(a) = a² (a ≥ 0) and −a² (a < 0), what is g'(0)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "−1"
+      },
+      {
+        "key": "d",
+        "text": "It does not exist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both one-sided quotients tend to 0.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Rolle's theorem for f(x) = x³ − 4x on [−2, 2] gives c =",
+    "options": [
+      {
+        "key": "a",
+        "text": "±2/√3"
+      },
+      {
+        "key": "b",
+        "text": "±2"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "±4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Solve 3c² − 4 = 0.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Fermat's theorem says that at an interior local maximum where f' exists,",
+    "options": [
+      {
+        "key": "a",
+        "text": "f'(a) = 0"
+      },
+      {
+        "key": "b",
+        "text": "f'(a) > 0"
+      },
+      {
+        "key": "c",
+        "text": "f''(a) > 0"
+      },
+      {
+        "key": "d",
+        "text": "f is discontinuous"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The tangent is horizontal.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If f is differentiable at x0, then f is continuous at x0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Differentiability implies continuity.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "f(x) = x² for x < 1 and 3 − 2x for x ≥ 1 is differentiable at x = 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Its one-sided derivatives are 2 and −2.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are hypotheses of the mean value theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f continuous on [a, b]"
+      },
+      {
+        "key": "b",
+        "text": "f differentiable on (a, b)"
+      },
+      {
+        "key": "c",
+        "text": "f(a) = f(b)"
+      },
+      {
+        "key": "d",
+        "text": "f'(x) > 0 on (a, b)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "f(a) = f(b) is the extra hypothesis of Rolle's theorem.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a theorem about derivatives in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rolle's theorem"
+      },
+      {
+        "key": "b",
+        "text": "Darboux's theorem"
+      },
+      {
+        "key": "c",
+        "text": "Fermat's theorem"
+      },
+      {
+        "key": "d",
+        "text": "Pythagoras's theorem"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are in the course.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  }
+]

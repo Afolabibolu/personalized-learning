@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The mean of 14, 15, 16, 16, 17, 17, 22, 22, 22, 22 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "18.3"
+      },
+      {
+        "key": "b",
+        "text": "17"
+      },
+      {
+        "key": "c",
+        "text": "22"
+      },
+      {
+        "key": "d",
+        "text": "16.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "183/10.",
+    "source": "STA 114 Lecture 3: Measures of Centre (Adepoju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The geometric mean of 2 and 8 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "3.2"
+      },
+      {
+        "key": "d",
+        "text": "16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "√(2 × 8).",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The harmonic mean of 2 and 8 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "3.2"
+      },
+      {
+        "key": "b",
+        "text": "4"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "10"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2/(1/2 + 1/8).",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If 2, 5, 3, w, 6 has mean 3.4, then w is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Total 17 − 16 = 1.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "The median is not affected by extreme values.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only the middle position matters.",
+    "source": "STA 114 Lecture 3: Measures of Centre (Adepoju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For positive data the geometric mean is always larger than the arithmetic mean.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A ≥ G ≥ H.",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are measures of centre?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mean"
+      },
+      {
+        "key": "b",
+        "text": "Median"
+      },
+      {
+        "key": "c",
+        "text": "Mode"
+      },
+      {
+        "key": "d",
+        "text": "Range"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The range measures spread.",
+    "source": "STA 114 Lecture 3: Measures of Centre (Adepoju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which mean is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arithmetic mean"
+      },
+      {
+        "key": "b",
+        "text": "Geometric mean"
+      },
+      {
+        "key": "c",
+        "text": "Harmonic mean"
+      },
+      {
+        "key": "d",
+        "text": "Mean deviation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Mean deviation measures variability.",
+    "source": "STA 114 Lecture 3: Measures of Centre (Adepoju)"
+  }
+]

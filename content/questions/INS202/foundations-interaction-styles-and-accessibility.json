@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which interaction style has a steep learning curve but is very fast for experts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Command line"
+      },
+      {
+        "key": "b",
+        "text": "Menu-driven"
+      },
+      {
+        "key": "c",
+        "text": "Form-fill"
+      },
+      {
+        "key": "d",
+        "text": "Natural language"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Menus suit novices.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "single_choice",
+    "stem": "ATMs mainly use which interaction style?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Menu-driven"
+      },
+      {
+        "key": "b",
+        "text": "Command line"
+      },
+      {
+        "key": "c",
+        "text": "Gesture"
+      },
+      {
+        "key": "d",
+        "text": "Natural language"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "First-time users need no training.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In WCAG's POUR, the O stands for",
+    "options": [
+      {
+        "key": "a",
+        "text": "Operable"
+      },
+      {
+        "key": "b",
+        "text": "Optional"
+      },
+      {
+        "key": "c",
+        "text": "Organised"
+      },
+      {
+        "key": "d",
+        "text": "Open"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example full keyboard navigation.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The curb-cut effect shows that",
+    "options": [
+      {
+        "key": "a",
+        "text": "solutions for disability often benefit everyone"
+      },
+      {
+        "key": "b",
+        "text": "accessibility is too costly"
+      },
+      {
+        "key": "c",
+        "text": "only experts use kerbs"
+      },
+      {
+        "key": "d",
+        "text": "colour is always enough"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Curb cuts help cyclists and parents with strollers too.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "true_false",
+    "stem": "Accessibility is a subset of inclusive design.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Inclusive design also covers temporary and situational limitations.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "true_false",
+    "stem": "Designers should model 'the user' on themselves, since they understand the system best.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "No average user exists; involve real users.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are human factors in Lecture 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical"
+      },
+      {
+        "key": "b",
+        "text": "Cognitive"
+      },
+      {
+        "key": "c",
+        "text": "Social"
+      },
+      {
+        "key": "d",
+        "text": "Processing speed"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Processing is a computer factor.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the six disciplines HCI draws on in Lecture 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sociology"
+      },
+      {
+        "key": "b",
+        "text": "Linguistics"
+      },
+      {
+        "key": "c",
+        "text": "Ergonomics"
+      },
+      {
+        "key": "d",
+        "text": "Astronomy"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are computer science, psychology and design.",
+    "source": "INS 202 Lecture 2 Foundations of HCI"
+  }
+]

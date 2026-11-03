@@ -1,0 +1,68 @@
+{
+  "code": "STA 211",
+  "books": {
+    "amahia": {
+      "title": "STA 211 Probability II",
+      "authors": "G. N. Amahia",
+      "publisher": "Distance Learning Centre, University of Ibadan",
+      "note": "In the course folder."
+    },
+    "freund": {
+      "title": "John E. Freund's Mathematical Statistics with Applications",
+      "authors": "Irwin Miller and Marylees Miller",
+      "publisher": "Pearson",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "further-permutations-and-combinations": [
+      {
+        "book": "amahia",
+        "read": "Lectures One and Two (further permutations and combinations; elements that are alike)",
+        "why": "Counting methods and identities."
+      }
+    ],
+    "probability-laws-conditional-probability-and-bayes": [
+      {
+        "book": "amahia",
+        "read": "Lectures Three and Four (probability laws; conditional probability, independence and Bayes rule)",
+        "why": "Probability laws and Bayes' rule."
+      }
+    ],
+    "random-variables-expectation-and-moments": [
+      {
+        "book": "amahia",
+        "read": "Lectures Five and Six (random variables, expectations and moments; Chebyshev's inequality)",
+        "why": "Expectation, moments and Chebyshev."
+      }
+    ],
+    "binomial-geometric-and-negative-binomial": [
+      {
+        "book": "amahia",
+        "read": "Lectures Seven and Eight (binomial; negative binomial and geometric)",
+        "why": "Discrete distributions of trials."
+      }
+    ],
+    "poisson-and-hypergeometric-distributions": [
+      {
+        "book": "amahia",
+        "read": "Lectures Nine and Ten (Poisson; hypergeometric)",
+        "why": "Counts and sampling without replacement."
+      }
+    ],
+    "continuous-distributions": [
+      {
+        "book": "amahia",
+        "read": "Lectures Eleven, Twelve and Fifteen (uniform; normal; gamma and chi-square)",
+        "why": "Continuous distributions."
+      }
+    ],
+    "joint-marginal-and-conditional-distributions": [
+      {
+        "book": "amahia",
+        "read": "Lectures Thirteen and Fourteen (joint, marginal and conditional; functions of random variables)",
+        "why": "Joint distributions and transformations."
+      }
+    ]
+  }
+}

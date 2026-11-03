@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "A sequential circuit's output depends only on its current inputs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That describes a combinational circuit; sequential circuits also depend on past inputs and state.",
+    "source": "SequentialCircuits.ppt (IFT 211 lecture 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The JK flip-flop was invented to",
+    "options": [
+      {
+        "key": "a",
+        "text": "eradicate the invalid state of the SR flip-flop"
+      },
+      {
+        "key": "b",
+        "text": "add a second clock"
+      },
+      {
+        "key": "c",
+        "text": "replace the D latch"
+      },
+      {
+        "key": "d",
+        "text": "store analogue values"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "With J = K = 1 it toggles instead.",
+    "source": "SequentialCircuits.ppt (IFT 211 lecture 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A JK flip-flop with J = K = 1 behaves as a",
+    "options": [
+      {
+        "key": "a",
+        "text": "T flip-flop"
+      },
+      {
+        "key": "b",
+        "text": "D flip-flop"
+      },
+      {
+        "key": "c",
+        "text": "SR latch"
+      },
+      {
+        "key": "d",
+        "text": "buffer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It toggles on every clock pulse.",
+    "source": "SequentialCircuits.ppt (IFT 211 lecture 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many states does an 8-bit binary counter go through?",
+    "options": [
+      {
+        "key": "a",
+        "text": "256"
+      },
+      {
+        "key": "b",
+        "text": "8"
+      },
+      {
+        "key": "c",
+        "text": "128"
+      },
+      {
+        "key": "d",
+        "text": "255"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2⁸ = 256, so it is a MOD-256 counter.",
+    "source": "counters_and_registers.ppt (IFT 211 lecture 9)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about asynchronous (ripple) counters are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The flip-flops do not share a common clock pulse"
+      },
+      {
+        "key": "b",
+        "text": "They suffer from cumulative delay"
+      },
+      {
+        "key": "c",
+        "text": "They are also called ripple counters"
+      },
+      {
+        "key": "d",
+        "text": "All flip-flops change at exactly the same time"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Flip-flops in a synchronous counter change together.",
+    "source": "counters_and_registers.ppt (IFT 211 lecture 9)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The last flip-flop of a counter divides the input clock frequency by the counter's MOD number.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So a counter can be used as a frequency divider.",
+    "source": "counters_and_registers.ppt (IFT 211 lecture 9)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which flip-flop type is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SR"
+      },
+      {
+        "key": "b",
+        "text": "JK"
+      },
+      {
+        "key": "c",
+        "text": "D"
+      },
+      {
+        "key": "d",
+        "text": "XOR"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "XOR is a logic gate, not a flip-flop.",
+    "source": "SequentialCircuits.ppt (IFT 211 lecture 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Flip-flops that respond only at a clock edge are called",
+    "options": [
+      {
+        "key": "a",
+        "text": "edge-triggered"
+      },
+      {
+        "key": "b",
+        "text": "level-sensitive"
+      },
+      {
+        "key": "c",
+        "text": "combinational"
+      },
+      {
+        "key": "d",
+        "text": "asynchronous"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Level-sensitive storage elements are usually called latches.",
+    "source": "SequentialCircuits.ppt (IFT 211 lecture 8)"
+  }
+]

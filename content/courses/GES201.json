@@ -1,0 +1,108 @@
+{
+  "code": "GES 201",
+  "title": "Use of English II",
+  "semester": 2,
+  "description": "The General Studies course in effective communication and literary appreciation: the English sound system, stress and syllables, intonation and rhythm, literature and figures of speech, prose fiction, drama and poetry appreciation, and punctuation and forms of writing. Built from Effective Communication and Literary Appreciation Skills (the GES 201 textbook, Centre for General Studies, 2019), the 2025/26 course outline and reading list, and the punctuation slides.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "the-english-sound-system",
+      "title": "The English Sound System",
+      "summary": "Speaking is a productive skill. English speech sounds are made by the human articulators and divide into 20 vowels (12 pure vowels and 8 diphthongs, plus triphthongs) and 24 consonants, described by the state of the glottis, the place of articulation and the manner of articulation.",
+      "subtopics": [
+        "Speaking and the human articulators",
+        "Vowels and how they are described",
+        "The twelve pure vowels",
+        "Diphthongs and triphthongs",
+        "Consonants: voicing, place and manner",
+        "Commonly mispronounced words"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "syllables-and-stress",
+      "title": "Syllables and Stress",
+      "summary": "The suprasegmental features of English work above the individual sound. The syllable is the smallest pronounceable unit, made of an onset, a nucleus and a coda. Stress is the prominence given to a syllable; English stress is free, with patterns for two- and three-syllable words, suffixes, word-class pairs and compounds.",
+      "subtopics": [
+        "Segmentals and suprasegmentals",
+        "The syllable and its structure",
+        "Stress and degrees of stress",
+        "Stress in two- and three-syllable words",
+        "Suffixes that take, shift or keep stress",
+        "Word-class pairs and compounds"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "intonation-and-rhythm",
+      "title": "Intonation and Rhythm",
+      "summary": "Intonation is the variation of pitch in speech, with four main tunes: rise, fall, rise-fall and fall-rise. The tone-unit has a pre-head, head, tonic syllable and tail. Intonation has grammatical, attitudinal, accentual and discourse functions. English is stress-timed, with feet and weak forms, while most Nigerian languages are syllable-timed.",
+      "subtopics": [
+        "Pitch and intonation",
+        "The four forms of intonation",
+        "The tone-unit and its structure",
+        "Grammatical and attitudinal functions",
+        "Accentual and discourse functions",
+        "Rhythm, feet and weak forms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "literature-and-figures-of-speech",
+      "title": "Literature, Its Elements and Figures of Speech",
+      "summary": "Literature is creative or imaginative work, written or spoken, that depicts human conditions through language marked by indirectness. It entertains, teaches morals, preserves history, builds language proficiency and is therapeutic. Its three genres are drama, poetry and prose, its elements include subject matter, theme, plot, setting and character, and writers use figures of speech.",
+      "subtopics": [
+        "What literature is",
+        "The relevance of literature",
+        "The three genres",
+        "Elements of literature",
+        "Imagery, simile, metaphor and personification",
+        "Other figures of speech"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "prose-fiction",
+      "title": "Prose Fiction",
+      "summary": "Prose, from the Latin prosa (straightforward), tells stories in narrative form. Fiction is an imaginative narrative, while non-fiction gives a true life account. Fiction takes the forms of flash fiction, short story, novella and novel, and its elements are subject matter, theme, plot, characterisation, point of view and setting.",
+      "subtopics": [
+        "Definition and origins of prose fiction",
+        "Functions of prose",
+        "Fiction and non-fiction",
+        "Forms of fiction by length",
+        "Elements of prose fiction",
+        "Types of character and of novel"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "drama-and-poetry-appreciation",
+      "title": "Drama and Poetry Appreciation",
+      "summary": "Drama is literature realised through performance: dialogue, action, characters and stage. Its main types are tragedy, comedy and tragicomedy. Poetry is written in lines and stanzas and marked by rhythm, imagery and sound. Appreciating a poem means examining its subject matter, theme, mood, imagery and figures of speech. The set texts are Synge's Riders to the Sea and eight selected poems.",
+      "subtopics": [
+        "Features of drama",
+        "Tragedy, comedy and tragicomedy",
+        "Appreciating a play: Riders to the Sea",
+        "Features and types of poetry",
+        "How to appreciate a poem",
+        "The selected poems"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "punctuation-and-forms-of-writing",
+      "title": "Punctuation and Forms of Writing",
+      "summary": "Punctuation marks divide written language into readable bits: full stop, question and exclamation marks, capital letters, comma, apostrophe, colon, semicolon, quotation marks, brackets, hyphen, dash and slash. Forms of writing include official correspondence (formal letters, memos, minutes and reports) and essays, term papers and book reviews.",
+      "subtopics": [
+        "The role of punctuation",
+        "Full stop, question and exclamation marks",
+        "Comma, apostrophe, colon and semicolon",
+        "Quotation marks, brackets, hyphen, dash and slash",
+        "Official correspondence: letters, memos, minutes and reports",
+        "Essays, term papers and book reviews"
+      ],
+      "lectures": []
+    }
+  ]
+}

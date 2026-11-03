@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The Kraft inequality for a D-ary prefix-free code with lengths lᵢ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ D^(−lᵢ) ≤ 1"
+      },
+      {
+        "key": "b",
+        "text": "Σ lᵢ ≤ D"
+      },
+      {
+        "key": "c",
+        "text": "Σ D^(lᵢ) ≥ 1"
+      },
+      {
+        "key": "d",
+        "text": "Σ pᵢlᵢ = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is necessary and sufficient.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "A binary prefix-free code with lengths 1, 2, 3, 3, 4 exists.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "1/2 + 1/4 + 1/8 + 1/8 + 1/16 > 1.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The expected code length is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ pᵢ lᵢ"
+      },
+      {
+        "key": "b",
+        "text": "the longest codeword"
+      },
+      {
+        "key": "c",
+        "text": "the number of symbols"
+      },
+      {
+        "key": "d",
+        "text": "Σ lᵢ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each length is weighted by its probability.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In an optimal code, shorter codewords should go to",
+    "options": [
+      {
+        "key": "a",
+        "text": "the most probable symbols"
+      },
+      {
+        "key": "b",
+        "text": "the least probable symbols"
+      },
+      {
+        "key": "c",
+        "text": "every symbol equally"
+      },
+      {
+        "key": "d",
+        "text": "the first symbol only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This reduces the expected length.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In each step of Huffman's algorithm you",
+    "options": [
+      {
+        "key": "a",
+        "text": "combine the two least probable nodes"
+      },
+      {
+        "key": "b",
+        "text": "split the most probable node"
+      },
+      {
+        "key": "c",
+        "text": "sort the codewords alphabetically"
+      },
+      {
+        "key": "d",
+        "text": "remove the root"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The new node's probability is their sum.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the two basic observations behind binary Huffman coding?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An optimal binary prefix-free code has no unused leaf"
+      },
+      {
+        "key": "b",
+        "text": "The two least likely codewords can be siblings, differing only in the last digit"
+      },
+      {
+        "key": "c",
+        "text": "Both are needed together"
+      },
+      {
+        "key": "d",
+        "text": "Every codeword has the same length"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Equal lengths are not required.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not part of Huffman's algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Making a leaf per symbol"
+      },
+      {
+        "key": "b",
+        "text": "Merging the two least probable nodes"
+      },
+      {
+        "key": "c",
+        "text": "Reading codewords from root to leaf"
+      },
+      {
+        "key": "d",
+        "text": "Choosing a pivot element"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Pivots belong to quicksort.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Kraft inequality tells us that any code satisfying it is prefix-free.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is the classical pitfall: it only says a prefix-free code with those lengths may exist.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 3"
+  }
+]

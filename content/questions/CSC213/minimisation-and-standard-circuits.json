@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a Karnaugh map, adjacent cells differ in",
+    "options": [
+      {
+        "key": "a",
+        "text": "exactly one input variable"
+      },
+      {
+        "key": "b",
+        "text": "exactly two input variables"
+      },
+      {
+        "key": "c",
+        "text": "all input variables"
+      },
+      {
+        "key": "d",
+        "text": "their output only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "That is why rows and columns are numbered 00, 01, 11, 10.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eight"
+  },
+  {
+    "format": "true_false",
+    "stem": "The larger a group of adjacent 1s in a K-map, the fewer inputs its product term needs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Variables that change inside the group drop out.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eight"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Quine-McCluskey method repeatedly applies which theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "XY + X̄Y = Y"
+      },
+      {
+        "key": "b",
+        "text": "X + X̄ = 0"
+      },
+      {
+        "key": "c",
+        "text": "X · X̄ = 1"
+      },
+      {
+        "key": "d",
+        "text": "X + 1 = X"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Minterms differing in one bit combine and that bit drops out.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eight"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A half adder's carry output is produced by which gate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AND"
+      },
+      {
+        "key": "b",
+        "text": "XOR"
+      },
+      {
+        "key": "c",
+        "text": "OR"
+      },
+      {
+        "key": "d",
+        "text": "NOR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The sum is the XOR of A and B; the carry is their AND.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Nine"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct about the full adder?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It has a carry-in input"
+      },
+      {
+        "key": "b",
+        "text": "It can be made from two half adders"
+      },
+      {
+        "key": "c",
+        "text": "n of them cascaded form a ripple carry adder"
+      },
+      {
+        "key": "d",
+        "text": "It has only two inputs"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The full adder has three inputs: A, B and carry-in.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Nine"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A device that selects one of many inputs and passes it to a single output is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "multiplexer"
+      },
+      {
+        "key": "b",
+        "text": "demultiplexer"
+      },
+      {
+        "key": "c",
+        "text": "decoder"
+      },
+      {
+        "key": "d",
+        "text": "encoder"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The multiplexer is a data selector; the demultiplexer is a data distributor.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Nine"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which circuit is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multiplexer"
+      },
+      {
+        "key": "b",
+        "text": "Decoder"
+      },
+      {
+        "key": "c",
+        "text": "Full adder"
+      },
+      {
+        "key": "d",
+        "text": "JK flip-flop"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The JK flip-flop is a sequential element; the others are combinational circuits.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lectures Nine and Ten"
+  },
+  {
+    "format": "true_false",
+    "stem": "When two inputs are active together, a priority encoder outputs the code of the highest-priority input.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A plain binary encoder would give a wrong code in that case.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Nine"
+  }
+]

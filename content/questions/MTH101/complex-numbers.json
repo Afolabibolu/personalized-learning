@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Express (2 − 3i)(3 + 2i) in the form x + iy.",
+    "options": [
+      {
+        "key": "a",
+        "text": "12 − 5i"
+      },
+      {
+        "key": "b",
+        "text": "0 − 5i"
+      },
+      {
+        "key": "c",
+        "text": "12 + 5i"
+      },
+      {
+        "key": "d",
+        "text": "6 − 6i"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6 + 4i − 9i − 6i² = 12 − 5i.",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Given that 2 − 3i is a root of x⁴ − 4x³ + 14x² − 4x + 13 = 0, the other roots are",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 + 3i, i and −i"
+      },
+      {
+        "key": "b",
+        "text": "2 + 3i only"
+      },
+      {
+        "key": "c",
+        "text": "−2 ± 3i"
+      },
+      {
+        "key": "d",
+        "text": "±1 and 2 + 3i"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Conjugate pair, then divide by x² − 4x + 13 to get x² + 1.",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using de Moivre's theorem, (1 + i)¹⁰ =",
+    "options": [
+      {
+        "key": "a",
+        "text": "32i"
+      },
+      {
+        "key": "b",
+        "text": "32"
+      },
+      {
+        "key": "c",
+        "text": "−32i"
+      },
+      {
+        "key": "d",
+        "text": "1024i"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(√2)¹⁰(cos 10π/4 + i sin 10π/4).",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The cube roots of 1 are",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, −½ + (√3/2)i, −½ − (√3/2)i"
+      },
+      {
+        "key": "b",
+        "text": "1, −1, i"
+      },
+      {
+        "key": "c",
+        "text": "1 only"
+      },
+      {
+        "key": "d",
+        "text": "1, i, −i"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k = 0, 1, 2 in cos(2kπ/3) + i sin(2kπ/3).",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "When two complex numbers are multiplied, their arguments are added.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "And their moduli are multiplied.",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "z z̄ equals x² − y² for z = x + iy.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "z z̄ = x² + y² = |z|².",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about zⁿ = α (α ≠ 0) are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "There are n distinct nth roots"
+      },
+      {
+        "key": "b",
+        "text": "They use the angles (θ + 2kπ)/n for k = 0 to n − 1"
+      },
+      {
+        "key": "c",
+        "text": "Their moduli are all r^(1/n)"
+      },
+      {
+        "key": "d",
+        "text": "There is only one root"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Each step in k adds 2π/n to the argument.",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Modulus"
+      },
+      {
+        "key": "b",
+        "text": "Argument"
+      },
+      {
+        "key": "c",
+        "text": "Conjugate"
+      },
+      {
+        "key": "d",
+        "text": "Determinant"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A determinant belongs to matrices.",
+    "source": "MAT 111 Lectures 11 and 12: Complex Numbers; De Moivre's Theorem (Sangodapo)"
+  }
+]

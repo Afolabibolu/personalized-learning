@@ -1,0 +1,63 @@
+{
+  "code": "GES 201",
+  "books": {
+    "ges201": {
+      "title": "Effective Communication and Literary Appreciation Skills: A textbook for GES 201 (Use of English II)",
+      "authors": "Kazeem Adebiyi-Adelabu and Ayo Osisanwo (eds.)",
+      "publisher": "Centre for General Studies, University of Ibadan",
+      "edition": "2019",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "the-english-sound-system": [
+      {
+        "book": "ges201",
+        "read": "Chapter 2, Speaking Skills: The Sound System of English",
+        "why": "Articulators, vowels, consonants and mispronounced words."
+      }
+    ],
+    "syllables-and-stress": [
+      {
+        "book": "ges201",
+        "read": "Chapter 3, The Suprasegmentals of English (syllable and stress)",
+        "why": "Syllable structure and stress patterns."
+      }
+    ],
+    "intonation-and-rhythm": [
+      {
+        "book": "ges201",
+        "read": "Chapter 3, The Suprasegmentals of English (intonation and rhythm)",
+        "why": "Tunes, the tone-unit and rhythm."
+      }
+    ],
+    "literature-and-figures-of-speech": [
+      {
+        "book": "ges201",
+        "read": "Chapter 4, Introduction to Literary Studies",
+        "why": "Genres, elements and figures of speech."
+      }
+    ],
+    "prose-fiction": [
+      {
+        "book": "ges201",
+        "read": "Chapter 5, Generic Context of Prose Fiction in Literary Appreciation",
+        "why": "Forms, elements and types of prose fiction."
+      }
+    ],
+    "drama-and-poetry-appreciation": [
+      {
+        "book": "ges201",
+        "read": "Chapters 6 and 7 (drama appreciation; poetry appreciation)",
+        "why": "Principles of drama and poetry appreciation."
+      }
+    ],
+    "punctuation-and-forms-of-writing": [
+      {
+        "book": "ges201",
+        "read": "Chapters 9, 10 and 11 (punctuation; official correspondence; essays, term paper and book review)",
+        "why": "Punctuation and forms of writing."
+      }
+    ]
+  }
+}

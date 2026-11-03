@@ -1,0 +1,108 @@
+{
+  "code": "PHY 101",
+  "title": "General Physics I (Mechanics)",
+  "semester": 1,
+  "description": "The first physics course, taught as PHY 102: Introductory Mechanics and Properties of Matter before the CCMAS codes: useful mathematics, quantities, units and dimensions, vectors, kinematics, Newton's laws, gravitation, work and energy, rotating rigid bodies, simple harmonic motion, elasticity and some properties of liquids. Built from the PHY 102 slides of Prof. O. E. Awe and Dr T. Ogunseye and the elasticity, work and rotation notes, with the CA tests and exam pages labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "units-dimensions-and-useful-mathematics",
+      "title": "Units, Dimensions and Useful Mathematics",
+      "summary": "Physical quantities are fundamental or derived, each with SI units and a dimension in terms of M, L and T. Dimensional analysis checks equations and derives relations, and logarithmic graphs, derivatives and integrals are the mathematical tools of mechanics.",
+      "subtopics": [
+        "Fundamental and derived quantities",
+        "SI units and prefixes",
+        "Dimensions of common quantities",
+        "Checking equations and deriving relations by dimensions",
+        "Logarithmic straight-line graphs",
+        "Derivatives and integrals in physics"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "vectors",
+      "title": "Vectors",
+      "summary": "Scalars have magnitude only, while vectors have magnitude and direction. Vectors are added by the triangle rule and the cosine and sine rules, or by components in i, j, k notation, and multiplied as dot and cross products.",
+      "subtopics": [
+        "Scalars and vectors",
+        "Geometric addition: cosine and sine rules",
+        "Subtraction of vectors",
+        "Components and i, j, k notation",
+        "Magnitude and direction from components",
+        "Dot product, cross product and area"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "kinematics-and-projectiles",
+      "title": "Kinematics and Projectiles",
+      "summary": "Kinematics describes motion without asking about its causes. It covers velocity and acceleration as rates of change, the constant-acceleration equations, free fall, and projectiles whose horizontal and vertical motions are treated separately.",
+      "subtopics": [
+        "Displacement, velocity and acceleration",
+        "Average and instantaneous rates",
+        "Equations of uniformly accelerated motion",
+        "Free fall and vertical projection",
+        "Horizontal projection",
+        "Oblique projectiles: height, time of flight and range"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "newtons-laws-friction-and-circular-motion",
+      "title": "Newton's Laws, Friction and Circular Motion",
+      "summary": "Newton's laws connect force to motion: inertia, F = ma and action–reaction. Friction on rough planes, connected bodies, and the centripetal force of circular motion are the main applications in PHY 101.",
+      "subtopics": [
+        "Newton's three laws",
+        "Free-body diagrams and resultant force",
+        "Friction and the inclined plane",
+        "Connected bodies and the Atwood machine",
+        "Uniform circular motion and centripetal acceleration",
+        "Vertical circles, banking and turntables"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "gravitation",
+      "title": "Gravitation",
+      "summary": "Every two masses attract with a force proportional to their masses and inversely proportional to the square of their distance. This law gives g at a planet's surface, the orbits of satellites, escape speeds and the weight of bodies on other planets.",
+      "subtopics": [
+        "Newton's law of universal gravitation",
+        "Gravitational field strength and g",
+        "Variation of weight with mass and radius",
+        "Forces between several masses",
+        "Satellites, orbital speed and parking orbits",
+        "Kepler's laws and escape velocity"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "work-energy-and-rotating-bodies",
+      "title": "Work, Energy and Rotating Rigid Bodies",
+      "summary": "Work is force times displacement along it, and energy is the capacity to do work, conserved when only conservative forces act. A rotating rigid body has a moment of inertia, angular momentum and rotational kinetic energy, the rotational counterparts of mass, momentum and kinetic energy.",
+      "subtopics": [
+        "Work as a dot product; power",
+        "Kinetic and potential energy; the work–energy theorem",
+        "Conservation of mechanical energy",
+        "Angular displacement, velocity and acceleration",
+        "Moment of inertia and the parallel axes theorem",
+        "Torque, angular momentum and rotational kinetic energy"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "shm-elasticity-and-liquids",
+      "title": "Simple Harmonic Motion, Elasticity and Liquids",
+      "summary": "Simple harmonic motion is oscillation under a restoring force proportional to displacement, as in springs and pendulums. Elastic solids obey Hooke's law, described by Young's, bulk and shear moduli, and liquids show pressure, buoyancy, surface tension and viscosity.",
+      "subtopics": [
+        "Restoring force and the SHM equation",
+        "Springs and simple pendulums",
+        "Stress, strain and Young's modulus",
+        "Stress–strain curve and elastic energy",
+        "Bulk modulus and modulus of rigidity",
+        "Properties of liquids: pressure, upthrust, surface tension, viscosity"
+      ],
+      "lectures": []
+    }
+  ]
+}

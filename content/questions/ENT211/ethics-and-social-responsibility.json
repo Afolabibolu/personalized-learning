@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which approach asks what produces the greatest good for the greatest number?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Utilitarian"
+      },
+      {
+        "key": "b",
+        "text": "Rights"
+      },
+      {
+        "key": "c",
+        "text": "Justice"
+      },
+      {
+        "key": "d",
+        "text": "Virtue"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It weighs overall consequences.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A choice between two conflicting moral options, where either may violate a principle, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an ethical dilemma"
+      },
+      {
+        "key": "b",
+        "text": "an ethical code"
+      },
+      {
+        "key": "c",
+        "text": "CSR"
+      },
+      {
+        "key": "d",
+        "text": "a trademark"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "There is often no clear right answer.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The 3Ps of responsible business are",
+    "options": [
+      {
+        "key": "a",
+        "text": "People, Planet and Profit"
+      },
+      {
+        "key": "b",
+        "text": "Price, Product and Place"
+      },
+      {
+        "key": "c",
+        "text": "Plan, Pitch and Product"
+      },
+      {
+        "key": "d",
+        "text": "Policy, Power and Pay"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Success is not only financial.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is the base level of Carroll's pyramid of CSR?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic responsibility"
+      },
+      {
+        "key": "b",
+        "text": "Philanthropic responsibility"
+      },
+      {
+        "key": "c",
+        "text": "Ethical responsibility"
+      },
+      {
+        "key": "d",
+        "text": "Legal responsibility"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A business must first be profitable.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "true_false",
+    "stem": "A person can obey the law and still act unethically.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Ethics appeals to conscience, not only law.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "true_false",
+    "stem": "Greenwashing is a benefit of CSR.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Public scepticism about greenwashing is a challenge.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are core ethical principles in entrepreneurship?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Honesty"
+      },
+      {
+        "key": "b",
+        "text": "Transparency"
+      },
+      {
+        "key": "c",
+        "text": "Accountability"
+      },
+      {
+        "key": "d",
+        "text": "Bribery"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Bribery is an ethical issue.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four levels of Carroll's pyramid?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic"
+      },
+      {
+        "key": "b",
+        "text": "Legal"
+      },
+      {
+        "key": "c",
+        "text": "Philanthropic"
+      },
+      {
+        "key": "d",
+        "text": "Political"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is ethical.",
+    "source": "ENT-6 Ethics and Social Responsibility"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which rule approximates a curve by straight lines between points?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The trapezoidal rule"
+      },
+      {
+        "key": "b",
+        "text": "Simpson's 1/3 rule"
+      },
+      {
+        "key": "c",
+        "text": "Lagrange interpolation"
+      },
+      {
+        "key": "d",
+        "text": "The exponential shift"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It sums the areas of trapezia.",
+    "source": "MAT 241 Numerical Integration slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Simpson's 1/3 rule requires the number of subintervals n to be",
+    "options": [
+      {
+        "key": "a",
+        "text": "even"
+      },
+      {
+        "key": "b",
+        "text": "odd"
+      },
+      {
+        "key": "c",
+        "text": "prime"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It fits parabolas over pairs of subintervals.",
+    "source": "MAT 241 Numerical Integration slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The error of the trapezoidal rule is of order",
+    "options": [
+      {
+        "key": "a",
+        "text": "h²"
+      },
+      {
+        "key": "b",
+        "text": "h"
+      },
+      {
+        "key": "c",
+        "text": "h⁴"
+      },
+      {
+        "key": "d",
+        "text": "h⁶"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Simpson's error is of order h⁴.",
+    "source": "General knowledge of MAT 241"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Interpolating through three data points with Lagrange's method gives a polynomial of degree",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n + 1 points give degree n.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Simpson's 1/3 rule is (h/3)[y0 + 4(y1 + y3 + ...) + 2(y2 + y4 + ...) + yn].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Odd-indexed values have weight 4.",
+    "source": "MAT 241 Numerical Integration slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "The forward difference approximation of f'(x) is more accurate than the central difference.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The central difference is more accurate.",
+    "source": "General knowledge of MAT 241"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which rules come from the Newton-Cotes quadrature formula in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The trapezoidal rule"
+      },
+      {
+        "key": "b",
+        "text": "Simpson's 1/3 rule"
+      },
+      {
+        "key": "c",
+        "text": "The variation of parameters"
+      },
+      {
+        "key": "d",
+        "text": "The exponential shift"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "The others solve differential equations.",
+    "source": "MAT 241 Numerical Integration slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a numerical method in MAT 241?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lagrange interpolation"
+      },
+      {
+        "key": "b",
+        "text": "Trapezoidal rule"
+      },
+      {
+        "key": "c",
+        "text": "Simpson's rule"
+      },
+      {
+        "key": "d",
+        "text": "The Bernoulli substitution"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bernoulli substitution solves an ODE exactly.",
+    "source": "MAT 241 Numerical Integration slides"
+  }
+]

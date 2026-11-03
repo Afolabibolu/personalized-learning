@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A copper wire (diameter 2.4 mm, ρ = 8920 kg/m³) holds a 2 kg mass (g = 10). The wave speed is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "22.3 m/s"
+      },
+      {
+        "key": "b",
+        "text": "18.9 m/s"
+      },
+      {
+        "key": "c",
+        "text": "2.8 m/s"
+      },
+      {
+        "key": "d",
+        "text": "0.28 m/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "v = √(T/(ρA)).",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A 3 m rope (0.05 kg/m) hangs from a ceiling holding 4 kg (g = 10). A wave reaches the ceiling at",
+    "options": [
+      {
+        "key": "a",
+        "text": "28.8 m/s"
+      },
+      {
+        "key": "b",
+        "text": "28.3 m/s"
+      },
+      {
+        "key": "c",
+        "text": "32.4 m/s"
+      },
+      {
+        "key": "d",
+        "text": "34.2 m/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The tension at the top is 41.5 N.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The second overtone of an 80 cm pipe closed at one end (v = 340 m/s) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "531 Hz"
+      },
+      {
+        "key": "b",
+        "text": "319 Hz"
+      },
+      {
+        "key": "c",
+        "text": "638 Hz"
+      },
+      {
+        "key": "d",
+        "text": "820 Hz"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5v/4L.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The speed of a transverse wave on a string is",
+    "options": [
+      {
+        "key": "a",
+        "text": "√(T/μ)"
+      },
+      {
+        "key": "b",
+        "text": "√(μ/T)"
+      },
+      {
+        "key": "c",
+        "text": "Tμ"
+      },
+      {
+        "key": "d",
+        "text": "T/μ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "T is tension and μ mass per unit length.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "A pipe closed at one end produces only odd harmonics.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The closed end must be a node.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "Adjacent nodes in a standing wave are one wavelength apart.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are half a wavelength apart.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of a standing wave?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nodes do not move"
+      },
+      {
+        "key": "b",
+        "text": "Antinodes have the largest amplitude"
+      },
+      {
+        "key": "c",
+        "text": "It does not transport energy along the medium"
+      },
+      {
+        "key": "d",
+        "text": "All points vibrate with equal amplitude"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Amplitude varies from zero at nodes to maximum at antinodes.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Node"
+      },
+      {
+        "key": "b",
+        "text": "Antinode"
+      },
+      {
+        "key": "c",
+        "text": "Harmonic"
+      },
+      {
+        "key": "d",
+        "text": "Focal length"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Focal length belongs to optics.",
+    "source": "General knowledge of PHY 104"
+  }
+]

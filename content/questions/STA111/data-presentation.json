@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a pie chart, a category with frequency f out of a total N has an angle of",
+    "options": [
+      {
+        "key": "a",
+        "text": "(f/N) × 360°"
+      },
+      {
+        "key": "b",
+        "text": "(f/N) × 100°"
+      },
+      {
+        "key": "c",
+        "text": "f × 360°"
+      },
+      {
+        "key": "d",
+        "text": "N/f × 360°"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The whole circle is 360°.",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The class mark of the class 10–19 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "14.5"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "19"
+      },
+      {
+        "key": "d",
+        "text": "9.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(10 + 19)/2.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The class boundaries of the class 10–19 (with whole-number data) are",
+    "options": [
+      {
+        "key": "a",
+        "text": "9.5 and 19.5"
+      },
+      {
+        "key": "b",
+        "text": "10 and 19"
+      },
+      {
+        "key": "c",
+        "text": "10 and 20"
+      },
+      {
+        "key": "d",
+        "text": "9 and 20"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Halfway between adjacent class limits.",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which diagram uses adjacent bars whose areas represent the frequencies of grouped continuous data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Histogram"
+      },
+      {
+        "key": "b",
+        "text": "Bar chart"
+      },
+      {
+        "key": "c",
+        "text": "Pie chart"
+      },
+      {
+        "key": "d",
+        "text": "Pictogram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Bar charts have gaps and are for categories.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "true_false",
+    "stem": "In classification, each item must belong to only one class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Classes must not overlap.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "true_false",
+    "stem": "A stem-and-leaf display loses the original data values.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It keeps every value while showing the shape.",
+    "source": "General knowledge of STA 111"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of bar chart?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple"
+      },
+      {
+        "key": "b",
+        "text": "Multiple"
+      },
+      {
+        "key": "c",
+        "text": "Component"
+      },
+      {
+        "key": "d",
+        "text": "Circular"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Circular diagrams are pie charts.",
+    "source": "STA 114 Lectures 1 and 2 (Otekunrin) and the lecture summary"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Histogram"
+      },
+      {
+        "key": "b",
+        "text": "Frequency polygon"
+      },
+      {
+        "key": "c",
+        "text": "Ogive"
+      },
+      {
+        "key": "d",
+        "text": "Standard deviation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Standard deviation is a numerical measure, not a diagram.",
+    "source": "General knowledge of STA 111"
+  }
+]

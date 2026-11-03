@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A hot liquid at 80 °C is added to 600 g of the same liquid at 10 °C; the mixture reaches 30 °C. The total mass is",
+    "options": [
+      {
+        "key": "a",
+        "text": "840 g"
+      },
+      {
+        "key": "b",
+        "text": "825 g"
+      },
+      {
+        "key": "c",
+        "text": "857 g"
+      },
+      {
+        "key": "d",
+        "text": "Impossible to calculate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m × 50 = 600 × 20 gives m = 240 g.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The heat needed to melt 1 kg of ice at 0 °C (L_f = 335 kJ/kg) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "335 kJ"
+      },
+      {
+        "key": "b",
+        "text": "2260 kJ"
+      },
+      {
+        "key": "c",
+        "text": "4185 J"
+      },
+      {
+        "key": "d",
+        "text": "33.5 kJ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Q = mL.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "During melting, the temperature of a pure substance",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stays constant"
+      },
+      {
+        "key": "b",
+        "text": "Rises steadily"
+      },
+      {
+        "key": "c",
+        "text": "Falls"
+      },
+      {
+        "key": "d",
+        "text": "Doubles"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The heat goes into changing state.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The heat needed to raise 2 kg of water by 10 K (c = 4185 J kg⁻¹ K⁻¹) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "83.7 kJ"
+      },
+      {
+        "key": "b",
+        "text": "41.9 kJ"
+      },
+      {
+        "key": "c",
+        "text": "8.37 kJ"
+      },
+      {
+        "key": "d",
+        "text": "837 kJ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Q = mcΔT.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "true_false",
+    "stem": "In an insulated mixture, heat lost by hot bodies equals heat gained by cold bodies.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Energy is conserved.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "true_false",
+    "stem": "The latent heat of vaporisation of water is smaller than its latent heat of fusion.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "2260 kJ/kg is much larger than 335 kJ/kg.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which reduce errors in a calorimetry experiment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Lagging the calorimeter"
+      },
+      {
+        "key": "b",
+        "text": "Stirring the mixture"
+      },
+      {
+        "key": "c",
+        "text": "Including the calorimeter's heat capacity"
+      },
+      {
+        "key": "d",
+        "text": "Using a very slow method in an open room"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Slow work increases heat losses.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which quantity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Specific heat capacity"
+      },
+      {
+        "key": "b",
+        "text": "Latent heat of fusion"
+      },
+      {
+        "key": "c",
+        "text": "Latent heat of vaporisation"
+      },
+      {
+        "key": "d",
+        "text": "Thermal conductivity"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Conductivity concerns heat transfer; the others concern heat stored.",
+    "source": "General knowledge of PHY 103"
+  }
+]

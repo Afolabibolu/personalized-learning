@@ -1,0 +1,61 @@
+{
+  "code": "MAT 223",
+  "topics": {
+    "real-numbers-bounds-and-completeness": [
+      {
+        "title": "Video: Real Analysis | The Supremum and Completeness of ℝ (Michael Penn)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=L-XLcmHwoh0",
+        "source": "links.csv"
+      }
+    ],
+    "sequences-of-real-numbers": [
+      {
+        "title": "Video: Intro to Sequences | Calculus, Real Analysis (Wrath of Math)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YEiZWonJrOg",
+        "source": "links.csv"
+      }
+    ],
+    "series-of-real-numbers": [
+      {
+        "title": "Video: Real Analysis, Lecture 19: Series Convergence Tests, Absolute Convergence (HarveyMuddCollegeEDU)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tt430qiyIds",
+        "source": "links.csv"
+      }
+    ],
+    "limits-and-continuity": [
+      {
+        "title": "Video: Lecture 13a: Math. Analysis - Continuation of Functions, Limits and Continuity (University of Nottingham)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ft0pLiHXxCw",
+        "source": "links.csv"
+      }
+    ],
+    "differentiability-and-mean-value-theorems": [
+      {
+        "title": "Video: Lecture 19: Differentiation Rules, Rolle's Theorem, and the Mean Value Theorem (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=V3Wg_jrMSQY",
+        "source": "links.csv"
+      }
+    ],
+    "taylors-theorem-and-lhopitals-rule": [
+      {
+        "title": "Video: Oxford Calculus: Taylor's Theorem Explained with Examples and Derivation (Tom Rocks Maths)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DULzJmUHN5g",
+        "source": "links.csv"
+      }
+    ],
+    "the-riemann-integral": [
+      {
+        "title": "Video: Math 441 - 7.1 and 7.2 The Riemann Integral (Marc Renault)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4yJiwNFFe_U",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

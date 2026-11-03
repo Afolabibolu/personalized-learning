@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Recall (sensitivity) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "TP/(TP + FN)"
+      },
+      {
+        "key": "b",
+        "text": "TP/(TP + FP)"
+      },
+      {
+        "key": "c",
+        "text": "TN/(TN + FP)"
+      },
+      {
+        "key": "d",
+        "text": "(TP + TN)/total"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The share of actual positives correctly identified.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With TP = 40, TN = 50, FP = 10 and FN = 10, accuracy is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.818"
+      },
+      {
+        "key": "b",
+        "text": "0.8"
+      },
+      {
+        "key": "c",
+        "text": "0.9"
+      },
+      {
+        "key": "d",
+        "text": "0.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "90/110.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For TP = 80, FN = 20, FP = 50, TN = 850, precision is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.615"
+      },
+      {
+        "key": "b",
+        "text": "0.8"
+      },
+      {
+        "key": "c",
+        "text": "0.93"
+      },
+      {
+        "key": "d",
+        "text": "0.944"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "80/130.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If precision is 0.5 and recall is 1, the F1 score is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.667"
+      },
+      {
+        "key": "b",
+        "text": "0.75"
+      },
+      {
+        "key": "c",
+        "text": "0.5"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 × 0.5 × 1/1.5.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The false positive rate equals 1 − specificity.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "FPR = FP/(FP + TN) = 1 − TN/(TN + FP).",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Accuracy is the best metric for highly imbalanced data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "F1 (or precision and recall) suits imbalanced data.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which counts appear in a confusion matrix?",
+    "options": [
+      {
+        "key": "a",
+        "text": "True positives"
+      },
+      {
+        "key": "b",
+        "text": "False negatives"
+      },
+      {
+        "key": "c",
+        "text": "False positives"
+      },
+      {
+        "key": "d",
+        "text": "Standard errors"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth cell is true negatives.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which metric is not computed from a confusion matrix?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Precision"
+      },
+      {
+        "key": "b",
+        "text": "Specificity"
+      },
+      {
+        "key": "c",
+        "text": "F1 score"
+      },
+      {
+        "key": "d",
+        "text": "R squared"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "R² is a regression measure.",
+    "source": "STA 122 Module 4: Classification Metrics in Machine Learning (Akintande)"
+  }
+]

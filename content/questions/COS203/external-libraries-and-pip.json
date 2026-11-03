@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The official public repository of Python packages is",
+    "options": [
+      {
+        "key": "a",
+        "text": "PyPI"
+      },
+      {
+        "key": "b",
+        "text": "GitHub Pages"
+      },
+      {
+        "key": "c",
+        "text": "the Standard Library"
+      },
+      {
+        "key": "d",
+        "text": "Jupyter"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "pip installs packages from it.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which command saves the current environment's packages to a file?",
+    "options": [
+      {
+        "key": "a",
+        "text": "pip freeze > requirements.txt"
+      },
+      {
+        "key": "b",
+        "text": "pip list"
+      },
+      {
+        "key": "c",
+        "text": "pip show pandas"
+      },
+      {
+        "key": "d",
+        "text": "pip install -r requirements.txt"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "-r installs from the file.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which command creates a virtual environment named myenv?",
+    "options": [
+      {
+        "key": "a",
+        "text": "python -m venv myenv"
+      },
+      {
+        "key": "b",
+        "text": "pip install myenv"
+      },
+      {
+        "key": "c",
+        "text": "pip freeze myenv"
+      },
+      {
+        "key": "d",
+        "text": "import venv myenv"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Then activate it.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "After pip install scikit-learn, the import name is",
+    "options": [
+      {
+        "key": "a",
+        "text": "sklearn"
+      },
+      {
+        "key": "b",
+        "text": "scikit"
+      },
+      {
+        "key": "c",
+        "text": "scikit_learn"
+      },
+      {
+        "key": "d",
+        "text": "learn"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Install and import names can differ.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "math, random and json are part of Python's Standard Library.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They only need importing.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Multiplying a plain Python list by 1.1 scales every element.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It raises a TypeError; NumPy arrays do this.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which libraries are listed for visualisation or web data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Matplotlib"
+      },
+      {
+        "key": "b",
+        "text": "Requests"
+      },
+      {
+        "key": "c",
+        "text": "BeautifulSoup"
+      },
+      {
+        "key": "d",
+        "text": "pytest"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "pytest is for testing.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a pip command in the lesson note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "pip install"
+      },
+      {
+        "key": "b",
+        "text": "pip uninstall"
+      },
+      {
+        "key": "c",
+        "text": "pip show"
+      },
+      {
+        "key": "d",
+        "text": "pip compile"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "pip list and pip freeze are the others.",
+    "source": "Working with External Libraries.pdf (lesson note)"
+  }
+]

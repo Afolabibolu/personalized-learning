@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A square matrix A is orthogonal if",
+    "options": [
+      {
+        "key": "a",
+        "text": "AAᵀ = I = AᵀA"
+      },
+      {
+        "key": "b",
+        "text": "Aᵀ = A"
+      },
+      {
+        "key": "c",
+        "text": "Aᵀ = −A"
+      },
+      {
+        "key": "d",
+        "text": "det(A) = 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Symmetric means Aᵀ = A.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The rank of a matrix is",
+    "options": [
+      {
+        "key": "a",
+        "text": "the number of non-zero rows in its row reduced echelon form"
+      },
+      {
+        "key": "b",
+        "text": "its number of columns"
+      },
+      {
+        "key": "c",
+        "text": "its determinant"
+      },
+      {
+        "key": "d",
+        "text": "the sum of its diagonal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The notes define rank this way.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Interchanging two rows of a matrix changes the sign of its determinant.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Adding a multiple of a row leaves it unchanged.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If |A| = 0, then A is",
+    "options": [
+      {
+        "key": "a",
+        "text": "singular and has no inverse"
+      },
+      {
+        "key": "b",
+        "text": "orthogonal"
+      },
+      {
+        "key": "c",
+        "text": "the identity"
+      },
+      {
+        "key": "d",
+        "text": "in canonical form"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A⁻¹ = A*/|A| needs |A| ≠ 0.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The inverse of A equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "A*/|A|, the adjoint over the determinant"
+      },
+      {
+        "key": "b",
+        "text": "Aᵀ always"
+      },
+      {
+        "key": "c",
+        "text": "the cofactor matrix"
+      },
+      {
+        "key": "d",
+        "text": "|A| times A"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A* = C(A)ᵀ.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are elementary row operations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interchange two rows"
+      },
+      {
+        "key": "b",
+        "text": "Multiply a row by a non-zero scalar"
+      },
+      {
+        "key": "c",
+        "text": "Add a multiple of one row to another"
+      },
+      {
+        "key": "d",
+        "text": "Square every entry"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Squaring entries does not give an equivalent matrix.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a condition for row reduced echelon form?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Leading entries are 1"
+      },
+      {
+        "key": "b",
+        "text": "Zero rows are at the bottom"
+      },
+      {
+        "key": "c",
+        "text": "Leading entries move to the right in lower rows"
+      },
+      {
+        "key": "d",
+        "text": "All entries are positive"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Entries may be negative.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "The determinant of a triangular matrix is the product of its diagonal entries.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So det(Iₙ) = 1.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  }
+]

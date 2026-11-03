@@ -1,0 +1,62 @@
+{
+  "code": "GES 102",
+  "books": {
+    "ges102": {
+      "title": "African Cultures and Civilisation: A textbook for GES 102",
+      "authors": "M.O. Muritala and O.C. Adesina (eds.)",
+      "publisher": "Ibadan University Press (Centre for General Studies)",
+      "year": 2019
+    }
+  },
+  "topics": {
+    "africa-and-early-humans": [
+      {
+        "book": "ges102",
+        "read": "Chapter 1, Africa and the Early Humans",
+        "why": "The course textbook, in the course folder."
+      }
+    ],
+    "early-centres-of-civilisation": [
+      {
+        "book": "ges102",
+        "read": "Chapter 2 (Egypt, Kush and Axum) and Chapter 6 (Roman Civilisation in Africa)",
+        "why": "Dates and achievements the tests ask about."
+      }
+    ],
+    "indigenous-political-systems": [
+      {
+        "book": "ges102",
+        "read": "Chapter 3, African Indigenous Political System",
+        "why": "The family, the four types of political system and kingship."
+      }
+    ],
+    "religion-in-africa": [
+      {
+        "book": "ges102",
+        "read": "Chapters 4, 7 and 8 (African Religion and Culture; Christianity in Africa; Islam in Africa)",
+        "why": "The five beliefs, the centres of Christianity and the spread of Islam."
+      }
+    ],
+    "indigenous-education": [
+      {
+        "book": "ges102",
+        "read": "Chapter 5, Indigenous African Education: Nigeria Experience",
+        "why": "Fafunwa's objectives and the methods of learning."
+      }
+    ],
+    "environment-communication-and-language": [
+      {
+        "book": "ges102",
+        "read": "Chapters 9 and 10 (Environment and Culture; Communication, Language and Culture in Africa)",
+        "why": "Definitions and the components of communication."
+      }
+    ],
+    "colonialism-nigeria-and-gender": [
+      {
+        "book": "ges102",
+        "read": "Chapters 11 and 12 (Culture Dynamics in the Age of Colonialism; Gender and African Cultures)",
+        "why": "Key dates in Nigeria's evolution and the gender concepts."
+      }
+    ]
+  }
+}

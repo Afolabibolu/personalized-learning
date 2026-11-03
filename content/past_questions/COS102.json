@@ -1,0 +1,324 @@
+{
+  "code": "COS 102",
+  "exam_style": true,
+  "intro": "No COS 102 past papers were found (the course's PQs folder is empty). These are the lecturer's own practice questions, practicals and class exercises, copied as written from the course files; they are not from a past paper.",
+  "label": "Course practice questions",
+  "papers": [
+    {
+      "year": "Practice questions (Lecture 6)",
+      "paper": "More Practice Questions (not to be submitted), from the CSC 102 lectures; not from a past paper",
+      "source": "PRACTICE QUESTIONS_Lecture 6.pdf"
+    },
+    {
+      "year": "Practical 3",
+      "paper": "Practical/Hands-on Questions for Class 4 & 5; not from a past paper (question 3, which needs a picture, is left out)",
+      "source": "Practical 3.pdf"
+    },
+    {
+      "year": "Python practice questions",
+      "paper": "CSC 102 Practice Questions, Language of Implementation: Python; not from a past paper (question 9, which needs a picture, is left out)",
+      "source": "CSC102_PracticeQuestions_Python1.pdf"
+    },
+    {
+      "year": "Class exercises",
+      "paper": "Class exercises and quizzes from the COS 102 lecture slides (Lectures 4, 6, 7, 9 and 10); not from a past paper",
+      "source": "COS 102_Lecture4.pdf, COS 102_Lecture6.pdf, COS 102_Lecture7.pdf, COS102Lecture9.pdf and COS102Lecture10_2025.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "1",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode that accepts two numbers and perform the following arithmetic operations: addition, subtraction, multiplication and division on the two numbers."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "2",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode which prompts user for a radius (in integer) and compute the area and circumference of the circle."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "3",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to calculate the squares and the cubes of the numbers from one 0 to 10 and prints the resulting values"
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "4",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to calculate the Body Mass Index (BMI) and the corresponding category – under-weight, normal, over-weight and obese. If the person is obese, overweight or underweight, tell the person the minimum number of kg he/she needs to lose or add to be in the normal category."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "5",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to print \"Hello World!\" 100 times."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "6",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Your summer job requires you to study some maps that give distance in miles. You prefer to work with distance in kilometre. Write a pseudocode to help with the conversion."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "7",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to print true if the values of two given integers are equal or their sum or difference is 5."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "8",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to determine if a candidate is eligible for admission into University of Ibadan. (Eligibility criteria: POST UME >= 50 and Age >= 16)"
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "9",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to determine if a number is prime number."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "10",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode that reads two integers and displays the larger number followed by the word \"is larger\". If the numbers are equal, print the message \"These numbers are equal\"."
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "11",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to find the sum of the first n positive integers"
+    },
+    {
+      "year": "Practice questions (Lecture 6)",
+      "number": "12",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to calculate the roots of a quadratic equation. P.S.: Attempt to draw the appropriate flowchart for each question."
+    },
+    {
+      "year": "Practical 3",
+      "number": "1",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "Apply the problem-solving strategies to the calculation of CGPA for a new student of University of Ibadan."
+    },
+    {
+      "year": "Practical 3",
+      "number": "2",
+      "topic": "problem-solving-process-and-algorithms",
+      "text": "Write an algorithm for your schedule tomorrow"
+    },
+    {
+      "year": "Practical 3",
+      "number": "4",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write an algorithm, pseudocode and draw a flowchart to print if a candidate who sat for the just concluded UI POST-UTME failed or passed. Pass mark is 50."
+    },
+    {
+      "year": "Practical 3",
+      "number": "5",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "An Online Store, CarryGo, is currently giving out discount on laptops. The discount is based on the type/brand purchased which is as follows: 10% for Dell, 15% for HP, 5% for Lenovo, 25% for Acer and 1% for others. Write an algorithm and pseudocode to prompt a user for a laptop choice and calculate the appropriate price."
+    },
+    {
+      "year": "Practical 3",
+      "number": "6",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write an algorithm and pseudocode to represent an airline reservation process. When a customer requests for a reservation, it should check whether a seat is available. If the seat is available, the message \"seat available, should it be reserved?\" should be displayed. Otherwise, the message \"seat not available, your name is added to waiting list\" should be printed."
+    },
+    {
+      "year": "Practical 3",
+      "number": "7",
+      "topic": "problem-solving-process-and-algorithms",
+      "text": "Write an algorithm and pseudocode to compute the mean score of the result of CSC 102"
+    },
+    {
+      "year": "Practical 3",
+      "number": "8",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write a pseudocode to print out all numbers between 1 and 10. Draw a flowchart for this."
+    },
+    {
+      "year": "Practical 3",
+      "number": "9",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write an algorithm and pseudocode to determine if a number is prime number. Draw a flowchart for this."
+    },
+    {
+      "year": "Practical 3",
+      "number": "10",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Congratulations, you have been employed at DigIT organization as a programmer. Your first task is to write an algorithm and a pseudocode to calculate a weekly salary package described as follows: wage = hours worked * rate. Usually, the hours worked is not less than 40 hours per week. Otherwise, an error has likely occurred and the user should be alerted. The rate per hour is 500 Naira. Extra hour(s) spent attract a bonus. An employee can only get a bonus if he/she has worked for over 40 hours and not more than a total of 60 hours. The bonus rate is twice the regular rate."
+    },
+    {
+      "year": "Python practice questions",
+      "number": "1",
+      "topic": "programs-and-programming-languages",
+      "text": "(Calculator: Arithmetic) Design and implement a simple calculator that takes only two numbers and perform the following operations: addition, subtraction, multiplication, division and exponential. Your program should be able to display the results of these operations in a neat format. (Make your program is as aesthetic as possible). Implementation should be done using Python."
+    },
+    {
+      "year": "Python practice questions",
+      "number": "2",
+      "topic": "programs-and-programming-languages",
+      "text": "(BMI) Design and implement a Python Program that prompts user for two inputs: Weight and Height, and use it to calculate the Body Mass Index BMI (BMI = weight/height²). The weight must be entered in kg and height in metres. Example, if weight = 70 and height = 1.60, then BMI = 27.34375."
+    },
+    {
+      "year": "Python practice questions",
+      "number": "3",
+      "topic": "programs-and-programming-languages",
+      "text": "(Converter: Temperature) Assume you already have a value for an integer variable named fahrenheit (temperature in degrees Fahrenheit). Write a piece of Python code that converts the fahrenheit variable to the corresponding float temperature in degrees Celsius and prints the result. For example, if fahrenheit = 50 then the converted temperature is 10 degrees Celsius and the code should output Temperature in degrees Celsius: 10.0 (note the spacing). To convert F to C: subtract 32, then multiply by 5, then divide by 9"
+    },
+    {
+      "year": "Python practice questions",
+      "number": "4",
+      "topic": "programs-and-programming-languages",
+      "text": "(Converter: Distance) Your summer job requires you to study some maps that give distance in miles. You prefer to work with distance in kilometre. Write a python program to help with the conversion. (Hint: you will need to search for the formula required to convert miles to kilometre)"
+    },
+    {
+      "year": "Python practice questions",
+      "number": "5",
+      "topic": "programs-and-programming-languages",
+      "text": "(Gravity) Write a Python code to compute the position of a falling object: x(t) = 0.5 × at² + vᵢt + xᵢ, where a = acceleration = -9.81 m/s, t = time (in seconds) = 10, Initial Velocity, vᵢ = 0.0, Initial Position, xᵢ = 0.0"
+    },
+    {
+      "year": "Python practice questions",
+      "number": "6",
+      "topic": "programs-and-programming-languages",
+      "text": "(Quadratic Equation) Write a Python program to solve quadratic equation. The standard form of the quadratic equation is ax² + bx + c = 0 where a, b and c are real and a != 0, x is an unknown variable. Hint: import the math module to use the sqrt function. Use the following data to test your program. (1) a = 5, b = 20, c = 10 (2) a = 1, b = 2, c = 1 (3) a = 5, b = 8, c = 3"
+    },
+    {
+      "year": "Python practice questions",
+      "number": "7",
+      "topic": "programs-and-programming-languages",
+      "text": "(HR/Payroll Application) Congratulations, you have been appointed as an intern programmer at KolesSolution. Your first task is to write a program that prompts new staff members for their biodata. The necessary biodata include First Name, Last Name, Year of Birth, Next of Kin and Residential Address. In addition to capturing the biodata of the new employee, your program should calculate the year of retirement and monthly net pay package. Retirement age is 65. The gross pay of every new employee is 100,000 Naira. To calculate the net pay, the following deductions are made: (i) Tax – 12.5% of Gross Pay (ii) Pension Contribution – 7.5% of Gross Pay (iii) Health Insurance – 5% of Gross Pay (iv) Housing Contribution – 5% of Gross Pay"
+    },
+    {
+      "year": "Python practice questions",
+      "number": "8",
+      "topic": "programs-and-programming-languages",
+      "text": "(Calendar) Write a Python program to convert specified days into years, weeks and days. Note: Ignore leap year. Test Data: Number of days: 1329. Expected Output: Years: 3, Weeks: 33, Days: 3"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L4.1",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "Is the following statement a decision problem? \"Find the longest river in Africa.\" Explain why or why not. Which kind of problem is it? Justify your response"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L4.2",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "A delivery driver must visit 5 cities and return to the starting point. What type of problem is this? Which kind of problem is it? Justify your response"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L4.3",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "Case Study: A hospital wants to design an AI system to assign doctors to patients each day, based on specialization, availability, and urgency. Identify whether this is a decision, search, optimization, or verification problem. Propose one algorithm or method that could help solve it."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L4.4",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "Solve this math-style problem using Pólya's steps: A number squared is 16. What is the number? Solve this computing problem using Polya's steps: Write an algorithm to check if a number is odd."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.1",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "Classify the following into the best computational problem: Is 9 a prime number? What is the shortest path between Iwo Road and University of Ibadan? What is the cheapest means of transporatation from Ibadan to Lagos? What is the root of this quadratic equation? Given a patient record, confirm whether the disease is \"Cancer\" or \"Not Cancer\". Locate a specific email from \"Dr Aderonke\" in your inbox. Arrange your playlist by song title. Find out the total number of students that registered for COS 102"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.2",
+      "topic": "computing-concepts-and-types-of-problems",
+      "text": "For each scenario, classify the problem as Solvable (S) or Unsolvable (U). Organizing a school library by book titles. Finding a cure for all diseases in the world. Counting how many students attended a lecture. Predicting the exact weather conditions globally for the next 50 years. Detecting whether an email is spam or not using a defined algorithm. Knowing the exact thought process of every person on Earth."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.3",
+      "topic": "problem-solving-techniques",
+      "text": "A shop keeps running out of bottled water every afternoon, and customers complain. Task: Apply the Five Whys. Propose what should be done to prevent this problem from recurring."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.4",
+      "topic": "problem-solving-techniques",
+      "text": "Imagine our university wants to launch a new mobile app for students to access course materials and announcements. List one Strength, one Weakness, one Opportunity, and one Threat for this idea."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.5",
+      "topic": "problem-solving-techniques",
+      "text": "Apply the concept of fishbone diagram to analyze \"Cannot Connect to the Internet\". Apply the concept of fishbone diagram to analyze a slow website."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L6.6",
+      "topic": "problem-solving-techniques",
+      "text": "Classify it as Routine Problem (R) or Non-Routine Problem (NR). Briefly explain your reasoning. Calculating the average score of students in a class. Designing a new mobile app to help students learn a language. Sorting a list of names alphabetically. Creating a unique marketing strategy for a new product. Debugging a known error in a program where the solution is already documented. Figuring out why a drone stopped working mid-flight without prior guidance. Entering monthly sales data into a spreadsheet. Developing a robot to help with household chores."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L7.1",
+      "topic": "problem-solving-process-and-algorithms",
+      "text": "Decide whether the following represents a Heuristic (H) or an Algorithm (A) approach and explain your reasoning 1. You follow a detailed recipe step by step to bake a cake. 2. You adjust ingredients by taste until it \"feels right\". 3. A computer sorts student scores in ascending order using the Bubble Sort method. 4. You pick a route to work by remembering which one \"seemed fastest last week.\" 5. You keep trying different passwords until one works. 6. A student writes a program to find the largest number in a list using systematic comparison. 7. You choose a product because it has the most positive reviews online. 8. Guessing your friend's password based on their birthday. 9. Diagnosing a computer error by checking each cable, one by one."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L7.2",
+      "topic": "problem-solving-process-and-algorithms",
+      "text": "Problem: Imagine you go to a shop with ₦1000 to spend. There are different snacks with prices, and your goal is to get as many snacks as possible not necessarily the most expensive ones. How will you go about it? Biscuit ₦200, Juice ₦500, Sweet ₦100, Bread ₦300, Cake ₦400"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L7.3",
+      "topic": "problem-solving-process-and-algorithms",
+      "text": "You go to the Computer Laboratory to print your assignment. You connect your flash drive, open the document, click Print, but nothing comes out of the printer. Use trial and method to fix the problem"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L7.4",
+      "topic": "flowcharts-pseudocode-and-decision-tables",
+      "text": "Write an algorithm & pseudocode to convert kilogram to gram. Write an algorithm & pseudocode to determine the greater of 2 numbers. Write an algorithm & pseudocode to print out all the even numbers between 1 & 10"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L9.1",
+      "topic": "from-algorithm-to-program",
+      "text": "Which of the following are valid beginnings for if statements in Python. For those that are not, give reason. a. if (x > 4) ... b. if x == 2 ... c. if (y =< 4) ... d. if (y = 5) ... e. if (3 <= a) ... f. if (1-1) ... g. if ((1-1) <= 0)) ... h. if (name == \"James\") ..."
+    },
+    {
+      "year": "Class exercises",
+      "number": "L9.2",
+      "topic": "from-algorithm-to-program",
+      "text": "Using the code snippet below, what will be the output when age is (i) 12 (ii) 2 (iii) 18 (iv) 200\n\n```python\nif age < 4:\n    print(\"You are a baby, you belong to pre-nursery\")\nelif age < 10:\n    print(\"You are no more a baby, you belong to nursery/primary\")\nelif age < 18:\n    print(\"Welcome to puberty, you belong to secondary school\")\nelse:\n    print(\"Unknown age category\")\n```"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L10.1",
+      "topic": "from-algorithm-to-program",
+      "text": "What will happen if the following is run\n\n```python\nBetsy = \"Betsy\"\nArinze = \"Arinze\"\nBetsy = Arinze\nprint(Betsy, Arinze)\n```\n\n(a) An error message will be generated, the third line should be Betsy=\"Arinze\" (b) The output will be Betsy Arinze (c) An error message will be generated on line 4. You cannot have comma between Betsy and Arinze (d) The Output will be Arinze Arinze"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L10.2",
+      "topic": "from-algorithm-to-program",
+      "text": "For the following, what are the list/sequence of values that would be covered: range(5), range(1,8), range(0,14,3), range(8,1,-1)"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L10.3",
+      "topic": "from-algorithm-to-program",
+      "text": "What would be the output of the code below?\n\n```python\ni, inc = 1, 2\nwhile i < 20:\n    print(i)\n    i += inc\n```"
+    },
+    {
+      "year": "Class exercises",
+      "number": "L10.4",
+      "topic": "from-algorithm-to-program",
+      "text": "Write a program that: prints all numbers from 0 to 1000; counts down from 5 to 1; prints squares of numbers from 1 to 5; sums numbers from 1 to 5"
+    }
+  ]
+}

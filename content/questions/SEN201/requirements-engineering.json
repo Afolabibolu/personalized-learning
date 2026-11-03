@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Requirements engineering answers which questions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "What should the system do, and what constraints must it satisfy?"
+      },
+      {
+        "key": "b",
+        "text": "How fast is the CPU?"
+      },
+      {
+        "key": "c",
+        "text": "Which language should be used?"
+      },
+      {
+        "key": "d",
+        "text": "Who will test the code?"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These come from the class notes.",
+    "source": "SEN 201.pdf (class notes, March 2026)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What can poor requirements lead to?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Project failure"
+      },
+      {
+        "key": "b",
+        "text": "Increased cost"
+      },
+      {
+        "key": "c",
+        "text": "Delays in delivery"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed user satisfaction"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "They also lead to unsatisfied users.",
+    "source": "SEN 201.pdf (class notes, March 2026)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which activity checks requirements for realism, consistency and completeness?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirements validation"
+      },
+      {
+        "key": "b",
+        "text": "Feasibility study"
+      },
+      {
+        "key": "c",
+        "text": "Elicitation"
+      },
+      {
+        "key": "d",
+        "text": "Deployment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Errors found must be corrected.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A constraint such as response time or security is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "non-functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "user story only"
+      },
+      {
+        "key": "d",
+        "text": "test case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Non-functional requirements constrain the system as a whole.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "A stakeholder is anyone who has an interest in the system.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Examples are customers, administrators, regulators and end users.",
+    "source": "SEN 201.pdf (class notes, March 2026)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The official statement of what the developers should implement is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "software requirements specification (SRS)"
+      },
+      {
+        "key": "b",
+        "text": "test plan"
+      },
+      {
+        "key": "c",
+        "text": "source code"
+      },
+      {
+        "key": "d",
+        "text": "project budget"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It includes user and system requirements.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method of gathering requirements in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interviews"
+      },
+      {
+        "key": "b",
+        "text": "Questionnaires"
+      },
+      {
+        "key": "c",
+        "text": "Observation"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Others are workshops, document analysis and prototyping.",
+    "source": "SEN 201.pdf (class notes, March 2026)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The first activity of the requirements engineering process is the feasibility study.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It estimates whether the needs can be met cost-effectively.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

@@ -1,0 +1,449 @@
+{
+  "code": "PHY 103",
+  "papers": [
+    {
+      "year": "2010/2011",
+      "paper": "PHY 115: Basic Principles of Physics IV (heat and thermodynamics, the earlier code for this course's content), B.Sc. Degree Examination, 1st Semester 2010/2011 (Thursday 12 May, 2011), 1½ hours. Answer all questions. Constants: 1 atm = 1.013 × 10⁵ Pa, L_f = 335 kJ/kg, L_v = 2260 kJ/kg, g = 10 m/s², c(water) = 4.185 kJ/kg, α(glass) = 9.0 × 10⁻⁶ /°C, c(aluminium) = 0.92 kJ/(kg °C), triple point 273.16 K, σ = 5.67 × 10⁻⁸ W/(m² K⁴), R = 8.31 J/(mol K)",
+      "source": "PHY 103 - 2011 PQ.pdf"
+    },
+    {
+      "year": "Exam (typed)",
+      "paper": "PHY 103 examination, typed from memory or from a paper by a student; undated (questions 34–36 need a T–S diagram and are left out)",
+      "source": "PHY 103 EXAM.docx.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2010/2011",
+      "number": "1",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Use the following information to answer questions 1 and 2. Two moles of an ideal gas (γ = 1.40) expands slowly and adiabatically from pressure of 5.00 atm, and volume 12.0 m³ to a final volume of 30.0 m³. What is the final pressure of the gas? (A) 3.80 atm. (B) 2.00 atm. (C) 1.39 atm. (D) 0.50 atm."
+    },
+    {
+      "year": "2010/2011",
+      "number": "2",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "(Same gas.) What is the initial temperature? (A) 366.4 K. (B) 286 K (C) 3.6 K (D) 253.5 K"
+    },
+    {
+      "year": "2010/2011",
+      "number": "3",
+      "topic": "thermal-expansion",
+      "text": "Find the force associated with the expansion of a steel beam whose cross-sectional area is 200 cm² when its temperature increases from 5°C to 30°C. [Young's Modulus for steel Y = 2.0 × 10¹¹ N/m² and coefficient of linear expansivity α = 1.2 × 10⁻⁵/°C] (A) 3.2 × 10⁴ N (B) 2.0 × 10⁶ N (C) 1.2 × 10⁴ N (D) 1.2 × 10⁶ N"
+    },
+    {
+      "year": "2010/2011",
+      "number": "4",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "Use the following information to answer questions 4 and 5. A gas sample occupies 4.0 m³ at an absolute pressure of 2 bar and a temperature of 320 K. Find its volume at temperature of 400 K if the pressure remains 2 bar. (A) 5.0 m³ (B) 21.0 m³ (C) 20.0 m³ (D) 15.0 m³"
+    },
+    {
+      "year": "2010/2011",
+      "number": "5",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "(Same sample.) Find its volume at 320 K temperature and a pressure of 0.4 bar (A) 15.0 m³ (B) 5.0 m³ (C) 20.0 m³ (D) 6.0 m³"
+    },
+    {
+      "year": "2010/2011",
+      "number": "6",
+      "topic": "heat-transfer",
+      "text": "Heat transfer by convection occurs.............. (A) only in liquids (B) only in gases (C) only in liquids and gases (D) in solids, liquids and gases"
+    },
+    {
+      "year": "2010/2011",
+      "number": "7",
+      "topic": "heat-transfer",
+      "text": "The temperature of an object that emits electromagnetic radiation must be (A) Higher than 0°C (B) Higher than 0K (C) Higher than that of its surroundings (D) High enough for it to glow"
+    },
+    {
+      "year": "2010/2011",
+      "number": "8",
+      "topic": "heat-transfer",
+      "text": "Heat flows through a wooden board 30 mm thick at 0.0086 W/cm² when one of its sides is 20°C warmer than the other. What is the thermal conductivity of the wood? (A) 0.013 W/(m.°C) (B) 0.78 W/(m.°C) (C) 0.52 W/(m.°C) (D) 0.13 W/(m.°C)"
+    },
+    {
+      "year": "2010/2011",
+      "number": "9",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Use the following information to answer questions 9–11. A mass of gas at an initial pressure of 28 bar with an internal energy of 1500 kJ is contained in a well-insulated cylinder of volume 0.06 m³. The gas is allowed to expand behind the piston until its internal energy is 1400 kJ. The law of expansion is PV² = constant. What is work done by the gas? (A) 200 kJ (B) 100 kJ (C) −100 kJ (D) −200 kJ"
+    },
+    {
+      "year": "2010/2011",
+      "number": "10",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "(Same gas.) What is the final volume of the gas? (A) 14.8 m³ (B) 0.15 m³ (C) 4.50 m³ (D) 2.0 × 10⁻³ m³"
+    },
+    {
+      "year": "2010/2011",
+      "number": "11",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "(Same gas.) Calculate the final pressure of the gas? (A) 4.59 bar (B) 14.0 bar (C) 56 bar (D) 45.9 bar"
+    },
+    {
+      "year": "2010/2011",
+      "number": "12",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "When will molecular motion in a gas stop? (A) when the gas becomes a liquid (B) when the gas becomes solid (C) at absolute zero (D) when the pressure on it exceeds a certain value"
+    },
+    {
+      "year": "2010/2011",
+      "number": "13",
+      "topic": "thermal-expansion",
+      "text": "An aluminum pot whose volume is 100 cm³ at 20°C has a volume of 100.6 cm³ at 100°C. The coefficient of linear expansion of aluminum is (A) 2.25 × 10⁻⁴/°C (B) 7.5 × 10⁻⁵/°C (C) 6.0 × 10⁻⁵/°C (D) 2.5 × 10⁻⁵/°C"
+    },
+    {
+      "year": "2010/2011",
+      "number": "14",
+      "topic": "thermal-expansion",
+      "text": "When an iron bar is heated from 283 K to 383 K, which of the following statements is correct (A) its volume increases and its density decreases (B) its volume increases and its density is unchanged (C) its volume increases and its density increases (D) its volume is unchanged and its density increases"
+    },
+    {
+      "year": "2010/2011",
+      "number": "15",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "The temperature of a gas in a container of fixed volume is raised. The gas exerts a higher pressure on the walls of the container because of which of the following reasons. (A) loose more PE when they strike the walls (B) loose more KE when they strike the walls (C) are in contact with the walls for a shorter time (D) have higher average velocities and strike the walls more often."
+    },
+    {
+      "year": "2010/2011",
+      "number": "16",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "The volume of a gas sample in a container is increased while its temperature is held constant. The gas exerts a lower pressure on the walls of the container partly because its molecules strike the walls.......... (A) with less energy (B) less often (C) with less force (D) with lower velocities"
+    },
+    {
+      "year": "2010/2011",
+      "number": "17",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "The molecules of a gas at 10°C would have twice as much average kinetic energy at what temperature? (A) 566°C (B) 859°C (C) 20°C (D) 293°C"
+    },
+    {
+      "year": "2010/2011",
+      "number": "18",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "When a heat engine takes in heat at one temperature, which of the following is true? (A) it turns all the heat into work (B) it turns some of the heat into work and rejects the rest at a lower temperature (C) it turns some of the heat into work and rejects the rest at a higher temperature (D) it turns some of the heat into work and rejects the rest at the same temperature."
+    },
+    {
+      "year": "2010/2011",
+      "number": "19",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "If a Carnot engine absorbs 10 kJ of heat per cycle when it operates between 500 K and 400 K, what is the amount of work done per cycle? (A) 2.5 kJ (B) 2 kJ (C) 8 kJ (D) 10 kJ"
+    },
+    {
+      "year": "2010/2011",
+      "number": "20",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "Three designs A, B and C for an engine to operate between 500 K and 300 K are proposed. Design A is claimed to produce 750 J, design B to produce 500 J and design C to produce 250 J of work per kilojoule of heat input. Which design has the highest efficiency? (A) C (B) A (C) B (D) None"
+    },
+    {
+      "year": "2010/2011",
+      "number": "21",
+      "topic": "heat-transfer",
+      "text": "A blackbody is at a temperature of 500 °C. What is its temperature in order that it radiates twice as much energy per second. (A) 564°C (B) 464°C (C) 646°C (D) 746°C"
+    },
+    {
+      "year": "2010/2011",
+      "number": "22",
+      "topic": "heat-transfer",
+      "text": "The temperature of the earth's surface averages at 15°C. If the earth were a blackbody, at what rate would it radiate energy? (A) 288 W/m² (B) 390 W/m² (C) 251 W/m² (D) 0.0029 W/m²"
+    },
+    {
+      "year": "2010/2011",
+      "number": "23",
+      "topic": "heat-transfer",
+      "text": "The bare skin of a boy is at an average temperature of 33°C in a room of temperature 20°C. If the emissivity e = 1, calculate the net rate at which the boy loses energy by radiation? (A) 0.16μW/cm² (B) 7.9 mW/cm² (C) 50 mW/cm² (D) 79 W/cm²"
+    },
+    {
+      "year": "2010/2011",
+      "number": "24",
+      "topic": "temperature-and-thermometry",
+      "text": "The temperature difference between the inside and the outside of an automobile engine is 450°C. This temperature difference in Kelvin scale is (A) 450 K (B) 743 K (C) 197 K (D) 723 K"
+    },
+    {
+      "year": "2010/2011",
+      "number": "25",
+      "topic": "heat-capacity-and-latent-heat",
+      "text": "Find the minimum amount of ice at −10°C needed to bring the temperature of 500 g of water at 20°C to 0°C. (A) 125.6 kJ (B) 333.5 kJ (C) 152.6 kJ (D) 52.5 (as printed)"
+    },
+    {
+      "year": "2010/2011",
+      "number": "26",
+      "topic": "temperature-and-thermometry",
+      "text": "Which of the following statements is/are NOT correct? (i) Temperature is a scalar quantity (ii) Temperature is described by a number (iii) The pressure of a gas at constant pressure can be used as a thermometric property (iv) Zeroeth law of thermodynamics enables us to define energy (A) (ii) and (iv) (B) (ii) (C) (iv) (D) (iii)"
+    },
+    {
+      "year": "2010/2011",
+      "number": "27",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Which of the following statements is/are correct? (i) work done by a system depends on its initial and final state (ii) work done by a system depends only on the path followed by the system (iii) A cyclic process starts and ends at the same state (iv) Adiabatic process starts and ends at the same state. (A) (i) and (iii) only (B) (i), (ii) and (iv) only (C) (i) and (iv) only (D) (i) only"
+    },
+    {
+      "year": "2010/2011",
+      "number": "28",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "Fifteen molecules of a gas have speeds of 6.0, 9.0, 10.0, 13.0, 13.0, 15.0, 17.0, 17.0, 18.0, 19.0, 20.0, 20.0, 22.0, 23.0, 24.0 ms⁻¹. What is the root mean square speed? (A) 15.3 ms⁻¹ (B) 17.2 ms⁻¹ (C) 16.4 ms⁻¹ (D) 18.6 ms⁻¹"
+    },
+    {
+      "year": "2010/2011",
+      "number": "29",
+      "topic": "heat-capacity-and-latent-heat",
+      "text": "A hot liquid at 80°C is added to 600g of the same liquid originally at 10°C, when the mixture reaches 30°C, the total mass of the mixture is (A) 825 g (B) 857 g (C) 840 g (D) impossible to calculate since the specific heat capacity of the liquid is not given"
+    },
+    {
+      "year": "2010/2011",
+      "number": "30",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "Use the following information to answer questions 30 to 32. A 1.0 kW refrigerator whose coefficient of performance (COP) is 2.0 takes heat from a freezer compartment at −20°C and exhausts it at 40°C. What is its COP if it is an ideal refrigerator? (A) 2.4 (B) 4.2 (C) 5.2 (D) 3.2"
+    },
+    {
+      "year": "2010/2011",
+      "number": "31",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "(Same refrigerator.) At what rate would the refrigerator remove heat from the freezer compartment? (A) 2.0 kW (B) 4.2 kW (C) 5.2 kW (D) 2.4 kW"
+    },
+    {
+      "year": "2010/2011",
+      "number": "32",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "(Same refrigerator.) What is its percentage of COP relative to that of an ideal refrigerator? (A) 50% (B) 40% (C) 48% (D) 45%"
+    },
+    {
+      "year": "2010/2011",
+      "number": "33",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Which of the following statements is/are correct? Without work being done on it, a gas cannot be.......... (i) compressed isobarically (ii) compressed isothermally (iii) compressed adiabatically (iv) expanded adiabatically (the options are illegible in the scan)"
+    },
+    {
+      "year": "2010/2011",
+      "number": "34",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Use the following information to answer questions 34 and 35. An ideal gas initially at 300 K undergoes an isobaric expansion at 2.50 kPa. The volume increases from 1.00 m³ to 3.00 m³ while 12.5 kJ of energy is transferred to the gas by heat. What is the change in the internal energy of the gas? (A) 5.70 kJ (B) 2.50 kJ (C) 12.5 kJ (D) 7.50 kJ"
+    },
+    {
+      "year": "2010/2011",
+      "number": "35",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "(Same gas.) What is the final temperature? (A) 900 K (B) 400 K (C) 450 K (D) 490 K"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "1",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "Which of the following formula defines kinetic temperature? A. mv²rms/3k_B B. mv²rms/2k_B C. 2mv²rms/3k_B D. 3mv²rms/2k_B"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "2",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "The thermal efficiency of a Carnot engine assuming the working substance to be an ideal gas is A. Q_H/(Q_H − Q_C) B. 1 − T_H/T_C C. Q_H/W D. 1 − T_C/T_H"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "3",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Which of the following is true about isothermal process? A. Change in work = nRT ln(V_F/V_I) B. the work done is less than zero, environment does work C. Work done is greater than zero, it does work on the environment D. change in heat is less than zero (options as typed)"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "4",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "When work done by or on a system at constant pressure A. change in volume is negative, expansion B. change in work is positive, expansion C. change in volume is positive, compression D. change in work is positive, compression"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "5",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "The highest theoretical efficiency of an engine is 30%. If the engine uses the atmosphere with temperature of 300k as its cold reservoir, what is the temperature of the hot reservoir. A. 492K B. 394K C. 433K D. 510K"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "6",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "A room has a dimension of 10m × 20m × 30m. How many molecules of air will fill the room at 20°C and 101kPascal A. 1.5 × 10²⁶ B. 1.67 × 10²⁷ C. 1.5 × 10²⁴ D. 1.5 × 10²⁴"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "7",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "Nine particles have the speed 5m/s 8m/s 12m/s 12m/s 12m/s 12m/s 14m/s 14m/s 17m/s 20m/s (as typed). What is the root mean speed of the particles? A. 14.7m/s B. 12.7m/s C. 20.3 m/s D. 30.3 m/s"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "8",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "Which of the following process is/are NOT true? I Operation of all heat engine is as efficient as Carnot engine when they both at the same reservoir temperatures II All natural process are irreversible III A heat engine is a device that converts internal energy into mechanical energy IV The network done in a cyclic thermodynamic process is equal to the twice of the area under the curve representing the process on a p–V diagram A. I, II, and IV B. II and III C. I and IV D. II, III, and IV"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "9",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "One kilogram of ice at 0°C is melted to water at 0°C. Calculate the change entropy during the process, assuming the melting is done reversibly? A. 1.27 × 10³ J/K, increase in entropy B. 1.22 × 10⁴ J/K decrease in entropy C. 1.34 × 10³ J/K, increase in entropy D. 1.34 × 10⁵, decrease in entropy"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "10",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "An engine has a power of 5 KW and an efficiency of 25%. Assuming the engine expels 8000J of energy each cycle. What is the energy absorbed in each cycle A. 2000J B. 6000J C. 10000J D. 13000J"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "11",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "What is the time for each cycle in Q10 A. 0.625s B. 1.33s C. 1.6s D. 4.0s"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "12",
+      "topic": "thermal-expansion",
+      "text": "A steel rod increases its length by 5mm when the temperature increases by 10°C. What is the initial length if the linear coefficient of expansivity of steel is 1 × 10⁻⁵ K⁻¹ A. 4545m B. 45.45m C. 4.45m D. 45.45cm"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "13",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Which of the following statement is/are not correct i internal energy of a gas remains constant in an adiabatic free expansion ii in adiabatic process no energy transfer by heat iii a cyclic process originate and terminate at the same place iv isobaric process is the one that occurs at constant temperature A. I and iv B. iii and iv C. i, ii and iii D. iv"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "14",
+      "topic": "thermal-expansion",
+      "text": "What is the percentage increase in the area of aluminum square hole measuring 4.5cm by 4.5cm when raised to a temperature of 120 C from 0C. Coefficient of linear expansion of aluminum is 2.3E−5 K⁻¹ A. 0.55 B. 55 C. 0.056 D. 0.0055"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "15",
+      "topic": "heat-transfer",
+      "text": "An air conditional made of glass K = 1W/m/K is 3mm thick and has an area of 2.5cm². Determine the power at which it conduct heat to maintain the temperature of a room between 35C and 20C A. 1.4W B. 10.8KW C. 1.4KW D. 10.8W"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "16",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "A fixed mass of an Ideal gas slowly absorbs 1000J of heat and expands slowly at a constant pressure of 2.0E4 Pascal from a volume of 0.05m³ to 0.075m³. What is the effect on the internal energy of the gas A. it decreases by 1000J B. decreases by 5000J C. increases by 500J D. it is unchanged"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "17",
+      "topic": "temperature-and-thermometry",
+      "text": "Water in a container is heated from 25C to 80C. What is the change in temperature A. 828K B. 218 K C. 45K D. 55K"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "18",
+      "topic": "thermal-expansion",
+      "text": "A copper telephone wire has essentially no sag between poles 35m apart on a winter day when the temperature is −20°C. How long is the wire in summer when the temperature is 35°C. linear expansivity of copper is 1.7E−6 (as typed) A. 8.93m B. 8.27m C. 8.93 mm D. 2.67 mm"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "19",
+      "topic": "heat-transfer",
+      "text": "The rate at which a body emits radiant energy is proportional to the following factors except A. emissivity B. fourth power of the absolute temperature C. length of the body D. surface area of the body"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "20",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "At 18 C and 765 mmHg, 1.29 litres of an ideal gas has a mass 2.71g. Calculate the molecular mass of the gas A. 4.9 B. 56 C. 45 D. 78"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "21",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "Fifteen identical particles have various speeds: one has a speed of 2m/s, two have a speed of 3m/s, three have a speed of 5m/s, four have a speed of 7m/s, three have a speed of 9m/s and two have a speed of 12m/s. Find the root mean square speed of the gas A. 7.4 m/s B. 7m/s C. 6.8 m/s D. 9.76m/s"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "22",
+      "topic": "heat-capacity-and-latent-heat",
+      "text": "If an electric heater rated 2W is immersed in 10g of ice at 0°C without loss of heat to the environment. How long will it take to melt all the ice to water at 0°C, specific latent heat of fusion of ice = 3350 J/g (as typed) A. 29s B. 0.8s C. 200s D. 17s"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "23",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "How much [work] is done by an ideal gas in expanding isothermally from an initial volume of 3 Litre at 20 atm to a final volume of 24 litre A. 12.6 J B. 10J C. 24 J D. 56J (as typed)"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "24",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "A monoatomic ideal gas at an initial pressure of 101 kPascal expands adiabatically from the initial volume of 1.5m³, doubling its volume, find the new pressure A. 31.4KPascal B. 4.54E6 Pascal C. 2.11E4 Pascal D. 7.09E4 Pascal"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "25",
+      "topic": "thermal-expansion",
+      "text": "An aluminium hollow metal sphere with a radius of 1.0m is exposed to a 200°F increase in temperature. What is ratio of the new volume to the [original] volume? Linear expansivity coefficient of Aluminium is 2.5E−6 K⁻¹ (as typed) A. 1.007 B. 1.015 C. 1.02 D. 1.025"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "26",
+      "topic": "heat-transfer",
+      "text": "A sheet of rubber and a sheet of cardboard each 2mm thick are pressed together and their outer faces are maintained respectively at 0C and 25C. If the thermal conductivities are 0.13 and 0.03 W/m/K respectively. Estimate the temperature at the interface A. 4.6C B. 7C C. 13.5 C D. 25C"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "27",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "How much energy must be transferred as heat for a reversible isothermal expansion of an ideal gas at 132°C if the entropy of the gas increases by 46.0 J/K? A. 19KJ B. 6KJ C. 5.8KJ D. 78KJ"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "28",
+      "topic": "heat-transfer",
+      "text": "Which of the following is not correct about an ideal absorber A. emissivity e < 1 B. emissivity e > 1 C. emissivity e = 0 D. emissivity e = 1"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "29",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "A Carnot engine operates between 235 C and 115 C, absorbing 6.30 × 10⁴ J per cycle at the higher temperature. How much work per cycle is this engine capable of performing? A. 67KJ B. 34KJ C. 15KJ D. 12 KJ"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "30",
+      "topic": "temperature-and-thermometry",
+      "text": "Suppose that on a linear temperature scale X, water boils at −53.5°X and freezes at −170°X. What is a temperature of 340 K on the X scale? A. −91.9°X B. −34.6°X C. −223°X D. 78°X"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "31",
+      "topic": "heat-engines-second-law-and-entropy",
+      "text": "The equation dS ≥ dQ/T = 0 holds for A. reversible adiabatic process B. irreversible adiabatic process C. irreversible isothermal process D. isentropic process"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "32",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "What is the average kinetic energy of molecules in a gas 37°C A. 2.14E24J B. 4.24E24J C. 6.42E21J D. 7.65E22J (as typed)"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "33",
+      "topic": "kinetic-theory-and-ideal-gases",
+      "text": "An ideal gas exert a pressure of 60 Pascal when its temperature 400K and the number of molecules per unit volume is n. Another sample of the ideal gas exert a pressure of 30 Pascal when its temperature is 300K. How many molecules of the ideal gas is present per unit volume in the new sample. A. 4n/3 B. 3n/2 C. 2n/3 D. 3n/4"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "37",
+      "topic": "first-law-and-thermodynamic-processes",
+      "text": "Which of the is true of isothermal process A. Work = nRT ln(V_F/V_I) B. Change in work ≤ 0 work is done on the gas by the environment. C. heat flows out of the gas D. heat flows into the gas"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "38",
+      "topic": "temperature-and-thermometry",
+      "text": "The mercury in glass thermometer works on A. Zeroth law of thermodynamics B. First law of thermodynamics C. Second law of thermodynamics D. Third law of the thermodynamics"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "39",
+      "topic": "temperature-and-thermometry",
+      "text": "The absolute zero temperature on the Celsius scale is A. 0°C B. 32°C C. 273°C D. −273°C"
+    },
+    {
+      "year": "Exam (typed)",
+      "number": "40",
+      "topic": "temperature-and-thermometry",
+      "text": "If the temperature of a room is 65°F, what is the equivalent of the temperature on the thermodynamic scale A. 291K B. 309K C. 332K D. 278 K"
+    }
+  ]
+}

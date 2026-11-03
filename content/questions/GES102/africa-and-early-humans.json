@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which age is characterised by polished stone implements and the domestication of animals?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Neolithic"
+      },
+      {
+        "key": "b",
+        "text": "Paleolithic"
+      },
+      {
+        "key": "c",
+        "text": "Mesolithic"
+      },
+      {
+        "key": "d",
+        "text": "Bronze Age"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Paleolithic used chipped stone.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who wrote The Descent of Man (1871), suggesting Africa as the cradle of humans?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Charles Darwin"
+      },
+      {
+        "key": "b",
+        "text": "L.S.B. Leakey"
+      },
+      {
+        "key": "c",
+        "text": "Herodotus"
+      },
+      {
+        "key": "d",
+        "text": "Raymond Dart"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He argued from where chimpanzees and gorillas live.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The predecessor of Homo sapiens was",
+    "options": [
+      {
+        "key": "a",
+        "text": "Homo erectus"
+      },
+      {
+        "key": "b",
+        "text": "Australopithecus robustus"
+      },
+      {
+        "key": "c",
+        "text": "Homo habilis"
+      },
+      {
+        "key": "d",
+        "text": "Neanderthal man"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Homo erectus faded as Homo sapiens arrived.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The place of origin of humans is still uncertain.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The textbook says so, while favouring Africa.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which were early human species described in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Australopithecus"
+      },
+      {
+        "key": "b",
+        "text": "Homo habilis"
+      },
+      {
+        "key": "c",
+        "text": "Homo erectus"
+      },
+      {
+        "key": "d",
+        "text": "Homo Dionysus"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Homo Dionysus is not a hominid.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the prehistoric cultural ages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Paleolithic"
+      },
+      {
+        "key": "b",
+        "text": "Mesolithic"
+      },
+      {
+        "key": "c",
+        "text": "Iron Age"
+      },
+      {
+        "key": "d",
+        "text": "Dynastic Age"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The five stages run from the Paleolithic to the Iron Age.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the hunting and gathering economy, gathering supplied up to three quarters of the daily diet.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Meat was prized, but plant food was essential.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Homo habilis means",
+    "options": [
+      {
+        "key": "a",
+        "text": "handy man"
+      },
+      {
+        "key": "b",
+        "text": "upright walking man"
+      },
+      {
+        "key": "c",
+        "text": "southern ape"
+      },
+      {
+        "key": "d",
+        "text": "consciously thinking human"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It made the earliest intentional stone tools.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 1"
+  }
+]

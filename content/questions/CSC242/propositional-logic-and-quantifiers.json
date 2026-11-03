@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which of these is a proposition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Elephants are bigger than mice."
+      },
+      {
+        "key": "b",
+        "text": "Please do not fall asleep."
+      },
+      {
+        "key": "c",
+        "text": "x < y"
+      },
+      {
+        "key": "d",
+        "text": "Is it raining?"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A request or question is not a statement, and x < y depends on unspecified values.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An implication p → q is false only when",
+    "options": [
+      {
+        "key": "a",
+        "text": "p is true and q is false"
+      },
+      {
+        "key": "b",
+        "text": "p is false and q is true"
+      },
+      {
+        "key": "c",
+        "text": "both are false"
+      },
+      {
+        "key": "d",
+        "text": "both are true"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In every other case the implication is true.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A tautology is a statement that is always true.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A contradiction is always false.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By De Morgan's laws, ¬(P ∧ Q) is equivalent to",
+    "options": [
+      {
+        "key": "a",
+        "text": "(¬P) ∨ (¬Q)"
+      },
+      {
+        "key": "b",
+        "text": "(¬P) ∧ (¬Q)"
+      },
+      {
+        "key": "c",
+        "text": "P ∨ Q"
+      },
+      {
+        "key": "d",
+        "text": "¬P → Q"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The other law is ¬(P ∨ Q) ⇔ (¬P) ∧ (¬Q).",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "¬∀x P(x) is logically equivalent to",
+    "options": [
+      {
+        "key": "a",
+        "text": "∃x ¬P(x)"
+      },
+      {
+        "key": "b",
+        "text": "∀x ¬P(x)"
+      },
+      {
+        "key": "c",
+        "text": "∃x P(x)"
+      },
+      {
+        "key": "d",
+        "text": "¬∃x ¬P(x)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Negation swaps the quantifier and negates the predicate.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which operators are binary (take two propositions)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conjunction (∧)"
+      },
+      {
+        "key": "b",
+        "text": "Disjunction (∨)"
+      },
+      {
+        "key": "c",
+        "text": "Biconditional (↔)"
+      },
+      {
+        "key": "d",
+        "text": "Negation (¬)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Negation is the unary operator.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which logical operator is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conjunction"
+      },
+      {
+        "key": "b",
+        "text": "Disjunction"
+      },
+      {
+        "key": "c",
+        "text": "Exclusive or"
+      },
+      {
+        "key": "d",
+        "text": "Negation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Negation is unary; the other three combine two propositions.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A single counterexample is enough to disprove a statement of the form ∀x P(x).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "'All birds can fly' is disproved by the penguin.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  }
+]

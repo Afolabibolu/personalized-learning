@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which design method is sequential, completing each phase once in order?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Waterfall"
+      },
+      {
+        "key": "b",
+        "text": "Spiral"
+      },
+      {
+        "key": "c",
+        "text": "Scrum"
+      },
+      {
+        "key": "d",
+        "text": "Agile"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "User problems surface late.",
+    "source": "INS 202 Lecture 7 System Design Methods"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method is risk-driven, combining phases with repeated prototyping and risk analysis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spiral"
+      },
+      {
+        "key": "b",
+        "text": "Waterfall"
+      },
+      {
+        "key": "c",
+        "text": "Scrum"
+      },
+      {
+        "key": "d",
+        "text": "Kanban"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Boehm, 1988.",
+    "source": "INS 202 Lecture 7 System Design Methods"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Scrum, who manages the product backlog?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Product Owner"
+      },
+      {
+        "key": "b",
+        "text": "The Scrum Master"
+      },
+      {
+        "key": "c",
+        "text": "The customer's lawyer"
+      },
+      {
+        "key": "d",
+        "text": "The tester only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Scrum Master facilitates.",
+    "source": "INS 202 Lecture 7 System Design Methods"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A SUS respondent's ten adjusted scores sum to 30. What is the SUS score?",
+    "options": [
+      {
+        "key": "a",
+        "text": "75"
+      },
+      {
+        "key": "b",
+        "text": "30"
+      },
+      {
+        "key": "c",
+        "text": "60"
+      },
+      {
+        "key": "d",
+        "text": "90"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "30 × 2.5 = 75.",
+    "source": "INS 202 Lecture 8 Human-Centred Evaluation"
+  },
+  {
+    "format": "true_false",
+    "stem": "Formative evaluation is carried out during the design process to shape the product.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Summative evaluation comes after.",
+    "source": "INS 202 Lecture 8 Human-Centred Evaluation"
+  },
+  {
+    "format": "true_false",
+    "stem": "Testing with 5 users typically uncovers about 85% of usability problems in one round.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So several small rounds are better.",
+    "source": "INS 202 Lecture 8 Human-Centred Evaluation"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are human-centred evaluation methods in Lecture 8?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A/B testing"
+      },
+      {
+        "key": "b",
+        "text": "Cognitive walkthrough"
+      },
+      {
+        "key": "c",
+        "text": "Think-aloud"
+      },
+      {
+        "key": "d",
+        "text": "Defragmentation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "There are ten methods in the toolbox.",
+    "source": "INS 202 Lecture 8 Human-Centred Evaluation"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the system design methods in Lecture 7?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Waterfall"
+      },
+      {
+        "key": "b",
+        "text": "Spiral"
+      },
+      {
+        "key": "c",
+        "text": "Scrum"
+      },
+      {
+        "key": "d",
+        "text": "Heuristic"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Heuristic evaluation is an evaluation method.",
+    "source": "INS 202 Lecture 7 System Design Methods"
+  }
+]

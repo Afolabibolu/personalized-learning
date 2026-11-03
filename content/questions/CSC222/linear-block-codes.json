@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "Every linear code contains the null codeword.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A vector space always contains the zero vector.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The transmission rate of an (n, m) linear code is",
+    "options": [
+      {
+        "key": "a",
+        "text": "m / n"
+      },
+      {
+        "key": "b",
+        "text": "n / m"
+      },
+      {
+        "key": "c",
+        "text": "n − m"
+      },
+      {
+        "key": "d",
+        "text": "m × n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m message symbols are carried in n code symbols.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many codewords does an (n, m) binary linear code have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2ᵐ"
+      },
+      {
+        "key": "b",
+        "text": "2ⁿ"
+      },
+      {
+        "key": "c",
+        "text": "m"
+      },
+      {
+        "key": "d",
+        "text": "n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "In general Dᵐ for a D-ary code.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a linear code, the minimum distance equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "the minimum weight of a non-zero codeword"
+      },
+      {
+        "key": "b",
+        "text": "the code length"
+      },
+      {
+        "key": "c",
+        "text": "the number of codewords"
+      },
+      {
+        "key": "d",
+        "text": "the transmission rate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the minimum weight and minimum distance equivalence.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The parity-check bit for the message 01101 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "01"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 + 1 + 1 = 1 modulo 2.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps of syndrome decoding?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compute the syndrome"
+      },
+      {
+        "key": "b",
+        "text": "Look up the correction for that syndrome"
+      },
+      {
+        "key": "c",
+        "text": "Add the correction to the received word"
+      },
+      {
+        "key": "d",
+        "text": "Multiply the message by a random matrix"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Random matrices play no part.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which binary code is not linear?",
+    "options": [
+      {
+        "key": "a",
+        "text": "{0000, 1101, 0110, 1011}"
+      },
+      {
+        "key": "b",
+        "text": "{0000, 1000, 0001, 1001}"
+      },
+      {
+        "key": "c",
+        "text": "{00, 11}"
+      },
+      {
+        "key": "d",
+        "text": "{1101, 0110, 1110}"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "It lacks the null codeword 0000.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In systematic form, the first m symbols of each codeword are the message itself.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only the last n − m symbols are redundant.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  }
+]

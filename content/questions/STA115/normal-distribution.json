@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If Z is N(0, 1), P(0.53 < Z < 2.06) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.2784"
+      },
+      {
+        "key": "b",
+        "text": "0.9803"
+      },
+      {
+        "key": "c",
+        "text": "0.7019"
+      },
+      {
+        "key": "d",
+        "text": "0.0019"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.9803 − 0.7019.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Scores are N(100, 10²). P(90 ≤ X ≤ 115) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.7745"
+      },
+      {
+        "key": "b",
+        "text": "0.9332"
+      },
+      {
+        "key": "c",
+        "text": "0.1587"
+      },
+      {
+        "key": "d",
+        "text": "0.6826"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Φ(1.5) − Φ(−1).",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "X is N(11, 0.04). P(10.6 < X < 11.2) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.8185"
+      },
+      {
+        "key": "b",
+        "text": "0.8413"
+      },
+      {
+        "key": "c",
+        "text": "0.9772"
+      },
+      {
+        "key": "d",
+        "text": "0.1815"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "σ = 0.2, so z runs from −2 to 1.",
+    "source": "STA 115 tests (2016/17 to 2023) and STA 112 Probability I papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For scores N(100, 10²), the score needed to be in the top 10% is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "112.8"
+      },
+      {
+        "key": "b",
+        "text": "110"
+      },
+      {
+        "key": "c",
+        "text": "116.4"
+      },
+      {
+        "key": "d",
+        "text": "101.3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "100 + 1.2816 × 10.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "The normal curve is symmetric about its mean.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Mean, median and mode coincide.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the notation N(µ, σ²), the second number is the standard deviation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is the variance; N(11, 0.04) has σ = 0.2.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of the normal distribution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mean = median = mode"
+      },
+      {
+        "key": "b",
+        "text": "Total area under the curve is 1"
+      },
+      {
+        "key": "c",
+        "text": "Symmetric bell shape"
+      },
+      {
+        "key": "d",
+        "text": "Always skewed to the right"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The normal curve has no skew.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which probability has a different value from the others?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Φ(0)"
+      },
+      {
+        "key": "b",
+        "text": "P(Z < 0)"
+      },
+      {
+        "key": "c",
+        "text": "P(Z > 0)"
+      },
+      {
+        "key": "d",
+        "text": "P(Z < 1)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "P(Z < 1) = 0.8413; the others are 0.5.",
+    "source": "STA 115 Lecture 6: Normal (Gaussian) Distribution (Shittu) and the Normal and Sampling Distribution slides"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "∫cos(ax + b) dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "(1/a) sin(ax + b) + C"
+      },
+      {
+        "key": "b",
+        "text": "a sin(ax + b) + C"
+      },
+      {
+        "key": "c",
+        "text": "−(1/a) sin(ax + b) + C"
+      },
+      {
+        "key": "d",
+        "text": "sin(ax + b) + C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Substitute u = ax + b.",
+    "source": "MAT 121 Integration Lectures 1 and 2 (Adinya, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "∫tan x dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "−ln|cos x| + C"
+      },
+      {
+        "key": "b",
+        "text": "ln|cos x| + C"
+      },
+      {
+        "key": "c",
+        "text": "sec²x + C"
+      },
+      {
+        "key": "d",
+        "text": "ln|sin x| + C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Put u = cos x.",
+    "source": "MAT 121 Integration Lectures 3–4 (partial fractions) and 5–7 (trigonometric integrals) (Adinya, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For ∫√(a² − x²) dx, the suitable substitution is",
+    "options": [
+      {
+        "key": "a",
+        "text": "x = a sin t"
+      },
+      {
+        "key": "b",
+        "text": "x = a tan t"
+      },
+      {
+        "key": "c",
+        "text": "x = a sec t"
+      },
+      {
+        "key": "d",
+        "text": "x = a cos²t"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a² − a²sin²t = a²cos²t.",
+    "source": "MAT 121 Integration Lectures 3–4 (partial fractions) and 5–7 (trigonometric integrals) (Adinya, 2021)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "∫(2x + 5)³ dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "(2x + 5)⁴/8 + C"
+      },
+      {
+        "key": "b",
+        "text": "(2x + 5)⁴/4 + C"
+      },
+      {
+        "key": "c",
+        "text": "3(2x + 5)² + C"
+      },
+      {
+        "key": "d",
+        "text": "(2x + 5)⁴ + C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "u = 2x + 5, du = 2 dx.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "Before using partial fractions to integrate an improper rational function, long division is needed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The numerator's degree must be less than the denominator's.",
+    "source": "MAT 121 Integration Lectures 3–4 (partial fractions) and 5–7 (trigonometric integrals) (Adinya, 2021)"
+  },
+  {
+    "format": "true_false",
+    "stem": "d/dx ∫ f(x) dx = f(x) + C.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "d/dx ∫ f(x) dx = f(x); the constant appears in ∫ f'(x) dx = f(x) + C.",
+    "source": "MAT 121 Integration Lectures 1 and 2 (Adinya, 2021)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "∫sin²x dx = x/2 − sin 2x/4 + C"
+      },
+      {
+        "key": "b",
+        "text": "∫sec x dx = ln|sec x + tan x| + C"
+      },
+      {
+        "key": "c",
+        "text": "∫tan²x dx = tan x − x + C"
+      },
+      {
+        "key": "d",
+        "text": "∫1/x dx = x⁻²/(−2) + C"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "∫1/x dx = ln|x| + C.",
+    "source": "MAT 121 Integration Lectures 3–4 (partial fractions) and 5–7 (trigonometric integrals) (Adinya, 2021)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which method is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Substitution"
+      },
+      {
+        "key": "b",
+        "text": "Partial fractions"
+      },
+      {
+        "key": "c",
+        "text": "Integration by parts"
+      },
+      {
+        "key": "d",
+        "text": "First principles"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "First principles is a way to differentiate.",
+    "source": "MAT 121 Integration Lectures 1 and 2 (Adinya, 2021)"
+  }
+]

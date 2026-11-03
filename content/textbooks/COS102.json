@@ -15,42 +15,63 @@
       "edition": null,
       "publisher": "Princeton University Press",
       "year": 1945
+    },
+    "sweigart": {
+      "title": "Automate the Boring Stuff with Python",
+      "authors": "Al Sweigart",
+      "edition": null,
+      "publisher": "No Starch Press",
+      "in_course_files": "[Sweigart,_Al]_Automate_the_boring_stuff_with_pyth(b-ok.xyz).pdf"
     }
   },
   "topics": {
+    "computing-systems-and-networks": [
+      {
+        "book": "csi",
+        "read": "Chapter 1 (The Big Picture), Chapter 3 (Data Representation) and Chapter 15 (Networks)",
+        "why": "The lecture's main textbook: layers, data and networks."
+      }
+    ],
     "computing-concepts-and-types-of-problems": [
       {
         "book": "csi",
-        "read": "Chapter 1: The Big Picture; Section 18.3 (the halting problem)",
-        "why": "The course folder's reference textbook."
-      }
-    ],
-    "problem-solving-process-and-algorithms": [
-      {
-        "book": "csi",
-        "read": "Chapter 7: Problem Solving and Algorithms (Section 7.1)",
-        "why": "Polya's method, the computer problem-solving process and top-down design."
+        "read": "Section 7.1 (How to Solve Problems) and Section 18.3 (the halting problem)",
+        "why": "Pólya's method and what computers cannot solve."
       }
     ],
     "problem-solving-techniques": [
       {
         "book": "polya",
         "read": "Part III: Short Dictionary of Heuristic",
-        "why": "The classic book on problem-solving strategies such as analogy, working backwards and decomposition."
+        "why": "The classic book on understanding problems before solving them."
+      }
+    ],
+    "problem-solving-process-and-algorithms": [
+      {
+        "book": "csi",
+        "read": "Chapter 7 (Problem Solving and Algorithms) and Section 13.3 (Expert Systems)",
+        "why": "Algorithms, and rule-based systems."
       }
     ],
     "flowcharts-pseudocode-and-decision-tables": [
       {
         "book": "csi",
-        "read": "Section 6.5: Expressing Algorithms",
-        "why": "Pseudocode elements and following an algorithm by hand."
+        "read": "Section 6.5 (Expressing Algorithms)",
+        "why": "Pseudocode and following an algorithm by hand."
+      }
+    ],
+    "programs-and-programming-languages": [
+      {
+        "book": "csi",
+        "read": "Sections 6.2 and 6.4 (Machine Language; Assembly Language) and 9.2–9.3 (Translation Process; Programming Language Paradigms)",
+        "why": "Language levels, translators and paradigms."
       }
     ],
     "from-algorithm-to-program": [
       {
-        "book": "csi",
-        "read": "Section 7.2: Algorithms with Simple Variables",
-        "why": "Selection and count- and event-controlled loops."
+        "book": "sweigart",
+        "read": "Chapter 2 (Flow Control)",
+        "why": "In the course folder: if, elif, while, for, break and continue in Python 3."
       }
     ]
   }

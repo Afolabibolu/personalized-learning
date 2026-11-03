@@ -1,0 +1,76 @@
+{
+  "code": "CSC 231",
+  "papers": [
+    {
+      "year": "Practical test",
+      "paper": "CSC231 Practical test (30 minutes; submit scripts and results through a Google form). Some equations and the matrix are images in the file and are not reproduced",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/CSC231 Practical test Make up.docx"
+    },
+    {
+      "year": "Test",
+      "paper": "CSC 231 test (MATLAB). Some equations and the second question's formula are images in the file and are not reproduced",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/csc 231 test.docx"
+    },
+    {
+      "year": "2024/2025 test",
+      "paper": "CSC 231: Test 1, 1 hour (2024/2025)",
+      "source": "2024-2025-200-PQ.pdf, page 2"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practical test",
+      "number": "1a",
+      "topic": "plotting-and-anonymous-functions",
+      "text": "Create a MATLAB Script File to plot the pressure as a function of the temperature of a perfect gas: [the gas law is shown as an image]. The mass is m = 1.23 kg, the particular gas constant is R = 0.287 kJ/(kg-K), and the volume is V = 3.8 m³. The units for pressure are kPa. The temperature range is 100 ≤ T ≤ 1000 K. Provide a plot title."
+    },
+    {
+      "year": "Practical test",
+      "number": "1b",
+      "topic": "plotting-and-anonymous-functions",
+      "text": "Create a MATLAB Script File to plot [a parametric curve, shown as an image] on the xy plane over the parametric interval −1 ≤ t ≤ 1 where a = −1.0. Make sure to use enough points to create a smooth curve. Provide a plot with title and label."
+    },
+    {
+      "year": "Practical test",
+      "number": "1c",
+      "topic": "arrays-vectors-and-matrices",
+      "text": "Type this matrix [shown as an image] into a MATLAB Script File to carry out the following instructions: a. Use MATLAB to create a vector B by picking off the elements from the first row of matrix A. b. Use MATLAB to create a vector C by picking off the elements from the third column of matrix A. c. Use MATLAB to find the vector cross product D = B × C. d. Use MATLAB to find the vector dot product E = B ∙ C. e. Use MATLAB to multiply matrix A by vector C as follows: F = C ∗ A"
+    },
+    {
+      "year": "Test",
+      "number": "1",
+      "topic": "plotting-and-anonymous-functions",
+      "text": "The pressure behind an oblique shock wave is given by the Rankine-Hugoniot equation: p = p0[1 + (2γ/(γ+1))(M²sin²θ − 1)], where M = 2.2 is the Mach number, γ = 1.4 is the ratio of specific heats, and p0 = 100 kPa is the stagnation pressure of the air. Create an Anonymous Function within a MATLAB Script File to calculate the pr[essure] (the rest of the question is cut off in the file)."
+    },
+    {
+      "year": "Test",
+      "number": "2",
+      "topic": "matlab-environment-and-scripts",
+      "text": "Create a MATLAB Script File to calculate the following equation (a = π/2, t = π/20) [the equation is shown as an image in the file]."
+    },
+    {
+      "year": "Test",
+      "number": "3",
+      "topic": "arrays-vectors-and-matrices",
+      "text": "Type this array into a MATLAB Script File to carry out the following instructions: A = [1 2 3; 4 5 6; 7 8 9]. a. Use MATLAB to create a row vector B by extracting the elements from the first row of array A. b. Use MATLAB to create a column vector C by extracting the elements from the second column of array A. c. Use MATLAB using the cross product to create the vector D = B × C. d. Use MATLAB to create the vector E = B + C."
+    },
+    {
+      "year": "2024/2025 test",
+      "number": "1",
+      "topic": "python-functions-and-numpy",
+      "text": "(i) What is the difference between a dynamically typed and a statically typed language? Where does Python fall? (ii) Write a Python program that accepts a number and prints whether it's even or odd. (iii) You have data on the scores of 2 students across 4 subjects: Student A: [70, 80, 90, 60]; Student B: [85, 75, 95, 70]. i) Represent this as a matrix using NumPy ii) Calculate the average score for each student iii) Calculate the average score for each subject"
+    },
+    {
+      "year": "2024/2025 test",
+      "number": "2",
+      "topic": "python-basics-and-control-flow",
+      "text": "A university cafeteria offers discounts to students based on the amount of their total meal bill. If a student's bill is ₦5,000 or more, they receive a 15% discount. If the bill falls between ₦2,000 and ₦4,999, a 10% discount is applied. However, if the bill is below ₦2,000, no discount is given. You are to write a simple python program that accepts the student's name and the total meal bill as input. The program should then calculate the appropriate discount based on the bill amount. Finally, it should display the student's name, the original bill amount, the discount received, and the final amount the student has to pay after the discount."
+    },
+    {
+      "year": "2024/2025 test",
+      "number": "3",
+      "topic": "python-functions-and-numpy",
+      "text": "Write a python function called atm_simulator() that simulates a simple ATM machine. When the function starts, ask the user to enter a 4-digit PIN. The correct PIN is 1234, and the user has only 3 chances to enter it correctly. If the user enters the wrong PIN three times, print \"Access denied\" and else print \"Access Granted\"."
+    }
+  ]
+}

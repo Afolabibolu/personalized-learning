@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which generation of programming language is assembly language?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2GL"
+      },
+      {
+        "key": "b",
+        "text": "1GL"
+      },
+      {
+        "key": "c",
+        "text": "3GL"
+      },
+      {
+        "key": "d",
+        "text": "4GL"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Machine language is 1GL.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Assembly language is converted to machine code by",
+    "options": [
+      {
+        "key": "a",
+        "text": "an assembler"
+      },
+      {
+        "key": "b",
+        "text": "a browser"
+      },
+      {
+        "key": "c",
+        "text": "the JVM"
+      },
+      {
+        "key": "d",
+        "text": "a spreadsheet"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One mnemonic gives one machine instruction.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Java source code is compiled into",
+    "options": [
+      {
+        "key": "a",
+        "text": "bytecode run by the JVM"
+      },
+      {
+        "key": "b",
+        "text": "machine code for one CPU only"
+      },
+      {
+        "key": "c",
+        "text": "HTML"
+      },
+      {
+        "key": "d",
+        "text": "assembly mnemonics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This makes Java platform-independent.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Machine language needs no translation before the CPU executes it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is the only form a CPU executes directly.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The rules that define the structure of valid statements in a language are its",
+    "options": [
+      {
+        "key": "a",
+        "text": "syntax"
+      },
+      {
+        "key": "b",
+        "text": "semantics"
+      },
+      {
+        "key": "c",
+        "text": "portability"
+      },
+      {
+        "key": "d",
+        "text": "abstraction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Semantics is their meaning.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are examples of interpreted languages in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Python"
+      },
+      {
+        "key": "b",
+        "text": "JavaScript"
+      },
+      {
+        "key": "c",
+        "text": "C"
+      },
+      {
+        "key": "d",
+        "text": "C++"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "C and C++ are compiled.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a 3GL high-level language?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Java"
+      },
+      {
+        "key": "b",
+        "text": "C++"
+      },
+      {
+        "key": "c",
+        "text": "Python"
+      },
+      {
+        "key": "d",
+        "text": "SQL"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "SQL is given as a 4GL.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Java, the filename must match the public class name.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "HelloWorld must be in HelloWorld.java.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A temperature difference of 450 °C equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "450 K"
+      },
+      {
+        "key": "b",
+        "text": "723 K"
+      },
+      {
+        "key": "c",
+        "text": "197 K"
+      },
+      {
+        "key": "d",
+        "text": "743 K"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Celsius and kelvin degrees are the same size.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "65 °F on the thermodynamic scale is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "291 K"
+      },
+      {
+        "key": "b",
+        "text": "309 K"
+      },
+      {
+        "key": "c",
+        "text": "332 K"
+      },
+      {
+        "key": "d",
+        "text": "278 K"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(65 − 32) × 5/9 = 18.3 °C.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mercury-in-glass thermometer works on",
+    "options": [
+      {
+        "key": "a",
+        "text": "The zeroth law of thermodynamics"
+      },
+      {
+        "key": "b",
+        "text": "The first law"
+      },
+      {
+        "key": "c",
+        "text": "The second law"
+      },
+      {
+        "key": "d",
+        "text": "The third law"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Thermal equilibrium with the thermometer.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The triple point of water is defined as",
+    "options": [
+      {
+        "key": "a",
+        "text": "273.16 K"
+      },
+      {
+        "key": "b",
+        "text": "273.15 K"
+      },
+      {
+        "key": "c",
+        "text": "0 K"
+      },
+      {
+        "key": "d",
+        "text": "373.15 K"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ice, water and vapour in equilibrium.",
+    "source": "PHY 103 complete slides (Oyeniyi and Ayoola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two bodies in thermal equilibrium are at the same temperature.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "No net heat flows between them.",
+    "source": "PHY 103 complete slides (Oyeniyi and Ayoola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The zeroth law of thermodynamics enables us to define energy.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It enables us to define temperature.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are thermometric properties?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pressure of a gas at constant volume"
+      },
+      {
+        "key": "b",
+        "text": "Resistance of a conductor"
+      },
+      {
+        "key": "c",
+        "text": "E.m.f. of a thermocouple"
+      },
+      {
+        "key": "d",
+        "text": "Mass of a body"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Mass does not change with temperature.",
+    "source": "PHY 103 complete slides (Oyeniyi and Ayoola)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kelvin"
+      },
+      {
+        "key": "b",
+        "text": "Celsius"
+      },
+      {
+        "key": "c",
+        "text": "Fahrenheit"
+      },
+      {
+        "key": "d",
+        "text": "Joule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The joule is a unit of energy, not a temperature scale.",
+    "source": "PHY 103 complete slides (Oyeniyi and Ayoola)"
+  }
+]

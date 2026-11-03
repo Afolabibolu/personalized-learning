@@ -1,0 +1,108 @@
+{
+  "code": "MAT 223",
+  "title": "Analysis for Non-Majors",
+  "semester": 2,
+  "description": "The Mathematics Department's real analysis course for non-majors: the real numbers, bounds and completeness, sequences and their convergence, series, limits and continuity, differentiability and the mean value theorems, Taylor's theorem and L'Hopital's rule, and the Riemann integral. Built from the MAT 223 lecture notes in the course folder (scanned) and its past papers from 2008/09 to 2020/21.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "real-numbers-bounds-and-completeness",
+      "title": "The Real Numbers: Bounds, Supremum and Completeness",
+      "summary": "The real numbers form a complete ordered field. A set is bounded above or below if some real number bounds it; its least upper bound is the supremum and its greatest lower bound the infimum. The rationals are dense but not complete: there is no rational x with x^2 = 2.",
+      "subtopics": [
+        "Bounded sets",
+        "Upper and lower bounds",
+        "Supremum and infimum",
+        "Properties of sup and inf",
+        "Density of the rationals",
+        "Completeness and the irrationality of the square root of 2"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sequences-of-real-numbers",
+      "title": "Sequences of Real Numbers",
+      "summary": "A sequence converges to a if for every ε > 0 there is n(ε) such that |a_n − a| < ε for all n ≥ n(ε). Limits are unique, convergent sequences are bounded, but boundedness alone does not guarantee convergence. Bounded monotone sequences converge, and a Cauchy sequence is one whose terms get arbitrarily close to each other.",
+      "subtopics": [
+        "The ε-definition of convergence",
+        "Proving limits with ε and n(ε)",
+        "Uniqueness of limits and boundedness",
+        "Boundedness does not imply convergence",
+        "Monotone sequences",
+        "Cauchy sequences"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "series-of-real-numbers",
+      "title": "Series of Real Numbers",
+      "summary": "A series is the sequence of its partial sums S_n = a_1 + ... + a_n; it converges to a if S_n converges to a. Geometric series with ratio |r| < 1 converge to a/(1 − r). Tests for convergence include the nth-term test, comparison, the ratio test and absolute convergence.",
+      "subtopics": [
+        "Series and partial sums",
+        "Convergent and divergent series",
+        "Geometric series",
+        "The nth-term test",
+        "Absolute and conditional convergence",
+        "The ratio and comparison tests"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "limits-and-continuity",
+      "title": "Limits and Continuity of Functions",
+      "summary": "A function of a real variable assigns one value to each point of its domain. A function is continuous at x0 if for every ε > 0 there is δ > 0 with |f(x) − f(x0)| < ε whenever |x − x0| < δ, equivalently if f(x_n) → f(x0) for every sequence x_n → x0. Sums, products and compositions of continuous functions are continuous, and continuity on a closed bounded interval gives uniform continuity.",
+      "subtopics": [
+        "Functions of a real variable",
+        "Open balls and intervals",
+        "Limits of functions",
+        "The ε-δ definition of continuity",
+        "Sequential continuity and discontinuity",
+        "Algebra of continuous functions and uniform continuity"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "differentiability-and-mean-value-theorems",
+      "title": "Differentiability and the Mean Value Theorems",
+      "summary": "The derivative f'(x0) is the limit of the difference quotient (f(x) − f(x0))/(x − x0), the slope of the tangent. Differentiability implies continuity but not conversely. Rolle's theorem, the mean value theorem, Fermat's theorem and Darboux's theorem describe derivatives and locate critical points, maxima and minima.",
+      "subtopics": [
+        "The difference quotient and the derivative",
+        "Differentiability implies continuity",
+        "Rules of differentiation",
+        "Rolle's theorem",
+        "The mean value theorem",
+        "Fermat, Darboux and critical points"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "taylors-theorem-and-lhopitals-rule",
+      "title": "Taylor's Theorem and L'Hopital's Rule",
+      "summary": "Higher derivatives are defined inductively. Taylor's theorem approximates a function near a point by a polynomial in its derivatives, with a remainder, and gives estimates such as the square root of 1.2. L'Hopital's rule, derived from the Cauchy mean value theorem, evaluates limits of indeterminate forms 0/0 and ∞/∞.",
+      "subtopics": [
+        "Higher-order derivatives",
+        "Taylor's theorem and the remainder",
+        "Approximating roots with Taylor polynomials",
+        "The Cauchy mean value theorem",
+        "L'Hopital's rule for 0/0 and ∞/∞",
+        "Other indeterminate forms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "the-riemann-integral",
+      "title": "The Riemann Integral",
+      "summary": "A partition of [a, b] divides it into subintervals; upper and lower sums U(f, P) and L(f, P) bound the area. Refinements increase L and decrease U. f is Riemann integrable when the upper and lower integrals agree, tested by the Darboux criterion or the limit criterion with regular partitions. Continuous and monotone functions are integrable, and the inequality and triangle rules bound integrals.",
+      "subtopics": [
+        "Partitions and refinements",
+        "Upper and lower Riemann sums",
+        "Upper and lower integrals; integrability",
+        "The Darboux integrability criterion",
+        "The limit test with regular partitions",
+        "Properties: inequality rule, triangle rule and integral functions"
+      ],
+      "lectures": []
+    }
+  ]
+}

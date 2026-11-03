@@ -1,0 +1,61 @@
+{
+  "code": "CSC 272",
+  "topics": {
+    "introduction-to-microsoft-office": [
+      {
+        "title": "Video: Microsoft Office Suite for Beginners (Lisle Library District)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fiIaqAYPzFk",
+        "source": "links.csv"
+      }
+    ],
+    "the-microsoft-word-environment": [
+      {
+        "title": "Video: Microsoft Word for Beginners - The Complete Course (Technology for Teachers and Students)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2MCmnr2L50o",
+        "source": "links.csv"
+      }
+    ],
+    "editing-and-formatting-word-documents": [
+      {
+        "title": "Video: Advanced Microsoft Word - Formatting Your Document (Technology for Teachers and Students)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Fvrtt0h84Mg",
+        "source": "links.csv"
+      }
+    ],
+    "microsoft-excel-basics": [
+      {
+        "title": "Video: Excel Tutorial for Beginners (Kevin Stratvert)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LgXzzu68j7M",
+        "source": "links.csv"
+      }
+    ],
+    "excel-formulas-functions-and-charts": [
+      {
+        "title": "Video: Excel Formulas and Functions Tutorial (Kevin Stratvert)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Jl0Qk63z2ZY",
+        "source": "links.csv"
+      }
+    ],
+    "microsoft-access-and-databases": [
+      {
+        "title": "Video: How to use Microsoft Access - Beginner Tutorial (Kevin Stratvert)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ubmwp8kbfPc",
+        "source": "links.csv"
+      }
+    ],
+    "powerpoint-and-effective-presentations": [
+      {
+        "title": "Video: PowerPoint Tutorial for Beginners (Kevin Stratvert)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=l5Ij7nUy9UQ",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

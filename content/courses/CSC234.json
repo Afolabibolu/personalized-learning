@@ -1,0 +1,108 @@
+{
+  "code": "CSC 234",
+  "title": "Assembly Language Programming",
+  "semester": 1,
+  "description": "Programming the Intel 8086 at the assembly and machine-instruction level: data representation, computer architecture and registers, mnemonics and operands, addressing modes, interrupts and I/O functions, arithmetic, logic and program flow, and procedures, the stack, macros and interfacing with C. Built from the CSC 234 course book (Assembly Language Programming, I. T. Ayorinde, Ibadan Distance Learning Series, Study Sessions 1 to 12) and the 8086 lecture note in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "data-representation",
+      "title": "Data Representation and Number Systems",
+      "summary": "Computers use binary because electronic devices have two states; bits form nibbles, bytes, words and double words. Hexadecimal gives a compact form, and the 80x86 stores unsigned integers in plain binary and signed integers in two's complement.",
+      "subtopics": [
+        "Decimal, binary and hexadecimal",
+        "Bits, nibbles, bytes, words and double words",
+        "Conversions between bases",
+        "Unsigned integers",
+        "Signed integers and two's complement",
+        "Logical operations on bits"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "architecture-and-registers",
+      "title": "Computer Architecture and 8086 Registers",
+      "summary": "The 80x86 uses the Von Neumann architecture of CPU, memory and I/O joined by the address, data and control buses. Registers are fast storage inside the CPU: general purpose AX, BX, CX and DX, the segment registers, index and pointer registers, IP and the flags register.",
+      "subtopics": [
+        "The Von Neumann architecture",
+        "The address, data and control buses",
+        "Machine language, assembly language and assemblers",
+        "General purpose registers",
+        "Segment registers and physical addresses",
+        "Index, pointer, IP and flags registers"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "instructions-and-operands",
+      "title": "Mnemonics, Operands and the 8086 Instruction Set",
+      "summary": "An instruction has the format mnemonic, operands, with zero to three operands of register, memory, immediate or implied type. MOV, ADD, SUB, INC and DEC are basic instructions, and segment registers have special restrictions.",
+      "subtopics": [
+        "Instruction format",
+        "Types of operands",
+        "MOV and its restrictions",
+        "ADD, SUB, INC and DEC",
+        "Segment register exceptions",
+        "The 8086 instruction set"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "addressing-modes",
+      "title": "The 80x86 Addressing Modes",
+      "summary": "An addressing mode is the way an instruction specifies its operand: immediate, register or memory. Memory addressing on the 8086 is direct, register indirect, indexed, based indexed, register relative or relative based indexed, each with its own effective address.",
+      "subtopics": [
+        "Immediate addressing",
+        "Register addressing",
+        "Direct addressing",
+        "Register indirect and indexed addressing",
+        "Based indexed addressing",
+        "Register relative and relative based indexed addressing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "interrupts-and-io-functions",
+      "title": "Interrupts and Input/Output Functions",
+      "summary": "An interrupt is a signal that gets the CPU's attention, usually for I/O; software interrupts such as INT 10h, INT 11h and INT 21h provide ready-made functions. The emu8086 library adds functions and macros such as PUTC, GOTOXY, PRINT, SCAN_NUM and PRINT_NUM.",
+      "subtopics": [
+        "What an interrupt is",
+        "Hardware and software interrupts",
+        "The syntax for interrupts",
+        "INT 10h video services and teletype output",
+        "INT 11h and INT 21h",
+        "emu8086 functions: PUTC, GOTOXY, PRINT, SCAN_NUM, PRINT_NUM"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "arithmetic-logic-and-flow-control",
+      "title": "Arithmetic, Logic and Program Flow Control",
+      "summary": "Arithmetic and logic instructions such as ADD, SUB, CMP, AND, OR and XOR set the flags, which record carry, zero, sign, overflow and parity. JMP transfers control unconditionally, conditional jumps test the flags set by CMP, and loops repeat instructions.",
+      "subtopics": [
+        "Arithmetic instructions",
+        "Logical instructions",
+        "The flags register",
+        "Unconditional jumps and labels",
+        "Conditional jumps after CMP",
+        "Looping"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "procedures-stack-and-macros",
+      "title": "Procedures, the Stack, Macros and Interfacing with C",
+      "summary": "Procedures are called with CALL and return with RET; the stack, a LIFO area of memory, holds return addresses and data via PUSH and POP. Macros are expanded in place at assembly time, and assembly routines can be interfaced with C programs.",
+      "subtopics": [
+        "Procedures: PROC, ENDP, CALL and RET",
+        "The stack and the LIFO principle",
+        "PUSH and POP",
+        "Macros and their general format",
+        "Macros versus procedures; the LOCAL directive",
+        "Interfacing C with assembly language"
+      ],
+      "lectures": []
+    }
+  ]
+}

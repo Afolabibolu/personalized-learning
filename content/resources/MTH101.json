@@ -1,0 +1,61 @@
+{
+  "code": "MTH 101",
+  "topics": {
+    "polynomials-and-equations": [
+      {
+        "title": "Video: Introduction to Polynomials (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nPPNgin7W7Y",
+        "source": "links.csv"
+      }
+    ],
+    "inequalities": [
+      {
+        "title": "Video: Solving Quadratic Inequalities (Precalculus - College Algebra 25) (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qd41nGPHbMU",
+        "source": "links.csv"
+      }
+    ],
+    "rational-functions-and-partial-fractions": [
+      {
+        "title": "Video: Partial Fraction Decomposion (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QKkdYW77xNI",
+        "source": "links.csv"
+      }
+    ],
+    "permutations-combinations-and-binomial-theorem": [
+      {
+        "title": "Video: 23 - The Binomial Theorem & Binomial Expansion - Part 1 (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SwaVN0epc0w",
+        "source": "links.csv"
+      }
+    ],
+    "sequences-series-and-induction": [
+      {
+        "title": "Video: Arithmetic Sequences and Arithmetic Series - Basic Introduction (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XZJdyPkCxuE",
+        "source": "links.csv"
+      }
+    ],
+    "complex-numbers": [
+      {
+        "title": "Video: Introduction to Complex Numbers: Lecture 1 - Oxford Mathematics 1st Year Student Lecture (Oxford Mathematics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=81jxfxLg9tg",
+        "source": "links.csv"
+      }
+    ],
+    "matrices-determinants-and-transformations": [
+      {
+        "title": "Video: Intro to Matrices (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yRwQ7A6jVLk",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

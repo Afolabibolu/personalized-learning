@@ -1,0 +1,108 @@
+{
+  "code": "STA 111",
+  "title": "Descriptive Statistics (General Statistics)",
+  "semester": 1,
+  "description": "The first statistics course, STA 111/114: General Statistics: data types, sources and measurement scales, data presentation, measures of centre, variability, relative position and shape, confidence intervals for means and proportions, hypothesis testing, and correlation and regression. Built from the STA 114 lectures of Dr O. Otekunrin, Prof. A. A. Adepoju and Dr A. A. Ogunde (2024/25), the course outline and lecture summary, with the 2025 test.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "data-types-collection-and-scales",
+      "title": "Data: Types, Sources, Quality and Measurement Scales",
+      "summary": "Statistics is the science of collecting, organising, analysing and interpreting data. Data are qualitative or quantitative, come from primary or secondary sources, must be of good quality, and are measured on nominal, ordinal, interval or ratio scales.",
+      "subtopics": [
+        "What statistics is; descriptive and inferential statistics",
+        "Variables and data",
+        "Qualitative and quantitative; discrete and continuous",
+        "Sources of data and methods of collection",
+        "Measures of data quality",
+        "Nominal, ordinal, interval and ratio scales"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-presentation",
+      "title": "Presentation of Data",
+      "summary": "Data are presented in tables and diagrams to make them easier to understand. Frequency distributions group data into classes, and charts such as bar charts, pie charts, histograms, frequency polygons and stem-and-leaf displays show their pattern.",
+      "subtopics": [
+        "Tabulation and classification",
+        "Frequency distribution tables",
+        "Class limits, boundaries, marks and widths",
+        "Relative and cumulative frequency",
+        "Line, bar, pictogram and pie charts",
+        "Histograms, frequency polygons, ogives and stem-and-leaf"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "measures-of-centre",
+      "title": "Measures of Centre",
+      "summary": "Measures of centre (location) locate where data cluster: the arithmetic, geometric and harmonic means, the median and the mode. Each has formulas for ungrouped and grouped data and suits different kinds of data.",
+      "subtopics": [
+        "Arithmetic mean: ungrouped, frequency and grouped data",
+        "Geometric and harmonic means",
+        "Median of ungrouped and grouped data",
+        "Mode and the grouped-data mode formula",
+        "Weighted mean",
+        "Choosing and comparing measures"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "measures-of-variability",
+      "title": "Measures of Variability and the Normal Rules",
+      "summary": "Measures of variability show how spread out data are: the range, variance, standard deviation and coefficient of variation. The empirical rule describes bell-shaped data, and Chebyshev's rule bounds any data set.",
+      "subtopics": [
+        "Range and mean deviation",
+        "Variance and standard deviation",
+        "Coefficient of variation",
+        "The empirical (68–95–99.7) rule",
+        "Chebyshev's theorem",
+        "Normal-distribution percentages"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "relative-position-skewness-and-kurtosis",
+      "title": "Relative Position, Skewness and Kurtosis",
+      "summary": "Quartiles, deciles and percentiles locate values within ordered data, z-scores standardise them, and the interquartile range detects outliers. Skewness and kurtosis describe the shape of a distribution.",
+      "subtopics": [
+        "Quartiles, deciles and percentiles",
+        "Interquartile range and the five-number summary",
+        "z-scores",
+        "Detecting outliers with the 1.5 IQR rule",
+        "Skewness: Pearson's coefficients and moments",
+        "Kurtosis: mesokurtic, leptokurtic and platykurtic"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "confidence-intervals",
+      "title": "Confidence Intervals",
+      "summary": "A confidence interval gives a range of plausible values for a population parameter. STA 111 builds intervals for one mean, two means, one proportion and two proportions, using z for large samples and t for small ones.",
+      "subtopics": [
+        "Point and interval estimates; margin of error",
+        "Interval for one mean, σ known or n large",
+        "Small samples and the t-distribution",
+        "Interval for the difference of two means",
+        "Interval for one proportion",
+        "Interval for two proportions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "hypothesis-testing-correlation-and-regression",
+      "title": "Hypothesis Testing, Correlation and Regression",
+      "summary": "A hypothesis test decides between a null and an alternative hypothesis using a test statistic and a critical value. Correlation measures the strength of a linear relationship, while regression predicts one variable from another.",
+      "subtopics": [
+        "Null and alternative hypotheses; Type I and II errors",
+        "Steps of a test; critical values and decisions",
+        "Tests for one mean and two means",
+        "Scatter diagrams and Pearson's correlation r",
+        "Spearman's rank correlation",
+        "Simple linear regression and prediction"
+      ],
+      "lectures": []
+    }
+  ]
+}

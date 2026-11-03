@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The period of a mass m on a spring of stiffness k is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2π√(m/k)"
+      },
+      {
+        "key": "b",
+        "text": "2π√(k/m)"
+      },
+      {
+        "key": "c",
+        "text": "2π√(l/g)"
+      },
+      {
+        "key": "d",
+        "text": "√(m/k)/2π"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ω² = k/m.",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A 98 N load on a steel rod (radius 1 mm, length 2 m, Y = 200 GPa) stretches it by",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.312 mm"
+      },
+      {
+        "key": "b",
+        "text": "3.12 mm"
+      },
+      {
+        "key": "c",
+        "text": "1.56 mm"
+      },
+      {
+        "key": "d",
+        "text": "0.156 mm"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ΔL = FL₀/(AY).",
+    "source": "PHY 102 Elasticity notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a gas at constant temperature, the bulk modulus equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its pressure"
+      },
+      {
+        "key": "b",
+        "text": "Its density"
+      },
+      {
+        "key": "c",
+        "text": "Zero"
+      },
+      {
+        "key": "d",
+        "text": "Its volume"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From PV = constant, P = −V dP/dV.",
+    "source": "PHY 102 Elasticity notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dimension of the coefficient of viscosity is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ML⁻¹T⁻¹"
+      },
+      {
+        "key": "b",
+        "text": "MLT⁻²"
+      },
+      {
+        "key": "c",
+        "text": "ML⁻³"
+      },
+      {
+        "key": "d",
+        "text": "ML²T⁻¹"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From F = 6πηrv (or F = ηA dv/dx).",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "true_false",
+    "stem": "The period of a simple pendulum for small swings does not depend on the mass of the bob.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "T = 2π√(l/g).",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Young's modulus of a material depends on the length and thickness of the specimen.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It depends only on the material.",
+    "source": "PHY 102 Elasticity notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which points appear on a stress–strain curve beyond the linear region?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Elastic limit"
+      },
+      {
+        "key": "b",
+        "text": "Yield point"
+      },
+      {
+        "key": "c",
+        "text": "Breaking point"
+      },
+      {
+        "key": "d",
+        "text": "Terminal velocity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Terminal velocity belongs to viscous motion.",
+    "source": "PHY 102 Elasticity notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which modulus is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Young's modulus"
+      },
+      {
+        "key": "b",
+        "text": "Bulk modulus"
+      },
+      {
+        "key": "c",
+        "text": "Modulus of rigidity"
+      },
+      {
+        "key": "d",
+        "text": "Modulus of a complex number"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are elastic moduli.",
+    "source": "PHY 102 Elasticity notes"
+  }
+]

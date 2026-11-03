@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which SQL statement performs the Update in CRUD?",
+    "options": [
+      {
+        "key": "a",
+        "text": "UPDATE"
+      },
+      {
+        "key": "b",
+        "text": "SELECT"
+      },
+      {
+        "key": "c",
+        "text": "INSERT"
+      },
+      {
+        "key": "d",
+        "text": "DELETE"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Create is INSERT and Read is SELECT.",
+    "source": "Database Driven Web Applications_.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What protects SQL queries from injection when user input is involved?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prepared statements"
+      },
+      {
+        "key": "b",
+        "text": "htmlspecialchars()"
+      },
+      {
+        "key": "c",
+        "text": "CSS media queries"
+      },
+      {
+        "key": "d",
+        "text": "Cookies"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "htmlspecialchars() protects HTML output.",
+    "source": "Database Driven Web Applications_.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Where is PHP session data stored?",
+    "options": [
+      {
+        "key": "a",
+        "text": "On the server"
+      },
+      {
+        "key": "b",
+        "text": "Only in the browser's cookie"
+      },
+      {
+        "key": "c",
+        "text": "In the HTML page"
+      },
+      {
+        "key": "d",
+        "text": "In the CSS file"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The cookie carries only the session ID.",
+    "source": "PHP Cookies and Session Management_.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which function should be called after a successful login to prevent session fixation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "session_regenerate_id(true)"
+      },
+      {
+        "key": "b",
+        "text": "session_destroy()"
+      },
+      {
+        "key": "c",
+        "text": "setcookie()"
+      },
+      {
+        "key": "d",
+        "text": "htmlspecialchars()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It issues a new session ID.",
+    "source": "PHP Cookies and Session Management_.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "HTTP is stateless, so each request is independent unless the application adds state management.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Cookies and sessions provide state.",
+    "source": "PHP Cookies and Session Management_.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Cookie values can be trusted on their own for authorisation, because the server created them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Cookie values are client-controlled.",
+    "source": "PHP Cookies and Session Management_.pptx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are cookie security attributes in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HttpOnly"
+      },
+      {
+        "key": "b",
+        "text": "Secure"
+      },
+      {
+        "key": "c",
+        "text": "SameSite"
+      },
+      {
+        "key": "d",
+        "text": "AUTO_INCREMENT"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "AUTO_INCREMENT is a column attribute.",
+    "source": "PHP Cookies and Session Management_.pptx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a CRUD operation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Create"
+      },
+      {
+        "key": "b",
+        "text": "Read"
+      },
+      {
+        "key": "c",
+        "text": "Update"
+      },
+      {
+        "key": "d",
+        "text": "Compile"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is Delete.",
+    "source": "Database Driven Web Applications_.pptx"
+  }
+]

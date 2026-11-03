@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the remainder when 6x³ + 2x² − 1 is divided by x + 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "−5"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "7"
+      },
+      {
+        "key": "d",
+        "text": "−9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f(−1) = −6 + 2 − 1.",
+    "source": "MAT 111 Lecture 2: Polynomials and Rational Functions (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If α and β are the roots of 3x² − 4x − 5 = 0, then α² + β² =",
+    "options": [
+      {
+        "key": "a",
+        "text": "46/9"
+      },
+      {
+        "key": "b",
+        "text": "16/9"
+      },
+      {
+        "key": "c",
+        "text": "−14/9"
+      },
+      {
+        "key": "d",
+        "text": "26/9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(4/3)² − 2(−5/3).",
+    "source": "MAT 111 Lecture 3: Linear, Quadratic and Cubic Equations (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The discriminant of 3x² + 2x + 5 = 0 is −56, so the equation has",
+    "options": [
+      {
+        "key": "a",
+        "text": "No real roots (imaginary roots)"
+      },
+      {
+        "key": "b",
+        "text": "Two different real roots"
+      },
+      {
+        "key": "c",
+        "text": "Two equal real roots"
+      },
+      {
+        "key": "d",
+        "text": "One real root"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "D < 0.",
+    "source": "MAT 111 Lecture 3: Linear, Quadratic and Cubic Equations (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a cubic ax³ + bx² + cx + d = 0 with roots α, β, γ, the product αβγ equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "−d/a"
+      },
+      {
+        "key": "b",
+        "text": "d/a"
+      },
+      {
+        "key": "c",
+        "text": "−b/a"
+      },
+      {
+        "key": "d",
+        "text": "c/a"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Compare with x³ − (Σα)x² + (Σαβ)x − αβγ.",
+    "source": "MAT 111 Lecture 3: Linear, Quadratic and Cubic Equations (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "x − 2 is a factor of x⁴ − 15x² + 10x + 24.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "f(2) = 16 − 60 + 20 + 24 = 0.",
+    "source": "MAT 111 Lecture 2: Polynomials and Rational Functions (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The simultaneous equations 4x + 2y = 8 and 12x + 6y = 24 have exactly one solution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are the same line, so there are infinitely many solutions.",
+    "source": "MAT 111 Lecture 3: Linear, Quadratic and Cubic Equations (Sangodapo)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which methods find the roots of a quadratic equation in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Factorisation"
+      },
+      {
+        "key": "b",
+        "text": "Completing the square"
+      },
+      {
+        "key": "c",
+        "text": "The quadratic formula"
+      },
+      {
+        "key": "d",
+        "text": "The remainder theorem"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The remainder theorem finds remainders.",
+    "source": "MAT 111 Lecture 3: Linear, Quadratic and Cubic Equations (Sangodapo)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which pairing is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linear: degree 1"
+      },
+      {
+        "key": "b",
+        "text": "Quadratic: degree 2"
+      },
+      {
+        "key": "c",
+        "text": "Quartic: degree 4"
+      },
+      {
+        "key": "d",
+        "text": "Quintic: degree 3"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A quintic has degree 5.",
+    "source": "MAT 111 Lecture 2: Polynomials and Rational Functions (Sangodapo)"
+  }
+]

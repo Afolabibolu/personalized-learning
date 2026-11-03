@@ -1,0 +1,62 @@
+{
+  "code": "MTH 101",
+  "books": {
+    "ilori": {
+      "title": "MAT 111 (DLC)",
+      "authors": "S. A. Ilori",
+      "publisher": "Distance Learning Centre, University of Ibadan",
+      "in_course_files": "MAT 111 DLC.pdf (also filed as green book of algebra Mat 111.pdf)"
+    }
+  },
+  "topics": {
+    "polynomials-and-equations": [
+      {
+        "book": "ilori",
+        "read": "Lecture One (Polynomials and Polynomial Equations)",
+        "why": "Remainder and factor theorems and roots of equations."
+      }
+    ],
+    "inequalities": [
+      {
+        "book": "ilori",
+        "read": "Lecture Two (Inequalities)",
+        "why": "Interval notation, absolute values and sign tables."
+      }
+    ],
+    "rational-functions-and-partial-fractions": [
+      {
+        "book": "ilori",
+        "read": "Lecture Three (Rational Functions and Curve Sketching)",
+        "why": "Domain, range, asymptotes and partial fractions."
+      }
+    ],
+    "permutations-combinations-and-binomial-theorem": [
+      {
+        "book": "ilori",
+        "read": "Lectures Five and Six (Permutations and Combinations; The Binomial Theorem)",
+        "why": "Counting and binomial expansions."
+      }
+    ],
+    "sequences-series-and-induction": [
+      {
+        "book": "ilori",
+        "read": "Lectures Four and Seven (Mathematical Induction; Sequences and Series)",
+        "why": "Progressions, sums and induction proofs."
+      }
+    ],
+    "complex-numbers": [
+      {
+        "book": "ilori",
+        "read": "Lecture Eight (Complex Numbers)",
+        "why": "Algebra, Argand diagram and de Moivre's theorem."
+      }
+    ],
+    "matrices-determinants-and-transformations": [
+      {
+        "book": "ilori",
+        "read": "Lectures Nine to Fourteen (matrices, rank, linear systems, determinants, Cramer's rule, translations)",
+        "why": "Matrix algebra and transformations."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "code": "CSC 222",
+  "title": "Digital Communication",
+  "semester": 2,
+  "description": "Why digital communication, its abstractions and signalling; source coding, prefix-free codes, the Kraft inequality and Huffman codes; error correction with Hamming codes, linear block codes and syndrome decoding; convolutional codes and Viterbi decoding; and communication networks, switching, delay and routing. Built from the CSC 222 lecture slides (Digital Communication, Dr Adeniji Oluwashola David, Lectures 1 to 6) and the supporting notes in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "digital-communication-abstractions",
+      "title": "Why Digital: Communication Abstractions and Signalling",
+      "summary": "Digital communication lets modules be composed into large systems and allows sophisticated algorithms to improve quality, while analog systems accumulate errors. A link is described through the abstractions of packets, bits and signals, with the sender and receiver agreeing on a clock.",
+      "subtopics": [
+        "The purpose of communication technologies",
+        "Why digital: composition and algorithms",
+        "Errors accumulate in analog systems",
+        "Clocking transmissions and samples per bit",
+        "Mappers, channel coding and source coding",
+        "Packets, bits and signals; the single-link and network views"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "source-coding-and-prefix-free-codes",
+      "title": "Source Coding and Prefix-Free Codes",
+      "summary": "Coding serves three purposes: compression, reliable transmission and secrecy. A discrete information source emits symbols from a finite alphabet, and its code may be non-singular, non-ambiguous or prefix-free; prefix-free codes are exactly the instantaneously decodable ones.",
+      "subtopics": [
+        "Three purposes of coding",
+        "Information sources, alphabets and arity",
+        "Memoryless sources",
+        "Non-singular and non-ambiguous codes",
+        "Prefix-free codes and instantaneous decoding",
+        "Coding trees and complete codes"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "kraft-inequality-and-huffman-codes",
+      "title": "Kraft Inequality, Expected Length and Huffman Codes",
+      "summary": "The Kraft inequality gives the necessary and sufficient condition for a prefix-free code with given codeword lengths to exist. The expected code length weighs each length by its probability, and Huffman's algorithm builds an optimal binary prefix-free code.",
+      "subtopics": [
+        "The Kraft inequality",
+        "A classical pitfall",
+        "Expected code length",
+        "Average depth of leaves in a probability tree",
+        "Optimal codes: shorter words for likelier symbols",
+        "Huffman's algorithm"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "hamming-codes",
+      "title": "Error Correction and the Hamming Code",
+      "summary": "Richard Hamming developed error-correcting codes after unreliable punch-card reading at Bell Labs, publishing the Hamming code in 1950. The (7,4) Hamming code adds three parity bits to four message bits and corrects any single-bit error using its Venn diagram or parity-check matrix.",
+      "subtopics": [
+        "Hamming and the origin of error correction",
+        "The (7,4) Hamming code",
+        "Generating equations for the parity bits",
+        "The Venn diagram view",
+        "Correcting a single-bit error",
+        "The parity-check matrix and the syndrome"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "linear-block-codes",
+      "title": "Linear Block Codes and Syndrome Decoding",
+      "summary": "An (n, m) D-ary linear code is an m-dimensional subspace of n-tuples, so it always contains the zero codeword and its minimum distance equals its minimum weight. Encoding multiplies the message by a generator matrix, and decoding uses a verification matrix and a syndrome table.",
+      "subtopics": [
+        "Definition of an (n, m) linear code",
+        "Number of codewords and transmission rate",
+        "Minimum weight and minimum distance",
+        "Generator matrices and systematic form",
+        "Parity-check bit encoding",
+        "Verification matrix and syndrome decoding"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "convolutional-codes",
+      "title": "Convolutional Codes and Viterbi Decoding",
+      "summary": "Convolutional codes act on a stream of message bits and transmit only parity bits computed over a sliding window of length K, the constraint length. The encoder is a shift register with 2^(K−1) states, shown as a state machine or trellis, and is decoded with the Viterbi algorithm.",
+      "subtopics": [
+        "Where convolutional codes are used",
+        "Convolutional versus linear block codes",
+        "Parity equations and the code rate",
+        "Constraint length and the sliding window",
+        "Shift registers, state machines and trellises",
+        "Viterbi decoding and free distance"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "communication-networks-and-routing",
+      "title": "Communication Networks: Switching, Delay and Routing",
+      "summary": "Switches let many communications share links; they solve forwarding, routing and resource allocation. Networks use circuit switching, with setup, transfer and teardown phases, or packet switching; delay comes from propagation, processing, transmission and queueing, and routing protocols build routing tables.",
+      "subtopics": [
+        "Why switches are needed",
+        "Forwarding, routing and resource allocation",
+        "Circuit switching and time-division multiplexing",
+        "Packet switching and queues",
+        "Sources of delay",
+        "Routing: addressing, forwarding and routing protocols"
+      ],
+      "lectures": []
+    }
+  ]
+}

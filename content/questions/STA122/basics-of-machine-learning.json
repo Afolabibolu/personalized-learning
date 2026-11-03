@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Machine learning is a subfield of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Artificial intelligence"
+      },
+      {
+        "key": "b",
+        "text": "Database administration"
+      },
+      {
+        "key": "c",
+        "text": "Computer graphics"
+      },
+      {
+        "key": "d",
+        "text": "Operations management"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ML is a subfield of AI.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A program learns from experience E at task T with measure P if",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its performance at T, measured by P, improves with E"
+      },
+      {
+        "key": "b",
+        "text": "It runs faster with more memory"
+      },
+      {
+        "key": "c",
+        "text": "It never makes mistakes"
+      },
+      {
+        "key": "d",
+        "text": "Its code changes itself randomly"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the formal definition in Module 1.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Discovering hidden patterns in large datasets is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data mining"
+      },
+      {
+        "key": "b",
+        "text": "Data entry"
+      },
+      {
+        "key": "c",
+        "text": "Data encryption"
+      },
+      {
+        "key": "d",
+        "text": "Data compression"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From the terminology slide.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Tumour detection in MRI scans is an application of ML in",
+    "options": [
+      {
+        "key": "a",
+        "text": "Medical imaging"
+      },
+      {
+        "key": "b",
+        "text": "Fraud detection"
+      },
+      {
+        "key": "c",
+        "text": "Search engines"
+      },
+      {
+        "key": "d",
+        "text": "Handwriting recognition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From the applications table.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "KDD stands for Knowledge Discovery in Databases.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "From the terminology slide.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the data science process, machine learning comes before data collection.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Collection and preparation come first, then EDA, then ML.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in the data science process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data collection"
+      },
+      {
+        "key": "b",
+        "text": "Data preparation"
+      },
+      {
+        "key": "c",
+        "text": "Exploratory data analysis"
+      },
+      {
+        "key": "d",
+        "text": "Forgetting the data"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Visualisation and ML complete the process.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which item is not an application of machine learning in the module?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Spam filtering"
+      },
+      {
+        "key": "b",
+        "text": "Fraud detection"
+      },
+      {
+        "key": "c",
+        "text": "Recommendation systems"
+      },
+      {
+        "key": "d",
+        "text": "Manual typewriting"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are listed ML applications.",
+    "source": "STA 122 Module 1: Introduction to Machine Learning (Dr O.J. Akintande)"
+  }
+]

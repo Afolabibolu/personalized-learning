@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "The sets {9, 2, 7, −3} and {7, 9, −3, 2} are equal.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Order does not matter in a set.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many elements does the power set of {a, b, c} have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A set of n elements has 2ⁿ subsets; 2³ = 8.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If |A| = 12 and |B| = 20, what is |A × B|?",
+    "options": [
+      {
+        "key": "a",
+        "text": "240"
+      },
+      {
+        "key": "b",
+        "text": "32"
+      },
+      {
+        "key": "c",
+        "text": "12"
+      },
+      {
+        "key": "d",
+        "text": "20"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Cartesian product has |A| · |B| ordered pairs.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "f(x) = x² on the integers is not one-to-one because",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(3) = f(−3) but 3 ≠ −3"
+      },
+      {
+        "key": "b",
+        "text": "it has no inverse on the reals"
+      },
+      {
+        "key": "c",
+        "text": "its range is the integers"
+      },
+      {
+        "key": "d",
+        "text": "it is strictly increasing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Two distinct inputs share an output.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "A bijection is a function that is",
+    "options": [
+      {
+        "key": "a",
+        "text": "one-to-one"
+      },
+      {
+        "key": "b",
+        "text": "onto"
+      },
+      {
+        "key": "c",
+        "text": "invertible"
+      },
+      {
+        "key": "d",
+        "text": "constant"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Being both one-to-one and onto gives it an inverse function.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "(f ∘ g)(a) means",
+    "options": [
+      {
+        "key": "a",
+        "text": "apply g to a, then apply f to the result"
+      },
+      {
+        "key": "b",
+        "text": "apply f, then g"
+      },
+      {
+        "key": "c",
+        "text": "multiply f(a) by g(a)"
+      },
+      {
+        "key": "d",
+        "text": "the inverse of f applied to g"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Composition applies the inner function first.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "⌊−2.5⌋ = −2.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The floor is the largest integer less than or equal to −2.5, which is −3.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out (it does not describe a function)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Domain"
+      },
+      {
+        "key": "b",
+        "text": "Codomain"
+      },
+      {
+        "key": "c",
+        "text": "Range"
+      },
+      {
+        "key": "d",
+        "text": "Tautology"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A tautology is a logical statement that is always true.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which alignment spreads text evenly at both the left and right margins?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Justify"
+      },
+      {
+        "key": "b",
+        "text": "Left"
+      },
+      {
+        "key": "c",
+        "text": "Centre"
+      },
+      {
+        "key": "d",
+        "text": "Right"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The default alignment is left.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A hanging indent indents",
+    "options": [
+      {
+        "key": "a",
+        "text": "the second and later lines of a paragraph"
+      },
+      {
+        "key": "b",
+        "text": "only the first line"
+      },
+      {
+        "key": "c",
+        "text": "the whole paragraph from both sides"
+      },
+      {
+        "key": "d",
+        "text": "every other paragraph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The first line stays at the margin.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Holding which key while dragging selected text copies it instead of moving it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ctrl"
+      },
+      {
+        "key": "b",
+        "text": "Shift"
+      },
+      {
+        "key": "c",
+        "text": "Alt"
+      },
+      {
+        "key": "d",
+        "text": "Tab"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Drag alone moves the text.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which format turns H2O into H₂O?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Subscript"
+      },
+      {
+        "key": "b",
+        "text": "Superscript"
+      },
+      {
+        "key": "c",
+        "text": "Strikethrough"
+      },
+      {
+        "key": "d",
+        "text": "Change Case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Superscript gives 21st.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The default text alignment in a Word document is left.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Text starts on the left and moves right.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "When sorting a list that has a heading, you should tick Header Row so the heading is not sorted.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This keeps the heading in place.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which tools are on Word's Review tab?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Word count"
+      },
+      {
+        "key": "b",
+        "text": "Thesaurus"
+      },
+      {
+        "key": "c",
+        "text": "Spelling and grammar"
+      },
+      {
+        "key": "d",
+        "text": "Page orientation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Orientation is on Page Layout.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a way to indent a paragraph in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "From the left"
+      },
+      {
+        "key": "b",
+        "text": "From both sides"
+      },
+      {
+        "key": "c",
+        "text": "First line only"
+      },
+      {
+        "key": "d",
+        "text": "Diagonally"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is a hanging indent.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

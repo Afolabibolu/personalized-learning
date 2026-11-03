@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Every Excel formula starts with",
+    "options": [
+      {
+        "key": "a",
+        "text": "an equals sign (=)"
+      },
+      {
+        "key": "b",
+        "text": "a plus sign (+)"
+      },
+      {
+        "key": "c",
+        "text": "a bracket"
+      },
+      {
+        "key": "d",
+        "text": "the function name"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The = tells Excel a formula follows.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which function adds the values in cells A1 to A8?",
+    "options": [
+      {
+        "key": "a",
+        "text": "=SUM(A1:A8)"
+      },
+      {
+        "key": "b",
+        "text": "=ADD(A1-A8)"
+      },
+      {
+        "key": "c",
+        "text": "=TOTAL(A1;A8)"
+      },
+      {
+        "key": "d",
+        "text": "SUM A1 to A8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is shorter than =A1+A2+...+A8.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Excel function gives the current date and time and takes no arguments?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NOW()"
+      },
+      {
+        "key": "b",
+        "text": "SUM()"
+      },
+      {
+        "key": "c",
+        "text": "COUNT()"
+      },
+      {
+        "key": "d",
+        "text": "MAX()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Most functions need arguments in brackets.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tab is used to create a chart in Excel?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Insert"
+      },
+      {
+        "key": "b",
+        "text": "Home"
+      },
+      {
+        "key": "c",
+        "text": "Review"
+      },
+      {
+        "key": "d",
+        "text": "View"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Chart group is on the Insert tab.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "When a value changes, Excel formulas that refer to it recalculate automatically by default.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The default calculation method is automatic.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A chart does not change when its source data is edited.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Changes to the source data are reflected automatically.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which functions are listed under the AutoSum arrow?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Average"
+      },
+      {
+        "key": "b",
+        "text": "Count"
+      },
+      {
+        "key": "c",
+        "text": "Max"
+      },
+      {
+        "key": "d",
+        "text": "Vlookup"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is Min.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four basic operator symbols in Excel?",
+    "options": [
+      {
+        "key": "a",
+        "text": "+"
+      },
+      {
+        "key": "b",
+        "text": "-"
+      },
+      {
+        "key": "c",
+        "text": "*"
+      },
+      {
+        "key": "d",
+        "text": "x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Excel uses * for multiplication.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

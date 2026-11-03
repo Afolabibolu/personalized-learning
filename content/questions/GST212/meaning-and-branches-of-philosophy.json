@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The word \"philosophy\" comes from the Greek words",
+    "options": [
+      {
+        "key": "a",
+        "text": "philos and sophia"
+      },
+      {
+        "key": "b",
+        "text": "philo and logos"
+      },
+      {
+        "key": "c",
+        "text": "sophos and ethos"
+      },
+      {
+        "key": "d",
+        "text": "episteme and logos"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Philos means love; sophia means wisdom.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which branch of philosophy is the theory of knowledge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Epistemology"
+      },
+      {
+        "key": "b",
+        "text": "Metaphysics"
+      },
+      {
+        "key": "c",
+        "text": "Ethics"
+      },
+      {
+        "key": "d",
+        "text": "Aesthetics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From episteme (knowledge) and logos (theory).",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which branch of philosophy studies the nature of reality?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Metaphysics"
+      },
+      {
+        "key": "b",
+        "text": "Logic"
+      },
+      {
+        "key": "c",
+        "text": "Epistemology"
+      },
+      {
+        "key": "d",
+        "text": "Applied ethics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It divides into ontology and cosmology.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Ionian philosopher held that water is the primary substance of all things?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Thales"
+      },
+      {
+        "key": "b",
+        "text": "Plato"
+      },
+      {
+        "key": "c",
+        "text": "Kant"
+      },
+      {
+        "key": "d",
+        "text": "Descartes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Ionians reflected on the composition of things.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Empiricism holds that sense experience is the ultimate source of knowledge.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Rationalism holds that reason is.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Philosophy has one universally accepted definition.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Philosophers do not agree on a single definition.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods of philosophy in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Methodic doubt"
+      },
+      {
+        "key": "b",
+        "text": "Dialectical method"
+      },
+      {
+        "key": "c",
+        "text": "Analysis"
+      },
+      {
+        "key": "d",
+        "text": "Divination"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Criticism, argumentation and inquiry are others.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the subdivisions of ethics in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Normative ethics"
+      },
+      {
+        "key": "b",
+        "text": "Meta-ethics"
+      },
+      {
+        "key": "c",
+        "text": "Applied ethics"
+      },
+      {
+        "key": "d",
+        "text": "Cosmology"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Cosmology is part of metaphysics.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 2 Meaning and Branches of Philosophy (A. Udefi)"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "code": "COS 203",
+  "title": "Practical Lab (Python)",
+  "semester": 1,
+  "description": "The CCMAS Python practical course: modular programming with modules and namespaces, reading and writing files, classes and objects, inheritance and polymorphism, installing and using external libraries, data analysis with Pandas, and working with APIs and web data. Built from the COS 203 practical lab note, the Advanced OOP, External Libraries and API lesson materials, and the Python Basics textbook in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "modular-programming-and-namespaces",
+      "title": "Modular Programming, Modules and Namespaces",
+      "summary": "Modular programming breaks a program into smaller, manageable, reusable components called modules. A Python module is a file of code that can be imported into other files; each module has its own namespace, and the import statement has variations such as import ... as and from ... import.",
+      "subtopics": [
+        "What modular programming is",
+        "Why modular programming matters",
+        "Modules and their four advantages",
+        "Importing one module into another",
+        "Namespaces and dot notation",
+        "import ... as and from ... import"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "reading-and-writing-files",
+      "title": "Reading and Writing Files",
+      "summary": "Python reads and writes text files by opening a file object in a mode such as read, write or append, ideally inside a with statement so the file is closed automatically. Methods such as read, readlines, write and writelines move text in and out of files.",
+      "subtopics": [
+        "Opening files with open() and Path.open()",
+        "File modes r, w and a",
+        "The with statement",
+        "read() and readlines()",
+        "write(), writelines() and append mode",
+        "Missing files and FileNotFoundError"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "classes-and-objects-in-python",
+      "title": "Classes and Objects in Python",
+      "summary": "Classes create user-defined data structures. A class is a blueprint that defines attributes and methods; an instance is an object built from the class that contains real data. The __init__ method sets each instance's attributes through self.",
+      "subtopics": [
+        "Why classes: limits of lists for records",
+        "Classes versus instances",
+        "Defining a class with class",
+        "__init__ and self",
+        "Instance and class attributes",
+        "Instance methods"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "inheritance-and-polymorphism-in-python",
+      "title": "Inheritance, Polymorphism and Special Methods",
+      "summary": "Inheritance lets a child class reuse a parent's attributes and methods, with super() to call the parent. Polymorphism lets different classes respond in their own way to the same method call, method overriding replaces a parent's method in the child, and the special methods __str__ and __repr__ give objects readable output.",
+      "subtopics": [
+        "Inheritance and the is-a relationship",
+        "super() and extending a parent",
+        "Single, multilevel and multiple inheritance",
+        "Polymorphism",
+        "Method overriding versus overloading",
+        "__str__ and __repr__"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "external-libraries-and-pip",
+      "title": "External Libraries and pip",
+      "summary": "Python's Standard Library cannot do everything, so programmers install third-party libraries from PyPI with pip. A requirements.txt file records a project's packages, and a virtual environment isolates each project's packages. Popular libraries include NumPy, Pandas, Matplotlib, Requests and scikit-learn.",
+      "subtopics": [
+        "The Standard Library and third-party libraries",
+        "PyPI and pip",
+        "Core pip commands",
+        "requirements.txt",
+        "Virtual environments",
+        "Popular libraries and safety"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-analysis-with-pandas",
+      "title": "Data Analysis with Pandas",
+      "summary": "Pandas is the standard Python library for tabular data. Its core structures are the Series and the DataFrame. Students load data from files, inspect it, select rows with loc and iloc, filter with boolean indexing, add columns, handle missing data, sort, group and merge.",
+      "subtopics": [
+        "Series and DataFrame",
+        "Loading data from files",
+        "Inspecting a DataFrame",
+        "Selecting with loc and iloc",
+        "Filtering, adding columns and missing data",
+        "Sorting, grouping and merging"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "apis-and-web-data",
+      "title": "Working with APIs and Web Data",
+      "summary": "An API is an agreed way for one program to ask another for data or an action, usually returning JSON over HTTP. Students read and write JSON with the json module, send GET and POST requests with the requests library, handle status codes, errors, timeouts and rate limits, and extract data from HTML responsibly with BeautifulSoup.",
+      "subtopics": [
+        "What an API is and the request-response cycle",
+        "Anatomy of a request",
+        "HTTP status codes",
+        "JSON and the json module",
+        "GET and POST with requests; errors and timeouts",
+        "Responsible web scraping with BeautifulSoup"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is a Microsoft Excel file called?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A workbook"
+      },
+      {
+        "key": "b",
+        "text": "A document"
+      },
+      {
+        "key": "c",
+        "text": "A presentation"
+      },
+      {
+        "key": "d",
+        "text": "A database"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It usually contains several worksheets.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which extension is used by newer versions of Microsoft Access?",
+    "options": [
+      {
+        "key": "a",
+        "text": ".accdb"
+      },
+      {
+        "key": "b",
+        "text": ".docx"
+      },
+      {
+        "key": "c",
+        "text": ".xlsx"
+      },
+      {
+        "key": "d",
+        "text": ".pptx"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Older versions used .mdb.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which application should be used when large amounts of data must be organised for retrieval and reporting?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Microsoft Access"
+      },
+      {
+        "key": "b",
+        "text": "Microsoft Word"
+      },
+      {
+        "key": "c",
+        "text": "Microsoft PowerPoint"
+      },
+      {
+        "key": "d",
+        "text": "Microsoft Paint"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Access is database software.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Excel's programming support is provided through",
+    "options": [
+      {
+        "key": "a",
+        "text": "Visual Basic for Applications (VBA)"
+      },
+      {
+        "key": "b",
+        "text": "Dynamic Data Exchange only"
+      },
+      {
+        "key": "c",
+        "text": "SQL Server"
+      },
+      {
+        "key": "d",
+        "text": "HTML"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DDE accesses external data.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A PowerPoint file is called a presentation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is saved as .ppt or .pptx.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "OpenOffice files cannot be opened or modified in Microsoft Office.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Files prepared in either can be modified with either.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are objects of Microsoft Access named in Lecture One?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tables"
+      },
+      {
+        "key": "b",
+        "text": "Forms"
+      },
+      {
+        "key": "c",
+        "text": "Queries"
+      },
+      {
+        "key": "d",
+        "text": "Slides"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Slides belong to PowerPoint.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four applications studied in CSC 272?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Word"
+      },
+      {
+        "key": "b",
+        "text": "Excel"
+      },
+      {
+        "key": "c",
+        "text": "Access"
+      },
+      {
+        "key": "d",
+        "text": "Outlook"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Outlook is in the suite but not the course.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

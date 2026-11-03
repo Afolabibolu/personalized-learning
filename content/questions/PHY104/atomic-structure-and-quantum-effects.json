@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Hydrogen (ionisation energy 13.6 eV) absorbs a photon of 3.8 × 10¹⁵ Hz. The emitted electron's kinetic energy is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.1 eV"
+      },
+      {
+        "key": "b",
+        "text": "15.7 eV"
+      },
+      {
+        "key": "c",
+        "text": "28.9 eV"
+      },
+      {
+        "key": "d",
+        "text": "25.2 eV"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "hf = 15.7 eV; subtract 13.6 eV.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which atomic model explains the line spectrum of hydrogen?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bohr's model"
+      },
+      {
+        "key": "b",
+        "text": "Thomson's model"
+      },
+      {
+        "key": "c",
+        "text": "Rutherford's model"
+      },
+      {
+        "key": "d",
+        "text": "The mechanical model"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Quantised energy levels.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Cathode rays can be produced by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Thermionic emission"
+      },
+      {
+        "key": "b",
+        "text": "Covalent bonding"
+      },
+      {
+        "key": "c",
+        "text": "Electrovalent bonding"
+      },
+      {
+        "key": "d",
+        "text": "Fusion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Electrons boiled off a hot cathode.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the photoelectric effect, increasing the light's intensity (above threshold) increases",
+    "options": [
+      {
+        "key": "a",
+        "text": "The number of emitted electrons"
+      },
+      {
+        "key": "b",
+        "text": "The maximum kinetic energy"
+      },
+      {
+        "key": "c",
+        "text": "The threshold frequency"
+      },
+      {
+        "key": "d",
+        "text": "The work function"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Energy per electron depends on frequency.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "An excited atom returning from E₂ to E₀ emits radiation of energy hf = E₂ − E₀.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "One photon per transition.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "The proton has no charge and the neutron has a charge of +e.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The proton is +e and the neutron is neutral.",
+    "source": "PHY 105 (113) lecture note, Part B: Modern Physics (Ogunniranye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are fermions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Electrons"
+      },
+      {
+        "key": "b",
+        "text": "Protons"
+      },
+      {
+        "key": "c",
+        "text": "Neutrinos"
+      },
+      {
+        "key": "d",
+        "text": "Photons"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Photons are bosons.",
+    "source": "PHY 105 (113) lecture note, Part B: Modern Physics (Ogunniranye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which model is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Thomson"
+      },
+      {
+        "key": "b",
+        "text": "Rutherford"
+      },
+      {
+        "key": "c",
+        "text": "Bohr"
+      },
+      {
+        "key": "d",
+        "text": "Huygens"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Huygens' principle concerns waves, not atomic models.",
+    "source": "PHY 105 (113) lecture note, Part B: Modern Physics (Ogunniranye)"
+  }
+]

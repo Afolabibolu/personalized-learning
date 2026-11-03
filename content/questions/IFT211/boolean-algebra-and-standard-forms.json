@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many rows does the truth table of a function of 5 variables have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "32"
+      },
+      {
+        "key": "b",
+        "text": "25"
+      },
+      {
+        "key": "c",
+        "text": "10"
+      },
+      {
+        "key": "d",
+        "text": "16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2⁵ = 32 input combinations.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A variable or its complement is called a",
+    "options": [
+      {
+        "key": "a",
+        "text": "literal"
+      },
+      {
+        "key": "b",
+        "text": "minterm"
+      },
+      {
+        "key": "c",
+        "text": "maxterm"
+      },
+      {
+        "key": "d",
+        "text": "product term"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A product term connects literals with AND.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dual of X + 0 = X is",
+    "options": [
+      {
+        "key": "a",
+        "text": "X · 1 = X"
+      },
+      {
+        "key": "b",
+        "text": "X · 0 = 0"
+      },
+      {
+        "key": "c",
+        "text": "X + 1 = 1"
+      },
+      {
+        "key": "d",
+        "text": "X + X′ = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Swap + with · and 0 with 1.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If two Boolean functions have identical truth tables, they are equivalent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The truth table is a unique representation of a function.",
+    "source": "Minimisation Aids.pptx (IFT 211 lecture 4)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Boolean expressions for a function are unique.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Many expressions give the same truth table; that is why we simplify.",
+    "source": "Minimisation Aids.pptx (IFT 211 lecture 4)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which identities are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "X + X′ = 1"
+      },
+      {
+        "key": "b",
+        "text": "X · X′ = 0"
+      },
+      {
+        "key": "c",
+        "text": "X + 1 = 1"
+      },
+      {
+        "key": "d",
+        "text": "X · 0 = X"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "X · 0 = 0, not X.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "x + x·y simplifies to",
+    "options": [
+      {
+        "key": "a",
+        "text": "x"
+      },
+      {
+        "key": "b",
+        "text": "y"
+      },
+      {
+        "key": "c",
+        "text": "x + y"
+      },
+      {
+        "key": "d",
+        "text": "x·y"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x·(1 + y) = x·1 = x.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a part of a Boolean expression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Minterm"
+      },
+      {
+        "key": "b",
+        "text": "Maxterm"
+      },
+      {
+        "key": "c",
+        "text": "Literal"
+      },
+      {
+        "key": "d",
+        "text": "Flip-flop"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The flip-flop is a memory element, not a term of a Boolean expression.",
+    "source": "Standard forms of Expression.pptx (IFT 211 lecture 3)"
+  }
+]

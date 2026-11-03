@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which method is the entry point of every C# program?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Main"
+      },
+      {
+        "key": "b",
+        "text": "WriteLine"
+      },
+      {
+        "key": "c",
+        "text": "ReadKey"
+      },
+      {
+        "key": "d",
+        "text": "Start"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Execution starts at Main.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In `using System;`, the using keyword",
+    "options": [
+      {
+        "key": "a",
+        "text": "includes the System namespace in the program"
+      },
+      {
+        "key": "b",
+        "text": "declares a variable"
+      },
+      {
+        "key": "c",
+        "text": "starts a loop"
+      },
+      {
+        "key": "d",
+        "text": "ends the program"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A program can have several using statements.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "C# is case sensitive.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Main and main are different identifiers.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "In C#, the program file name must be the same as the class name.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Unlike Java, the file name can differ from the class name.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are valid C# identifiers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "firstName"
+      },
+      {
+        "key": "b",
+        "text": "_total"
+      },
+      {
+        "key": "c",
+        "text": "Student2"
+      },
+      {
+        "key": "d",
+        "text": "2ndStudent"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An identifier cannot begin with a digit.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "strFirstName is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hungarian notation"
+      },
+      {
+        "key": "b",
+        "text": "camel case"
+      },
+      {
+        "key": "c",
+        "text": "Pascal case"
+      },
+      {
+        "key": "d",
+        "text": "snake case"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The prefix shows the type (a string).",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a part of a C# program's structure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Namespace declaration"
+      },
+      {
+        "key": "b",
+        "text": "Main method"
+      },
+      {
+        "key": "c",
+        "text": "Comments"
+      },
+      {
+        "key": "d",
+        "text": "A database table"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The parts are the namespace, class, methods, attributes, Main, statements and comments.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A single-line comment in C# begins with",
+    "options": [
+      {
+        "key": "a",
+        "text": "//"
+      },
+      {
+        "key": "b",
+        "text": "/*"
+      },
+      {
+        "key": "c",
+        "text": "#"
+      },
+      {
+        "key": "d",
+        "text": "--"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Multi-line comments use /* and */.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  }
+]

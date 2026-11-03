@@ -1,11 +1,27 @@
 {
   "code": "COS 102",
   "topics": {
+    "computing-systems-and-networks": [
+      {
+        "title": "Video: Introduction to Computer Networks (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VwN91x5i25g",
+        "source": "links.csv"
+      }
+    ],
     "computing-concepts-and-types-of-problems": [
       {
         "title": "Video: What is Computational Thinking? (The Tech Interactive)",
         "type": "video",
         "url": "https://www.youtube.com/watch?v=NEBRe_EULiY",
+        "source": "links.csv"
+      }
+    ],
+    "problem-solving-techniques": [
+      {
+        "title": "Video: Introduction to Problem Solving | Mathematical Problem Solving 1 (UCL Department of Mathematics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yHYMArAVDWY",
         "source": "links.csv"
       }
     ],
@@ -17,19 +33,19 @@
         "source": "links.csv"
       }
     ],
-    "problem-solving-techniques": [
-      {
-        "title": "Video: Decomposition, Abstraction & Algorithmic Thinking (MrBrownCS)",
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=qkIVheIgtWw",
-        "source": "links.csv"
-      }
-    ],
     "flowcharts-pseudocode-and-decision-tables": [
       {
         "title": "Video: Flowcharts and Pseudocode - #1 | GCSE (9-1) in Computer Science | AQA, OCR and Edexcel (Stuff Made Easy)",
         "type": "video",
         "url": "https://www.youtube.com/watch?v=Yq1OPs5hCt0",
+        "source": "links.csv"
+      }
+    ],
+    "programs-and-programming-languages": [
+      {
+        "title": "Video: Python for Beginners - Learn Coding with Python in 1 Hour (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8",
         "source": "links.csv"
       }
     ],

@@ -1,0 +1,61 @@
+{
+  "code": "PHY 102",
+  "topics": {
+    "electric-charge-and-coulombs-law": [
+      {
+        "title": "Video: Electric Charge: Crash Course Physics #25 (CrashCourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A",
+        "source": "links.csv"
+      }
+    ],
+    "electric-field-and-gauss-law": [
+      {
+        "title": "Video: Electric Flux, Gauss's Law & Electric Fields, Through a Cube, Sphere, & Disk, Physics Problems (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q1eor6oIuUo",
+        "source": "links.csv"
+      }
+    ],
+    "electric-potential": [
+      {
+        "title": "Video: Electric Potential (Physics with Professor Matt Anderson)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UAnbRUq7ye8",
+        "source": "links.csv"
+      }
+    ],
+    "capacitors-and-dielectrics": [
+      {
+        "title": "Video: Dielectrics & Capacitors - Capacitance, Voltage & Electric Field - Physics Problems (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HmZ4iK1T1bg",
+        "source": "links.csv"
+      }
+    ],
+    "current-resistance-and-dc-circuits": [
+      {
+        "title": "Video: Electric Current & Circuits Explained, Ohm's Law, Charge, Power, Physics Problems, Basic Electricity (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=r-SCyD7f_zI",
+        "source": "links.csv"
+      }
+    ],
+    "magnetic-fields-and-forces": [
+      {
+        "title": "Video: Introduction to Magnetic Fields and Forces | 19.1 General Physics (Chad's Prep)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uz-ZKP_Hymg",
+        "source": "links.csv"
+      }
+    ],
+    "electromagnetic-induction-and-ac": [
+      {
+        "title": "Video: Faraday's Law of Electromagnetic Induction, Magnetic Flux & Induced EMF - Physics & Electromagnetism (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LDOa7UdfcMQ",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

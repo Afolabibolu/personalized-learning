@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A parallel-plate capacitor has d = 1 cm, A = 0.1 m² and κ = 2. Its capacitance is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.77 × 10⁻¹⁰ F"
+      },
+      {
+        "key": "b",
+        "text": "8.85 × 10⁻¹¹ F"
+      },
+      {
+        "key": "c",
+        "text": "1.77 × 10⁻¹² F"
+      },
+      {
+        "key": "d",
+        "text": "4.43 × 10⁻¹¹ F"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C = κε₀A/d.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two capacitors of 6 μF and 3 μF in series have a total capacitance of",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 μF"
+      },
+      {
+        "key": "b",
+        "text": "9 μF"
+      },
+      {
+        "key": "c",
+        "text": "4.5 μF"
+      },
+      {
+        "key": "d",
+        "text": "18 μF"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1/C = 1/6 + 1/3.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The energy stored in a capacitor C at potential difference V is",
+    "options": [
+      {
+        "key": "a",
+        "text": "½CV²"
+      },
+      {
+        "key": "b",
+        "text": "CV²"
+      },
+      {
+        "key": "c",
+        "text": "½QV²"
+      },
+      {
+        "key": "d",
+        "text": "C/V"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Also ½QV and Q²/2C.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Inserting a dielectric of constant κ into an isolated charged capacitor",
+    "options": [
+      {
+        "key": "a",
+        "text": "Increases C by κ and lowers V"
+      },
+      {
+        "key": "b",
+        "text": "Decreases C by κ"
+      },
+      {
+        "key": "c",
+        "text": "Leaves C unchanged"
+      },
+      {
+        "key": "d",
+        "text": "Increases the charge"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The charge is fixed when isolated.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Capacitors in parallel have the same potential difference across each.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Their charges add.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "The total capacitance of capacitors in series is greater than the largest one.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is less than the smallest one.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which increase the capacitance of a parallel-plate capacitor?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Larger plate area"
+      },
+      {
+        "key": "b",
+        "text": "Smaller plate separation"
+      },
+      {
+        "key": "c",
+        "text": "A dielectric with larger κ"
+      },
+      {
+        "key": "d",
+        "text": "Higher applied voltage"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "C depends only on geometry and dielectric.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which unit is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Farad"
+      },
+      {
+        "key": "b",
+        "text": "Microfarad"
+      },
+      {
+        "key": "c",
+        "text": "Picofarad"
+      },
+      {
+        "key": "d",
+        "text": "Henry"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The henry measures inductance.",
+    "source": "General knowledge of PHY 102"
+  }
+]

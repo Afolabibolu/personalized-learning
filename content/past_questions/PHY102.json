@@ -1,0 +1,136 @@
+{
+  "code": "PHY 102",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "PHY 104: Introductory Electricity and Magnetism (set as PHY 104, this course's former code), First Continuous Assessment Test 2018/2019 (Wednesday, 11 December 2019), 30 minutes. Questions 2–5 and 9–10 need circuit diagrams and are left out",
+      "source": "phy104&105 test 2019.pdf (page 2) and PHY104 first test.jpg (Seyiezekiels copy)"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "PHY 104 and 105 First CA Test 2020/2021 (the PHY 104 page). Questions 6–10 need diagrams and are left out",
+      "source": "PHY 104 AND 105 FIRST CA TEST 2020_2021.pdf (page 1)"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "PHY 104: Introductory Electricity and Magnetism, First Continuous Assessment Test 2021/2022 (Wednesday, 26 April 2023), 20 minutes. Attempt all questions",
+      "source": "PHY104 1st test 2023.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "The force of attraction between two point charges, separated by 10 metres, is 96.48 N. What will be the force of attraction, when the point charges are separated by 5 metres? A. 24.12 N B. 48.24 N C. 192.96 N D. 385.92 N"
+    },
+    {
+      "year": "2018/2019",
+      "number": "6",
+      "topic": "electric-field-and-gauss-law",
+      "text": "A uniform electric field is setup between two parallel conducting plates, with potential difference of 25 V and 50 cm apart. What will be the magnitude of acceleration of an electron released at rest between the plates? A. 2.84 × 10⁻¹² m s⁻² B. 2.84 × 10⁻¹⁰ m s⁻² C. 8.79 × 10¹⁰ m s⁻² D. 8.79 × 10¹² m s⁻²"
+    },
+    {
+      "year": "2018/2019",
+      "number": "7",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "Use the following information to answer questions 7–8. Consider point charges, q₁ = +6 μC and q₂ = +4 μC, separated by 10 cm. Then a test charge, q_T = +2 μC, is placed halfway between q₁ and q₂. What is the magnitude of the electrical force exerted on q_T? A. −28.8N B. 28.8 N C. 14.4 N D. 43.2 N"
+    },
+    {
+      "year": "2018/2019",
+      "number": "8",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "(Same charges as question 7.) What is the direction of the electrical force exerted on q_T? A. Towards q₁ B. Away from q₁ C. Perpendicular to q₁ and q₂ D. It has no direction"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "A body is positively charged means: A. it is deficient of electrons B. it contains only protons C. it contains excess electrons D. it is deficient of neutrons"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "When a positively charged object is grounded: A. electrons flow from the ground to the object B. protons flow from the ground to the object C. electrons flow from the object to the ground D. protons flow from the object to the ground"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "Which of the following statement(s) is/are correct about the electric force of attraction/repulsion between two charges? I. It is directly proportional to the product of the magnitude of the charges. II. It is inversely proportional to the distance between the charges. A. I only B. II only C. I and II D. Neither I nor II"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "The electron and proton of a hydrogen atom are separated by a distance of 5.3 × 10⁻¹¹ m. Find the magnitude of the electric force between the two particles. A. 4.35 × 10⁻¹⁸ N B. 5.13 × 10⁻¹¹ N C. 8.2 × 10⁻⁸ N D. 2.72 × 10⁻¹ N"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "current-resistance-and-dc-circuits",
+      "text": "Four identical resistors, rated 3 ohms, are used in a circuit. What is the total resistance in the circuit if the resistors are connected in parallel? A. 1.33 Ω B. 12.00 Ω C. 0.75 Ω D. 3.00 Ω"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "A body is said to be negatively charged if: A. it is deficient of electrons B. it contains only electrons C. it contains more electrons than protons D. it is deficient of neutrons"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "Coulomb's law states that the electrostatic force between two charges is inversely proportional to: A. the distance between the charges B. the product of the charges C. the square of the distance between the charges D. the square root of the product of the charges"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3",
+      "topic": "electric-field-and-gauss-law",
+      "text": "Which of the following statement(s) is/are correct about electric fields? I. They are caused by the motion of charged particles. II. They always point in the direction of decreasing potential. III. They are always perpendicular to the direction of motion of charged particles. A. I and II B. II only C. II and III D. I and III"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4",
+      "topic": "electric-potential",
+      "text": "Which of the following statement(s) is/are correct about electric potential? I. It is a vector quantity. II. It is always positive. III. It is measured in volts. A. I only B. I and II C. II and III D. III only"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5",
+      "topic": "capacitors-and-dielectrics",
+      "text": "What is the capacitance of a parallel-plate capacitor with a separation of 1 cm, an area of 0.1 m², and a dielectric constant of 2? A. 1.77 × 10⁻¹⁰ F B. 8.85 × 10⁻¹¹ F C. 1.77 × 10⁻¹² F D. 4.43 × 10⁻¹¹ F"
+    },
+    {
+      "year": "2021/2022",
+      "number": "6",
+      "topic": "electric-charge-and-coulombs-law",
+      "text": "Two coins lie 1.5 m apart on a table. They carry identical charges. How large is the charge on each if a coin experiences an electric force of 2 N? A. 2.24 × 10⁻⁵ C B. 1.83 × 10⁻⁵ C C. 5.00 × 10⁻¹⁰ C D. 1.58 × 10⁻⁵ C"
+    },
+    {
+      "year": "2021/2022",
+      "number": "7",
+      "topic": "current-resistance-and-dc-circuits",
+      "text": "Use the following information to answer questions 7–10: a 30 V cell drives current through R1 = 3.8 Ω and R2 = 6 Ω in series with R3 = 8 Ω and R4 = 12 Ω in parallel, that pair in series with R5 = 5 Ω (the diagram is described in words here). Calculate the total resistance in the circuit. A. 34.80 Ω B. 19.60 Ω C. 12.25 Ω D. 1.19 Ω"
+    },
+    {
+      "year": "2021/2022",
+      "number": "8",
+      "topic": "current-resistance-and-dc-circuits",
+      "text": "(Same circuit.) Determine the current flow through R3. A. 1.53 A B. 0.61 A C. 0.92 A D. 0.86 A"
+    },
+    {
+      "year": "2021/2022",
+      "number": "9",
+      "topic": "current-resistance-and-dc-circuits",
+      "text": "(Same circuit.) Determine the voltage drop across R2. A. 5.81 V B. 9.18 V C. 7.34 V D. 7.65 V"
+    },
+    {
+      "year": "2021/2022",
+      "number": "10",
+      "topic": "current-resistance-and-dc-circuits",
+      "text": "(Same circuit.) If resistors R1, R2, R3, R4 and R5 are lamps with similar efficiencies, which of them will glow brightest? A. R2 B. R3 C. R4 D. R5"
+    }
+  ]
+}

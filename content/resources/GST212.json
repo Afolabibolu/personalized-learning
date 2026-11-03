@@ -1,0 +1,61 @@
+{
+  "code": "GST 212",
+  "topics": {
+    "meaning-and-branches-of-philosophy": [
+      {
+        "title": "Video: What is Philosophy? - First Lecture of the Semester (Jeffrey Kaplan)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wwT4N_v0-WQ",
+        "source": "links.csv"
+      }
+    ],
+    "philosophical-problems-and-basic-concepts": [
+      {
+        "title": "Video: Philosophy for Beginners (Jared Henderson)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tiZ5tb8Idlg",
+        "source": "links.csv"
+      }
+    ],
+    "ethics-and-ethical-theories": [
+      {
+        "title": "Video: Semester Ethics Course condensed into 22mins (Part 1 of 2) (Jeffrey Kaplan)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DLCUn6h7qRo",
+        "source": "links.csv"
+      }
+    ],
+    "nature-of-logic-and-arguments": [
+      {
+        "title": "Video: Chapter 1.1: Introduction to logic (Leiden University - Faculty of Humanities)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K4ChzesrWKI",
+        "source": "links.csv"
+      }
+    ],
+    "validity-soundness-and-rules-of-inference": [
+      {
+        "title": "Video: CRITICAL THINKING - Fundamentals: Validity [HD] (Wireless Philosophy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kdJ6aGToDlo",
+        "source": "links.csv"
+      }
+    ],
+    "categorical-syllogisms-and-formal-fallacies": [
+      {
+        "title": "Video: Categorical Syllogisms (part 1) (A Little Bit of Philosophy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SzcxsRQ2veM",
+        "source": "links.csv"
+      }
+    ],
+    "informal-fallacies-and-uses-of-language": [
+      {
+        "title": "Video: CRITICAL THINKING - Fallacies: Formal and Informal Fallacies (Wireless Philosophy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VDGp04CfM4M",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

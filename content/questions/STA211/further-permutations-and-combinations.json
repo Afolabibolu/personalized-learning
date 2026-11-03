@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many ways can a team of 11 be chosen from 14 players?",
+    "options": [
+      {
+        "key": "a",
+        "text": "364"
+      },
+      {
+        "key": "b",
+        "text": "2002"
+      },
+      {
+        "key": "c",
+        "text": "14"
+      },
+      {
+        "key": "d",
+        "text": "1001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C(14, 11) = C(14, 3).",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If C(10, r) = C(10, r − 2), then r =",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "r + (r − 2) = 10.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If nP4 = 20·nP2, then n =",
+    "options": [
+      {
+        "key": "a",
+        "text": "7"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(n − 2)(n − 3) = 20.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The letters of a word with n letters, n1 alike and n2 alike, can be arranged in",
+    "options": [
+      {
+        "key": "a",
+        "text": "n!/(n1! n2!)"
+      },
+      {
+        "key": "b",
+        "text": "n!"
+      },
+      {
+        "key": "c",
+        "text": "n1! n2!"
+      },
+      {
+        "key": "d",
+        "text": "(n − 1)!"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Divide by the arrangements of alike letters.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "C(n, r) + C(n, r − 1) = C(n + 1, r).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is Pascal's rule.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The number of circular arrangements of n distinct objects is n!.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is (n − 1)!.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which identities are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C(n, r) = C(n, n − r)"
+      },
+      {
+        "key": "b",
+        "text": "Σ C(n, r) = 2ⁿ"
+      },
+      {
+        "key": "c",
+        "text": "Σ C(m, r)C(n, k − r) = C(m + n, k)"
+      },
+      {
+        "key": "d",
+        "text": "nPr = nCr / r!"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "nPr = r!·nCr.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Of 14 players including a captain, which count is not correct for teams of 11?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Including the captain: C(13, 10)"
+      },
+      {
+        "key": "b",
+        "text": "Excluding the captain: C(13, 11)"
+      },
+      {
+        "key": "c",
+        "text": "All teams: C(14, 11)"
+      },
+      {
+        "key": "d",
+        "text": "Including the captain: C(14, 10)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "With the captain fixed, choose 10 from the other 13.",
+    "source": "STA 211 past papers"
+  }
+]

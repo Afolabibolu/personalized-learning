@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In what year did Hamming publish the Hamming code?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1950"
+      },
+      {
+        "key": "b",
+        "text": "1946"
+      },
+      {
+        "key": "c",
+        "text": "1915"
+      },
+      {
+        "key": "d",
+        "text": "1998"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He began working on the problem at Bell Labs in 1946.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The (7,4) Hamming code encodes",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 message bits into a 7-bit codeword"
+      },
+      {
+        "key": "b",
+        "text": "7 message bits into 4 bits"
+      },
+      {
+        "key": "c",
+        "text": "4 bits into 8 bits"
+      },
+      {
+        "key": "d",
+        "text": "7 bits into 7 bits"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It adds three parity bits.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the (7,4) code, p₁ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "s₁ + s₃ + s₄"
+      },
+      {
+        "key": "b",
+        "text": "s₁ + s₂ + s₃"
+      },
+      {
+        "key": "c",
+        "text": "s₂ + s₃ + s₄"
+      },
+      {
+        "key": "d",
+        "text": "s₁ + s₂"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Addition is modulo 2.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the Venn diagram, each circle must contain an even number of 1s when there is no error.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "An odd count shows a warning.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If circles I and II warn but circle III does not, the error is in",
+    "options": [
+      {
+        "key": "a",
+        "text": "s₁"
+      },
+      {
+        "key": "b",
+        "text": "p₁"
+      },
+      {
+        "key": "c",
+        "text": "s₄"
+      },
+      {
+        "key": "d",
+        "text": "p₃"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "s₁ is the only bit in I and II but not III.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of the syndrome?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is the read-out multiplied by the parity-check matrix"
+      },
+      {
+        "key": "b",
+        "text": "It depends only on the error pattern"
+      },
+      {
+        "key": "c",
+        "text": "The column of H equal to it locates a single error"
+      },
+      {
+        "key": "d",
+        "text": "It is always zero"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It is zero only when no error is detected.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a bit of a (7,4) Hamming codeword?",
+    "options": [
+      {
+        "key": "a",
+        "text": "p₁"
+      },
+      {
+        "key": "b",
+        "text": "s₂"
+      },
+      {
+        "key": "c",
+        "text": "p₃"
+      },
+      {
+        "key": "d",
+        "text": "p₇"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The bits are p₁, p₂, p₃, s₁, s₂, s₃, s₄.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "The (7,4) Hamming code can correct any single-bit error.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its minimum distance is 3.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 4"
+  }
+]

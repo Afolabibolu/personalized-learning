@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The electric potential at distance r from a point charge q is",
+    "options": [
+      {
+        "key": "a",
+        "text": "kq/r"
+      },
+      {
+        "key": "b",
+        "text": "kq/r²"
+      },
+      {
+        "key": "c",
+        "text": "kq²/r"
+      },
+      {
+        "key": "d",
+        "text": "q/r²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Potential falls as 1/r.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which statement about electric potential is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is measured in volts"
+      },
+      {
+        "key": "b",
+        "text": "It is a vector quantity"
+      },
+      {
+        "key": "c",
+        "text": "It is always positive"
+      },
+      {
+        "key": "d",
+        "text": "It is measured in N/C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a scalar that can be negative.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The potential energy of two charges q₁ and q₂ at separation r is",
+    "options": [
+      {
+        "key": "a",
+        "text": "kq₁q₂/r"
+      },
+      {
+        "key": "b",
+        "text": "kq₁q₂/r²"
+      },
+      {
+        "key": "c",
+        "text": "q₁q₂/r"
+      },
+      {
+        "key": "d",
+        "text": "kq₁/r²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Positive for like charges.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "1 electronvolt equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.6 × 10⁻¹⁹ J"
+      },
+      {
+        "key": "b",
+        "text": "1 J"
+      },
+      {
+        "key": "c",
+        "text": "9.1 × 10⁻³¹ J"
+      },
+      {
+        "key": "d",
+        "text": "1.6 × 10¹⁹ J"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "e × 1 V.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "Equipotential surfaces are perpendicular to electric field lines.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "No work is done moving along an equipotential.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "Potentials from several charges must be added as vectors.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Potential is a scalar and adds algebraically.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which relations are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E = −dV/dx"
+      },
+      {
+        "key": "b",
+        "text": "W = qΔV"
+      },
+      {
+        "key": "c",
+        "text": "V = W/q"
+      },
+      {
+        "key": "d",
+        "text": "V = F/q"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "F/q is the field.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which of these is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Potential"
+      },
+      {
+        "key": "b",
+        "text": "Potential difference"
+      },
+      {
+        "key": "c",
+        "text": "Potential energy"
+      },
+      {
+        "key": "d",
+        "text": "Electric field"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The electric field is a vector; the others are scalars.",
+    "source": "General knowledge of PHY 102"
+  }
+]

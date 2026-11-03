@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who built the first calculator able to multiply and divide, and documented the binary number system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Gottfried Leibniz"
+      },
+      {
+        "key": "b",
+        "text": "Blaise Pascal"
+      },
+      {
+        "key": "c",
+        "text": "John Napier"
+      },
+      {
+        "key": "d",
+        "text": "Herman Hollerith"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Leibniz's Stepped Reckoner (1674) improved on the Pascaline.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Herman Hollerith's punched-card tabulator was built for",
+    "options": [
+      {
+        "key": "a",
+        "text": "The 1890 US census"
+      },
+      {
+        "key": "b",
+        "text": "Breaking the Enigma code"
+      },
+      {
+        "key": "c",
+        "text": "Computing artillery tables"
+      },
+      {
+        "key": "d",
+        "text": "Bernoulli numbers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "His company became IBM.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "ENIAC (1946) was the first electronic digital computer and used",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vacuum tubes"
+      },
+      {
+        "key": "b",
+        "text": "Transistors"
+      },
+      {
+        "key": "c",
+        "text": "Integrated circuits"
+      },
+      {
+        "key": "d",
+        "text": "Relays only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It replaced electromechanical switches with vacuum tubes.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "High-level languages such as FORTRAN and COBOL were a major feature of the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Second generation"
+      },
+      {
+        "key": "b",
+        "text": "First generation"
+      },
+      {
+        "key": "c",
+        "text": "Third generation"
+      },
+      {
+        "key": "d",
+        "text": "Fifth generation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The second generation also used transistors and core memory.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "John von Neumann is credited with the stored-program concept.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Programs are stored in memory with the data.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Blaise Pascal's Pascaline was designed mainly to multiply and divide.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It added and subtracted; Leibniz added multiplication and division.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about Charles Babbage's machines are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Difference Engine computed polynomial values by finite differences"
+      },
+      {
+        "key": "b",
+        "text": "The Analytical Engine could be programmed with punched cards"
+      },
+      {
+        "key": "c",
+        "text": "The Analytical Engine allowed branching and looping"
+      },
+      {
+        "key": "d",
+        "text": "Babbage completed the Difference Engine in his lifetime"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It was built from 1989 to 1991 for the London Science Museum.",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which pairing of generation and technology is wrong?",
+    "options": [
+      {
+        "key": "a",
+        "text": "First: vacuum tubes"
+      },
+      {
+        "key": "b",
+        "text": "Second: transistors"
+      },
+      {
+        "key": "c",
+        "text": "Third: integrated circuits"
+      },
+      {
+        "key": "d",
+        "text": "Fourth: relays"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth generation used LSI and VLSI chips (microprocessors).",
+    "source": "Week2-History_and_Generation_of_Computing (CSC 101 week 2 slides)"
+  }
+]

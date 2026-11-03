@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Hiding implementation details and showing only essential features is",
+    "options": [
+      {
+        "key": "a",
+        "text": "abstraction"
+      },
+      {
+        "key": "b",
+        "text": "inheritance"
+      },
+      {
+        "key": "c",
+        "text": "overloading"
+      },
+      {
+        "key": "d",
+        "text": "recursion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It focuses on what, not how.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which gives only partial abstraction in Java?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Abstract classes"
+      },
+      {
+        "key": "b",
+        "text": "Interfaces"
+      },
+      {
+        "key": "c",
+        "text": "Static methods"
+      },
+      {
+        "key": "d",
+        "text": "Final variables"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Interfaces give abstraction for behaviour.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Encapsulation hides data members using the",
+    "options": [
+      {
+        "key": "a",
+        "text": "private modifier"
+      },
+      {
+        "key": "b",
+        "text": "public modifier"
+      },
+      {
+        "key": "c",
+        "text": "static modifier"
+      },
+      {
+        "key": "d",
+        "text": "abstract modifier"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Access is through getters and setters.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "An abstract class can be instantiated directly with new.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It must be inherited from.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "An abstract class can contain both abstract and concrete methods.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It can also have constructors and static members.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of abstraction in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Easier to understand complex systems"
+      },
+      {
+        "key": "b",
+        "text": "Increased security by exposing only necessary detail"
+      },
+      {
+        "key": "c",
+        "text": "More efficient maintenance"
+      },
+      {
+        "key": "d",
+        "text": "Easier debugging of hidden code"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Harder debugging is a limitation.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an example of abstraction from the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An ATM"
+      },
+      {
+        "key": "b",
+        "text": "A coffee machine"
+      },
+      {
+        "key": "c",
+        "text": "A TV remote"
+      },
+      {
+        "key": "d",
+        "text": "A public park"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The public park illustrates the public modifier.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which phrase summarises encapsulation in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It protects what (the data)"
+      },
+      {
+        "key": "b",
+        "text": "It hides how"
+      },
+      {
+        "key": "c",
+        "text": "It creates IS-A relationships"
+      },
+      {
+        "key": "d",
+        "text": "It takes many forms"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Abstraction hides how.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which form attribute says where the form data is sent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ACTION"
+      },
+      {
+        "key": "b",
+        "text": "METHOD"
+      },
+      {
+        "key": "c",
+        "text": "NAME"
+      },
+      {
+        "key": "d",
+        "text": "TYPE"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "METHOD says how it is sent.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which input type lets the visitor choose only one option from a group?",
+    "options": [
+      {
+        "key": "a",
+        "text": "radio"
+      },
+      {
+        "key": "b",
+        "text": "checkbox"
+      },
+      {
+        "key": "c",
+        "text": "text"
+      },
+      {
+        "key": "d",
+        "text": "hidden"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Radio buttons in a group share a name.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which element accepts several lines of text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "<textarea>"
+      },
+      {
+        "key": "b",
+        "text": "<input type=\"text\">"
+      },
+      {
+        "key": "c",
+        "text": "<select>"
+      },
+      {
+        "key": "d",
+        "text": "<option>"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has rows and cols attributes.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which input type clears the form back to its starting values?",
+    "options": [
+      {
+        "key": "a",
+        "text": "reset"
+      },
+      {
+        "key": "b",
+        "text": "submit"
+      },
+      {
+        "key": "c",
+        "text": "hidden"
+      },
+      {
+        "key": "d",
+        "text": "image"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "submit sends the form.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "A password box displays the characters as they are typed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It hides them with dots or asterisks.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "Several check boxes in a group can be ticked at the same time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Radio buttons allow only one.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are form input elements described in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pop-up menu boxes"
+      },
+      {
+        "key": "b",
+        "text": "Text area boxes"
+      },
+      {
+        "key": "c",
+        "text": "Hidden text"
+      },
+      {
+        "key": "d",
+        "text": "Table headings"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Table headings belong to tables.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a value of the input element's type attribute in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "text"
+      },
+      {
+        "key": "b",
+        "text": "password"
+      },
+      {
+        "key": "c",
+        "text": "checkbox"
+      },
+      {
+        "key": "d",
+        "text": "table"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "table is a separate element.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

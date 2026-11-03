@@ -1,0 +1,61 @@
+{
+  "code": "IFT 302",
+  "topics": {
+    "introduction-to-web-development": [
+      {
+        "title": "Video: Learn web development as an absolute beginner (Coder Coder)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ysEN5RaKOlA",
+        "source": "links.csv"
+      }
+    ],
+    "website-design-ui-ux-and-responsive-design": [
+      {
+        "title": "Video: UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+        "source": "links.csv"
+      }
+    ],
+    "web-architecture-and-development-tools": [
+      {
+        "title": "Video: Everything You NEED to Know About WEB APP Architecture (ForrestKnight)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sDlCSIDwpDs",
+        "source": "links.csv"
+      }
+    ],
+    "client-side-programming": [
+      {
+        "title": "Video: Client-side vs Server-side, Front-end vs Back-end? Beginner Explanation of JavaScript on the Web (Scott Hanselman)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7GRKUaQ8Spk",
+        "source": "links.csv"
+      }
+    ],
+    "server-side-programming-with-php": [
+      {
+        "title": "Video: PHP Full Course for free 🐘 (Bro Code)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zZ6vybT1HQs",
+        "source": "links.csv"
+      }
+    ],
+    "object-oriented-php": [
+      {
+        "title": "Video: Learn Object Oriented PHP for Beginners | With Examples to Help You Understand! | OOP PHP Tutorial (Dani Krossing)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yrFr5PMdk2A",
+        "source": "links.csv"
+      }
+    ],
+    "database-driven-applications-cookies-and-sessions": [
+      {
+        "title": "Video: Difference between cookies, session and tokens (Valentin Despa)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GhrvZ5nUWNg",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

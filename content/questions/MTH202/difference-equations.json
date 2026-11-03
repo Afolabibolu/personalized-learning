@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The forward difference Δy_r equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "y_(r+1) − y_r"
+      },
+      {
+        "key": "b",
+        "text": "y_r − y_(r−1)"
+      },
+      {
+        "key": "c",
+        "text": "y_(r+1) + y_r"
+      },
+      {
+        "key": "d",
+        "text": "y_(r+1)/y_r"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∇ uses y_r − y_(r−1).",
+    "source": "MAT 241 Difference Equation slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The shift operator E is related to Δ by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Δ = E − 1"
+      },
+      {
+        "key": "b",
+        "text": "Δ = E + 1"
+      },
+      {
+        "key": "c",
+        "text": "Δ = 1/E"
+      },
+      {
+        "key": "d",
+        "text": "Δ = E²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Δy_r = Ey_r − y_r.",
+    "source": "MAT 241 Difference Equation slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the general solution of y_(n+2) − 5y_(n+1) + 6y_n = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C1 2ⁿ + C2 3ⁿ"
+      },
+      {
+        "key": "b",
+        "text": "C1 5ⁿ + C2 6ⁿ"
+      },
+      {
+        "key": "c",
+        "text": "(C1 + C2 n)5ⁿ"
+      },
+      {
+        "key": "d",
+        "text": "C1 (−2)ⁿ + C2 (−3)ⁿ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m² − 5m + 6 = 0 gives 2 and 3.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the characteristic root m = 2 is repeated, the solution is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(C1 + C2 n)2ⁿ"
+      },
+      {
+        "key": "b",
+        "text": "C1 2ⁿ + C2 2ⁿ"
+      },
+      {
+        "key": "c",
+        "text": "C1 2ⁿ + C2"
+      },
+      {
+        "key": "d",
+        "text": "C1 n²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Repeated roots add a factor of n.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Eliminating A and B from y_n = A + B·4ⁿ gives y_(n+2) − 5y_(n+1) + 4y_n = 0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The characteristic roots are 1 and 4.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a polynomial of degree n, the nth differences are zero.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are constant; the (n + 1)th differences are zero.",
+    "source": "MAT 241 Difference Equation slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are finite difference operators in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Forward difference Δ"
+      },
+      {
+        "key": "b",
+        "text": "Backward difference ∇"
+      },
+      {
+        "key": "c",
+        "text": "Shift operator E"
+      },
+      {
+        "key": "d",
+        "text": "Wronskian W"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The Wronskian belongs to ODEs.",
+    "source": "MAT 241 Difference Equation slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not used to solve a linear difference equation with constant coefficients?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Try y_n = mⁿ"
+      },
+      {
+        "key": "b",
+        "text": "Form the characteristic equation"
+      },
+      {
+        "key": "c",
+        "text": "Add a particular solution"
+      },
+      {
+        "key": "d",
+        "text": "Test ∂M/∂y = ∂N/∂x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "That is the exactness test for ODEs.",
+    "source": "MAT 241 Difference Equation slides"
+  }
+]

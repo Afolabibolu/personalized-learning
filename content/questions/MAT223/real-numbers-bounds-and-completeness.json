@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For A = {n/(n+1) : n a natural number}, what is sup A?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "1/2"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "It does not exist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The terms approach 1 but never reach it.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If P + k = {p + k : p in P}, then sup(P + k) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "k + sup P"
+      },
+      {
+        "key": "b",
+        "text": "k · sup P"
+      },
+      {
+        "key": "c",
+        "text": "sup P − k"
+      },
+      {
+        "key": "d",
+        "text": "inf P + k"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Shifting a set shifts its supremum.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "sup(−A) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "−inf A"
+      },
+      {
+        "key": "b",
+        "text": "inf A"
+      },
+      {
+        "key": "c",
+        "text": "−sup A"
+      },
+      {
+        "key": "d",
+        "text": "sup A"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Reflection swaps sup and inf.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which rational lies between rationals x < y?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(x + y)/2"
+      },
+      {
+        "key": "b",
+        "text": "xy"
+      },
+      {
+        "key": "c",
+        "text": "x − y"
+      },
+      {
+        "key": "d",
+        "text": "y/x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The average shows Q is dense.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "There is a rational number x with x² = 2.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "√2 is irrational.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every non-empty set of real numbers that is bounded above has a supremum in R.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the completeness axiom.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "multi_select",
+    "stem": "If A ⊆ B are bounded sets of reals, which inequalities hold?",
+    "options": [
+      {
+        "key": "a",
+        "text": "inf B ≤ inf A"
+      },
+      {
+        "key": "b",
+        "text": "inf A ≤ sup A"
+      },
+      {
+        "key": "c",
+        "text": "sup A ≤ sup B"
+      },
+      {
+        "key": "d",
+        "text": "sup B ≤ inf A"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A smaller set has a narrower range.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property of the supremum of a set?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is an upper bound"
+      },
+      {
+        "key": "b",
+        "text": "No smaller number is an upper bound"
+      },
+      {
+        "key": "c",
+        "text": "It is unique when it exists"
+      },
+      {
+        "key": "d",
+        "text": "It must belong to the set"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "sup A = 1 above is not in A.",
+    "source": "General knowledge of MAT 223"
+  }
+]

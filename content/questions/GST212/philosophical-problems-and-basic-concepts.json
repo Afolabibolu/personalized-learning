@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Philosophical problems are called perennial because",
+    "options": [
+      {
+        "key": "a",
+        "text": "they have no generally accepted solutions"
+      },
+      {
+        "key": "b",
+        "text": "they are solved every year"
+      },
+      {
+        "key": "c",
+        "text": "they concern only plants"
+      },
+      {
+        "key": "d",
+        "text": "they were invented recently"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Conflicting views keep them alive.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which philosopher held methodological scepticism, doubting everything to find what cannot be doubted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "René Descartes"
+      },
+      {
+        "key": "b",
+        "text": "David Hume"
+      },
+      {
+        "key": "c",
+        "text": "Plato"
+      },
+      {
+        "key": "d",
+        "text": "Thales"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He was a French rationalist.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which school holds that only matter exists?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Materialism"
+      },
+      {
+        "key": "b",
+        "text": "Idealism"
+      },
+      {
+        "key": "c",
+        "text": "Nihilism"
+      },
+      {
+        "key": "d",
+        "text": "Nominalism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Idealism says everything exists in the mind.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"Team\", \"flock\" and \"herd\" are examples of",
+    "options": [
+      {
+        "key": "a",
+        "text": "collective concepts"
+      },
+      {
+        "key": "b",
+        "text": "relative concepts"
+      },
+      {
+        "key": "c",
+        "text": "negative concepts"
+      },
+      {
+        "key": "d",
+        "text": "abstract concepts"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They refer to a group as a single whole.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 4 Basic Concepts in Philosophy (D. Irele)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Nominalists hold that universals have a real, objective existence.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is realism; nominalists say universals are only names.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Dualism holds that a person is made up of a material body and an immaterial mind.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Monism holds there is only one entity.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of scepticism in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Philosophical scepticism"
+      },
+      {
+        "key": "b",
+        "text": "Methodological scepticism"
+      },
+      {
+        "key": "c",
+        "text": "Global scepticism"
+      },
+      {
+        "key": "d",
+        "text": "Optimistic scepticism"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Local scepticism is the fourth.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an abstract concept, according to the textbook's examples?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Whiteness"
+      },
+      {
+        "key": "b",
+        "text": "Justice"
+      },
+      {
+        "key": "c",
+        "text": "Honesty"
+      },
+      {
+        "key": "d",
+        "text": "House"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "House is a concrete concept.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 4 Basic Concepts in Philosophy (D. Irele)"
+  }
+]

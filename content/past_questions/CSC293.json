@@ -1,0 +1,304 @@
+{
+  "code": "CSC 293",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "CSC 293 Web Design, B.Sc. Degree Examinations 2020/2021 Session (2 hours 30 minutes). Answer any three questions",
+      "source": "CSC 293 2020-21.pdf"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "CSC 293 (Web Programming), 2024/2025 Second Semester Examination (2 hours). Answer 3 of the 5 questions; Question 1 is compulsory",
+      "source": "CSC 293 2025.pdf"
+    },
+    {
+      "year": "Test",
+      "paper": "CSC 293 Test (undated)",
+      "source": "CSC 293 Test.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1a",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "Differentiate among Web Page, Website and Web Application. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1b",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "List the components of a web application. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1c",
+      "topic": "web-design-principles-and-planning",
+      "text": "A Web-based Food Ordering System: NACOSSFood is a food vendor at the Department of Computer Science, University of Ibadan. She wants a simple website for her student-customers to order food online: swallows (Pounded Yam, Amala, Fufu, Semovita, Eba), rice and dodo, rice with beans, beans with dodo, meat pie, sausage rolls, soups (Ewedu, Okro, Melon, Vegetables) and assorted meats. Prices: a wrap of swallow N50; a spoon of rice N50; a spoon of beans N40; dodo N10 per cut; meat pie, sausage roll, goat meat, cow meat and chicken/turkey N100 per one; assorted meat N100 per order. The total cost of the food ordered will be computed and given as an alert to customers as soon as they submit their order form online. Assuming you are interested in implementing the Food Ordering System for NACOSSFood, list the major issues in the website design. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1d",
+      "topic": "web-design-principles-and-planning",
+      "text": "Make a sketch of how the Home Page should look, assuming you are interested in building the web application for the NACOSSFood food vendor. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1e",
+      "topic": "html-tags-tables-and-links",
+      "text": "Write an HTML script for the Home or Index Page of the NACOSSFood web application. Remember the Home Page might have some hyperlinks. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2a",
+      "topic": "html-forms",
+      "text": "Referring to the NACOSSFood Food Ordering System scenario, highlight and state the functions of all the necessary form elements you will need to design an ordering form for the NACOSSFood Food Ordering website. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2b",
+      "topic": "html-forms",
+      "text": "Design an HTML form to be filled by customers for ordering their food from NACOSSFood. (7 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2c",
+      "topic": "css-and-page-layout",
+      "text": "What is CSS? State two uses of CSS. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2d",
+      "topic": "css-and-page-layout",
+      "text": "Write a CSS style to format colour, fonts and hyperlinks for the NACOSSFood Food Ordering Web Application. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3a",
+      "topic": "javascript",
+      "text": "Assuming var a = 33, var b = 10, write a JavaScript code to print out the value of a at the end of each execution using the following operators: a = b, a += b, a -= b, a *= b, a /= b, a %= b. Write out the outputs of the expressions. (8 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3b",
+      "topic": "javascript",
+      "text": "Write out the syntax of the following in JavaScript with examples: (i) for loop (ii) do-while loop (iii) while loop (iv) if-else-if statement. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3c",
+      "topic": "php-and-mysql",
+      "text": "PHP has three different variable scopes. Mention the three variable scopes and briefly explain them. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3d",
+      "topic": "php-and-mysql",
+      "text": "Why is PHP regarded as a loosely typed language and what is the effect on application development? (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4a",
+      "topic": "javascript",
+      "text": "In a CSC 293 test the scores are graded as follows: A = Excellent, B = Very Good, C = Good, D = Fair, E = Poor. Write a switch statement in JavaScript that will show the following output: The course is CSC293, It is test and Your grade is excellent. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4b",
+      "topic": "php-and-mysql",
+      "text": "Write a SQL statement to create a simple table countries including columns country_id, country_name and region_id. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4c",
+      "topic": "php-and-mysql",
+      "text": "Write a SQL statement to insert 3 rows by a single insert statement. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4d",
+      "topic": "php-and-mysql",
+      "text": "Write a query to display the names (first_name, last_name) using such as name \"First Name\", \"Last Name\". (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4e",
+      "topic": "php-and-mysql",
+      "text": "Before we can access data in the MySQL database, we need to be able to connect to the server. Write a simple PHP code that gets you connected to the server. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4f",
+      "topic": "php-and-mysql",
+      "text": "Write a simple code in PHP to close the connection. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5a",
+      "topic": "web-design-principles-and-planning",
+      "text": "Christiana has just completed his National Youth Service with the Federal Government of Nigeria. A company came to recruit computer science corps members as web designers. At her interview, the company's Human Resources Manager asked her to explain the principles guiding effective use of graphics on web pages. Assuming you were Christiana, make your presentation. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5b",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "What do you understand by frontend design and backend development? (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5c",
+      "topic": "web-design-principles-and-planning",
+      "text": "Briefly educate a newbie web developer on things that could be done to improve the performance of a website. (6 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5d",
+      "topic": "web-design-principles-and-planning",
+      "text": "You are the Web Designing manager for ABDT Technology. You won a big contract to design a website and are to hold a meeting with the management of the company that awarded the contract. The agenda is: (i) why do we need responsive web design? (ii) the difference between static and dynamic websites (iii) the importance of web design. What would you say about the above? (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1a",
+      "topic": "css-and-page-layout",
+      "text": "Talk about the strengths of CSS Grid and Flexbox as layout systems. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1b",
+      "topic": "css-and-page-layout",
+      "text": "Give 2 real-world circumstances where combining CSS Grid and Flexbox can produce more optimal solutions than relying on either alone. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1c",
+      "topic": "css-and-page-layout",
+      "text": "Give 3 ways you decide which layout system to reach for first when approaching a new design. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1d",
+      "topic": "css-and-page-layout",
+      "text": "Give 2 common pitfalls developers encounter when using Grid and how these can be avoided. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2a",
+      "topic": "web-design-principles-and-planning",
+      "text": "Give 1 way each for how responsive design principles such as fluid grids, media queries and flexible images influence page performance, usability and accessibility. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2b",
+      "topic": "web-design-principles-and-planning",
+      "text": "List 2 reasons why ignoring responsiveness creates technical issues. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2c",
+      "topic": "web-design-principles-and-planning",
+      "text": "List 3 advantages each of mobile-first and desktop-first approaches to responsive design. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3a",
+      "topic": "web-design-principles-and-planning",
+      "text": "Give 2 roles of caching in improving web performance. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3b",
+      "topic": "web-design-principles-and-planning",
+      "text": "Give 4 scenarios where caching can cause unexpected bugs or outdated content issues. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3c",
+      "topic": "web-design-principles-and-planning",
+      "text": "How do you design a caching strategy that balances aggressive performance optimization with the ability to rapidly deploy critical updates or bug fixes to production? (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4a",
+      "topic": "web-design-principles-and-planning",
+      "text": "What are the implications of client-side tracking and analytics scripts? (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4b",
+      "topic": "web-design-principles-and-planning",
+      "text": "List 5 implications of misuse of user behaviour data. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4c",
+      "topic": "web-design-principles-and-planning",
+      "text": "Give 5 ways that developers can balance business requirements for user insights with privacy-preserving alternatives. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5a",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "Give 2 ways each of how single-page applications (SPAs) differ from traditional multi-page websites in terms of user experience, performance and SEO. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5b",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "Give 2 strategies that can be used to mitigate the disadvantages of SPAs. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5c",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "When should you choose an SPA architecture over a traditional MPA (multi-page application)? (5 marks)"
+    },
+    {
+      "year": "Test",
+      "number": "1a",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "Differentiate among Web Page, Website and Web Application."
+    },
+    {
+      "year": "Test",
+      "number": "1b",
+      "topic": "the-web-websites-and-web-applications",
+      "text": "List the components of a web application."
+    },
+    {
+      "year": "Test",
+      "number": "1c",
+      "topic": "html-tags-tables-and-links",
+      "text": "Write an HTML script for a Home or Index Page using all the tags you can think of to display CSC 293 class."
+    },
+    {
+      "year": "Test",
+      "number": "1d",
+      "topic": "css-and-page-layout",
+      "text": "What is CSS? State two uses of CSS."
+    },
+    {
+      "year": "Test",
+      "number": "1e",
+      "topic": "css-and-page-layout",
+      "text": "Write a CSS style to format colour, fonts and hyperlinks for the page in (c) above."
+    },
+    {
+      "year": "Test",
+      "number": "2",
+      "topic": "javascript",
+      "text": "Write an HTML page with JavaScript code to print the sum and average of any two numbers."
+    },
+    {
+      "year": "Test",
+      "number": "3",
+      "topic": "javascript",
+      "text": "Var a = 40, Var b = 20. Write a JavaScript code to print out the value of a at the end of each execution using the following operators: a = b, a += b, a -= b, a *= b, a /= b, a %= b."
+    },
+    {
+      "year": "Test",
+      "number": "4",
+      "topic": "javascript",
+      "text": "In a CSC 293 test the scores are graded as follows: A = Excellent, B = Very Good, C = Good, D = Fair, E = Poor. Write a switch statement that will show the following output: The course is CSC293, it is test and your grade is excellent."
+    }
+  ]
+}

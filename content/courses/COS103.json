@@ -1,0 +1,108 @@
+{
+  "code": "COS 103",
+  "title": "Introduction to Programming",
+  "semester": 2,
+  "description": "The Python programming course (formerly CSC 103): elements of a Python program and selection statements, loops, functions, lists, tuples, sets and dictionaries, strings, regular expressions and modules, files and exception handling, and data visualisation, GUI programming with Tkinter, sorting and searching. Built from Dr A. B. Sakpere's CSC 103 lectures 2 to 8 (2024), the course structure and the 2023/24 examination.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "python-basics-and-selection",
+      "title": "Python Basics and Selection Statements",
+      "summary": "A Python program is built from expressions, variables, data types, assignments, input, output and comments. Selection statements (if, else, elif, nested if and the conditional expression) let the program make decisions.",
+      "subtopics": [
+        "Expressions, variables and naming rules",
+        "Data types, type casting and escape characters",
+        "Multi-line strings and f-strings",
+        "if, else and elif",
+        "Nested if and the conditional (ternary) expression",
+        "Logical operators and, or, not"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "loops",
+      "title": "Loops",
+      "summary": "Iteration statements repeat a block of code: the for loop over a sequence or range, and the while loop while a condition holds. break, continue, the loop else clause and nested loops control and extend them.",
+      "subtopics": [
+        "The for loop and range()",
+        "The while loop and infinite loops",
+        "Nested for and while loops",
+        "break and continue",
+        "The else clause on loops",
+        "Patterns, sums and input validation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "functions",
+      "title": "Functions",
+      "summary": "A function is a reusable block of code that performs a task when called. COS 103 covers defining and calling functions, positional, default and keyword parameters, return values, variable scope, recursion and lambdas.",
+      "subtopics": [
+        "Defining and calling functions",
+        "Positional, default and keyword parameters",
+        "Returning none, one or several values",
+        "Calling functions inside functions",
+        "Local and global scope",
+        "Recursion and lambda expressions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "lists-tuples-sets-and-dictionaries",
+      "title": "Lists, Tuples, Sets and Dictionaries",
+      "summary": "Python's collections store many values: lists (ordered, mutable), tuples (ordered, immutable), sets (unique, unordered) and dictionaries (key-value pairs). Each has its own operations, methods and best uses.",
+      "subtopics": [
+        "Lists: indexing, slicing and modifying",
+        "List methods, operators and membership",
+        "Iterating: for, range, enumerate, zip and comprehensions",
+        "Tuples and immutability",
+        "Sets and set operations",
+        "Dictionaries and nested dictionaries"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "strings-regex-and-modules",
+      "title": "Strings, Regular Expressions and Modules",
+      "summary": "Strings are sequences of characters with indexing, slicing and many methods. Regular expressions in the re module find and replace text patterns, and modules, built-in or custom, organise reusable code.",
+      "subtopics": [
+        "String indexing and slicing",
+        "String methods: lower, upper, strip, split, join, replace, find",
+        "Regular expressions: \\d, \\w, \\s and repetition",
+        "re.search, re.findall and re.sub",
+        "Creating and importing modules",
+        "The math, random and datetime modules"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "files-and-exceptions",
+      "title": "Files and Exception Handling",
+      "summary": "File handling reads, writes and manages files, from text files to Excel sheets and images. Exception handling with try, except, else and finally keeps programs from crashing when runtime errors occur.",
+      "subtopics": [
+        "Opening, reading, writing and closing files",
+        "File modes and the with statement",
+        "Excel files (openpyxl, pandas) and images (Pillow)",
+        "Syntax, runtime and logical errors",
+        "Common exceptions",
+        "try, except, else, finally and raise"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "visualisation-gui-and-algorithms",
+      "title": "Data Visualisation, GUI Programming and Algorithms",
+      "summary": "Matplotlib and pandas turn data into line, bar, scatter and pie charts. Tkinter builds windows with widgets and event handling, and sorting and searching algorithms such as selection sort, merge sort and binary search organise and find data.",
+      "subtopics": [
+        "Why visualise data; Matplotlib, Seaborn, Plotly, pandas",
+        "Line, bar, scatter and pie charts; titles, labels, legends, grids and subplots",
+        "pandas DataFrames and Excel input and output",
+        "Tkinter windows, widgets and the event loop",
+        "Event handling and layout: pack, grid, place",
+        "Selection sort, merge sort, linear and binary search"
+      ],
+      "lectures": []
+    }
+  ]
+}

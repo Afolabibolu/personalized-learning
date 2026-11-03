@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword is used for a class to inherit from another class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "extends"
+      },
+      {
+        "key": "b",
+        "text": "implements"
+      },
+      {
+        "key": "c",
+        "text": "inherits"
+      },
+      {
+        "key": "d",
+        "text": "super"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "implements is used for interfaces.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "More than one subclass derived from a single base class is",
+    "options": [
+      {
+        "key": "a",
+        "text": "hierarchical inheritance"
+      },
+      {
+        "key": "b",
+        "text": "multilevel inheritance"
+      },
+      {
+        "key": "c",
+        "text": "single inheritance"
+      },
+      {
+        "key": "d",
+        "text": "multiple inheritance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cars and buses are both vehicles.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A chain where a derived class is also the base class for another is",
+    "options": [
+      {
+        "key": "a",
+        "text": "multilevel inheritance"
+      },
+      {
+        "key": "b",
+        "text": "hierarchical inheritance"
+      },
+      {
+        "key": "c",
+        "text": "hybrid inheritance"
+      },
+      {
+        "key": "d",
+        "text": "single inheritance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example A, then B extends A, then C extends B.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Method overriding is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "runtime polymorphism"
+      },
+      {
+        "key": "b",
+        "text": "compile-time polymorphism"
+      },
+      {
+        "key": "c",
+        "text": "encapsulation"
+      },
+      {
+        "key": "d",
+        "text": "a constructor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The object's actual type decides at runtime.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Java supports multiple inheritance with classes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Multiple inheritance is only through interfaces.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Inheritance represents an IS-A relationship.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A Dog is an Animal.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which can a subclass do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Override an inherited instance method"
+      },
+      {
+        "key": "b",
+        "text": "Declare new fields"
+      },
+      {
+        "key": "c",
+        "text": "Invoke the superclass constructor with super"
+      },
+      {
+        "key": "d",
+        "text": "Remove the superclass's private fields"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It cannot remove superclass members.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a limitation or concern of inheritance in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Complexity of deep hierarchies"
+      },
+      {
+        "key": "b",
+        "text": "Tight coupling"
+      },
+      {
+        "key": "c",
+        "text": "Superclass changes breaking subclasses"
+      },
+      {
+        "key": "d",
+        "text": "Code reusability"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Reusability is an advantage.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  }
+]

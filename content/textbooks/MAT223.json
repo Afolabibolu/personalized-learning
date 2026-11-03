@@ -1,0 +1,61 @@
+{
+  "code": "MAT 223",
+  "books": {
+    "chidume": {
+      "title": "Real Analysis (MTH 221 text)",
+      "authors": "C. E. Chidume",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "real-numbers-bounds-and-completeness": [
+      {
+        "book": "chidume",
+        "read": "The chapter on the real number system and completeness",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "sequences-of-real-numbers": [
+      {
+        "book": "chidume",
+        "read": "The chapter on sequences of real numbers",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "series-of-real-numbers": [
+      {
+        "book": "chidume",
+        "read": "The chapter on infinite series",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "limits-and-continuity": [
+      {
+        "book": "chidume",
+        "read": "The chapter on limits and continuity",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "differentiability-and-mean-value-theorems": [
+      {
+        "book": "chidume",
+        "read": "The chapter on differentiation and the mean value theorems",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "taylors-theorem-and-lhopitals-rule": [
+      {
+        "book": "chidume",
+        "read": "The chapter on Taylor's theorem and L'Hopital's rule",
+        "why": "The real analysis text in the course folder."
+      }
+    ],
+    "the-riemann-integral": [
+      {
+        "book": "chidume",
+        "read": "The chapter on the Riemann integral",
+        "why": "The real analysis text in the course folder."
+      }
+    ]
+  }
+}

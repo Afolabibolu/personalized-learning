@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which function is continuous at 0 but not differentiable there?",
+    "options": [
+      {
+        "key": "a",
+        "text": "|x|"
+      },
+      {
+        "key": "b",
+        "text": "x²"
+      },
+      {
+        "key": "c",
+        "text": "eˣ"
+      },
+      {
+        "key": "d",
+        "text": "sin x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its one-sided slopes are −1 and 1.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By the product rule, d/dx(x² sin x) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "2x sin x + x² cos x"
+      },
+      {
+        "key": "b",
+        "text": "2x cos x"
+      },
+      {
+        "key": "c",
+        "text": "x² cos x"
+      },
+      {
+        "key": "d",
+        "text": "2x sin x − x² cos x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(uv)' = u'v + uv'.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By the chain rule, d/dx(3x² + 1)⁵ equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "30x(3x² + 1)⁴"
+      },
+      {
+        "key": "b",
+        "text": "5(3x² + 1)⁴"
+      },
+      {
+        "key": "c",
+        "text": "6x(3x² + 1)⁵"
+      },
+      {
+        "key": "d",
+        "text": "15x(3x² + 1)⁴"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Multiply by the derivative of the inside, 6x.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If f'(x) < 0 on an interval, then f is",
+    "options": [
+      {
+        "key": "a",
+        "text": "decreasing there"
+      },
+      {
+        "key": "b",
+        "text": "increasing there"
+      },
+      {
+        "key": "c",
+        "text": "constant there"
+      },
+      {
+        "key": "d",
+        "text": "discontinuous there"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A negative slope means decreasing.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If f is differentiable at a, then f is continuous at a.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Differentiability implies continuity.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A function that is continuous at a point must be differentiable there.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "|x| at 0 is a counter-example.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three conditions for continuity at x = a?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(a) is defined"
+      },
+      {
+        "key": "b",
+        "text": "lim f(x) as x → a exists"
+      },
+      {
+        "key": "c",
+        "text": "The limit equals f(a)"
+      },
+      {
+        "key": "d",
+        "text": "f'(a) = 0"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "f'(a) = 0 is a stationary point condition.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a standard derivative?",
+    "options": [
+      {
+        "key": "a",
+        "text": "d/dx sin x = cos x"
+      },
+      {
+        "key": "b",
+        "text": "d/dx eˣ = eˣ"
+      },
+      {
+        "key": "c",
+        "text": "d/dx ln x = 1/x"
+      },
+      {
+        "key": "d",
+        "text": "d/dx cos x = sin x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "d/dx cos x = −sin x.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The surroundings or circumstances in which a person or animal lives are called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "environment"
+      },
+      {
+        "key": "b",
+        "text": "ecosystem"
+      },
+      {
+        "key": "c",
+        "text": "culture"
+      },
+      {
+        "key": "d",
+        "text": "earth surface"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the textbook's definition.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Culture has been defined as",
+    "options": [
+      {
+        "key": "a",
+        "text": "the total way of life of a given society or people"
+      },
+      {
+        "key": "b",
+        "text": "the surroundings in which people live"
+      },
+      {
+        "key": "c",
+        "text": "the study of language"
+      },
+      {
+        "key": "d",
+        "text": "a political system"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Man is the link between culture and the environment.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Communication is the exchange of meaningful",
+    "options": [
+      {
+        "key": "a",
+        "text": "symbols"
+      },
+      {
+        "key": "b",
+        "text": "goods"
+      },
+      {
+        "key": "c",
+        "text": "money"
+      },
+      {
+        "key": "d",
+        "text": "noise"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is its first fundamental characteristic.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "Feedback is the incentive or feeling that encourages someone to speak.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is the stimulus; feedback is the receiver's response.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 10"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of noise in communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Psychological noise"
+      },
+      {
+        "key": "b",
+        "text": "Channel noise"
+      },
+      {
+        "key": "c",
+        "text": "Grammatical noise"
+      },
+      {
+        "key": "d",
+        "text": "Ballistic noise"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Ballistic noise is not one of the forms in the textbook.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Facial expression, eye movement and other body movements are known as",
+    "options": [
+      {
+        "key": "a",
+        "text": "kinesics"
+      },
+      {
+        "key": "b",
+        "text": "haptics"
+      },
+      {
+        "key": "c",
+        "text": "chronemics"
+      },
+      {
+        "key": "d",
+        "text": "proxemics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Haptics is touch; chronemics is the use of time.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not something the environment influences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Clothing"
+      },
+      {
+        "key": "b",
+        "text": "Food"
+      },
+      {
+        "key": "c",
+        "text": "Types of house"
+      },
+      {
+        "key": "d",
+        "text": "A person's blood group"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Blood group is biological, not cultural.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "Communication is a dynamic and continuous process.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Feedback turns the receiver into a sender.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 10"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "code": "STA 121",
+  "title": "Statistical Inference I",
+  "semester": 2,
+  "description": "An introduction to statistical inference: populations, samples and sampling methods, the sampling distributions of the mean and of proportions, point and interval estimation and sample size, the principles of hypothesis testing, tests for means, proportions and variances, and simple regression and correlation. Built from the STA 121 lectures of Dr O.E. Olubusoye, Dr O.I. Shittu and Dr A.U. Chukwu.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "population-sampling-and-sampling-methods",
+      "title": "Population, Sampling and Sampling Methods",
+      "summary": "Sampling uses a small part of a population to make statements about the whole. The lecture separates census, population and sample, gives the reasons for sampling and the errors involved, and describes random and non-random sampling methods.",
+      "subtopics": [
+        "Census, population and sample",
+        "Finite, infinite, real and hypothetical populations",
+        "Why sample: reasons and situations",
+        "Sampling and non-sampling errors",
+        "Parameters and statistics",
+        "Random and non-random sampling methods"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sampling-distribution-of-the-mean",
+      "title": "Sampling Distribution of the Mean",
+      "summary": "A statistic varies from sample to sample, and its distribution over all possible samples is its sampling distribution. The sample mean is centred on µ with standard error σ/√n, and by the central limit theorem it is close to normal for large samples.",
+      "subtopics": [
+        "Sampling distributions and all possible samples",
+        "Standard error versus standard deviation",
+        "Centre: x̄ is unbiased for µ",
+        "Spread: σ/√n and the finite correction",
+        "Shape: normal populations and the central limit theorem",
+        "Difference between two sample means"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sampling-distribution-of-proportions",
+      "title": "Sampling Distribution of Proportions",
+      "summary": "When each unit is a success or a failure, the sample proportion p̂ = x/n estimates the population proportion. Its sampling distribution has mean p and standard error √(pq/n), and it is close to normal for large samples, as is the difference of two proportions.",
+      "subtopics": [
+        "The sample proportion p̂ = x/n",
+        "Mean and standard error of p̂",
+        "Finite population correction for p̂",
+        "Normal approximation: n ≥ 30, np ≥ 5, n(1 − p) ≥ 5",
+        "Probabilities for p̂",
+        "Difference of two sample proportions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "estimation-confidence-intervals-and-sample-size",
+      "title": "Estimation, Confidence Intervals and Sample Size",
+      "summary": "Estimation gives a point estimate of a parameter and a confidence interval around it. Good estimators are unbiased, consistent and efficient. The margin-of-error formula also tells us how large a sample must be for a required precision.",
+      "subtopics": [
+        "Point and interval estimation",
+        "Properties of estimators: unbiased, consistent, efficient",
+        "Interval for µ with σ known",
+        "Interval for µ with σ unknown and the t-distribution",
+        "Interval for a proportion",
+        "Sample size for a mean and for a proportion"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "principles-of-hypothesis-testing",
+      "title": "Principles of Hypothesis Testing",
+      "summary": "A hypothesis test decides, from a sample, whether to reject a claim about a parameter. It uses a null and an alternative hypothesis, a significance level, a test statistic and a critical region, and it can make Type I or Type II errors.",
+      "subtopics": [
+        "Statistical hypotheses: null and alternative, simple and composite",
+        "Test statistic and level of significance",
+        "Acceptance and rejection regions; critical values",
+        "The steps of a test",
+        "One-tailed and two-tailed tests",
+        "Type I and Type II errors, power and the p-value"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "tests-for-means-proportions-and-variances",
+      "title": "Tests for Means, Proportions and Variances",
+      "summary": "Large samples use z tests for one mean, two means, one proportion and two proportions. Small samples with unknown σ use t tests, and a single variance is tested with the chi-square statistic.",
+      "subtopics": [
+        "z test for one mean",
+        "z test for the difference of two means",
+        "z test for one proportion",
+        "z test for two proportions with a pooled estimate",
+        "t tests for small samples",
+        "Chi-square test for one variance"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "regression-and-correlation",
+      "title": "Regression and Correlation",
+      "summary": "Regression studies how one variable depends on another and fits the least-squares line y = α + βx. Correlation measures the mutual linear association between two variables, with Pearson's r for measurements and Spearman's coefficient for ranks.",
+      "subtopics": [
+        "Scatter diagrams: linear, non-linear and no association",
+        "Regression versus correlation",
+        "The least-squares line and the regression coefficient",
+        "Interpreting the slope",
+        "Pearson's correlation coefficient r",
+        "Spearman's rank correlation and tied ranks"
+      ],
+      "lectures": []
+    }
+  ]
+}

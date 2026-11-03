@@ -1,0 +1,53 @@
+{
+  "code": "STA 122",
+  "topics": {
+    "basics-of-machine-learning": [
+      {
+        "title": "Video: 11. Introduction to Machine Learning (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=h0e2HAPTGF4",
+        "source": "links.csv"
+      }
+    ],
+    "data-for-machine-learning": [
+      {
+        "title": "Video: Machine Learning for Everybody – Full Course (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+        "source": "links.csv"
+      }
+    ],
+    "learning-categories": [
+      {
+        "title": "Video: Supervised vs Unsupervised vs Reinforcement Learning | Machine Learning Tutorial | Simplilearn (Simplilearn)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1FZ0A1QCMWc",
+        "source": "links.csv"
+      }
+    ],
+    "statistical-learning-vs-machine-learning": [
+      {
+        "title": "Video: Machine Learning vs Statistical Modeling (Cognitive Class)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jaI5aheBOi0",
+        "source": "links.csv"
+      }
+    ],
+    "linear-regression-and-its-output": [
+      {
+        "title": "Video: Video 1: Introduction to Simple Linear Regression (dataminingincae)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=owI7zxCqNY0",
+        "source": "links.csv"
+      }
+    ],
+    "classification-metrics": [
+      {
+        "title": "Video: Machine Learning Fundamentals: The Confusion Matrix (StatQuest with Josh Starmer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Kdsp6soqA7o",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "code": "CSC 222",
+  "papers": [
+    {
+      "year": "2020/2021",
+      "paper": "Digital Communication: CSC 222, 2020/2021 Examination. Answer Questions 1, 2 and any other 3; 2 hours",
+      "source": "Past Questions/CSC 222 2021.pdf"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "Digital Communication: CSC 222, 2024/2025 Session Examination. Answer Question 1 and any other 3; 2 hours",
+      "source": "CSC 222 2025.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2020/2021",
+      "number": "1A",
+      "topic": "digital-communication-abstractions",
+      "text": "Explain with the aid of a diagram the abstraction of a Physical data communication link showing the single link view (top) and the network view (bottom). (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1B",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "Using Mathematical Equation Define Kraft inequality. What is the classical pitfall to avoid with this theorem. What are instantaneously decodable, Non-singular Code and Non-Ambiguous Codes? (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1C",
+      "topic": "linear-block-codes",
+      "text": "Suppose that H, with rows (1 0 1 1 1 0 0), (0 1 1 0 1 1 0), (1 1 0 1 0 1 1) as printed (partly hidden by the fold), is a verification matrix for the binary code used between syndromes and errors stored in a memory for the general mechanism during decoding. Compute the syndrome, deduce the linear combination of correctors stored in the memory and find the minimal distance of this code. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1D",
+      "topic": "linear-block-codes",
+      "text": "What was the original message if you receive 101011001 and the code verification matrix is H with rows (1 1 0 1 0 1 0 0 0), (0 1 1 1 0 0 1 0 0), (1 0 0 1 1 0 0 1 0), (0 0 1 1 1 0 0 0 1)? (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "(A) Discuss and state the three steps procedure of constructing a Huffman's Algorithm for Optimal Binary Codes. (3 marks) (B) Using the procedure in Question 2A above to design a Huffman Code for Random Message U with Probabilities given below: p₁ = 0.4, p₂ = 0.2, p₃ = 0.2, p₄ = 0.1, p₅ = 0.1. (3 marks) (C) Deduce and Construct the Huffman Algorithm for Optimal Binary Codes in Question 2B using the given probabilities above. (6 marks) (D) State the two basic observations that can be inferred from the design and Construction in 2c above. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "convolutional-codes",
+      "text": "(A) Convolutional codes involve the computation of parity bits from message bits and their transmission, also they are linear codes. Describe the two views of the convolutional codes in implementing the encoding and decoding procedures in digital Communication. (3 marks) (B) In principle, what are the factors that determine the effectiveness of a convolutional code. What are the most obvious differences between convolutional codes and linear block codes? (4 marks) (C) Explain the concept, free distance Convolutional codes and state the importance in digital communication. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "communication-networks-and-routing",
+      "text": "The measure of performance of any communication network is the network delay, also called the network latency. (A) Discuss in detail the sources of delay in communication Network. (4 marks) (B) Explain the three phases of circuit-switched networks during transmission of information. Describe three reason why Packet switching does not provide the illusion of a dedicated link to any pair of communicating end points. (3 marks) (C) Routing is the process by which the switches construct their routing tables (Layer 3). At a high level, most routing protocols have three components: Discuss the three routing component. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "convolutional-codes",
+      "text": "Given that the state of the encoder represent the state of the shift register with the input messages M₁ M₂ M₃, output message X₁ and X₂ in sequential bit circuit of convolutional code state. (A) Design the sequential bit circuit of the convolutional code state. (4 marks) (B) Develop the output message. (3 marks) (C) Tabulate the state of the encoder. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "(A) Huffman coding is used to compactly encode the species of fish tagged by a game warden. If 50% of the fish are bass and the rest are evenly divided among 15 other species, how many bits would be used to encode the species when a bass is tagged using code tree diagram? (4 marks) (B) Consider a Huffman code over four symbols, A, B, C, and D. Which of these is a valid Huffman encoding? Give a brief explanation for your decisions. (a) A : 0, B : 11, C : 101, D : 100. (b) A : 1, B : 01, C : 00, D : 010. (c) A : 00, B : 01, C : 110, D : 111. (4 marks) (C) Huffman is given four symbols, A, B, C, and D. The probability of symbol A occurring is pA, symbol B is pB, symbol C is pC, and symbol D is pD, with pA ≥ pB ≥ pC ≥ pD. Write down a single condition (equation or inequality) that is both necessary and sufficient to guarantee that, when Huffman constructs the code bearing his name over these symbols, each symbol will be encoded using exactly 2 bits. Explain your answer."
+    },
+    {
+      "year": "2024/2025",
+      "number": "1A",
+      "topic": "hamming-codes",
+      "text": "State the original Hamming code (7,4) binary linear code with the generator and parity-check matrices. Draw the Venn diagram of the (7,4) Hamming code with a message (s) of four bits and encoded code word of seven bits. Derive the generating equation for the parity check. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1B",
+      "topic": "linear-block-codes",
+      "text": "What is the minimum distance of: C = {1000, 0001, 0010, 0100}, C = {0000, 1000, 0001, 1001}, C = {0000, 1000, 1100, 0100, 1101, 0001, 0101, 1001}, C = {00000000, 00001011, 00110000, 00111011, 11000000, 11001011, 11110000, 11111011}. What is the importance of verification matrix and syndrome? (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1C",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "Deduce and Construct the Huffman Algorithm for Optimal Binary Codes with Probabilities given below: p₁ = 0.4, p₂ = 0.2, p₃ = 0.2, p₄ = 0.1, p₅ = 0.1. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1D",
+      "topic": "digital-communication-abstractions",
+      "text": "With the aid of a diagram explain the single link view (top) and network view abstraction of a Physical data communication link. How are block codes implemented in QR Codes? What is the trade-off between the constraint length and the decoding complexity of a convolutional code. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1F",
+      "topic": "communication-networks-and-routing",
+      "text": "The fundamental functions performed by switches are to multiplex and demultiplex data frames belonging to different computer-to-computer information transfer sessions, and to determine the link(s) along which to forward any given data frame. Explain three major problems that a switch can solve in communication Network. State two reasons why Packet switching does not provide the illusion of a dedicated link to any pair of communicating end points. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1G",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "State Kraft Inequality and the mathematic condition. How is convolutional code used in mobile communication system? (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2A",
+      "topic": "source-coding-and-prefix-free-codes",
+      "text": "Give the definitions of the following: (i) Non-singular Code (ii) Prefix-free (iii) Non-ambiguous (iv) instantaneously decodable. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2B",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "Consider that the information source U, the symbols of which are U₁ = 1, U₂ = 2, U₃ = 3, and U₄ = 4, with the following probability distribution: P(U₁ = 0.125), P(U₂ = 0.3), P(U₃ = 0.125), P(U₄ = 0.125), P(U₅ = 0.2), whose code word for Uᵢ is given as follows Z₁ = 1110, Z₂ = 110, Z₃ = 10, Z₄ = 1111, Z₅ = 0. Compute the probability distribution table and code word distribution table. (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2C",
+      "topic": "kraft-inequality-and-huffman-codes",
+      "text": "Compute the expected code length in Question 2B. (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "topic": "convolutional-codes",
+      "text": "3A. Assuming that the state of the encoder represent the state of the shift register with the input messages M₁ M₂ M₃, output message x₁ and x₂ in sequential bit circuit of convolutional code state. Design the sequential bit circuit of the convolutional code state and develop the output message. (4 marks) 3B(ii). Tabulate the state of the encoder when n = 3. (2 marks) 3C(iii). Draw the trellis diagram if the received data bit sequence is 01 10 11 00 00. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "topic": "communication-networks-and-routing",
+      "text": "4(i). Write a short note on the following: Queueing delay, Transmission delay, Propagation delay and Processing delay of a communication Network. (4 marks) 4(ii). Compute the routing Table with the cost of the network topology in below (a topology of nodes A and B with links L0, L1 and L2 and link costs 19, 11, 4 and 15). (4 marks) 4(iii). How can convolutional codes be used in the implementation of Wi-Fi network. (2 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "topic": "linear-block-codes",
+      "text": "5(i). The transmission of information in circuit-switched networks usually occurs in three Phases. Mention and explain these phases. (3 marks) 5(ii). With Mathematical equation, state the transmission rate of a Linear Code, the Minimum Weight and Minimum Distance. (4 marks) 5(iii). Explain three different purposes for coding communication network. (3 marks)"
+    }
+  ]
+}

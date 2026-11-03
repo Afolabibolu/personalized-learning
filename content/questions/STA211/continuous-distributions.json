@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For X ~ U(a, b), the mean and variance are",
+    "options": [
+      {
+        "key": "a",
+        "text": "(a + b)/2 and (b − a)²/12"
+      },
+      {
+        "key": "b",
+        "text": "(b − a)/2 and (b − a)²"
+      },
+      {
+        "key": "c",
+        "text": "a + b and ab"
+      },
+      {
+        "key": "d",
+        "text": "1/(b − a) and 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The density is flat on [a, b].",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mgf of a gamma distribution is (1 − βt)^(−α). Its mean is",
+    "options": [
+      {
+        "key": "a",
+        "text": "αβ"
+      },
+      {
+        "key": "b",
+        "text": "α/β"
+      },
+      {
+        "key": "c",
+        "text": "αβ²"
+      },
+      {
+        "key": "d",
+        "text": "β/α"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "M'(0) = αβ.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A chi-square distribution with ν degrees of freedom has mean",
+    "options": [
+      {
+        "key": "a",
+        "text": "ν"
+      },
+      {
+        "key": "b",
+        "text": "2ν"
+      },
+      {
+        "key": "c",
+        "text": "ν/2"
+      },
+      {
+        "key": "d",
+        "text": "ν²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its variance is 2ν.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If an error is uniform on (−0.015, 0.015), P(it exceeds 0.005 in size) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "2/3"
+      },
+      {
+        "key": "b",
+        "text": "1/3"
+      },
+      {
+        "key": "c",
+        "text": "1/6"
+      },
+      {
+        "key": "d",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The length outside (−0.005, 0.005) is 0.02 of 0.03.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The exponential distribution is the gamma distribution with α = 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "With β = 1/θ.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If Z is standard normal, Z² has a chi-square distribution with 2 degrees of freedom.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Z² has 1 degree of freedom.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are continuous distributions in STA 211?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Uniform"
+      },
+      {
+        "key": "b",
+        "text": "Normal"
+      },
+      {
+        "key": "c",
+        "text": "Gamma"
+      },
+      {
+        "key": "d",
+        "text": "Hypergeometric"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The hypergeometric is discrete.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property of the normal distribution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bell-shaped"
+      },
+      {
+        "key": "b",
+        "text": "Symmetric about μ"
+      },
+      {
+        "key": "c",
+        "text": "Standardised by Z = (X − μ)/σ"
+      },
+      {
+        "key": "d",
+        "text": "Defined only for positive x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The normal is defined for all real x.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  }
+]

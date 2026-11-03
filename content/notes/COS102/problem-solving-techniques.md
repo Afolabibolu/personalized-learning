@@ -1,35 +1,32 @@
-# Problem-Solving Techniques
+# Identifying Problems: Techniques, Routine and Non-Routine
 
-The CCMAS outline for COS 102 lists techniques for finding a solution. None works for every problem; good problem solvers combine them.
+## Identifying a problem
 
-## Simplifying the problem
+1. **Observation and awareness**: notice inefficiencies, for example slow campus Wi-Fi.
+2. **Problem definition**: state the problem clearly. Not "the system doesn't work" but "the login feature rejects valid credentials intermittently".
+3. **Understanding the context**: the environment, stakeholders and constraints. An app for rural farmers must work offline.
+4. **Objectives**: what success looks like, such as cutting the crash rate from 20% to under 2%.
+5. **Checking assumptions**: unchecked assumptions frame the problem falsely.
 
-- **Abstraction:** model the problem with only the details that matter and ignore the rest. A route-finding program needs roads and distances, not the colour of the buildings.
-- **Analogy:** use the solution to a similar problem you have already solved. Finding the oldest person in a list is the same problem as finding the largest number.
-- **Reduction:** transform the problem into one that already has a known solution, for example turning "is this name in the list?" into a search problem.
-- **Divide and conquer:** break a large problem into smaller subproblems, solve each, and combine the results.
+Problem identification is not guesswork; it combines structured techniques. **Focus on root causes, not symptoms.**
 
-## Generating ideas
+## Observational techniques
 
-- **Brainstorming:** a group lists as many ideas as possible without judging them, then evaluates them afterwards.
-- **Lateral thinking:** approach the problem from an unexpected angle instead of step-by-step logic, questioning assumptions about it. (The outline lists this as "literal thinking".)
-- **Method of focal objects:** combine features of unrelated, randomly chosen objects with the object being improved, to produce new ideas.
-- **Morphological analysis:** list the problem's main attributes and the options for each, then examine combinations systematically. A phone could be studied by screen, battery and material.
+- **Five Whys**: keep asking "why?" until an **actionable root cause** appears. It may take 3 or 7 whys; stop too early and you fix a symptom. *A student is late → missed the bus → left late → overslept → alarm didn't ring → **the alarm wasn't set**.*
+- **Gemba walk** (Japanese for "real place"): go where the problem happens, observe, talk to the users and take notes. It gives real-world insight and prevents "desk assumptions", but it is time-consuming. *An app reported as "slow" turned out to be slow mainly on poor connections, because of weak offline support.*
 
-## Testing and searching
+## Analytical techniques
 
-- **Trial and error:** try possible solutions one after another until one works. It suits problems with few options, but it is slow when there are many.
-- **Hypothesis testing:** propose a likely explanation or solution, then test it and keep or reject it based on the result. This is common in debugging.
-- **Means-end analysis:** compare the current state with the goal, pick an action that reduces the difference, and repeat. Large goals are split into subgoals.
-- **Research:** study existing ideas, documentation and solutions before inventing your own.
+- **SWOT analysis**: **Strengths** and **Weaknesses** are internal; **Opportunities** and **Threats** are external. For a business losing customers, the strength is loyal customers, the weakness an outdated website, the opportunity growth in online sales and the threat faster rivals.
+- **Fishbone (Ishikawa) diagram**: write the problem at the fish's head, draw the main bones as categories of cause, and drill down. In computing the categories are **People, Process, Technology and Environment**. *A slow computer might come from too many programs open (people), no maintenance policy (process), insufficient RAM (technology), or overheating and dust (environment).*
 
-## Finding causes and proving solutions
+## Collaborative technique
 
-- **Root cause analysis:** look past the symptoms to the underlying cause, for example by asking "why?" repeatedly until the real cause appears. Fixing only a symptom lets the problem return.
-- **Proof:** show by logical argument that a solution is correct for every case, not only for the cases tested.
+**Brainstorming** is a group activity to **list problems, not solutions**. Gather a diverse team, ask focused questions, capture every idea without judgement and then organise them. Brainstorming is **divergent** (explore widely); the fishbone is **convergent** (organise and analyse). Use them together.
 
-## Choosing a technique
+## Routine and non-routine problems
 
-Routine problems usually need only analogy or a known method. Non-routine problems often start with brainstorming or lateral thinking to generate options, use abstraction and divide and conquer to make them manageable, and finish with testing or proof to confirm the answer.
+- **Routine** problems are common, repetitive and predictable, with known solutions: resetting a password, clearing the browser cache, restarting a frozen computer. They are solved with standard procedures, checklists and **algorithms**.
+- **Non-routine** problems are unusual, complex or unpredictable, and need creativity, investigation or experiment: debugging an unknown error, optimising a site for high traffic, designing a new feature. They are solved with analytical and collaborative methods, **heuristics** and trial and error.
 
-Source: general knowledge, following the NUC CCMAS outline for COS 102 (the course folder's textbook does not cover these techniques)
+Source: COS 102 Lecture 6 (identification of problems)

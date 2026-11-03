@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If the earth's radius became ten times larger while its mass doubled, your weight would",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decrease by a factor of 50"
+      },
+      {
+        "key": "b",
+        "text": "Increase by a factor of 2"
+      },
+      {
+        "key": "c",
+        "text": "Decrease by a factor of 100"
+      },
+      {
+        "key": "d",
+        "text": "Increase by a factor of 100"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "W ∝ M/R² = 2/100.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A man weighs 875 N on earth and 2310 N on Jupiter. g on Jupiter is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "25.9 m/s²"
+      },
+      {
+        "key": "b",
+        "text": "9.8 m/s²"
+      },
+      {
+        "key": "c",
+        "text": "98 m/s²"
+      },
+      {
+        "key": "d",
+        "text": "2.59 m/s²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "9.8 × 2310/875.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Three equal masses M at the corners of an equilateral triangle of side R. The net force on each is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.7 GM²/R²"
+      },
+      {
+        "key": "b",
+        "text": "0.9 GM²/R²"
+      },
+      {
+        "key": "c",
+        "text": "1.5 GM²/R²"
+      },
+      {
+        "key": "d",
+        "text": "3.0 GM²/R²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 cos 30° = √3.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A satellite is 'parked' when its period equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "The earth's rotation period about its axis"
+      },
+      {
+        "key": "b",
+        "text": "The earth's period around the sun"
+      },
+      {
+        "key": "c",
+        "text": "Zero"
+      },
+      {
+        "key": "d",
+        "text": "The moon's period"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It then stays over one point on the earth.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "g at a planet's surface equals GM/R².",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "From mg = GMm/R².",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "true_false",
+    "stem": "The gravitational force between two masses is inversely proportional to the distance between them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is inversely proportional to the square of the distance.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Kepler's laws?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Planets move in ellipses with the sun at a focus"
+      },
+      {
+        "key": "b",
+        "text": "Equal areas are swept in equal times"
+      },
+      {
+        "key": "c",
+        "text": "T² ∝ r³"
+      },
+      {
+        "key": "d",
+        "text": "Orbital speed is the same for all planets"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Orbital speed decreases with distance.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which formula is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "G = 6.67 × 10⁻¹¹ N m² kg⁻²"
+      },
+      {
+        "key": "b",
+        "text": "g = GM/R²"
+      },
+      {
+        "key": "c",
+        "text": "v_orbit = √(GM/r)"
+      },
+      {
+        "key": "d",
+        "text": "Y = stress/strain"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Young's modulus belongs to elasticity.",
+    "source": "General knowledge of PHY 101"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "code": "INS 204",
+  "books": {
+    "essad": {
+      "title": "Essentials of Systems Analysis and Design",
+      "authors": "Joseph S. Valacich, Joey F. George and Jeffrey A. Hoffer",
+      "edition": "5th edition",
+      "publisher": "Pearson",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "systems-concepts-and-the-systems-analyst": [
+      {
+        "book": "essad",
+        "read": "Chapter 1, The Systems Development Environment",
+        "why": "Systems concepts and the analyst's role."
+      }
+    ],
+    "sdlc-phases-and-models": [
+      {
+        "book": "essad",
+        "read": "Chapters 1 and 10 (The Systems Development Environment; Systems Implementation and Operation)",
+        "why": "The SDLC, its models and changeover."
+      }
+    ],
+    "requirements-gathering-and-feasibility": [
+      {
+        "book": "essad",
+        "read": "Chapters 4 and 5 (Systems Planning and Selection; Determining System Requirements)",
+        "why": "Feasibility and fact-finding."
+      }
+    ],
+    "structured-analysis-and-data-flow-diagrams": [
+      {
+        "book": "essad",
+        "read": "Chapter 6, Structuring System Requirements: Process Modeling",
+        "why": "Data flow diagrams."
+      }
+    ],
+    "database-and-file-design": [
+      {
+        "book": "essad",
+        "read": "Chapters 7 and 9 (Conceptual Data Modeling; Designing Databases)",
+        "why": "ERDs, keys and normalisation."
+      }
+    ],
+    "system-architecture-and-object-oriented-design": [
+      {
+        "book": "essad",
+        "read": "Chapter 2, The Sources of Software",
+        "why": "Choosing between packaged, outsourced and custom-built software."
+      }
+    ],
+    "input-output-and-user-interface-design": [
+      {
+        "book": "essad",
+        "read": "Chapter 8, Designing the Human Interface",
+        "why": "Forms, reports and interface design."
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "code": "CYB 201",
+  "books": {
+    "ciampa": {
+      "title": "CompTIA Security+ Guide to Network Security Fundamentals",
+      "authors": "Mark Ciampa",
+      "publisher": "Cengage Learning"
+    }
+  },
+  "topics": {
+    "cybersecurity-concepts-and-the-cia-triad": [
+      {
+        "book": "ciampa",
+        "read": "The introductory chapter on information security",
+        "why": "A standard textbook covering the CIA triad and basic concepts."
+      }
+    ],
+    "authentication-and-access-control": [
+      {
+        "book": "ciampa",
+        "read": "The chapters on authentication and access management",
+        "why": "Access control models and MFA."
+      }
+    ],
+    "security-policies-and-best-practices": [
+      {
+        "book": "ciampa",
+        "read": "The chapters on security policies and administration",
+        "why": "Policy types and best practices."
+      }
+    ],
+    "security-testing-and-incident-response": [
+      {
+        "book": "ciampa",
+        "read": "The chapters on vulnerability assessment and incident response",
+        "why": "Penetration testing and incident handling."
+      }
+    ],
+    "vulnerabilities-and-malware": [
+      {
+        "book": "ciampa",
+        "read": "The chapters on malware and application attacks",
+        "why": "Buffer overflows, injection and malware types."
+      }
+    ],
+    "risk-management-and-impact": [
+      {
+        "book": "ciampa",
+        "read": "The chapters on risk management and business continuity",
+        "why": "Risk assessment, mitigation and disaster recovery."
+      }
+    ]
+  }
+}

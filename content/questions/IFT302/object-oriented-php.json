@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword refers to the current object inside a PHP class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "$this"
+      },
+      {
+        "key": "b",
+        "text": "self"
+      },
+      {
+        "key": "c",
+        "text": "parent"
+      },
+      {
+        "key": "d",
+        "text": "new"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example $this->name.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method runs automatically when a PHP object is created?",
+    "options": [
+      {
+        "key": "a",
+        "text": "__construct()"
+      },
+      {
+        "key": "b",
+        "text": "__destruct()"
+      },
+      {
+        "key": "c",
+        "text": "__toString()"
+      },
+      {
+        "key": "d",
+        "text": "init()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has two leading underscores.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which access modifier allows access only within the class where the member is defined?",
+    "options": [
+      {
+        "key": "a",
+        "text": "private"
+      },
+      {
+        "key": "b",
+        "text": "protected"
+      },
+      {
+        "key": "c",
+        "text": "public"
+      },
+      {
+        "key": "d",
+        "text": "final"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Protected also allows child classes.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which keyword creates a child class from a parent class in PHP?",
+    "options": [
+      {
+        "key": "a",
+        "text": "extends"
+      },
+      {
+        "key": "b",
+        "text": "implements"
+      },
+      {
+        "key": "c",
+        "text": "inherits"
+      },
+      {
+        "key": "d",
+        "text": "instanceof"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example class Strawberry extends Fruit.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "public is the default visibility when no modifier is specified.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Public members are accessible everywhere.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "An abstract class can be instantiated directly with new.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Abstract classes cannot be instantiated.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which can the final keyword prevent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A class being inherited"
+      },
+      {
+        "key": "b",
+        "text": "A method being overridden"
+      },
+      {
+        "key": "c",
+        "text": "An object being created from a normal class"
+      },
+      {
+        "key": "d",
+        "text": "A property being read"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "final applies to classes and methods.",
+    "source": "OOP in PHP.pptx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of PHP's three access modifiers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "public"
+      },
+      {
+        "key": "b",
+        "text": "protected"
+      },
+      {
+        "key": "c",
+        "text": "private"
+      },
+      {
+        "key": "d",
+        "text": "static"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "static marks class-level members.",
+    "source": "OOP in PHP.pptx"
+  }
+]

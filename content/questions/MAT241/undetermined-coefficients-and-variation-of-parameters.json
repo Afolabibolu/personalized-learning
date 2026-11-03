@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For y'' − 5y' + 6y = 50 sin 4x, which trial particular integral is used?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A cos 4x + B sin 4x"
+      },
+      {
+        "key": "b",
+        "text": "A sin 4x only"
+      },
+      {
+        "key": "c",
+        "text": "Ax sin 4x"
+      },
+      {
+        "key": "d",
+        "text": "A e^(4x)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Include both sine and cosine.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If e^x is already in the complementary function, the trial for f(x) = e^x is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ax e^x"
+      },
+      {
+        "key": "b",
+        "text": "A e^x"
+      },
+      {
+        "key": "c",
+        "text": "A e^(2x)"
+      },
+      {
+        "key": "d",
+        "text": "A"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Multiply by x.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In variation of parameters, W = y1 y2' − y2 y1' is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Wronskian"
+      },
+      {
+        "key": "b",
+        "text": "integrating factor"
+      },
+      {
+        "key": "c",
+        "text": "auxiliary equation"
+      },
+      {
+        "key": "d",
+        "text": "particular integral"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is non-zero for independent solutions.",
+    "source": "MAT 241 Lecture 5 (Variation of Parameters)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method can handle f(x) = cosec 2x?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Variation of parameters"
+      },
+      {
+        "key": "b",
+        "text": "Undetermined coefficients"
+      },
+      {
+        "key": "c",
+        "text": "Exactness test"
+      },
+      {
+        "key": "d",
+        "text": "Bernoulli substitution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Undetermined coefficients needs special forms of f.",
+    "source": "MAT 241 Lecture 5 (Variation of Parameters)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For y'' − 5y' + 6y = 50 sin 4x, the particular integral is 2 cos 4x − sin 4x.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Comparing coefficients gives A = 2, B = −1.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The method of undetermined coefficients works for any right-hand side f(x).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It needs polynomials, exponentials, sines and cosines.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods for finding a particular integral in Chapter 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Undetermined coefficients"
+      },
+      {
+        "key": "b",
+        "text": "Variation of parameters"
+      },
+      {
+        "key": "c",
+        "text": "The operator D method"
+      },
+      {
+        "key": "d",
+        "text": "The test for exactness"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Exactness is for first-order equations.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a trial form for undetermined coefficients?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A polynomial for a polynomial f"
+      },
+      {
+        "key": "b",
+        "text": "A e^(ax) for e^(ax)"
+      },
+      {
+        "key": "c",
+        "text": "A cos bx + B sin bx for sin bx"
+      },
+      {
+        "key": "d",
+        "text": "ln x for any f"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Logarithms are not standard trial forms.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  }
+]

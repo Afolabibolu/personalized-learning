@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A concave mirror (R = 20 cm) forms a virtual image 4 times the object's size. The object and image distances are",
+    "options": [
+      {
+        "key": "a",
+        "text": "7.5 cm and 30.0 cm"
+      },
+      {
+        "key": "b",
+        "text": "12.5 cm and 50.0 cm"
+      },
+      {
+        "key": "c",
+        "text": "10.5 cm and 40.2 cm"
+      },
+      {
+        "key": "d",
+        "text": "Indeterminate"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f = 10 cm; v = −4u.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Rotating a plane mirror through θ turns the reflected ray through",
+    "options": [
+      {
+        "key": "a",
+        "text": "2θ"
+      },
+      {
+        "key": "b",
+        "text": "θ"
+      },
+      {
+        "key": "c",
+        "text": "θ/2"
+      },
+      {
+        "key": "d",
+        "text": "4θ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both incidence and reflection angles change by θ.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The focal length of a spherical mirror with radius of curvature R is",
+    "options": [
+      {
+        "key": "a",
+        "text": "R/2"
+      },
+      {
+        "key": "b",
+        "text": "R"
+      },
+      {
+        "key": "c",
+        "text": "2R"
+      },
+      {
+        "key": "d",
+        "text": "R/4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f = R/2.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A convex mirror always forms an image that is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Virtual, upright and diminished"
+      },
+      {
+        "key": "b",
+        "text": "Real and inverted"
+      },
+      {
+        "key": "c",
+        "text": "Virtual and magnified"
+      },
+      {
+        "key": "d",
+        "text": "Real and the same size"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Used as a driving mirror.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "The image in a plane mirror is as far behind the mirror as the object is in front.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is virtual and the same size.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "A concave mirror can never form a virtual image.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It does so when the object is inside the focus.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of a plane-mirror image?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Virtual"
+      },
+      {
+        "key": "b",
+        "text": "Upright"
+      },
+      {
+        "key": "c",
+        "text": "Laterally inverted"
+      },
+      {
+        "key": "d",
+        "text": "Magnified"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It is the same size as the object.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which device is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Concave mirror"
+      },
+      {
+        "key": "b",
+        "text": "Convex mirror"
+      },
+      {
+        "key": "c",
+        "text": "Plane mirror"
+      },
+      {
+        "key": "d",
+        "text": "Prism"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A prism refracts light; the others reflect.",
+    "source": "General knowledge of PHY 104"
+  }
+]

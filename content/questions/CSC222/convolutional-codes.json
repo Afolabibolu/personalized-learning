@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "Convolutional codes transmit only parity bits, not the message bits themselves.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So they are non-systematic codes.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The width of the sliding window used to compute the parity bits is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "constraint length K"
+      },
+      {
+        "key": "b",
+        "text": "code rate"
+      },
+      {
+        "key": "c",
+        "text": "free distance"
+      },
+      {
+        "key": "d",
+        "text": "syndrome"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For p₀[n] = x[n] + x[n−1] + x[n−2], K = 3.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many states does a convolutional encoder with K = 3 have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2^(K−1) = 4: 00, 01, 10, 11.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Convolutional codes are usually decoded with",
+    "options": [
+      {
+        "key": "a",
+        "text": "the Viterbi algorithm"
+      },
+      {
+        "key": "b",
+        "text": "Huffman's algorithm"
+      },
+      {
+        "key": "c",
+        "text": "the Kraft inequality"
+      },
+      {
+        "key": "d",
+        "text": "quicksort"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It works on the trellis.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Where are convolutional codes and Viterbi decoding used?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Space probes such as Voyager"
+      },
+      {
+        "key": "b",
+        "text": "Most mobile phones"
+      },
+      {
+        "key": "c",
+        "text": "Digital video broadcasting"
+      },
+      {
+        "key": "d",
+        "text": "Punch-card readers of the 1940s"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Hamming's punch cards predate them.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a way of describing a convolutional encoder?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Shift register"
+      },
+      {
+        "key": "b",
+        "text": "State machine"
+      },
+      {
+        "key": "c",
+        "text": "Trellis"
+      },
+      {
+        "key": "d",
+        "text": "Venn diagram of three circles"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The Venn diagram describes the Hamming code.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Convolutional codes act on fixed-size blocks of message bits, like linear block codes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They act on bits streaming into the encoder.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A rate-1/2 convolutional code sends",
+    "options": [
+      {
+        "key": "a",
+        "text": "two parity bits per message bit"
+      },
+      {
+        "key": "b",
+        "text": "one parity bit per two message bits"
+      },
+      {
+        "key": "c",
+        "text": "no parity bits"
+      },
+      {
+        "key": "d",
+        "text": "the message twice"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A 1/r code sends r parity bits per message bit.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), slides 6"
+  }
+]

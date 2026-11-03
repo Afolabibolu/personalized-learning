@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A fair coin is tossed five times. P(exactly three heads) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.3125"
+      },
+      {
+        "key": "b",
+        "text": "0.5"
+      },
+      {
+        "key": "c",
+        "text": "0.15625"
+      },
+      {
+        "key": "d",
+        "text": "0.6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5C3/32 = 10/32.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For 100 guessed questions with 4 options each, the mean and standard deviation of the number correct are",
+    "options": [
+      {
+        "key": "a",
+        "text": "25 and 4.33"
+      },
+      {
+        "key": "b",
+        "text": "25 and 18.75"
+      },
+      {
+        "key": "c",
+        "text": "50 and 5"
+      },
+      {
+        "key": "d",
+        "text": "4.33 and 25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "np = 25 and √(npq) = √18.75.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If on average 3 people a year are killed by lightning, P(exactly one this year) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.15"
+      },
+      {
+        "key": "b",
+        "text": "0.05"
+      },
+      {
+        "key": "c",
+        "text": "0.33"
+      },
+      {
+        "key": "d",
+        "text": "0.22"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "3e⁻³ ≈ 0.149.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For n = 100,000 and p = 0.00002, the Poisson approximation uses λ =",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "0.2"
+      },
+      {
+        "key": "c",
+        "text": "20"
+      },
+      {
+        "key": "d",
+        "text": "0.00002"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "λ = np.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a Poisson distribution, the mean equals the variance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Both equal λ.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a binomial experiment the probability of success may change from trial to trial.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "p must stay constant.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a binomial experiment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A fixed number of identical trials"
+      },
+      {
+        "key": "b",
+        "text": "Two possible outcomes on each trial"
+      },
+      {
+        "key": "c",
+        "text": "Independent trials with constant p"
+      },
+      {
+        "key": "d",
+        "text": "Selections without replacement from a small population"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Sampling without replacement leads to the hypergeometric.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which distribution is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bernoulli"
+      },
+      {
+        "key": "b",
+        "text": "Binomial"
+      },
+      {
+        "key": "c",
+        "text": "Poisson"
+      },
+      {
+        "key": "d",
+        "text": "Normal"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The normal is continuous; the others are discrete.",
+    "source": "STA 115 Lecture 5: Discrete Univariate Distributions: Bernoulli, Binomial and Poisson (Shittu, 2023; Dr A.U. Chukwu, 2018)"
+  }
+]

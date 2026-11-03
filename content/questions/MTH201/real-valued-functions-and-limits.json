@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the domain of f(x) = √(x − 2)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x ≥ 2"
+      },
+      {
+        "key": "b",
+        "text": "x > 2"
+      },
+      {
+        "key": "c",
+        "text": "x ≤ 2"
+      },
+      {
+        "key": "d",
+        "text": "All real x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The radicand must be non-negative.",
+    "source": "201 slides (real-valued functions)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = x² (x < 2) and 3x − 2 (x ≥ 2), what is lim f(x) as x → 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "It does not exist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both one-sided limits are 4.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is lim as x → 3 of (x² − 9)/(x − 3)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "It does not exist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It simplifies to x + 3.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The set of outputs actually taken by a function is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "range"
+      },
+      {
+        "key": "b",
+        "text": "domain"
+      },
+      {
+        "key": "c",
+        "text": "codomain"
+      },
+      {
+        "key": "d",
+        "text": "graph"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The codomain may be larger.",
+    "source": "201 slides (real-valued functions)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A limit exists at a point only if the left- and right-hand limits there are equal.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Both must exist and agree.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "true_false",
+    "stem": "lim as x → 0 of |x|/x equals 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The left limit is −1, so the limit does not exist.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which types of function are listed in the MTH 201 outline?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Trigonometric"
+      },
+      {
+        "key": "b",
+        "text": "Logarithmic"
+      },
+      {
+        "key": "c",
+        "text": "Modulus"
+      },
+      {
+        "key": "d",
+        "text": "Boolean"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Algebraic and exponential are the others.",
+    "source": "MTH 201 Course Outline (2025/2026)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a restriction used to find a domain?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Square roots of negatives"
+      },
+      {
+        "key": "b",
+        "text": "Division by zero"
+      },
+      {
+        "key": "c",
+        "text": "Logarithms of non-positive numbers"
+      },
+      {
+        "key": "d",
+        "text": "Multiplying by zero"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Multiplying by zero is always defined.",
+    "source": "201 slides (real-valued functions)"
+  }
+]

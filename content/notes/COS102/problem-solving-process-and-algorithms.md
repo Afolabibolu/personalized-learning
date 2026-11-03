@@ -1,35 +1,43 @@
-# The Problem-Solving Process and Algorithms
+# Algorithms and Heuristics
 
-## Polya's How to Solve It
+## Solving computing problems
 
-In 1945 George Polya described the problem-solving process in *How to Solve It*. Written for mathematics, it applies to all problems if we read "unknown" as problem, "data" as information and "theorem" as solution:
+A **computing problem** is a task a computer can solve, such as sorting, finding routes or scheduling. It goes through these stages:
 
-1. **Understand the problem.** What is the unknown? What are the data? What is the condition?
-2. **Devise a plan.** Find the connection between the data and the unknown. Have you seen it before? Do you know a related problem?
-3. **Carry out the plan,** checking each step.
-4. **Look back.** Examine the solution. Can you check the result? Can you use the method for another problem?
-
-The second step, finding the connection between the information and the solution, is the heart of problem solving. Polya's list suggests strategies: **ask questions** (what do I know, what does the solution look like, what special cases exist, how will I recognise the solution?), **look for familiar things** (finding the highest and lowest temperatures is the same problem as finding the highest and lowest grades), and **divide and conquer** (break a large problem into smaller ones that can be solved individually).
+- **problem definition**;
+- **analysis** of inputs, outputs, constraints and relationships;
+- **design** of a step-by-step plan;
+- **implementation** in code;
+- **testing and debugging**;
+- **evaluation** of efficiency and effectiveness.
 
 ## Algorithms
 
-The plan in step two is, in computing, an **algorithm**: unambiguous instructions for solving a problem or subproblem in a finite amount of time using a finite amount of data. A good algorithm is commonly described as having inputs and outputs, steps that are definite (unambiguous) and effective (can actually be done), and finiteness (it ends).
+An **algorithm** is a **finite set of step-by-step instructions** that solves a problem and produces output after a finite number of steps. A good algorithm has:
 
-A **heuristic** is a rule of thumb that usually finds a good answer quickly but does not guarantee the best or even a correct one, for example "always visit the nearest unvisited city next". Heuristics are used when an exact algorithm is unknown or too slow.
+- **finiteness**: it terminates;
+- **definiteness**: each step is precise and unambiguous;
+- **input**: zero or more well-defined inputs;
+- **output**: at least one;
+- **effectiveness**: each step is simple enough to do exactly.
 
-## The computer problem-solving process
+It must be repeatable and predictable, and executable by different "computers", people or machines. One algorithm can be written in several ways, and several algorithms may solve the same problem. It is represented as **pseudocode** or a **flowchart**.
 
-The computer problem-solving process has four phases:
+## Heuristics
 
-- **Analysis and specification:** understand the problem and produce a clear problem statement.
-- **Algorithm development:** develop a logical sequence of steps, then test it by following the steps.
-- **Implementation:** translate the algorithm into a programming language, run it and correct it.
-- **Maintenance:** use the program and modify it for new requirements or errors.
+A **heuristic** is a **rule of thumb or shortcut**: often good enough, but not guaranteed. Choosing the restaurant with the most cars outside usually works, but not always. Heuristics:
 
-An error found in one phase can send you back to an earlier one.
+- come from experience and intuition;
+- suit complex or ill-defined problems;
+- give approximate answers;
+- cut computation time or the search space.
 
-## Top-down design
+The methods:
 
-The strategy that parallels Polya's outline is **top-down design**: analyse the problem, list the main tasks (the main module), write the remaining modules with successive refinement until each step is concrete, then re-sequence and revise. Algorithms must be tested before they are coded, because problems found early are cheaper to fix.
+- **Greedy approach**: take the best immediate option at each step, hoping local choices give a global optimum. To buy as many snacks as possible with ₦1000, keep picking the cheapest: Sweet ₦100, Biscuit ₦200, Bread ₦300, Cake ₦400. That is **4 snacks**, with no money left for Juice. For a 6 kg bag with fractions allowed, take the highest value per kilogram first: Bronze (3.5 per kg), Silver (3), then 1 kg of Gold. That gives a **total value of 18**.
+- **Trial and error**: try options and use failures as feedback, "keep what works". Examples are adjusting a jollof rice recipe, or restoring a lost Internet connection by checking the signal, data, bundle, airplane mode and so on.
+- **Rule-based systems**: decisions from predefined **IF–THEN** rules drawn from human expertise, as in expert systems. IF temperature > 37.5°C THEN show "You may have a fever"; IF score ≥ 70 THEN grade "A".
+- **Means–ends analysis**: compare the current state with the goal and take actions that **reduce the gap**, for example moving from a 45% average to the 60% goal by attending classes and practising. (One slide's list wrongly describes it as applying expert knowledge; that describes rule-based systems.)
+- **Analogy-based reasoning**: solve a new problem like a similar solved one, such as learning Google Docs after Word, or building an e-learning app by studying existing ones.
 
-Source: Computer Science Illuminated, 7th edition (2020), Chapter 7.1; algorithm properties and heuristics from general knowledge, following the NUC CCMAS outline for COS 102
+Source: COS 102 Lecture 7 (algorithms and heuristics)

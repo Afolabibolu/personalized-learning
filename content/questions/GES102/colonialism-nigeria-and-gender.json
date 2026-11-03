@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The name 'Nigeria' was suggested in 1897 by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Flora Shaw"
+      },
+      {
+        "key": "b",
+        "text": "Lord Lugard"
+      },
+      {
+        "key": "c",
+        "text": "Walter Egerton"
+      },
+      {
+        "key": "d",
+        "text": "Hugh Clifford"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "She later married Frederick Lugard.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Northern and Southern Protectorates were amalgamated in 1914.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Lagos had been annexed in 1861.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who merged the Lagos Colony and Protectorate with the Protectorate of Southern Nigeria in 1906?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Walter Egerton"
+      },
+      {
+        "key": "b",
+        "text": "Lord Lugard"
+      },
+      {
+        "key": "c",
+        "text": "Flora Shaw"
+      },
+      {
+        "key": "d",
+        "text": "Joseph Bourdillon"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The northern and southern protectorates were amalgamated in 1914.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 11"
+  },
+  {
+    "format": "true_false",
+    "stem": "Uthman Dan Fodio declared his jihad in 1804.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It created a theocratic state across Hausaland.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Gender is best described as",
+    "options": [
+      {
+        "key": "a",
+        "text": "a social construct that apportions roles to individuals"
+      },
+      {
+        "key": "b",
+        "text": "a person's physiological sex"
+      },
+      {
+        "key": "c",
+        "text": "a biological role that cannot change"
+      },
+      {
+        "key": "d",
+        "text": "a type of political system"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sex is the physiological aspect.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 12"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are female sex roles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Child bearing"
+      },
+      {
+        "key": "b",
+        "text": "Lactation"
+      },
+      {
+        "key": "c",
+        "text": "Gestation"
+      },
+      {
+        "key": "d",
+        "text": "Cooking"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Cooking is a gender role, which can be exchanged.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 12"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an agent of gender socialisation named in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Family"
+      },
+      {
+        "key": "b",
+        "text": "School"
+      },
+      {
+        "key": "c",
+        "text": "Peer group"
+      },
+      {
+        "key": "d",
+        "text": "The Nilometer"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The Nilometer measured the Nile's rise and fall.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 12"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which type of feminism brought class analysis to feminism?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Marxist"
+      },
+      {
+        "key": "b",
+        "text": "Liberal"
+      },
+      {
+        "key": "c",
+        "text": "Radical"
+      },
+      {
+        "key": "d",
+        "text": "Socialist"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It links women's position to class.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 12"
+  }
+]

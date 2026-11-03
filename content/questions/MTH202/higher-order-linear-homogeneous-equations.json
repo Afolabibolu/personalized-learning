@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the general solution of y'' − y' − 6y = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "c1 e^(3x) + c2 e^(−2x)"
+      },
+      {
+        "key": "b",
+        "text": "c1 e^(−3x) + c2 e^(2x)"
+      },
+      {
+        "key": "c",
+        "text": "(c1 + c2 x)e^(3x)"
+      },
+      {
+        "key": "d",
+        "text": "A cos 6x + B sin 6x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m² − m − 6 = (m − 3)(m + 2).",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the auxiliary equation has a repeated root m, the solution is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(c1 + c2 x)e^(mx)"
+      },
+      {
+        "key": "b",
+        "text": "c1 e^(mx) + c2 e^(mx)"
+      },
+      {
+        "key": "c",
+        "text": "c1 cos mx + c2 sin mx"
+      },
+      {
+        "key": "d",
+        "text": "c1 e^(mx) + c2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The second solution is x e^(mx).",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For complex roots a ± ib, the solution is",
+    "options": [
+      {
+        "key": "a",
+        "text": "e^(ax)(A cos bx + B sin bx)"
+      },
+      {
+        "key": "b",
+        "text": "e^(bx)(A cos ax + B sin ax)"
+      },
+      {
+        "key": "c",
+        "text": "A e^(ax) + B e^(bx)"
+      },
+      {
+        "key": "d",
+        "text": "(A + Bx)e^(ax)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The imaginary part gives the oscillation.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the general solution of y'' + 9y = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A cos 3x + B sin 3x"
+      },
+      {
+        "key": "b",
+        "text": "A e^(3x) + B e^(−3x)"
+      },
+      {
+        "key": "c",
+        "text": "(A + Bx)e^(3x)"
+      },
+      {
+        "key": "d",
+        "text": "A cos 9x + B sin 9x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m = ±3i.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The general solution of a non-homogeneous linear ODE is the complementary function plus a particular integral.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "y = y_c + y_p.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A linear combination of solutions of a linear homogeneous ODE need not be a solution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Superposition guarantees it is a solution.",
+    "source": "Tejumola, MAT 241 Ordinary Differential Equation (UI Distance Learning Centre)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three cases of roots of the auxiliary equation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Distinct real roots"
+      },
+      {
+        "key": "b",
+        "text": "Repeated roots"
+      },
+      {
+        "key": "c",
+        "text": "Complex roots"
+      },
+      {
+        "key": "d",
+        "text": "Imaginary constants"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three possible cases.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not part of the method for constant-coefficient homogeneous equations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Try y = e^(mx)"
+      },
+      {
+        "key": "b",
+        "text": "Form the auxiliary equation"
+      },
+      {
+        "key": "c",
+        "text": "Find its roots"
+      },
+      {
+        "key": "d",
+        "text": "Apply Simpson's rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Simpson's rule is numerical integration.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  }
+]

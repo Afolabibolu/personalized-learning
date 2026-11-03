@@ -1,0 +1,53 @@
+{
+  "code": "CSC 213",
+  "topics": {
+    "circuit-theory": [
+      {
+        "title": "Video: Basic Electronics For Beginners (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uXr4lXYjXuU",
+        "source": "links.csv"
+      }
+    ],
+    "semiconductors-and-transistors": [
+      {
+        "title": "Video: Electronics - Lecture 1:  The p-n junction, ideal diodes, circuit analysis with diodes (Tim Holman)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BA1iFiu3Lkk",
+        "source": "links.csv"
+      }
+    ],
+    "logic-families-and-gates": [
+      {
+        "title": "Video: Introduction to Logic Families (TutorialsPoint)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nb11AipMJd4",
+        "source": "links.csv"
+      }
+    ],
+    "combinational-logic-and-standard-forms": [
+      {
+        "title": "Video: Boolean Function Representation: SOP and POS Form | Minterms and Maxterms Explained (ALL ABOUT ELECTRONICS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YmKmS9bpMqM",
+        "source": "links.csv"
+      }
+    ],
+    "minimisation-and-standard-circuits": [
+      {
+        "title": "Video: Introduction to Karnaugh Maps - Combinational Logic Circuits, Functions, & Truth Tables (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RO5alU6PpSU",
+        "source": "links.csv"
+      }
+    ],
+    "sequential-circuits-and-codes": [
+      {
+        "title": "Video: Introduction to Sequential Circuits | Digital Electronics (ALL ABOUT ELECTRONICS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fLN1YOmuAr8",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

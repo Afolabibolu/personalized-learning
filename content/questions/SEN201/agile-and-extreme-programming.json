@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How often are new releases typically made in agile methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every two or three weeks"
+      },
+      {
+        "key": "b",
+        "text": "Once a year"
+      },
+      {
+        "key": "c",
+        "text": "Only at the end of the project"
+      },
+      {
+        "key": "d",
+        "text": "Every day without tests"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Increments are small.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are principles of agile methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Customer involvement"
+      },
+      {
+        "key": "b",
+        "text": "Embrace change"
+      },
+      {
+        "key": "c",
+        "text": "Maintain simplicity"
+      },
+      {
+        "key": "d",
+        "text": "Complete documentation before coding"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Agile minimises documentation.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Extreme Programming, requirements are expressed as",
+    "options": [
+      {
+        "key": "a",
+        "text": "user stories"
+      },
+      {
+        "key": "b",
+        "text": "formal mathematical specifications"
+      },
+      {
+        "key": "c",
+        "text": "UML class diagrams only"
+      },
+      {
+        "key": "d",
+        "text": "test reports"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Stories are broken into tasks.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "In XP, programmers work in pairs and write tests before writing the code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "These are pair programming and test-first development.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Agile methods work best with",
+    "options": [
+      {
+        "key": "a",
+        "text": "a small, co-located team"
+      },
+      {
+        "key": "b",
+        "text": "a very large distributed team"
+      },
+      {
+        "key": "c",
+        "text": "teams in many countries"
+      },
+      {
+        "key": "d",
+        "text": "no customer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Informal communication needs closeness.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "A plan-driven approach is right for safety-critical control systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A complete analysis of the system is essential.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the principles of agile methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "People not process"
+      },
+      {
+        "key": "b",
+        "text": "Incremental delivery"
+      },
+      {
+        "key": "c",
+        "text": "Embrace change"
+      },
+      {
+        "key": "d",
+        "text": "Freeze requirements early"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Agile expects requirements to change.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In XP, a new build is accepted only if",
+    "options": [
+      {
+        "key": "a",
+        "text": "all existing automated tests and the new tests pass"
+      },
+      {
+        "key": "b",
+        "text": "the manager approves it"
+      },
+      {
+        "key": "c",
+        "text": "it compiles"
+      },
+      {
+        "key": "d",
+        "text": "the customer signs a contract"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Regression testing guards each build.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

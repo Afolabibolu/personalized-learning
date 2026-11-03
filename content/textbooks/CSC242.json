@@ -1,0 +1,63 @@
+{
+  "code": "CSC 242",
+  "books": {
+    "epp": {
+      "title": "Discrete Mathematics with Applications",
+      "authors": "Susanna S. Epp",
+      "edition": "4th edition",
+      "publisher": "Cengage Learning",
+      "year": 2011
+    }
+  },
+  "topics": {
+    "propositional-logic-and-quantifiers": [
+      {
+        "book": "epp",
+        "read": "Chapters 2 and 3 (the logic of compound statements; the logic of quantified statements)",
+        "why": "The textbook filed with the course; covers connectives, truth tables and quantifiers."
+      }
+    ],
+    "sets-functions-and-sequences": [
+      {
+        "book": "epp",
+        "read": "Chapters 6 and 7 (set theory; functions)",
+        "why": "Sets, power sets, one-to-one and onto functions as in the exams."
+      }
+    ],
+    "algorithms-and-growth-of-functions": [
+      {
+        "book": "epp",
+        "read": "Chapter 11 (analysis of algorithm efficiency)",
+        "why": "Big-O notation and the efficiency of search algorithms."
+      }
+    ],
+    "number-theory-and-cryptography": [
+      {
+        "book": "epp",
+        "read": "Chapter 4 (elementary number theory and methods of proof)",
+        "why": "Divisibility, primes and gcd as used in the ciphers."
+      }
+    ],
+    "induction-and-recursion": [
+      {
+        "book": "epp",
+        "read": "Chapter 5 (sequences, mathematical induction and recursion)",
+        "why": "Worked induction proofs like those in the exams."
+      }
+    ],
+    "counting-and-recurrence-relations": [
+      {
+        "book": "epp",
+        "read": "Chapter 9 (counting and probability)",
+        "why": "Permutations, combinations, inclusion-exclusion and the pigeonhole principle."
+      }
+    ],
+    "relations-and-graphs": [
+      {
+        "book": "epp",
+        "read": "Chapter 8 (relations) and Section 10.1 (graphs: definitions and basic properties)",
+        "why": "The source of this topic's definitions."
+      }
+    ]
+  }
+}

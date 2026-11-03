@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which flowchart symbol represents a two-way decision?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Diamond"
+      },
+      {
+        "key": "b",
+        "text": "Rectangle"
+      },
+      {
+        "key": "c",
+        "text": "Parallelogram"
+      },
+      {
+        "key": "d",
+        "text": "Oval"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The rectangle is a process and the parallelogram input/output.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When an algorithm is written in a programming language, it becomes a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Program"
+      },
+      {
+        "key": "b",
+        "text": "Flowchart"
+      },
+      {
+        "key": "c",
+        "text": "Pseudocode"
+      },
+      {
+        "key": "d",
+        "text": "Syntax"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Implementation turns the algorithm into code.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Python, what does s = '2' + '3'; print(s) display?",
+    "options": [
+      {
+        "key": "a",
+        "text": "23"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "s"
+      },
+      {
+        "key": "d",
+        "text": "A syntax error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "+ joins strings.",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With a = 2, b = 2 and y = 1, what is (a*y)+(b**2)/(3*b*y-2) in Python 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3.0"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 + 4/4 = 3.0 (division gives a float).",
+    "source": "COS 101 / CSC 101 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "Böhm and Jacopini showed that any algorithm can be described with sequence, selection and repetition.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They published this in 1966.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a Python if ... elif chain, every branch whose condition is true is executed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Only the first true branch runs.",
+    "source": "General knowledge of COS 101"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are requirements of an algorithm in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It must have an input and an output"
+      },
+      {
+        "key": "b",
+        "text": "It must not be ambiguous"
+      },
+      {
+        "key": "c",
+        "text": "It must terminate in a finite amount of time"
+      },
+      {
+        "key": "d",
+        "text": "It must be written in Python"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It can be written as pseudocode or a flowchart.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among the steps of the software development method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Problem analysis"
+      },
+      {
+        "key": "b",
+        "text": "Implementation"
+      },
+      {
+        "key": "c",
+        "text": "Testing and verification"
+      },
+      {
+        "key": "d",
+        "text": "Abstraction of hardware"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The six steps are specification, analysis, design, implementation, testing and documentation.",
+    "source": "CSC 101 compiled by SISTER IZA.pdf (the CSC 101 slides compiled by a student)"
+  }
+]

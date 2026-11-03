@@ -1,0 +1,53 @@
+{
+  "code": "CYB 201",
+  "topics": {
+    "cybersecurity-concepts-and-the-cia-triad": [
+      {
+        "title": "Video: CIA Triad (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gx0vlRpdFnc",
+        "source": "links.csv"
+      }
+    ],
+    "authentication-and-access-control": [
+      {
+        "title": "Video: Cybersecurity Architecture: Who Are You? Identity and Access Management (IBM Technology)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5uNifnVlBy4",
+        "source": "links.csv"
+      }
+    ],
+    "security-policies-and-best-practices": [
+      {
+        "title": "Video: Introduction to Cybersecurity - Governance Risk and Compliance (University of Maryland Smith School of Business)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ev6tQbnI22Q",
+        "source": "links.csv"
+      }
+    ],
+    "security-testing-and-incident-response": [
+      {
+        "title": "Video: Incident Response - CompTIA Security+ SY0-701 - 4.8 (Professor Messer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=X2UiMLxRdhE",
+        "source": "links.csv"
+      }
+    ],
+    "vulnerabilities-and-malware": [
+      {
+        "title": "Video: An Overview of Malware - CompTIA Security+ SY0-701 - 2.4 (Professor Messer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-eZs8wjjGGE",
+        "source": "links.csv"
+      }
+    ],
+    "risk-management-and-impact": [
+      {
+        "title": "Video: Understanding Cybersecurity Risk Management (SANS Workforce Security & Risk Training)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=k36LmS_3bH0",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

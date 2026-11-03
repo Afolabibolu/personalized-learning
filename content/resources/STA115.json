@@ -1,0 +1,61 @@
+{
+  "code": "STA 115",
+  "topics": {
+    "counting-techniques": [
+      {
+        "title": "Video: Introduction to Permutations and Combinations (Tambuwal Maths Class)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gAnKvHmrJ0g",
+        "source": "links.csv"
+      }
+    ],
+    "axiomatic-and-conditional-probability": [
+      {
+        "title": "Video: L01.4 Probability Axioms (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pA83XtLeVig",
+        "source": "links.csv"
+      }
+    ],
+    "total-probability-and-bayes-rule": [
+      {
+        "title": "Video: The Law of Total Probability (Steve Brunton)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UzEPJEQF4W0",
+        "source": "links.csv"
+      }
+    ],
+    "random-variables-expectation-and-joint-distributions": [
+      {
+        "title": "Video: Random variables | Probability and Statistics | Khan Academy (Khan Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3v9w79NhsfI",
+        "source": "links.csv"
+      }
+    ],
+    "discrete-distributions": [
+      {
+        "title": "Video: Bernoulli, Binomial and Poisson Random Variables (slcmath@pc)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mOkvzPkWBTc",
+        "source": "links.csv"
+      }
+    ],
+    "normal-distribution": [
+      {
+        "title": "Video: Statistics Lecture 6.2: Introduction to the Normal Distribution and Continuous Random Variables (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=shrTfDUB9Hk",
+        "source": "links.csv"
+      }
+    ],
+    "sampling-distributions-and-estimation": [
+      {
+        "title": "Video: Statistics Lecture 6.4: Sampling Distributions Statistics.  Using Samples to Approx. Populations (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kBYt67NDToI",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

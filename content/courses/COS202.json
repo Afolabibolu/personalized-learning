@@ -1,0 +1,108 @@
+{
+  "code": "COS 202",
+  "title": "Computer Programming II",
+  "semester": 2,
+  "description": "The CCMAS second programming course: advanced object-oriented programming in Java. It reviews arrays, methods and recursion, then covers classes, objects and constructors, access and non-access modifiers, inheritance and polymorphism, abstraction, interfaces, and exceptions, collections and GUI programming. Built from Dr B. I. Ayinla's COS 202 slides; the exceptions, collections and GUI topic, which has no lecture in the folder, is written from general knowledge following the course outline and the GUI practical assignment.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "arrays-methods-and-recursion",
+      "title": "Arrays, Methods and Recursion",
+      "summary": "COS 202 begins by reviewing arrays (fixed-size, same-type collections stored contiguously, including multi-dimensional arrays), methods with parameters, return values and overloading, and recursion with a base case.",
+      "subtopics": [
+        "Primitive and non-primitive arrays",
+        "Declaring, initialising and default values",
+        "Multi-dimensional arrays",
+        "Methods, parameters and arguments",
+        "Return values and overloading",
+        "Recursion and tracing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "classes-objects-and-constructors",
+      "title": "Classes, Objects and Constructors",
+      "summary": "Object-oriented programming builds software from objects that bundle data and behaviour. A class is a blueprint; an object is an instance with state, behaviour and identity, created with new. Constructors initialise objects and can be default, parameterised, copy or private.",
+      "subtopics": [
+        "Object-oriented programming and its benefits",
+        "Classes as blueprints",
+        "Objects: state, behaviour and identity",
+        "Attributes and dot notation",
+        "Constructors and their rules",
+        "Types of constructor"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "access-and-non-access-modifiers",
+      "title": "Access and Non-Access Modifiers",
+      "summary": "Modifiers set the access level or add other features to classes, attributes, methods and constructors. Access modifiers are public, private, default and protected; non-access modifiers include final, static, abstract, transient, synchronized and volatile.",
+      "subtopics": [
+        "Access and non-access modifiers",
+        "public, private, default and protected",
+        "The final modifier",
+        "The static modifier",
+        "Modifiers for classes: final and abstract",
+        "transient, synchronized and volatile"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "inheritance-and-polymorphism",
+      "title": "Inheritance and Polymorphism",
+      "summary": "Inheritance lets a subclass acquire the fields and methods of a superclass with extends, forming an IS-A relationship. Java supports single, multilevel and hierarchical inheritance with classes, and multiple and hybrid inheritance only through interfaces. Polymorphism lets one method take many forms through overloading and overriding.",
+      "subtopics": [
+        "Inheritance, superclass, subclass and extends",
+        "Single, multilevel and hierarchical inheritance",
+        "Multiple and hybrid inheritance through interfaces",
+        "The IS-A relationship",
+        "What a subclass can do",
+        "Compile-time and runtime polymorphism"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "abstraction-and-encapsulation",
+      "title": "Abstraction and Encapsulation",
+      "summary": "Abstraction hides implementation details and shows only essential features, achieved with abstract classes (partial abstraction) and interfaces. Encapsulation wraps data and methods into a class and restricts direct access with private fields and public getters and setters.",
+      "subtopics": [
+        "What abstraction is",
+        "Abstract classes and abstract methods",
+        "Concrete and abstract methods together",
+        "Advantages and limitations of abstraction",
+        "Encapsulation with private fields",
+        "Getters and setters"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "interfaces",
+      "title": "Interfaces",
+      "summary": "An interface is a contract that specifies the behaviour a class should provide. A class implements one or more interfaces, which gives Java multiple inheritance of type and dynamic method dispatch. JDK 8 and 9 added default, static and private methods, and functional interfaces with a single abstract method.",
+      "subtopics": [
+        "The interface as a contract",
+        "implements and multiple interfaces",
+        "Interface variables",
+        "Class versus interface",
+        "Default and static methods (JDK 8)",
+        "Functional interfaces, private methods and extending interfaces"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "exceptions-collections-and-gui",
+      "title": "Exceptions, Collections and GUI Programming",
+      "summary": "The later part of the course outline covers using the Java API: exceptions and exception handling, the collections List, Stack and Queue with iterators, and event-driven GUI programming with Swing components and event listeners.",
+      "subtopics": [
+        "Exceptions and exception handling",
+        "try, catch, finally and throw",
+        "The Java API and collections",
+        "ArrayList, Stack, Queue and iterators",
+        "Event-driven programming",
+        "Swing GUI components and listeners"
+      ],
+      "lectures": []
+    }
+  ]
+}

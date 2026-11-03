@@ -1,0 +1,108 @@
+{
+  "code": "ENT 211",
+  "title": "Entrepreneurship and Innovation",
+  "semester": 1,
+  "description": "The University of Ibadan Centre for Entrepreneurship and Innovation course: the foundations and theories of entrepreneurship, the entrepreneur and the Nigerian ecosystem, creativity, innovation and intellectual property, start-up business planning, ethics and social responsibility, legal issues, and digital business and contemporary entrepreneurship. Built from the ENT 211 module slides (Modules 1 to 9 and 12) and the course outline.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "foundations-and-theories-of-entrepreneurship",
+      "title": "Foundations and Theories of Entrepreneurship",
+      "summary": "Entrepreneurship has no single accepted definition. Cantillon saw the entrepreneur as a risk-bearer, Say as a coordinator of production, Schumpeter as an innovator driving creative destruction, and Drucker as someone who searches for change and exploits it. The course covers myths, types of entrepreneurship, the entrepreneurial process and economic, sociological, psychological and management perspectives.",
+      "subtopics": [
+        "Meaning and definitions of entrepreneurship",
+        "Classical and modern theorists",
+        "Myths and misconceptions",
+        "Types of entrepreneurship",
+        "The entrepreneurial process",
+        "Perspectives and opportunity recognition"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "the-entrepreneur-and-entrepreneurship-in-nigeria",
+      "title": "The Entrepreneur and Entrepreneurship Development in Nigeria",
+      "summary": "Entrepreneurs seek opportunities, take risks, mobilise resources and drive development. Their roles, characteristics, rewards and drivers, the entrepreneurial ecosystem and its components, and the history, challenges, prospects and support institutions of entrepreneurship in Nigeria are covered.",
+      "subtopics": [
+        "Roles and functions of the entrepreneur",
+        "Characteristics, drivers and rewards",
+        "Case studies",
+        "The entrepreneurial ecosystem",
+        "History and classification of Nigerian enterprises",
+        "Challenges and prospects in Nigeria"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "creativity-innovation-and-intellectual-property",
+      "title": "Creativity, Innovation and Intellectual Property",
+      "summary": "Creativity generates new ideas, innovation turns them into practical solutions, and entrepreneurship takes them to market. The module covers the creative process, techniques and barriers, types of innovation, innovation management and intellectual property.",
+      "subtopics": [
+        "Creativity, innovation and entrepreneurship",
+        "Enhancing individual and organisational creativity",
+        "The seven-step creative process and techniques",
+        "Barriers to creativity",
+        "Types of innovation",
+        "Innovation management and intellectual property"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "start-up-business-planning",
+      "title": "Start-up Business Planning",
+      "summary": "A business plan is a roadmap and formal document of a company's objectives and how it will achieve them. Planning is an ongoing process. The module covers the plan's components and preparation, business concept development, pitches and elevator pitches, business model design and the Business Model Canvas, the lean business plan and pitch decks.",
+      "subtopics": [
+        "Business plan and business planning",
+        "Components of a business plan",
+        "Steps and key questions",
+        "Business concept development",
+        "Pitches, elevator pitches and storytelling",
+        "Business model canvas, lean plan and pitch deck"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "ethics-and-social-responsibility",
+      "title": "Ethics and Social Responsibility",
+      "summary": "Ethics studies what is right and wrong in human behaviour. Entrepreneurs face ethical issues and dilemmas, which can be resolved with utilitarian, rights, justice and virtue approaches. Social responsibility applies ethics in practice through CSR, the 3Ps of people, planet and profit, and Carroll's pyramid.",
+      "subtopics": [
+        "Meaning of ethics",
+        "Ethics in entrepreneurship",
+        "Ethical issues and dilemmas",
+        "Approaches to resolving dilemmas",
+        "Social responsibility and CSR",
+        "The 3Ps and Carroll's pyramid"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "legal-issues-in-entrepreneurship",
+      "title": "Legal Issues in Entrepreneurship",
+      "summary": "Business law governs business organisations and commercial transactions. Entrepreneurs must choose a business structure, protect intellectual property, use written contracts, follow employment, data protection, licensing and corporate governance rules, pay taxes, insure their business and understand the legal framework for start-ups in Nigeria.",
+      "subtopics": [
+        "Business law and its sources",
+        "Business structures",
+        "Intellectual property and contracts",
+        "Employment, data protection and licences",
+        "Taxation and insurance",
+        "The Nigerian Start-up Act and incentives"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "digital-business-and-contemporary-entrepreneurship",
+      "title": "Digital Business and Contemporary Entrepreneurship",
+      "summary": "Contemporary entrepreneurship uses digital platforms, global reach, networks, mentors and leadership. Digital business uses technology, data and the internet across every part of an organisation, while e-commerce is buying and selling online. Digital marketing, social media strategy and online brand building complete the module.",
+      "subtopics": [
+        "Contemporary versus traditional entrepreneurship",
+        "Networking, mentorship, role models and leadership",
+        "Digital business versus e-commerce",
+        "E-commerce models and examples",
+        "Digital marketing channels",
+        "Social media strategy and online branding"
+      ],
+      "lectures": []
+    }
+  ]
+}

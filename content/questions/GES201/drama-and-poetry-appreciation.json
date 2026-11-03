@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which genre of literature is realised through performance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Drama"
+      },
+      {
+        "key": "b",
+        "text": "Poetry"
+      },
+      {
+        "key": "c",
+        "text": "Prose"
+      },
+      {
+        "key": "d",
+        "text": "Biography"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It involves impersonation and action.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A poem that laments the dead is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an elegy"
+      },
+      {
+        "key": "b",
+        "text": "an ode"
+      },
+      {
+        "key": "c",
+        "text": "a ballad"
+      },
+      {
+        "key": "d",
+        "text": "a sonnet"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An ode praises.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who wrote the set play Riders to the Sea?",
+    "options": [
+      {
+        "key": "a",
+        "text": "J. M. Synge"
+      },
+      {
+        "key": "b",
+        "text": "Wole Soyinka"
+      },
+      {
+        "key": "c",
+        "text": "William Shakespeare"
+      },
+      {
+        "key": "d",
+        "text": "Buchi Emecheta"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Emecheta wrote Second-Class Citizen.",
+    "source": "GES 201 2025/2026 course outline and reading list"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A sonnet has how many lines?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fourteen"
+      },
+      {
+        "key": "b",
+        "text": "Ten"
+      },
+      {
+        "key": "c",
+        "text": "Twelve"
+      },
+      {
+        "key": "d",
+        "text": "Eight"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a lyric form.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "The person speaking in a poem is called the poetic persona.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is not necessarily the poet.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "A comedy usually ends with the downfall and death of its central character.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is a tragedy; comedy ends happily.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are distinctive features of poetry in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rhythm"
+      },
+      {
+        "key": "b",
+        "text": "Imagery"
+      },
+      {
+        "key": "c",
+        "text": "Language"
+      },
+      {
+        "key": "d",
+        "text": "Stage directions"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Stage directions belong to drama.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a poem on the 2025/2026 GES 201 reading list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"If We Must Die\""
+      },
+      {
+        "key": "b",
+        "text": "\"The Second Coming\""
+      },
+      {
+        "key": "c",
+        "text": "\"Africa\""
+      },
+      {
+        "key": "d",
+        "text": "\"Second-Class Citizen\""
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Second-Class Citizen is the prose set text.",
+    "source": "GES 201 2025/2026 course outline and reading list"
+  }
+]

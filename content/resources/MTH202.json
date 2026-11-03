@@ -1,0 +1,61 @@
+{
+  "code": "MTH 202",
+  "topics": {
+    "introduction-to-odes": [
+      {
+        "title": "Video: Overview of Differential Equations (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ghjOS7Q82s0",
+        "source": "links.csv"
+      }
+    ],
+    "first-order-differential-equations": [
+      {
+        "title": "Video: First order, Ordinary Differential Equations. (Math by LEO)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IFpT-Ptmkyg",
+        "source": "links.csv"
+      }
+    ],
+    "higher-order-linear-homogeneous-equations": [
+      {
+        "title": "Video: Second Order Linear Differential Equations 1: Meaning, Method of Solution, Examples and Solution. (Excellence Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=en8je14TlJw",
+        "source": "links.csv"
+      }
+    ],
+    "undetermined-coefficients-and-variation-of-parameters": [
+      {
+        "title": "Video: Variation of Parameters - Nonhomogeneous Second Order Differential Equations (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ik3YW1JGr_A",
+        "source": "links.csv"
+      }
+    ],
+    "the-operator-d-method": [
+      {
+        "title": "Video: Lecture # 29 || D-Operator Method (CASE I) || Non-Homogenous Diff. Eq.  ||Particular Solution ||ODE (Solve It)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BX_QpK1eMxY",
+        "source": "links.csv"
+      }
+    ],
+    "difference-equations": [
+      {
+        "title": "Video: First Order Difference Equations - Ordinary Differential Equations | Lecture 11 (Jason Bramburger)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f8IFM15Kv6c",
+        "source": "links.csv"
+      }
+    ],
+    "numerical-interpolation-and-integration": [
+      {
+        "title": "Video: Interpolation | Lecture 43 | Numerical Methods for Engineers (Jeffrey Chasnov)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RpxoN9-i7Jc",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which punctuation mark joins two related independent clauses without a conjunction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Semicolon"
+      },
+      {
+        "key": "b",
+        "text": "Colon"
+      },
+      {
+        "key": "c",
+        "text": "Comma"
+      },
+      {
+        "key": "d",
+        "text": "Hyphen"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example 'The rains are here; my farmer-dad is happy.'",
+    "source": "GES 201 Punctuation Marks in English slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In \"a two-day seminar\", which mark joins the words?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A hyphen"
+      },
+      {
+        "key": "b",
+        "text": "A dash"
+      },
+      {
+        "key": "c",
+        "text": "A slash"
+      },
+      {
+        "key": "d",
+        "text": "An apostrophe"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The hyphen merges two lexical items.",
+    "source": "GES 201 Punctuation Marks in English slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which mark shows possession in \"Miss Sango's fiancé\"?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The apostrophe"
+      },
+      {
+        "key": "b",
+        "text": "The colon"
+      },
+      {
+        "key": "c",
+        "text": "The comma"
+      },
+      {
+        "key": "d",
+        "text": "Quotation marks"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also shows omission in contractions.",
+    "source": "GES 201 Punctuation Marks in English slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An internal message in an organisation headed To, From, Date and Subject is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "memorandum"
+      },
+      {
+        "key": "b",
+        "text": "formal letter"
+      },
+      {
+        "key": "c",
+        "text": "book review"
+      },
+      {
+        "key": "d",
+        "text": "term paper"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has no salutation.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "The slash can show alternatives, as in \"and/or\".",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It separates letters, words or numbers.",
+    "source": "GES 201 Punctuation Marks in English slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Minutes are a summary of a book's strengths and weaknesses.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Minutes are the official record of a meeting.",
+    "source": "General knowledge of GES 201"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are uses of the full stop in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ending a sentence"
+      },
+      {
+        "key": "b",
+        "text": "Showing abbreviations"
+      },
+      {
+        "key": "c",
+        "text": "Showing omission (ellipses)"
+      },
+      {
+        "key": "d",
+        "text": "Joining two words"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The hyphen joins words.",
+    "source": "GES 201 Punctuation Marks in English slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a form of official correspondence in the course outline?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Formal letter"
+      },
+      {
+        "key": "b",
+        "text": "Memo"
+      },
+      {
+        "key": "c",
+        "text": "Minutes"
+      },
+      {
+        "key": "d",
+        "text": "Sonnet"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Reports are the fourth form.",
+    "source": "GES 201 2025/2026 course outline and reading list"
+  }
+]

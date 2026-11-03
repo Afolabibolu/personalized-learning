@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A 400 kg motorcycle accelerates at 5 m/s² against 120 N resistance. The driving force is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2120 N"
+      },
+      {
+        "key": "b",
+        "text": "2000 N"
+      },
+      {
+        "key": "c",
+        "text": "1880 N"
+      },
+      {
+        "key": "d",
+        "text": "1680 N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "F − 120 = 400 × 5.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The moment of inertia of a thin rod of mass M and length l about one end is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ml²/3"
+      },
+      {
+        "key": "b",
+        "text": "Ml²/12"
+      },
+      {
+        "key": "c",
+        "text": "Ml²"
+      },
+      {
+        "key": "d",
+        "text": "Ml²/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∫₀ˡ ρx² dx = ρl³/3.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In uniform circular motion of radius r and speed v, the acceleration is",
+    "options": [
+      {
+        "key": "a",
+        "text": "v²/r towards the centre"
+      },
+      {
+        "key": "b",
+        "text": "Zero"
+      },
+      {
+        "key": "c",
+        "text": "v/r tangentially"
+      },
+      {
+        "key": "d",
+        "text": "rω tangentially"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only the normal component remains.",
+    "source": "MAT 141 Lectures 13 and 14 (Dynamics and Statics; Circular Motion, Work and Power), scanned slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The parallel axes theorem states that",
+    "options": [
+      {
+        "key": "a",
+        "text": "I = I_G + Mh²"
+      },
+      {
+        "key": "b",
+        "text": "I = I_G − Mh²"
+      },
+      {
+        "key": "c",
+        "text": "I = Mk"
+      },
+      {
+        "key": "d",
+        "text": "I = I_G h²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "h is the distance between the parallel axes.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The velocity of B relative to A is v_B − v_A.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Differentiate r_AB = r_B − r_A.",
+    "source": "MAT 141 Lectures 13 and 14 (Dynamics and Statics; Circular Motion, Work and Power), scanned slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "The radius of gyration k satisfies k = IM.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "k² = I/M.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct for circular motion of radius r?",
+    "options": [
+      {
+        "key": "a",
+        "text": "v = rω"
+      },
+      {
+        "key": "b",
+        "text": "Normal acceleration = rω²"
+      },
+      {
+        "key": "c",
+        "text": "Tangential acceleration = r dω/dt"
+      },
+      {
+        "key": "d",
+        "text": "ω = r dθ/dt"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ω = dθ/dt.",
+    "source": "MAT 141 Lectures 13 and 14 (Dynamics and Statics; Circular Motion, Work and Power), scanned slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which idea is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Moment of inertia"
+      },
+      {
+        "key": "b",
+        "text": "Radius of gyration"
+      },
+      {
+        "key": "c",
+        "text": "Parallel axes theorem"
+      },
+      {
+        "key": "d",
+        "text": "Eccentricity"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Eccentricity belongs to conic sections.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  }
+]

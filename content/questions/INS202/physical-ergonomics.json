@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The 20-20-20 rule says that every 20 minutes you should",
+    "options": [
+      {
+        "key": "a",
+        "text": "look at something 20 feet away for 20 seconds"
+      },
+      {
+        "key": "b",
+        "text": "stand for 20 minutes"
+      },
+      {
+        "key": "c",
+        "text": "blink 20 times"
+      },
+      {
+        "key": "d",
+        "text": "type 20 words"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It reduces digital eye strain.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which standard gives principles for workspace design in Lecture 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ISO 9241-5"
+      },
+      {
+        "key": "b",
+        "text": "IEEE 802.11"
+      },
+      {
+        "key": "c",
+        "text": "WCAG 2.1"
+      },
+      {
+        "key": "d",
+        "text": "ISO 9001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Neutral posture, adjustability, clearance, sightlines and reach zones.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Carpal tunnel syndrome is a form of",
+    "options": [
+      {
+        "key": "a",
+        "text": "repetitive strain injury"
+      },
+      {
+        "key": "b",
+        "text": "digital eye strain"
+      },
+      {
+        "key": "c",
+        "text": "colour blindness"
+      },
+      {
+        "key": "d",
+        "text": "cognitive load"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It comes from cumulative repeated movement.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Placing key controls where the thumb reaches easily in one-handed use is",
+    "options": [
+      {
+        "key": "a",
+        "text": "thumb-zone design"
+      },
+      {
+        "key": "b",
+        "text": "Fitts's Law"
+      },
+      {
+        "key": "c",
+        "text": "the 90-90-90 rule"
+      },
+      {
+        "key": "d",
+        "text": "a heuristic evaluation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is standard in mobile apps.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 90-90-90 rule is a starting heuristic, not a rigid law.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Elbows, knees and hips at about 90°.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "true_false",
+    "stem": "A standing desk alone solves posture problems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Alternating positions matters most.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are ISO 9241-5 principles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Neutral posture"
+      },
+      {
+        "key": "b",
+        "text": "Adjustability"
+      },
+      {
+        "key": "c",
+        "text": "Reach zones"
+      },
+      {
+        "key": "d",
+        "text": "Maximum brightness"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Clearance and sightlines are the others.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a display factor named in Lecture 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Resolution"
+      },
+      {
+        "key": "b",
+        "text": "Refresh rate"
+      },
+      {
+        "key": "c",
+        "text": "Brightness"
+      },
+      {
+        "key": "d",
+        "text": "Keyboard travel"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Key travel is a keyboard factor.",
+    "source": "INS 202 Lecture 4 Physical Ergonomics"
+  }
+]

@@ -1,0 +1,285 @@
+{
+  "code": "PHY 101",
+  "papers": [
+    {
+      "year": "CA test",
+      "paper": "PHY 102 CA Test (set as PHY 102, this course's former code), undated; take g = 9.8 m/s² and G = 6.67 × 10⁻¹¹ N m² kg⁻²",
+      "source": "Phy 102 CA.pdf (identical to PHY 102 PQ CA Test (SlidePot.com).pdf)"
+    },
+    {
+      "year": "2019",
+      "paper": "PHY 102 examination 2019 (multiple choice; g = 9.8 m/s², radius of the earth 6.371 × 10⁶ m). Only the items not covered by a pencil in the photo are copied",
+      "source": "PHY 102 PQ PQ 2019 Past Question PQ3SP (SlidePot.com).jpg"
+    },
+    {
+      "year": "2022 first test",
+      "paper": "PHY 102 C.A. Test 2022 (first test), 20 minutes. Attempt all questions",
+      "source": "PHY_20102_20FIRST_20TEST.jpeg.pdf, also in PHY 102 C.A_070007-1.pdf (a student's worked copy; the working is not copied)"
+    },
+    {
+      "year": "Undated exam page",
+      "paper": "PHY 102 examination, one undated page (multiple choice)",
+      "source": "phy_20102_20pq_20exam_202.jpeg.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "CA test",
+      "number": "1",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "The displacement of a particle in an x-y plane is given by x = At² + B and y = Dt³ − E where t is time from rest and A, B, D and E are constants. The respective dimensions of A, B and D are: A. (LT⁻², L², LT³) B. (LT⁻², LT³, L²) C. (LT⁻², L, LT⁻³) D. (LT⁻³, L, LT³)"
+    },
+    {
+      "year": "CA test",
+      "number": "2",
+      "topic": "kinematics-and-projectiles",
+      "text": "If the constants A, B, D and E in question 1 are respectively 2, 2, 1 and 2 in SI units, the magnitude of the velocity of the particle 5 s from rest is: A. 40.3 m/s B. 77.6 m/s C. 85.0 m/s D. 95.6 m/s"
+    },
+    {
+      "year": "CA test",
+      "number": "3",
+      "topic": "vectors",
+      "text": "In a football match, the ball undergoes three consecutive displacements, D1, D2 and D3 (in m) before the goalkeeper stops it. If D1 = i + 3j, D2 = 2i + 3j and D3 = −i + j, the resultant displacement is: A. 7.2 m B. 7.6 m C. 9.6 m D. 2.7 m"
+    },
+    {
+      "year": "CA test",
+      "number": "4",
+      "topic": "vectors",
+      "text": "On sensing danger, two birds A and B, fly away from the same nest with velocities VA = i + 4j + 3k and VB = 4i + 2j − 4k relative to a stationary observer. How far apart are the two birds after 5 s? A. 9.4 m B. 94.0 m C. 39.4 m D. 18.7 m"
+    },
+    {
+      "year": "CA test",
+      "number": "5",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "The moon revolves round the earth, making a complete revolution in 27.3 days in an orbit of radius 3.85 × 10⁸ m. What is the centripetal acceleration is: A. 27.3 m/s², directed towards the centre of the earth B. 54.6 × 10⁻³ m/s², directed towards centre of the earth C. 54.6 × 10³ m/s², directed tangentially to its orbit D. 2.73 × 10⁻³ m/s², directed towards the centre of the earth"
+    },
+    {
+      "year": "CA test",
+      "number": "6",
+      "topic": "gravitation",
+      "text": "If the radius of the earth were to grow from 6,400km to 64,000km while its mass doubled, your weight on the earth's surface would: a) decrease by a factor of 50 b) increase by a factor of 100 c) decrease by a factor of 100 d) increase by a factor of 2"
+    },
+    {
+      "year": "CA test",
+      "number": "7",
+      "topic": "gravitation",
+      "text": "Three identical point masses are placed at the corners of an equilateral triangle of sides \"R\". If the mass of each particle is \"M\", then the magnitude of the net force on each particle is: a) 0.9GM²/R² b) 1.5GM²/R² c) 1.7GM²/R² d) 3.0GM²/R²"
+    },
+    {
+      "year": "CA test",
+      "number": "8",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A body of mass 2kg is projected with an initial velocity of 10m/s up along a plane inclined at 30° to the horizontal. It travels a distance of 10m along the plane, stops, and then slides down. Determine the coefficient of (kinetic) friction and the speed of the body when it returns to the bottom of the plane. a) 0.0 and 10.0 m/s b) 0.6 and 6.6 m/s c) 0.7 and 9.3 m/s d) 0.7 and 10.3 m/s"
+    },
+    {
+      "year": "CA test",
+      "number": "9",
+      "topic": "kinematics-and-projectiles",
+      "text": "The head of a snake can accelerate 45 m/s² in striking a victim. If initial speed of its head is 10m/s and it is 1m away from a victim, how much time does a victim have in order to escape from being bitten by the snake? a) 0.08 s b) 0.12s c) 0.24 s d) not enough information is provided"
+    },
+    {
+      "year": "CA test",
+      "number": "10",
+      "topic": "work-energy-and-rotating-bodies",
+      "text": "A constant force (3, 0, 4)N moves a body from point (−5, 3, 1)m to the point (4, 3, 3)m. If the initial velocity of the body is (6, 1, 1)m/s, determine the work done by the force and the angle between the force and the initial velocity of the body a) 20J and 30.5° b) 25J and 42.5° c) 30J and 43.5° d) 35J and 44.5°"
+    },
+    {
+      "year": "CA test",
+      "number": "11",
+      "topic": "vectors",
+      "text": "The area of the parallelogram defined by the vectors (6, 3, 1)m and (−2, 4, 5)m is: a) 5.0 m² b) 45.0 m² c) 45.2 m² d) 45.5 m²"
+    },
+    {
+      "year": "CA test",
+      "number": "12",
+      "topic": "kinematics-and-projectiles",
+      "text": "A canon ball was shot at an angle of 45° to the horizontal and hit a point 500m from the firing point, at the same horizontal level. Two seconds after firing the canon ball, was it moving upwards or downwards? a) Moving up b) Moving down c) It had landed d) not enough information is given"
+    },
+    {
+      "year": "CA test",
+      "number": "13",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A stone tied to the end of a string is whirled around in a vertical circle at constant speed. If the string never sags, at what point in the motion is the tension in the string the largest? a) At its topmost point b) At its lowest point c) Midway between the topmost and lowest point d) There is not enough information given, the length of the string is required"
+    },
+    {
+      "year": "CA test",
+      "number": "14",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A 10kg block is pulled along an inclined plane by a constant 250N force. The coefficient of friction between the block and the plane is 0.5 and the plane is inclined at an angle of 45° to the horizontal. If pulled from rest, how far along the plane does the block travel in 4 seconds? a) 200.0 m b) 182.8 m c) 116.8 m d) 96.8 m"
+    },
+    {
+      "year": "CA test",
+      "number": "15",
+      "topic": "work-energy-and-rotating-bodies",
+      "text": "From the top of a cliff, two balls A and B with masses 1kg and 20kg, respectively, are thrown with the same vertical speeds. However the one with mass 1kg was thrown vertically upward while the other was thrown vertically downward. Neglecting air resistance, which ball will have the larger speed just before landing at the bottom of the cliff? a) ball A with mass 1kg b) ball B with mass 20kg c) it depends on the height of the cliff d) neither"
+    },
+    {
+      "year": "2019",
+      "number": "5",
+      "topic": "kinematics-and-projectiles",
+      "text": "A Red Cross aircraft traveling horizontally at 40 m/s at 100 m above an IDP camp drops a relief material to the camp when it is vertically above point A. If the relief material hits the ground at point B, the distance between points A and B is: A. 100 m B. 816.4 m C. 408.2 m D. 180.8 m"
+    },
+    {
+      "year": "2019",
+      "number": "6",
+      "topic": "kinematics-and-projectiles",
+      "text": "The velocity vector (m/s) of the above relief material on hitting the ground is: A. V = 100i + 40j B. V = 40i − 44.3j C. V = 40.8i + 100j D. V = 44.3i + 100j"
+    },
+    {
+      "year": "2019",
+      "number": "7",
+      "topic": "shm-elasticity-and-liquids",
+      "text": "The error introduced in the value of the period of a simple pendulum of length 0.8 m when allowed to become a conical pendulum making angle 30° to the vertical is: A. 1.777s B. 0.166s C. 0.125 s D. 0.090 s"
+    },
+    {
+      "year": "2019",
+      "number": "8",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A stone of mass 500 g tied to a string of length 50 cm is whirled in a vertical plane at 500 revolutions per minute. The minimum and maximum tension (Tmax, Tmin) in the string are: A. (880.7 N, 680.8 N) B. (680.8 N, 660.6 N) C. (890.6 N, 680.8 N) D. (690.6 N, 680.8 N)"
+    },
+    {
+      "year": "2019",
+      "number": "9",
+      "topic": "gravitation",
+      "text": "A satellite is said to be parked A. When its period is equal to the period of rotation of the earth about its axis B. When the radius of its orbit is approximately equal to the radius of the earth C. When its period is equal to the period of motion of the earth around the sun D. When it experiences zero gravitational force towards the earth"
+    },
+    {
+      "year": "2019",
+      "number": "10",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "Two masses 3 kg and 5 kg connected by string which passes over a frictionless pulley to form an Atwood machine. The tension in the string is A. 5.58 N (partly cut off) B. 36.75 N C. 26.61 N D. 18.42 N"
+    },
+    {
+      "year": "2022 first test",
+      "number": "1",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "If for a mass of gas at pressure P and volume V, PV^β = K, which appropriate graph will enable you obtain the values of β and K when several values of P and V are obtained in an experiment? Graph of A. log P vs log K B. 1/log P vs 1/log K C. log V vs log P D. log P vs log V"
+    },
+    {
+      "year": "2022 first test",
+      "number": "2",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "In equation x = ut + ½at², x represents position, u is initial velocity, t is time and a is acceleration. What will be the second derivative of x with respect to t? A. final velocity B. acceleration C. deceleration D. speed"
+    },
+    {
+      "year": "2022 first test",
+      "number": "3",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "How many groups of physical or measurable quantities exist? A. 2 B. 3 C. 4 D. 5"
+    },
+    {
+      "year": "2022 first test",
+      "number": "4",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "Which of the following statements is TRUE? A. All quantities in mechanics are derived from the combination of three or four fundamental quantities. B. Dimensionless physical quantities do not have units. C. The dimension of a physical quantity is the same as its unit of measurement. D. Regardless of the unit used for a physical quantity, the dimension of the physical quantity does not change."
+    },
+    {
+      "year": "2022 first test",
+      "number": "5",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "The displacement of a particle in y-z plane is given by y = Kt² + R and z = Ft³ − M where t represents time, while R, M, K and F are constants. The respective dimensions of R, K, M and F are A. LT⁻², L, L, and LT⁻³ B. L, L, LT⁻², and LT⁻³ C. L, LT⁻², L, and LT⁻³ D. LT⁻³, L, LT⁻², and L"
+    },
+    {
+      "year": "2022 first test",
+      "number": "6",
+      "topic": "vectors",
+      "text": "On the basis of appropriate definitions of Scalar and Vector quantities, which of the following pairs is compatible? A. Velocity & speed B. Displacement & distance C. Acceleration & displacement D. Energy & force"
+    },
+    {
+      "year": "2022 first test",
+      "number": "7",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "In the equation vⁿ = 2ax, the unit of variables v, a, x are m/s, m/s² and m, respectively. If n is an integer, what must be the value of n that will validate the given equation? A. 2 B. −2 C. −1 D. 1"
+    },
+    {
+      "year": "2022 first test",
+      "number": "8",
+      "topic": "vectors",
+      "text": "Four displacement vectors are (i) 100m, 60° NE, (ii) 100m, 60° SW, (iii) 50m, 60° SW, and (iv) 100m, 30° EN. Which of the displacement vectors given above are equal? A. (i) & (ii) B. (i) & (iii) C. (ii) & (iv) D. (i) & (iv)"
+    },
+    {
+      "year": "2022 first test",
+      "number": "9",
+      "topic": "vectors",
+      "text": "Find the resultant of the forces F1 = 5N, 70° NW, F2 = 5N, 30° NE, and F3 = 4N along South. A. 4i − 12j B. −2i + 6j C. −4i + 12j D. 2i + 8j"
+    },
+    {
+      "year": "2022 first test",
+      "number": "10",
+      "topic": "vectors",
+      "text": "Consider two vectors A = 3i − 2j and B = −i − 4j. Calculate |A − B| A. 4i + 2j B. 4.47 C. 20.0 D. 6.32"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "1",
+      "topic": "units-dimensions-and-useful-mathematics",
+      "text": "In quantum mechanics, energy is given by E = hc/λ where h is the Planck's constant, c is the velocity of light and λ is wavelength. The dimension of h are: A. MLT⁻¹ B. ML¹T⁻² C. ML²T⁻¹ D. ML²T⁻²"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "2",
+      "topic": "vectors",
+      "text": "Find the resultant of two equal forces P making an angle 2θ, given that sin²θ = ½(1 − cos 2θ). A. 2P sin θ B. 2P cos θ C. 2P tan θ D. 2P cot θ"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "3",
+      "topic": "kinematics-and-projectiles",
+      "text": "A world record was set in 1954 when a man in rocket–propelled vehicle moving down a track at 1,020 km/h was brought to rest within 1.4s. What is the ratio of the acceleration of this vehicle to the acceleration of a bullet fired vertically up with the same velocity? A. 9.8 : 1 B. 20.7 : 1 C. 1 : 9.8 D. 202.4 : 9.8"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "4",
+      "topic": "kinematics-and-projectiles",
+      "text": "The velocity of a particle is v = (14 − 8t + t²) m/s (partly illegible), where t is in seconds. Calculate the average acceleration between t = 2s and t = 4s. A. 1.2 m/s² B. 3 m/s² C. −2 m/s² D. −1 m/s²"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "5",
+      "topic": "vectors",
+      "text": "Vector A has magnitude 5 units and is directed east while vector B has magnitude 4 units and is directed 35° west of north. Express the resultant A + B in i, j notation A. 2.5i − 2.27j B. 5.0i − 4.0j C. 2.71i + 3.28j D. 2.27i + 2.29j"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "6",
+      "topic": "gravitation",
+      "text": "A missile is to be projected with a rocket from a military base to hit a target 500 km away. Assuming only gravitational force, what is the minimum velocity of projection? A. 5000 m/s B. 400.6 m/s C. 1125.8 m/s D. 2213.6 m/s"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "7",
+      "topic": "kinematics-and-projectiles",
+      "text": "A small jet plane lands at Ibadan airport with a velocity of 100 m/s. Assuming the length of the runway is 1 km, what is the minimum constant acceleration required for it to come to rest without overshooting the runway? A. −5.0 m/s² B. 10 m/s² C. −10 m/s² D. −2 m/s²"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "8",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A mass of 80 kg slides for 2 s down an inclined plane of 60° to the horizontal. If the coefficient of static friction is 0.3, what is the kinetic energy gained from the rest position? A. 800 J B. 3,942.43 J C. 1,600 J D. 7,884.86 J"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "9",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "Two forces act on a particle of mass m = 3.2 kg to move it with a constant velocity 3i − 4j (in m/s). One of the forces is F1 = 2i − 6j (in N). What is the other force (in N)? A. 4i − 12j B. −2i + 6j C. −4j + 12k D. 2i + 8j"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "10",
+      "topic": "gravitation",
+      "text": "A man weighs 875 N on Earth and 2.31 × 10³ N on Jupiter. What is the acceleration of free fall on Jupiter? A. 9.80 m/s² B. 98.00 m/s² C. 25.87 m/s² D. 2.59 m/s²"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "11",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A coin placed on a rotating turntable just slips when it is placed at a distance of 4 cm from the centre. If the angular velocity of the turn table is doubled, at what distance will it begin to slip? A. 1 cm B. 2 cm C. 4 cm D. 8 cm"
+    },
+    {
+      "year": "Undated exam page",
+      "number": "12",
+      "topic": "newtons-laws-friction-and-circular-motion",
+      "text": "A block slides down a plane inclined at 60° to the horizontal with an acceleration of magnitude g/3. What is the coefficient of kinetic friction between the block and the plane? A. (sin θ − ⅓)/cos θ B. cos θ/(tan θ − 3) C. ⅓ tan θ D. (cos θ − ⅓)/sin θ"
+    }
+  ]
+}

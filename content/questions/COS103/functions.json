@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword defines a function in Python?",
+    "options": [
+      {
+        "key": "a",
+        "text": "def"
+      },
+      {
+        "key": "b",
+        "text": "fun"
+      },
+      {
+        "key": "c",
+        "text": "define"
+      },
+      {
+        "key": "d",
+        "text": "func"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "def function_name(parameters):",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "single_choice",
+    "stem": "def add(a, b=5): return a + b. What does print(add(3)) show?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "b takes its default value 5.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does a function return if it has no return statement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "None"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "An empty string"
+      },
+      {
+        "key": "d",
+        "text": "An error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "None is returned by default.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the correct way to call a function named my_function with no arguments?",
+    "options": [
+      {
+        "key": "a",
+        "text": "my_function()"
+      },
+      {
+        "key": "b",
+        "text": "call my_function"
+      },
+      {
+        "key": "c",
+        "text": "my_function"
+      },
+      {
+        "key": "d",
+        "text": "invoke my_function()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A call needs round brackets.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "true_false",
+    "stem": "Variables declared inside a function are local to that function.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They exist only while the function runs.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every Python function must have a return statement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Without one, the function returns None.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the two essential parts of a recursive function, plus one true statement about it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A base case that stops the recursion"
+      },
+      {
+        "key": "b",
+        "text": "A recursive case with a modified argument"
+      },
+      {
+        "key": "c",
+        "text": "Results are returned in reverse order of the calls"
+      },
+      {
+        "key": "d",
+        "text": "It must use a while loop"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Recursion replaces explicit loops.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which parameter type is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Positional parameters"
+      },
+      {
+        "key": "b",
+        "text": "Default parameters"
+      },
+      {
+        "key": "c",
+        "text": "Keyword parameters"
+      },
+      {
+        "key": "d",
+        "text": "Global parameters"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The lecture's parameter types are positional, default, keyword and variable-length.",
+    "source": "CSC 103 Lecture 3 (2024): functions and lists"
+  }
+]

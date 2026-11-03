@@ -1,90 +1,115 @@
 [
   {
-    "format": "multi_select",
-    "stem": "Which are the three parts of a count-controlled loop?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Initialise the loop control variable"
-      },
-      {
-        "key": "b",
-        "text": "Test it"
-      },
-      {
-        "key": "c",
-        "text": "Increment it"
-      },
-      {
-        "key": "d",
-        "text": "Print it"
-      }
-    ],
-    "correct_answer": [
-      "a",
-      "b",
-      "c"
-    ],
-    "explanation": "Initialisation, testing and incrementation.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
-  },
-  {
     "format": "single_choice",
-    "stem": "If count starts at 0 and the loop runs WHILE (count < limit), adding 1 each time, how many times does it run?",
+    "stem": "Which values does range(0, 14, 3) produce?",
     "options": [
       {
         "key": "a",
-        "text": "limit times"
+        "text": "0, 3, 6, 9, 12"
       },
       {
         "key": "b",
-        "text": "limit - 1 times"
+        "text": "0, 3, 6, 9, 12, 14"
       },
       {
         "key": "c",
-        "text": "limit + 1 times"
+        "text": "3, 6, 9, 12"
       },
       {
         "key": "d",
-        "text": "Forever"
+        "text": "0, 14, 3"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "It runs for count = 0, 1, ..., limit - 1, which is limit times.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+    "explanation": "The stop value 14 is not included.",
+    "source": "COS 102 Lecture 10 (loops and usability)"
   },
   {
     "format": "single_choice",
-    "stem": "A loop that repeats until an event inside the loop occurs, such as reading a negative value, is",
+    "stem": "A loop whose tested value never changes, so it runs forever, is",
     "options": [
       {
         "key": "a",
-        "text": "An event-controlled loop"
+        "text": "An infinite loop"
       },
       {
         "key": "b",
-        "text": "A count-controlled loop"
+        "text": "A nested loop"
       },
       {
         "key": "c",
-        "text": "A decision table"
+        "text": "A definite loop"
       },
       {
         "key": "d",
-        "text": "A syntax error"
+        "text": "A post-test loop"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "The event must be initialised, tested and updated.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+    "explanation": "Change the tested value so the condition eventually becomes false.",
+    "source": "COS 102 Lecture 10 (loops and usability)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "for i in range(1, 6): if i == 3: continue; print(i) prints",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 2, 4, 5"
+      },
+      {
+        "key": "b",
+        "text": "1, 2"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "1, 2, 3, 4, 5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "continue skips the iteration where i is 3.",
+    "source": "COS 102 Lecture 10 (loops and usability)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With if age < 4 ... elif age < 10 ... elif age < 18 ... else \"Unknown age category\", age 12 gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"Welcome to puberty, you belong to secondary school\""
+      },
+      {
+        "key": "b",
+        "text": "\"You are a baby, you belong to pre-nursery\""
+      },
+      {
+        "key": "c",
+        "text": "\"You are no more a baby, you belong to nursery/primary\""
+      },
+      {
+        "key": "d",
+        "text": "\"Unknown age category\""
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "12 is not < 4 or < 10, but is < 18.",
+    "source": "COS 102 Lecture 9 (control structures)"
   },
   {
     "format": "true_false",
-    "stem": "If the incrementation statement is left out of a count-controlled loop whose condition starts true, the loop runs forever.",
+    "stem": "A for loop is a definite (counting) loop, while a while loop is indefinite (condition-controlled).",
     "options": [
       {
         "key": "true",
@@ -98,66 +123,12 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "The Boolean expression never changes, giving an infinite loop.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
-  },
-  {
-    "format": "single_choice",
-    "stem": "In Python, what does score = int(input()) do?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Reads text from the user, converts it to a whole number and stores it in score"
-      },
-      {
-        "key": "b",
-        "text": "Prints the value of score"
-      },
-      {
-        "key": "c",
-        "text": "Tests whether score is an integer"
-      },
-      {
-        "key": "d",
-        "text": "Compares score with the input"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "input returns text; int converts it; = assigns it.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "odd_one_out",
-    "stem": "Which one is not a kind of program error?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Syntax error"
-      },
-      {
-        "key": "b",
-        "text": "Runtime error"
-      },
-      {
-        "key": "c",
-        "text": "Logic error"
-      },
-      {
-        "key": "d",
-        "text": "Pretest error"
-      }
-    ],
-    "correct_answer": [
-      "d"
-    ],
-    "explanation": "Pretest describes a while loop that tests before running its body.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "The computer knows in advance how many times a for loop runs.",
+    "source": "COS 102 Lecture 10 (loops and usability)"
   },
   {
     "format": "true_false",
-    "stem": "A logic error always stops the program with an error message.",
+    "stem": "if (y = 5): is a valid start of an if statement in Python.",
     "options": [
       {
         "key": "true",
@@ -171,34 +142,63 @@
     "correct_answer": [
       "false"
     ],
-    "explanation": "A logic error gives wrong answers without a message, so it is found only by testing.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "= assigns; a condition needs ==.",
+    "source": "COS 102 Lecture 9 (control structures)"
   },
   {
-    "format": "single_choice",
-    "stem": "Why is the while loop called a pretest loop?",
+    "format": "multi_select",
+    "stem": "Which are usability heuristics given in the lecture?",
     "options": [
       {
         "key": "a",
-        "text": "The test happens before the body runs, so the body may not run at all"
+        "text": "Keep users informed of what is going on"
       },
       {
         "key": "b",
-        "text": "It must be tested by hand before coding"
+        "text": "Minimise the user's memory load"
       },
       {
         "key": "c",
-        "text": "It always runs at least once"
+        "text": "Be consistent"
       },
       {
         "key": "d",
-        "text": "It tests the program after it finishes"
+        "text": "Hide all error messages"
       }
     ],
     "correct_answer": [
-      "a"
+      "a",
+      "b",
+      "c"
     ],
-    "explanation": "If the condition is false initially, the loop is not entered.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 7.2"
+    "explanation": "Errors should be dealt with helpfully, not hidden.",
+    "source": "COS 102 Lecture 10 (loops and usability)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which keyword is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "if"
+      },
+      {
+        "key": "b",
+        "text": "elif"
+      },
+      {
+        "key": "c",
+        "text": "else"
+      },
+      {
+        "key": "d",
+        "text": "while"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "while is a loop; the others are decision keywords.",
+    "source": "COS 102 Lecture 9 (control structures)"
   }
 ]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Why is \"y > 5\" not a proposition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its truth value depends on y, which is not specified"
+      },
+      {
+        "key": "b",
+        "text": "It is a request"
+      },
+      {
+        "key": "c",
+        "text": "It is always false"
+      },
+      {
+        "key": "d",
+        "text": "It has no verb"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a propositional function (open statement).",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "\"x < y if and only if y > x\" is a proposition.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its truth value does not depend on x and y; it is true.",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which rule says that a statement true for every member of a domain is true for any particular member?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Universal instantiation"
+      },
+      {
+        "key": "b",
+        "text": "Universal generalisation"
+      },
+      {
+        "key": "c",
+        "text": "Existential instantiation"
+      },
+      {
+        "key": "d",
+        "text": "Existential generalisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Universal generalisation goes the other way, from an arbitrary member to all.",
+    "source": "CSC 203 NOTE.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which rule lets us introduce a new constant for an individual known to have a property?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Existential instantiation"
+      },
+      {
+        "key": "b",
+        "text": "Existential generalisation"
+      },
+      {
+        "key": "c",
+        "text": "Universal instantiation"
+      },
+      {
+        "key": "d",
+        "text": "Modus ponens"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The constant names the unnamed individual for reasoning.",
+    "source": "CSC 203 NOTE.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are tautologies?",
+    "options": [
+      {
+        "key": "a",
+        "text": "p ∨ ¬p"
+      },
+      {
+        "key": "b",
+        "text": "¬(p ∧ ¬p)"
+      },
+      {
+        "key": "c",
+        "text": "(p ∧ q) → p"
+      },
+      {
+        "key": "d",
+        "text": "p ∧ ¬p"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "p ∧ ¬p is always false, a contradiction.",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The negation of any contradiction is a tautology.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "And the negation of a tautology is a contradiction.",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which of these is not a logical operator?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conjunction"
+      },
+      {
+        "key": "b",
+        "text": "Biconditional"
+      },
+      {
+        "key": "c",
+        "text": "Implication"
+      },
+      {
+        "key": "d",
+        "text": "Universal instantiation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Universal instantiation is a rule of inference for quantified statements.",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"Please do not fall asleep\" is not a proposition because",
+    "options": [
+      {
+        "key": "a",
+        "text": "it is a request, not a statement"
+      },
+      {
+        "key": "b",
+        "text": "it is false"
+      },
+      {
+        "key": "c",
+        "text": "it contains a variable"
+      },
+      {
+        "key": "d",
+        "text": "it is a tautology"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only statements can be propositions.",
+    "source": "CSC 203.pdf (CSC 203 topics and logic note)"
+  }
+]

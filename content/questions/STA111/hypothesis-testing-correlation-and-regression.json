@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The error of accepting a false null hypothesis is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Type II error"
+      },
+      {
+        "key": "b",
+        "text": "Type I error"
+      },
+      {
+        "key": "c",
+        "text": "Type III error"
+      },
+      {
+        "key": "d",
+        "text": "Sampling error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its probability is β.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "At the 5% level (two-sided), a calculated z of 1.99 leads us to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reject H₀"
+      },
+      {
+        "key": "b",
+        "text": "Accept H₀"
+      },
+      {
+        "key": "c",
+        "text": "Change α"
+      },
+      {
+        "key": "d",
+        "text": "Use a t-test"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1.99 > 1.96.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The main difference between regression and correlation is that",
+    "options": [
+      {
+        "key": "a",
+        "text": "In regression one variable depends on another; in correlation there is no dependence"
+      },
+      {
+        "key": "b",
+        "text": "In correlation one variable depends on another"
+      },
+      {
+        "key": "c",
+        "text": "Regression needs no data"
+      },
+      {
+        "key": "d",
+        "text": "They are identical"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Correlation treats both variables alike.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Spearman's rank correlation is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 − 6Σd²/(n(n² − 1))"
+      },
+      {
+        "key": "b",
+        "text": "Σxy/n"
+      },
+      {
+        "key": "c",
+        "text": "nΣxy − ΣxΣy"
+      },
+      {
+        "key": "d",
+        "text": "6Σd²/n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "d is the difference in ranks.",
+    "source": "STA 114 Lectures 9 and 10: Hypothesis Testing; Correlation and Regression"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a fixed significance level, increasing the sample size reduces β.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The test becomes more powerful.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "A correlation coefficient of −0.9 shows a weak relationship.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It shows a strong negative relationship.",
+    "source": "STA 114 Lectures 9 and 10: Hypothesis Testing; Correlation and Regression"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in testing a hypothesis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "State H₀ and H₁"
+      },
+      {
+        "key": "b",
+        "text": "Choose the significance level"
+      },
+      {
+        "key": "c",
+        "text": "Compare the test statistic with the critical value"
+      },
+      {
+        "key": "d",
+        "text": "Choose the answer that supports H₀ in advance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The decision must follow the data.",
+    "source": "STA 114 Lectures 9 and 10: Hypothesis Testing; Correlation and Regression"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which concept is the odd one out in hypothesis testing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Null hypothesis"
+      },
+      {
+        "key": "b",
+        "text": "Alternative hypothesis"
+      },
+      {
+        "key": "c",
+        "text": "Level of significance"
+      },
+      {
+        "key": "d",
+        "text": "Class mark"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The class mark belongs to frequency tables.",
+    "source": "STA 114 Lectures 9 and 10: Hypothesis Testing; Correlation and Regression"
+  }
+]

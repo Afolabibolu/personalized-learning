@@ -1,0 +1,188 @@
+{
+  "code": "MTH 101",
+  "papers": [
+    {
+      "year": "2000/2001",
+      "paper": "MAT 111: Algebra (set as MAT 111, this course's former code), First Semester Examinations 2000/2001 (Tuesday 30th January, 2001), 3 hours. Attempt any four questions",
+      "source": "100l PQ.pdf (pages 1 and 2; identical to 100l PQ (1).pdf)"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "MAT 111: Algebra (set as MAT 111), First Semester Examinations 2013/2014 (Friday, September 26, 2014), 3 hours. Answer any 4 (four) questions",
+      "source": "100l PQ.pdf (page 9, again on page 8)"
+    },
+    {
+      "year": "2015/2016",
+      "paper": "MAT 111: Algebra (set as MAT 111), First Semester Examination 2015/2016 (Thursday, July 21, 2016), 3 hours. Answer only four questions",
+      "source": "IMG-20210611-WA0015.jpg and WA0016.jpg"
+    },
+    {
+      "year": "2016/2017 test",
+      "paper": "MAT 111: Algebra (set as MAT 111), First Semester Test 2016/2017, 40 minutes. Answer all questions",
+      "source": "MAT 111 17 Test.pdf (identical to MAT 111 17 Test(1).pdf)"
+    },
+    {
+      "year": "2017/2018",
+      "paper": "MAT 111: Algebra (set as MAT 111), First Semester Examinations 2017/2018 (Monday, August 20, 2018), 3 hours. Answer two questions from each of the sections",
+      "source": "MAT 111 17-18.pdf (identical to MAT 111 17-18(1).pdf)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2000/2001",
+      "number": "1",
+      "topic": "polynomials-and-equations",
+      "text": "(a) (i) Prove that the equation dx² + (d − 1)x + 1 − 2d = 0 has real roots for all values of d. (ii) Find the values of d in (a)(i) above if the sum of the roots is three times their product. (b) Prove that 2 log(x + y) = log 5 + log x + log y given that log(x − y) = ½(log x + log y). (c) Determine the maximal domain, range and zeros of the rational function (x² − 3x − 4)/(x − 5)."
+    },
+    {
+      "year": "2000/2001",
+      "number": "2",
+      "topic": "rational-functions-and-partial-fractions",
+      "text": "(a) (i) State the remainder when a polynomial denoted by f(x) is divided by x − a and (ii) also the remainder when it is divided by x + a. (iii) If f(x) = x⁴ + px³ + qx² + r and the two remainders are equal in 2(a)(i) and 2(a)(ii) above, find possible values of p. (b) Express the following rational function in partial fractions: (7x² + 23x + 6)/(2(x³ + 2x² − x − 2)). (c) Sketch the graph of y = x² − 4x − 1, indicating the (i) intercepts (ii) range (iii) minimum value or maximum value."
+    },
+    {
+      "year": "2000/2001",
+      "number": "3",
+      "topic": "inequalities",
+      "text": "(a) (i) State the Principle of Mathematical Induction and (ii) apply this in proving that Σ from r = 1 to n of r(r + 1)(r + 2) = ¼n(n + 1)(n + 2)(n + 3). (b) Solve for x in (x² − x − 2)/(x² − 2) < 2. (c) Solve for x in 3(1 − 4x)/2 ≤ (3x − 1)/3 and represent your answer in interval notation on the real number line."
+    },
+    {
+      "year": "2000/2001",
+      "number": "4",
+      "topic": "permutations-combinations-and-binomial-theorem",
+      "text": "(a) (i) State the binomial theorem for (1 + x)^q, where q is any real number and |x| < 1. (ii) Hence, or otherwise, obtain an approximate value of (1.01)²/(0.97)⁴ by expanding (1 + x)²(1 − 3x)⁻⁴ in ascending powers of x, as far as the term containing x³. (b) In how many ways can a committee of 7 be chosen from 7 women and 8 men if at least 3 women and at least 2 men are required to serve? (c) Six flags consisting of one blue, three identical red and two identical green flags, are to be arranged in a row. In how many ways can this be done if all six flags are to be used?"
+    },
+    {
+      "year": "2000/2001",
+      "number": "5",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(a) If the sum to infinity of a series of numbers in Geometric Progression is 57 and the sum to infinity of a series with the same first term but with a common ratio the cube of the original is 27, find the first series. (b) Let A = (1 2 8; 1 −3 −7; −1 1 1). (i) Write A as a sum of symmetric and a skew-symmetric matrix. (ii) Reduce A to row reduced echelon form, and, hence, (c) solve the following system of homogeneous equations: x₁ + 2x₂ + 8x₃ = 0, x₁ − 3x₂ − 7x₃ = 0, −x₁ + x₂ + x₃ = 0."
+    },
+    {
+      "year": "2000/2001",
+      "number": "6",
+      "topic": "complex-numbers",
+      "text": "(a) (i) State de Moivre's Theorem and use it to prove that if z = cos θ + i sin θ and m is a positive integer, then z^m + 1/z^m = 2 cos mθ. (ii) Hence, by expanding (z + 1/z)⁴ and (z − 1/z)⁴, deduce that cos⁴θ + sin⁴θ = ¼(cos 4θ + 3). (b) Find all the roots of the equation x⁴ − 4x³ + 14x² − 4x + 13 = 0, given that one of the roots is 2 − 3i. (c) For the infinite series 1/(1·3) + 1/(3·5) + 1/(5·7) + ..., (i) find Sₙ and (ii) show that Sₙ < ½."
+    },
+    {
+      "year": "2013/2014",
+      "number": "1",
+      "topic": "inequalities",
+      "text": "(a) Show that log₃ x = log₉ x². Hence, solve the equation log₃(x + 1) − log₉(x − 1) = 1. (5½ marks) (b) Obtain the set of values of x for which (x + 1)(x − 2)(x − 3) is positive. (4 marks) (c) Resolve into partial fractions (3x² + 1)/((x − 2)²(x² + 2x + 2)). (5 marks) (d) Solve for x: x + |2x − 1| = 3. (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "2",
+      "topic": "polynomials-and-equations",
+      "text": "(a) If the roots of the equation ax² + bx + c = 0 differ by 1, prove that a² = b² − 4ac. (5 marks) (b) Solve the equation: x⁴ − 2x³ − 6x² − 2x + 1 = 0. (4½ marks) (c) Find the asymptotes of y = 6/(3 − x). (4 marks) (d) Find the middle term of (3x⁻² + ⅓x)¹⁰. (4 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "3",
+      "topic": "permutations-combinations-and-binomial-theorem",
+      "text": "(a) If 1, cos² x, sin x are three consecutive terms in an arithmetic progression. Show that 2 sin² x + sin x = 1. (3 marks) (b) Prove that for any positive integer n, 7ⁿ − 4ⁿ is divisible by 3. (5½ marks) (c) In how many ways can a committee of 3 men and 2 women be chosen from a group of 12 men and 10 women? (5 marks) (d) Find the value of (0.98)⁶ correct to four decimal places by using binomial expansion. (4 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "4",
+      "topic": "sequences-series-and-induction",
+      "text": "(a) Find the nth term of the sequence 2, 7, 15, 26, 40, ... (3 marks) (b) Resolve into partial fractions 8/((k + 2)(k + 3)). Use the result to evaluate Σ from k = 1 to n of 8/((k + 2)(k + 3)). (4½ marks) (c) Express sin 6θ in terms of mixed powers of sin θ and cos θ. (Hint: Use de-Moivre's theorem and binomial expansion) (5 marks) (d) Find all the roots of the equation x⁴ − 4x³ + 14x² − 4x + 13 = 0, given that one of the roots is 2 − 3i. (5 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "5",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(a) Let A = (1 −2 1; 3 −1 −2; 4 −3 −1). i. Write A as a sum of symmetric and a skew symmetric matrix. ii. Find the row reduced echelon form of A and determine the rank of A. iii. Hence find the inverse of A or show that it is non-invertible. (8½ marks) (b) Find the general solution of the following system of non-homogeneous equations: x₁ − 2x₂ + x₃ = 2, 3x₁ − x₂ − 2x₃ = 1, 4x₁ − 3x₂ − x₃ = 3. (6 marks) (c) Let B = (1 2; 2 3). Show that B² − 4B − I = 0. (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "6",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(a) Factorise the determinant |1 a a²; 1 b b²; 1 c c²|. (6 marks) (b) Using the adjoint method, find the inverse of A = (1 2 3; 4 5 6; 8 8 9). (7 marks) (c) Let T be defined by T(x, y) = (2x + y, x + 2y). i. Find the matrix associated with T. ii. Determine the point which is mapped onto the point (7, 8) under T. (4½ marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1",
+      "topic": "polynomials-and-equations",
+      "text": "(Section A) (a) Let the number of organisms added to an ecosystem at any given time t years be given by Nₐ(t) = 3t² − 8t + 4. (i) Find t₁ and t₂ when no organism is added, (ii) Write out the equation N₁(t) for which no organism can be added at the squares of t₁ and t₂. (b) A company develops a mathematical model expression n − 3 for number of workers to share a profit P(n) = 2n³ − 5n² − zn + 9 equally with the aim that each person gets a rounded value from the profit with nothing else remaining. (i) Find out at what value of z can this aim be achieved? (ii) If n is the total number on the roll including 3 executive members which were excluded from the profit sharing, what will be the total number on the roll when there will be no profit to share?"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2",
+      "topic": "rational-functions-and-partial-fractions",
+      "text": "(a) Resolve 2x/((x + 1)(x + 2)²) into partial fractions. (b) Consider the function y = f(x) = 2x³ + 2x² − 8x. (i) What is the domain of the function? (ii) At what values of x the function varnishes? (iii) Hence, list the intercepts of the function. (iv) Find the turning points of the graph of the function and describe the nature of each of these points."
+    },
+    {
+      "year": "2015/2016",
+      "number": "3",
+      "topic": "sequences-series-and-induction",
+      "text": "(Section B) (a) Prove by mathematics induction that 1 + 1/(1 + 2) + 1/(1 + 2 + 3) + ... + 1/(1 + 2 + 3 + ... + n) = 2n/(n + 1). (b) (i) Prove that the (n + 1)th term of a G.P of which the first term is a and the third term is b, is equal to the (2n + 1)th term of a G.P of which the first term is a and the fifth term is b. (ii) There are n terms in a G.P, show that nth root of their product is equal to the square root of the product of its first and last terms. (c) If p, q, r and s are any four consecutive terms of an A.P, show that p² − 3q² + 3r² − s² = 0. (Hint: let p = a − 3β, q = a − β, r = a + β, s = a + 3β)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "4",
+      "topic": "permutations-combinations-and-binomial-theorem",
+      "text": "(a) (i) State the Binomial Theorem. (ii) Use the Binomial theorem to expand (1 + x/a)^(1/3), |x| < a, to the fourth term. (iii) Hence or otherwise find the value of ∛128 to four decimal places. (b) Find the term independent of x in the expansion of (3x²/2 − 1/(3x))⁹. (c) In an examination a candidate is required to answer 7 out of 12 questions which are divided into two sections each containing 6 questions, and not permitted to attempt more than 5 questions from each section. In how many ways can he make up his choice?"
+    },
+    {
+      "year": "2015/2016",
+      "number": "5",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(Section C) (a) Write out the matrix which transforms (1, 0) onto (3, 2) and (0, 1) onto (5, 3). (b) (i) Show that the matrix of reflection in the line y = x tan θ is M = (cos 2θ sin 2θ; sin 2θ −cos 2θ). (ii) Hence, find the matrix of reflection in the line y = 2x. (c) Find a linear transformation which gives an anticlockwise rotation to the position where the x-axis becomes (i) the line x = 0 (ii) the line y = 0. (d) Give a full description of the combined transformation which is carried out by the matrix (½ √3/2; √3/2 −½)."
+    },
+    {
+      "year": "2015/2016",
+      "number": "6",
+      "topic": "complex-numbers",
+      "text": "(a) (i) Express cos 3θ in terms of cos θ. (ii) Find the roots of the polynomial p(z) = z⁴ − 4z³ + 14z² − 4z + 13 = 0 given that one of the roots is 2 − 3i and state any relevant theorem to justify your solution. (b) Express the following in the form x + iy: (i) (2 + 3i)/(4 − 5i) + 3/i (partly illegible in the photo) (ii) (√3 − i)⁴. (c) Calculate f(A) if A = (3 1 0; −1 2 4; 1 0 −5) and f(z) = 2z² − 5z + 1."
+    },
+    {
+      "year": "2016/2017 test",
+      "number": "1",
+      "topic": "rational-functions-and-partial-fractions",
+      "text": "Given the functions F(x) = 2x⁴ − 5x³ − 12x² + 7x + 6 and G(x) = 2x + 1, find (a) y = Q(x) = F(x)/G(x); (b) Q(1), Q(−2) and Q(3); (c) the intercepts of y = Q(x); (d) the turning points of y = Q(x) and state whether maximum or minimum; and (e) sketch the graph of y = Q(x)."
+    },
+    {
+      "year": "2016/2017 test",
+      "number": "2",
+      "topic": "permutations-combinations-and-binomial-theorem",
+      "text": "(a) Using the binomial expansion, approximate (3.01)³ to 3 decimal places. (b) How many even numbers can be formed with the digits 2, 3, 4, 5, 6 if repetition is not allowed?"
+    },
+    {
+      "year": "2017/2018",
+      "number": "1",
+      "topic": "polynomials-and-equations",
+      "text": "(Section A) (a) If α and β are the roots of the equation 3x² − 6x + 1 = 0, find the value of α³ + β³. (b) When a polynomial f(x) is divided by x − 2, the remainder is 3 and when it is divided by x − 1, the remainder is −1. Find the remainder when f(x) is divided by (x + 2)(x − 1). (c) If y = (x + √3)/2 (partly illegible), show that (y³ + 1/y³) − 5(y² + 1/y²) + (y + 1/y) = 0."
+    },
+    {
+      "year": "2017/2018",
+      "number": "2",
+      "topic": "rational-functions-and-partial-fractions",
+      "text": "(a) Consider the function defined by y = x²/(x² − 4) (partly illegible). Find (i) the intercepts; (ii) the domain and range; (iii) the asymptotes. (b) Use 2(a) above to sketch the graph of y. (c) Show that 7 is a factor of the following expression 4^(3n−1) + 2^(3n−1) + 1 for all natural numbers n."
+    },
+    {
+      "year": "2017/2018",
+      "number": "3",
+      "topic": "sequences-series-and-induction",
+      "text": "(a) (i) Find nth term Uₙ if Uₙ₊₁ = 2 + 3Uₙ, given that U₁ = 1. (ii) Evaluate Σ from r = 1 to ∞ of 3/2^r (limits partly illegible). (b) Resolve into partial fractions: 1/((k + 2)(k + 3)). (c) Use 3(b) above to find the sum Σ from k = 1 to ∞ of 1/((k + 2)(k + 3))."
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(Section B) (a) Given that A = (2 5; 0 −1), (i) Calculate f(A) if f(x) = 5x² − 7x + 2 (partly illegible). (ii) Write A as a sum of a symmetric and anti-symmetric matrix. (b) The roots of the equation x² + 2ax + b = 0 are p + iq and p − iq, where a, b, p, q are real numbers. Express p and q in terms of a and b. (c) (i) Find a matrix which represents a reflection in the line y = 2x. (ii) A plane transformation has matrix A = (−√3/2 ½; −½ −√3/2). Obtain the matrix of the inverse of the transformation."
+    },
+    {
+      "year": "2017/2018",
+      "number": "5",
+      "topic": "matrices-determinants-and-transformations",
+      "text": "(a) Let z = cos θ + i sin θ. Expand (z + 1/z)⁴ and (z − 1/z)⁴ and find an expression for cos⁴θ + sin⁴θ. (b) Solve, by means of elementary row operations, the system 2x + y − z = 1, 2y + z = 3, 5x + 2y − 3z = 2. (c) (i) Explain the difference between an invariant line and a line of invariant points. (ii) A transformation T has algebraic form x' = (3/5)x − (4/5)y + 6, y' = (4/5)x + (3/5)y − 2. Show that T has an invariant point and find its coordinates. (iii) Obtain its matrix of transformation."
+    },
+    {
+      "year": "2017/2018",
+      "number": "6",
+      "topic": "complex-numbers",
+      "text": "(a) Let A, B be m × n matrices and α a scalar. Show that (i) (A + B)ᵀ = Aᵀ + Bᵀ (ii) (αA)ᵀ = αAᵀ. (b) Give a full geometrical description of the plane transformations having matrices A and B, where A = (1/√2)(1 1; 1 −1) and B = (1/√2)(1 −1; 1 1), and the geometrical description of the plane transformations having matrices AB and BA. (c) Describe the locus of a complex number z which satisfies |z − 2i + 4|/|z + 2i − 3| = 3."
+    }
+  ]
+}

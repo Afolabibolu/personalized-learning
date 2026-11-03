@@ -1,0 +1,61 @@
+{
+  "code": "SEN 201",
+  "topics": {
+    "software-engineering-foundations": [
+      {
+        "title": "Video: Lecture - 1 Introduction to Software Engineering (nptelhrd)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Z6f9ckEElsU",
+        "source": "links.csv"
+      }
+    ],
+    "software-process-models": [
+      {
+        "title": "Video: Ch2: Software Processes: 1- Software Process Models (Haneen Hijazi)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kS5IOq4DFTU",
+        "source": "links.csv"
+      }
+    ],
+    "agile-and-extreme-programming": [
+      {
+        "title": "Video: SWEG3301 Sommerville Chapter Three Agile Software Development (Peter Kootsookos)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=io9UbI5AWiU",
+        "source": "links.csv"
+      }
+    ],
+    "requirements-engineering": [
+      {
+        "title": "Video: Requirements Engineering lecture 1: Overview (Birgit Penzenstadler)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qENBiYaAXNE",
+        "source": "links.csv"
+      }
+    ],
+    "design-uml-and-architecture": [
+      {
+        "title": "Video: UML Diagrams Full Course (Unified Modeling Language) (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WnMQ8HlmeXc",
+        "source": "links.csv"
+      }
+    ],
+    "validation-and-testing": [
+      {
+        "title": "Video: Introduction to Software Testing: Verification, Validation & Testing Methods (NPTEL-NOC IITM)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FixtvRqyScM",
+        "source": "links.csv"
+      }
+    ],
+    "evolution-maintenance-and-management": [
+      {
+        "title": "Video: Software Maintenance and Evolution: Re engineering (1) (Ayman Bahaa-Eldin)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RQ0kxurktNI",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

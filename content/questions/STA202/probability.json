@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "P(B|A) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A ∩ B)/P(A)"
+      },
+      {
+        "key": "b",
+        "text": "P(A ∩ B)/P(B)"
+      },
+      {
+        "key": "c",
+        "text": "P(A) + P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(A)P(B)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Condition on A by dividing by P(A).",
+    "source": "STA 204 Lecture 3b (Conditional Probability, Bayes Theorem and Independent Events)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If P(A) = 1/5, P(A ∪ B) = 1/2 and A, B are independent, then P(B) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "3/8"
+      },
+      {
+        "key": "b",
+        "text": "3/10"
+      },
+      {
+        "key": "c",
+        "text": "1/10"
+      },
+      {
+        "key": "d",
+        "text": "4/5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1/2 = 1/5 + p − p/5.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a family of two children, P(both boys | at least one boy) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/3"
+      },
+      {
+        "key": "b",
+        "text": "1/2"
+      },
+      {
+        "key": "c",
+        "text": "1/4"
+      },
+      {
+        "key": "d",
+        "text": "3/4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(1/4)/(3/4).",
+    "source": "STA 204 Lecture 3b (Conditional Probability, Bayes Theorem and Independent Events)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If event A implies event B (but not conversely), then",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A) ≤ P(B)"
+      },
+      {
+        "key": "b",
+        "text": "P(A) > P(B)"
+      },
+      {
+        "key": "c",
+        "text": "P(A) = P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(A) + P(B) = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A ⊂ B.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two mutually exclusive events with non-zero probabilities are also independent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "P(A ∩ B) = 0 ≠ P(A)P(B).",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Random phenomena show statistical regularity in the long run.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Haphazard phenomena do not.",
+    "source": "STA 204 Lecture 3 (Elements of Probability)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A') = 1 − P(A)"
+      },
+      {
+        "key": "b",
+        "text": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+      },
+      {
+        "key": "c",
+        "text": "Independence means P(A ∩ B) = P(A)P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(S) = 0"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "P(S) = 1.",
+    "source": "STA 204 Lecture 3 (Elements of Probability)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a topic of Lecture 3b?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conditional probability"
+      },
+      {
+        "key": "b",
+        "text": "Bayes rule"
+      },
+      {
+        "key": "c",
+        "text": "Total probability rule"
+      },
+      {
+        "key": "d",
+        "text": "Linear regression"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Regression is in Lecture 6.",
+    "source": "STA 204 Lecture 3b (Conditional Probability, Bayes Theorem and Independent Events)"
+  }
+]

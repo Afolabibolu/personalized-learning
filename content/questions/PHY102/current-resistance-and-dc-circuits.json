@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Four identical 3 Ω resistors in parallel have a total resistance of",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.75 Ω"
+      },
+      {
+        "key": "b",
+        "text": "12 Ω"
+      },
+      {
+        "key": "c",
+        "text": "1.33 Ω"
+      },
+      {
+        "key": "d",
+        "text": "3 Ω"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "3/4 Ω.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A cell of e.m.f. E and internal resistance r drives current I through R. The terminal voltage is",
+    "options": [
+      {
+        "key": "a",
+        "text": "E − Ir"
+      },
+      {
+        "key": "b",
+        "text": "E + Ir"
+      },
+      {
+        "key": "c",
+        "text": "Ir"
+      },
+      {
+        "key": "d",
+        "text": "E/r"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E = I(R + r).",
+    "source": "PHY 104 Lecture 10: Current Electricity and DC Circuits (Oyewande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The resistance of a wire of resistivity ρ, length L and area A is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ρL/A"
+      },
+      {
+        "key": "b",
+        "text": "ρA/L"
+      },
+      {
+        "key": "c",
+        "text": "L/(ρA)"
+      },
+      {
+        "key": "d",
+        "text": "ρLA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R = ρL/A.",
+    "source": "PHY 104 Lecture 10: Current Electricity and DC Circuits (Oyewande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A Wheatstone bridge with arms P, Q, R, S is balanced when",
+    "options": [
+      {
+        "key": "a",
+        "text": "P/Q = R/S"
+      },
+      {
+        "key": "b",
+        "text": "P + Q = R + S"
+      },
+      {
+        "key": "c",
+        "text": "PQ = RS"
+      },
+      {
+        "key": "d",
+        "text": "P = Q = R = S only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "No current then flows in the galvanometer.",
+    "source": "PHY 104 Lecture 10: Current Electricity and DC Circuits (Oyewande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Kirchhoff's junction rule expresses conservation of charge.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The loop rule expresses conservation of energy.",
+    "source": "PHY 104 Lecture 10: Current Electricity and DC Circuits (Oyewande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The resistance of a metallic conductor decreases as its temperature rises.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "R = R₀[1 + α(T − T₀)] increases for metals.",
+    "source": "PHY 104 Lecture 10: Current Electricity and DC Circuits (Oyewande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which give the power dissipated in a resistor?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IV"
+      },
+      {
+        "key": "b",
+        "text": "I²R"
+      },
+      {
+        "key": "c",
+        "text": "V²/R"
+      },
+      {
+        "key": "d",
+        "text": "IR²"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "IR² has the wrong dimensions.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which circuit unit is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ohm"
+      },
+      {
+        "key": "b",
+        "text": "Ampere"
+      },
+      {
+        "key": "c",
+        "text": "Volt"
+      },
+      {
+        "key": "d",
+        "text": "Tesla"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The tesla measures magnetic field; the others are circuit units.",
+    "source": "General knowledge of PHY 102"
+  }
+]

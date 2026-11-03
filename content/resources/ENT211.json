@@ -1,0 +1,61 @@
+{
+  "code": "ENT 211",
+  "topics": {
+    "foundations-and-theories-of-entrepreneurship": [
+      {
+        "title": "Video: LECTURE 1-ENT 211 (Entrepreneurship and Innovation) | OOU | CCMAS| Dr. Oludayo O. Ariyo (EngrYKO)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=u-CXH19u-hE",
+        "source": "links.csv"
+      }
+    ],
+    "the-entrepreneur-and-entrepreneurship-in-nigeria": [
+      {
+        "title": "Video: Overview of Entrepreneurship (Dr. Chuks)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4zrnoQjfO1I",
+        "source": "links.csv"
+      }
+    ],
+    "creativity-innovation-and-intellectual-property": [
+      {
+        "title": "Video: Creativity, Intellectual Rights & Tech Entrepreneurship (Dr. Chuks)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4kuipKtvEtY",
+        "source": "links.csv"
+      }
+    ],
+    "start-up-business-planning": [
+      {
+        "title": "Video: Harvard i-lab | Entrepreneurship 101 with Gordon Jones (Harvard Innovation Labs)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7IoBUOsy_ew",
+        "source": "links.csv"
+      }
+    ],
+    "ethics-and-social-responsibility": [
+      {
+        "title": "Video: UGBS 207 :Corporate Social Responsibility and Ethics - SESSION 1 – INTRODUCTION (University of Ghana Distance Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5wOheuSQPTk",
+        "source": "links.csv"
+      }
+    ],
+    "legal-issues-in-entrepreneurship": [
+      {
+        "title": "Video: Legal Issues for Entrepreneurs (Joseph Hadzima)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9GCxvq_RENk",
+        "source": "links.csv"
+      }
+    ],
+    "digital-business-and-contemporary-entrepreneurship": [
+      {
+        "title": "Video: MKTG 303: SESSION 1 - INTRODUCTION TO ELECTRONIC BUSINESS AND ELECTRONIC COMMERCE (University of Ghana Distance Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=10jyVBv19Wc",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

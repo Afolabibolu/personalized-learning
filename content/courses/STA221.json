@@ -1,0 +1,108 @@
+{
+  "code": "STA 221",
+  "title": "Statistical Inference II",
+  "semester": 2,
+  "description": "The Statistics Department's second inference course: sampling and sampling distributions, point estimation and the properties of good estimators, confidence intervals for means, proportions, variances and differences, sample size, the principles of hypothesis testing with Type I and II errors and power, tests on means, proportions and variances, chi-square tests, analysis of variance and simple regression. Built from Dr A. Adedayo Adepoju's STA 221 lectures (2021), the course outline and the past papers from 2009/10 to 2020/21.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "sampling-and-sampling-distributions",
+      "title": "Sampling and Sampling Distributions",
+      "summary": "A sample is studied because the whole population usually cannot be. STA 221 covers the sampling methods, sampling and non-sampling error, and the sampling distributions of the mean and of a proportion, with and without replacement.",
+      "subtopics": [
+        "Population, sample, parameter and statistic",
+        "Reasons for sampling",
+        "Probability and non-probability sampling methods",
+        "Sampling and non-sampling error",
+        "Sampling distribution of the mean and the central limit theorem",
+        "Sampling distribution of a proportion and of a difference"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "point-estimation",
+      "title": "Point Estimation",
+      "summary": "Estimation uses a sample value to estimate an unknown parameter. A point estimate is judged by unbiasedness, efficiency (mean squared error), consistency and robustness.",
+      "subtopics": [
+        "Parameter, estimator and estimate",
+        "Unbiasedness and bias",
+        "Mean squared error and efficiency",
+        "Relative efficiency",
+        "Consistency",
+        "Robust estimators and the median absolute deviation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "confidence-intervals-for-means-and-proportions",
+      "title": "Confidence Intervals for Means and Proportions",
+      "summary": "A confidence interval gives a range that contains the parameter with a chosen confidence level. STA 221 builds intervals for a mean with σ known or unknown and for a proportion.",
+      "subtopics": [
+        "Confidence level and the margin of error",
+        "Interval for μ with σ known",
+        "Large samples with σ unknown",
+        "Small samples and the t-distribution",
+        "Interval for a proportion",
+        "How confidence and n affect the width"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "intervals-for-variances-differences-and-sample-size",
+      "title": "Intervals for Variances and Differences, and Sample Size",
+      "summary": "Intervals for a variance use the chi-square distribution and for a ratio of variances the F-distribution, both for normal populations. Differences of means and proportions get z or t intervals, and sample size is chosen from the confidence level and the bound on the error.",
+      "subtopics": [
+        "Interval for a variance (chi-square)",
+        "Interval for a ratio of variances (F)",
+        "Difference of two means: σ known, pooled and unequal variances",
+        "Difference of two proportions",
+        "Sample size for a mean",
+        "Sample size for a proportion"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "principles-of-hypothesis-testing",
+      "title": "Principles of Hypothesis Testing",
+      "summary": "A hypothesis test decides between a null and an alternative hypothesis using a test statistic and a critical region. STA 221 stresses the two kinds of error, the significance level, and the power of a test.",
+      "subtopics": [
+        "Null and alternative, simple and composite hypotheses",
+        "Test statistic, critical region and significance level",
+        "One-tailed and two-tailed tests",
+        "Type I and Type II errors",
+        "Calculating β for a z test",
+        "Power and what increases it"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "tests-on-means-proportions-and-variances",
+      "title": "Tests on Means, Proportions and Variances",
+      "summary": "The past papers test one mean, two means, one or two proportions and one or two variances. The choice of z, t, chi-square or F statistic depends on what is known and on the sample size.",
+      "subtopics": [
+        "One mean: z with σ known, t with σ unknown",
+        "Two means: z and the pooled t test",
+        "One proportion and two proportions",
+        "One variance: the chi-square test",
+        "Two variances: the F test",
+        "Decision rules and conclusions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "chi-square-tests-anova-and-regression",
+      "title": "Chi-square Tests, ANOVA and Regression",
+      "summary": "Every STA 221 paper ends with chi-square goodness-of-fit and independence tests and one-way or two-way analysis of variance; earlier papers add regression and correlation. These are the outline's goodness-of-fit and ANOVA weeks.",
+      "subtopics": [
+        "Properties of the chi-square distribution",
+        "Goodness of fit to binomial and Poisson",
+        "Contingency tables and independence",
+        "Experimental design terms",
+        "One-way and two-way ANOVA",
+        "Simple regression and correlation"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "code": "CSC 293",
+  "books": {
+    "akinola": {
+      "title": "Web Design and Programming for Beginners (HTML, CSS, JavaScript and PHP)",
+      "authors": "S. O. Akinola",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "the-web-websites-and-web-applications": [
+      {
+        "book": "akinola",
+        "read": "Chapter 1, Website versus Web Application",
+        "why": "The Web, websites, web applications and browsers."
+      }
+    ],
+    "web-design-principles-and-planning": [
+      {
+        "book": "akinola",
+        "read": "Chapter 2, Web Design",
+        "why": "Design aspects, page types, accessibility and planning."
+      }
+    ],
+    "html-tags-tables-and-links": [
+      {
+        "book": "akinola",
+        "read": "Chapters 3 to 6 (basic tags, tables, page jumps, linking)",
+        "why": "Writing HTML pages."
+      }
+    ],
+    "html-forms": [
+      {
+        "book": "akinola",
+        "read": "Chapter 7, Creating Forms",
+        "why": "Form tags and input elements."
+      }
+    ],
+    "css-and-page-layout": [
+      {
+        "book": "akinola",
+        "read": "Chapters 8 and 9 (CSS; CSS Properties and Values)",
+        "why": "Rules, style sheets and properties."
+      }
+    ],
+    "javascript": [
+      {
+        "book": "akinola",
+        "read": "Chapters 10 to 19 (JavaScript)",
+        "why": "Variables, operators, control structures, functions and events."
+      }
+    ],
+    "php-and-mysql": [
+      {
+        "book": "akinola",
+        "read": "Chapters 20 to 26 (PHP and MySQL)",
+        "why": "PHP basics and database handling."
+      }
+    ]
+  }
+}

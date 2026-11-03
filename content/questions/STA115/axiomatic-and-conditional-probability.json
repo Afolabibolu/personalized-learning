@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "30% of students take computer science, 45% mathematics and 10% both. What is P(computer science or mathematics)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.65"
+      },
+      {
+        "key": "b",
+        "text": "0.75"
+      },
+      {
+        "key": "c",
+        "text": "0.55"
+      },
+      {
+        "key": "d",
+        "text": "0.135"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.30 + 0.45 − 0.10.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For the same students, what is the probability of taking neither course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.35"
+      },
+      {
+        "key": "b",
+        "text": "0.25"
+      },
+      {
+        "key": "c",
+        "text": "0.65"
+      },
+      {
+        "key": "d",
+        "text": "0.10"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 − 0.65.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Components 1 and 2 are in series and component 3 is in parallel with them; each works independently with probability 0.9. P(system works) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.981"
+      },
+      {
+        "key": "b",
+        "text": "0.729"
+      },
+      {
+        "key": "c",
+        "text": "0.81"
+      },
+      {
+        "key": "d",
+        "text": "0.999"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.81 + 0.9 − 0.729.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two fair dice are rolled and the first shows 4. What is the probability that the sum is 8?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/6"
+      },
+      {
+        "key": "b",
+        "text": "1/36"
+      },
+      {
+        "key": "c",
+        "text": "5/36"
+      },
+      {
+        "key": "d",
+        "text": "1/4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Only (4, 4) works out of six outcomes.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "true_false",
+    "stem": "If E and F are independent, then P(E ∩ F) = P(E)P(F).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is the definition of independence.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two mutually exclusive events with positive probabilities are independent.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Their intersection has probability 0, not P(E)P(F).",
+    "source": "General knowledge of STA 115"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are axioms of probability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0 ≤ P(E) ≤ 1"
+      },
+      {
+        "key": "b",
+        "text": "P(Ω) = 1"
+      },
+      {
+        "key": "c",
+        "text": "P of a union of mutually exclusive events is the sum of their probabilities"
+      },
+      {
+        "key": "d",
+        "text": "P(E) = 1/2 for every event"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is not a rule of probability.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which law is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Commutative law"
+      },
+      {
+        "key": "b",
+        "text": "Associative law"
+      },
+      {
+        "key": "c",
+        "text": "De Morgan's law"
+      },
+      {
+        "key": "d",
+        "text": "Bayes' rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bayes' rule is a probability result, not a law of set operations.",
+    "source": "STA 115 Lecture 2: Axiomatic Probability (Shittu, 2023)"
+  }
+]

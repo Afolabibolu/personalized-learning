@@ -1,0 +1,108 @@
+{
+  "code": "STA 211",
+  "title": "Probability II",
+  "semester": 1,
+  "description": "The Statistics Department's second probability course: further permutations and combinations, probability laws and Bayes' rule, random variables, expectation, moments and Chebyshev's inequality, the discrete distributions (binomial, geometric, negative binomial, Poisson, hypergeometric), the continuous distributions (uniform, normal, exponential, gamma, chi-square), and joint, marginal and conditional distributions. Built from G. N. Amahia's STA 211 Probability II text (UI Distance Learning Centre), the updated lecture slides and the past papers from 2014 to 2024/25.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "further-permutations-and-combinations",
+      "title": "Further Permutations and Combinations",
+      "summary": "Permutations count ordered arrangements and combinations unordered selections. STA 211 extends them to arrangements of alike objects, circular arrangements, selections with restrictions and the combinatorial identities used in proofs, such as Pascal's rule and Vandermonde's identity.",
+      "subtopics": [
+        "The multiplication principle and factorials",
+        "Permutations nPr and with repetition",
+        "Arrangements of alike objects",
+        "Combinations nCr and restricted selections",
+        "Combinatorial identities",
+        "The binomial expansion"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "probability-laws-conditional-probability-and-bayes",
+      "title": "Probability Laws, Conditional Probability and Bayes' Rule",
+      "summary": "Probability rests on three axioms. From them follow the complement and addition laws for two and three events. Conditional probability, independence, the total probability rule and Bayes' rule solve problems with partitions, such as which place a fisherman fished.",
+      "subtopics": [
+        "Sample spaces, events and the axioms",
+        "The complement and addition laws",
+        "The addition law for three events",
+        "Conditional probability",
+        "Independence",
+        "Total probability and Bayes' rule"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "random-variables-expectation-and-moments",
+      "title": "Random Variables, Expectation, Moments and Chebyshev's Inequality",
+      "summary": "A random variable has a probability mass or density function and a cumulative distribution function. Its expectation, variance and moments summarise the distribution, moment generating functions produce the moments, and Chebyshev's inequality bounds the probability of being far from the mean.",
+      "subtopics": [
+        "Probability mass and density functions",
+        "Finding constants and the CDF",
+        "Expectation and its properties",
+        "Variance and moments",
+        "Moment generating functions",
+        "Chebyshev's inequality"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "binomial-geometric-and-negative-binomial",
+      "title": "Bernoulli, Binomial, Geometric and Negative Binomial Distributions",
+      "summary": "A Bernoulli trial has two outcomes. The binomial counts successes in n independent trials, the geometric counts the trials to the first success, and the negative binomial the trials to the kth success. Each has standard formulas for its probabilities, mean, variance and mgf.",
+      "subtopics": [
+        "Bernoulli trials",
+        "The binomial distribution and its properties",
+        "Mean, variance and mgf of the binomial",
+        "Applications: dice and defectives",
+        "The geometric distribution",
+        "The negative binomial distribution"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "poisson-and-hypergeometric-distributions",
+      "title": "The Poisson and Hypergeometric Distributions",
+      "summary": "The Poisson distribution models counts of rare events with mean λ, its mean and variance both equal λ, and it approximates the binomial when n is large and p small. The hypergeometric distribution models sampling without replacement from a finite population of two types.",
+      "subtopics": [
+        "The Poisson distribution",
+        "Mean, variance and mgf of the Poisson",
+        "Poisson approximation to the binomial",
+        "Sums of Poisson variables",
+        "The hypergeometric distribution",
+        "Hypergeometric versus binomial"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "continuous-distributions",
+      "title": "Uniform, Normal, Exponential, Gamma and Chi-square Distributions",
+      "summary": "Continuous distributions model measurements. The uniform distribution spreads probability evenly over an interval, the normal is the bell-shaped distribution standardised by z, the exponential models waiting times, and the gamma and chi-square families, with their moment generating functions, model sums of waiting times and squared normal variables.",
+      "subtopics": [
+        "The uniform (rectangular) distribution",
+        "The normal distribution and standardisation",
+        "Using normal tables",
+        "The exponential distribution",
+        "The gamma distribution and its mgf",
+        "The chi-square distribution"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "joint-marginal-and-conditional-distributions",
+      "title": "Joint, Marginal and Conditional Distributions",
+      "summary": "Two random variables have a joint distribution, from which marginal distributions are found by summing or integrating out the other variable, and conditional distributions by dividing by a marginal. Covariance measures linear association, independence factorises the joint density, and distributions of functions of random variables come from the CDF or transformation methods.",
+      "subtopics": [
+        "Joint probability functions",
+        "Marginal distributions",
+        "Conditional distributions and conditional expectation",
+        "Independence of random variables",
+        "Covariance and its interpretation",
+        "Distributions of functions of random variables"
+      ],
+      "lectures": []
+    }
+  ]
+}

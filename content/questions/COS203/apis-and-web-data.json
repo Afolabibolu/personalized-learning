@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which HTTP method is used to read data from an API?",
+    "options": [
+      {
+        "key": "a",
+        "text": "GET"
+      },
+      {
+        "key": "b",
+        "text": "POST"
+      },
+      {
+        "key": "c",
+        "text": "PUT"
+      },
+      {
+        "key": "d",
+        "text": "DELETE"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "POST sends new data.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which status code means you are calling an API too fast?",
+    "options": [
+      {
+        "key": "a",
+        "text": "429"
+      },
+      {
+        "key": "b",
+        "text": "404"
+      },
+      {
+        "key": "c",
+        "text": "401"
+      },
+      {
+        "key": "d",
+        "text": "201"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Wait, then try again.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which status code means a missing or wrong API key?",
+    "options": [
+      {
+        "key": "a",
+        "text": "401 Unauthorized"
+      },
+      {
+        "key": "b",
+        "text": "400 Bad Request"
+      },
+      {
+        "key": "c",
+        "text": "404 Not Found"
+      },
+      {
+        "key": "d",
+        "text": "500 Server Error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Send the correct key in the headers.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which function converts a JSON string into a Python object?",
+    "options": [
+      {
+        "key": "a",
+        "text": "json.loads()"
+      },
+      {
+        "key": "b",
+        "text": "json.dump()"
+      },
+      {
+        "key": "c",
+        "text": "json.dumps()"
+      },
+      {
+        "key": "d",
+        "text": "json.load()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Functions ending in s work with strings.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "true_false",
+    "stem": "JSON null becomes None in Python.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "true and false become True and False.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "true_false",
+    "stem": "requests raises an error automatically whenever a response has status 400.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Check status_code or call raise_for_status().",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What should you check before scraping a website?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its terms of use"
+      },
+      {
+        "key": "b",
+        "text": "robots.txt"
+      },
+      {
+        "key": "c",
+        "text": "Whether it has an API"
+      },
+      {
+        "key": "d",
+        "text": "Its owner's home address"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Never collect personal data you have no right to.",
+    "source": "API and Web Data.pptx (Week 8)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an exception from the requests library in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HTTPError"
+      },
+      {
+        "key": "b",
+        "text": "Timeout"
+      },
+      {
+        "key": "c",
+        "text": "ConnectionError"
+      },
+      {
+        "key": "d",
+        "text": "IndentationError"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "IndentationError is a Python syntax error.",
+    "source": "API and Web Data.pptx (Week 8)"
+  }
+]

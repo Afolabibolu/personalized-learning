@@ -1,0 +1,1421 @@
+{
+  "code": "CSC 213",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "B.Sc. Degree Examination, First Semester 2018/2019 (CSC 213: Digital Logic Design). Answer Question one and any other two questions; 2 hours",
+      "source": "First Semester PQs/CSC 213 PQ COMPILED/CSC 213 2018-19.pdf"
+    },
+    {
+      "year": "2018/2019 test",
+      "paper": "CSC 213 Test, 26 July 2019 (2018/2019 session)",
+      "source": "First Semester PQs/CSC 213 PQ COMPILED/CSC 213 2019 Test.pdf"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "B.Sc. Degree Examinations, First Semester 2020/2021 (CSC 213: Digital Logic Design, compulsory, 4 units). Answer Question one and any other three questions; 2½ hours",
+      "source": "First Semester PQs/CSC 213 PQ COMPILED/CSC 213 2020-21.pdf"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "paper": "B.Sc. Degree Examination, First Semester 2010/2011 (CSC 212: Introduction to Computer Electronics, the course's earlier code). Answer question 1 and any other two questions; 2½ hours. Photographed copy; a few words are unreadable",
+      "source": "CSC  213/DIGITAL LOGIC/past question/CSC 213 2.jpeg and CSC 213 3.jpeg"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "paper": "B.Sc. Degree Examination, First Semester 2011/2012 (CSC 212: Introduction to Computer Electronics). Answer question 1 and any other two questions; 2½ hours",
+      "source": "CSC  213/DIGITAL LOGIC/past question/CSC 213 5.jpeg and CSC 213 6.jpeg (CSC 213 1.jpeg is another copy of page 2)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "paper": "B.Sc. Degree Examination, First Semester 2012/2013 (CSC 212: Introduction to Computer Electronics). Answer question 1 and any other two questions; 2½ hours. Photographed copy; a few words are unreadable",
+      "source": "CSC  213/DIGITAL LOGIC/past question/CSC 213 10.jpeg and CSC 213 4.jpeg"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "paper": "B.Sc. Degree Examination, First Semester 2017/2018 (CSC 212: Introduction to Computer Electronics). Section A: answer any two questions; Section B: answer any two questions; 2 hours",
+      "source": "CSC  213/DIGITAL LOGIC/past question/CSC 213 9.jpeg and CSC 213 7.jpeg"
+    },
+    {
+      "year": "2019/2020 test",
+      "paper": "CSC 213 Test, September 2019",
+      "source": "First Semester PQs/CSC 213 PQ COMPILED/CSC 213 TEST.pdf"
+    },
+    {
+      "year": "2021/2022",
+      "paper": "BSc Degree Examination, First Semester 2021/2022 (CSC 213: Digital Logic Design). Answer Question 1 and any other 2 questions; 3 hours",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/CSC 213 COMPILED.pdf, page 1 (page 2 is part of a marking scheme, pages 3 to 5 repeat the 2020/2021 paper)"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "B.Sc. Degree Examinations, First Semester 2024/2025 (CSC 213: Digital Logic Design, compulsory, 4 units). Answer all questions; 3 hours",
+      "source": "2024-2025-200-PQ.pdf, page 10"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examinations, First Semester 2022/2023 (CSC 213: Digital Logic Design, compulsory, 4 units). Section A: answer all questions; Section B: answer any other two questions; 2½ hours",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/IMG_20240817_105233_219.jpg (Section A) and IMG_20240817_105211_740.jpg (Section B), filed in the CSC 231 folder"
+    },
+    {
+      "year": "2023/2024 test",
+      "paper": "CSC 213 Test, October 2023",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/IMG_20240817_105400_982.jpg, filed in the CSC 231 folder"
+    },
+    {
+      "year": "2023/2024 CA",
+      "paper": "CSC 213 CA Test, 10 minutes (an online objective test printed on 19 March 2024; the answers marked on the copy are a student's and are not reproduced)",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/213 test.pdf, filed in the CSC 231 folder"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "BSc Degree Examination, First Semester 2023/2024 (CSC 213: Digital Logic Design). Answer question one and any other two questions; 3 hours",
+      "source": "First Semester PQs/CSC 231 PQ COMPILED/WhatsApp Image 2025-03-08 at 7.58.47 PM.jpeg (page 1) and 7.58.46 PM.jpeg (page 2), filed in the CSC 231 folder"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019",
+      "number": "1A",
+      "topic": "circuit-theory",
+      "text": "State Thevenin's theorem. (1 mark)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1B",
+      "topic": "semiconductors-and-transistors",
+      "text": "How are extrinsic semiconductors formed? (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1C",
+      "topic": "logic-families-and-gates",
+      "text": "Which logic gate does the figure represent? (A single NPN transistor with a collector resistor R to +Vcc, input A at the base and the output Q taken from the collector.) (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1D",
+      "topic": "logic-families-and-gates",
+      "text": "What is referred to as the Noise Immunity and the propagation delay of a logic family? (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1E",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "NACOSS organized a Luncheon to honour some awardees, where each student is to serve himself. The caterer, Mr Alola however set some rules that each student must obey in order to take his/her food. The rules were:\n1. Appetizer is compulsory.\n2. Dessert is compulsory.\n3. The main course comprised of either (Fried Rice and Moi moi) or (Jollof Rice and Salad).\n4. The main course must be accompanied with either Chicken or Beef but not both, as well as Fish.\n5. Drink is optional.\nUsing your knowledge of digital design, draw a logic circuit/diagram that represents Luncheon food selection. (6 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1F",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Using K-Map, minimise Y(A,B,C,D) = Σm(1, 4, 5, 6, 9, 12, 13, 14). (3 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1G",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Convert F to fundamental SOP, where F = AB(C̄ + D). (3 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1H",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Implement the following functions using a PROM: W(A,B,C) = Σm(0, 2, 3); X(A,B,C) = Σm(2, 4, 6); Y(A,B,C) = Σm(4, 6, 7). (4 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1I",
+      "topic": "sequential-circuits-and-codes",
+      "text": "List the four modes of operation of shift registers. (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "1J",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Assuming your friend sent you a Safe containing one million naira as your birthday gift and informed you that the Safe can only be unlocked with a 3-digit decimal number. He then sends you 1101110100 as the unlock code! With reference to the 4 examples of computer codes we studied in CSC 213, decipher the 4 possible unlock codes! (5 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2A",
+      "topic": "circuit-theory",
+      "text": "1. State Norton's theorem. (1 mark) 2. What is the Norton current for the circuit? (Vs = 10 V; R1 = 560 Ω in series; R2 = 1.0 kΩ and the load RL = 820 Ω in parallel.) (5 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2B",
+      "topic": "semiconductors-and-transistors",
+      "text": "Write short notes (with diagrams) on any two of these diodes: Zener Diode, Schottky Diode, Shockley Diode and Light Emitting Diode. (4 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2C",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "What characteristics differentiate these computer circuits: PLAs, PALs, PROMs. (3 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "2D",
+      "topic": "logic-families-and-gates",
+      "text": "Write these acronyms in full and specify their main characteristics: MSI, LSI, VLSI, ULSI. (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3A",
+      "topic": "semiconductors-and-transistors",
+      "text": "With suitable diagrams, comment of the depletion layer of a P-N junction. (4 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3B",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "What is the function of a Demultiplexer? (2 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3C",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Design and sketch a Binary-Up Modulo-6 Counter. (5 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3D",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Implement the following functions using a PLA: W(A,B,C) = Σm(0, 2, 3, 6); X(A,B,C) = Σm(2, 3, 4, 6); Y(A,B,C) = Σm(4, 6, 7). (4 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "4A",
+      "topic": "sequential-circuits-and-codes",
+      "text": "With respect to Registers and Flip-flops, what does it mean for a Computer System to be referred to as a 32bit system? (3 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "4B",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Write short notes with examples on any 3 of the following: (1) Weighted codes (2) Non-weighted codes (3) Reflective codes (4) Sequential Codes (5) Error detecting and correcting codes. (6 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "4C",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "You have been asked to design a unique 1-bit magnitude comparator that has outputs for A = B, A ≤ B, A ≥ B. Generate the truth table for this comparator and then sketch the Comparator. (4 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "4D",
+      "topic": "sequential-circuits-and-codes",
+      "text": "If the data (0100101) is to be transmitted using even parity check, what bits will ultimately be transmitted? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "1",
+      "topic": "semiconductors-and-transistors",
+      "text": "At every P-N junction, a depletion layer is formed. This layer can be affected, depending on the biasing of the junction. With suitable diagrams, explain what it means to (a) Forward bias a P-N junction and what is the effect? (2 marks) (b) Reverse bias a P-N junction and what is the effect? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "2",
+      "topic": "logic-families-and-gates",
+      "text": "Dr Fasola went into an electronics lab to implement a logic circuit diagram that he had designed as shown in figure 1 (a circuit of AND, OR and NOT gates on inputs A, B and C). To his dismay, the lab had only two types of gates and the lab technician insisted that he could still implement what he had designed with any of these two gates ONLY. (a) Name, draw the symbol(s) and generate a two-input truth table for the logic gates you think are available in the lab. (3 marks) (b) Show how any one of the gates in the lab can be used to implement any of the logic gates in fig. 1. (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "3",
+      "topic": "semiconductors-and-transistors",
+      "text": "An NPN Transistor has a DC current gain (β) value of 200. Calculate the base current Ib required to switch a resistive load of 4mA. (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "4",
+      "topic": "semiconductors-and-transistors",
+      "text": "When is a transistor said to be fully cut-off? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "5",
+      "topic": "semiconductors-and-transistors",
+      "text": "Why are FETs said to be 'voltage-operated-devices'? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test",
+      "number": "6",
+      "topic": "semiconductors-and-transistors",
+      "text": "Study figure 2 (a 12 V supply, a four-position switch and four lamps L1 to L4 connected through silicon diodes). The lamps are of 2v rating and the diodes are made from silicon. Which lamp(s) will illuminate with the switch in position: a) 1 b) 2 c) 3 d) 4. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1A",
+      "topic": "circuit-theory",
+      "text": "Find and draw the Thevenin's equivalent circuit for Figure 1 (a 10 V source with a 2 Ω series resistor, a 12 Ω resistor across terminals A and B, and a 24 Ω load). Take the 24Ω resistor as the load. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1B",
+      "topic": "semiconductors-and-transistors",
+      "text": "What is referred to as Recombination in an intrinsic semi-conductor? (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1C",
+      "topic": "sequential-circuits-and-codes",
+      "text": "0010101 was transmitted using the 7-bit even parity Hamming code. Verify if the received data is correct, if not identify the error and correct it. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1D",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Sketch the circuit diagram that represents (Ā + B)(D + B̄C). (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1E",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Anastasia opened a Sharwama shop and laid down the following rules for making Sharwama. (1) a customer can either have a Beef filled roll or a Chicken filled roll, but not both. (2) Each Roll comes with Sausage, Carrot gratings and Cabbage gratings. (3) A customer may choose to have Sweet chilli sauce with the roll. This is however not mandatory. Represent the rules, using a logic diagram. (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1F",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Express Y = ĀB + B̄C in it's canonical form. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1G",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Minimize f(A,B,C,D) = Σm(2, 4, 5, 6, 7, 10, 12, 13, 14, 15) using Karnaugh Maps. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1H",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "How can a 4-bit Ripple Carry Adder be converted to a 4-bit Binary Subtractor that performs subtraction using 2's complement? (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1I",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Registers and Counters are sequential circuits used by computing systems. What devices are used to make these Registers and counters? Describe any of them. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1J",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Computer Codes can be classified as Weighted or Non-weighted. Differentiate between these two classes and give an example (each) of codes belonging in the two categories. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2A",
+      "topic": "circuit-theory",
+      "text": "With suitable diagrams, state Kirchoff's Laws. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2B",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "What is the function of a De-Multiplexer? (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2C",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Draw the digital logic circuit for F, given that F = ĀB̄C + ABC + ĀBC̄. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2D",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Assuming we want to use a 7-bit Hamming code (Odd parity) to transmit the following data, 1011. Generate the parity bits and write out what is eventually transmitted. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3A",
+      "topic": "semiconductors-and-transistors",
+      "text": "Can intrinsic semi-conductors be doped? What is the effect? (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3B",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Using Boolean Algebra, prove that: AB(C + D) = (C + D)(Ā + B)(A + B̄)(A + B). (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3C",
+      "topic": "semiconductors-and-transistors",
+      "text": "Describe the Junction FET. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3D",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Suppose you want to design a small circuit that will send some form of alarm when anyone comes close to the front window or back window of your room. You also want this device to always listen for any noise around your house and also trigger the alarm. Draw a circuit that represents the logic for the sensors. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4A",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Convert 39₁₀ to the following computer codes: i. Binary ii. BCD iii. XS-3 iv. Gray Codes (4 bit). (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4B",
+      "topic": "logic-families-and-gates",
+      "text": "Briefly describe the following characteristics of Logic Families: i. Noise Immunity ii. Propagation Delay iii. Fan-Out. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4C",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Generate the Boolean expression for F3 (a circuit of OR gates on A, B and their complements feeding AND gates). (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5A",
+      "topic": "semiconductors-and-transistors",
+      "text": "Calculate the DC current gain of an NPN Transistor with base current of 20μA and collector current of 4mA. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5B",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Find F(x, y, z), the dual of H(x, y, z) = (x̄ + y + z̄)(x̄ + ȳ + z). (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5C",
+      "topic": "sequential-circuits-and-codes",
+      "text": "The four modes of data transfer for shift register are? (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5D",
+      "topic": "circuit-theory",
+      "text": "Find and draw the Norton's equivalent circuit for the figure (a 20 V source with a 5 Ω series resistor, a 10 Ω resistor in parallel and a 6 Ω load). Take the 6Ω resistor as the load. (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6A",
+      "topic": "circuit-theory",
+      "text": "With suitable diagrams, state Kirchoff's Laws. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6B",
+      "topic": "logic-families-and-gates",
+      "text": "Explain using any suitable diagram why NOR or NAND Gates are Universal Gate. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6C",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Sequential circuits can be categorized into three. Briefly describe any two. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6D",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "With any suitable logic circuit diagram, truth table and Boolean expression (in SOP), describe the function of the 1-bit Ripple Carry Full Adder. (4 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1a",
+      "topic": "semiconductors-and-transistors",
+      "text": "With the aid of suitable diagrams, distinguish between a bipolar transistor and a unipolar transistor. (10 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Study Figure 1 (a circuit of AND, OR and NOT gates on inputs A, B and C with intermediate outputs V, W, X and Y and final output Z). i. What Boolean expression does the circuit represent? (5 marks) ii. Simplify the expression and illustrate your answer with a sketch. (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1c",
+      "topic": "semiconductors-and-transistors",
+      "text": "What is referred to as the reverse recovery time of a diode? (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1d",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Using the truth table, show that the complement of ABC (the whole product) is not equal to ĀB̄C̄. (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1e",
+      "topic": "semiconductors-and-transistors",
+      "text": "How many diodes are needed to implement a:- i. half wave rectifier (1 mark) ii. full wave rectifier (1 mark)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "1f",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Sketch and analyse the diagram of a modulo-5 binary up counter. (4 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "2a",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Complement the following Boolean expressions and illustrate each answer with a sketch of the circuit. i. AB̄ + BC (1 mark) ii. ĀB̄C + ĀBC̄ + ABC (2 marks) iii. (Ā + B + C)(A + B̄C) (2 marks) iv. (Ā + B)(A + B̄ + C)(B̄ + C + DEF) (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "2b",
+      "topic": "sequential-circuits-and-codes",
+      "text": "How many flip flops are required to build binary counters of modulo:- i. 7 ii. 8 iii. 15 iv. 16 (4 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "2c",
+      "topic": "semiconductors-and-transistors",
+      "text": "Comment on the depletion layer in a p-n junction. (5 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "2d",
+      "topic": "circuit-theory",
+      "text": "Differentiate between Conservation of Charge and Conservation of Energy. (4 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "3a",
+      "topic": "semiconductors-and-transistors",
+      "text": "Write short notes on any three of the following (seven diode symbols are shown: diode, Schottky, Zener and others). (6 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "3b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "i. Which Boolean expression does the Karnaugh map represent? (2 marks) ii. Simplify the expression and sketch your answer. (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "3c",
+      "topic": "logic-families-and-gates",
+      "text": "What is the function of a NOT gate? (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "3d",
+      "topic": "semiconductors-and-transistors",
+      "text": "How can Silicon be made: i. a P-type semiconductor (2 marks) ii. an N-type semiconductor (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "3e",
+      "topic": "logic-families-and-gates",
+      "text": "Which logic gates are referred to as Universal gates? Show how one of them can be used to implement three other logic gates. (4 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "4a",
+      "topic": "logic-families-and-gates",
+      "text": "Figure 2 is a simple 2-input logic gate using transistors as switches (two transistors T1 and T2, each with a base resistor R, from +Vcc). i. Which logic gate does it represent? (2 marks) ii. What is the regular symbol for this logic gate? (1 mark) iii. Generate the truth table for this logic gate with three inputs. (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "4b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Convert the following expressions to standard sum of products: i. AB̄ + BC + ĀC̄ (2 marks) ii. A(B̄C + D) (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "4c",
+      "topic": "semiconductors-and-transistors",
+      "text": "Study figure 3 (a supply, a four-position switch and lamps L1 to L4 connected through diodes). The lamps are of 6v rating. Which lamp(s) will illuminate with the switch in position: i. 1 ii. 2 iii. 3 iv. 4 (7 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "4d",
+      "topic": "semiconductors-and-transistors",
+      "text": "What is the function of a full wave rectifier? (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "5a",
+      "topic": "circuit-theory",
+      "text": "Study figure 4 below. Note that R is the load. i. Find and draw the Thévenin's equivalent circuit for figure 4. (7 marks) ii. Find the current flowing through the equivalent circuit if R = 8Ω. (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "5b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Sketch the logic diagram that represents (Ā + C)(A + B̄). (2 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "5c",
+      "topic": "semiconductors-and-transistors",
+      "text": "Why are BJTs said to be 'current-operated-devices'? (3 marks)"
+    },
+    {
+      "year": "2010/2011 (CSC 212)",
+      "number": "5d",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Sketch and analyse the diagram of a modulo-8 binary up counter. (5 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1a",
+      "topic": "circuit-theory",
+      "text": "State Kirchhoff's laws for an electric circuit, giving an algebraic expression for each law. (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1b",
+      "topic": "circuit-theory",
+      "text": "Two coils connected in parallel across 100V supply mains, take 10A from the line. The power dissipated in one coil is 600W. What is the resistance of the other coil? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1c",
+      "topic": "circuit-theory",
+      "text": "What are the values of these resistors: Resistors coloured (i) Blue-Brown-Green-Silver-Blue (ii) White-Violet-Black? (3 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1d",
+      "topic": "circuit-theory",
+      "text": "Find the current flowing in the 40Ω resistor, R3 (a 10 V source V1 with R1 = 10 Ω, a 20 V source V2 with R2 = 20 Ω, and R3 = 40 Ω between them). (6 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1e",
+      "topic": "sequential-circuits-and-codes",
+      "text": "What is referred to as the modulo of a counter? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1f",
+      "topic": "logic-families-and-gates",
+      "text": "Most ICs are made of TTLs and/or CMOS. How do these two logic families differ? (6 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1g",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Derive the truth table for Z = AB̄ + AC + ĀBC. (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "1h",
+      "topic": "semiconductors-and-transistors",
+      "text": "With suitable diagrams differentiate between Junction FETs that are symmetrical and unsymmetrical. (3 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "2a",
+      "topic": "circuit-theory",
+      "text": "Determine the resistance of 100m length of Aluminium wire of diameter 2mm, the resistivity of Aluminium, ρ, is 0.0283μΩm. (3 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "2c",
+      "topic": "circuit-theory",
+      "text": "Using superposition theorem, determine the current, I, in the circuit shown below (a 2 V and a 4 V source with a 4 Ω resistor). (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "2d",
+      "topic": "circuit-theory",
+      "text": "Determine and draw the Thevenin's equivalent circuit across terminals A and B (a 12 V source with 1 Ω resistors in series and two 6 Ω resistors). (10 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "2e",
+      "topic": "circuit-theory",
+      "text": "What does each symbol below represent? (three circuit symbols are shown) (3 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "3a",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Compare and contrast a decoder and a demultiplexer. (5 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "3b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Convert the following Boolean expressions to standard sum of product. i. X = (B + C)(A + B̄C) (2 marks) ii. Y = (Ā + B)B̄(C + D) (3 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "3c",
+      "topic": "sequential-circuits-and-codes",
+      "text": "How long will it take for there to be an output after the first input signal has been applied to 4-bit registers of type: i. SISO ii. SIPO iii. PIPO iv. PISO (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "3d",
+      "topic": "semiconductors-and-transistors",
+      "text": "Study figure 5 (a 0.4 V supply, a four-position switch and lamps L1 to L4 connected through diodes). The lamps are of 2v rating, the diodes are made with silicon. With reason(s) state which lamp(s) will illuminate with the switch in position: i. 1 ii. 2 iii. 3 iv. 4 (6 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "4a",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "There are four different ways of representing any combinational logic circuit. Illustrate these four ways using the same circuit. (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "4b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Assuming there are four different recipes for making chocolate cake, however only one recipe can be used at any point in time, depending on the selection. Discuss and implement how this scenario can be achieved using your knowledge of digital electronics. (8 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "4c",
+      "topic": "sequential-circuits-and-codes",
+      "text": "What is the main advantage of a D-Type flip-flop over the S-R flip flop? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "4d",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "What is the effect of minimising a fundamental sum of products expression? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "4e",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "List all the prime implicants for F in the K-map below and then write out the minimised expression. (4 marks)\nK-map (rows CD, columns AB in the order 00, 01, 11, 10):\nCD = 00: 1 0 1 0\nCD = 01: 1 1 1 1\nCD = 11: 0 0 1 0\nCD = 10: 1 0 1 1"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "5a",
+      "topic": "sequential-circuits-and-codes",
+      "text": "How many flip flops are required to build binary counters that will count up to decimal number:- (i) 3 (ii) 7 (iii) 15 (iv) 16 (4 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "5b",
+      "topic": "semiconductors-and-transistors",
+      "text": "Why are FETs said to be 'voltage operated devices'? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "5c",
+      "topic": "sequential-circuits-and-codes",
+      "text": "What do the terms edge triggered and level triggered mean. (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "5d",
+      "topic": "sequential-circuits-and-codes",
+      "text": "What are the four different types of flip flops? (2 marks)"
+    },
+    {
+      "year": "2011/2012 (CSC 212)",
+      "number": "5e",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "S = Σ(5, 12, 13, 14); T = Σ(0, 4, 7, 8, 9, 10, 11). i. Generate the truth table for S and T. (2 marks) ii. Write out expressions for S and T in fundamental sum of products form. (2 marks) iii. Minimise both using Karnaugh maps. (4 marks) iv. Draw the circuit for the minimised form of S and T. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1a",
+      "topic": "semiconductors-and-transistors",
+      "text": "With the aid of suitable diagrams, juxtapose between a regular diode and an N-channel JFET. (5 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Study Figure 1 (a circuit of AND, OR and NOT gates on inputs A, B and C with intermediate outputs W, X, Y and Z and final output Q). i. What Boolean expression does Q represent? (3 marks) ii. Reduce the expression and draw the circuit of the reduced expression. (4 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1c",
+      "topic": "circuit-theory",
+      "text": "With suitable diagrams, differentiate between the Conservation of Charge and Conservation of Energy. (4 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1d",
+      "topic": "semiconductors-and-transistors",
+      "text": "In full details, discuss how Silicon can be made: i. a P-type semiconductor (3 marks) ii. an N-type semiconductor (3 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1e",
+      "topic": "semiconductors-and-transistors",
+      "text": "An NPN Transistor has a DC current gain (β) value of 400. Calculate the base current Ib required to switch a resistive load of 4mA. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1f",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Draw a sketch of a 3-bit Ripple Carry Binary Adder and show what the various outputs will be if the device is to add A = 110₂ to B = 101₂. (4 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "1g",
+      "topic": "sequential-circuits-and-codes",
+      "text": "How many flip flops are required to build binary counters of modulo:- i. 2 ii. 8 iii. 16 iv. 2ⁿ (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "2a",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Sketch and analyse the diagram of an Asynchronous modulo-5 binary up counter. (5 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "2b",
+      "topic": "semiconductors-and-transistors",
+      "text": "i. How is a P-N junction formed? (2 marks) ii. What happens to this junction when it is: 1. Unbiased (2 marks) 2. Forward biased (1 mark) 3. Reverse biased (1 mark)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "2c",
+      "topic": "logic-families-and-gates",
+      "text": "Which logic gates are referred to as Universal gates? Show how one of them can be used to implement any three other logic gates. (5 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "2d",
+      "topic": "semiconductors-and-transistors",
+      "text": "Calculate the DC current gain of an NPN Transistor with base current of 20μA and collector current of 4mA. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "2e",
+      "topic": "sequential-circuits-and-codes",
+      "text": "List the four different modes by which Shift Registers operate. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "3a",
+      "topic": "semiconductors-and-transistors",
+      "text": "Write short notes on the following (five diode and transistor symbols are shown). (2 marks each)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "3b",
+      "topic": "circuit-theory",
+      "text": "With suitable diagrams, state Norton's theorem. (3 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "3c",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Mr. Seaman has four kids named Kunle, Charles, Chinyere and Michael. Each kid has his/her own room equipped with a television but they cannot control the input signal. Mr. Seaman decided for uniformity and fairness, that his kids should watch only 30 minutes of TV a day in their individual rooms. There are two rules however; (1) Only one child can watch TV at a time depending on some selection process. (2) They must watch the same channel. Mr. Seaman however does not know how to implement this, despite the fact that the TV in his own room with only one output signal port, supplies the input signals for the TVs in each of his children's rooms. Assist Mr. Seaman to implement this connection with your knowledge of digital electronics. (7 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "4a",
+      "topic": "logic-families-and-gates",
+      "text": "Figure 2 is a simple 2-input logic gate using transistors as switches: i. With reasons/explanation, state which logic gate it represents? (3 marks) ii. What is the regular symbol for this logic gate? (1 mark) iii. Generate the truth table for this logic gate with three inputs. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "4b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Given that F = A(B + C): i. Draw the logic circuit diagram for F. (2 marks) ii. Convert F to fundamental sum of products. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "4c",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "A magnitude comparator has outputs for designating A < B, A = B, and A > B. i. Generate the truth table for this comparator. (2 marks) ii. Draw the circuit diagram for the comparator. (3 marks) iii. Using this comparator, show how we may determine if A ≤ B, A ≠ B, A ≥ B? (5 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "5a",
+      "topic": "circuit-theory",
+      "text": "Study figure 3. Note that RL is the load. i. Showing all your steps, find and draw the Thévenin's equivalent circuit for figure 3. (7 marks) ii. Find the current flowing through the equivalent circuit if RL = 8k. (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "5b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Sketch the circuit diagram that represents (Ā + B)(D + B̄C). (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "5c",
+      "topic": "semiconductors-and-transistors",
+      "text": "Why are BJTs said to be 'current-operated-devices'? (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "5d",
+      "topic": "sequential-circuits-and-codes",
+      "text": "What is referred to as the Modulo of a counter? (2 marks)"
+    },
+    {
+      "year": "2012/2013 (CSC 212)",
+      "number": "5e",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Mrs. Ketchup has a set of twins called Chicken and Chips. Every Sunday, she makes them dip hand in her purse without looking inside to collect their stipend (N0 or N5 or N10 or N20...). The purse could be empty sometimes. Chicken often complains that Chips always picks higher value notes than she does, however their mum is only interested in knowing when they both pick the same amount, either N0 or otherwise. How can you assist Mrs. Ketchup to know this fact? (5 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "1A",
+      "topic": "semiconductors-and-transistors",
+      "text": "A diode and a resistor are connected separately to a variable voltage supply shown in fig 1a and 1b respectively, in order to study the voltage-current characteristics of each of them. Fig 1c displays the findings on a graph. Using the information from the graph, discuss the effect of voltage on the current for each of the components and explain how the shape of the graph supports your answer. Include ideas of resistance for each component in your answer. (4 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "1B",
+      "topic": "circuit-theory",
+      "text": "Use superposition to find Ix in Figure 2. (4 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "1C",
+      "topic": "circuit-theory",
+      "text": "A flashlight uses a 6-volt battery and has a bulb with a resistance of 150 Ω. When the flashlight is on, how much current will be drawn from the battery? (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "1D",
+      "topic": "semiconductors-and-transistors",
+      "text": "(i) Distinguish between intrinsic and extrinsic conduction in a semiconductor. (2 marks) (ii) A certain transistor operated with forward bias of the base-emitter junction and reverse bias of the base-collector junction has Ic = 9.5 mA and Ie = 10 mA. Find the values of Ib, α and β. (3 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "2A",
+      "topic": "circuit-theory",
+      "text": "Using Thevenin's theorem (or Kirchhoff's law), find the current flowing in the 40Ω resistor, R3 in Figure 3 (V1 = 10 V with R1 = 10 Ω, V2 = 20 V with R2 = 20 Ω). (7 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "2B",
+      "topic": "circuit-theory",
+      "text": "Two coils connected in parallel across 100V supply mains, take 10A from the line. The power dissipated in one coil is 600W. What is the resistance of the other coil? (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "2C",
+      "topic": "semiconductors-and-transistors",
+      "text": "(i) A p-n junction (diode) is formed by doping adjacent layers of a semiconductor. Explain the underlined terms. (3 marks) (ii) Explain how a pure semiconductor can be converted into (i) a p-type and (ii) an n-type semiconductor. (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "2D",
+      "topic": "logic-families-and-gates",
+      "text": "When a designer selects a logic family, what two very important characteristics must be considered? (1 mark)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "3A",
+      "topic": "logic-families-and-gates",
+      "text": "There are different types of Integrated Circuit (IC) Logic families. If asked to pick one to be used in the manufacturing of ICs today, which will you select and why? (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "3B",
+      "topic": "circuit-theory",
+      "text": "What is the value of the resistor coloured White-Violet-Black? (1 mark)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "3C",
+      "topic": "circuit-theory",
+      "text": "What is the Norton current for the circuit? (Vs = 10 V; R1 = 560 Ω; R2 = 1.0 kΩ; RL = 820 Ω.) (5 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "3D",
+      "topic": "semiconductors-and-transistors",
+      "text": "(i) Write short notes (with diagrams) on any two of these diodes: Zener Diode, Schottky Diode, Shockley Diode and Light Emitting Diode. (4 marks) (ii) State three differences between an Ideal Diode and a Practical diode. Tabularise your answer. (3 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "4A",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Mr Eniola bought three cartons of biscuits named Hobnobs, Digestive and Cracker for her students to share. There are 30 students in her class. She had two options for sharing the biscuits. Option A was that each student will take one of each type of biscuit. However, by the time she counted the packets of biscuits in each carton, she knew that Option A would not work. She decided to use Option B, which was this: A student MUST take either a pack of Hobnobs or a pack of Digestive but not both, in addition to that, he must take a packet of Cracker biscuit. Using your knowledge of combinational logic circuit, i. Design the logic circuit that represents Option A. (2 marks) ii. Design the logic circuit that represents Option B. (3 marks) iii. Generate the truth table for Option B. (3 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "4B",
+      "topic": "semiconductors-and-transistors",
+      "text": "Why are BJTs said to be 'current-operated-devices'? (3 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "4C",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "What is the function of a Demultiplexer? (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "4D",
+      "topic": "sequential-circuits-and-codes",
+      "text": "List the four modes of operation of shift registers. (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "5A",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "In B'Klass restaurant, the following \"swallow\" are offered (Amala, Eba, Iyan, Semo), however depending on some sort of selection stated by the chief chef, only one can be selected and sold in a day. Sketch and discuss a digital device that can assist with this scenario using your knowledge of digital electronics. (6 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "5B",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Illustrate Z = Σ(0, 3, 5) in the three representations of combinational logic circuits. (5 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "5C",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "You have been asked to design a unique 1-bit magnitude comparator that has outputs for A = B, A ≤ B, A ≥ B. Sketch this Comparator. (4 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "6A",
+      "topic": "semiconductors-and-transistors",
+      "text": "Study figure 5 (a 12 V supply, a four-position switch and lamps L1 to L4 connected through diodes). The lamps are of 6v rating. Which lamp(s) will illuminate with the switch in position: i. 1 ii. 2 iii. 3 iv. 4 (7 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "6B",
+      "topic": "sequential-circuits-and-codes",
+      "text": "When is the S-R flip-flop said to be in a meta-stable state? (2 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "6C",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Convert F to fundamental SOP, where F = AD(B̄ + C). (3 marks)"
+    },
+    {
+      "year": "2017/2018 (CSC 212)",
+      "number": "6D",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Sketch the diagram of a 2-bit binary Subtractor. (3 marks)"
+    },
+    {
+      "year": "2019/2020 test",
+      "number": "1",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Different between a Binary Encoder and a Priority Encoder. (4 marks)"
+    },
+    {
+      "year": "2019/2020 test",
+      "number": "2",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Wale and Kemi are colleagues in a bank. They have been saddled with the job of getting new customers for the bank, on daily basis. Their supervisor, Mr Albert needs to know their status daily but briefly, with a visual signal. He is interested in knowing, (1) when Wale brings more customers than Kemi, (2) when Kemi brings more customers than Wale, (3) when they bring the same number of customers. With your knowledge of digital electronics, design and analyse the circuit that will be of help to Mr Albert. (6 marks)"
+    },
+    {
+      "year": "2019/2020 test",
+      "number": "3",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "In B'Klass restaurant, the following \"swallow\" are offered (Amala, Eba, Iyan, Semo), however depending on some sort of selection stated by the chief chef, only one can be selected and sold in a day. Sketch and discuss a digital device that can assist with this scenario using your knowledge of digital electronics. (5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1a",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Perform the following binary operation: i. A6₁₆ OR 31₁₆ (1.5 marks) ii. F7A₁₆ and D80₁₆ (1.5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Use DE Morgan's Theorem to draw the logic diagram with three input for; F = ABC + ĀB + BC using necessary gates combination. (5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1c",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Write a Boolean function and design a logic circuit using basic logic gate to activate a speed camera during Morning hours of 4.00am to 11.00am, evening hours of 4.00pm to 5.00pm and Night hours of 8.00pm to 9.00pm. Use 24hours clock timing when designing this circuit. (15 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "1d",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Design even parity bit generator using appropriate truth table. (7 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2a",
+      "topic": "semiconductors-and-transistors",
+      "text": "Explain why semiconductors is needed in digital design and give two examples. (3 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Simplify the Boolean function using Karnaugh Maps (K-map); i. F(A,B,C,D) = Σm(1, 3, 5, 7, 9, 11, 13, 15). (5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "2c",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Design a basic logic gates and write its corresponding Boolean function to activate a boom gate for a car park. The car park will be used during the months of February to June, and September to December. Use yearly calendar for your design. (7 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3a",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Explain the following terms; i. Half Adder ii. Full Adder iii. Multiplexer (6 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "3b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Design a 32 to 1 multiplexer using two 74ls150. (9 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4a",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Differentiate between combinational logic and sequential logic circuits. (5 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "4b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "With the aid of Quine-McClusky method simplify; F = Σm(0, 2, 4, 5, 6, 8, 10). (10 marks)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5a",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Define the Sum of Product. (1 mark)"
+    },
+    {
+      "year": "2021/2022",
+      "number": "5b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Design a seven segment decoder; i. Using appropriate segment activated algorithm and truth table. ii. And simplify the logic using K-map output of each segment. (14 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "1",
+      "topic": "circuit-theory",
+      "text": "State the following circuit laws:- Kirchoffs, Thevenin's and Norton's. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "2",
+      "topic": "semiconductors-and-transistors",
+      "text": "Conductors are materials that allow electricity to flow freely through them, while insulators do not allow free flow of electricity. Which materials are then referred to as Semiconductor materials? Discuss them extensively. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "3",
+      "topic": "semiconductors-and-transistors",
+      "text": "Using a tree structure ONLY, represent the different types of Transistors. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "4",
+      "topic": "logic-families-and-gates",
+      "text": "There are several digital logic families, with different characteristics. The characteristics can be described using Fanout, Propagation delay and Noise immunity. What do these terms mean? (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "5",
+      "topic": "logic-families-and-gates",
+      "text": "In digital electronics, there are 6 logic gates that must have at least 2 inputs. For each of these gates, draw the symbol, give the name and Boolean expression and also generate the truth table with two inputs. (6 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "6",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Ufoma is 12 months old and her mum wants her to eat healthy. Her meals include egg, chicken, milk, yoghurt, water, pasta, rice, yam, bread and sauce. For breakfast she takes egg or chicken, but not both, with bread and she drinks milk. For lunch she eats rice or yam, but not both, as well as egg or chicken and drinks water. At dinner time, she eats chicken, pasta or rice but not both and drinks yoghurt or water. Each meal must go with a sauce. Represent this with a logic circuit. (9 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "7",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Given that Y(A, B, C, D) = Σm(…, 10, 11, 12, 13, 14) (the first minterms are hidden by a fold in the copy): (a) Generate the truth table for Y. (2 marks) (b) Write out the boolean expression for Y in SOP. (2 marks) (c) Minimise Y using Karnaugh maps. (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "8",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Suppose we want to design a 3-input identity comparator X, where the function recognises when ONLY any two inputs are high. (a) Generate the truth table for this function. (2 marks) (b) Write out the Boolean expression for this function using SOP. (1 mark) (c) Draw the circuit diagram of X. (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "9",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Why was the JK flip flop invented? (3 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "10",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Adeoluwa is designing a semi complex electronic device that does a lot of things. One of the sub-systems should hold some data for a while, before processing takes place. With any suitable diagram, describe which device you would advise him to use for this section that stores data and why? (4 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "11",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Assuming your friend sent you a Safe containing one million naira as your birthday gift and informed you that the Safe can only be unlocked with a 3-digit decimal number. He then sends you 1101110100 as the unlock code! With reference to the 4 examples of computer codes we studied in CSC 213, decipher the 4 possible unlock codes! (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "12",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Assuming you want to transmit 0100101, using parity check, what bits will ultimately be transmitted if you use (a) even parity, (b) odd parity? (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A1",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "The curriculum of the CSC students recently changed. At the end of 200 level, their level adviser checks that every student has passed the minimum expected of them. The rules are that every student is expected to pass: a. all compulsory courses (CSC 213, CSC 231, GES 201, GES 108) b. at least one of the two Maths courses taken (MAT213, MAT 223) c. only one of the two Statistics courses taken (STA 211, STA 221) d. at least two out of the three CSC required courses. (CSC 272, CSC 242, CSC 222). Represent the rules, using a logic diagram. (8 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A2",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Given that F(A, B, C, D) = Σ(8, 9, 10, 11, 12, 13, 14), minimize F. (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A3",
+      "topic": "circuit-theory",
+      "text": "Find and draw the Thevenin's equivalent circuit for Figure 1 (a 10 V source with a 2 Ω series resistor, a 12 Ω resistor across A and B, and a 24 Ω load). Take the 24Ω resistor as the load. (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A4",
+      "topic": "semiconductors-and-transistors",
+      "text": "Study figure 2 (a 12 V supply, a four-position switch and lamps L1 to L4 connected through diodes). The lamps are of 6v rating. Which lamp(s) will illuminate with the switch in position: i. 1 ii. 2 iii. 3 iv. 4 (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A5",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Tunji and Oke are Mr. Bolaji's sons. Oke often complains that their dad gives Tunji more money than him, each time they ask for money. Their father, who cannot read, wants to verify this fact. He is interested in knowing the following: (1) when Tunji gets more money than Oke. (2) when Oke gets more money than Tunji. (3) when they both get the same amount. With your knowledge of digital electronics, design and sketch a circuit that can assist Mr. Bolaji. Analyse and explain your circuit. (7 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "A6",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Briefly specify what each of these is used for. (4 marks) i. Multiplexers ii. Decoders iii. Full Adder iv. Karnaugh Maps v. Truth Table vi. Transistors vii. Photodiode viii. Fan Out"
+    },
+    {
+      "year": "2022/2023",
+      "number": "B1a",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Write a Boolean function and design a logic circuit using basic logic gate to activate a speed crane lifting luggage during Morning hours of 4.00am to 11.00am and Afternoon hours of 2.00pm to 3.00pm. Use 24hours clock timing when designing this circuit. (5 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "B1b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Simplify the Boolean function, F(A,B,C,D) = Σm(1, 3, 5, 7, 9, 11, 13, 15), using Karnaugh Maps (K-map). (5 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "B1c",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Design a basic logic gates and write its corresponding Boolean function to activate a boom gate for a car park. The car park will be used during the months of February to June, and September to December. Use yearly calendar for your design. (5 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "B2",
+      "topic": "sequential-circuits-and-codes",
+      "text": "2a Define Sequential Circuits (1 mark) 2b List 3 differences between Synchronous and Asynchronous sequential circuit (3 marks) 2c Differentiate between Flip-Flops and Latches in a sequential device (2 marks) 2d Draw and explain the working of RS Latch using NOR gates (9 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "B3",
+      "topic": "sequential-circuits-and-codes",
+      "text": "3a Explain types of Shift Registers with diagrams (5 marks) 3b Describe five application of shift register (10 marks)"
+    },
+    {
+      "year": "2023/2024 test",
+      "number": "1",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Anastasia opened a Sharwama shop and laid down the following rules for making Sharwama. (1) a customer can either have a Beef filled roll or a Chicken filled roll, but not both. (2) Each Roll must have Sausage, Carrot gratings and Cabbage gratings. (3) A customer may choose to have Sweet chilli sauce with the roll. This is however not mandatory. Represent the rules, using a logic diagram (8 marks)"
+    },
+    {
+      "year": "2023/2024 test",
+      "number": "2",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Given that F = (A + B)(Ā + C) (a) Sketch the logic circuit for F (3 marks) (b) Convert F to fundamental / Canonical sum of products, using Boolean algebra. (4 marks)"
+    },
+    {
+      "year": "2023/2024 test",
+      "number": "3",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Express X as (i) SOP (5 marks) (ii) POS (3 marks), where X is given by the truth table:\nA B C | X\n0 0 0 | 0\n0 0 1 | 1\n0 1 0 | 0\n0 1 1 | 1\n1 0 0 | 0\n1 0 1 | 1\n1 1 0 | 1\n1 1 1 | 1"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "1",
+      "topic": "logic-families-and-gates",
+      "text": "Suppose the output of an XNOR gate is 1. Which of the given input combination is correct? A = 0, B' = 1; A = 1, B = 1; A = 0, B = 1; A = 0, B = 0"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "2",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "DeMorgan's Law states that: (A+B)' = A*B; (AB)' = A' + B'; (AB)' = A' + B; (AB)' = A + B"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "3",
+      "topic": "logic-families-and-gates",
+      "text": "In DTL, the logic gating function is performed by: Inductor; Diode; Transistor; Transformer"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "4",
+      "topic": "sequential-circuits-and-codes",
+      "text": "Convert (312)₈ into decimal: (201)₁₀; (202)₁₀; (203)₁₀; (204)₁₀"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "5",
+      "topic": "logic-families-and-gates",
+      "text": "CMOS technology used in? 1. Microprocessor 2. Inverter 3. Digital logic 4. Both option 1 and 3"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "6",
+      "topic": "logic-families-and-gates",
+      "text": "Which of these sets of logic gates are known as universal gates? XOR, NAND, OR; OR, NOT, XOR; NOR, NAND, XNOR; NOR, NAND"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "7",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Which of the following building block can be used to implement any combinational logic circuit? AND; OR; NAND; None of the above"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "8",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "The basic building blocks of the arithmetic logic unit in digital computers are known as: 1. Adders 2. Attenuator 3. Demultiplexer 4. Subtractors"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "9",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "The logical sum of two or more than two logical products is termed as: OR operation; 2. POS; 3. SOP; NAND operation"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "10",
+      "topic": "logic-families-and-gates",
+      "text": "TTL is a class of digital circuits built from: 1. Resistors only 2. BJT (Bipolar Junction Transistors) only 3. JFET only 4. Both option 1 and 2"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "11",
+      "topic": "semiconductors-and-transistors",
+      "text": "Which insulating layer is used in the fabrication of MOSFET? 1. Silicon Nitride 2. Aluminum sulphate 3. Copper sulphate 4. Silicon dioxide"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "12",
+      "topic": "logic-families-and-gates",
+      "text": "A classification of integrated circuits with complexities of 30 to 300 equivalent gates on a single chip is known as? VLSI; SSI; LSI; MSI"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "13",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "The Minterms for four variables: 8; 16; 2; 1"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "14",
+      "topic": "logic-families-and-gates",
+      "text": "Which logic unit is the fastest of all the logic families? 1. DTL 2. TTL 3. ECL 4. CMOS"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "15",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "The number of inputs in a half adder is? 8; 2; 11; 32"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "16",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "A K-map (Karnaugh map) is an abstract form of which diagram organized as a squares matrix: Block diagram; Cycle diagram; Square diagram; Venn diagram"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "17",
+      "topic": "semiconductors-and-transistors",
+      "text": "Which semiconductor device is not a current triggering device? TRIAC; MOSFET; GTO; Thyristor"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "18",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "The AND operation is equivalent to: Union; Intersection; Division; union/intersection"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "19",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "In Digital electronics (Boolean algebra), the OR operation is performed by which of the given properties: Distributive properties; Commutative properties; Associative properties; All of these"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "20",
+      "topic": "logic-families-and-gates",
+      "text": "Which of the given logic family provide minimum power dissipation: JFET; ECL; CMOS; TTL"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1a",
+      "topic": "circuit-theory",
+      "text": "In basic circuit analysis, Kirchhoff's Law could be used to simplify a complex circuit. Use Kirchhoff's law to resolve the circuit in Figure 1.0 (a 10 V source with R1 = 10 Ω, a 20 V source with R2 = 20 Ω, and R3 = 80 Ω between them). Find the Load current and Load Voltage. Note, R3 = load resistor (10 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1b",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "Write a Boolean function and design a logic circuit using basic gates to activate a fly drown designed to take photograph of some kidnapers. The gate is to active the camera to capture kidnaper's footage during morning hours of 4am to 11am, afternoon time 1pm to 3pm. Use 24 hours clock circuit timing for designing the circuit. (10 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1c",
+      "topic": "logic-families-and-gates",
+      "text": "Explain with the aid of diagram and truth tables (i) three input XOR (ii) three input NAND (10 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2a",
+      "topic": "logic-families-and-gates",
+      "text": "Integrated Circuit (IC) has been a veritable component for logic design. Describe in details, four classifications of IC. (7 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2b",
+      "topic": "semiconductors-and-transistors",
+      "text": "List and explain four types of diode and their functions (8 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3a",
+      "topic": "semiconductors-and-transistors",
+      "text": "Explain why semiconductors components are better in digital logic design and give four examples (5 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Explain the concepts of the following terms in digital design: (i) Half Adder (3 marks) (ii) Full Adder (3 marks) (iii) Multiplexer (4 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4a",
+      "topic": "combinational-logic-and-standard-forms",
+      "text": "A conveyor belt for a production line at a bottling plant must only be allowed to start under the following conditions: i. Sufficient empty bottle are available at the start of the line. ii. The liquid in the bottle filler is higher than a minimum level iii. Sufficient bottle caps are stored in the capping machine hopper iv. Sufficient labels are available in the labelling machine v. Alternatively an override switch has been set (10 marks) (b) Draw the truth table and the circuit diagram (5 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "5a",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Using K-map reduce this Boolean function (i) F(A, B, C, D) = Σm(0, 2, 4, 6, 9, 11, 13, 15) (6 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "5b",
+      "topic": "minimisation-and-standard-circuits",
+      "text": "Reduce the following function using Karnaugh map technique and implement using basic gates. F(A, B, C, D) = A'B'D + ABC'D' + A'BD + ABCD' (9 marks)"
+    }
+  ]
+}

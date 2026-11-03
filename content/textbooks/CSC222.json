@@ -1,0 +1,67 @@
+{
+  "code": "CSC 222",
+  "books": {
+    "mit": {
+      "title": "Digital Communication Systems (6.02 course notes)",
+      "authors": "Hari Balakrishnan, Christopher J. Terman and George C. Verghese",
+      "publisher": "MIT OpenCourseWare"
+    },
+    "bavaud": {
+      "title": "An Introduction to Information Theory and Applications",
+      "authors": "F. Bavaud, J.-C. Chappelier and J. Kohlas",
+      "publisher": "University of Fribourg course notes",
+      "year": 2005
+    }
+  },
+  "topics": {
+    "digital-communication-abstractions": [
+      {
+        "book": "mit",
+        "read": "Chapter 4, Why Digital? Communication Abstractions and Digital Signaling",
+        "why": "Filed in the course folder; the lecture follows it closely."
+      }
+    ],
+    "source-coding-and-prefix-free-codes": [
+      {
+        "book": "bavaud",
+        "read": "Chapter 2, Efficient Coding of Information",
+        "why": "Non-singular, non-ambiguous and prefix-free codes with exercises."
+      }
+    ],
+    "kraft-inequality-and-huffman-codes": [
+      {
+        "book": "mit",
+        "read": "Chapter 3, Compression Algorithms: Huffman and Lempel-Ziv-Welch",
+        "why": "Huffman's algorithm with worked examples."
+      }
+    ],
+    "hamming-codes": [
+      {
+        "book": "mit",
+        "read": "Chapter 6, Linear Block Codes: Encoding and Syndrome Decoding",
+        "why": "The Hamming code and its parity checks."
+      }
+    ],
+    "linear-block-codes": [
+      {
+        "book": "mit",
+        "read": "Chapter 6, Linear Block Codes: Encoding and Syndrome Decoding",
+        "why": "Generator and parity-check matrices."
+      }
+    ],
+    "convolutional-codes": [
+      {
+        "book": "mit",
+        "read": "Chapters 7 and 8 (Convolutional Codes; Viterbi Decoding)",
+        "why": "State machines, trellises and the Viterbi algorithm."
+      }
+    ],
+    "communication-networks-and-routing": [
+      {
+        "book": "mit",
+        "read": "Chapters 16 and 17 (Communication Networks: Sharing and Switches; Network Routing)",
+        "why": "Circuit and packet switching, delay and routing."
+      }
+    ]
+  }
+}

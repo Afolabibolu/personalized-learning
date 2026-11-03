@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If ²⁷Al has a nuclear radius of 3.6 fm, ⁶⁴Cu has a radius of about (R₀ = 1.2 fm)",
+    "options": [
+      {
+        "key": "a",
+        "text": "4.8 fm"
+      },
+      {
+        "key": "b",
+        "text": "3.6 fm"
+      },
+      {
+        "key": "c",
+        "text": "2.4 fm"
+      },
+      {
+        "key": "d",
+        "text": "2.0 fm"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R = 1.2 × 64^(1/3) = 4.8 fm.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A radionuclide has a half-life of 30 days. The time for 20% of a sample to decay is",
+    "options": [
+      {
+        "key": "a",
+        "text": "9.7 days"
+      },
+      {
+        "key": "b",
+        "text": "24.0 days"
+      },
+      {
+        "key": "c",
+        "text": "6.7 days"
+      },
+      {
+        "key": "d",
+        "text": "6.0 days"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "t = 30 ln(1/0.8)/ln 2.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The time for a radioactive material to decay away 63/64 of itself is",
+    "options": [
+      {
+        "key": "a",
+        "text": "6 half-lives"
+      },
+      {
+        "key": "b",
+        "text": "2 half-lives"
+      },
+      {
+        "key": "c",
+        "text": "4 half-lives"
+      },
+      {
+        "key": "d",
+        "text": "8 half-lives"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1/64 = (½)⁶.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In β⁻ decay",
+    "options": [
+      {
+        "key": "a",
+        "text": "Z increases by 1 and A is unchanged"
+      },
+      {
+        "key": "b",
+        "text": "Z decreases by 2 and A by 4"
+      },
+      {
+        "key": "c",
+        "text": "A increases by 1"
+      },
+      {
+        "key": "d",
+        "text": "Nothing changes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A neutron becomes a proton.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "The radioactive behaviour of an atom depends solely on its nucleus.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Chemistry and orbital electrons do not affect it.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "The half-life of a radionuclide decreases as the sample decays.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is constant for each nuclide.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which quantities are conserved in a nuclear reaction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mass number"
+      },
+      {
+        "key": "b",
+        "text": "Atomic (charge) number"
+      },
+      {
+        "key": "c",
+        "text": "Total energy, including mass energy"
+      },
+      {
+        "key": "d",
+        "text": "The number of protons only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Protons can change into neutrons and back.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which radiation is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Alpha"
+      },
+      {
+        "key": "b",
+        "text": "Beta"
+      },
+      {
+        "key": "c",
+        "text": "Gamma"
+      },
+      {
+        "key": "d",
+        "text": "Ultrasound"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Ultrasound is a sound wave, not nuclear radiation.",
+    "source": "General knowledge of PHY 104"
+  }
+]

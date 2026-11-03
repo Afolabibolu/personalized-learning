@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which gate can be implemented with a single transistor?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NOT"
+      },
+      {
+        "key": "b",
+        "text": "AND"
+      },
+      {
+        "key": "c",
+        "text": "OR"
+      },
+      {
+        "key": "d",
+        "text": "XOR"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The lecture notes that an AND gate requires three transistors.",
+    "source": "Digital Logic Gates.pptx (IFT 211 lecture 2)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "A logic gate can be described by its",
+    "options": [
+      {
+        "key": "a",
+        "text": "truth table"
+      },
+      {
+        "key": "b",
+        "text": "logic symbol"
+      },
+      {
+        "key": "c",
+        "text": "Boolean expression"
+      },
+      {
+        "key": "d",
+        "text": "clock frequency"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three descriptions used in the lecture.",
+    "source": "Digital Logic Gates.pptx (IFT 211 lecture 2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A 3-input XOR gate gives an output of 1 when",
+    "options": [
+      {
+        "key": "a",
+        "text": "an odd number of inputs are 1"
+      },
+      {
+        "key": "b",
+        "text": "all inputs are 0"
+      },
+      {
+        "key": "c",
+        "text": "an even number of inputs are 1"
+      },
+      {
+        "key": "d",
+        "text": "exactly two inputs are 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "XNOR gives 1 for an even number of 1s.",
+    "source": "Digital Logic Gates.pptx (IFT 211 lecture 2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "{AND, OR, NOT} is a minimal complete set of gates.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is complete but has redundant elements; NAND alone (or NOR alone) is minimal.",
+    "source": "Digital Logic Gates.pptx (IFT 211 lecture 2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Noise in a logic circuit is caused by",
+    "options": [
+      {
+        "key": "a",
+        "text": "stray electric and magnetic fields"
+      },
+      {
+        "key": "b",
+        "text": "too many inputs"
+      },
+      {
+        "key": "c",
+        "text": "low fan-out"
+      },
+      {
+        "key": "d",
+        "text": "the clock"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its effect is to push input voltages into the wrong range.",
+    "source": "Properties of Logic gate.ppt (IFT 211 lecture 6)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The number of inputs a logic gate can handle is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "fan-in"
+      },
+      {
+        "key": "b",
+        "text": "fan-out"
+      },
+      {
+        "key": "c",
+        "text": "noise margin"
+      },
+      {
+        "key": "d",
+        "text": "propagation delay"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Fan-out is the number of inputs one output can drive.",
+    "source": "Properties of Logic gate.ppt (IFT 211 lecture 6)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among the properties of logic gates?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fan-in"
+      },
+      {
+        "key": "b",
+        "text": "Fan-out"
+      },
+      {
+        "key": "c",
+        "text": "Noise margin"
+      },
+      {
+        "key": "d",
+        "text": "Minterm"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A minterm is a term of a Boolean expression, not a property of a gate.",
+    "source": "Properties of Logic gate.ppt (IFT 211 lecture 6)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The noise margin is a quantitative measure of a circuit's noise immunity.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is given by the DC HIGH and LOW noise margins.",
+    "source": "Properties of Logic gate.ppt (IFT 211 lecture 6)"
+  }
+]

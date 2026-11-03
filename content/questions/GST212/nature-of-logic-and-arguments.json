@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which law of thought states that every statement is either true or false?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Law of excluded middle"
+      },
+      {
+        "key": "b",
+        "text": "Law of identity"
+      },
+      {
+        "key": "c",
+        "text": "Law of contradiction"
+      },
+      {
+        "key": "d",
+        "text": "Law of inference"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is expressed as p ∨ ~p.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which law states that no statement can be both true and false?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Law of contradiction"
+      },
+      {
+        "key": "b",
+        "text": "Law of identity"
+      },
+      {
+        "key": "c",
+        "text": "Law of excluded middle"
+      },
+      {
+        "key": "d",
+        "text": "Law of induction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Also called non-contradiction.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which aspect of logic analyses arguments in everyday natural language?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Informal logic"
+      },
+      {
+        "key": "b",
+        "text": "Formal logic"
+      },
+      {
+        "key": "c",
+        "text": "Symbolic logic"
+      },
+      {
+        "key": "d",
+        "text": "Propositional calculus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Formal logic studies pure forms.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which kind of argument does the conclusion go beyond the premises with only probable support?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inductive"
+      },
+      {
+        "key": "b",
+        "text": "Deductive"
+      },
+      {
+        "key": "c",
+        "text": "Valid"
+      },
+      {
+        "key": "d",
+        "text": "Sound"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Deductive premises give conclusive support.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The conclusion of an argument must always come last.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It can come first, last or between the premises.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a deductive argument, if the premises are true the conclusion cannot be false.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The premises logically imply the conclusion.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are premise indicators?",
+    "options": [
+      {
+        "key": "a",
+        "text": "since"
+      },
+      {
+        "key": "b",
+        "text": "because"
+      },
+      {
+        "key": "c",
+        "text": "in view of"
+      },
+      {
+        "key": "d",
+        "text": "therefore"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Therefore is a conclusion indicator.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the three laws of thought?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identity"
+      },
+      {
+        "key": "b",
+        "text": "Contradiction"
+      },
+      {
+        "key": "c",
+        "text": "Excluded middle"
+      },
+      {
+        "key": "d",
+        "text": "Probability"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Probability belongs to induction.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 9 Nature and Scope of Logic (A. B. Ekanola)"
+  }
+]

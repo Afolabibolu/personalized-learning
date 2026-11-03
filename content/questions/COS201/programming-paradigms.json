@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A function whose output depends only on its inputs and has no side effects is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a pure function"
+      },
+      {
+        "key": "b",
+        "text": "an impure function"
+      },
+      {
+        "key": "c",
+        "text": "a constructor"
+      },
+      {
+        "key": "d",
+        "text": "a scripting function"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "square(4) always returns 16.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The most widely used declarative language, according to the notes, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "SQL"
+      },
+      {
+        "key": "b",
+        "text": "Assembly"
+      },
+      {
+        "key": "c",
+        "text": "Java"
+      },
+      {
+        "key": "d",
+        "text": "Bash"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It states what data is wanted.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The primary logic programming language is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prolog"
+      },
+      {
+        "key": "b",
+        "text": "PHP"
+      },
+      {
+        "key": "c",
+        "text": "Perl"
+      },
+      {
+        "key": "d",
+        "text": "Python"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Prolog means Programming in Logic.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are core concepts of logic programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Facts"
+      },
+      {
+        "key": "b",
+        "text": "Rules"
+      },
+      {
+        "key": "c",
+        "text": "Queries"
+      },
+      {
+        "key": "d",
+        "text": "Pointers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Unification and backtracking find the answers.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Declarative programming describes how to achieve a result step by step.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is imperative programming; declarative says what.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a dynamically typed language, variable types are determined at runtime.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Scripting languages are usually dynamically typed.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a principle of functional programming?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pure functions"
+      },
+      {
+        "key": "b",
+        "text": "Immutability"
+      },
+      {
+        "key": "c",
+        "text": "Higher-order functions"
+      },
+      {
+        "key": "d",
+        "text": "Mutable shared state"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "FP avoids changing state.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Java supports a functional programming style through",
+    "options": [
+      {
+        "key": "a",
+        "text": "lambda expressions"
+      },
+      {
+        "key": "b",
+        "text": "goto statements"
+      },
+      {
+        "key": "c",
+        "text": "assembler directives"
+      },
+      {
+        "key": "d",
+        "text": "HTML tags"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Introduced in Java 8.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  }
+]

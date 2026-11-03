@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Attacking the person who makes a claim instead of the claim itself is",
+    "options": [
+      {
+        "key": "a",
+        "text": "argumentum ad hominem"
+      },
+      {
+        "key": "b",
+        "text": "argumentum ad baculum"
+      },
+      {
+        "key": "c",
+        "text": "argumentum ad populum"
+      },
+      {
+        "key": "d",
+        "text": "accident"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It translates as 'argument directed to the man'.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"Might is right\" epitomises which fallacy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Appeal to force (ad baculum)"
+      },
+      {
+        "key": "b",
+        "text": "Appeal to pity"
+      },
+      {
+        "key": "c",
+        "text": "Appeal to authority"
+      },
+      {
+        "key": "d",
+        "text": "Hasty generalisation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It uses force when argument fails.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Arguing that something is true because it has not been proved false is",
+    "options": [
+      {
+        "key": "a",
+        "text": "argumentum ad ignorantiam"
+      },
+      {
+        "key": "b",
+        "text": "argumentum ad verecundiam"
+      },
+      {
+        "key": "c",
+        "text": "converse accident"
+      },
+      {
+        "key": "d",
+        "text": "modus ponens"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ignorance proves nothing either way.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Generalising from insufficient evidence is the fallacy of",
+    "options": [
+      {
+        "key": "a",
+        "text": "converse accident (hasty generalisation)"
+      },
+      {
+        "key": "b",
+        "text": "accident"
+      },
+      {
+        "key": "c",
+        "text": "ad baculum"
+      },
+      {
+        "key": "d",
+        "text": "equivocation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example, judging all leaders by past ones.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Expressive uses of language, such as \"Ouch!\", can be true or false.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They convey feelings and cannot be true or false.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 10 Meaning and Definition (A. Afolayan)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An appeal to authority is fallacious when the authority speaks outside their own field.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is argumentum ad verecundiam.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three basic functions of language according to Copi?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Informative"
+      },
+      {
+        "key": "b",
+        "text": "Expressive"
+      },
+      {
+        "key": "c",
+        "text": "Directive"
+      },
+      {
+        "key": "d",
+        "text": "Decorative"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Others limit them to cognitive and emotive.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 10 Meaning and Definition (A. Afolayan)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an informal fallacy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Appeal to pity"
+      },
+      {
+        "key": "b",
+        "text": "Appeal to the people"
+      },
+      {
+        "key": "c",
+        "text": "Accident"
+      },
+      {
+        "key": "d",
+        "text": "Modus tollens"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Modus tollens is a valid form.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For text = \"Python\", what is text[1:4]?",
+    "options": [
+      {
+        "key": "a",
+        "text": "'yth'"
+      },
+      {
+        "key": "b",
+        "text": "'Pyth'"
+      },
+      {
+        "key": "c",
+        "text": "'ytho'"
+      },
+      {
+        "key": "d",
+        "text": "'Pyt'"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Indices 1, 2 and 3.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which re function returns a list of all matches?",
+    "options": [
+      {
+        "key": "a",
+        "text": "re.findall()"
+      },
+      {
+        "key": "b",
+        "text": "re.search()"
+      },
+      {
+        "key": "c",
+        "text": "re.sub()"
+      },
+      {
+        "key": "d",
+        "text": "re.match()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "re.search() returns only the first match.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a regular expression, \\d matches",
+    "options": [
+      {
+        "key": "a",
+        "text": "A digit 0–9"
+      },
+      {
+        "key": "b",
+        "text": "Any whitespace"
+      },
+      {
+        "key": "c",
+        "text": "Any letter"
+      },
+      {
+        "key": "d",
+        "text": "The letter d"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "\\w is a word character and \\s whitespace.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does math.gcd(48, 18) return?",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "864"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6 is the greatest common divisor.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "true_false",
+    "stem": "from my_module import add lets you call add(2, 3) without the module prefix.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "import my_module would need my_module.add.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "true_false",
+    "stem": "\"a,b,c\".split(\",\") returns the string 'abc'.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It returns the list ['a', 'b', 'c'].",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are built-in Python modules named in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "math"
+      },
+      {
+        "key": "b",
+        "text": "random"
+      },
+      {
+        "key": "c",
+        "text": "datetime"
+      },
+      {
+        "key": "d",
+        "text": "openpyxl"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "openpyxl is a third-party library that must be installed.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which string method is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "lower()"
+      },
+      {
+        "key": "b",
+        "text": "upper()"
+      },
+      {
+        "key": "c",
+        "text": "strip()"
+      },
+      {
+        "key": "d",
+        "text": "len()"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "len() is a built-in function, not a string method.",
+    "source": "CSC 103 Lecture 4 (2024): tuples, sets, dictionaries, strings, regex and modules"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three purposes of coding in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compressing data"
+      },
+      {
+        "key": "b",
+        "text": "Ensuring transmission quality in noisy conditions"
+      },
+      {
+        "key": "c",
+        "text": "Secrecy"
+      },
+      {
+        "key": "d",
+        "text": "Increasing file size"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Compression removes redundancy; error correction adds it.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A code is prefix-free when",
+    "options": [
+      {
+        "key": "a",
+        "text": "no codeword is the prefix of another codeword"
+      },
+      {
+        "key": "b",
+        "text": "all codewords have the same length"
+      },
+      {
+        "key": "c",
+        "text": "no two symbols share a codeword"
+      },
+      {
+        "key": "d",
+        "text": "it uses only 0s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Prefix-free codes are instantaneously decodable.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "A code is instantaneously decodable if and only if it is prefix-free.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is a key result of the lecture.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The code a → 1, b → 00, c → 11 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ambiguous"
+      },
+      {
+        "key": "b",
+        "text": "prefix-free"
+      },
+      {
+        "key": "c",
+        "text": "complete and optimal"
+      },
+      {
+        "key": "d",
+        "text": "instantaneously decodable"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "aaaa and cc both encode as 1111.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A code is non-singular when",
+    "options": [
+      {
+        "key": "a",
+        "text": "different source symbols map to different codewords"
+      },
+      {
+        "key": "b",
+        "text": "it has one codeword"
+      },
+      {
+        "key": "c",
+        "text": "every codeword is a prefix"
+      },
+      {
+        "key": "d",
+        "text": "it is used for secrecy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Non-singular is the weakest condition.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Compression works by adding redundancy to the message.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Compression removes redundancy; error correction adds it.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property of codes discussed in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Non-singular"
+      },
+      {
+        "key": "b",
+        "text": "Non-ambiguous"
+      },
+      {
+        "key": "c",
+        "text": "Prefix-free"
+      },
+      {
+        "key": "d",
+        "text": "Hexadecimal"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Hexadecimal is a number system.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A source is memoryless if",
+    "options": [
+      {
+        "key": "a",
+        "text": "the probability of a symbol does not depend on earlier symbols"
+      },
+      {
+        "key": "b",
+        "text": "it has no alphabet"
+      },
+      {
+        "key": "c",
+        "text": "it emits only one symbol"
+      },
+      {
+        "key": "d",
+        "text": "it cannot be encoded"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each symbol is independent of the past.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 2"
+  }
+]

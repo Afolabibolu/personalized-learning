@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "142 of 200 sampled policies had at least one claim. The sample proportion is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.71"
+      },
+      {
+        "key": "b",
+        "text": "0.142"
+      },
+      {
+        "key": "c",
+        "text": "0.29"
+      },
+      {
+        "key": "d",
+        "text": "1.42"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "142/200.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For p = 0.2 and n = 100, the standard error of p̂ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.04"
+      },
+      {
+        "key": "b",
+        "text": "0.16"
+      },
+      {
+        "key": "c",
+        "text": "0.02"
+      },
+      {
+        "key": "d",
+        "text": "0.4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "√(0.2 × 0.8/100).",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "10% of A's and 5% of B's machines are defective (samples 250 and 300). P(p̂_A − p̂_B ≤ 0.02) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.0934"
+      },
+      {
+        "key": "b",
+        "text": "0.1825"
+      },
+      {
+        "key": "c",
+        "text": "0.9066"
+      },
+      {
+        "key": "d",
+        "text": "0.0228"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "z = −0.03/0.0228 = −1.32.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If p₁ = 0.10 and p₂ = 0.05, the mean of the sampling distribution of p̂₁ − p̂₂ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.05"
+      },
+      {
+        "key": "b",
+        "text": "0.15"
+      },
+      {
+        "key": "c",
+        "text": "0.005"
+      },
+      {
+        "key": "d",
+        "text": "0.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "p₁ − p₂.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The mean of the sampling distribution of p̂ equals the population proportion p.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "p̂ is unbiased.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The normal approximation for p̂ requires np to be less than 5.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It requires np ≥ 5 and n(1 − p) ≥ 5.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which conditions are given for the normal approximation to p̂?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n ≥ 30"
+      },
+      {
+        "key": "b",
+        "text": "np ≥ 5"
+      },
+      {
+        "key": "c",
+        "text": "n(1 − p) ≥ 5"
+      },
+      {
+        "key": "d",
+        "text": "p exactly 0.5"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "p need not be 0.5.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which formula is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "√(pq/n)"
+      },
+      {
+        "key": "b",
+        "text": "x/n"
+      },
+      {
+        "key": "c",
+        "text": "√(p₁q₁/n₁ + p₂q₂/n₂)"
+      },
+      {
+        "key": "d",
+        "text": "Σx/n for measured values"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Σx/n is a sample mean; the others concern proportions.",
+    "source": "STA 121 Lecture 3: Sampling Distribution of Sample Proportions (Olubusoye)"
+  }
+]

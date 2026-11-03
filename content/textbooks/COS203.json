@@ -1,0 +1,63 @@
+{
+  "code": "COS 203",
+  "books": {
+    "pybasics": {
+      "title": "Python Basics: A Practical Introduction to Python 3",
+      "authors": "David Amos, Dan Bader, Joanna Jablonski and Fletcher Heisler",
+      "edition": "4th edition",
+      "publisher": "Real Python",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "modular-programming-and-namespaces": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 11, Modules and Packages",
+        "why": "Creating and importing modules and namespaces."
+      }
+    ],
+    "reading-and-writing-files": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 12, File Input and Output (12.5 Reading and Writing Files)",
+        "why": "File modes, with statements, read and write."
+      }
+    ],
+    "classes-and-objects-in-python": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 10, Object-Oriented Programming (10.1 and 10.2)",
+        "why": "Defining classes and instantiating objects."
+      }
+    ],
+    "inheritance-and-polymorphism-in-python": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 10, Object-Oriented Programming (10.3 Inherit From Other Classes)",
+        "why": "Child classes, super() and overriding."
+      }
+    ],
+    "external-libraries-and-pip": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 13, Installing Packages With pip",
+        "why": "Installing and managing third-party packages."
+      }
+    ],
+    "data-analysis-with-pandas": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 12, File Input and Output (12.6 Read and Write CSV Data)",
+        "why": "Working with tabular CSV data, which Pandas builds on."
+      }
+    ],
+    "apis-and-web-data": [
+      {
+        "book": "pybasics",
+        "read": "Chapter 16, Interacting With the Web",
+        "why": "Fetching and parsing web pages."
+      }
+    ]
+  }
+}

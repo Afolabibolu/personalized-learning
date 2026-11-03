@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Cancer stage (benign or malignant, stage I to IV) is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ordinal data"
+      },
+      {
+        "key": "b",
+        "text": "Ratio data"
+      },
+      {
+        "key": "c",
+        "text": "Interval data"
+      },
+      {
+        "key": "d",
+        "text": "Audio data"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The categories are ordered.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Rainfall in millimetres is measured on",
+    "options": [
+      {
+        "key": "a",
+        "text": "A ratio scale"
+      },
+      {
+        "key": "b",
+        "text": "A nominal scale"
+      },
+      {
+        "key": "c",
+        "text": "An ordinal scale"
+      },
+      {
+        "key": "d",
+        "text": "A binary scale"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has a true zero.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the TAP classes of modern data, T, A and P stand for",
+    "options": [
+      {
+        "key": "a",
+        "text": "Text, audio and pictures"
+      },
+      {
+        "key": "b",
+        "text": "Tables, arrays and plots"
+      },
+      {
+        "key": "c",
+        "text": "Training, accuracy and prediction"
+      },
+      {
+        "key": "d",
+        "text": "Time, area and population"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From the Modern Data Classes slide.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Assessing a model on data it has not seen before is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Testing"
+      },
+      {
+        "key": "b",
+        "text": "Training"
+      },
+      {
+        "key": "c",
+        "text": "Data collection"
+      },
+      {
+        "key": "d",
+        "text": "Feature engineering"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Training learns; testing assesses.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Nominal data may be binary or non-binary.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Spam or not is binary; blood group is non-binary.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Interval data have a true zero point.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Ratio data have a true zero; interval data do not.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are categorical (qualitative) data types?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nominal"
+      },
+      {
+        "key": "b",
+        "text": "Ordinal"
+      },
+      {
+        "key": "c",
+        "text": "Binary"
+      },
+      {
+        "key": "d",
+        "text": "Ratio"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Ratio data are metric.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which stage is not part of training, testing and validation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Training"
+      },
+      {
+        "key": "b",
+        "text": "Testing"
+      },
+      {
+        "key": "c",
+        "text": "Validation"
+      },
+      {
+        "key": "d",
+        "text": "Printing"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three learning stages are training, testing and validation.",
+    "source": "STA 122 Machine Learning and Computational Statistics, Part I (Akintande)"
+  }
+]

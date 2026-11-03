@@ -1,0 +1,488 @@
+{
+  "code": "MAT 223",
+  "papers": [
+    {
+      "year": "2008/2009",
+      "paper": "MAT 223: Analysis (for Non Majors), Second Semester 2008/2009 (Wednesday, November 11, 2009). Answer any three questions",
+      "source": "MAT223 PQ.pdf, pages 21 and 22 (partly illegible)"
+    },
+    {
+      "year": "2011/2012",
+      "paper": "MAT 223: Analysis (For Non-Majors), Second Semester 2011/2012 (Monday, November 5, 2012). Section A: one question; Sections B and C: two each",
+      "source": "MAT223 PQ.pdf, pages 19 and 20"
+    },
+    {
+      "year": "2012/2013",
+      "paper": "MAT 223: Analysis (For Non-Majors), Second Semester 2012/2013 (Monday, March 31, 2014). Answer two questions from each section",
+      "source": "MAT223 PQ.pdf, pages 17 and 18"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "MAT 223: Analysis (For Non-Majors), Second Semester 2013/2014 (Tuesday, January 27, 2015). Answer any four questions",
+      "source": "MAT223 PQ.pdf, page 16"
+    },
+    {
+      "year": "2014/2015",
+      "paper": "MAT 223: Analysis (For Non-Majors), Second Semester 2014/2015 (Wednesday, December 2, 2015). Answer any four questions",
+      "source": "MAT223 PQ.pdf, page 15"
+    },
+    {
+      "year": "2015/2016",
+      "paper": "MAT 223: Analysis (For Non-Major), Second Semester 2015/2016 (Wednesday, November 23, 2016). Answer any four questions",
+      "source": "MAT223 PQ.pdf, page 12"
+    },
+    {
+      "year": "2015/2016 CA",
+      "paper": "MAT 223 C.A. (Section C), 2015/2016, Department of Computer Science version (other departments sat variants of the same questions)",
+      "source": "MAT223 PQ.pdf, page 3"
+    },
+    {
+      "year": "2016/2017",
+      "paper": "MAT 223: Analysis, Second Semester 2016/2017 (Wednesday, January 24, 2018). Answer two questions from each section",
+      "source": "MAT223 PQ.pdf, pages 10 and 11"
+    },
+    {
+      "year": "2017/2018",
+      "paper": "MAT 223: Analysis, Second Semester 2017/2018 (Wednesday, March 27, 2019). Answer two questions from each section",
+      "source": "MAT223 PQ.pdf, pages 8 and 9"
+    },
+    {
+      "year": "2018/2019",
+      "paper": "MAT 223: Analysis for Non-Major, Second Semester 2018/2019 (Wednesday, February 19, 2020). Answer any three questions",
+      "source": "MAT 223 201819.pdf"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "MAT 223: Analysis for Non-Major, Second Semester 2020/2021 (Wednesday, December 1, 2021). Answer any three questions",
+      "source": "MAT 223 2020-21.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2008/2009",
+      "number": "1a",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "Let X and Y be two nonempty subsets of R. (i) When is a real number M said to be the supremum of X? (ii) When is a real number m said to be the infimum of Y? (iii) Let Z denote the set Z = {x + y : x ∈ X, y ∈ Y}. We claim that if each of X and Y has a supremum, then Sup(Z) = Sup(X) + Sup(Y). Justify the claim."
+    },
+    {
+      "year": "2008/2009",
+      "number": "1b",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(i) Prove that if x and y are two rational numbers such that x < y, then there exists a third rational z such that x < z < y. (ii) With this denseness property of rational numbers in (b)(i), is the set of rational numbers complete? Justify your answer with a fact."
+    },
+    {
+      "year": "2008/2009",
+      "number": "1c",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "Prove that there exists a positive real number x such that x² = 2."
+    },
+    {
+      "year": "2008/2009",
+      "number": "2",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) Let (x_n) be a sequence of real numbers. When is (x_n) said to be (i) bounded above (ii) bounded below (iii) monotone increasing (iv) monotone decreasing? (b) (i) Show that if a real sequence (x_n) converges to a real point L, then L is unique. (ii) State the Bolzano-Weierstrass theorem without proof. (iii) Prove that lim (2x² + 5)/(x² + 3x + 1) = 2 as x → ∞."
+    },
+    {
+      "year": "2008/2009",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "(a) Let f(x) be a real-valued function of a real variable x. (i) Define the continuity of f(x) at x = x0. (ii) Define the continuity of f(x) over the open interval (a, b). (b) (i) Given the Signum function Sign(x) = 1 if x > 0 and −1 if x < 0, investigate the continuity of Sign(x). (ii) Suppose that for some real numbers L and M, lim f(x) = L and lim g(x) = M as x → c; show that lim (f(x) + g(x)) = lim f(x) + lim g(x). (c) (i) Suppose that two functions f(x) and g(x) have a common domain that contains one open interval containing x0, and that f and g are continuous at x0; show that f − g is also continuous at x0. (ii) Show that f(x) = x³ is continuous at x = 2. [Hint: show that the limit of x³ = 8 = 2³ as x tends to 2]"
+    },
+    {
+      "year": "2008/2009",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Given f : (a, b) → R, a real valued function defined on the domain (a, b) and x0 ∈ (a, b): (i) define differentiability of f at x0; (ii) define differentiability of f on (a, b); (iii) show that if f(x) ≥ f(x0) on (a, b), then f'(x0) = 0. (b) Prove that if f : [a, b] → R is a continuous function on [a, b] and differentiable on (a, b), then there exists a point x0 ∈ (a, b) such that f(b) − f(a) = (b − a)f'(x0). (c) State Taylor's Theorem without proof, and find the cubic approximating Taylor polynomial of a given function about 2 (the function is illegible in the copy)."
+    },
+    {
+      "year": "2008/2009",
+      "number": "5",
+      "topic": "the-riemann-integral",
+      "text": "(a) Let [a, b] be a bounded closed interval in R and let f : [a, b] → R be bounded. (i) Define the partition P of [a, b]. (ii) Define the upper Riemann sum U(f, P) and lower Riemann sum L(f, P) of f for the partition P. (b) Using the criterion of Riemann integrability, investigate the Riemann integrability of the function f : [0, 1] → R defined by f(x) = x². (c) Show that if f : [a, b] → R is continuous on [a, b] then there exists a point c ∈ [a, b] such that ∫ from a to b of f(x)dx = (b − a)f(c). (d) Is continuity on an interval [a, b] necessary for Riemann integrability on the interval? Justify your answer."
+    },
+    {
+      "year": "2011/2012",
+      "number": "1a",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(i) Define the infimum and the supremum of a subset S of the set of real numbers. (1 mark) (ii) Let {u_i} and {v_i}, i = 1, 2, 3, ... be bounded subsets of real numbers. We claim that inf{u_i + v_i} ≥ inf{u_i} + inf{v_i}. (2 marks) (iii) Compute inf D and sup D where D = {1 + (−1)^x / x : x ∈ N}. (1 mark)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "1b",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(i) If a and b are two rationals such that a < b, prove that there exists a third rational c such that a < c < b. (2 marks) (ii) Show that the equation x² − 2 = 0 such that x ∈ Q, the set of rational numbers, has no solution in Q. (2 marks) (iii) What is the implication of (ii)? (2 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "2a",
+      "topic": "sequences-of-real-numbers",
+      "text": "(i) Use the technique of calculus to find the nature of monotonicity of the sequence {3 − 1/r}, r ≥ 1. (2 marks) (ii) Establish the convergence of the sequence {1 + 1/1! + 1/2! + ... + 1/n!}. (2 marks) (iii) Justify the claim that boundedness is not sufficient to guarantee the convergence of a sequence. [Hint: A good example will suffice] (2 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "2b",
+      "topic": "series-of-real-numbers",
+      "text": "(i) Prove that a monotone increasing sequence of real numbers which is bounded from above converges. (2 marks) (ii) Use the theory of convergence to compute Σ 2^(−r) from r = 1 to ∞. (2 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "3",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) (i) Define the limit of a real-valued function in the language of 'ε-δ'. (2 marks) (ii) Hence, prove that lim (3x − 8) = −5 as x → 1. (3 marks) (b) Compute the following limits: (i) lim ((1 + x)/x)^x as x → ∞ (ii) lim (1 + x)/(3^x − 1) as x → 0 (iii) lim (sin x)^(tan x) as x → π/2. (6 marks) (c) Using L'Hospital Rule, investigate the limit of (tan kx − k tan x)/(k sin x − sin kx) as x → 0. (4 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) (i) Let [a, b] be a finite closed interval in R. What does it mean to say that a function f : [a, b] → R is continuous at x0? (2 marks) (ii) What does it mean to say that a function f : D ⊆ R → R is differentiable at x0 ∈ D? (2 marks) (iii) Prove that if a function f is differentiable at x0, then it is continuous there. (3 marks) (iv) Is the converse of 4(a)(iii) generally true? If yes, prove it. If no, show a counter-example. (4 marks) (b) Given a function f defined by f(x) = (1/2)(2x² + 3) for x ∈ (−∞, 1], 6 − 5x for x ∈ (1, 3) and x − 3 for x ∈ [3, ∞), determine and classify the points of discontinuity if any. (4 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "5",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) (i) State and prove Rolle's Theorem. (5 marks) (ii) Hence, determine whether or not the function f defined by f(x) = 1 − ∛(x²) satisfies the condition of the theorem in the closed interval [−1, 1]. (3 marks) (b) Use the Lagrange's Theorem to verify whether or not the function f defined by f(x) = 3x² − 5 satisfies the condition of the theorem in the closed interval [−2, 0]. If it does, find the point c which figures in the Lagrange's formula f(b) − f(a) = f'(c)(b − a). (3 marks) (c) Use Taylor's Theorem to show that e^(sin x) = 1 + x + x²/2! − 3x⁴/4! − 8x⁵/5! + ... (4 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "6",
+      "topic": "the-riemann-integral",
+      "text": "Let g : [a, b] → R be a bounded function and f : [1, 3] → R be defined as f(x) = 3x² + x, ∀x ∈ [1, 3]. Let Q ∈ P_a^b be any partition of [a, b] and let P_n ∈ P_1^3 be a regular partition of [1, 3] into n sub-intervals. (a) Let w ∈ (a, b) \\ Q. Establish the inequality U(g, Q ∪ {w}) ≤ U(g, Q). (3 marks) (b) Compute U(f, P_n) and L(f, P_n). (10 marks) (c) Is lim U(f, P_n) = lim L(f, P_n)? If yes, what would be your conclusion? (2 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "7",
+      "topic": "the-riemann-integral",
+      "text": "Let f : [0, 1] → R be defined by f(x) = −1 if 0 ≤ x < 1 and 2 if x = 1, and g : [a, b] → R a bounded monotonically decreasing function. (a) Use the Darboux Integrability Criterion to show that f ∈ R_0^1. (5 marks) (b) Use the definition of Riemann integral to find ∫ from 0 to 1 of f(x)dx. (3 marks) (c) Is it true that g ∈ R_a^b? Justify your claim. (7 marks)"
+    },
+    {
+      "year": "2011/2012",
+      "number": "8",
+      "topic": "the-riemann-integral",
+      "text": "(a) Use the Inequality Rule for Riemann integrals to establish the inequality ∫ from 0 to 1 of x/(2 − sin²x) dx ≤ (1/2) ln 2. (5 marks) (b) Let f ∈ R_a^b. Show that the integral function F : [a, b] → R of f is uniformly continuous over [a, b]. (6 marks) (c) Let (f_n) be a sequence of continuous functions f_n : [a, b] → R. Suppose that the sequence converges uniformly to f : [a, b] → R. Is it true that lim ∫ from a to b of f_n(x)dx = ∫ from a to b of f(x)dx? Justify your claim. (4 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Define the least upper bound and the greatest lower bound of a non-empty subset of a field, F. (b) When is a sequence said to be monotone? (c) Prove that a bounded monotone sequence is convergent. (d) Show that the sequence ((1/n) Σ 1/k from k = 1 to n) is convergent."
+    },
+    {
+      "year": "2012/2013",
+      "number": "2",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) When is a sequence of real numbers said to converge? (b) Prove or disprove that a convergent sequence is bounded. (c) Show that the limit to which a sequence converges is unique. (d) State a necessary and sufficient condition for a sequence to have a limit. (e) Compute lim (1 + 2/n)^(3n) as n → ∞."
+    },
+    {
+      "year": "2012/2013",
+      "number": "3",
+      "topic": "series-of-real-numbers",
+      "text": "(a) When is a series said to be conditionally convergent? (b) Show that if the series Σ u_n converges, then lim u_n = 0. (c) Show that the series Σ 1/((2n − 1)(2n + 1)) is convergent and its sum is 1/2. (d) Let z1 and z2 be complex numbers. Prove that |z1 + z2| ≤ |z1| + |z2|."
+    },
+    {
+      "year": "2012/2013",
+      "number": "4",
+      "topic": "limits-and-continuity",
+      "text": "(a) When does the limit of a real valued function f exist at x = x0? (1 mark) (b) Let f be a real valued function defined by h(x) = |x − 6|/(x − 6) for x ≠ 6 and 0 for x = 6. (i) Sketch the graph of h. (ii) Compute lim h(x) as x → 6⁺. (iii) Compute lim h(x) as x → 6⁻. (iv) Compute lim h(x) as x → 0. (2 marks) (c) (i) State the necessary and sufficient conditions for a real-valued function f to be continuous at x = x0. (ii) Of what relevance is the limit of a sequence to the continuity of a function? (iii) Establish the continuity of the function f : (0, 3) → R defined by f(x) = 2x + 1 at x = 1 using the approach of the limit of a sequence. (5 marks) (d) In the language of 'ε-δ', show that the function f : R → R defined by f(x) = 3x² − 2x + 1 is continuous at x = 5. (2 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "5",
+      "topic": "limits-and-continuity",
+      "text": "(a) (i) Let [a, b] be a finite closed interval in R. What does it mean to say that a function f : [a, b] → R is uniformly continuous at x0 ∈ [a, b]? (ii) Discuss the uniform continuity of a real-valued function on an open interval (a, b), a, b ∈ R. (iii) State the condition that guarantees uniform continuity of a continuous function f on an open interval. (4 marks) (b) (i) When is a subset S of the real number system said to be closed and bounded? (ii) Prove the claim that if f : [a, b] → R is a continuous function then it is uniformly continuous. (iii) Explain exactly what is meant by the statement lim 1/(x − 1)⁴ = ∞ as x → 1 and prove the validity of this statement. (6 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "6",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Let f be a real-valued function. (i) Define the derivative f'(a) of f at a. (ii) Justify the claim that if f'(a) exists then f is continuous at a. (iii) Is the converse of the claim in 6(a)(ii) true in general? If yes, prove it but if no, give a counter-example. (4 marks) (b) (i) Let f : [a, b] → R be continuous on [a, b] and be differentiable on (a, b). Show that there is a point x0 ∈ (a, b) such that f(b) − f(a) = (b − a)f'(x0). (ii) What is the geometric interpretation of the claim in 6(b)(i)? (4 marks) (c) (i) State Taylor's theorem. (ii) Approximate the function f(z) = (1 + z)^(1/3) for z > −1 using Taylor's theorem with n = 2. With your result estimate (1.5)^(1/3) and the error. [Take the point z0 = 0] (2 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "7",
+      "topic": "the-riemann-integral",
+      "text": "(a) Let f : [1, 4] → R be given by f(x) = x³, ∀x ∈ [1, 4]. Let P_n = (x_i) ∈ P_1^4 be regular. For each k with 1 ≤ k ≤ n, find x_k. (1 mark) (b) Let f and P_n be as in 7(a). Evaluate the limits lim U(f, P_n) and lim L(f, P_n). (10 marks) (c) Let f : [a, b] → R be a bounded function with a < b and let P = (x_i) ∈ P_a^b. Let q ∈ (a, b) \\ P and Q = P ∪ {q}. Establish the inequality U(f, Q) ≤ U(f, P). (4 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "8",
+      "topic": "the-riemann-integral",
+      "text": "(a) Let f ∈ R_a^b. Must f be bounded over [a, b]? Justify your claim. (4 marks) (b) Let f : [0, 1] → R be defined as f(x) = 3 if x = a1, a2, ..., at and 0 otherwise, where a1, a2, ..., at ∈ (0, 1) are distinct points and t is finite. Use the Darboux Integrability Criterion to show that f ∈ R_0^1 and find, directly from the definition of Riemann integral, ∫ from 0 to 1 of f(x)dx. (7 marks) (c) Let g ∈ R_a^b. Define f : [a, b] → R by f(x) = ∫ from c to x of g(w)dw, ∀x ∈ [a, b] and some c ∈ [a, b]. Is it true that f satisfies the Lipschitz condition? Justify your claim. (4 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "9",
+      "topic": "the-riemann-integral",
+      "text": "(a) Let f ∈ R_r^s for any r, s ∈ R with a < r < s < b. Prove this assertion. (5 marks) (b) Use the Inequality Rule for Riemann integrals to establish the inequalities 1 ≤ ∫ from 0 to 1 of e^(x²)dx ≤ (e + 1)/2. (4 marks) (c) Let f : [a, b] → R be a continuous function and P_n = (x_i) ∈ P_a^b be regular. For each k = 1, 2, ..., n, show that there exist a_k ∈ [x_(k−1), x_k] such that ∫ from a to b of f(x)dx = lim ((b − a)/n) Σ f(a_k). (6 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "1",
+      "topic": "limits-and-continuity",
+      "text": "(a) Using the axioms of a field, show whether or not (Z, +, ·) is a field. (b) Establish the continuity of the real-valued function f : (0, 4) → R defined by f(x) = 3x + 1 at x = 1, using the theory of convergence of sequences. (c) Let P_n = (x_i) be any sequence of standard partitions on [2, 5]. Let f : [2, 5] → R be given by f(x) = x², ∀x ∈ [2, 5]. Evaluate the limits lim L(f, P_n) and lim U(f, P_n)."
+    },
+    {
+      "year": "2013/2014",
+      "number": "2",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Compute the supremum and/or infimum of the set C = {x : x ∈ R, x² + 2x < 8}, if any exists. (b) Let f be a real-valued function of a real variable x. Prove that if the limit lim f(x) as x → x0 exists, then it is unique. (c) Let f : [a, b] → R be a bounded function with a < b. Let Q = (x_i) be any partition on [a, b] and let P = Q ∪ {q} where q ∈ (a, b) \\ Q. Is U(f, Q) ≥ U(f, P)? Justify your claim."
+    },
+    {
+      "year": "2013/2014",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "(a) Show that every convergent sequence of real numbers is bounded. (b) Investigate the uniform continuity of a real-valued function f : (0, 1) → R defined by f(x) = 1/x, ∀x ∈ (0, 1). (c) Must every Riemann integrable function f : [a, b] → R be bounded on [a, b]? Justify your claim."
+    },
+    {
+      "year": "2013/2014",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Show whether or not the sequence {(8n + c)/(2n)} is null. (b) Show that the function f defined by f(x) = x|x| is differentiable at the point x = 0 and find the derivative at this point. (c) Let f : [0, 2] → R be given by f(x) = 2 if x ∈ [0, 2) and −2 if x = 2. Use the Darboux Integrability Criterion to show that f is Riemann integrable on [0, 2]."
+    },
+    {
+      "year": "2013/2014",
+      "number": "5",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) For the series s = Σ a_n and t = Σ b_n, show that Σ (a_n + b_n) = s + t and Σ αa_n = αs, ∀α ∈ R. (b) Let f : (a, b) → R be a differentiable function on (a, b). Let c ∈ (a, b). Show that if f(x) ≥ f(c), ∀x ∈ (a, b), then f'(c) = 0 and state the geometric interpretation of this. (c) Let f : [0, 2] → R be the function given in 4(c). Use the definition of Riemann integral to find ∫ from 0 to 2 of f(x)dx."
+    },
+    {
+      "year": "2013/2014",
+      "number": "6",
+      "topic": "the-riemann-integral",
+      "text": "(a) Does the series Σ 2^(n+1) converge or diverge? In any case, justify your claim. (b) Let f be continuous on [a, b] and differentiable on (a, b). Establish that there is a point x0 ∈ (a, b) such that f(b) − f(a) = (b − a)f'(x0). (c) Use the Inequality Rule for Riemann integrals to establish the inequality ∫ from 0 to 1 of x⁵/(3 − sin⁶x) dx ≤ (1/6) log_e(3/2)."
+    },
+    {
+      "year": "2014/2015",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Let X be a bounded subset of R. For α ∈ R, let X + α = {x + α : x ∈ X}. Show that sup(X + α) = α + sup X. [5½ marks] (b) Let c be an interior point of an interval I on which f is defined. Using ε-δ definition, when is f differentiable at c? Hence, or otherwise, show that if f(x) = x³ + 3x² − 2, then f'(2) = 24. [6 marks] (c) Let f : [0, 5] → R be given by f(x) = 2 if x ∈ [0, 1), 1 if x = 1 and 3 if x ∈ (1, 5]. Show that for any given ε > 0, there is some partition P of [0, 5] such that U(f, P) − L(f, P) < ε. [6 marks]"
+    },
+    {
+      "year": "2014/2015",
+      "number": "2",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Investigate whether the sequence {73 + (−1)^n} is convergent or not. [5½ marks] (b) Consider a function f given by f(x) = 3 − 3x + x³ and differentiable at all points of [1, 2]. Find the point c ∈ (1, 2) and the equation of the line passing through (c, f(c)) which is tangent to the curve and parallel to the chord joining (1, 1) to (2, 5). [6 marks] (c) Let f : [a, b] → R be a bounded function with a < b. Let P = (x_i) be any partition of [a, b]. Let Q be proper refinement of P containing only one additional partition point. Is it true that L(f, P) ≤ L(f, Q)? Justify your claim. [6 marks]"
+    },
+    {
+      "year": "2014/2015",
+      "number": "3",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) Let T1 = 1 and T_(n+1) = √(2 + T_n). Show that {T_n} is convergent and find its limit. [5½ marks] (b) State the Rolle's Theorem and, hence or otherwise, verify that the function f(x) = x³ + 3x² − 2 which is differentiable at any point of [−2, 2] satisfies Rolle's Theorem. [6 marks] (c) Use the Darboux Integrability Criterion to show that any continuous function f : [a, b] → R is necessarily Riemann integrable over [a, b]. [6 marks]"
+    },
+    {
+      "year": "2014/2015",
+      "number": "4",
+      "topic": "series-of-real-numbers",
+      "text": "(a) Use the theory of convergence to compute Σ n/(n + 1)!. [5½ marks] (b) Given a function f defined on an interval I, state when the function is continuous at an interior point c ∈ I. Hence, show that the function f(x) = x³ + 1 is continuous at x = 2. [6 marks] (c) Let f : [a, b] → R be a bounded function. Let g : [a, b] → R be the integral function of f over [a, b]. Show that g is Lipschitzian. [6 marks]"
+    },
+    {
+      "year": "2014/2015",
+      "number": "5",
+      "topic": "the-riemann-integral",
+      "text": "(a) Prove that every convergent sequence is bounded. [5½ marks] (b) State the Interval Value theorem and use it to prove that the image of an interval under a continuous function is also an interval. [6 marks] (c) Let f : [a, b] → R be a continuous function. Given any ε > 0, show that we can find some δ > 0 and some partition P = (x_i) of [a, b] with ||P|| < δ and such that |Σ f(u_k)Δx_k − ∫ from a to b of f(x)dx| < ε, ∀u_k ∈ [x_(k−1), x_k]. [6 marks]"
+    },
+    {
+      "year": "2014/2015",
+      "number": "6",
+      "topic": "the-riemann-integral",
+      "text": "(a) If a sequence {x_n} converges to a limit, prove that the limit is unique. [5½ marks] (b) Let f : R → R⁺ be defined as f(x) = x², ∀x ∈ R. Show that f is continuous at any point c ∈ R. [5 marks] (c) Use the Inequality Rule for Riemann integrals to establish the inequalities 1 ≤ ∫ from 0 to 1 of e^(x²)dx ≤ (e + 1)/2. [6 marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Show that there is no x ∈ Q that satisfies the equation x² − 2 = 0, where Q is the set of rational numbers. (b) (i) Is every differentiable function a continuous function? Establish your claim. (ii) Consider the function f : R \\ {0} → R defined by f(x) = 1/x. Show that f is differentiable at x0 ≠ 0. [6 marks] (c) Let g : [a, b] → R be a bounded function. Let Q ∈ P_a^b be a given partition and let P ∈ P_a^b be any refinement of Q having exactly one additional partition point. Show that U(g, P) ≤ U(g, Q). [5½ marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Show that a least upper bound and a greatest lower bound of a set S is unique. Hence, determine the supremum and infimum of the set A = {n/(n + 1) : n ∈ N}. [6 marks] (b) (i) When is a function said to be continuous at a point? (ii) Given that f(x) = (x³ + x² − 16x + 20)/(x − 2)² if x ≠ 2 and k if x = 2 is continuous at x = 2, find the value of k. [6 marks] (c) Use the Darboux Integrability Criterion to show that the function f : [1, 4] → R defined by f(x) = 3/2 if 1 ≤ x < 4 and 1/2 if x = 4 is Riemann integrable and use the definition of the integral to find the Riemann integral ∫ from 1 to 4 of f(x)dx. [5½ marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) State the conditions for the convergence or otherwise of the sequence {x_n} to zero. Hence, show that the sequence {1/n} converges to zero. [6 marks] (b) Evaluate this limit using L'Hopital Rule: lim (x³ − x² − x − 2)/(x³ − 3x² + 3x − 2) as x → 2. [6 marks] (c) Let f ∈ R_a^b. Let g : [a, b] → R be the integral function of f. Show that g must be uniformly continuous. [5½ marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "4",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) Use the sequence {x_n} = {(−1)^n} to establish the claim: Boundedness of a sequence does not imply convergence of the sequence. Hence, show that the limit to which a sequence converges to is unique. [6 marks] (b) Suppose that g, h : R → R are continuous functions and let x0 be some fixed real number. Define a new function f : R → R by f(x) = g(x) if x < x0 and h(x) if x ≥ x0. Show that the function f is continuous at x0 if, and only if, g(x0) = h(x0). [6 marks] (c) Let f : [1, 3] → R be given by f(x) = 1/2 − x², ∀x ∈ [1, 3]. Construct a sequence (P_n) ⊆ P_1^3 of regular partitions, where P_n = (x_i), n = 1, 2, 3, ...; use the Limit Test Criterion to show that f ∈ R_1^3 and obtain the Riemann integral ∫ from 1 to 3 of f(x)dx from the limits. [5½ marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "5",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) State the properties that must be satisfied for the sequence {x_n} to be a monotone sequence and give one example for each stated property. [6 marks] (b) Approximate the function f given by f(a) = √(1 + a), a > −1 using Taylor's Theorem with n = 2. With your result, estimate √1.3. [6 marks] (c) Must any monotone decreasing function g : [a, b] → R be Riemann integrable? Justify your claim. [5½ marks]"
+    },
+    {
+      "year": "2015/2016",
+      "number": "6",
+      "topic": "series-of-real-numbers",
+      "text": "(a) State the Ratio Test for convergence of a series. Hence, determine whether the series Σ x^n/n converges or not. [6 marks] (b) Let A, B ⊆ R, p : A → R and q : B → R be functions such that p(A) ⊆ B. If p and q are continuous at x0 and p(x0) respectively, prove that q∘p is also continuous at x0. [6 marks] (c) Let f : [a, b] → R be a continuous function. Construct a partition P = (x_i) ∈ P_a^b and obtain points a_k ∈ [x_(k−1), x_k] such that ∫ from a to b of f(x)dx = lim ((b − a)/n) Σ f(a_k). [5½ marks]"
+    },
+    {
+      "year": "2015/2016 CA",
+      "number": "1",
+      "topic": "the-riemann-integral",
+      "text": "Let f : [1/3, 5] → R be given by f(x) = 3x − 5, ∀x ∈ [1/3, 5]. Construct a sequence (P_n) ⊆ P of regular partitions, where P_n = (x_i), n = 1, 2, 3, ...; use the Limit Test Criterion to show that f is Riemann integrable on [1/3, 5] and obtain the Riemann integral ∫ from 1/3 to 5 of f(x)dx from the limits. (40 points)"
+    },
+    {
+      "year": "2015/2016 CA",
+      "number": "2",
+      "topic": "the-riemann-integral",
+      "text": "If f, g ∈ R_a^b such that f(x) ≥ g(x), ∀x ∈ [a, b], must ∫ from a to b of f(x)dx ≥ ∫ from a to b of g(x)dx? Justify your claim. (20 points)"
+    },
+    {
+      "year": "2015/2016 CA",
+      "number": "3",
+      "topic": "the-riemann-integral",
+      "text": "Use the Darboux Integrability Criterion to show that the function f : [0, 1] → R given by f(x) = −1 for 0 < x ≤ 1 and 2 for x = 0 is Riemann integrable over [0, 1]. Use the definition of the integral directly to find the Riemann integral ∫ from 0 to 1 of f(x)dx. (40 points)"
+    },
+    {
+      "year": "2015/2016 CA",
+      "number": "4",
+      "topic": "the-riemann-integral",
+      "text": "Use the Triangle Inequality for Riemann integrals to obtain the inequality |∫ from 0 to π/4 of tan x/(5 − sin x³) dx| ≤ (1/8) log_e 2. (15 points)"
+    },
+    {
+      "year": "2015/2016 CA",
+      "number": "5",
+      "topic": "the-riemann-integral",
+      "text": "Let f : [a, b] → R be a bounded function. Prove that f ∈ R_a^b if, and only if, there exists a sequence of partitions (P_n) ⊆ P_a^b such that lim L(f, P_n) and lim U(f, P_n) exist, are equal and lim L(f, P_n) = ∫ from a to b of f(x)dx = lim U(f, P_n). (45 points)"
+    },
+    {
+      "year": "2016/2017",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Let X be a non-empty subset of R, the set of real numbers. (i) When is X said to be bounded? (ii) When is a real number β said to be the supremum of X? (b) (i) Let M be a bounded subset of R and β ∈ R. Let M + β = {m + β : m ∈ M}. Show that sup(M + β) = β + sup M. (ii) Show that sup(−Z) = −inf Z, where Z is a bounded subset of the set of real numbers R. (c) Justify the claim that the union of the intervals (0, r/(2r + 1)) over r ≥ 1 equals (0, 1/2)."
+    },
+    {
+      "year": "2016/2017",
+      "number": "2",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) (i) Prove that if x and z are two rational numbers such that x < z, then there exists a third rational number y such that x < y < z. (ii) With this denseness property of the rational numbers in (i), show that the set of rational numbers is not complete. (b) (i) Let (x_n) ∈ Seq(R) be given by x_n = (3n + 1)/(7n − 45). Use the ε-definition of a limit of a sequence to verify that lim x_n = 3/7. (ii) Investigate the convergence of the sequence {84 + (−1)^n}, n = 1, 2, 3, ... (c) Prove that every convergent sequence is bounded."
+    },
+    {
+      "year": "2016/2017",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "(a) (i) For any fixed x0 ∈ R, define an open ball B_r(x0) centered at x0 with radius r > 0 and compute B_(1/2)(1/2). (ii) When is a function f : X ⊆ R → R said to be continuous at x0 ∈ X? (b) (i) Prove that the function f : R → R defined by f(x) = 3x² − 2x + 1 is continuous at x = 5. (ii) Show sequentially that the function f : R → R defined by f(x) = 1 if x > 0, 0 if x = 0 and −1 if x < 0 is discontinuous at x = 0. (c) Use the theory of convergence of sequence to compute Σ 2^(−n) from n = 1 to ∞."
+    },
+    {
+      "year": "2016/2017",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Define differentiability of a function f and check whether or not the function f(x) = x² if x ≥ 0 and −x² if x < 0 is differentiable at x = 0. (b) Find the derivative of the function f(x) = c for all x ∈ [a, b], where c is a constant. (c) Find the Taylor's series expansion for the function f(k) = (1 + k)^(1/2) with n = 3. Using your answer, evaluate (1.5)^(1/2), leaving your answer in 2d.p."
+    },
+    {
+      "year": "2016/2017",
+      "number": "5",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Given that f(x) = x² if x < 1 and 3 − 2x if x ≥ 1, is f differentiable at x = 1? Justify your claim. (b) State the first mean value theorem, and verify that the function f(x) = (x − 2)(x − 6)(x − 9) in [2, 5] satisfies the theorem. (c) Suppose that α and β are functions, differentiable at x0. If α/β, β(x0) ≠ 0 is differentiable at x0, show that its derivative equals ((βα' − αβ')/β²)(x0), β(x0) ≠ 0."
+    },
+    {
+      "year": "2016/2017",
+      "number": "6",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) State without proof Rolle's theorem and prove that the function f(x) = sin 2x in (0, π/2) satisfies the theorem. (b) Determine all the number(s) x0 which satisfy the conclusion of the first mean value theorem for the function f(x) = 4x³ − 8x² + 7x − 2 on [2, 5]. (c) State and prove the necessary condition for the existence of the derivative of a function."
+    },
+    {
+      "year": "2017/2018",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Let A and B be bounded subsets of real numbers R such that A ⊆ B. (i) Show that inf B ≤ inf A ≤ sup B ≤ sup A. (ii) sup(−A) = −inf(A). (b) (i) Show that if x1 and x2 are rational numbers such that x1 < x2, there exists a third rational number x3 such that x1 < x3 < x2. (ii) Prove that the set of rational numbers is not complete. (c) Prove that a finite set cannot be equivalent to a proper subset of itself."
+    },
+    {
+      "year": "2017/2018",
+      "number": "2",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) Let (a_n) be a sequence of real numbers. (i) When is (a_n) said to converge to a real a? (ii) Show by giving an example that boundedness of a sequence does not guarantee its convergence. (b) (i) Give the necessary and sufficient conditions that guarantee the convergence of a given sequence of real numbers. (ii) Investigate the convergence of the following sequences (α) (k/(k² + 5)) (β) {(−1)^t}. (c) Prove that lim (3a + 8)/(7a − 5) = 3/7 as a → ∞."
+    },
+    {
+      "year": "2017/2018",
+      "number": "3",
+      "topic": "series-of-real-numbers",
+      "text": "(a) (i) Use the notion of convergence to compute Σ (2/3)^i from i = 1 to ∞. (ii) Establish the chance of convergence of the series Σ x/(x² + 200) from x = 1 to ∞. (b) Prove that if Σ |a_n| converges then Σ a_n converges. (c) Let f : R → R be defined by f(x) = 1 if x > 0, 0 if x = 0 and −1 if x < 0. Use the notion of sequential continuity to establish the discontinuity of f at x = 0."
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Let g : [a, b] → R be a function. (i) When is g said to be differentiable? (ii) Find the derivative of g(x) = cos(1/x), x ≠ 0. (b) Locate the zeros of the function g(x) = x³ − 3x² − 9x. (c) A cattle farmer wishes to fence his rectangular fishing pond with a chain 200km long such that one side of the land is bounded by a river flowing on a straight course. Find the dimensions of the plot of the maximum area."
+    },
+    {
+      "year": "2017/2018",
+      "number": "5",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) Using Taylor's theorem with n = 4, approximate the function g(x) = √(1 + x) for x > 1. Hence or otherwise, estimate √1.8. (b) Let [a, b] be a closed bounded interval of a, b. (i) When is F said to be a partition of [a, b]? (ii) When is G said to be refinement of F? (c) Using L'Hospital's rule, evaluate the limit lim (e^(x²) − 1)/sin x² as x → 0."
+    },
+    {
+      "year": "2017/2018",
+      "number": "6",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Let g : [a, b] → R be a differentiable function and x0 ∈ (a, b). When is x0 said to be a (i) local minimum point of f? (ii) local maximum point of f? (iii) critical point of f? (iv) inflection point of f? (b) Using L'Hospital's rule, evaluate the limit of the function f(x) = 1/x − 1/sin x, x ∈ (0, π/2). (c) Determine the critical points of the function g(x) = x²(1 − x)³ and identify the local minimum or maximum point of f and the point of inflection of f."
+    },
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "real-numbers-bounds-and-completeness",
+      "text": "(a) Let P be a non-empty subset of R. (i) When is P said to be bounded? (ii) Assume that P is bounded. When is a real number α said to be the infimum of P? (b) Let [x, y] be a closed bounded interval of R. (i) When is π said to be partition of [x, y]? Define a refinement of π. (ii) When is a function g said to be Riemann integrable? (c) Use the notion of Taylor's theorem with n = 2, to approximate the function g(a) = (1 + a)^(1/3), a > 1. Hence or otherwise, estimate (1.6)^(1/3)."
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) Let (p_n) be a sequence of real numbers. (i) When is (p_n) said to converge to a real p? (ii) When is (p_n) said to be a Cauchy sequence? (b) (i) Let P be a bounded subset of R, k ∈ R and P + k = {p + k : p ∈ P}. Show that sup(P + k) = k + sup(P). (ii) Use the theory of convergence of sequence to compute Σ (3/5)^k from k = 1 to ∞. (c) Prove that lim (4x² + 3x)/(x² − 6) = 3/7 as n → ∞. (As printed; the limit of this expression is 4.)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "(a) (i) Define an open ball B_r(x0) centered at x0 with radius r > 0 for any fixed x0 ∈ R and compute B_(1/2)(−3/2). (ii) When is a function g : P ⊆ R → R said to be continuous at p0 ∈ P? (b) Determine all the numbers which satisfy the conclusion of Mean Value Theorem for the function g(a) = 4a³ − 8a² + 7a − 2 on [2, 5]. (c) Prove or disprove the statement that 'Every convergent sequence is a Cauchy sequence'."
+    },
+    {
+      "year": "2018/2019",
+      "number": "4",
+      "topic": "differentiability-and-mean-value-theorems",
+      "text": "(a) Let x, y be fixed with y > x and let g : [x, y] → R be a function. (i) When is g said to be differentiable? (ii) Show that g(a) = a² if a ≥ 0 and −a² if a < 0 is differentiable at the point a0 = 0. (b) Prove that the function g : R → R defined by g(a) = 4 + 3a³ is continuous at the point x0 = −3. (c) Show that the function g : R → R defined by g(a) = 1 if a is irrational and 0 if a is rational is not Riemann integrable."
+    },
+    {
+      "year": "2018/2019",
+      "number": "5",
+      "topic": "the-riemann-integral",
+      "text": "(a) Let g be a bounded function on [x, y], P a partition of [x, y] and Q a refinement of P on [x, y]. Prove that L(g, P) ≤ L(g, Q). (b) State Rolle's theorem and determine all the numbers which satisfy the condition of the theorem for the function g(a) = 2a − a² − a³ on [−2, 1]. (c) Let (p_i) and (q_i) be bounded subsets of R. Show that inf{p_i + q_i} ≥ inf{p_i} + inf{q_i}."
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "sequences-of-real-numbers",
+      "text": "(a) (i) When is (a_n) said to be a convergent sequence? (ii) Let (a_n) ∈ seq(R) be given by lim (3a + 8)/(7a − 5) = 3/7. Use the ε-definition of a limit of a sequence to verify that lim a_n = 3/7. (b) (i) When is a function f : Q ⊆ R → R said to be continuous at q0 ∈ Q? (ii) Prove that the function f : R → R defined by f(z) = 5 + 5z² is continuous at the point z = −5. (c) (i) What is meant by differentiability of a function? (ii) Let p(t) = 2/(2 + t). Compute p''(t). Hence or otherwise, find p''(0)."
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "the-riemann-integral",
+      "text": "(a) Give precise definitions of the following: (i) Lower Riemann integral (ii) Upper Riemann integral and (iii) Riemann integrable function. (b) Given that f(x) = 0 or 1, for x ∈ Q or x ∈ IQ respectively, show that f(x) is not Riemann integrable in any interval. (c) Define f(a) = a² if a ≠ 0 and −a² if a = 0. Show that f is not differentiable at the point a = 0."
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "(a) (i) When do you say a function is uniformly continuous? (ii) Define f : (0, 1) → R by f(a) = a². Show that f is uniformly continuous on (0, 1). (b) State and prove the characterisation of differentiable functions. (c) (i) Define convergent series. (ii) Use the notion of convergence to compute Σ (1/3)^i from i = 1 to ∞."
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) State without proof Rolle's theorem and verify the validity of the theorem for the function f : [−2, 2] → R defined by f(x) = x³ − 4x. (b) (i) Show that the limit of every convergent sequence is unique. (ii) Investigate the convergence of the series 1 + 1/3 + 1/25 + ... (c) Use the notion of Taylor's theorem with n = 2, approximate the function f(t) = √(1 + t), t > −1. Hence or otherwise, estimate √1.2."
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "taylors-theorem-and-lhopitals-rule",
+      "text": "(a) State without proof mean value theorem and verify the validity of the theorem for the function f(x) = x² + 2x − 1; a = 0, b = 1. (b) (i) Find lim (a² − 4)/(3a − 6) as a → 2, a ≠ 2. (ii) Determine whether or not the function f(x) = (1 − cos x)/(3 − sin x) is continuous at x = 0. (c) Prove that the composite function of continuous functions is continuous."
+    }
+  ]
+}

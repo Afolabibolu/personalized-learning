@@ -1,0 +1,108 @@
+{
+  "code": "PHY 102",
+  "title": "General Physics II (Electricity and Magnetism)",
+  "semester": 2,
+  "description": "The electricity and magnetism course, taught as PHY 104: Introductory Electricity and Magnetism before the CCMAS codes: electric charge and Coulomb's law, electric field and Gauss's law, electric potential, capacitors and dielectrics, current, resistance and d.c. circuits, magnetic fields and forces, and electromagnetic induction with a.c. circuits. Built from Dr O. E. Oyewande's PHY 104 electricity lectures (2024) and P. O. Adesina's magnetism slides, with the CA tests labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "electric-charge-and-coulombs-law",
+      "title": "Electric Charge and Coulomb's Law",
+      "summary": "Matter carries positive and negative charge, and a body is charged when its electrons and protons do not balance. Coulomb's law gives the force between point charges, and forces from several charges add as vectors.",
+      "subtopics": [
+        "Positive and negative charge; conservation and quantisation",
+        "Conductors, insulators, charging and earthing",
+        "Coulomb's law and the constant k",
+        "Inverse-square dependence",
+        "Superposition of forces",
+        "Forces in atoms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "electric-field-and-gauss-law",
+      "title": "Electric Field and Gauss's Law",
+      "summary": "An electric field is the force per unit positive charge at a point, pictured with field lines. Fields of point charges and charge distributions add by superposition, and Gauss's law links the flux through a closed surface to the charge inside.",
+      "subtopics": [
+        "Definition E = F/q and units",
+        "Field of a point charge",
+        "Field lines and their properties",
+        "Superposition of fields",
+        "Uniform field between parallel plates",
+        "Electric flux and Gauss's law"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "electric-potential",
+      "title": "Electric Potential",
+      "summary": "Electric potential is the work done per unit charge in bringing a test charge from infinity, a scalar measured in volts. Potential differences, equipotentials, the potential gradient and the potential energy of charge systems follow from it.",
+      "subtopics": [
+        "Potential and potential difference",
+        "Potential of a point charge",
+        "Potential energy of a system of charges",
+        "Equipotential surfaces",
+        "Potential gradient: E = −dV/dx",
+        "The electronvolt"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "capacitors-and-dielectrics",
+      "title": "Capacitors and Dielectrics",
+      "summary": "A capacitor stores charge and energy on two conductors separated by an insulator. Its capacitance depends on its geometry and the dielectric, and capacitors combine in series and parallel.",
+      "subtopics": [
+        "Capacitance C = Q/V and the farad",
+        "Parallel-plate capacitor",
+        "Dielectrics and dielectric constant",
+        "Capacitors in series and in parallel",
+        "Energy stored in a capacitor",
+        "Charging and discharging (RC)"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "current-resistance-and-dc-circuits",
+      "title": "Current, Resistance and D.C. Circuits",
+      "summary": "Electric current is the flow of charge, driven by an e.m.f. and opposed by resistance. Ohm's law, resistivity, internal resistance, series and parallel combinations, power, Kirchhoff's laws and the Wheatstone bridge are used to analyse d.c. circuits.",
+      "subtopics": [
+        "Current, drift velocity and current density",
+        "Ohm's law, resistance and resistivity",
+        "Temperature dependence of resistance",
+        "E.m.f. and internal resistance",
+        "Series and parallel resistors; power",
+        "Kirchhoff's laws, Wheatstone bridge and potentiometer"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "magnetic-fields-and-forces",
+      "title": "Magnetic Fields and Forces",
+      "summary": "Moving charges and currents produce magnetic fields and feel magnetic forces. The force on a charge is qv × B, so charges circle in uniform fields, and current-carrying wires feel forces used in motors and meters.",
+      "subtopics": [
+        "Sources of magnetism and field lines",
+        "Force on a moving charge: F = qv × B",
+        "Circular motion; cyclotron and velocity selector",
+        "Force on a current-carrying conductor",
+        "Torque on a coil; moving-coil instruments",
+        "Fields of wires and solenoids; forces between currents"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "electromagnetic-induction-and-ac",
+      "title": "Electromagnetic Induction and A.C. Circuits",
+      "summary": "A changing magnetic flux induces an e.m.f., as described by Faraday's and Lenz's laws. Induction underlies generators and transformers, and alternating currents in resistors, inductors and capacitors are described by reactance and impedance.",
+      "subtopics": [
+        "Magnetic flux; Faraday's law",
+        "Lenz's law and motional e.m.f.",
+        "Self and mutual inductance",
+        "The a.c. generator; peak and r.m.s. values",
+        "Reactance, impedance and the RLC circuit",
+        "Resonance, power factor and the transformer"
+      ],
+      "lectures": []
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the address of the cell in column C, row 11?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C11"
+      },
+      {
+        "key": "b",
+        "text": "11C"
+      },
+      {
+        "key": "c",
+        "text": "R11C3"
+      },
+      {
+        "key": "d",
+        "text": "C-11"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Column letter, then row number.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many rows does a single Excel 2013 worksheet contain?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1,048,576"
+      },
+      {
+        "key": "b",
+        "text": "16,384"
+      },
+      {
+        "key": "c",
+        "text": "65,536"
+      },
+      {
+        "key": "d",
+        "text": "256"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "There are 16,384 columns.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Pressing Tab after typing in a cell",
+    "options": [
+      {
+        "key": "a",
+        "text": "completes the entry and moves one cell to the right"
+      },
+      {
+        "key": "b",
+        "text": "moves one cell down"
+      },
+      {
+        "key": "c",
+        "text": "deletes the entry"
+      },
+      {
+        "key": "d",
+        "text": "opens a new sheet"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Enter moves one cell down.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When Merge and Centre is applied to cells that all contain data, which data remains?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only the upper-left cell's data"
+      },
+      {
+        "key": "b",
+        "text": "All the data, joined together"
+      },
+      {
+        "key": "c",
+        "text": "Only the last cell's data"
+      },
+      {
+        "key": "d",
+        "text": "None of it"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Data in the other cells is deleted.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "By default, numbers in an Excel cell are right-aligned and text is left-aligned.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Dates and formulas are also right-aligned.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Undo button can reverse the deletion of a worksheet.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The notes warn that Undo will not undo a deleted worksheet.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these can be autofilled as a series in Excel?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Jan, Feb, Mar"
+      },
+      {
+        "key": "b",
+        "text": "Mon, Tue, Wed"
+      },
+      {
+        "key": "c",
+        "text": "1, 2, 3"
+      },
+      {
+        "key": "d",
+        "text": "A random name"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A value outside a series is copied.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a component of the Excel window in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fill handle"
+      },
+      {
+        "key": "b",
+        "text": "Formula bar"
+      },
+      {
+        "key": "c",
+        "text": "Name (address) box"
+      },
+      {
+        "key": "d",
+        "text": "Slide pane"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The slide pane belongs to PowerPoint.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

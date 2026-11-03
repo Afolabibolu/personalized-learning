@@ -1,0 +1,252 @@
+{
+  "code": "STA 111",
+  "papers": [
+    {
+      "year": "2025 test",
+      "paper": "STA 111 (STA 111/114 General Statistics) test, 2025, as compiled by a student (Ayeni Josiah) after the test; not the official question paper. Some items are worded as compiled",
+      "source": "STA 111 TEST 2025.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2025 test",
+      "number": "1",
+      "topic": "data-types-collection-and-scales",
+      "text": "In a broader sense, statistics is divided into _________ categories namely: A. two, descriptive and generalization statistics B. two, descriptive and inferential statistics C. two, inferential and general statistics D. none of the above"
+    },
+    {
+      "year": "2025 test",
+      "number": "2",
+      "topic": "data-types-collection-and-scales",
+      "text": "Data are facts, however the characteristic or attribute that is measured is regarded as A. Information B. Data C. Observation D. variable"
+    },
+    {
+      "year": "2025 test",
+      "number": "3",
+      "topic": "data-types-collection-and-scales",
+      "text": "The data scale involving a true zero value is known as A. categorical scale B. ratio scale C. measurement scale D. interval scale"
+    },
+    {
+      "year": "2025 test",
+      "number": "4",
+      "topic": "data-types-collection-and-scales",
+      "text": "Statistics is regarded as ______ because of its relevance in all spares of life. A. domain universe B. domain neutral C. domain expert D. domain flexible"
+    },
+    {
+      "year": "2025 test",
+      "number": "5",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "The main differences between regression analysis and correlation analysis is that? A. while one variable depends on another variable in correlation analysis, there is no variable dependence in regression analysis B. while one variable depends on another variable in regression analysis, there is no variable dependence in correlation analysis C. while one variable depends on two or more variables in correlation analysis, only one variable can determine another in regression analysis D. while one variable depends on two or more variables in regression analysis, only one variable can determine another in correlation analysis"
+    },
+    {
+      "year": "2025 test",
+      "number": "6",
+      "topic": "data-types-collection-and-scales",
+      "text": "Data comes in __________ different levels or scales namely? A. four; qualitative, categorical, quantitative and measurement B. four; categorical, nominal, ordinal and measurement C. four; nominal, ordinal, interval and ratio D. four; nominal, ordinal, interval and binary."
+    },
+    {
+      "year": "2025 test",
+      "number": "7",
+      "topic": "measures-of-variability",
+      "text": "Scores on IQ tests have a bell-shaped distribution with mean = 40 and standard deviation = 10. What is empirical rule concerning individuals with IQ scores of 30, 35, 40 and 55? A. approximately 95% of the IQ scores in the population lie between 15 and 35 B. approximately 95% of the IQ scores in population lie between 30 and 35 C. approximately 95% of the IQ scores in population lie between 30 and 50 D. approximately 95% of the IQ scores in population lie between 25 and 50"
+    },
+    {
+      "year": "2025 test",
+      "number": "8",
+      "topic": "measures-of-variability",
+      "text": "A sample of size n = 30 has mean (xbar) = 15 and standard deviation (s) = 2. Without knowing anything else about the sample, what can be said about the number of observations that lie in the interval (9, 21)? A. at least ¾ of the observations lie within the interval B. at least 8/9 of the observations lie within the interval C. at least 2/4 of the observations lie within the interval D. at least 95% of the observations lie within the interval"
+    },
+    {
+      "year": "2025 test",
+      "number": "9",
+      "topic": "measures-of-variability",
+      "text": "The mean (xbar) and standard deviation (s) of a set of data is given as 70.92 and 1.70 respectively. How many observations lie within approximately 68% and 95% empirical rule? A. (69.23, 72.62) and (67.52, 73.32) respectively B. (69.22, 72.62) and (67.52, 74.32) respectively C. (68.22, 71.62) and (66.52, 75.02) respectively D. (69.22, 71.62) and (67.52, 74.23) respectively"
+    },
+    {
+      "year": "2025 test",
+      "number": "10",
+      "topic": "measures-of-variability",
+      "text": "All the following is false except that: A. empirical rule apply to all data set B. empirical rule does not apply to all data sets C. Chebyshev’s theorem applies to all data set D. empirical rule is only applicable to data set that are bell-shaped"
+    },
+    {
+      "year": "2025 test",
+      "number": "11",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "A value is considered an Outlier if: A. it falls between Q1 – 1.5 IQR and Q3 + 1.5 IQR B. it falls outside either Q1 – 1.5 IQR or Q3 + 1.5 IQR C. it falls between either Q1 – 3IQR or Q3 + 3IQR D. it falls below Q1 – 1.5 IQR and Q3 + 1.5 IQR"
+    },
+    {
+      "year": "2025 test",
+      "number": "12",
+      "topic": "measures-of-variability",
+      "text": "Given that the mean () of the 2, 5, 3, w, 6 is 3.4. Obtain the Coefficient of variation (CV). A. 60.88% B. 60.98% C. 60.99% D. 60.89%"
+    },
+    {
+      "year": "2025 test",
+      "number": "13",
+      "topic": "data-types-collection-and-scales",
+      "text": "CGPA can be classified as ______scale. A. Ordinal B. Interval C. Ratio D. nominal"
+    },
+    {
+      "year": "2025 test",
+      "number": "14",
+      "topic": "confidence-intervals",
+      "text": "In a community with 300 households, 123 have colour TV. Obtain the margin of error at 95% confidence interval for the (true population) proportion of households with colour TV in the whole town. A. ± 0.0556 B. ± 0.0558 C. ± 0.0555 D. ± 0.0552"
+    },
+    {
+      "year": "2025 test",
+      "number": "15",
+      "topic": "confidence-intervals",
+      "text": "The weight of 10 tubers of yam from a farm are 9.8, 9.9, 10.3, 10.1, 10.4, 10.6, 10.2, 9.7, 10.5 and 9.8. Find the 99% confidence interval for the mean of all yam in the farm. A. 10.13 ± 0.2616 B. 10.13 ± 0.2611 C. 10.13 ± 0.2613 D. 10.13 ± 0.2617"
+    },
+    {
+      "year": "2025 test",
+      "number": "16",
+      "topic": "confidence-intervals",
+      "text": "A factory has two machines; A & B for production of a particular design of plastic. 10% of produce from machine A is substandard and only 5% from machine B is affected. Obtain the sum of the proportion of substandard plastics from the two machines. A. 0.15 ± 0.7286 B. 0.15 ± 0.7270 C. 0.15 ± 0.7688 D. 0.15 ± 0.7268"
+    },
+    {
+      "year": "2025 test",
+      "number": "17",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "The error committed when a false null hypothesis is assumed to be true is____? A. Type I error B. Type II error C. Type III error D. Type Null Error"
+    },
+    {
+      "year": "2025 test",
+      "number": "18",
+      "topic": "confidence-intervals",
+      "text": "In a community with 300 households, 123 have colour TV. Obtain the proportion of households with colour TV in the whole town. A. 0.41 B. 0.42 C. 0.59 D. 0.58"
+    },
+    {
+      "year": "2025 test",
+      "number": "19",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "Which of the following is TRUE? A. increase in sample size will increase the β (i.e., P(Accept H0; H0 is False) value B. increase in sample size will reduce the β (i.e., P(Accept H0; H0 is False) value C. increase in sample size will increase the α (i.e., P(Accept H0; H0 is False) value D. increase in sample size will reduce the α (i.e., P(Reject H0; H0 is True) value."
+    },
+    {
+      "year": "2025 test",
+      "number": "20",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "Given the hypothesis below at a 5% level of significance. H0: There is GOD; HI: There is No GOD What conclusion can you draw from this hypothesis if the Z calculated is 1.99? A. We accept the null hypothesis, hence there is no adequate evidence that GOD exist. B. We reject the null hypothesis, hence there is adequate evidence that GOD exist C. We reject the null hypothesis, hence there is little or no evidence to support the H0. D. We accept the null hypothesis, hence there is no sufficient evidence against the H0."
+    },
+    {
+      "year": "2025 test",
+      "number": "21",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "Given that the 2nd and 3rd moments are 8.53 and -2.69 respectively, with sample size of 100. What is the Sample Skewness? A. -0.1097 B. -0.1099 C. -0.1907 D. -0.1197"
+    },
+    {
+      "year": "2025 test",
+      "number": "22",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "If the right tail of a distribution is longer than the left tail, the Skewness of A. the data are negatively skewed or skewed right B. the data are positively skewed or skewed right C. the data are positively skewed or skewed left D. the data are negatively skewed or skewed left"
+    },
+    {
+      "year": "2025 test",
+      "number": "23",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "Given that the mean value is twice the value of mode. And the standard deviation (SD) is 1/5 of the value of the mean. Obtain the Skewness of the data. A. 5/2 B. 3/5 C. 2/5 D. 0.2"
+    },
+    {
+      "year": "2025 test",
+      "number": "24",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "A distribution with Kurtosis less than 3 is said to be? A. Mesokurtic B. Leptokurtic C. Lexokurtic D. Platykurtic"
+    },
+    {
+      "year": "2025 test",
+      "number": "25",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "Given that the 2nd and 4th moments are 2.5and 3.2 respectively. Obtain the Kurtosis if sample size is 10. A. 0.512 B. 0.521 C. -2.488 D. 2.488"
+    },
+    {
+      "year": "2025 test",
+      "number": "26",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "If the Kurtosis value is -2.39. Then the data is said to be? A. slightly mesokurtic B. slightly leptokurtic C. slightly plytokurtic D. none of the above"
+    },
+    {
+      "year": "2025 test",
+      "number": "27",
+      "topic": "confidence-intervals",
+      "text": "A random sample of age of five students’ gives 16, 17, 17, 18, y, with mean of 17.4. The confidence interval of age the ten students at 95% confidence level is? A. 17.4 ± 1.583 B. 17.4 ± 0.4469 C. 17.4 ± 1.538 D. 17.4 ± 0.4450"
+    },
+    {
+      "year": "2025 test",
+      "number": "28",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "For a calculated t or Z value to fall in the acceptance region of the decision curve, the value must be? A. strictly less than the critical value B. strictly greater than the critical value C. less than or equals to the critical value D. greater than or equals to the critical value"
+    },
+    {
+      "year": "2025 test",
+      "number": "29",
+      "topic": "hypothesis-testing-correlation-and-regression",
+      "text": "Assume n = 20 and level of significance (α) = 5%. Obtain the critical value of the sample data. A. 1.960 B. 2.093 C. 2.903 D. 2.570"
+    },
+    {
+      "year": "2025 test",
+      "number": "30",
+      "topic": "confidence-intervals",
+      "text": "The means and standard deviations of two population samples (n = 36) are 15 & 13 and 3 & 4 respectively. Obtain the confidence limit of the difference of the sample means. A. (9.367, 12.633) B. (9.336, 12.633) C. (9.636, 12.363) D. (9.667, 12.636)"
+    },
+    {
+      "year": "2025 test",
+      "number": "31",
+      "topic": "measures-of-variability",
+      "text": "Assume the height of students in STA 114 class is normally distributed with mean 65 inches and a standard deviation of 3 inches. Estimate the percentage of students whose height falls between 59 inches and 71 inches A. 99.7% B. 68% C. 95% D. 75%"
+    },
+    {
+      "year": "2025 test",
+      "number": "32",
+      "topic": "measures-of-variability",
+      "text": "Assume a population of animals in a zoo is known to be normally distributed. Each animal lives an average of 10 years of age with a standard deviation of 14 years. What is the probability that an animal will live longer than 7.2 years. A. 97.5% B. 68% C. 99.7% D. 95%"
+    },
+    {
+      "year": "2025 test",
+      "number": "33",
+      "topic": "measures-of-variability",
+      "text": "Suppose that STA 114 class took a test and the mean score was 75% and the standard deviation was 5%. If the test scores follow an approximately normal distribution, What percentage of the students had scores between 65 and 85? A. 97.5% B. 95% C. 99.7% D. 68%"
+    },
+    {
+      "year": "2025 test",
+      "number": "34",
+      "topic": "measures-of-variability",
+      "text": "Suppose that STA 114 class took a test and the mean score was 75% and the standard deviation was 5%. If the test scores follow an approximately normal distribution, What percentage of the students had scores between 65 and 75? A. 45% B. 52.5% C. 47.5% D. 55%"
+    },
+    {
+      "year": "2025 test",
+      "number": "35",
+      "topic": "measures-of-variability",
+      "text": "Suppose that STA 114 class took a test and the mean score was 75% and the standard deviation was 5%. If the test scores follow an approximately normal distribution, What percentage of the students had scores between 70 and 80? A. 95% B. 68% C. 99.7% D. 97.5%"
+    },
+    {
+      "year": "2025 test",
+      "number": "36",
+      "topic": "confidence-intervals",
+      "text": "In a study designed to assess the relationship between a certain drug and a certain anomaly in chick embryos, 50 fertilized eggs were injected with the drug on the fourth day of incubation. On the twentieth day of incubation the embryos were examined and in 12 the presence of the abnormality was observed. Construct the 95% confidence interval A. (0.1216, 0.3584) B. (0.1403, 0.3390) C. (0.0845, 0.3955)"
+    },
+    {
+      "year": "2025 test",
+      "number": "37",
+      "topic": "confidence-intervals",
+      "text": "In a study designed to assess the relationship between a certain drug and a certain anomaly in chick embryos, 50 fertilized eggs were injected with the drug on the fourth day of incubation. On the twentieth day of incubation the embryos were examined and in 12 the presence of the abnormality was observed. Construct the 99% confidence interval for p A. (0.2313, 0.2487) B. (0.1406, 0.3394) C. (0.0845, 0.3955)"
+    },
+    {
+      "year": "2025 test",
+      "number": "38",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "When the value of excess kurtosis of a distribution is equal to 3, then the distribution is said to be a ………………….. distribution A. Unskewed B. Skewed C. Normal D. loop sided"
+    },
+    {
+      "year": "2025 test",
+      "number": "39",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "If the right tail of a distribution is longer than the left tail, the skewness of A. The data are positively skewed or skewed to the left B. The data are negatively skewed or skewed to the left C. The data are negatively skewed or skewed to the right D. The data are positively skewed or skewed to the right"
+    },
+    {
+      "year": "2025 test",
+      "number": "40",
+      "topic": "relative-position-skewness-and-kurtosis",
+      "text": "The three point that divide a distribution into four equal parts is known as the A. Quartiles B. Percentiles C. Quantiles D. percentages"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An electron is released between plates 0.5 m apart with 25 V across them. Its acceleration is",
+    "options": [
+      {
+        "key": "a",
+        "text": "8.79 × 10¹² m/s²"
+      },
+      {
+        "key": "b",
+        "text": "8.79 × 10¹⁰ m/s²"
+      },
+      {
+        "key": "c",
+        "text": "2.84 × 10⁻¹⁰ m/s²"
+      },
+      {
+        "key": "d",
+        "text": "2.84 × 10⁻¹² m/s²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a = eV/(md).",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The SI unit of electric field strength is",
+    "options": [
+      {
+        "key": "a",
+        "text": "N/C (equivalently V/m)"
+      },
+      {
+        "key": "b",
+        "text": "C/N"
+      },
+      {
+        "key": "c",
+        "text": "V·m"
+      },
+      {
+        "key": "d",
+        "text": "J/C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E = F/q = V/d.",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The field of an infinite sheet of charge with density σ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "σ/(2ε₀)"
+      },
+      {
+        "key": "b",
+        "text": "σ/ε₀"
+      },
+      {
+        "key": "c",
+        "text": "σ/(4πε₀r²)"
+      },
+      {
+        "key": "d",
+        "text": "2σ/ε₀"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From Gauss's law with a pillbox.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Electric field lines point in the direction of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decreasing potential"
+      },
+      {
+        "key": "b",
+        "text": "Increasing potential"
+      },
+      {
+        "key": "c",
+        "text": "The motion of electrons"
+      },
+      {
+        "key": "d",
+        "text": "The magnetic field"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E = −dV/dx.",
+    "source": "PHY 104 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "Electric field lines never cross each other.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The field has one direction at each point.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "Inside a conductor in electrostatic equilibrium the electric field is very strong.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is zero; excess charge sits on the surface.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct about the field of a point charge q?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E = kq/r²"
+      },
+      {
+        "key": "b",
+        "text": "It is radial"
+      },
+      {
+        "key": "c",
+        "text": "It points away from a positive charge"
+      },
+      {
+        "key": "d",
+        "text": "It is uniform everywhere"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "It falls off as 1/r².",
+    "source": "PHY 104 electricity lectures 1–10 (Oyewande, 2024)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E = F/q"
+      },
+      {
+        "key": "b",
+        "text": "E = V/d"
+      },
+      {
+        "key": "c",
+        "text": "E = kq/r²"
+      },
+      {
+        "key": "d",
+        "text": "E = mc²"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "E = mc² is mass–energy, not an electric field.",
+    "source": "General knowledge of PHY 102"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many rows does the truth table of a 4-input combinational circuit have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "16"
+      },
+      {
+        "key": "b",
+        "text": "8"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "32"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An n-input circuit has 2ⁿ combinations; 2⁴ = 16.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Six"
+  },
+  {
+    "format": "true_false",
+    "stem": "The output of a combinational logic circuit depends on its previous outputs as well as its present inputs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That describes a sequential circuit; a combinational circuit has no feedback or memory.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lectures Six and Ten"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An alarm rings when the front or back sensor fires and the noise sensor also fires. Its expression is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(F + B) · N"
+      },
+      {
+        "key": "b",
+        "text": "F + B · N"
+      },
+      {
+        "key": "c",
+        "text": "F · B + N"
+      },
+      {
+        "key": "d",
+        "text": "F · B · N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Without brackets, F + B · N would ring on the front sensor alone.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Six"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a Boolean expression without brackets, which operation is done before OR?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AND"
+      },
+      {
+        "key": "b",
+        "text": "XOR"
+      },
+      {
+        "key": "c",
+        "text": "NOR"
+      },
+      {
+        "key": "d",
+        "text": "None; they are equal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "AND takes precedence over OR unless brackets override it.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Six"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a 3-variable function, the minterm ĀBC̄ is written",
+    "options": [
+      {
+        "key": "a",
+        "text": "m2"
+      },
+      {
+        "key": "b",
+        "text": "m5"
+      },
+      {
+        "key": "c",
+        "text": "m3"
+      },
+      {
+        "key": "d",
+        "text": "m6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ĀBC̄ is 010, which is decimal 2.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Seven"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which expressions are in sum-of-products form?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ĀB + B̄C"
+      },
+      {
+        "key": "b",
+        "text": "AB + C"
+      },
+      {
+        "key": "c",
+        "text": "(A + B)C"
+      },
+      {
+        "key": "d",
+        "text": "A + B̄C"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "(A + B)C has a bracketed sum, so it is not SOP.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Seven"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out as a way of specifying a combinational logic circuit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Truth table"
+      },
+      {
+        "key": "b",
+        "text": "Boolean expression"
+      },
+      {
+        "key": "c",
+        "text": "Logic circuit diagram"
+      },
+      {
+        "key": "d",
+        "text": "Characteristic table of a flip-flop"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A flip-flop's characteristic table describes a sequential circuit.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lectures Six and Ten"
+  },
+  {
+    "format": "true_false",
+    "stem": "A sum term in which every input variable appears is called a minterm.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is a maxterm; a minterm is a product term containing every variable.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Seven"
+  }
+]

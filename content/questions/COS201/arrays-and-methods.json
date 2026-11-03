@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the index of the last element of an array of length n?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n - 1"
+      },
+      {
+        "key": "b",
+        "text": "n"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Arrays are zero-indexed.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which property gives the number of elements in a Java array?",
+    "options": [
+      {
+        "key": "a",
+        "text": ".length"
+      },
+      {
+        "key": "b",
+        "text": ".size()"
+      },
+      {
+        "key": "c",
+        "text": ".count"
+      },
+      {
+        "key": "d",
+        "text": ".length()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "length() is the String method.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}}, what is matrix[1][2]?",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Row 1 is {4,5,6}; column 2 is 6.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A method that performs an action but returns no value has return type",
+    "options": [
+      {
+        "key": "a",
+        "text": "void"
+      },
+      {
+        "key": "b",
+        "text": "int"
+      },
+      {
+        "key": "c",
+        "text": "null"
+      },
+      {
+        "key": "d",
+        "text": "static"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "void means no return value.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Two methods can be overloaded by differing only in their return type.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Parameter count or types must differ.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Arrays.binarySearch() requires the array to be sorted first.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Sort with Arrays.sort() before searching.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are features of a Java array?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fixed size"
+      },
+      {
+        "key": "b",
+        "text": "Zero-indexed"
+      },
+      {
+        "key": "c",
+        "text": "Elements of the same type"
+      },
+      {
+        "key": "d",
+        "text": "Grows automatically"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The length cannot change.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the three ideas of modularity in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Separation"
+      },
+      {
+        "key": "b",
+        "text": "Encapsulation"
+      },
+      {
+        "key": "c",
+        "text": "Reusability"
+      },
+      {
+        "key": "d",
+        "text": "Fall-through"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Fall-through is a switch behaviour.",
+    "source": "COS201_Java_Programming.pptx (Arrays, Modularity and Methods)"
+  }
+]

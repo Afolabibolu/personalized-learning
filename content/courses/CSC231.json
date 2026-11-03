@@ -1,0 +1,80 @@
+{
+  "code": "CSC 231",
+  "title": "Scientific Programming",
+  "semester": 1,
+  "description": "Programming for scientific problems in MATLAB and Python: script files and variables, arrays, vectors and matrices, plotting and anonymous functions, Python basics and control flow, and Python functions with NumPy. The course folder holds only its tests (two MATLAB practical tests and a 2024/25 Python test), so the title is inferred from them and every topic is written from general knowledge of such a course.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "matlab-environment-and-scripts",
+      "title": "The MATLAB Environment, Variables and Script Files",
+      "summary": "MATLAB is an interactive environment for numerical computing built around matrices. Commands run in the Command Window or are saved in script files (.m), using variables, arithmetic operators and built-in functions.",
+      "subtopics": [
+        "The Command Window, workspace and current folder",
+        "Variables, assignment and naming rules",
+        "Arithmetic operators and precedence",
+        "Built-in functions and constants",
+        "Script files (.m) and comments",
+        "Displaying output: disp and fprintf"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "arrays-vectors-and-matrices",
+      "title": "Arrays, Vectors and Matrices in MATLAB",
+      "summary": "MATLAB stores data in arrays: row and column vectors and matrices. Elements and whole rows or columns are picked out by indexing, and matrix operations include products, transposes and the dot and cross products of vectors.",
+      "subtopics": [
+        "Creating row and column vectors",
+        "Ranges with the colon operator and linspace",
+        "Creating matrices",
+        "Indexing elements, rows and columns",
+        "Element-wise and matrix operations",
+        "Dot and cross products"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "plotting-and-anonymous-functions",
+      "title": "Plotting and Anonymous Functions",
+      "summary": "MATLAB draws 2-D graphs with plot, labelled with titles, axis labels, grids and legends, including parametric curves. Anonymous functions define one-line functions with the @ operator, and user-defined function files return outputs.",
+      "subtopics": [
+        "The plot command and line styles",
+        "Titles, labels, grids and legends",
+        "Plotting parametric curves",
+        "Multiple plots: hold on and subplot",
+        "Anonymous functions with @",
+        "Function files"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "python-basics-and-control-flow",
+      "title": "Python Basics and Control Flow",
+      "summary": "Python is a high-level, interpreted, dynamically typed language. Programs use variables, data types, input and output, and control flow with if/elif/else and for and while loops to make decisions and repeat work.",
+      "subtopics": [
+        "Python as an interpreted, dynamically typed language",
+        "Variables and data types",
+        "Input, output and type conversion",
+        "Arithmetic, comparison and logical operators",
+        "if, elif and else",
+        "for and while loops"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "python-functions-and-numpy",
+      "title": "Python Functions and NumPy",
+      "summary": "Functions package reusable code with parameters and return values. NumPy provides fast n-dimensional arrays for numerical work, with element-wise arithmetic and functions such as mean along rows or columns.",
+      "subtopics": [
+        "Defining and calling functions",
+        "Parameters, return values and scope",
+        "Simulations with loops inside functions",
+        "NumPy arrays and matrices",
+        "Element-wise operations and broadcasting",
+        "Means and sums along an axis"
+      ],
+      "lectures": []
+    }
+  ]
+}

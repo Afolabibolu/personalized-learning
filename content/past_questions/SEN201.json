@@ -1,0 +1,84 @@
+{
+  "code": "SEN 201",
+  "exam_style": true,
+  "intro": "No SEN 201 past papers were found in the course folder. These exam-style questions were written for practice from the course's lecture notes; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the SEN 201 lecture notes",
+      "source": "Written for this app from the SEN 201 lecture notes, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "software-engineering-foundations",
+      "text": "a) Give the IEEE definition of software engineering and explain why software engineering principles are necessary for large software products. (6 marks) b) Explain abstraction and decomposition as techniques for reducing problem complexity. (4 marks) c) Distinguish between generic and customised (bespoke) software products, with an example of each. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "software-engineering-foundations",
+      "text": "a) State and explain the four essential attributes of good software. (8 marks) b) List and describe any four types of software application. (4 marks) c) State the four fundamental principles of software engineering that apply to all types of software system. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "software-process-models",
+      "text": "a) Describe the five stages of the waterfall model and state one advantage and one disadvantage of the model. (8 marks) b) When should the waterfall model be used? (2 marks) c) Explain the four sectors of each loop of Boehm's spiral model. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "software-process-models",
+      "text": "a) Explain the stages of reuse-oriented software engineering and the three types of software component that may be reused. (8 marks) b) State two advantages and two problems of incremental delivery. (4 marks) c) List the four stages of the prototyping development model. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "agile-and-extreme-programming",
+      "text": "a) State and explain the five principles of agile methods. (10 marks) b) Describe how requirements are expressed and tested in Extreme Programming. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "agile-and-extreme-programming",
+      "text": "a) Discuss three challenges of using agile principles in practice. (6 marks) b) Give four questions that help a project choose between a plan-driven and an agile approach, and explain how each answer affects the choice. (9 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "requirements-engineering",
+      "text": "a) Define requirements engineering and explain why poor requirements are costly. (5 marks) b) Describe the four main activities of the requirements engineering process. (6 marks) c) Distinguish between functional and non-functional requirements, giving an example of each for a hospital management system. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "design-uml-and-architecture",
+      "text": "a) Explain the four design activities of architectural, interface, component and database design. (8 marks) b) Distinguish between structural and dynamic UML models. (4 marks) c) Name the four fundamental architectural views. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "validation-and-testing",
+      "text": "a) Explain the three levels of development testing and what each focuses on. (6 marks) b) Distinguish between alpha, beta and acceptance testing. (6 marks) c) What are the two goals of software testing? (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "evolution-maintenance-and-management",
+      "text": "a) Explain the three types of software maintenance and which is usually most expensive. (6 marks) b) What are legacy systems? Describe the five activities of software re-engineering. (7 marks) c) State two benefits of a cohesive software team. (2 marks)",
+      "marks": 15
+    }
+  ]
+}

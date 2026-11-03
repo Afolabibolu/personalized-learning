@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Heat flows through a 30 mm board at 0.0086 W/cm² with a 20 °C difference. Its thermal conductivity is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.13 W m⁻¹ °C⁻¹"
+      },
+      {
+        "key": "b",
+        "text": "0.013 W m⁻¹ °C⁻¹"
+      },
+      {
+        "key": "c",
+        "text": "0.78 W m⁻¹ °C⁻¹"
+      },
+      {
+        "key": "d",
+        "text": "0.52 W m⁻¹ °C⁻¹"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k = HL/(AΔT) = 86 × 0.03/20.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A blackbody at 500 °C must reach what temperature to radiate twice as much power?",
+    "options": [
+      {
+        "key": "a",
+        "text": "646 °C"
+      },
+      {
+        "key": "b",
+        "text": "564 °C"
+      },
+      {
+        "key": "c",
+        "text": "464 °C"
+      },
+      {
+        "key": "d",
+        "text": "746 °C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "T⁴ doubles: 773 × 2^0.25 = 919 K.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the earth's surface (15 °C) were a blackbody, it would radiate about",
+    "options": [
+      {
+        "key": "a",
+        "text": "390 W/m²"
+      },
+      {
+        "key": "b",
+        "text": "288 W/m²"
+      },
+      {
+        "key": "c",
+        "text": "251 W/m²"
+      },
+      {
+        "key": "d",
+        "text": "0.0029 W/m²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "σ × 288⁴.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Heat transfer by convection occurs",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only in liquids and gases"
+      },
+      {
+        "key": "b",
+        "text": "Only in solids"
+      },
+      {
+        "key": "c",
+        "text": "In solids, liquids and gases"
+      },
+      {
+        "key": "d",
+        "text": "Only in a vacuum"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It needs bulk fluid motion.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "An ideal absorber has an emissivity of 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A blackbody absorbs all incident radiation.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "The rate of radiation from a body depends on its length.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It depends on emissivity, area and T⁴.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which factors does the radiated power P = eσAT⁴ depend on?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Emissivity"
+      },
+      {
+        "key": "b",
+        "text": "Surface area"
+      },
+      {
+        "key": "c",
+        "text": "Fourth power of the absolute temperature"
+      },
+      {
+        "key": "d",
+        "text": "The colour of the room's walls"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The surroundings matter only for the net rate.",
+    "source": "PHY 103 Thermal Conductivity and Thermal Radiation slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which mode is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Conduction"
+      },
+      {
+        "key": "b",
+        "text": "Convection"
+      },
+      {
+        "key": "c",
+        "text": "Radiation"
+      },
+      {
+        "key": "d",
+        "text": "Evaporation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Evaporation is a change of state, not one of the three modes of heat transfer.",
+    "source": "PHY 103 Thermal Conductivity and Thermal Radiation slides"
+  }
+]

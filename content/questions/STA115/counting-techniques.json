@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many different arrangements can be made from the letters of DATA?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "24"
+      },
+      {
+        "key": "c",
+        "text": "6"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "4!/2! because the two A's are identical.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In how many ways can nine people be put into committees of sizes 2, 3 and 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1260"
+      },
+      {
+        "key": "b",
+        "text": "504"
+      },
+      {
+        "key": "c",
+        "text": "362880"
+      },
+      {
+        "key": "d",
+        "text": "84"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "9!/(2! 3! 4!).",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many four-digit licence plates can be made if digits may repeat?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10,000"
+      },
+      {
+        "key": "b",
+        "text": "5040"
+      },
+      {
+        "key": "c",
+        "text": "9999"
+      },
+      {
+        "key": "d",
+        "text": "40"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sampling with replacement: 10⁴.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In how many ways can 6 different people sit around a round table?",
+    "options": [
+      {
+        "key": "a",
+        "text": "120"
+      },
+      {
+        "key": "b",
+        "text": "720"
+      },
+      {
+        "key": "c",
+        "text": "360"
+      },
+      {
+        "key": "d",
+        "text": "60"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(6 − 1)! = 120.",
+    "source": "General knowledge of STA 115"
+  },
+  {
+    "format": "true_false",
+    "stem": "For any n and r, nCr = nC(n − r).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Choosing r to include is the same as choosing n − r to leave out.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a combination, the order of the selected objects matters.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Order matters in a permutation, not a combination.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "nPr = n!/(n − r)!"
+      },
+      {
+        "key": "b",
+        "text": "nCr = nPr/r!"
+      },
+      {
+        "key": "c",
+        "text": "0! = 1"
+      },
+      {
+        "key": "d",
+        "text": "nCr is greater than nPr when r ≥ 2"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "nPr is r! times nCr, so it is larger.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which count has a different value from the others?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4P3"
+      },
+      {
+        "key": "b",
+        "text": "4!"
+      },
+      {
+        "key": "c",
+        "text": "3 × 2 × 4"
+      },
+      {
+        "key": "d",
+        "text": "8C3"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "8C3 = 56; the others are 24.",
+    "source": "STA 115 Lecture 1: Counting Techniques (Prof. O.I. Shittu, 2023)"
+  }
+]

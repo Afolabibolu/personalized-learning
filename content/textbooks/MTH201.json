@@ -1,0 +1,63 @@
+{
+  "code": "MTH 201",
+  "books": {
+    "thomas": {
+      "title": "Thomas' Calculus",
+      "authors": "Joel Hass, Christopher Heil and Maurice D. Weir",
+      "edition": "14th edition",
+      "publisher": "Pearson",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "real-valued-functions-and-limits": [
+      {
+        "book": "thomas",
+        "read": "The chapter on functions and limits",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "continuity-differentiability-and-differentiation-rules": [
+      {
+        "book": "thomas",
+        "read": "The chapter on continuity and derivatives",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "integration-and-its-applications": [
+      {
+        "book": "thomas",
+        "read": "The chapter on applications of definite integrals",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "extrema-and-optimisation": [
+      {
+        "book": "thomas",
+        "read": "The chapter on applications of derivatives (extreme values and optimisation)",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "mean-value-theorems-and-taylor-series": [
+      {
+        "book": "thomas",
+        "read": "The chapter on the mean value theorem and power and Taylor series",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "functions-of-several-variables-and-partial-derivatives": [
+      {
+        "book": "thomas",
+        "read": "The chapter on partial derivatives",
+        "why": "The standard calculus text in the course folder."
+      }
+    ],
+    "constrained-optimisation-and-multiple-integrals": [
+      {
+        "book": "thomas",
+        "read": "The chapter on extreme values, Lagrange multipliers and multiple integrals",
+        "why": "The standard calculus text in the course folder."
+      }
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "code": "MAT 213",
+  "papers": [
+    {
+      "year": "2017/2018",
+      "paper": "B.Sc., B.Ed., B.Tech. Degree Examinations, 2017/2018 First Semester (MAT 213: Algebra for Non-Major), 15 August 2018. Answer any three questions; 2 hours 30 minutes",
+      "source": "First Semester PQs/MAT 213 PQ COMPILED/MAT 213 PQ.pdf, pages 1 and 2"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "B.Sc., B.Ed., B.Tech. Degree Examinations, 2020/2021 First Semester (MAT 213: Algebra 1), 14 July 2021. Answer Question 1 and any two of Questions 2, 3 and 4; 120 minutes",
+      "source": "First Semester PQs/MAT 213 PQ COMPILED/MAT 213 2021.pdf (also MAT 213 PQ.pdf, pages 3 and 4)"
+    },
+    {
+      "year": "2023/2024 CA",
+      "paper": "2023/2024 Continuous Assessment Test (MAT 213: Algebra), 27 August 2024. Answer all questions; 40 minutes",
+      "source": "First Semester PQs/MAT 213 PQ COMPILED/MAT 213 CAT (20232024).pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2017/2018",
+      "number": "1a",
+      "topic": "sets-and-functions",
+      "text": "Let X and Y be nonempty sets and ∼ an arbitrary binary relation. Then briefly explain the following: (i) An injective mapping f : X → Y (1 mark); (ii) A totally ordered set (X, ∼) (4 marks); (iii) Given a subset S of X, a first element of S (2 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "1b",
+      "topic": "relations-and-orderings",
+      "text": "Let X = {1, 2, 3, 4}. Consider the relations R₁ = {(1,1), (2,2), (3,3), (4,4), (2,3), (3,2), (1,4)} and R₂ = {(1,1), (2,2), (3,3), (2,3), (1,2), (2,1), (1,3), (3,1), (4,4)}. (i) Is R₁ an equivalence relation? Justify your answer (1 mark); (ii) Is R₂ an equivalence relation? Justify your answer (3 marks); (iii) Hence, consider a relation ∼ on R² such that for (x₁, y₁), (x₂, y₂) ∈ R², (x₁, y₁) ∼ (x₂, y₂) ⇔ |x₁ − y₁| = |y₂ − x₂|. Show whether or not ∼ is an equivalence relation (9 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "2a",
+      "topic": "introduction-to-number-theory",
+      "text": "Briefly explain the following: (i) (a, b) = 1 (1 mark); (ii) lcm[a, b] (2 marks); (iii) An integer p a prime number (2 marks); (iv) Hence, find the gcd(945, 2415) = d and integers u and v such that d = 2415u + 945v (8 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "2b",
+      "topic": "introduction-to-number-theory",
+      "text": "(i) State the fundamental theorem of arithmetic (2 marks); (ii) State the Euclidean division algorithm (2 marks); (iii) Find all the solutions of the congruent equation 12x ≡ 3 (mod 9) (2 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "3a",
+      "topic": "rings-and-fields",
+      "text": "Given a nonempty set X, operation + (usual addition) and × (usual multiplication): (i) When is (X, +, ×) said to be a ring? (4 marks) (ii) When is the ring (X, +, ×) said to be an integral domain? (iii) State the Lagrange Theorem (2 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "3b",
+      "topic": "groups",
+      "text": "Consider the set Z₈: (i) Find the set Z_φ(8) of all elements x ∈ Z₈ such that (x, 8) = 1 (1 mark); (ii) Compute the totient φ(8) (1 mark); (iii) Construct a Cayley's multiplication table modulo 8 for (Z_φ(8), ×₈) (4 marks); (iv) Justify whether (Z_φ(8), ×₈) is a group or not (5 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "4a",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Consider the matrix A with rows (1, −3, 3), (3, −5, 3), (6, −6, 4): (i) Find the associated eigenvalues to matrix A (7 marks); (ii) Find the associated diagonal matrix A_D (2 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "4b",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "(i) State Cayley-Hamilton's theorem (2 marks); (ii) Verify Cayley-Hamilton's theorem for the matrix B with rows (4, 1), (3, 2)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "5a",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Let V be an additive abelian group and F any field of numbers: (i) When is V said to be a vector space over F? (4 marks) (ii) Given a set {v₁, v₂, v₃, …, vₙ} of nonzero vectors in V and a set of scalars {λ₁, λ₂, λ₃, …, λₙ} in F. When is this set of vectors considered to be a basis for V? (2 marks) (iii) Given a field R of real numbers, construct vector space over R and define its typical element, vector addition and scalar multiplication (2 marks); (iv) Show that the nonzero vectors in the vector space V over a field F is linearly dependent if one of the vectors is a linear combination of the others (4 marks)."
+    },
+    {
+      "year": "2017/2018",
+      "number": "5b",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Consider the mapping T : Vₙ(F) → Vₘ(F) from the n-dimensional vector space to an m-dimensional vector space over the field F: (i) When is T said to be a linear transformation? (2 marks) (ii) What is kernel of T, denoted ker(T)? (1 mark) (iii) Show whether the mapping T : R³ → R³, defined by T(x, y, z) = (x, 0, z), is a linear transformation or not (5 marks)."
+    },
+    {
+      "year": "2020/2021",
+      "number": "1a",
+      "topic": "sets-and-functions",
+      "text": "Let X be a nonempty set. i. What is a partition on X? ii. When is (X, ∼) said to be a partially ordered set?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1b",
+      "topic": "relations-and-orderings",
+      "text": "i. When is ∼ said to be an equivalence relation on X? ii. Hence, let Z be a set of integers a relation ∼ on X be defined by x ∼ y if and only if ∃ m ∈ Z* such that m | (x − y) for every x, y ∈ Z. Show whether or not ∼ is an equivalence relation."
+    },
+    {
+      "year": "2020/2021",
+      "number": "1c",
+      "topic": "sets-and-functions",
+      "text": "In a truth-value table, show whether or not ¬(p ∨ ¬(p ∧ q)) ≡ ¬p ∧ ¬q. (The bars in the printed paper are faint; the statement is given as best it can be read.)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1d",
+      "topic": "sets-and-functions",
+      "text": "Let f : X → Y and g : Y → Z be mappings of nonempty sets. Show that if f and g are injective, then g ∘ f is injective."
+    },
+    {
+      "year": "2020/2021",
+      "number": "1e",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Let V be a nonempty set and F a field of scalars. i. When is V said to be a vector space over F? ii. When is the set {vᵢ}ⁿᵢ₌₁ of vectors in V said to be linearly independent given that {λᵢ}ⁿᵢ₌₁ is a set of scalars from F? iii. If T : Vₘ → Vₙ is a linear transformation, what is kernel of T? Hence, if f : R³ → R² is a Linear Transformation defined by f(x, y, z) = (x + y, z) ∀ x, y, z ∈ R, compute the kernel of f."
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "rings-and-fields",
+      "text": "Consider a nonempty set R and binary operations + and × as the usual addition and multiplication of numbers respectively. a. When is R said to be a ring? b. If (R, +, ×) is a ring, is (R, +) an abelian group? Justify your answer. c. When is the ring (R, +, ×) said to be a field? d. Let f : (N, +) → (N, +) be a mapping defined by f(n) = an ∀ n ∈ N and some a ∈ N. Show whether or not f is a monomorphism."
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "introduction-to-number-theory",
+      "text": "a. State the Euclidean Algorithm. b. Define gcd(a, b) for a, b ∈ Z. c. i. Find the integers d = gcd(33, 280), u and v such that d = 33u + 280v. ii. Hence, solve the congruent equation 33x ≡ 38 (mod 280). d. Compute the totient of Z₁₈."
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Consider a matrix A with rows (3, −4), (2, −6). a. Find the eigenvalues of A. b. Find the eigenvectors of A. c. State Caley-Hamilton's theorem. d. Verify Caley-Hamilton's theorem with A. e. Find the diagonal matrix D which is similar to A. f. Find the matrix P such that P⁻¹AP = D."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "1",
+      "topic": "sets-and-functions",
+      "text": "The set {x : x ∈ A, x ∉ B} can be described as ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "2",
+      "topic": "relations-and-orderings",
+      "text": "If R = {(1, 2), (2, 3), (3, 3)} be a relation defined on A = {1, 2, 3} then R ∘ R (= R²) is ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "3",
+      "topic": "groups",
+      "text": "The set of all non negative integers (including 0) with operation + is not a group. Why?"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "4",
+      "topic": "groups",
+      "text": "In every cyclic group, every element is a generator. True \\ False."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "5",
+      "topic": "groups",
+      "text": "If ∗ is defined on (R × R) as (a, b) ∗ (c, d) = (ad + bc, bd) and is associative, then (1, 2) ∗ (3, 5) ∗ (3, 4) = ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "6",
+      "topic": "relations-and-orderings",
+      "text": "Let R be a non-empty relation on a collection of sets defined by A R B if and only if A ∩ B = ∅. Then R is ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "7",
+      "topic": "sets-and-functions",
+      "text": "If A = {2, 3, 4, 6, 9, 10} and B = {2, 4, 8, 9, 10, 12}. What is (A \\ B) ∪ (B \\ A)? ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "8",
+      "topic": "introduction-to-number-theory",
+      "text": "Let n be a particular integer in Z⁺. Describe the elements of the residue class(es) for n = 1 ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "9",
+      "topic": "matrices-and-determinants",
+      "text": "When is a matrix P said to be orthogonal? ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "10",
+      "topic": "sets-and-functions",
+      "text": "Given that Q ⊂ U, then the set of elements in U which are not in Q is called ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "11",
+      "topic": "sets-and-functions",
+      "text": "Let A₁ = {x : x² + 7x + 12 = 0, x ∈ Z}, A₂ = {2, 4, 6}, A₃ = {−3, −2, 0, 2}. Find ⋃³ᵢ₌₁ Aᵢ."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "12",
+      "topic": "matrices-and-determinants",
+      "text": "Let G = {(a, b; −b, a) : a, b ∈ R} (2 × 2 matrices), express in terms of a and b the condition at which G ∈ GL(2, R)"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "13",
+      "topic": "groups",
+      "text": "In the group G = {2, 4, 6, 8} under multiplication modulo 10, what is the identity element if it exist?"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "14",
+      "topic": "sets-and-functions",
+      "text": "Let A, B be sets. Then the set of all ordered pairs (a, b) with a ∈ A and b ∈ B is called ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "15",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "An homogeneous system of the type AX = 0, is said to have ______ type of solution, when the row reduced form of A is an identity matrix"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "16",
+      "topic": "groups",
+      "text": "A group G is ______ if its only normal subgroups are {1} and G."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "17",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "Given a matrix Q with rows (4, 1), (3, 2), find the characteristic polynomial of Q ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "18",
+      "topic": "sets-and-functions",
+      "text": "Find the im(β) if β : Z⁺ → Z⁺ defined by β(x) = 2x + 1. ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "19",
+      "topic": "sets-and-functions",
+      "text": "Let A = {2, 3}, find A²."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "20",
+      "topic": "linear-systems-eigenvalues-and-vector-spaces",
+      "text": "The theorem that, every matrix is a root of its characteristic polynomial is known as ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "21",
+      "topic": "sets-and-functions",
+      "text": "Let the function f : R → R be defined by f(x) = 3x + 2 if x > 5, and x² − 2 if −4 ≤ x ≤ 5. Compute f(5). ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "22",
+      "topic": "matrices-and-determinants",
+      "text": "Given a matrix P with rows (4, 1), (3, 2), the cofactor matrix of P is ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "23",
+      "topic": "relations-and-orderings",
+      "text": "The set of all equivalence classes in a set A with respect to the relation on A is called the ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "24",
+      "topic": "introduction-to-number-theory",
+      "text": "Compute the totient of Z₂₅ ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "25",
+      "topic": "rings-and-fields",
+      "text": "Under what condition will Zₙ not be an integral domain? ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "26",
+      "topic": "matrices-and-determinants",
+      "text": "Given the identity matrix I₃, find the elementary matrix E₍₂₃₎₂."
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "27",
+      "topic": "matrices-and-determinants",
+      "text": "Given that the determinant of matrix D with rows (x, 1, 8), (0, 2, 7), (0, 0, 4) is 48, find x. ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "28",
+      "topic": "matrices-and-determinants",
+      "text": "If a matrix B can be produced from a matrix A by a sequence of elementary row operation then, A and B are ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "29",
+      "topic": "matrices-and-determinants",
+      "text": "Consider the matrix with rows (1, 3, 2), (a, 6, 2), (0, 9, 5) where \"a\" is a real number. For what value of a is the matrix singular. ______"
+    },
+    {
+      "year": "2023/2024 CA",
+      "number": "30",
+      "topic": "introduction-to-number-theory",
+      "text": "Given that a = 55 and b = 14 Find the integers d and r such that a = dq + r ______"
+    }
+  ]
+}

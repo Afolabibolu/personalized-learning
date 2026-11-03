@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which block always runs whether or not an exception occurs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "finally"
+      },
+      {
+        "key": "b",
+        "text": "catch"
+      },
+      {
+        "key": "c",
+        "text": "try"
+      },
+      {
+        "key": "d",
+        "text": "throw"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is often used to close resources.",
+    "source": "General knowledge of COS 202"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dividing an integer by zero in Java throws",
+    "options": [
+      {
+        "key": "a",
+        "text": "ArithmeticException"
+      },
+      {
+        "key": "b",
+        "text": "NullPointerException"
+      },
+      {
+        "key": "c",
+        "text": "IOException"
+      },
+      {
+        "key": "d",
+        "text": "NumberFormatException"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Integer division by zero is an arithmetic error.",
+    "source": "General knowledge of COS 202"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A Stack processes elements in which order?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Last in, first out"
+      },
+      {
+        "key": "b",
+        "text": "First in, first out"
+      },
+      {
+        "key": "c",
+        "text": "Sorted order"
+      },
+      {
+        "key": "d",
+        "text": "Random order"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A Queue is first in, first out.",
+    "source": "General knowledge of COS 202"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Swing component is the main application window?",
+    "options": [
+      {
+        "key": "a",
+        "text": "JFrame"
+      },
+      {
+        "key": "b",
+        "text": "JButton"
+      },
+      {
+        "key": "c",
+        "text": "JLabel"
+      },
+      {
+        "key": "d",
+        "text": "JTextField"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Other components are added to the frame.",
+    "source": "GUI_Exception_Handler.pdf (Java GUI practical assignment)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An ArrayList can grow as elements are added, unlike a standard array.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The assignment requires ArrayList for this reason.",
+    "source": "GUI_Exception_Handler.pdf (Java GUI practical assignment)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An exception that is not caught where it occurs propagates to the calling method.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It moves up the call stack.",
+    "source": "General knowledge of COS 202"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Swing components named in the GUI assignment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "JTextField"
+      },
+      {
+        "key": "b",
+        "text": "JComboBox"
+      },
+      {
+        "key": "c",
+        "text": "JOptionPane"
+      },
+      {
+        "key": "d",
+        "text": "ArrayList"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "ArrayList is a collection class.",
+    "source": "GUI_Exception_Handler.pdf (Java GUI practical assignment)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a Java collection from the API?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ArrayList"
+      },
+      {
+        "key": "b",
+        "text": "Stack"
+      },
+      {
+        "key": "c",
+        "text": "Queue"
+      },
+      {
+        "key": "d",
+        "text": "JButton"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "JButton is a Swing GUI component.",
+    "source": "General knowledge of COS 202"
+  }
+]

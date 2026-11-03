@@ -1,0 +1,72 @@
+{
+  "code": "INS 202",
+  "books": {
+    "dix": {
+      "title": "Human-Computer Interaction",
+      "authors": "Alan Dix, Janet Finlay, Gregory D. Abowd and Russell Beale",
+      "edition": "3rd edition",
+      "publisher": "Pearson Education",
+      "year": 2004,
+      "note": "A standard HCI textbook; the course folder has lecture slides only."
+    },
+    "cmn": {
+      "title": "The Psychology of Human-Computer Interaction",
+      "authors": "Stuart K. Card, Thomas P. Moran and Allen Newell",
+      "edition": null,
+      "publisher": "Lawrence Erlbaum Associates",
+      "year": 1983,
+      "note": "Cited in the INS 202 lecture references."
+    }
+  },
+  "topics": {
+    "introduction-to-hci": [
+      {
+        "book": "dix",
+        "read": "Chapter 1 (The human) and Chapter 2 (The computer)",
+        "why": "The two sides of the interaction."
+      }
+    ],
+    "foundations-interaction-styles-and-accessibility": [
+      {
+        "book": "dix",
+        "read": "Chapter 3 (The interaction) and Chapter 10 (Universal design)",
+        "why": "Interaction styles and designing for diverse users."
+      }
+    ],
+    "cognition-and-human-factors": [
+      {
+        "book": "cmn",
+        "read": "The chapters on the Model Human Processor and GOMS",
+        "why": "The source of the keystroke-level and GOMS models in the lecture."
+      }
+    ],
+    "physical-ergonomics": [
+      {
+        "book": "dix",
+        "read": "Chapter 3 (The interaction)",
+        "why": "Includes ergonomics of the workstation and devices."
+      }
+    ],
+    "user-centred-design": [
+      {
+        "book": "dix",
+        "read": "Chapter 6 (HCI in the software process)",
+        "why": "User-centred design within the development life cycle."
+      }
+    ],
+    "gui-design-principles": [
+      {
+        "book": "dix",
+        "read": "Chapter 7 (Design rules)",
+        "why": "Principles, standards and guidelines for interface design."
+      }
+    ],
+    "design-methods-and-evaluation": [
+      {
+        "book": "dix",
+        "read": "Chapter 9 (Evaluation techniques)",
+        "why": "Expert and user-based evaluation methods."
+      }
+    ]
+  }
+}

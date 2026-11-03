@@ -1,0 +1,61 @@
+{
+  "code": "PHY 104",
+  "topics": {
+    "wave-motion-and-the-wave-equation": [
+      {
+        "title": "Video: The equation of a wave | Physics | Khan Academy (Khan Academy Physics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9WZM68aVnGk",
+        "source": "links.csv"
+      }
+    ],
+    "waves-on-strings-and-standing-waves": [
+      {
+        "title": "Video: Standing waves on strings | Physics | Khan Academy (Khan Academy Physics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gT0IqL1dyyk",
+        "source": "links.csv"
+      }
+    ],
+    "sound-and-the-doppler-effect": [
+      {
+        "title": "Video: The Doppler Effect | Physics with Professor Matt Anderson | M25-14 (Physics with Professor Matt Anderson)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Y3uuaFJefCI",
+        "source": "links.csv"
+      }
+    ],
+    "reflection-and-mirrors": [
+      {
+        "title": "Video: Concave Mirrors and Convex Mirrors Ray Diagram - Equations / Formulas & Practice Problems (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vkNF8tb3Guc",
+        "source": "links.csv"
+      }
+    ],
+    "refraction-and-lenses": [
+      {
+        "title": "Video: Convex and Concave Lenses (Manocha Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=CJ6aB5ULqa0",
+        "source": "links.csv"
+      }
+    ],
+    "atomic-structure-and-quantum-effects": [
+      {
+        "title": "Video: Bohr Model of the Hydrogen Atom (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=au2HCVn9IJI",
+        "source": "links.csv"
+      }
+    ],
+    "nuclear-physics-and-radioactivity": [
+      {
+        "title": "Video: Nuclear Reactions, Radioactivity, Fission and Fusion (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fES21E0qebw",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

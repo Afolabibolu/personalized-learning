@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In three-tier architecture, where are business rules and validation handled?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The application (business) layer"
+      },
+      {
+        "key": "b",
+        "text": "The presentation layer"
+      },
+      {
+        "key": "c",
+        "text": "The data layer"
+      },
+      {
+        "key": "d",
+        "text": "The client's monitor"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The data layer holds the database.",
+    "source": "System Architectural Design lecture slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which UML diagram shows actors and what they do with the system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Use case diagram"
+      },
+      {
+        "key": "b",
+        "text": "Class diagram"
+      },
+      {
+        "key": "c",
+        "text": "Sequence diagram"
+      },
+      {
+        "key": "d",
+        "text": "Activity diagram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Actors perform use cases.",
+    "source": "OOAD 200L Comprehensive Lecture Note"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which OO principle bundles data with its methods and controls access to it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Encapsulation"
+      },
+      {
+        "key": "b",
+        "text": "Inheritance"
+      },
+      {
+        "key": "c",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "d",
+        "text": "Abstraction"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A BankAccount keeps its balance private.",
+    "source": "OOAD 200L Comprehensive Lecture Note"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which architecture places the UI and application logic on the client, connecting directly to a database server?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two-tier"
+      },
+      {
+        "key": "b",
+        "text": "Three-tier"
+      },
+      {
+        "key": "c",
+        "text": "Cloud"
+      },
+      {
+        "key": "d",
+        "text": "Distributed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It suits small applications.",
+    "source": "System Architectural Design lecture slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "In three-tier architecture, clients do not normally access the database directly.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This improves security.",
+    "source": "System Architectural Design lecture slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Object-oriented analysis asks how the system will be built, while design asks what it must do.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Analysis asks what; design asks how.",
+    "source": "OOAD 200L Comprehensive Lecture Note"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are benefits of three-tier architecture in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Separation of concerns"
+      },
+      {
+        "key": "b",
+        "text": "Scalability"
+      },
+      {
+        "key": "c",
+        "text": "Reusability"
+      },
+      {
+        "key": "d",
+        "text": "Clients editing the database directly"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Security and testability are others.",
+    "source": "System Architectural Design lecture slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four object-oriented principles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Encapsulation"
+      },
+      {
+        "key": "b",
+        "text": "Inheritance"
+      },
+      {
+        "key": "c",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "d",
+        "text": "Normalisation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is abstraction.",
+    "source": "OOAD 200L Comprehensive Lecture Note"
+  }
+]

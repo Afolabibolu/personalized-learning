@@ -1,0 +1,77 @@
+{
+  "code": "IFT 211",
+  "exam_style": true,
+  "intro": "No IFT 211 past papers were found in the course folder. These exam-style questions were written for practice from the course's lecture slides; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the IFT 211 lecture slides",
+      "source": "Written for this app from the IFT 211 lecture slides, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "data-representation",
+      "text": "a) Distinguish between analogue and digital signals, giving two examples of each. (4 marks) b) State four features of digital systems. (4 marks) c) Represent −25 in 8 bits in (i) sign-magnitude (ii) 1's complement (iii) 2's complement form. (6 marks) d) What unsigned integer does the 16-bit pattern 0001 0000 0000 1000 represent? (1 mark)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "data-representation",
+      "text": "a) Distinguish between data and information. (3 marks) b) Describe the four basic functions of a computer. (8 marks) c) Explain fixed-point representation of real numbers, with an example. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "codes-and-error-detection",
+      "text": "a) Express (185)₁₀ in BCD and in binary, and comment on the difference. (5 marks) b) Distinguish between weighted and non-weighted codes, giving two examples of each. (4 marks) c) Compare ASCII and EBCDIC. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "codes-and-error-detection",
+      "text": "a) Distinguish between a single-bit error and a burst error. (4 marks) b) Explain how a simple even-parity check detects a single-bit error, and why it cannot correct it. (6 marks) c) What is a two-dimensional parity check, and what does a Hamming code add? (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "logic-gates-and-properties",
+      "text": "a) Give the truth tables of the 2-input XOR and XNOR gates, and state the rule for each with more than two inputs. (6 marks) b) What is a complete set of gates? Why are NAND and NOR called universal gates? (5 marks) c) Define noise immunity, noise margin, fan-in and fan-out. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "boolean-algebra-and-standard-forms",
+      "text": "a) Define a literal, a product term and a sum term. (3 marks) b) State the dual of each of X + 0 = X and X + X′ = 1, and explain the duality principle. (4 marks) c) Prove algebraically that x + x·y = x. (3 marks) d) Distinguish between a minterm and a maxterm, and write a 3-variable function of your choice in canonical sum-of-products form. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "k-maps-and-combinational-design",
+      "text": "a) Explain why adjacent cells in a Karnaugh map differ in only one variable. (3 marks) b) Use a K-map to simplify f(x1, x2) = m0 + m1 + m2. (5 marks) c) Outline the steps of the combinational design process, and design a room alarm that sounds when the door sensor, the glass-break sensor or the motion sensor is active. (7 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "k-maps-and-combinational-design",
+      "text": "a) Draw a half adder and state its Sum and Carry-out expressions. (5 marks) b) What is overflow in a 4-bit adder? Illustrate with 14 + 13. (4 marks) c) Explain how a computer computes A − B using 2's complement. (3 marks) d) Distinguish between an identity comparator and a magnitude comparator. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "sequential-circuits-counters-and-registers",
+      "text": "a) Distinguish between combinational and sequential circuits, and between asynchronous and synchronous circuits. (5 marks) b) Describe the SR, JK and T flip-flops, and explain why the JK flip-flop was introduced. (6 marks) c) What is the modulus of a counter? How many flip-flops does a MOD-16 counter need, and why is a counter also a frequency divider? (4 marks)",
+      "marks": 15
+    }
+  ]
+}

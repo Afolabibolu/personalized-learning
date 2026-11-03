@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For AX = B with r = rank(A) and k = rank([A | B]), the system is inconsistent when",
+    "options": [
+      {
+        "key": "a",
+        "text": "r < k"
+      },
+      {
+        "key": "b",
+        "text": "r = k = n"
+      },
+      {
+        "key": "c",
+        "text": "r = k < n"
+      },
+      {
+        "key": "d",
+        "text": "k < r"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "r = k < n gives infinitely many solutions.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The eigenvalues of the matrix with rows (3, 1) and (2, 2) are",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 and 1"
+      },
+      {
+        "key": "b",
+        "text": "3 and 2"
+      },
+      {
+        "key": "c",
+        "text": "5 and 0"
+      },
+      {
+        "key": "d",
+        "text": "2 and −5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(λ − 4)(λ − 1) = 0.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Cayley-Hamilton theorem states that",
+    "options": [
+      {
+        "key": "a",
+        "text": "every square matrix is a root of its characteristic polynomial"
+      },
+      {
+        "key": "b",
+        "text": "every matrix is invertible"
+      },
+      {
+        "key": "c",
+        "text": "similar matrices are equal"
+      },
+      {
+        "key": "d",
+        "text": "the rank equals the determinant"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So f(A) = 0.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Similar matrices have the same characteristic polynomial.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They also share determinant, eigenvalues and rank.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "If the row reduced form of A is the identity, AX = 0 has non-trivial solutions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Then X = 0 is the only solution.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of a basis of a vector space?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is linearly independent"
+      },
+      {
+        "key": "b",
+        "text": "It spans the space"
+      },
+      {
+        "key": "c",
+        "text": "Its size is the dimension"
+      },
+      {
+        "key": "d",
+        "text": "It must contain the zero vector"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A set containing 0 is linearly dependent.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a vector space over R under the usual operations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "R³"
+      },
+      {
+        "key": "b",
+        "text": "The 2 × 2 real matrices"
+      },
+      {
+        "key": "c",
+        "text": "Polynomials with real coefficients"
+      },
+      {
+        "key": "d",
+        "text": "The positive integers"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The positive integers have no additive inverses and are not closed under scalar multiplication.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dimension of the kernel of a linear transformation is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "nullity"
+      },
+      {
+        "key": "b",
+        "text": "rank"
+      },
+      {
+        "key": "c",
+        "text": "determinant"
+      },
+      {
+        "key": "d",
+        "text": "trace"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The dimension of its image is the rank.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 7"
+  }
+]

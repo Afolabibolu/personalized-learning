@@ -1,0 +1,72 @@
+{
+  "code": "ENT 211",
+  "books": {
+    "kaplan": {
+      "title": "Getting Started in Entrepreneurship",
+      "authors": "Jack M. Kaplan",
+      "edition": null,
+      "publisher": "John Wiley & Sons",
+      "year": 2001,
+      "note": "Listed in the references of the ENT 211 summary in the course folder."
+    },
+    "megginson": {
+      "title": "Small Business Management",
+      "authors": "Leon C. Megginson and others",
+      "edition": "5th edition",
+      "publisher": "McGraw-Hill",
+      "year": 2006,
+      "note": "Listed in the references of the ENT 211 summary in the course folder."
+    }
+  },
+  "topics": {
+    "foundations-and-theories-of-entrepreneurship": [
+      {
+        "book": "kaplan",
+        "read": "The opening chapters on what entrepreneurship is",
+        "why": "Who entrepreneurs are and what they do."
+      }
+    ],
+    "the-entrepreneur-and-entrepreneurship-in-nigeria": [
+      {
+        "book": "kaplan",
+        "read": "The opening chapters on the entrepreneurial mindset",
+        "why": "The traits and motives of entrepreneurs."
+      }
+    ],
+    "creativity-innovation-and-intellectual-property": [
+      {
+        "book": "kaplan",
+        "read": "The chapters on opportunities and protecting ideas",
+        "why": "Turning ideas into ventures and protecting them."
+      }
+    ],
+    "start-up-business-planning": [
+      {
+        "book": "kaplan",
+        "read": "The chapters on the business plan",
+        "why": "Writing and using a business plan."
+      }
+    ],
+    "ethics-and-social-responsibility": [
+      {
+        "book": "megginson",
+        "read": "The chapter on social responsibility and ethics",
+        "why": "Ethical conduct in small businesses."
+      }
+    ],
+    "legal-issues-in-entrepreneurship": [
+      {
+        "book": "megginson",
+        "read": "The chapters on forms of ownership and the legal environment",
+        "why": "Legal structures and obligations of a business."
+      }
+    ],
+    "digital-business-and-contemporary-entrepreneurship": [
+      {
+        "book": "kaplan",
+        "read": "The chapters on marketing and growing the venture",
+        "why": "Reaching customers and growing a start-up."
+      }
+    ]
+  }
+}

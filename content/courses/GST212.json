@@ -1,0 +1,108 @@
+{
+  "code": "GST 212",
+  "title": "Philosophy, Logic and Human Existence",
+  "semester": 2,
+  "description": "The General Studies course in philosophy and logic: the meaning, methods and branches of philosophy, philosophical problems and basic concepts, ethics and ethical theories, the nature of logic and arguments, validity and rules of inference, formal fallacies and syllogisms, and informal fallacies and the uses of language. Built from the University of Ibadan textbook Philosophy, Logic and Critical Thinking (eds. C. O. Agulanna and A. P. Ipadeola).",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "meaning-and-branches-of-philosophy",
+      "title": "Meaning, Methods and Branches of Philosophy",
+      "summary": "Philosophy, from the Greek philos (love) and sophia (wisdom), is the love of wisdom pursued through reasoning. It has no single definition, uses methods such as criticism, argumentation, methodic doubt, dialectic and analysis, raises first- and second-order questions, and has four main branches: epistemology, metaphysics, logic and ethics (value theory).",
+      "subtopics": [
+        "Myths and the meaning of philosophy",
+        "Definitions of philosophy",
+        "Methods and goals of philosophy",
+        "Broad and technical senses",
+        "First- and second-order questions",
+        "The four branches"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "philosophical-problems-and-basic-concepts",
+      "title": "Philosophical Problems and Basic Concepts",
+      "summary": "Philosophical problems are perennial because they lack generally accepted solutions. In epistemology the main challenge is scepticism; in metaphysics, the problem of universals, materialism and idealism, and the mind-body problem. Concepts are ideas or notions that may be concrete or abstract, relative or non-relative, positive or negative, and collective or non-collective.",
+      "subtopics": [
+        "Why philosophical problems are perennial",
+        "Scepticism and its forms",
+        "Knowledge as justified true belief",
+        "Materialism, idealism and nihilism",
+        "Universals, realism and nominalism; mind and body",
+        "Types of concepts"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "ethics-and-ethical-theories",
+      "title": "Ethics and Ethical Theories",
+      "summary": "Ethics is an inquiry into the nature of morality and the good life. The classical cardinal virtues are temperance, fortitude, prudence and justice. Ethical theories are deontological (duty-based), consequentialist (utilitarianism, egoism, altruism), virtue ethics, hedonism, relativism and situation ethics, and applied ethics addresses moral dilemmas.",
+      "subtopics": [
+        "Ethics and the good life",
+        "Virtues and vices",
+        "Deontological theories",
+        "Consequentialist theories: utilitarianism and egoism",
+        "Virtue ethics, hedonism, relativism and situation ethics",
+        "Applied ethics and moral dilemmas"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "nature-of-logic-and-arguments",
+      "title": "The Nature of Logic and Arguments",
+      "summary": "Logic is the study of the laws of reasoning, concerned with distinguishing correct from incorrect reasoning. It rests on the laws of identity, contradiction and excluded middle, and divides into informal and formal logic. An argument has premises and a conclusion, marked by indicator words, and is either deductive or inductive.",
+      "subtopics": [
+        "Definition of logic",
+        "The three laws of thought",
+        "Informal and formal logic",
+        "Premises, conclusions and indicators",
+        "Deductive arguments",
+        "Inductive arguments"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "validity-soundness-and-rules-of-inference",
+      "title": "Validity, Soundness and Rules of Inference",
+      "summary": "Truth and falsity belong to statements; validity belongs to deductive arguments. A valid argument is one whose premises logically imply its conclusion, a matter of form, and a sound argument is valid with true premises. Valid argument forms include modus ponens, modus tollens, hypothetical syllogism, disjunctive syllogism and constructive and destructive dilemmas.",
+      "subtopics": [
+        "Truth versus validity",
+        "Validity as a matter of form",
+        "Soundness",
+        "Conditionals: antecedent and consequent",
+        "Modus ponens, modus tollens and hypothetical syllogism",
+        "Disjunctive syllogism and the dilemmas"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "categorical-syllogisms-and-formal-fallacies",
+      "title": "Categorical Syllogisms and Formal Fallacies",
+      "summary": "A fallacy is a mistake in reasoning that may seem correct but is not. Formal fallacies violate the rules of valid inference. A categorical syllogism has three terms (major, minor and middle) in two premises and a conclusion, and its validity depends on rules whose violation gives fallacies such as four terms, undistributed middle and illicit major or minor.",
+      "subtopics": [
+        "What a fallacy is",
+        "Formal versus informal fallacies",
+        "The categorical syllogism and its terms",
+        "Standard form and refutation by analogy",
+        "Rules: three terms, distributed middle",
+        "Illicit major and illicit minor"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "informal-fallacies-and-uses-of-language",
+      "title": "Informal Fallacies and the Uses of Language",
+      "summary": "Informal fallacies come from carelessness or the wish to trick others, and divide into fallacies of relevance and of ambiguity: appeals to force, the person, ignorance, pity, the people and authority, accident and hasty generalisation. Language has informative, expressive and directive functions, and clear use of language aids straight thinking.",
+      "subtopics": [
+        "What informal fallacies are",
+        "Appeal to force and to the person",
+        "Appeal to ignorance and to pity",
+        "Appeal to the people and to authority",
+        "Accident and hasty generalisation",
+        "The functions of language"
+      ],
+      "lectures": []
+    }
+  ]
+}

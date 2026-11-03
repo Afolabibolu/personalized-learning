@@ -1,0 +1,61 @@
+{
+  "code": "STA 211",
+  "topics": {
+    "further-permutations-and-combinations": [
+      {
+        "title": "Video: Permutations and Combinations Tutorial (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XJnIdRXUi7A",
+        "source": "links.csv"
+      }
+    ],
+    "probability-laws-conditional-probability-and-bayes": [
+      {
+        "title": "Video: Intro to Conditional Probability (Dr. Trefor Bazett)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ibINrxJLvlM",
+        "source": "links.csv"
+      }
+    ],
+    "random-variables-expectation-and-moments": [
+      {
+        "title": "Video: Chebyshev's Inequality in Probability: Second Order Estimates (Steve Brunton)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=otCHN3s52ho",
+        "source": "links.csv"
+      }
+    ],
+    "binomial-geometric-and-negative-binomial": [
+      {
+        "title": "Video: Overview of Some Discrete Probability Distributions (Binomial,Geometric,Hypergeometric,Poisson,NegB) (jbstatistics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UrOXRvG9oYE",
+        "source": "links.csv"
+      }
+    ],
+    "poisson-and-hypergeometric-distributions": [
+      {
+        "title": "Video: Lecture 9 - Binomial, Poisson, and Hypergeometric Distributions (Eric Bair)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hYU0fk6ezOw",
+        "source": "links.csv"
+      }
+    ],
+    "continuous-distributions": [
+      {
+        "title": "Video: Ch03-2 The Exponential, Gamma and Chi-Square Distributions (Part 1) (Homer White)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jN5j1ZyNhE0",
+        "source": "links.csv"
+      }
+    ],
+    "joint-marginal-and-conditional-distributions": [
+      {
+        "title": "Video: Lecture 19: Joint, Conditional, and Marginal Distributions | Statistics 110 (Harvard University)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=J70dP_AECzQ",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

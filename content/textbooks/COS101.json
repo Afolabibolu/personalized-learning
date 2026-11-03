@@ -1,0 +1,64 @@
+{
+  "code": "COS 101",
+  "books": {
+    "csi": {
+      "title": "Computer Science Illuminated",
+      "authors": "Nell Dale and John Lewis",
+      "edition": "7th edition",
+      "publisher": "Jones & Bartlett Learning",
+      "year": 2020,
+      "note": "The reference textbook in the COS 102 course folder, which follows COS 101."
+    }
+  },
+  "topics": {
+    "computer-science-as-a-discipline": [
+      {
+        "book": "csi",
+        "read": "Chapter 1 (The Big Picture)",
+        "why": "Computing systems and computing as a discipline."
+      }
+    ],
+    "history-and-generations-of-computers": [
+      {
+        "book": "csi",
+        "read": "Chapter 1 (The Big Picture)",
+        "why": "The history of computing hardware and software."
+      }
+    ],
+    "computer-categories-and-hardware": [
+      {
+        "book": "csi",
+        "read": "Chapter 5 (Computing Components)",
+        "why": "Processors, memory and input/output devices."
+      }
+    ],
+    "software-and-programming-languages": [
+      {
+        "book": "csi",
+        "read": "Chapter 6 (Low-Level Programming Languages and Pseudocode) and Sections 9.2 to 9.3",
+        "why": "Machine and assembly language, translation and paradigms."
+      }
+    ],
+    "number-systems-and-data-representation": [
+      {
+        "book": "csi",
+        "read": "Chapter 2 (Binary Values and Number Systems) and Chapter 3 (Data Representation)",
+        "why": "Number bases and how data is stored."
+      }
+    ],
+    "problem-solving-algorithms-and-python": [
+      {
+        "book": "csi",
+        "read": "Chapter 7 (Problem Solving and Algorithms)",
+        "why": "Algorithms and problem-solving strategies."
+      }
+    ],
+    "networks-and-the-internet": [
+      {
+        "book": "csi",
+        "read": "Chapter 15 (Networks)",
+        "why": "Network types, protocols and the Internet."
+      }
+    ]
+  }
+}

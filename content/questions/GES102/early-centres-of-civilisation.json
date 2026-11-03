@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which was the earliest of the three early African centres of civilisation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Egypt"
+      },
+      {
+        "key": "b",
+        "text": "Kush"
+      },
+      {
+        "key": "c",
+        "text": "Axum"
+      },
+      {
+        "key": "d",
+        "text": "Carthage"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Kush (Meroe) and Axum succeeded it.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Hieroglyphics is associated with which civilisation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Egyptian"
+      },
+      {
+        "key": "b",
+        "text": "Axumite"
+      },
+      {
+        "key": "c",
+        "text": "Meroitic"
+      },
+      {
+        "key": "d",
+        "text": "Bantu"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It combined pictures and signs, one of the oldest forms of writing.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Axum was the ___ ancient African centre of civilisation.",
+    "options": [
+      {
+        "key": "a",
+        "text": "third"
+      },
+      {
+        "key": "b",
+        "text": "first"
+      },
+      {
+        "key": "c",
+        "text": "second"
+      },
+      {
+        "key": "d",
+        "text": "largest"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "After Egypt and Kush (Meroe).",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The first king of Axum to put coins into circulation was",
+    "options": [
+      {
+        "key": "a",
+        "text": "Edybis"
+      },
+      {
+        "key": "b",
+        "text": "Ezana"
+      },
+      {
+        "key": "c",
+        "text": "Kashta"
+      },
+      {
+        "key": "d",
+        "text": "Piankhy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This happened in the second half of the 3rd century AD.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Meroe was a centre of iron mining and smelting.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Iron weapons gave Kush military superiority.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about Rome and North Africa are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rome was founded around 753 BC on the River Tiber"
+      },
+      {
+        "key": "b",
+        "text": "The Second Punic War began in March 218 BC"
+      },
+      {
+        "key": "c",
+        "text": "Carthage was destroyed after the third Punic War in 146 BC"
+      },
+      {
+        "key": "d",
+        "text": "Rome was founded by Hannibal"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "By legend Romulus founded Rome.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an Egyptian achievement described in the chapter?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hieroglyphics"
+      },
+      {
+        "key": "b",
+        "text": "A 365-day calendar"
+      },
+      {
+        "key": "c",
+        "text": "The Nilometer"
+      },
+      {
+        "key": "d",
+        "text": "The first African coinage"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Axum is credited with the first African coins.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Phoenicians were the seamen of Tyre and Sidon.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Carthage was their most important settlement.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 6"
+  }
+]

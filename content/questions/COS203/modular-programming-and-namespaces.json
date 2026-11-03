@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A file containing Python code that can be reused in other Python files is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "module"
+      },
+      {
+        "key": "b",
+        "text": "namespace"
+      },
+      {
+        "key": "c",
+        "text": "class"
+      },
+      {
+        "key": "d",
+        "text": "virtual environment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Modules can be imported.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The module that contains the import statement is called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "calling module"
+      },
+      {
+        "key": "b",
+        "text": "parent module"
+      },
+      {
+        "key": "c",
+        "text": "main namespace"
+      },
+      {
+        "key": "d",
+        "text": "package index"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The imported module's content becomes available to it.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "After import code_1, how do you call its add function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "code_1.add(2, 2)"
+      },
+      {
+        "key": "b",
+        "text": "add.code_1(2, 2)"
+      },
+      {
+        "key": "c",
+        "text": "import add(2, 2)"
+      },
+      {
+        "key": "d",
+        "text": "code_1->add(2, 2)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use the module name, a dot and the name.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which statement imports only one name from a module?",
+    "options": [
+      {
+        "key": "a",
+        "text": "from code_1 import add"
+      },
+      {
+        "key": "b",
+        "text": "import code_1"
+      },
+      {
+        "key": "c",
+        "text": "import code_1 as c"
+      },
+      {
+        "key": "d",
+        "text": "export add"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Then add can be used without a prefix.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every Python module has its own namespace.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So names in different modules do not clash.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "true_false",
+    "stem": "import pandas as pd means the module is reached through the name pd.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "as gives the import another name.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reasons for using namespaces in the lab note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They group names into logical containers"
+      },
+      {
+        "key": "b",
+        "text": "They prevent clashes between duplicate names"
+      },
+      {
+        "key": "c",
+        "text": "They provide context to names"
+      },
+      {
+        "key": "d",
+        "text": "They make programs run faster"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Speed is not one of the reasons.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four advantages of modules in the lab note?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simplicity"
+      },
+      {
+        "key": "b",
+        "text": "Maintainability"
+      },
+      {
+        "key": "c",
+        "text": "Reusability"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is scoping.",
+    "source": "COS 203(Practical Lab).pdf (Modular Programming)"
+  }
+]

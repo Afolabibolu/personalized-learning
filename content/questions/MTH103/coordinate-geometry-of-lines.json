@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The perpendicular distance from (9, 5) to the line 2x − y = 4 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "9/√5"
+      },
+      {
+        "key": "b",
+        "text": "5/√3"
+      },
+      {
+        "key": "c",
+        "text": "13/√5"
+      },
+      {
+        "key": "d",
+        "text": "9/5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|18 − 5 − 4|/√(4 + 1).",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The locus of a point equidistant from A(5, 3) and B(7, 4) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "4x + 2y = 31"
+      },
+      {
+        "key": "b",
+        "text": "2x + 4y = 31"
+      },
+      {
+        "key": "c",
+        "text": "2x + 2y = 62"
+      },
+      {
+        "key": "d",
+        "text": "8x + 4y = 31"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Equate squared distances and simplify.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The length of the segment with ends (p − q, p + q) and (p + q, p − q) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2q√2"
+      },
+      {
+        "key": "b",
+        "text": "2p√3"
+      },
+      {
+        "key": "c",
+        "text": "3q√2"
+      },
+      {
+        "key": "d",
+        "text": "2pq√2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "√((2q)² + (−2q)²).",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two lines with slopes m₁ and m₂ are perpendicular when",
+    "options": [
+      {
+        "key": "a",
+        "text": "m₁m₂ = −1"
+      },
+      {
+        "key": "b",
+        "text": "m₁ = m₂"
+      },
+      {
+        "key": "c",
+        "text": "m₁ + m₂ = 0"
+      },
+      {
+        "key": "d",
+        "text": "m₁m₂ = 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The slopes are negative reciprocals.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The midpoint of AB is found by dividing AB in the ratio 1 : 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "With m = n the formula gives the averages of the coordinates.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The slope of a line equals the cosine of the angle it makes with the positive x-axis.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The slope equals tan θ.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are forms of the equation of a straight line in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Intercept form x/a + y/b = 1"
+      },
+      {
+        "key": "b",
+        "text": "General (linear) form ax + by + c = 0"
+      },
+      {
+        "key": "c",
+        "text": "Slope-intercept form y = mx + c"
+      },
+      {
+        "key": "d",
+        "text": "Polar form r = 2a cos θ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Polar forms belong to curves in polar coordinates.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which formula is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Distance √((x₂ − x₁)² + (y₂ − y₁)²)"
+      },
+      {
+        "key": "b",
+        "text": "Slope (y₂ − y₁)/(x₂ − x₁)"
+      },
+      {
+        "key": "c",
+        "text": "Ratio point (mx₂ + nx₁)/(m + n)"
+      },
+      {
+        "key": "d",
+        "text": "Area πr²"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "πr² is the area of a circle; the others are about lines and segments.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  }
+]

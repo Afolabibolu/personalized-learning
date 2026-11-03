@@ -1,0 +1,84 @@
+{
+  "code": "INS 202",
+  "exam_style": true,
+  "intro": "No INS 202 past papers were found in the course folder. These exam-style questions were written for practice from the lectures; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the INS 202 lectures",
+      "source": "Written for this app from the INS 202 lectures, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "introduction-to-hci",
+      "text": "a) Define HCI and distinguish it from UI and UX. (6 marks) b) Trace the evolution of HCI from the 1940s to natural interaction, naming three pioneers and their contributions. (9 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "introduction-to-hci",
+      "text": "a) Explain five reasons why HCI matters, with an example of each. (10 marks) b) Apply the five components of HCI to a nurse using an ICU monitor. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "foundations-interaction-styles-and-accessibility",
+      "text": "a) Compare the six interaction styles in terms of learning curve and speed for experts. (9 marks) b) Which style(s) would you choose for a national ID renewal portal used by both graduates and low-literacy applicants? Justify your answer. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "foundations-interaction-styles-and-accessibility",
+      "text": "a) Define accessibility and explain WCAG's POUR principles with examples. (9 marks) b) Distinguish accessibility from inclusive design, and explain the curb-cut effect. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "cognition-and-human-factors",
+      "text": "a) Distinguish recognition from recall, and slips from mistakes, with examples. (6 marks) b) Using Fitts's Law with a = 50 ms and b = 150 ms, calculate the selection time for a 50px button 200px away. (5 marks) c) Using Hick's Law with b = 200 ms, calculate the decision time for 7 choices. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "physical-ergonomics",
+      "text": "a) Explain the five ISO 9241-5 principles of workspace design. (10 marks) b) What is the 20-20-20 rule and why is it recommended? (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "user-centred-design",
+      "text": "a) Describe the five stages of design thinking. (10 marks) b) Distinguish between a persona, a user journey map and a wireframe. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "gui-design-principles",
+      "text": "a) Explain any six of Nielsen's ten usability heuristics, with an example of each. (12 marks) b) Why should colour never be the only carrier of critical information? (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "design-methods-and-evaluation",
+      "text": "a) Compare the Waterfall, Spiral and Agile methods. (9 marks) b) Describe the roles and sprint cycle of Scrum. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "design-methods-and-evaluation",
+      "text": "a) Distinguish formative from summative evaluation. (4 marks) b) Describe usability testing, A/B testing and heuristic evaluation. (6 marks) c) A user rates the ten SUS items 4, 2, 5, 1, 4, 2, 5, 2, 4, 1. Calculate the SUS score. (5 marks)",
+      "marks": 15
+    }
+  ]
+}

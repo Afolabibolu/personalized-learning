@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which is the innermost layer of a computing system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Information"
+      },
+      {
+        "key": "b",
+        "text": "Hardware"
+      },
+      {
+        "key": "c",
+        "text": "Application"
+      },
+      {
+        "key": "d",
+        "text": "Communication"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Communication is the outermost layer.",
+    "source": "COS 102 Lecture 1 (layers, parts of a computer, data representation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many bits are needed to represent 25 different things?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5"
+      },
+      {
+        "key": "b",
+        "text": "4"
+      },
+      {
+        "key": "c",
+        "text": "25"
+      },
+      {
+        "key": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2⁴ = 16 is too few; 2⁵ = 32 is enough.",
+    "source": "COS 102 Lecture 1 (layers, parts of a computer, data representation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In which topology does a failure of the central hub bring down the whole network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Star"
+      },
+      {
+        "key": "b",
+        "text": "Bus"
+      },
+      {
+        "key": "c",
+        "text": "Mesh"
+      },
+      {
+        "key": "d",
+        "text": "Hybrid"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Every message passes through the hub.",
+    "source": "COS 102 Networking & The Internet (Lecture 2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A network that spans more than one city, country or continent is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "WAN"
+      },
+      {
+        "key": "b",
+        "text": "LAN"
+      },
+      {
+        "key": "c",
+        "text": "MAN"
+      },
+      {
+        "key": "d",
+        "text": "Node"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A MAN covers a single city.",
+    "source": "COS 102 Networking & The Internet (Lecture 2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "ROM is volatile and holds the program currently running.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "ROM is non-volatile and holds booting instructions; RAM holds the running program.",
+    "source": "COS 102 Lecture 1 (layers, parts of a computer, data representation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Unicode extends ASCII, so ASCII's characters have the same codes in Unicode.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It adds Asian and international characters and symbols.",
+    "source": "COS 102 Lecture 1 (layers, parts of a computer, data representation)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are advantages of a mesh topology in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "High redundancy"
+      },
+      {
+        "key": "b",
+        "text": "The network keeps working if some links fail"
+      },
+      {
+        "key": "c",
+        "text": "It is scalable and adaptable"
+      },
+      {
+        "key": "d",
+        "text": "It is cheap and simple to set up"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Mesh is expensive and complex.",
+    "source": "COS 102 Networking & The Internet (Lecture 2)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which kind of data is the odd one out for lossy compression?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Images"
+      },
+      {
+        "key": "b",
+        "text": "Audio"
+      },
+      {
+        "key": "c",
+        "text": "Video"
+      },
+      {
+        "key": "d",
+        "text": "Text"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Text uses lossless compression; multimedia uses lossy.",
+    "source": "COS 102 Lecture 1 (layers, parts of a computer, data representation)"
+  }
+]

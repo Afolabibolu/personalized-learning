@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which Access object stores the data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tables"
+      },
+      {
+        "key": "b",
+        "text": "Queries"
+      },
+      {
+        "key": "c",
+        "text": "Forms"
+      },
+      {
+        "key": "d",
+        "text": "Reports"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Everything else depends on tables.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Access object selects records using criteria, like asking a detailed question?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Queries"
+      },
+      {
+        "key": "b",
+        "text": "Tables"
+      },
+      {
+        "key": "c",
+        "text": "Reports"
+      },
+      {
+        "key": "d",
+        "text": "Macros"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Queries can pull from several tables.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Access object prints data in a formatted structure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reports"
+      },
+      {
+        "key": "b",
+        "text": "Forms"
+      },
+      {
+        "key": "c",
+        "text": "Queries"
+      },
+      {
+        "key": "d",
+        "text": "Tables"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Forms are for viewing and entering data.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many characters can a Short Text field hold?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Up to 255"
+      },
+      {
+        "key": "b",
+        "text": "Up to 64"
+      },
+      {
+        "key": "c",
+        "text": "Unlimited"
+      },
+      {
+        "key": "d",
+        "text": "Up to 1,024"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Short Text allows alphanumeric characters.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A primary key field allows neither duplicate values nor blanks.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It keeps each record unique.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In Access, structural changes to a table save themselves automatically, like data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Data saves itself; structural changes must be saved manually.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are database design rules in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "No derived fields"
+      },
+      {
+        "key": "b",
+        "text": "Use descriptive field names"
+      },
+      {
+        "key": "c",
+        "text": "Break data into its smallest logical parts"
+      },
+      {
+        "key": "d",
+        "text": "Store calculations in every table"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The notes say no calculated fields in tables.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four standard tabs of the Access ribbon?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Home"
+      },
+      {
+        "key": "b",
+        "text": "Create"
+      },
+      {
+        "key": "c",
+        "text": "External Data"
+      },
+      {
+        "key": "d",
+        "text": "Mailings"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is Database Tools.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

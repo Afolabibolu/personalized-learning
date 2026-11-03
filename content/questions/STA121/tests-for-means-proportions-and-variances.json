@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "n = 400 bulbs have x̄ = 1570 h and s = 150 h. For H₀: µ = 1600 the test statistic is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−4"
+      },
+      {
+        "key": "b",
+        "text": "−0.2"
+      },
+      {
+        "key": "c",
+        "text": "−7.5"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "−30/(150/20).",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "single_choice",
+    "stem": "400 of 600 and 450 of 900 students smoke. The pooled proportion is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.567"
+      },
+      {
+        "key": "b",
+        "text": "0.583"
+      },
+      {
+        "key": "c",
+        "text": "0.5"
+      },
+      {
+        "key": "d",
+        "text": "0.667"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "850/1500.",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Five readings have s² = 0.00975. For H₀: σ² = 0.01 the chi-square statistic is",
+    "options": [
+      {
+        "key": "a",
+        "text": "3.9"
+      },
+      {
+        "key": "b",
+        "text": "0.975"
+      },
+      {
+        "key": "c",
+        "text": "4.875"
+      },
+      {
+        "key": "d",
+        "text": "0.39"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(5 − 1) × 0.00975/0.01.",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "single_choice",
+    "stem": "400 of 1000 sampled people are male. For H₀: p = 0.5 the z statistic is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "−6.32"
+      },
+      {
+        "key": "b",
+        "text": "−0.1"
+      },
+      {
+        "key": "c",
+        "text": "−2.0"
+      },
+      {
+        "key": "d",
+        "text": "6.32"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "−0.1/√(0.25/1000).",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "true_false",
+    "stem": "The chi-square test for one variance uses n − 1 degrees of freedom.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "χ² = (n − 1)s²/σ₀².",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "true_false",
+    "stem": "A z test with s in place of σ is appropriate for a sample of 6 from a normal population.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Small samples with σ unknown need a t test.",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which large-sample tests use a z statistic?",
+    "options": [
+      {
+        "key": "a",
+        "text": "One population mean"
+      },
+      {
+        "key": "b",
+        "text": "Difference of two means"
+      },
+      {
+        "key": "c",
+        "text": "One population proportion"
+      },
+      {
+        "key": "d",
+        "text": "One population variance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A variance is tested with chi-square.",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which test statistic is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "z for one mean"
+      },
+      {
+        "key": "b",
+        "text": "z for two proportions"
+      },
+      {
+        "key": "c",
+        "text": "z for one proportion"
+      },
+      {
+        "key": "d",
+        "text": "χ² for one variance"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are normal (z) statistics.",
+    "source": "STA 121 Lecture 6: Hypothesis Testing with Large Samples (Olubusoye), the 2018 Lecture 6: Hypothesis Testing II (Shittu) and the Lecture 7 exercise sheet"
+  }
+]

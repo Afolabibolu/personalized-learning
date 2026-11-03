@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Sickness absence: means 2.03 and 1.28, 65 workers each, variances 3.0125 and 2.1482. The z statistic is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.66"
+      },
+      {
+        "key": "b",
+        "text": "0.75"
+      },
+      {
+        "key": "c",
+        "text": "1.96"
+      },
+      {
+        "key": "d",
+        "text": "5.16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.75/√(5.1607/65).",
+    "source": "STA 221 Lecture 8 (Hypothesis Testing II, file Lecture 7_1.pdf)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Visual acuity: n = 11 and 14, means 26 and 21, s = 5 and 6, equal variances. The pooled t statistic and its df are",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.22 with 23 df"
+      },
+      {
+        "key": "b",
+        "text": "2.22 with 25 df"
+      },
+      {
+        "key": "c",
+        "text": "5.00 with 23 df"
+      },
+      {
+        "key": "d",
+        "text": "1.11 with 24 df"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sp² = 718/23 = 31.2.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "100 of 250 adults had check-ups. Testing p = 0.5 gives z =",
+    "options": [
+      {
+        "key": "a",
+        "text": "−3.16"
+      },
+      {
+        "key": "b",
+        "text": "−0.10"
+      },
+      {
+        "key": "c",
+        "text": "−1.96"
+      },
+      {
+        "key": "d",
+        "text": "3.16"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(0.4 − 0.5)/√(0.25/250).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "49 individuals average 130 with σ² = 100. Testing μ = 125 gives z =",
+    "options": [
+      {
+        "key": "a",
+        "text": "3.5"
+      },
+      {
+        "key": "b",
+        "text": "0.5"
+      },
+      {
+        "key": "c",
+        "text": "0.35"
+      },
+      {
+        "key": "d",
+        "text": "24.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(130 − 125)/(10/7).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The test for equality of two variances uses F = s1²/s2².",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "With (n1 − 1, n2 − 1) degrees of freedom.",
+    "source": "STA 221 Lecture 8 (Hypothesis Testing II, file Lecture 7_1.pdf)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Insurance in 129 of 150 and 144 of 160 patients is enough to reject p1 = p2 at the 5% level.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "z ≈ −1.09, inside ±1.96.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are assumptions of the pooled two-sample t test?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Normal populations"
+      },
+      {
+        "key": "b",
+        "text": "Independent samples"
+      },
+      {
+        "key": "c",
+        "text": "Equal population variances"
+      },
+      {
+        "key": "d",
+        "text": "Known population standard deviations"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "If σ were known, a z test would be used.",
+    "source": "STA 221 Lecture 8 (Hypothesis Testing II, file Lecture 7_1.pdf)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which pairing of test and statistic is wrong?",
+    "options": [
+      {
+        "key": "a",
+        "text": "One variance: chi-square"
+      },
+      {
+        "key": "b",
+        "text": "Two variances: F"
+      },
+      {
+        "key": "c",
+        "text": "One mean, σ known: z"
+      },
+      {
+        "key": "d",
+        "text": "Two proportions: chi-square with n − 1 df"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Two proportions use a z statistic.",
+    "source": "STA 221 Lecture 8 (Hypothesis Testing II, file Lecture 7_1.pdf)"
+  }
+]

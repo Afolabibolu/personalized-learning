@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which policy gives a high-level strategic framework for an organisation's whole cybersecurity approach?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Enterprise Security Policy (ESP)"
+      },
+      {
+        "key": "b",
+        "text": "Issue-Specific Security Policy (ISSP)"
+      },
+      {
+        "key": "c",
+        "text": "System-Specific Security Policy (SysSP)"
+      },
+      {
+        "key": "d",
+        "text": "Acceptable Use Policy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It covers all users, departments and systems.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A password policy requiring complex passwords changed every 60 days is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "an issue-specific security policy"
+      },
+      {
+        "key": "b",
+        "text": "an enterprise security policy"
+      },
+      {
+        "key": "c",
+        "text": "a system-specific security policy"
+      },
+      {
+        "key": "d",
+        "text": "a disaster recovery plan"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ISSPs address specific concerns.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A policy that all database servers must encrypt stored data and log access attempts is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a system-specific security policy"
+      },
+      {
+        "key": "b",
+        "text": "an enterprise security policy"
+      },
+      {
+        "key": "c",
+        "text": "an acceptable use policy"
+      },
+      {
+        "key": "d",
+        "text": "a training plan"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "SysSPs are mainly for IT staff.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Sensitive data should be encrypted both in transit and at rest.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is the first best practice.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are best current practices for cybersecurity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Regular patch management"
+      },
+      {
+        "key": "b",
+        "text": "Security awareness training"
+      },
+      {
+        "key": "c",
+        "text": "Network segmentation"
+      },
+      {
+        "key": "d",
+        "text": "Reusing one password everywhere"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Password reuse should be avoided.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which policy defines what users can or cannot do with organisational resources?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Acceptable Use Policy (AUP)"
+      },
+      {
+        "key": "b",
+        "text": "Network security policy"
+      },
+      {
+        "key": "c",
+        "text": "Data security policy"
+      },
+      {
+        "key": "d",
+        "text": "Enterprise security policy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a supplemental policy.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of security policy in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Enterprise security policy"
+      },
+      {
+        "key": "b",
+        "text": "Issue-specific security policy"
+      },
+      {
+        "key": "c",
+        "text": "System-specific security policy"
+      },
+      {
+        "key": "d",
+        "text": "Compiler optimisation policy"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three main types are ESP, ISSP and SysSP.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Security policies help guide user behaviour and reduce human error.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Human error often leads to breaches.",
+    "source": "CYB 201 - Week Two slides"
+  }
+]

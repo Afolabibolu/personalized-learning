@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Using the quotient rule, d/dx (sec x) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "sec x tan x"
+      },
+      {
+        "key": "b",
+        "text": "−sec x tan x"
+      },
+      {
+        "key": "c",
+        "text": "sec² x"
+      },
+      {
+        "key": "d",
+        "text": "tan x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sec x = 1/cos x.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If y = x⁶ cos x, then dy/dx =",
+    "options": [
+      {
+        "key": "a",
+        "text": "6x⁵ cos x − x⁶ sin x"
+      },
+      {
+        "key": "b",
+        "text": "6x⁵ cos x + x⁶ sin x"
+      },
+      {
+        "key": "c",
+        "text": "−6x⁵ sin x"
+      },
+      {
+        "key": "d",
+        "text": "6x⁵ sin x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Product rule.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "d/dx ln(x³ + 4x) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "(3x² + 4)/(x³ + 4x)"
+      },
+      {
+        "key": "b",
+        "text": "1/(x³ + 4x)"
+      },
+      {
+        "key": "c",
+        "text": "3x² + 4"
+      },
+      {
+        "key": "d",
+        "text": "ln(3x² + 4)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "D(ln u) = u'/u.",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The slope of y³ − 2xy + x³ = 0 at (1, 1) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−1"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "3y² y' − 2y − 2xy' + 3x² = 0 gives y' = −1.",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "D⁴(sin x) = sin x.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "sin → cos → −sin → −cos → sin.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "The derivative of the product fg is (Df)(Dg).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "D(fg) = f Dg + g Df.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which derivatives are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "D(sin x) = cos x"
+      },
+      {
+        "key": "b",
+        "text": "D(cos x) = −sin x"
+      },
+      {
+        "key": "c",
+        "text": "D(xⁿ) = nxⁿ⁻¹"
+      },
+      {
+        "key": "d",
+        "text": "D(eˣ) = xeˣ⁻¹"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "D(eˣ) = eˣ.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which rule is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Product rule"
+      },
+      {
+        "key": "b",
+        "text": "Quotient rule"
+      },
+      {
+        "key": "c",
+        "text": "Chain rule"
+      },
+      {
+        "key": "d",
+        "text": "Cover-up rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The cover-up rule is for partial fractions, not differentiation.",
+    "source": "MAT 121 Lecture Notes"
+  }
+]

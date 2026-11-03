@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which function on the real numbers is injective but not surjective?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(x) = eˣ"
+      },
+      {
+        "key": "b",
+        "text": "f(x) = x(x − 1)(x − 2)"
+      },
+      {
+        "key": "c",
+        "text": "f(x) = x"
+      },
+      {
+        "key": "d",
+        "text": "f(x) = x²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "eˣ never takes negative values.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The empty set is a subset of every set.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The notes state this explicitly.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A Δ B, the symmetric difference, equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "(A ∪ B) − (A ∩ B)"
+      },
+      {
+        "key": "b",
+        "text": "A ∩ B"
+      },
+      {
+        "key": "c",
+        "text": "A − B only"
+      },
+      {
+        "key": "d",
+        "text": "A ∪ B"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It also equals (A − B) ∪ (B − A).",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If A = {2, 3, 4, 6, 9, 10} and B = {2, 4, 8, 9, 10, 12}, what is (A \\ B) ∪ (B \\ A)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "{3, 6, 8, 12}"
+      },
+      {
+        "key": "b",
+        "text": "{2, 4, 9, 10}"
+      },
+      {
+        "key": "c",
+        "text": "{3, 6}"
+      },
+      {
+        "key": "d",
+        "text": "{8, 12}"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the symmetric difference.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which collections are partitions of X = {1, 2, …, 9}?",
+    "options": [
+      {
+        "key": "a",
+        "text": "[{1, 3, 5}, {2, 4, 6, 8}, {7, 9}]"
+      },
+      {
+        "key": "b",
+        "text": "[{1, 2, 3, 4, 5, 6, 7, 8, 9}]"
+      },
+      {
+        "key": "c",
+        "text": "[{1, 3, 5, 7, 9}, {2, 4, 6, 8}]"
+      },
+      {
+        "key": "d",
+        "text": "[{1, 3, 5}, {2, 4, 6, 8}, {5, 7, 9}]"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The last repeats 5, so its blocks are not disjoint.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which function on the real numbers is not bijective?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(x) = x"
+      },
+      {
+        "key": "b",
+        "text": "f(x) = x + 1"
+      },
+      {
+        "key": "c",
+        "text": "f(x) = 2x"
+      },
+      {
+        "key": "d",
+        "text": "f(x) = x²"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "x² is neither injective nor surjective.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every relation is a function.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Every function is a relation, but not every relation is a function.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The set of all ordered pairs (a, b) with a ∈ A and b ∈ B is called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cartesian product of A and B"
+      },
+      {
+        "key": "b",
+        "text": "union of A and B"
+      },
+      {
+        "key": "c",
+        "text": "power set of A"
+      },
+      {
+        "key": "d",
+        "text": "partition of A"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It generalises to n-tuples.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 1"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The vector equation of the line through A(5, 2, 6) and B(−3, 6, 2) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(5 − 2α, 2 + α, 6 − α)"
+      },
+      {
+        "key": "b",
+        "text": "(5 + 2α, 2 − α, 6 + α)"
+      },
+      {
+        "key": "c",
+        "text": "(3 + 5α, 3 − α, 6 − 2α)"
+      },
+      {
+        "key": "d",
+        "text": "(5 − α, 1 + 2α, 6 + α)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Direction (−2, 1, −1).",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The plane containing i + 5j + 3k and perpendicular to 2i + 3j + 6k is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2x + 3y + 6z = 35"
+      },
+      {
+        "key": "b",
+        "text": "x + y + z = 18"
+      },
+      {
+        "key": "c",
+        "text": "2x − y − z = 15"
+      },
+      {
+        "key": "d",
+        "text": "x + 3y − 2z = 15"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2(x − 1) + 3(y − 5) + 6(z − 3) = 0.",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The line r = (1, 0, 1) + s(2, 1, −3) meets the plane 3x + 2y + 4z = 11 at",
+    "options": [
+      {
+        "key": "a",
+        "text": "(−1, −1, 4)"
+      },
+      {
+        "key": "b",
+        "text": "(3, 1, −2)"
+      },
+      {
+        "key": "c",
+        "text": "(1, 0, 1)"
+      },
+      {
+        "key": "d",
+        "text": "(5, 2, −5)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Substituting gives −4s + 7 = 11, so s = −1.",
+    "source": "General knowledge of MTH 103"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To find a normal to the plane through three points P, Q, R, one computes",
+    "options": [
+      {
+        "key": "a",
+        "text": "PQ × QR"
+      },
+      {
+        "key": "b",
+        "text": "PQ·QR"
+      },
+      {
+        "key": "c",
+        "text": "PQ + QR"
+      },
+      {
+        "key": "d",
+        "text": "|PQ||QR|"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The cross product is perpendicular to both.",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Any non-zero multiple of a line's direction vector can be used as its direction vector.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It points along the same line.",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The equation a(x − x₀) + b(y − y₀) + c(z − z₀) = 0 describes a line in space.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It describes a plane with normal (a, b, c).",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which describe the same line through (−1, 2, 3) parallel to (3, 0, −1)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "r = (−1, 2, 3) + α(3, 0, −1)"
+      },
+      {
+        "key": "b",
+        "text": "x = −1 + 3α, y = 2, z = 3 − α"
+      },
+      {
+        "key": "c",
+        "text": "(x + 1)/3 = 3 − z, y = 2"
+      },
+      {
+        "key": "d",
+        "text": "3x − z = 0"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "3x − z = 0 is a plane.",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vector equation"
+      },
+      {
+        "key": "b",
+        "text": "Parametric equations"
+      },
+      {
+        "key": "c",
+        "text": "Standard Cartesian form"
+      },
+      {
+        "key": "d",
+        "text": "Normal vector"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A normal vector defines a plane; the others are forms of a line.",
+    "source": "MAT 141 Vectors in R3 slides, Part 2 (O. B. Ogunfolu, 2018)"
+  }
+]

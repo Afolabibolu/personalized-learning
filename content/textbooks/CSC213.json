@@ -1,0 +1,104 @@
+{
+  "code": "CSC 213",
+  "books": {
+    "woods": {
+      "title": "CSC 213: Digital Logic Design (course book)",
+      "authors": "Nancy C. Woods",
+      "publisher": "Department of Computer Science, University of Ibadan"
+    },
+    "tocci": {
+      "title": "Digital Systems: Principles and Applications",
+      "authors": "Ronald J. Tocci and Neal S. Widmer",
+      "edition": "8th edition",
+      "publisher": "Prentice Hall",
+      "year": 2001
+    },
+    "watson": {
+      "title": "Mastering Electronics",
+      "authors": "John Watson",
+      "publisher": "Macmillan (Macmillan Master Series)",
+      "year": 1990
+    },
+    "alexander": {
+      "title": "Fundamentals of Electric Circuits",
+      "authors": "Charles K. Alexander and Matthew N. O. Sadiku",
+      "edition": "3rd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2007
+    }
+  },
+  "topics": {
+    "circuit-theory": [
+      {
+        "book": "woods",
+        "read": "Lecture One: Basic Circuit Theory",
+        "why": "The course's own treatment of Kirchhoff's laws and the Thevenin and Norton examples."
+      },
+      {
+        "book": "alexander",
+        "read": "The chapters on basic laws and circuit theorems (Kirchhoff's laws, Thevenin's and Norton's theorems)",
+        "why": "A standard circuits textbook in the course folder, with many worked examples."
+      }
+    ],
+    "semiconductors-and-transistors": [
+      {
+        "book": "woods",
+        "read": "Lectures Two and Three: Semiconductors I and II",
+        "why": "The course's notes on doping, the P-N junction, diodes, BJTs and FETs."
+      },
+      {
+        "book": "watson",
+        "read": "The chapters on semiconductors, diodes and transistors",
+        "why": "Cited by the course book and filed in the course folder."
+      }
+    ],
+    "logic-families-and-gates": [
+      {
+        "book": "woods",
+        "read": "Lectures Four and Five: Digital Logic Families and Digital Logic Gates",
+        "why": "Covers the TTL and CMOS characteristics and gate truth tables the exams ask about."
+      },
+      {
+        "book": "tocci",
+        "read": "The chapters on logic gates and Boolean algebra, and on integrated-circuit logic families",
+        "why": "The digital systems textbook the course book cites."
+      }
+    ],
+    "combinational-logic-and-standard-forms": [
+      {
+        "book": "woods",
+        "read": "Lectures Six and Seven: Combinational Logic Design and Standard Forms of Expression",
+        "why": "The course's method for truth tables, expressions, diagrams, SOP and POS."
+      },
+      {
+        "book": "tocci",
+        "read": "The chapter on combinational logic circuits (sum-of-products form and circuit design)",
+        "why": "More worked design problems like the exam's word problems."
+      }
+    ],
+    "minimisation-and-standard-circuits": [
+      {
+        "book": "woods",
+        "read": "Lectures Eight and Nine: Switching Function Minimization and Standard Combinational Logic Circuits",
+        "why": "The course's K-map, Quine-McCluskey, adder and multiplexer material."
+      },
+      {
+        "book": "tocci",
+        "read": "The chapters on Karnaugh maps, arithmetic circuits and MSI logic circuits (decoders, encoders, multiplexers)",
+        "why": "Standard reference for these circuits."
+      }
+    ],
+    "sequential-circuits-and-codes": [
+      {
+        "book": "woods",
+        "read": "Lectures Ten to Thirteen: Sequential Logic, Registers and Counters, Computer Codes, Error Detection",
+        "why": "The course's notes on flip-flops, counters, codes, parity and Hamming codes."
+      },
+      {
+        "book": "tocci",
+        "read": "The chapters on number systems and codes, flip-flops, and counters and registers",
+        "why": "Fuller treatment of counters and codes."
+      }
+    ]
+  }
+}

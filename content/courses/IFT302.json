@@ -1,0 +1,108 @@
+{
+  "code": "IFT 302",
+  "title": "Web Application Development",
+  "semester": 2,
+  "description": "A practical course in building web applications: web development concepts, website design, UI/UX and responsive design, client-server architecture and tools, client-side programming with HTML, CSS and JavaScript, server-side programming with PHP, object-oriented PHP, and database-driven applications with MySQL, cookies and sessions. Built from B. I. Dahunsi's IFT 302 lessons, the course content document and the PHP lecture slides.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "introduction-to-web-development",
+      "title": "Introduction to Web Development",
+      "summary": "Web development is designing, building, deploying and maintaining websites and web applications. The Web, invented by Tim Berners-Lee in 1989, evolved from the read-only Web 1.0 to the read-write Web 2.0 and the semantic Web 3.0. Websites are static or dynamic, frameworks speed up development, and client-side and server-side technologies share the work.",
+      "subtopics": [
+        "What web development is",
+        "Internet versus World Wide Web",
+        "Web 1.0, 2.0 and 3.0",
+        "Website versus web application; static and dynamic sites",
+        "Framework-based development",
+        "Client-side, server-side and the development lifecycle"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "website-design-ui-ux-and-responsive-design",
+      "title": "Website Design, UI/UX and Responsive Design",
+      "summary": "Website design is planning and arranging content to be attractive, functional, user-friendly and accessible. Its principles are simplicity, consistency, visual hierarchy, balance, contrast, white space, accessibility and performance. UI covers what users interact with and UX the overall experience, and responsive design adapts a site to every screen size.",
+      "subtopics": [
+        "What website design is",
+        "Principles of website design",
+        "Accessibility and performance",
+        "User interface (UI)",
+        "User experience (UX)",
+        "Responsive web design and media queries"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "web-architecture-and-development-tools",
+      "title": "Web Architecture and Development Tools",
+      "summary": "Web architecture is the structure of the components that deliver web applications. In client-server architecture, clients such as browsers request resources and servers such as Apache provide them over HTTP. Developers use a code editor, browser tools, a local server package such as XAMPP, package managers, Git for version control and MySQL for data.",
+      "subtopics": [
+        "Website architecture",
+        "Client-server architecture",
+        "Clients, servers and database servers",
+        "The Apache web server",
+        "Development environments and XAMPP",
+        "Version control with Git"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "client-side-programming",
+      "title": "Client-side Programming",
+      "summary": "Client-side programming runs on the user's device, inside the browser. HTML structures the page with tags, CSS controls appearance and layout, and JavaScript adds interactivity with variables, operators, conditions, loops, functions, DOM manipulation, events and form validation.",
+      "subtopics": [
+        "What client-side programming is",
+        "HTML structure and common elements",
+        "CSS and the box model",
+        "JavaScript variables, types and operators",
+        "Control flow, functions and the DOM",
+        "Events and form validation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "server-side-programming-with-php",
+      "title": "Server-side Programming with PHP",
+      "summary": "Server-side programming runs on the web server to receive requests, apply business rules, talk to databases and build dynamic pages. PHP, the Hypertext Preprocessor, runs on the server and sends only its output to the browser. Students set up XAMPP and use PHP variables, constants, data types, operators, conditions, loops, functions, arrays, strings and form data.",
+      "subtopics": [
+        "What server-side programming is",
+        "Client-side versus server-side: a login example",
+        "What PHP is and why it is used",
+        "Setting up a PHP project",
+        "Variables, constants, types and output",
+        "Control structures, functions, arrays and forms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "object-oriented-php",
+      "title": "Object-Oriented Programming in PHP",
+      "summary": "PHP OOP organises code into classes and objects with properties and methods. It covers $this, instanceof, constructors and destructors, the public, protected and private access modifiers, inheritance with extends, method overriding, final, class constants, abstract classes, interfaces, traits, static members and namespaces.",
+      "subtopics": [
+        "OOP versus procedural programming",
+        "Classes, objects, properties and $this",
+        "Constructors, destructors and instanceof",
+        "Access modifiers",
+        "Inheritance, overriding and final",
+        "Constants, abstract classes and interfaces"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "database-driven-applications-cookies-and-sessions",
+      "title": "Database-Driven Applications, Cookies and Sessions",
+      "summary": "A database-driven web application uses PHP to send SQL to MySQL and build responses, implementing CRUD with prepared statements and escaping output with htmlspecialchars. Because HTTP is stateless, applications keep state with cookies stored in the browser and sessions stored on the server, secured with HttpOnly, Secure, SameSite and session ID regeneration.",
+      "subtopics": [
+        "Database-driven applications and table design",
+        "CRUD and SQL",
+        "Prepared statements and output escaping",
+        "HTTP is stateless; cookies",
+        "PHP sessions, login and logout",
+        "Session security: fixation, hijacking and cookie flags"
+      ],
+      "lectures": []
+    }
+  ]
+}

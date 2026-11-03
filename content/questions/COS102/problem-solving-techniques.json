@@ -1,90 +1,115 @@
 [
   {
     "format": "single_choice",
-    "stem": "Comparing the current state with the goal and choosing an action that reduces the difference is",
+    "stem": "Which technique keeps asking \"why?\" until an actionable root cause is found?",
     "options": [
       {
         "key": "a",
-        "text": "Means-end analysis"
+        "text": "Five Whys"
       },
       {
         "key": "b",
-        "text": "Brainstorming"
+        "text": "Gemba walk"
       },
       {
         "key": "c",
-        "text": "Morphological analysis"
+        "text": "SWOT analysis"
       },
       {
         "key": "d",
-        "text": "Research"
+        "text": "Brainstorming"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Means-end analysis repeatedly reduces the gap between the current state and the goal.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "The number five is only a guideline.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   },
   {
     "format": "single_choice",
-    "stem": "Listing a problem's main attributes and the options for each, then examining the combinations, is",
+    "stem": "\"Gemba\" is a Japanese word meaning",
     "options": [
       {
         "key": "a",
-        "text": "Morphological analysis"
+        "text": "Real place"
       },
       {
         "key": "b",
-        "text": "Root cause analysis"
+        "text": "Root cause"
       },
       {
         "key": "c",
-        "text": "Trial and error"
+        "text": "Fish bone"
       },
       {
         "key": "d",
-        "text": "Proof"
+        "text": "Five steps"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Morphological analysis explores combinations of attribute options systematically.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "A Gemba walk goes to where the problem occurs.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   },
   {
-    "format": "multi_select",
-    "stem": "Which techniques are mainly about generating many new ideas?",
+    "format": "single_choice",
+    "stem": "In a SWOT analysis, which two factors are external?",
     "options": [
       {
         "key": "a",
-        "text": "Brainstorming"
+        "text": "Opportunities and threats"
       },
       {
         "key": "b",
-        "text": "Lateral thinking"
+        "text": "Strengths and weaknesses"
       },
       {
         "key": "c",
-        "text": "Method of focal objects"
+        "text": "Strengths and opportunities"
       },
       {
         "key": "d",
-        "text": "Proof"
+        "text": "Weaknesses and threats"
       }
     ],
     "correct_answer": [
-      "a",
-      "b",
-      "c"
+      "a"
     ],
-    "explanation": "Proof confirms a solution is correct rather than generating ideas.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "Strengths and weaknesses are internal.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Resetting a forgotten password is an example of a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Routine problem"
+      },
+      {
+        "key": "b",
+        "text": "Non-routine problem"
+      },
+      {
+        "key": "c",
+        "text": "Unsolvable problem"
+      },
+      {
+        "key": "d",
+        "text": "Optimisation problem"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is common, with a documented solution.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   },
   {
     "format": "true_false",
-    "stem": "In brainstorming, ideas are judged as soon as each one is suggested.",
+    "stem": "Brainstorming for problem identification aims to list solutions straight away.",
     "options": [
       {
         "key": "true",
@@ -98,93 +123,12 @@
     "correct_answer": [
       "false"
     ],
-    "explanation": "Ideas are listed without judging and evaluated afterwards.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "single_choice",
-    "stem": "Turning 'is this name in the list?' into a standard search problem with a known solution is an example of",
-    "options": [
-      {
-        "key": "a",
-        "text": "Reduction"
-      },
-      {
-        "key": "b",
-        "text": "Hypothesis testing"
-      },
-      {
-        "key": "c",
-        "text": "Root cause analysis"
-      },
-      {
-        "key": "d",
-        "text": "Brainstorming"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "Reduction transforms a problem into one that already has a solution.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "odd_one_out",
-    "stem": "Which one is not a way of testing or searching for a solution?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Trial and error"
-      },
-      {
-        "key": "b",
-        "text": "Hypothesis testing"
-      },
-      {
-        "key": "c",
-        "text": "Means-end analysis"
-      },
-      {
-        "key": "d",
-        "text": "Method of focal objects"
-      }
-    ],
-    "correct_answer": [
-      "d"
-    ],
-    "explanation": "The method of focal objects generates ideas by combining features of unrelated objects.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "single_choice",
-    "stem": "Asking 'why?' repeatedly until the underlying cause of a problem appears is",
-    "options": [
-      {
-        "key": "a",
-        "text": "Root cause analysis"
-      },
-      {
-        "key": "b",
-        "text": "Analogy"
-      },
-      {
-        "key": "c",
-        "text": "Abstraction"
-      },
-      {
-        "key": "d",
-        "text": "Divide and conquer"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "Fixing only a symptom lets the problem return.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "It lists problems first; solutions come later.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   },
   {
     "format": "true_false",
-    "stem": "Showing by logical argument that a solution is correct for every case is called proof.",
+    "stem": "Brainstorming is divergent thinking, while the fishbone diagram is convergent, analytical thinking.",
     "options": [
       {
         "key": "true",
@@ -198,7 +142,63 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "Proof covers every case, not only the cases tested.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "They complement each other.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the usual categories of causes on a fishbone diagram in computing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "People"
+      },
+      {
+        "key": "b",
+        "text": "Process"
+      },
+      {
+        "key": "c",
+        "text": "Technology"
+      },
+      {
+        "key": "d",
+        "text": "Profit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is Environment.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which technique is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Five Whys"
+      },
+      {
+        "key": "b",
+        "text": "Gemba walk"
+      },
+      {
+        "key": "c",
+        "text": "Fishbone diagram"
+      },
+      {
+        "key": "d",
+        "text": "Bubble sort"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bubble sort is a sorting algorithm; the others identify problems.",
+    "source": "COS 102 Lecture 6 (identification of problems)"
   }
 ]

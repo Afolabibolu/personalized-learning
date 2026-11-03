@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "100 families average 1250 units with σ = 150. The 95% confidence interval for µ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1220.6 to 1279.4"
+      },
+      {
+        "key": "b",
+        "text": "1220.6 to 1274.4"
+      },
+      {
+        "key": "c",
+        "text": "1235 to 1265"
+      },
+      {
+        "key": "d",
+        "text": "1100 to 1400"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1250 ± 1.96 × 15.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What sample size estimates µ within 0.5 with 99% confidence when σ = 8.6?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1964"
+      },
+      {
+        "key": "b",
+        "text": "1137"
+      },
+      {
+        "key": "c",
+        "text": "44"
+      },
+      {
+        "key": "d",
+        "text": "1963"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(2.576 × 8.6/0.5)² = 1963.1, rounded up.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With p = 0.10, how large a sample estimates the proportion within 0.07 at 99% confidence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "122"
+      },
+      {
+        "key": "b",
+        "text": "71"
+      },
+      {
+        "key": "c",
+        "text": "121"
+      },
+      {
+        "key": "d",
+        "text": "1219"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2.576² × 0.09/0.0049 = 121.9, rounded up.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "48 of 144 sampled families have two or more children. The 95% interval for p is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.256 to 0.410"
+      },
+      {
+        "key": "b",
+        "text": "0.30 to 0.36"
+      },
+      {
+        "key": "c",
+        "text": "0.18 to 0.48"
+      },
+      {
+        "key": "d",
+        "text": "0.333 to 0.410"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1/3 ± 1.96 × 0.0393.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The sample mean is a consistent estimator of the population mean.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its standard error σ/√n shrinks as n grows.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The sample standard deviation s is an unbiased estimator of σ.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "s is biased, though the bias falls as n grows.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are criteria for a good point estimator in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unbiasedness"
+      },
+      {
+        "key": "b",
+        "text": "Consistency"
+      },
+      {
+        "key": "c",
+        "text": "Efficiency"
+      },
+      {
+        "key": "d",
+        "text": "The largest possible variance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An efficient estimator has the smaller variance.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which value is not a standard normal confidence-level value?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.645"
+      },
+      {
+        "key": "b",
+        "text": "1.960"
+      },
+      {
+        "key": "c",
+        "text": "2.576"
+      },
+      {
+        "key": "d",
+        "text": "3.250"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "3.250 is t for 9 degrees of freedom at 99%.",
+    "source": "STA 121 Lecture 4: Estimation and Confidence Intervals and Lecture 5 Part 1: Sample Size Determination (Olubusoye)"
+  }
+]

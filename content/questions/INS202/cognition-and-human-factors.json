@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Fitts's Law predicts",
+    "options": [
+      {
+        "key": "a",
+        "text": "the time to select a target from its distance and size"
+      },
+      {
+        "key": "b",
+        "text": "the number of items in memory"
+      },
+      {
+        "key": "c",
+        "text": "decision time from the number of choices"
+      },
+      {
+        "key": "d",
+        "text": "screen resolution"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "T = a + b × log₂(2D/W).",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Hick's Law predicts decision time from",
+    "options": [
+      {
+        "key": "a",
+        "text": "the number of choices"
+      },
+      {
+        "key": "b",
+        "text": "button width"
+      },
+      {
+        "key": "c",
+        "text": "the user's age"
+      },
+      {
+        "key": "d",
+        "text": "network speed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "T = b × log₂(n + 1).",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Miller's Law says people can hold about how many items in short-term memory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "7 ± 2"
+      },
+      {
+        "key": "b",
+        "text": "3 ± 1"
+      },
+      {
+        "key": "c",
+        "text": "12 ± 4"
+      },
+      {
+        "key": "d",
+        "text": "20"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So group menus into 5 to 9 items.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A user who knows their PIN but presses the wrong digit on a cramped keypad has made",
+    "options": [
+      {
+        "key": "a",
+        "text": "a slip"
+      },
+      {
+        "key": "b",
+        "text": "a mistake"
+      },
+      {
+        "key": "c",
+        "text": "a recall"
+      },
+      {
+        "key": "d",
+        "text": "a heuristic"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Correct intention, incorrect execution.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "true_false",
+    "stem": "Recognition is cognitively easier than recall.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is why menus help novices.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "true_false",
+    "stem": "Using Hick's Law with b = 200 ms, 16 choices take less time to decide than 4 choices.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "16 choices take about 818 ms, versus 464 ms for 4.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Gestalt principles named in Lecture 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Proximity"
+      },
+      {
+        "key": "b",
+        "text": "Similarity"
+      },
+      {
+        "key": "c",
+        "text": "Closure"
+      },
+      {
+        "key": "d",
+        "text": "Recursion"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Continuity is the fourth.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of Norman's three models?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The designer's model"
+      },
+      {
+        "key": "b",
+        "text": "The system image"
+      },
+      {
+        "key": "c",
+        "text": "The user's model"
+      },
+      {
+        "key": "d",
+        "text": "The server model"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three models are about understanding, not servers.",
+    "source": "INS 202 Lecture 3 Cognition and Human Factors"
+  }
+]

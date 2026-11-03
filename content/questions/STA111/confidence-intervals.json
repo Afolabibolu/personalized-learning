@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "123 of 300 households have colour TV. The 95% margin of error for the proportion is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "±0.0557"
+      },
+      {
+        "key": "b",
+        "text": "±0.41"
+      },
+      {
+        "key": "c",
+        "text": "±0.025"
+      },
+      {
+        "key": "d",
+        "text": "±0.0284"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1.96√(0.41 × 0.59/300).",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "12 of 50 embryos are abnormal. The 95% confidence interval for p is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "(0.122, 0.358)"
+      },
+      {
+        "key": "b",
+        "text": "(0.140, 0.339)"
+      },
+      {
+        "key": "c",
+        "text": "(0.085, 0.396)"
+      },
+      {
+        "key": "d",
+        "text": "(0.231, 0.249)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.24 ± 1.96 × 0.0604.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For n = 20 at the 5% level (two-sided), the t critical value is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.093"
+      },
+      {
+        "key": "b",
+        "text": "1.960"
+      },
+      {
+        "key": "c",
+        "text": "2.903"
+      },
+      {
+        "key": "d",
+        "text": "2.570"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "t with 19 degrees of freedom.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The z value for a 99% confidence interval is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.576"
+      },
+      {
+        "key": "b",
+        "text": "1.96"
+      },
+      {
+        "key": "c",
+        "text": "1.645"
+      },
+      {
+        "key": "d",
+        "text": "3.0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It leaves 0.5% in each tail.",
+    "source": "STA 114 Lectures 7 and 8: Confidence Intervals (Ogunde)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A confidence interval becomes narrower as the sample size increases.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The standard error falls as 1/√n.",
+    "source": "STA 114 Lectures 7 and 8: Confidence Intervals (Ogunde)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A 99% confidence interval is narrower than a 95% interval from the same data.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Higher confidence needs a wider interval.",
+    "source": "STA 114 Lectures 7 and 8: Confidence Intervals (Ogunde)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are needed to build a large-sample interval for one proportion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The sample proportion p̂"
+      },
+      {
+        "key": "b",
+        "text": "The sample size n"
+      },
+      {
+        "key": "c",
+        "text": "A z critical value"
+      },
+      {
+        "key": "d",
+        "text": "The population mean μ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "μ is not needed for a proportion.",
+    "source": "STA 114 Lectures 7 and 8: Confidence Intervals (Ogunde)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is not a part of a confidence interval?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Point estimate"
+      },
+      {
+        "key": "b",
+        "text": "Margin of error"
+      },
+      {
+        "key": "c",
+        "text": "Critical value"
+      },
+      {
+        "key": "d",
+        "text": "Mode"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are parts of a confidence interval.",
+    "source": "STA 114 Lectures 7 and 8: Confidence Intervals (Ogunde)"
+  }
+]

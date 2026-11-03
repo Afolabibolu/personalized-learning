@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which command labels the horizontal axis of a plot?",
+    "options": [
+      {
+        "key": "a",
+        "text": "xlabel"
+      },
+      {
+        "key": "b",
+        "text": "title"
+      },
+      {
+        "key": "c",
+        "text": "legend"
+      },
+      {
+        "key": "d",
+        "text": "axis on"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ylabel labels the vertical axis.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An anonymous function in MATLAB is created with",
+    "options": [
+      {
+        "key": "a",
+        "text": "the @ operator"
+      },
+      {
+        "key": "b",
+        "text": "the function keyword in a file"
+      },
+      {
+        "key": "c",
+        "text": "the plot command"
+      },
+      {
+        "key": "d",
+        "text": "square brackets"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example f = @(x) x.^2.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For plot(x, y), x and y must have the same number of elements.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each point pairs one x with one y.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which command keeps the current plot so the next one is drawn on top?",
+    "options": [
+      {
+        "key": "a",
+        "text": "hold on"
+      },
+      {
+        "key": "b",
+        "text": "grid on"
+      },
+      {
+        "key": "c",
+        "text": "figure"
+      },
+      {
+        "key": "d",
+        "text": "clear"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "hold off ends this.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which should a well-presented plot include?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A title"
+      },
+      {
+        "key": "b",
+        "text": "Axis labels with units"
+      },
+      {
+        "key": "c",
+        "text": "Enough points for a smooth curve"
+      },
+      {
+        "key": "d",
+        "text": "A random colour each time"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Colour choice is optional.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a plotting command?",
+    "options": [
+      {
+        "key": "a",
+        "text": "plot"
+      },
+      {
+        "key": "b",
+        "text": "subplot"
+      },
+      {
+        "key": "c",
+        "text": "fplot"
+      },
+      {
+        "key": "d",
+        "text": "cross"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "cross computes a vector cross product.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A function file has its own local workspace, unlike a script file.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Scripts run in the base workspace.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To plot a parametric curve x(t), y(t) for −1 ≤ t ≤ 1, you should",
+    "options": [
+      {
+        "key": "a",
+        "text": "make a t vector, compute x and y from it, then plot(x, y)"
+      },
+      {
+        "key": "b",
+        "text": "plot t against itself"
+      },
+      {
+        "key": "c",
+        "text": "use only two points"
+      },
+      {
+        "key": "d",
+        "text": "write t^2 for the matrix power"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Use element-wise operators for x and y.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  }
+]

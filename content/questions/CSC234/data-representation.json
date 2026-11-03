@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many bits make a nibble?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "8"
+      },
+      {
+        "key": "c",
+        "text": "16"
+      },
+      {
+        "key": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "8 bits make a byte and 16 a word.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the decimal value of 5Fh?",
+    "options": [
+      {
+        "key": "a",
+        "text": "95"
+      },
+      {
+        "key": "b",
+        "text": "59"
+      },
+      {
+        "key": "c",
+        "text": "85"
+      },
+      {
+        "key": "d",
+        "text": "105"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5 × 16 + 15 = 95.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In 8-bit two's complement, −5 is stored as",
+    "options": [
+      {
+        "key": "a",
+        "text": "251 (0FBh)"
+      },
+      {
+        "key": "b",
+        "text": "133"
+      },
+      {
+        "key": "c",
+        "text": "5 with a minus flag"
+      },
+      {
+        "key": "d",
+        "text": "250"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "256 − 5 = 251.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The byte 0FFh can represent either 255 or −1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It depends on whether it is treated as unsigned or signed.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many different values can a 16-bit word represent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "65,536"
+      },
+      {
+        "key": "b",
+        "text": "256"
+      },
+      {
+        "key": "c",
+        "text": "32,768"
+      },
+      {
+        "key": "d",
+        "text": "4 billion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2¹⁶ = 65,536.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are logical operations on binary values in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AND"
+      },
+      {
+        "key": "b",
+        "text": "XOR"
+      },
+      {
+        "key": "c",
+        "text": "Rotate left"
+      },
+      {
+        "key": "d",
+        "text": "Square root"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Square root is not a bitwise operation.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a unit of binary data in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nibble"
+      },
+      {
+        "key": "b",
+        "text": "Byte"
+      },
+      {
+        "key": "c",
+        "text": "Word"
+      },
+      {
+        "key": "d",
+        "text": "Kilowatt"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A kilowatt is a unit of power.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 80x86 represents signed integers in two's complement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Unsigned integers use plain binary.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 1"
+  }
+]

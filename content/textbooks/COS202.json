@@ -1,0 +1,63 @@
+{
+  "code": "COS 202",
+  "books": {
+    "farrell": {
+      "title": "Java Programming",
+      "authors": "Joyce Farrell",
+      "edition": "9th edition",
+      "publisher": "Cengage Learning",
+      "note": "In the COS 201 course folder."
+    }
+  },
+  "topics": {
+    "arrays-methods-and-recursion": [
+      {
+        "book": "farrell",
+        "read": "Chapter 8, Arrays; Chapter 9, Advanced Array Concepts",
+        "why": "Arrays, 2D arrays and methods on arrays."
+      }
+    ],
+    "classes-objects-and-constructors": [
+      {
+        "book": "farrell",
+        "read": "Chapter 3, Using Methods, Classes, and Objects",
+        "why": "Classes, objects and constructors."
+      }
+    ],
+    "access-and-non-access-modifiers": [
+      {
+        "book": "farrell",
+        "read": "Chapter 4, More Object Concepts",
+        "why": "More on classes, including static and final fields."
+      }
+    ],
+    "inheritance-and-polymorphism": [
+      {
+        "book": "farrell",
+        "read": "Chapter 10, Introduction to Inheritance",
+        "why": "extends, overriding and super."
+      }
+    ],
+    "abstraction-and-encapsulation": [
+      {
+        "book": "farrell",
+        "read": "Chapter 11, Advanced Inheritance Concepts",
+        "why": "Abstract classes and dynamic method binding."
+      }
+    ],
+    "interfaces": [
+      {
+        "book": "farrell",
+        "read": "Chapter 11, Advanced Inheritance Concepts",
+        "why": "Interfaces."
+      }
+    ],
+    "exceptions-collections-and-gui": [
+      {
+        "book": "farrell",
+        "read": "Chapter 12, Exception Handling; Chapter 14, Introduction to Swing Components",
+        "why": "try, catch, finally and Swing GUIs."
+      }
+    ]
+  }
+}

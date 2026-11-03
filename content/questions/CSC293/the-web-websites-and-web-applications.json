@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who created the World Wide Web in 1989?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tim Berners-Lee"
+      },
+      {
+        "key": "b",
+        "text": "Bill Gates"
+      },
+      {
+        "key": "c",
+        "text": "Vint Cerf"
+      },
+      {
+        "key": "d",
+        "text": "Marc Andreessen"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He worked at CERN.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which protocol translates domain names into IP addresses?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DNS"
+      },
+      {
+        "key": "b",
+        "text": "DHCP"
+      },
+      {
+        "key": "c",
+        "text": "FTP"
+      },
+      {
+        "key": "d",
+        "text": "SMTP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DHCP assigns IP addresses.",
+    "source": "web protocols.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tier of a web application holds the database?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The data tier"
+      },
+      {
+        "key": "b",
+        "text": "The client tier"
+      },
+      {
+        "key": "c",
+        "text": "The presentation tier"
+      },
+      {
+        "key": "d",
+        "text": "The firewall"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called the back end.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which email protocol keeps messages on the server so they can be read from several devices?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IMAP"
+      },
+      {
+        "key": "b",
+        "text": "POP"
+      },
+      {
+        "key": "c",
+        "text": "SMTP"
+      },
+      {
+        "key": "d",
+        "text": "FTP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "POP downloads them to one device.",
+    "source": "web protocols.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A web application takes user input that affects back-end business logic.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A plain website only provides static documents.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Internet and the World Wide Web are the same thing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The Web is one layer on top of the Internet.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which three technologies does the World Wide Web use, according to the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HTML"
+      },
+      {
+        "key": "b",
+        "text": "HTTP"
+      },
+      {
+        "key": "c",
+        "text": "URLs"
+      },
+      {
+        "key": "d",
+        "text": "SMTP"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "SMTP is for email.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a component of a web application in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Client tier"
+      },
+      {
+        "key": "b",
+        "text": "Firewall"
+      },
+      {
+        "key": "c",
+        "text": "Data tier"
+      },
+      {
+        "key": "d",
+        "text": "Compiler tier"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The middle tier is the other component.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

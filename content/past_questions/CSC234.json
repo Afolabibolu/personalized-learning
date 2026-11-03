@@ -1,0 +1,100 @@
+{
+  "code": "CSC 234",
+  "papers": [
+    {
+      "year": "2017/2018",
+      "paper": "CSC 234 (Assembly Language Programming) Examination, 2nd Semester 2017/2018 Session. Answer Question 1 and any other two; 2 hours 30 minutes; 60 marks. Photographed copy; Question 3(b) on page 1 is cut off",
+      "source": "SECOND SEMESTER BMAS/CSC 234-ASSEMBLY LANG/WhatsApp Image 2021-11-23 at 10.40.15 AM.jpeg (page 1) and 10.40.15 AM (1).jpeg (page 2)"
+    },
+    {
+      "year": "2017/2018 practical",
+      "paper": "CSC 234 (Assembly Language) Practical Examination, 2nd Semester 2017/2018 Session. Answer all questions; 1 hour 40 minutes; 40 marks",
+      "source": "SECOND SEMESTER BMAS/CSC 234-ASSEMBLY LANG/WhatsApp Image 2021-11-23 at 10.40.16 AM.jpeg"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "200 Level Second Semester Examination 2020/2021 Session (CSC 234: Assembly Language Programming). Answer any three questions; 2 hours",
+      "source": "SECOND SEMESTER BMAS/CSC 234-ASSEMBLY LANG/CSC 234 2020-21.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2017/2018",
+      "number": "1",
+      "topic": "architecture-and-registers",
+      "text": "(a) Compare and contrast assembly language and high level language using a program that multiplies three numbers (3 marks). (b) Give a detailed explanation of the new additions to the 80386/80486 registers/processors. (4 marks) (c) Identify problems if any with the following instructions: (i) mov [02], [22] (ii) mov [wordvar], 20 (iii) mov bx, al (iv) mov ax, [bx-2] (v) mov ax, bx (vi) mov al, 2000h (3 marks) (d) Provide four different ways to add two to the value in the BX register. No way should require more than two instructions (hint, there are at least six ways of doing this!) (2 marks) (e) Write a high-level programming language code, that illustrates how the conversion of numbers is done from base 2 to 10 and base 10 to 16 (7 marks). (f) Give the addressing mode for each of the following: (i) MOV AL, 5 (ii) MOV CX, [BX] (2 marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "2",
+      "topic": "architecture-and-registers",
+      "text": "(a) Is there any difference between machine language and assembly language? Justify your response elaborately. Support your answers with examples or diagrams (3 marks). (b) Describe how to declare bytes variables. Give 2 examples. What would you normally use byte variables for in a program? 3 marks (c) Given three positive numbers A, B, C. Write an assembly language program to determine whether A, B, C can form the sides of a triangle. If yes, compute the perimeter of the triangle; if no print the message 'NOT A TRIANGLE'. (Hint: A, B, C can form a triangle if each side is less than the sum of the other two sides, i.e., if A<B+C, B<A+C, and C<A+B.) (8 marks). (d) What is a system bus? Draw a diagram to illustrate it. State the purpose of the following types of buses: (1) data bus (2) control bus (3) address bus (6 marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "3a",
+      "topic": "arithmetic-logic-and-flow-control",
+      "text": "Write a complete assembly language program that outputs the total number of numbers divisible by 3 in the range of 1 and 100 (7 marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "3b-d",
+      "topic": "procedures-stack-and-macros",
+      "text": "(b) Convert the following code snippet in HLL into Assembly Language code: a = 0; do { a++ } while (a < 10) (3.5 marks) (c) What is the difference between a procedure and macro? Write and briefly explain the syntax of a macro (2.5 marks). (d) What is addressing modes? Using diagrams and examples, explain the following types of addressing modes using relevant examples: (1) Direct Addressing Mode (2) Indirect addressing mode (3) Displacement addressing mode (7 marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "topic": "arithmetic-logic-and-flow-control",
+      "text": "(a) Suppose val1 and val2 are stored in AX and BX respectively. Write an equivalent Assembly Language instruction(s) that would implement the following HL language specification. (4 marks)\nIf val1>50 or val2 = 0 then\n   Add 1 to val1\nElse\n   Subtract 1 from val2\n   Add to val1\nEnd if\n(b) Find the status of the zero and sign flag after each of the following code segments. Justify your reason. (i) mov al,7 / add al,7 (ii) mov al, 7 / cmp al, 7 (iii) mov al,7 / sub al,8 (3 Marks)\n(c) Write a complete assembly language program that calculates the average salary paid to a salesperson for eight months. The following are the monthly paychecks for those months: ₦2300, ₦4300, ₦1200, ₦3700, ₦1298, ₦4323, ₦5673, ₦986. Your program should be able to print the result ignoring the remainder. (5 marks)\n(d) (i) Explain the major difference between 8088 and 8086 intel processor (2 Marks) (ii) Name all the segment registers available in 8086 intel processor (1 Mark)\n(e) Write a complete assembly language program to calculate the multiplication of the following two arrays: array1 with elements 2, 1, 6, 4 and array2 with elements 1, 9, 0, 3. The result of the multiplication should be stored in an array of the same size named array3. (i.e. 2 times 1 = 2, 1 times 9 = 9, 6 times 0 = 0 and 4 times 3 = 12) (5 Marks)"
+    },
+    {
+      "year": "2017/2018 practical",
+      "number": "1",
+      "topic": "arithmetic-logic-and-flow-control",
+      "text": "A class of 35 students takes an exam on a course which scores range from 0 to 100. Write an assembly language program which finds: (i) the total score of all the students; (b) the number of students who failed, i.e. scored below 40; and (c) the number of students with perfect papers i.e. scored 100"
+    },
+    {
+      "year": "2017/2018 practical",
+      "number": "2",
+      "topic": "interrupts-and-io-functions",
+      "text": "Write an assembly language program to print the following on the screen: What score are you aiming for in this practical exam? and then read in an answer on the next line and afterwards print: Good luck with achieving your <answer>. Example: What percent are you aiming for in this practical exam? 20 / Good luck with achieving your 20"
+    },
+    {
+      "year": "2017/2018 practical",
+      "number": "3",
+      "topic": "arithmetic-logic-and-flow-control",
+      "text": "An array is said to be sorted if its elements are arranged in some order. Write an assembly language program which sorts the array A(1), A(2), …, A(N) so that its elements are in either ascending or decreasing order. You can use bubble sort. Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent pairs and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted."
+    },
+    {
+      "year": "2017/2018 practical",
+      "number": "4",
+      "topic": "addressing-modes",
+      "text": "Suppose A = (2, 1, 0, 3), B = (1, 4, 4, 3), C = (1, 3, 2, 5). Write an assembly language program to compute and print the following equation: (i) A + B (ii) A + B + C"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "addressing-modes",
+      "text": "(a) Write an assembly language program that adds five numbers using memory variables with multiple labels (10 marks) (b) Briefly explain the following with examples where applicable: (i) The System Bus (4 marks) (ii) mnemonic (2 marks) (iii) Indexed addressing mode (2 marks) (c) With the aid of an example, show how values can be stored into segment registers. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "architecture-and-registers",
+      "text": "(a) Write an assembly language program that gets its input from the keyboard, checks if two numbers are equal and display the output on the screen. (10 marks) (b) Briefly explain the following: (i) 8086 Processor (4 marks) (ii) ES (2 marks) (c) Given that the segment address is 4578h and the offset address is 8676h. Calculate the physical address (4 marks)."
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "procedures-stack-and-macros",
+      "text": "(a) Write an assembly language program that stores 13, 22, 45 and 15 in the stack, divides the third number by 9 and adds the fourth number. What is the output of your program? (10 marks) (b) Briefly explain the following and give example(s): (i) 80386 Processor (4 marks) (ii) Real Mode (2 marks) (iii) CS (2 marks) (c) Briefly explain direct addressing mode (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "arithmetic-logic-and-flow-control",
+      "text": "(a) Write an assembly language program that evaluates the following logical expression: A := ((X=Y) and (Z <> S)) or (X <= Y). Given that X=4, Y=5, Z=11, S=7, what is the final value of A? (10 marks) (b) Is there any difference between an assembly language code and a machine code? Give a detailed explanation. (4 marks) (c) Briefly explain the function of interrupt 16h (2 marks) (d) With the aid of given examples, demonstrate the usage of the following instructions in assembly language: (i) PUSHA (2 marks) (ii) ROR (2 marks)"
+    }
+  ]
+}

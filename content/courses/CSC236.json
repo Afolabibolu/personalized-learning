@@ -1,0 +1,108 @@
+{
+  "code": "CSC 236",
+  "title": "Introduction to Algorithms",
+  "semester": 1,
+  "description": "Algorithm design and analysis: the meaning, properties and types of algorithms; recursion and problem-solving techniques; bubble, selection, insertion, quick and merge sort; linear and binary search; run-time analysis and asymptotic notation; and recurrences solved by substitution, recursion trees and the master method. Built from the CSC 236 course book (Introduction to Algorithms, Department of Computer Science, University of Ibadan, Units 1 to 13).",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "algorithms-and-their-types",
+      "title": "Algorithms: Meaning, Properties and Types",
+      "summary": "An algorithm is a well-defined computational procedure that transforms input into output in a finite number of unambiguous steps, and it is correct if it halts with the correct output for every input. Algorithms are classified as recursive, backtracking, divide and conquer, dynamic programming, greedy, brute force and randomized.",
+      "subtopics": [
+        "What an algorithm is",
+        "Properties of a good algorithm",
+        "Correctness and efficiency",
+        "Recursive, backtracking and divide-and-conquer algorithms",
+        "Dynamic programming, greedy and brute force",
+        "Deterministic and randomized algorithms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "recursion-and-problem-solving",
+      "title": "Recursion and Problem-Solving Techniques",
+      "summary": "Recursion, backtracking and divide and conquer are the commonest problem-solving techniques. A recursive function calls itself on smaller inputs until it reaches a base case; recursion and iteration both repeat and terminate, but recursion has extra overhead.",
+      "subtopics": [
+        "Recursion and recursive functions",
+        "Base case and recursion step",
+        "Recursive factorial and Fibonacci",
+        "Recursion versus iteration",
+        "Demerits of recursion",
+        "The divide and conquer technique"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "elementary-sorting",
+      "title": "Sorting I: Bubble, Selection and Insertion Sort",
+      "summary": "Sorting arranges data in a required order and is considered the most fundamental problem in the study of algorithms. Bubble sort swaps adjacent pairs over n − 1 passes, selection sort repeatedly picks the smallest remaining element, and insertion sort inserts each element into a sorted part; all three are O(n²).",
+      "subtopics": [
+        "Why sorting is important",
+        "Bubble sort",
+        "Number of passes and comparisons",
+        "Selection sort",
+        "Insertion sort and sorting in place",
+        "Comparing the iterative sorts"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "quicksort-and-merge-sort",
+      "title": "Sorting II: Quicksort and Merge Sort",
+      "summary": "Quicksort and merge sort are divide-and-conquer sorts. Quicksort partitions around a key (pivot), so its performance depends on the pivot; merge sort splits the list in half, sorts each half recursively and merges them in linear time.",
+      "subtopics": [
+        "Quicksort and the key (pivot) element",
+        "Partitioning",
+        "Choosing a good pivot",
+        "Merge sort's divide, conquer and combine",
+        "The MERGE procedure",
+        "Comparing their running times"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "searching",
+      "title": "Searching: Linear and Binary Search",
+      "summary": "Searching finds a particular element in a list. Linear (sequential) search compares the key with each element and works on unordered lists; binary search requires a sorted list and halves it each step, taking about log₂ n comparisons.",
+      "subtopics": [
+        "What searching is",
+        "Linear (sequential) search",
+        "Successful and unsuccessful search",
+        "Binary search and its prerequisite",
+        "Recursive and non-recursive binary search",
+        "Best, worst and average cases of search"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "analysis-and-asymptotic-notation",
+      "title": "Analysis of Algorithms and Asymptotic Notation",
+      "summary": "Analysing an algorithm means predicting the resources, chiefly time, that it needs, as a running time T(n) of the input size. Worst-case analysis is the usual benchmark, and O, Ω, Θ, o and ω notations describe the growth rate while ignoring constants and lower-order terms.",
+      "subtopics": [
+        "Analysing algorithms and running time T(n)",
+        "Best, worst and average cases",
+        "Why worst-case analysis",
+        "Big O: upper bounds and growth rate",
+        "Ω, Θ, little o and little ω",
+        "Simplification rules"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "recurrences-and-master-theorem",
+      "title": "Recurrences and the Master Theorem",
+      "summary": "The running time of a divide-and-conquer algorithm is described by a recurrence such as T(n) = aT(n/b) + f(n). Recurrences are solved by the substitution method, the recursion-tree method and the master method.",
+      "subtopics": [
+        "Analysing divide-and-conquer algorithms",
+        "The general recurrence equation",
+        "The substitution method",
+        "The recursion-tree method",
+        "The master theorem and its three cases",
+        "Applying recurrences to merge sort and quicksort"
+      ],
+      "lectures": []
+    }
+  ]
+}

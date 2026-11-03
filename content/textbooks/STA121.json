@@ -1,0 +1,64 @@
+{
+  "code": "STA 121",
+  "books": {
+    "navidi": {
+      "title": "Statistics for Engineers and Scientists",
+      "authors": "William Navidi",
+      "edition": "3rd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2011,
+      "note": "A reference book in the STA 115 course folder (same department)."
+    }
+  },
+  "topics": {
+    "population-sampling-and-sampling-methods": [
+      {
+        "book": "navidi",
+        "read": "Section 1.1 (Sampling)",
+        "why": "Simple random samples and other sampling ideas."
+      }
+    ],
+    "sampling-distribution-of-the-mean": [
+      {
+        "book": "navidi",
+        "read": "Section 4.11 (The Central Limit Theorem)",
+        "why": "The sampling distribution of the sample mean."
+      }
+    ],
+    "sampling-distribution-of-proportions": [
+      {
+        "book": "navidi",
+        "read": "Section 4.11 (The Central Limit Theorem)",
+        "why": "The normal approximation for sample proportions."
+      }
+    ],
+    "estimation-confidence-intervals-and-sample-size": [
+      {
+        "book": "navidi",
+        "read": "Sections 4.9 and 5.1 to 5.3 (point estimation; confidence intervals)",
+        "why": "Estimators, intervals for means and proportions, and sample size."
+      }
+    ],
+    "principles-of-hypothesis-testing": [
+      {
+        "book": "navidi",
+        "read": "Sections 6.1 and 6.2 (large-sample tests; drawing conclusions)",
+        "why": "Hypotheses, p-values and errors."
+      }
+    ],
+    "tests-for-means-proportions-and-variances": [
+      {
+        "book": "navidi",
+        "read": "Sections 6.3 and 6.4 (tests for a proportion; small-sample tests for a mean)",
+        "why": "z and t tests used in the course."
+      }
+    ],
+    "regression-and-correlation": [
+      {
+        "book": "navidi",
+        "read": "Sections 7.1 and 7.2 (Correlation; The Least-Squares Line)",
+        "why": "Pearson's r and the fitted line."
+      }
+    ]
+  }
+}

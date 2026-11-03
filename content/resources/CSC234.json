@@ -1,0 +1,61 @@
+{
+  "code": "CSC 234",
+  "topics": {
+    "data-representation": [
+      {
+        "title": "Video: Number Systems Introduction - Decimal, Binary, Octal & Hexadecimal (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FFDMzbrEXaE",
+        "source": "links.csv"
+      }
+    ],
+    "architecture-and-registers": [
+      {
+        "title": "Video: [1.2] 8086 Microprocessor Architecture (ThinkX Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XX9rDGTBGgQ",
+        "source": "links.csv"
+      }
+    ],
+    "instructions-and-operands": [
+      {
+        "title": "Video: Instruction set of 8086  | MPMC | Lec-28 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ef3gbGIfG-c",
+        "source": "links.csv"
+      }
+    ],
+    "addressing-modes": [
+      {
+        "title": "Video: Addressing modes of 8086 | Part-1/3 | MPMC | Lec-17 | Bhanu Priya (Education 4u)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QP-4FlwNTvw",
+        "source": "links.csv"
+      }
+    ],
+    "interrupts-and-io-functions": [
+      {
+        "title": "Video: INT 21H DOS Interrupt in 8086 Microprocessor: DOS Functions and Their Usage (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HaEyGwD4boo",
+        "source": "links.csv"
+      }
+    ],
+    "arithmetic-logic-and-flow-control": [
+      {
+        "title": "Video: Jump Instructions in 8086 Microprocessor | Signed & Unsigned Jumps | Single Flag Jump Explained (Loop & Logic)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WTvSIBeOaZc",
+        "source": "links.csv"
+      }
+    ],
+    "procedures-stack-and-macros": [
+      {
+        "title": "Video: How Assembly Functions Work - The Stack Explained (Mxy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=u_-oQx_4jvo",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

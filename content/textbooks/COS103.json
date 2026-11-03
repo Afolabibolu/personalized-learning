@@ -1,0 +1,63 @@
+{
+  "code": "COS 103",
+  "books": {
+    "sweigart": {
+      "title": "Automate the Boring Stuff with Python",
+      "authors": "Al Sweigart",
+      "edition": "2nd edition",
+      "publisher": "No Starch Press",
+      "in_course_files": "Automate the Boring Stuff with Python, 2nd Edition.pdf"
+    }
+  },
+  "topics": {
+    "python-basics-and-selection": [
+      {
+        "book": "sweigart",
+        "read": "Chapters 1 and 2 (Python Basics; Flow Control)",
+        "why": "In the course folder: expressions, variables and if statements."
+      }
+    ],
+    "loops": [
+      {
+        "book": "sweigart",
+        "read": "Chapter 2 (Flow Control)",
+        "why": "while and for loops, break and continue."
+      }
+    ],
+    "functions": [
+      {
+        "book": "sweigart",
+        "read": "Chapter 3 (Functions)",
+        "why": "def, parameters, return, None and scope."
+      }
+    ],
+    "lists-tuples-sets-and-dictionaries": [
+      {
+        "book": "sweigart",
+        "read": "Chapters 4 and 5 (Lists; Dictionaries and Structuring Data)",
+        "why": "Lists, tuples and dictionaries."
+      }
+    ],
+    "strings-regex-and-modules": [
+      {
+        "book": "sweigart",
+        "read": "Chapters 6 and 7 (Manipulating Strings; Pattern Matching with Regular Expressions)",
+        "why": "String methods and the re module."
+      }
+    ],
+    "files-and-exceptions": [
+      {
+        "book": "sweigart",
+        "read": "Chapters 9 and 11 (Reading and Writing Files; Debugging)",
+        "why": "Files, exceptions and raise."
+      }
+    ],
+    "visualisation-gui-and-algorithms": [
+      {
+        "book": "sweigart",
+        "read": "Chapter 13 (Working with Excel Spreadsheets)",
+        "why": "openpyxl, used in the course's Excel work."
+      }
+    ]
+  }
+}

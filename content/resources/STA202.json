@@ -1,0 +1,61 @@
+{
+  "code": "STA 202",
+  "topics": {
+    "variables-data-and-sampling": [
+      {
+        "title": "Video: Statistical Sampling - Simple Random Sampling, Stratified Sample, Cluster Sample, Systematic Sample (Medicosis Perfectionalis)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=c1I19qqpu68",
+        "source": "links.csv"
+      }
+    ],
+    "descriptive-statistics": [
+      {
+        "title": "Video: Descriptive Statistics [Simply explained] (numiqo)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FzujIYo9GYo",
+        "source": "links.csv"
+      }
+    ],
+    "counting-methods": [
+      {
+        "title": "Video: Statistics Lecture 4.7: Fundamental Counting Rule, Permutations and Combinations (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oWJB0NaIcEE",
+        "source": "links.csv"
+      }
+    ],
+    "probability": [
+      {
+        "title": "Video: Bayes' Theorem (with Example!) (Steve Brunton)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=akClB1J6b28",
+        "source": "links.csv"
+      }
+    ],
+    "random-variables-and-distributions": [
+      {
+        "title": "Video: Random Variables and Probability Distributions (Steve Brunton)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-7QG2itL1u4",
+        "source": "links.csv"
+      }
+    ],
+    "mathematical-expectation": [
+      {
+        "title": "Video: Lesson 7 - Mathematical Expectation (Probability Tutor) (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MGWEghP5vQc",
+        "source": "links.csv"
+      }
+    ],
+    "statistical-inference": [
+      {
+        "title": "Video: 01 - Sampling Distributions - Learn Statistical Sampling (Statistics Course) (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EOlNb1XXC_M",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

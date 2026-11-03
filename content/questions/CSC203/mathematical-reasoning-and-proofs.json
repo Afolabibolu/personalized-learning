@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "From p → q and p we conclude q. This rule is",
+    "options": [
+      {
+        "key": "a",
+        "text": "modus ponens"
+      },
+      {
+        "key": "b",
+        "text": "modus tollens"
+      },
+      {
+        "key": "c",
+        "text": "hypothetical syllogism"
+      },
+      {
+        "key": "d",
+        "text": "disjunctive syllogism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called the law of detachment.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "From p → q and ¬q we conclude ¬p. This rule is",
+    "options": [
+      {
+        "key": "a",
+        "text": "modus tollens"
+      },
+      {
+        "key": "b",
+        "text": "modus ponens"
+      },
+      {
+        "key": "c",
+        "text": "disjunctive syllogism"
+      },
+      {
+        "key": "d",
+        "text": "universal instantiation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It denies the consequent.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "\"If you listen to me you will pass; you passed; therefore you listened\" is a valid argument.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It assumes ((p → q) ∧ q) → p, which is not a tautology.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A statement whose truth value is still unknown is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "conjecture"
+      },
+      {
+        "key": "b",
+        "text": "theorem"
+      },
+      {
+        "key": "c",
+        "text": "lemma"
+      },
+      {
+        "key": "d",
+        "text": "corollary"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Once it is proved it becomes a theorem.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An indirect proof of p → q proves",
+    "options": [
+      {
+        "key": "a",
+        "text": "¬q → ¬p"
+      },
+      {
+        "key": "b",
+        "text": "q → p"
+      },
+      {
+        "key": "c",
+        "text": "¬p → ¬q"
+      },
+      {
+        "key": "d",
+        "text": "p ∧ q"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "p → q is equivalent to its contrapositive ¬q → ¬p.",
+    "source": "CSC 203 NOTE.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are characteristics of a proof?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Absolute certainty under the assumed axioms"
+      },
+      {
+        "key": "b",
+        "text": "Deductive reasoning in every step"
+      },
+      {
+        "key": "c",
+        "text": "No hidden assumptions"
+      },
+      {
+        "key": "d",
+        "text": "It must be written in symbols only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A proof can be formal or informal.",
+    "source": "CSC 203 NOTE.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a rule of inference?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Modus ponens"
+      },
+      {
+        "key": "b",
+        "text": "Modus tollens"
+      },
+      {
+        "key": "c",
+        "text": "Hypothetical syllogism"
+      },
+      {
+        "key": "d",
+        "text": "Cardinality"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Cardinality is the size of a set.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A valid argument can reach a false conclusion if one of its hypotheses is false.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The lecture's 101-divisible-by-3 example shows this.",
+    "source": "7. MathReasoning.ppt (CSC 203 slides)"
+  }
+]

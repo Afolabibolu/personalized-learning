@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does for i in range(1, 10, 3): print(i) output?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1, 4, 7"
+      },
+      {
+        "key": "b",
+        "text": "1, 3, 6, 9"
+      },
+      {
+        "key": "c",
+        "text": "1, 10, 13"
+      },
+      {
+        "key": "d",
+        "text": "1, 4, 8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Start 1, step 3, stop before 10.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "single_choice",
+    "stem": "num = 5; while num > 0: num -= 1; if num == 2: break. After the loop, print(num) shows",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The loop breaks when num reaches 2.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "single_choice",
+    "stem": "count = 0; while count < 3: print(count); count += 1 prints",
+    "options": [
+      {
+        "key": "a",
+        "text": "0 1 2"
+      },
+      {
+        "key": "b",
+        "text": "1 2 3"
+      },
+      {
+        "key": "c",
+        "text": "0 1 2 3"
+      },
+      {
+        "key": "d",
+        "text": "0 0 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It stops when count reaches 3.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In i = 0; while i < 5: print(i); i += 1; if i == 3: break; else: print(0), what is printed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0, 1, 2"
+      },
+      {
+        "key": "b",
+        "text": "0, 1, 2, 0"
+      },
+      {
+        "key": "c",
+        "text": "0, 1, 2, 3, 4, 0"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "break skips the loop's else block.",
+    "source": "CSC 103 2023/24 examination"
+  },
+  {
+    "format": "true_false",
+    "stem": "The else block of a loop runs after the loop finishes unless a break occurs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It works on for and while loops.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "true_false",
+    "stem": "continue ends the whole loop immediately.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "continue skips the current iteration; break ends the loop.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are good uses of a while loop in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Waiting for valid user input"
+      },
+      {
+        "key": "b",
+        "text": "Reading until the end of a file"
+      },
+      {
+        "key": "c",
+        "text": "Keeping a game running until the player quits"
+      },
+      {
+        "key": "d",
+        "text": "Looping a fixed known number of times over a list"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A for loop suits a known number of iterations.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which keyword is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "break"
+      },
+      {
+        "key": "b",
+        "text": "continue"
+      },
+      {
+        "key": "c",
+        "text": "else on a loop"
+      },
+      {
+        "key": "d",
+        "text": "elif"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "elif belongs to selection; the others control loops.",
+    "source": "CSC 103 Lecture 2 (2024): elements of Python, selection and iteration"
+  }
+]

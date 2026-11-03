@@ -1,0 +1,61 @@
+{
+  "code": "INS 204",
+  "topics": {
+    "systems-concepts-and-the-systems-analyst": [
+      {
+        "title": "Video: What is System Analysis? | Concepts, Importance, Steps in System Analysis. (Educationleaves)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rK0xSNQeHnU",
+        "source": "links.csv"
+      }
+    ],
+    "sdlc-phases-and-models": [
+      {
+        "title": "Video: SE 12 : All SDLC Models Revision | Software Engineering Full Course @csittutorialsbyvrushali (CS & IT Tutorials by Vrushali 👩‍🎓)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ENa7ixeoqU0",
+        "source": "links.csv"
+      }
+    ],
+    "requirements-gathering-and-feasibility": [
+      {
+        "title": "Video: Feasibility Analysis - System Analysis and Design (Charles Ed -- Math Computer Science Programming)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Nbb5eoQtQWs",
+        "source": "links.csv"
+      }
+    ],
+    "structured-analysis-and-data-flow-diagrams": [
+      {
+        "title": "Video: Data Flow Diagrams (DFDs) (MrBrownCS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=P5tayiDr24A",
+        "source": "links.csv"
+      }
+    ],
+    "database-and-file-design": [
+      {
+        "title": "Video: Database Design Process (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7m6gXeMDaHc",
+        "source": "links.csv"
+      }
+    ],
+    "system-architecture-and-object-oriented-design": [
+      {
+        "title": "Video: BIT3201: OBJECT ORIENTED ANALYSIS AND DESIGN (TV47 Kenya)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9j_bONqKBQo",
+        "source": "links.csv"
+      }
+    ],
+    "input-output-and-user-interface-design": [
+      {
+        "title": "Video: [SYSTEMS ANALYSIS AND DESIGN] 8 - User Interface Design (Blancaflor Arada)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xCyrrs_iEnI",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

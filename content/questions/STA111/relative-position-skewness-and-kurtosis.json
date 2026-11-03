@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A value is an outlier if it falls",
+    "options": [
+      {
+        "key": "a",
+        "text": "Outside Q₁ − 1.5 IQR or Q₃ + 1.5 IQR"
+      },
+      {
+        "key": "b",
+        "text": "Between Q₁ − 1.5 IQR and Q₃ + 1.5 IQR"
+      },
+      {
+        "key": "c",
+        "text": "At the median"
+      },
+      {
+        "key": "d",
+        "text": "Within one SD of the mean"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These are the inner fences.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With 2nd and 4th moments 2.5 and 3.2, the kurtosis b₂ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.512"
+      },
+      {
+        "key": "b",
+        "text": "2.488"
+      },
+      {
+        "key": "c",
+        "text": "0.521"
+      },
+      {
+        "key": "d",
+        "text": "−2.488"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m₄/m₂² = 3.2/6.25.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the mean is twice the mode and the SD is one-fifth of the mean, Pearson's skewness is",
+    "options": [
+      {
+        "key": "a",
+        "text": "5/2"
+      },
+      {
+        "key": "b",
+        "text": "3/5"
+      },
+      {
+        "key": "c",
+        "text": "2/5"
+      },
+      {
+        "key": "d",
+        "text": "0.2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(m − m/2)/(m/5).",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A distribution with kurtosis less than 3 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Platykurtic"
+      },
+      {
+        "key": "b",
+        "text": "Leptokurtic"
+      },
+      {
+        "key": "c",
+        "text": "Mesokurtic"
+      },
+      {
+        "key": "d",
+        "text": "Symmetric"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is flatter than the normal.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "If the right tail of a distribution is longer than the left, it is positively skewed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Skewed to the right.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "The three quartiles divide a distribution into three equal parts.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Three points divide it into four parts.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are measures of relative position?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Quartiles"
+      },
+      {
+        "key": "b",
+        "text": "Deciles"
+      },
+      {
+        "key": "c",
+        "text": "Percentiles"
+      },
+      {
+        "key": "d",
+        "text": "Variance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Variance measures spread.",
+    "source": "STA 114 Lectures 5 and 6: Relative Position; Skewness and Kurtosis (Ogunde, Adepoju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Leptokurtic"
+      },
+      {
+        "key": "b",
+        "text": "Mesokurtic"
+      },
+      {
+        "key": "c",
+        "text": "Platykurtic"
+      },
+      {
+        "key": "d",
+        "text": "Bimodal"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bimodal describes the number of modes, not kurtosis.",
+    "source": "STA 114 Lectures 5 and 6: Relative Position; Skewness and Kurtosis (Ogunde, Adepoju)"
+  }
+]

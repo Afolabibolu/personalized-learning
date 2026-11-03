@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The first line of defence in securing a system is",
+    "options": [
+      {
+        "key": "a",
+        "text": "authentication"
+      },
+      {
+        "key": "b",
+        "text": "backup"
+      },
+      {
+        "key": "c",
+        "text": "encryption of old files"
+      },
+      {
+        "key": "d",
+        "text": "auditing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It confirms identity before access.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which access control model grants access based on the roles users hold?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Role-based access control (RBAC)"
+      },
+      {
+        "key": "b",
+        "text": "Discretionary access control (DAC)"
+      },
+      {
+        "key": "c",
+        "text": "Mandatory access control (MAC)"
+      },
+      {
+        "key": "d",
+        "text": "Physical access control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "RBAC simplifies managing permissions.",
+    "source": "CYB 201 Note 1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In discretionary access control,",
+    "options": [
+      {
+        "key": "a",
+        "text": "owners decide who may access their resources"
+      },
+      {
+        "key": "b",
+        "text": "the system decides by security labels"
+      },
+      {
+        "key": "c",
+        "text": "access depends only on time of day"
+      },
+      {
+        "key": "d",
+        "text": "no one has access"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "DAC is identity-based.",
+    "source": "CYB 201 Note 1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "In mandatory access control, users decide who can access their files.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "In MAC the system or administrators decide, not the user.",
+    "source": "CYB 201 Note 1.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Granting users only the access they need for their role is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "principle of least privilege"
+      },
+      {
+        "key": "b",
+        "text": "CIA triad"
+      },
+      {
+        "key": "c",
+        "text": "principle of defence in depth only"
+      },
+      {
+        "key": "d",
+        "text": "acceptable use policy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Access should be reviewed regularly.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are measures for establishing authentication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multi-factor authentication"
+      },
+      {
+        "key": "b",
+        "text": "One-time passwords"
+      },
+      {
+        "key": "c",
+        "text": "Biometric verification"
+      },
+      {
+        "key": "d",
+        "text": "Routine maintenance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Maintenance supports availability.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an access control model in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DAC"
+      },
+      {
+        "key": "b",
+        "text": "MAC"
+      },
+      {
+        "key": "c",
+        "text": "RBAC"
+      },
+      {
+        "key": "d",
+        "text": "CIA"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "CIA is the triad of security objectives.",
+    "source": "CYB 201 Note 1.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Nearly all access controls can be overcome if an attacker has physical access to the equipment.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So physical access must be restricted and data encrypted.",
+    "source": "CYB 201 Note 3 Security vulnerabilities.pdf"
+  }
+]

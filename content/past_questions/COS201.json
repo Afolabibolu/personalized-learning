@@ -1,0 +1,84 @@
+{
+  "code": "COS 201",
+  "exam_style": true,
+  "intro": "No COS 201 past papers were found in the course folder. These exam-style questions were written for practice from the lecture notes and slides; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the COS 201 lecture notes and slides",
+      "source": "Written for this app from the COS 201 lecture notes and slides, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "programming-languages-and-generations",
+      "text": "a) Define a programming language and explain syntax, semantics, abstraction and portability. (6 marks) b) List the five generations of programming languages with one example each. (5 marks) c) Why is Java described as a hybrid of compiled and interpreted languages? (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "programming-languages-and-generations",
+      "text": "a) Write a Java program that prints \"Hello, World!\" and explain each component of it. (8 marks) b) Compare machine language and assembly language. (4 marks) c) Give three advantages of high-level languages. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "programming-paradigms",
+      "text": "a) What is a pure function? Write one pure and one impure Java method. (6 marks) b) Distinguish between declarative and imperative programming, with an example of each. (5 marks) c) Explain facts, rules and queries in logic programming. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "programming-paradigms",
+      "text": "a) Define a scripting language and state three characteristics of scripting languages. (6 marks) b) Compare Java with a scripting language such as Python. (5 marks) c) Give two applications of logic programming. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "programming-approaches-pseudocode-and-flowcharts",
+      "text": "a) Distinguish between top-down and bottom-up approaches, using a student result system as an example. (8 marks) b) Write pseudocode and draw a flowchart for a program that reads three integers and prints the largest. (7 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "data-types-variables-and-strings",
+      "text": "a) List Java's eight primitive types with the size of each. (8 marks) b) Distinguish between widening and narrowing type casting, with examples. (4 marks) c) Why should equals() be used instead of == to compare two Strings? (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "operators-and-selection",
+      "text": "a) Evaluate: (i) 5 + 3 * 2 - 1 (ii) 15 % 4 + 2 * 3 (iii) (8 + 2) / 4 * 3, where all values are int. (6 marks) b) Write a Java program that reads a score and prints the UI grade (A to F) using an else-if ladder. (7 marks) c) What is fall-through in a switch statement? (2 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "loops-and-iteration",
+      "text": "a) Compare the for, while and do-while loops. (6 marks) b) Write a program that reads integers until -1 is entered and prints the sum and count of the positive numbers. (6 marks) c) Distinguish between break and continue. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "arrays-and-methods",
+      "text": "a) Write a Java program that stores six student marks in an array and uses methods to return the highest, lowest and average mark. (9 marks) b) What is method overloading? Give an example. (4 marks) c) What is a 2D array? (2 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "arrays-and-methods",
+      "text": "a) Write a recursive Java method for the factorial of n and trace factorial(4). (8 marks) b) Why must every recursive method have a base case? (3 marks) c) State four methods of the java.util.Arrays class and what each does. (4 marks)",
+      "marks": 15
+    }
+  ]
+}

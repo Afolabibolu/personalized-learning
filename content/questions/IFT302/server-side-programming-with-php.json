@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What does PHP stand for today?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PHP: Hypertext Preprocessor"
+      },
+      {
+        "key": "b",
+        "text": "Personal Hosting Page"
+      },
+      {
+        "key": "c",
+        "text": "Private Home Program"
+      },
+      {
+        "key": "d",
+        "text": "Programmed HTML Pages"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It originally stood for Personal Home Page.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "When a browser requests a PHP page, what does it receive?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only the output of the PHP code"
+      },
+      {
+        "key": "b",
+        "text": "The PHP source code"
+      },
+      {
+        "key": "c",
+        "text": "The database file"
+      },
+      {
+        "key": "d",
+        "text": "The Apache configuration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "PHP runs on the server.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Every PHP variable name begins with",
+    "options": [
+      {
+        "key": "a",
+        "text": "$"
+      },
+      {
+        "key": "b",
+        "text": "@"
+      },
+      {
+        "key": "c",
+        "text": "#"
+      },
+      {
+        "key": "d",
+        "text": "&"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example $name.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which PHP function shows both the type and value of a variable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "var_dump()"
+      },
+      {
+        "key": "b",
+        "text": "echo"
+      },
+      {
+        "key": "c",
+        "text": "define()"
+      },
+      {
+        "key": "d",
+        "text": "isset()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It prints, for example, bool(true).",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Server-side programs can authenticate users and communicate with databases.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is why portals need them.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Client-side validation alone is enough, because users cannot bypass it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Server-side validation is still needed.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are server-side technologies named in Lesson 5?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PHP"
+      },
+      {
+        "key": "b",
+        "text": "Python"
+      },
+      {
+        "key": "c",
+        "text": "JavaScript with Node.js"
+      },
+      {
+        "key": "d",
+        "text": "CSS"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "CSS is client-side styling.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not provided by XAMPP?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Apache"
+      },
+      {
+        "key": "b",
+        "text": "PHP"
+      },
+      {
+        "key": "c",
+        "text": "phpMyAdmin"
+      },
+      {
+        "key": "d",
+        "text": "Visual Studio Code"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "VS Code is installed separately.",
+    "source": "Lesson 5 - Server-Side Programming with PHP.pdf"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which step of computational problem solving builds a model that hides complex real-world details?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Abstraction"
+      },
+      {
+        "key": "b",
+        "text": "Automation"
+      },
+      {
+        "key": "c",
+        "text": "Implementation"
+      },
+      {
+        "key": "d",
+        "text": "Documentation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Abstraction keeps only what is needed to solve the problem.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The first department of computer science in the US was established in 1962 at",
+    "options": [
+      {
+        "key": "a",
+        "text": "Purdue University"
+      },
+      {
+        "key": "b",
+        "text": "MIT"
+      },
+      {
+        "key": "c",
+        "text": "University of Cambridge"
+      },
+      {
+        "key": "d",
+        "text": "University College London"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cambridge had the first degree (1953); Purdue the first US department.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Fault-tolerance of a tool is measured by",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mean time between failures (MTBF)"
+      },
+      {
+        "key": "b",
+        "text": "Clock speed"
+      },
+      {
+        "key": "c",
+        "text": "Compression ratio"
+      },
+      {
+        "key": "d",
+        "text": "Storage capacity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MTBF is the time between two failure incidents.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tradition gives computer science much of its theory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mathematics"
+      },
+      {
+        "key": "b",
+        "text": "Engineering"
+      },
+      {
+        "key": "c",
+        "text": "Experimental science"
+      },
+      {
+        "key": "d",
+        "text": "Economics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Engineering gives design; experimental science gives its science.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Computer science as a discipline is divided into the systems area and the applications area.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Systems covers languages, OS and architecture; applications covers databases, AI and graphics.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In 1997, IBM's Deep Blue lost to Garry Kasparov under tournament conditions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Deep Blue defeated Kasparov, a landmark in game-playing machines.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the six goals computational tools are built to meet?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Correctness"
+      },
+      {
+        "key": "b",
+        "text": "Efficiency"
+      },
+      {
+        "key": "c",
+        "text": "Fault-tolerance"
+      },
+      {
+        "key": "d",
+        "text": "Portability"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The six are correctness, efficiency, security, user-friendliness, fault-tolerance and intelligence.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which of these is the odd one out among areas of computer science?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Operating systems"
+      },
+      {
+        "key": "b",
+        "text": "Compilers"
+      },
+      {
+        "key": "c",
+        "text": "Computer architecture"
+      },
+      {
+        "key": "d",
+        "text": "Bioinformatics"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Bioinformatics is an applications area; the others are systems areas.",
+    "source": "week1-Fundamental_of_Computer_Science (CSC 101 week 1 slides)"
+  }
+]

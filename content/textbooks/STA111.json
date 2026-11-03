@@ -1,0 +1,64 @@
+{
+  "code": "STA 111",
+  "books": {
+    "navidi": {
+      "title": "Statistics for Engineers and Scientists",
+      "authors": "William Navidi",
+      "edition": "3rd edition",
+      "publisher": "McGraw-Hill",
+      "year": 2011,
+      "note": "A reference book in the STA 115 course folder (same department)."
+    }
+  },
+  "topics": {
+    "data-types-collection-and-scales": [
+      {
+        "book": "navidi",
+        "read": "Section 1.1 (Sampling)",
+        "why": "Populations, samples and types of data."
+      }
+    ],
+    "data-presentation": [
+      {
+        "book": "navidi",
+        "read": "Section 1.3 (Graphical Summaries)",
+        "why": "Stem-and-leaf plots, histograms and other displays."
+      }
+    ],
+    "measures-of-centre": [
+      {
+        "book": "navidi",
+        "read": "Section 1.2 (Summary Statistics)",
+        "why": "The mean, median and other summaries."
+      }
+    ],
+    "measures-of-variability": [
+      {
+        "book": "navidi",
+        "read": "Section 1.2 (Summary Statistics)",
+        "why": "Variance, standard deviation and quartiles."
+      }
+    ],
+    "relative-position-skewness-and-kurtosis": [
+      {
+        "book": "navidi",
+        "read": "Sections 1.2 and 1.3 (Summary Statistics; Graphical Summaries)",
+        "why": "Quartiles, outliers, boxplots and the shape of a distribution."
+      }
+    ],
+    "confidence-intervals": [
+      {
+        "book": "navidi",
+        "read": "Sections 5.1 to 5.3 (confidence intervals for a mean and a proportion)",
+        "why": "Large- and small-sample intervals."
+      }
+    ],
+    "hypothesis-testing-correlation-and-regression": [
+      {
+        "book": "navidi",
+        "read": "Sections 6.1 and 7.1 to 7.2 (large-sample tests; correlation; the least-squares line)",
+        "why": "Tests, r and the regression line."
+      }
+    ]
+  }
+}

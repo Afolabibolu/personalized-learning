@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which translator executes source code line by line without prior compilation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An interpreter"
+      },
+      {
+        "key": "b",
+        "text": "A compiler"
+      },
+      {
+        "key": "c",
+        "text": "A linker"
+      },
+      {
+        "key": "d",
+        "text": "An assembler"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Python is an interpreted language.",
+    "source": "COS 102 Introduction to Programming (Lecture 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An error such as division by zero, which stops a running program, is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Runtime error"
+      },
+      {
+        "key": "b",
+        "text": "Syntax error"
+      },
+      {
+        "key": "c",
+        "text": "Logical error"
+      },
+      {
+        "key": "d",
+        "text": "Semantic error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Syntax errors are found before the program runs.",
+    "source": "COS 102 Introduction to Programming (Lecture 3)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Python, what is the value of 3 // 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "1.5"
+      },
+      {
+        "key": "c",
+        "text": "2"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "// is floor division; 3 / 2 gives 1.5.",
+    "source": "COS 102 Lecture 8 (introduction to programs and Python)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does input() return in Python?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A string"
+      },
+      {
+        "key": "b",
+        "text": "An integer"
+      },
+      {
+        "key": "c",
+        "text": "A float"
+      },
+      {
+        "key": "d",
+        "text": "A Boolean"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Convert it with int() or float() before arithmetic.",
+    "source": "COS 102 Lecture 8 (introduction to programs and Python)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Python variable names are case sensitive, so Age and age are different variables.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "AGE would be a third variable.",
+    "source": "COS 102 Lecture 8 (introduction to programs and Python)"
+  },
+  {
+    "format": "true_false",
+    "stem": "12MoreDrawings is a valid Python variable name.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A name cannot start with a digit.",
+    "source": "COS 102 Lecture 8 (introduction to programs and Python)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are rules for naming Python variables?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only letters, digits and underscore"
+      },
+      {
+        "key": "b",
+        "text": "Must not start with a digit"
+      },
+      {
+        "key": "c",
+        "text": "Must not be a reserved word"
+      },
+      {
+        "key": "d",
+        "text": "Must be written in capital letters"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Spaces are not allowed either.",
+    "source": "COS 102 Lecture 8 (introduction to programs and Python)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which language is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C"
+      },
+      {
+        "key": "b",
+        "text": "Pascal"
+      },
+      {
+        "key": "c",
+        "text": "BASIC"
+      },
+      {
+        "key": "d",
+        "text": "Prolog"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Prolog is a logic language; the others are procedural.",
+    "source": "COS 102 Introduction to Programming (Lecture 3)"
+  }
+]

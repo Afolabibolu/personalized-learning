@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Verification and validation show that a system",
+    "options": [
+      {
+        "key": "a",
+        "text": "conforms to its specification and meets customer expectations"
+      },
+      {
+        "key": "b",
+        "text": "is written in Java"
+      },
+      {
+        "key": "c",
+        "text": "is cheap"
+      },
+      {
+        "key": "d",
+        "text": "has no documentation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Testing is the main technique.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Testing with data supplied by the customer before operational use is",
+    "options": [
+      {
+        "key": "a",
+        "text": "acceptance testing"
+      },
+      {
+        "key": "b",
+        "text": "unit testing"
+      },
+      {
+        "key": "c",
+        "text": "component testing"
+      },
+      {
+        "key": "d",
+        "text": "alpha testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the final testing stage.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which level of development testing focuses on testing component interfaces?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Component testing"
+      },
+      {
+        "key": "b",
+        "text": "Unit testing"
+      },
+      {
+        "key": "c",
+        "text": "System testing"
+      },
+      {
+        "key": "d",
+        "text": "Beta testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Unit testing focuses on objects and methods.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Testing in which users work with the development team at the developer's site is",
+    "options": [
+      {
+        "key": "a",
+        "text": "alpha testing"
+      },
+      {
+        "key": "b",
+        "text": "beta testing"
+      },
+      {
+        "key": "c",
+        "text": "acceptance testing"
+      },
+      {
+        "key": "d",
+        "text": "regression testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Beta testing gives users a release to experiment with.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the two goals of testing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To demonstrate that the software meets its requirements"
+      },
+      {
+        "key": "b",
+        "text": "To discover defects"
+      },
+      {
+        "key": "c",
+        "text": "Both lead to validation and defect testing"
+      },
+      {
+        "key": "d",
+        "text": "To prove there are no bugs at all"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Testing cannot prove the absence of all bugs.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Development testing is mainly a defect testing process interleaved with debugging.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its aim is to discover bugs.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the six stages of acceptance testing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Define acceptance criteria"
+      },
+      {
+        "key": "b",
+        "text": "Derive acceptance tests"
+      },
+      {
+        "key": "c",
+        "text": "Negotiate test results"
+      },
+      {
+        "key": "d",
+        "text": "Write the source code"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Coding happens before acceptance testing.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Systems should be tested as a single, monolithic unit.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Components are tested, then the integrated system, then with customer data.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

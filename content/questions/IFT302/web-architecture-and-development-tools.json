@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which is an example of a web server?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Apache HTTP Server"
+      },
+      {
+        "key": "b",
+        "text": "Google Chrome"
+      },
+      {
+        "key": "c",
+        "text": "MySQL"
+      },
+      {
+        "key": "d",
+        "text": "Figma"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Nginx and IIS are others.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who created Git in 2005?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Linus Torvalds"
+      },
+      {
+        "key": "b",
+        "text": "Tim Berners-Lee"
+      },
+      {
+        "key": "c",
+        "text": "Rasmus Lerdorf"
+      },
+      {
+        "key": "d",
+        "text": "Guido van Rossum"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Git is a distributed version control system.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Git term means a saved snapshot of changes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Commit"
+      },
+      {
+        "key": "b",
+        "text": "Branch"
+      },
+      {
+        "key": "c",
+        "text": "Clone"
+      },
+      {
+        "key": "d",
+        "text": "Pull"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "git commit -m saves staged changes.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In XAMPP, the web root folder is",
+    "options": [
+      {
+        "key": "a",
+        "text": "htdocs"
+      },
+      {
+        "key": "b",
+        "text": "www"
+      },
+      {
+        "key": "c",
+        "text": "public_html"
+      },
+      {
+        "key": "d",
+        "text": "root"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "WAMP uses www.",
+    "source": "Web Application Development course content.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "In client-server architecture, a server failure can affect all clients.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is a listed disadvantage.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Git pull uploads local changes to a remote repository.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Push uploads; pull downloads.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which components are usually bundled in XAMPP?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Apache"
+      },
+      {
+        "key": "b",
+        "text": "MySQL/MariaDB"
+      },
+      {
+        "key": "c",
+        "text": "PHP"
+      },
+      {
+        "key": "d",
+        "text": "Microsoft Word"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "phpMyAdmin is also included.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a component of a typical web application in the lesson?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Client (web browser)"
+      },
+      {
+        "key": "b",
+        "text": "Web server"
+      },
+      {
+        "key": "c",
+        "text": "Database server"
+      },
+      {
+        "key": "d",
+        "text": "Printer driver"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Application logic is the fourth.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  }
+]

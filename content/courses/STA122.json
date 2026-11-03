@@ -1,0 +1,94 @@
+{
+  "code": "STA 122",
+  "title": "Introduction to Machine Learning",
+  "semester": 2,
+  "description": "A first course in machine learning and computational statistics (CCMAS): what machine learning is, data types for learning, supervised and unsupervised learning, statistical learning versus machine learning, linear regression and its output, and classification metrics. Built from Dr O.J. Akintande's STA 122 modules and lecture notes.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "basics-of-machine-learning",
+      "title": "What Machine Learning Is",
+      "summary": "Machine learning teaches computers to learn patterns from data, as people learn from experience, so that they can make decisions. The module defines it, places it among related fields, shows the growth of data and lists everyday applications.",
+      "subtopics": [
+        "Definition: learning from experience E at task T measured by P",
+        "ML as a subfield of artificial intelligence",
+        "Related terms: data science, data mining, statistical learning, KDD",
+        "The data explosion",
+        "The data science process",
+        "Applications of machine learning"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-for-machine-learning",
+      "title": "Data for Machine Learning",
+      "summary": "Learning starts with data. The lecture sorts data into categorical (nominal and ordinal), metric (interval and ratio) and the modern TAP classes of text, audio and pictures, and explains training, testing and validation.",
+      "subtopics": [
+        "Categorical data: nominal (binary and non-binary) and ordinal",
+        "Metric data: interval and ratio",
+        "Modern data classes: text, audio and pictures (TAP)",
+        "Structured and unstructured data",
+        "Training, testing and validation",
+        "Features and feature engineering"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "learning-categories",
+      "title": "Learning Categories",
+      "summary": "Machine learning tasks are supervised, where a target Y is learned as a function of features X, or unsupervised, where there is no output. Supervised learning is predictive when Y is metric and classification when Y is categorical.",
+      "subtopics": [
+        "The model Y ~ f(X)",
+        "Names for Y and for X",
+        "Supervised learning: predictive and classification",
+        "Unsupervised learning: clustering and association",
+        "Semi-supervised and self-supervised learning",
+        "Training and testing a supervised model"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "statistical-learning-vs-machine-learning",
+      "title": "Statistical Learning versus Machine Learning",
+      "summary": "Statistical learning focuses on modelling and understanding relationships with interpretable, assumption-based models. Machine learning focuses on prediction accuracy with flexible models on large data. The two are complementary, and the choice involves a trade-off between interpretability and accuracy.",
+      "subtopics": [
+        "What statistical learning is",
+        "What machine learning is",
+        "Key differences: goal, model, interpretability, data, assumptions, output",
+        "Overfitting, underfitting and flexibility",
+        "The interpretability versus accuracy trade-off",
+        "Workflows and using both together"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "linear-regression-and-its-output",
+      "title": "Linear Regression and Its Output",
+      "summary": "Regression estimates how a dependent variable changes with independent variables by least squares. The lecture fits umbrellas sold against rainfall in Excel and explains the summary statistics, ANOVA, coefficients, residuals and error measures.",
+      "subtopics": [
+        "Dependent and independent variables; simple and multiple regression",
+        "The model Y = β₀ + β₁X + ε and least squares",
+        "Running regression in Excel (Analysis ToolPak, LINEST, SLOPE, INTERCEPT, CORREL)",
+        "Multiple R, R², adjusted R² and standard error",
+        "ANOVA, F and Significance F; coefficients and p-values",
+        "Residuals, prediction, MSE and MAE"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "classification-metrics",
+      "title": "Classification Metrics",
+      "summary": "Classification models are judged from the confusion matrix of true and false positives and negatives. From it come sensitivity, specificity, false positive and negative rates, precision, NPV, accuracy and the F1 score, each suited to different costs of error.",
+      "subtopics": [
+        "The confusion matrix: TP, FN, FP, TN",
+        "TPR (recall, sensitivity) and TNR (specificity)",
+        "FPR and FNR",
+        "PPV (precision) and NPV",
+        "Accuracy and the F1 score",
+        "Choosing a metric for the problem"
+      ],
+      "lectures": []
+    }
+  ]
+}

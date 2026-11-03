@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In many African societies, the unit of political culture is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "family"
+      },
+      {
+        "key": "b",
+        "text": "father"
+      },
+      {
+        "key": "c",
+        "text": "rule of law"
+      },
+      {
+        "key": "d",
+        "text": "power"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "J.F. Ade Ajayi holds this view.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The powers and privileges of African kings were great but in practice",
+    "options": [
+      {
+        "key": "a",
+        "text": "circumscribed"
+      },
+      {
+        "key": "b",
+        "text": "absolute"
+      },
+      {
+        "key": "c",
+        "text": "modernised"
+      },
+      {
+        "key": "d",
+        "text": "motivated"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Kings ruled with councils and had to earn respect.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Igbo of Nigeria are an example of a society with a",
+    "options": [
+      {
+        "key": "a",
+        "text": "non-centralised (acephalous) political system"
+      },
+      {
+        "key": "b",
+        "text": "centralised kingdom"
+      },
+      {
+        "key": "c",
+        "text": "band society"
+      },
+      {
+        "key": "d",
+        "text": "theocracy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Other examples are the Kru and the Tallensi.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the African family, the mother occupies the position of caretaker in all aspects of family life.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Her roles complement the father's.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Among the Yoruba, the council of chiefs is called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "Igbimo"
+      },
+      {
+        "key": "b",
+        "text": "Ogboni"
+      },
+      {
+        "key": "c",
+        "text": "Oyo Mesi"
+      },
+      {
+        "key": "d",
+        "text": "Tendana"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The textbook names the Igbimo.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the four types of traditional political system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Centralised political organisation"
+      },
+      {
+        "key": "b",
+        "text": "Non-centralised societies"
+      },
+      {
+        "key": "c",
+        "text": "Small band societies tied to kinship"
+      },
+      {
+        "key": "d",
+        "text": "Parliamentary democracy"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Parliamentary democracy is a modern system.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which society is the odd one out (it is not non-centralised)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Igbo of Nigeria"
+      },
+      {
+        "key": "b",
+        "text": "Kru of Liberia"
+      },
+      {
+        "key": "c",
+        "text": "Tallensi of Ghana"
+      },
+      {
+        "key": "d",
+        "text": "Oyo Empire"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Oyo was a centralised kingdom.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "The traditional African king performed executive, legislative and judicial functions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "But he ruled with the support of chiefs.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 3"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a K-map, two adjacent cells differ in",
+    "options": [
+      {
+        "key": "a",
+        "text": "only one variable"
+      },
+      {
+        "key": "b",
+        "text": "two variables"
+      },
+      {
+        "key": "c",
+        "text": "every variable"
+      },
+      {
+        "key": "d",
+        "text": "their minterm number by 2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "That is what lets groups drop a variable.",
+    "source": "Minimisation Aids.pptx (IFT 211 lecture 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x1, x2), cell m0 is NOT adjacent to",
+    "options": [
+      {
+        "key": "a",
+        "text": "m3"
+      },
+      {
+        "key": "b",
+        "text": "m1"
+      },
+      {
+        "key": "c",
+        "text": "m2"
+      },
+      {
+        "key": "d",
+        "text": "itself"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "m0 = x1′x2′ and m3 = x1x2 differ in two variables.",
+    "source": "Minimisation Aids.pptx (IFT 211 lecture 4)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "f(x1, x2) = m0 + m1 + m2 simplifies to",
+    "options": [
+      {
+        "key": "a",
+        "text": "x1′ + x2′"
+      },
+      {
+        "key": "b",
+        "text": "x1x2"
+      },
+      {
+        "key": "c",
+        "text": "x1 + x2"
+      },
+      {
+        "key": "d",
+        "text": "x1′x2′"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is 0 only for m3 = x1x2, so f is the complement of x1x2.",
+    "source": "Minimisation Aids.pptx (IFT 211 lecture 4)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A 4-bit adder adding 14 and 13 produces 1011 because of overflow.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "27 = 11011 needs 5 bits.",
+    "source": "full adder and co.ppt (IFT 211 lecture 7)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "To compute A − B with an adder, the circuit",
+    "options": [
+      {
+        "key": "a",
+        "text": "inverts the bits of B"
+      },
+      {
+        "key": "b",
+        "text": "sets the carry-in HIGH"
+      },
+      {
+        "key": "c",
+        "text": "adds the result to A"
+      },
+      {
+        "key": "d",
+        "text": "inverts the bits of A"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Inverting B and adding 1 forms its 2's complement.",
+    "source": "full adder and co.ppt (IFT 211 lecture 7)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which comparator has a single output for A = B?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Identity comparator"
+      },
+      {
+        "key": "b",
+        "text": "Magnitude comparator"
+      },
+      {
+        "key": "c",
+        "text": "Priority encoder"
+      },
+      {
+        "key": "d",
+        "text": "Full adder"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A magnitude comparator has three outputs.",
+    "source": "full adder and co.ppt (IFT 211 lecture 7)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out as a way to express a logical function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Truth table"
+      },
+      {
+        "key": "b",
+        "text": "Boolean expression"
+      },
+      {
+        "key": "c",
+        "text": "Logic diagram"
+      },
+      {
+        "key": "d",
+        "text": "Clock pulse"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three ways to express a function are table, expression and diagram.",
+    "source": "Combinational Logic Design.pptx (IFT 211 lecture 5)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The carry look-ahead adder is proposed as a solution to the delay of the ripple carry adder.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The lecture leaves it for students to explore further.",
+    "source": "full adder and co.ppt (IFT 211 lecture 7)"
+  }
+]

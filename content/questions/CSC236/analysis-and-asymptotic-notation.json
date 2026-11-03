@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The Theta (Θ) notation",
+    "options": [
+      {
+        "key": "a",
+        "text": "asymptotically bounds a function from above and below"
+      },
+      {
+        "key": "b",
+        "text": "gives only the lower bound"
+      },
+      {
+        "key": "c",
+        "text": "gives the average bound"
+      },
+      {
+        "key": "d",
+        "text": "gives only the upper bound"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Θ is a tight bound.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 10"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Big O notation expresses",
+    "options": [
+      {
+        "key": "a",
+        "text": "an upper bound on a function's growth"
+      },
+      {
+        "key": "b",
+        "text": "a lower bound"
+      },
+      {
+        "key": "c",
+        "text": "an exact running time in seconds"
+      },
+      {
+        "key": "d",
+        "text": "the space used only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ω gives the lower bound.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The running time 3n² + 10n + 10 + lg n is",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n²)"
+      },
+      {
+        "key": "b",
+        "text": "O(n)"
+      },
+      {
+        "key": "c",
+        "text": "O(lg n)"
+      },
+      {
+        "key": "d",
+        "text": "O(n lg n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Keep only the highest-order term.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Algorithms are usually analysed by their worst case because it gives an upper bound on performance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is a guarantee.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 6"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are simplification rules for big O?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ignore constant terms"
+      },
+      {
+        "key": "b",
+        "text": "Omit multiplicative constants"
+      },
+      {
+        "key": "c",
+        "text": "Keep only the highest-order term"
+      },
+      {
+        "key": "d",
+        "text": "Add all the terms together"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Lower-order terms are dropped, not added.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which growth rate is the fastest growing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(1)"
+      },
+      {
+        "key": "b",
+        "text": "O(lg n)"
+      },
+      {
+        "key": "c",
+        "text": "O(n lg n)"
+      },
+      {
+        "key": "d",
+        "text": "O(2ⁿ)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Exponential growth outstrips all polynomial and logarithmic rates.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "Running times of algorithms are based on the times measured on a particular computer.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are machine-independent functions of the input size.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Analysing an algorithm means",
+    "options": [
+      {
+        "key": "a",
+        "text": "predicting the resources it requires"
+      },
+      {
+        "key": "b",
+        "text": "writing it in Java"
+      },
+      {
+        "key": "c",
+        "text": "testing it on one input"
+      },
+      {
+        "key": "d",
+        "text": "counting its lines of code"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Usually the resource is running time.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 6"
+  }
+]

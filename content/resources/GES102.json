@@ -1,0 +1,61 @@
+{
+  "code": "GES 102",
+  "topics": {
+    "africa-and-early-humans": [
+      {
+        "title": "Video: Why Did Humans Evolve In Africa? (Evolve.2)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Wlv1decMMEg",
+        "source": "links.csv"
+      }
+    ],
+    "early-centres-of-civilisation": [
+      {
+        "title": "Video: Kingdom of Kush - History Of Africa with Zeinab Badawi [Episode 4] (BBC News Africa)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=CwaP1kyAqqo",
+        "source": "links.csv"
+      }
+    ],
+    "indigenous-political-systems": [
+      {
+        "title": "Video: African Political Thought 1, Stephen Chan, SOAS University of London (SOAS University of London)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5NnmUb1apsE",
+        "source": "links.csv"
+      }
+    ],
+    "religion-in-africa": [
+      {
+        "title": "Video: AFRICAN TRADITIONAL RELIGION: Lecture 1 (East Africa Institute of Learning )",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=73lnyeNLRbA",
+        "source": "links.csv"
+      }
+    ],
+    "indigenous-education": [
+      {
+        "title": "Video: African Indigenous Indigenous Education (Ronald Kaunda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Vi9mq3_4lqE",
+        "source": "links.csv"
+      }
+    ],
+    "environment-communication-and-language": [
+      {
+        "title": "Video: UGRC 229: :SESSION 5 CULTURE AND DEVELOPMENT  - The Language Issue in Africa (University of Ghana Distance Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GLkNWCzL6fs",
+        "source": "links.csv"
+      }
+    ],
+    "colonialism-nigeria-and-gender": [
+      {
+        "title": "Video: The history of Nigeria explained in 6 minutes  (3,000 Years of Nigerian history) (Epimetheus)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fMmkmHUAAO0",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

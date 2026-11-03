@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which bus specifies which memory location or I/O device is being accessed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Address bus"
+      },
+      {
+        "key": "b",
+        "text": "Data bus"
+      },
+      {
+        "key": "c",
+        "text": "Control bus"
+      },
+      {
+        "key": "d",
+        "text": "Power bus"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The data bus carries the data itself.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many memory locations can the 8086's 20-bit address bus access?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1,048,576"
+      },
+      {
+        "key": "b",
+        "text": "65,536"
+      },
+      {
+        "key": "c",
+        "text": "4,294,967,296"
+      },
+      {
+        "key": "d",
+        "text": "1,024"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2²⁰ = 1,048,576.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which register is the accumulator?",
+    "options": [
+      {
+        "key": "a",
+        "text": "AX"
+      },
+      {
+        "key": "b",
+        "text": "BX"
+      },
+      {
+        "key": "c",
+        "text": "CX"
+      },
+      {
+        "key": "d",
+        "text": "DX"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "CX is the count register.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With DS = 1230h and SI = 0045h, the physical address is",
+    "options": [
+      {
+        "key": "a",
+        "text": "12345h"
+      },
+      {
+        "key": "b",
+        "text": "1275h"
+      },
+      {
+        "key": "c",
+        "text": "12300h"
+      },
+      {
+        "key": "d",
+        "text": "0045h"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1230h × 10h + 45h = 12345h.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every assembly language statement represents a single machine instruction.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is why an assembler is simpler than a compiler.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are 8086 segment registers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CS"
+      },
+      {
+        "key": "b",
+        "text": "DS"
+      },
+      {
+        "key": "c",
+        "text": "SS"
+      },
+      {
+        "key": "d",
+        "text": "SI"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "SI is an index register; ES is the fourth segment register.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the three major buses of the 80x86?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Address bus"
+      },
+      {
+        "key": "b",
+        "text": "Data bus"
+      },
+      {
+        "key": "c",
+        "text": "Control bus"
+      },
+      {
+        "key": "d",
+        "text": "Cache bus"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three buses are address, data and control.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  },
+  {
+    "format": "true_false",
+    "stem": "The IP register works together with the CS segment register.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It points to the currently executing instruction.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 2"
+  }
+]

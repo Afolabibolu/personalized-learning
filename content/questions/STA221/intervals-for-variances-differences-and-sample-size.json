@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "To be 95% confident that [x̄ − 1, x̄ + 1] contains μ when σ = 5, the minimum sample size is",
+    "options": [
+      {
+        "key": "a",
+        "text": "97"
+      },
+      {
+        "key": "b",
+        "text": "96"
+      },
+      {
+        "key": "c",
+        "text": "25"
+      },
+      {
+        "key": "d",
+        "text": "10"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(1.96 × 5)² = 96.04, rounded up.",
+    "source": "STA 221 Lecture 4 (Sample Size Determination)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A confidence interval for a single variance of a normal population uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "The chi-square distribution with n − 1 df"
+      },
+      {
+        "key": "b",
+        "text": "The F-distribution"
+      },
+      {
+        "key": "c",
+        "text": "The t-distribution with n df"
+      },
+      {
+        "key": "d",
+        "text": "The standard normal"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(n − 1)S²/σ² ~ χ²(n − 1).",
+    "source": "STA 221 Lecture 3 (Interval Estimation II)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Ten times have s = 4.5 seconds. A 95% interval for σ is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "3.10 to 8.22"
+      },
+      {
+        "key": "b",
+        "text": "9.58 to 67.5"
+      },
+      {
+        "key": "c",
+        "text": "2.70 to 19.02"
+      },
+      {
+        "key": "d",
+        "text": "4.05 to 4.95"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The square roots of [182.25/19.023, 182.25/2.700].",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With p = 0.08, how large a sample estimates the proportion to within 0.06 with 95% confidence?",
+    "options": [
+      {
+        "key": "a",
+        "text": "79"
+      },
+      {
+        "key": "b",
+        "text": "78"
+      },
+      {
+        "key": "c",
+        "text": "21"
+      },
+      {
+        "key": "d",
+        "text": "267"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1.96² × 0.08 × 0.92/0.06² = 78.5, rounded up.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "A confidence interval for the ratio of two population variances is based on the F-distribution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "(S1²/σ1²)/(S2²/σ2²) ~ F(n1 − 1, n2 − 1).",
+    "source": "STA 221 Lecture 3 (Interval Estimation II)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The chi-square interval for σ² is robust to departures from normality.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The lecture warns it is not robust.",
+    "source": "STA 221 Lecture 3 (Interval Estimation II)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "An interval for μ1 − μ2 with both σ known uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "x̄1 − x̄2 as the point estimate"
+      },
+      {
+        "key": "b",
+        "text": "√(σ1²/n1 + σ2²/n2) as the standard error"
+      },
+      {
+        "key": "c",
+        "text": "A z critical value"
+      },
+      {
+        "key": "d",
+        "text": "The pooled variance sp²"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Pooling is for unknown, equal variances.",
+    "source": "STA 221 Lecture 3 (Interval Estimation II)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not needed to find the sample size for estimating a mean?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The confidence level"
+      },
+      {
+        "key": "b",
+        "text": "σ (or an estimate)"
+      },
+      {
+        "key": "c",
+        "text": "The bound on the error B"
+      },
+      {
+        "key": "d",
+        "text": "The sample mean x̄"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "n = (zσ/B)² does not use x̄.",
+    "source": "STA 221 Lecture 4 (Sample Size Determination)"
+  }
+]

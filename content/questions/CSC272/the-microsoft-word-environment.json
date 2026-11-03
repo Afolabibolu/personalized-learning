@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the default view of a Word 2013 document?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Print Layout"
+      },
+      {
+        "key": "b",
+        "text": "Read Mode"
+      },
+      {
+        "key": "c",
+        "text": "Web Layout"
+      },
+      {
+        "key": "d",
+        "text": "Draft"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It shows the document as it will print.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tab contains the tools for mail merge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mailings"
+      },
+      {
+        "key": "b",
+        "text": "References"
+      },
+      {
+        "key": "c",
+        "text": "Review"
+      },
+      {
+        "key": "d",
+        "text": "Insert"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mail merge sends one letter to many people.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Home tab tool copies the formatting of one paragraph to another?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Format Painter"
+      },
+      {
+        "key": "b",
+        "text": "Change Case"
+      },
+      {
+        "key": "c",
+        "text": "Show/Hide ¶"
+      },
+      {
+        "key": "d",
+        "text": "Track Changes"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is in the Clipboard group.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which tab is used to insert a watermark such as \"Confidential\"?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Design"
+      },
+      {
+        "key": "b",
+        "text": "Home"
+      },
+      {
+        "key": "c",
+        "text": "View"
+      },
+      {
+        "key": "d",
+        "text": "Mailings"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Design also has page borders.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Mark as Final is a security feature that the recipient cannot undo.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The recipient can remove it; it only signals a completed work.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Quick Access Toolbar stays the same whichever tab is open.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "By default it has Save, Undo and Redo.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three basic components of the Ribbon?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tabs"
+      },
+      {
+        "key": "b",
+        "text": "Groups"
+      },
+      {
+        "key": "c",
+        "text": "Commands"
+      },
+      {
+        "key": "d",
+        "text": "Templates"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Templates appear on the Start Screen.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a view in Microsoft Word 2013?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Print Layout"
+      },
+      {
+        "key": "b",
+        "text": "Web Layout"
+      },
+      {
+        "key": "c",
+        "text": "Outline"
+      },
+      {
+        "key": "d",
+        "text": "Slide Sorter"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Slide Sorter is a PowerPoint view.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  }
+]

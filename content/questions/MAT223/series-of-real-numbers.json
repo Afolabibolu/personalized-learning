@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the sum of Σ (2/3)^i from i = 1 to ∞?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "2/3"
+      },
+      {
+        "key": "d",
+        "text": "It diverges"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a/(1 − r) = (2/3)/(1/3).",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the sum of 1 + 1/2 + 1/4 + 1/8 + ...?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "It diverges"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a = 1, r = 1/2.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A geometric series with ratio r converges when",
+    "options": [
+      {
+        "key": "a",
+        "text": "|r| < 1"
+      },
+      {
+        "key": "b",
+        "text": "|r| > 1"
+      },
+      {
+        "key": "c",
+        "text": "r = 1"
+      },
+      {
+        "key": "d",
+        "text": "r > 0 only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Then r^n → 0.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the ratio test, if lim |a_(n+1)/a_n| = L > 1, the series",
+    "options": [
+      {
+        "key": "a",
+        "text": "diverges"
+      },
+      {
+        "key": "b",
+        "text": "converges absolutely"
+      },
+      {
+        "key": "c",
+        "text": "converges conditionally"
+      },
+      {
+        "key": "d",
+        "text": "has sum L"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "L = 1 is inconclusive.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "true_false",
+    "stem": "If a_n → 0, then Σ a_n must converge.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The harmonic series diverges.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "true_false",
+    "stem": "If Σ |a_n| converges, then Σ a_n converges.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Absolute convergence implies convergence.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which series converge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ (1/3)^n"
+      },
+      {
+        "key": "b",
+        "text": "Σ 2^(−n)"
+      },
+      {
+        "key": "c",
+        "text": "Σ n/(n+1)!"
+      },
+      {
+        "key": "d",
+        "text": "1 + 3 + 5 + ..."
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Odd numbers sum to n², which grows.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which series diverges?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ (3/5)^k"
+      },
+      {
+        "key": "b",
+        "text": "Σ (1/2)^n"
+      },
+      {
+        "key": "c",
+        "text": "Σ 1/((2n−1)(2n+1))"
+      },
+      {
+        "key": "d",
+        "text": "Σ 1/n"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The harmonic series diverges.",
+    "source": "General knowledge of MAT 223"
+  }
+]

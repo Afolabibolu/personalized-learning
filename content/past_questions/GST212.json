@@ -1,0 +1,105 @@
+{
+  "code": "GST 212",
+  "exam_style": true,
+  "intro": "No GST 212 past papers were found in the course folder; its question file is a tutorial group's practice set, not a past paper. These exam-style questions were written for practice from the course textbook; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the GST 212 textbook",
+      "source": "Written for this app from the GST 212 textbook, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "meaning-and-branches-of-philosophy",
+      "text": "a) What is philosophy? Trace the etymology of the word and give three other definitions. (6 marks) b) Distinguish between philosophy in the broad and the technical sense. (4 marks) c) Explain first-order and second-order questions in philosophy. (4 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "meaning-and-branches-of-philosophy",
+      "text": "Discuss the four main branches of philosophy, stating the concerns of each. (14 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "philosophical-problems-and-basic-concepts",
+      "text": "a) Why are philosophical problems described as perennial? (3 marks) b) Discuss scepticism as a challenge in epistemology, distinguishing its forms. (11 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "philosophical-problems-and-basic-concepts",
+      "text": "a) Explain the problem of universals, distinguishing realism from nominalism. (7 marks) b) What is the mind-body problem? Distinguish dualism from monism. (7 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "philosophical-problems-and-basic-concepts",
+      "text": "Discuss the four broad types of concepts, with two examples of each. (14 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "ethics-and-ethical-theories",
+      "text": "a) What is ethics? Name the four cardinal virtues. (5 marks) b) Distinguish between deontological and consequentialist ethical theories, with examples. (9 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "ethics-and-ethical-theories",
+      "text": "a) Explain utilitarianism, distinguishing act from rule utilitarianism. (7 marks) b) Distinguish ethical egoism from psychological egoism, and ethical hedonism from psychological hedonism. (7 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "nature-of-logic-and-arguments",
+      "text": "a) Define logic and state the three laws of thought. (7 marks) b) Distinguish between informal and formal logic. (7 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "nature-of-logic-and-arguments",
+      "text": "a) What is an argument? Explain premise and conclusion indicators with examples. (7 marks) b) Distinguish deductive from inductive arguments, with an example of each. (7 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "validity-soundness-and-rules-of-inference",
+      "text": "a) Explain the notions of truth, validity and soundness. (6 marks) b) State and illustrate modus ponens, modus tollens and disjunctive syllogism. (8 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "11",
+      "topic": "categorical-syllogisms-and-formal-fallacies",
+      "text": "a) What is a fallacy? Distinguish formal from informal fallacies. (5 marks) b) Explain the major, minor and middle terms of a categorical syllogism, and state three rules of validity with the fallacy each prevents. (9 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "12",
+      "topic": "informal-fallacies-and-uses-of-language",
+      "text": "Explain, with an example of each, seven informal fallacies. (14 marks)",
+      "marks": 14
+    },
+    {
+      "year": "Practice set",
+      "number": "13",
+      "topic": "informal-fallacies-and-uses-of-language",
+      "text": "a) Discuss the three basic functions of language. (9 marks) b) Distinguish between extensional and intensional meaning. (5 marks)",
+      "marks": 14
+    }
+  ]
+}

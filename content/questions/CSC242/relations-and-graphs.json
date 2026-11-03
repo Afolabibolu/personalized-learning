@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A binary relation from A to B is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a subset of A × B"
+      },
+      {
+        "key": "b",
+        "text": "a function from A to B"
+      },
+      {
+        "key": "c",
+        "text": "the union of A and B"
+      },
+      {
+        "key": "d",
+        "text": "an element of A"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Every set of ordered pairs (a, b) is a relation.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 8.1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "An equivalence relation is",
+    "options": [
+      {
+        "key": "a",
+        "text": "reflexive"
+      },
+      {
+        "key": "b",
+        "text": "symmetric"
+      },
+      {
+        "key": "c",
+        "text": "transitive"
+      },
+      {
+        "key": "d",
+        "text": "antisymmetric"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Antisymmetry belongs to partial orders, not equivalence relations.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 8.3"
+  },
+  {
+    "format": "true_false",
+    "stem": "The equivalence classes of an equivalence relation on A form a partition of A.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They are nonempty, disjoint and cover A.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 8.3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the directed graph of a reflexive relation there is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a loop at every point"
+      },
+      {
+        "key": "b",
+        "text": "no loops"
+      },
+      {
+        "key": "c",
+        "text": "an arrow in both directions everywhere"
+      },
+      {
+        "key": "d",
+        "text": "exactly one arrow"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each x is related to itself.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 8.2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A simple graph has",
+    "options": [
+      {
+        "key": "a",
+        "text": "no loops and no parallel edges"
+      },
+      {
+        "key": "b",
+        "text": "exactly one vertex"
+      },
+      {
+        "key": "c",
+        "text": "every vertex joined to every other"
+      },
+      {
+        "key": "d",
+        "text": "only directed edges"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A complete graph is a special simple graph.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 10.1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many edges does the complete graph K₅ have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "20"
+      },
+      {
+        "key": "d",
+        "text": "25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n(n − 1)/2 = 5 · 4 / 2 = 10, so a simple graph on 5 vertices cannot have 12 edges.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 10.1"
+  },
+  {
+    "format": "true_false",
+    "stem": "The total degree of a graph equals twice the number of its edges.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the handshake theorem: each edge adds 2 to the total degree.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 10.1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out (it is not a graph term)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vertex"
+      },
+      {
+        "key": "b",
+        "text": "Edge"
+      },
+      {
+        "key": "c",
+        "text": "Loop"
+      },
+      {
+        "key": "d",
+        "text": "Modus ponens"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Modus ponens is a rule of inference.",
+    "source": "discrete mathematics ( PDFDrive ).pdf (Epp, Discrete Mathematics with Applications, 4th edition), Section 10.1"
+  }
+]

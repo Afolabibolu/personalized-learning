@@ -1,0 +1,94 @@
+{
+  "code": "CSC 235",
+  "title": "Object Oriented Programming",
+  "semester": 1,
+  "description": "Object-oriented programming taught in C# (and, in recent papers, Java): programming languages and the .NET framework, C# program structure and syntax, data types, variables and type conversion, decision making and loops, classes, encapsulation and methods, and constructors, inheritance and polymorphism. Built from the CSC 235 lecture slides (Introduction to C# Programming Language, weeks 1 to 12) and the C# Quick Guide filed with them.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "programming-languages-and-csharp",
+      "title": "Programming Languages, C# and .NET",
+      "summary": "A programming language is a set of rules for communicating an algorithm, with its own syntax; languages have evolved through five generations and several paradigms. C# is Microsoft's modern object-oriented language designed with the .NET framework, whose runtime runs its programs.",
+      "subtopics": [
+        "What a programming language is: syntax and semantics",
+        "The five generations of languages",
+        "Programming paradigms",
+        "A short history: FORTRAN to Java",
+        "C# and its features",
+        "The .NET framework, CLI, CLR and JIT"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "program-structure-and-syntax",
+      "title": "C# Program Structure and Basic Syntax",
+      "summary": "A C# program has a namespace declaration, a class, methods, attributes, a Main method, statements and expressions, and comments. C# is case sensitive, statements end with semicolons, and identifiers follow fixed naming rules.",
+      "subtopics": [
+        "Parts of a C# program",
+        "The Hello World program line by line",
+        "Rules: case sensitivity, semicolons and Main",
+        "Comments",
+        "Identifiers and their rules",
+        "Naming styles: camel, Pascal and Hungarian"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-types-variables-and-conversion",
+      "title": "Data Types, Variables and Type Conversion",
+      "summary": "C# variables are value types, which hold data directly, reference types, which refer to a memory location, or pointer types. Values convert between types implicitly when safe, or explicitly with a cast.",
+      "subtopics": [
+        "Value types and their ranges",
+        "Reference types: object, dynamic and string",
+        "Boxing and unboxing",
+        "Pointer types",
+        "Implicit and explicit type conversion",
+        "Declaring and initialising variables"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "decision-making-and-loops",
+      "title": "Decision Making and Loops",
+      "summary": "Decision-making structures test conditions to choose which statements run: if, if...else, nested if, switch and the ?: operator. Loops repeat statements: while, for, do...while and nested loops, controlled by break and continue.",
+      "subtopics": [
+        "if, if...else and nested if",
+        "switch statements",
+        "The conditional operator ? :",
+        "while, for and do...while loops",
+        "How the for loop executes",
+        "break, continue and infinite loops"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "classes-encapsulation-and-methods",
+      "title": "Classes, Encapsulation and Methods",
+      "summary": "In object-oriented programming a program is made of interacting objects; objects of the same kind belong to a class with member variables and methods. Encapsulation hides implementation details using access specifiers, and methods group statements that perform tasks.",
+      "subtopics": [
+        "Objects, classes and methods",
+        "Member variables and member functions",
+        "Abstraction and encapsulation",
+        "Access specifiers: public, private, protected, internal",
+        "Defining and calling methods",
+        "The Main method"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "constructors-inheritance-and-polymorphism",
+      "title": "Constructors, Inheritance and Polymorphism",
+      "summary": "Constructors initialise new objects and destructors clean up when objects go out of scope. Inheritance defines a class in terms of another (an IS-A relationship); polymorphism, static through overloading and dynamic through abstract and virtual methods, gives one interface many functions.",
+      "subtopics": [
+        "Constructors: default and parameterised",
+        "Destructors",
+        "Inheritance: base and derived classes",
+        "Multiple inheritance through interfaces",
+        "Static and dynamic polymorphism",
+        "Abstract classes, sealed classes and interfaces"
+      ],
+      "lectures": []
+    }
+  ]
+}

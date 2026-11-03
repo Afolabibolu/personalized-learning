@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A characteristic of a sample, such as the sample mean, is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "statistic"
+      },
+      {
+        "key": "b",
+        "text": "parameter"
+      },
+      {
+        "key": "c",
+        "text": "variable"
+      },
+      {
+        "key": "d",
+        "text": "real limit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A parameter describes a population.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which variable is continuous?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Time taken to finish a test"
+      },
+      {
+        "key": "b",
+        "text": "Number of children in a family"
+      },
+      {
+        "key": "c",
+        "text": "Class size"
+      },
+      {
+        "key": "d",
+        "text": "Number of cars in a car park"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Time is infinitely divisible.",
+    "source": "STA 201/202/204 Lecture 1 (Introduction to Statistics, Dr S. O. Oyamakin)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A recorded weight of 150 kg has real limits",
+    "options": [
+      {
+        "key": "a",
+        "text": "149.5 and 150.5"
+      },
+      {
+        "key": "b",
+        "text": "149 and 151"
+      },
+      {
+        "key": "c",
+        "text": "150 and 151"
+      },
+      {
+        "key": "d",
+        "text": "145 and 155"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Real limits lie halfway between adjacent values.",
+    "source": "STA 201/202/204 Lecture 1 (Introduction to Statistics, Dr S. O. Oyamakin)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Gathering a set number from each group on a convenience basis is",
+    "options": [
+      {
+        "key": "a",
+        "text": "quota sampling"
+      },
+      {
+        "key": "b",
+        "text": "simple random sampling"
+      },
+      {
+        "key": "c",
+        "text": "cluster sampling"
+      },
+      {
+        "key": "d",
+        "text": "systematic sampling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a non-random stratified method.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Ordinal data have categories with a meaningful order.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example agree-disagree scales.",
+    "source": "STA 204 Lecture 6 (Follow-up class: summary statistics, tests, regression)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A parameter is a characteristic of a sample.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A parameter describes a population.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are random (probability) sampling methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple random sampling"
+      },
+      {
+        "key": "b",
+        "text": "Stratified sampling"
+      },
+      {
+        "key": "c",
+        "text": "Systematic sampling"
+      },
+      {
+        "key": "d",
+        "text": "Convenience sampling"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Convenience sampling is non-random.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a categorical scale of measurement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nominal"
+      },
+      {
+        "key": "b",
+        "text": "Ordinal"
+      },
+      {
+        "key": "c",
+        "text": "Gender recorded as male or female"
+      },
+      {
+        "key": "d",
+        "text": "Exam score from 0% to 100%"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "An exam score is a scale measurement.",
+    "source": "STA 204 Lecture 6 (Follow-up class: summary statistics, tests, regression)"
+  }
+]

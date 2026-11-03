@@ -1,0 +1,30 @@
+{
+  "code": "COS 203",
+  "papers": [
+    {
+      "year": "2025/2026",
+      "paper": "COS 203 Test, 2025/2026 session (practical programming test)",
+      "source": "COS 203 Test.pdf_20260518_140944_0000.pdf (filed in the CSC203 Discrete Structures folder)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2025/2026",
+      "number": "1",
+      "topic": "modular-programming-and-namespaces",
+      "text": "A university wants to build a simple student grading system using modular programming principles. Create the following files: i. input_module.py: create a function get_student_data() that accepts student name, matric number and score. ii. logic_module.py: create functions to validate the score (0-100) and calculate the grade using the grades A to F (A = 70-100, B = 60-69, C = 50-59, D = 45-49, E = 40-44, F = below 40). iii. output_module.py: create a function to display the formatted result. iv. main.py: import all required modules and execute the program. The program should continue accepting student records until the user chooses to stop."
+    },
+    {
+      "year": "2025/2026",
+      "number": "2",
+      "topic": "reading-and-writing-files",
+      "text": "A small library wants to maintain records of borrowed books using text files. Write a program that: i. creates a file named library_records.txt; ii. allows a user to add a book title, borrower name and date borrowed; iii. stores each record in the file; iv. displays all saved records; v. counts and displays the total number of books borrowed; vi. handles the situation where the file does not yet exist."
+    },
+    {
+      "year": "2025/2026",
+      "number": "3",
+      "topic": "classes-and-objects-in-python",
+      "text": "A department wants a mini system for storing and managing assignment submissions. Create a class \"Student\" with name, matric number and course code. Create modules student_module.py, file_module.py and main.py. The system should: i. accept student details; ii. save records into submissions.txt; iii. display all submitted records; iv. allow searching for a student using matric number."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "code": "STA 122",
+  "books": {
+    "islr": {
+      "title": "An Introduction to Statistical Learning",
+      "authors": "Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani",
+      "edition": "2nd edition",
+      "publisher": "Springer",
+      "year": 2021,
+      "note": "A standard first text on statistical learning; the course folder has no textbook."
+    }
+  },
+  "topics": {
+    "basics-of-machine-learning": [
+      {
+        "book": "islr",
+        "read": "Chapter 1 (Introduction)",
+        "why": "What statistical learning is and where it is used."
+      }
+    ],
+    "data-for-machine-learning": [
+      {
+        "book": "islr",
+        "read": "Chapter 1 (Introduction)",
+        "why": "Example data sets and notation for inputs and outputs."
+      }
+    ],
+    "learning-categories": [
+      {
+        "book": "islr",
+        "read": "Chapter 2 (Statistical Learning)",
+        "why": "Supervised and unsupervised learning, regression and classification."
+      }
+    ],
+    "statistical-learning-vs-machine-learning": [
+      {
+        "book": "islr",
+        "read": "Chapter 2 (Statistical Learning)",
+        "why": "Prediction versus inference and the accuracy-interpretability trade-off."
+      }
+    ],
+    "linear-regression-and-its-output": [
+      {
+        "book": "islr",
+        "read": "Chapter 3 (Linear Regression)",
+        "why": "Least squares, R², the F-statistic and coefficient p-values."
+      }
+    ],
+    "classification-metrics": [
+      {
+        "book": "islr",
+        "read": "Chapter 4 (Classification)",
+        "why": "Confusion matrices, sensitivity and specificity."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "code": "COS 101",
+  "title": "Introduction to Computing Sciences",
+  "semester": 1,
+  "description": "The first computing course (formerly CSC 101, An Introduction to Computer Science): computer science as a discipline, the history and generations of computers, categories of computers and their hardware, software and programming languages, number systems and data representation, problem solving with algorithms, flowcharts and Python, and computer networks and the Internet. Built from the CSC 101 lecture slides (weeks 1 to 7, and the compiled slide set) and the tests and sample questions from 2016 to 2025.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "computer-science-as-a-discipline",
+      "title": "Computer Science as a Discipline",
+      "summary": "Computer science is the systematic study of algorithmic processes that describe and transform information. Computer scientists build models and theories, then tools, judged by six goals from correctness to intelligence.",
+      "subtopics": [
+        "What computer scientists do",
+        "Definitions and the question of what can be automated",
+        "Abstraction, automation and implementation",
+        "Systems and applications areas",
+        "Founding traditions: mathematics, engineering and science",
+        "Six goals for computational tools and the digital divide"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "history-and-generations-of-computers",
+      "title": "History and Generations of Computers",
+      "summary": "Computing grew from counting aids such as the abacus through mechanical calculators to the electronic stored-program computer. The generations are named by their technology: vacuum tubes, transistors, integrated circuits, then LSI and VLSI chips.",
+      "subtopics": [
+        "Early aids: abacus, Napier's bones and the slide rule",
+        "Mechanical calculators: Pascal and Leibniz",
+        "Babbage, Ada Lovelace, Boole and Hollerith",
+        "The war years: Turing, Colossus, Mark I and ENIAC",
+        "The transistor and the stored-program concept",
+        "The five generations and Moore's law"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "computer-categories-and-hardware",
+      "title": "Computer Categories and Hardware",
+      "summary": "Computers are special-purpose or general-purpose, and general-purpose machines range from microcomputers to supercomputers. Almost all follow the von Neumann architecture: input and output, memory, and a CPU, linked by buses.",
+      "subtopics": [
+        "Special-purpose and general-purpose computers",
+        "Microcomputers, minicomputers, mainframes and supercomputers",
+        "The von Neumann architecture and the system unit",
+        "The CPU: control unit, ALU, the machine cycle and buses",
+        "Primary storage: RAM and ROM",
+        "Secondary storage, input and output devices"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "software-and-programming-languages",
+      "title": "Software and Programming Languages",
+      "summary": "Software is the set of instructions that makes hardware useful, divided into system software and application software. Programming languages range from machine language through assembly language to high-level languages that need translators.",
+      "subtopics": [
+        "System software: operating systems, translators, linkers and loaders",
+        "Functions of an operating system",
+        "DOS and graphical operating systems",
+        "Application software: general-purpose and special-purpose",
+        "Utility software",
+        "Machine, assembly and high-level languages"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "number-systems-and-data-representation",
+      "title": "Number Systems and Data Representation",
+      "summary": "Computers represent numbers, text, sound and images in binary. COS 101 covers number bases and conversions, negative and real numbers, character sets, compression and the basic logic gates.",
+      "subtopics": [
+        "Analog and digital data",
+        "Positional number systems: binary, octal, decimal and hexadecimal",
+        "Conversions and binary arithmetic",
+        "Negative numbers, overflow and floating point",
+        "Text: ASCII and Unicode; compression",
+        "Audio, images (RGB) and logic gates"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "problem-solving-algorithms-and-python",
+      "title": "Problem Solving: Algorithms, Flowcharts and Python",
+      "summary": "Problems are solved with the software development method, from specification to documentation. Algorithms are written as pseudocode or flowcharts using sequence, selection and repetition, then implemented in a language such as Python.",
+      "subtopics": [
+        "The software development method",
+        "Properties of an algorithm",
+        "Pseudocode and flowchart symbols",
+        "Sequence, selection and repetition",
+        "Implementation in Python: variables, operators and expressions",
+        "Python if, elif and while; testing and documentation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "networks-and-the-internet",
+      "title": "Computer Networks and the Internet",
+      "summary": "A computer network connects two or more autonomous computers to share resources and information. The Internet is a network of networks using TCP/IP, with IP addresses, domain names, URLs and services such as the Web, e-mail and FTP.",
+      "subtopics": [
+        "LAN, MAN, WAN and PAN",
+        "Topologies: bus, star, tree, ring and mesh",
+        "Media, devices, client/server and peer-to-peer",
+        "The Internet: history, packet switching and TCP/IP",
+        "IP addresses, subnet masks, DNS and URLs",
+        "Web, e-mail, FTP, intranets, extranets and firewalls"
+      ],
+      "lectures": []
+    }
+  ]
+}

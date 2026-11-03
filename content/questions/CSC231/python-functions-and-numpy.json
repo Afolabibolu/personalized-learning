@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword defines a function in Python?",
+    "options": [
+      {
+        "key": "a",
+        "text": "def"
+      },
+      {
+        "key": "b",
+        "text": "function"
+      },
+      {
+        "key": "c",
+        "text": "func"
+      },
+      {
+        "key": "d",
+        "text": "lambda only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "lambda makes small anonymous functions.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Python function with no return statement returns None.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "None is Python's 'no value'.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a = np.array([[70, 80, 90, 60], [85, 75, 95, 70]]), what is a.shape?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(2, 4)"
+      },
+      {
+        "key": "b",
+        "text": "(4, 2)"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "(2,)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Two rows (students) and four columns (subjects).",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which gives each student's (each row's) average?",
+    "options": [
+      {
+        "key": "a",
+        "text": "a.mean(axis=1)"
+      },
+      {
+        "key": "b",
+        "text": "a.mean(axis=0)"
+      },
+      {
+        "key": "c",
+        "text": "a.mean()"
+      },
+      {
+        "key": "d",
+        "text": "a.sum(axis=0)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "axis=0 averages down each column (each subject).",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is a.mean(axis=1) for that array?",
+    "options": [
+      {
+        "key": "a",
+        "text": "[75.0, 81.25]"
+      },
+      {
+        "key": "b",
+        "text": "[77.5, 77.5, 92.5, 65.0]"
+      },
+      {
+        "key": "c",
+        "text": "78.125"
+      },
+      {
+        "key": "d",
+        "text": "[70, 85]"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(70+80+90+60)/4 = 75 and (85+75+95+70)/4 = 81.25.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about NumPy arrays are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arithmetic on them is element-wise"
+      },
+      {
+        "key": "b",
+        "text": "They are faster than lists for numerical work"
+      },
+      {
+        "key": "c",
+        "text": "Indexing starts at 0"
+      },
+      {
+        "key": "d",
+        "text": "They can only hold strings"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "NumPy arrays usually hold numbers of one type.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a NumPy function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "np.mean"
+      },
+      {
+        "key": "b",
+        "text": "np.linspace"
+      },
+      {
+        "key": "c",
+        "text": "np.dot"
+      },
+      {
+        "key": "d",
+        "text": "fprintf"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "fprintf belongs to MATLAB.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Variables created inside a Python function are local to that function.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They disappear when the function returns.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the domain of g(x, y) = √(9 − x² − y²)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x² + y² ≤ 9"
+      },
+      {
+        "key": "b",
+        "text": "x² + y² ≥ 9"
+      },
+      {
+        "key": "c",
+        "text": "All of R²"
+      },
+      {
+        "key": "d",
+        "text": "x + y ≤ 3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The radicand must be non-negative.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x, y) = x³ + x²y³ − 2y², what is f_x?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3x² + 2xy³"
+      },
+      {
+        "key": "b",
+        "text": "3x²y² − 4y"
+      },
+      {
+        "key": "c",
+        "text": "6x + 2y³"
+      },
+      {
+        "key": "d",
+        "text": "x³ + 2xy"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Hold y constant.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The level curves of f(x, y) = 6 − 3x − 2y are",
+    "options": [
+      {
+        "key": "a",
+        "text": "parallel lines"
+      },
+      {
+        "key": "b",
+        "text": "circles"
+      },
+      {
+        "key": "c",
+        "text": "parabolas"
+      },
+      {
+        "key": "d",
+        "text": "ellipses"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The graph is a plane.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The total differential of z = f(x, y) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "f_x dx + f_y dy"
+      },
+      {
+        "key": "b",
+        "text": "f_x + f_y"
+      },
+      {
+        "key": "c",
+        "text": "f_xx dx²"
+      },
+      {
+        "key": "d",
+        "text": "f_x f_y"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It estimates small changes in z.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "The range of g(x, y) = √(9 − x² − y²) is [0, 3].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A square root is never negative.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "To find ∂f/∂x, both x and y are treated as variables at once.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "y is held constant.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which describe the graph z = √(9 − x² − y²)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a surface"
+      },
+      {
+        "key": "b",
+        "text": "It is the upper half of a sphere"
+      },
+      {
+        "key": "c",
+        "text": "Its radius is 3"
+      },
+      {
+        "key": "d",
+        "text": "It is a plane"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "z = 6 − 3x − 2y is the plane.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a second-order partial derivative?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f_xx"
+      },
+      {
+        "key": "b",
+        "text": "f_yy"
+      },
+      {
+        "key": "c",
+        "text": "f_xy"
+      },
+      {
+        "key": "d",
+        "text": "f_x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "f_x is first-order.",
+    "source": "Function of Several Variables slides"
+  }
+]

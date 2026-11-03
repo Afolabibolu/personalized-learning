@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which term has gained most currency for African indigenous religion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "African Traditional Religion"
+      },
+      {
+        "key": "b",
+        "text": "African Thoughts"
+      },
+      {
+        "key": "c",
+        "text": "African Belief System"
+      },
+      {
+        "key": "d",
+        "text": "African Religion"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the name used throughout the textbook.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "African Traditional Religion has scriptures like Christianity and Islam.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It has none; its teachings are in oral traditions.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the five fundamental beliefs of African Traditional Religion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Belief in God"
+      },
+      {
+        "key": "b",
+        "text": "Belief in ancestors"
+      },
+      {
+        "key": "c",
+        "text": "Belief in magic and medicine"
+      },
+      {
+        "key": "d",
+        "text": "Belief in a single scripture"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The five are God, divinities, ancestors, spirits, and magic and medicine.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Among the Nupe, God is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "Soko"
+      },
+      {
+        "key": "b",
+        "text": "Osanobua"
+      },
+      {
+        "key": "c",
+        "text": "Chineke"
+      },
+      {
+        "key": "d",
+        "text": "Eleda"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Osanobua is the Edo name.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Who was the first mu'adhin Africa gave the Islamic world?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bilal ibn Rabah"
+      },
+      {
+        "key": "b",
+        "text": "Uthman Dan Fodio"
+      },
+      {
+        "key": "c",
+        "text": "Mansa Musa"
+      },
+      {
+        "key": "d",
+        "text": "Ajayi Crowther"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He was among the most honoured companions of the Prophet.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 8"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Muslims took Egypt and Libya from the Byzantine Empire in",
+    "options": [
+      {
+        "key": "a",
+        "text": "642 AD"
+      },
+      {
+        "key": "b",
+        "text": "652 AD"
+      },
+      {
+        "key": "c",
+        "text": "622 AD"
+      },
+      {
+        "key": "d",
+        "text": "711 AD"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The textbook gives 642.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 8"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which was not one of the four early centres of Christianity north of the Sahara?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Egypt"
+      },
+      {
+        "key": "b",
+        "text": "Roman Africa"
+      },
+      {
+        "key": "c",
+        "text": "Abyssinia (Ethiopia)"
+      },
+      {
+        "key": "d",
+        "text": "Sokoto"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth centre was Nubia (Sudan).",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 7"
+  },
+  {
+    "format": "true_false",
+    "stem": "Religion is a product of culture.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is part of a people's way of life.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 4"
+  }
+]

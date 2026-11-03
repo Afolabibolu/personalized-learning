@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the median of 250, 320, 240, 210, 260, 330, 310, 260?",
+    "options": [
+      {
+        "key": "a",
+        "text": "260"
+      },
+      {
+        "key": "b",
+        "text": "250"
+      },
+      {
+        "key": "c",
+        "text": "240"
+      },
+      {
+        "key": "d",
+        "text": "272.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The two middle ordered values are both 260.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If the interquartile range is 24, the quartile deviation is",
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "24"
+      },
+      {
+        "key": "c",
+        "text": "48"
+      },
+      {
+        "key": "d",
+        "text": "6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is half the interquartile range.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Thirty observations have mean 15. What is their sum?",
+    "options": [
+      {
+        "key": "a",
+        "text": "450"
+      },
+      {
+        "key": "b",
+        "text": "45"
+      },
+      {
+        "key": "c",
+        "text": "200"
+      },
+      {
+        "key": "d",
+        "text": "15"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sum = n × mean.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a stem-and-leaf display, the stems are the",
+    "options": [
+      {
+        "key": "a",
+        "text": "leading digits"
+      },
+      {
+        "key": "b",
+        "text": "trailing digits"
+      },
+      {
+        "key": "c",
+        "text": "central digits"
+      },
+      {
+        "key": "d",
+        "text": "dispersed digits"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The leaves are the trailing digits.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a positively skewed distribution, the mean is greater than the median.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The mean is pulled towards the long right tail.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "true_false",
+    "stem": "The sample variance divides the sum of squared deviations by n + 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It divides by n − 1.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are averages of position?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Median"
+      },
+      {
+        "key": "b",
+        "text": "Quartiles"
+      },
+      {
+        "key": "c",
+        "text": "Percentiles"
+      },
+      {
+        "key": "d",
+        "text": "Standard deviation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The standard deviation measures dispersion.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a measure of dispersion?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Range"
+      },
+      {
+        "key": "b",
+        "text": "Quartile deviation"
+      },
+      {
+        "key": "c",
+        "text": "Standard deviation"
+      },
+      {
+        "key": "d",
+        "text": "Mode"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The mode is a measure of central tendency.",
+    "source": "General knowledge of STA 202"
+  }
+]

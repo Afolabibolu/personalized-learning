@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An algorithm is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a finite set of precise instructions for performing a computation or solving a problem"
+      },
+      {
+        "key": "b",
+        "text": "any computer program"
+      },
+      {
+        "key": "c",
+        "text": "a mathematical formula"
+      },
+      {
+        "key": "d",
+        "text": "a data structure"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the lecture's definition.",
+    "source": "Algorithms & The Big O.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of an algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Definiteness"
+      },
+      {
+        "key": "b",
+        "text": "Finiteness"
+      },
+      {
+        "key": "c",
+        "text": "Generality"
+      },
+      {
+        "key": "d",
+        "text": "Ambiguity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Each step must be definite, so ambiguity is not allowed.",
+    "source": "Algorithms & The Big O.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Binary search requires the terms of the sequence to be ordered.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It halves the ordered range at each step.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which search is more efficient on a long ordered list?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary search"
+      },
+      {
+        "key": "b",
+        "text": "Linear search"
+      },
+      {
+        "key": "c",
+        "text": "Both are always equal"
+      },
+      {
+        "key": "d",
+        "text": "Neither works on ordered lists"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Binary search restricts the range by half each step.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "f(x) is O(g(x)) if there are constants C and k such that",
+    "options": [
+      {
+        "key": "a",
+        "text": "|f(x)| ≤ C|g(x)| whenever x > k"
+      },
+      {
+        "key": "b",
+        "text": "f(x) = g(x) for all x"
+      },
+      {
+        "key": "c",
+        "text": "f(x) ≥ C·g(x) for all x"
+      },
+      {
+        "key": "d",
+        "text": "f(k) = C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Big-O is an upper bound on growth beyond some point k.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among the properties of an algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Input"
+      },
+      {
+        "key": "b",
+        "text": "Output"
+      },
+      {
+        "key": "c",
+        "text": "Correctness"
+      },
+      {
+        "key": "d",
+        "text": "Infinite loop"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Finiteness requires the algorithm to stop.",
+    "source": "Algorithms & The Big O.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "For complexity analysis, what matters most is how the running time grows for large inputs.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Small inputs make the difference between algorithms meaningless.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Linear search through n elements needs at most",
+    "options": [
+      {
+        "key": "a",
+        "text": "n comparisons"
+      },
+      {
+        "key": "b",
+        "text": "log n comparisons"
+      },
+      {
+        "key": "c",
+        "text": "1 comparison"
+      },
+      {
+        "key": "d",
+        "text": "n² comparisons"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It may compare the target with every term, so it is O(n).",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  }
+]

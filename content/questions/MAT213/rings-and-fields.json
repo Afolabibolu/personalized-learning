@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a ring (R, +, ×), (R, +) must be",
+    "options": [
+      {
+        "key": "a",
+        "text": "an abelian group"
+      },
+      {
+        "key": "b",
+        "text": "a semigroup only"
+      },
+      {
+        "key": "c",
+        "text": "a field"
+      },
+      {
+        "key": "d",
+        "text": "a monoid only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(R, ×) need only be a semigroup.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which are zero divisors in Z₈?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2, 4 and 6"
+      },
+      {
+        "key": "b",
+        "text": "1, 3, 5 and 7"
+      },
+      {
+        "key": "c",
+        "text": "only 0"
+      },
+      {
+        "key": "d",
+        "text": "only 4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 × 4 ≡ 0 and 4 × 6 ≡ 0 (mod 8).",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Zₙ is an integral domain whenever n is not prime.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "When n is not prime, Zₙ has zero divisors, so it is not an integral domain.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Z is not a field.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "(Z − {0}, ×) is not a group: 2 has no integer inverse.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The characteristic of Z₅ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "5"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Zₙ has characteristic n.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are fields?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Q"
+      },
+      {
+        "key": "b",
+        "text": "R"
+      },
+      {
+        "key": "c",
+        "text": "Z₇"
+      },
+      {
+        "key": "d",
+        "text": "Z"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Z is a ring but not a field.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which ring is not commutative?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Z"
+      },
+      {
+        "key": "b",
+        "text": "R[x]"
+      },
+      {
+        "key": "c",
+        "text": "Zₘ"
+      },
+      {
+        "key": "d",
+        "text": "M₂(R)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Matrix multiplication is not commutative.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A commutative ring with identity and no zero divisors is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an integral domain"
+      },
+      {
+        "key": "b",
+        "text": "a skew field"
+      },
+      {
+        "key": "c",
+        "text": "a semigroup"
+      },
+      {
+        "key": "d",
+        "text": "a subring"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Z, Q and R[x] are examples.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 5"
+  }
+]

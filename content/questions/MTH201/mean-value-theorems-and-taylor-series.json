@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = x² + 2x on [−2, 0], Rolle's theorem gives c =",
+    "options": [
+      {
+        "key": "a",
+        "text": "−1"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "−2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f'(x) = 2x + 2 = 0.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = x³ − x on [1, 3], the mean value theorem gives c ≈",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.08"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "1.5"
+      },
+      {
+        "key": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "3c² − 1 = 12.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Maclaurin series is the Taylor series about",
+    "options": [
+      {
+        "key": "a",
+        "text": "x = 0"
+      },
+      {
+        "key": "b",
+        "text": "x = 1"
+      },
+      {
+        "key": "c",
+        "text": "x = a for any a"
+      },
+      {
+        "key": "d",
+        "text": "x = ∞"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Maclaurin series are centred at 0.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is the Maclaurin series of eˣ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 + x + x²/2! + x³/3! + ..."
+      },
+      {
+        "key": "b",
+        "text": "x − x³/3! + x⁵/5! − ..."
+      },
+      {
+        "key": "c",
+        "text": "1 − x²/2! + x⁴/4! − ..."
+      },
+      {
+        "key": "d",
+        "text": "x − x²/2 + x³/3 − ..."
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The others are sin x, cos x and ln(1 + x).",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "If f'(x) = 0 everywhere on (a, b), then f is constant on [a, b].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A consequence of the MVT.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Rolle's theorem applies to f(x) = |x| − 1 on [−1, 1].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "f is not differentiable at 0.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are conditions of Rolle's theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f continuous on [a, b]"
+      },
+      {
+        "key": "b",
+        "text": "f differentiable on (a, b)"
+      },
+      {
+        "key": "c",
+        "text": "f(a) = f(b)"
+      },
+      {
+        "key": "d",
+        "text": "f'(a) = f'(b)"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These three are all required.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a consequence of the mean value theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f' = 0 implies f is constant"
+      },
+      {
+        "key": "b",
+        "text": "f' > 0 implies f is increasing"
+      },
+      {
+        "key": "c",
+        "text": "f' = g' implies f = g + C"
+      },
+      {
+        "key": "d",
+        "text": "f' > 0 implies f is periodic"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Periodicity does not follow.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  }
+]

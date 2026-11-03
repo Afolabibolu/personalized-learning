@@ -1,0 +1,108 @@
+{
+  "code": "INS 202",
+  "title": "Human-Computer Interface",
+  "semester": 2,
+  "description": "The CCMAS course in human-computer interaction: what HCI is and how it evolved, its multidisciplinary foundations, interaction styles and accessibility, human cognition and its laws, physical ergonomics, user-centred design, GUI design principles, and system design methods and human-centred evaluation. Built from Miss P. B. Falola and Mr S. O. Fawale's INS 202 Lectures 1 to 8.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "introduction-to-hci",
+      "title": "Introduction to Human-Computer Interaction",
+      "summary": "HCI is the multidisciplinary field concerned with the design, evaluation and implementation of interactive computing systems for human use. It differs from UI and UX, evolved from switches and command lines to GUIs, touch and natural interaction, matters for usability, productivity, safety, accessibility and business value, and has five components: user, system, interaction, task and context.",
+      "subtopics": [
+        "Defining HCI; interface and interaction",
+        "UI versus UX versus HCI",
+        "History: from ENIAC to natural interaction",
+        "HCI as a field: SIGCHI and CHI",
+        "Why HCI matters",
+        "The five components of an interaction"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "foundations-interaction-styles-and-accessibility",
+      "title": "Foundations: Interaction Styles, Diversity and Accessibility",
+      "summary": "HCI draws on computer science, psychology, design, ergonomics, sociology and linguistics. Every interaction combines human factors (physical, cognitive, social) and computer factors (input, output, processing, dialogue style). There are six interaction styles, users are diverse, and accessibility (WCAG's POUR principles) sits within inclusive design.",
+      "subtopics": [
+        "The six disciplines of HCI",
+        "Human factors",
+        "Computer factors",
+        "Six interaction styles",
+        "User diversity",
+        "Accessibility, POUR and inclusive design"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "cognition-and-human-factors",
+      "title": "Cognition and Human Factors",
+      "summary": "Users perceive interfaces through vision, hearing and touch, organised by Gestalt principles. Memory moves through sensory, short-term and long-term stages, and recognition beats recall. Attention is selective or divided. Mental models, Reason's slips and mistakes, Miller's 7±2, Fitts's Law and Hick's Law explain and predict user behaviour.",
+      "subtopics": [
+        "Perception and Gestalt principles",
+        "Memory: recognition versus recall",
+        "Attention and learnability",
+        "Mental models",
+        "Slips versus mistakes",
+        "Miller's Law, Fitts's Law and Hick's Law"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "physical-ergonomics",
+      "title": "Physical Ergonomics",
+      "summary": "Physical ergonomics fits workstations and devices to the human body. Workspace design follows ISO 9241-5 principles; keyboard, mouse and mobile design affect strain; display technology affects comfort; digital eye strain and repetitive strain injury are prevented by the 20-20-20 rule and micro-breaks; and postural variation and organisational responsibility matter most.",
+      "subtopics": [
+        "Physical ergonomics in HCI",
+        "Workspace design and ISO 9241-5",
+        "Keyboards, mice and mobile thumb zones",
+        "Displays",
+        "Digital eye strain and RSI",
+        "Posture, sitting versus standing, and shared responsibility"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "user-centred-design",
+      "title": "User-Centred Design",
+      "summary": "User-centred design puts users at the centre of every stage. Design thinking has five non-linear stages: empathize, define, ideate, prototype and test. User research replaces assumptions with evidence; personas and journey maps summarise it; storyboards, wireframes and prototypes shape solutions; and iterative design refines them through feedback.",
+      "subtopics": [
+        "User-centred design and its philosophy",
+        "The five stages of design thinking",
+        "User research methods",
+        "Personas and user journey maps",
+        "Storyboards, wireframes and prototypes",
+        "Iterative design and feedback"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "gui-design-principles",
+      "title": "GUI Design Principles",
+      "summary": "Good GUI design means efficient, accurate, low-friction task completion, not visual polish alone. Nielsen's ten usability heuristics and Shneiderman's eight golden rules guide design and evaluation, supported by colour theory, typography, icon design, navigation patterns, menus and good form design.",
+      "subtopics": [
+        "What makes a good GUI",
+        "Nielsen's ten usability heuristics",
+        "Shneiderman's eight golden rules",
+        "Colour and typography",
+        "Icons and navigation patterns",
+        "Menus and form design"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "design-methods-and-evaluation",
+      "title": "System Design Methods and Human-Centred Evaluation",
+      "summary": "System design methods structure how software is built: Waterfall is sequential, Spiral is risk-driven and iterative, Agile values iteration and collaboration, and Scrum applies Agile in fixed sprints. Human-centred evaluation tests designs with real users through formative and summative methods such as usability testing, A/B testing, heuristic evaluation, cognitive walkthroughs and the System Usability Scale.",
+      "subtopics": [
+        "Waterfall and Spiral",
+        "Agile and Scrum",
+        "Why evaluation matters",
+        "Formative versus summative evaluation",
+        "Usability testing, A/B testing and heuristic evaluation",
+        "The System Usability Scale and other methods"
+      ],
+      "lectures": []
+    }
+  ]
+}

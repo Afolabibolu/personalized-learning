@@ -1,0 +1,61 @@
+{
+  "code": "COS 103",
+  "topics": {
+    "python-basics-and-selection": [
+      {
+        "title": "Video: If statements in Python are easy (if, elif, else) 🤔 (Bro Code)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FvMPfrgGeKs",
+        "source": "links.csv"
+      }
+    ],
+    "loops": [
+      {
+        "title": "Video: CS50P - Lecture 2 - Loops (CS50)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-7xg8pGcP6w",
+        "source": "links.csv"
+      }
+    ],
+    "functions": [
+      {
+        "title": "Video: Functions in Python are easy 📞 (Bro Code)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=89cGQjB5R4M",
+        "source": "links.csv"
+      }
+    ],
+    "lists-tuples-sets-and-dictionaries": [
+      {
+        "title": "Video: Python Tutorial for Beginners 4: Lists, Tuples, and Sets (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=W8KRzm-HUcc",
+        "source": "links.csv"
+      }
+    ],
+    "strings-regex-and-modules": [
+      {
+        "title": "Video: Python Tutorial: re Module - How to Write and Match Regular Expressions (Regex) (Corey Schafer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K8L6KVGG-7o",
+        "source": "links.csv"
+      }
+    ],
+    "files-and-exceptions": [
+      {
+        "title": "Video: CS50P - Lecture 6 - File I/O (CS50)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KD-Yoel6EVQ",
+        "source": "links.csv"
+      }
+    ],
+    "visualisation-gui-and-algorithms": [
+      {
+        "title": "Video: Learn Matplotlib in 30 Minutes - Python Matplotlib Tutorial (Tech With Tim)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7Lc2AxiM17o",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

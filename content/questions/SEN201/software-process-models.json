@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the four fundamental activities of every software process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Specification"
+      },
+      {
+        "key": "b",
+        "text": "Development"
+      },
+      {
+        "key": "c",
+        "text": "Validation"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is evolution.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the waterfall model,",
+    "options": [
+      {
+        "key": "a",
+        "text": "each phase should finish before the next begins"
+      },
+      {
+        "key": "b",
+        "text": "all phases happen at once"
+      },
+      {
+        "key": "c",
+        "text": "there is no documentation"
+      },
+      {
+        "key": "d",
+        "text": "requirements change freely"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each phase is signed off.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which model explicitly recognises risk, with each loop split into four sectors?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boehm's spiral model"
+      },
+      {
+        "key": "b",
+        "text": "The waterfall model"
+      },
+      {
+        "key": "c",
+        "text": "Reuse-oriented engineering"
+      },
+      {
+        "key": "d",
+        "text": "Code-and-fix"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Boehm proposed it in 1988.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "The waterfall model is best when requirements are well understood and unlikely to change.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It handles change poorly.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A main disadvantage of the waterfall model is that it",
+    "options": [
+      {
+        "key": "a",
+        "text": "is difficult to adapt to requirement changes"
+      },
+      {
+        "key": "b",
+        "text": "produces no documents"
+      },
+      {
+        "key": "c",
+        "text": "cannot be managed"
+      },
+      {
+        "key": "d",
+        "text": "has no testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Iterations cost a lot of rework.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The first stage of reuse-oriented software engineering after requirements specification is",
+    "options": [
+      {
+        "key": "a",
+        "text": "component analysis"
+      },
+      {
+        "key": "b",
+        "text": "deployment"
+      },
+      {
+        "key": "c",
+        "text": "acceptance testing"
+      },
+      {
+        "key": "d",
+        "text": "maintenance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It searches for components to implement the specification.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a sector of each loop of the spiral model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Objective setting"
+      },
+      {
+        "key": "b",
+        "text": "Risk assessment and reduction"
+      },
+      {
+        "key": "c",
+        "text": "Development and validation"
+      },
+      {
+        "key": "d",
+        "text": "Code freezing"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth sector is planning.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Incremental development is better than a waterfall approach for most business and e-commerce systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It handles changing requirements well.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

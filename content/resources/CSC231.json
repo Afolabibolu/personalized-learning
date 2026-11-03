@@ -1,0 +1,45 @@
+{
+  "code": "CSC 231",
+  "topics": {
+    "matlab-environment-and-scripts": [
+      {
+        "title": "Video: MATLAB Crash Course for Beginners (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7f50sQYjNRA",
+        "source": "links.csv"
+      }
+    ],
+    "arrays-vectors-and-matrices": [
+      {
+        "title": "Video: Lecture 3: Matrices & Arrays | Exploring MATLAB (Ahmad Bazzi)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9k-V3rNNDDg",
+        "source": "links.csv"
+      }
+    ],
+    "plotting-and-anonymous-functions": [
+      {
+        "title": "Video: MATLAB Plot Function Tutorial (Vincent Stevenson)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4ne3caazhkE",
+        "source": "links.csv"
+      }
+    ],
+    "python-basics-and-control-flow": [
+      {
+        "title": "Video: Lecture 1: Introduction to CS and Programming Using Python (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xAcTmDO6NTI",
+        "source": "links.csv"
+      }
+    ],
+    "python-functions-and-numpy": [
+      {
+        "title": "Video: Python NumPy Tutorial for Beginners (freeCodeCamp.org)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

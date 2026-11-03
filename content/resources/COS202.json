@@ -1,0 +1,61 @@
+{
+  "code": "COS 202",
+  "topics": {
+    "arrays-methods-and-recursion": [
+      {
+        "title": "Video: Recursion in Java Full Tutorial - How to Create Recursive Methods (Coding with John)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=k-7jJP7QFEM",
+        "source": "links.csv"
+      }
+    ],
+    "classes-objects-and-constructors": [
+      {
+        "title": "Video: Java Classes & Objects (Keep On Coding)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IUqKuGNasdM",
+        "source": "links.csv"
+      }
+    ],
+    "access-and-non-access-modifiers": [
+      {
+        "title": "Video: #54 Access Modifiers in Java (Telusko)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mlVYooy93sE",
+        "source": "links.csv"
+      }
+    ],
+    "inheritance-and-polymorphism": [
+      {
+        "title": "Video: Inheritance and Polymorphism (Java Tutorial) (Bill Barnum)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gc216ndOrb4",
+        "source": "links.csv"
+      }
+    ],
+    "abstraction-and-encapsulation": [
+      {
+        "title": "Video: Abstract Classes and Methods in Java Explained in 7 Minutes (Coding with John)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HvPlEJ3LHgE",
+        "source": "links.csv"
+      }
+    ],
+    "interfaces": [
+      {
+        "title": "Video: Java Interfaces Tutorial (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JFuMei9Wwk4",
+        "source": "links.csv"
+      }
+    ],
+    "exceptions-collections-and-gui": [
+      {
+        "title": "Video: Exception Handling in Java Tutorial (Coding with John)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1XAfapkBQjk",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

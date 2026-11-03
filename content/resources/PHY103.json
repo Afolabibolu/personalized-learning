@@ -1,0 +1,61 @@
+{
+  "code": "PHY 103",
+  "topics": {
+    "temperature-and-thermometry": [
+      {
+        "title": "Video: 01 - Thermometers And Temperature Scales (Thermodynamics Physics Tutor) (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RedZZA8vtCE",
+        "source": "links.csv"
+      }
+    ],
+    "thermal-expansion": [
+      {
+        "title": "Video: 8.01x - Lect 32 - Heat, Thermal Expansion (Lectures by Walter Lewin. They will make you ♥ Physics.)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mAAvp5YzWxk",
+        "source": "links.csv"
+      }
+    ],
+    "heat-capacity-and-latent-heat": [
+      {
+        "title": "Video: Latent Heat of Fusion and Vaporization, Specific Heat Capacity & Calorimetry - Physics (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dxtz2POUTJE",
+        "source": "links.csv"
+      }
+    ],
+    "heat-transfer": [
+      {
+        "title": "Video: Heat Transfer (01): Introduction to heat transfer, conduction, convection, and radiation (CPPMechEngTutorials)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7Bj3N1E7vZk",
+        "source": "links.csv"
+      }
+    ],
+    "kinetic-theory-and-ideal-gases": [
+      {
+        "title": "Video: 8.01x - Lect 33 - Kinetic Gas Theory, Ideal Gas Law, Phase Transitions (Lectures by Walter Lewin. They will make you ♥ Physics.)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=husWiBtkROQ",
+        "source": "links.csv"
+      }
+    ],
+    "first-law-and-thermodynamic-processes": [
+      {
+        "title": "Video: The First Law of Thermodynamics: Internal Energy, Heat, and Work (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=O7HwhkYt6YU",
+        "source": "links.csv"
+      }
+    ],
+    "heat-engines-second-law-and-entropy": [
+      {
+        "title": "Video: 23. The Second Law of Thermodynamics and Carnot's Engine (YaleCourses)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DeNBWsZHXTE",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

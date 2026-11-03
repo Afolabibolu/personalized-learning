@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A force (3, 0, 4) N moves a body from (−5, 3, 1) m to (4, 3, 3) m. The work done is",
+    "options": [
+      {
+        "key": "a",
+        "text": "35 J"
+      },
+      {
+        "key": "b",
+        "text": "20 J"
+      },
+      {
+        "key": "c",
+        "text": "25 J"
+      },
+      {
+        "key": "d",
+        "text": "30 J"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(3, 0, 4)·(9, 0, 2) = 27 + 8.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The moment of inertia of a uniform rod of mass M and length L about its middle is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ML²/12"
+      },
+      {
+        "key": "b",
+        "text": "ML²/3"
+      },
+      {
+        "key": "c",
+        "text": "ML²"
+      },
+      {
+        "key": "d",
+        "text": "½ML²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "About one end it is ML²/3.",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The rotational kinetic energy of a body with moment of inertia I and angular velocity ω is",
+    "options": [
+      {
+        "key": "a",
+        "text": "½Iω²"
+      },
+      {
+        "key": "b",
+        "text": "Iω"
+      },
+      {
+        "key": "c",
+        "text": "Iω²"
+      },
+      {
+        "key": "d",
+        "text": "½Iω"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Compare ½mv².",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Angular momentum is",
+    "options": [
+      {
+        "key": "a",
+        "text": "L = Iω, a vector along the axis"
+      },
+      {
+        "key": "b",
+        "text": "L = ½Iω², a scalar"
+      },
+      {
+        "key": "c",
+        "text": "L = mv, along the motion"
+      },
+      {
+        "key": "d",
+        "text": "L = Iα"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Iα is torque.",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "true_false",
+    "stem": "By the parallel axes theorem, I = I_G + Md², where I_G is about a parallel axis through the centre of gravity.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "d is the distance between the axes.",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Work is a vector quantity because force and displacement are vectors.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Work is the dot product, a scalar.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are rotational counterparts of linear quantities?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Moment of inertia ↔ mass"
+      },
+      {
+        "key": "b",
+        "text": "Torque ↔ force"
+      },
+      {
+        "key": "c",
+        "text": "Angular momentum ↔ linear momentum"
+      },
+      {
+        "key": "d",
+        "text": "Angular velocity ↔ mass"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Angular velocity corresponds to linear velocity.",
+    "source": "PHY 102 lecture notes (work and energy, dynamics of rotating rigid bodies, SHM)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which of these is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Kinetic energy"
+      },
+      {
+        "key": "b",
+        "text": "Potential energy"
+      },
+      {
+        "key": "c",
+        "text": "Work"
+      },
+      {
+        "key": "d",
+        "text": "Momentum"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Momentum is a vector; the others are scalars measured in joules.",
+    "source": "General knowledge of PHY 101"
+  }
+]

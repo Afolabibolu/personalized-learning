@@ -1,0 +1,61 @@
+{
+  "code": "STA 111",
+  "topics": {
+    "data-types-collection-and-scales": [
+      {
+        "title": "Video: Scales of Measurement - Nominal, Ordinal, Interval, & Ratio Scale Data (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LuBD49SFpWs",
+        "source": "links.csv"
+      }
+    ],
+    "data-presentation": [
+      {
+        "title": "Video: Frequency Tables, Bar Charts, Pie Charts, Histograms, Grouped & Ungrouped Data Distributions (Joshua Emmanuel)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=H9Z0pVKZEbQ",
+        "source": "links.csv"
+      }
+    ],
+    "measures-of-centre": [
+      {
+        "title": "Video: Grouped Data | Measure of Central Tendency and Dispersion for a Grouped Data. (Tambuwal Maths Class)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ieodfk7al5k",
+        "source": "links.csv"
+      }
+    ],
+    "measures-of-variability": [
+      {
+        "title": "Video: Measures of Variability (Range, Standard Deviation, Variance) (Daniel Storage)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s7WTQ0H0Acc",
+        "source": "links.csv"
+      }
+    ],
+    "relative-position-skewness-and-kurtosis": [
+      {
+        "title": "Video: What is  Skewness & Kurtosis ? | Difference Between Skewness and Kurtosis in Statistics (Digital E-Learning)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EWuR4EGc9EY",
+        "source": "links.csv"
+      }
+    ],
+    "confidence-intervals": [
+      {
+        "title": "Video: Confidence Interval [Simply explained] (numiqo)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ENnlSlvQHO0",
+        "source": "links.csv"
+      }
+    ],
+    "hypothesis-testing-correlation-and-regression": [
+      {
+        "title": "Video: Intro to Hypothesis Testing in Statistics - Hypothesis Testing Statistics Problems & Examples (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VK-rnA3-41c",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "code": "IFT 302",
+  "exam_style": true,
+  "intro": "No IFT 302 past papers were found in the course folder. These exam-style questions were written for practice from the lessons and slides; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the IFT 302 lessons and slides",
+      "source": "Written for this app from the IFT 302 lessons and slides, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "introduction-to-web-development",
+      "text": "a) Distinguish between the Internet and the World Wide Web. (4 marks) b) Explain Web 1.0, Web 2.0 and Web 3.0, with examples. (6 marks) c) Compare static and dynamic websites. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "introduction-to-web-development",
+      "text": "a) What is a framework? State five benefits of framework-based development and name two PHP and two Python frameworks. (9 marks) b) Distinguish client-side from server-side technologies. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "website-design-ui-ux-and-responsive-design",
+      "text": "a) Explain six principles of website design. (9 marks) b) Distinguish between UI and UX, using a shopping website as an example. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "website-design-ui-ux-and-responsive-design",
+      "text": "a) What is responsive web design and why is it important? (6 marks) b) Describe four features of responsive design and write a CSS media query for screens up to 768px wide. (9 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "web-architecture-and-development-tools",
+      "text": "a) Explain client-server architecture and describe its components, with examples. (9 marks) b) State three advantages and two disadvantages of client-server architecture. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "web-architecture-and-development-tools",
+      "text": "a) What is version control? Explain repository, commit, branch, merge, push and pull in Git. (9 marks) b) Describe the components of a web development environment. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "client-side-programming",
+      "text": "a) Write a basic HTML5 document with a heading, a paragraph, a link and an image. (5 marks) b) What is the DOM? Show how JavaScript can change an element's text and colour. (5 marks) c) Write a JavaScript function that stops a form from being submitted when the username field is empty. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "server-side-programming-with-php",
+      "text": "a) What is server-side programming? Use a login example to show how a request flows from browser to database and back. (8 marks) b) Why is PHP widely used? Give five reasons. (5 marks) c) What does the browser receive when it requests a PHP page? (2 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "object-oriented-php",
+      "text": "a) Write a PHP class Student with a constructor and a method that displays the student's details, and create two objects from it. (8 marks) b) Explain the public, protected and private access modifiers. (6 marks) c) What does the final keyword do? (1 mark)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "database-driven-applications-cookies-and-sessions",
+      "text": "a) Explain CRUD and give the SQL statement for each operation. (6 marks) b) Why should prepared statements be used, and how do they differ from htmlspecialchars()? (5 marks) c) Design a students table with suitable data types and a primary key. (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "11",
+      "topic": "database-driven-applications-cookies-and-sessions",
+      "text": "a) Why is HTTP described as stateless? (2 marks) b) Distinguish between cookies and sessions. (5 marks) c) Write PHP code to protect a dashboard page and to log a user out. (5 marks) d) Explain session fixation and how to prevent it. (3 marks)",
+      "marks": 15
+    }
+  ]
+}

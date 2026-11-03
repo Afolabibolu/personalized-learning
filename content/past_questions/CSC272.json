@@ -1,0 +1,456 @@
+{
+  "code": "CSC 272",
+  "papers": [
+    {
+      "year": "2012/2013",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2012/2013, Part I (1 hour) and Part II (practical)",
+      "source": "CSC 272 pq.pdf (photographed papers)"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2013/2014, Section A (30 mins) and Section B (practical, 45 mins)",
+      "source": "CSC 272 pq.pdf (photographed papers)"
+    },
+    {
+      "year": "2015/2016",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2015/2016, Section A (1 hour)",
+      "source": "CSC 272 pq.pdf (photographed papers)"
+    },
+    {
+      "year": "2016/2017",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2016/2017, Section B (practical, 60 mins)",
+      "source": "CSC 272 pq.pdf (photographed papers)"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2020/2021, Written Paper (30 mins)",
+      "source": "CSC 272 2020-21.pdf"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "CSC 272: Information Management Systems, Second Semester Examinations 2022/2023, Practical Paper I (40 mins)",
+      "source": "MS Excel Practical Exam.pdf"
+    },
+    {
+      "year": "2023 test",
+      "paper": "CSC 272 Complete Test for Microsoft PowerPoint, Word, Excel and Access (online test, MS Word section)",
+      "source": "CSC 272 (2).pdf (a printout of the online test form)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2012/2013",
+      "number": "1a",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "Differentiate between Transition and Animation in MS PowerPoint. (2 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "1b",
+      "topic": "microsoft-access-and-databases",
+      "text": "What is an identifier and what guidelines would you consider when choosing an identifier for a table in a database? (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "1c",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "What is a 'volatile' function in MS Excel? Give an example of such a function. (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "1e",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Describe the process of formatting an MS Word document such that (1) the first page is different from all the other pages, (2) the 2nd to the 5th pages have only header information, (3) the rest of the pages have only footer information. (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "2a",
+      "topic": "microsoft-access-and-databases",
+      "text": "Differentiate between an entity, a record and an attribute. (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "2b",
+      "topic": "microsoft-access-and-databases",
+      "text": "With any suitable example define what is referred to as candidate key(s). (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "2c",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "Assuming there is data on sheet 1 in an Excel file that runs into 5,600 rows. This data is about students from different departments in UI, their scores in five different courses among other data. How would you summarize this data in such a way that it is grouped by department, while specifying the number of students for each department, the maximum, minimum and average score for all the 5 courses? (4 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "3a",
+      "topic": "microsoft-access-and-databases",
+      "text": "Name and describe the three types of cardinalities of any Entity-Relationship. (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "3b",
+      "topic": "microsoft-access-and-databases",
+      "text": "If using MS Excel to store data in separated sheets with some common fields on all the sheets, how can you \"mimic\" the query aspect of MS Access? (3 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "3c",
+      "topic": "microsoft-access-and-databases",
+      "text": "Differentiate between a weak entity and a strong entity. (2 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "3d",
+      "topic": "the-microsoft-word-environment",
+      "text": "The secretary of UN needs to send personalized emails to the Presidents of all the countries in the world, telling them how much they need to contribute to a common cause they have agreed on. There exists an Excel file with all the information needed per row for each president. What would you advise the secretary to do? (2 marks)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "II-3",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "The head of your unit has asked you to give an oral presentation on the information in the database using the Access file provided. With a suitable application, prepare your report and include the following points: (a) how many projects are listed in the database, categorised by Active and Not-Yet-Started; (b) how many staff are involved as a whole, categorised by male and female; (c) an overview of the different research categories; (d) an overview of how many projects' total budget fall within given ranges. (15 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A1a",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "What is referred to as a 'volatile' function in MS Excel? Give the name of such a function. (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A1b",
+      "topic": "the-microsoft-word-environment",
+      "text": "Name this symbol: \"¶\". (1 mark)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A1c",
+      "topic": "the-microsoft-word-environment",
+      "text": "Which Microsoft application does \"¶\" appear in and what is its use? (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A1d",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "List any 3 design rules/principles for preparing a PowerPoint presentation. (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A1e",
+      "topic": "microsoft-access-and-databases",
+      "text": "List and give the use of any 3 of the Microsoft Access 'objects'. (6 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A2a",
+      "topic": "introduction-to-microsoft-office",
+      "text": "Mr Francis is new to the computing world and he is imagining how ALL the different computer data are stored on the computer system. Briefly explain to Mr Francis the two broad ways computer data can be classified. Please give at least two examples of each. (7 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A2b",
+      "topic": "microsoft-access-and-databases",
+      "text": "Write short notes on the following, using any suitable example: (i) Candidate key (2 marks) (ii) Primary key (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A2c",
+      "topic": "microsoft-excel-basics",
+      "text": "When does this sign \"#\" appear in an Excel cell/column? (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A2d",
+      "topic": "microsoft-access-and-databases",
+      "text": "State the \"Third Normal Form\" rule of Normalisation. (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A3a",
+      "topic": "microsoft-access-and-databases",
+      "text": "If using MS Excel to store data in separated sheets with some common fields on all the sheets, how can you \"mimic\" the query aspect of MS Access? (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A3b",
+      "topic": "microsoft-access-and-databases",
+      "text": "Write short notes on the following, using any suitable example: (i) Foreign key (2 marks) (ii) Composite key (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A3c",
+      "topic": "microsoft-access-and-databases",
+      "text": "Using a suitable example each, state and explain the following rules of Normalisation: (i) First Normal Form (3 marks) (ii) Second Normal Form (3 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "A3d",
+      "topic": "microsoft-access-and-databases",
+      "text": "List any two guidelines you would consider when choosing an identifier. (2 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "B1",
+      "topic": "microsoft-access-and-databases",
+      "text": "Using the data provided in the Word file: (a) extract the column 'Staff Involved' as a separate table in MS Word with each staff in one row of the table (3 marks); (b) export this list to MS Access, ensuring that it has an identifier (4 marks); (c) extract the list of projects with its attributes except 'Staff Involved' and also export same to MS Access, specifying the identifier (3 marks); (d) create a new table in MS Access that will link the two imported tables above. (5 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "B2",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "Using the data provided in the Word file: (a) extract the names of the 'Staff Involved' as a separate numbered list on page two in the same Word document (3 marks); (b) import Table 1 to Microsoft Excel and label the sheet \"Projects\" (2 marks); (c) in the same Excel file: (i) insert a column after the \"project title\" column and calculate the project duration in months (3 marks); (ii) in another column calculate the percentage of the budget that has been spent (2 marks); (iii) in a separate sheet called \"summary\" create a table showing the number of projects by their status (2 marks) and a pie chart showing projects' % expenditure in two groups: projects that have spent 50% and above of their budget, and projects that have spent below 50% (3 marks)."
+    },
+    {
+      "year": "2013/2014",
+      "number": "B3a",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "On getting to your place for Industrial Training, you were asked by the head of your unit to give a talk on the topic \"My Journey in UI so far\". Using a suitable application, prepare your talk. (9 marks)"
+    },
+    {
+      "year": "2013/2014",
+      "number": "B3b",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Create a Word document, insert 3 labelled pictures and 1 titled table on 4 different pages. Insert the \"list of pictures\" and \"list of tables\" on the first page of the document. (6 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1a",
+      "topic": "microsoft-access-and-databases",
+      "text": "List and give the use of any 2 Microsoft Access 'objects'. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1b",
+      "topic": "microsoft-access-and-databases",
+      "text": "Assuming you have been sent by your company to meet a client that needs an information management system (IMS), enumerate any 4 forms/types of data that can be captured and stored in an IMS for this client of yours to understand. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1c",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "List any 2 options available in \"paste special\" in a word processing application. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1d",
+      "topic": "microsoft-access-and-databases",
+      "text": "It is said that \"every table in a relational database should have an identifier\". With reason(s), state if you agree with the phrase or not. (3 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1e",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "Compare and contrast Transition and Animation in a presentation application like PowerPoint. (3 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1f",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "A spreadsheet has columns No (A), Surname (C), FirstName (D) and OtherNames (E), with 1,769 names, and you have been asked to generate the values in column \"F\" (Full Name). How would you achieve that? Be specific. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2a",
+      "topic": "microsoft-access-and-databases",
+      "text": "As a Computer Scientist who intends to build relational databases, what guidelines would you follow in choosing any primary key for the tables in your database? (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2c",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "In a word processing application like MS Word, a \"section break\" allows you to assign different formats and page numbers to the various sections. List and explain the function of any three types of section breaks found in MS Word. (3 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2d",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "What are the following functions in MS Excel used for? LEFT(), RIGHT(), MID(). (3 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "2e",
+      "topic": "microsoft-access-and-databases",
+      "text": "Professor Anderson owns a university and would like to have a database to store data about the school and its processes. The description of the portion on your job is: \"There are several lecturers and professors in the university that belong to different departments. The lecturers and professors teach numerous courses in their respective departments.\" Represent the above in an ERD. Ensure that your entities have attributes. (5 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3a",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "List any 4 \"objects/content\" available in a presentation application like PowerPoint. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3c",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "List any 4 options available in \"paste special\" in Microsoft Excel. (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3d",
+      "topic": "the-microsoft-word-environment",
+      "text": "Assuming your supervisor is out of town and you need to get your project write-up named \"Project.docx\" across to him/her to read and highlight corrections for you, which you would later review, what would you do? (2 marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3e",
+      "topic": "microsoft-access-and-databases",
+      "text": "(i) What is an Entity-Relationship Model? (1 mark) (ii) List the three constructs used in an ERD. (1 mark) (iii) With suitable examples, describe what these constructs represent in a relational database. (3 marks)"
+    },
+    {
+      "year": "2016/2017",
+      "number": "4A",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "You have been asked by the current principal of your secondary school to give a presentation about the school and your stay while there. Prepare your presentation. (10 marks)"
+    },
+    {
+      "year": "2016/2017",
+      "number": "4B",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Create a Word document: (i) insert 2 pictures on 2 different pages (1 mark); (ii) insert 2 tables on 2 different pages (1 mark); (iii) insert the list of pictures on the second page of the document (1 mark); (iv) insert the list of tables on the third page of the document (1 mark); (v) format the document such that the first three pages are numbered (in the header section) with alphabets (a, b, c) while the rest of the document is numbered (in the footer section) in Roman numerals (i, ii, ...) (3 marks); (vi) on the last page of the document, reproduce a given formula (3 marks)."
+    },
+    {
+      "year": "2016/2017",
+      "number": "4C",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "Create a Microsoft Excel file with 3 sheets such that: (i) one sheet, labelled \"Raw Scores\", has two columns titled \"Matric No\" and \"Score\"; fill values for at least 30 students (2 marks); (ii) another sheet labelled \"summary\" has a table with columns Range, Count and %, for the ranges 0 to 25, 26 to 50, 51 to 75 and 76 to 100, which summarizes the data in sheet \"Raw Scores\" (3 marks); (iii) a third sheet, labelled \"Graph\", contains a graph that plots Range vs %. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1",
+      "topic": "introduction-to-microsoft-office",
+      "text": "What is referred to as data? List any 4 data types you know, with respect to Information Management. (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2",
+      "topic": "microsoft-access-and-databases",
+      "text": "Briefly define an entity, an attribute and a relationship, with respect to relational databases. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3",
+      "topic": "microsoft-access-and-databases",
+      "text": "List and give the uses of any three Microsoft Access 'objects'. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4",
+      "topic": "the-microsoft-word-environment",
+      "text": "What are the names of these symbols in Microsoft Word? (i) \"¶\" (ii) \"∟\" (iii) \"→\" (iv) \"⊥\" (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "5",
+      "topic": "powerpoint-and-effective-presentations",
+      "text": "You have been asked to make a presentation on COVID-19 vaccine. While preparing your presentation, which design rules/principles will you keep in mind? List any three. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "6",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "List and give the correct syntax of any 6 Microsoft Excel functions. (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "7",
+      "topic": "microsoft-access-and-databases",
+      "text": "What is the degree of a relationship? With suitable illustrations, describe all three. (4 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "1",
+      "topic": "excel-formulas-functions-and-charts",
+      "text": "While on IT, your boss asked you to create a Microsoft Excel file for data collection and processing. (a) Create a sheet labelled \"Data\" with these columns and value ranges: Staff ID (numbers between 7400 and 8500) (1 mark); Surname (text, not more than 40 characters) (1 mark); Other Names (text, not longer than 30 characters) (1 mark); Sex (Male or Female only) (2 marks); Staff Status (Junior Staff, Senior Staff or Management Staff only) (2 marks); Salary (if Junior Staff then N150,000, if Senior Staff then N250,000, if Management Staff then N500,000; this field should be auto-generated) (5 marks); Date of Birth (in the format 01-January-1972) (1 mark); Current Age (calculated) (2 marks). (b) Enter data for at least 10 staff and highlight all the Senior Staff. (2 marks) (c) On another sheet called \"charts\", plot the pie chart showing the distribution of Male vs Female staff. (3 marks)"
+    },
+    {
+      "year": "2023 test",
+      "number": "1",
+      "topic": "the-microsoft-word-environment",
+      "text": "Which of these is not a command group under the Insert menu tab? (a) Pages (b) Equations (c) Tables (d) Text"
+    },
+    {
+      "year": "2023 test",
+      "number": "2",
+      "topic": "the-microsoft-word-environment",
+      "text": "Which of these is not a command group under the Home menu tab? (a) Clipboard (b) Paragraph (c) Finish (d) Font"
+    },
+    {
+      "year": "2023 test",
+      "number": "3",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Ctrl + Z: (a) redo the last action (b) undo the last action (c) paste the contents from clipboard (d) add the new page"
+    },
+    {
+      "year": "2023 test",
+      "number": "4",
+      "topic": "the-microsoft-word-environment",
+      "text": "In a mail merge operation, which of the following might represent the main document? (a) a sales brochure (b) a form letter (c) a database of names and addresses (d) all of them"
+    },
+    {
+      "year": "2023 test",
+      "number": "5",
+      "topic": "introduction-to-microsoft-office",
+      "text": "What is the default file extension for all Word documents? (a) .txt (b) .docx (c) .docs (d) .word"
+    },
+    {
+      "year": "2023 test",
+      "number": "6",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Word, by default, places a tab stop at every ____ mark on the ruler. (a) .5\" (b) 1\" (c) .25\" (d) .75\""
+    },
+    {
+      "year": "2023 test",
+      "number": "7",
+      "topic": "introduction-to-microsoft-office",
+      "text": "A Microsoft Word file is made up of: (a) points (b) slides (c) pages (d) sheets"
+    },
+    {
+      "year": "2023 test",
+      "number": "8",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "One of these is odd: (a) Column (b) Continuous (c) Odd page (d) Even page"
+    },
+    {
+      "year": "2023 test",
+      "number": "9",
+      "topic": "the-microsoft-word-environment",
+      "text": "How many different types of tabs are there in MS Word? (a) 2 (b) 3 (c) 4 (d) 5"
+    },
+    {
+      "year": "2023 test",
+      "number": "10",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "CTRL + ENTER: (a) will insert a controlled enter sign (b) will insert a page break (c) will insert a manual page break (d) will do none of these"
+    },
+    {
+      "year": "2023 test",
+      "number": "11",
+      "topic": "the-microsoft-word-environment",
+      "text": "The most common view for any Word document is: (a) Web Layout (b) Read Mode (c) Print Layout (d) Outline"
+    },
+    {
+      "year": "2023 test",
+      "number": "12",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "One of these is odd: (a) Column (b) Page (c) Continuous (d) Text Wrapping"
+    },
+    {
+      "year": "2023 test",
+      "number": "13",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "Which of these is not an option in paste special? (a) Formatted Unicode Text (b) HTML Format (c) Format Only (d) Unformatted Text"
+    },
+    {
+      "year": "2023 test",
+      "number": "14",
+      "topic": "editing-and-formatting-word-documents",
+      "text": "What is the smallest and largest font size available in the Font Size tool on the formatting toolbar? (a) 12 and 72 (b) none of them (c) 8 and 64 (d) 8 and 72"
+    },
+    {
+      "year": "2023 test",
+      "number": "15",
+      "topic": "the-microsoft-word-environment",
+      "text": "One of the following options is not a basic menu tab in the ribbon: (a) Format (b) Home (c) Mailings (d) References"
+    }
+  ]
+}

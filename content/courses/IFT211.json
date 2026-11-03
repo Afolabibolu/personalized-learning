@@ -1,0 +1,94 @@
+{
+  "code": "IFT 211",
+  "title": "Digital Logic Design",
+  "semester": 1,
+  "description": "Digital and analogue signals, data representation and signed numbers, binary codes and error detection, logic gates and their properties, Boolean algebra and the canonical forms, Karnaugh maps and combinational design (adders, subtractors and comparators), and sequential circuits, flip-flops, registers and counters. Built from the IFT 211 lecture slides in the course folder's 'arranged' set (1 to 9) and the Tarnoff chapters filed with them.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "data-representation",
+      "title": "Digital Signals and Data Representation",
+      "summary": "Digital signals are discrete in value and time, unlike continuous analogue signals, and digital systems represent all data in binary. Signed integers are stored in sign-magnitude, 1's complement or 2's complement form, and real numbers can use a fixed-point form.",
+      "subtopics": [
+        "Analogue and digital signals",
+        "Features and advantages of digital systems",
+        "Data, information and the four functions of a computer",
+        "Numeric and non-numeric information",
+        "Sign-magnitude, 1's complement and 2's complement",
+        "Unsigned integers and fixed-point representation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "codes-and-error-detection",
+      "title": "Binary Codes and Error Detection",
+      "summary": "Binary codes represent decimal digits (BCD and other weighted or non-weighted codes) and characters (ASCII, EBCDIC, Unicode). Errors in transmission are single-bit or burst errors; parity checks detect them and Hamming codes also correct them.",
+      "subtopics": [
+        "Binary-coded decimal (BCD)",
+        "Weighted and non-weighted codes",
+        "Alphanumeric codes: ASCII, EBCDIC and Unicode",
+        "Single-bit and burst errors",
+        "Simple and two-dimensional parity checks",
+        "Hamming code"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "logic-gates-and-properties",
+      "title": "Logic Gates and Their Properties",
+      "summary": "Logic gates are built from transistors and described by a truth table, a logic symbol and a Boolean expression. NAND and NOR are universal gates; logic families are compared by noise immunity, noise margin, fan-in and fan-out.",
+      "subtopics": [
+        "Logic gates built from transistors",
+        "Truth tables, symbols and expressions",
+        "XOR and XNOR",
+        "Complete sets and universal gates",
+        "Noise, noise immunity and noise margin",
+        "Fan-in and fan-out"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "boolean-algebra-and-standard-forms",
+      "title": "Boolean Algebra and Standard Forms",
+      "summary": "Boolean algebra manipulates binary variables with AND, OR and NOT to simplify functions. Its identities come in dual pairs, and any function can be written in canonical form as a sum of minterms or a product of maxterms.",
+      "subtopics": [
+        "Binary variables and the three basic operations",
+        "Literals, product terms and sum terms",
+        "Boolean identities",
+        "The duality principle",
+        "Truth tables with 2ⁿ rows",
+        "Minterms, maxterms and canonical forms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "k-maps-and-combinational-design",
+      "title": "Karnaugh Maps and Combinational Design",
+      "summary": "Karnaugh maps simplify Boolean functions graphically by grouping adjacent cells that differ in one variable. Combinational design moves from a description to a truth table, expression and simplified circuit, and gives adders, subtractors and comparators.",
+      "subtopics": [
+        "Karnaugh map cells and adjacency",
+        "Grouping 1s to simplify",
+        "The combinational design process",
+        "Half adder, overflow and carry look-ahead",
+        "Subtraction with 2's complement",
+        "Identity and magnitude comparators"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sequential-circuits-counters-and-registers",
+      "title": "Sequential Circuits, Counters and Registers",
+      "summary": "Sequential circuits use feedback and storage, so their outputs depend on present and past inputs. Latches and flip-flops (SR, JK, D and T) store bits; registers move and store binary vectors and counters cycle through 2ⁿ states.",
+      "subtopics": [
+        "Combinational versus sequential circuits",
+        "Latches and edge-triggered flip-flops",
+        "SR, JK, D and T flip-flops",
+        "Asynchronous and synchronous circuits",
+        "Shift registers",
+        "Asynchronous counters, modulus and frequency division"
+      ],
+      "lectures": []
+    }
+  ]
+}

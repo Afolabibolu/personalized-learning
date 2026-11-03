@@ -1,0 +1,68 @@
+{
+  "code": "MTH 102",
+  "books": {
+    "dawkins": {
+      "title": "Calculus I (practice problems and solutions)",
+      "authors": "Paul Dawkins",
+      "publisher": "Paul's Online Notes, Lamar University",
+      "in_course_files": "Calculus 1 Practice Problems Paul Dawkins.pdf"
+    },
+    "schaum": {
+      "title": "3000 Solved Problems in Calculus",
+      "authors": "Elliott Mendelson",
+      "publisher": "McGraw-Hill (Schaum's Outline Series)",
+      "in_course_files": "3000-solved-problems-in-calculus.pdf"
+    }
+  },
+  "topics": {
+    "functions-and-trigonometric-functions": [
+      {
+        "book": "dawkins",
+        "read": "Review chapter (functions, inverse functions, trig functions)",
+        "why": "In the course folder: practice on functions and circular functions."
+      }
+    ],
+    "trigonometric-identities-and-equations": [
+      {
+        "book": "dawkins",
+        "read": "Review chapter (trig functions and trig equations)",
+        "why": "Identities and solving trig equations."
+      }
+    ],
+    "limits-and-continuity": [
+      {
+        "book": "dawkins",
+        "read": "Limits chapter",
+        "why": "Limits, limits at infinity and continuity."
+      }
+    ],
+    "differentiation": [
+      {
+        "book": "dawkins",
+        "read": "Derivatives chapter",
+        "why": "Rules, chain rule, implicit differentiation."
+      }
+    ],
+    "applications-of-differentiation": [
+      {
+        "book": "dawkins",
+        "read": "Applications of Derivatives chapter",
+        "why": "Extrema, the shape of a graph and linear approximation."
+      }
+    ],
+    "techniques-of-integration": [
+      {
+        "book": "schaum",
+        "read": "The chapters on antiderivatives and techniques of integration",
+        "why": "Many solved examples of substitution, parts and partial fractions."
+      }
+    ],
+    "definite-integrals-and-areas": [
+      {
+        "book": "dawkins",
+        "read": "Integrals and Applications of Integrals chapters",
+        "why": "Definite integrals and areas between curves."
+      }
+    ]
+  }
+}

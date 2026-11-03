@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Solve |1 − 4x| ≤ 5.",
+    "options": [
+      {
+        "key": "a",
+        "text": "−1 ≤ x ≤ 3/2"
+      },
+      {
+        "key": "b",
+        "text": "x ≤ −1 or x ≥ 3/2"
+      },
+      {
+        "key": "c",
+        "text": "−3/2 ≤ x ≤ 1"
+      },
+      {
+        "key": "d",
+        "text": "−1 < x < 3/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "−5 ≤ 1 − 4x ≤ 5, then divide by −4 and reverse.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The solution of (5x + 2)(x + 4) < 0 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−4 < x < −2/5"
+      },
+      {
+        "key": "b",
+        "text": "x < −4 or x > −2/5"
+      },
+      {
+        "key": "c",
+        "text": "−2/5 < x < 4"
+      },
+      {
+        "key": "d",
+        "text": "x > −4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The product is negative between the critical values.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "single_choice",
+    "stem": "[−2, 5] ∩ (1, 7) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "(1, 5]"
+      },
+      {
+        "key": "b",
+        "text": "[−2, 7)"
+      },
+      {
+        "key": "c",
+        "text": "(1, 7)"
+      },
+      {
+        "key": "d",
+        "text": "[−2, 5]"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Points in both intervals.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Solve 3 < 3 − 4x < 7.",
+    "options": [
+      {
+        "key": "a",
+        "text": "−1 < x < 0"
+      },
+      {
+        "key": "b",
+        "text": "0 < x < 1"
+      },
+      {
+        "key": "c",
+        "text": "x < −1"
+      },
+      {
+        "key": "d",
+        "text": "−1 < x < 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0 < −4x < 4; divide by −4 and reverse.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "true_false",
+    "stem": "Multiplying both sides of an inequality by a negative number reverses the inequality sign.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "2 < 5 but −2 > −5.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "true_false",
+    "stem": "|x| > a means −a < x < a.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is |x| < a; |x| > a means x > a or x < −a.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true for all real numbers a and b?",
+    "options": [
+      {
+        "key": "a",
+        "text": "a⁴ + b⁴ ≥ 2a²b²"
+      },
+      {
+        "key": "b",
+        "text": "|a + b| ≤ |a| + |b|"
+      },
+      {
+        "key": "c",
+        "text": "(a + b)² ≥ 4ab"
+      },
+      {
+        "key": "d",
+        "text": "a² > b² whenever a > b"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "a > b does not give a² > b² if the numbers are negative.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which interval is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(a, b)"
+      },
+      {
+        "key": "b",
+        "text": "(a, ∞)"
+      },
+      {
+        "key": "c",
+        "text": "(−∞, b)"
+      },
+      {
+        "key": "d",
+        "text": "[a, b]"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "[a, b] is closed; the others are open intervals.",
+    "source": "Ilori, MAT 111 (DLC) text"
+  }
+]

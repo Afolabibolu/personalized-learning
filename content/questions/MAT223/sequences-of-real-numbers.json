@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which sequence is bounded but does not converge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(−1)^n"
+      },
+      {
+        "key": "b",
+        "text": "1/n"
+      },
+      {
+        "key": "c",
+        "text": "n/(n+1)"
+      },
+      {
+        "key": "d",
+        "text": "3 − 1/n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It oscillates between −1 and 1.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is lim (4n² + 3n)/(n² − 6) as n → ∞?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "∞"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Divide top and bottom by n².",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A sequence whose terms get arbitrarily close to each other is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cauchy sequence"
+      },
+      {
+        "key": "b",
+        "text": "monotone sequence"
+      },
+      {
+        "key": "c",
+        "text": "null set"
+      },
+      {
+        "key": "d",
+        "text": "partition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|a_m − a_n| < ε for large m, n.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In proving lim 1/n = 0, which choice of n(ε) works?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Any integer greater than 1/ε"
+      },
+      {
+        "key": "b",
+        "text": "n(ε) = ε"
+      },
+      {
+        "key": "c",
+        "text": "n(ε) = 1"
+      },
+      {
+        "key": "d",
+        "text": "n(ε) = ε²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "We need n > 1/ε.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The limit of a convergent sequence is unique.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Two limits would be less than 2ε apart for every ε.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Every bounded sequence of real numbers converges.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "(−1)^n is a counter-example.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about real sequences are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every convergent sequence is bounded"
+      },
+      {
+        "key": "b",
+        "text": "Every convergent sequence is Cauchy"
+      },
+      {
+        "key": "c",
+        "text": "A bounded monotone sequence converges"
+      },
+      {
+        "key": "d",
+        "text": "Every Cauchy sequence of rationals has a rational limit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Rational Cauchy sequences can tend to √2.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which sequence does not converge?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/n"
+      },
+      {
+        "key": "b",
+        "text": "n/(n+1)"
+      },
+      {
+        "key": "c",
+        "text": "3 − 1/n"
+      },
+      {
+        "key": "d",
+        "text": "84 + (−1)^n"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "It oscillates between 83 and 85.",
+    "source": "MAT 223 past papers"
+  }
+]

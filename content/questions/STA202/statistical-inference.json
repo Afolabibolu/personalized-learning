@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If σ = 35 and n = 9, the standard error of the mean is",
+    "options": [
+      {
+        "key": "a",
+        "text": "11.67"
+      },
+      {
+        "key": "b",
+        "text": "3.89"
+      },
+      {
+        "key": "c",
+        "text": "35"
+      },
+      {
+        "key": "d",
+        "text": "105"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "35/√9.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Failing to reject the null hypothesis when it is false is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Type II error"
+      },
+      {
+        "key": "b",
+        "text": "Type I error"
+      },
+      {
+        "key": "c",
+        "text": "significance level"
+      },
+      {
+        "key": "d",
+        "text": "confidence interval"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its probability is β.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An estimator whose sampling distribution has mean equal to the parameter is",
+    "options": [
+      {
+        "key": "a",
+        "text": "unbiased"
+      },
+      {
+        "key": "b",
+        "text": "biased"
+      },
+      {
+        "key": "c",
+        "text": "an interval estimator"
+      },
+      {
+        "key": "d",
+        "text": "a hypothesis"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x̄ is unbiased for μ.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With χ² = 5.8 on 1 degree of freedom, the decision is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reject H0 at α = 0.05"
+      },
+      {
+        "key": "b",
+        "text": "Accept H0 at α = 0.05"
+      },
+      {
+        "key": "c",
+        "text": "Reject H0 at α = 0.01"
+      },
+      {
+        "key": "d",
+        "text": "Accept H1 at α = 0.01"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5.8 exceeds 3.84 but not 6.63.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A correlation coefficient close to 1 indicates a strong positive linear relationship.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "r ranges from −1 to +1.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A z-test is used when the population standard deviation is unknown and the sample is small.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That calls for a t-test.",
+    "source": "General knowledge of STA 202"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are hypothesis tests covered in Lecture 6?",
+    "options": [
+      {
+        "key": "a",
+        "text": "t-tests"
+      },
+      {
+        "key": "b",
+        "text": "ANOVA"
+      },
+      {
+        "key": "c",
+        "text": "Non-parametric tests"
+      },
+      {
+        "key": "d",
+        "text": "The binomial theorem"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The binomial theorem is algebra.",
+    "source": "STA 204 Lecture 6 (Follow-up class: summary statistics, tests, regression)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a measure or test of relationship between variables?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Correlation coefficient"
+      },
+      {
+        "key": "b",
+        "text": "Regression"
+      },
+      {
+        "key": "c",
+        "text": "Chi-square test of association"
+      },
+      {
+        "key": "d",
+        "text": "Quartile deviation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Quartile deviation measures spread.",
+    "source": "General knowledge of STA 202"
+  }
+]

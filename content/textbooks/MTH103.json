@@ -1,0 +1,64 @@
+{
+  "code": "MTH 103",
+  "books": {
+    "stroud": {
+      "title": "Engineering Mathematics",
+      "authors": "K. A. Stroud with Dexter J. Booth",
+      "edition": "7th edition",
+      "publisher": "Palgrave Macmillan",
+      "year": 2013,
+      "note": "A standard first-year mathematics textbook; the course folder has lecture notes only."
+    }
+  },
+  "topics": {
+    "coordinate-geometry-of-lines": [
+      {
+        "book": "stroud",
+        "read": "The programmes on coordinate geometry and graphs",
+        "why": "Straight lines, gradients and intercepts."
+      }
+    ],
+    "circles-and-polar-coordinates": [
+      {
+        "book": "stroud",
+        "read": "The programmes on coordinate geometry and polar coordinates",
+        "why": "Equations of circles and polar coordinates."
+      }
+    ],
+    "conic-sections": [
+      {
+        "book": "stroud",
+        "read": "The programme on coordinate geometry (conic sections)",
+        "why": "Parabola, ellipse and hyperbola."
+      }
+    ],
+    "vectors-and-their-products": [
+      {
+        "book": "stroud",
+        "read": "The programme on vectors",
+        "why": "Components, dot and cross products."
+      }
+    ],
+    "lines-and-planes-in-space": [
+      {
+        "book": "stroud",
+        "read": "The programme on vectors",
+        "why": "Vector equations of lines and planes."
+      }
+    ],
+    "kinematics-and-projectiles": [
+      {
+        "book": "stroud",
+        "read": "The programmes on differentiation and its applications",
+        "why": "Velocity and acceleration as derivatives."
+      }
+    ],
+    "dynamics-and-moment-of-inertia": [
+      {
+        "book": "stroud",
+        "read": "The programme on applications of integration (moments of inertia)",
+        "why": "Moments of inertia by integration."
+      }
+    ]
+  }
+}

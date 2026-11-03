@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who described entrepreneurship as \"creative destruction\"?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Joseph Schumpeter"
+      },
+      {
+        "key": "b",
+        "text": "Richard Cantillon"
+      },
+      {
+        "key": "c",
+        "text": "Jean-Baptiste Say"
+      },
+      {
+        "key": "d",
+        "text": "Ronald Burt"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Innovation disrupts existing markets.",
+    "source": "ENT 211-2 Theories of Entrepreneurship"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theorist saw the entrepreneur as a risk-bearer who buys at certain prices and sells at uncertain ones?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Richard Cantillon"
+      },
+      {
+        "key": "b",
+        "text": "Peter Drucker"
+      },
+      {
+        "key": "c",
+        "text": "Joseph Schumpeter"
+      },
+      {
+        "key": "d",
+        "text": "Jean-Baptiste Say"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He is called the father of economic theory.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The word \"entrepreneur\" comes from a French word meaning",
+    "options": [
+      {
+        "key": "a",
+        "text": "to undertake"
+      },
+      {
+        "key": "b",
+        "text": "to trade"
+      },
+      {
+        "key": "c",
+        "text": "to invent"
+      },
+      {
+        "key": "d",
+        "text": "to manage"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Entreprendre means to undertake.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Corporate entrepreneurship within an existing organisation is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "intrapreneurship"
+      },
+      {
+        "key": "b",
+        "text": "social entrepreneurship"
+      },
+      {
+        "key": "c",
+        "text": "self-employment"
+      },
+      {
+        "key": "d",
+        "text": "franchising"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Employees innovate inside the firm.",
+    "source": "ENT 211-1 Foundations of Entrepreneurship (Dr O. Sigbeku)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Successful entrepreneurs take extreme, uncalculated risks.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They take calculated risks.",
+    "source": "ENT 211-1 Foundations of Entrepreneurship (Dr O. Sigbeku)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The entrepreneurial process is a continuous, non-linear cycle.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Entrepreneurs revisit earlier stages.",
+    "source": "ENT 211-1 Foundations of Entrepreneurship (Dr O. Sigbeku)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are stages of the entrepreneurial process in Module 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Discovery or ideation"
+      },
+      {
+        "key": "b",
+        "text": "Opportunity evaluation"
+      },
+      {
+        "key": "c",
+        "text": "Growth and scaling"
+      },
+      {
+        "key": "d",
+        "text": "Liquidation of all assets first"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Planning, launch and exit are the others.",
+    "source": "ENT 211-1 Foundations of Entrepreneurship (Dr O. Sigbeku)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four perspectives on entrepreneurship in Module 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic"
+      },
+      {
+        "key": "b",
+        "text": "Sociological"
+      },
+      {
+        "key": "c",
+        "text": "Psychological"
+      },
+      {
+        "key": "d",
+        "text": "Astrological"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is management.",
+    "source": "ENT 211-2 Theories of Entrepreneurship"
+  }
+]

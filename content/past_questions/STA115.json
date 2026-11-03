@@ -1,0 +1,766 @@
+{
+  "code": "STA 115",
+  "papers": [
+    {
+      "year": "2022 test",
+      "paper": "STA 115 Test 2022 (online objective test, 30 questions)",
+      "source": "STA 115 TEST 2022.pdf"
+    },
+    {
+      "year": "2023 second test",
+      "paper": "STA 115 Second Test, 2023 (online objective test, Section 2, 20 questions)",
+      "source": "Sta 115 test questions.pdf; STA 115 2nd Test.pdf (screenshots of the same test)"
+    },
+    {
+      "year": "2018 test",
+      "paper": "STA 115 test set by Dr O.I. Shittu, 25 July 2018",
+      "source": "Dr. Shittu Test.pdf"
+    },
+    {
+      "year": "2016/17 test",
+      "paper": "STA 115 (Probability I) 2016/2017 test",
+      "source": "sta 115 qyues.pdf, page 7"
+    },
+    {
+      "year": "undated test",
+      "paper": "STA 115 (Probability I) test, undated (the header is torn)",
+      "source": "sta 115 qyues.pdf, page 6"
+    },
+    {
+      "year": "2015/16",
+      "paper": "STA 112 Probability I, 2015/2016 B.Sc. degree examination (set as STA 112, this course's former code)",
+      "source": "sta 115 qyues.pdf, pages 1, 2, 10 and 11"
+    },
+    {
+      "year": "2010/11",
+      "paper": "STA 112 Probability I, 2010/2011 B.Sc. examination, 16 April 2012 (set as STA 112, this course's former code; only the first page, Questions 1 to 3, is in the file)",
+      "source": "sta 115 qyues.pdf, page 9"
+    },
+    {
+      "year": "2009",
+      "paper": "STA 112 Probability I sessional examination, 24 December 2009 (set as STA 112, this course's former code). Questions 4 to 6 are from a page filed with it whose header is not on the page",
+      "source": "sta 115 qyues.pdf, pages 5 and 8"
+    },
+    {
+      "year": "DLC, undated",
+      "paper": "STA 112 Probability, Distance Learning Centre paper, undated (set as STA 112, this course's former code). Questions 4 and 5 are from the page filed after it",
+      "source": "sta 115 qyues.pdf, pages 3 and 4"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2022 test",
+      "number": "1",
+      "topic": "counting-techniques",
+      "text": "What is the number of ways that 4 boys and 3 girls can be seated in a row so that girls and boys alternate? A. 12 B. 72 C. 120 D. 144"
+    },
+    {
+      "year": "2022 test",
+      "number": "2",
+      "topic": "counting-techniques",
+      "text": "A necklace consisting of 8 distinct beads is to be made in a round rope. In how many ways can this be done? A. 540 B. 10080 C. 750 D. 10620"
+    },
+    {
+      "year": "2022 test",
+      "number": "3",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Four people Musa, Obi, Adekunle and Eyo play a game of chance five times. Their chances of winning are equal. What is the probability that Musa wins in every game? A. 0.6032 B. 0.00977 C. 0.02637 D. 0.2373"
+    },
+    {
+      "year": "2022 test",
+      "number": "4",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Assume that P(A) = 0.5, P(A ∩ C) = 0.2, P(C) = 0.4, P(B) = 0.4, P(A ∩ B ∩ C) = 0.1, P(B ∩ C) = 0.2, and P(A ∩ B) = 0.2. Calculate P((Aᶜ) ∩ (B ∪ C)). A. 0.2 B. 0.3 C. 0.4 D. 0.5"
+    },
+    {
+      "year": "2022 test",
+      "number": "5",
+      "topic": "counting-techniques",
+      "text": "How many numbers of 4 digits divisible by 5 can be formed with digits 0, 2, 5, 6 and 9? A. 48 B. 44 C. 46 D. 42"
+    },
+    {
+      "year": "2022 test",
+      "number": "6",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "The probability of winning the first prize in a lottery of a girl is 8/100. If the total of 6000 tickets are sold, then how many tickets the girl purchased? A. 480 B. 750 C. 280 D. none of the above"
+    },
+    {
+      "year": "2022 test",
+      "number": "7",
+      "topic": "discrete-distributions",
+      "text": "Out of 500 families with 5 children each, how many would you expect to have exactly 2 boys? A. 150 B. 156 C. 163 D. 290"
+    },
+    {
+      "year": "2022 test",
+      "number": "8",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A and B are two independent events with respective probabilities 0.3 and 0.45. Find Prob(A ∪ B). A. 0.135 B. 0.75 C. 0.3 D. 0.615"
+    },
+    {
+      "year": "2022 test",
+      "number": "9",
+      "topic": "counting-techniques",
+      "text": "A committee of 5 is to be formed from 6 gentlemen and 4 ladies. In how many ways can this be done, if the committee includes at least one lady? A. 240 B. 232 C. 235 D. 246"
+    },
+    {
+      "year": "2022 test",
+      "number": "10",
+      "topic": "counting-techniques",
+      "text": "Find the number of ways of arranging the letters of the words DANGER, so that no vowel occupies odd place. A. 26 B. 48 C. 144 D. 96"
+    },
+    {
+      "year": "2022 test",
+      "number": "11",
+      "topic": "counting-techniques",
+      "text": "How many different three-letter sequences can be formed from the letters A, B, C and D if letter repetition is permissible and order matters? A. 24 ways B. 64 ways C. 56 ways D. 128 ways"
+    },
+    {
+      "year": "2022 test",
+      "number": "12",
+      "topic": "counting-techniques",
+      "text": "If ¹⁶P(r−1) : ¹⁵P(r−1) = 16 : 7 then find r. A. 10 B. 12 C. 7 D. 8"
+    },
+    {
+      "year": "2022 test",
+      "number": "13",
+      "topic": "discrete-distributions",
+      "text": "If 20% of the bolts produced by a machine are bad. Determine the probability that out of 4 bolts chosen at random, at most 2 bolts will be defective. A. 0.0272 B. 0.5871 C. 0.2121 D. 0.9728"
+    },
+    {
+      "year": "2022 test",
+      "number": "14",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Let the random variable X be equally likely to assume any of the values 1/8, 1/4 or 3/8. Determine the variance of X. A. 0.1345 B. 0.25625 C. 0.0272 D. 0.015625"
+    },
+    {
+      "year": "2022 test",
+      "number": "15",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "If the range of X is the set {0, 1, 2, 3, 4} and P(X = x) = 0.2. The mean of X is A. 2.2 B. 2.3 C. 2.0 D. 2.1"
+    },
+    {
+      "year": "2022 test",
+      "number": "16",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A balanced coin and a fair die are rolled once. What is the probability of having a head and an even number? A. 1/3 B. 1/6 C. 1/4 D. 1/2"
+    },
+    {
+      "year": "2022 test",
+      "number": "17",
+      "topic": "counting-techniques",
+      "text": "In a colony, there are 55 members. Every member posts a greeting card to all the members. How many greeting cards were posted by them? A. 990 B. 890 C. 2970 D. 1980"
+    },
+    {
+      "year": "2022 test",
+      "number": "18",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Given that E(X + 4) = 10 and E[(X + 4)²] = 116. Find Var(X). A. 48 B. 6 C. 18 D. 16"
+    },
+    {
+      "year": "2022 test",
+      "number": "19",
+      "topic": "total-probability-and-bayes-rule",
+      "text": "The contents of two baskets Bi (i = 1, 2) are B1 (2 red balls) and B2 (1 red ball and 1 white ball). A basket is selected at random and a ball is drawn from it. The drawn ball (called an event A) turns out to be a red ball. Compute P(A). A. 3/4 B. 1/4 C. 1/2 D. 1"
+    },
+    {
+      "year": "2022 test",
+      "number": "20",
+      "topic": "counting-techniques",
+      "text": "4 couples are to take a shot in a wedding part. In how many ways can this be done if each couple must stand next to each other? A. 24 B. 48 C. 192 D. 384"
+    },
+    {
+      "year": "2022 test",
+      "number": "21",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Which one of the following statements is not true? A. Random variables constitute a subset of variables B. There are discrete random variables. C. All variables are random. D. There are continuous random variables."
+    },
+    {
+      "year": "2022 test",
+      "number": "22",
+      "topic": "counting-techniques",
+      "text": "If nPr = 3024 and nCr = 126 then find n and r. A. 9, 4 B. 4, 2 C. 12, 4 D. 11, 4"
+    },
+    {
+      "year": "2022 test",
+      "number": "23",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Which of the following statements is not a variable? A. Sex B. Ability C. Age; last birth day D. Tossing a fair coin twice"
+    },
+    {
+      "year": "2022 test",
+      "number": "24",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Consider the random variable X, which takes the values 1, 2, 3, and 4 with probabilities 0.2, 0.3, 0.1 and 0.4 respectively. Calculate the expected value of X. A. 2.7 B. 3.0 C. 2.5 D. 2.0"
+    },
+    {
+      "year": "2022 test",
+      "number": "25",
+      "topic": "discrete-distributions",
+      "text": "Flip a coin 3 times. Let X be the number of heads obtained. Obtain the probability of obtaining 2 heads. A. 0.5 B. 0.125 C. 0.25 D. 0.40"
+    },
+    {
+      "year": "2022 test",
+      "number": "26",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "A random variable can assume only the values 1 and 3. If its mean is 8/3, find the probabilities for those two points. A. (1/4, 3/4) B. (1/5, 4/5) C. (1/3, 2/3) D. (1/6, 5/6)"
+    },
+    {
+      "year": "2022 test",
+      "number": "27",
+      "topic": "counting-techniques",
+      "text": "In how many ways can we select 6 people out of 10, of which a particular person is not included? A. 10C3 B. 9C5 C. 9C6 D. 9C4"
+    },
+    {
+      "year": "2022 test",
+      "number": "28",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Let X represent the sum of points in rolling two fair dice once. Compute P(X > 7). A. 10/36 B. 5/36 C. 20/36 D. 15/36"
+    },
+    {
+      "year": "2022 test",
+      "number": "29",
+      "topic": "counting-techniques",
+      "text": "Number of circular permutations of different things taken all at a time is n!. True or False?"
+    },
+    {
+      "year": "2022 test",
+      "number": "30",
+      "topic": "counting-techniques",
+      "text": "Find the sum of all four digit numbers that can be formed by the digits 1, 3, 5, 7, 9 without repetition. A. 666700 B. 666600 C. 678860 D. 665500"
+    },
+    {
+      "year": "2023 second test",
+      "number": "1",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "The strength of the wire produced by Company A has a mean of 4500kg and a standard deviation of 200kg. Company B has a mean of 4000kg and a standard deviation of 300kg. If 50 wires of Company A and 100 wires of Company B are selected at random and tested for strength, what is the probability that the sample mean strength of A will be at least 600kg more than that of B? A. 0.75 B. 0.075 C. 0.0075 D. 0.00075"
+    },
+    {
+      "year": "2023 second test",
+      "number": "2",
+      "topic": "discrete-distributions",
+      "text": "If 20% of the bolts produced by a machine are bad. Determine the probability that out of 4 bolts chosen at random, at most 2 bolts will be defective. A. 0.0272 B. 0.5871 C. 0.2121 D. 0.9728"
+    },
+    {
+      "year": "2023 second test",
+      "number": "3",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "The proportions of survivals of tuberculosis patients treated in two wards of a clinic A of an herbalist are A = (1/5, 2/5) while the proportions of those treated successfully in 3 wards of clinic B of the herbalist are B = (1/2, 1/3, 1/6). Samples of unit size each are drawn from the clinics. The mean of the sampling distribution of the sum of sample proportions is A. 19/20 B. 18/20 C. 17/30 D. 19/30"
+    },
+    {
+      "year": "2023 second test",
+      "number": "4",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Job's collection contains US, Indian and British stamps. If the ratio of US to Indian stamps is 5 to 2 and the ratio of Indian to British stamps is 5 to 1, what is the ratio of US to British stamps? A. 5:1 B. 10:5 C. 15:2 D. 25:2"
+    },
+    {
+      "year": "2023 second test",
+      "number": "5",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "A population is made up of two Yorubas, one Ibo and one Hausa. Suppose we draw all possible samples of size 2 with replacement from the population and take the attribute as the proportion of Yorubas in the population. The standard error of the sample proportion is A. √(1/2) B. √(1/4) C. √(1/8) D. √(1/12)"
+    },
+    {
+      "year": "2023 second test",
+      "number": "6",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Suppose a box contains 50 defective light bulbs, 100 partially defective light bulbs (last only 3 hours), and 250 good light bulbs. If one of the bulbs from the box is used and it does not immediately go out, what is the probability the bulb is actually a good light bulb? A. 5/7 B. 5/8 C. 6/7 D. 6/8"
+    },
+    {
+      "year": "2023 second test",
+      "number": "7",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Assume that P(A) = 0.5, P(A ∩ C) = 0.2, P(C) = 0.4, P(B) = 0.4, P(A ∩ B ∩ C) = 0.1, P(B ∩ C) = 0.2, and P(A ∩ B) = 0.2. Calculate P((Aᶜ) ∩ (B ∪ C)). A. 0.2 B. 0.3 C. 0.4 D. 0.5"
+    },
+    {
+      "year": "2023 second test",
+      "number": "8",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "Suppose we have a population consists of 1000 groups. If a sample of size five consisting of groups with values 7, 8, 20, 15 and 35 are drawn from the population, the estimate of the total population is given as A. 17500 B. 15500 C. 17000 D. 16500"
+    },
+    {
+      "year": "2023 second test",
+      "number": "9",
+      "topic": "normal-distribution",
+      "text": "If Z is N(0,1), find P(Z > 2.89). A. 0.0019 B. 0.9981 C. 0.0413 D. 0.1587"
+    },
+    {
+      "year": "2023 second test",
+      "number": "10",
+      "topic": "discrete-distributions",
+      "text": "If 40% of cocoa seed bought by a produce buyer are defective, find the probability that out of 5 cocoa seed selected at random, exactly 3 are defective. A. 0.2304 B. 0.07776 C. 0.2592 D. 0.3456"
+    },
+    {
+      "year": "2023 second test",
+      "number": "11",
+      "topic": "discrete-distributions",
+      "text": "Out of 500 families with 5 children each, how many would you expect to have exactly 2 boys? A. 150 B. 156 C. 163 D. 290"
+    },
+    {
+      "year": "2023 second test",
+      "number": "12",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "Ten percent of machines produced by company A are defective and five percent of those produced by company B are defective. A random sample of 250 machines is taken from company A and a random sample of 300 machines from B. What is the probability that the difference in sample proportion is less than or equal to 0.02? A. 0.1825 B. 0.2185 C. 0.1528 D. 0.2518"
+    },
+    {
+      "year": "2023 second test",
+      "number": "13",
+      "topic": "normal-distribution",
+      "text": "Scores on a particular standardized test follow a normal distribution with a mean of 100 and standard deviation of 10. What is the probability that a randomly selected individual will score 90? A. 0.9332 B. 0.1587 C. 0.7745 D. 0.2816"
+    },
+    {
+      "year": "2023 second test",
+      "number": "14",
+      "topic": "normal-distribution",
+      "text": "[Following question 13: scores are normal with mean 100 and standard deviation 10.] The value of c that satisfies P(X ≤ c) = 0.90 is approximately A. 113 B. 112 C. 110 D. 80"
+    },
+    {
+      "year": "2023 second test",
+      "number": "15",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "Let a population be a family consisting of 2 boys and 1 girl. Suppose we draw all possible samples of size 2 from the population with replacement and taking the attribute as the proportion of boys in the population, the standard error for proportion is A. 2/3 B. 5/6 C. 1/2 D. 1/3"
+    },
+    {
+      "year": "2023 second test",
+      "number": "16",
+      "topic": "normal-distribution",
+      "text": "Given that X is distributed according to N(11, 0.04). Find P(10.6 < X < 11.2). A. 0.8413 B. 0.9972 C. 0.1815 D. 0.8185"
+    },
+    {
+      "year": "2023 second test",
+      "number": "17",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "A fair die is rolled twice. Let event B be sum of the two rolls. Let A be the event of maximum of the two rolls. The marginal distribution of A is A. (2a−1)/36 B. (2a+1)/36 C. (3a−5)/36 D. (3a+5)/36"
+    },
+    {
+      "year": "2023 second test",
+      "number": "18",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "A manager in the billing section of a mobile phone company checks on the proportion of customers who are paying their bills late. Suppose past records indicate that the proportion of all invoices that were paid late is 20 percent. In a random sample of 140 invoices, determine the probability that more than 28 percent invoices are paid late. A. 0.00082 B. 0.0082 C. 0.082 D. 0.82"
+    },
+    {
+      "year": "2023 second test",
+      "number": "19",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "Suppose X is N(104, 0.625), calculate the probability P(103 < x̄ < 105). A. 0.8904 B. 0.8049 C. 0.4098 D. 0.4809"
+    },
+    {
+      "year": "2023 second test",
+      "number": "20",
+      "topic": "discrete-distributions",
+      "text": "Five percent of the inhabitants of a village who were attacked by cholera died. Find the probability that out of a sample 60 cholera patients selected at random in the village, exactly two will die. A. 0.20 B. 0.22 C. 0.80 D. 0.05"
+    },
+    {
+      "year": "2018 test",
+      "number": "1",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Let X and Y have the joint density function f(x, y) = A(x − y)², for 0 < x < 1 and 0 < y < 1, 0 otherwise. (a) Obtain the value of A. (b) Find P(X < 1/2 | y < 1/4). (c) Find P(X < 1/2 | y = 1/4)."
+    },
+    {
+      "year": "2018 test",
+      "number": "2",
+      "topic": "sampling-distributions-and-estimation",
+      "text": "Assume a population with 5 elements: X1 = 2, X2 = 3, X3 = 4, X4 = 5, X5 = 6. (a) Calculate µ and σ². (b) Obtain all the possible samples of size 3 taken without replacement. (c) Find the probability distribution of the sample means. (d) Show that E(X̄) = µ and that S.E(X̄) = σ²/n as n → ∞."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "1a",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "An urn contains 5 red and 15 green balls. Draw one ball at random from the urn. Let X = 1 if the ball is red and X = 0 if a green ball is drawn. Obtain (i) the p.d.f of X (ii) the mean of X (iii) the variance of X."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "1b",
+      "topic": "discrete-distributions",
+      "text": "If 20% of the bolts produced by a machine are bad. Determine the probability that out of 4 bolts chosen at random, (i) one is defective (ii) none is defective (iii) at most 2 bolts will be defective."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "1c",
+      "topic": "discrete-distributions",
+      "text": "Let X have a Poisson distribution with mean of λ = 3. Find (i) P(X = 2) (ii) P(X = 0) (iii) P(X = 3 or 4)."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "2a",
+      "topic": "discrete-distributions",
+      "text": "Write the density function of Hypergeometric distribution and prove the mean."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "2b",
+      "topic": "normal-distribution",
+      "text": "Given the normal distribution with mean µ = 55 and standard deviation σ = 16, calculate P(51 < X < 59)."
+    },
+    {
+      "year": "2016/17 test",
+      "number": "2c",
+      "topic": "normal-distribution",
+      "text": "Using normal tables, find the values of the following probability. (i) P(Z < 0.50) (ii) P(Z < −2.50) (iii) P(1.62 < Z < 2.20) (iv) P(−1.50 < Z < 2.50)."
+    },
+    {
+      "year": "undated test",
+      "number": "1a",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Define the following concepts in probability: (i) An experiment (ii) A trial (iii) An outcome (iv) Sample space (v) An event."
+    },
+    {
+      "year": "undated test",
+      "number": "1b",
+      "topic": "counting-techniques",
+      "text": "Differentiate between combination and permutation."
+    },
+    {
+      "year": "undated test",
+      "number": "1c",
+      "topic": "total-probability-and-bayes-rule",
+      "text": "If an aircraft is present in a certain area, radar correctly registers its presence with probability 0.99. If it is not present, the radar falsely registers an aircraft presence with probability 0.10. We assume that an aircraft is present with probability 0.05. What is the probability of false alarm (a false indication of aircraft presence) and the probability of missed detection (nothing registers, even though an aircraft is present)?"
+    },
+    {
+      "year": "undated test",
+      "number": "1d",
+      "topic": "total-probability-and-bayes-rule",
+      "text": "Apply Bayes' rule to find the probability of aircraft given radar registers."
+    },
+    {
+      "year": "undated test",
+      "number": "2a",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "For each of the following, determine the constant A so that f(t) satisfies the condition of being a p.d.f for a random variable. (i) f(t) = t/A, t = 1, 2, 3, 4 (ii) f(t) = At, t = 1, 2, 3, ..., 10 (iii) f(t) = A(t + 1)², t = 0, 1, 2, 3."
+    },
+    {
+      "year": "undated test",
+      "number": "2b",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "A machine produced copper wire, and occasionally there was a flaw at some point along the wire. The length of wire (in metres) produced between successive flaws is a continuous variable T with p.d.f of the form f(t) = A(1 + t)⁻³ for t > 0, and 0 for t ≤ 0. Obtain the value of A, where A is a constant."
+    },
+    {
+      "year": "undated test",
+      "number": "2c",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "In the table below compute mean and variance of X: X = 0, 1, 2, 3 with f(x) = 3/10, 3/10, 1/10, 3/10."
+    },
+    {
+      "year": "undated test",
+      "number": "2d",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Let Y be a continuous random variable with p.d.f f(y) = 2y, 0 < y < 1. Obtain E(Y) and Var(Y)."
+    },
+    {
+      "year": "2015/16",
+      "number": "A1",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Three unbiased coins are tossed, what is the probability of getting at least two tails? (a) 1/3 (b) 1/6 (c) 1/2 (d) 1/8"
+    },
+    {
+      "year": "2015/16",
+      "number": "A2",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Two dice are thrown simultaneously. What is the probability of getting two numbers whose product is even? (a) 3/4 (b) 1/4 (c) 7/4 (d) 1/2"
+    },
+    {
+      "year": "2015/16",
+      "number": "A3",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "In a box, there are 8 red, 7 blue and 6 green balls. One ball is picked up randomly. What is the probability that it is neither blue nor green? (a) 2/3 (b) 8/21 (c) 3/7 (d) 9/22"
+    },
+    {
+      "year": "2015/16",
+      "number": "A4",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A box contains 20 electric bulbs, out of which 4 are defective. Two bulbs are chosen at random from this box. The probability that at least one of these is defective is (a) 7/19 (b) 6/19 (c) 5/19 (d) 4/19"
+    },
+    {
+      "year": "2015/16",
+      "number": "A5",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "If P(E) is the probability that an event will occur, which of the following must be false? (a) P(E) = 1 (b) P(E) = 1/2 (c) P(E) = 1/3 (d) P(E) = −1"
+    },
+    {
+      "year": "2015/16",
+      "number": "A6",
+      "topic": "counting-techniques",
+      "text": "A lunch menu consists of 4 different sandwiches, 2 different soups, and 3 different drinks. How many choices are there for ordering a sandwich, a bowl of soup, and a drink? (a) 21 choices (b) 24 choices (c) 9 choices (d) 34 choices"
+    },
+    {
+      "year": "2015/16",
+      "number": "A7",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "On an 8-question true-or-false test you randomly guess at the answers. What is the probability that you get all 8 answers correct? What is the probability that you get all 8 answers wrong? (a) 1/256; 255/256 (b) 1/256; 1/256 (c) 1/2; 1/2 (d) 1/8; 7/8"
+    },
+    {
+      "year": "2015/16",
+      "number": "A8",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A survey of teenagers found the music preferences listed: Country 12, Jazz 5, Rock 7, Classical 6, New Age 6, Others 4. If you pick a teenager at random, what is P(rock)? (a) 33/40 (b) 1/7 (c) 7/40 (d) 1"
+    },
+    {
+      "year": "2015/16",
+      "number": "A9",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A bag contains 7 green marbles and 9 white marbles. Suppose a marble is randomly selected. What are the odds in favor of picking a white marble? (a) 9 to 7 (b) 7 to 16 (c) 7 to 9 (d) 9 to 16"
+    },
+    {
+      "year": "2015/16",
+      "number": "A10",
+      "topic": "counting-techniques",
+      "text": "Ms. Wong is redecorating her office. She has a choice of 8 colors of paint, 3 kinds of curtains, 6 colors of carpet, and 2 styles of furniture. How many different ways are there to redecorate if she can choose two different colors of paint, one kind of curtain, one color of carpet, and one style of furniture? (a) 288 ways (b) 2016 ways (c) 2304 ways (d) 27 ways"
+    },
+    {
+      "year": "2015/16",
+      "number": "A11",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "You select a letter at random from MATHEMATICS. Without replacing the letter, you select a second letter. Find P(T, then a vowel). (a) 3/55 (b) 8/121 (c) 6/121 (d) 4/55"
+    },
+    {
+      "year": "2015/16",
+      "number": "A12",
+      "topic": "counting-techniques",
+      "text": "Consider the table: STYLE: Regular, Loose fit, Boot cut, Slim fit; COLOUR: Light blue, Indigo, Washed, Black, Blue. a. How many possible pairs of jeans are there if each pair has one style and one color? b. Suppose you have one pair of jeans of each possible style and color in the table. What is the probability of choosing a pair of black jeans at random? (a) 30 pairs; 1/4 (b) 9 pairs; 1/20 (c) 20 pairs; 1/5 (d) 4 pairs; 1/5"
+    },
+    {
+      "year": "2015/16",
+      "number": "A13",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Which of the following pairs of events are mutually exclusive? (a) the odd numbers; the number 5 (b) the even numbers; the numbers greater than 10 (c) the numbers less than 5; all negative numbers (d) the numbers above 100; the numbers less than −200"
+    },
+    {
+      "year": "2015/16",
+      "number": "A14",
+      "topic": "normal-distribution",
+      "text": "The centre of a normal curve is: (a) always equal to zero (b) is the mean of the distribution (c) cannot be negative (d) is the standard deviation"
+    },
+    {
+      "year": "2015/16",
+      "number": "A15",
+      "topic": "discrete-distributions",
+      "text": "A hypergeometric distribution is used if one of the following conditions is met: (a) more than two outcomes are possible (b) The samples must not be random (c) Selections are not replaced (d) None of the above"
+    },
+    {
+      "year": "2015/16",
+      "number": "B1a",
+      "topic": "discrete-distributions",
+      "text": "Briefly describe a Bernoulli experiment."
+    },
+    {
+      "year": "2015/16",
+      "number": "B1b",
+      "topic": "discrete-distributions",
+      "text": "Show that the mean and variance of a random variable X which has a binomial distribution are np and npq respectively (n is the number of trials, p is the probability of success and q is the probability of failure)."
+    },
+    {
+      "year": "2015/16",
+      "number": "B1c",
+      "topic": "discrete-distributions",
+      "text": "A coin is loaded in such a way that a tail is thrice as likely to appear as a head. If the coin is tossed 5 times, find the probability that: (i) at least two tails appear (ii) at most three tails appear."
+    },
+    {
+      "year": "2015/16",
+      "number": "B2a",
+      "topic": "normal-distribution",
+      "text": "(i) State the probability density function (p.d.f.) of a random variable X that has a normal distribution. (ii) When do we have a standard normal distribution? State its p.d.f."
+    },
+    {
+      "year": "2015/16",
+      "number": "B2b",
+      "topic": "normal-distribution",
+      "text": "A multiple choice test has 200 questions each with 4 possible answers of which only one is the correct answer. What is the probability that guesswork gives from 25 to 30 correct answers for 80 of 200 problems about which the candidate has no knowledge?"
+    },
+    {
+      "year": "2015/16",
+      "number": "B2c",
+      "topic": "normal-distribution",
+      "text": "Show that the mean of a normal random variable X is µ."
+    },
+    {
+      "year": "2015/16",
+      "number": "B3a",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Define the following terms: (i) Event (ii) Sample space (iii) A random experiment (iv) Independent events (v) Mutually exhaustive events."
+    },
+    {
+      "year": "2015/16",
+      "number": "B3b",
+      "topic": "counting-techniques",
+      "text": "Distinguish between the concepts of permutation and combination."
+    },
+    {
+      "year": "2015/16",
+      "number": "B3c",
+      "topic": "counting-techniques",
+      "text": "Use the binomial expansion formula to evaluate (1.0025)⁶, correct to 4 decimal places."
+    },
+    {
+      "year": "2010/11",
+      "number": "1a",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Define the following terms: (i) Experiment (ii) Outcome (iii) Mutually Exclusive Events (iv) Sample Space."
+    },
+    {
+      "year": "2010/11",
+      "number": "1b",
+      "topic": "counting-techniques",
+      "text": "Prove the following: (i) C(n, r) = C(n − 1, r − 1) + C(n − 1, r) (ii) C(n, r) = nPr / r!"
+    },
+    {
+      "year": "2010/11",
+      "number": "1c",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A man tosses two fair dice once. What is the probability that the sum of the two dice will be seven, given that (a) the sum is odd (b) the sum is greater than 6?"
+    },
+    {
+      "year": "2010/11",
+      "number": "2a",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "A coin is tossed three times. Let X be a random variable defined as: X = 0, 1, 2, 3 with P(X = x) = a, 3/8, b, 1/8. (i) Obtain the values of a and b. (ii) Show that the probability function is indeed a true probability distribution function. (iii) Compute E(X) and V(X) of the appearance of the head."
+    },
+    {
+      "year": "2010/11",
+      "number": "2b",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "Given that f(y) = 1/2 − ky, 0 ≤ y ≤ 4. (i) Calculate k (ii) Find Pr(1 < y < 2) (iii) E(Y) (iv) E(Y³) (v) V(Y)."
+    },
+    {
+      "year": "2010/11",
+      "number": "3a",
+      "topic": "discrete-distributions",
+      "text": "The probability that Jacob beats Isaac in a game of Ayo = 0.8. Find the probability that in 5 such games, Jacob will beat Isaac (a) exactly 4 times (b) between 1 and 3 times (c) between 3 and 5 times inclusive (d) at least two times (e) at most three times."
+    },
+    {
+      "year": "2010/11",
+      "number": "3b",
+      "topic": "discrete-distributions",
+      "text": "The number of deaths by road as recorded in a country is 2 per 50,000 of the population. Find the probability that in a town of 100,000 inhabitants within the country (a) between one and three inclusive, (b) between two and five deaths by road will be recorded."
+    },
+    {
+      "year": "2009",
+      "number": "1a",
+      "topic": "counting-techniques",
+      "text": "(i) Distinguish between permutation and combination. (ii) How many numbers greater than 2000 can be formed using the digits 1, 3, 4, 5, 6?"
+    },
+    {
+      "year": "2009",
+      "number": "2a",
+      "topic": "counting-techniques",
+      "text": "Determine the coefficient of x⁸ in (x² + 1/x)¹⁰. Use the generalized binomial theorem to expand (1 + x)^(1/2) up to the term in x³ and hence determine (1.05)^(1/2) to 5 decimal places."
+    },
+    {
+      "year": "2009",
+      "number": "2b",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Two students are chosen at random from a class consisting of eighteen boys and twelve girls. What is the probability that two students selected are (i) both boys (ii) both girls (iii) both of the same sex (iv) a boy and a girl?"
+    },
+    {
+      "year": "2009",
+      "number": "3a",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Explain the following terms as used in probability theory: (i) Sample Space (ii) An Experiment (iii) Mutually exclusive events (iv) Independent events."
+    },
+    {
+      "year": "2009",
+      "number": "3b",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A box contains ten numbered identical balls. A ball is picked at random with replacement from the box; consider the events A = {x : x ≤ 4} and B = {x : x is even}. Are the two events A and B independent?"
+    },
+    {
+      "year": "2009",
+      "number": "4a",
+      "topic": "discrete-distributions",
+      "text": "Among the 16 applicants for a job, ten have college degrees. If three of the applicants are randomly chosen for interviews, what is the probability that (i) none has a college degree (ii) one has a college degree?"
+    },
+    {
+      "year": "2009",
+      "number": "4b",
+      "topic": "counting-techniques",
+      "text": "Find the value of n if 3·C(n + 1, 3) = 7·C(n, 2)."
+    },
+    {
+      "year": "2009",
+      "number": "5a",
+      "topic": "discrete-distributions",
+      "text": "Compute the Mean and Variance of a Binomial Distribution."
+    },
+    {
+      "year": "2009",
+      "number": "5b",
+      "topic": "discrete-distributions",
+      "text": "In an International Film Festival, a panel of 11 judges is formed to judge the best film. At least two films FA and FB were considered to be the best where the opinion of judges got divided. Six judges were in favour of FA whereas five in favour of FB. A random sample of five judges was drawn from the panel. Find the probability that out of five judges: (i) three are in favour of film FA (ii) at least one is in favour of film FA (iii) two are in favour of film FB (iv) at most three are in favour of film FB."
+    },
+    {
+      "year": "2009",
+      "number": "6a",
+      "topic": "random-variables-expectation-and-joint-distributions",
+      "text": "The probability density function of the continuous random variable X is given by f(x) = 1/5, 2 < x ≤ 7. Find (i) F(x) (ii) Pr(3 < x < 5)."
+    },
+    {
+      "year": "2009",
+      "number": "6b",
+      "topic": "discrete-distributions",
+      "text": "Show that the mean and variance of a Poisson distribution is λ."
+    },
+    {
+      "year": "DLC, undated",
+      "number": "1",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Define the following: (i) Sample Space (ii) Independent events (iii) A trial (iv) Mutually exclusive events (v) An Experiment."
+    },
+    {
+      "year": "DLC, undated",
+      "number": "2",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "A bag contains 3 black and 2 white balls. A ball is taken from the bag with replacement, a second ball is taken. What is the probability that (a) both are black (b) one is black and the other is white in that order?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "3",
+      "topic": "counting-techniques",
+      "text": "Differentiate between Permutation and Combination."
+    },
+    {
+      "year": "DLC, undated",
+      "number": "4",
+      "topic": "counting-techniques",
+      "text": "If nCr represents the number of combinations of n items taken r at a time, what is the value of Σ (r = 1 to n) nCr?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "5",
+      "topic": "counting-techniques",
+      "text": "A sack contains 12 books numbered 1 to 12. A random sample of 5 books is drawn (without replacement). What is the probability that: (a) the largest number chosen is 8 (b) the median number in the sample is 8?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "6",
+      "topic": "counting-techniques",
+      "text": "How many different ways can 3 red, 4 yellow and 2 blue bulbs be arranged in a string of Christmas light with 9 sockets?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "Q4a",
+      "topic": "axiomatic-and-conditional-probability",
+      "text": "Explain the following methods of assigning probability to events: (i) Classical method (ii) Axiomatic method (iii) Subjective method."
+    },
+    {
+      "year": "DLC, undated",
+      "number": "Q4b",
+      "topic": "discrete-distributions",
+      "text": "(i) Give three properties of a binomial experiment. (ii) A fair coin is tossed five times. Find the probability that (a) exactly three heads occur (b) at least three heads occur (c) no head occurs (d) at least one head occurs."
+    },
+    {
+      "year": "DLC, undated",
+      "number": "Q5a",
+      "topic": "discrete-distributions",
+      "text": "A large consignment of items contains 40% defective. Items are drawn until a defective item is found. What is the probability that (i) three draws will be required to find a defective item (ii) fewer than three draws will be required to find a defective item?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "Q5b",
+      "topic": "discrete-distributions",
+      "text": "A box contains 7 red balls and 3 white balls. 5 balls are chosen at random without replacement; what is the probability that (i) 4 will be red (ii) at most 2 will be white?"
+    },
+    {
+      "year": "DLC, undated",
+      "number": "Q5c",
+      "topic": "normal-distribution",
+      "text": "Given the standard normal random variable Z, find (iii) P(0.7 ≤ Z ≤ 1.4) (iv) P(0.96 ≤ Z < 2.08). [Parts (i) and (ii) are illegible in the scan.]"
+    }
+  ]
+}

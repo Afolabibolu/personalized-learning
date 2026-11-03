@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A car's 440 Hz horn is heard as 415 Hz by a cyclist following at 108 km/h (v = 343 m/s). The car's speed is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "189 km/h"
+      },
+      {
+        "key": "b",
+        "text": "108 km/h"
+      },
+      {
+        "key": "c",
+        "text": "220 km/h"
+      },
+      {
+        "key": "d",
+        "text": "It cannot be determined"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "415 = 440(343 + 30)/(343 + vₛ).",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A source approaching a stationary observer is heard at",
+    "options": [
+      {
+        "key": "a",
+        "text": "A higher frequency"
+      },
+      {
+        "key": "b",
+        "text": "A lower frequency"
+      },
+      {
+        "key": "c",
+        "text": "The same frequency"
+      },
+      {
+        "key": "d",
+        "text": "Zero frequency"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Wavefronts bunch up ahead of the source.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A source moving at the speed of sound produces",
+    "options": [
+      {
+        "key": "a",
+        "text": "A bow (shock) wave"
+      },
+      {
+        "key": "b",
+        "text": "No sound at all"
+      },
+      {
+        "key": "c",
+        "text": "A lower pitch ahead"
+      },
+      {
+        "key": "d",
+        "text": "A standing wave"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The wavefronts pile up.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Sound cannot travel through",
+    "options": [
+      {
+        "key": "a",
+        "text": "A vacuum"
+      },
+      {
+        "key": "b",
+        "text": "Water"
+      },
+      {
+        "key": "c",
+        "text": "Steel"
+      },
+      {
+        "key": "d",
+        "text": "Air"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It needs a medium.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "If source and observer move in the same direction at the same speed, the observer hears the emitted frequency.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "There is no relative approach.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Doppler formula still works for observers in front of a source moving at the speed of sound.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The denominator v − vₛ becomes zero.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are applications of the Doppler effect?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Police speed radar"
+      },
+      {
+        "key": "b",
+        "text": "Blood-flow meters"
+      },
+      {
+        "key": "c",
+        "text": "Measuring the speeds of stars"
+      },
+      {
+        "key": "d",
+        "text": "Measuring a liquid's density"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Density is measured with a hydrometer.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which property of sound is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pitch"
+      },
+      {
+        "key": "b",
+        "text": "Loudness"
+      },
+      {
+        "key": "c",
+        "text": "Quality (timbre)"
+      },
+      {
+        "key": "d",
+        "text": "Polarisation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Longitudinal sound waves cannot be polarised.",
+    "source": "General knowledge of PHY 104"
+  }
+]

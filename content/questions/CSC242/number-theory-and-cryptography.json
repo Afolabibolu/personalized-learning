@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is gcd(48, 72)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "24"
+      },
+      {
+        "key": "b",
+        "text": "12"
+      },
+      {
+        "key": "c",
+        "text": "8"
+      },
+      {
+        "key": "d",
+        "text": "144"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "24 is the largest common divisor.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Using the Euclidean algorithm, gcd(287, 91) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "7"
+      },
+      {
+        "key": "b",
+        "text": "14"
+      },
+      {
+        "key": "c",
+        "text": "13"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "287 = 3·91 + 14, 91 = 6·14 + 7, and 7 divides 14.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "15, 17 and 27 are pairwise relatively prime.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "gcd(15, 27) = 3.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With A = 0, the Caesar cipher f(p) = (p + 3) mod 26 encrypts K as",
+    "options": [
+      {
+        "key": "a",
+        "text": "N"
+      },
+      {
+        "key": "b",
+        "text": "H"
+      },
+      {
+        "key": "c",
+        "text": "M"
+      },
+      {
+        "key": "d",
+        "text": "L"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "K = 10, and 13 is N.",
+    "source": "cryptograpy.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Every integer greater than 1 is a product of primes"
+      },
+      {
+        "key": "b",
+        "text": "a · b = gcd(a, b) · lcm(a, b)"
+      },
+      {
+        "key": "c",
+        "text": "a ≡ b (mod m) when m divides a − b"
+      },
+      {
+        "key": "d",
+        "text": "1 is a prime number"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A prime must be greater than 1.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Caesar cipher"
+      },
+      {
+        "key": "b",
+        "text": "Shift cipher"
+      },
+      {
+        "key": "c",
+        "text": "Affine cipher"
+      },
+      {
+        "key": "d",
+        "text": "Euclidean algorithm"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The Euclidean algorithm finds a gcd; the others are ciphers.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The classical ciphers in the course are examples of private key ciphers.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The same secret key encrypts and decrypts.",
+    "source": "cryptograpy.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the lectures, Caesar shifted each letter forward by",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "13"
+      },
+      {
+        "key": "d",
+        "text": "26"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "His cipher is the shift cipher with key 3.",
+    "source": "cryptograpy.pdf"
+  }
+]

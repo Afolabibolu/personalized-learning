@@ -1,0 +1,55 @@
+{
+  "code": "STA 202",
+  "books": {
+    "wackerly": {
+      "title": "Mathematical Statistics with Applications",
+      "authors": "Dennis D. Wackerly, William Mendenhall and Richard L. Scheaffer",
+      "publisher": "Cengage Learning",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "descriptive-statistics": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on describing data",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ],
+    "counting-methods": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on probability and counting",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ],
+    "probability": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on probability",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ],
+    "random-variables-and-distributions": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on discrete and continuous random variables",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ],
+    "mathematical-expectation": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on expected values",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ],
+    "statistical-inference": [
+      {
+        "book": "wackerly",
+        "read": "The chapter on estimation and hypothesis testing",
+        "why": "The mathematical statistics text in the course folder."
+      }
+    ]
+  }
+}

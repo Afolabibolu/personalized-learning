@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which is the first stage of design thinking?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Empathize"
+      },
+      {
+        "key": "b",
+        "text": "Define"
+      },
+      {
+        "key": "c",
+        "text": "Ideate"
+      },
+      {
+        "key": "d",
+        "text": "Test"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The five stages are empathize, define, ideate, prototype and test.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A fictional but research-based profile of a typical user is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "persona"
+      },
+      {
+        "key": "b",
+        "text": "wireframe"
+      },
+      {
+        "key": "c",
+        "text": "storyboard"
+      },
+      {
+        "key": "d",
+        "text": "heuristic"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It gives the team a reference point.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A skeletal layout showing structure without visual style is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "wireframe"
+      },
+      {
+        "key": "b",
+        "text": "persona"
+      },
+      {
+        "key": "c",
+        "text": "journey map"
+      },
+      {
+        "key": "d",
+        "text": "survey"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Prototypes add interactivity.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Observing and questioning users in their real environment is",
+    "options": [
+      {
+        "key": "a",
+        "text": "contextual inquiry"
+      },
+      {
+        "key": "b",
+        "text": "A/B testing"
+      },
+      {
+        "key": "c",
+        "text": "heuristic evaluation"
+      },
+      {
+        "key": "d",
+        "text": "wireframing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is a user research method.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "true_false",
+    "stem": "The stages of design thinking are strictly linear and never revisited.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are non-linear and loop back.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the lecture's iterative example, a login screen's success rose from 60% to over 95% across three cycles.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each cycle fixed specific problems.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are user research methods in Lecture 5?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interviews"
+      },
+      {
+        "key": "b",
+        "text": "Surveys"
+      },
+      {
+        "key": "c",
+        "text": "Field studies"
+      },
+      {
+        "key": "d",
+        "text": "Compiling code"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Contextual inquiry is another.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the five stages of design thinking?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Define"
+      },
+      {
+        "key": "b",
+        "text": "Ideate"
+      },
+      {
+        "key": "c",
+        "text": "Prototype"
+      },
+      {
+        "key": "d",
+        "text": "Market"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are empathize and test.",
+    "source": "INS 202 Lecture 5 User-Centred Design"
+  }
+]

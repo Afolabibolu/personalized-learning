@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Who invented the World Wide Web in 1989?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tim Berners-Lee"
+      },
+      {
+        "key": "b",
+        "text": "Linus Torvalds"
+      },
+      {
+        "key": "c",
+        "text": "Rasmus Lerdorf"
+      },
+      {
+        "key": "d",
+        "text": "Bill Gates"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "He was working at CERN.",
+    "source": "Web Application Development course content.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which stage of the Web is called the read-write Web?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Web 2.0"
+      },
+      {
+        "key": "b",
+        "text": "Web 1.0"
+      },
+      {
+        "key": "c",
+        "text": "Web 3.0"
+      },
+      {
+        "key": "d",
+        "text": "Web 0.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It brought user-generated content.",
+    "source": "Web Application Development course content.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A website that generates pages automatically using server-side programming and databases is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a dynamic website"
+      },
+      {
+        "key": "b",
+        "text": "a static website"
+      },
+      {
+        "key": "c",
+        "text": "a framework"
+      },
+      {
+        "key": "d",
+        "text": "a web browser"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Examples are Facebook and student portals.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is a Python web framework?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Django"
+      },
+      {
+        "key": "b",
+        "text": "Laravel"
+      },
+      {
+        "key": "c",
+        "text": "Symfony"
+      },
+      {
+        "key": "d",
+        "text": "CodeIgniter"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The others are PHP frameworks.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Internet is an infrastructure, while the World Wide Web is a service that runs on it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The Web uses HTTP/HTTPS.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A static website is usually connected to a database.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Static sites use HTML and CSS only, with no database.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are responsibilities of server-side technologies?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Business logic"
+      },
+      {
+        "key": "b",
+        "text": "Authentication"
+      },
+      {
+        "key": "c",
+        "text": "Database access"
+      },
+      {
+        "key": "d",
+        "text": "Animation in the browser"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Animation is client-side.",
+    "source": "Web Application Development course content.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a phase of the software development lifecycle in the lesson?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirement analysis"
+      },
+      {
+        "key": "b",
+        "text": "Testing"
+      },
+      {
+        "key": "c",
+        "text": "Deployment"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Design, development and maintenance are the others.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  }
+]

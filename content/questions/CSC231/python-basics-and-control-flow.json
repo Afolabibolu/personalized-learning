@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Python is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "dynamically typed language"
+      },
+      {
+        "key": "b",
+        "text": "statically typed language"
+      },
+      {
+        "key": "c",
+        "text": "machine language"
+      },
+      {
+        "key": "d",
+        "text": "markup language"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A variable's type is decided at run time from its value.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does input() return?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A string"
+      },
+      {
+        "key": "b",
+        "text": "An integer"
+      },
+      {
+        "key": "c",
+        "text": "A float"
+      },
+      {
+        "key": "d",
+        "text": "A list"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Convert it with int() or float() before arithmetic.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which expression tests whether n is even?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n % 2 == 0"
+      },
+      {
+        "key": "b",
+        "text": "n / 2 == 0"
+      },
+      {
+        "key": "c",
+        "text": "n // 2 == 1"
+      },
+      {
+        "key": "d",
+        "text": "n ** 2 == 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "% gives the remainder.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What numbers does range(1, 11) produce?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 to 10"
+      },
+      {
+        "key": "b",
+        "text": "1 to 11"
+      },
+      {
+        "key": "c",
+        "text": "0 to 10"
+      },
+      {
+        "key": "d",
+        "text": "0 to 11"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "range stops before its end value.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Python marks blocks of code with indentation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It does not use braces for blocks.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Python data types?",
+    "options": [
+      {
+        "key": "a",
+        "text": "int"
+      },
+      {
+        "key": "b",
+        "text": "str"
+      },
+      {
+        "key": "c",
+        "text": "list"
+      },
+      {
+        "key": "d",
+        "text": "fprintf"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "fprintf is a MATLAB function.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a Python loop or decision keyword?",
+    "options": [
+      {
+        "key": "a",
+        "text": "if"
+      },
+      {
+        "key": "b",
+        "text": "elif"
+      },
+      {
+        "key": "c",
+        "text": "while"
+      },
+      {
+        "key": "d",
+        "text": "elsewhen"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Python uses if, elif, else, for and while.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A while loop suits a task where the number of repetitions is not known in advance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It repeats until its condition becomes false.",
+    "source": "General knowledge of CSC 231 (no course file covered this topic)"
+  }
+]

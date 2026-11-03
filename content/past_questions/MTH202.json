@@ -1,0 +1,432 @@
+{
+  "code": "MTH 202",
+  "papers": [
+    {
+      "year": "2007/2008",
+      "paper": "MAT 241: Ordinary Differential Equations (Monday, January 28, 2008). Answer any three questions (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, page 10 (MTH 202 folder; first page only)"
+    },
+    {
+      "year": "2009/2010",
+      "paper": "MAT 241, B.Sc., B.Ed Degree Examinations 2009/2010 Session (Monday, May 10, 2010). Answer any four questions (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, page 8 (MTH 202 folder; first page only)"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "paper": "MAT 241: Ordinary Differential Equations, Distance Learning Centre, B.Sc. Degree Examination 2010/2011 (April 2012). Answer any four questions (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, page 1 (MTH 202 folder; first page only)"
+    },
+    {
+      "year": "2010/2011",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2010/2011 (Monday, May 23, 2011). Answer four questions (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, pages 3 and 4 (MTH 202 folder)"
+    },
+    {
+      "year": "2011/2012",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2011/2012 (Monday, July 2, 2012). Answer three questions (set as MAT 241, this course's former code)",
+      "source": "MAT 241 past questions-1.pdf, page 6 (first page only)"
+    },
+    {
+      "year": "2011/2012 test",
+      "paper": "MAT 241 Test, 2011/2012 (Thursday, July 14, 2012). Answer all questions (set as MAT 241, this course's former code)",
+      "source": "MAT 241 past questions-1.pdf, page 5"
+    },
+    {
+      "year": "2012/2013",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2012/2013 (April 29, 2013). Answer four questions (set as MAT 241, this course's former code)",
+      "source": "MAT 241 past questions-1.pdf, page 2"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2013/2014 (Monday, September 8, 2014). Attempt any four questions (set as MAT 241, this course's former code)",
+      "source": "MAT 241 past questions-1.pdf, pages 3 and 4"
+    },
+    {
+      "year": "2014/2015",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2014/2015 (Monday, August 3, 2015). Attempt any four questions (set as MAT 241, this course's former code)",
+      "source": "MAT 241 past questions-1.pdf, page 1"
+    },
+    {
+      "year": "2015/2016",
+      "paper": "MAT 241 (Ordinary Differential Equations), 2015/2016 First Semester (Monday, 18 July, 2016). Answer four questions in all; two from each section (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, pages 14 and 15 (MTH 202 folder)"
+    },
+    {
+      "year": "2016/2017",
+      "paper": "MAT 241: Ordinary Differential Equations, First Semester 2016/2017 (July 2017). The header is torn in the copy (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, pages 16 and 17 (MTH 202 folder)"
+    },
+    {
+      "year": "2017/2018",
+      "paper": "MAT 241: Ordinary Differential Equation, 2017/2018 (Monday, 13 August, 2018). Answer any three questions (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, pages 18 and 19 (MTH 202 folder)"
+    },
+    {
+      "year": "2018/2019",
+      "paper": "MAT 241: Ordinary Differential Equation, 2018/2019 (Monday, 30 September, 2019). Answer all of Section A and any one question in Section B (set as MAT 241, this course's former code)",
+      "source": "ODE PQ.pdf, pages 20 and 21 (MTH 202 folder)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2011/2012",
+      "number": "1",
+      "topic": "the-operator-d-method",
+      "text": "(a) Solve the first order ordinary differential equation (4xy + 3y² − x)dx + x(x + 2y)dy = 0. (b) Compute the inverse differential operator in the expression (1/((D − 3)(D + 4)))e^(−x). (c) Use the operator D method to find the particular solution of y'' − y = 2e^x."
+    },
+    {
+      "year": "2011/2012",
+      "number": "2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "Given the third order non-homogeneous ordinary differential equation d³y/dx³ − 6d²y/dx² + 11dy/dx − 6y = e^x (1): (a) find the complementary solution of (1); (b) using the method of variation of parameter, solve equation (1); (c) if y(0) = 7/4, y'(0) = 13/4 and y''(0) = 7/4, find the particular solution of the ordinary differential equation (1)."
+    },
+    {
+      "year": "2011/2012",
+      "number": "3",
+      "topic": "difference-equations",
+      "text": "(a)(i) Determine the difference equation whose solution is y_n = C1(3)^n + C0(−4)^n. (ii) Show that y_n = C1(−2)^n + nC2(−2)^n is a solution of the difference equation y_(n+2) + 4y_(n+1) + 4y_n = 0. (b) Solve the difference equation using the method of undetermined coefficient: y_(n+2) − 5y_(n+1) + 6y_n = 2n² + 3."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "1",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "Compute the quadratic interpolation for F(0.8) given that F(0.5) = 0.479, F(1.0) = 0.841, F(2.0) = 0.909."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "2",
+      "topic": "difference-equations",
+      "text": "Solve the difference equation: y_(n+2) − 5y_(n+1) + 6y_n = 4·5^n."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "3",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "Consider the nth order homogenous linear ordinary differential equation a0 dⁿy/dxⁿ + a1 dⁿ⁻¹y/dxⁿ⁻¹ + ... + an y = 0, a0 ≠ 0 (1), and a0, a1, ..., an are real constants. If a0 mⁿ + a1 mⁿ⁻¹ + ... + a(n−1)m + a0 = 0 (2) is the characteristic equation associated with the equation (1), state the three possible cases of (2) and the corresponding general solution of (1) in each case."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "4",
+      "topic": "the-operator-d-method",
+      "text": "(a) Compute the inverse differential operator in the expression (1/(D² + 4))e^(−3x). (b) Use the operator D method to find the particular solution of y'' + y = 2e^x."
+    },
+    {
+      "year": "2012/2013",
+      "number": "1",
+      "topic": "first-order-differential-equations",
+      "text": "Solve the following first order ordinary differential equations: (a) (x² + xy)dy/dx = xy − y² (b) 3x(xy − 2)dx + (x³ + 2y)dy = 0 (c) dy/dx + y cot x = cos x."
+    },
+    {
+      "year": "2012/2013",
+      "number": "2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "Consider the following equations: (i) (D² + D − 2)y = 2x − 40 cos 2x (ii) (D² − 5D + 6)y = x². (a) Use the method of undetermined coefficients to solve (i) and (ii). (b) Use the operator D method to solve (i) and (ii)."
+    },
+    {
+      "year": "2012/2013",
+      "number": "3",
+      "topic": "difference-equations",
+      "text": "(a) Form a difference equation from the equation y = Ax² − Bx. (b) Solve the difference equation y_(n+3) − 6y_(n+2) + 12y_(n+1) − 8y_n = 3·2^n. (c) An amoeba population has an initial size of 1500. It is observed that on the average, one out of every ten amoeba reproduces by cell division every hour. (i) Approximately, how many amoeba will be there after 25 hours? (ii) If a link from another container is introducing 40 additional amoeba into the population every hour, how many will be there after 25 hours?"
+    },
+    {
+      "year": "2012/2013",
+      "number": "4",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Evaluate the following integral ∫ from 0 to π/2 of (6 + 3 cos x)dx (i) analytically (ii) Simpson's 1/3 rule with n = 4 (iii) determine the absolute relative error. (b) Give the line(s) of matlab codes necessary to approximate the integral using the trapZ command."
+    },
+    {
+      "year": "2012/2013",
+      "number": "5",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) Given the nth order homogeneous linear ordinary differential equation a0 dⁿy/dxⁿ + a1 dⁿ⁻¹y/dxⁿ⁻¹ + ... + a(n−1) dy/dx + an y = 0 (1) such that a0 ≠ 0, a0, a1, ..., an are real constants: (i) find the characteristic equation of (1); (ii) suppose that a + ib and a − ib are each K-fold roots of the characteristic equation of (1); find the general solution. (b) Find the general solution of y⁽⁴⁾ − 4y''' + 14y'' − 20y' + 25y = 0."
+    },
+    {
+      "year": "2013/2014",
+      "number": "1",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "Given an nth order linear differential equation y⁽ⁿ⁾ + a1 y⁽ⁿ⁻¹⁾ + ... + an y = f(x), x ∈ I (*): (a) find a particular solution if y = c1 y1(x) + c2 y2(x) + ... + cn yn(x) is the solution of the homogeneous part of the equation (*); (b) state the characteristic/auxiliary equation corresponding to the equation (*); (c) from the question (b), list two possible solutions of the homogeneous part of the ordinary differential equation (*) according to the possible nature of roots of the characteristics equation."
+    },
+    {
+      "year": "2013/2014",
+      "number": "2",
+      "topic": "difference-equations",
+      "text": "(a) Determine the difference equation whose solution is given by y_n = C1(2^n) + C2(−2)^n + 3^n. (b) Solve the difference equation y_(n+2) − 4y_n = n² + n − 1. (c) (a) Show that y_n = (C1 + nC2)(2^n) is a solution of the difference equation y_(n+2) − 4y_(n+1) + 4y_n = 0 [2.1]. (b) Hence, determine the particular solution of (2.1) satisfying the initial conditions y0 = 1 and y1 = 3."
+    },
+    {
+      "year": "2013/2014",
+      "number": "3",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Use the Simpson Rule to approximate ∫ from 1 to 1.5 of x² ln x dx, and find a bound for the error. (b) Write a Matlab code on the command prompt that implements the integral ∫ from a to b of x⁵ sin x dx. The function must take as input the limits a and b; and h as the step size. How does changing the value of h affect the result? (c) How many subintervals must be used in the composite Trapezoidal Rule to approximate ∫ from 0 to 2 of e^(−x²)dx, with an error less than 10^(−8)?"
+    },
+    {
+      "year": "2013/2014",
+      "number": "4",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Solve these differential equations: (i) (x + 2y)dx + (2x + y)dy = 0 (ii) dy/dx + ((2x + 1)/x)y = e^(−2x). (b) Suppose an object is heated to 300°F and allowed to cool in a room where temperature is 80°F. If after 10 minutes, the temperature is 250°F, what will be its temperature after 20 minutes?"
+    },
+    {
+      "year": "2013/2014",
+      "number": "5",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Find the Lagrange interpolation of the function f(x) = ln 9.2 given the table below: x = 9.0, 9.5, 10.0, 11; f(x) = 2.19722, 2.25129, 2.30259, 2.39790. (b) Let X and Y represent two real values, let X* and Y*, E_x and E_y represent their respective approximations and errors. Show that the sum of their errors (E_x + E_y) equals the difference of the sums of the real values (X + Y) and the approximated values (X* + Y*). Hence, find the sum of the error (E_x + E_y) if X = 1.139, Y = 1.423, X* = X^(2), Y* = Y^(2)."
+    },
+    {
+      "year": "2013/2014",
+      "number": "4 (second page)",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Let x = 0.1428571, show that |E| = |x − x^(d)| ≤ (1/2) × 10^(−d), where d = 3. (b) Derive a differential equation from the equation y = −A sin ax + B cos ax. (c) Use the Lagrange Interpolation Polynomial to find the value of ln 9.2 from the table: x = 9.0, 9.5, 10.0, 11.0; ln x = 2.19722, 2.25129, 2.30259, 2.39790."
+    },
+    {
+      "year": "2014/2015",
+      "number": "1",
+      "topic": "introduction-to-odes",
+      "text": "(a) The equation y⁽ⁿ⁾ = f(x, y, y', ..., y⁽ⁿ⁻¹⁾) is an ordinary differential equation of the nth order. When is a function φ(x) said to be a solution of the differential equation on α ≤ x ≤ β? (b) Obtain the differential equation of the form y'' = f(x, y, y') using the canonical conics x²/(a² + λ) + y²/(b² + λ) = 1, with a and b fixed. (Hint: eliminate λ) (c) Given the differential equation y'' − y' − 6y = 0, show that the function y = c1 e^(−2x) + c2 e^(3x) involving two constants c1 and c2 is the general solution."
+    },
+    {
+      "year": "2014/2015",
+      "number": "2",
+      "topic": "introduction-to-odes",
+      "text": "The radioactive isotope thorium 234 disintegrates at a rate proportional to the amount present. If 100 milligrams of this material is reduced to 82.04 milligrams in one week. Let Q(t) be the amount of thorium 234 present at any time t, where Q is measured in milligrams and t in days, (a) find an expression for the amount of Q(t) present at any time t; (b) find the time interval that must elapse in order for the mass to decay to one half of its original value."
+    },
+    {
+      "year": "2014/2015",
+      "number": "3",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Solve the differential equation x²y dy/dx = x³ + y³. (b) Verify whether the differential equation (cos 2y − 3x²y²)dx + (cos 2y − 2x sin 2y − 2x³y)dy = 0 is exact or not. Hence or otherwise solve the differential equation. (c) Write the differential equation y²dx + (3xy − 1)dy = 0 in the form dx/dy + p(y)x = q(y) and determine the integrating factor. Solve the equation."
+    },
+    {
+      "year": "2014/2015",
+      "number": "4",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "(a) Solve using the operator technique the differential equation (D + 1)(D − 3)y = e^(3x) + x². (b) Solve using the variation of parameters the differential equation y'' + 4y = csc 2x. (c) Using the method of undetermined coefficient, determine the general solution y'' − 5y' + 6y = 50 sin 4x."
+    },
+    {
+      "year": "2014/2015",
+      "number": "5",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) (i) Let f(x) = x + 2/x. Use the quadratic Langrange interpolation based on the nodes x0 = 1, x1 = 2, and x2 = 2.5 to approximate f(1.5). (ii) Obtain the absolute error when the function f(x) = 2.5e^(1.5x) is differentiated numerically by the forward difference method with Δx = 0.1 at x = 3. (b) (i) Write a MatLab Code using the command 'trapez' to solve ∫ from 0 to π of e^(sin x)dx. (ii) Using 4 subintervals in the composite trapezium rule, and working to 6 decimal places approximate ∫ from 0 to 1 of cosh(x)dx."
+    },
+    {
+      "year": "2014/2015",
+      "number": "6",
+      "topic": "difference-equations",
+      "text": "(a) Obtain the difference equation satisfied by the primitive equation U_n = A + B4^n. (Hint: eliminate A and B) (b) Show that the solution of the homogeneous equation U_(r+1) − 4^r U_r = 0 given U1 = 2 is 2(4^(r(r−1)/2)). (c) Solve the difference equation U_(n+2) − 6U_(n+1) + 9U_n = 0, U0 = 0, U1 = 1."
+    },
+    {
+      "year": "2007/2008",
+      "number": "1",
+      "topic": "first-order-differential-equations",
+      "text": "(a) By applying a suitable transformation, express the Bernoulli equation dy/dx + P(x)y = Q(x)yⁿ, n ≠ 0, 1 as a linear ODE. (b) Solve the Bernoulli equation dy/dx + xy = xy³. (c) Show that if H(y) is a known function of y, then the ODE (d/dy)H(y) dy/dx + P(x)H(y) = R(x) may be expressed as a linear ODE by applying a suitable transformation. (d) Hence, solve the differential equation e^(λy) dy/dx + (1/λ)(sin x)e^(λy) = x ln x, λ ≠ 0."
+    },
+    {
+      "year": "2007/2008",
+      "number": "2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "(a) Find the general solution of the third order ODE y''' − 2y'' + 3y = 5e^(−x). (b) Find the general solution of the second order ODE y'' + y = 1 + x² + tan x by any suitable method. (c) Let W(y1, y2)(x) be the Wronskian of the two linearly independent solutions of the homogeneous problem y'' + a0y' + a1y = 0 on an interval I ⊆ R. (The rest of the question is not in the copy.)"
+    },
+    {
+      "year": "2009/2010",
+      "number": "1",
+      "topic": "first-order-differential-equations",
+      "text": "(a) State a necessary and sufficient condition for the differential equation M(x, y)dx + N(x, y)dy = 0 (1.1) to be (i) separable, (ii) homogeneous, (iii) exact. Hence solve the equation y sin x dx + cos x dy = 0 (1.2). (b) Obtain an integrating factor for the O.D.E. dy/dx + A(x)y = B(x) (1.3). Hence, or otherwise, solve cot x dy/dx + y = cos x (1.4). (c) Solve the following difference equations: (i) y_(n+2) + 8y_(n+1) − 9y_n = 3ⁿ (ii) y_(n+2) − 2y_(n+1) + 4y_n = 0."
+    },
+    {
+      "year": "2009/2010",
+      "number": "2",
+      "topic": "introduction-to-odes",
+      "text": "(a) Obtain the differential equation associated with the primitive function y = Ae^x + B sin x (2.1), where A and B are arbitrary constants. (b) The tangent to a curve is such that the product of its X-intercept and its Y-intercept vanishes. Express this as differential equation. Of what order and degree is the equation you obtain? (c) Given that dv/dt = p/(R + p²v) (2.2), where R and p are known fixed constants, show that t = Rv/p + (1/2)pv² (2.3) if v = 0 when t = 0."
+    },
+    {
+      "year": "2009/2010",
+      "number": "3",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Outline the procedures for solving the Bernoulli equation y'(x) + a(x)y = b(x)yⁿ (3.1). (The rest of the question is not in the copy.)"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "1",
+      "topic": "difference-equations",
+      "text": "(a) (i) Let y_n denote the number of students that registered for MAT 241 in semester n, and y_(n+j) be the subsequent size in semester n + j, j ≥ 1. Let b_k, k ≥ 1 be positive constants. Obtain an expression for the fourth order linear Difference Equation. (ii) Suppose a constant sum S is deposited at the end of each fixed period in a bank that pays interest rate r per period. Let A_n be the amount accumulated in the bank after n periods. Write a difference equation that describes the accumulated amount in the bank at any time n. (b) Is the differential equation (x + 2y)dx + (2xy)dy = 0 (1) exact? (c) Hence, solve differential equation (1)."
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "2",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) Consider the differential equation Ay''(v) + By'(v) + Cy(v) = D(v) (2). Obtain the general solution of equation (2) if A = 0. (b) Find the general solution of (2x − 4y + 5)dy − (x − 2y + 3)dx = 0. (c) Show that the solutions of y_(n+2) − 7y_(n+1) + 6y_n = 0 are linearly independent."
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "3",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) Obtain the differential equation associated with y(x) = pe^(−2x) + qe^(3x), where p, q are constants. (b) Find the general solution of x²y'' − 2xy' + 2y = x² ln x."
+    },
+    {
+      "year": "2010/2011",
+      "number": "1",
+      "topic": "first-order-differential-equations",
+      "text": "Determine the solution to the following differential equations: (a) x² + xy dy/dx = xy − y² (b) 3x(xy − 2)dx + (x³ + 2y)dy = 0 (c) (1 − x²)dy/dx − xy = 1 (d) 2y − 3dy/dx = y⁴e^(3x)."
+    },
+    {
+      "year": "2010/2011",
+      "number": "2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "(a) Solve the equation y'' + y' − 2y = 2x − 40 cos 2x. Using the method of undetermined coefficients. (b) Find a homogeneous linear equation with real, constant coefficients that is satisfied by (i) y = 6 + 3xe^x − cos x (ii) y = 4xe^x sin 2x."
+    },
+    {
+      "year": "2010/2011",
+      "number": "3",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) What do you understand by (i) linearly independent functions? (ii) Wronskian of n functions? (b) State the nature of solutions of y⁽ⁿ⁾ + a1y⁽ⁿ⁻¹⁾ + a2y⁽ⁿ⁻²⁾ + ... + an y = 0 corresponding to different types of roots of the auxiliary equation mⁿ + a1mⁿ⁻¹ + a2mⁿ⁻² + ... + an = 0. (c) Given a third order ordinary differential equation y''' − 3y'' − y' + 3y = xe^x (1.1): (i) obtain the linearly independent solutions of the homogeneous associated with equation (1.1); (ii) using variation of parameter, find the general solution of (1.1)."
+    },
+    {
+      "year": "2010/2011",
+      "number": "4",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Use Simpson's one third rule to evaluate ∫ from 0.2 to 1.4 of xe^(−2x)dx. (b) Given that the exact value is 0.1768, find the absolute relative error. (c) Derive the trapezoidal rule of integration. (d) Write the first five commands to create a MATLAB script (m-file) to execute the exact value and that of the Trapezoidal for any given integral."
+    },
+    {
+      "year": "2010/2011",
+      "number": "5",
+      "topic": "difference-equations",
+      "text": "(a) (i) Solve the difference equation 2y_(n+2) − 5y_(n+1) + 2y_n = 0. (ii) Hence, find the particular solution satisfying the initial conditions y0 = 0 and y1 = 1. (b) (i) Determine the difference equation whose solution is given by y_n = c1(2)ⁿ + c2(−4)ⁿ. (ii) Show that y_n = c1(3)ⁿ + c2(2)ⁿ + (1/2)(4)ⁿ is a solution of the difference equation y_(n+2) − 5y_(n+1) + 6y_n = 4ⁿ. (c) Solve the non-homogeneous difference equation y_(n+2) + y_(n+1) + y_n = n² + n + 1."
+    },
+    {
+      "year": "2015/2016",
+      "number": "1",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Consider the first order ordinary differential equation dx/dt = f(t, x) (1.1). (i) When is equation (1.1) said to be variable separable? (ii) When is f(t, x) said to be homogeneous of degree k? (iii) Let f(t, x) = −M(t, x)/N(t, x) in equation (1.1) so that M(t, x)dt + N(t, x)dx = 0 (1.2). When is equation (1.2) called exact differential equation. (b) Solve the following differential equations: (i) dx/dt = (3t² + 4t + 2)/(2(x − 1)), x(0) = −1 (ii) (1 + ln tx)dt + (1 + t/x)dx = 0. (c) Consider the general linear equation of first order dx/dt + p(t)x = g(t) (1.3). (i) If g(t) is identically zero, show that the solution is x = A exp[−∫p(t)dt], where A is a constant. (ii) If g(t) is not identically zero, assume that the solution is of the form x = A(t) exp[−∫p(t)dt], where A is now a function of t. By substituting for x in equation (1.3), show that A(t) must satisfy the condition A'(t) = g(t) exp[∫p(t)dt]. Note that A'(t) = dA(t)/dt."
+    },
+    {
+      "year": "2015/2016",
+      "number": "2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "Consider the second order non-homogeneous differential equation d²y/dx² + y = xe^(2x). (a) State an expression for the particular integral of the equation. (b) Hence solve the differential equation with the method of undetermined coefficient. (c) Determine the general solution of the second order differential equation a0y'' + a1y' + a2y = 0, where a0, a1 and a2 are arbitrary constants. (d) Solve the initial value problem d²y/dx² − 2dy/dx + 10y = 0, y(0) = 2, y'(0) = 1."
+    },
+    {
+      "year": "2015/2016",
+      "number": "3",
+      "topic": "first-order-differential-equations",
+      "text": "(a) By applying a suitable transformation, express the Bernoulli equation dy/dx + P(x)y = Q(x)yⁿ, n ≠ 0, 1 as a linear ordinary differential equation. Solve the equation dy/dx + y/(2x) = −x²y³. (b) Find the solution of the initial value problem 2y'' − 3y' + y = 0, y(0) = 2, y'(0) = 1/2. Then determine the maximum value of the solution and also find the point where the solution is zero."
+    },
+    {
+      "year": "2015/2016",
+      "number": "4",
+      "topic": "difference-equations",
+      "text": "(a) Determine the difference equation whose solution is given as y_n = C1(3ⁿ) + C2(2ⁿ) + (1/2)(4ⁿ). (b) Show that y_n = C1(2ⁿ) + C2(−3ⁿ) is a solution of the difference equation y_(n+2) + y_(n+1) − 6y_n = 0. (c) Determine the solution of the difference equation y_(n+2) − 7y_(n+1) + 12y_n = n² + 1 + 5ⁿ."
+    },
+    {
+      "year": "2015/2016",
+      "number": "5",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Prove the general trapezoidal rule T_n(f), given that h = (b − a)/n and x_i = a + ih, i = 0, ..., n. (b) (i) Calculate the exact value of the integral of f(x) = x³(1 + x⁴)⁻¹ on the interval [1, 7] giving your answer correct to four decimal places. (ii) Find the trapezium rule approximation to this integral using (A) 3 intervals, (B) 6 intervals. (iii) Show that the error in the approximation with 3 intervals is about 4.1 percent and compare your result with approximation with 6 intervals."
+    },
+    {
+      "year": "2015/2016",
+      "number": "6",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Determine the solution of the difference equation y_(n+2) − 8y_(n+1) + 16y_n = 4ⁿ. (b) Use the Simpson's composite rule with 10 intervals correct to four decimal digits to estimate ∫ from 0 to 1 of (1 + x²)⁻¹dx. (c) How large should n be chosen to ensure |E_n^S(f)| ≤ 5 × 10⁻⁶ given that I = ∫ from 0 to 2 of (1 + x²)⁻¹dx using the Simpson's rule."
+    },
+    {
+      "year": "2016/2017",
+      "number": "1",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) Consider the 2nd order homogeneous ordinary differential equation a0 d²y/dx² + a1 dy/dx + a2y = 0, a0 ≠ 0 (1), where a0, a1 and a2 are real constants. (i) State the characteristics equation associated with equation (1) above. (ii) State the possible solution(s) of your stated characteristics equation in question (i). (iii) State the general solution that correspond to each solution stated in (ii). (iv) Hence solve the differential equation d²y/dx² − 8dy/dx + 16y = 0. (b) Solve the initial value problem d²y/dx² − 6dy/dx + 25y = 0, y(0) = −3, y'(0) = −1. (c) Use the method of undetermined coefficient to solve the differential equation d²y/dx² − 5dy/dx + 6y = x³."
+    },
+    {
+      "year": "2016/2017",
+      "number": "2",
+      "topic": "the-operator-d-method",
+      "text": "(a) Solve the differential equation y'' + y = sec x using the method of variation of parameters. (b) Given that φ(D²) = a0(x)(D²)ⁿ + a1(x)(D²)ⁿ⁻¹ + a2(x)(D²)ⁿ⁻² + ... + a(n−1)(x)(D²) + an, prove that (1/φ(D²)) cos(px + q) = (1/φ(−p²)) cos(px + q) if φ(−p²) ≠ 0. (c) Using the result in (1b), determine the particular solution of the differential equation (D² + 4)y = cos 3x."
+    },
+    {
+      "year": "2016/2017",
+      "number": "3",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Calculate the exact value of ∫ from 1 to 2 of 2 ln 3x dx correct to four decimal places. (b) Evaluate the definite integral in (3a) using (i) the trapezoidal rule with eight intervals (ii) Simpson's rule with eight intervals giving the answer to four decimal places. (c) Compare the results in 3b(i) and 3b(ii) with the exact value."
+    },
+    {
+      "year": "2016/2017",
+      "number": "4",
+      "topic": "difference-equations",
+      "text": "(a) Solve the first order differential equation dy/dx + ((2x + 1)/x)y = e^(−2x). (b) Determine the difference equation whose solution is given by y_n = c1(4)ⁿ + c2(−2)ⁿ. (c) The table below gives the data for steam pressure P versus temperature T: T = 360, 365, 373, 383, 390; P = f(T) = 154.0, 165.0, 190.0, 210.0, 240.0. Compute the pressure at T = 375 using the Lagrange interpolating polynomial of degree n = 3, 4 giving the answer correct to four decimal places."
+    },
+    {
+      "year": "2016/2017",
+      "number": "5",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Solve the first order differential equation (r + sin θ − cos θ)dr + r(sin θ + cos θ)dθ = 0. (b) Show that y_n = c1 + c2(2)ⁿ + 3n2ⁿ is a solution of the difference equation y_(n+2) − 3y_(n+1) + 2y_n = 6.(2ⁿ). (c) Evaluate ∫ from 0 to π/4 of e^(x²) sin 2x dx correct to four decimal places by Simpson's rule using ten intervals."
+    },
+    {
+      "year": "2016/2017",
+      "number": "6",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Solve the first order differential equation x²y − x³ dy/dx = y⁴ cos x. (b) Determine the general solution of the difference equation (E² − 4)y_n = 5.2ⁿ. (c) A pin moves along a straight guide so that its velocity v (m/s) when it is a distance x (m) from the beginning of the guide at time t (s) is given in the table: t = 0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0; v = 0, 0.050, 0.082, 0.125, 0.162, 0.175, 0.186, 0.160, 0. Use the trapezoidal rule and Simpson's rule with eight intervals to determine the approximate total distance travelled by the pin in 4.0s period correct to 3 decimal places."
+    },
+    {
+      "year": "2017/2018",
+      "number": "1",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "(a) Show that y(x) = x^(1/2) is a solution of the initial value problem 4x²y'' + 12xy' + 3y = 0, y(4) = 1/8, y'(4) = −3/64. (5 Marks) (b) Solve the third order differential equation y''' + 3y' − 2y = 3e^(−x) with the method of variation of parameters. (10 Marks) (c) State the Simpson's formula, and use the stated formula to approximate the area of the curve given as y = 1/x², 1 ≤ x ≤ 4, n = 6. If you take n = 3, how will it affect your result compare to when n = 6? (5 Marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "2",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Solve the differential equation (x² + xy)dy/dx = xy − y². (8 Marks) (b) Solve the difference equation y_(n+2) + 16y_n = 0. (6 Marks) (c) Consider the homogeneous linear differential equation a0 d²y/dx² + a1 dy/dx + a2y = 0, where a0, a1, a2 are constants; then show that the associated auxiliary equation is given as a0m² + a1m + a2 = 0. (6 Marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "3",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Determine the value of A for which the equation (x² + 3xy)dx + (Ax² + 4y)dy = 0 is exact and solve the equation. (6 Marks) (b) Find the solution of the non-homogeneous difference equation (E² − 6E + 8)Y_n = 3n² + 2. (8 Marks) (c) Find the solution of the initial value problem d²y/dx² − 6dy/dx + 25y = 0, y(0) = −3, y'(0) = −1. (6 Marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "4",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "(a) Solve the differential equation x²y − x³ dy/dx = y⁴ cos x. (7 Marks) (b) Find the lagrange interpolation of ln 9.2 given the table below: x = 9.0, 9.5, 10.0, 11.0; y = 2.19722, 2.25129, 2.30259, 2.39790. (7 Marks) (c) Write Δ³y_n + Δ²y_n + Δy_n + y_n = 0 as a difference equation. (6 Marks)"
+    },
+    {
+      "year": "2017/2018",
+      "number": "5",
+      "topic": "higher-order-linear-homogeneous-equations",
+      "text": "(a) Use the method of undetermine coefficient to find the general solution of the differential equation y'' − 5y' + 6y = x². (9 Marks) (b) If the auxilliary equation a0m² + a1m + a2 = 0 has complex roots m1 = α + iβ and m2 = α − iβ, where α, β ∈ R, then show that the general solution of equation (1) has the form e^(αx)(A cos βx + B sin βx). Define A and B appropriately. (7 Marks) (c) The solution of a differential equation has the form y = x + A/x, x > 0. Find the differential equation. (4 Marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "A1–A3",
+      "topic": "numerical-interpolation-and-integration",
+      "text": "1. State the trapezium rule that approximate the area of the curve f(x) = 1/(1 + x²) bounded by x = 0, x = 1 with n = 10. 2. How would you improve the accuracy of the approximation obtained with the formula in (1) above? 3. Find the numerical approximation of the area of the curve described in (1) using trapezium rule with n = 5."
+    },
+    {
+      "year": "2018/2019",
+      "number": "A4–A7",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "4. Show that y(x) = x^(1/2) is a solution of the differential equation 4x²y'' + 12xy' + 3y = 0 at x = 4. 5. State the general representation of the particular integral of the differential equation y'' + y' = x² cos(x). 6. Obtain the general solution of the differential equation y'' − y = 2e^x with the method of undetermined coefficient. 7. State the importance of the initial condition x = 0, y = 1, y' = 6 when solving any second order differential equation."
+    },
+    {
+      "year": "2018/2019",
+      "number": "A8–A12",
+      "topic": "first-order-differential-equations",
+      "text": "8. Determine the differential equation that satisfies the equation y = Ax² + Bx where A and B are constants. 9. What is the significance of using y = vx when solving any homogeneous type of order 1 differential equation? 10. Determine the solution of the differential equation (2x cos(y) + 3x²y)dx + (x³ − x² sin(y))dy = 0. 11. Obtain a value for A for which the equation (4√y/x + 1/y)dx + (Ax + 1)/y² dy = 0 is exact. 12. Find the general solution of the differential equation y'' + cy = 0, c > 0."
+    },
+    {
+      "year": "2018/2019",
+      "number": "A13–A20",
+      "topic": "difference-equations",
+      "text": "13. Determine the general solution of the 4th order differential equation y'''' + 16y''' + 9y'' + 256y' + 256y = 0 (as printed). 14. State the order and the degree of the difference equation y_(n+3) + 3y²_(n+2) + 3y_(n+1) + y_n = 0. 15. Use the difference operator Δ to write an expression for Δ⁴y_n. 16. When is a difference equation said to be linear? 17. State two types of error committed in numerical approximation and give one example each. 18. If the auxiliary equation of the difference equation a0y_(n+k) + a1y_(n+k−1) + a2y_(n+k−2) + ... + aky_n = 0 has three equal real roots, state the general solution of the equation. 19. If 4.2014 and 0.1892 are approximated to 2 decimal places, show that the relative error in the product equals the sum of the relative error of the two numbers. 20. State the lagrange interpolation formula for four set of data [(x0, f0), ..., (x3, f3)]."
+    },
+    {
+      "year": "2018/2019",
+      "number": "B1",
+      "topic": "first-order-differential-equations",
+      "text": "(a) Transform the Bernoulli equation dy/dx + p(x)y = q(x)yⁿ, n ∈ N, n ≠ 0, n ≠ 1 to a solvable linear differential equation of variable seperable type. (b) Solve the differential equation x²y − x³ dy/dx = y⁴ cos(x). (c) Solve the difference equation y_(n+2) + 16y_n = 5.4ⁿ. (d) Find the lagrange interpolation polynomial for the data x = 0, 2, 3, 5; y = 1, 3, 2, 5."
+    },
+    {
+      "year": "2018/2019",
+      "number": "B2",
+      "topic": "undetermined-coefficients-and-variation-of-parameters",
+      "text": "(a) Let y be a non-trivial solution of the differential equation a0 d²y/dx² + a1 dy/dx + a2y = 0 (1). If the associated auxilliary equation of (1) has equal real roots m, then show that the general solution of (1) is y(x) = (A + Bx)e^(mx), where A and B are different constants. (b) Find the orthogonal trajectories of the family of parabola given by y = Cx². (c) Consider the 3rd order non-homogeneous equation of the form a0y''' + a1y'' + a2y' + a3y = f(x) (2), where a0, a1, a2, and a3 are constants. If y1, y2 and y3 are linearly independent solutions of the homogeneous part of (2), then show that the particular integral of (2) is defined by Y_p = C1y1 + C2y2 + C3y3 by obtaining an expression for C1, C2 and C3 using the variation of parameter method. (d) Use the method described in (c) above to solve y''' − 3y' − 2y = 3e^x."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Turning creative ideas into practical solutions is",
+    "options": [
+      {
+        "key": "a",
+        "text": "innovation"
+      },
+      {
+        "key": "b",
+        "text": "creativity"
+      },
+      {
+        "key": "c",
+        "text": "incubation"
+      },
+      {
+        "key": "d",
+        "text": "copyright"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Creativity generates the ideas.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the seven-step creative process, the sudden \"Eureka\" insight is",
+    "options": [
+      {
+        "key": "a",
+        "text": "illumination"
+      },
+      {
+        "key": "b",
+        "text": "incubation"
+      },
+      {
+        "key": "c",
+        "text": "verification"
+      },
+      {
+        "key": "d",
+        "text": "preparation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Incubation comes just before it.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Uber's challenge to traditional taxis is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "disruptive innovation"
+      },
+      {
+        "key": "b",
+        "text": "incremental innovation"
+      },
+      {
+        "key": "c",
+        "text": "a trade secret"
+      },
+      {
+        "key": "d",
+        "text": "a geographical indication"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It created a new market.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which IP right protects signs that distinguish one business's goods from another's?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Trademark"
+      },
+      {
+        "key": "b",
+        "text": "Patent"
+      },
+      {
+        "key": "c",
+        "text": "Copyright"
+      },
+      {
+        "key": "d",
+        "text": "Trade secret"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Patents protect inventions.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "true_false",
+    "stem": "Creativity cannot be taught to adults.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Techniques help adults reconnect with natural creativity.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "true_false",
+    "stem": "Brainstorming should be open and non-judgmental.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Ideas are evaluated later.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are barriers to creativity in Module 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Searching for one right answer"
+      },
+      {
+        "key": "b",
+        "text": "Fear of mistakes"
+      },
+      {
+        "key": "c",
+        "text": "Blindly following rules"
+      },
+      {
+        "key": "d",
+        "text": "Keeping an idea diary"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "An idea diary boosts creativity.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of intellectual property in Module 4?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Patent"
+      },
+      {
+        "key": "b",
+        "text": "Copyright"
+      },
+      {
+        "key": "c",
+        "text": "Trademark"
+      },
+      {
+        "key": "d",
+        "text": "Business plan"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Industrial designs, geographical indications and trade secrets are the others.",
+    "source": "ENT 211-4 Creativity and Innovation"
+  }
+]

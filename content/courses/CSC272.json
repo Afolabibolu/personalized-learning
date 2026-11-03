@@ -1,0 +1,108 @@
+{
+  "code": "CSC 272",
+  "title": "Information Management Systems",
+  "semester": 2,
+  "description": "A practical course on managing information with the Microsoft Office suite: Word for documents, Excel for data and calculations, Access for databases, and PowerPoint for effective presentations. Built from Dr Nancy C. Woods's CSC 272 lecture notes (Lectures One to Thirteen), the introductory class slides and the PowerPoint tutorial.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "introduction-to-microsoft-office",
+      "title": "Introduction to Microsoft Office",
+      "summary": "CSC 272 teaches four Microsoft Office applications for storing data, analysing it into information and presenting it: Word (a word processor), Excel (a spreadsheet), Access (a database) and PowerPoint (presentations). Each has its own file type and its own uses.",
+      "subtopics": [
+        "Why Microsoft Office",
+        "Microsoft Word and documents",
+        "Microsoft Excel and workbooks",
+        "Microsoft Access and databases",
+        "Microsoft PowerPoint and presentations",
+        "Choosing the right application"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "the-microsoft-word-environment",
+      "title": "The Microsoft Word Environment",
+      "summary": "The Word 2013 window is built around the File tab, the Ribbon of tabs, groups and commands, contextual tabs and the Quick Access Toolbar. Each tab collects related tools, from Home and Insert to Mailings, Review and View, and Word offers several views of a document.",
+      "subtopics": [
+        "The Start Screen and templates",
+        "The Word window and views",
+        "The File tab and protecting a document",
+        "The Ribbon: tabs, groups and commands",
+        "The main tabs and contextual tabs",
+        "The Quick Access Toolbar"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "editing-and-formatting-word-documents",
+      "title": "Editing and Formatting Word Documents",
+      "summary": "Word documents are created, saved and then formatted: text formatting, alignment, line and paragraph spacing, lists and sorting; cut, copy, paste and drag and drop; find and replace; page layout; proofing tools; indents; and tables.",
+      "subtopics": [
+        "Saving and reopening documents",
+        "Text formatting and change case",
+        "Alignment, line and paragraph spacing",
+        "Cut, copy, paste and drag and drop",
+        "Find, replace and Go To",
+        "Page layout, proofing, indents and tables"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "microsoft-excel-basics",
+      "title": "Microsoft Excel Basics",
+      "summary": "Excel files are workbooks of worksheets made of cells, each with an address. The Excel window has an active cell, columns, rows, fill handle, name box, formula bar and sheet tabs. Students manage worksheets, enter and edit data, use autofill, and format cells and data.",
+      "subtopics": [
+        "Workbook, worksheet and cell",
+        "Excel window components",
+        "Managing worksheet tabs",
+        "Entering and editing data",
+        "Mouse pointers and autofill",
+        "Alignment, wrap text, merge and number formats"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "excel-formulas-functions-and-charts",
+      "title": "Excel Formulas, Functions and Charts",
+      "summary": "Excel formulas start with an equals sign and use the operators +, -, * and /, recalculating automatically when values change. Functions such as SUM, AVERAGE, COUNT, MAX and MIN are predefined formulas. Charts present data visually, and print preview and page setup prepare a sheet for printing.",
+      "subtopics": [
+        "Copying and moving data",
+        "Formulas and operators",
+        "Functions and their elements",
+        "AutoSum and common functions",
+        "Creating and modifying charts",
+        "Print preview, printing and page setup"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "microsoft-access-and-databases",
+      "title": "Microsoft Access and Databases",
+      "summary": "Access is a relational database application. A database is a structured collection of related tables made of records and fields. Access has four objects: tables, queries, forms and reports. Good design follows rules such as no derived or calculated fields, smallest logical parts, descriptive and unique field names, and a primary key for every table.",
+      "subtopics": [
+        "Databases and relational databases",
+        "The four Access objects",
+        "Planning a database",
+        "Design rules and primary keys",
+        "Tables: design view, data types and datasheet view",
+        "Fields, records, tables, queries and keys"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "powerpoint-and-effective-presentations",
+      "title": "PowerPoint and Effective Presentations",
+      "summary": "PowerPoint builds presentations from slides with layouts and placeholders, themes and pictures. An effective presentation is planned for its purpose, audience and time, and follows design rules such as the 6 x 6 rule, high contrast and sparing animation. Views, slide show, transitions, animations and speaker notes support delivery.",
+      "subtopics": [
+        "Planning a presentation",
+        "Slides, layouts and placeholders",
+        "Themes, pictures and SmartArt",
+        "Design rules and the 6 x 6 rule",
+        "Views and Slide Show",
+        "Transitions, animations and speaker notes"
+      ],
+      "lectures": []
+    }
+  ]
+}

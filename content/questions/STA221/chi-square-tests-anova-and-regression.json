@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A 3 × 4 contingency table (severity by blood type) has how many degrees of freedom?",
+    "options": [
+      {
+        "key": "a",
+        "text": "6"
+      },
+      {
+        "key": "b",
+        "text": "12"
+      },
+      {
+        "key": "c",
+        "text": "7"
+      },
+      {
+        "key": "d",
+        "text": "11"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(3 − 1)(4 − 1).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For x: 7, 32, 26, 1, 20, 34, 17, 21, 5, 12 and y: 4, 17, 14, 1, 11, 22, 9, 12, 4, 7, the least-squares slope is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.566"
+      },
+      {
+        "key": "b",
+        "text": "1.77"
+      },
+      {
+        "key": "c",
+        "text": "0.197"
+      },
+      {
+        "key": "d",
+        "text": "10.1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6465/11425.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For the pond data (13, 20, 24, 30, 7, 5, 1, 0 samples with 0 to 7 organisms), the estimated Poisson mean is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.17"
+      },
+      {
+        "key": "b",
+        "text": "1.00"
+      },
+      {
+        "key": "c",
+        "text": "3.00"
+      },
+      {
+        "key": "d",
+        "text": "12.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "217 organisms in 100 samples.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A one-way ANOVA of three methods with 7 observations each has F on",
+    "options": [
+      {
+        "key": "a",
+        "text": "(2, 18) df"
+      },
+      {
+        "key": "b",
+        "text": "(3, 21) df"
+      },
+      {
+        "key": "c",
+        "text": "(2, 20) df"
+      },
+      {
+        "key": "d",
+        "text": "(6, 14) df"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k − 1 = 2 and N − k = 18.",
+    "source": "General knowledge of STA 221"
+  },
+  {
+    "format": "true_false",
+    "stem": "A chi-square distribution with k degrees of freedom has mean k and variance 2k.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A standard property.",
+    "source": "General knowledge of STA 221"
+  },
+  {
+    "format": "true_false",
+    "stem": "The chi-square distribution is symmetric about zero.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is non-negative and positively skewed.",
+    "source": "General knowledge of STA 221"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are assumptions of analysis of variance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Normal populations"
+      },
+      {
+        "key": "b",
+        "text": "Independent observations"
+      },
+      {
+        "key": "c",
+        "text": "Equal population variances"
+      },
+      {
+        "key": "d",
+        "text": "Equal sample sizes in every group"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "One-way ANOVA allows unequal group sizes.",
+    "source": "General knowledge of STA 221"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Replication"
+      },
+      {
+        "key": "b",
+        "text": "Randomization"
+      },
+      {
+        "key": "c",
+        "text": "Blocking"
+      },
+      {
+        "key": "d",
+        "text": "Regression"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The first three are principles of experimental design.",
+    "source": "STA 221 past papers"
+  }
+]

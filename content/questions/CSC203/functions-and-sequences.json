@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A function f: A → B is onto when",
+    "options": [
+      {
+        "key": "a",
+        "text": "every element of B is the image of some element of A"
+      },
+      {
+        "key": "b",
+        "text": "no two elements of A share an image"
+      },
+      {
+        "key": "c",
+        "text": "A and B are equal"
+      },
+      {
+        "key": "d",
+        "text": "it is strictly increasing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its range equals its codomain.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Only bijections have inverse functions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A function must be one-to-one and onto to be inverted.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With g(x) = 3ˣ + 7x and f(x) = x³, what is (f ∘ g)(2)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12167"
+      },
+      {
+        "key": "b",
+        "text": "6561"
+      },
+      {
+        "key": "c",
+        "text": "23"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "g(2) = 9 + 14 = 23, and 23³ = 12167.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is ⌈3.2⌉?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "3.2"
+      },
+      {
+        "key": "d",
+        "text": "−3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The ceiling is the smallest integer greater than or equal to the number.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A formula for 2, 5, 10, 17, 26, … is",
+    "options": [
+      {
+        "key": "a",
+        "text": "aₙ = n² + 1"
+      },
+      {
+        "key": "b",
+        "text": "aₙ = 2n + 1"
+      },
+      {
+        "key": "c",
+        "text": "aₙ = 3n − 1"
+      },
+      {
+        "key": "d",
+        "text": "aₙ = n² − 1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 + 1, 4 + 1, 9 + 1, 16 + 1, 25 + 1.",
+    "source": "4. Sequences.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which describe the sequence 1, 7, 25, 79, 241, …?",
+    "options": [
+      {
+        "key": "a",
+        "text": "aₙ = 3ⁿ − 2"
+      },
+      {
+        "key": "b",
+        "text": "Each term is 3 times the previous plus 4"
+      },
+      {
+        "key": "c",
+        "text": "The first term is 1"
+      },
+      {
+        "key": "d",
+        "text": "aₙ = 2n − 1"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "3¹ − 2 = 1, 3² − 2 = 7; and 3 · 7 + 4 = 25.",
+    "source": "4. Sequences.ppt (CSC 203 slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property a function can have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "One-to-one"
+      },
+      {
+        "key": "b",
+        "text": "Onto"
+      },
+      {
+        "key": "c",
+        "text": "Bijective"
+      },
+      {
+        "key": "d",
+        "text": "Disjoint"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Disjoint describes two sets with no common element.",
+    "source": "CSC 242.pdf (Discrete Structures slides, filed in the CSC 203 folder)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A finite sequence is also called a string.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Strings are finite sequences of symbols.",
+    "source": "4. Sequences.ppt (CSC 203 slides)"
+  }
+]

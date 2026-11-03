@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which file mode adds content to the end of an existing file without overwriting it?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"a\""
+      },
+      {
+        "key": "b",
+        "text": "\"w\""
+      },
+      {
+        "key": "c",
+        "text": "\"r\""
+      },
+      {
+        "key": "d",
+        "text": "\"x\""
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "\"w\" overwrites the file.",
+    "source": "CSC 103 Lecture 5 (2024): file handling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why is the with statement recommended for opening files?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It closes the file automatically"
+      },
+      {
+        "key": "b",
+        "text": "It reads faster"
+      },
+      {
+        "key": "c",
+        "text": "It creates a backup"
+      },
+      {
+        "key": "d",
+        "text": "It prevents syntax errors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "No explicit close() is needed.",
+    "source": "CSC 103 Lecture 5 (2024): file handling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which exception does int(\"abc\") raise?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ValueError"
+      },
+      {
+        "key": "b",
+        "text": "TypeError"
+      },
+      {
+        "key": "c",
+        "text": "ZeroDivisionError"
+      },
+      {
+        "key": "d",
+        "text": "KeyError"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The string is not a valid integer.",
+    "source": "CSC 103 Lecture 6 (2024): error and exception handling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a try statement, which block always runs whether or not an exception occurred?",
+    "options": [
+      {
+        "key": "a",
+        "text": "finally"
+      },
+      {
+        "key": "b",
+        "text": "else"
+      },
+      {
+        "key": "c",
+        "text": "except"
+      },
+      {
+        "key": "d",
+        "text": "try"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "else runs only if no exception occurred.",
+    "source": "CSC 103 Lecture 6 (2024): error and exception handling"
+  },
+  {
+    "format": "true_false",
+    "stem": "A logical error lets the program run but gives incorrect results.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "An example is using the wrong formula.",
+    "source": "CSC 103 Lecture 6 (2024): error and exception handling"
+  },
+  {
+    "format": "true_false",
+    "stem": "The \"w\" mode keeps the existing contents of a file and adds to them.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "\"w\" overwrites; \"a\" appends.",
+    "source": "CSC 103 Lecture 5 (2024): file handling"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods for reading a file?",
+    "options": [
+      {
+        "key": "a",
+        "text": "read()"
+      },
+      {
+        "key": "b",
+        "text": "readline()"
+      },
+      {
+        "key": "c",
+        "text": "readlines()"
+      },
+      {
+        "key": "d",
+        "text": "writelines()"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "writelines() writes.",
+    "source": "CSC 103 Lecture 5 (2024): file handling"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which error is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ZeroDivisionError"
+      },
+      {
+        "key": "b",
+        "text": "FileNotFoundError"
+      },
+      {
+        "key": "c",
+        "text": "IndexError"
+      },
+      {
+        "key": "d",
+        "text": "Logical error"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A logical error raises no exception; the others are Python exceptions.",
+    "source": "CSC 103 Lecture 6 (2024): error and exception handling"
+  }
+]

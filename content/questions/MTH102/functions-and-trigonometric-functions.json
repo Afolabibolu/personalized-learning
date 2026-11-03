@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A function f is odd if",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(−x) = −f(x)"
+      },
+      {
+        "key": "b",
+        "text": "f(−x) = f(x)"
+      },
+      {
+        "key": "c",
+        "text": "f(x + p) = f(x)"
+      },
+      {
+        "key": "d",
+        "text": "f(x) > 0 for all x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sin is odd; cos is even.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "sin 750° equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin 30°"
+      },
+      {
+        "key": "b",
+        "text": "sin 60°"
+      },
+      {
+        "key": "c",
+        "text": "−sin 30°"
+      },
+      {
+        "key": "d",
+        "text": "sin 750° has no simple value"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "750° = 30° + 2 × 360°.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Where does the graph of tan θ have asymptotes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Where cos θ = 0, at θ = π/2 + nπ"
+      },
+      {
+        "key": "b",
+        "text": "Where sin θ = 0"
+      },
+      {
+        "key": "c",
+        "text": "At θ = nπ only"
+      },
+      {
+        "key": "d",
+        "text": "It has none"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "tan θ = sin θ/cos θ is undefined when cos θ = 0.",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The period of sin(x/2) + sin(x/3) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "12π"
+      },
+      {
+        "key": "b",
+        "text": "4π"
+      },
+      {
+        "key": "c",
+        "text": "6π"
+      },
+      {
+        "key": "d",
+        "text": "2π"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The LCM of 4π and 6π.",
+    "source": "General knowledge of MTH 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "cos is an even function.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "cos(−θ) = cos θ.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "A one-to-one function stops being a function when x and y are interchanged.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Interchanging x and y in a one-to-one function gives its inverse function.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which describe a function completely, according to the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its rule"
+      },
+      {
+        "key": "b",
+        "text": "Its graph"
+      },
+      {
+        "key": "c",
+        "text": "The set of ordered pairs making it up"
+      },
+      {
+        "key": "d",
+        "text": "Its first derivative only"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The derivative loses the constant.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which function is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin θ"
+      },
+      {
+        "key": "b",
+        "text": "tan θ"
+      },
+      {
+        "key": "c",
+        "text": "cosec θ"
+      },
+      {
+        "key": "d",
+        "text": "cos θ"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "cos is even; the others are odd.",
+    "source": "MAT 121 Lecture Notes"
+  }
+]

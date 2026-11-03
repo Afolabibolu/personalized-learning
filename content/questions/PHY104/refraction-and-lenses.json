@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Light from air at 35° passes through oil (n = 1.44) into water (n = 1.33). The angle of refraction in the water is",
+    "options": [
+      {
+        "key": "a",
+        "text": "25.5°"
+      },
+      {
+        "key": "b",
+        "text": "22.5°"
+      },
+      {
+        "key": "c",
+        "text": "23.5°"
+      },
+      {
+        "key": "d",
+        "text": "27.5°"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sin r = sin 35°/1.33; the oil cancels.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Lens C (f = 4 cm) at 5 cm and lens D (f = 6 cm) at 33 cm on a bench, with a pin at 0 cm. The images are at",
+    "options": [
+      {
+        "key": "a",
+        "text": "25 cm and 57 cm marks"
+      },
+      {
+        "key": "b",
+        "text": "20 cm and 24 cm marks"
+      },
+      {
+        "key": "c",
+        "text": "25 cm and 19 cm marks"
+      },
+      {
+        "key": "d",
+        "text": "20 cm and 48 cm marks"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "v₁ = 20 from C; then u₂ = 8 gives v₂ = 24 from D.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The critical angle c for light leaving glass (n = 1.5) into air satisfies",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin c = 1/1.5"
+      },
+      {
+        "key": "b",
+        "text": "sin c = 1.5"
+      },
+      {
+        "key": "c",
+        "text": "tan c = 1.5"
+      },
+      {
+        "key": "d",
+        "text": "cos c = 1/1.5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "c ≈ 41.8°.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The power of a lens of focal length 0.25 m is",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 dioptres"
+      },
+      {
+        "key": "b",
+        "text": "0.25 dioptres"
+      },
+      {
+        "key": "c",
+        "text": "25 dioptres"
+      },
+      {
+        "key": "d",
+        "text": "2.5 dioptres"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P = 1/f.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "When light enters a denser medium its frequency stays the same.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Its speed and wavelength decrease.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "true_false",
+    "stem": "Total internal reflection can occur when light goes from air into glass.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It needs light going from a denser to a less dense medium.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which use total internal reflection?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Optical fibres"
+      },
+      {
+        "key": "b",
+        "text": "Prism periscopes"
+      },
+      {
+        "key": "c",
+        "text": "Prism binoculars"
+      },
+      {
+        "key": "d",
+        "text": "Plane mirrors"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A plane mirror reflects at a metal coating.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which law or idea is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Snell's law"
+      },
+      {
+        "key": "b",
+        "text": "Critical angle"
+      },
+      {
+        "key": "c",
+        "text": "Lens formula"
+      },
+      {
+        "key": "d",
+        "text": "Hooke's law"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Hooke's law belongs to elasticity.",
+    "source": "General knowledge of PHY 104"
+  }
+]

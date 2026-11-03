@@ -1,0 +1,61 @@
+{
+  "code": "STA 221",
+  "topics": {
+    "sampling-and-sampling-distributions": [
+      {
+        "title": "Video: Introduction to sampling distributions | Sampling distributions | AP Statistics | Khan Academy (Khan Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=z0Ry_3_qhDw",
+        "source": "links.csv"
+      }
+    ],
+    "point-estimation": [
+      {
+        "title": "Video: Point Estimation (Stats Solver)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wjfcsVcKVe4",
+        "source": "links.csv"
+      }
+    ],
+    "confidence-intervals-for-means-and-proportions": [
+      {
+        "title": "Video: SESSION 9 – ESTIMATION AND CONFIDENCE INTERVALS (University of Ghana Distance Education)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aTkicGvQeaU",
+        "source": "links.csv"
+      }
+    ],
+    "intervals-for-variances-differences-and-sample-size": [
+      {
+        "title": "Video: Statistics Lecture 7.5: Confidence Intervals for Variance and Std Dev. Chi-Squared Distribution. (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=w__TNyXH_xA",
+        "source": "links.csv"
+      }
+    ],
+    "principles-of-hypothesis-testing": [
+      {
+        "title": "Video: Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uHUOwZmfUzY",
+        "source": "links.csv"
+      }
+    ],
+    "tests-on-means-proportions-and-variances": [
+      {
+        "title": "Video: Test Statistic For Means and Population Proportions (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Hag0GW9B6EY",
+        "source": "links.csv"
+      }
+    ],
+    "chi-square-tests-anova-and-regression": [
+      {
+        "title": "Video: T-test, ANOVA and Chi Squared test made easy. (Global Health with Greg Martin)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ijeEYFnS2v4",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

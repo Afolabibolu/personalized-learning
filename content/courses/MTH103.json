@@ -1,0 +1,108 @@
+{
+  "code": "MTH 103",
+  "title": "Elementary Mathematics III (Vectors, Geometry and Dynamics)",
+  "semester": 2,
+  "description": "The analytical geometry and mechanics course, taught as MAT 141: Analytical Geometry and Mechanics before the CCMAS codes: coordinate geometry of lines, circles and polar coordinates, conic sections, vectors and their products, lines and planes in space, kinematics and projectiles, and dynamics with moment of inertia. Built from the MAT 141 slides of Dr B. O. Onasanya and Dr O. B. Ogunfolu and the 2016 lecture note, and the papers from 2021/22 to 2025, labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "coordinate-geometry-of-lines",
+      "title": "Coordinate Geometry of Lines",
+      "summary": "Plane coordinate geometry measures distances, divides segments in a ratio and describes straight lines by their slopes and equations. It also finds perpendicular distances from a point to a line and the angle between two lines.",
+      "subtopics": [
+        "Distance between two points",
+        "Dividing a line in a ratio; the midpoint",
+        "Slope of a straight line",
+        "Forms of the equation of a line",
+        "Parallel and perpendicular lines",
+        "Perpendicular distance and the angle between two lines"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "circles-and-polar-coordinates",
+      "title": "Circles and Polar Coordinates",
+      "summary": "A circle is the set of points at a fixed distance from a centre. Its equation, centre and radius, and its tangents and normals, follow from that definition, and polar coordinates describe points by distance and angle.",
+      "subtopics": [
+        "Standard equation (x − a)² + (y − b)² = r²",
+        "General equation x² + y² + 2gx + 2fy + c = 0",
+        "Tangent and normal at a point",
+        "Circles touching lines; length of a tangent",
+        "Circle through three points",
+        "Cartesian and polar coordinates"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "conic-sections",
+      "title": "Conic Sections",
+      "summary": "Conic sections are the curves cut from a cone by a plane: the circle, parabola, ellipse and hyperbola. Each is the locus of a point whose distance from a focus is e times its distance from a directrix, and each has standard equations, tangents and normals.",
+      "subtopics": [
+        "Eccentricity, focus and directrix",
+        "The parabola y² = 4ax",
+        "The ellipse x²/a² + y²/b² = 1",
+        "Ellipses with shifted or vertical axes",
+        "The hyperbola x²/a² − y²/b² = 1 and its asymptotes",
+        "Tangents and normals to conics"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "vectors-and-their-products",
+      "title": "Vectors and Their Products",
+      "summary": "A vector has magnitude and direction and is written with the unit vectors i, j and k. The scalar product gives angles, projections and work done, and the vector product gives perpendicular vectors, areas, moments and, with a triple product, volumes.",
+      "subtopics": [
+        "Scalars and vectors; magnitude and unit vectors",
+        "i, j, k notation, position and displacement vectors",
+        "Direction cosines; collinear and coplanar points",
+        "The scalar product: angles, projections and work",
+        "The vector product: areas and moments",
+        "The scalar triple product and the ratio theorem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "lines-and-planes-in-space",
+      "title": "Lines and Planes in Space",
+      "summary": "In three dimensions a line is fixed by a point and a direction vector, and a plane by a point and a normal vector. Students write their vector, parametric and Cartesian equations and find intersections and distances.",
+      "subtopics": [
+        "Vector equation of a line r = a + αd",
+        "Line through two points",
+        "Parametric and standard Cartesian forms",
+        "Intersection of two lines",
+        "Equation of a plane n·(r − r₀) = 0",
+        "Plane through three points; line meeting a plane"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "kinematics-and-projectiles",
+      "title": "Kinematics and Projectiles",
+      "summary": "Kinematics relates displacement, velocity and acceleration by differentiation and integration. Students solve straight-line motion with variable acceleration, distance versus displacement, motion in space, and projectiles under gravity.",
+      "subtopics": [
+        "Displacement, velocity and acceleration as derivatives",
+        "Velocity and displacement by integration",
+        "Distance travelled versus displacement",
+        "Constant acceleration and free fall",
+        "Projectile motion: components, greatest height, time of flight, range",
+        "Motion in space with position vectors"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "dynamics-and-moment-of-inertia",
+      "title": "Dynamics, Relative and Circular Motion, and Moment of Inertia",
+      "summary": "Dynamics links forces to motion through Newton's laws, momentum and work. MAT 141 also covers relative velocity, circular motion with angular velocity and acceleration, elastic strings, and the moment of inertia of rods and plates.",
+      "subtopics": [
+        "Newton's laws, resultant forces and F = ma",
+        "Momentum, impulse, work and power",
+        "Relative position, velocity and acceleration",
+        "Circular motion: angular velocity, normal and tangential acceleration",
+        "Elastic strings and Hooke's law",
+        "Moment of inertia, radius of gyration and the parallel axes theorem"
+      ],
+      "lectures": []
+    }
+  ]
+}

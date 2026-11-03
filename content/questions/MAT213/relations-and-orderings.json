@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A relation that is reflexive, symmetric and transitive is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an equivalence relation"
+      },
+      {
+        "key": "b",
+        "text": "a partial order"
+      },
+      {
+        "key": "c",
+        "text": "a chain"
+      },
+      {
+        "key": "d",
+        "text": "a function"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A partial order is reflexive, antisymmetric and transitive.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A relation that is reflexive, antisymmetric and transitive is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a partial order"
+      },
+      {
+        "key": "b",
+        "text": "an equivalence relation"
+      },
+      {
+        "key": "c",
+        "text": "a symmetric relation"
+      },
+      {
+        "key": "d",
+        "text": "a partition"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It makes the set a POSET.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "(Z, |) is a partially ordered set.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is not antisymmetric: a | −a and −a | a but a ≠ −a.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Congruence modulo m is an equivalence relation on Z.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is reflexive, symmetric and transitive.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 2"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The set of all equivalence classes of A under a relation R is called the",
+    "options": [
+      {
+        "key": "a",
+        "text": "quotient set"
+      },
+      {
+        "key": "b",
+        "text": "power set"
+      },
+      {
+        "key": "c",
+        "text": "chain"
+      },
+      {
+        "key": "d",
+        "text": "universal relation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is written A/R and is a partition.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 2"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of (P(X), ⊆)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a POSET"
+      },
+      {
+        "key": "b",
+        "text": "∅ is its first element"
+      },
+      {
+        "key": "c",
+        "text": "X is its last element"
+      },
+      {
+        "key": "d",
+        "text": "It is a chain"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Two different singletons are not comparable.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 3"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which ordered set is not well ordered?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(N, ≤)"
+      },
+      {
+        "key": "b",
+        "text": "({2, 6, 12, 36}, |)"
+      },
+      {
+        "key": "c",
+        "text": "({1, 2, 3}, ≤)"
+      },
+      {
+        "key": "d",
+        "text": "(Z, ≤)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The negative integers have no first element.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which relation on a set is not symmetric?",
+    "options": [
+      {
+        "key": "a",
+        "text": "≤"
+      },
+      {
+        "key": "b",
+        "text": "="
+      },
+      {
+        "key": "c",
+        "text": "The identity relation"
+      },
+      {
+        "key": "d",
+        "text": "The universal relation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 ≤ 2 does not give 2 ≤ 1.",
+    "source": "MAT 213 Full.pdf (Algebra I lecture notes, B. O. Onasanya), Chapter 2"
+  }
+]

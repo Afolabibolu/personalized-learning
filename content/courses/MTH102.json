@@ -1,0 +1,108 @@
+{
+  "code": "MTH 102",
+  "title": "Elementary Mathematics II (Calculus)",
+  "semester": 1,
+  "description": "The calculus and trigonometry course, taught as MAT 121: Calculus and Trigonometry before the CCMAS codes: functions and the circular functions, trigonometric identities and equations, limits and continuity, differentiation and its applications, techniques of integration, and definite integrals and areas. Built from the MAT 121 lecture notes, Ini Adinya's MAT 121 integration lectures (2021) and the past papers from 2007/08 to 2014/15, labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "functions-and-trigonometric-functions",
+      "title": "Functions and the Circular Functions",
+      "summary": "A function assigns one value to each input and can be given by a rule, a graph or a set of ordered pairs. The circular functions sine, cosine and tangent, and their reciprocals, are defined on the unit circle, are periodic and are odd or even.",
+      "subtopics": [
+        "Functions, one-to-one functions and inverses",
+        "Polynomial and rational functions",
+        "Composition and arithmetic of functions",
+        "Sine and cosine on the unit circle; radians",
+        "Periodic functions and periodic extension",
+        "tan, sec, cosec, cot; odd and even functions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "trigonometric-identities-and-equations",
+      "title": "Trigonometric Identities and Equations",
+      "summary": "Trigonometric identities come from the Pythagorean relation and the addition formulae. They give double angles, product-to-sum formulae and the form R sin(x + α), which is used to solve equations such as a sin x + b cos x = c.",
+      "subtopics": [
+        "sin² + cos² = 1 and related identities",
+        "Addition and double-angle formulae",
+        "Product-to-sum and sum-to-product formulae",
+        "Writing a sin x + b cos x as R sin(x + α)",
+        "Solving trigonometric equations and general solutions",
+        "Exact values and inverse functions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "limits-and-continuity",
+      "title": "Limits and Continuity",
+      "summary": "The limit of f(x) as x approaches a is the value f(x) gets close to as x gets close to a. Limits are found by factorising, rationalising, dividing by the highest power, or using lim sin θ/θ = 1, and they define continuity.",
+      "subtopics": [
+        "Meaning and notation of limits",
+        "Factorising and cancelling",
+        "Rationalising surds",
+        "Limits at infinity",
+        "The limit sin θ/θ = 1 and related limits",
+        "Continuity"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "differentiation",
+      "title": "Differentiation",
+      "summary": "The derivative is the limit of the gradient of a chord, f'(x) = lim (f(x + h) − f(x))/h. Students find derivatives from first principles and with the sum, product, quotient and chain rules, including trigonometric, exponential, logarithmic and implicit functions.",
+      "subtopics": [
+        "The derivative from first principles",
+        "Sum, product and quotient rules",
+        "The chain rule",
+        "Derivatives of sin, cos, sec, eˣ and ln x",
+        "Implicit and logarithmic differentiation",
+        "Higher derivatives"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "applications-of-differentiation",
+      "title": "Applications of Differentiation",
+      "summary": "Derivatives give tangent lines, approximations and small errors, rates of change and the turning points of curves. The second derivative test separates maxima from minima, and these tools combine in curve sketching.",
+      "subtopics": [
+        "Tangent lines and linearisation",
+        "Approximations and small errors",
+        "Rates of change and motion",
+        "Local and absolute extrema",
+        "The second derivative test and inflexion",
+        "Curve sketching"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "techniques-of-integration",
+      "title": "Techniques of Integration",
+      "summary": "Integration reverses differentiation: an indefinite integral is the family of antiderivatives F(x) + C. Students integrate by standard forms, substitution, partial fractions, trigonometric identities and substitutions, and by parts with reduction formulae.",
+      "subtopics": [
+        "Antiderivatives and the indefinite integral",
+        "Properties and standard integrals",
+        "Integration by substitution",
+        "Integration using partial fractions",
+        "Trigonometric integrals and substitutions",
+        "Integration by parts and reduction formulae"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "definite-integrals-and-areas",
+      "title": "Definite Integrals and Areas",
+      "summary": "A definite integral ∫ₐᵇ f(x) dx = F(b) − F(a) measures the area under a curve. Its properties split and reverse intervals, and it gives areas between curves and distances travelled in motion problems.",
+      "subtopics": [
+        "Integration as the area under a curve",
+        "Evaluating definite integrals",
+        "Properties of definite integrals",
+        "Area between two curves",
+        "Displacement, velocity and acceleration",
+        "Definite integrals of trigonometric powers"
+      ],
+      "lectures": []
+    }
+  ]
+}

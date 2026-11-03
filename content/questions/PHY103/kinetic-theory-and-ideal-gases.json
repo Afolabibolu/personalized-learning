@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A gas occupies 4.0 m³ at 2 bar and 320 K. At 400 K and the same pressure it occupies",
+    "options": [
+      {
+        "key": "a",
+        "text": "5.0 m³"
+      },
+      {
+        "key": "b",
+        "text": "21.0 m³"
+      },
+      {
+        "key": "c",
+        "text": "20.0 m³"
+      },
+      {
+        "key": "d",
+        "text": "15.0 m³"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "V ∝ T at constant P.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The average kinetic energy of gas molecules at 37 °C is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "6.42 × 10⁻²¹ J"
+      },
+      {
+        "key": "b",
+        "text": "2.14 × 10⁻²⁴ J"
+      },
+      {
+        "key": "c",
+        "text": "7.65 × 10⁻²² J"
+      },
+      {
+        "key": "d",
+        "text": "4.24 × 10⁻²⁴ J"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(3/2)k_B × 310.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Gas molecules at 10 °C have twice the average kinetic energy at",
+    "options": [
+      {
+        "key": "a",
+        "text": "293 °C"
+      },
+      {
+        "key": "b",
+        "text": "20 °C"
+      },
+      {
+        "key": "c",
+        "text": "566 °C"
+      },
+      {
+        "key": "d",
+        "text": "859 °C"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "283 K × 2 = 566 K.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The rms speed of 15 molecules with speeds 6, 9, 10, 13, 13, 15, 17, 17, 18, 19, 20, 20, 22, 23, 24 m/s is",
+    "options": [
+      {
+        "key": "a",
+        "text": "17.2 m/s"
+      },
+      {
+        "key": "b",
+        "text": "15.3 m/s"
+      },
+      {
+        "key": "c",
+        "text": "16.4 m/s"
+      },
+      {
+        "key": "d",
+        "text": "18.6 m/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "√(4432/15).",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "When the volume of a gas increases at constant temperature, its molecules strike the walls less often.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So the pressure falls.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "The average kinetic energy of a gas molecule depends on the gas's volume at a fixed temperature.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It depends only on absolute temperature: (3/2)k_BT.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are assumptions of the kinetic theory of an ideal gas?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Molecules are in random motion"
+      },
+      {
+        "key": "b",
+        "text": "Collisions are perfectly elastic"
+      },
+      {
+        "key": "c",
+        "text": "Molecular volume is negligible"
+      },
+      {
+        "key": "d",
+        "text": "Molecules attract each other strongly"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Intermolecular forces are neglected.",
+    "source": "General knowledge of PHY 103"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which equation is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PV = nRT"
+      },
+      {
+        "key": "b",
+        "text": "P = ⅓ρc̄²"
+      },
+      {
+        "key": "c",
+        "text": "KE = (3/2)k_BT"
+      },
+      {
+        "key": "d",
+        "text": "H = kAΔT/L"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The last is Fourier's law of conduction.",
+    "source": "General knowledge of PHY 103"
+  }
+]

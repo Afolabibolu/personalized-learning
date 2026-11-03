@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Starting with the big picture and breaking it into smaller sub-problems is",
+    "options": [
+      {
+        "key": "a",
+        "text": "top-down design"
+      },
+      {
+        "key": "b",
+        "text": "bottom-up design"
+      },
+      {
+        "key": "c",
+        "text": "logic programming"
+      },
+      {
+        "key": "d",
+        "text": "scripting"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is also called stepwise refinement.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Building small reusable components first and combining them is",
+    "options": [
+      {
+        "key": "a",
+        "text": "bottom-up design"
+      },
+      {
+        "key": "b",
+        "text": "top-down design"
+      },
+      {
+        "key": "c",
+        "text": "stepwise refinement"
+      },
+      {
+        "key": "d",
+        "text": "declarative design"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It suits reusable libraries.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a flowchart, a decision is drawn as a",
+    "options": [
+      {
+        "key": "a",
+        "text": "diamond"
+      },
+      {
+        "key": "b",
+        "text": "rectangle"
+      },
+      {
+        "key": "c",
+        "text": "oval"
+      },
+      {
+        "key": "d",
+        "text": "parallelogram"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It asks a yes/no question.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a flowchart, input and output are drawn as a",
+    "options": [
+      {
+        "key": "a",
+        "text": "parallelogram"
+      },
+      {
+        "key": "b",
+        "text": "diamond"
+      },
+      {
+        "key": "c",
+        "text": "oval"
+      },
+      {
+        "key": "d",
+        "text": "rectangle"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The oval is for start and end.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Structured programming forbids goto statements.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It uses sequence, selection and iteration only.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are common pseudocode keywords in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "INPUT"
+      },
+      {
+        "key": "b",
+        "text": "SET"
+      },
+      {
+        "key": "c",
+        "text": "ENDIF"
+      },
+      {
+        "key": "d",
+        "text": "public static"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "public static is Java syntax.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a programming approach in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Top-down"
+      },
+      {
+        "key": "b",
+        "text": "Bottom-up"
+      },
+      {
+        "key": "c",
+        "text": "Modular"
+      },
+      {
+        "key": "d",
+        "text": "Binary"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are structured and object-oriented.",
+    "source": "COS 201 Computer Programming I.pdf (Weeks 1-2)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Pseudocode must follow the strict syntax of a particular programming language.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is informal and language-independent.",
+    "source": "cos201_weeks3to6.pdf"
+  }
+]

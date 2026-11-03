@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Keeping users informed about what the system is doing is Nielsen's heuristic of",
+    "options": [
+      {
+        "key": "a",
+        "text": "visibility of system status"
+      },
+      {
+        "key": "b",
+        "text": "error prevention"
+      },
+      {
+        "key": "c",
+        "text": "help and documentation"
+      },
+      {
+        "key": "d",
+        "text": "aesthetic and minimalist design"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Timely feedback shows status.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Shneiderman rule matches Nielsen's 'user control and freedom'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Permit easy reversal of actions"
+      },
+      {
+        "key": "b",
+        "text": "Design dialogues to yield closure"
+      },
+      {
+        "key": "c",
+        "text": "Strive for consistency"
+      },
+      {
+        "key": "d",
+        "text": "Offer informative feedback"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Undo reduces user anxiety.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What minimum contrast ratio does WCAG ask for normal text?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4.5:1"
+      },
+      {
+        "key": "b",
+        "text": "2:1"
+      },
+      {
+        "key": "c",
+        "text": "10:1"
+      },
+      {
+        "key": "d",
+        "text": "1:1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From Lecture 6's colour theory section.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which navigation pattern shows users their location in a site's hierarchy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Breadcrumbs"
+      },
+      {
+        "key": "b",
+        "text": "Hamburger menu"
+      },
+      {
+        "key": "c",
+        "text": "Pop-up menu"
+      },
+      {
+        "key": "d",
+        "text": "Tab bar"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example Home > Courses > INS 202.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "true_false",
+    "stem": "Colour should never be the only carrier of critical information.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Pair it with icons or text.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "true_false",
+    "stem": "A visually polished interface is always highly usable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Usable is not the same as pretty.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among Nielsen's ten usability heuristics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Error prevention"
+      },
+      {
+        "key": "b",
+        "text": "Recognition rather than recall"
+      },
+      {
+        "key": "c",
+        "text": "Consistency and standards"
+      },
+      {
+        "key": "d",
+        "text": "Maximum colour saturation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Saturation is not a heuristic.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of Shneiderman's eight golden rules?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Strive for consistency"
+      },
+      {
+        "key": "b",
+        "text": "Offer informative feedback"
+      },
+      {
+        "key": "c",
+        "text": "Reduce short-term memory load"
+      },
+      {
+        "key": "d",
+        "text": "Hide all error messages"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Errors should be handled simply and clearly.",
+    "source": "INS 202 Lecture 6 GUI Principles"
+  }
+]

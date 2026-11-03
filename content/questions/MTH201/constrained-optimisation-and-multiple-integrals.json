@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "At a critical point, if D = f_xx f_yy − f_xy² < 0, the point is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "saddle point"
+      },
+      {
+        "key": "b",
+        "text": "local minimum"
+      },
+      {
+        "key": "c",
+        "text": "local maximum"
+      },
+      {
+        "key": "d",
+        "text": "boundary point"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "D > 0 is needed for an extremum.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x, y) = x² + y² − 2x − 6y + 14, the critical point is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(1, 3)"
+      },
+      {
+        "key": "b",
+        "text": "(2, 6)"
+      },
+      {
+        "key": "c",
+        "text": "(0, 0)"
+      },
+      {
+        "key": "d",
+        "text": "(−1, −3)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f_x = 2x − 2 and f_y = 2y − 6.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Maximising f = xy subject to x + y = 10 gives a maximum of",
+    "options": [
+      {
+        "key": "a",
+        "text": "25"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "50"
+      },
+      {
+        "key": "d",
+        "text": "100"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x = y = 5.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is ∫ from 0 to 2 ∫ from 0 to 1 of (x + y) dy dx?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "2"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "4"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The inner integral is x + 1/2.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "true_false",
+    "stem": "At an interior local extremum of f(x, y), both partial derivatives are zero (if they exist).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This defines a critical point.",
+    "source": "Function of Several Variables slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Lagrange multipliers find extrema of a function without any constraint.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are for optimisation under constraints.",
+    "source": "MTH 201 Course Outline (2025/2026)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are uses of multiple integrals?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Area of a region"
+      },
+      {
+        "key": "b",
+        "text": "Volume under a surface"
+      },
+      {
+        "key": "c",
+        "text": "Volume of a solid with a triple integral"
+      },
+      {
+        "key": "d",
+        "text": "Finding a level curve"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Level curves come from f(x, y) = k.",
+    "source": "General knowledge of MTH 201"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not part of the second derivative test for f(x, y)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f_xx"
+      },
+      {
+        "key": "b",
+        "text": "f_yy"
+      },
+      {
+        "key": "c",
+        "text": "f_xy"
+      },
+      {
+        "key": "d",
+        "text": "The Lagrange multiplier λ"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "λ belongs to constrained optimisation.",
+    "source": "General knowledge of MTH 201"
+  }
+]

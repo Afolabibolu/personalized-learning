@@ -1,0 +1,108 @@
+{
+  "code": "SEN 201",
+  "title": "Introduction to Software Engineering",
+  "semester": 1,
+  "description": "The CCMAS introduction to software engineering: software engineering as a discipline, software process models, agile development and Extreme Programming, requirements engineering, design with UML and architectural design, validation and testing, and evolution, maintenance, re-engineering and project management. Built from the SEN 201 lecture notes and class notes in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "software-engineering-foundations",
+      "title": "Software Engineering as a Discipline",
+      "summary": "Software engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software. It arose from the 1960s software crisis, uses abstraction and decomposition, and aims for maintainable, dependable, efficient and acceptable software.",
+      "subtopics": [
+        "Definitions: software and software engineering",
+        "The software crisis and the NATO conference",
+        "Abstraction and decomposition",
+        "The need for software engineering",
+        "Generic and bespoke products; attributes of good software",
+        "Types of application and the fundamental principles"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "software-process-models",
+      "title": "Software Processes and Process Models",
+      "summary": "A software process is a sequence of activities, specification, development, validation and evolution, that produces software. Process models include the plan-driven waterfall model, incremental development, reuse-oriented engineering, prototyping, incremental delivery and Boehm's risk-driven spiral model.",
+      "subtopics": [
+        "The four fundamental process activities",
+        "The waterfall model",
+        "Incremental development",
+        "Reuse-oriented software engineering",
+        "Prototyping and incremental delivery",
+        "Boehm's spiral model"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "agile-and-extreme-programming",
+      "title": "Agile Development and Extreme Programming",
+      "summary": "Agile methods are incremental methods with small increments released every two or three weeks, built on customer involvement, incremental delivery, people not process, embracing change and simplicity. Extreme Programming takes incremental development to an extreme with user stories, pair programming and test-first development.",
+      "subtopics": [
+        "Why rapid development is needed",
+        "Agile methods",
+        "The principles of agile methods",
+        "Challenges with agile principles",
+        "Plan-driven versus agile approaches",
+        "Extreme Programming"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "requirements-engineering",
+      "title": "Requirements Engineering",
+      "summary": "Requirements engineering discovers, analyses, documents and maintains what a system should do and its constraints. Its activities are feasibility study, elicitation and analysis, specification and validation; requirements are user or system, and functional or non-functional, recorded in the SRS.",
+      "subtopics": [
+        "What requirements engineering is",
+        "Stakeholders",
+        "Feasibility, elicitation, specification and validation",
+        "Methods of gathering requirements",
+        "User and system requirements; functional and non-functional",
+        "The software requirements specification (SRS)"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "design-uml-and-architecture",
+      "title": "Software Design, UML and Architectural Design",
+      "summary": "Software design describes the structure, data, interfaces and sometimes algorithms of the software; its activities are architectural, interface, component and database design. Object-oriented design uses UML structural and dynamic models, and architectural design defines the system's overall organisation in four views.",
+      "subtopics": [
+        "Design and implementation",
+        "Architectural, interface, component and database design",
+        "Object-oriented design",
+        "UML structural and dynamic models",
+        "System context and interaction models",
+        "Architectural design and the 4+1 views"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "validation-and-testing",
+      "title": "Software Validation and Testing",
+      "summary": "Verification and validation show that a system conforms to its specification and meets the customer's expectations. Testing has two goals, validation and defect testing; development testing works at unit, component and system level, and user testing includes alpha, beta and acceptance testing.",
+      "subtopics": [
+        "Verification and validation",
+        "Component, system and acceptance testing",
+        "The two goals of testing",
+        "Development testing: unit, component and system",
+        "User testing: alpha, beta and acceptance",
+        "The six stages of acceptance testing"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "evolution-maintenance-and-management",
+      "title": "Evolution, Maintenance, Re-engineering and Project Management",
+      "summary": "Software must keep changing after delivery to stay useful, through change analysis, release planning, implementation and release. Maintenance is fault repair, environmental adaptation or functionality addition; legacy systems may be re-engineered; and project management plans, organises and controls projects and teams.",
+      "subtopics": [
+        "Software evolution and change proposals",
+        "Lehman's laws of system change",
+        "Three types of maintenance",
+        "Maintenance costs",
+        "Legacy systems and re-engineering",
+        "Software project management and teams"
+      ],
+      "lectures": []
+    }
+  ]
+}

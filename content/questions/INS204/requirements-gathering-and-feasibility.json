@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "\"The system shall allow students to register courses online\" is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "functional requirement"
+      },
+      {
+        "key": "b",
+        "text": "non-functional requirement"
+      },
+      {
+        "key": "c",
+        "text": "legal requirement"
+      },
+      {
+        "key": "d",
+        "text": "schedule constraint"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It states what the system does.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which feasibility type asks whether the lifetime benefits exceed the lifetime costs?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Economic"
+      },
+      {
+        "key": "b",
+        "text": "Technical"
+      },
+      {
+        "key": "c",
+        "text": "Operational"
+      },
+      {
+        "key": "d",
+        "text": "Schedule"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It uses cost-benefit analysis.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which fact-finding technique best reaches a large, geographically dispersed group cheaply and anonymously?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Questionnaires"
+      },
+      {
+        "key": "b",
+        "text": "Interviews"
+      },
+      {
+        "key": "c",
+        "text": "Observation"
+      },
+      {
+        "key": "d",
+        "text": "Brainstorming"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They mostly use closed-ended questions.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In MoSCoW prioritisation, the 'W' stands for",
+    "options": [
+      {
+        "key": "a",
+        "text": "Won't have this time"
+      },
+      {
+        "key": "b",
+        "text": "Will have"
+      },
+      {
+        "key": "c",
+        "text": "Wish list"
+      },
+      {
+        "key": "d",
+        "text": "Weekly"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Must, Should, Could, Won't.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Reliability and availability are examples of non-functional requirements.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They describe how well the system works.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Staff morale disruption during transition is a tangible cost.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is an intangible cost, hard to quantify.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are methods of cost-benefit analysis in the lectures?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Payback analysis"
+      },
+      {
+        "key": "b",
+        "text": "Return on investment"
+      },
+      {
+        "key": "c",
+        "text": "Present value analysis"
+      },
+      {
+        "key": "d",
+        "text": "Bubble sort"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three most common.",
+    "source": "INS 204 Lecture 2 (SDLC phases and models)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the five types of feasibility in Lecture 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Technical"
+      },
+      {
+        "key": "b",
+        "text": "Legal"
+      },
+      {
+        "key": "c",
+        "text": "Schedule"
+      },
+      {
+        "key": "d",
+        "text": "Musical"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Economic and operational are the others.",
+    "source": "INS 204 Lecture 3 (Requirements Gathering and Feasibility Study)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For X ~ Bin(n, p), the mean and variance are",
+    "options": [
+      {
+        "key": "a",
+        "text": "np and npq"
+      },
+      {
+        "key": "b",
+        "text": "np and np²"
+      },
+      {
+        "key": "c",
+        "text": "1/p and q/p²"
+      },
+      {
+        "key": "d",
+        "text": "k/p and kq/p²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "q = 1 − p.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A fair die is thrown four times. P(at least one six) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.518"
+      },
+      {
+        "key": "b",
+        "text": "0.482"
+      },
+      {
+        "key": "c",
+        "text": "0.667"
+      },
+      {
+        "key": "d",
+        "text": "0.167"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 − (5/6)⁴.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The geometric distribution f(x) = pqˣ⁻¹ has mean",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/p"
+      },
+      {
+        "key": "b",
+        "text": "p"
+      },
+      {
+        "key": "c",
+        "text": "q/p"
+      },
+      {
+        "key": "d",
+        "text": "np"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its variance is q/p².",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If Var(X) = 2.4, Var(Y) = 5 and Cov(X, Y) = 2.5, then Var(X − Y) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.4"
+      },
+      {
+        "key": "b",
+        "text": "7.4"
+      },
+      {
+        "key": "c",
+        "text": "12.4"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2.4 + 5 − 2(2.5).",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The trials in a binomial experiment must be independent with a constant probability of success.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "These are two of its defining properties.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The negative binomial counts the number of successes in n trials.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It counts the trials needed to obtain the kth success.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a binomial experiment?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A fixed number of trials"
+      },
+      {
+        "key": "b",
+        "text": "Two outcomes per trial"
+      },
+      {
+        "key": "c",
+        "text": "Independent trials"
+      },
+      {
+        "key": "d",
+        "text": "A probability of success that changes each trial"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "p must be constant.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a discrete distribution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binomial"
+      },
+      {
+        "key": "b",
+        "text": "Geometric"
+      },
+      {
+        "key": "c",
+        "text": "Negative binomial"
+      },
+      {
+        "key": "d",
+        "text": "Gamma"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The gamma is continuous.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  }
+]

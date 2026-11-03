@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An ideal gas absorbs 1000 J and expands at 2.0 × 10⁴ Pa from 0.050 m³ to 0.075 m³. Its internal energy",
+    "options": [
+      {
+        "key": "a",
+        "text": "Increases by 500 J"
+      },
+      {
+        "key": "b",
+        "text": "Decreases by 1000 J"
+      },
+      {
+        "key": "c",
+        "text": "Decreases by 500 J"
+      },
+      {
+        "key": "d",
+        "text": "Is unchanged"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "W = PΔV = 500 J; ΔU = Q − W.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For an ideal gas undergoing an isothermal process",
+    "options": [
+      {
+        "key": "a",
+        "text": "ΔU = 0 and Q = W"
+      },
+      {
+        "key": "b",
+        "text": "Q = 0"
+      },
+      {
+        "key": "c",
+        "text": "W = 0"
+      },
+      {
+        "key": "d",
+        "text": "PV^γ is constant"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "U depends only on temperature.",
+    "source": "PHY 103 complete slides (Oyeniyi and Ayoola)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Two moles of gas (γ = 1.40) expand adiabatically from 5.00 atm and 12.0 m³ to 30.0 m³. The final pressure is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.39 atm"
+      },
+      {
+        "key": "b",
+        "text": "2.00 atm"
+      },
+      {
+        "key": "c",
+        "text": "3.80 atm"
+      },
+      {
+        "key": "d",
+        "text": "0.50 atm"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P₂ = P₁(V₁/V₂)^γ.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An ideal gas at 300 K expands isobarically at 2.50 kPa from 1.00 m³ to 3.00 m³, absorbing 12.5 kJ. ΔU is",
+    "options": [
+      {
+        "key": "a",
+        "text": "7.50 kJ"
+      },
+      {
+        "key": "b",
+        "text": "5.70 kJ"
+      },
+      {
+        "key": "c",
+        "text": "2.50 kJ"
+      },
+      {
+        "key": "d",
+        "text": "12.5 kJ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "W = 5 kJ.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "In an adiabatic free expansion of an ideal gas, the internal energy stays constant.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "No work and no heat.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "An isobaric process occurs at constant temperature.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Isobaric means constant pressure; isothermal means constant temperature.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A cyclic process starts and ends at the same state"
+      },
+      {
+        "key": "b",
+        "text": "Work done depends on the path"
+      },
+      {
+        "key": "c",
+        "text": "In an adiabatic process no heat is transferred"
+      },
+      {
+        "key": "d",
+        "text": "Work done depends only on the initial and final states"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Work is path-dependent.",
+    "source": "PHY 103 / PHY 115 past questions"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which process is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Isothermal"
+      },
+      {
+        "key": "b",
+        "text": "Isobaric"
+      },
+      {
+        "key": "c",
+        "text": "Isochoric"
+      },
+      {
+        "key": "d",
+        "text": "Isotope"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "An isotope is a nuclear term, not a thermodynamic process.",
+    "source": "General knowledge of PHY 103"
+  }
+]

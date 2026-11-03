@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyboard shortcut adds a new slide in PowerPoint?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ctrl + M"
+      },
+      {
+        "key": "b",
+        "text": "Ctrl + N"
+      },
+      {
+        "key": "c",
+        "text": "Ctrl + S"
+      },
+      {
+        "key": "d",
+        "text": "Ctrl + Z"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Ctrl + S saves.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The 6 x 6 rule means",
+    "options": [
+      {
+        "key": "a",
+        "text": "six or fewer items per slide and six or fewer words per phrase"
+      },
+      {
+        "key": "b",
+        "text": "six slides of six minutes each"
+      },
+      {
+        "key": "c",
+        "text": "six fonts in six colours"
+      },
+      {
+        "key": "d",
+        "text": "six animations per slide"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It keeps text short.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which view shows all slides as thumbnails so they can be rearranged by dragging?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Slide Sorter"
+      },
+      {
+        "key": "b",
+        "text": "Normal"
+      },
+      {
+        "key": "c",
+        "text": "Notes Page"
+      },
+      {
+        "key": "d",
+        "text": "Reading"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Drag and drop reorders slides.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The dotted boxes on a slide reserved for text or graphics are called",
+    "options": [
+      {
+        "key": "a",
+        "text": "placeholders"
+      },
+      {
+        "key": "b",
+        "text": "themes"
+      },
+      {
+        "key": "c",
+        "text": "transitions"
+      },
+      {
+        "key": "d",
+        "text": "handouts"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Instructions appear inside them.",
+    "source": "CSC 272 lecture Notes.pdf (Dr N. C. Woods)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A transition affects how a slide appears, while an animation affects text and objects on a slide.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Use both sparingly.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Writing full sentences on slides and reading them aloud is good practice.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is the classic PowerPoint error; less is more.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "What should you decide when planning a presentation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its purpose"
+      },
+      {
+        "key": "b",
+        "text": "Its audience"
+      },
+      {
+        "key": "c",
+        "text": "The time available"
+      },
+      {
+        "key": "d",
+        "text": "The printer's brand"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Also the type and the audience's needs.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a way to advance to the next slide in Slide Show view?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pressing the Spacebar"
+      },
+      {
+        "key": "b",
+        "text": "Clicking the left mouse button"
+      },
+      {
+        "key": "c",
+        "text": "Pressing the right arrow key"
+      },
+      {
+        "key": "d",
+        "text": "Pressing Ctrl + S"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Ctrl + S saves the presentation.",
+    "source": "PowerPoint tutorial Updated 2026.pptx"
+  }
+]

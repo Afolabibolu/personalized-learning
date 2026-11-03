@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which language controls the appearance and layout of web pages?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CSS"
+      },
+      {
+        "key": "b",
+        "text": "HTML"
+      },
+      {
+        "key": "c",
+        "text": "PHP"
+      },
+      {
+        "key": "d",
+        "text": "SQL"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It separates presentation from content.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which JavaScript operator compares both value and type?",
+    "options": [
+      {
+        "key": "a",
+        "text": "==="
+      },
+      {
+        "key": "b",
+        "text": "=="
+      },
+      {
+        "key": "c",
+        "text": "="
+      },
+      {
+        "key": "d",
+        "text": "!="
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "== compares value only.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The DOM represents an HTML document as",
+    "options": [
+      {
+        "key": "a",
+        "text": "a tree of objects"
+      },
+      {
+        "key": "b",
+        "text": "a single string"
+      },
+      {
+        "key": "c",
+        "text": "a database table"
+      },
+      {
+        "key": "d",
+        "text": "a CSS file"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "JavaScript can change its elements.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What happens if a function used in onsubmit=\"return validateForm()\" returns false?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The form is not submitted"
+      },
+      {
+        "key": "b",
+        "text": "The form is submitted twice"
+      },
+      {
+        "key": "c",
+        "text": "The page is deleted"
+      },
+      {
+        "key": "d",
+        "text": "The server restarts"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Returning true allows submission.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Client-side validation can reduce unnecessary server processing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Invalid input is caught in the browser.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A variable declared with const can be reassigned later.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "const values cannot be reassigned.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are JavaScript data types listed in the lesson?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Boolean"
+      },
+      {
+        "key": "b",
+        "text": "Undefined"
+      },
+      {
+        "key": "c",
+        "text": "Null"
+      },
+      {
+        "key": "d",
+        "text": "Varchar"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "VARCHAR is an SQL type.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an HTML5 validation attribute shown in the lesson?",
+    "options": [
+      {
+        "key": "a",
+        "text": "required"
+      },
+      {
+        "key": "b",
+        "text": "minlength"
+      },
+      {
+        "key": "c",
+        "text": "pattern"
+      },
+      {
+        "key": "d",
+        "text": "session_start"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "session_start() is a PHP function.",
+    "source": "Lesson 4 - Client-side Programming.pdf"
+  }
+]

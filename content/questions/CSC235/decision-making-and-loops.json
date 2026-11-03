@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which loop tests its condition at the end of the body?",
+    "options": [
+      {
+        "key": "a",
+        "text": "do...while"
+      },
+      {
+        "key": "b",
+        "text": "while"
+      },
+      {
+        "key": "c",
+        "text": "for"
+      },
+      {
+        "key": "d",
+        "text": "foreach"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So its body always runs at least once.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a for loop, which part runs only once?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The initialization"
+      },
+      {
+        "key": "b",
+        "text": "The condition"
+      },
+      {
+        "key": "c",
+        "text": "The iterator"
+      },
+      {
+        "key": "d",
+        "text": "The body"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The condition and iterator run on every pass.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With x = 20 and y = 10, what does `x > y ? \"A\" : \"B\"` give?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"A\""
+      },
+      {
+        "key": "b",
+        "text": "\"B\""
+      },
+      {
+        "key": "c",
+        "text": "true"
+      },
+      {
+        "key": "d",
+        "text": "An error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Exp1 is true, so Exp2 becomes the value.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "A switch statement tests a variable for equality against a list of values.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Switch statements can also be nested.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are decision-making structures in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "if...else"
+      },
+      {
+        "key": "b",
+        "text": "switch"
+      },
+      {
+        "key": "c",
+        "text": "The ? : operator"
+      },
+      {
+        "key": "d",
+        "text": "do...while"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "do...while is a loop.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which statement skips the rest of the loop body and retests the condition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "continue"
+      },
+      {
+        "key": "b",
+        "text": "break"
+      },
+      {
+        "key": "c",
+        "text": "return"
+      },
+      {
+        "key": "d",
+        "text": "goto"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "break leaves the loop entirely.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a loop type in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "while"
+      },
+      {
+        "key": "b",
+        "text": "for"
+      },
+      {
+        "key": "c",
+        "text": "do...while"
+      },
+      {
+        "key": "d",
+        "text": "switch"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "switch is a decision-making structure.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "`for (;;)` creates an infinite loop.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A missing condition is assumed to be true.",
+    "source": "Introduction to C# Programming Language, weeks 10-12 slides"
+  }
+]

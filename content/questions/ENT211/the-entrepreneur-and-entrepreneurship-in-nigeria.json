@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An entrepreneur combines which factors of production?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Land, labour and capital"
+      },
+      {
+        "key": "b",
+        "text": "Water, fire and air"
+      },
+      {
+        "key": "c",
+        "text": "Only money"
+      },
+      {
+        "key": "d",
+        "text": "Only technology"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From Module 9.",
+    "source": "ENT 211-9 Entrepreneurship Development in Nigeria (Dr R. Aderinto)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Nigerian agency is named as strengthening the entrepreneurial ecosystem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SMEDAN"
+      },
+      {
+        "key": "b",
+        "text": "NASA"
+      },
+      {
+        "key": "c",
+        "text": "WHO"
+      },
+      {
+        "key": "d",
+        "text": "FIFA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Bank of Industry is another.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Nigerian cultural system is cited as encouraging enterprise?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The Igbo apprenticeship system"
+      },
+      {
+        "key": "b",
+        "text": "The civil service"
+      },
+      {
+        "key": "c",
+        "text": "The colonial tax system"
+      },
+      {
+        "key": "d",
+        "text": "Gender norms"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Gender norms may limit women's participation.",
+    "source": "ENT 211-9 Entrepreneurship Development in Nigeria (Dr R. Aderinto)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Self-employment, unlike entrepreneurship, lacks the element of innovation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Drucker distinguishes them.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Structural Adjustment Programmes of the 1980s and 1990s reduced the role of private enterprise in Nigeria.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They re-empowered private enterprise.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are components of the entrepreneurial ecosystem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finance"
+      },
+      {
+        "key": "b",
+        "text": "Human capital"
+      },
+      {
+        "key": "c",
+        "text": "Policy and regulation"
+      },
+      {
+        "key": "d",
+        "text": "Weather forecasts"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Culture, support systems and markets are others.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is listed as a challenge of entrepreneurship development in Nigeria?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Limited access to finance"
+      },
+      {
+        "key": "b",
+        "text": "Too much electricity"
+      },
+      {
+        "key": "c",
+        "text": "Low interest rates"
+      },
+      {
+        "key": "d",
+        "text": "Too few regulations"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "High interest rates and collateral demands.",
+    "source": "ENT 211-9 Entrepreneurship Development in Nigeria (Dr R. Aderinto)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the rewards of entrepreneurship in Module 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Personal fulfilment"
+      },
+      {
+        "key": "b",
+        "text": "Wealth creation"
+      },
+      {
+        "key": "c",
+        "text": "Independence"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed government salary"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Recognition and social impact is the fourth.",
+    "source": "ENT 211-3 Understanding the Entrepreneur (Prof S. A. Aboaba)"
+  }
+]

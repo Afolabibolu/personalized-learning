@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The 3rd and 7th terms of an A.P. are −1 and 11. The nth term is",
+    "options": [
+      {
+        "key": "a",
+        "text": "3n − 10"
+      },
+      {
+        "key": "b",
+        "text": "3n − 7"
+      },
+      {
+        "key": "c",
+        "text": "2n − 7"
+      },
+      {
+        "key": "d",
+        "text": "4n − 13"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a + 2d = −1 and a + 6d = 11 give a = −7, d = 3.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A G.P. has 2nd term 6 and 4th term 54. Its nth term is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2 × 3ⁿ⁻¹"
+      },
+      {
+        "key": "b",
+        "text": "6 × 3ⁿ⁻¹"
+      },
+      {
+        "key": "c",
+        "text": "3 × 2ⁿ⁻¹"
+      },
+      {
+        "key": "d",
+        "text": "2 × 9ⁿ⁻¹"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ar = 6 and ar³ = 54 give r = 3, a = 2.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Σ from k = 1 to n of 1/(k(k + 1)) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "n/(n + 1)"
+      },
+      {
+        "key": "b",
+        "text": "1/(n + 1)"
+      },
+      {
+        "key": "c",
+        "text": "(n + 1)/n"
+      },
+      {
+        "key": "d",
+        "text": "n/(n + 2)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It telescopes to 1 − 1/(n + 1).",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "aₙ₊₁ = aₙ + 2n with a₁ = 1 gives aₙ =",
+    "options": [
+      {
+        "key": "a",
+        "text": "n² − n + 1"
+      },
+      {
+        "key": "b",
+        "text": "n² + n + 1"
+      },
+      {
+        "key": "c",
+        "text": "2n − 1"
+      },
+      {
+        "key": "d",
+        "text": "n²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The terms are 1, 3, 7, 13, 21.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Σk² from k = 1 to n equals n(n + 1)(2n + 1)/6.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "One of the standard sums of powers.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In mathematical induction it is enough to show that P(1) is true.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "You must also show that P(k) implies P(k + 1).",
+    "source": "MAT 111 Lecture 6: Mathematical Induction (Sangodapo)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of a harmonic progression in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its terms are reciprocals of an A.P."
+      },
+      {
+        "key": "b",
+        "text": "Its nth term is 1/(a + (n − 1)d)"
+      },
+      {
+        "key": "c",
+        "text": "The harmonic mean of a and c is 2ac/(a + c)"
+      },
+      {
+        "key": "d",
+        "text": "It has a common ratio"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A common ratio defines a G.P.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which mean is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arithmetic mean: (a + c)/2"
+      },
+      {
+        "key": "b",
+        "text": "Geometric mean: ±√(ac)"
+      },
+      {
+        "key": "c",
+        "text": "Harmonic mean: 2ac/(a + c)"
+      },
+      {
+        "key": "d",
+        "text": "Arithmetic mean: √(a + c)"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The arithmetic mean is (a + c)/2.",
+    "source": "MAT 111 Lecture 10: Sequences and Series (Sangodapo)"
+  }
+]

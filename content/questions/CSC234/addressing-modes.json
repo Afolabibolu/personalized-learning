@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In mov ax, 0035h, the addressing mode is",
+    "options": [
+      {
+        "key": "a",
+        "text": "immediate"
+      },
+      {
+        "key": "b",
+        "text": "register"
+      },
+      {
+        "key": "c",
+        "text": "direct"
+      },
+      {
+        "key": "d",
+        "text": "indexed"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0035h is a constant inside the instruction.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In direct addressing with offset 5000h, the physical address is",
+    "options": [
+      {
+        "key": "a",
+        "text": "10h × DS + 5000h"
+      },
+      {
+        "key": "b",
+        "text": "DS + 5000h"
+      },
+      {
+        "key": "c",
+        "text": "5000h only"
+      },
+      {
+        "key": "d",
+        "text": "10h × CS + 5000h"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The offset is combined with DS.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In register indirect addressing, the offset of the data is in",
+    "options": [
+      {
+        "key": "a",
+        "text": "BX, SI or DI"
+      },
+      {
+        "key": "b",
+        "text": "AX or DX"
+      },
+      {
+        "key": "c",
+        "text": "CS or IP"
+      },
+      {
+        "key": "d",
+        "text": "the flags register"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The default segment is DS or ES.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "In based indexed addressing, the effective address is a base register plus an index register.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example [BX][SI].",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "single_choice",
+    "stem": "mov ax, 50h[bx] uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "register relative addressing"
+      },
+      {
+        "key": "b",
+        "text": "immediate addressing"
+      },
+      {
+        "key": "c",
+        "text": "direct addressing"
+      },
+      {
+        "key": "d",
+        "text": "register addressing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A displacement is added to BX.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which registers can serve as the base or index in based indexed addressing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "BX"
+      },
+      {
+        "key": "b",
+        "text": "BP"
+      },
+      {
+        "key": "c",
+        "text": "SI"
+      },
+      {
+        "key": "d",
+        "text": "CX"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "DI is the other index register; CX is not used.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an 8086 memory addressing mode in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Direct"
+      },
+      {
+        "key": "b",
+        "text": "Register indirect"
+      },
+      {
+        "key": "c",
+        "text": "Based indexed"
+      },
+      {
+        "key": "d",
+        "text": "Stack-relative cloud"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The memory modes are direct, register indirect, indexed, based indexed, register relative and relative based indexed.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Indexed addressing is a special case of register indirect addressing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It uses SI or DI.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 4"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Lenz's law states that an induced current",
+    "options": [
+      {
+        "key": "a",
+        "text": "Opposes the change producing it"
+      },
+      {
+        "key": "b",
+        "text": "Aids the change producing it"
+      },
+      {
+        "key": "c",
+        "text": "Is always clockwise"
+      },
+      {
+        "key": "d",
+        "text": "Depends only on resistance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It reflects energy conservation.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The reactance of an inductor L at angular frequency ω is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ωL"
+      },
+      {
+        "key": "b",
+        "text": "1/(ωL)"
+      },
+      {
+        "key": "c",
+        "text": "L/ω"
+      },
+      {
+        "key": "d",
+        "text": "ω/L"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "X_L = ωL.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A series RLC circuit resonates at",
+    "options": [
+      {
+        "key": "a",
+        "text": "ω₀ = 1/√(LC)"
+      },
+      {
+        "key": "b",
+        "text": "ω₀ = √(LC)"
+      },
+      {
+        "key": "c",
+        "text": "ω₀ = R/L"
+      },
+      {
+        "key": "d",
+        "text": "ω₀ = 1/(RC)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "X_L = X_C there.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An ideal transformer with 100 primary and 1000 secondary turns on 12 V gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "120 V"
+      },
+      {
+        "key": "b",
+        "text": "1.2 V"
+      },
+      {
+        "key": "c",
+        "text": "12 V"
+      },
+      {
+        "key": "d",
+        "text": "1200 V"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Vₛ/Vₚ = Nₛ/Nₚ.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "The r.m.s. value of a sinusoidal current is its peak value divided by √2.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "I_rms = I₀/√2.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "In a pure capacitor, the voltage leads the current by 90°.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "In a capacitor the current leads the voltage.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which reduce energy losses in a transformer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Laminating the core"
+      },
+      {
+        "key": "b",
+        "text": "Using a soft-iron core"
+      },
+      {
+        "key": "c",
+        "text": "Using thick low-resistance windings"
+      },
+      {
+        "key": "d",
+        "text": "Using a solid steel core"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A solid core increases eddy currents.",
+    "source": "General knowledge of PHY 102"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which of these units is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Weber"
+      },
+      {
+        "key": "b",
+        "text": "Henry"
+      },
+      {
+        "key": "c",
+        "text": "Tesla"
+      },
+      {
+        "key": "d",
+        "text": "Coulomb"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The coulomb is the unit of charge; the others are magnetic units.",
+    "source": "General knowledge of PHY 102"
+  }
+]

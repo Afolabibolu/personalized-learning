@@ -1,0 +1,466 @@
+{
+  "code": "CSC 203",
+  "papers": [
+    {
+      "year": "2018/2019 (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: BSc. Degree Exam. 200 Level First Semester, 2018/2019 Session (CSC 242: Foundations of Computer Science). Answer Question 1 and any other two questions; 2 hours",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/CSC 242 2018-19.pdf"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: CSC 242 (Foundations of Computer Science) 200 Level Mid-Semester Test, First Semester 2018/2019. Answer all; 50 minutes",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/CSC 242 2018-19 TEST(1).pdf"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: B.Sc. Degree Examination, First Semester 2020/2021 Session (CSC 242: Foundations of Computer Science). Answer any three questions; 2 hours",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/CSC 242 2020-21.pdf"
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: CSC 242 Foundations of Computer Science, Second Mid-Semester Test; 30 minutes (no date on the copy)",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/CSC 242 TEST.pdf"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: B.Sc. Degree Examination, Second Semester 2022/2023 (CSC 242: Foundation of Computer Science). Section A: answer all; Section B: answer any 2 questions; 2 hours",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/IMG_20240817_105331_180.jpg (page 1; also 2025(3).jpg) and Screenshot 2025-03-08 222500.png (page 2)"
+    },
+    {
+      "year": "2023/2024 test (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: CSC 242: Foundation of Computer Science test, 7 November 2023; 40 minutes",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/IMG_20240817_105353_089.jpg"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: 1st Semester 2023/2024 Exam (CSC 242: Foundations of Computer Science). Answer Question 1 and any other 2; 2.5 hours",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/Exam 2023-24.jpeg and Exam 2023-24 (2).jpeg"
+    },
+    {
+      "year": "2024 CA (CSC 241)",
+      "paper": "CSC 242 paper filed with CSC 203: CSC 241: Foundation of Computer Science (the course under its newer code), 242-CA-1 of 6 August 2024 (40 minutes) and Second C-A of 10 October 2024 (40 minutes)",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/WhatsApp Image 2025-03-08 at 7.58.24 PM.jpeg and WhatsApp Image 2025-03-08 at 7.58.45 PM.jpeg"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "paper": "CSC 242 paper filed with CSC 203: 1st Semester 2024/2025 Exam (CSC 242: Foundations of Computer Science). Answer Question 1 and any other 2; 2.5 hours",
+      "source": "First Semester PQs/CSC 242 PQ COMPILED/2025.jpg and 2025(1).jpg (also 2024-2025-200-PQ.pdf, pages 7 to 9)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1a",
+      "topic": "sets",
+      "text": "Given that the universal set U is a set of natural numbers, B ⊆ U and B = {250, 251, 252, …}. Write the elements in Bᶜ. (2 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1b",
+      "topic": "sets",
+      "text": "A = {a, b, c}. How many elements are in P(A)? List the elements in P(A). (3 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1c",
+      "topic": "sets",
+      "text": "Give the cardinality of each of the following sets: (i) A = {5, {2, 3}, {9, 4}, 6, {3, 7, 8}} (ii) B = ∅ (iii) C = {x ∈ N | x ≤ 200} (iv) D = {John, Emma, Sharon, Tife} (v) E = {x ∈ N | x ≥ 10} (5 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1d",
+      "topic": "logic-and-quantified-statements",
+      "text": "Convert the following formulae into conjunctive normal form. (i) (A ∧ B) ∨ (A ∧ C) (ii) (A ∨ B) ∧ (A ∨ (C ∧ B)). (4 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1e",
+      "topic": "logic-and-quantified-statements",
+      "text": "The following propositional statements are well formed formulas. True or False? (i) (¬(α (q ∧ p))) (ii) Vpq (iii) (¬(p → (q = p))) (iv) p ¬ r (v) (¬(p → (q ∧ p))) (vi) (p ∧ q) ∨ (q → r) (3 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1f",
+      "topic": "functions-and-sequences",
+      "text": "Write the formula that describes the following sequence: (i) 1, 3, 5, 7, 9, … (ii) −1, 1, −1, 1, −1, … (iii) 2, 5, 10, 17, 26, … (6 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1g",
+      "topic": "algorithms-and-number-theory",
+      "text": "What is an algorithm? Give the properties of an algorithm. (4 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "1h",
+      "topic": "logic-and-quantified-statements",
+      "text": "Define the following: (i) Tautology (ii) Contradiction (iii) Satisfiability (3 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "2a",
+      "topic": "functions-and-sequences",
+      "text": "Let f be the function from {a, b, c} to {1, 2, 3} such that f(a) = 2, f(b) = 3, and f(c) = 1. Is f invertible? If Yes, what is its inverse and if No, why? (5 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "2b",
+      "topic": "algorithms-and-number-theory",
+      "text": "PMB sent an encrypted message \"STOP POLLUTING OUR SEAPORTS\" to the Prime Minister of England for security reasons. He used f(p) = (p + 4) mod 26 to encrypt the message before sending it. The same message was sent to the Chinese president with a different key of f(p) = (p + 21) mod 26. Write out the encrypted messages to the two countries. (6 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "2c",
+      "topic": "logic-and-quantified-statements",
+      "text": "Use the truth table to determine whether the statement (p → q) ∨ (p → ¬q) is valid or not. (4 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "3a",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Proof by mathematical induction that 1 + 2 + 2² + … + 2ⁿ⁻¹ = 2ⁿ − 1. (8 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "3b",
+      "topic": "logic-and-quantified-statements",
+      "text": "Let p and q be the propositions. p = It is below freezing while q = It is snowing. Write these propositions using p and q and logical connectives (including negations). (7 marks)\n(i) It is below freezing and snowing.\n(ii) It is below freezing but not snowing.\n(iii) It is not below freezing and it is not snowing.\n(iv) It is either snowing or below freezing (or both).\n(v) If it is below freezing, it is also snowing.\n(vi) Either it is below freezing or it is snowing, but it is not snowing if it is below freezing.\n(vii) That it is below freezing is necessary and sufficient for it to be snowing."
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "4a",
+      "topic": "algorithms-and-number-theory",
+      "text": "The ages of 12 U.I. student are: 16, 18, 33, 20, 38, 23, 15, 21, 22, 29, 24 and 35. Write both linear and binary search algorithms to find the oldest student in the list. (9 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "4b",
+      "topic": "logic-and-quantified-statements",
+      "text": "Formalize the following sentences using First Order Logic formulas: (i) Caleb takes either Java or Pascal (but not both) (ii) All students are smart (iii) There is a student who is loved by every other student. (6 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "5a",
+      "topic": "functions-and-sequences",
+      "text": "Conjecture a simple formula for aₙ if the first 10 terms of the sequence {aₙ} are 1, 7, 25, 79, 241, 727, 2185, 6559, 19681, 59047. (5 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "5b",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Suppose that Smartphone A has 256 MB RAM and 32 GB ROM, and the resolution of its camera is 8 MP; Smartphone B has 288 MB RAM and 64 GB ROM, and the resolution of its camera is 4 MP; and Smartphone C has 128 MB RAM and 32 GB ROM, and the resolution of its camera is 5 MP. Determine the truth value of each of these propositions. (5 marks)\n(i) Smartphone B has the most RAM of these three smartphones.\n(ii) Smartphone C has more ROM or a higher resolution camera than Smartphone B.\n(iii) Smartphone B has more RAM, more ROM, and a higher resolution camera than Smartphone A.\n(iv) If Smartphone B has more RAM and more ROM than Smartphone C, then it also has a higher resolution camera.\n(v) Smartphone A has more RAM than Smartphone B if and only if Smartphone B has more RAM than Smartphone A."
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "5c",
+      "topic": "algorithms-and-number-theory",
+      "text": "What letter replaces the letter K when the function f(p) = (7p + 3) mod 26 is used for encryption? (3 marks)"
+    },
+    {
+      "year": "2018/2019 (CSC 242)",
+      "number": "5d",
+      "topic": "functions-and-sequences",
+      "text": "Let P(n) be the statement that 1² + 2² + … + n² = n(n + 1)(2n + 1)/6 for the positive integer n. What is the statement P(1)? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "number": "1",
+      "topic": "algorithms-and-number-theory",
+      "text": "Farouk intends to hide his CGPA from his friend Sharon and decides to encrypt the message \"MY CGPA IS SIX POINT NINE\" using the Caesar cipher before sending it through Sharon. What is the secret message given to Sharon? Fuad who is an expert in breaking codes intercepted the cipher text message in custody of Sharon. State step by step, how he will decipher the message and what is the message? (5 marks)"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "number": "2",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "A lawyer in a court of law was speaking in favour of his client and at the end his conclusion is not true when all his premises are true, what type of argument is that? (2 marks)"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "number": "3",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "If I like cake (C), then I like butter (B). If I like butter, then I have sweet mouth (S). Use resolution refutation to show that if I like cake, then, I have sweet mouth. (5 marks)"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "number": "4",
+      "topic": "logic-and-quantified-statements",
+      "text": "Let Q(x) denote the statement \"x = x + 1.\" What is the truth value of the quantification ∃xQ(x), where the domain consists of all real numbers? (3 marks)"
+    },
+    {
+      "year": "2018/2019 test (CSC 242)",
+      "number": "5",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Given that: 1 + 2 + … + n = n(n + 1)/2. Show by mathematical induction that if P(n) then P(n + 1) for n ∈ N. (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "1a",
+      "topic": "logic-and-quantified-statements",
+      "text": "Tautology, Contradiction, proposition, Equivalent and Implies are important concepts in logic, discuss each in details with appropriate example. (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "1b",
+      "topic": "functions-and-sequences",
+      "text": "Recursively define the factorial function f(n) = n! For n ranging from 1 to 7, f(0) = 1, f(n + 1) = (n + 1)f(n). (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "1c",
+      "topic": "logic-and-quantified-statements",
+      "text": "Proof that statements ¬(P∧Q) and (¬P) ∨ (¬Q) are logically equivalent, since ¬(P∧Q) ↔ (¬P) ∨ (¬Q) is always true. (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "1d",
+      "topic": "logic-and-quantified-statements",
+      "text": "From this propositional statement, 8x − 3 > 5. Where P is the predicate and x is the variable. What is the truth value of P(x) where x ranges −2 to +2? (2.5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "1e",
+      "topic": "logic-and-quantified-statements",
+      "text": "P(x): x is a Chemistry student, G(x): x is smart. What does ∃x (P(x) ∧ G(x)) mean? (2.5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "2b",
+      "topic": "functions-and-sequences",
+      "text": "Write a Recursive Fibonacci Algorithm. (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "2c",
+      "topic": "algorithms-and-number-theory",
+      "text": "Write a linear search algorithm that searches for element 12 in a set of numbers from 1 to 19 and also write the attributes of your linear search algorithm. (8 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "2d",
+      "topic": "logic-and-quantified-statements",
+      "text": "What does ∀x∃y (x + y = 729) mean? (2 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "3a",
+      "topic": "algorithms-and-number-theory",
+      "text": "Ten students from computer science were randomly selected and their ages were (14, 15, 16, 17, 18, 19, 20, 21, 22, 23), write a binary search algorithm to search for a student with age 17. (6 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "3b",
+      "topic": "algorithms-and-number-theory",
+      "text": "The governor of Oyo state send an encrypted message \"Lzl sejo\" through his personal assistant to Delta state governor. They were intercepted by opposition party along Ife-Akure express way where message was forcefully collected in a bloody clash. Their expert who was good in decrypting messages noticed it was encrypted using ceaser cypher and that the key was likely to be between 1 and 10. As a computer science student you were called to decrypt the message. (i) What is the original message? (2 marks) (ii) What are the messages from key 1 to 10? (3 marks) (iii) What is the key for the encryption? (2 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "3c",
+      "topic": "algorithms-and-number-theory",
+      "text": "Sokoto state commissioner of information was presented with ceaser's encrypted message \"GZMFWNNXSNHJ\" from the minister of information to decrypt as test for his next promotion. He requested for the shift key which was given to him as 5. Kindly assist the commissioner to solve the problem and state the steps you follow. (4 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "3d",
+      "topic": "algorithms-and-number-theory",
+      "text": "List 3 most frequent occurring characters in common English. (1.5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "3e",
+      "topic": "algorithms-and-number-theory",
+      "text": "List 3 most frequent occurring characters in some encrypted text. (1.5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "4a",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Prove that n! > 2ⁿ for n, a positive integer greater than or equal to 4. (Note: n! is 1*2*…*(n−1)*n.) (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "4b",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Prove that 3ⁿ > n² for P(n) = 1 and 2, and by principle of mathematical induction prove that 3ⁿ > n² for n a positive integer greater than 2. (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "4c",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Prove that 3 + 7 + 11 + … + (4n − 1) = n(2n + 1). (5 marks)"
+    },
+    {
+      "year": "2020/2021 (CSC 242)",
+      "number": "4d",
+      "topic": "functions-and-sequences",
+      "text": "Write a Recursive Fibonacci Algorithm. (5 marks)"
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "number": "1",
+      "topic": "algorithms-and-number-theory",
+      "text": "Decrypt the following message that was encrypted with a columnar transposition with keyword welchman. \"LAOAE_CEDOS_EEOHN_NAHRE_FESSV_EGEGA_SCIMS_WDPSD_OTIAS\"."
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "number": "2",
+      "topic": "algorithms-and-number-theory",
+      "text": "Encrypt the message \"AFRICA IS MY FATHERLAND AND NIGERIA IS MY COUNTRY HOME\" using a transposition cipher with keyword \"BANDITS\"."
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "number": "3",
+      "topic": "algorithms-and-number-theory",
+      "text": "Write a program in python to find factorial of numbers using for loop."
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "number": "4",
+      "topic": "algorithms-and-number-theory",
+      "text": "What are loops?"
+    },
+    {
+      "year": "Second test (undated) (CSC 242)",
+      "number": "5",
+      "topic": "algorithms-and-number-theory",
+      "text": "Explain the following loops: While loop, For loop and Nested loop."
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "1b",
+      "topic": "logic-and-quantified-statements",
+      "text": "Using your understanding of statements and propositions, complete the following table stating whether a sentence is a valid statement, a valid proposition, its corresponding truth value and whether it's a tautology or contradiction: \"Once it's Christmas season, then it may come with a lot of traffic issues\"; \"Saying the truth at all times save you a lot of troubles\"; (p + q) < √(p + q). (8 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "2",
+      "topic": "functions-and-sequences",
+      "text": "The new university administration has promised that there will be feeding program leveraging on the federal government pronouncement. To this end, suppose we can the set of days of the week as the domain. For New-PG-Hall, it is evident that the following definition suffices as a data type:\nData_Day = Ojo-Aje | Ojo-Isegun | Ojo-Ru | Oj'Bo | Ojo-Eti | Ojo-Aba-meta | Ojo-Aiku\nWith the above information, we can also define the codomain as the possible the set of breakfasts. One can create this set using a data type definition such as this:\ndata Breakfast = Eggs | Cereal | Toast | Oatmeal | Pastry | Ham | Grits | Sausage\na. Establish the following: i. Injective function (3.5 marks) ii. Surjective function (3.5 marks)\nb. What if the following replaces the previous breakfast: data Breakfast = Eggs | Cereal | Toast | Oatmeal | Pastry | Ham | Grits (Sausage removed). i. Will the resulting function still be injective and surjective? (4.5 marks) ii. Is the function invertible? Show your opinion (3.5 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "3a",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "With you knowledge of maths reasoning, induction and recursion, provide relevant rules of inference, prove the validity or otherwise of the argument: \"Ade is either intelligent or a good footballer. If Ade is intelligent, then he can score more than 70% in CSC241. Ade scored 69% in CSC241. Therefore, Ade is a good footballer.\" (6 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "3b",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Using the principle of Mathematical Induction, show that p < 2ᵖ for all positive integer p. (2 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "3c",
+      "topic": "functions-and-sequences",
+      "text": "Two common concepts often introduced in Elementary Mathematics are HCF and LCM. Also, we've been introduced to the concept of recursion in Discrete Mathematics as a powerful tool for simplifying problems and for arriving at concise solutions. i. Do you think either HCF or LCM can be written recursively or both? (2 marks) ii. Based on your answer to question (3ci.) above, write the recursive formulation for the one(s) you think can be written recursively. (3 marks) iii. Use an example to show that your recursive definition is correct. (2 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "4b",
+      "topic": "functions-and-sequences",
+      "text": "Give a formula for each of the following sequences: a. −1, 1, −1, 1, −1, … b. 4, 16, 64, 256, 1024, … c. 1, 3, 5, 7, 9, … d. −1, 0, 7, 14, 23, … e. 4, 6, 10, 18, 34, … (5 marks)"
+    },
+    {
+      "year": "2022/2023 (CSC 242)",
+      "number": "4c",
+      "topic": "functions-and-sequences",
+      "text": "Briefly describe the following concepts with regard to functions. Relevant examples will be advantageous. i. Co-domain ii. Image iii. Range iv. Ceiling Function v. Floor function (5 marks)"
+    },
+    {
+      "year": "2023/2024 test (CSC 242)",
+      "number": "1",
+      "topic": "functions-and-sequences",
+      "text": "During the process of account unification via BVN, Bodija-Oja Bank Plc allows a customer to run as many accounts as possible as long as they are not the same type (i.e. Savings, Current, Fixed deposit etc.) and account numbers are meant to uniquely identify customers. Given a function h(y) which returns the account number of any customer y in Hamiltonian bank. a. Is the function h(y) injective? How? (2 marks) b. Is the function h(y) surjective? How? (2 marks) c. Is the function h(y) bijective? How? (2 marks) d. Given g(x) = 3ˣ + 7x and f(x) = x³: i. find (f∘g)(2) ii. find (g∘f)(2) (4 marks)"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "number": "1B",
+      "topic": "functions-and-sequences",
+      "text": "Kukunduku Bank Plc allows a customer to run as many accounts as possible as long as they are not the same type (i.e. Savings, Current, Fixed deposit etc.) and account numbers are meant to uniquely identify customers. Given a function h(y) which returns the account number of any customer y in Hamiltonian bank. a. Is the function h(y) injective? How? (2 marks) b. Is the function h(y) surjective? How? (2 marks) c. Is the function h(y) bijective? How? (2 marks) d. Given g(x) = 3ˣ + 7x and f(x) = x³: i. find (f∘g)(2) ii. find (g∘f)(2) (4 marks)"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "number": "2",
+      "topic": "sets",
+      "text": "Consider the following sets of CSC242 students: CSC242, the set of students offering the course; CSC242F, the set of female students offering the course, CSC242M, the set of male students offering the course. Given that CSC242 = {s1, s2, s3, …, s32}; CSC242F = {s1, s2, s3, …, s12}\na. How many proper subsets of CSC242 can possibly be constructed? Explain in one brief statement, how you will arrive at your answer. (3 marks)\nb. What is the size of the set produced by the Cartesian product of CSC242F and CSC242M? Show how you will arrive at the answer. (3 marks)\nc. Your level adviser needs to select 3 males and 2 females from your CSC242 class for an IQ contest. In how many ways can he possibly do this? (3 marks)\nd. The department of Computer Science has decided to reward the set of best students in CSC242 in the following manner: free tuition and accommodation for one session for students who score ≥70% or free tuition for students who score between 60% and 69%. Given that there are 11 students who scored ≥70% and 15 students scored between 60% and 69%: i. What is the maximum number of choices that can be considered by the department in making this decision? (3 marks) ii. If the department decides to offer scholarships to the best 3 students in each group (irrespective of ties); in how many ways can this be done? (3 marks)"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "number": "3a",
+      "topic": "logic-and-quantified-statements",
+      "text": "Suppose you are given the following, translate the statement as deemed appropriate into an English sentence: i. ∀x (C(x) ∨ ∃y (C(y) ∧ F(x, y))) where C(x) is \"x has a computer,\" and F(x, y) is \"x and y are friends,\" and the domain for both x and y consists of all students in your school. (3 marks)"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "number": "3b",
+      "topic": "logic-and-quantified-statements",
+      "text": "Choose the obvious predicates and express in predicate logic (2 marks each): i. Brothers are siblings ii. Siblinghood is symmetric iii. Everybody loves somebody iv. There is someone who is loved by everyone v. There is someone who is loves someone vi. Everyone loves himself"
+    },
+    {
+      "year": "2023/2024 (CSC 242)",
+      "number": "4",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "Resolve the following inferences with appropriate quantifiers. Kindly state the rule of inferences employed in the resolution of the sentence. (6 marks)\na. \"If I am sick, there will be no lecture today;\" \"either there will be a lecture today, or all the students will be happy;\" \"the students are not happy.\"\nb. ∃x ∀y ∀z ((F(x, y) ∧ F(x, z) ∧ (y ≠ z)) → ¬F(y, z)) (4 marks)\nc. \"Students who pass the course either do the homework or attend lecture;\" \"Bob did not attend every lecture;\" \"Bob passed the course.\" Translate into logic as (with domain being students in the course): (5 marks)"
+    },
+    {
+      "year": "2024 CA (CSC 241)",
+      "number": "CA-1",
+      "topic": "sets",
+      "text": "242-CA-1 Question, 06/08/2024 (40 minutes). Consider the following sets of CSC241 students: CSC241, the set of students offering the course; CSC241F, the set of female students offering the course, CSC241M, the set of male students offering the course. Given that CSC241 = {s1, s2, s3, …, s32}; CSC241F = {s1, s2, s3, …, s12}\na. How many proper subsets of CSC241 can possibly be constructed? Explain in one brief statement, how you will arrive at your answer.\nb. What is the size of the set produced by the Cartesian product of CSC241F and CSC241M? Show how you will arrive at the answer.\nc. Your level adviser needs to select 3 males and 2 females from your CSC241 class for an IQ contest. In how many ways can he possibly do this?\nd. The department of Computer Science has decided to reward the set of best students in CSC241 in the following manner; free tuition and accommodation for one session for students who score ≥70% or free tuition for students who score between 60% and 69%. Given that there are 11 students who scored ≥70% and 15 students scored between 60% and 69%: i. What is the maximum number of choices that can be considered by the department in making this decision? ii. If the department decides to offer scholarships to the best 3 students in each group (irrespective of ties); in how many ways can this be done?"
+    },
+    {
+      "year": "2024 CA (CSC 241)",
+      "number": "CA-2 1a",
+      "topic": "sets",
+      "text": "Second C-A, 10-10-2024 (40 minutes). If the Universe of discourse, X is the set of all UI students. Let A = set of all Computer Science Students in UI; Let B = set of all 200level student in UI; Let C = set of all students that take lectures in KDLT in UI; Let D = set of all Science Student; Let E = set of all Statistics Student.\ni. Write the set notation for students taking STA221 (2 marks)\nii. Write the set notation for all 200level students who take lectures in KDLT (2 marks)\niii. Write the set notation for all students taking CSC291 (not those retaking) (2 marks)\niv. Write the set notation for students who are not Science Students (2 marks)"
+    },
+    {
+      "year": "2024 CA (CSC 241)",
+      "number": "CA-2 1c",
+      "topic": "sets",
+      "text": "Construct the powerset of A = {x, y, z} (4 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "1a",
+      "topic": "mathematical-reasoning-and-proofs",
+      "text": "You are designing a medical expert system that helps in diagnosing diseases based on symptoms. The system uses propositional logic and inference rules to reason about patient data. For example: If a patient has a fever and cough, then the patient may have flu. If a patient has flu, then the patient needs rest and fluids.\n(a) Represent the following statements using propositional logic: i. If a patient has a sore throat and high temperature, then they may have strep throat. ii. If a patient has strep throat, then they need antibiotics. (4 marks)\n(b) Define two inference rules and use them to deduce a recommendation for a patient who has a sore throat and high temperature. (4 marks)\n(c) State two limitations of using propositional logic in real-life medical expert systems. (2 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "1b",
+      "topic": "logic-and-quantified-statements",
+      "text": "A digital security system uses two sensors: Sensor A (motion sensor) and Sensor B (door sensor). The alarm is triggered only if motion is detected or the door is opened, but not both at the same time.\ni. Represent the situation using propositional logic. Let: p = \"Motion is detected\"; q = \"Door is opened\". Write the propositional formula for the alarm triggering condition. (3 marks)\nii. Construct the truth table for the formula. (4 marks)\niii. Identify the rows where the alarm is triggered. (3 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "2a",
+      "topic": "logic-and-quantified-statements",
+      "text": "A cybersecurity analyst writes a rule: \"If all employees must complete the security training to access the system, then no unauthorized users can access it.\"\n1. Express the statement using quantifiers and predicates. For suppose we represent: E(x): \"x is an employee\"; T(x): \"x completed the training\"; A(x): \"x can access the system\" (3 marks)\n2. Rewrite the implication using logical equivalence (e.g., contrapositive, DeMorgan's Laws). (3 marks)\n3. Explain the logical meaning of your rewritten form. (2 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "2b",
+      "topic": "sets",
+      "text": "University of Ibadan in an attempt to up-skill her students organize two workshops: Set A: Students who attended the Cybersecurity Workshop; Set B: Students who attended the Data Privacy Workshop. Out of 100 students surveyed: 40 attended the Cybersecurity Workshop, 30 attended the Data Privacy Workshop, 15 attended both workshops.\n1. Represent the sets A and B using proper set notation. (1 mark)\n2. How many students attended at least one of the workshops? (1 mark)\n3. How many students attended only the Cybersecurity workshop? (1 mark)\n4. How many students attended neither workshop? (1 mark)\n5. Illustrate this using a Venn diagram. (3 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "3a",
+      "topic": "sets",
+      "text": "A small startup is hiring interns as requested by the department. The HR team recorded that: 6 students know Python (set P); 5 students know SQL (set S); 4 students know both languages.\n1. Represent the sets using set notation and determine: a. |P ∪ S| b. |P ∩ S| c. Number of students who know only SQL (3 marks)\n2. If each subset of students in P can be assigned to a project team, how many teams can be formed? (Use power set). (2 marks)\n3. List all subsets of a smaller set X = {Python, SQL} and compute P(X). (1 mark)\n4. Explain how the Inclusion-Exclusion Principle is used in this scenario. (2 marks)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "3b",
+      "topic": "functions-and-sequences",
+      "text": "A university's IT department creates a system where each registered student is assigned a unique email address using a function f: S → E, where: S: set of registered students; E: set of email addresses. Some properties of the system are observed: Each student has only one email, no two students share the same email while some email addresses are not assigned.\n1. Is f a function? Justify. (1 mark)\n2. Is the function one-to-one (injective)? Explain. (1 mark)\n3. Is it onto (surjective)? Why or why not? (2 mark)\n4. Is the function bijective? Support your answer. (1 mark)\n5. If the function is made bijective by restricting the codomain, what change is needed? (2 mark)"
+    },
+    {
+      "year": "2024/2025 (CSC 242)",
+      "number": "4b",
+      "topic": "sets",
+      "text": "You are part of a smart city design team. Your job is to build a data-driven model that supports traffic light control and waste management. The city uses sensors to collect different kinds of data for decision-making. Examples of collected data include: number of cars passing a junction every minute, Temperature readings from weather sensors, Bin collection schedules per neighbourhood, Unique ID numbers assigned to each waste collection truck.\nTasks:\n1. Explain the importance of discrete structures in designing a smart city system. (2 marks)\n2. List two key applications of discrete structures in this context. (2 marks)\n3. Classify the following as discrete or continuous data: a. Number of cars passing a traffic light b. Temperature at junctions c. Time between bin pickups d. Truck ID numbers (4 marks – 1 each)"
+    }
+  ]
+}

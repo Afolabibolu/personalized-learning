@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which access modifier makes code accessible only within the declared class?",
+    "options": [
+      {
+        "key": "a",
+        "text": "private"
+      },
+      {
+        "key": "b",
+        "text": "public"
+      },
+      {
+        "key": "c",
+        "text": "protected"
+      },
+      {
+        "key": "d",
+        "text": "default"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "public is accessible to all classes.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which access level applies when no modifier is written?",
+    "options": [
+      {
+        "key": "a",
+        "text": "default: same package only"
+      },
+      {
+        "key": "b",
+        "text": "public"
+      },
+      {
+        "key": "c",
+        "text": "private"
+      },
+      {
+        "key": "d",
+        "text": "protected"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is package-private.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which modifier makes code accessible in the same package and in subclasses?",
+    "options": [
+      {
+        "key": "a",
+        "text": "protected"
+      },
+      {
+        "key": "b",
+        "text": "private"
+      },
+      {
+        "key": "c",
+        "text": "default"
+      },
+      {
+        "key": "d",
+        "text": "final"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "protected adds subclass access.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A class declared final",
+    "options": [
+      {
+        "key": "a",
+        "text": "cannot be inherited"
+      },
+      {
+        "key": "b",
+        "text": "cannot have objects"
+      },
+      {
+        "key": "c",
+        "text": "must have abstract methods"
+      },
+      {
+        "key": "d",
+        "text": "is accessible only in its package"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "abstract classes cannot have objects.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A static method can be called without creating an object of the class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It belongs to the class.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A synchronized method can be accessed by several threads at the same time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Only one thread at a time.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are non-access modifiers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "final"
+      },
+      {
+        "key": "b",
+        "text": "static"
+      },
+      {
+        "key": "c",
+        "text": "transient"
+      },
+      {
+        "key": "d",
+        "text": "private"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "private is an access modifier.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an access modifier?",
+    "options": [
+      {
+        "key": "a",
+        "text": "public"
+      },
+      {
+        "key": "b",
+        "text": "private"
+      },
+      {
+        "key": "c",
+        "text": "protected"
+      },
+      {
+        "key": "d",
+        "text": "volatile"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "volatile is a non-access modifier.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  }
+]

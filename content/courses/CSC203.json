@@ -1,0 +1,80 @@
+{
+  "code": "CSC 203",
+  "title": "Discrete Structures",
+  "semester": 1,
+  "description": "The CCMAS discrete structures course: logic, quantified statements and rules of inference; sets; functions and sequences; algorithms, the big-O notation and applications of number theory; and mathematical reasoning with direct, indirect and inductive proofs. Built from the CSC 203 outline and note, the course's Sets, Sequences, Mathematical Reasoning and Induction slides, and the Discrete Structures slides filed with it. It replaces CSC 242 (Foundations of Computer Science), whose past papers are filed with it.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "logic-and-quantified-statements",
+      "title": "Logic and Quantified Statements",
+      "summary": "Logic is a system based on propositions, statements that are either true or false, combined with connectives into compound propositions. Quantified statements say how many elements of a domain satisfy a property, and are reasoned about with instantiation and generalisation rules.",
+      "subtopics": [
+        "Propositions and propositional functions",
+        "Logical operators (connectives) and truth tables",
+        "Tautologies and contradictions",
+        "Quantified statements: ∀ and ∃",
+        "Universal instantiation and generalisation",
+        "Existential instantiation and generalisation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sets",
+      "title": "Sets",
+      "summary": "A set is an unordered collection of distinct objects, described by listing or by a property. Sets are compared by subset and equality, combined by union, intersection, difference and complement, and measured by cardinality, power sets and Cartesian products.",
+      "subtopics": [
+        "Sets, elements and set notation",
+        "Equality and subsets",
+        "Cardinality and the empty set",
+        "Power sets and Cartesian products",
+        "Union, intersection, difference and complement",
+        "Venn diagrams and inclusion-exclusion"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "functions-and-sequences",
+      "title": "Functions and Sequences",
+      "summary": "A function assigns each element of a domain exactly one element of a codomain; it may be one-to-one, onto or both. A sequence is a function on the natural numbers, an ordered list of terms described by a formula or a recurrence, and summations add its terms.",
+      "subtopics": [
+        "Functions, domain, codomain and range",
+        "One-to-one, onto and bijective functions",
+        "Inverse and composite functions",
+        "Floor and ceiling functions",
+        "Sequences and their formulas",
+        "Summation notation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "algorithms-and-number-theory",
+      "title": "Algorithms, Big-O and Number Theory",
+      "summary": "An algorithm is a finite set of precise instructions with defined properties; algorithms are compared by the growth of their complexity using big-O notation. Number theory, divisibility, primes, gcd and congruences, is applied in classical cryptography.",
+      "subtopics": [
+        "Algorithms and their properties",
+        "Linear and binary search",
+        "Complexity and big-O notation",
+        "Divisibility, primes and the fundamental theorem of arithmetic",
+        "Greatest common divisor and the Euclidean algorithm",
+        "Congruences and shift ciphers"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "mathematical-reasoning-and-proofs",
+      "title": "Mathematical Reasoning, Proofs and Induction",
+      "summary": "Mathematical reasoning decides whether an argument is correct and builds arguments from axioms, definitions and theorems using rules of inference. Proofs may be direct, indirect (by contraposition) or by mathematical induction.",
+      "subtopics": [
+        "Axioms, theorems, lemmas, corollaries and conjectures",
+        "Rules of inference: modus ponens, modus tollens and syllogisms",
+        "Valid arguments and fallacies",
+        "Characteristics of a proof",
+        "Direct and indirect proofs",
+        "Mathematical induction"
+      ],
+      "lectures": []
+    }
+  ]
+}

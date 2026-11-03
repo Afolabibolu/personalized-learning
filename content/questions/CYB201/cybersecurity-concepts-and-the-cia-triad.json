@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The 'place' where digital interactions such as social media and e-commerce occur is",
+    "options": [
+      {
+        "key": "a",
+        "text": "cyberspace"
+      },
+      {
+        "key": "b",
+        "text": "the Internet's cables"
+      },
+      {
+        "key": "c",
+        "text": "a server room"
+      },
+      {
+        "key": "d",
+        "text": "a firewall"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The Internet is the physical infrastructure.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three parts of the CIA triad?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "b",
+        "text": "Integrity"
+      },
+      {
+        "key": "c",
+        "text": "Availability"
+      },
+      {
+        "key": "d",
+        "text": "Authorization"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Authorization is related but not part of the triad.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Keeping information accessible only to authorised individuals is",
+    "options": [
+      {
+        "key": "a",
+        "text": "confidentiality"
+      },
+      {
+        "key": "b",
+        "text": "integrity"
+      },
+      {
+        "key": "c",
+        "text": "availability"
+      },
+      {
+        "key": "d",
+        "text": "non-repudiation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Encryption is a standard measure.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which is a standard measure for preserving integrity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cryptographic checksums"
+      },
+      {
+        "key": "b",
+        "text": "Routine system maintenance"
+      },
+      {
+        "key": "c",
+        "text": "Biometric verification only"
+      },
+      {
+        "key": "d",
+        "text": "Disaster recovery drills"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Others are file permissions and UPS.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Data encryption converts readable plaintext into unreadable ciphertext.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only the correct key decrypts it.",
+    "source": "CYB 201 (1).pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Well-prepared disaster recovery strategies mainly preserve",
+    "options": [
+      {
+        "key": "a",
+        "text": "availability"
+      },
+      {
+        "key": "b",
+        "text": "confidentiality"
+      },
+      {
+        "key": "c",
+        "text": "integrity"
+      },
+      {
+        "key": "d",
+        "text": "anonymity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Routine maintenance also preserves availability.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a standard measure for confidentiality?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Data encryption"
+      },
+      {
+        "key": "b",
+        "text": "Two-factor authentication"
+      },
+      {
+        "key": "c",
+        "text": "Biometric verification"
+      },
+      {
+        "key": "d",
+        "text": "Uninterruptible power supply"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A UPS supports integrity and availability.",
+    "source": "CYB 201 - Week One slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "A man-in-the-middle attack can compromise confidentiality.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The attacker intercepts the communication.",
+    "source": "CYB 201 Note 1.pdf"
+  }
+]

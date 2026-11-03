@@ -1,0 +1,91 @@
+{
+  "code": "INS 204",
+  "exam_style": true,
+  "intro": "No INS 204 past papers were found in the course folder. These exam-style questions were written for practice from the lecture notes and slides; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the INS 204 lecture notes and slides",
+      "source": "Written for this app from the INS 204 lecture notes and slides, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "systems-concepts-and-the-systems-analyst",
+      "text": "a) Distinguish between systems analysis and systems design. (4 marks) b) Define a system and explain six elements of a system. (8 marks) c) State the four attributes of a systems analyst. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "systems-concepts-and-the-systems-analyst",
+      "text": "Explain, with examples, the following types of systems: (i) open and closed (ii) deterministic, probabilistic and random (iii) adaptive and non-adaptive. (15 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "sdlc-phases-and-models",
+      "text": "a) List and explain the seven phases of the SDLC. (10 marks) b) Describe three methods of changing over from an old system to a new one, stating one advantage of each. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "sdlc-phases-and-models",
+      "text": "a) Compare the waterfall, incremental and spiral models. (9 marks) b) What are CASE tools? State three of their uses. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "requirements-gathering-and-feasibility",
+      "text": "a) Distinguish functional from non-functional requirements, with two examples of each. (6 marks) b) Describe four fact-finding techniques, stating when each is most suitable. (9 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "requirements-gathering-and-feasibility",
+      "text": "a) Explain the five types of feasibility. (10 marks) b) Distinguish tangible from intangible costs and benefits, and name three methods of cost-benefit analysis. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "structured-analysis-and-data-flow-diagrams",
+      "text": "a) Name and describe the four symbols used in data flow diagrams. (8 marks) b) State four rules for constructing DFDs, and explain 'black hole' and 'miracle'. (7 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "structured-analysis-and-data-flow-diagrams",
+      "text": "For a university course registration system in which students submit registration forms, the system checks them against the course catalogue and sends confirmation slips, draw a context diagram and a first-level DFD. Explain how the two diagrams are balanced. (15 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "database-and-file-design",
+      "text": "a) Distinguish candidate, primary, alternate, foreign and surrogate keys. (8 marks) b) Explain entity and referential integrity. (4 marks) c) State the rules of 1NF, 2NF and 3NF. (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "system-architecture-and-object-oriented-design",
+      "text": "a) Compare two-tier and three-tier architectures, and give four benefits of three-tier architecture. (9 marks) b) Explain encapsulation, inheritance, polymorphism and abstraction with examples. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "11",
+      "topic": "input-output-and-user-interface-design",
+      "text": "a) State five objectives of input design. (5 marks) b) Distinguish validation from verification, and client-side from server-side validation. (6 marks) c) Distinguish operational, management and analytical reports. (4 marks)",
+      "marks": 15
+    }
+  ]
+}

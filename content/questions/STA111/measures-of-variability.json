@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For bell-shaped data with mean 75 and SD 5, the percentage between 65 and 85 is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "95%"
+      },
+      {
+        "key": "b",
+        "text": "68%"
+      },
+      {
+        "key": "c",
+        "text": "99.7%"
+      },
+      {
+        "key": "d",
+        "text": "97.5%"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "65 to 85 is ±2 SD.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For x̄ = 15 and s = 2, by Chebyshev's theorem the fraction of observations in (9, 21) is at least",
+    "options": [
+      {
+        "key": "a",
+        "text": "8/9"
+      },
+      {
+        "key": "b",
+        "text": "3/4"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "95%"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k = 3 gives 1 − 1/9.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The coefficient of variation of 2, 5, 3, 1, 6 is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "61%"
+      },
+      {
+        "key": "b",
+        "text": "41%"
+      },
+      {
+        "key": "c",
+        "text": "30%"
+      },
+      {
+        "key": "d",
+        "text": "86%"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "s = 2.074 and x̄ = 3.4.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For scores with mean 75 and SD 5, the percentage between 65 and 75 is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "47.5%"
+      },
+      {
+        "key": "b",
+        "text": "45%"
+      },
+      {
+        "key": "c",
+        "text": "52.5%"
+      },
+      {
+        "key": "d",
+        "text": "55%"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Half of 95%.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "Chebyshev's theorem applies to all data sets.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It needs no assumption about shape.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "true_false",
+    "stem": "The empirical rule applies to every data set.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It applies only to bell-shaped data.",
+    "source": "STA 111 2025 test"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are measures of variability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Range"
+      },
+      {
+        "key": "b",
+        "text": "Variance"
+      },
+      {
+        "key": "c",
+        "text": "Coefficient of variation"
+      },
+      {
+        "key": "d",
+        "text": "Median"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The median is a measure of centre.",
+    "source": "STA 114 Lecture 4: Measures of Variability (Adepoju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which percentage is the odd one out for the empirical rule?",
+    "options": [
+      {
+        "key": "a",
+        "text": "68%"
+      },
+      {
+        "key": "b",
+        "text": "95%"
+      },
+      {
+        "key": "c",
+        "text": "99.7%"
+      },
+      {
+        "key": "d",
+        "text": "75%"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "75% is Chebyshev's bound for k = 2.",
+    "source": "STA 114 Lecture 4: Measures of Variability (Adepoju)"
+  }
+]

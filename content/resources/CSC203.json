@@ -1,0 +1,45 @@
+{
+  "code": "CSC 203",
+  "topics": {
+    "logic-and-quantified-statements": [
+      {
+        "title": "Video: Universal and Existential Quantifiers,  ∀ \"For All\" and ∃ \"There Exists\" (Dr. Trefor Bazett)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GJpezCUMOxA",
+        "source": "links.csv"
+      }
+    ],
+    "sets": [
+      {
+        "title": "Video: Lecture 1: Sets, Set Operations and Mathematical Induction (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LY7YmuDbuW0",
+        "source": "links.csv"
+      }
+    ],
+    "functions-and-sequences": [
+      {
+        "title": "Video: FUNCTIONS - DISCRETE MATHEMATICS (TrevTutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=OixshZzH8t0",
+        "source": "links.csv"
+      }
+    ],
+    "algorithms-and-number-theory": [
+      {
+        "title": "Video: Formal Definition of Big O Notation (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=T8_x0yhON-4",
+        "source": "links.csv"
+      }
+    ],
+    "mathematical-reasoning-and-proofs": [
+      {
+        "title": "Video: Discrete Math Proofs in 22 Minutes (5 Types, 9 Examples) (TrevTutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HIkIqt_ytdc",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In a categorical syllogism, the predicate of the conclusion is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "major term"
+      },
+      {
+        "key": "b",
+        "text": "minor term"
+      },
+      {
+        "key": "c",
+        "text": "middle term"
+      },
+      {
+        "key": "d",
+        "text": "copula"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The minor term is the subject.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The term that appears in both premises but not in the conclusion is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "middle term"
+      },
+      {
+        "key": "b",
+        "text": "major term"
+      },
+      {
+        "key": "c",
+        "text": "minor term"
+      },
+      {
+        "key": "d",
+        "text": "antecedent"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It links the premises.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"All traditionalists are conservatives. Some scholars are conservatives. Therefore, some scholars are traditionalists\" commits the fallacy of",
+    "options": [
+      {
+        "key": "a",
+        "text": "undistributed middle"
+      },
+      {
+        "key": "b",
+        "text": "four terms"
+      },
+      {
+        "key": "c",
+        "text": "illicit minor"
+      },
+      {
+        "key": "d",
+        "text": "modus tollens"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The middle term is not distributed in either premise.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A syllogism with four different terms commits",
+    "options": [
+      {
+        "key": "a",
+        "text": "quaternio terminorum (four terms)"
+      },
+      {
+        "key": "b",
+        "text": "illicit major"
+      },
+      {
+        "key": "c",
+        "text": "affirming the consequent"
+      },
+      {
+        "key": "d",
+        "text": "accident"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A valid syllogism has only three terms.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A term is distributed if it refers to every member of its class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This decides several rules.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Formal fallacies occur because the content of the premises is false.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They violate the rules of valid inference, a matter of form.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are rules for a valid categorical syllogism in the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only three terms, used in the same sense"
+      },
+      {
+        "key": "b",
+        "text": "The middle term distributed in at least one premise"
+      },
+      {
+        "key": "c",
+        "text": "No term distributed in the conclusion unless distributed in a premise"
+      },
+      {
+        "key": "d",
+        "text": "The conclusion must come first"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "In standard form the conclusion comes last.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a formal fallacy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Undistributed middle"
+      },
+      {
+        "key": "b",
+        "text": "Illicit major"
+      },
+      {
+        "key": "c",
+        "text": "Denying the antecedent"
+      },
+      {
+        "key": "d",
+        "text": "Appeal to pity"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Appeal to pity is an informal fallacy.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 12 Formal and Informal Fallacies (O. A. Oyeshile)"
+  }
+]

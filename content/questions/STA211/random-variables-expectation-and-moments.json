@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = k(8 − x), x = 0, 1, ..., 5, the constant k is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/33"
+      },
+      {
+        "key": "b",
+        "text": "1/8"
+      },
+      {
+        "key": "c",
+        "text": "1/40"
+      },
+      {
+        "key": "d",
+        "text": "1/48"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Σ(8 − x) = 8 + 7 + 6 + 5 + 4 + 3 = 33.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = ke^(−3x), x > 0, the constant k is",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "1/3"
+      },
+      {
+        "key": "c",
+        "text": "1"
+      },
+      {
+        "key": "d",
+        "text": "e³"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "∫ke^(−3x)dx = k/3.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Chebyshev's inequality with μ = 12, σ² = 9 gives P(6 < X < 18) at least",
+    "options": [
+      {
+        "key": "a",
+        "text": "3/4"
+      },
+      {
+        "key": "b",
+        "text": "1/4"
+      },
+      {
+        "key": "c",
+        "text": "8/9"
+      },
+      {
+        "key": "d",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k = 2, so 1 − 1/k² = 3/4.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The moment generating function of a Poisson variable with parameter λ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "e^(λ(e^t − 1))"
+      },
+      {
+        "key": "b",
+        "text": "(1 − βt)^(−α)"
+      },
+      {
+        "key": "c",
+        "text": "e^(λt)"
+      },
+      {
+        "key": "d",
+        "text": "(q + pe^t)ⁿ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its derivative at 0 gives λ.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "For f(x) = (1/2)ˣ, x = 1, 2, ..., E(2^X) does not exist.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The series Σ 1 diverges.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The first moment about the mean equals the variance.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is zero; the second central moment is the variance.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For f(x) = 2(1 − x), 0 < x < 1, which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "E(X^q) = 2/((q + 1)(q + 2))"
+      },
+      {
+        "key": "b",
+        "text": "E(X) = 1/3"
+      },
+      {
+        "key": "c",
+        "text": "E(X²) = 1/6"
+      },
+      {
+        "key": "d",
+        "text": "E(X) = 1/2"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Set q = 1 and q = 2.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property of a moment generating function?",
+    "options": [
+      {
+        "key": "a",
+        "text": "M(0) = 1"
+      },
+      {
+        "key": "b",
+        "text": "E(X) = M'(0)"
+      },
+      {
+        "key": "c",
+        "text": "It determines the distribution uniquely"
+      },
+      {
+        "key": "d",
+        "text": "M(t) is always a polynomial"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Most mgfs are exponential-type functions.",
+    "source": "General knowledge of STA 211"
+  }
+]

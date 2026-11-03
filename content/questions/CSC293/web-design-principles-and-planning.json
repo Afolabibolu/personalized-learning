@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A page whose content changes only when a person manually updates it is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a static page"
+      },
+      {
+        "key": "b",
+        "text": "a dynamic page"
+      },
+      {
+        "key": "c",
+        "text": "a web application"
+      },
+      {
+        "key": "d",
+        "text": "a cookie"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A plain HTML page is static.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "On which type of site is information more important than design?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An informational site"
+      },
+      {
+        "key": "b",
+        "text": "An entertainment site"
+      },
+      {
+        "key": "c",
+        "text": "An artistic site"
+      },
+      {
+        "key": "d",
+        "text": "A splash page"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Users want information fast.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which CSS feature lets a layout change for different screen widths?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Media queries"
+      },
+      {
+        "key": "b",
+        "text": "Selectors only"
+      },
+      {
+        "key": "c",
+        "text": "Inline styles"
+      },
+      {
+        "key": "d",
+        "text": "Comments"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Responsive design uses media queries.",
+    "source": "General knowledge of CSC 293"
+  },
+  {
+    "format": "true_false",
+    "stem": "With CSS, table-based page layout is regarded as outdated.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Tables were meant for tabular data.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "Accessible links should use words like \"Click here\" rather than describing their target.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Links should make sense out of context.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are basic aspects of design for a typical website?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Content"
+      },
+      {
+        "key": "b",
+        "text": "Usability"
+      },
+      {
+        "key": "c",
+        "text": "Appearance"
+      },
+      {
+        "key": "d",
+        "text": "Server rack size"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is structure.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dynamic content built on the server is usually produced with",
+    "options": [
+      {
+        "key": "a",
+        "text": "server-side scripting such as PHP"
+      },
+      {
+        "key": "b",
+        "text": "plain HTML only"
+      },
+      {
+        "key": "c",
+        "text": "image files"
+      },
+      {
+        "key": "d",
+        "text": "the browser's cache"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Client-side scripting uses JavaScript.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a component of web design listed in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Markup languages"
+      },
+      {
+        "key": "b",
+        "text": "Style sheet languages"
+      },
+      {
+        "key": "c",
+        "text": "Server-side scripting"
+      },
+      {
+        "key": "d",
+        "text": "Spreadsheet macros"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Databases and multimedia are also listed.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

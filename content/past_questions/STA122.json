@@ -1,0 +1,56 @@
+{
+  "code": "STA 122",
+  "exam_style": true,
+  "intro": "No STA 122 past papers were found. These are the lecturer's own discussion questions and practical example, copied as written from the modules. They are not from a past paper.",
+  "label": "Lecturer questions",
+  "papers": [
+    {
+      "year": "Module discussions",
+      "paper": "Discussion questions at the end of STA 122 Modules 1 and 2 (Dr O.J. Akintande); not from a past paper",
+      "source": "Module_1Updated_copy.pdf; Module_2.pdf"
+    },
+    {
+      "year": "Module 4 practical",
+      "paper": "Practical example in STA 122 Module 4 (Akintande); not from a past paper",
+      "source": "Module_4 Classification-Metrics-in-Machine-Learning.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Module discussions",
+      "number": "M1-1",
+      "topic": "basics-of-machine-learning",
+      "text": "Have you used YouTube, Netflix, or Instagram today? What's an example of a recommendation you received? Did you ever wonder how those systems knew what to show you?"
+    },
+    {
+      "year": "Module discussions",
+      "number": "M2-1",
+      "topic": "statistical-learning-vs-machine-learning",
+      "text": "Can a model be both interpretable and highly predictive? Where is the trade-off?"
+    },
+    {
+      "year": "Module discussions",
+      "number": "M2-2",
+      "topic": "statistical-learning-vs-machine-learning",
+      "text": "In real-world problems (e.g., healthcare, finance), when would you prefer interpretability over accuracy?"
+    },
+    {
+      "year": "Module discussions",
+      "number": "M2-3",
+      "topic": "statistical-learning-vs-machine-learning",
+      "text": "How can regularization (like Lasso or Ridge) help bridge the gap between these two paradigms?"
+    },
+    {
+      "year": "Module discussions",
+      "number": "M2-4",
+      "topic": "statistical-learning-vs-machine-learning",
+      "text": "Why is cross-validation more emphasized in Machine Learning?"
+    },
+    {
+      "year": "Module 4 practical",
+      "number": "1",
+      "topic": "classification-metrics",
+      "text": "Model predictions: TP = 80, FN = 20, FP = 50, TN = 850. Dataset: 1000 patients (100 sick, 900 healthy). Calculations for all metrics."
+    }
+  ]
+}

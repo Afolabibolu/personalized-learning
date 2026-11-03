@@ -1,0 +1,108 @@
+{
+  "code": "CSC 293",
+  "title": "Web Design and Programming",
+  "semester": 2,
+  "description": "Building websites and web applications: the Web and its protocols, web design principles and planning, HTML tags, tables, links and forms, CSS and page layout, JavaScript, and server-side programming with PHP and MySQL. Built from Prof S. O. Akinola's Web Design and Programming for Beginners (HTML, CSS, JavaScript and PHP) and the web protocols note in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "the-web-websites-and-web-applications",
+      "title": "The Web, Websites and Web Applications",
+      "summary": "The Internet is a global network of networks; the World Wide Web is an information system on it that uses HTML, HTTP and URLs. A website is a collection of related web pages, while a web application builds on a website and takes user input that affects back-end business logic through client, middle and data tiers. Network protocols such as TCP, IP, HTTP, DNS and FTP make it work.",
+      "subtopics": [
+        "Internet versus World Wide Web",
+        "History of the Web",
+        "Web page, website and home page",
+        "Web applications and their tiers",
+        "Desktop versus web applications; browsers",
+        "Network protocols"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "web-design-principles-and-planning",
+      "title": "Web Design Principles and Planning",
+      "summary": "Web design covers how content is delivered through the Web: its content, usability, appearance and structure. Web pages are static or dynamic, sites are entertainment or informational, and design draws on markup, style sheets, client- and server-side scripting and databases. Accessibility, planning, responsive design and performance make a site effective.",
+      "subtopics": [
+        "The basic aspects of web design",
+        "Static and dynamic pages",
+        "Site types",
+        "Components of web design",
+        "Web accessibility",
+        "Planning, responsive design and performance"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "html-tags-tables-and-links",
+      "title": "HTML Tags, Tables and Links",
+      "summary": "HTML marks up the text of a web page with tags, or elements, that the browser interprets. Pages are written in a text editor and saved as HTML files. Basic tags structure the page, table tags arrange data in rows and cells, and anchor tags create links within a page, to other pages, to the wider Web and to email.",
+      "subtopics": [
+        "Requirements for designing a web page",
+        "HTML document structure and basic tags",
+        "Correct use of tags",
+        "Tables: rows, cells, borders, spacing and padding",
+        "Page jumps and links to other pages",
+        "Link buttons and mailto"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "html-forms",
+      "title": "HTML Forms",
+      "summary": "Forms collect data from visitors. The form tag's METHOD and ACTION attributes say how and where the data is sent, and input elements include text boxes, password boxes, radio buttons, check boxes, pop-up menus, text areas, hidden fields and submit and reset buttons.",
+      "subtopics": [
+        "The parts of a form",
+        "The FORM tag: METHOD and ACTION",
+        "Text and password inputs",
+        "Radio buttons and check boxes",
+        "Pop-up menus and text areas",
+        "Submit, reset, image and hidden inputs"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "css-and-page-layout",
+      "title": "CSS and Page Layout",
+      "summary": "Cascading Style Sheets control how HTML elements look. A CSS rule has a selector and a declaration of property and value. Styles can be inline, internal (embedded) or external, and external style sheets are preferred for whole sites. Modern layout uses Flexbox and CSS Grid.",
+      "subtopics": [
+        "What CSS is",
+        "Selectors and declarations",
+        "Inline, internal and external styles",
+        "Advantages of external style sheets",
+        "Common properties: colour, fonts and links",
+        "Layout with Flexbox and Grid"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "javascript",
+      "title": "JavaScript",
+      "summary": "JavaScript is a client-side scripting language that makes web pages interactive. It has untyped variables with global or local scope, arithmetic and assignment operators, control structures, functions, events such as onclick and onsubmit, cookies, form validation and arrays.",
+      "subtopics": [
+        "What JavaScript is and where it goes",
+        "Variables, data types and scope",
+        "Operators and assignment operators",
+        "Control structures: if, switch and loops",
+        "Functions and events",
+        "Cookies, form validation and arrays"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "php-and-mysql",
+      "title": "PHP and MySQL",
+      "summary": "PHP is a loosely typed server-side scripting language whose variables begin with $. It has global, local and static variable scopes, constants, eight data types, control structures, functions, arrays, string and file handling, and connects to MySQL databases through MySQLi or PDO to create tables and insert and select data with SQL.",
+      "subtopics": [
+        "What PHP is; tags and comments",
+        "Variables and loose typing",
+        "Variable scope and constants",
+        "Data types, control structures and functions",
+        "Connecting to MySQL with MySQLi or PDO",
+        "SQL: CREATE, INSERT and SELECT"
+      ],
+      "lectures": []
+    }
+  ]
+}

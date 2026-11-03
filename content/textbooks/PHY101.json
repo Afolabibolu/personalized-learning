@@ -1,0 +1,62 @@
+{
+  "code": "PHY 101",
+  "books": {
+    "halliday": {
+      "title": "Fundamentals of Physics",
+      "authors": "David Halliday, Robert Resnick and Jearl Walker",
+      "publisher": "Wiley",
+      "note": "The first recommended text on the course slides."
+    }
+  },
+  "topics": {
+    "units-dimensions-and-useful-mathematics": [
+      {
+        "book": "halliday",
+        "read": "Chapter 1 (Measurement)",
+        "why": "Units, SI and conversion."
+      }
+    ],
+    "vectors": [
+      {
+        "book": "halliday",
+        "read": "Chapter 3 (Vectors)",
+        "why": "Components, dot and cross products."
+      }
+    ],
+    "kinematics-and-projectiles": [
+      {
+        "book": "halliday",
+        "read": "Chapters 2 and 4 (Motion along a straight line; Motion in two and three dimensions)",
+        "why": "Kinematics and projectiles."
+      }
+    ],
+    "newtons-laws-friction-and-circular-motion": [
+      {
+        "book": "halliday",
+        "read": "Chapters 5 and 6 (Force and Motion I and II)",
+        "why": "Newton's laws, friction and circular motion."
+      }
+    ],
+    "gravitation": [
+      {
+        "book": "halliday",
+        "read": "Chapter 13 (Gravitation)",
+        "why": "Universal gravitation, satellites and Kepler's laws."
+      }
+    ],
+    "work-energy-and-rotating-bodies": [
+      {
+        "book": "halliday",
+        "read": "Chapters 7, 8, 10 and 11 (Work and energy; rotation; rolling, torque and angular momentum)",
+        "why": "Energy and rotating bodies."
+      }
+    ],
+    "shm-elasticity-and-liquids": [
+      {
+        "book": "halliday",
+        "read": "Chapters 12, 14 and 15 (Equilibrium and elasticity; Fluids; Oscillations)",
+        "why": "Elasticity, liquids and SHM."
+      }
+    ]
+  }
+}

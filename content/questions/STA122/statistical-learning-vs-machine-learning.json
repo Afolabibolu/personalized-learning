@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The main goal of statistical learning, according to Module 2, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inference and understanding relationships"
+      },
+      {
+        "key": "b",
+        "text": "Prediction at any cost"
+      },
+      {
+        "key": "c",
+        "text": "Handling images and audio"
+      },
+      {
+        "key": "d",
+        "text": "Avoiding all assumptions"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ML focuses on prediction.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A model that follows every training point, including noise, is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Overfitted"
+      },
+      {
+        "key": "b",
+        "text": "Underfitted"
+      },
+      {
+        "key": "c",
+        "text": "Well-fitted"
+      },
+      {
+        "key": "d",
+        "text": "Regularised"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It predicts new data badly.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which model does Module 2 say strikes a balance between interpretability and accuracy?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decision tree"
+      },
+      {
+        "key": "b",
+        "text": "Neural network"
+      },
+      {
+        "key": "c",
+        "text": "Simple linear regression"
+      },
+      {
+        "key": "d",
+        "text": "ANOVA"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Trees sit between linear models and neural networks.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the ML workflow, models are mainly evaluated with",
+    "options": [
+      {
+        "key": "a",
+        "text": "Cross-validation, accuracy and ROC"
+      },
+      {
+        "key": "b",
+        "text": "P-values and R² only"
+      },
+      {
+        "key": "c",
+        "text": "Residual plots only"
+      },
+      {
+        "key": "d",
+        "text": "Hypothesis tests only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Statistical learning uses p-values, R² and residuals.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Lasso and Ridge regularisation help reduce overfitting.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They penalise large coefficients.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Machine learning models are always more interpretable than linear regression.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Many ML models are black boxes.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are features of statistical learning in the comparison table?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Parametric models"
+      },
+      {
+        "key": "b",
+        "text": "High interpretability"
+      },
+      {
+        "key": "c",
+        "text": "Coefficients, p-values and confidence intervals as output"
+      },
+      {
+        "key": "d",
+        "text": "Large unstructured data as its main input"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Large unstructured data are typical of ML.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which model is the odd one out as a machine-learning example in Module 2?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Decision trees"
+      },
+      {
+        "key": "b",
+        "text": "Support vector machines"
+      },
+      {
+        "key": "c",
+        "text": "Neural networks"
+      },
+      {
+        "key": "d",
+        "text": "ANOVA"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ANOVA is a statistical-learning example.",
+    "source": "STA 122 Module 2: Statistical Learning vs. Machine Learning (Akintande)"
+  }
+]

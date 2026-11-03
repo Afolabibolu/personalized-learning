@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A blueprint that defines attributes and methods but contains no data is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "class"
+      },
+      {
+        "key": "b",
+        "text": "instance"
+      },
+      {
+        "key": "c",
+        "text": "module"
+      },
+      {
+        "key": "d",
+        "text": "file object"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An instance contains real data.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method sets an object's initial attributes when it is created?",
+    "options": [
+      {
+        "key": "a",
+        "text": "__init__()"
+      },
+      {
+        "key": "b",
+        "text": "__str__()"
+      },
+      {
+        "key": "c",
+        "text": "__repr__()"
+      },
+      {
+        "key": "d",
+        "text": "main()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs for each new object.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By convention, Python class names are written in",
+    "options": [
+      {
+        "key": "a",
+        "text": "CapitalizedWords"
+      },
+      {
+        "key": "b",
+        "text": "snake_case"
+      },
+      {
+        "key": "c",
+        "text": "ALL_CAPS"
+      },
+      {
+        "key": "d",
+        "text": "lowercase only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example JackRussellTerrier.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A class attribute has the same value for every instance of the class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Instance attributes differ per object.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "true_false",
+    "stem": "When creating an instance, you must pass a value for self explicitly.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Python passes self automatically.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the first parameter of an instance method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "self"
+      },
+      {
+        "key": "b",
+        "text": "this"
+      },
+      {
+        "key": "c",
+        "text": "cls only"
+      },
+      {
+        "key": "d",
+        "text": "init"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It refers to the instance.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which problems of storing records as plain lists does the book describe?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is hard to remember what each index means"
+      },
+      {
+        "key": "b",
+        "text": "A missing element shifts the other values"
+      },
+      {
+        "key": "c",
+        "text": "Larger files become harder to manage"
+      },
+      {
+        "key": "d",
+        "text": "Lists cannot hold strings"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Lists can hold any type.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a part of a Python class definition?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The class keyword"
+      },
+      {
+        "key": "b",
+        "text": "An __init__ method"
+      },
+      {
+        "key": "c",
+        "text": "Instance methods"
+      },
+      {
+        "key": "d",
+        "text": "A main() return code"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Classes do not need a main() method.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  }
+]

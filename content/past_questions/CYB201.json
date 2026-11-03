@@ -1,0 +1,84 @@
+{
+  "code": "CYB 201",
+  "exam_style": true,
+  "intro": "No CYB 201 past papers were found in the course folder. These exam-style questions were written for practice from the course's slides and notes; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the CYB 201 slides and notes",
+      "source": "Written for this app from the CYB 201 slides and notes, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "cybersecurity-concepts-and-the-cia-triad",
+      "text": "a) Distinguish between cyberspace and the Internet. (4 marks) b) Define cybersecurity and give three reasons why it is important. (5 marks) c) Explain the CIA triad, giving two standard measures for each element. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "authentication-and-access-control",
+      "text": "a) What is authentication, and why is it called the first line of defence? (4 marks) b) Describe three standard measures for establishing authentication. (6 marks) c) Distinguish between discretionary, mandatory and role-based access control. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "security-policies-and-best-practices",
+      "text": "a) Give five reasons why security policies are important. (5 marks) b) Distinguish between an enterprise security policy, an issue-specific security policy and a system-specific security policy, with an example of each. (9 marks) c) What is an acceptable use policy? (1 mark)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "security-policies-and-best-practices",
+      "text": "Describe six best current practices for cybersecurity implementation in an organisation. (15 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "security-testing-and-incident-response",
+      "text": "a) What is security testing? State four of its goals. (6 marks) b) Explain vulnerability testing, penetration testing, security auditing and ethical hacking. (8 marks) c) Why should an incident response plan be tested? (1 mark)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "security-testing-and-incident-response",
+      "text": "a) List and explain the five steps that an incident response plan should define. (10 marks) b) How do backup and disaster recovery planning support business continuity? (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "vulnerabilities-and-malware",
+      "text": "a) Define a security vulnerability, an exploit and an attack. (6 marks) b) Explain buffer overflow, non-validated input and race conditions. (6 marks) c) What is Rowhammer? (3 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "vulnerabilities-and-malware",
+      "text": "a) Describe four types of malware. (8 marks) b) Explain three ways a cyber attack can affect computer systems and networks. (7 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "risk-management-and-impact",
+      "text": "a) What is risk management? Explain its three processes. (9 marks) b) Discuss three impacts of cyber attacks on organisations, with an example. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "10",
+      "topic": "risk-management-and-impact",
+      "text": "a) Explain three impacts of cyber attacks on civil institutions. (6 marks) b) Discuss three challenges civil institutions face in securing their systems. (6 marks) c) Why is human error a major concern in cybersecurity? (3 marks)",
+      "marks": 15
+    }
+  ]
+}

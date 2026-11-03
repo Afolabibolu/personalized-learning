@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The general format of an assembly instruction is",
+    "options": [
+      {
+        "key": "a",
+        "text": "mnemonic, operands"
+      },
+      {
+        "key": "b",
+        "text": "operands, mnemonic"
+      },
+      {
+        "key": "c",
+        "text": "label = value"
+      },
+      {
+        "key": "d",
+        "text": "opcode only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Labels and comments are optional.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Operands that are fixed values written in the instruction itself are",
+    "options": [
+      {
+        "key": "a",
+        "text": "immediate"
+      },
+      {
+        "key": "b",
+        "text": "register"
+      },
+      {
+        "key": "c",
+        "text": "memory"
+      },
+      {
+        "key": "d",
+        "text": "implied"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They are stored in the code segment.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Both operands of MOV must be the same size.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "You cannot move a 16-bit register into an 8-bit one.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "A value can be loaded directly into a segment register, as in mov ds, 784h.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Load it into a general register first, then move it.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are restrictions on segment registers with MOV?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CS cannot be the destination"
+      },
+      {
+        "key": "b",
+        "text": "Only one operand can be a segment register"
+      },
+      {
+        "key": "c",
+        "text": "A constant cannot be moved directly into a segment register"
+      },
+      {
+        "key": "d",
+        "text": "AX cannot be a source"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "AX is a normal source for setting DS.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Sessions 3 and 7"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which instruction performs signed multiplication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IMUL"
+      },
+      {
+        "key": "b",
+        "text": "MUL"
+      },
+      {
+        "key": "c",
+        "text": "INC"
+      },
+      {
+        "key": "d",
+        "text": "ADC"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "MUL is unsigned.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of operand in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Register"
+      },
+      {
+        "key": "b",
+        "text": "Memory"
+      },
+      {
+        "key": "c",
+        "text": "Implied"
+      },
+      {
+        "key": "d",
+        "text": "Compiled"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The four types are register, memory, immediate and implied.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "After mov bx, 5, the value in BH is",
+    "options": [
+      {
+        "key": "a",
+        "text": "00"
+      },
+      {
+        "key": "b",
+        "text": "05"
+      },
+      {
+        "key": "c",
+        "text": "50"
+      },
+      {
+        "key": "d",
+        "text": "FF"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "BX = 0005, so BH = 00 and BL = 05.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 7"
+  }
+]

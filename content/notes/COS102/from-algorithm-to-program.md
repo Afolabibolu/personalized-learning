@@ -1,59 +1,47 @@
-# From Algorithm to Program
+# Python: Decisions and Loops
 
-## Implementation
+## Decisions
 
-In the implementation phase, the algorithm (the general solution) is translated into a programming language, giving a concrete solution. An algorithm must be written before any coding. The CCMAS lab work for COS 102 uses any language, such as Visual Basic, Python or C; the examples here use Python.
+Sequencing alone cannot solve every problem, so **control structures** let a program choose and repeat. A **condition** evaluates to **True or False**, using relational operators (<, <=, ==, !=, >, >=) and the logical operators **and** (both true), **or** (at least one true) and **not**.
 
-## Assignment, input and output
-
-```python
-name = input("Enter your name: ")   # input returns text
-score = int(input("Enter your score: "))  # convert text to a whole number
-print("Hello", name)
-```
-
-`=` is assignment: the value on the right is stored in the variable on the left. `total = total + score` reads the old value of total, adds score, and stores the result back.
-
-## Condition statements
+- **if**: the **if** keyword, a condition, a **colon**, then an **indented block** on a new line. The block runs only if the condition is true.
+- **if...else**: else runs when the condition is false; the else is optional.
+- **elif** (multiple decision): checks conditions in order and runs the **first** that is true.
+- **nested if**: an if inside another. Avoid too many layers.
 
 ```python
+score = int(input("Enter score: "))
 if score >= 70:
-    print("A")
-elif score >= 50:
-    print("Pass")
+    print("Grade point is 4")
+elif score >= 60:
+    print("Grade point is 3")
 else:
-    print("Fail")
+    print("Grade point is 2 or below")
 ```
 
-Only one branch runs. The second test is reached only if the first is false, so the order of conditions matters. Python uses indentation to group statements.
+**Indentation groups code** in Python, so bad indentation gives wrong output or errors. if (y = 5) is wrong, because = assigns while == compares, and =< is not an operator. Code with braces, such as if (age = 16) Ellipsis, is not Python.
 
 ## Loops
 
-There are two basic types of loop.
+A loop repeats a body. Its parts are: initialise the control, test it, execute the body and update the control.
 
-- A **count-controlled loop** repeats a process a specified number of times. It has three parts: **initialise** the loop control variable, **test** it, and **increment** it. Starting at 0 and testing `count < limit`, the loop runs limit times.
+- A **for** loop is a **definite (counting)** loop: for i in [0, 1, 2, 3]:, or with **range(start, stop, step)**. range(5) gives 0 to 4, range(1, 8) gives 1 to 7, range(0, 14, 3) gives 0, 3, 6, 9, 12 and range(8, 1, −1) counts down 8 to 2. The stop value is never reached.
+- A **while** loop is **indefinite**: it runs while the condition is true, and the programmer must initialise and update the variable (i = 1; while i <= 5: print(i); i += 1). Python loops are **pre-test** loops: the body may run zero times.
+- If the tested value never changes, the result is an **infinite loop**. A computer cannot detect every infinite loop; this is the **halting problem**.
+- **break** leaves the loop at once. **continue** skips to the next iteration: for i in range(1, 6), skipping 3, prints 1, 2, 4, 5.
+- Loops can be **nested**, for example for a multiplication table.
 
-```python
-count = 0
-while count < 5:
-    print(count)
-    count = count + 1
-```
+## Usability
 
-- An **event-controlled loop** repeats until an event inside the loop occurs, such as reading a negative value. The event must be initialised, tested and updated.
+Software that users cannot understand is useless. From **Jakob Nielsen**'s heuristics:
 
-```python
-total = 0
-value = int(input())
-while value >= 0:
-    total = total + value
-    value = int(input())
-```
+- keep users informed (**visibility**);
+- **minimise memory load** (recognition rather than recall: show the valid input, e.g. "Enter age (0 – 114)");
+- be **consistent**;
+- give **feedback**;
+- provide clearly marked exits;
+- handle errors helpfully;
+- **match the real world**;
+- keep the design minimal.
 
-A while loop is a **pretest loop**: the test comes first, so if it is false at the start the body never runs. If the update is left out, the condition never changes and the loop runs forever: an **infinite loop**.
-
-## Testing and debugging
-
-Test the program with normal values, boundary values (exactly 50 for a pass mark) and invalid input, and compare the results with the answers worked out by hand. **Syntax errors** break the language's rules and stop the program running. **Runtime errors** happen while it runs, such as dividing by zero. **Logic errors** give wrong answers without any error message and are found only by testing.
-
-Source: Computer Science Illuminated, 7th edition (2020), Chapters 7.1 and 7.2 (implementation phase, loops); Python statements, testing and error types from general knowledge, following the NUC CCMAS outline for COS 102
+Source: COS 102 Lecture 9 (control structures); COS 102 Lecture 10 (loops and usability)

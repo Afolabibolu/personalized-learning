@@ -1,0 +1,204 @@
+[
+  {
+    "format": "true_false",
+    "stem": "After a system is delivered, it inevitably has to change to remain useful.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Business and user needs keep changing.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three types of software maintenance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fault repairs"
+      },
+      {
+        "key": "b",
+        "text": "Environmental adaptation"
+      },
+      {
+        "key": "c",
+        "text": "Functionality addition"
+      },
+      {
+        "key": "d",
+        "text": "Requirement deletion"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the types in the notes.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which kind of error is the most expensive to repair?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Requirements errors"
+      },
+      {
+        "key": "b",
+        "text": "Coding errors"
+      },
+      {
+        "key": "c",
+        "text": "Spelling errors in comments"
+      },
+      {
+        "key": "d",
+        "text": "Design errors"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They may need extensive redesign.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Roughly what share of IT budgets goes to maintenance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "About two-thirds"
+      },
+      {
+        "key": "b",
+        "text": "About one-tenth"
+      },
+      {
+        "key": "c",
+        "text": "About half of one percent"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "About one-third goes to new development.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Analysing a program to extract information about its organisation and functions is",
+    "options": [
+      {
+        "key": "a",
+        "text": "reverse engineering"
+      },
+      {
+        "key": "b",
+        "text": "source code translation"
+      },
+      {
+        "key": "c",
+        "text": "data re-engineering"
+      },
+      {
+        "key": "d",
+        "text": "acceptance testing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is usually automated.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Legacy systems are old systems that are no longer used.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are still useful and sometimes critical to the business.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an activity of the re-engineering process?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Source code translation"
+      },
+      {
+        "key": "b",
+        "text": "Program structure improvement"
+      },
+      {
+        "key": "c",
+        "text": "Program modularisation"
+      },
+      {
+        "key": "d",
+        "text": "Beta testing"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fifth activity is data re-engineering.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Software project management aims to complete projects",
+    "options": [
+      {
+        "key": "a",
+        "text": "on time, within budget and with acceptable quality"
+      },
+      {
+        "key": "b",
+        "text": "as fast as possible regardless of quality"
+      },
+      {
+        "key": "c",
+        "text": "without any planning"
+      },
+      {
+        "key": "d",
+        "text": "without a team"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It plans, organises, controls and monitors.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

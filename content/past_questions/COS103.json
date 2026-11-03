@@ -1,0 +1,165 @@
+{
+  "code": "COS 103",
+  "papers": [
+    {
+      "year": "2023/2024",
+      "paper": "CSC 103: Introduction to Programming, B.Sc. Degree Examination, Second Semester 2023/2024, 3 hours. Answer Question 1 and any other 2",
+      "source": "CSC103 2ND SEMESTER 2023_2034 EXAM.pdf (scanned; filed with the year misprinted as 2023_2034)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2023/2024",
+      "number": "1(a)",
+      "topic": "python-basics-and-selection",
+      "text": "Classify the following into legal or illegal Python names and state the reason/justification for your response. i. var1 ii. _var iii. my-name iv. class",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "1(b)",
+      "topic": "strings-regex-and-modules",
+      "text": "What do the following expressions evaluate to? (i) Hello world![1] (ii) Hello world![0:5] (iii) Hello world![:5] (iv) Hello world![3:]",
+      "marks": 2
+    },
+    {
+      "year": "2023/2024",
+      "number": "1(c)",
+      "topic": "strings-regex-and-modules",
+      "text": "A new language called PidginYoruba has just been derived from English Language. This language works by doubling every consonant in a word and the vowel 'a' is inserted in between the doubled-word if the length of the word is less than 4. For instance, the word, he becomes hahe. In cases where word length is less than 6, vowel \"e\" is inserted in-between; \"i\" when less than 8; \"o\" when less than 10 and \"u\" when 10 or more. All vowels and spaces are left intact and not doubled. The input phrase is given simply as a lowercase sentence. If otherwise, ensure its converted. Output should be a lowercase sentence giving the PidginYoruba translation of the input. Your task is to write a python code that will provide you with the correct output/translation. Examples: Input: ruler Output: rerulelerer, Input: caps locks Output: cucapupsus lulocuckuksus",
+      "marks": 6
+    },
+    {
+      "year": "2023/2024",
+      "number": "1(d)",
+      "topic": "functions",
+      "text": "Using the concept of functions, create a simple calculator with a menu. The program should display the following options to the user: -- Calculator Menu -- 0. Quit 1. Add two numbers 2. Subtract two numbers 3. Multiply two numbers 4. Divide two numbers. The program should prompt the user to select an option, perform the corresponding operation (e.g., prompt for two numbers and add them), and then return to the menu. If the user selects option 0, the program should exit. If the user enters an invalid menu choice (a number not in the range 0-4), the program should ignore the input and display the menu again. You can assume the user will enter a valid integer. Hint: a minimum of 6 functions are expected.",
+      "marks": 8
+    },
+    {
+      "year": "2023/2024",
+      "number": "2(a)",
+      "topic": "python-basics-and-selection",
+      "text": "Discuss 2 advantages and disadvantages of using Python as a first programming language. Provide examples to support your arguments.",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "2(b)",
+      "topic": "files-and-exceptions",
+      "text": "A teacher has stored the grades of students in a file called grades.txt. Each line in the file contains a student's name followed by their grade. The teacher needs to retrieve the records and compute the average score. Write a Python program to read the file and display each student's name and grade. Then compute the average score.",
+      "marks": 6
+    },
+    {
+      "year": "2023/2024",
+      "number": "2(c)",
+      "topic": "visualisation-gui-and-algorithms",
+      "text": "Create a simple GUI with a label that displays \"Hello, World!\" and a button that closes the window. Requirements: i. Create a window with a title \"Hello World\" ii. Add a label with the text \"Hello, World!\" iii. Add a button with the text \"Close\" iv. When the button is clicked, close the window",
+      "marks": 5
+    },
+    {
+      "year": "2023/2024",
+      "number": "2(d)",
+      "topic": "strings-regex-and-modules",
+      "text": "A company needs a Python script to validate user input for an online form. The form collects the user's name, email, and age. The requirements are: The name should only contain alphabets. The email must include \"@\" and a domain (e.g., \".com\"). The age must be a positive integer. Write a Python code to validate the form input. If any field is invalid, the program display an appropriate error message.",
+      "marks": 5
+    },
+    {
+      "year": "2023/2024",
+      "number": "3(a)",
+      "topic": "lists-tuples-sets-and-dictionaries",
+      "text": "Table 1 consists of the the salary of 5 employees for the last quarter of year 2024 for CSC 103 Organization. The organization has decided to give 10% bonus for each month only if the salary earned in that particular month is less than 10,000. Using appropriate data structure and programming construct, write a program to calculate the total salary each employee will earn in the last quarter. Table 1 (October, November, December): Employee 1: 10,005.00, 9,000.00, 9,500.00; Employee 2: 12,000.00, 13,000.00, 12,500.00; Employee 3: 6,500.00, 7,500.00, 8,5000.00 (as printed); Employee 4: 15,000.00, 18,000.00, 16,000.00; Employee 5: 8,500.00, 9,5500.00 (as printed), 9,000.00",
+      "marks": 8
+    },
+    {
+      "year": "2023/2024",
+      "number": "3(b)",
+      "topic": "lists-tuples-sets-and-dictionaries",
+      "text": "Explain 2 differences between lists and tuples in Python. Discuss scenarios where each would be more appropriate to use.",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "3(c)",
+      "topic": "python-basics-and-selection",
+      "text": "Write a Python program to convert a temperature given in degrees Fahrenheit to its equivalent in degrees Celsius. You can assume that T_c = (5/9) x (T_f - 32), where T_c is the temperature in °C and T_f is the temperature in °F. Your program should ask the user for an input value, and print the output. The input and output values should be floating point numbers.",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "3(d)",
+      "topic": "loops",
+      "text": "What will be the output of the following code (justify your answer):\n\n```python\nfor i in range(1,2,3):\n    print(i)\n```",
+      "marks": 2
+    },
+    {
+      "year": "2023/2024",
+      "number": "3(e)",
+      "topic": "loops",
+      "text": "What will be the output of this code snippet? Explain/justify your answer\n\n```python\ni = 0\nwhile i < 5:\n    if i % 2 == 0:\n        print(i)\n        i += 1\n    else:\n        i += 2\n```",
+      "marks": 2
+    },
+    {
+      "year": "2023/2024",
+      "number": "4(a)",
+      "topic": "strings-regex-and-modules",
+      "text": "Write a function that takes a string of words separated by spaces (assume no punctuation or capitalization), together with a \"target\" word, and shows the position of the target word in the string of words. For example, if the string is: \"we dont need no education we dont need no thought control no we dont\" and the target is the word \"dont\" then your function should return the numbers 1, 6, 13 because \"dont\" appears at the 1st, 6th, and 13th position in the string. (We start counting positions of words in the string from 0.) Your function should return False if the target word doesn't appear in the string.",
+      "marks": 6
+    },
+    {
+      "year": "2023/2024",
+      "number": "4(b)",
+      "topic": "files-and-exceptions",
+      "text": "Write a Python program that takes user input for two numbers and performs division. Implement exception handling to handle the following scenarios: (i) If the user enters a non-numeric value. (ii) If the user attempts to divide by zero. If an exception occurs, print an informative error message. If the division is successful, print the result.",
+      "marks": 6
+    },
+    {
+      "year": "2023/2024",
+      "number": "4(c)",
+      "topic": "files-and-exceptions",
+      "text": "Discuss fundamental programming concepts, such as semantic and syntax. Provide examples to illustrate each concept.",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "4(d)",
+      "topic": "strings-regex-and-modules",
+      "text": "How would you create your own Python module, and how would you import it into another Python file? Provide examples to demonstrate this.",
+      "marks": 4
+    },
+    {
+      "year": "2023/2024",
+      "number": "5(a)",
+      "topic": "visualisation-gui-and-algorithms",
+      "text": "A company wants to analyze its monthly sales data stored in the following lists: months = ['January', 'February', 'March', 'April', 'May'] sales = [2000, 2500, 3000, 3500, 4000]. Using the above details, write a python code to create a line plot to visualize the sales trend over the months. Add labels to the x-axis and y-axis, a title, and grid lines for better readability."
+    },
+    {
+      "year": "2023/2024",
+      "number": "5(b)",
+      "topic": "lists-tuples-sets-and-dictionaries",
+      "text": "Assume you are given a list of words, wordList. Write Python code that will print one line for each word, repeating that word twice. For example if wordList is ['Jose', 'Sue', 'Ivan'], then your code would print: Jose Jose / Sue Sue / Ivan Ivan",
+      "marks": 3
+    },
+    {
+      "year": "2023/2024",
+      "number": "5(c)",
+      "topic": "loops",
+      "text": "What will be the output of the code snippet below (justify/explain your answer):\n\n```python\ni = 0\nwhile i < 5:\n    print(i)\n    i += 1\n    if i == 3:\n        break\nelse:\n    print(0)\n```",
+      "marks": 3
+    },
+    {
+      "year": "2023/2024",
+      "number": "5(d)",
+      "topic": "loops",
+      "text": "What will the following program print when it is run (justify/explain your answer)? (indentation as printed)\n\n```python\nc = 0\nfor z in range (2):\n    for x in ('a', 'b'):\n        for y in ('p', 'q'):\n            print (z,x,y,c)\n            c+=1\nprint(c)\n```",
+      "marks": 6
+    },
+    {
+      "year": "2023/2024",
+      "number": "5(e)",
+      "topic": "visualisation-gui-and-algorithms",
+      "text": "What are the key differences between linear search and binary search in terms of performance and use cases?",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many vowel sounds does English have, according to the textbook?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20"
+      },
+      {
+        "key": "b",
+        "text": "12"
+      },
+      {
+        "key": "c",
+        "text": "24"
+      },
+      {
+        "key": "d",
+        "text": "5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "12 pure vowels and 8 diphthongs.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many consonant sounds does English have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "24"
+      },
+      {
+        "key": "b",
+        "text": "20"
+      },
+      {
+        "key": "c",
+        "text": "26"
+      },
+      {
+        "key": "d",
+        "text": "9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Nine of them are voiceless.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A vowel produced when the tongue glides from one vowel position to another is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "diphthong"
+      },
+      {
+        "key": "b",
+        "text": "monophthong"
+      },
+      {
+        "key": "c",
+        "text": "plosive"
+      },
+      {
+        "key": "d",
+        "text": "fricative"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has a double nucleus.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Sounds made with the two lips, such as /p/, /b/ and /m/, are",
+    "options": [
+      {
+        "key": "a",
+        "text": "bilabial"
+      },
+      {
+        "key": "b",
+        "text": "labio-dental"
+      },
+      {
+        "key": "c",
+        "text": "velar"
+      },
+      {
+        "key": "d",
+        "text": "alveolar"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "/f/ and /v/ are labio-dental.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In the production of voiced sounds, the vocal cords vibrate.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Voiceless sounds are made without vibration.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The 'b' in 'debt' is pronounced.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is a silent letter.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are parameters for describing consonants?",
+    "options": [
+      {
+        "key": "a",
+        "text": "State of the glottis"
+      },
+      {
+        "key": "b",
+        "text": "Place of articulation"
+      },
+      {
+        "key": "c",
+        "text": "Manner of articulation"
+      },
+      {
+        "key": "d",
+        "text": "Length of the word"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three major parameters.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a voiceless consonant in English?",
+    "options": [
+      {
+        "key": "a",
+        "text": "/p/"
+      },
+      {
+        "key": "b",
+        "text": "/s/"
+      },
+      {
+        "key": "c",
+        "text": "/k/"
+      },
+      {
+        "key": "d",
+        "text": "/b/"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "/b/ is voiced.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 2 (A. Osisanwo)"
+  }
+]

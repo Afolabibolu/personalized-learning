@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An interrupt is",
+    "options": [
+      {
+        "key": "a",
+        "text": "a signal that gets the attention of the CPU"
+      },
+      {
+        "key": "b",
+        "text": "a type of register"
+      },
+      {
+        "key": "c",
+        "text": "a memory segment"
+      },
+      {
+        "key": "d",
+        "text": "an addressing mode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is usually generated when I/O is required.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "INT 10h with AH = 0Eh provides",
+    "options": [
+      {
+        "key": "a",
+        "text": "teletype output of the character in AL"
+      },
+      {
+        "key": "b",
+        "text": "keyboard input"
+      },
+      {
+        "key": "c",
+        "text": "the BIOS equipment list"
+      },
+      {
+        "key": "d",
+        "text": "program exit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It prints a character and moves the cursor.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "INT 21h with AH = 1",
+    "options": [
+      {
+        "key": "a",
+        "text": "reads a character from standard input into AL"
+      },
+      {
+        "key": "b",
+        "text": "writes the character in DL"
+      },
+      {
+        "key": "c",
+        "text": "prints a string"
+      },
+      {
+        "key": "d",
+        "text": "returns the equipment list"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "AH = 2 writes the character in DL.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "INT 11h returns the BIOS equipment list.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The course book describes it this way.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Pressing a key generates a software interrupt.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Key presses and mouse movement generate hardware interrupts.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are emu8086 functions or macros covered in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "PUTC"
+      },
+      {
+        "key": "b",
+        "text": "GOTOXY"
+      },
+      {
+        "key": "c",
+        "text": "SCAN_NUM"
+      },
+      {
+        "key": "d",
+        "text": "PRINTF"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "PRINTF is a C library function.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an interrupt covered in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "INT 10h"
+      },
+      {
+        "key": "b",
+        "text": "INT 11h"
+      },
+      {
+        "key": "c",
+        "text": "INT 21h"
+      },
+      {
+        "key": "d",
+        "text": "INT 99h"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The course covers INT 10h, 11h and 21h.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which instruction returns from an interrupt call?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IRET"
+      },
+      {
+        "key": "b",
+        "text": "RET"
+      },
+      {
+        "key": "c",
+        "text": "JMP"
+      },
+      {
+        "key": "d",
+        "text": "POP"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "INT saves the flags, CS and offset on the stack.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 10"
+  }
+]

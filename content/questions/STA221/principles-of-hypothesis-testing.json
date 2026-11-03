@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A Type I error is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Rejecting H0 when H0 is true"
+      },
+      {
+        "key": "b",
+        "text": "Not rejecting H0 when H0 is false"
+      },
+      {
+        "key": "c",
+        "text": "Rejecting H0 when H0 is false"
+      },
+      {
+        "key": "d",
+        "text": "Accepting H1 when H1 is true"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its probability is α.",
+    "source": "STA 221 Lecture 7 (Hypothesis Testing II, file Lecture 6.pdf)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For H0: μ = 11 against μ > 11 with n = 36, σ = 3 and zcrit = 2.33, β when μ = 13 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.0475"
+      },
+      {
+        "key": "b",
+        "text": "0.9525"
+      },
+      {
+        "key": "c",
+        "text": "0.01"
+      },
+      {
+        "key": "d",
+        "text": "0.165"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x̄crit = 12.165; P(Z < −1.67).",
+    "source": "STA 221 Lecture 7 (Hypothesis Testing II, file Lecture 6.pdf)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The power of a test equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 − β"
+      },
+      {
+        "key": "b",
+        "text": "1 − α"
+      },
+      {
+        "key": "c",
+        "text": "α"
+      },
+      {
+        "key": "d",
+        "text": "β"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Power is the probability of correctly rejecting a false H0.",
+    "source": "STA 221 Lecture 7 (Hypothesis Testing II, file Lecture 6.pdf)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To test θ = 0.6 against θ = 0.5 with five births, rejecting when X < 3, α is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.317"
+      },
+      {
+        "key": "b",
+        "text": "0.5"
+      },
+      {
+        "key": "c",
+        "text": "0.05"
+      },
+      {
+        "key": "d",
+        "text": "0.683"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P(X ≤ 2) for Binomial(5, 0.6).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The rejection region is also called the critical region.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Both names are used.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a fixed α, increasing the sample size increases β.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A larger sample decreases β and raises the power.",
+    "source": "STA 221 Lecture 7 (Hypothesis Testing II, file Lecture 6.pdf)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which increase the power of a test?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Increasing α"
+      },
+      {
+        "key": "b",
+        "text": "Increasing the sample size"
+      },
+      {
+        "key": "c",
+        "text": "A larger difference between θ1 and θ0"
+      },
+      {
+        "key": "d",
+        "text": "Decreasing α"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "A smaller α lowers the power.",
+    "source": "STA 221 Lecture 7 (Hypothesis Testing II, file Lecture 6.pdf)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which hypothesis is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "μ = 40"
+      },
+      {
+        "key": "b",
+        "text": "μ ≠ 40"
+      },
+      {
+        "key": "c",
+        "text": "μ > 11"
+      },
+      {
+        "key": "d",
+        "text": "μ < 5"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "μ = 40 is simple; the others are composite.",
+    "source": "General knowledge of STA 221"
+  }
+]

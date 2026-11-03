@@ -1,0 +1,108 @@
+{
+  "code": "MTH 201",
+  "title": "Mathematical Methods I",
+  "semester": 1,
+  "description": "The CCMAS mathematical methods course: real-valued functions, limits, continuity and differentiability, integration and its applications, extrema and optimisation, Rolle's and the mean value theorems with Taylor series, functions of several variables and partial derivatives, and constrained optimisation with line and multiple integrals. Built from the 2025/26 MTH 201 course outline, the MTH 201 study guides and the slides in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "real-valued-functions-and-limits",
+      "title": "Real-Valued Functions and Limits",
+      "summary": "A function assigns each element of its domain exactly one element of its codomain; the range is the set of values actually taken. Domains are found from restrictions such as square roots, denominators and logarithms. Limits describe a function's behaviour near a point; a limit exists when the left- and right-hand limits are equal.",
+      "subtopics": [
+        "Functions, mappings and correspondences",
+        "Domain, codomain and range",
+        "Finding domains from restrictions",
+        "Types of functions",
+        "Left- and right-hand limits",
+        "Properties of limits and piecewise functions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "continuity-differentiability-and-differentiation-rules",
+      "title": "Continuity, Differentiability and Differentiation Rules",
+      "summary": "f is continuous at a if f(a) is defined, the limit exists and equals f(a). The derivative is the limit of the difference quotient; differentiability implies continuity but not conversely, as |x| shows. The power, product, quotient and chain rules differentiate combinations of functions.",
+      "subtopics": [
+        "Continuity at a point and on an interval",
+        "Types of discontinuity",
+        "The derivative as a limit",
+        "Differentiability implies continuity",
+        "Product and quotient rules",
+        "The chain rule and standard derivatives"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "integration-and-its-applications",
+      "title": "Integration and Its Applications",
+      "summary": "The definite integral gives signed area via the fundamental theorem of calculus. Standard techniques include the power rule and substitution. Integration finds the area between curves, volumes of revolution by the disk and shell methods, arc length, and the average value of a function.",
+      "subtopics": [
+        "The definite integral and the fundamental theorem",
+        "Power rule and substitution",
+        "Area between two curves",
+        "Volumes of revolution: disk and shell",
+        "Arc length",
+        "Average value of a function"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "extrema-and-optimisation",
+      "title": "Extrema, Stationary Points and Optimisation",
+      "summary": "Stationary points occur where f'(x) = 0 and are classified by the first or second derivative test. Absolute extrema on a closed interval are found by comparing critical points with endpoints. Applied optimisation writes an objective function, finds its critical points and checks the type, as in profit, fencing and cylinder problems.",
+      "subtopics": [
+        "Stationary and critical points",
+        "The first derivative test",
+        "The second derivative test",
+        "Absolute extrema on a closed interval",
+        "The optimisation method",
+        "Profit, fencing and container problems"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "mean-value-theorems-and-taylor-series",
+      "title": "Rolle's Theorem, the Mean Value Theorem and Taylor Series",
+      "summary": "Rolle's theorem guarantees a horizontal tangent when a continuous, differentiable function has equal end values, and the mean value theorem guarantees a tangent parallel to the chord. Power series represent functions, and Taylor and Maclaurin series expand a function from its derivatives at one point.",
+      "subtopics": [
+        "Rolle's theorem and its three conditions",
+        "Why each condition matters",
+        "The mean value theorem and its proof",
+        "Consequences of the MVT",
+        "Power series and radius of convergence",
+        "Taylor and Maclaurin series"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "functions-of-several-variables-and-partial-derivatives",
+      "title": "Functions of Several Variables and Partial Derivatives",
+      "summary": "A function of two variables assigns a real number f(x, y) to each point of a domain in the plane; its graph is a surface and its level curves show where it has constant height. Partial derivatives differentiate with respect to one variable while holding the others constant, and the chain rule, differentials and linear approximation estimate small changes.",
+      "subtopics": [
+        "Functions of two and three variables",
+        "Domain, range and graphs",
+        "Level curves",
+        "Partial derivatives and notation",
+        "Higher-order partial derivatives and the chain rule",
+        "Increments, differentials and linear approximation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "constrained-optimisation-and-multiple-integrals",
+      "title": "Extrema of Several Variables, Lagrange Multipliers and Multiple Integrals",
+      "summary": "Local extrema of f(x, y) occur at critical points where both partial derivatives vanish, classified by the second derivative test. Lagrange multipliers optimise a function subject to a constraint. Line integrals integrate along curves, and double and triple integrals give areas and volumes.",
+      "subtopics": [
+        "Critical points of f(x, y)",
+        "The second derivative test and saddle points",
+        "Lagrange multipliers",
+        "Line integrals",
+        "Double integrals and iterated integration",
+        "Triple integrals, area and volume"
+      ],
+      "lectures": []
+    }
+  ]
+}

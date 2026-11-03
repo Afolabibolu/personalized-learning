@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For the fisherman (river 0.25, sea 0.5, lake 0.25; catch 0.45, 0.75, 0.60), P(catches fish) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.6375"
+      },
+      {
+        "key": "b",
+        "text": "0.60"
+      },
+      {
+        "key": "c",
+        "text": "0.75"
+      },
+      {
+        "key": "d",
+        "text": "0.45"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Total probability rule.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Given that the fisherman caught fish, where was he most likely to have been?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The sea"
+      },
+      {
+        "key": "b",
+        "text": "The river"
+      },
+      {
+        "key": "c",
+        "text": "The lake"
+      },
+      {
+        "key": "d",
+        "text": "All equally likely"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P(sea | fish) ≈ 0.588.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With 12 fair and 8 two-headed coins, P(two-headed | head) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "4/7"
+      },
+      {
+        "key": "b",
+        "text": "2/5"
+      },
+      {
+        "key": "c",
+        "text": "8/20"
+      },
+      {
+        "key": "d",
+        "text": "1/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(8/20)/(0.7).",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which axiom states P(S) = 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The second"
+      },
+      {
+        "key": "b",
+        "text": "The first"
+      },
+      {
+        "key": "c",
+        "text": "The third"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The first is non-negativity.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Mutual independence of three events requires P(A ∩ B ∩ C) = P(A)P(B)P(C) as well as pairwise independence.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Pairwise independence alone is weaker.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "P(A ∪ B ∪ C) = P(A) + P(B) + P(C) for any three events.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That holds only for mutually exclusive events.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which follow from the axioms of probability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(A') = 1 − P(A)"
+      },
+      {
+        "key": "b",
+        "text": "P(∅) = 0"
+      },
+      {
+        "key": "c",
+        "text": "If A ⊆ B then P(A) ≤ P(B)"
+      },
+      {
+        "key": "d",
+        "text": "P(A ∩ B) = P(A)P(B) always"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The product rule holds only for independent events.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not needed to apply Bayes' rule?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A partition B1, ..., Bk of S"
+      },
+      {
+        "key": "b",
+        "text": "The prior probabilities P(Bi)"
+      },
+      {
+        "key": "c",
+        "text": "The likelihoods P(A|Bi)"
+      },
+      {
+        "key": "d",
+        "text": "The events to be mutually exclusive with A"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A need not be exclusive of the Bi.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "code": "MTH 103",
+  "topics": {
+    "coordinate-geometry-of-lines": [
+      {
+        "title": "Video: Coordinate Geometry (Jacob Sichamba Online Math)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YpYz9USHeUY",
+        "source": "links.csv"
+      }
+    ],
+    "circles-and-polar-coordinates": [
+      {
+        "title": "Video: Polar Coordinates Basic Introduction, Conversion to Rectangular, How to Plot Points, Negative R Valu (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aSdaT62ndYE",
+        "source": "links.csv"
+      }
+    ],
+    "conic-sections": [
+      {
+        "title": "Video: Conic Sections - Circles, Ellipses, Parabolas, Hyperbola - How To Graph & Write In Standard Form (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PLrgwD9TleU",
+        "source": "links.csv"
+      }
+    ],
+    "vectors-and-their-products": [
+      {
+        "title": "Video: Cross Product and Dot Product: Visual explanation (Physics Videos by Eugene Khutoryansky)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=h0NJK4mEIJU",
+        "source": "links.csv"
+      }
+    ],
+    "lines-and-planes-in-space": [
+      {
+        "title": "Video: Calculus 3 Lecture 11.5:  Lines and Planes in 3-D (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IB1-lrPQjCw",
+        "source": "links.csv"
+      }
+    ],
+    "kinematics-and-projectiles": [
+      {
+        "title": "Video: Kinematics Part 3: Projectile Motion (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aY8z2qO44WA",
+        "source": "links.csv"
+      }
+    ],
+    "dynamics-and-moment-of-inertia": [
+      {
+        "title": "Video: Dynamics of Uniform Circular Motion (DMACC PHYSICS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q-yGBovNEII",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

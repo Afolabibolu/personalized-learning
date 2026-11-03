@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which keyword does a class use to adopt an interface?",
+    "options": [
+      {
+        "key": "a",
+        "text": "implements"
+      },
+      {
+        "key": "b",
+        "text": "extends"
+      },
+      {
+        "key": "c",
+        "text": "interface"
+      },
+      {
+        "key": "d",
+        "text": "import"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A class extends classes and implements interfaces.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Variables declared in an interface are by default",
+    "options": [
+      {
+        "key": "a",
+        "text": "public, static and final"
+      },
+      {
+        "key": "b",
+        "text": "private and static"
+      },
+      {
+        "key": "c",
+        "text": "protected"
+      },
+      {
+        "key": "d",
+        "text": "transient"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They are constants.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A functional interface has",
+    "options": [
+      {
+        "key": "a",
+        "text": "exactly one abstract method"
+      },
+      {
+        "key": "b",
+        "text": "no methods"
+      },
+      {
+        "key": "c",
+        "text": "only static methods"
+      },
+      {
+        "key": "d",
+        "text": "at least two abstract methods"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It can be used with lambdas.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which interface methods are called through the interface name and not inherited?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Static methods"
+      },
+      {
+        "key": "b",
+        "text": "Default methods"
+      },
+      {
+        "key": "c",
+        "text": "Abstract methods"
+      },
+      {
+        "key": "d",
+        "text": "Overridden methods"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Static methods were added in Java 8.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A class can implement more than one interface.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This gives multiple inheritance of type.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "An interface can implement a class.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Only a class can implement an interface.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which features did JDK 8 or 9 add to interfaces?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Default methods"
+      },
+      {
+        "key": "b",
+        "text": "Static methods"
+      },
+      {
+        "key": "c",
+        "text": "Private methods"
+      },
+      {
+        "key": "d",
+        "text": "Constructors"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Interfaces cannot have constructors.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not true of default interface methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They have a body"
+      },
+      {
+        "key": "b",
+        "text": "They are inherited by implementing classes"
+      },
+      {
+        "key": "c",
+        "text": "They can be overridden"
+      },
+      {
+        "key": "d",
+        "text": "They must be private"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Private methods are a separate Java 9 feature.",
+    "source": "Inheritance_Interface_Abstraction-2.pdf"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which theory holds that the rightness of an action depends solely on its consequences?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Consequentialism"
+      },
+      {
+        "key": "b",
+        "text": "Deontology"
+      },
+      {
+        "key": "c",
+        "text": "Virtue ethics"
+      },
+      {
+        "key": "d",
+        "text": "Situation ethics"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Utilitarianism is a consequentialist theory.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"The greatest happiness for the greatest number\" is the principle of",
+    "options": [
+      {
+        "key": "a",
+        "text": "utilitarianism"
+      },
+      {
+        "key": "b",
+        "text": "egoism"
+      },
+      {
+        "key": "c",
+        "text": "hedonism"
+      },
+      {
+        "key": "d",
+        "text": "deontology"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is called the principle of utility.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which theory judges an action by the character of the doer?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Virtue ethics"
+      },
+      {
+        "key": "b",
+        "text": "Rule utilitarianism"
+      },
+      {
+        "key": "c",
+        "text": "Ethical egoism"
+      },
+      {
+        "key": "d",
+        "text": "Relativism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Aristotle listed many virtues.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which of the four cardinal virtues aims at other people's well-being?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Justice"
+      },
+      {
+        "key": "b",
+        "text": "Temperance"
+      },
+      {
+        "key": "c",
+        "text": "Fortitude"
+      },
+      {
+        "key": "d",
+        "text": "Prudence"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The other three build personal character.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 5 Ethics and Society (C. Agulanna)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Psychological egoism is a descriptive theory about how people actually behave.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Ethical egoism is normative.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Deontological theories judge actions only by their consequences.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They judge actions by duties and rules.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are consequentialist ethical theories?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Utilitarianism"
+      },
+      {
+        "key": "b",
+        "text": "Egoism"
+      },
+      {
+        "key": "c",
+        "text": "Altruism"
+      },
+      {
+        "key": "d",
+        "text": "Act deontology"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Act deontology is duty-based.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 3 Philosophical Problems (B. Lanre-Abass)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four cardinal virtues?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Temperance"
+      },
+      {
+        "key": "b",
+        "text": "Fortitude"
+      },
+      {
+        "key": "c",
+        "text": "Prudence"
+      },
+      {
+        "key": "d",
+        "text": "Wealth"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is justice.",
+    "source": "Philosophy, Logic and Critical Thinking (UI textbook, eds. Agulanna and Ipadeola), Ch. 5 Ethics and Society (C. Agulanna)"
+  }
+]

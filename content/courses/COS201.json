@@ -1,0 +1,108 @@
+{
+  "code": "COS 201",
+  "title": "Computer Programming I",
+  "semester": 1,
+  "description": "The CCMAS first programming course, taught in Java: programming languages and their generations, programming paradigms and approaches, pseudocode and flowcharts, data types, variables and strings, operators and selection, loops, and arrays and methods. Built from Dr B. I. Ayinla's COS 201 lecture notes (Weeks 1 to 6) and the arrays, modularity and methods slides.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "programming-languages-and-generations",
+      "title": "Programming Languages and Their Generations",
+      "summary": "A programming language is a formal set of rules and syntax for writing instructions a computer can execute. Languages are classified into five generations, from machine language to natural and AI-based languages, and are translated by compilers or interpreters; Java compiles to bytecode run by the JVM.",
+      "subtopics": [
+        "What a programming language is",
+        "Syntax, semantics, abstraction and portability",
+        "The five generations (1GL to 5GL)",
+        "Machine, assembly and high-level languages",
+        "Compiled and interpreted languages",
+        "Structure of a first Java program"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "programming-paradigms",
+      "title": "Programming Paradigms",
+      "summary": "A paradigm is the style of constructs a program uses. Functional programming evaluates pure functions and avoids mutable state; declarative programming states what to compute rather than how; logic programming uses facts, rules and queries, as in Prolog; and scripting languages are interpreted, dynamically typed languages for automation.",
+      "subtopics": [
+        "Imperative and declarative styles",
+        "Functional programming: pure functions and immutability",
+        "Lambda expressions and recursion in Java",
+        "Declarative programming: SQL, HTML and Java Streams",
+        "Logic programming: facts, rules, queries and Prolog",
+        "Scripting languages"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "programming-approaches-pseudocode-and-flowcharts",
+      "title": "Programming Approaches, Pseudocode and Flowcharts",
+      "summary": "A programming approach is the strategy used to design and structure a solution: top-down, bottom-up, structured, modular or object-oriented. Good programmers design first with pseudocode and flowcharts, then translate the design into Java.",
+      "subtopics": [
+        "Approaches versus paradigms",
+        "Top-down and bottom-up design",
+        "Structured and modular programming",
+        "The problem-solving process",
+        "Pseudocode keywords and guidelines",
+        "Flowchart symbols"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "data-types-variables-and-strings",
+      "title": "Data Types, Variables and Strings",
+      "summary": "Java is strongly typed: every variable has a declared type. It has eight primitive types plus reference types such as String and arrays. Variables are named memory locations, constants are declared final, type casting can be widening or narrowing, and Strings are immutable objects with many built-in methods.",
+      "subtopics": [
+        "Primitive and reference types",
+        "The eight primitive types",
+        "Type casting: widening and narrowing",
+        "Variables, naming rules and kinds",
+        "Constants with final",
+        "Strings, string methods and Scanner input"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "operators-and-selection",
+      "title": "Operators and Selection Statements",
+      "summary": "Operators build expressions: arithmetic, assignment, relational and logical operators, evaluated by precedence. Selection lets a program choose a path with if, if-else, the else-if ladder, nested if, switch and the ternary operator.",
+      "subtopics": [
+        "Arithmetic and integer division",
+        "Assignment and compound operators",
+        "Relational and logical operators",
+        "Operator precedence and the ternary operator",
+        "if, if-else and the else-if ladder",
+        "Nested if and the switch statement"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "loops-and-iteration",
+      "title": "Loops and Iteration",
+      "summary": "Iteration repeats a block of code a fixed number of times or while a condition holds. Java has for, while, do-while and enhanced for-each loops, with break and continue to control them, and nested loops for tables and patterns.",
+      "subtopics": [
+        "What iteration is",
+        "The for loop",
+        "Nested loops",
+        "The while loop",
+        "The do-while loop",
+        "break, continue and the enhanced for loop"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "arrays-and-methods",
+      "title": "Arrays and Methods",
+      "summary": "An array is a fixed-size, zero-indexed collection of elements of the same type, traversed with loops, extended to 2D arrays and supported by java.util.Arrays. Methods group statements under a name for modularity and reuse, with parameters, return values, overloading and recursion.",
+      "subtopics": [
+        "Arrays: fixed size, zero-indexed, same type",
+        "Declaring, initialising and traversing arrays",
+        "2D arrays and java.util.Arrays",
+        "Modularity: separation, encapsulation, reusability",
+        "Methods, parameters and return values",
+        "Method overloading and recursion"
+      ],
+      "lectures": []
+    }
+  ]
+}

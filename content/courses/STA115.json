@@ -1,0 +1,108 @@
+{
+  "code": "STA 115",
+  "title": "Introduction to Probability Theory I",
+  "semester": 1,
+  "description": "The first probability course: counting techniques, axiomatic and conditional probability, the law of total probability and Bayes' rule, random variables and expectation, joint and marginal distributions, the Bernoulli, binomial and Poisson distributions, the normal distribution, and sampling distributions with point estimation. Built from the STA 115 lectures of Prof. O.I. Shittu, Dr A.U. Chukwu and Dr O.E. Olubusoye, with tests from 2016/17 to 2023 and STA 112 Probability I papers (the former code).",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "counting-techniques",
+      "title": "Counting Techniques",
+      "summary": "Counting tells us how many outcomes an experiment has. The basic principle of counting, sampling with and without replacement, permutations (including identical and circular arrangements) and combinations are the tools used to work out probabilities.",
+      "subtopics": [
+        "The basic principle of counting",
+        "Sampling with replacement: n^k",
+        "Permutations without replacement: nPk",
+        "Arrangements with identical objects",
+        "Combinations and committees",
+        "Circular arrangements and the binomial theorem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "axiomatic-and-conditional-probability",
+      "title": "Axiomatic and Conditional Probability",
+      "summary": "Probability is built on a sample space of outcomes and events. It satisfies three axioms, from which rules such as the complement and addition rules follow. Conditional probability and independence describe how one event changes the chance of another.",
+      "subtopics": [
+        "Random experiments, sample spaces and events",
+        "Set theory: unions, intersections and De Morgan's laws",
+        "Relative frequency approach",
+        "The three axioms and their consequences",
+        "Independent events",
+        "Conditional probability"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "total-probability-and-bayes-rule",
+      "title": "The Law of Total Probability and Bayes' Rule",
+      "summary": "When the sample space splits into mutually exclusive cases, the law of total probability builds P(E) from the conditional probabilities in each case. Bayes' rule turns these around to find the probability of a case given that E has happened.",
+      "subtopics": [
+        "Partitions of the sample space",
+        "The law of total probability",
+        "Bayes' rule",
+        "Prior, likelihood and posterior",
+        "Worked examples: batteries, baskets, suppliers",
+        "The Monty Hall problem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "random-variables-expectation-and-joint-distributions",
+      "title": "Random Variables, Expectation and Joint Distributions",
+      "summary": "A random variable assigns a number to each outcome. Discrete variables have probability mass functions and continuous ones have density functions. Expected value and variance summarise them, and joint and marginal distributions describe two variables together.",
+      "subtopics": [
+        "Variables and random variables",
+        "Discrete pmfs and the distribution function F(x)",
+        "Expected value and its rules",
+        "Moments, variance and the coefficient of variation",
+        "Continuous pdfs and cdfs",
+        "Joint, marginal and independent random variables"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "discrete-distributions",
+      "title": "Discrete Distributions: Bernoulli, Binomial and Poisson",
+      "summary": "The Bernoulli distribution models one trial with two outcomes, the binomial counts successes in n independent trials, and the Poisson counts random events in an interval. The hypergeometric distribution handles sampling without replacement.",
+      "subtopics": [
+        "Bernoulli trials and the Bernoulli distribution",
+        "The binomial experiment and formula",
+        "Mean np and variance npq",
+        "The Poisson distribution and its mean and variance",
+        "Poisson approximation to the binomial",
+        "Hypergeometric and geometric distributions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "normal-distribution",
+      "title": "The Normal Distribution",
+      "summary": "The normal distribution is the bell-shaped, symmetric distribution that models many measurements. Any normal variable is standardised with z = (x − µ)/σ, and probabilities come from the standard normal table.",
+      "subtopics": [
+        "Shape and properties of the normal curve",
+        "The normal pdf and the notation N(µ, σ²)",
+        "The standard normal Z and z-tables",
+        "Probabilities between, above and below values",
+        "Finding a value from a probability",
+        "Normal approximation to the binomial"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sampling-distributions-and-estimation",
+      "title": "Sampling Distributions and Point Estimation",
+      "summary": "A sampling distribution is the distribution of a statistic over all possible samples. The sample mean and sample proportion have known means and standard errors, which link samples to populations. Point and interval estimates use them to estimate parameters.",
+      "subtopics": [
+        "Population, sample, statistic and parameter",
+        "Sampling distribution of the mean, with and without replacement",
+        "The finite population correction",
+        "Difference of two sample means",
+        "Sampling distribution of a proportion; sums and differences",
+        "Point and interval estimation"
+      ],
+      "lectures": []
+    }
+  ]
+}

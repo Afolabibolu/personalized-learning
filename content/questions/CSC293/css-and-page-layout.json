@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In the rule h1 { color: navy; }, what is h1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The selector"
+      },
+      {
+        "key": "b",
+        "text": "The property"
+      },
+      {
+        "key": "c",
+        "text": "The value"
+      },
+      {
+        "key": "d",
+        "text": "The declaration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "color: navy is the declaration.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which way of adding CSS is best for controlling the look of a whole multi-page site?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An external style sheet"
+      },
+      {
+        "key": "b",
+        "text": "Inline styles"
+      },
+      {
+        "key": "c",
+        "text": "An internal style sheet on each page"
+      },
+      {
+        "key": "d",
+        "text": "HTML tables"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One file controls every page.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Where is an internal (embedded) style sheet placed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "In a <style> element in the page's head"
+      },
+      {
+        "key": "b",
+        "text": "In a separate .css file"
+      },
+      {
+        "key": "c",
+        "text": "In a style attribute on each tag"
+      },
+      {
+        "key": "d",
+        "text": "In the page's footer"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It styles one page.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which link pseudo-class applies when the mouse is over a link?",
+    "options": [
+      {
+        "key": "a",
+        "text": "a:hover"
+      },
+      {
+        "key": "b",
+        "text": "a:visited"
+      },
+      {
+        "key": "c",
+        "text": "a:link"
+      },
+      {
+        "key": "d",
+        "text": "a:active"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a:visited is for links already followed.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "A CSS declaration has a property and a value separated by a colon.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Declarations sit inside curly brackets.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "Flexbox is designed for two-dimensional layouts of rows and columns together.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Flexbox is one-dimensional; Grid is two-dimensional.",
+    "source": "General knowledge of CSC 293"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three ways of including CSS in an HTML document?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inline styles"
+      },
+      {
+        "key": "b",
+        "text": "Internal (embedded) style sheets"
+      },
+      {
+        "key": "c",
+        "text": "External style sheets"
+      },
+      {
+        "key": "d",
+        "text": "Hidden form fields"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Hidden fields belong to forms.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not part of the CSS box model?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Margin"
+      },
+      {
+        "key": "b",
+        "text": "Border"
+      },
+      {
+        "key": "c",
+        "text": "Padding"
+      },
+      {
+        "key": "d",
+        "text": "Selector"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A selector chooses elements.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "code": "MTH 101",
+  "title": "Elementary Mathematics I (Algebra)",
+  "semester": 1,
+  "description": "The first-semester algebra course, taught as MAT 111: Algebra before the CCMAS codes: polynomials and polynomial equations, inequalities, rational functions and partial fractions, permutations, combinations and the binomial theorem, sequences, series and mathematical induction, complex numbers, and matrices, determinants and plane transformations. Built from Dr T. O. Sangodapo's MAT 111 lectures (2020/21 and 2021/22), Professor S. A. Ilori's MAT 111 DLC text and the past papers from 2000/01 to 2017/18, which are labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "polynomials-and-equations",
+      "title": "Polynomials and Polynomial Equations",
+      "summary": "A polynomial of degree n has the form aₙxⁿ + ... + a₀, and the remainder and factor theorems find remainders and factors without long division. Linear, quadratic and cubic equations are solved by formula or factors, with the discriminant and the sum and product of roots.",
+      "subtopics": [
+        "Degree, operations and division of polynomials",
+        "The remainder theorem",
+        "The factor theorem",
+        "Linear and simultaneous equations",
+        "Quadratics: formula, discriminant, sum and product of roots",
+        "Cubic equations and their roots"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "inequalities",
+      "title": "Inequalities",
+      "summary": "Inequalities are written in interval notation and solved using the properties of order. Absolute-value inequalities become pairs of inequalities, and quadratic and cubic inequalities are solved with graphs or a sign table.",
+      "subtopics": [
+        "Interval notation, union and intersection",
+        "Properties of inequalities",
+        "Linear inequalities",
+        "Absolute values and the triangle inequality",
+        "Quadratic and cubic inequalities: the sign table",
+        "Proving inequalities in the real numbers"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "rational-functions-and-partial-fractions",
+      "title": "Rational Functions and Partial Fractions",
+      "summary": "A rational function is a quotient f(x)/g(x) of polynomials with g(x) ≠ 0. the course asks for its domain, range, zeros and asymptotes, its graph, and its resolution into partial fractions of three types.",
+      "subtopics": [
+        "Operations on rational functions",
+        "Domain and zeros",
+        "Range by making x the subject",
+        "Asymptotes and curve sketching",
+        "Partial fractions: linear and repeated linear factors",
+        "Partial fractions with quadratic factors"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "permutations-combinations-and-binomial-theorem",
+      "title": "Permutations, Combinations and the Binomial Theorem",
+      "summary": "Permutations count ordered arrangements and combinations unordered selections. The binomial theorem expands (x + y)ⁿ with combination coefficients, and extends to negative and fractional powers as an infinite series.",
+      "subtopics": [
+        "Factorials and nPr",
+        "Repetition, alike objects and circular arrangements",
+        "Combinations nCr and restricted choices",
+        "Pascal's triangle and the binomial theorem",
+        "General term, middle term and term independent of x",
+        "Negative and fractional indices and approximations"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sequences-series-and-induction",
+      "title": "Sequences, Series and Mathematical Induction",
+      "summary": "Arithmetic, geometric and harmonic progressions have formulas for their nth terms, sums and means. Sequences can also be defined by recurrence relations, some series telescope, and mathematical induction proves formulas for all positive integers.",
+      "subtopics": [
+        "Arithmetic progressions, series and means",
+        "Geometric progressions, series and sums to infinity",
+        "Harmonic progressions and recurrence relations",
+        "Telescoping series and sums of powers",
+        "First and second differences",
+        "The principle of mathematical induction"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "complex-numbers",
+      "title": "Complex Numbers",
+      "summary": "Complex numbers z = x + iy, with i² = −1, solve equations with no real roots. The course covers their algebra, the Argand diagram, modulus and argument, polar form, de Moivre's theorem, nth roots and loci.",
+      "subtopics": [
+        "Number systems and the definition of i",
+        "Addition, multiplication, conjugate and division",
+        "Conjugate roots of real polynomials",
+        "The Argand diagram, modulus and argument",
+        "Polar form and de Moivre's theorem",
+        "Roots of complex numbers and loci"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "matrices-determinants-and-transformations",
+      "title": "Matrices, Determinants and Transformations",
+      "summary": "Matrices are rectangular arrays that are added, multiplied and transposed. The course covers special matrices, inverses, symmetric and skew-symmetric parts, elementary operations, determinants and Cramer's rule, and matrices of plane transformations.",
+      "subtopics": [
+        "Matrix algebra: equality, addition, scalar and matrix products",
+        "Transpose, conjugate and special matrices",
+        "Inverses, symmetric and skew-symmetric matrices",
+        "Elementary row operations, echelon form and rank",
+        "Determinants and Cramer's rule",
+        "Plane transformations: reflections, rotations, translations"
+      ],
+      "lectures": []
+    }
+  ]
+}

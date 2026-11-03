@@ -1,0 +1,77 @@
+{
+  "code": "COS 202",
+  "exam_style": true,
+  "intro": "No COS 202 past papers were found in the course folder. These exam-style questions were written for practice from the lecture slides and the course outline; they are not from a past paper.",
+  "papers": [
+    {
+      "year": "Practice set",
+      "paper": "Exam-style questions, not from a past paper: written for this app from the COS 202 slides and course outline",
+      "source": "Written for this app from the COS 202 slides and course outline, because no past papers were found for the course"
+    }
+  ],
+  "questions": [
+    {
+      "year": "Practice set",
+      "number": "1",
+      "topic": "arrays-methods-and-recursion",
+      "text": "a) Distinguish between primitive and non-primitive arrays. (4 marks) b) Write a Java method that adds two 3x3 matrices and prints the result in tabular form. (7 marks) c) What is a base case in recursion, and why is it needed? (4 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "2",
+      "topic": "classes-objects-and-constructors",
+      "text": "a) Distinguish between a class and an object, with an example. (4 marks) b) State three rules for writing a constructor. (3 marks) c) Explain the four types of constructor, and write a class with a parameterised constructor. (8 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "3",
+      "topic": "access-and-non-access-modifiers",
+      "text": "a) Explain the four Java access modifiers. (8 marks) b) Explain the final and static non-access modifiers, with an example of each. (7 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "4",
+      "topic": "inheritance-and-polymorphism",
+      "text": "a) What is inheritance? Explain single, multilevel and hierarchical inheritance with diagrams. (9 marks) b) Why does Java not support multiple inheritance with classes, and how is it achieved instead? (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "5",
+      "topic": "inheritance-and-polymorphism",
+      "text": "a) Distinguish between compile-time and runtime polymorphism. (6 marks) b) Design an abstract class Shape with an abstract method area() and subclasses Circle and Rectangle, then store them in a Shape[] array and print each area. (9 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "6",
+      "topic": "abstraction-and-encapsulation",
+      "text": "a) Define abstraction and give a real-life example. (4 marks) b) Distinguish between abstraction and encapsulation. (5 marks) c) Give three advantages and three limitations of abstraction. (6 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "7",
+      "topic": "interfaces",
+      "text": "a) What is an interface? State three of its properties. (6 marks) b) When would you use a class rather than an interface? (4 marks) c) Explain default methods, static methods and functional interfaces. (5 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "8",
+      "topic": "exceptions-collections-and-gui",
+      "text": "a) What is an exception? Distinguish between checked and unchecked exceptions. (5 marks) b) Write a program that reads a number from the user and handles a NumberFormatException with try, catch and finally. (10 marks)",
+      "marks": 15
+    },
+    {
+      "year": "Practice set",
+      "number": "9",
+      "topic": "exceptions-collections-and-gui",
+      "text": "a) Distinguish between a Stack and a Queue, naming two operations of each. (6 marks) b) Explain event-driven programming and the role of an event listener. (5 marks) c) Name four Swing components and the purpose of each. (4 marks)",
+      "marks": 15
+    }
+  ]
+}

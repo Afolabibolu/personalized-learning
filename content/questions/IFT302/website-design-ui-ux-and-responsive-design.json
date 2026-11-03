@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which design principle arranges elements according to their importance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Visual hierarchy"
+      },
+      {
+        "key": "b",
+        "text": "White space"
+      },
+      {
+        "key": "c",
+        "text": "Balance"
+      },
+      {
+        "key": "d",
+        "text": "Simplicity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Larger headings show importance.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Google's homepage is given as an example of which principle?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simplicity"
+      },
+      {
+        "key": "b",
+        "text": "Asymmetrical balance"
+      },
+      {
+        "key": "c",
+        "text": "Contrast"
+      },
+      {
+        "key": "d",
+        "text": "Performance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It has minimal clutter.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which CSS feature applies different styles for different screen sizes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Media queries"
+      },
+      {
+        "key": "b",
+        "text": "Alt text"
+      },
+      {
+        "key": "c",
+        "text": "Caching"
+      },
+      {
+        "key": "d",
+        "text": "Version control"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "For example @media (max-width:768px).",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "UX focuses mainly on",
+    "options": [
+      {
+        "key": "a",
+        "text": "the overall experience and ease of use"
+      },
+      {
+        "key": "b",
+        "text": "colours and button shapes only"
+      },
+      {
+        "key": "c",
+        "text": "server configuration"
+      },
+      {
+        "key": "d",
+        "text": "database design"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "UI focuses on appearance.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Alt text for images is an accessibility practice.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It helps screen-reader users.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Responsive design best practice is to use fixed-width layouts.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Avoid fixed-width layouts; use flexible grids.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are ways to improve website performance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Compressing images"
+      },
+      {
+        "key": "b",
+        "text": "Optimising code"
+      },
+      {
+        "key": "c",
+        "text": "Using caching"
+      },
+      {
+        "key": "d",
+        "text": "Adding more animations"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Reduce unnecessary animations.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a principle of website design in the lesson?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Consistency"
+      },
+      {
+        "key": "b",
+        "text": "Contrast"
+      },
+      {
+        "key": "c",
+        "text": "White space"
+      },
+      {
+        "key": "d",
+        "text": "Encryption"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Encryption is a security measure.",
+    "source": "IFT 302 Lesson 1-4.pdf (B. I. Dahunsi)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "lim x→a (x² − a²)/(x − a) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "2a"
+      },
+      {
+        "key": "b",
+        "text": "a"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "a²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It equals x + a for x ≠ a.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "lim x→0 (sin θ)/θ equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "0"
+      },
+      {
+        "key": "c",
+        "text": "∞"
+      },
+      {
+        "key": "d",
+        "text": "π"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "From the area comparison in the unit circle.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "lim x→1 sin 2(x − 1)/(x³ − 1) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "2/3"
+      },
+      {
+        "key": "b",
+        "text": "1/3"
+      },
+      {
+        "key": "c",
+        "text": "2"
+      },
+      {
+        "key": "d",
+        "text": "0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 × 1 × 1/3.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "At which points is (x + 1)(x − 3)/((x − 2)(x + 4)) not continuous?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x = 2 and x = −4"
+      },
+      {
+        "key": "b",
+        "text": "x = −1 and x = 3"
+      },
+      {
+        "key": "c",
+        "text": "x = 0"
+      },
+      {
+        "key": "d",
+        "text": "It is continuous everywhere"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The denominator is zero there.",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "lim x→∞ (Ax² + Bx + C)/(ax² + bx + c) equals A/a when a ≠ 0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Divide top and bottom by x².",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "lim θ→0 (1 − cos θ)/θ equals 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It equals 0; (1 − cos θ)/θ² tends to ½.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which techniques does the course use to find limits?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Factorising and cancelling"
+      },
+      {
+        "key": "b",
+        "text": "Rationalising with the conjugate"
+      },
+      {
+        "key": "c",
+        "text": "Dividing by the highest power of x"
+      },
+      {
+        "key": "d",
+        "text": "Setting x = a in 0/0 forms"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Direct substitution in a 0/0 form gives no answer.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which limit is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "lim x→0 sin x/x"
+      },
+      {
+        "key": "b",
+        "text": "lim x→0 tan 2x/(2x)"
+      },
+      {
+        "key": "c",
+        "text": "lim x→0 x/sin x"
+      },
+      {
+        "key": "d",
+        "text": "lim x→0 (1 − cos x)/x"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "It equals 0; the others equal 1.",
+    "source": "MAT 121 Lecture Notes"
+  }
+]

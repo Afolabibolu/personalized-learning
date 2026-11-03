@@ -1,0 +1,61 @@
+{
+  "code": "MTH 102",
+  "topics": {
+    "functions-and-trigonometric-functions": [
+      {
+        "title": "Video: Calculus 1 Lecture 0.2:  Introduction to Functions. (Professor Leonard)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1EGFSefe5II",
+        "source": "links.csv"
+      }
+    ],
+    "trigonometric-identities-and-equations": [
+      {
+        "title": "Video: Trig Identities EXPLAINED: Definition, Proofs & Practice (Math and Science)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tldoWH8d0DI",
+        "source": "links.csv"
+      }
+    ],
+    "limits-and-continuity": [
+      {
+        "title": "Video: Limits and Continuity (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9brk313DjV8",
+        "source": "links.csv"
+      }
+    ],
+    "differentiation": [
+      {
+        "title": "Video: Differentiation by First Principle Method | Derivative #jonahemmanuel #excellenceacademy (Excellence Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2IIfjY7Sjns",
+        "source": "links.csv"
+      }
+    ],
+    "applications-of-differentiation": [
+      {
+        "title": "Video: Minima, Maxima and Curve Sketching - Application of Differentiation #applicationofdifferentiation (Excellence Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UaDS1pMgiGU",
+        "source": "links.csv"
+      }
+    ],
+    "techniques-of-integration": [
+      {
+        "title": "Video: Integration By Parts (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sWSLLO3DS1I",
+        "source": "links.csv"
+      }
+    ],
+    "definite-integrals-and-areas": [
+      {
+        "title": "Video: Finding The Area Under The Curve Using Definite Integrals - Calculus (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UjTTx2eYrx8",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

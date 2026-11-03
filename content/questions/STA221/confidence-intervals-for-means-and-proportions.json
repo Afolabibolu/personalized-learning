@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Heights have σ = 2 feet; n = 16 and x̄ = 6.2. The 90% confidence interval for μ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "5.378 to 7.022"
+      },
+      {
+        "key": "b",
+        "text": "4.555 to 7.845"
+      },
+      {
+        "key": "c",
+        "text": "4.447 to 7.953"
+      },
+      {
+        "key": "d",
+        "text": "5.324 to 7.077"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6.2 ± 1.645(2/4).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "201 of 300 believed the accused guilty. The 95% interval for the proportion who did not is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.277 to 0.383"
+      },
+      {
+        "key": "b",
+        "text": "0.617 to 0.723"
+      },
+      {
+        "key": "c",
+        "text": "0.285 to 0.375"
+      },
+      {
+        "key": "d",
+        "text": "0.625 to 0.715"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "p̄ = 0.33 ± 1.96√(0.33 × 0.67/300).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "64 patients with mean stay 8.25 days and σ = 3. The 95% interval for μ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "7.515 to 8.985"
+      },
+      {
+        "key": "b",
+        "text": "7.633 to 8.867"
+      },
+      {
+        "key": "c",
+        "text": "8.25 to 8.985"
+      },
+      {
+        "key": "d",
+        "text": "5.31 to 11.19"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "8.25 ± 1.96(3/8).",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The z value for a 99% two-sided interval is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.576"
+      },
+      {
+        "key": "b",
+        "text": "1.96"
+      },
+      {
+        "key": "c",
+        "text": "1.645"
+      },
+      {
+        "key": "d",
+        "text": "2.33"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It leaves 0.005 in each tail.",
+    "source": "STA 221 Lecture 2 (Interval Estimation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a fixed confidence level, the interval for μ gets narrower as the sample size grows.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The margin of error is proportional to 1/√n.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "Changing the confidence level from 98% to 90% changes the standard error of the mean.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Only the multiplier z changes; σ/√n stays the same.",
+    "source": "STA 221 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For a small sample from a normal population with σ unknown, the interval for μ uses",
+    "options": [
+      {
+        "key": "a",
+        "text": "The t-distribution"
+      },
+      {
+        "key": "b",
+        "text": "n − 1 degrees of freedom"
+      },
+      {
+        "key": "c",
+        "text": "The sample standard deviation s"
+      },
+      {
+        "key": "d",
+        "text": "The z value 1.96 for 95%"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "z is for σ known or large n.",
+    "source": "STA 221 Lecture 2 (Interval Estimation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which pairing of confidence level and z value is wrong?",
+    "options": [
+      {
+        "key": "a",
+        "text": "90%: 1.645"
+      },
+      {
+        "key": "b",
+        "text": "95%: 1.96"
+      },
+      {
+        "key": "c",
+        "text": "99%: 2.576"
+      },
+      {
+        "key": "d",
+        "text": "95%: 2.33"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "2.33 is the one-sided 99% value.",
+    "source": "STA 221 Lecture 2 (Interval Estimation)"
+  }
+]

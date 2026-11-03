@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For y = 4 sin π(0.01x − t) (x, y in cm, t in s), the wave speed is",
+    "options": [
+      {
+        "key": "a",
+        "text": "100 cm/s"
+      },
+      {
+        "key": "b",
+        "text": "160 cm/s"
+      },
+      {
+        "key": "c",
+        "text": "200 cm/s"
+      },
+      {
+        "key": "d",
+        "text": "62.8 cm/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "v = ω/k = π/(0.01π).",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For the same wave, the maximum particle speed is",
+    "options": [
+      {
+        "key": "a",
+        "text": "4π cm/s"
+      },
+      {
+        "key": "b",
+        "text": "100π cm/s"
+      },
+      {
+        "key": "c",
+        "text": "0.04π cm/s"
+      },
+      {
+        "key": "d",
+        "text": "200π cm/s"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Aω = 4 × π.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The wave number k of a wave of wavelength λ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2π/λ"
+      },
+      {
+        "key": "b",
+        "text": "λ/2π"
+      },
+      {
+        "key": "c",
+        "text": "2πλ"
+      },
+      {
+        "key": "d",
+        "text": "1/λ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k = 2π/λ.",
+    "source": "PHY 105 Wave Equation and its Solution notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a longitudinal wave the particles vibrate",
+    "options": [
+      {
+        "key": "a",
+        "text": "Along the direction of propagation"
+      },
+      {
+        "key": "b",
+        "text": "Perpendicular to it"
+      },
+      {
+        "key": "c",
+        "text": "In circles only"
+      },
+      {
+        "key": "d",
+        "text": "Not at all"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sound is longitudinal.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Huygens' principle treats every point of a wavefront as a source of secondary wavelets.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The new wavefront is their envelope.",
+    "source": "PHY 105 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A wave carries matter along with it from the source.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It carries energy, not matter.",
+    "source": "PHY 105 Part 1: Introductory Waves and Optics slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are electromagnetic waves?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Light"
+      },
+      {
+        "key": "b",
+        "text": "X-rays"
+      },
+      {
+        "key": "c",
+        "text": "Radio waves"
+      },
+      {
+        "key": "d",
+        "text": "Sound"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Sound is a mechanical wave.",
+    "source": "General knowledge of PHY 104"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which quantity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Wavelength"
+      },
+      {
+        "key": "b",
+        "text": "Frequency"
+      },
+      {
+        "key": "c",
+        "text": "Amplitude"
+      },
+      {
+        "key": "d",
+        "text": "Mass"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Mass is not a wave property.",
+    "source": "General knowledge of PHY 104"
+  }
+]

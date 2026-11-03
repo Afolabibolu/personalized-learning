@@ -1,0 +1,29 @@
+{
+  "code": "PHY 104",
+  "books": {
+    "young": {
+      "title": "Sears and Zemansky's University Physics with Modern Physics",
+      "authors": "Hugh D. Young, Roger A. Freedman and A. Lewis Ford",
+      "edition": "13th edition",
+      "publisher": "Pearson Addison Wesley",
+      "year": 2012,
+      "note": "Recommended in the PHY 105 Part B lecture note."
+    }
+  },
+  "topics": {
+    "atomic-structure-and-quantum-effects": [
+      {
+        "book": "young",
+        "read": "Chapters 38 and 39 (Photons; Particles Behaving as Waves)",
+        "why": "The chapters the lecture note names for modern physics."
+      }
+    ],
+    "nuclear-physics-and-radioactivity": [
+      {
+        "book": "young",
+        "read": "Chapters 43 and 44 (Nuclear Physics; Particle Physics and Cosmology)",
+        "why": "The chapters the lecture note names for nuclear physics."
+      }
+    ]
+  }
+}

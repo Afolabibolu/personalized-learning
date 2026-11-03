@@ -1,0 +1,53 @@
+{
+  "code": "IFT 211",
+  "topics": {
+    "data-representation": [
+      {
+        "title": "Video: Introduction to Number Systems (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=crSGS1uBSNQ",
+        "source": "links.csv"
+      }
+    ],
+    "codes-and-error-detection": [
+      {
+        "title": "Video: Introduction to Binary Codes (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=B-irf7FZNHA",
+        "source": "links.csv"
+      }
+    ],
+    "logic-gates-and-properties": [
+      {
+        "title": "Video: Boolean Logic & Logic Gates: Crash Course Computer Science #3 (CrashCourse)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gI-qXk7XojA",
+        "source": "links.csv"
+      }
+    ],
+    "boolean-algebra-and-standard-forms": [
+      {
+        "title": "Video: Fundamentals of Boolean Algebra (TutorialsPoint)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2U71nZYb990",
+        "source": "links.csv"
+      }
+    ],
+    "k-maps-and-combinational-design": [
+      {
+        "title": "Video: Karnaugh Map (K' Map) - Part 1 (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FPrcIhqNPVo",
+        "source": "links.csv"
+      }
+    ],
+    "sequential-circuits-counters-and-registers": [
+      {
+        "title": "Video: Introduction to Sequential Circuits | Important (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AaN72s5WfOM",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

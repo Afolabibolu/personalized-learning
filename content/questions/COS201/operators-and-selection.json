@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In Java, what is the value of 10 / 3 when both are int?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "3.333"
+      },
+      {
+        "key": "c",
+        "text": "4"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Integer division truncates.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With a = 10, b = 4 and c = 3, what is a + b * c?",
+    "options": [
+      {
+        "key": "a",
+        "text": "22"
+      },
+      {
+        "key": "b",
+        "text": "42"
+      },
+      {
+        "key": "c",
+        "text": "17"
+      },
+      {
+        "key": "d",
+        "text": "30"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Multiplication comes before addition.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the value of 10 % 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1"
+      },
+      {
+        "key": "b",
+        "text": "3"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "3.33"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "% gives the remainder.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In a switch statement, what prevents fall-through to the next case?",
+    "options": [
+      {
+        "key": "a",
+        "text": "break"
+      },
+      {
+        "key": "b",
+        "text": "continue"
+      },
+      {
+        "key": "c",
+        "text": "default"
+      },
+      {
+        "key": "d",
+        "text": "else"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Without break, execution continues.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "In an if-else statement, exactly one of the two blocks always executes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "else runs when the if condition is false.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The && operator is true if at least one of its operands is true.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is ||; && needs both to be true.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are relational operators in Java?",
+    "options": [
+      {
+        "key": "a",
+        "text": ">="
+      },
+      {
+        "key": "b",
+        "text": "!="
+      },
+      {
+        "key": "c",
+        "text": "=="
+      },
+      {
+        "key": "d",
+        "text": "&&"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "&& is a logical operator.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a Java selection statement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "if"
+      },
+      {
+        "key": "b",
+        "text": "if-else"
+      },
+      {
+        "key": "c",
+        "text": "switch"
+      },
+      {
+        "key": "d",
+        "text": "do-while"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "do-while is a loop.",
+    "source": "cos201_weeks3to6.pdf"
+  }
+]

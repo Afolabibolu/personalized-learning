@@ -1,0 +1,209 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A 3-bit binary counter is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "MOD-8 counter that counts 0 to 7"
+      },
+      {
+        "key": "b",
+        "text": "MOD-3 counter that counts 0 to 2"
+      },
+      {
+        "key": "c",
+        "text": "MOD-16 counter"
+      },
+      {
+        "key": "d",
+        "text": "MOD-7 counter that counts 1 to 7"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "n flip-flops give 2ⁿ states.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eleven"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Why was the JK flip-flop developed?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To remove the invalid state of the SR flip-flop when both inputs are active"
+      },
+      {
+        "key": "b",
+        "text": "To add more inputs to the AND gate"
+      },
+      {
+        "key": "c",
+        "text": "To store analogue values"
+      },
+      {
+        "key": "d",
+        "text": "To replace the clock"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "With J = K = 1 it toggles instead of going meta-stable.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Ten"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four modes of operation of shift registers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SISO"
+      },
+      {
+        "key": "b",
+        "text": "SIPO"
+      },
+      {
+        "key": "c",
+        "text": "PISO"
+      },
+      {
+        "key": "d",
+        "text": "PIPO"
+      },
+      {
+        "key": "e",
+        "text": "SOSI"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "Serial or parallel in, serial or parallel out.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eleven"
+  },
+  {
+    "format": "true_false",
+    "stem": "In an asynchronous (ripple) counter, all the flip-flops are clocked at the same time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Only the first flip-flop gets the clock; that describes a synchronous counter.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Eleven"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Decimal 10 in BCD is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0001 0000"
+      },
+      {
+        "key": "b",
+        "text": "1010"
+      },
+      {
+        "key": "c",
+        "text": "0000 1010"
+      },
+      {
+        "key": "d",
+        "text": "1001 0001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each decimal digit is coded in 4 bits.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Twelve"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which code is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary"
+      },
+      {
+        "key": "b",
+        "text": "BCD (8-4-2-1)"
+      },
+      {
+        "key": "c",
+        "text": "Excess-3"
+      },
+      {
+        "key": "d",
+        "text": "Weighted BCD 2-4-2-1"
+      }
+    ],
+    "correct_answer": [
+      "c"
+    ],
+    "explanation": "Excess-3 is a non-weighted code; the others are weighted.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Twelve"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The 7-bit data 1001110 sent with even parity (parity bit as MSB) becomes",
+    "options": [
+      {
+        "key": "a",
+        "text": "01001110"
+      },
+      {
+        "key": "b",
+        "text": "11001110"
+      },
+      {
+        "key": "c",
+        "text": "10011101"
+      },
+      {
+        "key": "d",
+        "text": "00111001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It already has four 1s, so the parity bit is 0.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Thirteen"
+  },
+  {
+    "format": "true_false",
+    "stem": "A single parity bit can detect an error in which two bits have changed.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Two errors leave the parity unchanged, and parity cannot locate the error; Hamming codes can.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Thirteen"
+  }
+]

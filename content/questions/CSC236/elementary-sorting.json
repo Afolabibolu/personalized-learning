@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A simple sorting technique that arranges elements by forming pairs of adjacent elements is",
+    "options": [
+      {
+        "key": "a",
+        "text": "bubble sort"
+      },
+      {
+        "key": "b",
+        "text": "merge sort"
+      },
+      {
+        "key": "c",
+        "text": "quicksort"
+      },
+      {
+        "key": "d",
+        "text": "tree sort"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It repeatedly swaps adjacent elements that are out of order.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many passes does bubble sort need for n elements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n − 1"
+      },
+      {
+        "key": "b",
+        "text": "n"
+      },
+      {
+        "key": "c",
+        "text": "n²"
+      },
+      {
+        "key": "d",
+        "text": "log n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The first pass compares n − 1 pairs, the last one pair.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The time complexity of bubble sort is",
+    "options": [
+      {
+        "key": "a",
+        "text": "O(n²)"
+      },
+      {
+        "key": "b",
+        "text": "O(n log n)"
+      },
+      {
+        "key": "c",
+        "text": "O(log n)"
+      },
+      {
+        "key": "d",
+        "text": "O(n)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It makes n(n − 1)/2 comparisons.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 3"
+  },
+  {
+    "format": "true_false",
+    "stem": "Insertion sort sorts in place.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It needs no separate array for the sorted part.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 3"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Insertion sort runs at its best case when the list is",
+    "options": [
+      {
+        "key": "a",
+        "text": "already sorted"
+      },
+      {
+        "key": "b",
+        "text": "in reverse order"
+      },
+      {
+        "key": "c",
+        "text": "random"
+      },
+      {
+        "key": "d",
+        "text": "empty of duplicates"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each element then needs one comparison.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 8"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which sorting techniques does the course treat as iterative and slow for large data?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bubble sort"
+      },
+      {
+        "key": "b",
+        "text": "Selection sort"
+      },
+      {
+        "key": "c",
+        "text": "Insertion sort"
+      },
+      {
+        "key": "d",
+        "text": "Merge sort"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Merge sort is a divide-and-conquer algorithm.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 3 and 4"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which sorting algorithm is not O(n²) in its worst case?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bubble sort"
+      },
+      {
+        "key": "b",
+        "text": "Selection sort"
+      },
+      {
+        "key": "c",
+        "text": "Insertion sort"
+      },
+      {
+        "key": "d",
+        "text": "Merge sort"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Merge sort is O(n log n).",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Units 3 and 4"
+  },
+  {
+    "format": "true_false",
+    "stem": "Selection sort repeatedly finds the smallest remaining element and moves it into place.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It exchanges it with the next position.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 3"
+  }
+]

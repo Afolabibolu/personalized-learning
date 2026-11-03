@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The circle x² + y² − 8x − 10y + 32 = 0 has area",
+    "options": [
+      {
+        "key": "a",
+        "text": "9π"
+      },
+      {
+        "key": "b",
+        "text": "6π"
+      },
+      {
+        "key": "c",
+        "text": "4π"
+      },
+      {
+        "key": "d",
+        "text": "32π"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Centre (4, 5), r² = 16 + 25 − 32 = 9.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The circle with centre (7, −6) that touches 3x − 4y + 5 = 0 is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(x − 7)² + (y + 6)² = 10²"
+      },
+      {
+        "key": "b",
+        "text": "(x + 7)² + (y − 6)² = 10²"
+      },
+      {
+        "key": "c",
+        "text": "(x − 7)² + (y − 6)² = 4²"
+      },
+      {
+        "key": "d",
+        "text": "(x − 7)² + (y + 6)² = 5²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The radius is the distance |21 + 24 + 5|/5 = 10.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In polar form, x² + y² = 4y is",
+    "options": [
+      {
+        "key": "a",
+        "text": "r = 4 sin θ"
+      },
+      {
+        "key": "b",
+        "text": "r = 4 cos θ"
+      },
+      {
+        "key": "c",
+        "text": "r = 4"
+      },
+      {
+        "key": "d",
+        "text": "r² = 4 sin θ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "r² = 4r sin θ.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The centre and radius of x² + y² + 2gx + 2fy + c = 0 are",
+    "options": [
+      {
+        "key": "a",
+        "text": "(−g, −f) and √(g² + f² − c)"
+      },
+      {
+        "key": "b",
+        "text": "(g, f) and √(g² + f² + c)"
+      },
+      {
+        "key": "c",
+        "text": "(−g, −f) and g² + f² − c"
+      },
+      {
+        "key": "d",
+        "text": "(2g, 2f) and √c"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Compare with (x − a)² + (y − b)² = r².",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "The normal to a circle at any point passes through the centre.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is perpendicular to the tangent, along the radius.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "In polar coordinates, x = r sin θ and y = r cos θ.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "x = r cos θ and y = r sin θ.",
+    "source": "General knowledge of MTH 103"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about the tangent to x² + y² + 2gx + 2fy + c = 0 at (x₁, y₁) are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Its slope is −(x₁ + g)/(y₁ + f)"
+      },
+      {
+        "key": "b",
+        "text": "It is found by implicit differentiation"
+      },
+      {
+        "key": "c",
+        "text": "It is perpendicular to the radius at (x₁, y₁)"
+      },
+      {
+        "key": "d",
+        "text": "It passes through the centre"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The normal, not the tangent, passes through the centre.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which equation is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x² + y² = 25"
+      },
+      {
+        "key": "b",
+        "text": "(x − 3)² + (y + 1)² = 4"
+      },
+      {
+        "key": "c",
+        "text": "x² + y² − 2x − 4y = 4"
+      },
+      {
+        "key": "d",
+        "text": "x²/9 + y²/4 = 1"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "x²/9 + y²/4 = 1 is an ellipse; the others are circles.",
+    "source": "MAT 141 lecture note on Analytic Geometry and Mechanics (B. O. Onasanya), in Combined slides.pdf"
+  }
+]

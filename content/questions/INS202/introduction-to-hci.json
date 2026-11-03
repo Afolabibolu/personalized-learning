@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which pioneer's team introduced the first computer mouse?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Douglas Engelbart"
+      },
+      {
+        "key": "b",
+        "text": "Ivan Sutherland"
+      },
+      {
+        "key": "c",
+        "text": "Vannevar Bush"
+      },
+      {
+        "key": "d",
+        "text": "Steve Jobs"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It was shown in the 'Mother of All Demos'.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Ivan Sutherland's Sketchpad pioneered",
+    "options": [
+      {
+        "key": "a",
+        "text": "direct manipulation with a light pen"
+      },
+      {
+        "key": "b",
+        "text": "the command line"
+      },
+      {
+        "key": "c",
+        "text": "voice assistants"
+      },
+      {
+        "key": "d",
+        "text": "the World Wide Web"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It was an early CAD system.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "WIMP stands for",
+    "options": [
+      {
+        "key": "a",
+        "text": "windows, icons, menus, pointer"
+      },
+      {
+        "key": "b",
+        "text": "web, internet, mobile, phone"
+      },
+      {
+        "key": "c",
+        "text": "wireless input mouse protocol"
+      },
+      {
+        "key": "d",
+        "text": "word, image, media, print"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Introduced at Xerox PARC.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which HCI factor is most at risk when a cockpit display is confusing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Safety"
+      },
+      {
+        "key": "b",
+        "text": "Business value"
+      },
+      {
+        "key": "c",
+        "text": "Accessibility"
+      },
+      {
+        "key": "d",
+        "text": "Productivity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Poor design can cause fatal errors.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "true_false",
+    "stem": "HCI is mainly about making interfaces look attractive.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is equally about error prevention, learnability and accessibility.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "true_false",
+    "stem": "ACM founded SIGCHI in 1982.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The first CHI conference followed in 1983.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the five components of an interaction?",
+    "options": [
+      {
+        "key": "a",
+        "text": "User"
+      },
+      {
+        "key": "b",
+        "text": "Task"
+      },
+      {
+        "key": "c",
+        "text": "Context"
+      },
+      {
+        "key": "d",
+        "text": "Price"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "System and interaction are the others.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a reason HCI matters, according to Lecture 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Usability"
+      },
+      {
+        "key": "b",
+        "text": "Safety"
+      },
+      {
+        "key": "c",
+        "text": "Business value"
+      },
+      {
+        "key": "d",
+        "text": "Faster CPU clock speed"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Productivity and accessibility are the others.",
+    "source": "INS 202 Lecture 1 Introduction to HCI (Falola and Fawale)"
+  }
+]

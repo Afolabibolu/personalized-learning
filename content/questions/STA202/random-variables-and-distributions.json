@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The formula for a standardised normal variable is",
+    "options": [
+      {
+        "key": "a",
+        "text": "z = (x − μ)/σ"
+      },
+      {
+        "key": "b",
+        "text": "z = (x + μ)/σ"
+      },
+      {
+        "key": "c",
+        "text": "z = (x − σ)/μ"
+      },
+      {
+        "key": "d",
+        "text": "z = (x + σ)/μ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Subtract the mean, divide by the standard deviation.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For heights with μ = 65.5 in and σ = 2.5 in, what is the z-score of a woman 72 in tall?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.60"
+      },
+      {
+        "key": "b",
+        "text": "1.04"
+      },
+      {
+        "key": "c",
+        "text": "4.11"
+      },
+      {
+        "key": "d",
+        "text": "1.33"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(72 − 65.5)/2.5.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With IQ ~ N(100, 15²), roughly what proportion score above 130?",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.5%"
+      },
+      {
+        "key": "b",
+        "text": "5%"
+      },
+      {
+        "key": "c",
+        "text": "68%"
+      },
+      {
+        "key": "d",
+        "text": "95%"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "130 is 2σ above the mean; 95% lie within 2σ.",
+    "source": "STA 201/202/204 quiz (2024/2025 session)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mean and variance of a binomial distribution are",
+    "options": [
+      {
+        "key": "a",
+        "text": "np and npq"
+      },
+      {
+        "key": "b",
+        "text": "np and np²"
+      },
+      {
+        "key": "c",
+        "text": "λ and λ"
+      },
+      {
+        "key": "d",
+        "text": "n and pq"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "q = 1 − p.",
+    "source": "Probability Distributions Guide"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a continuous random variable, P(X = a) = 0 for any single value a.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Probabilities are areas over intervals.",
+    "source": "STA 204 Lecture 4 (Probability Distributions)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The values of a probability mass function can sum to more than 1.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They must sum to exactly 1.",
+    "source": "STA 204 Lecture 4 (Probability Distributions)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are properties of a probability density function f(x)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f(x) ≥ 0"
+      },
+      {
+        "key": "b",
+        "text": "∫ f(x) dx = 1"
+      },
+      {
+        "key": "c",
+        "text": "P(a ≤ X ≤ b) is the area under f from a to b"
+      },
+      {
+        "key": "d",
+        "text": "f(x) must equal 1 everywhere"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Only the total area must be 1.",
+    "source": "STA 204 Lecture 4 (Probability Distributions)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which distribution is not discrete?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binomial"
+      },
+      {
+        "key": "b",
+        "text": "Poisson"
+      },
+      {
+        "key": "c",
+        "text": "The number shown on a die"
+      },
+      {
+        "key": "d",
+        "text": "Normal"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The normal distribution is continuous.",
+    "source": "STA 204 Lecture 4 (Probability Distributions)"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "code": "IFT 211",
+  "books": {
+    "tarnoff": {
+      "title": "Computer Organization and Design Fundamentals",
+      "authors": "David Tarnoff",
+      "publisher": "Lulu (self-published)",
+      "year": 2007
+    },
+    "crowe": {
+      "title": "Introduction to Digital Electronics",
+      "authors": "John Crowe and Barrie Hayes-Gill",
+      "year": 1998
+    }
+  },
+  "topics": {
+    "data-representation": [
+      {
+        "book": "tarnoff",
+        "read": "Chapters 1 to 3 (digital signals, numbering systems, binary math and signed representations)",
+        "why": "These chapters are filed in the course folder and match the lecture."
+      }
+    ],
+    "codes-and-error-detection": [
+      {
+        "book": "tarnoff",
+        "read": "Chapter 9, Binary Operation Applications (parity and error detection)",
+        "why": "Covers parity and error-checking with worked examples."
+      }
+    ],
+    "logic-gates-and-properties": [
+      {
+        "book": "tarnoff",
+        "read": "Chapter 4, Logic Functions and Gates",
+        "why": "The textbook chapter behind the lecture on gates."
+      }
+    ],
+    "boolean-algebra-and-standard-forms": [
+      {
+        "book": "tarnoff",
+        "read": "Chapters 5 and 6 (Boolean algebra; SOP and POS)",
+        "why": "The identities, duality and canonical forms in the lectures."
+      }
+    ],
+    "k-maps-and-combinational-design": [
+      {
+        "book": "tarnoff",
+        "read": "Chapters 7 and 8 (Karnaugh maps; combinational logic applications)",
+        "why": "K-map grouping and adder and comparator design."
+      }
+    ],
+    "sequential-circuits-counters-and-registers": [
+      {
+        "book": "crowe",
+        "read": "Chapters 6 and 7 (flip-flops and flip-flop based circuits; counters)",
+        "why": "Filed in the course folder; covers the flip-flops and counters in the lectures."
+      }
+    ]
+  }
+}

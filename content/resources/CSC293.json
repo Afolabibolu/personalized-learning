@@ -1,0 +1,61 @@
+{
+  "code": "CSC 293",
+  "topics": {
+    "the-web-websites-and-web-applications": [
+      {
+        "title": "Video: How The Web Works - The Big Picture (Academind)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hJHvdBlSxug",
+        "source": "links.csv"
+      }
+    ],
+    "web-design-principles-and-planning": [
+      {
+        "title": "Video: The 5 Design Principles (But in Web Design) (The Website Architect)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=A8bsrYqn0NQ",
+        "source": "links.csv"
+      }
+    ],
+    "html-tags-tables-and-links": [
+      {
+        "title": "Video: HTML Tutorial for Beginners: HTML Crash Course (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "source": "links.csv"
+      }
+    ],
+    "html-forms": [
+      {
+        "title": "Video: Learn HTML Forms In 25 Minutes (Web Dev Simplified)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fNcJuPIZ2WE",
+        "source": "links.csv"
+      }
+    ],
+    "css-and-page-layout": [
+      {
+        "title": "Video: Learn CSS in 1 hour 🎨 (Bro Code)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wRNinF7YQqQ",
+        "source": "links.csv"
+      }
+    ],
+    "javascript": [
+      {
+        "title": "Video: JavaScript Course for Beginners – Your First Step to Web Development (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+        "source": "links.csv"
+      }
+    ],
+    "php-and-mysql": [
+      {
+        "title": "Video: 16 | Create a Database in MySQL PHP Tutorial | 2023 | Learn PHP Full Course for Beginners (Dani Krossing)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=H2XtR1zwg6s",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

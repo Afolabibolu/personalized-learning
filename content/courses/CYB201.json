@@ -1,0 +1,94 @@
+{
+  "code": "CYB 201",
+  "title": "Introduction to Cybersecurity and Strategy",
+  "semester": 1,
+  "description": "The CCMAS introduction to cybersecurity: basic concepts and the CIA triad, authentication and access control, security policies and best practices, security testing and incident response, software and hardware vulnerabilities and malware, and risk management and the impact of cyber attacks. Built from the CYB 201 lecture slides (Weeks One to Three) and the course notes in the folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "cybersecurity-concepts-and-the-cia-triad",
+      "title": "Cybersecurity Concepts and the CIA Triad",
+      "summary": "Cybersecurity is the practice of safeguarding computers, networks, software and data against unauthorized access and malicious activity in cyberspace. Its core objectives are the CIA triad of confidentiality, integrity and availability, each with standard protective measures.",
+      "subtopics": [
+        "Cyber, cyberspace and cybersecurity",
+        "Why cybersecurity is important",
+        "The CIA triad",
+        "Confidentiality and its measures",
+        "Integrity and its measures",
+        "Availability and its measures"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "authentication-and-access-control",
+      "title": "Authentication and Access Control",
+      "summary": "Authentication confirms the identity of a user, device or system before access is granted and is the first line of defence. Access control regulates who can enter a system and what they may do, through models such as discretionary, mandatory and role-based access control and the principle of least privilege.",
+      "subtopics": [
+        "Authentication as the first line of defence",
+        "Measures: passwords, MFA, OTP, biometrics",
+        "Access control and its purpose",
+        "Discretionary access control (DAC)",
+        "Mandatory access control (MAC)",
+        "Role-based access control (RBAC) and least privilege"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "security-policies-and-best-practices",
+      "title": "Security Policies and Best Practices",
+      "summary": "Security policies set the standards, rules and procedures for using systems and protecting information. Types include enterprise, issue-specific and system-specific policies, and best practices cover encryption and backups, least privilege, passwords, network security, patching, audits, awareness training and recovery planning.",
+      "subtopics": [
+        "Security policies and their importance",
+        "Enterprise security policy (ESP)",
+        "Issue-specific security policy (ISSP)",
+        "System-specific security policy (SysSP)",
+        "Supplemental policies: network, data and acceptable use",
+        "Best current practices"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "security-testing-and-incident-response",
+      "title": "Security Testing and Incident Response",
+      "summary": "Security testing examines systems, networks and applications to find vulnerabilities before attackers do, through vulnerability testing, penetration testing, audits, risk assessment and ethical hacking. Incident response planning defines how to detect, contain, eradicate, recover from and learn from incidents.",
+      "subtopics": [
+        "What security testing is",
+        "Goals and objectives of security testing",
+        "Vulnerability and penetration testing",
+        "Security auditing, risk assessment and ethical hacking",
+        "Incident response planning",
+        "The incident response steps"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "vulnerabilities-and-malware",
+      "title": "Vulnerabilities, Exploits and Malware",
+      "summary": "A security vulnerability is a software or hardware defect that attackers try to exploit; an exploit is a program written to take advantage of it. Software vulnerabilities include buffer overflow, non-validated input, race conditions, weak security practices and access-control problems, and malware includes spyware, adware, bots and ransomware.",
+      "subtopics": [
+        "Vulnerabilities, exploits and attacks",
+        "Software vulnerabilities and patching",
+        "Hardware vulnerabilities: Rowhammer",
+        "Categories of software vulnerability",
+        "Malware: spyware, adware, bots and ransomware",
+        "Evolution and impact of attacks on systems"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "risk-management-and-impact",
+      "title": "Risk Management and the Impact of Cyber Attacks",
+      "summary": "Risk management looks at what could go wrong and decides how to prevent or limit it, through risk assessment, risk mitigation and evaluation. Cyber attacks affect systems, networks, organisations and civil institutions, so organisations plan for disaster recovery and business continuity.",
+      "subtopics": [
+        "Risk, threats and vulnerabilities",
+        "The three parts of risk management",
+        "Risk assessment and mitigation",
+        "Disaster recovery and business continuity",
+        "Impact on organisations",
+        "Impact on civil institutions and their challenges"
+      ],
+      "lectures": []
+    }
+  ]
+}

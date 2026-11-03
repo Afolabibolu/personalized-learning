@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Selecting every kth unit after a random start is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Systematic sampling"
+      },
+      {
+        "key": "b",
+        "text": "Stratified sampling"
+      },
+      {
+        "key": "c",
+        "text": "Cluster sampling"
+      },
+      {
+        "key": "d",
+        "text": "Quota sampling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k is the sampling interval.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Dividing a population into homogeneous groups and sampling from each in proportion to its size is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stratified sampling"
+      },
+      {
+        "key": "b",
+        "text": "Cluster sampling"
+      },
+      {
+        "key": "c",
+        "text": "Convenience sampling"
+      },
+      {
+        "key": "d",
+        "text": "Multistage sampling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The groups are called strata.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The stars in the sky form",
+    "options": [
+      {
+        "key": "a",
+        "text": "An infinite population"
+      },
+      {
+        "key": "b",
+        "text": "A finite population"
+      },
+      {
+        "key": "c",
+        "text": "A hypothetical population"
+      },
+      {
+        "key": "d",
+        "text": "A sample"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The units cannot be counted.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "single_choice",
+    "stem": "An error caused by people refusing to answer a survey is",
+    "options": [
+      {
+        "key": "a",
+        "text": "A non-sampling error"
+      },
+      {
+        "key": "b",
+        "text": "A sampling error"
+      },
+      {
+        "key": "c",
+        "text": "A Type I error"
+      },
+      {
+        "key": "d",
+        "text": "A standard error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Non-response is a non-sampling error.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "true_false",
+    "stem": "A census is a complete enumeration of every member of the population.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It counts every unit.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "true_false",
+    "stem": "Quota sampling is a random sampling method.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is non-random: the interviewer chooses respondents.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are random sampling methods?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple random sampling"
+      },
+      {
+        "key": "b",
+        "text": "Cluster sampling"
+      },
+      {
+        "key": "c",
+        "text": "Multistage sampling"
+      },
+      {
+        "key": "d",
+        "text": "Convenience sampling"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Convenience sampling is non-random.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which sampling method is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stratified"
+      },
+      {
+        "key": "b",
+        "text": "Cluster"
+      },
+      {
+        "key": "c",
+        "text": "Systematic"
+      },
+      {
+        "key": "d",
+        "text": "Judgment"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Judgment sampling is non-random.",
+    "source": "STA 121 Lecture 1: Sampling (Dr O.E. Olubusoye) and the 2018 Lecture 1: Population and Sampling"
+  }
+]

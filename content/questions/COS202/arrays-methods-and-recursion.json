@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What default value do elements of a new int array have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "null"
+      },
+      {
+        "key": "c",
+        "text": "false"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Booleans default to false, references to null.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many elements does new int[3][5][7] store?",
+    "options": [
+      {
+        "key": "a",
+        "text": "105"
+      },
+      {
+        "key": "b",
+        "text": "15"
+      },
+      {
+        "key": "c",
+        "text": "35"
+      },
+      {
+        "key": "d",
+        "text": "21"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Total size is the product of the dimensions.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In myMethod(\"Babatunde\"), the value \"Babatunde\" is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an argument"
+      },
+      {
+        "key": "b",
+        "text": "a parameter"
+      },
+      {
+        "key": "c",
+        "text": "a return type"
+      },
+      {
+        "key": "d",
+        "text": "a modifier"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "fname in the definition is the parameter.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does sum(10) return for sum(k) = k + sum(k - 1) with sum(0) = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "55"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "45"
+      },
+      {
+        "key": "d",
+        "text": "100"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "10 + 9 + ... + 1 + 0 = 55.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Non-primitive arrays store references in contiguous locations.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Primitive arrays store the values themselves.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Method overloading is resolved at runtime.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Overloading is resolved at compile time.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which statements about Java arrays are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Indexing starts at 0"
+      },
+      {
+        "key": "b",
+        "text": "Size is fixed once created"
+      },
+      {
+        "key": "c",
+        "text": "Memory is allocated with new on the heap"
+      },
+      {
+        "key": "d",
+        "text": "They grow automatically when full"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Use ArrayList for growable collections.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a default value for array elements?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0 for numeric types"
+      },
+      {
+        "key": "b",
+        "text": "false for boolean"
+      },
+      {
+        "key": "c",
+        "text": "null for references"
+      },
+      {
+        "key": "d",
+        "text": "-1 for int"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Numeric elements default to 0.",
+    "source": "COS202_Advanced Java_Programming.pdf"
+  }
+]

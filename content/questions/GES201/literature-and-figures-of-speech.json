@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which figure of speech compares two things using 'like' or 'as'?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simile"
+      },
+      {
+        "key": "b",
+        "text": "Metaphor"
+      },
+      {
+        "key": "c",
+        "text": "Personification"
+      },
+      {
+        "key": "d",
+        "text": "Hyperbole"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Metaphor compares without them.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"The sky is weeping\" is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "personification"
+      },
+      {
+        "key": "b",
+        "text": "simile"
+      },
+      {
+        "key": "c",
+        "text": "oxymoron"
+      },
+      {
+        "key": "d",
+        "text": "alliteration"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Human qualities are given to the sky.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "\"Politicians are fond of telling truthful lies\" contains",
+    "options": [
+      {
+        "key": "a",
+        "text": "an oxymoron"
+      },
+      {
+        "key": "b",
+        "text": "a simile"
+      },
+      {
+        "key": "c",
+        "text": "an apostrophe"
+      },
+      {
+        "key": "d",
+        "text": "a euphemism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Contradictory words are placed side by side.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The central idea or underlying meaning of a literary text is its",
+    "options": [
+      {
+        "key": "a",
+        "text": "theme"
+      },
+      {
+        "key": "b",
+        "text": "setting"
+      },
+      {
+        "key": "c",
+        "text": "plot"
+      },
+      {
+        "key": "d",
+        "text": "point of view"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Subject matter is broader.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Subject matter and theme are the same thing.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Subject matter is larger than theme.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Literature includes oral as well as written works.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Limiting it to writing excludes oral forms.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three main genres of literature?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Drama"
+      },
+      {
+        "key": "b",
+        "text": "Poetry"
+      },
+      {
+        "key": "c",
+        "text": "Prose"
+      },
+      {
+        "key": "d",
+        "text": "Grammar"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Genre depends on how a text is composed.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the five parts of a plot?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Exposition"
+      },
+      {
+        "key": "b",
+        "text": "Climax"
+      },
+      {
+        "key": "c",
+        "text": "Denouement"
+      },
+      {
+        "key": "d",
+        "text": "Stanza"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Complication and falling action are the others.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 4 (S. O. Olaniyan)"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "code": "CSC 272",
+  "books": {
+    "freund": {
+      "title": "Microsoft Office 365 & Office 2019: Introductory (Shelly Cashman Series)",
+      "authors": "Steven M. Freund and others",
+      "edition": null,
+      "publisher": "Cengage Learning",
+      "year": 2020,
+      "note": "A standard textbook for Microsoft Office; the course folder has lecture notes only."
+    }
+  },
+  "topics": {
+    "introduction-to-microsoft-office": [
+      {
+        "book": "freund",
+        "read": "The introductory module on Office and Windows",
+        "why": "Starting the apps, the ribbon and common features."
+      }
+    ],
+    "the-microsoft-word-environment": [
+      {
+        "book": "freund",
+        "read": "The Word modules",
+        "why": "Creating and saving documents in Word."
+      }
+    ],
+    "editing-and-formatting-word-documents": [
+      {
+        "book": "freund",
+        "read": "The Word modules on formatting and research papers",
+        "why": "Fonts, paragraphs, styles, references and tables."
+      }
+    ],
+    "microsoft-excel-basics": [
+      {
+        "book": "freund",
+        "read": "The first Excel module",
+        "why": "Entering data and building a worksheet."
+      }
+    ],
+    "excel-formulas-functions-and-charts": [
+      {
+        "book": "freund",
+        "read": "The Excel modules on formulas, functions and charts",
+        "why": "Formulas, functions and charts."
+      }
+    ],
+    "microsoft-access-and-databases": [
+      {
+        "book": "freund",
+        "read": "The Access modules",
+        "why": "Tables, queries, forms and reports."
+      }
+    ],
+    "powerpoint-and-effective-presentations": [
+      {
+        "book": "freund",
+        "read": "The PowerPoint modules",
+        "why": "Building and delivering slide presentations."
+      }
+    ]
+  }
+}

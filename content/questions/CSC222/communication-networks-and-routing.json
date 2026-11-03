@@ -1,0 +1,204 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three phases of circuit switching?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Setup"
+      },
+      {
+        "key": "b",
+        "text": "Data transfer"
+      },
+      {
+        "key": "c",
+        "text": "Teardown"
+      },
+      {
+        "key": "d",
+        "text": "Compression"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Compression is a coding purpose.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "Packet switching provides the illusion of a dedicated link to every pair of communicating end points.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is what circuit switching provides.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The transmission delay of an S-bit packet on a link of rate R is",
+    "options": [
+      {
+        "key": "a",
+        "text": "S/R"
+      },
+      {
+        "key": "b",
+        "text": "R/S"
+      },
+      {
+        "key": "c",
+        "text": "S × R"
+      },
+      {
+        "key": "d",
+        "text": "S + R"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the time to put the packet on the link.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The process by which switches construct their routing tables is",
+    "options": [
+      {
+        "key": "a",
+        "text": "routing"
+      },
+      {
+        "key": "b",
+        "text": "forwarding"
+      },
+      {
+        "key": "c",
+        "text": "addressing"
+      },
+      {
+        "key": "d",
+        "text": "multiplexing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs in the background.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A common way to implement circuit switching is",
+    "options": [
+      {
+        "key": "a",
+        "text": "time-division multiplexing"
+      },
+      {
+        "key": "b",
+        "text": "Huffman coding"
+      },
+      {
+        "key": "c",
+        "text": "syndrome decoding"
+      },
+      {
+        "key": "d",
+        "text": "packet queues"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each session gets fixed time slots.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the problems switches solve?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Forwarding"
+      },
+      {
+        "key": "b",
+        "text": "Routing"
+      },
+      {
+        "key": "c",
+        "text": "Resource allocation"
+      },
+      {
+        "key": "d",
+        "text": "Source coding"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Source coding compresses data at the source.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "true_false",
+    "stem": "A network with a dedicated link between every pair of N computers needs about N² links.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is why switches are needed.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 6"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The two families of distributed routing protocols are",
+    "options": [
+      {
+        "key": "a",
+        "text": "distance-vector and link-state"
+      },
+      {
+        "key": "b",
+        "text": "circuit and packet"
+      },
+      {
+        "key": "c",
+        "text": "TDM and FDM"
+      },
+      {
+        "key": "d",
+        "text": "Hamming and Huffman"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Both use periodic advertisements.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 5"
+  }
+]

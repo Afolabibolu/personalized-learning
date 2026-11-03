@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Every electric circuit has a voltage source, a conductor, a load and at least one",
+    "options": [
+      {
+        "key": "a",
+        "text": "controller (switch)"
+      },
+      {
+        "key": "b",
+        "text": "transistor"
+      },
+      {
+        "key": "c",
+        "text": "capacitor"
+      },
+      {
+        "key": "d",
+        "text": "diode"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "These are the four basic parts listed in Lecture One.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Kirchhoff's current law expresses the conservation of",
+    "options": [
+      {
+        "key": "a",
+        "text": "charge"
+      },
+      {
+        "key": "b",
+        "text": "energy"
+      },
+      {
+        "key": "c",
+        "text": "power"
+      },
+      {
+        "key": "d",
+        "text": "resistance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Current cannot build up at a junction, so what flows in must flow out.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "true_false",
+    "stem": "Kirchhoff's voltage law states that the algebraic sum of all voltages around a closed loop is zero.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It expresses the conservation of energy.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In Thevenin's theorem, a linear circuit is replaced by",
+    "options": [
+      {
+        "key": "a",
+        "text": "a single voltage source in series with a single resistor"
+      },
+      {
+        "key": "b",
+        "text": "a single current source in parallel with a resistor"
+      },
+      {
+        "key": "c",
+        "text": "two voltage sources in parallel"
+      },
+      {
+        "key": "d",
+        "text": "a single resistor only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Norton's theorem uses a current source in parallel instead.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "single_choice",
+    "stem": "To find the Thevenin resistance Rs, voltage sources are",
+    "options": [
+      {
+        "key": "a",
+        "text": "shorted and current sources opened"
+      },
+      {
+        "key": "b",
+        "text": "opened and current sources shorted"
+      },
+      {
+        "key": "c",
+        "text": "doubled"
+      },
+      {
+        "key": "d",
+        "text": "left in place"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Rs is the resistance looking back into the terminals with the sources removed.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct about Norton's theorem?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Is is the current that flows when the output terminals are shorted"
+      },
+      {
+        "key": "b",
+        "text": "The equivalent source is in parallel with Rs"
+      },
+      {
+        "key": "c",
+        "text": "Rs is found the same way as in Thevenin's theorem"
+      },
+      {
+        "key": "d",
+        "text": "It works only for AC circuits"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Norton's equivalent is a current source with a parallel resistance.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One"
+  },
+  {
+    "format": "true_false",
+    "stem": "A 12 Ω and a 4 Ω resistor in parallel have an equivalent resistance of 3 Ω.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "12 × 4 / (12 + 4) = 48 / 16 = 3 Ω, as in the Thevenin example.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture One, Example 2"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out (it does not describe part of a circuit)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Node"
+      },
+      {
+        "key": "b",
+        "text": "Branch"
+      },
+      {
+        "key": "c",
+        "text": "Loop"
+      },
+      {
+        "key": "d",
+        "text": "Doping"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Node, branch and loop are circuit terms used with Kirchhoff's laws; doping belongs to semiconductors.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lectures One and Two"
+  }
+]

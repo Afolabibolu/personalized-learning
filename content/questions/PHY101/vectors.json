@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Two forces of 10 N and 15 N at 60° to each other have a resultant of",
+    "options": [
+      {
+        "key": "a",
+        "text": "21.8 N"
+      },
+      {
+        "key": "b",
+        "text": "25 N"
+      },
+      {
+        "key": "c",
+        "text": "13.2 N"
+      },
+      {
+        "key": "d",
+        "text": "5 N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R² = 100 + 225 + 2(10)(15) cos 60° = 475.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For A = 3i − 2j and B = −i − 4j, |A − B| =",
+    "options": [
+      {
+        "key": "a",
+        "text": "4.47"
+      },
+      {
+        "key": "b",
+        "text": "6.32"
+      },
+      {
+        "key": "c",
+        "text": "20.0"
+      },
+      {
+        "key": "d",
+        "text": "4i + 2j"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A − B = 4i + 2j; √20.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The resultant of two equal forces P at angle 2θ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2P cos θ"
+      },
+      {
+        "key": "b",
+        "text": "2P sin θ"
+      },
+      {
+        "key": "c",
+        "text": "2P tan θ"
+      },
+      {
+        "key": "d",
+        "text": "P cos 2θ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R² = 2P²(1 + cos 2θ) = 4P²cos²θ.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The area of the parallelogram on (6, 3, 1) and (−2, 4, 5) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "45.2 m²"
+      },
+      {
+        "key": "b",
+        "text": "45.0 m²"
+      },
+      {
+        "key": "c",
+        "text": "5.0 m²"
+      },
+      {
+        "key": "d",
+        "text": "45.5 m²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "|(11, −32, 30)| = √2045.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A displacement of 100 m at 60° NE equals a displacement of 100 m at 30° EN.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Both point 60° east of north.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "Speed and velocity are both vector quantities.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Speed is a scalar.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are vector quantities?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Force"
+      },
+      {
+        "key": "b",
+        "text": "Acceleration"
+      },
+      {
+        "key": "c",
+        "text": "Electric field intensity"
+      },
+      {
+        "key": "d",
+        "text": "Energy"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Energy is a scalar.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which quantity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mass"
+      },
+      {
+        "key": "b",
+        "text": "Time"
+      },
+      {
+        "key": "c",
+        "text": "Work"
+      },
+      {
+        "key": "d",
+        "text": "Displacement"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Displacement is a vector; the others are scalars.",
+    "source": "PHY 102 weeks 1–7 slides (Awe and Ogunseye)"
+  }
+]

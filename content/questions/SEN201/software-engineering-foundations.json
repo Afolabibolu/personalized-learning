@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The IEEE defines software engineering as",
+    "options": [
+      {
+        "key": "a",
+        "text": "the application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software"
+      },
+      {
+        "key": "b",
+        "text": "writing programs quickly"
+      },
+      {
+        "key": "c",
+        "text": "the study of computer hardware"
+      },
+      {
+        "key": "d",
+        "text": "testing software after release"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the definition quoted in the notes.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The term 'software engineering' was proposed at a NATO conference in",
+    "options": [
+      {
+        "key": "a",
+        "text": "1969"
+      },
+      {
+        "key": "b",
+        "text": "1946"
+      },
+      {
+        "key": "c",
+        "text": "1988"
+      },
+      {
+        "key": "d",
+        "text": "2001"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It discussed the software crisis.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which two techniques does software engineering use to reduce problem complexity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Abstraction and decomposition"
+      },
+      {
+        "key": "b",
+        "text": "Compilation and linking"
+      },
+      {
+        "key": "c",
+        "text": "Testing and debugging"
+      },
+      {
+        "key": "d",
+        "text": "Coding and deployment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Abstraction omits detail; decomposition divides the problem.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Software consists only of program code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It includes documentation and configuration data too.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A system commissioned by a particular customer is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "customised (bespoke) product"
+      },
+      {
+        "key": "b",
+        "text": "generic product"
+      },
+      {
+        "key": "c",
+        "text": "embedded system"
+      },
+      {
+        "key": "d",
+        "text": "batch system"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Generic products are sold on the open market.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are essential attributes of good software?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Maintainability"
+      },
+      {
+        "key": "b",
+        "text": "Dependability and security"
+      },
+      {
+        "key": "c",
+        "text": "Efficiency"
+      },
+      {
+        "key": "d",
+        "text": "Complexity"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth attribute is acceptability.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of application listed in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Embedded control systems"
+      },
+      {
+        "key": "b",
+        "text": "Batch processing systems"
+      },
+      {
+        "key": "c",
+        "text": "Systems of systems"
+      },
+      {
+        "key": "d",
+        "text": "Spreadsheet cells"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A spreadsheet is a generic product, not an application type.",
+    "source": "SEN 201 Lecture Notes.docx"
+  },
+  {
+    "format": "true_false",
+    "stem": "Effective use of existing resources through reuse is one of the fundamental principles of software engineering.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is the fourth principle.",
+    "source": "SEN 201 Lecture Notes.docx"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A candidate key that is chosen as the main identifier of a table is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "primary key"
+      },
+      {
+        "key": "b",
+        "text": "alternate key"
+      },
+      {
+        "key": "c",
+        "text": "foreign key"
+      },
+      {
+        "key": "d",
+        "text": "superkey"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Unchosen candidates are alternate keys.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which constraint requires foreign key values to match an existing parent key?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Referential integrity"
+      },
+      {
+        "key": "b",
+        "text": "Entity integrity"
+      },
+      {
+        "key": "c",
+        "text": "Domain integrity"
+      },
+      {
+        "key": "d",
+        "text": "Hashing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Entity integrity concerns primary keys.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which file organisation uses a function to map keys to storage locations for fast equality lookup?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hash"
+      },
+      {
+        "key": "b",
+        "text": "Sequential"
+      },
+      {
+        "key": "c",
+        "text": "Heap"
+      },
+      {
+        "key": "d",
+        "text": "Clustered"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Sequential suits batch processing.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A many-to-many relationship between students and courses is implemented with",
+    "options": [
+      {
+        "key": "a",
+        "text": "a junction (linking) table"
+      },
+      {
+        "key": "b",
+        "text": "a single foreign key"
+      },
+      {
+        "key": "c",
+        "text": "a surrogate key only"
+      },
+      {
+        "key": "d",
+        "text": "a data flow"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The junction table holds both foreign keys.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Entity integrity requires primary key values to be unique and not NULL.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This keeps every row identifiable.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "A surrogate key is a real-world identifier such as a matric number.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is a natural key; surrogate keys are artificial.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are kinds of file organisation in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sequential"
+      },
+      {
+        "key": "b",
+        "text": "Indexed"
+      },
+      {
+        "key": "c",
+        "text": "Hash"
+      },
+      {
+        "key": "d",
+        "text": "Recursive"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Heap and clustered are the others.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of key in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Candidate key"
+      },
+      {
+        "key": "b",
+        "text": "Alternate key"
+      },
+      {
+        "key": "c",
+        "text": "Foreign key"
+      },
+      {
+        "key": "d",
+        "text": "Elevator key"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Primary and surrogate keys are others.",
+    "source": "System Analysis and Design: Database and File Design slides"
+  }
+]

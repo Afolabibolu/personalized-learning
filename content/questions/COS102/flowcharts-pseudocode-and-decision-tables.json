@@ -1,190 +1,115 @@
 [
   {
     "format": "single_choice",
-    "stem": "Which pseudocode statement stores 0 in the variable sum?",
+    "stem": "Which flowchart symbol has Yes and No exits?",
     "options": [
       {
         "key": "a",
-        "text": "Set sum to 0"
+        "text": "Decision (diamond)"
       },
       {
         "key": "b",
-        "text": "Read sum"
+        "text": "Process (rectangle)"
       },
       {
         "key": "c",
-        "text": "Write sum"
+        "text": "Input/output (parallelogram)"
       },
       {
         "key": "d",
-        "text": "WHILE (sum < 0)"
+        "text": "Terminal"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Assignment can be written 'Set sum to 0' or 'sum <— 0'.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
-  },
-  {
-    "format": "multi_select",
-    "stem": "Which concepts must pseudocode be able to express, according to the textbook?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Variables and assignment"
-      },
-      {
-        "key": "b",
-        "text": "Input/output"
-      },
-      {
-        "key": "c",
-        "text": "Selection and repetition"
-      },
-      {
-        "key": "d",
-        "text": "Fixed grammar rules"
-      }
-    ],
-    "correct_answer": [
-      "a",
-      "b",
-      "c"
-    ],
-    "explanation": "Pseudocode has no special grammar rules.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
-  },
-  {
-    "format": "true_false",
-    "stem": "Pseudocode has strict grammar rules, like a real programming language.",
-    "options": [
-      {
-        "key": "true",
-        "text": "True"
-      },
-      {
-        "key": "false",
-        "text": "False"
-      }
-    ],
-    "correct_answer": [
-      "false"
-    ],
-    "explanation": "Pseudocode is a shorthand-like language with no special grammar rules; consistency within a project is still a good idea.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+    "explanation": "It tests a condition.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "single_choice",
-    "stem": "Which flowchart symbol represents a decision?",
+    "stem": "A connector that continues a flowchart on another page is the",
     "options": [
       {
         "key": "a",
-        "text": "Diamond"
+        "text": "Off-page connector"
       },
       {
         "key": "b",
-        "text": "Rectangle"
+        "text": "On-page connector"
       },
       {
         "key": "c",
-        "text": "Parallelogram"
+        "text": "Terminal"
       },
       {
         "key": "d",
-        "text": "Oval"
+        "text": "Flow line"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "A diamond has one exit for Yes and one for No.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "odd_one_out",
-    "stem": "Which one is not a standard flowchart symbol meaning?",
-    "options": [
-      {
-        "key": "a",
-        "text": "Oval: start or stop"
-      },
-      {
-        "key": "b",
-        "text": "Parallelogram: input or output"
-      },
-      {
-        "key": "c",
-        "text": "Rectangle: process"
-      },
-      {
-        "key": "d",
-        "text": "Triangle: loop counter"
-      }
-    ],
-    "correct_answer": [
-      "d"
-    ],
-    "explanation": "A small circle is a connector; there is no standard triangle for a loop counter.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "A plain connector joins parts on the same page.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "single_choice",
-    "stem": "A decision table with 3 yes/no conditions has how many possible rules?",
+    "stem": "In the pseudocode vocabulary of the lectures, the word that outputs a value is",
     "options": [
       {
         "key": "a",
-        "text": "8"
+        "text": "DISPLAY"
       },
       {
         "key": "b",
+        "text": "READ"
+      },
+      {
+        "key": "c",
+        "text": "COMPUTE"
+      },
+      {
+        "key": "d",
+        "text": "WHILE"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "READ takes input into a variable.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With the if ladder for grade points, a score of 62 gives grade point",
+    "options": [
+      {
+        "key": "a",
         "text": "3"
       },
       {
-        "key": "c",
-        "text": "6"
-      },
-      {
-        "key": "d",
-        "text": "9"
-      }
-    ],
-    "correct_answer": [
-      "a"
-    ],
-    "explanation": "With n yes/no conditions there are 2 to the power n rules, so 2³ = 8.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
-  },
-  {
-    "format": "single_choice",
-    "stem": "In a decision tree, each leaf represents",
-    "options": [
-      {
-        "key": "a",
-        "text": "An action or outcome"
-      },
-      {
         "key": "b",
-        "text": "A condition being tested"
+        "text": "4"
       },
       {
         "key": "c",
-        "text": "A variable"
+        "text": "2"
       },
       {
         "key": "d",
-        "text": "A comment"
+        "text": "1"
       }
     ],
     "correct_answer": [
       "a"
     ],
-    "explanation": "Internal nodes test conditions; leaves are actions.",
-    "source": "General knowledge (CCMAS COS 102 outline)"
+    "explanation": "62 >= 60 but not >= 70.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   },
   {
     "format": "true_false",
-    "stem": "In the if-then-else construct, the statements below ELSE run when the condition is false.",
+    "stem": "Böhm and Jacopini showed that sequence, selection and iteration are enough to express any algorithm.",
     "options": [
       {
         "key": "true",
@@ -198,7 +123,82 @@
     "correct_answer": [
       "true"
     ],
-    "explanation": "If-then-else chooses between two actions based on a Boolean expression.",
-    "source": "Computer Science Illuminated, 7th edition (2020), Chapter 6.5"
+    "explanation": "They published this in 1966.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A flowchart depends on the programming language that will be used.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A flowchart is language-independent.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the three parts of a for statement in the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Initialisation"
+      },
+      {
+        "key": "b",
+        "text": "Loop-continuation condition"
+      },
+      {
+        "key": "c",
+        "text": "Increment (update)"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These control the counter.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sequence"
+      },
+      {
+        "key": "b",
+        "text": "Selection"
+      },
+      {
+        "key": "c",
+        "text": "Iteration"
+      },
+      {
+        "key": "d",
+        "text": "Compilation"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Compilation is translation, not a control structure.",
+    "source": "COS 102 Lecture 7 (algorithms and heuristics)"
   }
 ]

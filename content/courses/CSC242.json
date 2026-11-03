@@ -1,0 +1,108 @@
+{
+  "code": "CSC 242",
+  "title": "Foundations of Computer Science",
+  "semester": 1,
+  "description": "Discrete structures for computer science: propositional logic, quantifiers and inference; sets, functions and sequences; algorithms and the growth of functions; number theory and classical ciphers; mathematical induction and recursion; counting and recurrence relations; and relations and graphs. Built from the CSC 242 lecture slides (Discrete Structures), the course's logic, algorithms, recursion and cryptography lectures, and Epp's Discrete Mathematics with Applications, which is filed with the course. Also offered as CSC 241.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "propositional-logic-and-quantifiers",
+      "title": "Propositional Logic, Quantifiers and Inference",
+      "summary": "A proposition is a statement that is either true or false, combined with logical operators into compound propositions whose truth is shown by truth tables. Predicates with the universal and existential quantifiers express statements about all or some objects.",
+      "subtopics": [
+        "Propositions and truth values",
+        "Logical operators: negation, conjunction, disjunction, XOR, implication, biconditional",
+        "Truth tables, tautologies and contradictions",
+        "Logical equivalence and De Morgan's laws",
+        "Propositional functions and predicates",
+        "Universal and existential quantifiers and counterexamples"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sets-functions-and-sequences",
+      "title": "Sets, Functions and Sequences",
+      "summary": "A set is an unordered collection of distinct elements, combined by union, intersection, difference and complement. A function assigns each element of its domain exactly one element of the codomain; it may be one-to-one, onto or a bijection, and a sequence is a function on the natural numbers.",
+      "subtopics": [
+        "Sets, membership and equality",
+        "Subsets, power sets, cardinality and Cartesian products",
+        "Union, intersection, difference and complement",
+        "Functions: domain, codomain and range",
+        "One-to-one, onto and bijections; inverse and composition",
+        "Floor and ceiling functions; sequences and summations"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "algorithms-and-growth-of-functions",
+      "title": "Algorithms and the Growth of Functions",
+      "summary": "An algorithm is a finite set of precise instructions for solving a problem, with input, output, definiteness, correctness, finiteness, effectiveness and generality. Searching algorithms such as linear and binary search are compared by how their time complexity grows, described with big-O notation.",
+      "subtopics": [
+        "Definition of an algorithm",
+        "The properties of an algorithm",
+        "Pseudocode: maximum element and linear search",
+        "Binary search on ordered sequences",
+        "Time and space complexity",
+        "Big-O notation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "number-theory-and-cryptography",
+      "title": "Number Theory and Cryptography",
+      "summary": "Number theory studies divisibility, primes, greatest common divisors and congruences, with the Euclidean algorithm for gcd. It underpins cryptography, from Caesar's shift cipher to affine and transposition ciphers.",
+      "subtopics": [
+        "Divisibility and primes",
+        "The fundamental theorem of arithmetic",
+        "Greatest common divisor, relatively prime and LCM",
+        "The Euclidean algorithm",
+        "Congruence modulo m",
+        "Caesar, shift and affine ciphers; cryptanalysis"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "induction-and-recursion",
+      "title": "Mathematical Induction and Recursion",
+      "summary": "Mathematical induction proves a statement P(n) for all positive integers by a basis step and an inductive step. Recursion defines sequences, functions, sets and algorithms in terms of themselves, as in the factorial, Fibonacci and recursive Euclidean algorithm.",
+      "subtopics": [
+        "The principle of mathematical induction",
+        "Basis step and inductive step",
+        "The second principle (strong induction)",
+        "Recursively defined sequences and functions",
+        "Recursively defined sets",
+        "Recursive algorithms: Euclid and Fibonacci"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "counting-and-recurrence-relations",
+      "title": "Counting and Recurrence Relations",
+      "summary": "Counting uses the sum and product rules, inclusion-exclusion, the pigeonhole principle, permutations and combinations. A recurrence relation defines a sequence by earlier terms; linear homogeneous recurrences can be solved systematically.",
+      "subtopics": [
+        "The sum and product rules",
+        "The principle of inclusion-exclusion",
+        "The pigeonhole principle and its generalisation",
+        "Permutations P(n, r)",
+        "Combinations C(n, r)",
+        "Recurrence relations and linear homogeneous recurrences"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "relations-and-graphs",
+      "title": "Relations and Graphs",
+      "summary": "A binary relation from A to B is a subset of A × B; a relation on a set may be reflexive, symmetric and transitive, and an equivalence relation partitions the set into equivalence classes. A graph has vertices and edges; simple, complete and directed graphs are described by degrees and adjacency.",
+      "subtopics": [
+        "Binary relations and inverse relations",
+        "Reflexive, symmetric and transitive relations",
+        "Equivalence relations, classes and partitions",
+        "Graphs: vertices, edges, loops and parallel edges",
+        "Simple, complete and directed graphs",
+        "Degree and the handshake theorem"
+      ],
+      "lectures": []
+    }
+  ]
+}

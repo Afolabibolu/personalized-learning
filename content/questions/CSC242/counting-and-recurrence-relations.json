@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If |A| = 40, |B| = 30 and |A ∩ B| = 15, then |A ∪ B| is",
+    "options": [
+      {
+        "key": "a",
+        "text": "55"
+      },
+      {
+        "key": "b",
+        "text": "70"
+      },
+      {
+        "key": "c",
+        "text": "85"
+      },
+      {
+        "key": "d",
+        "text": "25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "40 + 30 − 15 = 55 by inclusion-exclusion.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "By the pigeonhole principle, 13 objects in 12 boxes guarantee that",
+    "options": [
+      {
+        "key": "a",
+        "text": "some box holds at least two objects"
+      },
+      {
+        "key": "b",
+        "text": "every box holds one object"
+      },
+      {
+        "key": "c",
+        "text": "one box is empty"
+      },
+      {
+        "key": "d",
+        "text": "some box holds 13 objects"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "k + 1 objects in k boxes force a repeat.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "P(5, 2) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "20"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "25"
+      },
+      {
+        "key": "d",
+        "text": "120"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5 · 4 = 20 ordered pairs.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "C(5, 2) equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "10"
+      },
+      {
+        "key": "b",
+        "text": "20"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5! / (2! 3!) = 10 unordered pairs.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An r-combination is an ordered arrangement of r elements.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An r-combination is unordered (a subset); an r-permutation is ordered.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which recurrence relations are linear homogeneous with constant coefficients?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pₙ = (1.05)Pₙ₋₁"
+      },
+      {
+        "key": "b",
+        "text": "fₙ = fₙ₋₁ + fₙ₋₂"
+      },
+      {
+        "key": "c",
+        "text": "aₙ = aₙ₋₅"
+      },
+      {
+        "key": "d",
+        "text": "aₙ = aₙ₋₁ + n²"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Adding n² makes the last one non-homogeneous.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among counting principles?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Sum rule"
+      },
+      {
+        "key": "b",
+        "text": "Product rule"
+      },
+      {
+        "key": "c",
+        "text": "Pigeonhole principle"
+      },
+      {
+        "key": "d",
+        "text": "De Morgan's law"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "De Morgan's law is a logical equivalence.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The initial conditions select one solution of a recurrence relation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A relation alone can have many solution sequences.",
+    "source": "CSC 242.pdf (Discrete Structures lecture slides)"
+  }
+]

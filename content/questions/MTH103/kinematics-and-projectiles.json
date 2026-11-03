@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If x = 2t³ − 6t, the acceleration at time t is",
+    "options": [
+      {
+        "key": "a",
+        "text": "12t"
+      },
+      {
+        "key": "b",
+        "text": "6t² − 6"
+      },
+      {
+        "key": "c",
+        "text": "6t"
+      },
+      {
+        "key": "d",
+        "text": "2t³"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a = d²x/dt².",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A ball is projected at 20 m/s at 60° (g = 10). Its greatest height is",
+    "options": [
+      {
+        "key": "a",
+        "text": "15 m"
+      },
+      {
+        "key": "b",
+        "text": "20 m"
+      },
+      {
+        "key": "c",
+        "text": "34.6 m"
+      },
+      {
+        "key": "d",
+        "text": "10 m"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(20 sin 60°)²/(2 × 10) = 300/20.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For v = 2t − t² on 0 ≤ t ≤ 4, the distance travelled is",
+    "options": [
+      {
+        "key": "a",
+        "text": "8 m"
+      },
+      {
+        "key": "b",
+        "text": "−16/3 m"
+      },
+      {
+        "key": "c",
+        "text": "16/3 m"
+      },
+      {
+        "key": "d",
+        "text": "4/3 m"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Integrate |v|, splitting at t = 2.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Given a = 8 − 2t² with v = 0 and s = 0 at t = 0, the distance in the first 2 s is",
+    "options": [
+      {
+        "key": "a",
+        "text": "13⅓ m"
+      },
+      {
+        "key": "b",
+        "text": "10⅔ m"
+      },
+      {
+        "key": "c",
+        "text": "11⅓ m"
+      },
+      {
+        "key": "d",
+        "text": "17⅓ m"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "x = 4t² − t⁴/6 at t = 2.",
+    "source": "MAT 141 / MTH 103 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "A projectile has no horizontal acceleration when air resistance is ignored.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only gravity acts, vertically.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Displacement over an interval always equals the distance travelled.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They differ when the velocity changes sign.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are modelling assumptions for parabolic projectile motion in the slides?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The projectile is a particle"
+      },
+      {
+        "key": "b",
+        "text": "It is not powered"
+      },
+      {
+        "key": "c",
+        "text": "Air has no effect on its motion"
+      },
+      {
+        "key": "d",
+        "text": "Its horizontal speed decreases steadily"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The horizontal speed is constant.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which relation is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "v = dx/dt"
+      },
+      {
+        "key": "b",
+        "text": "a = dv/dt"
+      },
+      {
+        "key": "c",
+        "text": "x = ∫v dt"
+      },
+      {
+        "key": "d",
+        "text": "F = ma"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "F = ma is Newton's second law (dynamics); the others are kinematics.",
+    "source": "MAT 141 lecture note (University of Ibadan, 2016): vectors and motion, in Combined slides.pdf"
+  }
+]

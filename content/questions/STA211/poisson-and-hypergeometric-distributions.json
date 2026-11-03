@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For a Poisson variable with parameter λ, E(X) and Var(X) are",
+    "options": [
+      {
+        "key": "a",
+        "text": "both λ"
+      },
+      {
+        "key": "b",
+        "text": "λ and λ²"
+      },
+      {
+        "key": "c",
+        "text": "λ and √λ"
+      },
+      {
+        "key": "d",
+        "text": "1/λ and 1/λ²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is a key Poisson property.",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If accidents occur at an average rate of 2 a week, P(no accident) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.135"
+      },
+      {
+        "key": "b",
+        "text": "0.271"
+      },
+      {
+        "key": "c",
+        "text": "0.5"
+      },
+      {
+        "key": "d",
+        "text": "0.865"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "e^(−2).",
+    "source": "General knowledge of STA 211"
+  },
+  {
+    "format": "single_choice",
+    "stem": "From 12 sets with 2 defective, 3 are chosen at random. P(none defective) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "6/11"
+      },
+      {
+        "key": "b",
+        "text": "1/4"
+      },
+      {
+        "key": "c",
+        "text": "5/6"
+      },
+      {
+        "key": "d",
+        "text": "1/11"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C(10, 3)/C(12, 3).",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If 5 of 12 senators are northerners and 3 are chosen, P(exactly one northerner) =",
+    "options": [
+      {
+        "key": "a",
+        "text": "21/44"
+      },
+      {
+        "key": "b",
+        "text": "5/12"
+      },
+      {
+        "key": "c",
+        "text": "7/22"
+      },
+      {
+        "key": "d",
+        "text": "1/3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "C(5,1)C(7,2)/C(12,3).",
+    "source": "STA 211 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The binomial with large n and small p is approximately Poisson with λ = np.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the Poisson approximation.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The hypergeometric distribution models sampling with replacement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It models sampling without replacement.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct about the hypergeometric distribution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(X = x) = C(M, x)C(N − M, n − x)/C(N, n)"
+      },
+      {
+        "key": "b",
+        "text": "Its mean is nM/N"
+      },
+      {
+        "key": "c",
+        "text": "Its trials are dependent"
+      },
+      {
+        "key": "d",
+        "text": "Its mean is λ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "λ is the Poisson mean.",
+    "source": "Amahia, STA 211 Probability II (UI Distance Learning Centre)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an example usually modelled by a Poisson distribution?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Calls arriving per minute"
+      },
+      {
+        "key": "b",
+        "text": "Defects per metre of cloth"
+      },
+      {
+        "key": "c",
+        "text": "Accidents per week"
+      },
+      {
+        "key": "d",
+        "text": "The height of a student"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Height is a continuous measurement.",
+    "source": "General knowledge of STA 211"
+  }
+]

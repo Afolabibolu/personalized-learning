@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which instruction calls a procedure?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CALL"
+      },
+      {
+        "key": "b",
+        "text": "JMP"
+      },
+      {
+        "key": "c",
+        "text": "INT"
+      },
+      {
+        "key": "d",
+        "text": "PUSH"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "RET returns to the caller.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 9"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The stack works on the principle of",
+    "options": [
+      {
+        "key": "a",
+        "text": "Last In, First Out (LIFO)"
+      },
+      {
+        "key": "b",
+        "text": "First In, First Out"
+      },
+      {
+        "key": "c",
+        "text": "random access"
+      },
+      {
+        "key": "d",
+        "text": "priority order"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The last value pushed is the first popped.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 10"
+  },
+  {
+    "format": "true_false",
+    "stem": "PROC and ENDP are compiler directives that are not assembled into machine code.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "The compiler just remembers the procedure's address.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 9"
+  },
+  {
+    "format": "true_false",
+    "stem": "A macro used 100 times is stored once and called 100 times.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A macro is expanded in the code each time; a procedure is stored once.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which directive avoids duplicate label errors inside a macro used more than once?",
+    "options": [
+      {
+        "key": "a",
+        "text": "LOCAL"
+      },
+      {
+        "key": "b",
+        "text": "ENDM"
+      },
+      {
+        "key": "c",
+        "text": "PROC"
+      },
+      {
+        "key": "d",
+        "text": "ORG"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It makes the labels local to each expansion.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 11"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are true of the stack?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CALL stores the return address on it"
+      },
+      {
+        "key": "b",
+        "text": "PUSH stores a 16-bit value on it"
+      },
+      {
+        "key": "c",
+        "text": "POP gets a 16-bit value from it"
+      },
+      {
+        "key": "d",
+        "text": "It is part of the CPU's registers"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The stack is an area of memory.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 10"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not used with procedures or the stack?",
+    "options": [
+      {
+        "key": "a",
+        "text": "CALL"
+      },
+      {
+        "key": "b",
+        "text": "RET"
+      },
+      {
+        "key": "c",
+        "text": "PUSH"
+      },
+      {
+        "key": "d",
+        "text": "ENDM"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ENDM ends a macro.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Sessions 9 to 11"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A program that converts assembly code into machine code is",
+    "options": [
+      {
+        "key": "a",
+        "text": "an assembler"
+      },
+      {
+        "key": "b",
+        "text": "a compiler"
+      },
+      {
+        "key": "c",
+        "text": "an interpreter"
+      },
+      {
+        "key": "d",
+        "text": "a linker only"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Compilers and interpreters translate high-level languages.",
+    "source": "csc234 assemblylanguage.pdf (CSC 234 course book, I. T. Ayorinde), Study Session 12"
+  }
+]

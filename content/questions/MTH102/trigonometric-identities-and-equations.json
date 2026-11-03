@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Expressing 24 sin x + 7 cos x as R sin(x + α) gives R =",
+    "options": [
+      {
+        "key": "a",
+        "text": "25"
+      },
+      {
+        "key": "b",
+        "text": "31"
+      },
+      {
+        "key": "c",
+        "text": "17"
+      },
+      {
+        "key": "d",
+        "text": "√31"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R = √(24² + 7²) = √625.",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "(1 − cos 2θ)/sin 2θ simplifies to",
+    "options": [
+      {
+        "key": "a",
+        "text": "tan θ"
+      },
+      {
+        "key": "b",
+        "text": "cot θ"
+      },
+      {
+        "key": "c",
+        "text": "sin θ"
+      },
+      {
+        "key": "d",
+        "text": "2 tan θ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2sin²θ/(2 sin θ cos θ).",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The exact value of sin 15° is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(√6 − √2)/4"
+      },
+      {
+        "key": "b",
+        "text": "(√6 + √2)/4"
+      },
+      {
+        "key": "c",
+        "text": "(√3 − 1)/2"
+      },
+      {
+        "key": "d",
+        "text": "½"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sin(45° − 30°).",
+    "source": "MAT 121 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which identity follows from dividing sin²θ + cos²θ = 1 by cos²θ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 + tan²θ = sec²θ"
+      },
+      {
+        "key": "b",
+        "text": "1 + cot²θ = cosec²θ"
+      },
+      {
+        "key": "c",
+        "text": "sin 2θ = 2 sin θ cos θ"
+      },
+      {
+        "key": "d",
+        "text": "cos 2θ = 1 − 2sin²θ"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "sin²/cos² = tan² and 1/cos² = sec².",
+    "source": "General knowledge of MTH 102"
+  },
+  {
+    "format": "true_false",
+    "stem": "sin x cos z = ½[sin(x + z) + sin(x − z)].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Add the expansions of sin(x + z) and sin(x − z).",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "cos(A + B) = cos A cos B + sin A sin B.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "cos(A + B) = cos A cos B − sin A sin B.",
+    "source": "MAT 121 Lecture Notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct forms of cos 2A?",
+    "options": [
+      {
+        "key": "a",
+        "text": "cos²A − sin²A"
+      },
+      {
+        "key": "b",
+        "text": "1 − 2sin²A"
+      },
+      {
+        "key": "c",
+        "text": "2cos²A − 1"
+      },
+      {
+        "key": "d",
+        "text": "2 sin A cos A"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "2 sin A cos A is sin 2A.",
+    "source": "General knowledge of MTH 102"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which identity is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin²θ + cos²θ = 1"
+      },
+      {
+        "key": "b",
+        "text": "1 + tan²θ = sec²θ"
+      },
+      {
+        "key": "c",
+        "text": "1 + cot²θ = cosec²θ"
+      },
+      {
+        "key": "d",
+        "text": "sin 2θ = 2 sin θ"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "sin 2θ = 2 sin θ cos θ; the others are true identities.",
+    "source": "General knowledge of MTH 102"
+  }
+]

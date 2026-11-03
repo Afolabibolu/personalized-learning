@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The maximum number of inputs of the same family that one output can drive reliably is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "fan-out"
+      },
+      {
+        "key": "b",
+        "text": "fan-in"
+      },
+      {
+        "key": "c",
+        "text": "noise margin"
+      },
+      {
+        "key": "d",
+        "text": "propagation delay"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Fan-in is the number of inputs a gate itself can take.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The time between a change at a gate's input and the change at its output is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "propagation delay"
+      },
+      {
+        "key": "b",
+        "text": "noise immunity"
+      },
+      {
+        "key": "c",
+        "text": "fan-out"
+      },
+      {
+        "key": "d",
+        "text": "power dissipation"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It limits the speed of the logic family.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  },
+  {
+    "format": "true_false",
+    "stem": "CMOS logic uses field effect transistors and draws current in microamperes.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "FETs are voltage operated, so little current is needed.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In standard TTL, an input voltage below which level is recognised as logic 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.8 V"
+      },
+      {
+        "key": "b",
+        "text": "2.0 V"
+      },
+      {
+        "key": "c",
+        "text": "3.5 V"
+      },
+      {
+        "key": "d",
+        "text": "5.0 V"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Above 2 V is logic 1; between 0.8 V and 2 V is indeterminate.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which gate gives an output of 1 only when its two inputs differ?",
+    "options": [
+      {
+        "key": "a",
+        "text": "XOR"
+      },
+      {
+        "key": "b",
+        "text": "XNOR"
+      },
+      {
+        "key": "c",
+        "text": "NAND"
+      },
+      {
+        "key": "d",
+        "text": "AND"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "XNOR gives 1 when the inputs are the same.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Five"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which gates are universal gates?",
+    "options": [
+      {
+        "key": "a",
+        "text": "NAND"
+      },
+      {
+        "key": "b",
+        "text": "NOR"
+      },
+      {
+        "key": "c",
+        "text": "XOR"
+      },
+      {
+        "key": "d",
+        "text": "AND"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "Any logic function can be built from NAND gates alone or NOR gates alone.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Five"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which logic family is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TTL"
+      },
+      {
+        "key": "b",
+        "text": "RTL"
+      },
+      {
+        "key": "c",
+        "text": "ECL"
+      },
+      {
+        "key": "d",
+        "text": "CMOS"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "CMOS is a unipolar (MOSFET) family; the others are bipolar families.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  },
+  {
+    "format": "true_false",
+    "stem": "An integrated circuit with between 100 and 1,000 transistors is classed as LSI.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "MSI has 10 to 100; VLSI has 1,000 to 10,000.",
+    "source": "CSC 213 DLC course book.pdf (Digital Logic Design, Nancy C. Woods), Lecture Four"
+  }
+]

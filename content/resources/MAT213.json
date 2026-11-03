@@ -1,0 +1,61 @@
+{
+  "code": "MAT 213",
+  "topics": {
+    "sets-and-functions": [
+      {
+        "title": "Video: Set Theory | All-in-One Video (Dr. Will Wood)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5ZhNmKb-dqk",
+        "source": "links.csv"
+      }
+    ],
+    "relations-and-orderings": [
+      {
+        "title": "Video: RELATIONS - DISCRETE MATHEMATICS (TrevTutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FI6j5QZNVx0",
+        "source": "links.csv"
+      }
+    ],
+    "introduction-to-number-theory": [
+      {
+        "title": "Video: Lecture 8: Divisibility (MIT OpenCourseWare)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XW9xERSeenI",
+        "source": "links.csv"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Video: Group Definition (expanded) - Abstract Algebra (Socratica)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g7L_r6zw4-c",
+        "source": "links.csv"
+      }
+    ],
+    "rings-and-fields": [
+      {
+        "title": "Video: Ring Definition (expanded) - Abstract Algebra (Socratica)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=j_f7O-4Rb9U",
+        "source": "links.csv"
+      }
+    ],
+    "matrices-and-determinants": [
+      {
+        "title": "Video: Determinant of 3x3 Matrices, 2x2 Matrix, Precalculus Video Tutorial (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3ROzG6n4yMc",
+        "source": "links.csv"
+      }
+    ],
+    "linear-systems-eigenvalues-and-vector-spaces": [
+      {
+        "title": "Video: Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra (3Blue1Brown)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

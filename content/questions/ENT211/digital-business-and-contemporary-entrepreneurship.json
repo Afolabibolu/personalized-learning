@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which e-commerce model does eBay or Facebook Marketplace illustrate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "C2C"
+      },
+      {
+        "key": "b",
+        "text": "B2B"
+      },
+      {
+        "key": "c",
+        "text": "B2C"
+      },
+      {
+        "key": "d",
+        "text": "C2B"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Consumers sell to consumers.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which digital marketing method pays only when a user clicks an advert?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pay-per-click (PPC)"
+      },
+      {
+        "key": "b",
+        "text": "SEO"
+      },
+      {
+        "key": "c",
+        "text": "Affiliate marketing"
+      },
+      {
+        "key": "d",
+        "text": "Email marketing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It targets by demographics and behaviour.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The main difference between e-commerce and digital business is that digital business",
+    "options": [
+      {
+        "key": "a",
+        "text": "integrates technology into all operations"
+      },
+      {
+        "key": "b",
+        "text": "only sells online"
+      },
+      {
+        "key": "c",
+        "text": "avoids data"
+      },
+      {
+        "key": "d",
+        "text": "uses no internet"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "E-commerce focuses on transactions.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In colour psychology, which colour signals trust and security for tech brands?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Blue"
+      },
+      {
+        "key": "b",
+        "text": "Yellow"
+      },
+      {
+        "key": "c",
+        "text": "Black"
+      },
+      {
+        "key": "d",
+        "text": "Red"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Yellow signals creativity.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Affiliate marketers earn a commission when a sale is made through their unique link.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Platforms include Amazon Associates.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Contemporary entrepreneurship is best done as a solo journey without networks.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Networks, mentors and partners are essential.",
+    "source": "ENT 211-8 Contemporary Entrepreneurship Issues"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the first three steps of a social media strategy in Module 12?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Set clear goals"
+      },
+      {
+        "key": "b",
+        "text": "Research the audience"
+      },
+      {
+        "key": "c",
+        "text": "Select platforms"
+      },
+      {
+        "key": "d",
+        "text": "Avoid all analytics"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Analytics show what works.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an e-commerce model in Module 12?",
+    "options": [
+      {
+        "key": "a",
+        "text": "B2C"
+      },
+      {
+        "key": "b",
+        "text": "B2B"
+      },
+      {
+        "key": "c",
+        "text": "C2C"
+      },
+      {
+        "key": "d",
+        "text": "P2Q"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is C2B.",
+    "source": "ENT211-12 Fundamentals of Digital Business (Dr N. Idusuyi)"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Rejecting a null hypothesis that is actually true is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Type I error"
+      },
+      {
+        "key": "b",
+        "text": "Type II error"
+      },
+      {
+        "key": "c",
+        "text": "Sampling error"
+      },
+      {
+        "key": "d",
+        "text": "Standard error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its probability is α.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The power of a test is",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 − β"
+      },
+      {
+        "key": "b",
+        "text": "α"
+      },
+      {
+        "key": "c",
+        "text": "β"
+      },
+      {
+        "key": "d",
+        "text": "1 − α"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The probability of rejecting a false H₀.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Testing H₀: µ = 20 against H₁: µ > 20 is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "Right-tailed test"
+      },
+      {
+        "key": "b",
+        "text": "Left-tailed test"
+      },
+      {
+        "key": "c",
+        "text": "Two-tailed test"
+      },
+      {
+        "key": "d",
+        "text": "Rank test"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The whole critical region is in the right tail.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A test gives a p-value of 0.03 at α = 0.05. The decision is to",
+    "options": [
+      {
+        "key": "a",
+        "text": "Reject H₀"
+      },
+      {
+        "key": "b",
+        "text": "Accept H₀"
+      },
+      {
+        "key": "c",
+        "text": "Increase α"
+      },
+      {
+        "key": "d",
+        "text": "Change H₁"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "p ≤ α.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a fixed level of significance, increasing the sample size reduces β.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This increases the power.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a fixed sample size, lowering α also lowers β.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Lowering α raises β.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps in a test of hypothesis?",
+    "options": [
+      {
+        "key": "a",
+        "text": "State H₀ and H₁"
+      },
+      {
+        "key": "b",
+        "text": "Choose α before drawing the sample"
+      },
+      {
+        "key": "c",
+        "text": "Compute the test statistic and compare with the critical value"
+      },
+      {
+        "key": "d",
+        "text": "Choose H₁ after seeing which way the data point"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Hypotheses and α are fixed before the data are seen.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term does not belong to hypothesis testing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Critical region"
+      },
+      {
+        "key": "b",
+        "text": "Level of significance"
+      },
+      {
+        "key": "c",
+        "text": "Test statistic"
+      },
+      {
+        "key": "d",
+        "text": "Sampling frame"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A sampling frame is a list of population units.",
+    "source": "STA 121 Lecture 5: Testing of Hypothesis (Olubusoye), the 2018 Lecture 5: Hypothesis Testing (Dr O.I. Shittu) and Principle of Hypothesis Testing (Dr A.U. Chukwu)"
+  }
+]

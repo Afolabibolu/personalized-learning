@@ -1,0 +1,108 @@
+{
+  "code": "PHY 104",
+  "title": "General Physics IV (Waves, Optics and Modern Physics)",
+  "semester": 2,
+  "description": "The waves, optics and modern physics course, taught as PHY 105: Introductory Waves, Optics and Modern Physics before the CCMAS codes: wave motion and the wave equation, waves on strings and standing waves, sound and the Doppler effect, reflection and mirrors, refraction and lenses, atomic structure and quantum effects, and nuclear physics and radioactivity. Built from the PHY 105 lecture notes of O. I. Popoola, I. B. Ogunniranye and Dr Otunla, with the CA tests labelled with the former code.",
+  "is_reviewed": false,
+  "level": 100,
+  "topics": [
+    {
+      "slug": "wave-motion-and-the-wave-equation",
+      "title": "Wave Motion and the Wave Equation",
+      "summary": "A wave carries energy without carrying matter. Progressive waves are described by y = A sin(kx − ωt), which satisfies the wave equation, and they are classified as transverse or longitudinal, mechanical or electromagnetic.",
+      "subtopics": [
+        "Transverse and longitudinal; mechanical and electromagnetic waves",
+        "Amplitude, wavelength, frequency, period and speed",
+        "The progressive wave equation y = A sin(kx − ωt)",
+        "Particle velocity and wave velocity",
+        "The wave equation ∂²y/∂x² = (1/v²)∂²y/∂t²",
+        "Wavefronts and Huygens' principle"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "waves-on-strings-and-standing-waves",
+      "title": "Waves on Strings, Standing Waves and Resonance",
+      "summary": "The speed of a transverse wave on a string depends on the tension and the mass per unit length. Waves reflected from fixed ends form standing waves with nodes and antinodes, giving the harmonics of strings and air columns.",
+      "subtopics": [
+        "Speed of a wave on a string: v = √(T/μ)",
+        "Tension varying along a hanging rope",
+        "Standing waves: nodes and antinodes",
+        "Harmonics of a stretched string",
+        "Closed pipes: odd harmonics only",
+        "Open pipes and end correction; resonance"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sound-and-the-doppler-effect",
+      "title": "Sound and the Doppler Effect",
+      "summary": "Sound is a longitudinal mechanical wave whose speed depends on the medium. When source or observer moves, the observed frequency changes (the Doppler effect), and a source at or beyond the speed of sound forms a shock wave.",
+      "subtopics": [
+        "Nature and speed of sound",
+        "Intensity and the decibel",
+        "The Doppler formula",
+        "Moving source and moving observer",
+        "Beats from moving sources",
+        "Sonic booms, bow waves and the breakdown of the formula"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "reflection-and-mirrors",
+      "title": "Reflection and Mirrors",
+      "summary": "Light reflects with equal angles of incidence and reflection. Plane mirrors give virtual, upright images, and curved mirrors focus light according to the mirror formula, with magnification giving image size.",
+      "subtopics": [
+        "Laws of reflection",
+        "Images in plane mirrors",
+        "Rotating a plane mirror",
+        "Concave and convex mirrors; focal length f = R/2",
+        "The mirror formula 1/u + 1/v = 1/f",
+        "Magnification and image types"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "refraction-and-lenses",
+      "title": "Refraction and Lenses",
+      "summary": "Light bends when it passes between media of different refractive index, as described by Snell's law. Total internal reflection, critical angles and thin lenses follow, and two-lens systems are worked image by image.",
+      "subtopics": [
+        "Refractive index and Snell's law",
+        "Refraction through parallel layers",
+        "Critical angle and total internal reflection",
+        "Real and apparent depth",
+        "Converging and diverging lenses; the lens formula",
+        "Two-lens systems and optical instruments"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "atomic-structure-and-quantum-effects",
+      "title": "Atomic Structure and Quantum Effects",
+      "summary": "Atoms consist of a small, dense nucleus of protons and neutrons surrounded by electrons. Bohr's model explains line spectra through quantised energy levels, and cathode rays, the photoelectric effect and X-rays show the particle nature of electrons and light.",
+      "subtopics": [
+        "Atomic structure: electrons, protons and neutrons",
+        "Atomic models from Dalton to Bohr",
+        "Energy levels, excitation and line spectra",
+        "Cathode rays and thermionic emission",
+        "The photoelectric effect",
+        "X-rays: production and uses"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "nuclear-physics-and-radioactivity",
+      "title": "Nuclear Physics and Radioactivity",
+      "summary": "Nuclei are described by atomic and mass numbers, have radii that grow as A^(1/3), and are held together by binding energy. Unstable nuclei decay by α, β and γ emission at rates fixed by their half-lives.",
+      "subtopics": [
+        "Nuclide notation, isotopes and nuclear radius",
+        "Mass defect and binding energy",
+        "α, β and γ decay; balancing nuclear equations",
+        "The decay law and half-life",
+        "Activity and the decay constant",
+        "Fission, fusion and uses of radioisotopes"
+      ],
+      "lectures": []
+    }
+  ]
+}

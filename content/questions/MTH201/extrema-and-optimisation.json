@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If f'(c) = 0 and f''(c) < 0, then c is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "local maximum"
+      },
+      {
+        "key": "b",
+        "text": "local minimum"
+      },
+      {
+        "key": "c",
+        "text": "point of inflection"
+      },
+      {
+        "key": "d",
+        "text": "discontinuity"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The curve is concave down.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For P = 120x − 2x² − 1500, how many bags maximise profit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "30"
+      },
+      {
+        "key": "b",
+        "text": "60"
+      },
+      {
+        "key": "c",
+        "text": "15"
+      },
+      {
+        "key": "d",
+        "text": "50"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P' = 120 − 4x = 0.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "With 200 m of fencing, which rectangle has the greatest area?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A 50 m by 50 m square"
+      },
+      {
+        "key": "b",
+        "text": "A 100 m by 0 m strip"
+      },
+      {
+        "key": "c",
+        "text": "A 60 m by 40 m rectangle"
+      },
+      {
+        "key": "d",
+        "text": "A 75 m by 25 m rectangle"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A = w(100 − w) is greatest at w = 50.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a can of fixed volume, minimum surface area occurs when",
+    "options": [
+      {
+        "key": "a",
+        "text": "h = 2r"
+      },
+      {
+        "key": "b",
+        "text": "h = r"
+      },
+      {
+        "key": "c",
+        "text": "h = r/2"
+      },
+      {
+        "key": "d",
+        "text": "h = 4r"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The height equals the diameter.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A continuous function on a closed interval attains an absolute maximum and minimum.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is the extreme value theorem.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "true_false",
+    "stem": "Absolute extrema on [a, b] can only occur at critical points, never at the endpoints.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Endpoints must also be checked.",
+    "source": "MTH201 slides 1 (real-valued functions of a real variable)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For f(x) = x³ − 6x² + 9x, which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Local maximum at x = 1"
+      },
+      {
+        "key": "b",
+        "text": "Local minimum at x = 3"
+      },
+      {
+        "key": "c",
+        "text": "f(1) = 4"
+      },
+      {
+        "key": "d",
+        "text": "f(3) = 4"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "f(3) = 0.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a step in the optimisation method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Write the objective function"
+      },
+      {
+        "key": "b",
+        "text": "Set its derivative to zero"
+      },
+      {
+        "key": "c",
+        "text": "Classify with the second derivative"
+      },
+      {
+        "key": "d",
+        "text": "Integrate the constraint twice"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Integration is not part of the method.",
+    "source": "MTH201 Study Guide (integration applications, theorems, optimisation)"
+  }
+]

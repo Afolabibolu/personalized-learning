@@ -1,0 +1,203 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the purpose of communication technologies, according to the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To empower users to send messages to each other"
+      },
+      {
+        "key": "b",
+        "text": "To replace all analog devices"
+      },
+      {
+        "key": "c",
+        "text": "To store files"
+      },
+      {
+        "key": "d",
+        "text": "To build computers"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This opens Lecture 1.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the two main reasons digital communication is a good idea?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It enables the composition of modules into large systems"
+      },
+      {
+        "key": "b",
+        "text": "It allows sophisticated algorithms to improve quality and performance"
+      },
+      {
+        "key": "c",
+        "text": "Physical links are digital at the lowest level"
+      },
+      {
+        "key": "d",
+        "text": "It needs no clock"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b"
+    ],
+    "explanation": "Physical links are in fact analog at the lowest level.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Errors accumulate in analog systems.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Each stage adds noise that cannot be removed.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How does a receiver recover the clock from the samples alone?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It infers a clock edge at every transition in the received samples"
+      },
+      {
+        "key": "b",
+        "text": "It asks the sender for the time"
+      },
+      {
+        "key": "c",
+        "text": "It counts the number of packets"
+      },
+      {
+        "key": "d",
+        "text": "It uses the largest sample"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It then extrapolates the other edges.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which module maps bits to signals at the sender?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The mapper"
+      },
+      {
+        "key": "b",
+        "text": "The demapper"
+      },
+      {
+        "key": "c",
+        "text": "The channel decoder"
+      },
+      {
+        "key": "d",
+        "text": "The switch"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The demapper is its counterpart at the receiver.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the three abstractions used over each link?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Packets"
+      },
+      {
+        "key": "b",
+        "text": "Bits"
+      },
+      {
+        "key": "c",
+        "text": "Signals"
+      },
+      {
+        "key": "d",
+        "text": "Compilers"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The three are packets, bits and signals.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "Physical communication links are digital at the lowest level.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "They are analog, so data is converted between digital and analog.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "One problem in clock recovery is ensuring",
+    "options": [
+      {
+        "key": "a",
+        "text": "frequent transitions between 0s and 1s"
+      },
+      {
+        "key": "b",
+        "text": "that every bit is 1"
+      },
+      {
+        "key": "c",
+        "text": "that there are no packets"
+      },
+      {
+        "key": "d",
+        "text": "that the sender has no clock"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The other is coping with different clock frequencies.",
+    "source": "CSC 222 Digital Communication lecture slides (Dr Adeniji Oluwashola David), Lecture 1"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "code": "GES 102",
+  "title": "African Cultures and Civilisation",
+  "semester": 1,
+  "description": "A general studies course on Africa's past and cultures: early humans in Africa; the early centres of civilisation (Egypt, Kush and Meroe, Axum) and Roman North Africa; indigenous political systems; African traditional religion, Christianity and Islam; indigenous education; environment, communication and language; and colonialism, the evolution of Nigeria and gender. Built from the course textbook, African Cultures and Civilisation: A textbook for GES 102 (Muritala and Adesina, eds., Ibadan University Press, 2019).",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "africa-and-early-humans",
+      "title": "Africa and the Early Humans",
+      "summary": "The human past is reconstructed through prehistory, studied by archaeology, and history from written records, with prehistoric cultures named from the Paleolithic to the Iron Age. The fossil record points to Africa as the cradle of humankind, from Australopithecus through Homo habilis and Homo erectus to Homo sapiens.",
+      "subtopics": [
+        "Prehistory, history and archaeology",
+        "The cultural ages: Paleolithic to Iron Age",
+        "Africa as the cradle of humankind",
+        "Australopithecus and Homo habilis",
+        "Homo erectus and Homo sapiens",
+        "The hunting and gathering economy"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "early-centres-of-civilisation",
+      "title": "Early Centres of Civilisation and Roman Africa",
+      "summary": "Egypt, Kush (with Meroe) and Axum were the main early centres of African civilisation, each built on agriculture, trade and strong kingship. North Africa later passed from Phoenician Carthage to Rome after the Punic Wars.",
+      "subtopics": [
+        "Egypt and the Nile: Pharaohs, hieroglyphics and pyramids",
+        "Kush and the 25th dynasty",
+        "Meroe: iron working and trade",
+        "Axum: commerce, coinage and Christianity",
+        "The foundation of Rome",
+        "Carthage, the Punic Wars and Roman Africa"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "indigenous-political-systems",
+      "title": "Indigenous African Political Systems",
+      "summary": "African political institutions rested on myths of origin, kinship and the family, which is the unit of political culture. Traditional societies had centralised, non-centralised (acephalous) and mixed systems, and kings, though paramount, ruled with councils and had circumscribed powers.",
+      "subtopics": [
+        "Myths of origin and the supernatural basis of authority",
+        "The family as the unit of political culture",
+        "Nuclear and extended families",
+        "The four types of political system",
+        "Centralised kingdoms and non-centralised societies",
+        "Kings, councils and checks on power"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "religion-in-africa",
+      "title": "African Traditional Religion, Christianity and Islam",
+      "summary": "Religion is a product of culture; African Traditional Religion has no founder and no scriptures, rests on five fundamental beliefs and is known through oral tradition. Christianity and Islam, both from Asia, spread in Africa through mission, trade and conquest and interacted with African culture.",
+      "subtopics": [
+        "Religion as a product of culture",
+        "Features of African Traditional Religion",
+        "The five fundamental beliefs",
+        "Oral traditions and religious ethics",
+        "Christianity in Africa: centres and spread",
+        "Islam in Africa and cultural interaction"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "indigenous-education",
+      "title": "Indigenous African Education",
+      "summary": "Every society transmits its culture across generations; in traditional Africa an educated person was a person of character with useful skills. Fafunwa named functionalism as its guiding principle and listed seven objectives, achieved through observation, imitation and participation.",
+      "subtopics": [
+        "The educated person in traditional Africa",
+        "Functionalism as the guiding principle",
+        "Fafunwa's seven objectives",
+        "Character training and respect for elders",
+        "Methods: observation, imitation, participation and proverbs",
+        "Agents: home, mother, peers and initiation"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "environment-communication-and-language",
+      "title": "Environment, Communication and Language",
+      "summary": "Culture, the total way of life of a people, is shaped by the environment, the surroundings in which people live; climate and topography influence food, dress, housing and work. Communication is the exchange of meaningful symbols, a dynamic process with components from stimulus to feedback and noise.",
+      "subtopics": [
+        "Environment and culture defined",
+        "Effects of environment on culture",
+        "Technology and pollution",
+        "Definition and characteristics of communication",
+        "Components of communication and types of noise",
+        "Verbal and non-verbal communication; language"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "colonialism-nigeria-and-gender",
+      "title": "Colonialism, the Evolution of Nigeria and Gender",
+      "summary": "Nigeria grew out of separate British territories, with Lagos annexed in 1861, the Southern colony formed in 1906 and the protectorates amalgamated in 1914, while the jihad of 1804 reshaped the north. Gender is a social construct that assigns roles, distinct from biological sex roles, and is learned through socialisation.",
+      "subtopics": [
+        "Nigeria: size, peoples and the name",
+        "British territories before 1900",
+        "The 1804 jihad",
+        "The 1906 merger and the 1914 amalgamation",
+        "Gender, sex roles and gender roles",
+        "Stereotypes, socialisation and feminism"
+      ],
+      "lectures": []
+    }
+  ]
+}

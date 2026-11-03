@@ -1,0 +1,760 @@
+{
+  "code": "STA 221",
+  "papers": [
+    {
+      "year": "2009/2010",
+      "paper": "STA 221: Statistical Inference II, Undergraduate Examinations 2009/10 Session. Answer any four questions",
+      "source": "null.pdf (pages 23 and 24; Questions 1 and 2 also on pages 6 and 17)"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "paper": "STA 221: Statistical Inference II, Distance Learning Examinations 2010/2011 B.Sc. DLC (18th April, 2012), 12.00 to 2.00 pm. Attempt Question One and any other three",
+      "source": "STA221 PQ-1.pdf (pages 17 and 18; Questions Five and Six are on page 18)"
+    },
+    {
+      "year": "2010/2011 CA",
+      "paper": "STA 221 Continuous Assessment 2010/11. Answer all questions",
+      "source": "null.pdf (page 5, again on page 18)"
+    },
+    {
+      "year": "2010/2011",
+      "paper": "STA 221: Statistical Inference II, Undergraduate Examinations 2010/11 Session (Wed. 14 September, 2011). Answer Question 1 and any 3 questions (only Questions 1 to 4 are in the scan)",
+      "source": "null.pdf (pages 21 and 22)"
+    },
+    {
+      "year": "Undated 60-minute test",
+      "paper": "STA 221: Statistical Inference II Test, 60 minutes. Attempt all",
+      "source": "null.pdf (page 12, again on pages 9 and 15)"
+    },
+    {
+      "year": "2011/2012 test",
+      "paper": "STA 221: Statistical Inference II, 2011/2012 B.Sc. Test (16/10/2012), 60 minutes. Answer all",
+      "source": "STA Scan.pdf (page 5)"
+    },
+    {
+      "year": "2011/2012",
+      "paper": "STA 221: Statistical Inference II, 2011/2012 B.Sc. Examinations (Monday, 29th October, 2012), 8.00 to 11.00 am. Attempt Question One and any other three",
+      "source": "STA Scan.pdf (pages 1 and 2), with a second copy in null.pdf"
+    },
+    {
+      "year": "2012/2013",
+      "paper": "STA 221: Statistical Inference II, 2012/13 B.Sc. Examinations (24-03-2014), 3 hours. Attempt Question One and any other three",
+      "source": "STA Scan.pdf (pages 3 and 4), with a second copy in STA221 PQ-1.pdf"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "STA 221: Statistical Inference II (4 units), 2013/2014 B.Sc. Second Semester Examinations (January 12, 2015), 3 hours. Attempt Question One and any other three",
+      "source": "STA221 PQ-1.pdf (pages 13 and 14)"
+    },
+    {
+      "year": "2014/2015",
+      "paper": "STA 221: Statistical Inference II (4 units), 2014/2015 Second Semester Examinations (Monday, November 30 2015), 8.00 to 10.45. Attempt Question One and any other three",
+      "source": "STA221 PQ-1.pdf (pages 10 to 12)"
+    },
+    {
+      "year": "2015/2016",
+      "paper": "STA 221: Statistical Inference II (4 units), 2015/2016 B.Sc. Second Semester Examinations (Monday, November 28, 2016), 8.00 to 11.00 am. Attempt Question One and any other three",
+      "source": "STA221 PQ-1.pdf (pages 7 to 9)"
+    },
+    {
+      "year": "2016/2017",
+      "paper": "STA 221: Statistical Inference II, 2016/2017 Second Semester Examinations (Monday, January 29, 2018), 8.00 to 11.00. Attempt Question One and any other three",
+      "source": "STA221 PQ-1.pdf (pages 4 to 6), with a second copy in stat pq.pdf (pages 1 to 3)"
+    },
+    {
+      "year": "2018/2019",
+      "paper": "STA 221: Statistical Inference II, Second Semester Examination for 2018/19 Session, 2 hours. Attempt any four questions",
+      "source": "The three WhatsApp photos in the course folder"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "STA 221: Statistical Inference II (3 units), B.Sc. Second Semester Examinations 2020/2021 (Monday, December 6, 2021), 8.00 to 9.30 am. Section A: answer all; Section B: answer Question One and any other one",
+      "source": "STA 221 2021.pdf"
+    },
+    {
+      "year": "Undated test",
+      "paper": "STA 221 Test, 90 minutes. Attempt all",
+      "source": "STA221 PQ-1.pdf (page 3) and stat pq.pdf (pages 4 to 6, where a 75-minute version adds a 99% interval to Question 3)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2009/2010",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Define and explain the major objectives of statistical inference. (b) A population is made up of five elements: X1 = 5, X2 = 7, X3 = 10, X4 = 13 and X5 = 15 (i) What is the distribution of X? (ii) Draw all possible samples of size n = 2 from the population. (iii) Show that the mean of X (i.e. X̄) is distributed with μ = E(x̄) and variance σx̄² = ((N − n)/(N − 1))(σx²/n) (iv) Under what condition would the sample mean will be distributed with mean μ and standard error σ/√n"
+    },
+    {
+      "year": "2009/2010",
+      "number": "2",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the following terms: (i) An estimator (ii) Precision of an estimate (iii) P-value (iv) Accuracy (b) A random sample of 25 rats shows a mean weight of 22.3gms and a variance of 36. (i) Is there any evidence to show that the mean weight is greater than 20.0gms at 5% level of significance? (ii) Obtain the 99% confidence interval for the point estimate. (c) A costumer preference study involving three different package design is presented in the following table: A: 17, 21, 1, 22; B: 23, 15, 23, 6, 11; C: 34, 26, 8, 16, 20, 7. Do the data present sufficient evidence to indicate a difference in the mean sales for each package design at 5% level of significance? (Hint: use ANOVA)"
+    },
+    {
+      "year": "2009/2010",
+      "number": "3",
+      "topic": "point-estimation",
+      "text": "(a) What are the qualities of a good estimator? (b) Show that S² = (1/n) Σ (xi − x̄)² is a biased estimate of the population variance σ² (c) It is suspected that the proportion of Albinos in this country is greater that 10%. A random sample of n = 200 persons shows a total of 26 albinos. (i) Is there enough evidence to justify this claim at 1% level of significance? (ii) Obtain a 95% confidence interval for the proportion of albinos in the country"
+    },
+    {
+      "year": "2009/2010",
+      "number": "4",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(a) Derive an 100(1 − α)% confidence interval estimate for the population mean μ from the sample mean X̄ (b) Suppose you want to construct a 99% CI for μ, so that 2e = 0.05. You are told that the preliminary data shows a range from 13.3 to 13.7. What sample size should be taken? (Hint: Use σ ≅ R/4. Where R = Xmax − Xmin) (c) Bolts are produced in a company using two available methods. A random sample of n1 = 100 and n2 = 120 were drawn from bolts produced by the two methods. 10 and 8 bolts respectively were found to be defective in both groups. i) Construct a 95% C.I for the difference in the proportion defective for all bolts produced by the two methods ii) Is there evidence to suspect that the difference in proportion is less than 0.01 at 5% level of significance?"
+    },
+    {
+      "year": "2009/2010",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the following: (i) A test of Hypothesis (ii) Critical region (iii) Significant level (b) In a local medical centre, 100 patients who patients were observed for recovered from a certain disease during a period of 1 month. The following table contains a record of 10 patients observed on each day: Number recovered: 0, 1, 2, 3, 4, 5 or more; Observed frequency: 8, 25, 32, 24, 10, 1 (Total 100). Is the data a good fit for a binomial distribution at 5% level of significance?"
+    },
+    {
+      "year": "2010/2011 CA",
+      "number": "1",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(A) A game designed to test interpersonal manipulation skills requires three players. At the end of the game the total points earned by the three participants is 100, and the expected value of any players final score is 33.3. An experimenter predicts that players high in Machiavellianism will earn more points than expected on the basis of random chance. For 22 players with high MACHIV scores, the average game score was 47.32 points and variance 133. Assuming the game scores are normally distributed 1) What are the experimenter's hypotheses? 2) What is the value of the appropriate test statistic? 3) If α = 0.01, what is the experimenter's conclusion? B) If X1 and X2 are independent normally distributed random variable with unknown variances that are assumed to be equal, write appropriate statistics to test the hypothesis that μ1 = μ2."
+    },
+    {
+      "year": "2010/2011 CA",
+      "number": "2",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(A) Explain the following terms with an example (i) Point estimate (ii) Confidence interval (iii) Interval estimation (B) A car manufacturing company received a shipment of petrol filters. From the past experience, the proportion of unusable filter is estimated to be 8 percent. How large a random sample should be taken to estimate the true proportion of unusable filters to within 0.06 with 95% confidence?"
+    },
+    {
+      "year": "2010/2011 CA",
+      "number": "3",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "(A) Make a distinction between type I and type II errors (B) Let θ represent the probability of a male birth, to test H0 = 0.6 and H1 = 0.5. A sample of five children is draw. Let X be the number of males in the sample, the critical region is given by X<3. Find (i) Type I error, α (ii) Type II error, β (iii) the power of a test. (C) Suppose that the specification for a certain kind of ribbon calls for a mean breaking strength of 185 pounds and that five pieces randomly selected from different rolls have a mean breaking strength of 183.1pounds. Assuming we can look upon the data as a random sample from a normal population. Test the null hypothesis Ho: μ = 185"
+    },
+    {
+      "year": "2010/2011",
+      "number": "1",
+      "topic": "point-estimation",
+      "text": "(a) Let X be a set of n independent normal random variable with mean μ and variance σ². Let Y be defined as Y = a1x1 + a2x2 + ... + anxn (i) If Σ ai = 1, Show that Y is an unbiased estimate for μ (ii) Find the Variance of Y. If Σ ai² = 55 (iii) Find the Pr(Y < 3) if μ = 2.5 and σ² = 0.5 if Σ ai² = 1 (b) A population is made up of five elements. X1 = 5; X2 = 7; X3 = 10; X4 = 13 and X5 = 15 (i) What is the distribution of X? (ii) Draw all possible samples of size n = 2 from the population with replacement (iii) Show that the mean of X is distributed with μ = E(x̄) and variance σx̄² = ((N − n)/(N − 1))(σx²/n) (iv) Under what condition would the sample mean will be distributed with mean μ and standard error σ/√n"
+    },
+    {
+      "year": "2010/2011",
+      "number": "2",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the following: (i) A test of Hypothesis (ii) Critical region (iii) Significant level (b) In a local medical centre, 100 patients were observed to have recovered from a certain disease during a period of 1 month. The following table contains a record of 10 patients observed on each day: Number recovered: 0, 1, 2, 3, 4, 5 or more; Observed frequency: 8, 25, (the entry for 2 is illegible in the scan; the total of 100 makes it 32), 24, 10, 1 (Total 100). Is the data a good fit for a binomial distribution at 5% level of significance?"
+    },
+    {
+      "year": "2010/2011",
+      "number": "3",
+      "topic": "point-estimation",
+      "text": "(a) Define the following terms: (i) An estimator (ii) Precision of an estimate (iii) P-value (iv) Accuracy (b) Let y1 and y2 be a linear combination of x1, x2 and x3 defined as y1 = x1 + 2x2 + 3x3, y2 = 2x1 − x2 − x3. If xi, i = 1, 2, 3 are normally and independently distributed as NID(μ, σ²). i) Obtain the means of yi, i = 1, 2, [μy1 & μy2]. ii) Obtain the variances of yi, i = 1, 2, [σy1 & σy2]. (iii) Find the Prob [y1 > 50] if μ = 1.5 and σ² = 2.0"
+    },
+    {
+      "year": "2010/2011",
+      "number": "4",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(b) Define Type I and Type II errors as used in hypothesis testing. (c) A completely randomized complete block experiment was carried out to study the effect of tensile strength on synthetic fibre of cloth. The result of the study of the tensile strength of synthetic fibre are studies at 5 different levels of cotton percentages are given below: Treatment (percentage age of cotton), observations 1 to 5 and total: 15: 7, 7, 15, 11, 9 (49); 20: 12, 17, 12, 18, 18 (77); 25: 14, 18, 18, 19, 19 (88, corrected by hand in the scan); 30: 19, 25, 22, 19, 23 (108); 35: 7, 10, 11, 15, 11 (54). a) Write the analysis of variance model for the experiment specifying all the assumptions validating the analysis for: (i) Completely Randomized Design (ii) Randomized Complete Block Design b) Calculate the analysis of variance and test for the treatment effect at 5% level of significance using model a(ii) above. c) Compute (i) the overall mean, and (ii) estimate the mean of each of the treatments."
+    },
+    {
+      "year": "Undated 60-minute test",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) (i) Mention and Explain the properties of a good estimator. (ii) Distinguish between Random Error and Systematic error (b) A total of five patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay x1 = 5, x2 = 7, x3 = 10, x4 = 13 and x5 = 15. If sampling is without replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distribution of means. (v) Find the standard deviation of the sampling distribution of means."
+    },
+    {
+      "year": "Undated 60-minute test",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population. (b) A researcher is willing to assume that levels of vitamin A in the livers of two human populations are each normally distributed. The variances for the two populations are assumed to be 19600 and 8100 respectively. What is the probability that a random sample of size 15 from the first population and 10 from the second population will yield a value of X̄1 − X̄2 that is (i) at least 50 (ii) at most 50 (iii) between 40 and 50 if there is no difference in the population means? (c) If in a population of women, 15% are on some special diet, what is the probability that a random sample of size 100 will yield a proportion who are on a diet (i) At least 0.20? (ii) Between 0.10 and 0.20? (iii) At most 0.12?"
+    },
+    {
+      "year": "Undated 60-minute test",
+      "number": "3",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "(a) In a length of hospitalization study conducted by several cooperating hospitals a random sample of 64 peptic ulcer patients was drawn from a list of all peptic ulcer patients ever admitted to the participating hospitals and the length of hospitalization per admission was determined for each. The mean length of hospitalization was found to be 8.25 days. If the population standard deviation is known to be 3 days, find (i) 90% and (ii) 95% confidence intervals for μ. (b) A medical record librarian drew a random sample of 100 patients' charts and found that in 8% of them, the face sheet had, at least, one item of information contradictory to other information in the record. Construct the (i) 95% and (ii) 99% confidence intervals for the true proportion of charts containing such discrepancies."
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "1",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "(a) Define the following terms (i) Statistical Hypothesis (ii) Null Hypothesis (iii) Alternative Hypothesis (iv) Test Statistic (v) Type I Error (vi) Type II Error (b) Two groups of children were given visual acuity tests. Group 1 was composed of 11 children who receive their health care from private physicians. The mean score for this group was 26 with a standard deviation of 5. The second group, consisting of 14 children who receive their health care from the health department had an average score of 21 with standard deviation of 6. Assuming normally distributed populations with equal variances, do these data justify the conclusion, at the 0.05 level of significant, that the means of the implied populations are different? (c) In a simple random sample of 600 students taken from a university, 400 were found to be smokers. In another simple random sample of 900 students from another university, 450 were found to be smokers. Do the data indicate that there is a significant difference in the habit of smoking in the two universities?"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Give six reasons why SAMPLES may be preferred to a COMPLETE ENUMERATION (b) A total of five Students admitted into Statistics department experienced the following lengths of stay in the course of registering their courses x1 = 2, x2 = 4, x3 = 5, x4 = 6 and x5 = 8. If sampling is with replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay. (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distribution of means. (c) Find the standard deviation of the sampling distribution of means if sampling is without replacement solve (iii) & (iv) in (b) above."
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "3",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) State and briefly describe properties of a good estimator. (b) Two pharmaceutical companies were inspected by NAFDAC. 11 products were sampled from Company I with a performance mean score of 26 and standard deviation of 5. The second company, consisting of 14 products had a performance average score of 21 with standard deviation of 6. Assuming normally distributed products with equal variances, do these data justify the conclusion, at the 0.05 level of significant, that the means of the implied products are different? (c) In a simple random sample of 600 students taken from a faculty, 400 were found to be smokers. In another simple random sample of 900 students from another faculty, 450 were found to be smokers. Do the data indicate that there is a significant difference in the habit of smoking in the two universities at 95% and 99% CI?"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "4",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Enumerate the general Procedures for Hypothesis Testing (b) Two hundred randomly selected Statistics Students were asked whether Students' Union Struggles are primarily strategic, objective, or confrontational (only one answer could be chosen). The respondents were categorized by gender. Their responses are given in the following table: Female: Strategic 52, Objective 28, Confrontational 30; Male: Strategic 50, Objective 12, Confrontational 50 (as printed; the cells add to 222). Is there any convincing evidence that there is a relationship between gender and opinion in the population of interest? α = 5%, 1%. (c) A random sample of 10 Statistics Students' result were extracted from a 200level result sheets for sponsorship: 4.2, 4.6, 3.9, 4.1, 5.2, 3.8, 3.9, 4.3, 4.4, 5.6. Can we accept the hypothesis that the average CGPA of 200level Student is 4.0? α = 5% & 1%"
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Distinguish between Random Error and Systematic Error (b) Sixteen overweight subjects participated in a study to compare four weight-reducing regimens. Subjects were grouped according to initial weight, and each of four subjects for each initial weight group was randomly assigned to one of the four reducing regimens. At the end of the experimental period the following weight losses, in pounds, were recorded. Initial weights (pounds), Regimen A, B, C, D: W1 (150-174): 12, 26, 24, 23; W2 (175-199): 15, 29, 23, 25; W3 (200-225): 15, 27, 25, 24; W4 (over 225): 18, 38, 33, 31. Do these data provide sufficient evidence to indicate a difference in regimen effects after eliminating differences due to initial weight? Let α = 0.05. (c) In a survey conducted in two sections of a large metropolitan area, the following results were obtained with respect to abnormal blood pressure. Location 1: 200 persons screened, 20 abnormal on screening; Location 2: 250 screened, 38 abnormal. Do these data justify the conclusion that the proportion of persons with abnormal blood pressure is higher in Area 2 than in Area 1? Let α = 0.05."
+    },
+    {
+      "year": "2010/2011 DLC",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) List the conditions for the applications of χ² Test. (b) Itemize steps for constructing the ANOVA (c) The following are the yields of three varieties of wheat (in pounds per plot) obtained with three different kinds of fertilizer: Wheat 1: Fertilizer 1 47.5, Fertilizer 2 33.9, Fertilizer 3 39.7; Wheat 2: 41.9, 34.4, 37.8; Wheat 3: 43.6, 34.2, 38.0. Looking upon the varieties of wheat as treatments and the fertilizers as blocks, perform a two-way analysis of variance. Use a level of significance of 0.05 to test (a) the null hypothesis that there is no difference in the average yield of the three varieties of wheat, and (b) the null hypothesis that there is no difference in the effectiveness of the fertilizers."
+    },
+    {
+      "year": "2013/2014",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population (b) State the central limit theorem (c) A total of six patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay (days) x1 = 10, x2 = 8, x3 = 6, x4 = 0, x5 = 2 and x6 = 4. If sampling is without replacement, (i) Find the mean length of stay (ii) Find the standard deviation of lengths of stay (iii) List all possible samples of size two that can be drawn from this population of lengths of stay (iv) Find the mean of the sampling distribution of means (v) Find the standard deviation of the sampling distribution of means"
+    },
+    {
+      "year": "2013/2014",
+      "number": "2",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "(a) (i) Define statistical hypothesis (ii) State the steps involved in hypothesis testing (iii) Define type I error and type II error (b) Distinguish between sampling error and non-sampling error (c) The table below gives the number of persons that use public transport in the urban and rural areas; Urban: sample size 500, 200 use public transport; Rural: sample size 400, 200 use public transport. Does the data reveal a significant difference between urban and rural areas as far as proportion of public transport commuters is concerned?"
+    },
+    {
+      "year": "2013/2014",
+      "number": "3",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(a) In a market research, 20 women and 20 men were asked to rate a soft drink commercial on a scale of 1 to 5 (1 = very poor, 2 = poor, 3 = average, 4 = good, 5 = very good). The responses were: Women: 1, 4, 3, 2, 1, 2, 3, 5, 1, 1, 5, 3, 2, 4, 5, 1, 2, 2, 3, 4; Men: 2, 3, 3, 4, 5, 3, 2, 1, 2, 2, 1, 5, 4, 5, 3, 1, 3, 2, 1, 1. At 5% level of significance, test whether the men's and women's ratings differ significantly. (b) List and explain the five random sampling techniques/methods (c) Ten measurements of time required to kill a centipede with a given insecticide have a standard deviation of 4.5seconds. Construct a 95% confidence interval for the true standard deviation of the time required by the insecticide to take effect."
+    },
+    {
+      "year": "2013/2014",
+      "number": "4",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) (i) List the properties of the Chi-square distribution. (ii) The degrees of freedom of a Chi-square distribution is given as (k − r), define the two terms k and r, and explain how r is determined. (b) In 20 confederate army corps units from 1860 to 1864, the number of deaths per army corps per year resulting from measles was as follows; (table headed Inpatient Occupancy Ratio and Number of Hospitals, as printed) 0: 22, 1: 28, 2: 35, 3: 8, 4: 7, 5: 10, 6: 12, 7: 18. Test the goodness-of fit of these data to a Poisson distribution. Let α = 0.05."
+    },
+    {
+      "year": "2013/2014",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) (i) What is ANOVA? (ii) State the types of analysis of variance. (b) Random samples of 5 brands of tyres required the following braking distances while going at 30miles per hour. Brand A: 27, 24, 27, 26; Brand B: 26, 31, 30, 29; Brand C: 29, 23, 28, 24; Brand D: 25, 24, 28, 23; Brand E: 27, 27, 30, 32. Use 5% level of significance to test whether the differences among the five sample means may be attributed to chance."
+    },
+    {
+      "year": "2013/2014",
+      "number": "6",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "(a) Write short notes on the properties of a good estimator. (b) In a random sample of 250 television viewers living in a certain area, 164 stated that they were satisfied with the programmes supplied by the local station. (i) Calculate p̄, the proportion of viewers satisfied by the programme. (ii) Construct a 99% confidence interval for the true proportion. (iii) Suppose the true estimate is 164/250, what can we assert with a probability of 99% about the possible size of the error of this estimate?"
+    },
+    {
+      "year": "2014/2015",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) (i) Mention and Explain the properties of a good estimator. (ii) Distinguish between Random Error and Systematic error (iii) Define the term \"sample\" and mention situations when sampling may be inevitable. (10 Marks) (b) A total of five patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay x1 = 3, x2 = 5, x3 = 8, x4 = 10 and x5 = 14. If sampling is with replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay. (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distribution of means. (v) Find the standard deviation of the sampling distribution of means. (10 Marks) (c) For sampling without replacement obtain values for (i), (iv) & (v) in (b) above. (5 Marks)"
+    },
+    {
+      "year": "2014/2015",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population. (3 Marks) (b) A researcher is willing to assume that levels of vitamin A in the livers of two human populations are each normally distributed. The variances for the two populations are assumed to be 19600 and 8100 respectively. What is the probability that a random sample of size 15 from the first population and 10 from the second population will yield a value of X̄1 − X̄2 that is (i) at least 40 (ii) at most 40 (iii) between 50 and 60 if there is no difference in the population means? (8 Marks) (c) If in a population of women, 15% are on some special diet, what is the probability that a random sample of size 80 will yield a proportion who are on a diet: (i) At least 0.20? (ii) Between 0.10 and 0.20? (iii) At most 0.12? (7 Marks)"
+    },
+    {
+      "year": "2014/2015",
+      "number": "3",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(a) A sample of 10 twelve-year-old girls and a sample of 10 twelve-year-old boys yielded mean heights of 59.8 and 58.5 inches respectively. Assuming normal distributions of heights with population standard deviations of 2 and 3 inches respectively. Find: (i) The 90% confidence interval for difference between the means. (ii) The 95% confidence interval for difference between the means. (iii) The 99% confidence interval for difference between the means. (6 Marks) (b) In a study designed to assess the relationship between a certain drug and a certain anomaly in chick embryos, 50 fertilized eggs were injected with the drug on the fourth day of incubation. On the twentieth day of incubation the embryos were examined and in 12 the presence of the abnormality was observed. Find the: (i) 90%, (ii) 95% and (iii) 99% confidence intervals for p. (6 Marks) (c) A research team studying the relationship between blood type and severity of a certain condition in a population collected data on 1500 subjects as displayed in the contingency table below: Absent: A 540, B 211, AB 90, O 479 (total 1320); Mild: 43, 20, 10, 32 (105); Severe: 25, 10, 7, 33 (75); Total: 608, 241, 107, 544 (1500). The researchers wished to know if these data were compatible with the hypothesis that severity of condition and blood type are independent. Use α = 0.05 (6 Marks)"
+    },
+    {
+      "year": "2014/2015",
+      "number": "4",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Explain the properties of the Chi-square distribution (4 Marks) (b) Given the following data, Number: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10; Observed Frequency: 2, 4, 14, 16, 17, 14, 10, 9, 6, 5, 3 (Total 100). Test the goodness-of fit of these data to binomial distribution. Let α = 0.05. (7 Marks) (c) The following are the numbers of a particular organism found in 100 samples of water from a pond. No of Organisms per Sample: 0, 1, 2, 3, 4, 5, 6, 7; Frequency: 13, 20, 24, 30, 7, 5, 1, 0. Test the null hypothesis that these data were drawn from a Poisson distribution. Let α = 0.05. (7 Marks)"
+    },
+    {
+      "year": "2014/2015",
+      "number": "5",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) Differentiate between Types I and II error. (3 Marks) (b) Out of a sample of 150, selected from patients admitted over a two-year period to a large hospital, 129 had some type of hospitalization insurance. In a sample of 160 similarly selected patients from a second hospital, 144 had some type of hospitalization insurance. Test the null hypothesis that p1 = p2. Let α = 0.05. (7 Marks) (c) Two catalysts are being analyzed to determine how they affect the mean yield of a chemical process. Specifically, catalyst 1 is currently in use, but catalyst 2 is acceptable. Since catalyst 2 is cheaper, it should be adopted, provided it does not change the process yield. A test is run in the pilot plant and results in the data shown in the following table. Is there any difference between the mean yields? Use α = 0.05, and assume equal variances. Catalyst 1: 91.50, 94.18, 92.18, 95.39, 91.79, 89.07, 94.72, 89.21 (s1 = 2.39); Catalyst 2: 89.19, 90.95, 90.46, 93.21, 97.19, 97.04, 91.07, 92.75 (s2 = 2.98, printed as s1). (8 Marks)"
+    },
+    {
+      "year": "2014/2015",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Three food service systems were studied in five hospitals. The variable of interest was time (in minutes) utilized per meal served. The noon meal served by each hospital using each method gave the following results: Hospital 1: A 7.5, B 9.6, C 11.6; Hospital 2: 9.9, 9.6, 10.6; Hospital 3: 7.2, 10.4, 11.7; Hospital 4: 8.2, 8.6, 10.7; Hospital 5: 7.5, 8.3, 12.3. Do these data provide sufficient evidence to indicate a difference among the methods in mean time utilized per meal? Let α = 0.05. (8 Marks) (b) An experiment was performed to determine the effect of four different chemicals on the strength of a fabric. These chemicals are used as part of the permanent press finishing process. Five fabric samples were selected, and a randomized complete block design was run by testing each chemical type once in random order on each fabric sample. The data are shown in the table below. Test for differences in means using a Two-Way ANOVA with α = 0.01. Chemical 1: 1.3, 1.6, 0.5, 1.2, 1.1; Chemical 2: 2.2, 2.4, 0.4, 2.0, 1.8; Chemical 3: 1.8, 1.7, 0.6, 1.5, 1.3; Chemical 4: 3.9, 4.4, 2.0, 4.1, 3.4 (fabric samples 1 to 5). (10 Marks)"
+    },
+    {
+      "year": "2015/2016",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "a) (i) Mention and Explain Four properties of a good estimator (ii) Distinguish between Sampling Error and Non sampling error (iii) Give reasons why sample may be preferred to a complete enumeration b) A population of size N = 5 consists of the ages of five patients in the children's ward who are receiving group psychotherapy in a mental health clinic. The ages are x1 = 5, x2 = 7, x3 = 10, x4 = 13, x5 = 15. If sampling is with replacement, list all possible samples of size two. Obtain (i) population mean and standard deviation (ii) the mean of the sampling distribution of means (iii) Find the standard deviation of the sampling distribution of means c) For sampling without replacement, list all possible samples of size two and solve (ii) and (iii)."
+    },
+    {
+      "year": "2015/2016",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "a) Explain the following random sampling techniques (i) Simple random sampling (ii) Stratified sampling (iii) Cluster sampling (iv) Systematic sampling b) The amount of time that a customer spends waiting at Murtala Muhammed Airport check-in counter is a random variable with mean 8.2 minutes and standard deviation 1.5 minutes. Suppose that a random sample of 49 customers is observed. Find the probability that the average time waiting in line for these customers is (i) At most 10 minutes (ii) Between 6 and 10 minutes (iii) At Least 9 minutes c) If in a population of women, 15% are on some special diet, what is the probability that a random sample of size 100 will yield a proportion who are on a diet: (i) At least 0.20? (ii) Between 0.10 and 0.20? (iii) At most 0.12?"
+    },
+    {
+      "year": "2015/2016",
+      "number": "3",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "a) Two catalysts are being analyzed to determine how they affect the mean yield of a chemical process. Specifically, catalyst 1 is currently in use, but catalyst 2 is acceptable. Since catalyst 2 is cheaper, it should be adopted, providing it does not change the process yield. A test is run in the pilot plant and results in the data shown in Table below. Catalyst Yield Data, observations 1 to 8: Catalyst 1: 91.50, 94.18, 92.18, 95.39, 91.79, 89.07, 94.72, 89.21 (s1 = 2.39); Catalyst 2: 89.19, 90.95, 90.46, 93.21, 97.19, 97.04, 91.07, 92.75 (s2 = 2.98). Is there any difference between the mean yields? Use α = 0.05, and assume equal variances? b) Two different types of injection-molding machines are used to form plastic parts. A part is considered defective if it has excessive shrinkage or is discolored. Two random samples, each of size 300, are selected, and 15 defective parts are found in the sample from machine 1 while 8 defective parts are found in the sample from machine 2. Construct 95% and 99% confidence intervals on the difference in the two fractions defective. c) Two machines are used for filling plastic bottles with a net volume of 16.0 ounces. The fill volume can be assumed normal, with standard deviation σ1 = 0.020 and σ2 = 0.025 ounces. A member of the quality engineering staff suspects that both machines fill to the same mean net volume, whether or not this volume is 16.0 ounces. A random sample of 10 bottles is taken from the output of each machine. Machine 1: 16.03, 16.01, 16.04, 15.96, 16.05, 15.98, 16.05, 16.02, 16.02, 15.99; Machine 2: 16.02, 16.03, 15.97, 16.04, 15.96, 16.02, 16.01, 16.01, 15.99, 16.00. Construct 90%, 95% and 99% confidence intervals for the difference in means."
+    },
+    {
+      "year": "2015/2016",
+      "number": "4",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "a) Two groups of children were given visual acuity tests. Group 1 was composed of 11 children who receive their health care from private physicians. The mean score for this group was 26 with a standard deviation of 5. The second group, consisting of 14 children who receive their health care from the health department, had an average score of 21 with standard deviation of 6. Assuming normally distributed populations with equal variances, do these data justify the conclusion, at the 0.05 level of significant, that the means of the implied populations are different? b) In a survey conducted in two sections of a large metropolitan area, the following results were obtained with respect to abnormal blood pressure. Area 1: 200 persons screened, 20 abnormal on screening; Area 2: 250 screened, 38 abnormal. Do these data justify the conclusion that the proportion of persons with abnormal blood pressure is higher in Area 1 than in Area 2? Let α = 0.05. c) Grades in a statistics course and a computer course taken simultaneously were as follows for a group of students. Statistics grade A: computer grade A 25, B 6, C 17, Other 13; B: 17, 16, 15, 6; C: 18, 4, 18, 10; Other: 10, 8, 11, 20. Are the grades in statistics and computer independent? Use α = 0.01 in reaching your conclusion."
+    },
+    {
+      "year": "2015/2016",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) A manufacturer of paper used for making grocery bags is interested in improving the tensile strength of the product. Product engineering thinks that tensile strength is a function of the hardwood concentration in the pulp and that the range of hardwood concentrations of practical interest is between 5 and 20%. A team of engineers responsible for the study decides to investigate four levels of hardwood concentration: 5%, 10%, 15%, and 20%. They decide to make up six test specimens at each concentration level, using a pilot plant. All 24 specimens are tested on a laboratory tensile tester, in random order. The data from this experiment are shown in the table below (use α = 0.01): Tensile Strength of Paper (psi), observations 1 to 6: 5%: 7, 8, 15, 11, 9, 10; 10%: 12, 17, 13, 18, 19, 15; 15%: 14, 18, 19, 17, 16, 18; 20%: 19, 25, 22, 23, 18, 20. Test the null hypothesis that the means of the hardwood concentrations are not different. (b) A re motivation team in a psychiatric hospital conducted an experiment to compare five methods for re motivating patients. Patients were grouped according to level of initial motivation. Patients in each group were randomly assigned to the five methods. At the end of the experimental period the patients were evaluated by a team composed of a psychiatrist, a psychology, a nurse and a social worker, none of whom were aware of the method to which patients had been assigned. The team assigned each patient a composite score as a measure of his level of motivation. The results were as follows: Nil: A 58, B 68, C 60, D 68, E 64; Very low: 62, 70, 65, 80, 69; Low: 67, 78, 68, 81, 70; Average: 70, 81, 70, 89, 76. Perform a two-way analysis of variance, using 5 percent level of significance."
+    },
+    {
+      "year": "2015/2016",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Describe the properties of the Chi-square distribution (b) Given the following data, Number: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10; Observed Frequency: 2, 4, 14, 16, 17, 14, 10, 9, 6, 5, 3 (Total 100). Test the goodness-of fit of these data to Poisson distribution. Let α = 0.05. (c) The following are the numbers of a particular organism found in 100 samples of water from a pond. No. of Organisms per Sample: 0, 1, 2, 3, 4, 5, 6, 7; Frequency: 13, 20, 24, 30, 7, 5, 1, 0. Test the null hypothesis that these data were drawn from a Binomial distribution. Let α = 0.05."
+    },
+    {
+      "year": "2016/2017",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) (i) Mention and Explain the properties of a good estimator (ii) Distinguish between Random Error and Systematic error (iii) Define the term \"sample\" and mention situations when sampling may be inevitable (b) A total of five patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay x1 = 5, x2 = 8, x3 = 11, x4 = 12 and x5 = 14. If sampling is with replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay. (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distribution of means. (v) Find the standard deviation of the sampling distribution of means. (c) For sampling without replacement obtain values for (i), (iv) & (v) in (b) above."
+    },
+    {
+      "year": "2016/2017",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population. (b) A researcher is willing to assume that levels of vitamin A in the livers of two human populations are each normally distributed. The variances for the two populations are assumed to be 19600 and 8100 respectively. What is the probability that a random sample of size 15 from the first population and 10 from the second population will yield a value of X̄1 − X̄2 that is (i) at least 50 (ii) at most 50 (iii) between 40 and 50 if there is no difference in the population means? (c) If in a population of women, 15% are on some special diet, what is the probability that a random sample of size 100 will yield a proportion who are on a diet: (i) At least 0.20? (ii) Between 0.10 and 0.20? (iii) At most 0.12?"
+    },
+    {
+      "year": "2016/2017",
+      "number": "3",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "(a) Explain the term estimation and clearly state its objectives. (b) A sample of 10 twelve-year-old girls and a sample of 10 twelve-year-old boys yielded mean heights of 59.8 and 58.5 inches respectively. Assuming normal distributions of heights with population standard deviations of 2 and 3 inches respectively. Find: (i) 90% and (ii) 95% confidence intervals for difference between the means. (c) In a study designed to assess the relationship between a certain drug and a certain anomaly in chick embryos, 50 fertilized eggs were injected with the drug on the fourth day of incubation. On the twentieth day of incubation the embryos were examined and in 12 the presence of the abnormality was observed. Find the: (i) 90% and (ii) 95% confidence intervals for p. (d) A machine produces metal rods used in an automobile suspension system. A random sample of 15 rods is selected, and the diameter is measured. The resulting data (in millimetres) are as follows (assuming normality): 8.24, 8.25, 8.20, 8.23, 8.24, 8.21, 8.26, 8.26, 8.20, 8.25, 8.23, 8.23, 8.19, 8.28, 8.24. Construct (i) 90% and (ii) 95% confidence intervals on mean rod diameter."
+    },
+    {
+      "year": "2016/2017",
+      "number": "4",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) List the properties of the Chi-square distribution. (b) Given the following data Number: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10; Observed Frequency: 2, 4, 14, 16, 17, 14, 10, 9, 6, 5, 3. Test the goodness-of fit of these data to Poisson distribution. Let α = 0.05. (c) The following are the numbers of a particular organism found in 100 samples of water from a pond. No of Organisms per Sample: 0, 1, 2, 3, 4, 5, 6, 7; Frequency: 13, 20, 24, 30, 7, 5, 1, 0. Test the null hypothesis that these data were drawn from a binomial distribution. Let α = 0.05."
+    },
+    {
+      "year": "2016/2017",
+      "number": "5",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) Differentiate between Types I and II error. (b) (i) Out of a sample of 150, selected from patients admitted over a two-year period to a large hospital, 129 had some type of hospitalization insurance. In a sample of 160 similarly selected patients from a second hospital, 144 had some type of hospitalization insurance. Test the null hypothesis that p1 = p2. Let α = 0.05. (ii) Two groups of children were given visual acuity tests. Group 1 was composed of 11 children who receive their health care from private physicians. The mean score for this group was 26 with a standard deviation of 5. The second group, consisting of 14 children who receive their health care from the health department, had an average score of 21 with standard deviation of 6. Assuming normally distributed populations with equal variances, do these data justify the conclusion, at the 0.05 level of significant, that the means of the implied populations are different? (c) Grades in a statistics course and a computer course taken simultaneously were as follows for a group of students. Statistics grade A: computer grade A 25, B 6, C 17, Other 13; B: 17, 16, 15, 6; C: 18, 4, 18, 10; Other: 10, 8, 11, 20. Are the grades in statistics and computer independent? Use α = 0.01 in reaching your conclusion."
+    },
+    {
+      "year": "2016/2017",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(i) What is Analysis of Variance. (ii) What are the assumptions underlying the use of ANOVA technique? A manufacturer of paper used for making grocery bags is interested in improving the tensile strength of the product. Product engineering thinks that tensile strength is a function of the hardwood concentration in the pulp and that the range of hardwood concentrations of practical interest is between 5 and 20%. A team of engineers responsible for the study decides to investigate four levels of hardwood concentration: 5%, 10%, 15%, and 20%. They decide to make up six test specimens at each concentration level, using a pilot plant. All 24 specimens are tested on a laboratory tensile tester, in random order. The data from this experiment are shown in the table below (use α = 0.01): 5%: 7, 8, 15, 11, 9, 10; 10%: 12, 17, 13, 18, 19, 15; 15%: 14, 18, 19, 17, 16, 18; 20%: 19, 25, 22, 23, 18, 20. Test the null hypothesis that the means of the hardwood concentrations are not different. An experiment was performed to determine the effect of four different chemicals on the strength of a fabric. These chemicals are used as part of the permanent press finishing process. Five fabric samples were selected, and a randomized complete block design was run by testing each chemical type once in random order on each fabric sample. The data are shown in the table below. Chemical 1: 1.3, 1.6, 0.5, 1.2, 1.1; Chemical 2: 2.2, 2.4, 0.4, 2.0, 1.8; Chemical 3: 1.8, 1.7, 0.6, 1.5, 1.3; Chemical 4: 3.9, 4.4, 2.0, 4.1, 3.4 (fabric samples 1 to 5). Where the chemical types are treatments and the fabric samples are blocks, perform a two-way analysis of variance. Use a level of significance of 0.01 to test (a) the null hypothesis that there is no difference in the chemical type, and (b) the null hypothesis that there is no difference in the effect of fabric sample."
+    },
+    {
+      "year": "2018/2019",
+      "number": "1",
+      "topic": "point-estimation",
+      "text": "(a) Consider an exponential distribution with mean θ and the following estimators of θ: θ̂1 = X1, θ̂2 = (X1 + X2)/2, θ̂3 = X̄, θ̂4 = min(X1, X2, X3). (i) Find the mean and variance of each estimator (ii) Are any of the estimators efficient? (iii) Let X be an exponential random variable with mean θ + 2. Which estimator is an unbiased of θ. (b) Let X be a Binomial(n, π) random variable. (i) Find the mean squared error of the π parameter estimators T1 = X/n and T2 = (X + 1)/(n + 2) (ii) When n = 100 and π = 0.4, which estimator, T1 or T2 has the smallest MSE."
+    },
+    {
+      "year": "2018/2019",
+      "number": "2",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(a) Suppose a random sample is taken from a N(μx, σx) population where nx = 15, Σ xi = 63, Σ xi² = 338. A second random sample is taken from a N(μy, σy) population independent from the first sample such that ny = 11, Σ yi = 66.4, Σ yi² = 486. Construct a 95% confidence interval for μx − μy assuming the variances for the two populations are unknown and unequal. (b) Given the following data 25.3, 23.8, 27.5, 23.2, 24.5, 25.3, 24.6, 26.8, 23.9, 29.2 (i) State the assumption(s) needed to construct a confidence interval for the population variance. (ii) Assuming your assumptions in b(i) are satisfied, construct a 95% confidence interval σ."
+    },
+    {
+      "year": "2018/2019",
+      "number": "3",
+      "topic": "point-estimation",
+      "text": "(a) Suppose a sample of size n = 5 is taken from an Exp(λ = 1/θ) distribution, and estimators T1 and T2 of the mean are T1 = (X1 + X2 + X3 + X4 + X5)/5 and T2 = (2X1 + X2 + X3 − X4 + 3X5)/6. Find the relative efficiency of T1 to T2. (b) A random sample of size 12 is taken from a population that follows a N(μ, σ) distribution where the value for σ is unknown. Given Σ xi = 61.9, Σ xi² = 450. Determine a 90% confidence interval for the population mean."
+    },
+    {
+      "year": "2018/2019",
+      "number": "4",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "(a) A random sample of size n = 25 is taken from a population known to be N(μ, σ). If the Σ xi = 100, Σ xi² = 600. (i) Test the null hypothesis H0: μ = 2.5 versus alternative hypothesis H1: μ ≠ 2.5 at the α = 0.05 significance level. (ii) Find Power(μ1 = 4) if it is assumed σ = 2.5. (b) A questionnaire is divided by the Board of Governors to measure the level of satisfaction for graduates from two competing state schools. Past history indicates the variance in satisfaction levels for both schools is equal. The questionnaire is randomly administered to 11 students from state school X and 15 students from state school Y. School X: 69 75 76 80 81 82 86 89 91 92 97; School Y: 59 62 66 70 70 75 75 77 78 79 81 84 84 86 94. (i) Test to see if there are significant differences between the mean satisfaction levels for graduates of the competing state schools using a significance level of 5%. (ii) Find the power for μ1(X, Y) = μX − μY = 10 for the test in b(i) if it is assumed σX = σY = 9."
+    },
+    {
+      "year": "2018/2019",
+      "number": "5",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) A survey to determine unemployment demographics was administered during the first trimester of 2005 in the province of a Country. The numbers of unemployed people according to urban and rural areas and gender follow. Unemployment in Province, in 2005: Urban: Male 4734, Female 6161, Total 10895; Rural: Male 3259, Female 4033, Total 7292; Totals: 7993, 10194, 18187. (i) Test to see if there is evidence to suggest that π male|urban < π female|urban at α = 0.05 (ii) Use an exact test to see if the evidence suggests π female|urban > 0.55 (iii) Is there evidence to suggest the unemployment rate for females given that they live in a rural is greater than 50%? Use α = 0.05 with an exact test to reach a conclusion."
+    },
+    {
+      "year": "2018/2019",
+      "number": "6",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) Based on advertisement, the fraternity council suspects breathalyzer X to have a smaller variance than breathalyzers from company Y. Each company provides ten portable breathalyzers to the fraternity council. Test the appropriate hypothesis using a 5% significance level. Company X: 0.08 0.09 0.09 0.10 0.10 0.10 0.10 0.11 0.11 0.12; Company Y: 0.00 0.03 0.04 0.04 0.05 0.05 0.06 0.07 0.08 0.08 (b) Suppose a random sample of size n from a normal distribution with unknown mean μ and standard deviation σ = 5 is taken. Calculate the minimum sample size so that one can be 95% confident the interval [x̄ − 1, x̄ + 1] contains the true value of μ."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Explain the following terms: (i) Simple random sampling (ii) Stratified sampling (iii) Cluster sampling (iv) Systematic sampling. (b) A total of five patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay X1 = 5, X2 = 7, X3 = 10, X4 = 13 and X5 = 15. If sampling is with replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay. (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distributions of means. (v) Find the standard deviation of the sampling distribution of means. (c) If sampling is without replacement, solve (iv) and (v) in (b) above."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "2",
+      "topic": "intervals-for-variances-differences-and-sample-size",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population. (b) Sugar is packed in 5-pound bags. An inspector suspects the bags may not contain 5 pounds. A sample of 50 bags produces a mean of 4.6 pounds and standard deviation of 0.7 pound. Is there enough evidence to conclude that the bags do not contain 5 pounds as stated α = 0.05? Also, find the 95% confidence for the through mean. (c) A sample of 25 ten-year-old girls yielded a mean weight and standard deviation of 73 and 10 pounds, respectively. Assuming a normally distributed population, construct the, (i) 90% and (ii) 99% intervals for σ²."
+    },
+    {
+      "year": "2011/2012 test",
+      "number": "3",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Distinguish between the following pairs: (i) Sampling error and systematic error (ii) Regression and Correlation Analysis (iii) One way and two way ANOVA (iv) Replication and Randomization (v) Treatment and Blocking (b) Give mathematical steps for constructing two way ANOVA"
+    },
+    {
+      "year": "2011/2012",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Distinguish between Sampling Error and Non-Sampling Error. (b) A population of size N = 3 consists of the ages of three patients in the children's ward who are receiving group psychotherapy in a mental health clinic. The ages are x1 = 7, x2 = 5, and x3 = 3. If sampling is with replacement, (i) List all possible samples of size two (ii) Find the population mean (iii) Find the population standard deviation (iv) Find the mean of the sampling distribution of means (v) Find the standard deviation of the sampling distribution of means (c) For sampling without replacement find (iv) − (v) in (b) above."
+    },
+    {
+      "year": "2011/2012",
+      "number": "2",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) Differentiate between Population and Sample. Mention four categories population (b) In a large hospital for the treatment of the mentally retarded, a sample of 12 individuals with mongolism yielded a mean serum uric acid value of 4.5 mg/100ml. In a general hospital, a sample of 15 normal individuals of the same age and sex were found to have a mean of 3.4mg/100ml. Assume that the two populations of values are normally distributed with variances equal to 1. Do these data provide sufficient evidence to indicate a difference in mean serum uric acid levels between the two groups of individuals? (Use α = 0.05). (c) If in a population of women, 15% are on some special diet, what is the probability that a random sample of size 100 will yield a proportion who are on a diet: (i) At least 0.20? (ii) At most 0.12? (iii) Between 0.10 and 0.20?"
+    },
+    {
+      "year": "2011/2012",
+      "number": "3",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the term 'Regression Analysis' (b) An experiment was conducted to evaluate the ability of a certain objective measurement to measure heart rate in adults. The following data were obtained on 12 normal adults. Heart Rate per Minute (X): 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100; Coded Objective Measurement Reading (Y): 48, 41, 45, 41, 42, 36, 38, 36, 30, 32, 34 (the twelfth pair is cut off in both scans). (i) Obtain the values of the coefficients (intercept and slope) of the regression equation. (ii) Write the estimated regression equation using your results in (i)."
+    },
+    {
+      "year": "2011/2012",
+      "number": "4",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) State four properties of a good estimator. (b) In an experiment to estimate the average number of heartbeats per minutes for a certain population, under the conditions of the experiment, the average number of heartbeats per minute for 49 individuals was found to be 130. If it is reasonable to assume that these 49 patients constitute a random sample, and that the population is normally distributed with a variance of 100. Test the null hypothesis that the population mean is not different from 125. (Use α = 0.05). (c) Nine patients suffering from the same physical handicap but otherwise comparable were asked to perform a certain task as part of an experiment. The average time required to perform the task was seven minutes with a standard deviation of two minutes. Assuming normality, do these data provide sufficient evidence to indicate that σ² is less than 5? Let α = 0.05"
+    },
+    {
+      "year": "2011/2012",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the term 'Correlation'. List the properties of the sample correlation r. (b) Two methods of measuring cardiac output were compared in 10 experimental animals with the following results: Cardiac Output (l./min.) Method I (X): 0.8, 1.0, 1.3, 1.4, 1.5, 1.4, 2.0, 2.4, 2.7, 3.0; Method II (Y): 0.5, 1.2, 1.1, 1.3, 1.1, 1.8, 1.6, 2.0, 2.4, 2.8. (i) Compute the sample correlation coefficient and interpret your result. (ii) Test H0: ρ = 0 at α = 0.05."
+    },
+    {
+      "year": "2011/2012",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the following terms: (i) Experimental Design (ii) Replication (iii) Randomization (iv) Treatment (v) Blocking (b) An educationist wished to compare three methods for teaching students. He felt that the rate for learning would be different among different age-groups. Three students in each of five age-groups were selected to participate in the experiment, and one student in each group was randomly assigned to each of the teaching methods. Teaching method (three columns, headed F, J and A in the scan): <20: 7, 9, 10; 20-29: 8, 9, 10; 30-39: 9, 9, 12; 40-49: 10, 9, 12; 50+: 11, 12, 14. Perform a two-way analysis of variance, using 5 per cent level of significance."
+    },
+    {
+      "year": "2012/2013",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Distinguish between Random Error and Systematic Error. (b) A population of size N = 3 consists of the ages of three patients in the children's ward who are receiving group psychotherapy in a mental health clinic. The ages are x1 = 3, x2 = 5, and x3 = 7. If sampling is with replacement, (i) List all possible samples of size two (ii) Find the population mean (iii) Find the population standard deviation (iv) Find the mean of the sampling distribution of means (v) Find the standard deviation of the sampling distribution of means (c) For sampling without replacement find (iv) − (v) in (b) above."
+    },
+    {
+      "year": "2012/2013",
+      "number": "2",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "(a) Enumerate the properties of the sampling distribution of means when sampling is drawn from a normally distributed population. (b) A medical record librarian drew a random sample of 100 patients' charts and found that in 8% of them, the face sheet had, at least, one item of information contradictory to other information in the record. Construct the (i) 90%, (ii) 95% confidence intervals for the true proportion of charts containing such discrepancies. (c) In a length of hospitalization study conducted by several cooperating hospitals a random sample of 64 peptic ulcer patients was drawn from a list of all peptic ulcer patients ever admitted to the participating hospitals and the length of hospitalization per admission was determined for each. The mean length of hospitalization was found to be 8.25 days. If the population standard deviation is known to be 3 days, find, (i) 90% and (ii) 95% confidence intervals for μ."
+    },
+    {
+      "year": "2012/2013",
+      "number": "3",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the term 'Regression Analysis' (b) An experiment was conducted to evaluate the ability of a certain objective measurement to measure heart rate in adults. The following data were obtained on 10 normal adults. Y: 4, 17, 14, 1, 11, 22, 9, 12, 4, 7; X: 7, 32, 26, 1, 20, 34, 17, 21, 5, 12. (i) Obtain the values of the coefficients (α and β) of the regression equation. (ii) Write the estimated regression equation using your results in (i)."
+    },
+    {
+      "year": "2012/2013",
+      "number": "4",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) Distinguish between the following pairs as used in statistical hypothesis: i. The Null and Alternative hypothesis ii. Simple and Composite hypothesis iii. Type I and Type II Errors iv. One tail and two tail tests (b) The mean number of days observed through sickness, over a two month period is 2.03 days per worker in one part of factory and 1.28days per worker in another part of the same factory, there are 65 worker in each of these parts of the factory. The estimates of the variance of the number of days of absence are 3.0125 and 2.1482 respectively. Examine whether the mean number of days observed through sickness differs. (Use 5% level of significant)"
+    },
+    {
+      "year": "2012/2013",
+      "number": "5",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Mention SIX properties of the Chi-square distribution. (b) The following table contains a record of 10 patients who recovered from a certain disease during a period of one month at a local medical centre. A sample of 100 patients who were on admission during this period is given below. Number: 0, 1, 2, 3, 4, 5 or more; Observed Frequency: 8, 25, 32, 24, 10, 1 (Total 100). Test the goodness-of fit of these data to binomial distribution. Let α = 0.05."
+    },
+    {
+      "year": "2012/2013",
+      "number": "6",
+      "topic": "chi-square-tests-anova-and-regression",
+      "text": "(a) Define the following: i Experimental Design ii Replication iii Randomization iv Treatment (b) An experiment was conducted to compare three methods of packaging a certain frozen food. The criterion was the ascorbic content (mg/100gm) after a specified period of time. The following data were obtained. Packaging Method A: 14.3, 19.1, 19.0, 16.3, 15.1, 16.6, 19.6; B: 20.1, 20.6, 18.0, 18.5, 19.4, 19.1, 18.3; C: 20.0, 26.2, 22.7, 24.4, 23.3, 25.2, 23.2. Do these data provide sufficient evidence at the 0.05 level of significance to indicate a difference in packaging methods?"
+    },
+    {
+      "year": "Undated test",
+      "number": "1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "A population of size N = 4 consists of the ages of four patients in the children's ward who are receiving group psychotherapy in a mental health clinic. The ages are x1 = 2, x2 = 3, x3 = 4 and x4 = 6. If sampling is with replacement LIST all possible samples of size two. Calculate (i) population mean and standard deviation (ii) the mean of the sampling distribution of means (iii) the standard deviation of the sampling distribution of means (b) Solve (ii) and (iii) for sampling without replacement."
+    },
+    {
+      "year": "Undated test",
+      "number": "2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The effective life of a component used in a jet-turbine aircraft engine is a random variable with mean 5000 hours and standard deviation 40 hours. The distribution of effective life is fairly close to a normal distribution. The engine manufacturer introduces an improvement into the manufacturing process for this component that increases the mean life to 5050 hours and decreases the standard deviation to 30 hours. Suppose that a random sample of n1 = 16 components is selected from the \"old\" process and a random sample of n2 = 25 components is selected from the \"improved\" process. What is the probability that the difference in the two sample means is at least 25 hours? Assume that the old and improved processes can be regarded as independent populations."
+    },
+    {
+      "year": "Undated test",
+      "number": "3",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "A machine produces metal rods used in an automobile suspension system. A random sample of 15 rods is selected, and the diameter is measured. The resulting data (in millimetres) are as follows (assuming normality): 8.24, 8.25, 8.20, 8.23, 8.24, 8.21, 8.26, 8.26, 8.20, 8.25, 8.23, 8.23, 8.19, 8.28, 8.24. Construct (a) 90% (b) 95% confidence intervals on mean rod diameter."
+    },
+    {
+      "year": "Undated test",
+      "number": "4",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "Two groups of children were given visual acuity tests. Group 1 was composed of 11 children who receive their health care from private physicians. The mean score for this group was 26 with a standard deviation of 5. The second group, consisting of 14 children who receive their health care from the health department, had an average score of 21 with standard deviation of 6. Assuming normally distributed populations with equal variances, do these data justify the conclusion, at the 0.05 level of significant, that the means of the implied populations are different?"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "As the sample size increases, (a) The population mean decreases. (b) The population standard deviation decreases. (c) The standard deviation for the distribution of the sample means increases. (d) The standard deviation for the distribution of the sample means decreases."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "When considering sampling distributions, if the sampling population is normally distributed, then the distribution of the sample means (a) will be exactly normally distributed. (b) Will be approximately normally distributed. (c) Will have a discrete distribution. (d) None of the above."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A3",
+      "topic": "point-estimation",
+      "text": "The sample statistic x̄ is the point estimate of (a) The population standard deviation σ. (b) The population median. (c) The population mean μ (d) The population mode."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A4",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "If repeated random samples of size 40 are taken from an infinite population, the distribution of sample means (a) Always will be normal because we do not know the distribution of the population. (b) Always will be normal because the sample mean is always normal. (c) Always will be normal because the population is infinite. (d) Will be approximately normal because of the central limit theorem."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A5",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The mean score of international students at a certain university is normally distributed with a mean of 490 and a standard deviation of 80. Suppose that groups of 30 students are studied. The mean and the standard deviation for the distribution of sample means, respectively, will be (a) 490 and 8/3 (b) 16.33 and 80 (c) 490 and 14.61 (d) 490 and 213.33"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A6",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "A certain brand of light bulb has a mean lifetime of 1500 hours with a standard deviation of 100 hours. If the bulbs are sold in boxes of 25, the parameters of the distribution of sample means are (a) 1500 and 100 (b) 1500 and 4 (c) 1500 and 2 (d) 1500 and 20"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A7",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Samples of size 49 are drawn from a population with a mean of 36 and a standard deviation of 15. Then P(x̄ < 33) is (a) 0.5808 (b) 0.4192 (c) 0.1608 (d) 0.0808"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A8",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Which of the following is the principle on which theory of sampling is based? (a) Statistical regularity (b) Inertia of large numbers (c) Both (a) and (b) (d) None of the above."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A9",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Which of the following is the non-random method of selecting samples from a population? (a) Multistage sampling (b) Cluster sampling (c) Quota sampling (d) All of the above"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A10",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The sampling distribution of mean is normal provided (a) Population distribution is normal (b) Population distribution is not normal but the sample size is large (n ≥ 30) (c) Population distribution is approximately the normal distribution with mean μ and standard deviation σ/√n (d) All of the above."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A11",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "If the population is finite, then standard error of mean is given by (a) σ/√n (b) (σ/√n)√((N − n)/(N − 1)) (c) (σ/√n)√((N − 1)/(N − n)) (d) (σ/√n)√(1 − n/N)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A12",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "If the population proportion is 0.5 and standard error of sample proportion is 0.01, then the required sample size is (a) 250 (b) 2500 (c) 3000 (d) 3500"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A13",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The sampling distribution is approximately the t-distribution with degrees of freedom (a) n (b) n − 1 (c) n − 2 (d) 2n − 1"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A14",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "Which of the following is a necessary condition for using a t-distribution? (a) Small sample size (b) Unknown population standard deviation (c) Both (a) and (b) (d) Infinite population"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A15",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "If x̄ = 85, σ = 8, and n = 64, then standard error of sample mean is equal to: (a) 1 (b) 1.96 (c) 2.576 (d) None of these"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A16",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "If x̄ = 25, σ = 5, and n = 25, the margin error of sample mean is equal to: (a) 1 (b) 1.96 (c) 2.576 (d) None of these"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A17",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Sampling distribution is usually the distribution of: (a) Parameter (b) Statistic (c) Mean (d) Variance"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A18",
+      "topic": "point-estimation",
+      "text": "The criteria for a good estimator are (a) Consistency and asymptotic (b) Unbiasedness and efficiency (c) Consistency and mean square error (d) All of the above"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A19",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Sample mean x̄ of a sample size n from N(μ, 1) is distributed as: (a) N(0, 1) (b) N(nμ, 1/n) (c) N(μ, 1/n) (d) None of the above"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A20",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The standard deviation of the sampling distribution of a statistic is referred as (a) Sampling error (b) Standard error (c) Mean error (d) None of these."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A21",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "As the sample size increases, the confidence interval for the population mean will (a) Decrease (b) Increase (c) Stay the same (d) Decrease and then increase"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A22",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "Suppose that a sample of size 100 is selected from a population with unknown variance. If this information is used in constructing a confidence interval for the population mean, which of the following statements is true? (a) The sample must have a normal distribution. (b) The population is assumed to have a normal distribution. (c) Only 95 percent confidence intervals may be computed. (d) The sample standard deviation cannot be used to estimate the population standard deviation because the sample size is large."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A23",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "In a survey about a murder case that was widely reported by the TV networks, 201 of 300 persons surveyed said that they believe that the accused was guilty. The 95 percent confidence interval for the proportion of the people who did not believe that the accused was guilty is (a) 0.617 to 0.723 (b) 0.277 to 0.383 (c) 0.285 to 0.375 (d) 0.625 to 0.715"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A24",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "In constructing a confidence interval for the population mean, if the level of confidence is changed from 98 to 90 percent, the standard deviation of the mean will (a) Be equal to 90 percent of the original standard deviation of the mean. (b) Increase. (c) Decrease (d) Remain the same."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A25",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "Suppose that the heights of the population of basket players at a certain college are normally distributed with a standard deviation of 2 feet. If a sample of heights of size 16 is randomly selected from this population with a mean of 6.2 feet, the 90 percent confidence interval for the mean height of these basketball players is (a) 4.555 to 7.845 feet. (b) 5.378 to 7.022 feet. (c) 4.447 to 7.953 feet. (d) 5.324 to 7.077 feet."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A26",
+      "topic": "confidence-intervals-for-means-and-proportions",
+      "text": "A 99 percent confidence interval is to be constructed for the population mean from a random sample of size 22. If the population standard deviation is known, the table value to be used in the computation is (a) 2.518 (b) 2.330 (c) 2.831 (d) 2.580"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A27",
+      "topic": "point-estimation",
+      "text": "In estimation, population characteristics are measures from sample information. These characteristics are alternatively called .......... A. Estimates B. Estimators C. Parameters D. Statistic"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A28",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Which of these is not an example of non-probability sampling? A. Cluster B. Convenience C. Quota D. Purposive"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A29",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The sampling technique where subjects refer the researcher to others who might be recruited as subjects is .......... A. Referral B. Snowball C. Quota D. Purposive."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A30",
+      "topic": "point-estimation",
+      "text": "The best point estimate for the population variance is (a) a statistic (b) the sample standard deviation (c) the sample mean (d) the sample variance"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A31",
+      "topic": "point-estimation",
+      "text": ".......... is a measure of accuracy with which the population parameter has been estimated. A. Unbiasedness B. Consistency C. Efficiency D. Precision"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A32",
+      "topic": "point-estimation",
+      "text": ".......... is the biased estimator of the population variance A. Σ (Xi − X̄)²/(n − 1) B. Σ (Xi − X̄)²/n C. Σ (Xi − X̄)²/(N − 1) D. Σ (Xi − X̄)²/N (sums from i = 1 to n)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A33",
+      "topic": "point-estimation",
+      "text": "Suppose there are 7 students in STA 121 class with Body Mass Index (BMI) given by 23.0, 21.0, 18.5, 17.0, 18.0, 19.0 and 20.5. The mean and variance of the observations respectively are .......... A. 18.6 and 0.77 B. 19.6 and 4.2 C. 19.6 and 2.04 D. 18.6 and 2.04"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A34",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "Which of these probability distributions is associated with the proportion of success in many trials? A. Binomial B. Uniform C. Chi-Square D. Gamma"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A35",
+      "topic": "point-estimation",
+      "text": "A property of an estimator in which the mean of the estimator equals the population mean is .......... A. Sufficiency B. Efficiency C. Unbiasedness D. Consistency"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A36",
+      "topic": "point-estimation",
+      "text": "Which of these is used to denote a population parameter? A. X̄ B. σ C. p̂ D. S²"
+    },
+    {
+      "year": "2020/2021",
+      "number": "A37",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "A Gaussian distribution is said to \"standard\" if it has the following properties: A. Zero mean and unit variance. B. Constant Mean and unit variance. C. Unit mean and zero and variance. D. Zero mean and constant variance."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A38",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The sampling distribution of proportion is approximated by a normal distribution when (a) np ≥ 5 (b) pq ≥ 5 (c) both (a) and (b) (d) none of the above."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A39",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "The sampling distribution of mean is normal provided (e) Population distribution is normal (f) Population distribution is not normal but the sample size is large (n ≥ 30) (g) Population distribution is approximately the normal distribution with mean μ and standard deviation σ/√n (h) All of the above."
+    },
+    {
+      "year": "2020/2021",
+      "number": "A40",
+      "topic": "principles-of-hypothesis-testing",
+      "text": "The rejection region is alternatively known as .......... A. Acceptance region B. Shaded region C. Critical region D. Unshaded region"
+    },
+    {
+      "year": "2020/2021",
+      "number": "B1",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Explain the following terms: (i) Simple random sampling (ii) Stratified sampling (iii) Cluster sampling (iv) Systematic sampling. (b) A total of five patients admitted for diagnosis and evaluation to a newly opened hospital experienced the following lengths of stay x1 = 5, x2 = 7, x3 = 10, x4 = 13 and x5 = 15. If sampling is without replacement, (i) List all possible samples of size two that can be drawn from this population of lengths of stay. (ii) Find the mean length of stay. (iii) Find the standard deviation of lengths of stay. (iv) Find the mean of the sampling distribution of means. (v) Find the standard deviation of the sampling distribution of means."
+    },
+    {
+      "year": "2020/2021",
+      "number": "B2",
+      "topic": "sampling-and-sampling-distributions",
+      "text": "(a) Give six reasons why sampling should be preferred to complete enumeration (b) If the uric acid values in normal adult males are approximately normally distributed with a mean and standard deviation of 5.7 and 1mgs percent respectively, find the probability that a sample of size 9 will yield a mean (i) At least 6 (ii) Between 5 and 6 (iii) At most 6"
+    },
+    {
+      "year": "2020/2021",
+      "number": "B3",
+      "topic": "tests-on-means-proportions-and-variances",
+      "text": "(a) A survey was conducted to study the dental health practices and attitudes of a certain urban population. Out of 250 adults interviewed, 100 said that they regularly had a dental checkup at least twice a year. Test the null hypothesis that the true population proportion is 0.5. (Use α = 0.05). (b) An experiment was conducted to compare three methods of packaging a certain frozen food. The criterion was the ascorbic content (mg/100gm) after a specified period of time. The following data were obtained. Packaging Method A: 14.3, 19.1, 19.0, 16.3, 15.1, 16.6, 19.6; B: 20.1, 20.6, 18.0, 18.5, 19.4, 19.1, 18.3; C: 20.0, 26.2, 22.7, 24.4, 23.3, 25.2, 23.2. Do these data provide sufficient evidence at the 0.05 level of significance to indicate a difference in packaging methods?"
+    }
+  ]
+}

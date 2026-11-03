@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The tension in an Atwood machine with 3 kg and 5 kg masses (g = 9.8) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "36.75 N"
+      },
+      {
+        "key": "b",
+        "text": "26.61 N"
+      },
+      {
+        "key": "c",
+        "text": "18.42 N"
+      },
+      {
+        "key": "d",
+        "text": "5.58 N"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "T = 2m₁m₂g/(m₁ + m₂) = 30 × 9.8/8.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A coin just slips at 4 cm from the centre. If the angular velocity is doubled, it slips at",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 cm"
+      },
+      {
+        "key": "b",
+        "text": "2 cm"
+      },
+      {
+        "key": "c",
+        "text": "4 cm"
+      },
+      {
+        "key": "d",
+        "text": "8 cm"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "ω²r fixed, so r falls by 4.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A body moves at constant velocity under two forces, one of which is 2i − 6j N. The other is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−2i + 6j"
+      },
+      {
+        "key": "b",
+        "text": "4i − 12j"
+      },
+      {
+        "key": "c",
+        "text": "2i + 8j"
+      },
+      {
+        "key": "d",
+        "text": "−4j + 12k"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The resultant must be zero.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The centripetal acceleration of a body moving at speed v in a circle of radius r is",
+    "options": [
+      {
+        "key": "a",
+        "text": "v²/r towards the centre"
+      },
+      {
+        "key": "b",
+        "text": "vr outward"
+      },
+      {
+        "key": "c",
+        "text": "v/r tangentially"
+      },
+      {
+        "key": "d",
+        "text": "v²r towards the centre"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "a = v²/r = ω²r.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "true_false",
+    "stem": "For a stone whirled in a vertical circle, the string's tension is largest at the lowest point.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "There, tension must supply mg as well as the centripetal force.",
+    "source": "PHY 102 past questions"
+  },
+  {
+    "format": "true_false",
+    "stem": "A body moving with constant velocity must have a resultant force acting on it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Constant velocity means zero resultant force (first law).",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For a block on a rough plane inclined at θ, which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Component of weight along the plane is mg sin θ"
+      },
+      {
+        "key": "b",
+        "text": "Normal reaction is mg cos θ"
+      },
+      {
+        "key": "c",
+        "text": "Limiting friction is μ mg cos θ"
+      },
+      {
+        "key": "d",
+        "text": "Friction always acts down the plane"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Friction opposes the relative motion, so its direction depends on the motion.",
+    "source": "General knowledge of PHY 101"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which law is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inertia"
+      },
+      {
+        "key": "b",
+        "text": "F = ma"
+      },
+      {
+        "key": "c",
+        "text": "Action and reaction"
+      },
+      {
+        "key": "d",
+        "text": "Hooke's law"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Hooke's law concerns elasticity; the others are Newton's laws.",
+    "source": "General knowledge of PHY 101"
+  }
+]

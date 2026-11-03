@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Testing that simulates real cyber attacks to test defences is",
+    "options": [
+      {
+        "key": "a",
+        "text": "penetration testing"
+      },
+      {
+        "key": "b",
+        "text": "vulnerability testing"
+      },
+      {
+        "key": "c",
+        "text": "security auditing"
+      },
+      {
+        "key": "d",
+        "text": "risk assessment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Vulnerability testing finds known weaknesses.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Authorised testing by security professionals to find vulnerabilities is",
+    "options": [
+      {
+        "key": "a",
+        "text": "ethical hacking"
+      },
+      {
+        "key": "b",
+        "text": "phishing"
+      },
+      {
+        "key": "c",
+        "text": "ransomware"
+      },
+      {
+        "key": "d",
+        "text": "social engineering"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is done with permission.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Reviewing security policies, procedures and controls is",
+    "options": [
+      {
+        "key": "a",
+        "text": "security auditing"
+      },
+      {
+        "key": "b",
+        "text": "penetration testing"
+      },
+      {
+        "key": "c",
+        "text": "incident containment"
+      },
+      {
+        "key": "d",
+        "text": "encryption"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Audits should be periodic.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are steps defined in an incident response plan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Detection"
+      },
+      {
+        "key": "b",
+        "text": "Containment"
+      },
+      {
+        "key": "c",
+        "text": "Eradication"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The others are recovery and post-incident analysis.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "An incident response plan should be tested through simulated exercises.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This improves readiness.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Google's Project Zero is an example of",
+    "options": [
+      {
+        "key": "a",
+        "text": "a team dedicated to finding software vulnerabilities"
+      },
+      {
+        "key": "b",
+        "text": "a type of malware"
+      },
+      {
+        "key": "c",
+        "text": "an access control model"
+      },
+      {
+        "key": "d",
+        "text": "a password manager"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Third-party researchers also find vulnerabilities.",
+    "source": "CYB 201 Note 3 Security vulnerabilities.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of security testing in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Vulnerability testing"
+      },
+      {
+        "key": "b",
+        "text": "Penetration testing"
+      },
+      {
+        "key": "c",
+        "text": "Risk assessment"
+      },
+      {
+        "key": "d",
+        "text": "Spam filtering"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fifth type is ethical hacking.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Post-incident analysis is carried out before an incident is detected.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It comes last, to learn lessons from the incident.",
+    "source": "CYB 201 - Week Two slides"
+  }
+]

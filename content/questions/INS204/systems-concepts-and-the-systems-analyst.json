@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which activity specifies what a system should do?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Systems analysis"
+      },
+      {
+        "key": "b",
+        "text": "Systems design"
+      },
+      {
+        "key": "c",
+        "text": "Coding"
+      },
+      {
+        "key": "d",
+        "text": "Maintenance"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Design states how.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which element of a system is the actual transformation of input into output?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Process"
+      },
+      {
+        "key": "b",
+        "text": "Feedback"
+      },
+      {
+        "key": "c",
+        "text": "Boundary"
+      },
+      {
+        "key": "d",
+        "text": "Environment"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is the operational component.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A system that does not interact with its environment is",
+    "options": [
+      {
+        "key": "a",
+        "text": "closed"
+      },
+      {
+        "key": "b",
+        "text": "open"
+      },
+      {
+        "key": "c",
+        "text": "probabilistic"
+      },
+      {
+        "key": "d",
+        "text": "adaptive"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Closed systems are mainly theoretical.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A common entrance examination, whose output is fully predictable from its input, is an example of a",
+    "options": [
+      {
+        "key": "a",
+        "text": "deterministic system"
+      },
+      {
+        "key": "b",
+        "text": "random system"
+      },
+      {
+        "key": "c",
+        "text": "probabilistic system"
+      },
+      {
+        "key": "d",
+        "text": "open system"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its relationships are fully known.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The environment of a system is the 'supra system' outside its boundary that interacts with it.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For example vendors and competitors.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The objectives of a subsystem take priority over those of the organisation as a whole.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "The organisation's objectives have higher priority.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among the four attributes of a systems analyst?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Business skills"
+      },
+      {
+        "key": "b",
+        "text": "Human interaction skills"
+      },
+      {
+        "key": "c",
+        "text": "Managerial skills"
+      },
+      {
+        "key": "d",
+        "text": "Athletic skills"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is IT skills.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an element of a system in Lecture 1?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Control"
+      },
+      {
+        "key": "b",
+        "text": "Feedback"
+      },
+      {
+        "key": "c",
+        "text": "Boundaries"
+      },
+      {
+        "key": "d",
+        "text": "Advertising"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others include input, output, process and environment.",
+    "source": "INS 204 Lecture 1 (Introduction to Systems Analysis and Design)"
+  }
+]

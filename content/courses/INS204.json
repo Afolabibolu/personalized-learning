@@ -1,0 +1,108 @@
+{
+  "code": "INS 204",
+  "title": "Systems Analysis and Design",
+  "semester": 2,
+  "description": "The CCMAS course on the structured analysis and design of information systems: system concepts and the systems analyst, the SDLC and its models, requirements gathering and feasibility, structured analysis with data flow diagrams, database and file design, system architecture and object-oriented design, and input, output and user interface design. Built from the INS 204 lecture notes (Lectures 1 to 5) and the topic slides and notes.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "systems-concepts-and-the-systems-analyst",
+      "title": "Systems Concepts and the Systems Analyst",
+      "summary": "Systems analysis gathers and interprets facts to diagnose problems and recommend improvements; systems design plans how a new system will meet them. A system is a group of interrelated components working toward a common goal, with inputs, processes, outputs, control, feedback, environment and boundaries, and systems are classified as open or closed, deterministic, probabilistic or random, and so on. The systems analyst needs business, IT, human and managerial skills.",
+      "subtopics": [
+        "Systems analysis and systems design",
+        "What a system is",
+        "Elements of a system",
+        "Types of systems",
+        "Characteristics of a system",
+        "The systems analyst and their skills"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sdlc-phases-and-models",
+      "title": "The SDLC: Phases, Models and CASE Tools",
+      "summary": "The systems development life cycle is a framework of phases from planning and feasibility through requirements analysis, design, development, testing and implementation to maintenance. Systems are introduced by direct, parallel, pilot or phased changeover. SDLC models include waterfall, agile, big bang, iterative, incremental, spiral and prototype, and CASE tools automate analysis and design.",
+      "subtopics": [
+        "What the SDLC is and why it matters",
+        "Planning, feasibility and requirements analysis",
+        "Design, development and testing",
+        "Implementation, changeover and maintenance",
+        "SDLC models",
+        "CASE tools"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "requirements-gathering-and-feasibility",
+      "title": "Requirements Gathering and Feasibility Study",
+      "summary": "Requirements gathering defines what a system must do; the feasibility study confirms whether it should be built. Requirements are functional or non-functional, and business, user or system requirements, gathered through interviews, questionnaires, observation, document analysis and brainstorming. Feasibility is technical, economic, operational, legal and schedule, supported by cost-benefit analysis and risk assessment.",
+      "subtopics": [
+        "Why requirements and feasibility matter",
+        "Functional and non-functional requirements",
+        "The requirements engineering process",
+        "Fact-finding techniques",
+        "Five types of feasibility",
+        "Cost-benefit analysis and risk assessment"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "structured-analysis-and-data-flow-diagrams",
+      "title": "Structured Analysis and Data Flow Diagrams",
+      "summary": "Structured analysis models what a system must do with graphical, standard notation, using decomposition and top-down, bottom-up or modular approaches, supported by documentation and CASE tools. Data flow diagrams model processes with four symbols (external entity, process, data flow and data store), drawn as a context diagram and lower levels that must balance and follow construction rules.",
+      "subtopics": [
+        "Structured system analysis",
+        "Top-down, bottom-up and modular design",
+        "Decomposition and documentation",
+        "The four DFD symbols",
+        "Context diagrams and DFD levels",
+        "DFD rules, balancing and common errors"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "database-and-file-design",
+      "title": "Database and File Design",
+      "summary": "Data is a major asset of an information system. File organisation may be sequential, heap, indexed, hashed or clustered, while database design models entities, attributes and relationships. Keys (candidate, primary, alternate, foreign, surrogate) and integrity constraints protect data, normalisation to third normal form removes redundancy, and an ERD is transformed into relational tables.",
+      "subtopics": [
+        "Data, information, files and databases",
+        "File organisation",
+        "Database design principles",
+        "Keys",
+        "Integrity constraints",
+        "Normalisation and relationships"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "system-architecture-and-object-oriented-design",
+      "title": "System Architecture and Object-Oriented Design",
+      "summary": "System architecture is the high-level structure of a system's components, connections and deployment. Architectures include client-server, two-tier, three-tier, web and cloud, and systems are centralised or distributed. Object-oriented analysis and design models systems as objects and classes with encapsulation, inheritance, polymorphism and abstraction, using UML use case, class, activity and sequence diagrams.",
+      "subtopics": [
+        "What system architecture is",
+        "Client-server, two-tier and three-tier",
+        "Web and cloud architecture",
+        "Centralised and distributed systems",
+        "OOAD: objects, classes and the four principles",
+        "UML diagrams and structured versus OO design"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "input-output-and-user-interface-design",
+      "title": "Input, Output and User Interface Design",
+      "summary": "Input design decides what data to capture, how and with which controls and validation rules. Output design produces operational, management and analytical reports. User interface design applies principles of usability, accessibility, consistency, feedback, visibility, error prevention and user control, and distinguishes UI from UX.",
+      "subtopics": [
+        "The input-to-output model",
+        "Input design objectives and controls",
+        "Validation and verification",
+        "Output design and reports",
+        "User interface design principles",
+        "UI, UX and evaluation"
+      ],
+      "lectures": []
+    }
+  ]
+}

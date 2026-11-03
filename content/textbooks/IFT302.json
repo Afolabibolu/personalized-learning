@@ -1,0 +1,64 @@
+{
+  "code": "IFT 302",
+  "books": {
+    "nixon": {
+      "title": "Learning PHP, MySQL & JavaScript",
+      "authors": "Robin Nixon",
+      "edition": "6th edition",
+      "publisher": "O'Reilly Media",
+      "year": 2021,
+      "note": "A standard text for PHP web development; the course folder has lecture notes only."
+    }
+  },
+  "topics": {
+    "introduction-to-web-development": [
+      {
+        "book": "nixon",
+        "read": "The opening chapters on dynamic web content",
+        "why": "How browsers, web servers, PHP and MySQL fit together."
+      }
+    ],
+    "website-design-ui-ux-and-responsive-design": [
+      {
+        "book": "nixon",
+        "read": "The chapters on CSS",
+        "why": "Styling and layout of pages."
+      }
+    ],
+    "web-architecture-and-development-tools": [
+      {
+        "book": "nixon",
+        "read": "The opening chapters on setting up a development server",
+        "why": "The request-response cycle and the tools used."
+      }
+    ],
+    "client-side-programming": [
+      {
+        "book": "nixon",
+        "read": "The chapters on JavaScript",
+        "why": "Client-side scripting in the browser."
+      }
+    ],
+    "server-side-programming-with-php": [
+      {
+        "book": "nixon",
+        "read": "The chapters introducing PHP",
+        "why": "PHP syntax, expressions and control flow."
+      }
+    ],
+    "object-oriented-php": [
+      {
+        "book": "nixon",
+        "read": "The PHP chapter on functions and objects",
+        "why": "Classes, objects and methods in PHP."
+      }
+    ],
+    "database-driven-applications-cookies-and-sessions": [
+      {
+        "book": "nixon",
+        "read": "The chapters on accessing MySQL with PHP and on cookies, sessions and authentication",
+        "why": "Connecting to a database and keeping state."
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "code": "STA 202",
+  "title": "Statistics for Physical Sciences and Engineering",
+  "semester": 1,
+  "description": "The Statistics Department's service course for science and engineering students (taught with STA 201 and STA 204): variables, data and sampling, descriptive statistics, counting methods, probability, random variables and distributions, mathematical expectation, and statistical inference. Built from Dr S. O. Oyamakin's STA 201/202/204 lectures 1 to 6 and the probability distributions guide in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "variables-data-and-sampling",
+      "title": "Variables, Data and Sampling",
+      "summary": "Statistics studies variables measured on samples to learn about populations. Variables are discrete or continuous, categorical (nominal or ordinal) or scale, and continuous measurements have real limits. A statistic describes a sample and a parameter a population, and samples are drawn by random or non-random methods.",
+      "subtopics": [
+        "Variables, populations and samples",
+        "Statistics and parameters",
+        "Discrete and continuous variables; real limits",
+        "Scales of measurement",
+        "Random sampling methods",
+        "Non-random sampling methods"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "descriptive-statistics",
+      "title": "Descriptive Statistics",
+      "summary": "Descriptive statistics summarise data with measures of central tendency (mean, median, mode), measures of position (quartiles, deciles, percentiles), measures of dispersion (range, quartile deviation, variance, standard deviation) and graphs such as bar charts, histograms and stem-and-leaf displays. Skewness compares the mean and median.",
+      "subtopics": [
+        "Mean, median and mode",
+        "Combined and weighted means",
+        "Measures of position",
+        "Range, quartile deviation, variance and standard deviation",
+        "Graphs: bar charts, histograms and stem-and-leaf",
+        "Skewness and the mean-median relationship"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "counting-methods",
+      "title": "Counting: Permutations and Combinations",
+      "summary": "Counting the possible outcomes uses the multiplication rule: an operation of two steps done in n1 and n2 ways can be done in n1·n2 ways. Permutations count ordered arrangements, combinations count unordered selections, and identities such as C(n, r) = C(n, n − r) relate them.",
+      "subtopics": [
+        "The basic principle of counting",
+        "Factorials",
+        "Permutations",
+        "Permutations with repetition and of like objects",
+        "Combinations",
+        "Combinatorial identities"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "probability",
+      "title": "Probability, Conditional Probability and Bayes' Theorem",
+      "summary": "Random phenomena are unpredictable in each trial but show long-run regularity. Probability is defined on a sample space of outcomes, with addition rules for unions, the multiplication rule and independence, conditional probability P(B|A) = P(A ∩ B)/P(A), the total probability rule and Bayes' theorem.",
+      "subtopics": [
+        "Deterministic and random phenomena",
+        "Sample spaces and events",
+        "Axioms and the addition rule",
+        "Conditional probability",
+        "Independence and the multiplication rule",
+        "Total probability and Bayes' theorem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "random-variables-and-distributions",
+      "title": "Random Variables and Probability Distributions",
+      "summary": "A random variable takes values with probabilities given by a probability mass function (discrete) or density function (continuous), with a cumulative distribution function F(x). Key distributions are the binomial, Poisson, uniform and normal; the normal is standardised by z = (x − μ)/σ.",
+      "subtopics": [
+        "Discrete and continuous random variables",
+        "Probability mass and density functions",
+        "The cumulative distribution function",
+        "The binomial and Poisson distributions",
+        "The uniform distribution",
+        "The normal distribution and z-scores"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "mathematical-expectation",
+      "title": "Mathematical Expectation",
+      "summary": "The expected value E(X) is the probability-weighted mean of a random variable. Expectation is linear, so E(aX + b) = aE(X) + b. The variance is E(X²) − [E(X)]², with Var(aX + b) = a²Var(X), and moments about the origin and the mean describe a distribution's shape.",
+      "subtopics": [
+        "The mean (expected value) of a random variable",
+        "Expectation of a function of X",
+        "Rules of expectation",
+        "Variance and standard deviation",
+        "Rules of variance",
+        "Moments about the origin and the mean"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "statistical-inference",
+      "title": "Sampling Distributions, Estimation and Hypothesis Testing",
+      "summary": "Inference uses samples to draw conclusions about populations. The standard error of the mean is σ/√n. Estimators are unbiased when their expected value equals the parameter, and confidence intervals give ranges likely to contain it. Hypothesis tests weigh evidence against a null hypothesis, risking Type I and Type II errors, using z, t, chi-square tests, correlation and regression.",
+      "subtopics": [
+        "Sampling distributions and standard error",
+        "Unbiased estimators and confidence intervals",
+        "Null and alternative hypotheses",
+        "Type I and Type II errors",
+        "z, t and chi-square tests",
+        "Correlation, regression and association"
+      ],
+      "lectures": []
+    }
+  ]
+}

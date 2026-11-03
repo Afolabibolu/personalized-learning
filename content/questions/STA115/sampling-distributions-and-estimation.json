@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "For the population {3, 5, 6, 8, 2, 9} (σ² = 6.25), Var(x̄) for samples of 2 without replacement is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2.5"
+      },
+      {
+        "key": "b",
+        "text": "3.125"
+      },
+      {
+        "key": "c",
+        "text": "6.25"
+      },
+      {
+        "key": "d",
+        "text": "1.25"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(6.25/2) × (4/5).",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For a family of 2 boys and 1 girl, samples of 2 with replacement give a standard error of the proportion of boys of",
+    "options": [
+      {
+        "key": "a",
+        "text": "1/3"
+      },
+      {
+        "key": "b",
+        "text": "2/3"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "1/9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "√((2/3)(1/3)/2).",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A sample of 5 from 1000 groups has values 7, 8, 20, 15 and 35. The estimate of the population total is",
+    "options": [
+      {
+        "key": "a",
+        "text": "17,000"
+      },
+      {
+        "key": "b",
+        "text": "85,000"
+      },
+      {
+        "key": "c",
+        "text": "17,500"
+      },
+      {
+        "key": "d",
+        "text": "8,500"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1000 × 17.",
+    "source": "STA 115 tests (2016/17 to 2023) and STA 112 Probability I papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many samples of size 2 can be drawn without replacement from a population of 6?",
+    "options": [
+      {
+        "key": "a",
+        "text": "15"
+      },
+      {
+        "key": "b",
+        "text": "36"
+      },
+      {
+        "key": "c",
+        "text": "30"
+      },
+      {
+        "key": "d",
+        "text": "12"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "6C2.",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "true_false",
+    "stem": "E(x̄) = µ whether sampling is with or without replacement.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Only the variance changes.",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A parameter varies from sample to sample.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Parameters are constants; statistics vary.",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which of these are statistics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "x̄"
+      },
+      {
+        "key": "b",
+        "text": "s²"
+      },
+      {
+        "key": "c",
+        "text": "p̂"
+      },
+      {
+        "key": "d",
+        "text": "µ"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "µ is a population parameter.",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which symbol is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "µ"
+      },
+      {
+        "key": "b",
+        "text": "σ"
+      },
+      {
+        "key": "c",
+        "text": "P"
+      },
+      {
+        "key": "d",
+        "text": "x̄"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "x̄ is a statistic; the others are parameters.",
+    "source": "STA 115 Lectures 8 to 10: Sampling Distributions I to III (Shittu; Dr O.E. Olubusoye) and Inference 1: Point Estimation (Dr A.U. Chukwu)"
+  }
+]

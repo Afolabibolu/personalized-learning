@@ -1,0 +1,62 @@
+{
+  "code": "GST 212",
+  "books": {
+    "plct": {
+      "title": "Philosophy, Logic and Critical Thinking",
+      "authors": "Christopher O. Agulanna and Abosede P. Ipadeola (eds.)",
+      "publisher": "University of Ibadan",
+      "note": "In the course folder."
+    }
+  },
+  "topics": {
+    "meaning-and-branches-of-philosophy": [
+      {
+        "book": "plct",
+        "read": "Chapters 1 and 2 (Philosophy and Human Existence; Meaning and Branches of Philosophy)",
+        "why": "Definitions, methods and branches."
+      }
+    ],
+    "philosophical-problems-and-basic-concepts": [
+      {
+        "book": "plct",
+        "read": "Chapters 3 and 4 (Philosophical Problems; Basic Concepts in Philosophy)",
+        "why": "Scepticism, universals, mind and body, concepts."
+      }
+    ],
+    "ethics-and-ethical-theories": [
+      {
+        "book": "plct",
+        "read": "Chapters 5 and 6 (Ethics and Society; Ethical Theories and Moral Dilemmas)",
+        "why": "Virtues and ethical theories."
+      }
+    ],
+    "nature-of-logic-and-arguments": [
+      {
+        "book": "plct",
+        "read": "Chapter 9, Nature and Scope of Logic",
+        "why": "Laws of thought and arguments."
+      }
+    ],
+    "validity-soundness-and-rules-of-inference": [
+      {
+        "book": "plct",
+        "read": "Chapter 9, Nature and Scope of Logic (truth, validity and soundness)",
+        "why": "Validity and rules of inference."
+      }
+    ],
+    "categorical-syllogisms-and-formal-fallacies": [
+      {
+        "book": "plct",
+        "read": "Chapter 12, Formal and Informal Fallacies",
+        "why": "Syllogisms and formal fallacies."
+      }
+    ],
+    "informal-fallacies-and-uses-of-language": [
+      {
+        "book": "plct",
+        "read": "Chapters 10 and 12 (Meaning and Definition; Formal and Informal Fallacies)",
+        "why": "Informal fallacies and the uses of language."
+      }
+    ]
+  }
+}

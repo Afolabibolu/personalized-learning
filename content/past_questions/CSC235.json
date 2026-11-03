@@ -1,0 +1,396 @@
+{
+  "code": "CSC 235",
+  "papers": [
+    {
+      "year": "2018/2019",
+      "paper": "B.Sc. Degree Examination, First Semester 2018/2019 (CSC 235: Object Oriented Programming). Answer any two questions; 2½ hours",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/CSC 235 2018-19.pdf"
+    },
+    {
+      "year": "2020/2021",
+      "paper": "First Semester Examinations 2020/2021 (CSC 235: Object Oriented Programming Language). Answer Question 1 and any other two questions; 2 hrs 45 mins",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/CSC 235 2020-21.pdf"
+    },
+    {
+      "year": "2020/2021 test",
+      "paper": "CSC235 Concept of Object Oriented Programming Language, 2020/2021 First Semester Test, 18 June 2021. Attempt all questions; 50 minutes",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/CSC 235 TEST.pdf"
+    },
+    {
+      "year": "2022/2023",
+      "paper": "B.Sc. Degree Examinations, First Semester 2022/2023 (CSC 235: Object-Oriented Programming). Answer Question 1 and any other two; 2 hours",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/pq1.jpg and pq2.jpg"
+    },
+    {
+      "year": "2023/2024",
+      "paper": "1st Semester 2023/2024 Exam (CSC 235: Introduction to Object Oriented Programming). Attempt Question 1 and any other 2; 2¼ hours",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/Exam 23-24.jpeg and Exam 23-24 (2).jpeg"
+    },
+    {
+      "year": "Test (undated)",
+      "paper": "Object Oriented Programming Test (CSC 235), no date on the copy",
+      "source": "First Semester PQs/CSC 235 PQ COMPILED/CA.jpeg"
+    },
+    {
+      "year": "2024/2025",
+      "paper": "First Semester Examination Questions 2024/2025 (CSC 235: Object Oriented Programming). Answer all questions in Section A and two questions in Section B; 2.5 hours",
+      "source": "2024-2025-200-PQ.pdf, pages 5 and 6 (the same paper appears twice)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2018/2019",
+      "number": "Q1",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Using a class without constructor and private fields, implement an object-based program to generate the following table the same way presented (30 marks):\nN  Nsq  NSqRoot  NCube  NCubeRoot\n1  1    1.00     1      1.00\n2  4    1.41     8      1.26\n3  9    1.73     27     1.44\n4  16   2.00     64     1.59\n5  25   2.24     125    1.71"
+    },
+    {
+      "year": "2018/2019",
+      "number": "Q2",
+      "topic": "decision-making-and-loops",
+      "text": "In a supermarket store selling five items – Milo, Sugar, Lipton Tea, Bournvita, and Milk in packets, the sales policy is that if a customer buys up to 5 quantities of any of the items, 3% discount is given; for between 6 and 10 quantities, 5% discount is given and 10% for more than 10 quantities bought. In any case, unit prices are different for all the products. Implement an object-based program to generate invoices for customers such as the one presented below (30 marks):\nS/N  Item   Number of Packets Bought  Unit Price per packet  Discount Given  Total Payable\n1    Milo   7                         1000                   350             6650.00\n2    Sugar  4                         300                    0               1200.00\nTotal Gross Pay: 7850.00; Total Discount Given: 350.00; Net Payable: 7850.00"
+    },
+    {
+      "year": "2018/2019",
+      "number": "Q3",
+      "topic": "data-types-variables-and-conversion",
+      "text": "The following table gives the scores of some students in some courses (CSC201, CSC202, CSC203, CSC204, CSC205):\nStudent1: 45 67 90 76 45\nStudent2: 60 69 59 40 47\nStudent3: 79 58 60 32 57\nStudent4: 56 34 70 36 49\nNote that the number of students could be any value and scores in the above table is hypothetic. Create and populate a two-dimensional array for the above table. Then implement a program that computes and prints: (i) Total scores for each student in the courses. (ii) Mean Score for each of the students. (iii) Maximum score for each student and the course having the maximum score. (iv) Average score for each of the courses. (v) If the average pass mark was set at 52.5, print out number of students that passed the examination? (30 marks)"
+    },
+    {
+      "year": "2018/2019",
+      "number": "Q4",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "CSC Sales Company, selling Hard disks at unit price P, decides to give commission to her Salespersons based on number of goods sold and number of hours spent on the sales. The following table gives the commission schedule: Quantity Sold 1–20: 3%; 21–50: 5%; >= 51: 10%. Time Spent 1–4 hrs: additional 0.5%; >= 5 hrs: additional 0.8%. A Salesperson who does not sell anything is not given commission whatsoever. The Company has n numbers of Salesperson, each being paid ₦Y as Basic Pay. The Company's Data Entry Clerk has entered the sales profile of the Salespersons in a database table (SalespersonID, Name, QuantitySold, HoursSpent: S01 Usman 26 3; S02 Alima 65 7; S03 Ope 16 5).\nTasks: (a) Set up a database and populate it with about 10 records. Save it as \"Company\". (b) Implement a class program to read data from the company database and compute the following information: (i) Commission given to each Salesperson (ii) Total take home pay for each Salesperson (iii) Total amount of sales for the company (iv) Total salary paid by the company. Direct all outputs to a file named \"CompanySales\". (30 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1a",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Write a complete program using OOP paradigm to solve the below problems. Your program must accept a student biodata; names, age, sex and address and must perform the following operations: 1. Accept n number of courses and their scores for each student 2. Assign appropriate unit to each of the course entered. 3. Classify the scores according to the table below (A: 4 points, 70–100; B: 3, 60–69; C: 2, 50–59; D: 1, 45–49; E: 0, 0–44). Grade Point per course (GP) = unit*point; Total Weighted Grade Point (TWGP) = ΣGP; Total Number of Unit (TNU) = Σunits; Cumulative Grade Point Average (CGPA) = TWGP/TU. The value of CGPA shall be expressed correctly into two decimal place. (CGPA 3.5–4.00 First; 3.0–3.49 Second Class Upper; 2.0–2.99 Second Class Lower; 1.0–1.99 Third Class; <1.0 Fail.) Finally, generate the class. (15 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1b",
+      "topic": "data-types-variables-and-conversion",
+      "text": "Write a C# snippet that allow swapping of two array values? (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1c",
+      "topic": "programming-languages-and-csharp",
+      "text": "What is the meaning of this sentence \"Write Once Run Anywhere (WORA)\" (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1d",
+      "topic": "programming-languages-and-csharp",
+      "text": "What is an IDE and give 3 advantages of it (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "1e",
+      "topic": "decision-making-and-loops",
+      "text": "Consider the snippet below, what will be the ouput? int x = 20, y = 10; var result = x > y ? \"I know God loves me\" : \"I know programming can be simple\"; Console.WriteLine(result); (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Write a program that implements a resursive feature of OOP to to solve this problem: nCr = n!/(n − r)! r! (5 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2b",
+      "topic": "program-structure-and-syntax",
+      "text": "Give the parts of a complete C sharp structure and explain each (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2c",
+      "topic": "program-structure-and-syntax",
+      "text": "Consider the code:\n1 using System;\n2 namespace DeclaringConstants {\n3 class Program {\n4 static void Main(string[] args) {\n5 double total,average\n6 long breadth = Total + double(ave);\n7 }\n8 }\n9}\ni. List all the keywords in the code above (2 marks) ii. List all the variables in the code (2 marks) iii. List all syntax errors in the code (2 marks) iv. Why using System as first sentence? (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "2d",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Differentiate the scope of Protected and Public Access Specifiers in C# program (3 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3a",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Write C# snippets for the below formulas making the member variables of the code accessible only within the package. 1. y = 1/((v + V°)/2)t (2 marks) 2. y = v₀t + 1/2at³ (2 marks) 3. v = v₀²/t + 2aΔx (2 marks). Note, all your codes should start with comments explaining what the program is to do."
+    },
+    {
+      "year": "2020/2021",
+      "number": "3b",
+      "topic": "decision-making-and-loops",
+      "text": "Mention two main control structures of C# language and give syntax structure of each (2 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "3c",
+      "topic": "programming-languages-and-csharp",
+      "text": "Briefly explain the following: (i) Common Language Infrastucture (ii) Encapsulation (iii) Just-In-Time Compilation (iv) Common Language Runtime (8 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4a",
+      "topic": "decision-making-and-loops",
+      "text": "(i) Write a C# program to print the word(s) that appear at least three times in the sentence below. \"I know and I know if I can trust Him, He can save me from the impending doom if only I believe in Him\". (4 marks) (ii) Write a C# program to reverse the same sentence above (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4b",
+      "topic": "programming-languages-and-csharp",
+      "text": "What are the Similarities and differences between Java and C# (4 marks)"
+    },
+    {
+      "year": "2020/2021",
+      "number": "4c",
+      "topic": "data-types-variables-and-conversion",
+      "text": "Briefly explain the Type Conversion in C# with examples? (3 marks)"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "1",
+      "topic": "decision-making-and-loops",
+      "text": "Write a program to find the value of x in the formula x = n!/r! + n!"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "2",
+      "topic": "programming-languages-and-csharp",
+      "text": "Simply explain how C# became a cross platform programming language"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "3",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Differentiate between class, member methods and member variables"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "4",
+      "topic": "program-structure-and-syntax",
+      "text": "Write a program that implement this formula Δx = v₀t + 1/2at"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "5",
+      "topic": "decision-making-and-loops",
+      "text": "Mention the main control structures of C# language and give syntax structure of each"
+    },
+    {
+      "year": "2020/2021 test",
+      "number": "6",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Write C# programs using OOP paradigm to solve these following problems: a. PE = ½kL² b. 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃ + …"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q1a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Write a complete Java program that demonstrates the major characteristics of an object-oriented programming language in terms of polymorphism, encapsulation, abstraction and inheritance. Consider these different shapes as illustrated in the Figure (i). Write a Java program using OOP paradigm to implement the table below. You should ensure a superclass \"Shape\" has different subclasses to solve any area or perimeter of any of the shapes. (20 marks)\nCircle of radius 2: A = πr² = 12.5664; P = 2πr = 12.5664\nTriangle of side 2: A = (√3/4)s² = 1.7321; P = 3s = 6\nRectangle of length 2 and width 1: A = lw = 2; P = 2(l + w) = 6\nSquare of side 2: A = lw = 2 x 2 = 4; P = 2(l + w) = 8\nPentagon of side 2: A = (5/4)s²cot(π/5) = 6.8819; P = 5s = 10"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q1b",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Differentiate the characteristics of OOP implemented or mentioned in question 1(a) (10 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q2a",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Road Traffic Density: Method Math.random() produces a number with a uniform probability distribution in the range [0.0, 1.0]. This method is suitable for simulating random events if each outcome has an equal probability of occurring. However, in many events, the probability of occurrence is not equal for every event, and a uniform probability distribution is not suitable for simulating such events. For example, when traffic engineers studied the number of cars passing a given location in a time interval of length t, they discovered that the probability of k cars passing during the interval is given by the equation P(k, t) = e^(−γt)((γt)^k)/k! for t ≥ 0, γ > 0, and k = 0, 1, 2, … This probability distribution is known as the Poisson distribution, it occurs in many applications in science and engineering. For example, the number of calls k to a telephone switchboard in time interval t, the number of bacteria k in a specific volume t of liquid, and the number of failures k of a complicated system in time interval t all have Poisson distributions. Write a method to evaluate the Poisson distribution for any k, t and γ. Test your method by calculating the probability of 0, 1, 2, … 5 cars passing a particular point on a highway in 1 minute, given that γ is 1.6 per minute for that highway. (12 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q2b",
+      "topic": "data-types-variables-and-conversion",
+      "text": "State 3 rules that guide the formation of legal variables in Java (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q3a",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Dice Simulation: It is often useful to be able to simulate the throw of a fair die. Write a Java method dice() that simulates the throw of a fair dice by returning some random integer between 1 and 6 every time that it is called. (Hint: Call Math.random() to generate a random number. Divide the possible values out of Math.random() into six equal intervals, and return the number of the interval that a given random number falls into.) (12 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q3b",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Give a simple syntax of how a subclass inherits the properties of a superclass (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q4a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Write a Java class program that instantiates car models from a vehicle superclass. The cars are able to run at different speeds, while some can even fly. These cars are also distinguishable by the type of boot, tyres and shape. Ensure that the instance variables are encapsulated, and properties are inherited as appropriate. (12 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q4b",
+      "topic": "programming-languages-and-csharp",
+      "text": "What are strongly and loosely typed programming languages (3 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q5a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Write a Java program using a recursive algorithm to solve mathematical factorial (5 marks)"
+    },
+    {
+      "year": "2022/2023",
+      "number": "Q5b",
+      "topic": "program-structure-and-syntax",
+      "text": "Consider the code snippet below (as printed):\n1. public class PMatrix\n2. {\n3.   public static void main(String[] args) {\n4.     int row1, coll, row2, col2;\n5.     //Initialize matrix a\n6.     int a[] = {\n7.       {1, 3, 2},\n8.       {3, 1, 1},\n9.       {1, 2, 2}\n10.    };\n11.\n12.    //Initialize matrix b\n13.    int b[] = {\n14.      {2, 1, 1},\n15.      {1, 0, 1},\n16.      {1, 3, 1}\n17.    };\n18.    ……………………\n19.    for(int i = 0; i < row1; i++){\n20.      for(int j = 0; j < col2 j++){\n21.        for(int k = 0; k < row2; k++){\n22.          prod[i][j] = prod[i][j] + a[i][k] * b[k][j]:\n23.        }\n24.      }\n25.    }\n26.    System.out.println(\"Product of two matrices: \");\n27.    for(int i = 0; i < row1; i++){\n28.      for(int j = 0; j < col2; j++){\n29.        System.out.print(prod[i][k] \" \");\n30.      }\n31.      System.out.println();\n32.    }\n33.  }\n34. }\n35. }\n(a) Identify the five syntax errors in the Java code snippet. Note that you are not asked to add a new line of code. (5 marks) (b) What will be the output of this Java code snippet (5 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1a",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Explain the different types of access modifiers (public, private, protected, and default) and their impact on class, method, and variable visibility. (9 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1b",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "(i) Write a class Student with the following private properties: name, age, and grade. (3 Marks) (ii) Implement two constructors: one that initializes all properties and another that initializes only name and age. (4 Marks) (iii) Also, provide getter and setter methods to access and modify the grade of the student. (6 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1c",
+      "topic": "decision-making-and-loops",
+      "text": "There is obviously a bug in the code.\npublic class DebugTest2 {\n  public static void main(String[] args) {\n    int i = 0;\n    while (i < 10) {\n      System.out.println(i);\n      // missing statement here\n    }\n  }\n}\nState what the issue is? (2 Marks) Fix the issue so that it correctly prints numbers from 0 to 9. (4 marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "1d",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Describe method overriding and how it is used in inheritance. (2 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Write a Java program that demonstrates inheritance. Create a superclass Employee with properties like name and salary, and a subclass Manager that adds a new property department. The Manager class should override a method printDetails() to display additional details. (5 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2b",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Design a student management system using Object-Oriented Programming principles. The system should manage student information, courses, and results. Explain how you would implement the following: A Student class with fields like studentID, name, and coursesEnrolled. (1 Mark) A Course class with fields like courseName and courseCode. (1 Mark) A Result class to store student grades for each course. (1 Mark) How to model relationships like a student enrolling in multiple courses and receiving results. (2 Marks) Provide relevant code snippets for your class designs and discuss how inheritance, encapsulation, and polymorphism are applied in the system. (2 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "2c",
+      "topic": "decision-making-and-loops",
+      "text": "Identify the error in the if statement and explain why it occurs. Fix the code to print the correct message.\npublic class DebugTest4 {\n  public static void main(String[] args) {\n    int score = 85;\n    if (score = 100) {\n      System.out.println(\"Perfect score!\");\n    } else {\n      System.out.println(\"Good job!\");\n    }\n  }\n}\n(3 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3a",
+      "topic": "decision-making-and-loops",
+      "text": "Write a for loop that prints numbers from 1 to 10. (2 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3b",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Write a Java program that simulates a simple banking system. Your program should include: A BankAccount class with fields like accountNumber, accountHolderName, and balance. Methods for deposit(), withdraw(), and checkBalance(). Implement input handling to allow the user to interact with the banking system and perform these operations. (8 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "3c",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Assume you are tasked with developing a Library Management System. Describe how you would apply the principles of OOP (like inheritance, polymorphism, encapsulation, etc.) in designing the classes for Book, Member, Librarian, and Transaction. (3 Marks) Discuss how you would ensure data integrity and flexibility in the system. (2 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4a",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Define an abstract class Shape with an abstract method calculateArea(). Then, create two subclasses Circle and Rectangle, each implementing the calculateArea() method. Write a program that asks the user to input values and calculates the area of a circle and a rectangle. (8 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4b",
+      "topic": "decision-making-and-loops",
+      "text": "Compare the usage of break and continue statements in loops. (2 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4c",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Explain why the program fails to compile and modify the function to calculate the factorial correctly.\npublic class DebugTest9 {\n  public static int factorial(int n) {\n    if (n == 0) {\n      return 1;\n    }\n    factorial(n - 1);\n  }\n  public static void main(String[] args) {\n    System.out.println(factorial(5));\n  }\n}\n(3 Marks)"
+    },
+    {
+      "year": "2023/2024",
+      "number": "4d",
+      "topic": "data-types-variables-and-conversion",
+      "text": "List and describe different types of operators in Java (e.g., arithmetic, relational, logical, etc.). (2 Marks)"
+    },
+    {
+      "year": "Test (undated)",
+      "number": "1",
+      "topic": "classes-encapsulation-and-methods",
+      "text": "Define and differentiate between a Class and an Object in Object-Oriented Programming (OOP). Provide examples to illustrate your explanation."
+    },
+    {
+      "year": "Test (undated)",
+      "number": "2",
+      "topic": "decision-making-and-loops",
+      "text": "In the context of Java, explain the significance of the last statement within the parenthesis of a for loop (e.g., j = j − 2). How does it influence the loop's execution?"
+    },
+    {
+      "year": "Test (undated)",
+      "number": "3",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Compare and contrast a Class with an Abstract Class in Java. What are the key differences, and when would you use each?"
+    },
+    {
+      "year": "Test (undated)",
+      "number": "4",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "Describe two major principles of Object-Oriented Programming (OOP). How do these principles influence the design and structure of software?"
+    },
+    {
+      "year": "Test (undated)",
+      "number": "5",
+      "topic": "programming-languages-and-csharp",
+      "text": "In your own words, explain why you believe Object-Oriented Programming (OOP) is a more effective paradigm compared to other programming paradigms. Provide examples or scenarios to support your view."
+    },
+    {
+      "year": "2024/2025",
+      "number": "A1",
+      "topic": "decision-making-and-loops",
+      "text": "Write a Java Program that accepts an expression as string, computes the expression and gives the result of the computation. Let the allowed operators be any or all the following: a. Addition (+), b. Subtraction (−) c. Multiplication (*) d. Division (/) e. Bracket (()). Let it follow the BODMAS rule. (15 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "A2",
+      "topic": "decision-making-and-loops",
+      "text": "Write a Java Program that calculates the first n Fibonacci Numbers. (0 1 1 2 3 5 8 13) a. The value of n should be input at run time (15 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "B1",
+      "topic": "programming-languages-and-csharp",
+      "text": "a. Evaluate how the principles of object-oriented programming address the limitations of procedural programming in designing complex and scalable software systems. (5 marks) b. Critically discuss the role of the Java Virtual Machine (JVM) in enabling Java's \"Write Once, Run Anywhere\" principle. What are the trade-offs in terms of performance and platform-specific optimizations? (5 marks) c. Examine how Java's strict type system and memory management (e.g., garbage collection) contribute to the robustness and security of enterprise applications, especially when compared to C++. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "B2",
+      "topic": "data-types-variables-and-conversion",
+      "text": "a. Differentiate between primitive and reference data types in Java with respect to memory allocation, data access, and performance. How do these differences influence algorithm design in high-performance applications? (5 marks) b. Examine how Java's object referencing model supports dynamic memory management and polymorphism. What are the potential drawbacks of reference-based access in systems that require real-time performance? (5 marks) c. Critically analyze how the scope and lifetime of variables affect program correctness and reliability in large-scale systems. Use examples to illustrate how poor scope management can lead to bugs or security vulnerabilities. (5 marks)"
+    },
+    {
+      "year": "2024/2025",
+      "number": "B3",
+      "topic": "constructors-inheritance-and-polymorphism",
+      "text": "a. Analyze how constructors support controlled object creation in Java. How do default and parameterized constructors differ in functionality and design usage? (5 marks) b. Evaluate the role of access modifiers (private, public, protected, default) in enforcing encapsulation and controlling object visibility. (5 marks) c. Discuss how the use of compound assignment operators and increment/decrement operators can impact both code readability and performance, particularly in loops and real-time systems. (5 marks)"
+    }
+  ]
+}

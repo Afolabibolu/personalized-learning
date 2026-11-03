@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "According to Fafunwa, the main guiding principle of African education is",
+    "options": [
+      {
+        "key": "a",
+        "text": "functionalism"
+      },
+      {
+        "key": "b",
+        "text": "tradition"
+      },
+      {
+        "key": "c",
+        "text": "transmission"
+      },
+      {
+        "key": "d",
+        "text": "tribalism"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Education was a means to an end.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The primary objective of traditional education is",
+    "options": [
+      {
+        "key": "a",
+        "text": "character training"
+      },
+      {
+        "key": "b",
+        "text": "physical training"
+      },
+      {
+        "key": "c",
+        "text": "vocational training"
+      },
+      {
+        "key": "d",
+        "text": "intellectual training"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "A child without morals is called a child without education.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The use of proverbs enhances a child's ___ development.",
+    "options": [
+      {
+        "key": "a",
+        "text": "intellectual"
+      },
+      {
+        "key": "b",
+        "text": "physical"
+      },
+      {
+        "key": "c",
+        "text": "moral only"
+      },
+      {
+        "key": "d",
+        "text": "psychological"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Every child is expected to master the people's proverbs.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "Imitating a role model is an indirect method of learning.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Learning is through observation, imitation and participation.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are among Fafunwa's seven objectives of traditional education?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To develop character"
+      },
+      {
+        "key": "b",
+        "text": "To inculcate respect for elders"
+      },
+      {
+        "key": "c",
+        "text": "To develop a healthy attitude towards honest labour"
+      },
+      {
+        "key": "d",
+        "text": "To pass a written examination"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Traditional education had no written examinations.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method of learning in traditional education?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Observation"
+      },
+      {
+        "key": "b",
+        "text": "Imitation"
+      },
+      {
+        "key": "c",
+        "text": "Participation"
+      },
+      {
+        "key": "d",
+        "text": "Correspondence courses"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Correspondence courses are a modern method.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The child's first agent of socialisation is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "mother"
+      },
+      {
+        "key": "b",
+        "text": "school"
+      },
+      {
+        "key": "c",
+        "text": "peer group"
+      },
+      {
+        "key": "d",
+        "text": "chief"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The home, with the mother first, is the major agent.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  },
+  {
+    "format": "true_false",
+    "stem": "In traditional Africa, an educated man combined good character with a specific skill.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "He was 'a warrior, a hunter, a nobleman and a man of character'.",
+    "source": "GES 102 AFRICAN CULTURES AND CIVILISATION.pdf (the GES 102 textbook, Muritala and Adesina, eds., 2019), Chapter 5"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "code": "CSC 235",
+  "topics": {
+    "programming-languages-and-csharp": [
+      {
+        "title": "Video: C# Tutorial For Beginners - Learn C# Basics in 1 Hour (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "source": "links.csv"
+      }
+    ],
+    "program-structure-and-syntax": [
+      {
+        "title": "Video: Learn C#: Namespaces (Covalence)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mw254_XAnGU",
+        "source": "links.csv"
+      }
+    ],
+    "data-types-variables-and-conversion": [
+      {
+        "title": "Video: 3: How To Create Variables In C# | Data Types In C# | C# Tutorial For Beginners | C Sharp Tutorial (Dani Krossing)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_D-HCF3jZKk",
+        "source": "links.csv"
+      }
+    ],
+    "decision-making-and-loops": [
+      {
+        "title": "Video: 10: Conditional Statements In C# | If, Else if, Else | C# Tutorial For Beginners | C Sharp Tutorial (Dani Krossing)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IzzNzSXkCMM",
+        "source": "links.csv"
+      }
+    ],
+    "classes-encapsulation-and-methods": [
+      {
+        "title": "Video: C# Classes Tutorial | Mosh (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZqDtPFrUonQ",
+        "source": "links.csv"
+      }
+    ],
+    "constructors-inheritance-and-polymorphism": [
+      {
+        "title": "Video: C# Constructors Tutorial | Mosh (Programming with Mosh)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q7aWkjH3UUI",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

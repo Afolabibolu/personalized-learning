@@ -1,0 +1,61 @@
+{
+  "code": "PHY 101",
+  "topics": {
+    "units-dimensions-and-useful-mathematics": [
+      {
+        "title": "Video: Phys 101 - Lecture 1 - Units and Dimensions (Glendale Physics)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=TKNqIU5P3As",
+        "source": "links.csv"
+      }
+    ],
+    "vectors": [
+      {
+        "title": "Video: Vectors - Basic Introduction - Physics (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EwSHKuSxX_8",
+        "source": "links.csv"
+      }
+    ],
+    "kinematics-and-projectiles": [
+      {
+        "title": "Video: Introduction to Projectile Motion - Formulas and Equations (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8NLzuURxFwY",
+        "source": "links.csv"
+      }
+    ],
+    "newtons-laws-friction-and-circular-motion": [
+      {
+        "title": "Video: Newton's Law of Motion - First, Second & Third - Physics (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=g550H4e5FCY",
+        "source": "links.csv"
+      }
+    ],
+    "gravitation": [
+      {
+        "title": "Video: Newton's Law of Universal Gravitation (Professor Dave Explains)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kxkFaBG6a-A",
+        "source": "links.csv"
+      }
+    ],
+    "work-energy-and-rotating-bodies": [
+      {
+        "title": "Video: Work, Energy, and Power - Basic Introduction (The Organic Chemistry Tutor)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_MR1Dp8-F8w",
+        "source": "links.csv"
+      }
+    ],
+    "shm-elasticity-and-liquids": [
+      {
+        "title": "Video: Simple harmonic motion and elasticity (DMACC PHYSICS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AfMtQNeWK00",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

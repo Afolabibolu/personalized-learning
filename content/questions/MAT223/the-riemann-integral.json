@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "If Q is a refinement of partition P, which inequality holds?",
+    "options": [
+      {
+        "key": "a",
+        "text": "L(f, P) ≤ L(f, Q) ≤ U(f, Q) ≤ U(f, P)"
+      },
+      {
+        "key": "b",
+        "text": "U(f, Q) ≥ U(f, P)"
+      },
+      {
+        "key": "c",
+        "text": "L(f, Q) ≤ L(f, P)"
+      },
+      {
+        "key": "d",
+        "text": "L(f, Q) = U(f, P)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Refining tightens both sums.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is ∫ from 1 to 4 of x² dx?",
+    "options": [
+      {
+        "key": "a",
+        "text": "21"
+      },
+      {
+        "key": "b",
+        "text": "15"
+      },
+      {
+        "key": "c",
+        "text": "64/3"
+      },
+      {
+        "key": "d",
+        "text": "7"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(4³ − 1³)/3 = 63/3.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The Darboux criterion says f is integrable if and only if for every ε > 0 there is a partition P with",
+    "options": [
+      {
+        "key": "a",
+        "text": "U(f, P) − L(f, P) < ε"
+      },
+      {
+        "key": "b",
+        "text": "U(f, P) = 0"
+      },
+      {
+        "key": "c",
+        "text": "L(f, P) > ε"
+      },
+      {
+        "key": "d",
+        "text": "||P|| > ε"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Upper and lower sums can be made close.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For f(x) = 1 on [0, 2) and 2 on [2, 3], what is ∫ from 0 to 3 of f?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4"
+      },
+      {
+        "key": "b",
+        "text": "5"
+      },
+      {
+        "key": "c",
+        "text": "3"
+      },
+      {
+        "key": "d",
+        "text": "6"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2 × 1 + 1 × 2; one point does not matter.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The function equal to 0 on rationals and 1 on irrationals is Riemann integrable on [0, 1].",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Every lower sum is 0 and every upper sum is 1.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Riemann integrable function on [a, b] must be bounded.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Upper and lower sums need finite sups and infs.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which functions on [a, b] are always Riemann integrable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Continuous functions"
+      },
+      {
+        "key": "b",
+        "text": "Monotone functions"
+      },
+      {
+        "key": "c",
+        "text": "Bounded functions with finitely many discontinuities"
+      },
+      {
+        "key": "d",
+        "text": "Unbounded functions"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Unbounded functions are not Riemann integrable.",
+    "source": "General knowledge of MAT 223"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a property of the Riemann integral in this course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Inequality rule"
+      },
+      {
+        "key": "b",
+        "text": "Triangle inequality"
+      },
+      {
+        "key": "c",
+        "text": "Additivity over intervals"
+      },
+      {
+        "key": "d",
+        "text": "Every function is integrable"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The rational-irrational function is not.",
+    "source": "General knowledge of MAT 223"
+  }
+]

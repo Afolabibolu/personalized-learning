@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Value type variables",
+    "options": [
+      {
+        "key": "a",
+        "text": "directly contain their data"
+      },
+      {
+        "key": "b",
+        "text": "store a reference to another location"
+      },
+      {
+        "key": "c",
+        "text": "can only hold strings"
+      },
+      {
+        "key": "d",
+        "text": "are checked at run time"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They derive from System.ValueType.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are built-in reference types in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "object"
+      },
+      {
+        "key": "b",
+        "text": "dynamic"
+      },
+      {
+        "key": "c",
+        "text": "string"
+      },
+      {
+        "key": "d",
+        "text": "int"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "int is a value type.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Converting a value type to the object type is called",
+    "options": [
+      {
+        "key": "a",
+        "text": "boxing"
+      },
+      {
+        "key": "b",
+        "text": "unboxing"
+      },
+      {
+        "key": "c",
+        "text": "casting down"
+      },
+      {
+        "key": "d",
+        "text": "parsing"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Converting it back is unboxing.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "Type checking for dynamic variables happens at run time.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "For object variables it happens at compile time.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does `int i = (int)5673.74;` store in i?",
+    "options": [
+      {
+        "key": "a",
+        "text": "5673"
+      },
+      {
+        "key": "b",
+        "text": "5674"
+      },
+      {
+        "key": "c",
+        "text": "5673.74"
+      },
+      {
+        "key": "d",
+        "text": "An error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "An explicit cast to int drops the fractional part.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "An implicit conversion from int to long is type-safe.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "A long can hold any value an int can hold.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a value type?",
+    "options": [
+      {
+        "key": "a",
+        "text": "bool"
+      },
+      {
+        "key": "b",
+        "text": "char"
+      },
+      {
+        "key": "c",
+        "text": "decimal"
+      },
+      {
+        "key": "d",
+        "text": "string"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "string is a reference type, an alias for System.String.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the default value of a bool in C#?",
+    "options": [
+      {
+        "key": "a",
+        "text": "False"
+      },
+      {
+        "key": "b",
+        "text": "True"
+      },
+      {
+        "key": "c",
+        "text": "0.0"
+      },
+      {
+        "key": "d",
+        "text": "null"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The value type table lists False as the default.",
+    "source": "Introduction to C# Programming Language, weeks 5-10 slides"
+  }
+]

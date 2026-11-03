@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "In how many ways can 2 boys and 1 girl be chosen from 5 boys and 10 girls?",
+    "options": [
+      {
+        "key": "a",
+        "text": "100"
+      },
+      {
+        "key": "b",
+        "text": "15"
+      },
+      {
+        "key": "c",
+        "text": "50"
+      },
+      {
+        "key": "d",
+        "text": "450"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "5C2 × 10C1 = 10 × 10.",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The number of ways of arranging n different objects in a circle is",
+    "options": [
+      {
+        "key": "a",
+        "text": "(n − 1)!"
+      },
+      {
+        "key": "b",
+        "text": "n!"
+      },
+      {
+        "key": "c",
+        "text": "nⁿ"
+      },
+      {
+        "key": "d",
+        "text": "n!/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "One object's position is fixed.",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The coefficient of x² in (x²/3 − 2/x³)⁶ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "20/27"
+      },
+      {
+        "key": "b",
+        "text": "15/81"
+      },
+      {
+        "key": "c",
+        "text": "−20/27"
+      },
+      {
+        "key": "d",
+        "text": "4/9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "r = 2: 15 × (1/81) × 4 = 60/81.",
+    "source": "MAT 111 Lecture 8: Binomial Theorem (Sangodapo)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In how many ways can 12 people be divided into groups of 3, 4 and 5?",
+    "options": [
+      {
+        "key": "a",
+        "text": "27720"
+      },
+      {
+        "key": "b",
+        "text": "792"
+      },
+      {
+        "key": "c",
+        "text": "495"
+      },
+      {
+        "key": "d",
+        "text": "479001600"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "12!/(3!4!5!).",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The expansion of (x + y)ⁿ has one middle term when n is even.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "There are n + 1 terms, an odd number.",
+    "source": "MAT 111 Lecture 8: Binomial Theorem (Sangodapo)"
+  },
+  {
+    "format": "true_false",
+    "stem": "nCr = nCn−r for 0 ≤ r ≤ n.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Choosing r to keep is choosing n − r to leave.",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are correct counting formulas from the lecture?",
+    "options": [
+      {
+        "key": "a",
+        "text": "nPr = n!/(n − r)!"
+      },
+      {
+        "key": "b",
+        "text": "Arrangements with repetition: nʳ"
+      },
+      {
+        "key": "c",
+        "text": "Alike objects: n!/(r₁!r₂!...)"
+      },
+      {
+        "key": "d",
+        "text": "Circular arrangements: (n + 1)!"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Circular arrangements number (n − 1)!.",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which task is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Arranging books on a shelf"
+      },
+      {
+        "key": "b",
+        "text": "Seating people in a row"
+      },
+      {
+        "key": "c",
+        "text": "Forming four-figure numbers from digits"
+      },
+      {
+        "key": "d",
+        "text": "Choosing a committee of 5"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A committee is a combination; the others are permutations.",
+    "source": "MAT 111 Lecture 7: Permutations and Combinations (Sangodapo)"
+  }
+]

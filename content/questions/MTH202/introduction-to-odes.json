@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is the order and degree of (d²w/dx²)³ − xy dw/dx + w = 0?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Order 2, degree 3"
+      },
+      {
+        "key": "b",
+        "text": "Order 3, degree 2"
+      },
+      {
+        "key": "c",
+        "text": "Order 2, degree 1"
+      },
+      {
+        "key": "d",
+        "text": "Order 1, degree 3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The highest derivative is second order, cubed.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The general solution of an nth-order ODE contains how many arbitrary constants?",
+    "options": [
+      {
+        "key": "a",
+        "text": "n"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "n + 1"
+      },
+      {
+        "key": "d",
+        "text": "2n"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Initial conditions fix them.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If a population doubles in 50 years with growth proportional to its size, roughly when does it triple?",
+    "options": [
+      {
+        "key": "a",
+        "text": "About 79 years"
+      },
+      {
+        "key": "b",
+        "text": "75 years"
+      },
+      {
+        "key": "c",
+        "text": "100 years"
+      },
+      {
+        "key": "d",
+        "text": "150 years"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "t = 50 ln 3 / ln 2.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Eliminating A and B from y = −A sin ax + B cos ax gives",
+    "options": [
+      {
+        "key": "a",
+        "text": "y'' + a²y = 0"
+      },
+      {
+        "key": "b",
+        "text": "y'' − a²y = 0"
+      },
+      {
+        "key": "c",
+        "text": "y' + ay = 0"
+      },
+      {
+        "key": "d",
+        "text": "y'' = a"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Differentiate twice.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "An ODE involves derivatives with respect to only one independent variable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Several independent variables give a PDE.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "dy/dx = y² is a linear differential equation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "y appears to the second power.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which equations are linear?",
+    "options": [
+      {
+        "key": "a",
+        "text": "dy/dx = cos x"
+      },
+      {
+        "key": "b",
+        "text": "d²y/dx² + k²y = 0"
+      },
+      {
+        "key": "c",
+        "text": "y'' − y' − 6y = 0"
+      },
+      {
+        "key": "d",
+        "text": "y·y' = x"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "y·y' is a product of y and its derivative.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not an application modelled by dy/dt = ky in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Population growth"
+      },
+      {
+        "key": "b",
+        "text": "Radioactive decay"
+      },
+      {
+        "key": "c",
+        "text": "Newton's law of cooling"
+      },
+      {
+        "key": "d",
+        "text": "Sorting a list"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The others are exponential growth or decay models.",
+    "source": "MAT 241 past papers"
+  }
+]

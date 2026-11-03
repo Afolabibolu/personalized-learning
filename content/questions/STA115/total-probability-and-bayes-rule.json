@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Supplier A gives 55% of batteries (5% defective) and B the rest (4% defective). P(a battery works) is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.9545"
+      },
+      {
+        "key": "b",
+        "text": "0.0455"
+      },
+      {
+        "key": "c",
+        "text": "0.955"
+      },
+      {
+        "key": "d",
+        "text": "0.91"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 − (0.0275 + 0.018).",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the three-basket example, the probability that one red and one white ball came from B₂ is",
+    "options": [
+      {
+        "key": "a",
+        "text": "6/11"
+      },
+      {
+        "key": "b",
+        "text": "2/11"
+      },
+      {
+        "key": "c",
+        "text": "3/11"
+      },
+      {
+        "key": "d",
+        "text": "1/3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "(2/15)/(11/45).",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the Monty Hall problem, the probability of winning by switching doors is",
+    "options": [
+      {
+        "key": "a",
+        "text": "2/3"
+      },
+      {
+        "key": "b",
+        "text": "1/3"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "1"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "P(D₂ | O₃) = 2/3.",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Suppliers I, II and III supply 35%, 25% and 40% with 2%, 1% and 3% defective. P(supplier III | defective) is about",
+    "options": [
+      {
+        "key": "a",
+        "text": "0.558"
+      },
+      {
+        "key": "b",
+        "text": "0.40"
+      },
+      {
+        "key": "c",
+        "text": "0.03"
+      },
+      {
+        "key": "d",
+        "text": "0.326"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.012/0.0215.",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The law of total probability needs events F₁, ..., Fₙ that are mutually exclusive and cover the sample space.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "They must form a partition.",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "true_false",
+    "stem": "P(A | B) always equals P(B | A).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Bayes' rule shows they differ unless P(A) = P(B).",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "In Bayes' rule, which terms are named correctly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "P(Fᵢ) is the prior"
+      },
+      {
+        "key": "b",
+        "text": "P(E | Fᵢ) is the likelihood"
+      },
+      {
+        "key": "c",
+        "text": "P(Fᵢ | E) is the posterior"
+      },
+      {
+        "key": "d",
+        "text": "P(E) is the sample variance"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "P(E) is the total (marginal) probability.",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which quantity does not belong in Bayes' rule?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Prior probability"
+      },
+      {
+        "key": "b",
+        "text": "Likelihood"
+      },
+      {
+        "key": "c",
+        "text": "Posterior probability"
+      },
+      {
+        "key": "d",
+        "text": "Class mark"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "A class mark belongs to frequency tables.",
+    "source": "STA 115 Lecture 3: The Law of Total Probability and Bayes' Rule (Shittu, 2021 and 2023)"
+  }
+]

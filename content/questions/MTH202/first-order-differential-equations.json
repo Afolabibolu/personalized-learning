@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "M dx + N dy = 0 is exact if and only if",
+    "options": [
+      {
+        "key": "a",
+        "text": "∂M/∂y = ∂N/∂x"
+      },
+      {
+        "key": "b",
+        "text": "∂M/∂x = ∂N/∂y"
+      },
+      {
+        "key": "c",
+        "text": "M = N"
+      },
+      {
+        "key": "d",
+        "text": "M + N = 0"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the test for exactness.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which substitution solves a homogeneous first-order equation?",
+    "options": [
+      {
+        "key": "a",
+        "text": "y = vx"
+      },
+      {
+        "key": "b",
+        "text": "v = y^(1−n)"
+      },
+      {
+        "key": "c",
+        "text": "y = e^(mx)"
+      },
+      {
+        "key": "d",
+        "text": "x = sin t"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It makes the equation separable.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the integrating factor of dy/dx + y cot x = cos x?",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin x"
+      },
+      {
+        "key": "b",
+        "text": "cos x"
+      },
+      {
+        "key": "c",
+        "text": "e^x"
+      },
+      {
+        "key": "d",
+        "text": "cot x"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "e^(∫cot x dx) = sin x.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A Bernoulli equation dy/dx + Py = Qyⁿ is made linear by substituting",
+    "options": [
+      {
+        "key": "a",
+        "text": "v = y^(1−n)"
+      },
+      {
+        "key": "b",
+        "text": "y = vx"
+      },
+      {
+        "key": "c",
+        "text": "v = yⁿ"
+      },
+      {
+        "key": "d",
+        "text": "y = x + c"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Divide by yⁿ first.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "true_false",
+    "stem": "3x(xy − 2) dx + (x³ + 2y) dy = 0 is an exact equation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "∂M/∂y = 3x² = ∂N/∂x.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The integrating factor of dy/dx + P(x)y = Q(x) is e^(∫Q dx).",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It is e^(∫P dx).",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are types of first-order equation in Chapter 3?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Homogeneous"
+      },
+      {
+        "key": "b",
+        "text": "Exact"
+      },
+      {
+        "key": "c",
+        "text": "Bernoulli"
+      },
+      {
+        "key": "d",
+        "text": "Auxiliary"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The auxiliary equation belongs to higher-order linear ODEs.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method for first-order equations in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Separation of variables"
+      },
+      {
+        "key": "b",
+        "text": "The substitution y = vx"
+      },
+      {
+        "key": "c",
+        "text": "Integrating factors"
+      },
+      {
+        "key": "d",
+        "text": "Simpson's rule"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Simpson's rule is numerical integration.",
+    "source": "MAT 241 class slides (A. O. Akeju)"
+  }
+]

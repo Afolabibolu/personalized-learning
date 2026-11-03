@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which loop always executes its body at least once?",
+    "options": [
+      {
+        "key": "a",
+        "text": "do-while"
+      },
+      {
+        "key": "b",
+        "text": "while"
+      },
+      {
+        "key": "c",
+        "text": "for"
+      },
+      {
+        "key": "d",
+        "text": "enhanced for"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Its condition is checked after the body.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which loop is best when the number of repetitions is known in advance?",
+    "options": [
+      {
+        "key": "a",
+        "text": "for"
+      },
+      {
+        "key": "b",
+        "text": "do-while"
+      },
+      {
+        "key": "c",
+        "text": "while with a sentinel"
+      },
+      {
+        "key": "d",
+        "text": "switch"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "for has initialisation, condition and update.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does this print: for (int i = 1; i <= 10; i++) { if (i == 5) break; System.out.print(i + \" \"); }",
+    "options": [
+      {
+        "key": "a",
+        "text": "1 2 3 4"
+      },
+      {
+        "key": "b",
+        "text": "1 2 3 4 5"
+      },
+      {
+        "key": "c",
+        "text": "5"
+      },
+      {
+        "key": "d",
+        "text": "1 3 5 7 9"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "break exits the loop at 5.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does continue do inside a loop?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Skips the rest of the current iteration"
+      },
+      {
+        "key": "b",
+        "text": "Exits the loop entirely"
+      },
+      {
+        "key": "c",
+        "text": "Restarts the program"
+      },
+      {
+        "key": "d",
+        "text": "Ends the method"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It jumps to the next iteration.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "A while loop checks its condition before each iteration.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So it may run zero times.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "After for (int i = 1; i <= 10; i++) sum += i; starting from sum = 0, sum equals 55.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "1 + 2 + ... + 10 = 55.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Java loop types covered in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "for"
+      },
+      {
+        "key": "b",
+        "text": "while"
+      },
+      {
+        "key": "c",
+        "text": "do-while"
+      },
+      {
+        "key": "d",
+        "text": "switch"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "switch is selection.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a loop control or looping statement?",
+    "options": [
+      {
+        "key": "a",
+        "text": "break"
+      },
+      {
+        "key": "b",
+        "text": "continue"
+      },
+      {
+        "key": "c",
+        "text": "for-each"
+      },
+      {
+        "key": "d",
+        "text": "case"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "case labels belong to switch.",
+    "source": "cos201_weeks3to6.pdf"
+  }
+]

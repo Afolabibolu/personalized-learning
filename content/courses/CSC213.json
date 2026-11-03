@@ -1,0 +1,93 @@
+{
+  "code": "CSC 213",
+  "title": "Digital Logic Design",
+  "semester": 1,
+  "description": "Circuit theory (Kirchhoff's laws, Thevenin's and Norton's theorems), semiconductors, diodes and transistors, logic families and logic gates, combinational logic and the standard SOP and POS forms, minimisation with Boolean algebra, Karnaugh maps and the Quine-McCluskey method, standard combinational circuits, and sequential circuits, registers, counters, computer codes and error detection. Built from the CSC 213 course book (Digital Logic Design, Nancy C. Woods) and the lecture slides in the course folder.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "circuit-theory",
+      "title": "Basic Circuit Theory",
+      "summary": "An electric circuit is a closed loop through which current can flow, analysed with Ohm's law and Kirchhoff's current and voltage laws. Thevenin's and Norton's theorems reduce any linear circuit to a single source with one resistance.",
+      "subtopics": [
+        "Electric circuits, symbols and units",
+        "Kirchhoff's current law (conservation of charge)",
+        "Kirchhoff's voltage law (conservation of energy)",
+        "Thevenin's theorem",
+        "Norton's theorem"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "semiconductors-and-transistors",
+      "title": "Semiconductors, Diodes and Transistors",
+      "summary": "Semiconductors have conductivity between conductors and insulators; doping makes N-type and P-type material, and a P-N junction makes a diode. Transistors are three-terminal devices: the current-operated BJT and the voltage-operated FET.",
+      "subtopics": [
+        "Intrinsic semiconductors and recombination",
+        "Doping: N-type and P-type",
+        "The P-N junction, depletion region and biasing",
+        "Diodes and their types",
+        "Bipolar junction transistors and the transistor as a switch",
+        "Field effect transistors: JFET and MOSFET"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "logic-families-and-gates",
+      "title": "Logic Families and Logic Gates",
+      "summary": "Integrated circuits are grouped by scale of integration and into logic families, mainly TTL and CMOS, compared by voltage levels, noise margin, propagation delay and fan-out. Logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) are the building blocks of digital circuits; NAND and NOR are universal.",
+      "subtopics": [
+        "Scales of integration: SSI to ULSI and SoC",
+        "Bipolar and unipolar logic families",
+        "Noise immunity, noise margin, propagation delay and fan-out",
+        "TTL and CMOS compared",
+        "The basic logic gates and their truth tables",
+        "Universal gates"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "combinational-logic-and-standard-forms",
+      "title": "Combinational Logic and Standard Forms",
+      "summary": "A combinational logic circuit's output depends only on its present inputs; it is specified by a truth table, a Boolean expression or a logic diagram. Standard forms are the sum of products (SOP) and product of sums (POS), with minterms and maxterms in the fundamental (canonical) forms.",
+      "subtopics": [
+        "Combinational logic circuits",
+        "Truth tables: 2ⁿ input combinations",
+        "Boolean expressions and operator precedence",
+        "Logic circuit diagrams and evaluating outputs",
+        "Product terms and sum of products",
+        "Fundamental SOP, minterms, POS and maxterms"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "minimisation-and-standard-circuits",
+      "title": "Minimisation and Standard Combinational Circuits",
+      "summary": "Boolean algebra, Karnaugh maps and the Quine-McCluskey method reduce a switching function to fewer gates. Standard combinational circuits include half and full adders, ripple carry adders, multiplexers, demultiplexers, encoders and decoders.",
+      "subtopics": [
+        "Laws of Boolean algebra",
+        "Karnaugh maps and grouping adjacent cells",
+        "The Quine-McCluskey method",
+        "Half adder, full adder and ripple carry adder",
+        "Multiplexers and demultiplexers",
+        "Encoders, priority encoders and decoders"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "sequential-circuits-and-codes",
+      "title": "Sequential Circuits, Counters, Codes and Error Detection",
+      "summary": "Sequential circuits have memory: their outputs depend on present and past inputs. Flip-flops form registers and counters; computer codes such as BCD, Excess-3 and Gray represent data, and parity and Hamming codes detect and correct transmission errors.",
+      "subtopics": [
+        "Sequential circuits and bistables",
+        "SR and JK flip-flops",
+        "Shift registers: SISO, SIPO, PISO and PIPO",
+        "Asynchronous and synchronous counters; modulus",
+        "Weighted and non-weighted codes: BCD, Excess-3 and Gray",
+        "Parity and Hamming codes"
+      ],
+      "lectures": []
+    }
+  ]
+}

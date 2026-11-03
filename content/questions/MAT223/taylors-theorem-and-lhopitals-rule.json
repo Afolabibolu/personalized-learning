@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Using Taylor's theorem with n = 2, √1.2 is approximately",
+    "options": [
+      {
+        "key": "a",
+        "text": "1.095"
+      },
+      {
+        "key": "b",
+        "text": "1.1"
+      },
+      {
+        "key": "c",
+        "text": "1.2"
+      },
+      {
+        "key": "d",
+        "text": "1.05"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "1 + 0.1 − 0.005.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For g(x) = 1/(x + 1), what is g'''(0)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "−6"
+      },
+      {
+        "key": "b",
+        "text": "6"
+      },
+      {
+        "key": "c",
+        "text": "−2"
+      },
+      {
+        "key": "d",
+        "text": "2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "g'''(x) = −6/(x + 1)⁴.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is lim as x → 0 of (1 − cos x)/x?",
+    "options": [
+      {
+        "key": "a",
+        "text": "0"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "1/2"
+      },
+      {
+        "key": "d",
+        "text": "∞"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "L'Hopital gives sin x → 0.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is lim as x → 2 of (x³ − x² − x − 2)/(x³ − 3x² + 3x − 2)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "7/3"
+      },
+      {
+        "key": "b",
+        "text": "1"
+      },
+      {
+        "key": "c",
+        "text": "0"
+      },
+      {
+        "key": "d",
+        "text": "3/7"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Differentiate top and bottom and substitute 2.",
+    "source": "MAT 223 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "L'Hopital's rule applies to the indeterminate forms 0/0 and ∞/∞.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Other forms must be rewritten first.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "true_false",
+    "stem": "L'Hopital's rule says lim f/g = lim (f/g)' for any functions.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It uses f'/g', the ratio of the derivatives, under conditions.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "For f(x) = x sin x, which are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "f'(x) = sin x + x cos x"
+      },
+      {
+        "key": "b",
+        "text": "f''(x) = 2 cos x − x sin x"
+      },
+      {
+        "key": "c",
+        "text": "f(0) = 0"
+      },
+      {
+        "key": "d",
+        "text": "f'(0) = 1"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "f'(0) = sin 0 + 0 = 0.",
+    "source": "MAT 223 lecture notes (scanned, Notes 1 to 9)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which limit is not an indeterminate form when substituted directly?",
+    "options": [
+      {
+        "key": "a",
+        "text": "(x² − 9)/(x − 3) at 3"
+      },
+      {
+        "key": "b",
+        "text": "(1 − cos x)/x at 0"
+      },
+      {
+        "key": "c",
+        "text": "(e^(x²) − 1)/sin x² at 0"
+      },
+      {
+        "key": "d",
+        "text": "(x + 1)/(x + 2) at 0"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "It equals 1/2 directly.",
+    "source": "General knowledge of MAT 223"
+  }
+]

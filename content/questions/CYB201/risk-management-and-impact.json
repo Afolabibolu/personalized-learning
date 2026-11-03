@@ -1,0 +1,206 @@
+[
+  {
+    "format": "multi_select",
+    "stem": "Which are the three processes of risk management in the course?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Risk assessment"
+      },
+      {
+        "key": "b",
+        "text": "Risk mitigation"
+      },
+      {
+        "key": "c",
+        "text": "Evaluation and assessment"
+      },
+      {
+        "key": "d",
+        "text": "Risk advertising"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These are the three parts of risk management.",
+    "source": "Week 3 - Risk Management.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Identifying threats, their likelihood and the vulnerabilities they could exploit is",
+    "options": [
+      {
+        "key": "a",
+        "text": "risk assessment"
+      },
+      {
+        "key": "b",
+        "text": "risk mitigation"
+      },
+      {
+        "key": "c",
+        "text": "patching"
+      },
+      {
+        "key": "d",
+        "text": "encryption"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mitigation then reduces the risk.",
+    "source": "Week 3 - Risk Management.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Taking steps to avoid or reduce risk to acceptable levels is",
+    "options": [
+      {
+        "key": "a",
+        "text": "risk mitigation"
+      },
+      {
+        "key": "b",
+        "text": "risk assessment"
+      },
+      {
+        "key": "c",
+        "text": "auditing only"
+      },
+      {
+        "key": "d",
+        "text": "incident detection"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It follows assessment.",
+    "source": "Week 3 - Risk Management.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Backups should be stored in multiple locations to prevent single-point failures.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This is part of disaster recovery planning.",
+    "source": "CYB 201 - Week Two slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The 2017 attack that disrupted the UK's National Health Service was",
+    "options": [
+      {
+        "key": "a",
+        "text": "WannaCry ransomware"
+      },
+      {
+        "key": "b",
+        "text": "SYNful Knock"
+      },
+      {
+        "key": "c",
+        "text": "Rowhammer"
+      },
+      {
+        "key": "d",
+        "text": "a phishing email"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It cancelled thousands of appointments.",
+    "source": "CYB 201 Note 2.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are impacts of cyber attacks on organisations?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Financial loss"
+      },
+      {
+        "key": "b",
+        "text": "Reputation damage"
+      },
+      {
+        "key": "c",
+        "text": "Regulatory penalties"
+      },
+      {
+        "key": "d",
+        "text": "Guaranteed profit"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "These come from the course notes.",
+    "source": "CYB 201 Note 2.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a challenge facing civil institutions in the notes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Funding constraints"
+      },
+      {
+        "key": "b",
+        "text": "Insider threats"
+      },
+      {
+        "key": "c",
+        "text": "Human error"
+      },
+      {
+        "key": "d",
+        "text": "Too much security funding"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Most say funding is insufficient.",
+    "source": "CYB 201 Note 2.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Human error is a primary cause of security breaches.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "So training and awareness are essential.",
+    "source": "CYB 201 Note 2.pdf"
+  }
+]

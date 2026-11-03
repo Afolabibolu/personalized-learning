@@ -1,0 +1,208 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many bits does a 3-digit decimal number need in BCD?",
+    "options": [
+      {
+        "key": "a",
+        "text": "12"
+      },
+      {
+        "key": "b",
+        "text": "8"
+      },
+      {
+        "key": "c",
+        "text": "10"
+      },
+      {
+        "key": "d",
+        "text": "3"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Each decimal digit takes 4 bits, so 4 × 3 = 12.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Decimal 396 in BCD is",
+    "options": [
+      {
+        "key": "a",
+        "text": "0011 1001 0110"
+      },
+      {
+        "key": "b",
+        "text": "0001 1000 1100"
+      },
+      {
+        "key": "c",
+        "text": "1100 0110 0011"
+      },
+      {
+        "key": "d",
+        "text": "0110 1001 0011"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Code each digit 3, 9, 6 in 4 bits.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "true_false",
+    "stem": "In BCD, the combinations 1010 to 1111 are not used.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "BCD uses only the ten combinations 0000 to 1001.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which codes are weighted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "8421 BCD"
+      },
+      {
+        "key": "b",
+        "text": "2421 BCD"
+      },
+      {
+        "key": "c",
+        "text": "5211 BCD"
+      },
+      {
+        "key": "d",
+        "text": "Excess-3"
+      },
+      {
+        "key": "e",
+        "text": "Gray code"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Excess-3 and Gray code are non-weighted.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "How many characters can 7-bit ASCII represent?",
+    "options": [
+      {
+        "key": "a",
+        "text": "128"
+      },
+      {
+        "key": "b",
+        "text": "256"
+      },
+      {
+        "key": "c",
+        "text": "64"
+      },
+      {
+        "key": "d",
+        "text": "94"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2⁷ = 128; 94 of them are printable.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "EBCDIC was invented by",
+    "options": [
+      {
+        "key": "a",
+        "text": "IBM"
+      },
+      {
+        "key": "b",
+        "text": "Bell Labs"
+      },
+      {
+        "key": "c",
+        "text": "ANSI"
+      },
+      {
+        "key": "d",
+        "text": "Intel"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It extended BCD and is an 8-bit code with 256 characters.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is the odd one out among these?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Simple parity check"
+      },
+      {
+        "key": "b",
+        "text": "Two-dimensional parity check"
+      },
+      {
+        "key": "c",
+        "text": "Hamming code"
+      },
+      {
+        "key": "d",
+        "text": "ASCII"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "ASCII is a character code; the others are error-detection methods.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A simple parity check can tell the receiver which bit is wrong.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It detects a single-bit error but cannot locate it, so it cannot correct it.",
+    "source": "Data Representation and Number System.pdf (IFT 211 lecture 1)"
+  }
+]

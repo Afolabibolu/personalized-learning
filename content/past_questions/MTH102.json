@@ -1,0 +1,219 @@
+{
+  "code": "MTH 102",
+  "papers": [
+    {
+      "year": "2007/2008 test",
+      "paper": "MAT 121 (Calculus & Trigonometry), set as MAT 121 (this course's former code), Test 2007/2008 Session. Attempt all questions by filling the dotted spaces (the page is cut off after question 13)",
+      "source": "MAT 121 (TEST) 2007-2010.pdf (page 1)"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "paper": "MAT 121 (Calculus & Trigonometry), Distance Learning Centre B.Sc./B.Ed. Degree Examinations 2008/2009 Session (Wednesday 13th January, 2010). Attempt all questions (only the first page is legible)",
+      "source": "mat121 collection.pdf (page 7)"
+    },
+    {
+      "year": "2013/2014",
+      "paper": "MAT 121: Calculus and Trigonometry, First Semester Examination 2013/2014 (Friday, 19 September 2014), 3 hours. Answer any four questions",
+      "source": "mat121 collection.pdf (pages 1 to 3)"
+    },
+    {
+      "year": "2014/2015",
+      "paper": "MAT 121: Calculus and Trigonometry, First Semester Examination 2014/2015 (Tuesday, 21 July 2015), 3 hours. Answer any four questions (Questions 1 to 4 legible)",
+      "source": "mat121 collection.pdf (page 4)"
+    }
+  ],
+  "questions": [
+    {
+      "year": "2007/2008 test",
+      "number": "1",
+      "topic": "differentiation",
+      "text": "Let f be defined by f(1) = 1 and (Df)(1) = 4. If g is defined by g := x ↦ f(x)/x = g(x), then (Dg)(1) = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "2",
+      "topic": "limits-and-continuity",
+      "text": "Compute the following limits lim as x → 0 of (4x³ − 7x)/(x³ − 2x² + 4) ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "3",
+      "topic": "limits-and-continuity",
+      "text": "Evaluate lim as x → 0 of tan 2x/(2x) ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "4",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Simplify sin(3π/2 − θ) and cos(π/2 + θ) ...... and ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "5",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "cos(90 − (A + B)) = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "6",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Express (1 − sin² x)/(1 + sin² x) in terms of cos x. ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "7",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "The general solution of the equation cos 2θ + sin θ = 0 is ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "8",
+      "topic": "differentiation",
+      "text": "If y = Ae⁻ˣ cos(x + α), where A and α are constants, then d²y/dx² + 2 dy/dx + 2y = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "9",
+      "topic": "differentiation",
+      "text": "If y = logₑ((3 + 4 cos x)/(4 + 3 cos x)), then dy/dx = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "10",
+      "topic": "applications-of-differentiation",
+      "text": "Given that f(x) = 2x³ − 3x² − 12x + 8, then the local minimum and local maximum values for f are ...... and ...... respectively."
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "11",
+      "topic": "differentiation",
+      "text": "If 3x²y + cos x = 16xy² + e^(y²) (as printed), then dy/dx = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "12",
+      "topic": "differentiation",
+      "text": "Let f and g be functions with derivatives. Suppose f(x) > 0 for all x and y = f(x)^g(x), then dy/dx = ......"
+    },
+    {
+      "year": "2007/2008 test",
+      "number": "13",
+      "topic": "functions-and-trigonometric-functions",
+      "text": "The graph of tan θ has its asymptotes at ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "1",
+      "topic": "functions-and-trigonometric-functions",
+      "text": "If f(x) = √(x − 1) and g(x) = √(x + 1), then f ∘ g(x) = ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "2",
+      "topic": "limits-and-continuity",
+      "text": "Find lim as x → 2 of (√x − 9)/(x − 9) (as printed) = ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "3",
+      "topic": "functions-and-trigonometric-functions",
+      "text": "Determine the domain of the function f(x) = x/(x² + 1) ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "4",
+      "topic": "limits-and-continuity",
+      "text": "Determine the points at which f(x) = (x + 1)(x − 3)/((x − 2)(x + 4)) is continuous. ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "5",
+      "topic": "functions-and-trigonometric-functions",
+      "text": "Determine the domain and period of f(x) = sin(x/2) + sin(x/3) ...... and ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "6",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Evaluate sin 15° without using tables leaving your answer in surd form. ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "7",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Find A and α such that A sin(x + α) = 2 sin x + 5 cos x, α = ...... and A = ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "8",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Solve for x in the equation sin 2x = tan x. ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "9",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "Simplify (1 − cos 2θ)/sin 2θ ......"
+    },
+    {
+      "year": "2008/2009 DLC",
+      "number": "10",
+      "topic": "differentiation",
+      "text": "Find dy/dx if y = (5t² − 2)^(1/4) (as printed) ......"
+    },
+    {
+      "year": "2013/2014",
+      "number": "1",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "(a) (i) Express 24 sin x + 7 cos x in the form R sin(x + α), where R and α are constants. (ii) Hence solve the equation 24 sin x + 7 cos x = 5 for 0 ≤ x ≤ 180°. (b) Prove that tan 2A − tan A = 2 sin A/(cos A + cos 3A). (c) Find the value of sin⁻¹ 2x + sin⁻¹ x for x = ½, leaving your answer in radians."
+    },
+    {
+      "year": "2013/2014",
+      "number": "2",
+      "topic": "applications-of-differentiation",
+      "text": "(a) Consider the function f(x) = x⁴(x² − 3). (i) Determine the intervals where the graph of f(x) is increasing or decreasing and find the values of f(x) at the local maxima and minima points of f(x). (ii) Find the values of f(x) at the points of inflexion of f(x). (iii) Sketch the graph of f(x) and label the local maxima, the local minima, and the inflexion points of f(x). (b) Find all the critical values, absolute maximum and absolute minimum values for f(x) = 3x⁴ − 16x³ + 18x² on the interval −1 ≤ x ≤ 4."
+    },
+    {
+      "year": "2013/2014",
+      "number": "3",
+      "topic": "differentiation",
+      "text": "(a) (i) The function f is defined by f: x → x − 1/x over the domain of all non-zero real numbers. Find the inverse function f⁻¹ of f given that the domain of f is the set of positive real numbers. (ii) If x is a real variable, find the range of the function 4(x − 2)/(4x² + 9) (partly illegible). (b) (i) Assume that f(x) is a real-valued function defined on an open interval whose centre is a real number a. What does it mean to say that f(x) has a derivative f' at x = a? Make use of your answer to find f'(2) if f(x) = 5/(7x). (ii) Determine the derivative of the function (x² + 1)/(x³(x − 1)²) (partly illegible). (c) Find the equation of the tangent line to the curve y³ − 2xy + x³ = 0 at the point (1, 1)."
+    },
+    {
+      "year": "2013/2014",
+      "number": "4",
+      "topic": "techniques-of-integration",
+      "text": "(a) Integrate the following functions with respect to x: (i) (4x² − 2x − 7)/(2x² − 3x − 2) (ii) sin 2x cos 2x/(1 + sin² 2x). (b) Evaluate each of the following integrals: (i) ∫ from ¼ to 1 of (16x³ + 8x + 8)/(8x² − 4x + 5) dx (as printed) (ii) ∫ from 0 to π of sin²x cos⁴x dx. (c) (i) A particle starts with an initial speed of 20 m/s. Its acceleration at any time t is (18 − 2t) m/s². Find the speed at the end of 3 seconds and the distance travelled in that time. (ii) Find the area of the region R bounded by the curves y = x³ and y = x²."
+    },
+    {
+      "year": "2013/2014",
+      "number": "5",
+      "topic": "definite-integrals-and-areas",
+      "text": "(a) Evaluate the following limits: (i) lim as x → 0 of (1 − cos x)/x² (ii) lim as x → −1 of (1 + cos πx)/(x² + 2x + 1) (as printed). (b) (i) If Iₙ = ∫ sinⁿx dx, show that Iₙ = −(1/n) sinⁿ⁻¹x cos x + ((n − 1)/n) Iₙ₋₂. (ii) Evaluate ∫ from 0 to π/2 of sin⁸x dx."
+    },
+    {
+      "year": "2014/2015",
+      "number": "1",
+      "topic": "differentiation",
+      "text": "(a) The derivative of a function f defined on the real line ℝ is given by the formula f'(x) = lim as h → 0 of (f(x + h) − f(x))/h (h := Δx) provided the limit exists. By using the above formula find the derivative of the function f(x) = (3 + x)/(3 − x). (b) Find the coordinates of the stationary points of the curve y = 9x + 3x² − x³ and sketch the curve."
+    },
+    {
+      "year": "2014/2015",
+      "number": "2",
+      "topic": "differentiation",
+      "text": "(a) Find the derivatives with respect to x of the following functions (i) y = ln(x³ + 4x) (ii) y = e^(n ln x), x > 0 and n is any real number, (iii) y = (x² + 1)^(−1/2). (b) Given that y = e^(ax) sin x, prove that d²y/dx² − 2a dy/dx + (a² + 1)y = 0."
+    },
+    {
+      "year": "2014/2015",
+      "number": "3",
+      "topic": "techniques-of-integration",
+      "text": "(a) Evaluate the integral of the function y(x) = (3x + 1)/(2x² − 2x + 3). (b) Find the constants A, B, C in the identity (3x² − ax)/((x − 2a)(x² + a²)) ≡ A/(x − 2a) + (Bx + Ca)/(x² + a²) where a is a constant. Hence prove that ∫ from 0 to a of (3x² − ax)/((x − 2a)(x² + a²)) dx = π/4 − (3/2) ln 2 (the upper limit is unclear in the scan)."
+    },
+    {
+      "year": "2014/2015",
+      "number": "4",
+      "topic": "trigonometric-identities-and-equations",
+      "text": "(a) (i) If θ is the angle in the fourth quadrant satisfying the equation cot²θ = 4, find the value of the function f(θ) = (1/√5)(sec θ − cosec θ). (ii) Prove that √((1 + cos θ)/(1 − cos θ)) = cosec θ + cot θ if cos θ ≠ 1. (b) Let R be a positive real number and let α satisfy the inequality 0 < α < 360. Express the function 2 sin θ + cos θ in the form R sin(θ + α). Hence, find the value of θ between 0 and 360 which satisfy the equation 3 cos θ + 6 sin θ = 1."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which Matplotlib function adds grid lines to a plot?",
+    "options": [
+      {
+        "key": "a",
+        "text": "plt.grid(True)"
+      },
+      {
+        "key": "b",
+        "text": "plt.legend()"
+      },
+      {
+        "key": "c",
+        "text": "plt.title()"
+      },
+      {
+        "key": "d",
+        "text": "plt.axis('equal')"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "plt.legend() shows line labels.",
+    "source": "CSC 103 Lecture 7: data visualisation"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which Tkinter method starts the event loop and keeps the window open?",
+    "options": [
+      {
+        "key": "a",
+        "text": "mainloop()"
+      },
+      {
+        "key": "b",
+        "text": "pack()"
+      },
+      {
+        "key": "c",
+        "text": "geometry()"
+      },
+      {
+        "key": "d",
+        "text": "title()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It runs until the window is closed.",
+    "source": "CSC 103 Lecture 8: GUI programming; sorting, searching and algorithm analysis"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which search requires the list to be sorted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Binary search"
+      },
+      {
+        "key": "b",
+        "text": "Linear search"
+      },
+      {
+        "key": "c",
+        "text": "Both"
+      },
+      {
+        "key": "d",
+        "text": "Neither"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It halves the sorted search area each time.",
+    "source": "CSC 103 Lecture 8: GUI programming; sorting, searching and algorithm analysis"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which pandas function loads data from an Excel file?",
+    "options": [
+      {
+        "key": "a",
+        "text": "pd.read_excel()"
+      },
+      {
+        "key": "b",
+        "text": "df.to_excel()"
+      },
+      {
+        "key": "c",
+        "text": "pd.ExcelWriter()"
+      },
+      {
+        "key": "d",
+        "text": "df.head()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "to_excel() writes a DataFrame out.",
+    "source": "CSC 103 Lecture 7: data visualisation"
+  },
+  {
+    "format": "true_false",
+    "stem": "Tkinter is built into Python, so it needs no extra installation.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "PyQt and Kivy are third-party options.",
+    "source": "CSC 103 Lecture 8: GUI programming; sorting, searching and algorithm analysis"
+  },
+  {
+    "format": "true_false",
+    "stem": "Selection sort works by repeatedly merging sections of the list that are already sorted.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "That is merge sort; selection sort repeatedly selects the next smallest item.",
+    "source": "CSC 103 Lecture 8: GUI programming; sorting, searching and algorithm analysis"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are Tkinter layout managers?",
+    "options": [
+      {
+        "key": "a",
+        "text": "pack()"
+      },
+      {
+        "key": "b",
+        "text": "grid()"
+      },
+      {
+        "key": "c",
+        "text": "place()"
+      },
+      {
+        "key": "d",
+        "text": "plot()"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "plot() is Matplotlib.",
+    "source": "CSC 103 Lecture 8: GUI programming; sorting, searching and algorithm analysis"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which library is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Matplotlib"
+      },
+      {
+        "key": "b",
+        "text": "Seaborn"
+      },
+      {
+        "key": "c",
+        "text": "Plotly"
+      },
+      {
+        "key": "d",
+        "text": "Tkinter"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Tkinter builds GUIs; the others are visualisation libraries.",
+    "source": "CSC 103 Lecture 7: data visualisation"
+  }
+]

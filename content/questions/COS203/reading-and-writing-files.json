@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "Which file mode overwrites all existing data in a file?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"w\""
+      },
+      {
+        "key": "b",
+        "text": "\"r\""
+      },
+      {
+        "key": "c",
+        "text": "\"a\""
+      },
+      {
+        "key": "d",
+        "text": "\"rb\""
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "\"a\" appends instead.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which file mode adds new data to the end of a file, leaving old data intact?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"a\""
+      },
+      {
+        "key": "b",
+        "text": "\"w\""
+      },
+      {
+        "key": "c",
+        "text": "\"r\""
+      },
+      {
+        "key": "d",
+        "text": "\"wb\""
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is append mode.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which method returns the whole contents of a text file as one string?",
+    "options": [
+      {
+        "key": "a",
+        "text": ".read()"
+      },
+      {
+        "key": "b",
+        "text": ".readlines()"
+      },
+      {
+        "key": "c",
+        "text": ".write()"
+      },
+      {
+        "key": "d",
+        "text": ".writelines()"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": ".readlines() gives the lines one by one.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Reading a file that does not exist raises",
+    "options": [
+      {
+        "key": "a",
+        "text": "FileNotFoundError"
+      },
+      {
+        "key": "b",
+        "text": "KeyError"
+      },
+      {
+        "key": "c",
+        "text": "TypeError"
+      },
+      {
+        "key": "d",
+        "text": "ZeroDivisionError"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Programs should handle this case.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "true_false",
+    "stem": "A file opened in a with statement is closed automatically when the block ends, even after an exception.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "This frees system resources.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "true_false",
+    "stem": ".writelines() adds a newline after each string automatically.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Each string should end with \\n.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are binary file modes?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"rb\""
+      },
+      {
+        "key": "b",
+        "text": "\"wb\""
+      },
+      {
+        "key": "c",
+        "text": "\"ab\""
+      },
+      {
+        "key": "d",
+        "text": "\"r\""
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "\"r\" is text read mode.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a method for reading or writing a text file object?",
+    "options": [
+      {
+        "key": "a",
+        "text": ".read()"
+      },
+      {
+        "key": "b",
+        "text": ".readlines()"
+      },
+      {
+        "key": "c",
+        "text": ".writelines()"
+      },
+      {
+        "key": "d",
+        "text": ".fetch()"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "There is no .fetch() method on file objects.",
+    "source": "Python Basics (Real Python, 4th ed.)"
+  }
+]

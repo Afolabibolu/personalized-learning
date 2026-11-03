@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "What is (1/(D + 3)) e^(−2x)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "e^(−2x)"
+      },
+      {
+        "key": "b",
+        "text": "e^(−2x)/5"
+      },
+      {
+        "key": "c",
+        "text": "−e^(−2x)"
+      },
+      {
+        "key": "d",
+        "text": "e^(3x)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f(−2) = 1.",
+    "source": "MAT 241 Operator D technique slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is (1/((D − 3)(D + 4))) e^(−x)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "−e^(−x)/12"
+      },
+      {
+        "key": "b",
+        "text": "e^(−x)/12"
+      },
+      {
+        "key": "c",
+        "text": "−e^(−x)/7"
+      },
+      {
+        "key": "d",
+        "text": "e^(−x)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "f(−1) = (−4)(3) = −12.",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "single_choice",
+    "stem": "(1/f(D²)) sin ax equals",
+    "options": [
+      {
+        "key": "a",
+        "text": "sin ax / f(−a²)"
+      },
+      {
+        "key": "b",
+        "text": "sin ax / f(a²)"
+      },
+      {
+        "key": "c",
+        "text": "a sin ax"
+      },
+      {
+        "key": "d",
+        "text": "cos ax / f(a)"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Replace D² by −a².",
+    "source": "MAT 241 Operator D technique slides"
+  },
+  {
+    "format": "single_choice",
+    "stem": "For y'' + y = 2e^x, the particular integral is",
+    "options": [
+      {
+        "key": "a",
+        "text": "e^x"
+      },
+      {
+        "key": "b",
+        "text": "2e^x"
+      },
+      {
+        "key": "c",
+        "text": "x e^x"
+      },
+      {
+        "key": "d",
+        "text": "e^x/2"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "2e^x / (1² + 1).",
+    "source": "MAT 241 past papers"
+  },
+  {
+    "format": "true_false",
+    "stem": "The inverse operator 1/D represents integration.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "(1/D)g = ∫ g dx.",
+    "source": "MAT 241 Operator D technique slides"
+  },
+  {
+    "format": "true_false",
+    "stem": "(1/f(D)) e^(ax) = e^(ax)/f(a) also works when f(a) = 0.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "Then multiply by x and use f'(a).",
+    "source": "MAT 241 Operator D technique slides"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are rules or techniques of the operator D method?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The exponential rule"
+      },
+      {
+        "key": "b",
+        "text": "Replacing D² by −a² for sin ax"
+      },
+      {
+        "key": "c",
+        "text": "The exponential shift"
+      },
+      {
+        "key": "d",
+        "text": "Separating variables"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Separation is a first-order technique.",
+    "source": "MAT 241 Operator D technique slides"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which expression is not an operator in D?",
+    "options": [
+      {
+        "key": "a",
+        "text": "D² + D − 2"
+      },
+      {
+        "key": "b",
+        "text": "(D + 1)(D − 3)"
+      },
+      {
+        "key": "c",
+        "text": "1/(D² + 4)"
+      },
+      {
+        "key": "d",
+        "text": "y'' − 5"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "y'' − 5 is an expression in y, not an operator.",
+    "source": "MAT 241 Operator D technique slides"
+  }
+]

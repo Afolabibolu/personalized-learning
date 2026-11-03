@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "How many primitive data types does Java have?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Eight"
+      },
+      {
+        "key": "b",
+        "text": "Four"
+      },
+      {
+        "key": "c",
+        "text": "Six"
+      },
+      {
+        "key": "d",
+        "text": "Ten"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "byte, short, int, long, float, double, char, boolean.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What is the value of x after int x = (int) 9.99;?",
+    "options": [
+      {
+        "key": "a",
+        "text": "9"
+      },
+      {
+        "key": "b",
+        "text": "10"
+      },
+      {
+        "key": "c",
+        "text": "9.99"
+      },
+      {
+        "key": "d",
+        "text": "A compile error"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Narrowing truncates the decimal part.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which keyword declares a constant in Java?",
+    "options": [
+      {
+        "key": "a",
+        "text": "final"
+      },
+      {
+        "key": "b",
+        "text": "static only"
+      },
+      {
+        "key": "c",
+        "text": "const"
+      },
+      {
+        "key": "d",
+        "text": "void"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Constants are written in ALL CAPS.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "single_choice",
+    "stem": "What does \"Hello\".substring(1,3) return?",
+    "options": [
+      {
+        "key": "a",
+        "text": "\"el\""
+      },
+      {
+        "key": "b",
+        "text": "\"ell\""
+      },
+      {
+        "key": "c",
+        "text": "\"He\""
+      },
+      {
+        "key": "d",
+        "text": "\"llo\""
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It extracts index 1 to 2.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "Converting an int to a double is a widening conversion done automatically.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Widening goes from smaller to larger types.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "true_false",
+    "stem": "String is one of Java's primitive data types.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "String is a reference type (a class).",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are reference types in Java?",
+    "options": [
+      {
+        "key": "a",
+        "text": "String"
+      },
+      {
+        "key": "b",
+        "text": "Arrays"
+      },
+      {
+        "key": "c",
+        "text": "Objects"
+      },
+      {
+        "key": "d",
+        "text": "int"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "int is primitive.",
+    "source": "cos201_weeks3to6.pdf"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a Java primitive type?",
+    "options": [
+      {
+        "key": "a",
+        "text": "byte"
+      },
+      {
+        "key": "b",
+        "text": "char"
+      },
+      {
+        "key": "c",
+        "text": "boolean"
+      },
+      {
+        "key": "d",
+        "text": "String"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "String is a class.",
+    "source": "cos201_weeks3to6.pdf"
+  }
+]

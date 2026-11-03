@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "A network that covers a city is a",
+    "options": [
+      {
+        "key": "a",
+        "text": "MAN"
+      },
+      {
+        "key": "b",
+        "text": "LAN"
+      },
+      {
+        "key": "c",
+        "text": "WAN"
+      },
+      {
+        "key": "d",
+        "text": "PAN"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "LAN covers a building or campus; WAN a country or the globe.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which topology connects every device to every other for redundancy, as banks use?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Mesh"
+      },
+      {
+        "key": "b",
+        "text": "Bus"
+      },
+      {
+        "key": "c",
+        "text": "Star"
+      },
+      {
+        "key": "d",
+        "text": "Ring"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Mesh is fault tolerant but expensive.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "ANDing the host address 192.252.12.14 with the mask 255.255.255.0 gives the network address",
+    "options": [
+      {
+        "key": "a",
+        "text": "192.252.12.0"
+      },
+      {
+        "key": "b",
+        "text": "192.152.12.0"
+      },
+      {
+        "key": "c",
+        "text": "255.255.255.0"
+      },
+      {
+        "key": "d",
+        "text": "192.252.12.14"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The last octet is masked to 0.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The default port for a web server in a URL is",
+    "options": [
+      {
+        "key": "a",
+        "text": "80"
+      },
+      {
+        "key": "b",
+        "text": "21"
+      },
+      {
+        "key": "c",
+        "text": "25"
+      },
+      {
+        "key": "d",
+        "text": "8"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "So http://www.wlv.ac.uk:80/index.html can be shortened.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The Internet is a packet-switching network.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "Packets travel independently and are reassembled.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "true_false",
+    "stem": "An extranet is open to the general public, unlike an intranet.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "An extranet opens an intranet to selected outside partners only.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are the four parts of a URL?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The protocol"
+      },
+      {
+        "key": "b",
+        "text": "The host"
+      },
+      {
+        "key": "c",
+        "text": "The port number"
+      },
+      {
+        "key": "d",
+        "text": "The subnet mask"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "The fourth is the name of the resource file.",
+    "source": "Week7_ComputerNetwork_InternetCOS101.pdf (CSC 101 slides)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which term is the odd one out?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bus"
+      },
+      {
+        "key": "b",
+        "text": "Star"
+      },
+      {
+        "key": "c",
+        "text": "Ring"
+      },
+      {
+        "key": "d",
+        "text": "Peer to peer"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Peer to peer is a network architecture, not a topology.",
+    "source": "COS 101 / CSC 101 past questions"
+  }
+]

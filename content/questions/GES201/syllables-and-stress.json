@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "The smallest pronounceable unit of a language is the",
+    "options": [
+      {
+        "key": "a",
+        "text": "syllable"
+      },
+      {
+        "key": "b",
+        "text": "morpheme"
+      },
+      {
+        "key": "c",
+        "text": "phoneme only"
+      },
+      {
+        "key": "d",
+        "text": "sentence"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The morpheme is the smallest meaningful unit.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which part of a syllable is obligatory?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The nucleus (peak)"
+      },
+      {
+        "key": "b",
+        "text": "The onset"
+      },
+      {
+        "key": "c",
+        "text": "The coda"
+      },
+      {
+        "key": "d",
+        "text": "The tail"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Onset and coda are optional.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In 'refugee', which syllable takes the primary stress?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The last (-gee)"
+      },
+      {
+        "key": "b",
+        "text": "The first (re-)"
+      },
+      {
+        "key": "c",
+        "text": "The middle (-fu-)"
+      },
+      {
+        "key": "d",
+        "text": "None"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The suffix -ee takes the stress.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "single_choice",
+    "stem": "In the word-class pair record, the verb is stressed on",
+    "options": [
+      {
+        "key": "a",
+        "text": "the second syllable: re'cord"
+      },
+      {
+        "key": "b",
+        "text": "the first syllable: 'record"
+      },
+      {
+        "key": "c",
+        "text": "both syllables equally"
+      },
+      {
+        "key": "d",
+        "text": "neither syllable"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "The noun is 'record.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "true_false",
+    "stem": "The schwa /ə/ can never occur in a stressed syllable.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is the weakest vowel in English.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "true_false",
+    "stem": "English stress is fixed on the last syllable of every word, as in French.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "English stress is free.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which suffixes shift the stress in the word?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-ion"
+      },
+      {
+        "key": "b",
+        "text": "-ic"
+      },
+      {
+        "key": "c",
+        "text": "-ity"
+      },
+      {
+        "key": "d",
+        "text": "-ful"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "-ful leaves the stress unchanged.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not one of the four factors that mark a stressed syllable?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Pitch"
+      },
+      {
+        "key": "b",
+        "text": "Length"
+      },
+      {
+        "key": "c",
+        "text": "Loudness"
+      },
+      {
+        "key": "d",
+        "text": "Spelling"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "The fourth is vowel quality.",
+    "source": "Effective Communication and Literary Appreciation Skills (GES 201 textbook, 2019), Chapter 3 (A. B. Sunday)"
+  }
+]

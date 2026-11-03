@@ -1,0 +1,108 @@
+{
+  "code": "MTH 202",
+  "title": "Elementary Differential Equations",
+  "semester": 1,
+  "description": "The CCMAS course in elementary differential equations, the successor of MAT 241 and taught from the same material: classification and formation of ODEs, first-order methods, linear equations with constant coefficients, particular integrals, the operator D method, difference equations, and numerical interpolation and integration. Built from the MAT 241 class slides and the past MAT 241 papers filed in the MTH 202 folder, with the textbooks in that folder as reading.",
+  "is_reviewed": false,
+  "level": 200,
+  "topics": [
+    {
+      "slug": "introduction-to-odes",
+      "title": "Introduction to Ordinary Differential Equations",
+      "summary": "An ODE relates an unknown function of one independent variable to its derivatives. ODEs are classified by order, degree and linearity; their solutions are general or particular, fixed by initial conditions in an initial value problem. ODEs are formed by eliminating arbitrary constants and arise in growth, decay and cooling problems.",
+      "subtopics": [
+        "What an ODE is; ODEs versus PDEs",
+        "Order and degree",
+        "Linear and non-linear equations",
+        "Solutions, initial conditions and IVPs",
+        "Forming ODEs by eliminating constants",
+        "Applications: growth, decay and cooling"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "first-order-differential-equations",
+      "title": "First-Order Differential Equations",
+      "summary": "First-order equations are solved by type: separable, homogeneous (with y = vx), exact (when ∂M/∂y = ∂N/∂x), linear (with an integrating factor) and Bernoulli (reduced to linear). Non-exact equations can sometimes be made exact with an integrating factor.",
+      "subtopics": [
+        "Separable equations",
+        "Homogeneous equations and y = vx",
+        "Exact equations and the test for exactness",
+        "Non-exact equations and integrating factors",
+        "Linear first-order equations",
+        "Bernoulli equations"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "higher-order-linear-homogeneous-equations",
+      "title": "Higher-Order Linear Homogeneous Equations",
+      "summary": "Linear homogeneous equations with constant coefficients are solved through the auxiliary (characteristic) equation. Distinct real roots give exponentials, repeated roots add powers of x, and complex roots a ± ib give e^(ax)(A cos bx + B sin bx). The general solution of a linear equation is a combination of n independent solutions.",
+      "subtopics": [
+        "Linear equations with constant coefficients",
+        "The auxiliary (characteristic) equation",
+        "Case 1: distinct real roots",
+        "Case 2: repeated roots",
+        "Case 3: complex roots",
+        "Superposition, independence and nth-order equations"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "undetermined-coefficients-and-variation-of-parameters",
+      "title": "Undetermined Coefficients and Variation of Parameters",
+      "summary": "For a non-homogeneous linear equation, a particular integral is found by the method of undetermined coefficients, guessing a form like the right-hand side, or by variation of parameters, which replaces the constants of the complementary function by functions found from a Wronskian. Initial conditions then fix the constants.",
+      "subtopics": [
+        "Complementary function and particular integral",
+        "Undetermined coefficients: choosing the trial form",
+        "Modification when the trial form is in the complementary function",
+        "Variation of parameters",
+        "The Wronskian formulas",
+        "Initial value problems"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "the-operator-d-method",
+      "title": "The Operator D Method",
+      "summary": "Writing D = d/dx turns a linear equation with constant coefficients into f(D)y = g(x). The complementary function comes from f(m) = 0, and particular integrals come from inverse operators 1/f(D) with rules for exponentials, sines and cosines, polynomials and exponential shifts, or by reduction of order through partial fractions.",
+      "subtopics": [
+        "The operator D and f(D)y = g(x)",
+        "Inverse operators",
+        "1/f(D) applied to e^(ax)",
+        "1/f(D²) applied to sin ax and cos ax",
+        "Polynomials and the exponential shift",
+        "Reduction of order and partial fractions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "difference-equations",
+      "title": "Difference Equations",
+      "summary": "Finite differences measure changes in tabulated values: forward differences Δ, backward differences ∇ and the shift operator E. A difference equation relates successive terms y_n; it is formed by eliminating constants and solved, when linear with constant coefficients, through its characteristic equation plus a particular solution.",
+      "subtopics": [
+        "Forward and backward differences",
+        "The shift operator E",
+        "Forming difference equations",
+        "Order and the characteristic equation",
+        "Distinct, repeated and complex roots",
+        "Particular solutions and initial conditions"
+      ],
+      "lectures": []
+    },
+    {
+      "slug": "numerical-interpolation-and-integration",
+      "title": "Numerical Interpolation and Integration",
+      "summary": "Numerical methods approximate functions and integrals from tabulated values. Lagrange and Newton interpolation fit polynomials through data points, numerical differentiation uses finite differences, and quadrature rules from the Newton-Cotes formula, the trapezoidal rule and Simpson's 1/3 rule, approximate definite integrals with known error bounds.",
+      "subtopics": [
+        "Errors and significant digits",
+        "Lagrange interpolation",
+        "Newton's forward difference interpolation",
+        "Numerical differentiation",
+        "The trapezoidal rule",
+        "Simpson's 1/3 rule and error bounds"
+      ],
+      "lectures": []
+    }
+  ]
+}

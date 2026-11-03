@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "JavaScript variables have how many scopes, according to the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Two: global and local"
+      },
+      {
+        "key": "b",
+        "text": "Three"
+      },
+      {
+        "key": "c",
+        "text": "One"
+      },
+      {
+        "key": "d",
+        "text": "Four"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Function parameters are local.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If a = 33 and b = 10, what is a after a %= b?",
+    "options": [
+      {
+        "key": "a",
+        "text": "3"
+      },
+      {
+        "key": "b",
+        "text": "330"
+      },
+      {
+        "key": "c",
+        "text": "3.3"
+      },
+      {
+        "key": "d",
+        "text": "23"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "% gives the remainder.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which event occurs when a form is submitted?",
+    "options": [
+      {
+        "key": "a",
+        "text": "onsubmit"
+      },
+      {
+        "key": "b",
+        "text": "onclick"
+      },
+      {
+        "key": "c",
+        "text": "onmouseover"
+      },
+      {
+        "key": "d",
+        "text": "onload"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used for validation.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which object is used to read and write cookies in JavaScript?",
+    "options": [
+      {
+        "key": "a",
+        "text": "document.cookie"
+      },
+      {
+        "key": "b",
+        "text": "window.alert"
+      },
+      {
+        "key": "c",
+        "text": "document.write"
+      },
+      {
+        "key": "d",
+        "text": "form.submit"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Cookies are name=value pairs.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "A local variable takes precedence over a global variable with the same name inside its function.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It hides the global variable.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "true_false",
+    "stem": "JavaScript requires you to declare each variable's data type.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "JavaScript is untyped.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are JavaScript events covered in the book?",
+    "options": [
+      {
+        "key": "a",
+        "text": "onclick"
+      },
+      {
+        "key": "b",
+        "text": "onsubmit"
+      },
+      {
+        "key": "c",
+        "text": "onmouseover"
+      },
+      {
+        "key": "d",
+        "text": "onprint-page"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "onmouseout is another.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a JavaScript loop?",
+    "options": [
+      {
+        "key": "a",
+        "text": "for"
+      },
+      {
+        "key": "b",
+        "text": "while"
+      },
+      {
+        "key": "c",
+        "text": "do-while"
+      },
+      {
+        "key": "d",
+        "text": "switch"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "switch is a selection statement.",
+    "source": "Akinola, Web Design with HTML, CSS, JavaScript and PHP"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "An algorithm is said to be correct if, for every input instance,",
+    "options": [
+      {
+        "key": "a",
+        "text": "it halts with the correct output"
+      },
+      {
+        "key": "b",
+        "text": "it generates an output"
+      },
+      {
+        "key": "c",
+        "text": "it transforms the input"
+      },
+      {
+        "key": "d",
+        "text": "it is error free"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "This is the course book's definition of correctness.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Backtracking algorithms are based on",
+    "options": [
+      {
+        "key": "a",
+        "text": "depth-first recursive search"
+      },
+      {
+        "key": "b",
+        "text": "breadth-first recursive search"
+      },
+      {
+        "key": "c",
+        "text": "heuristic search"
+      },
+      {
+        "key": "d",
+        "text": "random sampling"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "They back up when a choice fails.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "Which algorithm type remembers past results and uses them to find new results?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dynamic programming"
+      },
+      {
+        "key": "b",
+        "text": "Divide and conquer"
+      },
+      {
+        "key": "c",
+        "text": "Brute force"
+      },
+      {
+        "key": "d",
+        "text": "Simple recursive"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It is used for optimization problems with overlapping subproblems.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A greedy algorithm always gives the optimal solution.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "It does for Naira and Kobo change, but not for every coin system.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which are expected properties of an algorithm?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Finiteness"
+      },
+      {
+        "key": "b",
+        "text": "Definiteness"
+      },
+      {
+        "key": "c",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "d",
+        "text": "Platform dependence"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Algorithms are independent of any platform.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which is not a type of algorithm in the course book's classification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Greedy"
+      },
+      {
+        "key": "b",
+        "text": "Brute force"
+      },
+      {
+        "key": "c",
+        "text": "Randomized"
+      },
+      {
+        "key": "d",
+        "text": "Compiled"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Compilation is about translating programs, not a design approach.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Las Vegas algorithm always produces the same result on a given input.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "It is a subclass of randomized algorithms.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  },
+  {
+    "format": "single_choice",
+    "stem": "A divide-and-conquer algorithm traditionally contains",
+    "options": [
+      {
+        "key": "a",
+        "text": "two or more recursive calls"
+      },
+      {
+        "key": "b",
+        "text": "no recursion"
+      },
+      {
+        "key": "c",
+        "text": "exactly one loop"
+      },
+      {
+        "key": "d",
+        "text": "a random number"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "It divides, solves the parts recursively and combines.",
+    "source": "CSC_236_Introduction_to_Algorithm.pdf (CSC 236 course book), Unit 1"
+  }
+]

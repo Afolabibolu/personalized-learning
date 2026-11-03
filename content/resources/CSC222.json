@@ -1,0 +1,61 @@
+{
+  "code": "CSC 222",
+  "topics": {
+    "digital-communication-abstractions": [
+      {
+        "title": "Video: Block Diagram of Digital Communication System (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vi8rXfvSbJc",
+        "source": "links.csv"
+      }
+    ],
+    "source-coding-and-prefix-free-codes": [
+      {
+        "title": "Video: Lecture 6 : Source Coding (Modern Digital Communication Techniques)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rHXQDT9vTmk",
+        "source": "links.csv"
+      }
+    ],
+    "kraft-inequality-and-huffman-codes": [
+      {
+        "title": "Video: How Computers Compress Text: Huffman Coding and Huffman Trees (Tom Scott)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=JsTptu56GM8",
+        "source": "links.csv"
+      }
+    ],
+    "hamming-codes": [
+      {
+        "title": "Video: But what are Hamming codes? The origin of error correction (3Blue1Brown)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=X8jsijhllIA",
+        "source": "links.csv"
+      }
+    ],
+    "linear-block-codes": [
+      {
+        "title": "Video: Error Syndromes & Error Correction in Linear Block Code in Digital Communication (Engineering Funda)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=T7mSu62-RLE",
+        "source": "links.csv"
+      }
+    ],
+    "convolutional-codes": [
+      {
+        "title": "Video: Digital Communications: Convolutional Codes (UConn HKN)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kRIfpmiMCpU",
+        "source": "links.csv"
+      }
+    ],
+    "communication-networks-and-routing": [
+      {
+        "title": "Video: Switching Techniques in Computer Networks (Neso Academy)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-HlJ4psu5aU",
+        "source": "links.csv"
+      }
+    ]
+  }
+}

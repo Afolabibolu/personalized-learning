@@ -1,0 +1,204 @@
+[
+  {
+    "format": "single_choice",
+    "stem": "With Ŷ = 0.45x − 19.074, predicted umbrella sales at 82 mm of rainfall are about",
+    "options": [
+      {
+        "key": "a",
+        "text": "17.8"
+      },
+      {
+        "key": "b",
+        "text": "36.9"
+      },
+      {
+        "key": "c",
+        "text": "15"
+      },
+      {
+        "key": "d",
+        "text": "56"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "0.45 × 82 − 19.074.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "If actual sales were 15 and predicted 17.8, the residual is",
+    "options": [
+      {
+        "key": "a",
+        "text": "−2.8"
+      },
+      {
+        "key": "b",
+        "text": "2.8"
+      },
+      {
+        "key": "c",
+        "text": "32.8"
+      },
+      {
+        "key": "d",
+        "text": "0.84"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Residual = Y − Ŷ.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "R² = 0.917 means that",
+    "options": [
+      {
+        "key": "a",
+        "text": "About 92% of the variation in Y is explained by X"
+      },
+      {
+        "key": "b",
+        "text": "92% of points lie exactly on the line"
+      },
+      {
+        "key": "c",
+        "text": "The slope is 0.917"
+      },
+      {
+        "key": "d",
+        "text": "The p-value is 0.917"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "R² is the coefficient of determination.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "single_choice",
+    "stem": "The mean absolute error is",
+    "options": [
+      {
+        "key": "a",
+        "text": "Σ|Y − Ŷ|/n"
+      },
+      {
+        "key": "b",
+        "text": "Σ(Y − Ŷ)²"
+      },
+      {
+        "key": "c",
+        "text": "|Y − Ŷ|"
+      },
+      {
+        "key": "d",
+        "text": "Σ(Y − Ŷ)/n²"
+      }
+    ],
+    "correct_answer": [
+      "a"
+    ],
+    "explanation": "Average of the absolute residuals.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "Least squares chooses the line that minimises the sum of squared residuals.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "true"
+    ],
+    "explanation": "That is the least-squares principle.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "true_false",
+    "stem": "A Significance F above 0.05 shows the regression model is significant.",
+    "options": [
+      {
+        "key": "true",
+        "text": "True"
+      },
+      {
+        "key": "false",
+        "text": "False"
+      }
+    ],
+    "correct_answer": [
+      "false"
+    ],
+    "explanation": "A value below 0.05 indicates significance.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "multi_select",
+    "stem": "Which Excel functions give regression results?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SLOPE"
+      },
+      {
+        "key": "b",
+        "text": "INTERCEPT"
+      },
+      {
+        "key": "c",
+        "text": "LINEST"
+      },
+      {
+        "key": "d",
+        "text": "CONCATENATE"
+      }
+    ],
+    "correct_answer": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "CORREL gives r; CONCATENATE joins text.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  },
+  {
+    "format": "odd_one_out",
+    "stem": "Which item is not part of Excel's regression summary statistics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Multiple R"
+      },
+      {
+        "key": "b",
+        "text": "R Square"
+      },
+      {
+        "key": "c",
+        "text": "Adjusted R Square"
+      },
+      {
+        "key": "d",
+        "text": "Pivot table"
+      }
+    ],
+    "correct_answer": [
+      "d"
+    ],
+    "explanation": "Standard error and observations complete the summary.",
+    "source": "STA 122 Lecture 5: Regression Analysis in Excel and the board notes"
+  }
+]
