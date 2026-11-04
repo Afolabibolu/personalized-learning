@@ -97,6 +97,8 @@ Gaps:
 
 - [x] (25 Oct) Videos and recommended textbooks for every topic.
   _Done: 64 YouTube videos (one per topic, two topics without a clear match) in `content/sources/links.csv`, each confirmed through YouTube's oEmbed endpoint; 68 textbook cards from `content/textbooks/<code>.json` (books in the course folders first, then standard textbooks), resource type `textbook` (`supabase/migrations/20261025120100_textbook_resources.sql`); screenshots `p10-02-textbook.png`, `p10-03-topic-resources.png`._
+- [x] (4 Nov) A link for every recommended textbook: a legal free copy where one exists ("Read free online"), otherwise the publisher's page or Google Books ("Buy or preview"), opening in a new tab.
+  _Done: 111 books in `content/sources/textbook_links.csv`: 11 free, 37 buy, 45 preview, 18 without a confirmed link (mostly University of Ibadan course books with no public page), each opened and matched on title, author and edition; `content/apply_textbook_links.py`, `resources.link_type` (`supabase/migrations/20261104175300_textbook_links.sql`), `BookLinkButton` in `ResourceList.tsx`. Check: `scripts/textbook_links_check.py`, TC-27; screenshots in `docs/screenshots/textbooks/`._
 
 Evidence: screenshots of the Knowledge Base page, a topic page, a study note and a past-questions set.
 

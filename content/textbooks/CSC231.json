@@ -4,14 +4,18 @@
     "chapman": {
       "title": "MATLAB Programming for Engineers",
       "authors": "Stephen J. Chapman",
-      "publisher": "Cengage Learning"
+      "publisher": "Cengage Learning",
+      "url": "https://www.cengage.com/c/matlab-programming-for-engineers-6e-chapman/9780357030394/",
+      "link_type": "buy"
     },
     "downey": {
       "title": "Think Python: How to Think Like a Computer Scientist",
       "authors": "Allen B. Downey",
       "edition": "2nd edition",
       "publisher": "O'Reilly",
-      "year": 2015
+      "year": 2015,
+      "url": "https://greenteapress.com/wp/think-python-2e/",
+      "link_type": "free"
     }
   },
   "topics": {

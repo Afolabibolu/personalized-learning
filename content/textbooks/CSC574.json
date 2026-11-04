@@ -6,14 +6,18 @@
       "authors": "Stuart Russell and Peter Norvig",
       "edition": "4th edition",
       "publisher": "Pearson",
-      "year": 2020
+      "year": 2020,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/artificial-intelligence-a-modern-approach/P200000003500/9780137505135",
+      "link_type": "buy"
     },
     "negn": {
       "title": "Artificial Intelligence: A Guide to Intelligent Systems",
       "authors": "Michael Negnevitsky",
       "edition": "3rd edition",
       "publisher": "Addison-Wesley",
-      "year": 2011
+      "year": 2011,
+      "url": "https://books.google.com/books/about/Artificial_Intelligence.html?id=8mmpBwAAQBAJ",
+      "link_type": "preview"
     },
     "ng": {
       "title": "Intelligent Systems: Fusion, Tracking and Control",

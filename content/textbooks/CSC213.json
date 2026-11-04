@@ -11,20 +11,26 @@
       "authors": "Ronald J. Tocci and Neal S. Widmer",
       "edition": "8th edition",
       "publisher": "Prentice Hall",
-      "year": 2001
+      "year": 2001,
+      "url": "https://books.google.com/books/about/Digital_Systems.html?id=YB5LAQAAIAAJ",
+      "link_type": "preview"
     },
     "watson": {
       "title": "Mastering Electronics",
       "authors": "John Watson",
       "publisher": "Macmillan (Macmillan Master Series)",
-      "year": 1990
+      "year": 1990,
+      "url": "https://books.google.com/books/about/Mastering_Electronics.html?id=390xAAAACAAJ",
+      "link_type": "preview"
     },
     "alexander": {
       "title": "Fundamentals of Electric Circuits",
       "authors": "Charles K. Alexander and Matthew N. O. Sadiku",
       "edition": "3rd edition",
       "publisher": "McGraw-Hill",
-      "year": 2007
+      "year": 2007,
+      "url": "https://books.google.com/books/about/Fundamentals_of_Electric_Circuits.html?id=dm6VPwAACAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

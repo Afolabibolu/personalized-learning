@@ -5,12 +5,16 @@
       "title": "C# Quick Guide",
       "authors": "Tutorials Point",
       "publisher": "tutorialspoint.com",
-      "year": 2019
+      "year": 2019,
+      "url": "https://www.tutorialspoint.com/csharp/csharp_quick_guide.htm",
+      "link_type": "free"
     },
     "deitel": {
       "title": "Visual C# How to Program",
       "authors": "Paul Deitel and Harvey Deitel",
-      "publisher": "Pearson"
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/visual-c-how-to-program/P200000003492/9780137506095",
+      "link_type": "buy"
     }
   },
   "topics": {

@@ -290,6 +290,15 @@ STREAKS = [
          "'Badge earned: First quiz' pop-up on the results page (FR6)"),
 ]
 
+TEXTBOOKS = [
+    Shot("recommendation-card-book-link.png", "Recommendation card with a textbook link", "Tolu Adeyemi (active.student@demo.example.com)",
+         "A recommendation's 'Also recommended' with the topic's video and its textbook, and a 'Buy or preview' or 'Read free online' button beside the textbook (FR5)"),
+    Shot("knowledge-base-book-link.png", "Knowledge Base textbooks with links", "Tolu Adeyemi",
+         "A search for 'Interaction Design': the CSC 531 topics' recommended textbooks, each with its button (FR5)"),
+    Shot("reading-card-book-link.png", "Textbook reading card with its link", "Tolu Adeyemi",
+         "The reading card (book, what to read, why), then the button and a line saying what the link is (FR5)"),
+]
+
 
 def write_checklist() -> None:
     rows = "\n".join(
@@ -341,6 +350,14 @@ def write_checklist() -> None:
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/streaks/{s.file}) |"
                      for i, s in enumerate(STREAKS, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10) + len(STAGES) + 1))
+        + "\n\n"
+        "## Textbook links (4 November)\n\n"
+        "Taken by `python scripts/textbook_links_check.py --shots docs/screenshots/textbooks` (and `--mobile --shots "
+        "docs/screenshots/textbooks/mobile` for phone width).\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/textbooks/{s.file}) |"
+                     for i, s in enumerate(TEXTBOOKS, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10)
+                                           + len(STAGES) + len(STREAKS) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

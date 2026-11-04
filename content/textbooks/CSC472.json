@@ -7,7 +7,9 @@
       "edition": "3rd edition",
       "publisher": "McGraw-Hill",
       "year": 2003,
-      "listed_in_course_files": "DATABASE MANAGEMENT solution.pdf (the book's solutions manual, in the course folder)"
+      "listed_in_course_files": "DATABASE MANAGEMENT solution.pdf (the book's solutions manual, in the course folder)",
+      "url": "https://highered.mheducation.com/sites/0072465638/index.html",
+      "link_type": "preview"
     },
     "cb": {
       "title": "Database Systems: A Practical Approach to Design, Implementation, and Management",
@@ -15,7 +17,9 @@
       "edition": null,
       "publisher": "Pearson",
       "year": null,
-      "listed_in_course_files": "the CSC 472 lecture notes, which cite its DreamHome case study (Chapter 11), Section 12.7 and Figure 13.9"
+      "listed_in_course_files": "the CSC 472 lecture notes, which cite its DreamHome case study (Chapter 11), Section 12.7 and Figure 13.9",
+      "url": "https://books.google.com/books/about/Database_Systems_A_Practical_Approach_to.html?id=kl1TDwAAQBAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

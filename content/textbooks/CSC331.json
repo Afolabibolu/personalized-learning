@@ -6,14 +6,18 @@
       "authors": "Robert W. Sebesta",
       "edition": "11th edition",
       "publisher": "Pearson",
-      "year": 2016
+      "year": 2016,
+      "url": "https://books.google.com/books/about/Concepts_of_Programming_Languages_Global.html?id=fJZeCwAAQBAJ",
+      "link_type": "preview"
     },
     "tucker": {
       "title": "Programming Languages: Principles and Paradigms",
       "authors": "Allen B. Tucker and Robert E. Noonan",
       "edition": "2nd edition",
       "publisher": "McGraw-Hill",
-      "year": 2007
+      "year": 2007,
+      "url": "https://books.google.com/books/about/Programming_Languages.html?id=XgZORQAACAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

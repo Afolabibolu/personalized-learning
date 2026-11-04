@@ -130,7 +130,7 @@ def topic_with_video_and_textbook():
     resources = [
         ResourceInfo("note", "t1", "Study note", True, 1, "note"),
         ResourceInfo("video", "t1", "Video: Topic 1 explained", False, None, "video", "https://www.youtube.com/watch?v=x"),
-        ResourceInfo("book", "t1", "Textbook: A Book (Chapter 1)", False, None, "textbook"),
+        ResourceInfo("book", "t1", "Textbook: A Book (Chapter 1)", False, None, "textbook", "https://example.org/a-book", "free"),
         ResourceInfo("other-video", "t2", "Video: Topic 2", False, None, "video", "https://www.youtube.com/watch?v=y"),
     ]
     return CourseData("c", ["t1", "t2"], resources, {"t1": "quiz-t1", "t2": "quiz-t2"})
@@ -143,6 +143,7 @@ def test_each_recommendation_also_suggests_the_topics_video_and_textbook():
     assert first.resource_id == "note"
     assert [(a["resource_id"], a["type"]) for a in first.explanation["also"]] == [("video", "video"), ("book", "textbook")]
     assert first.explanation["also"][0]["url"] == "https://www.youtube.com/watch?v=x"
+    assert (first.explanation["also"][1]["url"], first.explanation["also"][1]["link_type"]) == ("https://example.org/a-book", "free")
 
 
 def test_also_skips_the_main_resource_and_used_ones():

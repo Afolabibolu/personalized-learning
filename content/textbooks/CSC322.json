@@ -6,14 +6,18 @@
       "authors": "Behrouz A. Forouzan",
       "edition": "5th edition",
       "publisher": "McGraw-Hill",
-      "year": 2013
+      "year": 2013,
+      "url": "https://books.google.com/books/about/Data_Communications_and_Networking.html?id=yT80AAAAQBAJ",
+      "link_type": "preview"
     },
     "tanenbaum": {
       "title": "Computer Networks",
       "authors": "Andrew S. Tanenbaum and David J. Wetherall",
       "edition": "5th edition",
       "publisher": "Pearson",
-      "year": 2011
+      "year": 2011,
+      "url": "https://books.google.com/books/about/Computer_Networks_Fifth_Edition.html?id=Zfk6zQEACAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

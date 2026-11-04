@@ -11,7 +11,9 @@
       "authors": "Randall Hyde",
       "edition": "2nd edition",
       "publisher": "No Starch Press",
-      "year": 2010
+      "year": 2010,
+      "url": "https://nostarch.com/assembly2.htm",
+      "link_type": "buy"
     }
   },
   "topics": {

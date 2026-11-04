@@ -15,7 +15,9 @@
       "edition": null,
       "publisher": "Pearson",
       "year": null,
-      "listed_in_course_files": "CSC 476 Research Methods in Computer Science.pdf (cited as Dawson, 2005)"
+      "listed_in_course_files": "CSC 476 Research Methods in Computer Science.pdf (cited as Dawson, 2005)",
+      "url": "https://www.pearson.com/en-gb/subject-catalog/p/projects-in-computing-and-information-systems-a-students-guide/P200000004039/9781292081120",
+      "link_type": "buy"
     },
     "apa": {
       "title": "APA Style: Seventh Edition (guide)",
@@ -23,7 +25,9 @@
       "edition": "7th edition",
       "publisher": null,
       "year": 2020,
-      "in_course_files": "APA7-Style.pdf"
+      "in_course_files": "APA7-Style.pdf",
+      "url": "https://apastyle.apa.org/style-grammar-guidelines",
+      "link_type": "free"
     }
   },
   "topics": {

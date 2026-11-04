@@ -35,6 +35,7 @@ class ResourceInfo:
     intro_order: int | None
     type: str = "lecture"  # note, past_questions, lecture, video or textbook
     url: str | None = None
+    link_type: str | None = None  # textbooks: free, buy or preview
 
 
 # For a weak topic, which kind of resource to recommend first.
@@ -77,7 +78,7 @@ def also_recommended(course: CourseData, topic_id: str, main_id: str | None, use
                           and r.id != main_id and r.id not in used_resource_ids), key=lambda r: r.title)
         if options:
             r = options[0]
-            also.append({"resource_id": r.id, "type": r.type, "title": r.title, "url": r.url})
+            also.append({"resource_id": r.id, "type": r.type, "title": r.title, "url": r.url, "link_type": r.link_type})
     return also
 
 

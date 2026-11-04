@@ -6,14 +6,18 @@
       "authors": "Richard Heeks",
       "edition": null,
       "publisher": "Routledge",
-      "year": 2018
+      "year": 2018,
+      "url": "https://books.google.com/books/about/Information_and_Communication_Technology.html?id=j90rDwAAQBAJ",
+      "link_type": "preview"
     },
     "unwin": {
       "title": "ICT4D: Information and Communication Technology for Development",
       "authors": "Tim Unwin (editor)",
       "edition": null,
       "publisher": "Cambridge University Press",
-      "year": 2009
+      "year": 2009,
+      "url": "https://books.google.com/books/about/ICT4D_Information_and_Communication_Tech.html?id=8WMjHA6nkpAC",
+      "link_type": "preview"
     }
   },
   "topics": {

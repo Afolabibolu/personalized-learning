@@ -5,13 +5,17 @@
       "title": "Calculus I (practice problems and solutions)",
       "authors": "Paul Dawkins",
       "publisher": "Paul's Online Notes, Lamar University",
-      "in_course_files": "Calculus 1 Practice Problems Paul Dawkins.pdf"
+      "in_course_files": "Calculus 1 Practice Problems Paul Dawkins.pdf",
+      "url": "https://tutorial.math.lamar.edu/Problems/CalcI/CalcI.aspx",
+      "link_type": "free"
     },
     "schaum": {
       "title": "3000 Solved Problems in Calculus",
       "authors": "Elliott Mendelson",
       "publisher": "McGraw-Hill (Schaum's Outline Series)",
-      "in_course_files": "3000-solved-problems-in-calculus.pdf"
+      "in_course_files": "3000-solved-problems-in-calculus.pdf",
+      "url": "https://www.mheducation.com/highered/mhp/product/schaum-s-3-000-solved-problems-calculus.html",
+      "link_type": "buy"
     }
   },
   "topics": {

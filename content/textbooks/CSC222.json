@@ -4,7 +4,9 @@
     "mit": {
       "title": "Digital Communication Systems (6.02 course notes)",
       "authors": "Hari Balakrishnan, Christopher J. Terman and George C. Verghese",
-      "publisher": "MIT OpenCourseWare"
+      "publisher": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/pages/readings/",
+      "link_type": "free"
     },
     "bavaud": {
       "title": "An Introduction to Information Theory and Applications",

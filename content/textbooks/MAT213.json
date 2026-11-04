@@ -9,7 +9,9 @@
     "lipschutz": {
       "title": "Schaum's Outline of Linear Algebra",
       "authors": "Seymour Lipschutz and Marc Lipson",
-      "publisher": "McGraw-Hill"
+      "publisher": "McGraw-Hill",
+      "url": "https://www.mheducation.com/highered/mhp/product/schaum-s-outline-linear-algebra-sixth-edition.html",
+      "link_type": "buy"
     }
   },
   "topics": {

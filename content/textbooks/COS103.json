@@ -6,7 +6,9 @@
       "authors": "Al Sweigart",
       "edition": "2nd edition",
       "publisher": "No Starch Press",
-      "in_course_files": "Automate the Boring Stuff with Python, 2nd Edition.pdf"
+      "in_course_files": "Automate the Boring Stuff with Python, 2nd Edition.pdf",
+      "url": "https://automatetheboringstuff.com/2e/",
+      "link_type": "free"
     }
   },
   "topics": {

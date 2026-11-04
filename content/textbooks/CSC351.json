@@ -7,14 +7,18 @@
       "edition": "2nd edition",
       "publisher": "Thomson Course Technology",
       "year": 2006,
-      "listed_in_course_files": true
+      "listed_in_course_files": true,
+      "url": "https://books.google.com/books/about/Introduction_to_the_Theory_of_Computatio.html?id=VJ1mQgAACAAJ",
+      "link_type": "preview"
     },
     "hmu": {
       "title": "Introduction to Automata Theory, Languages, and Computation",
       "authors": "John E. Hopcroft, Rajeev Motwani and Jeffrey D. Ullman",
       "edition": "3rd edition",
       "publisher": "Pearson",
-      "year": 2006
+      "year": 2006,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/introduction-to-automata-theory-languages-and-computation/P200000003517/9780321455369",
+      "link_type": "buy"
     }
   },
   "topics": {

@@ -6,21 +6,27 @@
       "authors": "William Stallings",
       "edition": "10th edition",
       "publisher": "Pearson",
-      "year": 2016
+      "year": 2016,
+      "url": "https://books.google.com/books/about/Computer_Organization_and_Architecture.html?id=BtnKrQEACAAJ",
+      "link_type": "preview"
     },
     "mano": {
       "title": "Computer System Architecture",
       "authors": "M. Morris Mano",
       "edition": "3rd edition",
       "publisher": "Prentice Hall",
-      "year": 1993
+      "year": 1993,
+      "url": "https://books.google.com/books/about/Computer_System_Architecture.html?id=BtxQAAAAMAAJ",
+      "link_type": "preview"
     },
     "ph": {
       "title": "Computer Organization and Design: The Hardware/Software Interface (MIPS edition)",
       "authors": "David A. Patterson and John L. Hennessy",
       "edition": "5th edition",
       "publisher": "Morgan Kaufmann",
-      "year": 2014
+      "year": 2014,
+      "url": "https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3",
+      "link_type": "buy"
     }
   },
   "topics": {

@@ -7,7 +7,9 @@
       "edition": "3rd edition",
       "publisher": "Pearson Education",
       "year": 2004,
-      "note": "A standard HCI textbook; the course folder has lecture slides only."
+      "note": "A standard HCI textbook; the course folder has lecture slides only.",
+      "url": "https://www.pearson.com/en-gb/subject-catalog/p/human-computer-interaction/P200000008804/9780130461094",
+      "link_type": "buy"
     },
     "cmn": {
       "title": "The Psychology of Human-Computer Interaction",
@@ -15,7 +17,9 @@
       "edition": null,
       "publisher": "Lawrence Erlbaum Associates",
       "year": 1983,
-      "note": "Cited in the INS 202 lecture references."
+      "note": "Cited in the INS 202 lecture references.",
+      "url": "https://www.routledge.com/The-Psychology-of-Human-Computer-Interaction/Card-Moran-Newell/p/book/9780898598599",
+      "link_type": "buy"
     }
   },
   "topics": {

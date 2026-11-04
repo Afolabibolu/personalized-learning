@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { RESOURCE_ORDER } from '../api/knowledge'
-import type { Resource, ResourceType } from '../api/types'
+import type { BookLinkType, Resource, ResourceType } from '../api/types'
 
 export const RESOURCE_LABEL: Record<ResourceType, string> = {
   note: 'Study note',
@@ -53,10 +53,44 @@ export function practiceLabel(resource: Pick<Resource, 'title'>): string {
   return resource.title.startsWith('Review questions') ? 'Review questions' : 'Exam-style questions'
 }
 
+/** Notes, past questions and textbook reading cards open in the app; lectures and videos in a new tab. */
+export function opensOutside(resource: Pick<Resource, 'type' | 'url'>): boolean {
+  return Boolean(resource.url) && resource.type !== 'textbook'
+}
+
+const BOOK_LINK_LABEL: Record<BookLinkType, string> = {
+  free: 'Read free online',
+  buy: 'Buy or preview',
+  preview: 'Buy or preview',
+}
+
+/** A textbook's own link, beside its reading card: a legal free copy, or where to buy or preview it. */
+export function BookLinkButton({ url, linkType, className = '' }: { url: string; linkType: BookLinkType; className?: string }) {
+  const free = linkType === 'free'
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-flex shrink-0 items-center gap-1 rounded-lg px-2.5 py-1.5 text-xs font-semibold whitespace-nowrap ring-1 transition ${
+        free ? 'bg-emerald-50 text-emerald-800 ring-emerald-200 hover:bg-emerald-100' : 'bg-white text-slate-700 ring-slate-300 hover:bg-slate-50'
+      } ${className}`}
+      data-testid="book-link"
+      data-link-type={linkType}
+    >
+      {BOOK_LINK_LABEL[linkType]}
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-3.5 w-3.5" aria-hidden>
+        <path d="M8 4H4v12h12v-4M11 4h5v5M16 4l-7 7" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+      <span className="sr-only">(opens in a new tab)</span>
+    </a>
+  )
+}
+
 /** Where a resource opens: notes and past questions in the app, links in a new tab. */
 export function resourceHint(resource: Pick<Resource, 'type' | 'url'>): string {
-  if (!resource.url) return 'Read in the app'
-  if (resource.url.includes('/drive/folders/')) return resource.type === 'lecture' ? 'Open lecture folder' : 'Open folder'
+  if (!opensOutside(resource)) return 'Read in the app'
+  if (resource.url?.includes('/drive/folders/')) return resource.type === 'lecture' ? 'Open lecture folder' : 'Open folder'
   return 'Opens in a new tab'
 }
 
@@ -74,8 +108,22 @@ export function ResourceLink({ resource, compact = false }: { resource: Resource
     </>
   )
   const style = 'flex items-center gap-3 rounded-xl p-2 transition hover:bg-slate-50'
-  return resource.url ? (
-    <a href={resource.url} target="_blank" rel="noreferrer" className={style} data-testid="resource-link">
+  if (resource.type === 'textbook') {
+    // The reading card opens in the app; the book's own link is a separate button.
+    return (
+      // Phone: the button sits under the title, lined up with the text; wider screens: beside it.
+      <div className="flex flex-col items-start sm:flex-row sm:items-center sm:gap-2">
+        <Link to={`/resources/${resource.id}`} className={`${style} w-full min-w-0 flex-1`} data-testid="resource-link">
+          {body}
+        </Link>
+        {resource.url && resource.link_type && (
+          <BookLinkButton url={resource.url} linkType={resource.link_type} className={`mb-1.5 sm:mr-2 sm:mb-0 sm:ml-0 ${compact ? 'ml-13' : 'ml-15'}`} />
+        )}
+      </div>
+    )
+  }
+  return opensOutside(resource) ? (
+    <a href={resource.url ?? undefined} target="_blank" rel="noreferrer" className={style} data-testid="resource-link">
       {body}
     </a>
   ) : (

@@ -6,14 +6,18 @@
       "authors": "Ian Sommerville",
       "edition": "10th edition",
       "publisher": "Pearson",
-      "year": 2016
+      "year": 2016,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000003258",
+      "link_type": "buy"
     },
     "pfleeger": {
       "title": "Software Engineering: Theory and Practice",
       "authors": "Shari Lawrence Pfleeger and Joanne M. Atlee",
       "edition": "4th edition",
       "publisher": "Pearson",
-      "year": 2010
+      "year": 2010,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/software-engineering-theory-and-practice/P200000003228/9780136061694",
+      "link_type": "buy"
     }
   },
   "topics": {

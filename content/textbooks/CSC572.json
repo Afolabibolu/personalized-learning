@@ -6,7 +6,9 @@
       "authors": "Aurélien Géron",
       "edition": "3rd edition",
       "publisher": "O'Reilly",
-      "year": 2022
+      "year": 2022,
+      "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+      "link_type": "preview"
     },
     "nielsen": {
       "title": "Neural Networks and Deep Learning",
@@ -14,7 +16,9 @@
       "edition": null,
       "publisher": "Independently published (also free online)",
       "year": 2016,
-      "in_course_files": "Neural networks and deep learning -- Michael Nielsen -- 2016 -- Independently Published -- 486ef.pdf"
+      "in_course_files": "Neural networks and deep learning -- Michael Nielsen -- 2016 -- Independently Published -- 486ef.pdf",
+      "url": "http://neuralnetworksanddeeplearning.com/",
+      "link_type": "free"
     }
   },
   "topics": {

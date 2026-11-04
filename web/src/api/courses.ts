@@ -91,7 +91,7 @@ export async function getTopic(topicId: string): Promise<TopicDetail> {
   const { data, error } = await supabase
     .from('topics')
     .select(
-      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title, is_reviewed, level, semester), resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
+      'id, course_id, slug, title, subtopics, summary, sequence_order, course:courses(id, code, title, is_reviewed, level, semester), resources(id, title, type, url, link_type, source, is_introductory, intro_order), quizzes(id, course_id, topic_id, kind, title, question_count)',
     )
     .eq('id', topicId)
     .single()

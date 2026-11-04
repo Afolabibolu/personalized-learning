@@ -5,12 +5,16 @@
       "title": "Computer Organization and Design Fundamentals",
       "authors": "David Tarnoff",
       "publisher": "Lulu (self-published)",
-      "year": 2007
+      "year": 2007,
+      "url": "https://faculty.etsu.edu/tarnoff/138292/",
+      "link_type": "free"
     },
     "crowe": {
       "title": "Introduction to Digital Electronics",
       "authors": "John Crowe and Barrie Hayes-Gill",
-      "year": 1998
+      "year": 1998,
+      "url": "https://shop.elsevier.com/books/introduction-to-digital-electronics/crowe/978-0-340-64570-3",
+      "link_type": "buy"
     }
   },
   "topics": {

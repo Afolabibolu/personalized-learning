@@ -10,7 +10,9 @@
       "authors": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
       "edition": "3rd edition",
       "publisher": "MIT Press",
-      "year": 2009
+      "year": 2009,
+      "url": "https://books.google.com/books/about/Introduction_to_Algorithms_third_edition.html?id=i-bUBQAAQBAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

@@ -6,7 +6,9 @@
       "authors": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
       "edition": "4th edition",
       "publisher": "MIT Press",
-      "year": 2022
+      "year": 2022,
+      "url": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/",
+      "link_type": "buy"
     }
   },
   "topics": {

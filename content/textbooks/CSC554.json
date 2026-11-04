@@ -6,14 +6,18 @@
       "authors": "Alfred V. Aho, Monica S. Lam, Ravi Sethi and Jeffrey D. Ullman",
       "edition": "2nd edition",
       "publisher": "Pearson",
-      "year": 2006
+      "year": 2006,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/compilers-principles-techniques-and-tools/P200000003472/9780133002140",
+      "link_type": "buy"
     },
     "nnh": {
       "title": "Principles of Program Analysis",
       "authors": "Flemming Nielson, Hanne Riis Nielson and Chris Hankin",
       "edition": null,
       "publisher": "Springer",
-      "year": 1999
+      "year": 1999,
+      "url": "https://link.springer.com/book/10.1007/978-3-662-03811-6",
+      "link_type": "buy"
     },
     "slonneger": {
       "title": "Formal Syntax and Semantics of Programming Languages: A Laboratory Based Approach",
@@ -21,7 +25,9 @@
       "edition": null,
       "publisher": "Addison Wesley Longman",
       "year": 1994,
-      "in_course_files": "Kenneth Slonneger, Barry L. Kurtz - Formal Syntax and Semantics of Programming Languages_ A Laboratory Based Approach-Addison Wesley Longman (1994).pdf"
+      "in_course_files": "Kenneth Slonneger, Barry L. Kurtz - Formal Syntax and Semantics of Programming Languages_ A Laboratory Based Approach-Addison Wesley Longman (1994).pdf",
+      "url": "https://books.google.com/books/about/Formal_Syntax_and_Semantics_of_Programmi.html?id=HIRQAAAAMAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

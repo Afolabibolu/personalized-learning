@@ -117,6 +117,16 @@ Taken by `python scripts/streak_check.py --shots docs/screenshots/streaks` (and 
 | 74 | Celebration: streak started | temporary student, just after logging 30 minutes | Orange 'Streak started: day 1' moment at the bottom of the study log page (FR6) | [`celebration-streak.png`](screenshots/streaks/celebration-streak.png) |
 | 75 | Celebration: badge earned | the same student, after their first quiz | 'Badge earned: First quiz' pop-up on the results page (FR6) | [`celebration-badge.png`](screenshots/streaks/celebration-badge.png) |
 
+## Textbook links (4 November)
+
+Taken by `python scripts/textbook_links_check.py --shots docs/screenshots/textbooks` (and `--mobile --shots docs/screenshots/textbooks/mobile` for phone width).
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 76 | Recommendation card with a textbook link | Tolu Adeyemi (active.student@demo.example.com) | A recommendation's 'Also recommended' with the topic's video and its textbook, and a 'Buy or preview' or 'Read free online' button beside the textbook (FR5) | [`recommendation-card-book-link.png`](screenshots/textbooks/recommendation-card-book-link.png) |
+| 77 | Knowledge Base textbooks with links | Tolu Adeyemi | A search for 'Interaction Design': the CSC 531 topics' recommended textbooks, each with its button (FR5) | [`knowledge-base-book-link.png`](screenshots/textbooks/knowledge-base-book-link.png) |
+| 78 | Textbook reading card with its link | Tolu Adeyemi | The reading card (book, what to read, why), then the button and a line saying what the link is (FR5) | [`reading-card-book-link.png`](screenshots/textbooks/reading-card-book-link.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |

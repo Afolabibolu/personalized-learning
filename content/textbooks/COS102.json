@@ -7,21 +7,27 @@
       "edition": "7th edition",
       "publisher": "Jones & Bartlett Learning",
       "year": 2020,
-      "in_course_files": "Computer Science Illuminated 7th edition (2020).pdf"
+      "in_course_files": "Computer Science Illuminated 7th edition (2020).pdf",
+      "url": "https://books.google.com/books/about/Computer_Science_Illuminated_7th_Edition.html?id=oHM8zQEACAAJ",
+      "link_type": "preview"
     },
     "polya": {
       "title": "How to Solve It: A New Aspect of Mathematical Method",
       "authors": "George Polya",
       "edition": null,
       "publisher": "Princeton University Press",
-      "year": 1945
+      "year": 1945,
+      "url": "https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it",
+      "link_type": "buy"
     },
     "sweigart": {
       "title": "Automate the Boring Stuff with Python",
       "authors": "Al Sweigart",
       "edition": null,
       "publisher": "No Starch Press",
-      "in_course_files": "[Sweigart,_Al]_Automate_the_boring_stuff_with_pyth(b-ok.xyz).pdf"
+      "in_course_files": "[Sweigart,_Al]_Automate_the_boring_stuff_with_pyth(b-ok.xyz).pdf",
+      "url": "https://automatetheboringstuff.com/",
+      "link_type": "free"
     }
   },
   "topics": {

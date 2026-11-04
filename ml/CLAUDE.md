@@ -21,12 +21,12 @@ Each recommendation row gets an `explanation` (JSON) so the frontend never compu
   "matched_preference": "note",
   "also": [
     {"resource_id": "…", "type": "video", "title": "Video: …", "url": "https://www.youtube.com/watch?v=…"},
-    {"resource_id": "…", "type": "textbook", "title": "Textbook: …", "url": null}
+    {"resource_id": "…", "type": "textbook", "title": "Textbook: …", "url": "https://…", "link_type": "buy"}
   ]
 }
 ```
 
-- `also` (25 Oct): the topic's first video and textbook that are not the main resource and not already accepted or dismissed. Cold-start rows get it too.
+- `also` (25 Oct): the topic's first video and textbook that are not the main resource and not already accepted or dismissed. Cold-start rows get it too. A textbook carries its link and `link_type` (free, buy or preview, 4 Nov), or a null url when no link was confirmed; the app still opens its reading card in the app.
 
 - `top_factors` for Logistic Regression comes from coefficient times the scaled feature value; take the two or three largest contributions. Do not add SHAP or other new libraries for this.
 - Cold-start rows have `"reason": "Not enough quiz history yet for this course."`, no probabilities, and source `cold_start`.

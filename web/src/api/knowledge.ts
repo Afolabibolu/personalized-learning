@@ -30,7 +30,7 @@ export async function getKnowledgeBase(): Promise<KnowledgeCourse[]> {
     .select(
       'id, code, title, description, is_reviewed, level, semester, ' +
         'topics(id, course_id, slug, title, subtopics, summary, sequence_order, ' +
-        'resources(id, title, type, url, source, is_introductory, intro_order), quizzes(id, kind))',
+        'resources(id, title, type, url, link_type, source, is_introductory, intro_order), quizzes(id, kind))',
     )
     .order('code')
   if (error) throw error
@@ -66,7 +66,7 @@ export async function getResource(id: string): Promise<ResourceDetail> {
   const { data, error } = await supabase
     .from('resources')
     .select(
-      'id, title, type, url, body, source, is_introductory, intro_order, topic:topics(id, title, course:courses(id, code, title))',
+      'id, title, type, url, link_type, body, source, is_introductory, intro_order, topic:topics(id, title, course:courses(id, code, title))',
     )
     .eq('id', id)
     .single()

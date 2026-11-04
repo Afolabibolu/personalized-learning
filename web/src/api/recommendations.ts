@@ -1,5 +1,5 @@
 import { supabase } from './supabase'
-import type { Resource } from './types'
+import type { BookLinkType, Resource } from './types'
 
 export type RecommendationStatus = 'pending' | 'accepted' | 'dismissed'
 
@@ -10,7 +10,7 @@ export type Explanation = {
   top_factors: { feature: string; label: string; value: number; direction: 'raises risk' | 'lowers risk' }[]
   matched_preference: string | null
   /** The topic's video and textbook, picked by the ML service alongside the main resource. */
-  also?: { resource_id: string; type: 'video' | 'textbook'; title: string; url: string | null }[]
+  also?: { resource_id: string; type: 'video' | 'textbook'; title: string; url: string | null; link_type?: BookLinkType | null }[]
   /** Stage 2 only: the topic's diagnostic result, the shared threshold and the course's completed quizzes. */
   diagnostic?: { correct: number; total: number; score: number }
   threshold?: number
@@ -27,7 +27,7 @@ export type Recommendation = {
   created_at: string
   explanation: Explanation | null
   topic: { id: string; title: string; course: { id: string; code: string } }
-  resource: Pick<Resource, 'id' | 'title' | 'type' | 'url'> | null
+  resource: Pick<Resource, 'id' | 'title' | 'type' | 'url' | 'link_type'> | null
   quiz: { id: string; title: string } | null
   topic_quiz_id: string | null
 }
@@ -39,7 +39,7 @@ export async function listRecommendations(): Promise<Recommendation[]> {
     .select(
       'id, rank, priority_score, source, model_version, status, created_at, explanation, ' +
         'topic:topics(id, title, course:courses(id, code), quizzes(id, kind)), ' +
-        'resource:resources(id, title, type, url), quiz:quizzes(id, title)',
+        'resource:resources(id, title, type, url, link_type), quiz:quizzes(id, title)',
     )
     .order('created_at', { ascending: false })
   if (error) throw error

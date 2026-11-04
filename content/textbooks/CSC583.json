@@ -6,7 +6,9 @@
       "authors": "William Stallings and Lawrie Brown",
       "edition": "4th edition",
       "publisher": "Pearson",
-      "year": 2018
+      "year": 2018,
+      "url": "https://books.google.com/books/about/Computer_Security.html?id=YpjZtwEACAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

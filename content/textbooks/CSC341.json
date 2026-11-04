@@ -6,14 +6,18 @@
       "authors": "Seymour Lipschutz",
       "edition": "Revised first edition",
       "publisher": "McGraw-Hill",
-      "year": 2014
+      "year": 2014,
+      "url": "https://books.google.com/books/about/Data_Structures_SOS_Revised_First_Editio.html?id=bQsqvQEACAAJ",
+      "link_type": "preview"
     },
     "goodrich": {
       "title": "Data Structures and Algorithms in Python",
       "authors": "Michael T. Goodrich, Roberto Tamassia and Michael H. Goldwasser",
       "edition": "1st edition",
       "publisher": "Wiley",
-      "year": 2013
+      "year": 2013,
+      "url": "https://www.wiley.com/en-us/Data+Structures+and+Algorithms+in+Python-p-9781118290279",
+      "link_type": "buy"
     }
   },
   "topics": {

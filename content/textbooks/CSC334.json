@@ -7,21 +7,27 @@
       "edition": "10th edition",
       "publisher": "Pearson",
       "year": 2016,
-      "listed_in_course_files": true
+      "listed_in_course_files": true,
+      "url": "https://books.google.com/books/about/Computer_Organization_and_Architecture_G.html?id=7UqgCgAAQBAJ",
+      "link_type": "preview"
     },
     "deitel": {
       "title": "Java How to Program",
       "authors": "Paul Deitel and Harvey Deitel",
       "edition": "6th edition",
       "publisher": "Prentice Hall",
-      "year": 2005
+      "year": 2005,
+      "url": "https://books.google.com/books/about/Java.html?id=0s3ZAQAACAAJ",
+      "link_type": "preview"
     },
     "kerrisk": {
       "title": "The Linux Programming Interface",
       "authors": "Michael Kerrisk",
       "edition": "1st edition",
       "publisher": "No Starch Press",
-      "year": 2010
+      "year": 2010,
+      "url": "https://nostarch.com/tlpi",
+      "link_type": "buy"
     }
   },
   "topics": {

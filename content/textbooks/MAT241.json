@@ -11,13 +11,17 @@
       "title": "Ordinary Differential Equations",
       "authors": "Morris Tenenbaum and Harry Pollard",
       "publisher": "Dover",
-      "note": "In the MTH 202 course folder (same topics)."
+      "note": "In the MTH 202 course folder (same topics).",
+      "url": "https://books.google.com/books/about/Ordinary_Differential_Equations.html?id=29utVed7QMIC",
+      "link_type": "preview"
     },
     "stroud": {
       "title": "Engineering Mathematics",
       "authors": "K. A. Stroud",
       "publisher": "Palgrave Macmillan",
-      "note": "In the MTH 202 course folder (same topics)."
+      "note": "In the MTH 202 course folder (same topics).",
+      "url": "https://books.google.com/books/about/Engineering_Mathematics.html?id=FZncL-xB8dEC",
+      "link_type": "preview"
     }
   },
   "topics": {

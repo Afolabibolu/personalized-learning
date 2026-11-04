@@ -7,7 +7,9 @@
       "edition": "6th edition",
       "publisher": "O'Reilly Media",
       "year": 2021,
-      "note": "A standard text for PHP web development; the course folder has lecture notes only."
+      "note": "A standard text for PHP web development; the course folder has lecture notes only.",
+      "url": "https://www.oreilly.com/library/view/learning-php-mysql/9781492093817/",
+      "link_type": "preview"
     }
   },
   "topics": {

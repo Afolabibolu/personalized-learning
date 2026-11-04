@@ -6,7 +6,7 @@ import { setRecommendationStatus, type Explanation, type Recommendation } from '
 import { formatDate, percent } from '../../lib/format'
 import { ATTENTION_PROBABILITY } from '../../lib/suggestions'
 import { PREFERENCE_PHRASE } from '../PreferencePicker'
-import { RESOURCE_LABEL, ResourceIcon } from '../ResourceList'
+import { BookLinkButton, RESOURCE_LABEL, ResourceIcon, opensOutside } from '../ResourceList'
 import { Button, Card } from '../ui'
 
 type Kind = 'attention' | 'diagnostic' | 'getting-started' | 'keep-it-up'
@@ -143,7 +143,7 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
         prev?.map((r) => (r.id === rec.id ? { ...r, status } : r)),
       )
       if (status === 'accepted') {
-        if (rec.resource && !rec.resource.url) navigate(`/resources/${rec.resource.id}`)
+        if (rec.resource && !opensOutside(rec.resource)) navigate(`/resources/${rec.resource.id}`)
         else if (!rec.resource && rec.quiz) navigate(`/quiz/${rec.quiz.id}`)
       }
     },
@@ -151,7 +151,7 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
 
   function accept() {
     // Open external links straight from the click, so the browser does not block the new tab.
-    if (rec.resource?.url) window.open(rec.resource.url, '_blank', 'noopener')
+    if (rec.resource?.url && opensOutside(rec.resource)) window.open(rec.resource.url, '_blank', 'noopener')
     update.mutate('accepted')
   }
 
@@ -365,7 +365,17 @@ function AlsoRecommended({ items }: { items: NonNullable<Explanation['also']> })
           const style = 'flex items-center gap-2.5 rounded-lg p-1.5 transition hover:bg-slate-50'
           return (
             <li key={item.resource_id}>
-              {item.url ? (
+              {item.type === 'textbook' ? (
+                // The reading card opens in the app; the book's own link is a separate button.
+                <div className="flex flex-col items-start sm:flex-row sm:items-center sm:gap-2">
+                  <Link to={`/resources/${item.resource_id}`} className={`${style} w-full min-w-0 flex-1`} data-testid="also-link">
+                    {body}
+                  </Link>
+                  {item.url && item.link_type && (
+                    <BookLinkButton url={item.url} linkType={item.link_type} className="mb-1 ml-11 sm:mr-1.5 sm:mb-0 sm:ml-0" />
+                  )}
+                </div>
+              ) : item.url ? (
                 <a href={item.url} target="_blank" rel="noreferrer" className={style} data-testid="also-link">
                   {body}
                 </a>

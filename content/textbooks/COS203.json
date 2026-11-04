@@ -6,7 +6,9 @@
       "authors": "David Amos, Dan Bader, Joanna Jablonski and Fletcher Heisler",
       "edition": "4th edition",
       "publisher": "Real Python",
-      "note": "In the course folder."
+      "note": "In the course folder.",
+      "url": "https://realpython.com/products/python-basics-book/",
+      "link_type": "buy"
     }
   },
   "topics": {

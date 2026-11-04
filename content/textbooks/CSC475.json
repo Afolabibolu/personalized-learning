@@ -6,14 +6,18 @@
       "authors": "Joseph Migga Kizza",
       "edition": null,
       "publisher": "Springer",
-      "year": null
+      "year": null,
+      "url": "https://link.springer.com/book/10.1007/978-3-031-24863-4",
+      "link_type": "buy"
     },
     "acm": {
       "title": "ACM Code of Ethics and Professional Conduct",
       "authors": "Association for Computing Machinery",
       "edition": "2018 revision",
       "publisher": "ACM",
-      "year": 2018
+      "year": 2018,
+      "url": "https://www.acm.org/code-of-ethics",
+      "link_type": "free"
     }
   },
   "topics": {

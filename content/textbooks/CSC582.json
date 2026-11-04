@@ -6,14 +6,18 @@
       "authors": "Jonathan Pevsner",
       "edition": "3rd edition",
       "publisher": "Wiley-Blackwell",
-      "year": 2015
+      "year": 2015,
+      "url": "https://www.wiley.com/en-us/Bioinformatics+and+Functional+Genomics,+3rd+Edition-p-9781118581780",
+      "link_type": "buy"
     },
     "shotts": {
       "title": "The Linux Command Line",
       "authors": "William Shotts",
       "edition": "2nd edition",
       "publisher": "No Starch Press",
-      "year": 2019
+      "year": 2019,
+      "url": "https://books.google.com/books/about/The_Linux_Command_Line_2nd_Edition.html?id=dIBxDwAAQBAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

@@ -269,6 +269,13 @@ def cases() -> list[Case]:
              "N-day streak', and a streak-at-risk notification. A missed day uses a freeze and the card says so. Badges show on the "
              "Profile page. 'Streak started' and a badge pop-up appear once, without animation when reduced motion is set. All of it "
              "is computed by the database; a student cannot backdate a log, award a badge or read another student's card"),
+        Case("TC-27", "FR5", "Textbook links",
+             ["python scripts/textbook_links_check.py: open every book link in content/textbooks/",
+              "Check the textbook cards in the database", "Sign in as Tolu Adeyemi; open a recommendation's 'Also recommended', "
+              "the Knowledge Base and a reading card"],
+             "Every link loads (HTTP 200, not a search page) and is free, buy or preview; every linked card carries its "
+             "link and type; the button reads 'Read free online' for free links and 'Buy or preview' otherwise, opens in "
+             "a new tab, and the textbook itself still opens its reading card in the app"),
     ]
 
 
@@ -321,6 +328,8 @@ def evaluate(case: Case) -> None:
                              "  pytest test_gamification.py (5-day run, missed day, 23:50/00:10 Lagos, nothing yet today, "
                              "freezes, XP, badges, access): " + tail(tests, r"passed|failed"))
         case.evidence += lines(run("rls", py + ["scripts/rls_check.py"]), "backdates", "streak card", "badge")
+    elif case.id == "TC-27":
+        case.evidence = lines(run("textbook-links", py + ["scripts/textbook_links_check.py"]), "")
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]
@@ -436,6 +445,7 @@ def write_report(all_cases: list[Case]) -> None:
         "after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output "
         "(phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a "
         "crash in either section is now reported as a failed check with the error).\n"
+        "- Run on 4 Nov 2026 (textbook links; TC-27 added): 26 pass, 1 partial (TC-12), 0 fail, first time.\n"
         "- Run on 4 Nov 2026 (streaks, XP, freezes and badges; TC-26 added): 25 pass, 1 partial (TC-12), 0 fail, first time.\n"
         "- Runs on 3 Nov 2026 (three recommendation stages, TC-07 updated, TC-25 added): the first run had TC-16 and TC-23 fail. TC-16's throwaway test course had no `semester`, which course files need since 1 Nov (a test fault; the test now sets level and semester), and TC-23 found 8 topics in MAT 241, PHY 104 and STA 202 without a textbook card, which were added. The second run had TC-12 fail at phone width with no check output (phase3_check.py --mobile stopped before its summary); run on its own straight after it passed 10/10, and the third run, recorded above, passed.\n\n"
         "## Details\n\n" + "\n".join(details)

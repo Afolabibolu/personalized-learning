@@ -6,14 +6,18 @@
       "authors": "Harold Koontz, Heinz Weihrich and Mark V. Cannice",
       "edition": "10th edition",
       "publisher": "McGraw-Hill",
-      "year": 2016
+      "year": 2016,
+      "url": "https://books.google.com/books/about/Essentials_of_Management.html?id=_afhnQAACAAJ",
+      "link_type": "preview"
     },
     "itil": {
       "title": "ITIL Foundation, ITIL 4 Edition",
       "authors": "AXELOS",
       "edition": "ITIL 4",
       "publisher": "TSO",
-      "year": 2019
+      "year": 2019,
+      "url": "https://books.google.com/books/about/ITIL_Foundation_ITIL_4_Edition.html?id=HmsYwQEACAAJ",
+      "link_type": "preview"
     }
   },
   "topics": {

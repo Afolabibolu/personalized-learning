@@ -7,7 +7,9 @@
       "edition": "2nd edition",
       "publisher": "Springer",
       "year": 2021,
-      "note": "A standard first text on statistical learning; the course folder has no textbook."
+      "note": "A standard first text on statistical learning; the course folder has no textbook.",
+      "url": "https://www.statlearning.com/",
+      "link_type": "free"
     }
   },
   "topics": {

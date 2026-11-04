@@ -175,6 +175,12 @@ def check_textbooks(course_file: str, slugs: set[str], errors: list[str]) -> Non
     for key, book in data.get("books", {}).items():
         if not book.get("title") or not book.get("authors"):
             errors.append(f"{course_file} textbooks: book {key!r} needs title and authors")
+        # Links come only from sources/textbook_links.csv (apply_textbook_links.py): https, with a type.
+        if book.get("url") or book.get("link_type"):
+            if not str(book.get("url", "")).startswith("https://") and not str(book.get("url", "")).startswith("http://"):
+                errors.append(f"{course_file} textbooks: book {key!r} has a link_type but no url")
+            if book.get("link_type") not in ("free", "buy", "preview"):
+                errors.append(f"{course_file} textbooks: book {key!r} link_type must be free, buy or preview")
     for slug, entries in data.get("topics", {}).items():
         if slug not in slugs:
             errors.append(f"{course_file} textbooks: unknown topic {slug!r}")

@@ -105,8 +105,9 @@ def textbook_resources(course_file: str, topic: dict) -> list[dict]:
             "## Why this book", "", entry["why"], "",
             f"Source: {source}",
         ]) + "\n"
+        # The book's own link (free copy, or where to buy or preview it), shown as a button beside the card.
         cards.append({"title": f"Textbook: {book['title']} ({entry['read'].split(';')[0]})", "type": "textbook",
-                      "body": body, "source": source})
+                      "body": body, "source": source, "url": book.get("url"), "link_type": book.get("link_type")})
     return cards
 
 
@@ -148,7 +149,7 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     for r in resources:
         row = {
             "topic_id": topic_id, "title": r["title"], "type": r["type"], "url": r.get("url"),
-            "body": r.get("body"), "source": r.get("source"),
+            "body": r.get("body"), "source": r.get("source"), "link_type": r.get("link_type"),
             "is_introductory": bool(r.get("is_introductory")),
             "intro_order": r.get("intro_order") if r.get("is_introductory") else None,
         }

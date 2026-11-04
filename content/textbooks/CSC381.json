@@ -6,14 +6,18 @@
       "authors": "Donald Hearn, M. Pauline Baker and Warren R. Carithers",
       "edition": "4th edition",
       "publisher": "Pearson",
-      "year": 2014
+      "year": 2014,
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/computer-graphics-with-open-gl/P200000003262/9780134144948",
+      "link_type": "buy"
     },
     "deberg": {
       "title": "Computational Geometry: Algorithms and Applications",
       "authors": "Mark de Berg, Otfried Cheong, Marc van Kreveld and Mark Overmars",
       "edition": "3rd edition",
       "publisher": "Springer",
-      "year": 2008
+      "year": 2008,
+      "url": "https://link.springer.com/book/10.1007/978-3-540-77974-2",
+      "link_type": "buy"
     }
   },
   "topics": {

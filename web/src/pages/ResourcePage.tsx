@@ -3,7 +3,7 @@ import remarkGfm from 'remark-gfm'
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getResource } from '../api/knowledge'
-import { RESOURCE_LABEL, ResourceIcon, isExamStyle, practiceLabel } from '../components/ResourceList'
+import { BookLinkButton, RESOURCE_LABEL, ResourceIcon, isExamStyle, practiceLabel } from '../components/ResourceList'
 import { ButtonLink, Card, ErrorMessage, Spinner } from '../components/ui'
 
 /** In-app viewer for study notes and past questions (Markdown). */
@@ -45,6 +45,15 @@ export function ResourcePage() {
           </a>
         </Card>
       ) : null}
+
+      {data.type === 'textbook' && data.url && data.link_type && (
+        <div className="mt-3 flex flex-wrap items-center gap-3" data-testid="book-link-row">
+          <BookLinkButton url={data.url} linkType={data.link_type} className="px-3.5 py-2 text-sm" />
+          <span className="text-xs text-slate-500">
+            {data.link_type === 'free' ? 'A legal free copy, from the author or publisher.' : 'The publisher’s or Google Books page for this book.'}
+          </span>
+        </div>
+      )}
 
       {data.source && data.type === 'past_questions' && (
         <p className="mt-3 text-xs text-slate-500">From: {data.source}</p>

@@ -7,14 +7,18 @@
       "edition": "3rd edition",
       "publisher": "PHI Learning",
       "year": 2006,
-      "in_course_files": "Theory of Computer Science (Automata, Languages and Computation) Third Edition ( PDFDrive ).pdf"
+      "in_course_files": "Theory of Computer Science (Automata, Languages and Computation) Third Edition ( PDFDrive ).pdf",
+      "url": "https://books.google.com/books/about/Theory_of_Computer_Science.html?id=bmlUBudVqoMC",
+      "link_type": "preview"
     },
     "sipser": {
       "title": "Introduction to the Theory of Computation",
       "authors": "Michael Sipser",
       "edition": "3rd edition",
       "publisher": "Cengage Learning",
-      "year": 2013
+      "year": 2013,
+      "url": "https://www.cengage.com/c/introduction-to-the-theory-of-computation-3e-sipser/9781133187790",
+      "link_type": "buy"
     }
   },
   "topics": {

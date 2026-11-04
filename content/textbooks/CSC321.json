@@ -6,14 +6,18 @@
       "authors": "Abraham Silberschatz, Peter B. Galvin and Greg Gagne",
       "edition": "10th edition",
       "publisher": "Wiley",
-      "year": 2018
+      "year": 2018,
+      "url": "https://www.wiley.com/en-us/Operating+System+Concepts,+10th+Edition-p-9781119320913",
+      "link_type": "buy"
     },
     "mcho": {
       "title": "Understanding Operating Systems",
       "authors": "Ann McIver McHoes and Ida M. Flynn",
       "edition": "8th edition",
       "publisher": "Cengage Learning",
-      "year": 2018
+      "year": 2018,
+      "url": "https://www.cengage.com/c/understanding-operating-systems-8e-mchoes-flynn/9781305674257/",
+      "link_type": "buy"
     }
   },
   "topics": {

@@ -14,7 +14,9 @@
       "authors": "Ramesh S. Gaonkar",
       "edition": null,
       "publisher": "Penram International",
-      "year": null
+      "year": null,
+      "url": "https://books.google.com/books/about/Microprocessor_Architecture_Programming.html?id=haogPwAACAAJ",
+      "link_type": "preview"
     },
     "ray": {
       "title": "Advanced Microprocessors and Peripherals",
@@ -22,14 +24,18 @@
       "edition": null,
       "publisher": "McGraw-Hill",
       "year": null,
-      "listed_in_course_files": "Case Studies Microprocessors and Microcontrollers.pptx (reading list)"
+      "listed_in_course_files": "Case Studies Microprocessors and Microcontrollers.pptx (reading list)",
+      "url": "https://books.google.com/books/about/Advanced_Microprocessors_and_Peripherals.html?id=-ncYuAEACAAJ",
+      "link_type": "preview"
     },
     "mazidi": {
       "title": "The 8051 Microcontroller and Embedded Systems: Using Assembly and C",
       "authors": "Muhammad Ali Mazidi, Janice Gillispie Mazidi and Rolin D. McKinlay",
       "edition": "2nd edition",
       "publisher": "Pearson Prentice Hall",
-      "year": 2006
+      "year": 2006,
+      "url": "https://books.google.com/books/about/The_8051_Microcontroller_And_Embedded_Sy.html?id=8t0gVhfUGXUC",
+      "link_type": "preview"
     }
   },
   "topics": {

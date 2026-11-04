@@ -34,11 +34,15 @@ export type Course = {
 
 export type ResourceType = 'note' | 'lecture' | 'past_questions' | 'video' | 'textbook'
 
+/** A textbook's link: a legal free copy, or where to buy or preview it. */
+export type BookLinkType = 'free' | 'buy' | 'preview'
+
 export type Resource = {
   id: string
   title: string
   type: ResourceType
-  url: string | null // lecture and video: opens in a new tab
+  url: string | null // lecture and video: opens in a new tab; textbook: the book's own link (a button beside its reading card)
+  link_type: BookLinkType | null // textbooks only
   source: string | null
   is_introductory: boolean
   intro_order: number | null
