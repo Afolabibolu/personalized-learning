@@ -46,7 +46,7 @@ export function ProgressCard({ courses }: { courses: DashboardData['courses'] })
   const data = course.topics.map((t) => ({
     name: t.title,
     // Unattempted topics get a sliver so the row is visible.
-    value: t.score ?? 2,
+    value: Math.max(t.score ?? 0, 2), // a thin bar, so 0% and 'Not attempted' still get their label
     label: t.score === null ? 'Not attempted' : `${Math.round(t.score)}%`,
     score: t.score,
   }))

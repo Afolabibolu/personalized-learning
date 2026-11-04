@@ -6,6 +6,18 @@
       "authors": "H. O. Tejumola",
       "publisher": "Distance Learning Centre, University of Ibadan",
       "note": "In the course folder."
+    },
+    "tenenbaum": {
+      "title": "Ordinary Differential Equations",
+      "authors": "Morris Tenenbaum and Harry Pollard",
+      "publisher": "Dover",
+      "note": "In the MTH 202 course folder (same topics)."
+    },
+    "stroud": {
+      "title": "Engineering Mathematics",
+      "authors": "K. A. Stroud",
+      "publisher": "Palgrave Macmillan",
+      "note": "In the MTH 202 course folder (same topics)."
     }
   },
   "topics": {
@@ -42,6 +54,20 @@
         "book": "tejumola",
         "read": "The chapters on the operator D",
         "why": "The UI Distance Learning Centre text for MAT 241."
+      }
+    ],
+    "difference-equations": [
+      {
+        "book": "tenenbaum",
+        "read": "The chapter on difference equations",
+        "why": "Linear difference equations with constant coefficients."
+      }
+    ],
+    "numerical-interpolation-and-integration": [
+      {
+        "book": "stroud",
+        "read": "The programmes on numerical methods",
+        "why": "Interpolation and numerical integration."
       }
     ]
   }

@@ -172,6 +172,20 @@ def main() -> int:
         statuses = [r["status"] for r in b.table("course_requests").select("status").eq("student_id", b_id).execute().data]
         check("B's request is still pending", statuses == ["pending"], ", ".join(statuses))
 
+        print("\n-- Shared settings and the Stage 2 fallback")
+        allowed("A reads the shared cold-start threshold", lambda: a.table("app_settings").select("key, value").eq(
+            "key", "cold_start_threshold").execute())
+        refused("A changes the threshold", lambda: a.table("app_settings").update({"value": 1}).eq(
+            "key", "cold_start_threshold").execute())
+        refused("A inserts a setting", lambda: a.table("app_settings").insert({"key": "x", "value": 1}).execute())
+        refused("A reads B's Stage 2 list", lambda: a.rpc("diagnostic_recommendations", {"p_student": b_id}).execute())
+        refused("A reads B's stages", lambda: a.rpc("recommendation_stages", {"p_student": b_id}).execute())
+        a.rpc("refresh_fallback_recommendations").execute()
+        b_after = db.table("recommendations").select("id, status").eq("student_id", b_id).execute().data
+        check("A's fallback run leaves B's recommendations alone",
+              any(r["id"] == b_rec and r["status"] == "pending" for r in b_after), f"{len(b_after)} of B's rows")
+        refused("Signed-out visitor runs the fallback", lambda: testkit.anon().rpc("refresh_fallback_recommendations").execute())
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

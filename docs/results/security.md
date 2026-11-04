@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-10-25 17:29 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-11-03 18:28 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 52 of 52 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 59 of 59 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -99,6 +99,18 @@ Run 2026-10-25 17:29 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | B sends a request already marked added | refused: 42501 permission denied for table course_requests |
 | Pass | B marks own request added | refused: 42501 permission denied for table course_requests |
 | Pass | B's request is still pending | pending |
+
+### Shared settings and the Stage 2 fallback
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | A reads the shared cold-start threshold | 1 row(s |
+| Pass | A changes the threshold | refused: 42501 permission denied for table app_settings |
+| Pass | A inserts a setting | refused: 42501 permission denied for table app_settings |
+| Pass | A reads B's Stage 2 list | refused: 42501 permission denied for function diagnostic_recommendations |
+| Pass | A reads B's stages | refused: 42501 permission denied for function recommendation_stages |
+| Pass | A's fallback run leaves B's recommendations alone | 1 of B's rows |
+| Pass | Signed-out visitor runs the fallback | refused: 42501 permission denied for function refresh_fallback_recommendations |
 
 ### Profiles and content
 

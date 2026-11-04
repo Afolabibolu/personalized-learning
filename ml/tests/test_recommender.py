@@ -1,9 +1,10 @@
 import numpy as np
 import pandas as pd
 
-from app.config import COLD_START_THRESHOLD
 from app.recommender import CourseData, Models, Recommendation, ResourceInfo, recommend_course, top_overall
 from training.features import FEATURES
+
+THRESHOLD = 3  # the value seeded in app_settings.cold_start_threshold
 
 
 class FixedProbabilities:
@@ -43,20 +44,20 @@ def models(lr: dict, rf: dict):
 
 def test_below_threshold_gets_introductory_resources_in_order():
     m = models({1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1}, {1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1})
-    recs = recommend_course(course(), COLD_START_THRESHOLD - 1, features(LAST), m, set())
+    recs = recommend_course(course(), THRESHOLD - 1, features(LAST), m, set(), threshold=THRESHOLD)
     assert [(r.resource_id, r.rank, r.source) for r in recs] == [("intro-1", 1, "cold_start"), ("intro-2", 2, "cold_start")]
     assert all(r.model_version is None and r.priority_score is None for r in recs)
 
 
 def test_missing_model_files_means_cold_start_even_with_history():
-    recs = recommend_course(course(), 50, features(LAST), None, set())
+    recs = recommend_course(course(), 50, features(LAST), None, set(), threshold=THRESHOLD)
     assert {r.source for r in recs} == {"cold_start"}
 
 
 def test_at_threshold_ranks_topics_by_averaged_probability():
     # LR alone would put t1 first; the average puts t3 first.
     m = models({1.0: 0.9, 2.0: 0.2, 3.0: 0.7, 4.0: 0.1}, {1.0: 0.1, 2.0: 0.3, 3.0: 0.9, 4.0: 0.2})
-    recs = recommend_course(course(), COLD_START_THRESHOLD, features(LAST), m, set())
+    recs = recommend_course(course(), THRESHOLD, features(LAST), m, set(), threshold=THRESHOLD)
     assert [r.topic_id for r in recs] == ["t3", "t1", "t2", "t4"]
     recs = top_overall(recs)
     assert [r.topic_id for r in recs] == ["t3", "t1", "t2"]
@@ -67,7 +68,7 @@ def test_at_threshold_ranks_topics_by_averaged_probability():
 
 def test_used_resources_are_skipped_and_topic_quiz_is_the_fallback():
     m = models({1.0: 0.9, 2.0: 0.8, 3.0: 0.1, 4.0: 0.1}, {1.0: 0.9, 2.0: 0.8, 3.0: 0.1, 4.0: 0.1})
-    recs = recommend_course(course(), 10, features(LAST), m, used_resource_ids={"intro-1", "intro-2"})
+    recs = recommend_course(course(), 10, features(LAST), m, used_resource_ids={"intro-1", "intro-2"}, threshold=THRESHOLD)
     by_topic = {r.topic_id: r for r in recs}
     assert by_topic["t1"].resource_id is None and by_topic["t1"].quiz_id == "quiz-t1"
     assert by_topic["t2"].resource_id == "t2-notes"
@@ -75,12 +76,12 @@ def test_used_resources_are_skipped_and_topic_quiz_is_the_fallback():
 
 def test_introductory_resource_is_preferred_within_a_weak_topic():
     m = models({1.0: 0.1, 2.0: 0.9, 3.0: 0.1, 4.0: 0.1}, {1.0: 0.1, 2.0: 0.9, 3.0: 0.1, 4.0: 0.1})
-    recs = recommend_course(course(), 10, features(LAST), m, set())
+    recs = recommend_course(course(), 10, features(LAST), m, set(), threshold=THRESHOLD)
     assert recs[0].topic_id == "t2" and recs[0].resource_id == "intro-2"
 
 
 def test_cold_start_skips_resources_already_accepted_or_dismissed():
-    recs = recommend_course(course(), 0, features(LAST), None, {"intro-1"})
+    recs = recommend_course(course(), 0, features(LAST), None, {"intro-1"}, threshold=THRESHOLD)
     assert [r.resource_id for r in recs] == ["intro-2"]
     assert recs[0].rank == 1
 
@@ -106,7 +107,7 @@ def test_weak_topic_gets_its_study_note_before_past_questions_and_lecture():
         ResourceInfo("note", "t1", "Study note", False, None, "note"),
     ], {"t1": "quiz-t1"})
     m = models({1.0: 0.9}, {1.0: 0.9})
-    pick = lambda used: recommend_course(c, 10, features({"t1": 1.0}), m, used)[0].resource_id
+    pick = lambda used: recommend_course(c, 10, features({"t1": 1.0}), m, used, threshold=THRESHOLD)[0].resource_id
     assert pick(set()) == "note"
     assert pick({"note"}) == "pq"
     assert pick({"note", "pq"}) == "lec"
@@ -119,9 +120,9 @@ def test_preferred_type_comes_first_and_is_recorded_as_matched():
         ResourceInfo("pq", "t1", "Past questions", False, None, "past_questions"),
     ], {"t1": "quiz-t1"})
     m = models({1.0: 0.9}, {1.0: 0.9})
-    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("past_questions",))[0]
+    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("past_questions",), threshold=THRESHOLD)[0]
     assert rec.resource_id == "pq" and rec.explanation["matched_preference"] == "past_questions"
-    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("video",))[0]
+    rec = recommend_course(c, 10, features({"t1": 1.0}), m, set(), preferred=("video",), threshold=THRESHOLD)[0]
     assert rec.resource_id == "note" and rec.explanation["matched_preference"] is None
 
 
@@ -137,7 +138,7 @@ def topic_with_video_and_textbook():
 
 def test_each_recommendation_also_suggests_the_topics_video_and_textbook():
     m = models({1.0: 0.9, 2.0: 0.1}, {1.0: 0.9, 2.0: 0.1})
-    recs = recommend_course(topic_with_video_and_textbook(), COLD_START_THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m, set())
+    recs = recommend_course(topic_with_video_and_textbook(), THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m, set(), threshold=THRESHOLD)
     first = next(r for r in recs if r.topic_id == "t1")
     assert first.resource_id == "note"
     assert [(a["resource_id"], a["type"]) for a in first.explanation["also"]] == [("video", "video"), ("book", "textbook")]
@@ -147,13 +148,49 @@ def test_each_recommendation_also_suggests_the_topics_video_and_textbook():
 def test_also_skips_the_main_resource_and_used_ones():
     m = models({1.0: 0.9, 2.0: 0.1}, {1.0: 0.9, 2.0: 0.1})
     # The student prefers videos, so the video is the main resource; the textbook was dismissed earlier.
-    recs = recommend_course(topic_with_video_and_textbook(), COLD_START_THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m,
-                            {"note", "book"}, preferred=("video",))
+    recs = recommend_course(topic_with_video_and_textbook(), THRESHOLD, features({"t1": 1.0, "t2": 2.0}), m,
+                            {"note", "book"}, preferred=("video",), threshold=THRESHOLD)
     first = next(r for r in recs if r.topic_id == "t1")
     assert first.resource_id == "video"
     assert first.explanation["also"] == []
 
 
 def test_cold_start_items_also_suggest_a_video_and_textbook():
-    recs = recommend_course(topic_with_video_and_textbook(), 0, features({"t1": 1.0, "t2": 2.0}), None, set())
+    recs = recommend_course(topic_with_video_and_textbook(), 0, features({"t1": 1.0, "t2": 2.0}), None, set(), threshold=THRESHOLD)
     assert [a["type"] for a in recs[0].explanation["also"]] == ["video", "textbook"]
+
+
+def diagnostic_list():
+    """What diagnostic_recommendations() returns for a Stage 2 course (computed in SQL)."""
+    return [Recommendation(topic_id="t3", rank=1, source="diagnostic", resource_id="t3-notes",
+                           explanation={"reason": "You got 0 of 3 right on this topic in the diagnostic."}),
+            Recommendation(topic_id="t2", rank=2, source="diagnostic", resource_id="t2-notes")]
+
+
+def test_stage_2_uses_the_diagnostic_list_below_the_threshold():
+    m = models({1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1}, {1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1})
+    recs = recommend_course(course(), 1, features(LAST), m, set(), threshold=THRESHOLD, diagnostic=diagnostic_list())
+    assert [(r.topic_id, r.source) for r in recs] == [("t3", "diagnostic"), ("t2", "diagnostic")]
+
+
+def test_stage_1_without_a_diagnostic_even_after_topic_quizzes_below_the_threshold():
+    m = models({1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1}, {1.0: 0.9, 2.0: 0.1, 3.0: 0.1, 4.0: 0.1})
+    recs = recommend_course(course(), THRESHOLD - 1, features(LAST), m, set(), threshold=THRESHOLD, diagnostic=None)
+    assert {r.source for r in recs} == {"cold_start"}
+
+
+def test_stage_3_at_the_threshold_ignores_the_diagnostic_list():
+    m = models({1.0: 0.9, 2.0: 0.2, 3.0: 0.7, 4.0: 0.1}, {1.0: 0.1, 2.0: 0.3, 3.0: 0.9, 4.0: 0.2})
+    recs = recommend_course(course(), THRESHOLD, features(LAST), m, set(), threshold=THRESHOLD, diagnostic=diagnostic_list())
+    assert {r.source for r in recs} == {"ml"}
+
+
+def test_without_model_files_a_student_with_a_diagnostic_stays_in_stage_2():
+    recs = recommend_course(course(), 10, features(LAST), None, set(), threshold=THRESHOLD, diagnostic=diagnostic_list())
+    assert {r.source for r in recs} == {"diagnostic"}
+
+
+def test_diagnostic_lists_are_kept_per_course_by_top_overall():
+    recs = top_overall(diagnostic_list() + [
+        Recommendation(topic_id="x1", rank=1, source="ml", resource_id="a", priority_score=0.9, model_version="v1")])
+    assert [r.source for r in recs].count("diagnostic") == 2

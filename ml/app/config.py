@@ -4,9 +4,9 @@ ML_DIR = Path(__file__).resolve().parent.parent
 MODELS_DIR = ML_DIR / "models"
 RESULTS_DIR = ML_DIR / "results"
 
-# Fewer completed quiz attempts than this on a course means the student gets
-# that course's introductory resources instead of ML recommendations.
-COLD_START_THRESHOLD = 3
+# The cold-start threshold (completed quizzes on a course before the models rank
+# its topics) is one value in the database, app_settings.cold_start_threshold,
+# shared with the web app and the SQL functions; /recommend reads it each run.
 
 # Label rule: a topic "requires attention" when the next attempt scores below this.
 ATTENTION_THRESHOLD = 50.0

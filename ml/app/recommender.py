@@ -10,7 +10,7 @@ from typing import Protocol
 
 import pandas as pd
 
-from app.config import ATTENTION_PROBABILITY, COLD_START_THRESHOLD, MODEL_VERSION, TOP_TOPICS
+from app.config import ATTENTION_PROBABILITY, MODEL_VERSION, TOP_TOPICS
 from app.explain import cold_start_explanation, ml_explanation
 from training.features import FEATURES
 
@@ -61,7 +61,7 @@ class CourseData:
 class Recommendation:
     topic_id: str
     rank: int
-    source: str  # "ml" or "cold_start"
+    source: str  # "ml", "diagnostic" or "cold_start"
     resource_id: str | None = None
     quiz_id: str | None = None
     priority_score: float | None = None
@@ -81,8 +81,13 @@ def also_recommended(course: CourseData, topic_id: str, main_id: str | None, use
     return also
 
 
-def is_cold_start(completed_attempts: int, models: Models | None) -> bool:
-    return models is None or completed_attempts < COLD_START_THRESHOLD
+def stage_of(completed_attempts: int, threshold: int, has_diagnostic: bool, models: Models | None) -> int:
+    """1: no diagnostic yet (Getting started). 2: diagnostic taken, below the threshold
+    (weakest diagnostic topics). 3: at or above the threshold (the models).
+    Without model files a student never reaches Stage 3."""
+    if models is not None and completed_attempts >= threshold:
+        return 3
+    return 2 if has_diagnostic else 1
 
 
 def cold_start(course: CourseData, used_resource_ids: set[str]) -> list[Recommendation]:
@@ -166,22 +171,31 @@ def recommend_course(
     models: Models | None,
     used_resource_ids: set[str],
     preferred: tuple[str, ...] = (),
+    *,
+    threshold: int,
+    diagnostic: list[Recommendation] | None = None,
 ) -> list[Recommendation]:
-    """Cold-start list, or every topic of the course ranked by the models.
+    """The course's list for its stage: the Getting started list (Stage 1), the weakest
+    diagnostic topics (Stage 2, computed in SQL by diagnostic_recommendations() and passed
+    in as `diagnostic`), or every topic ranked by the models (Stage 3).
     Use top_overall() to keep only the best ML topics across courses."""
-    if is_cold_start(completed_attempts, models):
-        return cold_start(course, used_resource_ids)
-    try:
-        return ml_recommendations(course, features, models, used_resource_ids, top_n=None, preferred=preferred)
-    except Exception:  # never fail a student who exists: fall back to the introductory list (NFR4)
-        logging.getLogger(__name__).warning("ML ranking failed for course %s; using cold start", course.course_id, exc_info=True)
-        return cold_start(course, used_resource_ids)
+    stage = stage_of(completed_attempts, threshold, bool(diagnostic), models)
+    if stage == 3:
+        try:
+            return ml_recommendations(course, features, models, used_resource_ids, top_n=None, preferred=preferred)
+        except Exception:  # never fail a student who exists: fall back to an earlier stage (NFR4)
+            logging.getLogger(__name__).warning("ML ranking failed for course %s; using an earlier stage",
+                                                course.course_id, exc_info=True)
+            stage = 2 if diagnostic else 1
+    if stage == 2 and diagnostic:
+        return diagnostic
+    return cold_start(course, used_resource_ids)
 
 
 def top_overall(recs: list[Recommendation], n: int = TOP_TOPICS) -> list[Recommendation]:
     """Keeps the n highest-probability ML recommendations across all courses,
-    re-ranked 1..n. Cold-start lists stay as they are (one per course)."""
-    cold = [r for r in recs if r.source == "cold_start"]
+    re-ranked 1..n. Cold-start and diagnostic lists stay as they are (one per course)."""
+    cold = [r for r in recs if r.source != "ml"]
     ml = sorted((r for r in recs if r.source == "ml"), key=lambda r: -(r.priority_score or 0))[:n]
     for rank, rec in enumerate(ml, start=1):
         rec.rank = rank

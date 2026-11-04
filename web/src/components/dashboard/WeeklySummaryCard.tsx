@@ -4,16 +4,17 @@ import { ATTENTION_PROBABILITY } from '../../lib/suggestions'
 import type { WeeklySummary } from '../../lib/weekly'
 import { Card } from '../ui'
 
-/** The topic to work on next: the most likely "needs attention", else the first getting-started item. */
+/** The topic to work on next: the most likely "needs attention", else the weakest diagnostic topic, else the first getting-started item. */
 function nextTopic(recs: Recommendation[]): Recommendation | null {
   const pending = recs.filter((r) => r.status === 'pending')
   const attention = pending
     .filter((r) => r.source === 'ml' && (r.priority_score ?? 0) >= ATTENTION_PROBABILITY)
     .sort((a, b) => (b.priority_score ?? 0) - (a.priority_score ?? 0))
-  const gettingStarted = pending
-    .filter((r) => r.source === 'cold_start')
-    .sort((a, b) => a.topic.course.code.localeCompare(b.topic.course.code) || a.rank - b.rank)
-  return attention[0] ?? gettingStarted[0] ?? null
+  const byCourseAndRank = (a: Recommendation, b: Recommendation) =>
+    a.topic.course.code.localeCompare(b.topic.course.code) || a.rank - b.rank
+  const diagnostic = pending.filter((r) => r.source === 'diagnostic').sort(byCourseAndRank)
+  const gettingStarted = pending.filter((r) => r.source === 'cold_start').sort(byCourseAndRank)
+  return attention[0] ?? diagnostic[0] ?? gettingStarted[0] ?? null
 }
 
 export function WeeklySummaryCard({ summary, recommendations }: { summary: WeeklySummary; recommendations: Recommendation[] }) {
@@ -68,7 +69,11 @@ export function WeeklySummaryCard({ summary, recommendations }: { summary: Weekl
             </Link>
             <p className="text-xs text-slate-500">
               {next.topic.course.code}
-              {next.source === 'ml' && next.priority_score !== null ? ` · ${Math.round(next.priority_score * 100)}% likely to need work` : ' · Getting started'}
+              {next.source === 'ml' && next.priority_score !== null
+                ? ` · ${Math.round(next.priority_score * 100)}% likely to need work`
+                : next.source === 'diagnostic'
+                  ? ' · Based on your diagnostic'
+                  : ' · Getting started'}
             </p>
           </>
         ) : (

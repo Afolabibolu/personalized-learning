@@ -12,7 +12,6 @@ export type ReminderInput = {
   studyLogs: { topic_id: string; logged_at: string }[]
   topicScores: Map<string, number>
   topics: { id: string; title: string }[]
-  coursesWithoutDiagnostic: { code: string; diagnostic_quiz_id: string }[]
 }
 
 export const INACTIVE_DAYS = 3
@@ -21,7 +20,7 @@ const MAX_REMINDERS = 4
 
 /** In-app reminders, computed from stored dates every time the dashboard loads. */
 export function buildReminders(input: ReminderInput): Reminder[] {
-  const { now, studyLogs, topicScores, topics, coursesWithoutDiagnostic } = input
+  const { now, studyLogs, topicScores, topics } = input
   const reminders: Reminder[] = []
 
   const lastStudied = new Map<string, Date>()
@@ -71,14 +70,7 @@ export function buildReminders(input: ReminderInput): Reminder[] {
     })
   }
 
-  for (const course of coursesWithoutDiagnostic) {
-    reminders.push({
-      id: `diagnostic-${course.code}`,
-      tone: 'info',
-      text: `Take the ${course.code} diagnostic quiz so your recommendations can be personalised.`,
-      action: { label: 'Start quiz', to: `/quiz/${course.diagnostic_quiz_id}` },
-    })
-  }
+  // Courses without a diagnostic are prompted at the top of the recommendations card instead (Stage 1).
 
   return reminders.slice(0, MAX_REMINDERS)
 }

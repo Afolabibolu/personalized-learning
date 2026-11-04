@@ -100,6 +100,22 @@ def student_history(db: Client, student_id: str) -> tuple[list[dict], list[dict]
     return scores, logs
 
 
+def cold_start_threshold(db: Client) -> int:
+    """The shared threshold (app_settings.cold_start_threshold)."""
+    return int(db.rpc("cold_start_threshold").execute().data)
+
+
+def diagnostic_recommendations(db: Client, student_id: str) -> dict[str, list[Recommendation]]:
+    """Stage 2 lists per course, computed by the SQL function the web fallback also uses."""
+    rows = db.rpc("diagnostic_recommendations", {"p_student": student_id}).execute().data
+    by_course: dict[str, list[Recommendation]] = {}
+    for r in sorted(rows, key=lambda r: r["rank"]):
+        by_course.setdefault(r["course_id"], []).append(Recommendation(
+            topic_id=r["topic_id"], rank=r["rank"], source="diagnostic",
+            resource_id=r["resource_id"], quiz_id=r["quiz_id"], explanation=r["explanation"]))
+    return by_course
+
+
 def learning_preferences(db: Client, student_id: str) -> tuple[str, ...]:
     """The student's preferred resource types (note, lecture, past_questions, video)."""
     rows = db.table("profiles").select("learning_preferences").eq("id", student_id).execute().data

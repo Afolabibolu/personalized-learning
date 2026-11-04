@@ -144,7 +144,7 @@ def portability_check() -> list[str]:
                            "explanation": "Test.", "source": "portability test"})
             (tmp / "questions" / "TST999" / f"topic-{i}.json").write_text(json.dumps(qs))
         (tmp / "resources" / "TST999.json").write_text(json.dumps({"code": "TST 999", "topics": links}))
-        (tmp / "courses" / "TST999.json").write_text(json.dumps({"code": "TST 999", "title": "Portability test course", "topics": topics}))
+        (tmp / "courses" / "TST999.json").write_text(json.dumps({"code": "TST 999", "title": "Portability test course", "level": 500, "semester": 1, "topics": topics}))
 
         validate = subprocess.run([PY, "-I", str(tmp / "validate.py")], capture_output=True, text=True)
         load = subprocess.run([PY, "-I", "-W", "ignore", str(tmp / "load.py")], capture_output=True, text=True)
@@ -190,9 +190,12 @@ def cases() -> list[Case]:
         Case("TC-06", "FR4", "ML recommendations rank weak topics first",
              ["Sign in as Active Student (weak: Cognitive Psychology, Fuzzy Logic)", "POST /recommend with the student's token", "Read the recommendations"],
              "Top 3 overall from the models; the two weak topics ranked 1 and 2; re-running does not duplicate pending recommendations"),
-        Case("TC-07", "FR4 / NFR4", "Cold-start fallback for a new student",
-             ["Sign in as New Student (no quiz attempts or study logs)", "POST /recommend", "Open the dashboard"],
-             "For each course: topic 1's study note and lecture, then topic 2's note, labelled 'Getting started'; not empty, no ML scores"),
+        Case("TC-07", "FR4 / NFR4", "Stage 1: cold-start fallback for a student with no diagnostic",
+             ["Sign in as New Student (no quiz attempts or study logs)", "POST /recommend", "Open the dashboard",
+              "python scripts/stage_check.py (stages per course from the database, then the dashboards in Chrome)"],
+             "Both courses are in Stage 1. For each course: topic 1's study note and lecture, then topic 2's note, labelled "
+             "'Getting started'; not empty, no ML scores; a 'Take the [CODE] diagnostic so your recommendations can be "
+             "personalised' card for each course at the top of the list"),
         Case("TC-08", "FR4", "Model training and comparison with a rule baseline",
              ["python scripts/seed_demo.py (writes simulation_rules.md)", "cd ml && python -m training.train", "Inspect ml/results/"],
              "Rule baseline, Logistic Regression and Random Forest scored on the same split and 5-fold CV; three-row metrics table, confusion matrices, comparison chart, LR coefficients and RF importances and simulation rules saved, all labelled simulated data"),
@@ -204,7 +207,7 @@ def cases() -> list[Case]:
              "Streak, 14-day activity strip and per-topic progress chart shown; logic tests pass"),
         Case("TC-11", "FR6", "Reminders and recommendation feedback",
              ["Open the dashboard as Active Student and as New Student", "Press Accept and Dismiss", "Run npm test (reminder rules)"],
-             "Weak-topic and diagnostic reminders shown; Accept and Dismiss change only the status column"),
+             "Weak-topic reminders shown, and courses without a diagnostic prompted in the recommendations card; Accept and Dismiss change only the status column"),
         Case("TC-12", "NFR1", "Usability: core tasks without assistance",
              ["Complete registration, a quiz, a study log and reading a recommendation at laptop and phone width (automated walkthrough)",
               "SUS questionnaire with student participants (Section 3.14.3)"],
@@ -249,6 +252,14 @@ def cases() -> list[Case]:
              ["As a new student, open Courses, then Request a course, and send the form",
               "python scripts/course_requests.py, then add <id> --course \"CSC 412\"", "Reload the request page, notifications and Courses"],
              "The request shows as pending, the admin script lists it and adds it, and the student sees it added, is notified and has the course in their courses; the form fits a phone"),
+        Case("TC-25", "FR4 / NFR4", "Stage 2: diagnostic-based recommendations before the ML threshold",
+             ["Sign in as Ngozi Eze (only the CSC 531 diagnostic taken)", "POST /recommend", "Open the dashboard and 'Why this?'",
+              "Block the ML service, clear the saved list and reload; press Refresh", "pytest scripts/test_diagnostic_stage.py"],
+             "CSC 531 is in Stage 2 and CSC 574 in Stage 1. Up to 3 CSC 531 topics ranked by diagnostic score, lowest first, "
+             "ties by teaching order, fully right topics left out; each labelled 'Based on your diagnostic' with 'You got X of Y "
+             "right on this topic in the diagnostic'; 'Why this?' says it comes from the diagnostic score, not the models, and "
+             "that ML recommendations start after N quizzes (the shared threshold, N = 3); the same list appears with the ML "
+             "service down"),
     ]
 
 
@@ -279,8 +290,19 @@ def evaluate(case: Case) -> None:
     elif case.id == "TC-07":
         out4 = run("phase4", py + ["scripts/phase4_check.py"])
         out5 = run("phase5", py + ["scripts/phase5_check.py"])
+        stages = run("stages", py + ["scripts/stage_check.py"])
         case.evidence = lines(out4, "every recommendation is cold start", "one introductory list") + \
-            lines(out5, "'Getting started'", "introductory list")
+            lines(out5, "'Getting started'", "introductory list", "Stage 1 card") + \
+            lines(stages.split("-- Stage 2 dashboard")[0], "Kemi", "one shared threshold", "diagnostic' card", "real threshold",
+                  "the list is 'Getting started'")
+    elif case.id == "TC-25":
+        stages = run("stages", py + ["scripts/stage_check.py"])
+        tests = run("pytest-stages", [str(ROOT / ".venv/bin/pytest"), "scripts/test_diagnostic_stage.py", "-q", "-p",
+                                      "no:cacheprovider", "-W", "ignore"])
+        case.evidence = lines(stages, "Ngozi", "/recommend for diagnostic", "one shared threshold") + \
+            lines(stages.split("-- Stage 2 dashboard")[1].split("-- Stage 3 dashboard")[0], "")
+        case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
+                             "  pytest test_diagnostic_stage.py (database rules): " + tail(tests, r"passed|failed"))
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]
@@ -395,7 +417,8 @@ def write_report(all_cases: list[Case]) -> None:
         "every case for the table above. Later the same day `timing.py` failed for the same reason (no saved recommendations "
         "after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output "
         "(phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a "
-        "crash in either section is now reported as a failed check with the error).\n\n"
+        "crash in either section is now reported as a failed check with the error).\n"
+        "- Runs on 3 Nov 2026 (three recommendation stages, TC-07 updated, TC-25 added): the first run had TC-16 and TC-23 fail. TC-16's throwaway test course had no `semester`, which course files need since 1 Nov (a test fault; the test now sets level and semester), and TC-23 found 8 topics in MAT 241, PHY 104 and STA 202 without a textbook card, which were added. The second run had TC-12 fail at phone width with no check output (phase3_check.py --mobile stopped before its summary); run on its own straight after it passed 10/10, and the third run, recorded above, passed.\n\n"
         "## Details\n\n" + "\n".join(details)
     )
 

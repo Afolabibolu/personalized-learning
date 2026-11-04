@@ -30,6 +30,7 @@ Each recommendation row gets an `explanation` (JSON) so the frontend never compu
 
 - `top_factors` for Logistic Regression comes from coefficient times the scaled feature value; take the two or three largest contributions. Do not add SHAP or other new libraries for this.
 - Cold-start rows have `"reason": "Not enough quiz history yet for this course."`, no probabilities, and source `cold_start`.
+- Diagnostic rows (Stage 2, 3 Nov) come from the SQL function `diagnostic_recommendations()`, not from Python: source `diagnostic`, no probabilities, `"reason": "You got 1 of 3 right on this topic in the diagnostic."`, plus `diagnostic` (correct, total, score), `threshold` and `completed_quizzes`. `/recommend` reads the threshold from `app_settings` each run (`cold_start_threshold()`); there is no copy of it in Python.
 - "Keep it up" rows (low probability, used to fill the list when fewer than 3 topics need attention) say why, for example "Scoring 80%. Try the topic quiz: questions you haven't seen come first."
 
 ## Notifications written by the service

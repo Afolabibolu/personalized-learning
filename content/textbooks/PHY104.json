@@ -24,6 +24,41 @@
         "read": "Chapters 43 and 44 (Nuclear Physics; Particle Physics and Cosmology)",
         "why": "The chapters the lecture note names for nuclear physics."
       }
+    ],
+    "wave-motion-and-the-wave-equation": [
+      {
+        "book": "young",
+        "read": "Chapter 15 (Mechanical Waves)",
+        "why": "Wave speed, sinusoidal waves and the wave equation."
+      }
+    ],
+    "waves-on-strings-and-standing-waves": [
+      {
+        "book": "young",
+        "read": "Chapter 15 (Mechanical Waves)",
+        "why": "Waves on a string, standing waves and normal modes."
+      }
+    ],
+    "sound-and-the-doppler-effect": [
+      {
+        "book": "young",
+        "read": "Chapter 16 (Sound and Hearing)",
+        "why": "Sound waves, intensity, resonance and the Doppler effect."
+      }
+    ],
+    "reflection-and-mirrors": [
+      {
+        "book": "young",
+        "read": "Chapter 33 (The Nature and Propagation of Light) and Chapter 34 (Geometric Optics)",
+        "why": "The law of reflection and images in plane and spherical mirrors."
+      }
+    ],
+    "refraction-and-lenses": [
+      {
+        "book": "young",
+        "read": "Chapter 33 (The Nature and Propagation of Light) and Chapter 34 (Geometric Optics)",
+        "why": "Snell's law, total internal reflection and thin lenses."
+      }
     ]
   }
 }

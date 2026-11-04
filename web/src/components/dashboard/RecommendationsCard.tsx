@@ -9,22 +9,24 @@ import { PREFERENCE_PHRASE } from '../PreferencePicker'
 import { RESOURCE_LABEL, ResourceIcon } from '../ResourceList'
 import { Button, Card } from '../ui'
 
-type Kind = 'attention' | 'getting-started' | 'keep-it-up'
+type Kind = 'attention' | 'diagnostic' | 'getting-started' | 'keep-it-up'
 
 function kindOf(rec: Recommendation): Kind {
   if (rec.source === 'cold_start') return 'getting-started'
+  if (rec.source === 'diagnostic') return 'diagnostic'
   return (rec.priority_score ?? 0) >= ATTENTION_PROBABILITY ? 'attention' : 'keep-it-up'
 }
 
 const KIND_STYLE: Record<Kind, { label: string; badge: string; accent: string }> = {
   attention: { label: 'Needs attention', badge: 'bg-red-50 text-red-700 ring-red-200', accent: 'bg-red-500' },
+  diagnostic: { label: 'Based on your diagnostic', badge: 'bg-violet-50 text-violet-700 ring-violet-200', accent: 'bg-violet-500' },
   'getting-started': { label: 'Getting started', badge: 'bg-brand-50 text-brand-700 ring-brand-100', accent: 'bg-brand-500' },
   'keep-it-up': { label: 'Keep it up', badge: 'bg-emerald-50 text-emerald-700 ring-emerald-200', accent: 'bg-emerald-500' },
 }
 
-/** Needs attention (highest probability first), then getting started in order, then keep it up. */
+/** Needs attention (highest probability first), then diagnostic and getting started lists in order, then keep it up. */
 function sortRecommendations(recs: Recommendation[]): Recommendation[] {
-  const group: Record<Kind, number> = { attention: 0, 'getting-started': 1, 'keep-it-up': 2 }
+  const group: Record<Kind, number> = { attention: 0, diagnostic: 1, 'getting-started': 2, 'keep-it-up': 3 }
   return [...recs].sort(
     (a, b) =>
       group[kindOf(a)] - group[kindOf(b)] ||
@@ -43,7 +45,18 @@ function targetLabel(rec: Recommendation): string | null {
   return null
 }
 
-export function RecommendationsCard({ recommendations }: { recommendations: Recommendation[] }) {
+/** A course still in Stage 1: no diagnostic taken yet. */
+export type DiagnosticPrompt = { code: string; diagnostic_quiz_id: string }
+
+export function RecommendationsCard({
+  recommendations,
+  diagnosticPrompts = [],
+  threshold,
+}: {
+  recommendations: Recommendation[]
+  diagnosticPrompts?: DiagnosticPrompt[]
+  threshold?: number
+}) {
   const queryClient = useQueryClient()
   const refresh = useMutation({
     mutationFn: refreshRecommendations,
@@ -72,6 +85,30 @@ export function RecommendationsCard({ recommendations }: { recommendations: Reco
         <p className="border-b border-amber-100 bg-amber-50 px-5 py-2 text-xs text-amber-800" role="status" data-testid="ml-offline-notice">
           Recommendations will update shortly. Showing your last saved list.
         </p>
+      )}
+
+      {diagnosticPrompts.length > 0 && (
+        <ul className="divide-y divide-violet-100 border-b border-violet-100 bg-violet-50/50" data-testid="diagnostic-prompts">
+          {diagnosticPrompts.map((p) => (
+            <li key={p.code} className="flex flex-wrap items-center justify-between gap-3 px-5 py-3" data-testid="diagnostic-prompt">
+              <span className="min-w-0 text-sm">
+                <span className="block font-semibold text-violet-900">
+                  Take the {p.code} diagnostic so your recommendations can be personalised.
+                </span>
+                <span className="block text-xs text-violet-800/80">
+                  Your weakest topics will come first
+                  {threshold ? `, and machine learning recommendations start after ${threshold} quizzes on the course.` : '.'}
+                </span>
+              </span>
+              <Link
+                to={`/quiz/${p.diagnostic_quiz_id}`}
+                className="shrink-0 rounded-lg bg-violet-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-violet-700"
+              >
+                Start diagnostic
+              </Link>
+            </li>
+          ))}
+        </ul>
       )}
 
       {pending.length === 0 ? (
@@ -141,7 +178,13 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
       {explanation && (
         <p
           className={`mt-2 rounded-lg px-3 py-2 text-sm ${
-            kind === 'keep-it-up' ? 'bg-emerald-50/60 text-emerald-900' : kind === 'attention' ? 'bg-red-50/60 text-red-900' : 'bg-brand-50/60 text-brand-900'
+            kind === 'keep-it-up'
+              ? 'bg-emerald-50/60 text-emerald-900'
+              : kind === 'attention'
+                ? 'bg-red-50/60 text-red-900'
+                : kind === 'diagnostic'
+                  ? 'bg-violet-50/60 text-violet-900'
+                  : 'bg-brand-50/60 text-brand-900'
           }`}
           data-testid="recommendation-reason"
         >
@@ -159,7 +202,7 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
         <Button variant="ghost" className="px-3 py-1.5" onClick={() => update.mutate('dismissed')} disabled={update.isPending}>
           Dismiss
         </Button>
-        {explanation?.probabilities && (
+        {(explanation?.probabilities || kind === 'diagnostic') && (
           <button
             onClick={() => setShowWhy((v) => !v)}
             aria-expanded={showWhy}
@@ -170,8 +213,41 @@ function RecommendationRow({ rec }: { rec: Recommendation }) {
         )}
       </div>
       {update.isError && <p className="mt-2 text-xs text-red-600">Could not save that. Try again.</p>}
+      {showWhy && kind === 'diagnostic' && explanation && <DiagnosticWhyPanel explanation={explanation} />}
       {showWhy && explanation?.probabilities && <WhyPanel explanation={explanation} />}
     </li>
+  )
+}
+
+/** Stage 2: says plainly that the ranking comes from the diagnostic score, not the models. */
+function DiagnosticWhyPanel({ explanation }: { explanation: Explanation }) {
+  const d = explanation.diagnostic
+  const n = explanation.threshold
+  const done = explanation.completed_quizzes ?? 0
+  const left = n !== undefined ? Math.max(n - done, 0) : null
+  return (
+    <div className="mt-3 rounded-xl bg-slate-50 p-4 text-sm" data-testid="why-panel" data-kind="diagnostic">
+      <p className="mb-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">Why this topic</p>
+      {d && (
+        <div className="mb-3 grid grid-cols-[7.5rem_1fr_2.5rem] items-center gap-2 sm:grid-cols-[11rem_1fr_3rem]">
+          <span className="text-slate-600">Diagnostic score</span>
+          <span className="h-2 overflow-hidden rounded-full bg-slate-200">
+            <span className="block h-full rounded-full bg-violet-500" style={{ width: `${d.score}%` }} />
+          </span>
+          <span className="text-right tabular-nums">{d.score}%</span>
+        </div>
+      )}
+      <p>
+        This comes from your diagnostic score, not from the machine learning models. Topics are ranked by diagnostic score,
+        lowest first, and topics you got fully right are left out.
+      </p>
+      {n !== undefined && (
+        <p className="mt-2 text-slate-600" data-testid="ml-starts-after">
+          Personalised ML recommendations start after {n} quizzes on this course
+          {left ? ` (${done} done, ${left} to go).` : '.'}
+        </p>
+      )}
+    </div>
   )
 }
 

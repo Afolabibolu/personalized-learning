@@ -50,6 +50,13 @@
         "read": "The chapter on estimation and hypothesis testing",
         "why": "The mathematical statistics text in the course folder."
       }
+    ],
+    "variables-data-and-sampling": [
+      {
+        "book": "wackerly",
+        "read": "The opening chapter (What Is Statistics?)",
+        "why": "Populations, samples and the role of statistics."
+      }
     ]
   }
 }

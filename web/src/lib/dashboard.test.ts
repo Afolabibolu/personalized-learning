@@ -50,7 +50,6 @@ describe('reminders', () => {
       { id: 'search', title: 'Search' },
       { id: 'expert', title: 'Expert Systems' },
     ],
-    coursesWithoutDiagnostic: [],
   }
 
   it('flags weak topics never studied, weakest first', () => {
@@ -81,13 +80,8 @@ describe('reminders', () => {
     expect(buildReminders({ ...base, studyLogs: [{ topic_id: 'search', logged_at: daysAgo(1) }] })).toEqual([])
   })
 
-  it('asks new students to log study and take diagnostics', () => {
-    const reminders = buildReminders({
-      ...base,
-      coursesWithoutDiagnostic: [{ code: 'CSC 531', diagnostic_quiz_id: 'q1' }],
-    })
-    expect(reminders.map((r) => r.id)).toEqual(['no-study', 'diagnostic-CSC 531'])
-    expect(reminders[1].action?.to).toBe('/quiz/q1')
+  it('asks new students to log study (diagnostics are prompted in the recommendations card)', () => {
+    expect(buildReminders(base).map((r) => r.id)).toEqual(['no-study'])
   })
 })
 

@@ -26,7 +26,10 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
 - `resources.type` (25 Oct) also allows `textbook`: reading cards from `content/textbooks/`.
 - `enrollments` (Phase 9): student_id, course_id, created_at. Students read, add and remove their own rows. A trigger on `profiles` enrols every new profile in the reviewed courses. The ML service only recommends for enrolled courses.
 
+- `app_settings` (3 Nov): key, value (jsonb), description. Students can read it; nobody but the service role writes it. Holds `cold_start_threshold` (3), the one value for the recommendation stages.
+- Stage functions (3 Nov): `recommendation_stages(student)` (each enrolled course's stage: 1 no diagnostic, 2 diagnostic below the threshold, 3 at or above), `diagnostic_recommendations(student)` (the Stage 2 list) and `cold_start_recommendations(student, course)`, for the service role only; `refresh_fallback_recommendations()` (security definer, `auth.uid()`), which the web app calls when the ML service is down; `cold_start_threshold()` for signed-in students. `recommendations.source` also allows `diagnostic`.
+
 ## Demo data
 
-- The demo accounts get realistic names (for example Tolu Adeyemi for the active student, Kemi Balogun for the new student), department Computer Science, level 500, and reminder settings filled in.
+- The demo accounts get realistic names (Tolu Adeyemi for the active student, Kemi Balogun for the new student, Ngozi Eze for the Stage 2 student), department Computer Science, level 500, and reminder settings filled in.
 - Seed a few read and unread notifications for the active demo account so the bell shows a count in screenshots.

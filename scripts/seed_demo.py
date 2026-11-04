@@ -1,7 +1,7 @@
-"""Creates the simulated students and the two demo accounts.
+"""Creates the simulated students and the three demo accounts.
 
     python scripts/seed_demo.py [--students N] [--seed N]   (defaults from the simulation config)
-    python scripts/seed_demo.py --demo-only    # reset just the two demo accounts
+    python scripts/seed_demo.py --demo-only    # reset just the three demo accounts
 
 Run after content/load.py (simulated answers point to real questions). Uses
 the service role key from scripts/.env. Every user is created through the
@@ -54,6 +54,13 @@ SIM_PASSWORD = "Simulated-2026!"
 DEMO_PASSWORD = "DemoPass2026!"
 NEW_STUDENT = ("Kemi Balogun", f"new.student@{DEMO_DOMAIN}")
 ACTIVE_STUDENT = ("Tolu Adeyemi", f"active.student@{DEMO_DOMAIN}")
+# Stage 2: only the CSC 531 diagnostic taken (below the ML threshold), so the dashboard
+# ranks topics by diagnostic score; CSC 574 stays in Stage 1.
+DIAGNOSTIC_STUDENT = ("Ngozi Eze", f"diagnostic.student@{DEMO_DOMAIN}")
+DIAGNOSTIC_PREFERENCES = ["note", "video"]
+# Right answers out of 3 per CSC 531 topic in that diagnostic, by slug.
+DIAGNOSTIC_RESULTS = {"hci-and-usability": 3, "user-centred-design": 2, "conceptual-models-and-ideation": 1,
+                      "data-gathering-and-analysis": 2, "cognitive-psychology": 0, "prototyping-and-evaluation": 3}
 # Preferred ways to study (FR1); the engine prefers these resource types.
 NEW_PREFERENCES = ["lecture", "video"]
 ACTIVE_PREFERENCES = ["note", "past_questions"]
@@ -231,11 +238,26 @@ def history_notifications(student_id: str, history: SimStudent, questions: dict,
     return [{**n, "student_id": student_id, "read_at": n["created_at"]} for n in notes]
 
 
+def diagnostic_student_history(courses, topics, quizzes, questions, now: datetime, rng: random.Random) -> SimStudent:
+    """One CSC 531 diagnostic two days ago, 3 questions per topic, with DIAGNOSTIC_RESULTS right."""
+    student = SimStudent()
+    course = next(c for c in courses if c["code"] == "CSC 531")
+    diag = next(q["id"] for q in quizzes if q["kind"] == "diagnostic" and q["course_id"] == course["id"])
+    answers = []
+    for t in (t for t in topics if t["course_id"] == course["id"]):
+        pool = [q for q in questions.values() if q["topic_id"] == t["id"]]
+        for i, q in enumerate(rng.sample(pool, 3)):
+            answers.append((q["id"], i < DIAGNOSTIC_RESULTS[t["slug"]]))
+    started = now - timedelta(days=2)
+    student.attempts.append(SimAttempt(str(uuid.uuid4()), diag, started, started + timedelta(minutes=12), answers))
+    return student
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--students", type=int, default=CONFIG.students)
     parser.add_argument("--seed", type=int, default=CONFIG.seed)
-    parser.add_argument("--demo-only", action="store_true", help="reset only the two demo accounts")
+    parser.add_argument("--demo-only", action="store_true", help="reset only the three demo accounts")
     args = parser.parse_args()
 
     db = admin()
@@ -278,6 +300,12 @@ def main() -> int:
     all_attempts += a
     all_answers += ans
     all_logs += logs
+    diagnostic_id = create_user(db, *DIAGNOSTIC_STUDENT, DEMO_PASSWORD, False, rng, DIAGNOSTIC_PREFERENCES)
+    a, ans, logs = rows_for(diagnostic_id, diagnostic_student_history(courses, topics, quizzes, questions, now, rng),
+                            questions, rng)
+    all_attempts += a
+    all_answers += ans
+    all_logs += logs
 
     insert(db, "quiz_attempts", all_attempts)
     insert(db, "attempt_answers", all_answers)
@@ -289,16 +317,18 @@ def main() -> int:
 
     simulated = "no simulated students (--demo-only)" if args.demo_only else f"{args.students} simulated students"
     print(f"\nInserted {len(all_attempts)} quiz attempts, {len(all_answers)} answers and {len(all_logs)} study logs "
-          f"for {simulated} and the Active Student.")
+          f"for {simulated} and the demo accounts.")
     if not args.demo_only:
         rules = Path(__file__).resolve().parent.parent / "ml" / "results" / "simulation_rules.md"
         rules.parent.mkdir(exist_ok=True)
         rules.write_text(describe_rules(dataclasses.replace(CONFIG, students=args.students, seed=args.seed)))
         print(f"Wrote {rules.relative_to(rules.parents[2])}")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
-    print("\nDemo logins (password for both: " + DEMO_PASSWORD + ")")
+    print("\nDemo logins (password for all three: " + DEMO_PASSWORD + ")")
     print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start (prefers lecture slides, videos)")
     print(f"  {ACTIVE_STUDENT[0]:15} {ACTIVE_STUDENT[1]} weak topics -> ML recommendations (prefers notes, practice questions)")
+    print(f"  {DIAGNOSTIC_STUDENT[0]:15} {DIAGNOSTIC_STUDENT[1]} CSC 531 diagnostic only -> Stage 2 for CSC 531, "
+          "Stage 1 for CSC 574 (prefers notes, videos)")
     return 0
 
 

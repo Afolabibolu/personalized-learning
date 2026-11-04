@@ -72,6 +72,8 @@ Gaps:
 
 - [x] (25 Oct) Each recommendation also suggests a good video and textbook for its topic.
   _Done: the ML service adds the topic's first unused video and textbook to `explanation.also` (`ml/app/recommender.py`, tests in `ml/tests/test_recommender.py`), shown as "Also recommended" on each card; videos are YouTube links checked through oEmbed, textbooks are reading cards naming the chapters; `scripts/phase10_check.py`, TC-23, screenshot `docs/screenshots/phase10/p10-01-also-recommended.png`._
+- [x] (3 Nov) The diagnostic drives recommendations before the ML threshold, in three stages per course: no diagnostic (Getting started, plus a "Take the diagnostic" card), diagnostic below the threshold (weakest diagnostic topics, "Based on your diagnostic"), and at or above it (the models).
+  _Done: one threshold in `app_settings`; Stage 2 in SQL (`supabase/migrations/20261103171227_diagnostic_stage.sql`, `…171623_…`), used by the ML service and by the web app when the service is down; demo student Ngozi Eze; tests `scripts/test_diagnostic_stage.py`, `ml/tests/test_recommender.py`, `scripts/stage_check.py`; TC-07, TC-25; screenshots `docs/screenshots/stages/`._
 
 Evidence: dashboard screenshots for both demo accounts, the "Why this?" panel open, and the results table from `ml/results/`.
 

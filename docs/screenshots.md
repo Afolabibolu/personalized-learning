@@ -2,7 +2,7 @@
 
 In capture order. All app screenshots are taken by `python scripts/capture_screenshots.py` (laptop 1280 px wide unless stated) and saved in `docs/screenshots/`. Before capturing by hand, reset the demo accounts with `python scripts/seed_demo.py --demo-only`.
 
-Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, Active Student `active.student@demo.example.com`.
+Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, Stage 2 student `diagnostic.student@demo.example.com`, Active Student `active.student@demo.example.com`.
 
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.co
 | 11 | Diagnostic results: answer review | New sign-up (Demo Student) | Each question with your answer, the correct answer and the explanation (FR2) | [`11-results-answers.png`](screenshots/11-results-answers.png) |
 | 12 | Topic page | New sign-up (Demo Student) | Summary, latest score, Take topic quiz, Log study session, resources grouped by type, subtopics (FR5) | [`12-topic.png`](screenshots/12-topic.png) |
 | 13 | Study logger | New sign-up (Demo Student) | Topic, 30 min and Reading selected, 'Custom (minutes)', optional timer, 'Saved' confirmation, recent sessions (FR3) | [`13-log-study.png`](screenshots/13-log-study.png) |
-| 14 | Dashboard, cold start | Kemi Balogun (new.student@demo.example.com) | 'Hi Kemi'; reminders to log study and take diagnostics; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4) | [`14-dashboard-new.png`](screenshots/14-dashboard-new.png) |
+| 14 | Dashboard, cold start | Kemi Balogun (new.student@demo.example.com) | 'Hi Kemi'; a reminder to log study; 'Take the CSC 531/CSC 574 diagnostic' cards at the top of the list; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4) | [`14-dashboard-new.png`](screenshots/14-dashboard-new.png) |
 | 15 | Dashboard, ML recommendations | Tolu Adeyemi (active.student@demo.example.com) | 'Hi Tolu'; bell with unread count; weekly summary; Cognitive Psychology and Fuzzy Logic 'Needs attention' with reason lines and 'Matched to your preference'; one 'Keep it up'; streak, 14-day strip, progress chart (FR1, FR4, FR6) | [`15-dashboard-active.png`](screenshots/15-dashboard-active.png) |
 | 16 | 'Why this?' panel | Tolu Adeyemi | Logistic Regression and Random Forest probabilities, their average, and the factors that raise risk (FR4) | [`16-why-this.png`](screenshots/16-why-this.png) |
 | 17 | Progress chart, CSC 574 picked in the course dropdown | Tolu Adeyemi | Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6) | [`17-progress-csc574.png`](screenshots/17-progress-csc574.png) |
@@ -78,7 +78,7 @@ Taken by `python scripts/phase9_check.py --shots docs/screenshots/phase9` with a
 | 56 | Sample course topic page | New sign-up | Badge, summary, Take topic quiz (NFR5) | [`p9-06-topic.png`](screenshots/phase9/p9-06-topic.png) |
 | 57 | Sample course topic quiz | New sign-up | A CSC 551 question in the quiz player (NFR5) | [`p9-07-quiz.png`](screenshots/phase9/p9-07-quiz.png) |
 | 58 | Sample course quiz results | New sign-up | Score per topic for the CSC 551 quiz (NFR5) | [`p9-08-results.png`](screenshots/phase9/p9-08-results.png) |
-| 59 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
+| 59 | Dashboard with a sample course | New sign-up | Getting started items for CSC 531, CSC 551 and CSC 574; a 'Take the diagnostic' card for each (FR4, NFR5) | [`p9-09-dashboard.png`](screenshots/phase9/p9-09-dashboard.png) |
 | 60 | Course page after removing | New sign-up | 'Not in your courses yet' with Add to my courses (NFR5) | [`p9-10-course-page.png`](screenshots/phase9/p9-10-course-page.png) |
 | 61 | Course list on a phone (375 px) | New sign-up | Fits without sideways scroll (NFR1, NFR5) | [`p9-11-phone-courses.png`](screenshots/phase9/p9-11-phone-courses.png) |
 
@@ -93,6 +93,16 @@ Taken by `python scripts/phase10_check.py --shots docs/screenshots/phase10`, wit
 | 64 | Topic page with every resource type | Tolu Adeyemi | Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5) | [`p10-03-topic-resources.png`](screenshots/phase10/p10-03-topic-resources.png) |
 | 65 | Request a course | New student (Request Tester) | The form, 'Request sent', and the request listed as pending (NFR5) | [`p10-04-request-form.png`](screenshots/phase10/p10-04-request-form.png) |
 | 66 | Request a course on a phone (375 px) | New student | The form fits; the request now shows 'Added to your courses' (NFR1, NFR5) | [`p10-05-phone-request.png`](screenshots/phase10/p10-05-phone-request.png) |
+
+## Recommendation stages (3 November)
+
+Taken by `python scripts/stage_check.py --shots docs/screenshots/stages` (and `--mobile --shots docs/screenshots/stages/mobile` for phone width). Run `python scripts/seed_demo.py --demo-only` first.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 67 | Stage 1: no diagnostic yet | Kemi Balogun (new.student@demo.example.com) | 'Take the CSC 531 diagnostic…' and 'Take the CSC 574 diagnostic…' cards with Start diagnostic, mentioning ML after 3 quizzes; six 'Getting started' items (FR4, NFR4) | [`stage1-dashboard.png`](screenshots/stages/stage1-dashboard.png) |
+| 68 | Stage 2: based on the diagnostic | Ngozi Eze (diagnostic.student@demo.example.com) | CSC 531: Cognitive Psychology (0 of 3), Conceptual Models (1 of 3), Problem Space and User-Centred Design (2 of 3), each 'Based on your diagnostic'; the first 'Why this?' open, saying it comes from the diagnostic score, not the models, and ML starts after 3 quizzes; a CSC 574 diagnostic card and its 'Getting started' items (FR4, NFR4) | [`stage2-dashboard.png`](screenshots/stages/stage2-dashboard.png) |
+| 69 | Stage 3: machine learning | Tolu Adeyemi (active.student@demo.example.com) | 'Needs attention' and 'Keep it up' items with both models' probabilities in 'Why this?'; no diagnostic cards (FR4) | [`stage3-dashboard.png`](screenshots/stages/stage3-dashboard.png) |
 
 ## Figures from files and the terminal
 

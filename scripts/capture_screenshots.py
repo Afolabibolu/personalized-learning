@@ -50,7 +50,7 @@ CHECKLIST = [
     Shot("11-results-answers.png", "Diagnostic results: answer review", "New sign-up (Demo Student)", "Each question with your answer, the correct answer and the explanation (FR2)"),
     Shot("12-topic.png", "Topic page", "New sign-up (Demo Student)", "Summary, latest score, Take topic quiz, Log study session, resources grouped by type, subtopics (FR5)"),
     Shot("13-log-study.png", "Study logger", "New sign-up (Demo Student)", "Topic, 30 min and Reading selected, 'Custom (minutes)', optional timer, 'Saved' confirmation, recent sessions (FR3)"),
-    Shot("14-dashboard-new.png", "Dashboard, cold start", "Kemi Balogun (new.student@demo.example.com)", "'Hi Kemi'; reminders to log study and take diagnostics; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4)"),
+    Shot("14-dashboard-new.png", "Dashboard, cold start", "Kemi Balogun (new.student@demo.example.com)", "'Hi Kemi'; a reminder to log study; 'Take the CSC 531/CSC 574 diagnostic' cards at the top of the list; six 'Getting started' items (topic 1 note and lecture, topic 2 note, per course) with 'Not enough quiz history yet'; empty streak (FR4, NFR4)"),
     Shot("15-dashboard-active.png", "Dashboard, ML recommendations", "Tolu Adeyemi (active.student@demo.example.com)", "'Hi Tolu'; bell with unread count; weekly summary; Cognitive Psychology and Fuzzy Logic 'Needs attention' with reason lines and 'Matched to your preference'; one 'Keep it up'; streak, 14-day strip, progress chart (FR1, FR4, FR6)"),
     Shot("16-why-this.png", "'Why this?' panel", "Tolu Adeyemi", "Logistic Regression and Random Forest probabilities, their average, and the factors that raise risk (FR4)"),
     Shot("17-progress-csc574.png", "Progress chart, CSC 574 picked in the course dropdown", "Tolu Adeyemi", "Fuzzy Logic Systems bar in red below the 50% line; names on two lines (FR6)"),
@@ -251,7 +251,7 @@ PHASE9 = [
     Shot("p9-06-topic.png", "Sample course topic page", "New sign-up", "Badge, summary, Take topic quiz (NFR5)"),
     Shot("p9-07-quiz.png", "Sample course topic quiz", "New sign-up", "A CSC 551 question in the quiz player (NFR5)"),
     Shot("p9-08-results.png", "Sample course quiz results", "New sign-up", "Score per topic for the CSC 551 quiz (NFR5)"),
-    Shot("p9-09-dashboard.png", "Dashboard with a sample course", "New sign-up", "Getting started items for CSC 531, CSC 551 and CSC 574; CSC 551 diagnostic reminder (FR4, NFR5)"),
+    Shot("p9-09-dashboard.png", "Dashboard with a sample course", "New sign-up", "Getting started items for CSC 531, CSC 551 and CSC 574; a 'Take the diagnostic' card for each (FR4, NFR5)"),
     Shot("p9-10-course-page.png", "Course page after removing", "New sign-up", "'Not in your courses yet' with Add to my courses (NFR5)"),
     Shot("p9-11-phone-courses.png", "Course list on a phone (375 px)", "New sign-up", "Fits without sideways scroll (NFR1, NFR5)"),
 ]
@@ -263,6 +263,16 @@ PHASE10 = [
     Shot("p10-03-topic-resources.png", "Topic page with every resource type", "Tolu Adeyemi", "Fuzzy Logic: study note, lecture, past questions, video, recommended textbook (FR5)"),
     Shot("p10-04-request-form.png", "Request a course", "New student (Request Tester)", "The form, 'Request sent', and the request listed as pending (NFR5)"),
     Shot("p10-05-phone-request.png", "Request a course on a phone (375 px)", "New student", "The form fits; the request now shows 'Added to your courses' (NFR1, NFR5)"),
+]
+
+
+STAGES = [
+    Shot("stage1-dashboard.png", "Stage 1: no diagnostic yet", "Kemi Balogun (new.student@demo.example.com)",
+         "'Take the CSC 531 diagnostic…' and 'Take the CSC 574 diagnostic…' cards with Start diagnostic, mentioning ML after 3 quizzes; six 'Getting started' items (FR4, NFR4)"),
+    Shot("stage2-dashboard.png", "Stage 2: based on the diagnostic", "Ngozi Eze (diagnostic.student@demo.example.com)",
+         "CSC 531: Cognitive Psychology (0 of 3), Conceptual Models (1 of 3), Problem Space and User-Centred Design (2 of 3), each 'Based on your diagnostic'; the first 'Why this?' open, saying it comes from the diagnostic score, not the models, and ML starts after 3 quizzes; a CSC 574 diagnostic card and its 'Getting started' items (FR4, NFR4)"),
+    Shot("stage3-dashboard.png", "Stage 3: machine learning", "Tolu Adeyemi (active.student@demo.example.com)",
+         "'Needs attention' and 'Keep it up' items with both models' probabilities in 'Why this?'; no diagnostic cards (FR4)"),
 ]
 
 
@@ -278,7 +288,7 @@ def write_checklist() -> None:
         "(laptop 1280 px wide unless stated) and saved in `docs/screenshots/`. Before capturing by hand, reset the "
         "demo accounts with `python scripts/seed_demo.py --demo-only`.\n\n"
         "Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, "
-        "Active Student `active.student@demo.example.com`.\n\n"
+        "Stage 2 student `diagnostic.student@demo.example.com`, Active Student `active.student@demo.example.com`.\n\n"
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         f"{rows}\n\n"
         "## Requirement screens (Phase 7)\n\n"
@@ -301,6 +311,13 @@ def write_checklist() -> None:
         "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/phase10/{s.file}) |"
                      for i, s in enumerate(PHASE10, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + 1))
+        + "\n\n"
+        "## Recommendation stages (3 November)\n\n"
+        "Taken by `python scripts/stage_check.py --shots docs/screenshots/stages` (and `--mobile --shots "
+        "docs/screenshots/stages/mobile` for phone width). Run `python scripts/seed_demo.py --demo-only` first.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/stages/{s.file}) |"
+                     for i, s in enumerate(STAGES, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

@@ -9,6 +9,8 @@ from app.explain import COLD_START_REASON, keep_it_up_reason, reason_from_featur
 from app.recommender import CourseData, Models, ResourceInfo, recommend_course
 from training.features import FEATURES, NEVER_STUDIED_DAYS
 
+THRESHOLD = 3  # the value seeded in app_settings.cold_start_threshold
+
 
 def row(**values):
     base = {"mean_score": 50.0, "last_score": 40.0, "attempt_count": 2, "session_count": 1,
@@ -71,23 +73,23 @@ FEATURES_T1 = pd.DataFrame([{"topic_id": "t1", **row().to_dict()}])
 
 
 def test_ml_rows_carry_reason_and_both_probabilities():
-    rec = recommend_course(COURSE, 10, FEATURES_T1, Models(Fixed(0.8), Fixed(0.9)), set())[0]
+    rec = recommend_course(COURSE, 10, FEATURES_T1, Models(Fixed(0.8), Fixed(0.9)), set(), threshold=THRESHOLD)[0]
     assert rec.explanation["reason"].startswith("Last score 40%.")
     assert rec.explanation["probabilities"] == {"logistic_regression": 0.8, "random_forest": 0.9, "average": 0.85}
 
 
 def test_low_probability_rows_get_a_keep_it_up_reason():
-    rec = recommend_course(COURSE, 10, FEATURES_T1, Models(Fixed(0.1), Fixed(0.2)), set())[0]
+    rec = recommend_course(COURSE, 10, FEATURES_T1, Models(Fixed(0.1), Fixed(0.2)), set(), threshold=THRESHOLD)[0]
     assert rec.explanation["reason"] == "Last studied 9 days ago. A 15-minute review keeps it fresh."
 
 
 def test_cold_start_rows_explain_why_and_have_no_probabilities():
-    rec = recommend_course(COURSE, 0, FEATURES_T1, None, set())[0]
+    rec = recommend_course(COURSE, 0, FEATURES_T1, None, set(), threshold=THRESHOLD)[0]
     assert rec.explanation["reason"] == COLD_START_REASON and rec.explanation["probabilities"] is None
 
 
 def test_a_failing_model_falls_back_to_cold_start_instead_of_an_error():
-    recs = recommend_course(COURSE, 10, FEATURES_T1, Models(Broken(), Broken()), set())
+    recs = recommend_course(COURSE, 10, FEATURES_T1, Models(Broken(), Broken()), set(), threshold=THRESHOLD)
     assert [r.source for r in recs] == ["cold_start"]
 
 

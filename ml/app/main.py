@@ -53,14 +53,17 @@ def recommend(authorization: str | None = Header(default=None)):
     used = data.used_resource_ids(db, student_id)
     preferred = data.learning_preferences(db, student_id)
     previous_top = data.previous_top_topic(db, student_id)
+    threshold = data.cold_start_threshold(db)
+    diagnostic = data.diagnostic_recommendations(db, student_id)
     now = pd.Timestamp.now(tz="UTC")
 
     candidates, days_since = [], {}
     for course in courses:
         features = prediction_rows(scores, logs, course.topic_ids, now)
         days_since.update(dict(zip(features["topic_id"], features["days_since_last_studied"])))
-        candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used, preferred))
-    # Cold-start lists per course; ML recommendations only for the top topics overall.
+        candidates.extend(recommend_course(course, attempts.get(course.course_id, 0), features, models, used, preferred,
+                                           threshold=threshold, diagnostic=diagnostic.get(course.course_id)))
+    # Getting started and diagnostic lists per course; ML recommendations only for the top topics overall.
     recs = top_overall(candidates)
 
     course_of_topic = {t: c.course_id for c in courses for t in c.topic_ids}
@@ -80,5 +83,6 @@ def recommend(authorization: str | None = Header(default=None)):
         "notifications_sent": sent,
         "student_id": student_id,
         "model_version": models.version if models else None,
+        "threshold": threshold,
         "courses": summary,
     }

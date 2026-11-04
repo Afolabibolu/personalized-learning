@@ -120,8 +120,10 @@ def main() -> int:
               {r["topic"] for r in rows} == INTRO_TOPICS and len(rows) == 6
               and sum("Study note" in r["text"] for r in rows) == 4 and sum("Lecture" in r["text"] for r in rows) >= 2,
               f"{len(rows)} items")
-        reminder_text = " ".join(page.get_by_test_id("reminder").all_inner_texts())
-        check("new student is reminded to take a diagnostic", "diagnostic quiz" in reminder_text)
+        prompts = page.get_by_test_id("diagnostic-prompt").all_inner_texts()
+        check("new student is asked to take each course's diagnostic (Stage 1 card)",
+              len(prompts) == 2 and all("diagnostic so your recommendations can be personalised" in p for p in prompts),
+              f"{len(prompts)} prompts")
         check("no streak yet", page.get_by_test_id("streak").inner_text() == "0")
         if args.shots:
             page.screenshot(path=str(args.shots / "dashboard-new.png"), full_page=True)
