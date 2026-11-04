@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-11-03 18:28 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-11-04 17:55 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 59 of 59 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 68 of 68 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -111,6 +111,20 @@ Run 2026-11-03 18:28 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | A reads B's stages | refused: 42501 permission denied for function recommendation_stages |
 | Pass | A's fallback run leaves B's recommendations alone | 1 of B's rows |
 | Pass | Signed-out visitor runs the fallback | refused: 42501 permission denied for function refresh_fallback_recommendations |
+
+### Streaks, XP and badges
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | A backdates a study log (to fill a missed day) | refused: 42501 permission denied for table study_logs |
+| Pass | B's streak card is computed for B | 1-day streak, 2 badge(s |
+| Pass | A reads B's streak card | refused: 42501 permission denied for function gamification_for |
+| Pass | A stores badges for B | refused: 42501 permission denied for function sync_student_badges |
+| Pass | A reads B's badges | 0 rows |
+| Pass | A awards itself a badge | refused: 42501 permission denied for table student_badges |
+| Pass | B changes a badge's earned date | refused: 42501 permission denied for table student_badges |
+| Pass | A's acknowledge_badges leaves B's badges unseen |  |
+| Pass | Signed-out visitor reads a streak card | refused: 42501 permission denied for function my_gamification |
 
 ### Profiles and content
 

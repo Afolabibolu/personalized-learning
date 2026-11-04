@@ -75,6 +75,7 @@ function QuizPlayer({ started }: { started: StartedQuiz }) {
       queryClient.invalidateQueries({ queryKey: ['dashboard'] })
       queryClient.invalidateQueries({ queryKey: ['quizHistory'] })
       queryClient.invalidateQueries({ queryKey: ['topicProgress'] })
+      queryClient.invalidateQueries({ queryKey: ['gamification'] })
       triggerRecommendations(() => queryClient.invalidateQueries({ queryKey: ['recommendations'] }))
       navigate(`/attempts/${review.attempt_id}`, { replace: true })
     },

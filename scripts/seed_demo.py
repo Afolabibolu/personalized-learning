@@ -27,6 +27,7 @@ import random
 import sys
 import uuid
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import numpy as np
@@ -53,6 +54,7 @@ DEMO_DOMAIN = "demo.example.com"
 SIM_PASSWORD = "Simulated-2026!"
 DEMO_PASSWORD = "DemoPass2026!"
 NEW_STUDENT = ("Kemi Balogun", f"new.student@{DEMO_DOMAIN}")
+LAGOS = ZoneInfo("Africa/Lagos")
 ACTIVE_STUDENT = ("Tolu Adeyemi", f"active.student@{DEMO_DOMAIN}")
 # Stage 2: only the CSC 531 diagnostic taken (below the ML threshold), so the dashboard
 # ranks topics by diagnostic score; CSC 574 stays in Stage 1.
@@ -201,8 +203,26 @@ def active_student_history(courses, topics, quizzes, questions, now: datetime, r
                     student.logs.append(SimStudyLog(
                         t["id"], rng.choice([30, 45, 60]), rng.choice(["reading", "video", "practice"]),
                         now - timedelta(days=days_ago, hours=rng.uniform(0, 8))))
+    streak_days(student, [t["id"] for t in topics if t["slug"] not in WEAK_TOPICS.values()], now, rng)
     student.attempts.sort(key=lambda a: a.started_at)
     return student
+
+
+def streak_days(student: SimStudent, topic_ids: list[str], now: datetime, rng: random.Random) -> None:
+    """A short session on each of the last 7 Lagos days with no activity, so the streak card shows a
+    run of about a week (a freeze earned) and some minutes today, below the 30-minute goal. Only
+    strong topics, so the weak ones stay never studied."""
+    today = now.astimezone(LAGOS).date()
+    active = {t.astimezone(LAGOS).date() for t in [a.completed_at for a in student.attempts] + [l.logged_at for l in student.logs]}
+    midnight = datetime.combine(today, datetime.min.time(), LAGOS)
+    for back in range(7):
+        day = today - timedelta(days=back)
+        if day in active:
+            continue
+        # Today: halfway between midnight and now, so it is never in the future. Other days: 19:00.
+        at = midnight + (now - midnight) / 2 if back == 0 else datetime.combine(day, datetime.min.time(), LAGOS).replace(hour=19)
+        student.logs.append(SimStudyLog(rng.choice(topic_ids), 20 if back == 0 else rng.choice([15, 20, 25]),
+                                        rng.choice(["reading", "practice"]), at))
 
 
 def history_notifications(student_id: str, history: SimStudent, questions: dict, topic_titles: dict) -> list[dict]:
@@ -314,6 +334,12 @@ def main() -> int:
     seeded = history_notifications(active_id, active_history, questions, titles)
     if seeded:
         insert(db, "notifications", seeded)
+    # Badges the demo histories already earned count as seen, so no pop-up greets the demo login.
+    streak = None
+    for demo_id in (active_id, diagnostic_id):
+        card = db.rpc("sync_student_badges", {"p_student": demo_id}).execute().data
+        db.table("student_badges").update({"seen_at": now.isoformat()}).eq("student_id", demo_id).execute()
+        streak = streak or card
 
     simulated = "no simulated students (--demo-only)" if args.demo_only else f"{args.students} simulated students"
     print(f"\nInserted {len(all_attempts)} quiz attempts, {len(all_answers)} answers and {len(all_logs)} study logs "
@@ -323,6 +349,9 @@ def main() -> int:
         rules.parent.mkdir(exist_ok=True)
         rules.write_text(describe_rules(dataclasses.replace(CONFIG, students=args.students, seed=args.seed)))
         print(f"Wrote {rules.relative_to(rules.parents[2])}")
+    print(f"Active Student streak card: {streak['streak']}-day streak, {streak['minutes_today']} of "
+          f"{streak['daily_goal_minutes']} minutes today, {streak['freezes']} freeze(s), {streak['xp_week']} XP this week, "
+          f"{len(streak['badges'])} badges")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
     print("\nDemo logins (password for all three: " + DEMO_PASSWORD + ")")
     print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start (prefers lecture slides, videos)")

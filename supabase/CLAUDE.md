@@ -28,6 +28,7 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
 
 - `app_settings` (3 Nov): key, value (jsonb), description. Students can read it; nobody but the service role writes it. Holds `cold_start_threshold` (3), the one value for the recommendation stages.
 - Stage functions (3 Nov): `recommendation_stages(student)` (each enrolled course's stage: 1 no diagnostic, 2 diagnostic below the threshold, 3 at or above), `diagnostic_recommendations(student)` (the Stage 2 list) and `cold_start_recommendations(student, course)`, for the service role only; `refresh_fallback_recommendations()` (security definer, `auth.uid()`), which the web app calls when the ML service is down; `cold_start_threshold()` for signed-in students. `recommendations.source` also allows `diagnostic`.
+- Gamification (4 Nov): `student_badges` (student_id, badge, earned_at, seen_at); students read their own and never write it. `gamification_for(student, p_now)` computes the streak card (Lagos days, streak, freezes, XP, strip, badges) without writing anything, for the service role and tests; `sync_student_badges(student)` stores newly earned badges (service role); `my_gamification()` and `acknowledge_badges(badges)` for signed-in students. `study_logs.logged_at` is no longer insertable by students (defaults to now()). `generate_reminders()`'s streak-at-risk now counts quizzes too and says "keep your N-day streak".
 
 ## Demo data
 

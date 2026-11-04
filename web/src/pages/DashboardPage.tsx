@@ -1,19 +1,18 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { getDashboardData } from '../api/dashboard'
+import { getGamification } from '../api/gamification'
 import { generateReminders, getTopicProgress } from '../api/notifications'
 import { getProfile } from '../api/profile'
 import { getColdStartThreshold, listRecommendations, refreshFallbackRecommendations } from '../api/recommendations'
-import { ConsistencyCard } from '../components/dashboard/ConsistencyCard'
 import { ProgressCard } from '../components/dashboard/ProgressCard'
 import { RecommendationsCard } from '../components/dashboard/RecommendationsCard'
 import { RemindersCard } from '../components/dashboard/RemindersCard'
+import { StreakCard } from '../components/dashboard/StreakCard'
 import { WeeklySummaryCard } from '../components/dashboard/WeeklySummaryCard'
 import { ErrorMessage, PageHeader, Spinner } from '../components/ui'
 import { buildReminders } from '../lib/reminders'
 import { weeklySummary } from '../lib/weekly'
-
-const WEEK_MS = 7 * 86_400_000
 
 export function DashboardPage() {
   const profile = useQuery({ queryKey: ['profile'], queryFn: getProfile })
@@ -21,6 +20,7 @@ export function DashboardPage() {
   const recommendations = useQuery({ queryKey: ['recommendations'], queryFn: listRecommendations, staleTime: 0 })
   const progress = useQuery({ queryKey: ['topicProgress'], queryFn: getTopicProgress, staleTime: 0 })
   const threshold = useQuery({ queryKey: ['coldStartThreshold'], queryFn: getColdStartThreshold, staleTime: Infinity })
+  const gamification = useQuery({ queryKey: ['gamification'], queryFn: getGamification, staleTime: 30_000 })
   const queryClient = useQueryClient()
 
   // Never an empty list (NFR4): if nothing is pending (say the ML service was down when the
@@ -48,9 +48,6 @@ export function DashboardPage() {
     if (!dashboard.data) return null
     const { studyLogs, topicScores, courses } = dashboard.data
     const now = new Date()
-    const minutesThisWeek = studyLogs
-      .filter((l) => now.getTime() - new Date(l.logged_at).getTime() < WEEK_MS)
-      .reduce((sum, l) => sum + l.duration_minutes, 0)
     const reminders = buildReminders({
       now,
       studyLogs,
@@ -63,7 +60,7 @@ export function DashboardPage() {
       .map((c) => ({ code: c.code, diagnostic_quiz_id: c.diagnostic_quiz_id as string }))
     const titles = new Map(courses.flatMap((c) => c.topics.map((t) => [t.id, t.title] as const)))
     const weekly = weeklySummary({ now, studyLogs, progress: progress.data ?? [], titles })
-    return { minutesThisWeek, reminders, weekly, diagnosticPrompts }
+    return { reminders, weekly, diagnosticPrompts }
   }, [dashboard.data, progress.data])
 
   const firstName = profile.data?.full_name?.split(' ')[0]
@@ -90,7 +87,7 @@ export function DashboardPage() {
 
       <div className="grid gap-5 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <ConsistencyCard timestamps={dashboard.data.activityTimestamps} minutesThisWeek={derived?.minutesThisWeek ?? 0} />
+          {gamification.data && <StreakCard g={gamification.data} />}
         </div>
         <div className="lg:col-span-3">
           <ProgressCard courses={dashboard.data.courses} />

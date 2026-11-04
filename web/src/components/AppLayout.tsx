@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-do
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { signOut } from '../api/auth'
 import { getProfile } from '../api/profile'
+import { Celebrations } from './Celebrations'
 import { NotificationBell } from './NotificationBell'
 
 const LINKS = [
@@ -93,6 +94,7 @@ export function AppLayout() {
       <main className="mx-auto max-w-3xl px-4 py-6 sm:py-8">
         <Outlet />
       </main>
+      <Celebrations />
     </div>
   )
 }

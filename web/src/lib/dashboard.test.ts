@@ -1,5 +1,4 @@
 import { describe, expect, it } from 'vitest'
-import { activityDays, activityStrip, currentStreak, dayKey } from './consistency'
 import { buildReminders, type ReminderInput } from './reminders'
 import { weeklySummary } from './weekly'
 
@@ -11,34 +10,6 @@ function daysAgo(n: number, hour = 12): string {
   d.setHours(hour)
   return d.toISOString()
 }
-
-describe('streak', () => {
-  it('counts consecutive days ending today', () => {
-    expect(currentStreak(activityDays([daysAgo(0), daysAgo(1), daysAgo(2), daysAgo(4)]), today)).toBe(3)
-  })
-
-  it('still counts up to yesterday when nothing is logged today yet', () => {
-    expect(currentStreak(activityDays([daysAgo(1), daysAgo(2)]), today)).toBe(2)
-  })
-
-  it('is zero after a missed day', () => {
-    expect(currentStreak(activityDays([daysAgo(2), daysAgo(3)]), today)).toBe(0)
-  })
-
-  it('counts several events on one day once', () => {
-    expect(currentStreak(activityDays([daysAgo(0, 9), daysAgo(0, 18)]), today)).toBe(1)
-  })
-})
-
-describe('activity strip', () => {
-  it('covers 14 days, oldest first, ending today', () => {
-    const strip = activityStrip(activityDays([daysAgo(0), daysAgo(13), daysAgo(20)]), today)
-    expect(strip).toHaveLength(14)
-    expect(strip[13]).toMatchObject({ key: dayKey(today), isToday: true, active: true })
-    expect(strip[0].active).toBe(true)
-    expect(strip.filter((d) => d.active)).toHaveLength(2)
-  })
-})
 
 describe('reminders', () => {
   const base: ReminderInput = {

@@ -1,6 +1,8 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
+import { getGamification } from '../api/gamification'
 import { getProfile, updateProfile } from '../api/profile'
+import { BadgeShelf } from '../components/BadgeShelf'
 import type { LearningPreference, Level, Weekday } from '../api/types'
 import { PreferencePicker } from '../components/PreferencePicker'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
@@ -17,6 +19,7 @@ const DAYS: { value: Weekday; label: string }[] = [
 
 export function ProfilePage() {
   const profile = useQuery({ queryKey: ['profile'], queryFn: getProfile })
+  const gamification = useQuery({ queryKey: ['gamification'], queryFn: getGamification, staleTime: 30_000 })
 
   if (profile.isPending) return <Spinner />
   if (profile.isError) return <ErrorMessage error={profile.error} />
@@ -26,6 +29,7 @@ export function ProfilePage() {
       <PageHeader eyebrow="Profile" title={profile.data.full_name ?? 'Your profile'}>
         {[profile.data.department, profile.data.level ? `${profile.data.level} level` : null].filter(Boolean).join(' · ')}
       </PageHeader>
+      {gamification.data && <BadgeShelf g={gamification.data} />}
       <YourDetails />
       <ReminderSettings />
     </div>

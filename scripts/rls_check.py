@@ -186,6 +186,26 @@ def main() -> int:
               any(r["id"] == b_rec and r["status"] == "pending" for r in b_after), f"{len(b_after)} of B's rows")
         refused("Signed-out visitor runs the fallback", lambda: testkit.anon().rpc("refresh_fallback_recommendations").execute())
 
+        print("\n-- Streaks, XP and badges")
+        refused("A backdates a study log (to fill a missed day)", lambda: a.table("study_logs").insert({
+            "student_id": a_id, "topic_id": fx.topic_ids["alpha"], "duration_minutes": 30, "activity_type": "reading",
+            "logged_at": "2026-01-01T12:00:00+01:00",
+        }).execute())
+        b_card = b.rpc("my_gamification").execute().data
+        check("B's streak card is computed for B", b_card["student_id"] == b_id and len(b_card["badges"]) >= 1,
+              f"{b_card['streak']}-day streak, {len(b_card['badges'])} badge(s)")
+        refused("A reads B's streak card", lambda: a.rpc("gamification_for", {"p_student": b_id}).execute())
+        refused("A stores badges for B", lambda: a.rpc("sync_student_badges", {"p_student": b_id}).execute())
+        refused("A reads B's badges", lambda: a.table("student_badges").select("badge").eq("student_id", b_id).execute())
+        refused("A awards itself a badge", lambda: a.table("student_badges").insert({
+            "student_id": a_id, "badge": "streak_100", "earned_at": "2026-01-01T12:00:00Z"}).execute())
+        refused("B changes a badge's earned date", lambda: b.table("student_badges").update({
+            "earned_at": "2020-01-01T00:00:00Z"}).eq("student_id", b_id).execute())
+        a.rpc("acknowledge_badges", {"p_badges": ["first_quiz"]}).execute()
+        check("A's acknowledge_badges leaves B's badges unseen",
+              all(r["seen_at"] is None for r in db.table("student_badges").select("seen_at").eq("student_id", b_id).execute().data))
+        refused("Signed-out visitor reads a streak card", lambda: testkit.anon().rpc("my_gamification").execute())
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

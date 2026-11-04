@@ -104,7 +104,7 @@ Evidence: screenshots of the Knowledge Base page, a topic page, a study note and
 
 The report says: track study consistency over time and give feedback and study reminders that encourage regular engagement.
 
-Built: streak, active days, minutes, 14-day strip, progress by topic, one reminder banner.
+Built: streak, active days, minutes, 14-day strip, progress by topic, one reminder banner. (4 Nov: the streak card now also has the daily goal, XP, freezes and badges.)
 
 Gaps:
 - [x] A notifications centre: a bell in the nav with an unread count, and a list of reminders and feedback with time and a link. Kinds: weak topic not studied, streak at risk, no activity for 3 days, new recommendations ready, score improved.
@@ -117,6 +117,8 @@ Gaps:
   _Done: `web/src/components/dashboard/WeeklySummaryCard.tsx` with `web/src/lib/weekly.ts` (tested) and `get_topic_progress()`; screenshot `fr6-03-weekly-summary.png`._
 - [x] Progress chart: long topic names are cut off. Wrap them onto two lines or show the full name on hover.
   _Done: names wrap onto two lines with the full name as a hover tooltip (`ProgressCard.tsx`); screenshot `fr6-04-progress-chart.png`._
+- [x] (4 Nov) Streaks and gamification like Duolingo: streak flame (grey and "at risk" until today counts), daily goal ring, XP, streak freezes, badges on the Profile page, a short celebration, and the streak-at-risk reminder naming the streak. No leaderboard (NFR3).
+  _Done: computed in the database, never the browser (`gamification_for()`, `my_gamification()`, `student_badges` in `supabase/migrations/20261104162939_gamification.sql`), with Nigerian-time day boundaries; study logs are stamped by the database so a missed day cannot be backdated. Fixed: the old streak used the browser's timezone and only 60 days of quizzes. `StreakCard.tsx`, `BadgeShelf.tsx`, `Celebrations.tsx`. Tests: `scripts/test_gamification.py` (17), `scripts/streak_check.py` (24 checks), `rls_check.py`; TC-26; screenshots in `docs/screenshots/streaks/`._
 
 Evidence: screenshots of the bell with unread count, the notifications list, reminder settings, and the weekly summary.
 

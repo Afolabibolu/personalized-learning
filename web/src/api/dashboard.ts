@@ -1,10 +1,7 @@
 import { latestTopicScores, listCourses, listTopicsByCourse } from './courses'
 import { supabase } from './supabase'
 
-const HISTORY_DAYS = 60
-
 export type DashboardData = {
-  activityTimestamps: string[]
   studyLogs: { topic_id: string; logged_at: string; duration_minutes: number }[]
   courses: {
     id: string
@@ -18,26 +15,19 @@ export type DashboardData = {
 }
 
 export async function getDashboardData(): Promise<DashboardData> {
-  const since = new Date(Date.now() - HISTORY_DAYS * 86_400_000).toISOString()
-  const [logs, attempts, courseSummaries, topicsByCourse] = await Promise.all([
+  const [logs, courseSummaries, topicsByCourse] = await Promise.all([
     // All logs (not just recent ones): reminders need each topic's last study date.
     supabase.from('study_logs').select('topic_id, logged_at, duration_minutes'),
-    supabase.from('quiz_attempts').select('completed_at').not('completed_at', 'is', null).gte('completed_at', since),
     listCourses(),
     listTopicsByCourse(),
   ])
   if (logs.error) throw logs.error
-  if (attempts.error) throw attempts.error
 
   const allTopicIds = topicsByCourse.filter((c) => c.enrolled).flatMap((c) => c.topics.map((t) => t.id))
   const topicScores = await latestTopicScores(allTopicIds)
   const summaryById = new Map(courseSummaries.map((c) => [c.id, c]))
 
   return {
-    activityTimestamps: [
-      ...logs.data.map((l) => l.logged_at),
-      ...attempts.data.map((a) => a.completed_at as string),
-    ],
     studyLogs: logs.data,
     topicScores,
     // Only the student's own courses feed reminders and progress.

@@ -22,12 +22,13 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | `/quiz/:attemptId/results` | Results with per-topic scores, change since last attempt, explanations | FR2, FR6 |
 | `/log` | Study logger, with `?topic=` to preselect | FR3 |
 | `/notifications` | Full notifications list, mark as read | FR6 |
-| `/profile` | Profile and reminder settings | FR1, FR6 |
+| `/profile` | Profile, badge shelf and reminder settings | FR1, FR6 |
 
 ## Components to build or fix
 
 - `RecommendationCard`: label (Needs attention, Getting started, Keep it up), course code, probability, topic, resource title and type, the reason line, a "Matched to your preference" line when it applies, "Also recommended" (the topic's video and textbook, from `explanation.also`), Accept (opens the resource) and Dismiss. A "Why this?" toggle shows both model probabilities, their average and the top factors. The reason and factors come from the `explanation` field the ML service writes; do not compute them in the browser.
 - `NotificationBell` and `NotificationList`: unread count from `notifications` where `read_at` is null. Clicking an item marks it read and follows its link.
+- `StreakCard` (4 Nov, replaces the consistency card): flame (lit once today counts, grey and "at risk" otherwise), daily goal ring, today's and this week's XP, freezes held and when one was used, the 14-day strip. `BadgeShelf` on the Profile page. `Celebrations` in the layout: "Streak extended to N days" after the day's first activity, and a pop-up per new badge; `motion-safe` only. All values come from `my_gamification()`; nothing is computed in the browser.
 - `WeeklySummary`: minutes this week against last week, topics whose latest score went up, and the top recommended topic.
 - `ProgressByTopic`: a course dropdown (the student's courses), not tabs, so it scales to many courses. Wrap long topic names onto two lines; show the full name in a tooltip. Keep the 50% line and the colour legend.
 - `StudyLogger`: label the custom box "Custom (minutes)", accept 1 to 300, and add an optional timer.

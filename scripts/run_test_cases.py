@@ -260,6 +260,15 @@ def cases() -> list[Case]:
              "right on this topic in the diagnostic'; 'Why this?' says it comes from the diagnostic score, not the models, and "
              "that ML recommendations start after N quizzes (the shared threshold, N = 3); the same list appears with the ML "
              "service down"),
+        Case("TC-26", "FR6 / NFR3", "Streaks, daily goal, XP, freezes and badges",
+             ["Sign in as Tolu Adeyemi and look at the Streak card, then Profile", "A student active the 3 days before today signs in",
+              "A student with 7 days in a row, yesterday missed, signs in", "A new student logs 30 minutes, then finishes a quiz",
+              "pytest scripts/test_gamification.py; rls_check.py"],
+             "Days use Nigerian time; an active day has a completed quiz or a study log. Today done: lit flame, the run, the goal ring "
+             "and today's and this week's XP. At risk: yesterday's run still shows, grey, 'Do a quiz or log study today to keep your "
+             "N-day streak', and a streak-at-risk notification. A missed day uses a freeze and the card says so. Badges show on the "
+             "Profile page. 'Streak started' and a badge pop-up appear once, without animation when reduced motion is set. All of it "
+             "is computed by the database; a student cannot backdate a log, award a badge or read another student's card"),
     ]
 
 
@@ -303,6 +312,15 @@ def evaluate(case: Case) -> None:
             lines(stages.split("-- Stage 2 dashboard")[1].split("-- Stage 3 dashboard")[0], "")
         case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
                              "  pytest test_diagnostic_stage.py (database rules): " + tail(tests, r"passed|failed"))
+    elif case.id == "TC-26":
+        out = run("streaks", py + ["scripts/streak_check.py"])
+        tests = run("pytest-streaks", [str(ROOT / ".venv/bin/pytest"), "scripts/test_gamification.py", "-q", "-p",
+                                       "no:cacheprovider", "-W", "ignore"])
+        case.evidence = lines(out, "")
+        case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
+                             "  pytest test_gamification.py (5-day run, missed day, 23:50/00:10 Lagos, nothing yet today, "
+                             "freezes, XP, badges, access): " + tail(tests, r"passed|failed"))
+        case.evidence += lines(run("rls", py + ["scripts/rls_check.py"]), "backdates", "streak card", "badge")
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]
@@ -418,6 +436,7 @@ def write_report(all_cases: list[Case]) -> None:
         "after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output "
         "(phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a "
         "crash in either section is now reported as a failed check with the error).\n"
+        "- Run on 4 Nov 2026 (streaks, XP, freezes and badges; TC-26 added): 25 pass, 1 partial (TC-12), 0 fail, first time.\n"
         "- Runs on 3 Nov 2026 (three recommendation stages, TC-07 updated, TC-25 added): the first run had TC-16 and TC-23 fail. TC-16's throwaway test course had no `semester`, which course files need since 1 Nov (a test fault; the test now sets level and semester), and TC-23 found 8 topics in MAT 241, PHY 104 and STA 202 without a textbook card, which were added. The second run had TC-12 fail at phone width with no check output (phase3_check.py --mobile stopped before its summary); run on its own straight after it passed 10/10, and the third run, recorded above, passed.\n\n"
         "## Details\n\n" + "\n".join(details)
     )

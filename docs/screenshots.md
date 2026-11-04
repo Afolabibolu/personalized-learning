@@ -104,6 +104,19 @@ Taken by `python scripts/stage_check.py --shots docs/screenshots/stages` (and `-
 | 68 | Stage 2: based on the diagnostic | Ngozi Eze (diagnostic.student@demo.example.com) | CSC 531: Cognitive Psychology (0 of 3), Conceptual Models (1 of 3), Problem Space and User-Centred Design (2 of 3), each 'Based on your diagnostic'; the first 'Why this?' open, saying it comes from the diagnostic score, not the models, and ML starts after 3 quizzes; a CSC 574 diagnostic card and its 'Getting started' items (FR4, NFR4) | [`stage2-dashboard.png`](screenshots/stages/stage2-dashboard.png) |
 | 69 | Stage 3: machine learning | Tolu Adeyemi (active.student@demo.example.com) | 'Needs attention' and 'Keep it up' items with both models' probabilities in 'Why this?'; no diagnostic cards (FR4) | [`stage3-dashboard.png`](screenshots/stages/stage3-dashboard.png) |
 
+## Streaks, XP and badges (4 November)
+
+Taken by `python scripts/streak_check.py --shots docs/screenshots/streaks` (and `--mobile --shots docs/screenshots/streaks/mobile` for phone width), with temporary students for the at-risk, freeze and celebration states, which are deleted afterwards. Run `python scripts/seed_demo.py --demo-only` first.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 70 | Streak card: today done | Tolu Adeyemi (active.student@demo.example.com) | Lit flame with a 7-day streak, 'Today counts', the daily goal ring at 20/30 min, today's and this week's XP, 1 of 2 freezes, the 14-day strip in orange (FR6). Card alone: streak-done-today-card.png | [`streak-done-today.png`](screenshots/streaks/streak-done-today.png) |
+| 71 | Streak card: at risk | temporary student (active the 3 days before today) | Grey flame, 3-day streak (not 0), 'Do a quiz or log study today to keep your 3-day streak', today empty on the strip; the bell holds the streak-at-risk notification (FR6). Card alone: streak-at-risk-card.png | [`streak-at-risk.png`](screenshots/streaks/streak-at-risk.png) |
+| 72 | Streak card: a freeze used | temporary student (7 days, yesterday missed, today) | 8-day streak, 'A streak freeze kept your streak alive on <yesterday>', a snowflake on yesterday's square, 0 of 2 freezes (FR6). Card alone: streak-freeze-used-card.png | [`streak-freeze-used.png`](screenshots/streaks/streak-freeze-used.png) |
+| 73 | Badge shelf on the Profile page | Tolu Adeyemi | 5 of 9 earned with dates (first quiz, perfect score, 5 topics mastered, 3- and 7-day streak); 14 to 100 days greyed with how to earn them; longest streak and total XP (FR6) | [`badge-shelf.png`](screenshots/streaks/badge-shelf.png) |
+| 74 | Celebration: streak started | temporary student, just after logging 30 minutes | Orange 'Streak started: day 1' moment at the bottom of the study log page (FR6) | [`celebration-streak.png`](screenshots/streaks/celebration-streak.png) |
+| 75 | Celebration: badge earned | the same student, after their first quiz | 'Badge earned: First quiz' pop-up on the results page (FR6) | [`celebration-badge.png`](screenshots/streaks/celebration-badge.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |

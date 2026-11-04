@@ -1,8 +1,8 @@
 # Test cases (Chapter Four)
 
-Run 2026-11-03 19:22 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-11-04 18:21 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
-**Summary:** 24 pass, 1 partial, 0 fail.
+**Summary:** 25 pass, 1 partial, 0 fail.
 
 | ID | Requirement | Test | Expected result | Actual result | Pass/Fail |
 | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,7 @@ Run 2026-11-03 19:22 with `python scripts/run_test_cases.py`. One or more cases 
 | TC-23 | FR4 / FR5 | Videos and textbooks in the recommendations | Each ML recommendation also suggests the topic's video and textbook; every video is a YouTube link that still exists; textbooks open as reading cards; courses with no past papers show labelled exam-style questions | 9 of 9 checks passed | **Pass** |
 | TC-24 | NFR5 | Course requests (scalability) | The request shows as pending, the admin script lists it and adds it, and the student sees it added, is notified and has the course in their courses; the form fits a phone | 7 of 7 checks passed | **Pass** |
 | TC-25 | FR4 / NFR4 | Stage 2: diagnostic-based recommendations before the ML threshold | CSC 531 is in Stage 2 and CSC 574 in Stage 1. Up to 3 CSC 531 topics ranked by diagnostic score, lowest first, ties by teaching order, fully right topics left out; each labelled 'Based on your diagnostic' with 'You got X of Y right on this topic in the diagnostic'; 'Why this?' says it comes from the diagnostic score, not the models, and that ML recommendations start after N quizzes (the shared threshold, N = 3); the same list appears with the ML service down | 16 of 16 checks passed | **Pass** |
+| TC-26 | FR6 / NFR3 | Streaks, daily goal, XP, freezes and badges | Days use Nigerian time; an active day has a completed quiz or a study log. Today done: lit flame, the run, the goal ring and today's and this week's XP. At risk: yesterday's run still shows, grey, 'Do a quiz or log study today to keep your N-day streak', and a streak-at-risk notification. A missed day uses a freeze and the card says so. Badges show on the Profile page. 'Streak started' and a badge pop-up appear once, without animation when reduced motion is set. All of it is computed by the database; a student cannot backdate a log, award a badge or read another student's card | 34 of 34 checks passed | **Pass** |
 
 Notes
 
@@ -41,6 +42,7 @@ Notes
 - First Phase 9 run (24 Oct 2026): 20 pass, 2 fail. TC-10 and TC-12 failed on 'dashboard shows a streak' (0-day streak) because the demo accounts had last been reset on 19 October, so the seeded study days were no longer consecutive up to today. After `python scripts/seed_demo.py --demo-only` the streak check passed, and every case was run again for the table above. Reset the demo accounts on the day of the demo.
 
 - Runs on 25 Oct 2026 (12 courses): one run had TC-10 fail because npm was not on the PATH of the shell running this script (not an app fault). A later run had TC-17 and TC-18 fail with no check output, and TC-22 fail on Kemi's dashboard: `seed_demo.py --demo-only` leaves no recommendations, and phase9_check.py relied on an earlier check having refreshed them, so it now presses Refresh first. The TC-17/TC-18 crash did not happen again in the full phase7 run or in the rerun of every case for the table above. Later the same day `timing.py` failed for the same reason (no saved recommendations after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output (phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a crash in either section is now reported as a failed check with the error).
+- Run on 4 Nov 2026 (streaks, XP, freezes and badges; TC-26 added): 25 pass, 1 partial (TC-12), 0 fail, first time.
 - Runs on 3 Nov 2026 (three recommendation stages, TC-07 updated, TC-25 added): the first run had TC-16 and TC-23 fail. TC-16's throwaway test course had no `semester`, which course files need since 1 Nov (a test fault; the test now sets level and semester), and TC-23 found 8 topics in MAT 241, PHY 104 and STA 202 without a textbook card, which were added. The second run had TC-12 fail at phone width with no check output (phase3_check.py --mobile stopped before its summary); run on its own straight after it passed 10/10, and the third run, recorded above, passed.
 
 ## Details
@@ -102,9 +104,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 22.22)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 27.78)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (31 passed in 96.03s (0:01:36))
+    PASS  pytest: diagnostic covers every topic and scores each one (48 passed in 154.91s (0:02:34))
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -118,7 +120,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 31 passed in 96.03s (0:01:36)
+    PASS  pytest scripts: 48 passed in 154.91s (0:02:34)
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -180,7 +182,7 @@ Notes
     PASS  introductory list: topic 1's note and lecture, then topic 2's note, for each course  (6 items)
     PASS  new student is asked to take each course's diagnostic (Stage 1 card)  (2 prompts)
     PASS  one shared threshold (app_settings.cold_start_threshold)  (N = 3)
-    PASS  Kemi: Stage 1 in both courses  ({'CSC 531': 1, 'CSC 574': 1})
+    PASS  Kemi: Stage 1 in both courses  ({'CSC 574': 1, 'CSC 531': 1})
     PASS  Kemi: only 'Getting started' rows, no ML scores  (6 rows)
     PASS  a 'Take the [CODE] diagnostic' card for each course, at the top  (2 cards)
     PASS  the cards mention the real threshold
@@ -205,7 +207,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 50 passed in 2.92s
+    PASS  pytest ml (features, simulator, cold start, ranking): 50 passed in 2.34s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -241,11 +243,11 @@ Notes
 **Actual:** 5 of 5 checks passed. **Result: Pass**
 
 ```
-    PASS  dashboard shows a streak  (2-day streak)
-    PASS  14-day activity strip  (7 active days)
+    PASS  dashboard shows a streak  (7-day streak)
+    PASS  14-day activity strip  (9 active days)
     PASS  progress chart has a bar per topic  (6 bars)
     PASS  no streak yet
-    PASS  npm test: Tests  13 passed (13)
+    PASS  npm test: Tests  8 passed (8)
 ```
 
 ### TC-11 · FR6 · Reminders and recommendation feedback
@@ -315,7 +317,7 @@ Notes
 **Actual:** 8 of 8 checks passed. **Result: Pass**
 
 ```
-    PASS  rls_check.py: 59/59 checks passed
+    PASS  rls_check.py: 68/68 checks passed
     PASS  A reads B's study logs  (0 rows)
     PASS  A reads B's quiz attempts  (0 rows)
     PASS  A reads B's recommendations  (0 rows)
@@ -406,12 +408,12 @@ Notes
 
 ```
     PASS  results: first attempt on a topic says so
-    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (0% to 20%, up 20 points)
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (0% to 40%, up 40 points)
     PASS  'Custom (minutes)' is labelled and rejects 400
     PASS  'Custom (minutes)' accepts 45
     PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
     PASS  after saving: confirmation, and recommendations refresh in the background
-    PASS  course page: quiz history with date, quiz and score  (30 Oct 2026 Cognitive Psychology and Perception quiz 40% · Needs attention)
+    PASS  course page: quiz history with date, quiz and score  (31 Oct 2026 Cognitive Psychology and Perception quiz 40% · Needs attention)
     PASS  phone width: logger with timer fits
 ```
 
@@ -484,16 +486,16 @@ Notes
 
 ```
     PASS  lecture links open in a new tab, folders labelled 'Open lecture folder'
-    PASS  bell in the nav with an unread count  (1 unread; kinds: daily_goal_reached, new_recommendations, score_improved, streak_at_risk, weak_topic_unstudied)
-    PASS  bell opens a list of reminders and feedback, each with a time  (5 shown)
-    PASS  clicking a notification marks it read and follows its link  (1 -> 0 unread, now at /)
+    PASS  bell in the nav with an unread count  (2 unread; kinds: daily_goal_reached, new_recommendations, score_improved, weak_topic_unstudied)
+    PASS  bell opens a list of reminders and feedback, each with a time  (4 shown)
+    PASS  clicking a notification marks it read and follows its link  (2 -> 1 unread, now at /topics/d9737721-61e2-40b7-8022-9422709923e5)
     PASS  full notifications page
-    PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 825 min ▲ 330 min vs last week (495 min) | TOPICS IMPROVED Knowledge Representation and Reasoning 80% → 100% Fuzzy Logic Systems 20% → 40% and 1 more )
+    PASS  weekly summary: minutes vs last week, topics improved, next focus  (THIS WEEK 860 min ▲ 365 min vs last week (495 min) | TOPICS IMPROVED Knowledge Representation and Reasoning 80% → 100% Fuzzy Logic Systems 20% → 40% and 1 more )
     PASS  progress chart: long names on two lines, full name on hover  (6 wrapped)
     PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
     PASS  phone width: bell stays visible and its list fits
     PASS  'Custom (minutes)' is labelled and rejects 400
-    PASS  pytest test_reminders.py: 6 passed in 29.37s
+    PASS  pytest test_reminders.py: 6 passed in 34.44s
 ```
 
 ### TC-22 · NFR5 · Course ingestion pipeline: raw files to the app
@@ -529,7 +531,7 @@ Notes
     PASS  a sample course's study note opens in the app  (Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2)
     PASS  its past questions open in the app, grouped by paper  (2024/2025 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms); 2023/2024 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms))
     PASS  topic page shows the badge and the topic quiz button
-    PASS  a sample course's topic quiz is graded and shows results  (3ba88856)
+    PASS  a sample course's topic quiz is graded and shows results  (e9760eb6)
     PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Study note: Algorithm Fundamentals and Analysis; Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer)
     PASS  progress chart: a course dropdown lists only my courses and switches the chart  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a course can be removed from my courses
@@ -575,8 +577,8 @@ Notes
 **Actual:** 7 of 7 checks passed. **Result: Pass**
 
 ```
-    PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessor Interfacing Pending Sent 3 Nov 2026 · 400 level · first semester)
-    PASS  scripts/course_requests.py lists the pending request  (7de41da1  pending   2026-11-03  CSC 412 · Microprocessor Interfacing  (Request Tester))
+    PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessor Interfacing Pending Sent 4 Nov 2026 · 400 level · first semester)
+    PASS  scripts/course_requests.py lists the pending request  (1ad31b48  pending   2026-11-04  CSC 412 · Microprocessor Interfacing  (Request Tester))
     PASS  adding it enrols the student and notifies them  (Added: CSC 412 · Microprocessor Interfacing is now in the student's courses, and they have been notified.)
     PASS  the student sees the request as added, with a link to the course
     PASS  the student gets a 'course is ready' notification
@@ -614,5 +616,56 @@ Notes
     PASS  'Focus next' names the weakest diagnostic topic
     PASS  with nothing saved and the service blocked, the dashboard still shows Stage 2  (3 diagnostic items)
     PASS  Refresh with the service down shows the quiet notice and keeps Stage 2
-    PASS  pytest test_diagnostic_stage.py (database rules): 6 passed in 25.79s
+    PASS  pytest test_diagnostic_stage.py (database rules): 6 passed in 26.06s
+```
+
+### TC-26 · FR6 / NFR3 · Streaks, daily goal, XP, freezes and badges
+
+**Steps**
+
+1. Sign in as Tolu Adeyemi and look at the Streak card, then Profile
+2. A student active the 3 days before today signs in
+3. A student with 7 days in a row, yesterday missed, signs in
+4. A new student logs 30 minutes, then finishes a quiz
+5. pytest scripts/test_gamification.py; rls_check.py
+
+**Expected:** Days use Nigerian time; an active day has a completed quiz or a study log. Today done: lit flame, the run, the goal ring and today's and this week's XP. At risk: yesterday's run still shows, grey, 'Do a quiz or log study today to keep your N-day streak', and a streak-at-risk notification. A missed day uses a freeze and the card says so. Badges show on the Profile page. 'Streak started' and a badge pop-up appear once, without animation when reduced motion is set. All of it is computed by the database; a student cannot backdate a log, award a badge or read another student's card
+
+**Actual:** 34 of 34 checks passed. **Result: Pass**
+
+```
+    PASS  flame lit and a run of several days  (7-day streak)
+    PASS  message says today counts
+    PASS  daily goal ring shows today's minutes against the goal  (20/30)
+    PASS  today's and this week's XP  (4 today, 371 XP this week)
+    PASS  14-day strip
+    PASS  no pop-up for badges the seed already marked seen
+    PASS  badge shelf on the Profile page: all 9, earned ones dated  (first_quiz, first_perfect, five_mastered, streak_3, streak_7)
+    PASS  yesterday's run still shows (not 0)
+    PASS  grey flame
+    PASS  'Do a quiz or log study today to keep your 3-day streak'  (Do a quiz or log study today to keep your 3-day streak)
+    PASS  streak-at-risk notification in the bell
+    PASS  a missed day used a freeze and the streak survived
+    PASS  the card says when the freeze was used  (A streak freeze kept your streak alive on 3 Nov 2026.)
+    PASS  the frozen day is marked on the strip
+    PASS  freezes held: 0 of 2 (the one earned was used)
+    PASS  a new student starts at 0
+    PASS  'Streak started' moment after the first activity of the day  (Streak started: day 1)
+    PASS  the moment goes away by itself
+    PASS  badge pop-up on the results page after the first quiz  (BADGE EARNED |  | First quiz |  | See all your badges on your profile.)
+    PASS  no second streak moment for a later activity the same day
+    PASS  the pop-up shows once (badge marked seen)
+    PASS  XP today counts the quiz and the session  (26)
+    PASS  goal ring ticked after 30 minutes
+    PASS  celebrations do not animate when reduced motion is set  (animation-name: none)
+    PASS  pytest test_gamification.py (5-day run, missed day, 23:50/00:10 Lagos, nothing yet today, freezes, XP, badges, access): 17 passed in 71.21s (0:01:11)
+    PASS  A backdates a study log (to fill a missed day)  (refused: 42501 permission denied for table study_logs)
+    PASS  B's streak card is computed for B  (1-day streak, 2 badge(s))
+    PASS  A reads B's streak card  (refused: 42501 permission denied for function gamification_for)
+    PASS  A stores badges for B  (refused: 42501 permission denied for function sync_student_badges)
+    PASS  A reads B's badges  (0 rows)
+    PASS  A awards itself a badge  (refused: 42501 permission denied for table student_badges)
+    PASS  B changes a badge's earned date  (refused: 42501 permission denied for table student_badges)
+    PASS  A's acknowledge_badges leaves B's badges unseen
+    PASS  Signed-out visitor reads a streak card  (refused: 42501 permission denied for function my_gamification)
 ```

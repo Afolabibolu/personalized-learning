@@ -34,6 +34,7 @@ export function LogStudyPage() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['studyLogs'] })
       queryClient.invalidateQueries({ queryKey: ['dashboard'] })
+      queryClient.invalidateQueries({ queryKey: ['gamification'] })
       triggerRecommendations(() => queryClient.invalidateQueries({ queryKey: ['recommendations'] }))
     },
   })
