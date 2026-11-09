@@ -3,6 +3,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { getGamification } from '../api/gamification'
 import { getProfile, updateProfile } from '../api/profile'
 import { BadgeShelf } from '../components/BadgeShelf'
+import { EmailSettings } from '../components/EmailSettings'
 import type { LearningPreference, Level, Weekday } from '../api/types'
 import { PreferencePicker } from '../components/PreferencePicker'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
@@ -115,6 +116,7 @@ function ReminderSettings() {
   const [time, setTime] = useState('18:00')
   const [goal, setGoal] = useState(30)
   const [browser, setBrowser] = useState(false)
+  const [email, setEmail] = useState({ email_reminders: false, email_streak: true, email_digest: true, email_weekly: true })
   const [permissionNote, setPermissionNote] = useState<string | null>(null)
 
   useEffect(() => {
@@ -123,11 +125,13 @@ function ReminderSettings() {
     setTime(profile.data.preferred_study_time.slice(0, 5))
     setGoal(profile.data.daily_goal_minutes)
     setBrowser(profile.data.browser_notifications)
+    const { email_reminders, email_streak, email_digest, email_weekly } = profile.data
+    setEmail({ email_reminders, email_streak, email_digest, email_weekly })
   }, [profile.data])
 
   const save = useMutation({
     mutationFn: () =>
-      updateProfile({ study_days: days, preferred_study_time: time, daily_goal_minutes: goal, browser_notifications: browser }),
+      updateProfile({ study_days: days, preferred_study_time: time, daily_goal_minutes: goal, browser_notifications: browser, ...email }),
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['profile'] }),
   })
 
@@ -164,7 +168,7 @@ function ReminderSettings() {
   return (
     <Card>
       <h2 className="font-semibold">Reminder settings</h2>
-      <p className="mt-1 text-sm text-slate-600">Reminders appear under the bell in the app. They use these settings.</p>
+      <p className="mt-1 text-sm text-slate-600">Reminders appear under the bell in the app, and by email if you turn that on. They use these settings.</p>
       <form onSubmit={handleSubmit} className="mt-5 space-y-5">
         <fieldset>
           <legend className="mb-1.5 text-sm font-medium text-slate-700">Study days</legend>
@@ -223,6 +227,14 @@ function ReminderSettings() {
             <span className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white shadow transition ${browser ? 'translate-x-5' : ''}`} />
           </button>
         </div>
+
+        <EmailSettings
+          value={email}
+          onChange={(next) => {
+            save.reset()
+            setEmail(next)
+          }}
+        />
 
         {save.isError && <ErrorMessage error={save.error} />}
         {save.isSuccess && (

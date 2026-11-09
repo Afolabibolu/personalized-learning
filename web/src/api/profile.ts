@@ -6,7 +6,7 @@ export async function getProfile(): Promise<Profile> {
   const id = await currentUserId()
   const { data, error } = await supabase
     .from('profiles')
-    .select('id, full_name, department, level, learning_preferences, study_days, preferred_study_time, daily_goal_minutes, browser_notifications')
+    .select('id, full_name, department, level, learning_preferences, study_days, preferred_study_time, daily_goal_minutes, browser_notifications, email_reminders, email_streak, email_digest, email_weekly')
     .eq('id', id)
     .single()
   if (error) throw error
@@ -29,6 +29,10 @@ export async function updateProfile(
       | 'preferred_study_time'
       | 'daily_goal_minutes'
       | 'browser_notifications'
+      | 'email_reminders'
+      | 'email_streak'
+      | 'email_digest'
+      | 'email_weekly'
     >
   >,
 ): Promise<void> {

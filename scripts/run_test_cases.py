@@ -276,6 +276,14 @@ def cases() -> list[Case]:
              "Every link loads (HTTP 200, not a search page) and is free, buy or preview; every linked card carries its "
              "link and type; the button reads 'Read free online' for free links and 'Buy or preview' otherwise, opens in "
              "a new tab, and the textbook itself still opens its reading card in the app"),
+        Case("TC-28", "FR6 / NFR3", "Email reminders (dry run)",
+             ["python scripts/email_check.py: the three demo accounts opted in, a forced dry run, then the same run again",
+              "Open an unsubscribe link, then a tampered one", "As a student, read and write the email log",
+              "pytest ml/tests/test_emails.py (when each email is due, in Lagos time; tokens; content)"],
+             "A student active today gets no streak email; one with nothing today does; a digest only with unread "
+             "recommendation notifications; a weekly summary; every email logged and written to ml/outbox/, with one "
+             "button and an unsubscribe link; nothing sent twice the same day; the link turns email off without logging "
+             "in and a bad token is refused; students read only their own log and cannot write it"),
     ]
 
 
@@ -330,6 +338,11 @@ def evaluate(case: Case) -> None:
         case.evidence += lines(run("rls", py + ["scripts/rls_check.py"]), "backdates", "streak card", "badge")
     elif case.id == "TC-27":
         case.evidence = lines(run("textbook-links", py + ["scripts/textbook_links_check.py"]), "")
+    elif case.id == "TC-28":
+        case.evidence = lines(run("emails", py + ["scripts/email_check.py"]), "")
+        tests = run("pytest-emails", [str(ROOT / ".venv/bin/pytest"), "tests/test_emails.py", "-q", "-W", "ignore"], cwd=ROOT / "ml")
+        case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
+                             "  pytest test_emails.py (due times in Lagos time, tokens, content): " + tail(tests, r"passed|failed"))
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]

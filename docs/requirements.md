@@ -121,6 +121,8 @@ Gaps:
   _Done: names wrap onto two lines with the full name as a hover tooltip (`ProgressCard.tsx`); screenshot `fr6-04-progress-chart.png`._
 - [x] (4 Nov) Streaks and gamification like Duolingo: streak flame (grey and "at risk" until today counts), daily goal ring, XP, streak freezes, badges on the Profile page, a short celebration, and the streak-at-risk reminder naming the streak. No leaderboard (NFR3).
   _Done: computed in the database, never the browser (`gamification_for()`, `my_gamification()`, `student_badges` in `supabase/migrations/20261104162939_gamification.sql`), with Nigerian-time day boundaries; study logs are stamped by the database so a missed day cannot be backdated. Fixed: the old streak used the browser's timezone and only 60 days of quizzes. `StreakCard.tsx`, `BadgeShelf.tsx`, `Celebrations.tsx`. Tests: `scripts/test_gamification.py` (17), `scripts/streak_check.py` (24 checks), `rls_check.py`; TC-26; screenshots in `docs/screenshots/streaks/`._
+- [x] (4 Nov) Email reminders, so students get them without opening the app: streak at risk, a daily digest of weak topics and new recommendations, and a Sunday weekly summary, opt-in, with unsubscribe.
+  _Done: `ml/app/emails.py` (Brevo SMTP relay, one check every 15 minutes inside the ML service, dry-run mode), `supabase/migrations/20261104190232_email_reminders.sql` (`email_log`, profile settings), Reminder settings and onboarding (`EmailSettings.tsx`). Tests: `ml/tests/test_emails.py`, `scripts/email_check.py`, `rls_check.py`; TC-28; screenshots in `docs/screenshots/emails/`._
 
 Evidence: screenshots of the bell with unread count, the notifications list, reminder settings, and the weekly summary.
 

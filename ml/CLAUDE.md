@@ -41,6 +41,10 @@ After each run, insert notifications for the student, once per kind per day:
 
 Other reminder kinds (streak at risk, inactivity, daily goal, score improved) come from the SQL function described in `supabase/CLAUDE.md`.
 
+## Email reminders (4 Nov)
+
+`app/emails.py` sends them; `main.py` runs `emails.run_once()` every 15 minutes in a background task (set `EMAIL_SCHEDULER=off` to stop it) and serves `GET /email/unsubscribe?token=`. Mail goes through Brevo's SMTP relay (9 Nov; it replaced Gmail). Settings in `ml/.env` only: `SMTP_HOST` (smtp-relay.brevo.com), `SMTP_PORT` (587 uses STARTTLS; 465 uses SSL), `SMTP_USER` and `SMTP_PASSWORD` (Brevo's SMTP login and key; the login is not an email address), `SMTP_FROM` (the sender students see, an address verified in Brevo), `TEST_EMAIL_TO` (the only address test sends go to), `APP_URL`, `EMAIL_DRY_RUN` (true unless set to false and the login, password and SMTP_FROM are all present). Kinds and triggers are in the module docstring; the due checks are pure functions tested in `tests/test_emails.py`. Never send real email to reserved test domains, and test real sends with `--send --to-test` only (to TEST_EMAIL_TO).
+
 ## Reliability (NFR4)
 
 - If a model file is missing or fails to load, use the cold-start path and log a warning. Never return a 500 for a student who exists.

@@ -6,6 +6,7 @@ import { getProfile, updateProfile } from '../api/profile'
 import type { LearningPreference, Level } from '../api/types'
 import { LevelTabs } from '../components/LevelTabs'
 import { PreferencePicker } from '../components/PreferencePicker'
+import { EmailSettings } from '../components/EmailSettings'
 import { Button, Card, ErrorMessage, Field, PageHeader, Spinner, inputClass } from '../components/ui'
 
 const LEVELS: Level[] = [100, 200, 300, 400, 500]
@@ -19,6 +20,8 @@ export function OnboardingPage() {
   const [department, setDepartment] = useState('Computer Science')
   const [level, setLevel] = useState<Level>(500)
   const [preferences, setPreferences] = useState<LearningPreference[]>([])
+  // Asked once here; existing students start with email off. All three kinds are on if they say yes.
+  const [email, setEmail] = useState({ email_reminders: false, email_streak: true, email_digest: true, email_weekly: true })
   // The course list opens on the student's level; null until they pick another tab.
   const [shownLevel, setShownLevel] = useState<Level | null>(null)
   // Starts as the courses every new account gets (the reviewed ones); null until changed.
@@ -34,7 +37,7 @@ export function OnboardingPage() {
 
   const save = useMutation({
     mutationFn: async () => {
-      await updateProfile({ department: department.trim(), level, learning_preferences: preferences })
+      await updateProfile({ department: department.trim(), level, learning_preferences: preferences, ...email })
       const changes = (courses.data ?? []).filter((c) => c.enrolled !== selected.has(c.id))
       await Promise.all(changes.map((c) => setEnrolled(c.id, selected.has(c.id))))
     },
@@ -118,6 +121,11 @@ export function OnboardingPage() {
               </p>
             </fieldset>
           )}
+
+          <div>
+            <EmailSettings value={email} onChange={setEmail} compact />
+            <p className="mt-1.5 text-xs text-slate-500">Reminders like a streak at risk or your weekly summary. You can pick which ones on your Profile page.</p>
+          </div>
 
           {save.isError && <ErrorMessage error={save.error} />}
           <Button type="submit" className="w-full" disabled={save.isPending}>

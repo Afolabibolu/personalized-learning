@@ -1,8 +1,8 @@
 # Test cases (Chapter Four)
 
-Run 2026-11-04 19:53 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
+Run 2026-11-04 20:33 with `python scripts/run_test_cases.py`. One or more cases per functional (FR1–FR6) and non-functional (NFR1–NFR5) requirement from Chapter Three, including the cold-start case (Section 3.14). Every case was run against the live system; the evidence lines are the actual output.
 
-**Summary:** 26 pass, 1 partial, 0 fail.
+**Summary:** 27 pass, 1 partial, 0 fail.
 
 | ID | Requirement | Test | Expected result | Actual result | Pass/Fail |
 | --- | --- | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ Run 2026-11-04 19:53 with `python scripts/run_test_cases.py`. One or more cases 
 | TC-25 | FR4 / NFR4 | Stage 2: diagnostic-based recommendations before the ML threshold | CSC 531 is in Stage 2 and CSC 574 in Stage 1. Up to 3 CSC 531 topics ranked by diagnostic score, lowest first, ties by teaching order, fully right topics left out; each labelled 'Based on your diagnostic' with 'You got X of Y right on this topic in the diagnostic'; 'Why this?' says it comes from the diagnostic score, not the models, and that ML recommendations start after N quizzes (the shared threshold, N = 3); the same list appears with the ML service down | 16 of 16 checks passed | **Pass** |
 | TC-26 | FR6 / NFR3 | Streaks, daily goal, XP, freezes and badges | Days use Nigerian time; an active day has a completed quiz or a study log. Today done: lit flame, the run, the goal ring and today's and this week's XP. At risk: yesterday's run still shows, grey, 'Do a quiz or log study today to keep your N-day streak', and a streak-at-risk notification. A missed day uses a freeze and the card says so. Badges show on the Profile page. 'Streak started' and a badge pop-up appear once, without animation when reduced motion is set. All of it is computed by the database; a student cannot backdate a log, award a badge or read another student's card | 34 of 34 checks passed | **Pass** |
 | TC-27 | FR5 | Textbook links | Every link loads (HTTP 200, not a search page) and is free, buy or preview; every linked card carries its link and type; the button reads 'Read free online' for free links and 'Buy or preview' otherwise, opens in a new tab, and the textbook itself still opens its reading card in the app | 11 of 11 checks passed | **Pass** |
+| TC-28 | FR6 / NFR3 | Email reminders (dry run) | A student active today gets no streak email; one with nothing today does; a digest only with unread recommendation notifications; a weekly summary; every email logged and written to ml/outbox/, with one button and an unsubscribe link; nothing sent twice the same day; the link turns email off without logging in and a bad token is refused; students read only their own log and cannot write it | 21 of 21 checks passed | **Pass** |
 
 Notes
 
@@ -106,9 +107,9 @@ Notes
 ```
     PASS  results show a score per topic  (6 topic rows)
     PASS  results show each question with its correct answer and explanation  (18 questions, 18 explanations)
-    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 22.22)
+    PASS  quiz_attempts: one completed diagnostic attempt with a score  (1 attempt(s), score 33.33)
     PASS  attempt_answers: 18 graded answers across all 6 topics  (18 answers, 6 topics)
-    PASS  pytest: diagnostic covers every topic and scores each one (48 passed in 174.91s (0:02:54))
+    PASS  pytest: diagnostic covers every topic and scores each one (48 passed in 136.04s (0:02:16))
 ```
 
 ### TC-04 · FR2 · Topic quiz grading and question selection
@@ -122,7 +123,7 @@ Notes
 **Actual:** 3 of 3 checks passed. **Result: Pass**
 
 ```
-    PASS  pytest scripts: 48 passed in 174.91s (0:02:54)
+    PASS  pytest scripts: 48 passed in 136.04s (0:02:16)
     PASS  start_quiz returns no correct_answer or explanation  (4 questions, keys: ['format', 'id', 'options', 'stem', 'topic_id'])
     PASS  B submits own completed attempt again  (refused: P0001 attempt already submitted)
 ```
@@ -209,7 +210,7 @@ Notes
     INFO  5-fold CV | Rule baseline (last score < 50%) | 0.684 ± 0.023 | 0.488 ± 0.037 | 0.541 ± 0.047 | 0.512 ± 0.031 |
     INFO  5-fold CV | Logistic Regression | 0.770 ± 0.009 | 0.678 ± 0.029 | 0.476 ± 0.029 | 0.559 ± 0.021 |
     INFO  5-fold CV | Random Forest | 0.752 ± 0.011 | 0.633 ± 0.020 | 0.452 ± 0.035 | 0.527 ± 0.029 |
-    PASS  pytest ml (features, simulator, cold start, ranking): 50 passed in 2.06s
+    PASS  pytest ml (features, simulator, cold start, ranking): 61 passed in 2.20s
 ```
 
 ### TC-09 · FR5 · Academic knowledge base
@@ -319,7 +320,7 @@ Notes
 **Actual:** 8 of 8 checks passed. **Result: Pass**
 
 ```
-    PASS  rls_check.py: 68/68 checks passed
+    PASS  rls_check.py: 75/75 checks passed
     PASS  A reads B's study logs  (0 rows)
     PASS  A reads B's quiz attempts  (0 rows)
     PASS  A reads B's recommendations  (0 rows)
@@ -410,7 +411,7 @@ Notes
 
 ```
     PASS  results: first attempt on a topic says so
-    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (60% to 40%, down 20 points)
+    PASS  results: change since the last attempt, e.g. '40% to 70%, up 30 points'  (20% to 40%, up 20 points)
     PASS  'Custom (minutes)' is labelled and rejects 400
     PASS  'Custom (minutes)' accepts 45
     PASS  study timer: start, pause, stop fills in the duration  (stopped at 00:01, duration 1 min)
@@ -497,7 +498,7 @@ Notes
     PASS  reminder settings saved on the profile  ({'study_days': ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'], 'preferred_study_time': '17:30:00', 'daily_goal_minutes': 45})
     PASS  phone width: bell stays visible and its list fits
     PASS  'Custom (minutes)' is labelled and rejects 400
-    PASS  pytest test_reminders.py: 6 passed in 43.06s
+    PASS  pytest test_reminders.py: 6 passed in 24.84s
 ```
 
 ### TC-22 · NFR5 · Course ingestion pipeline: raw files to the app
@@ -533,8 +534,8 @@ Notes
     PASS  a sample course's study note opens in the app  (Source: CSC 551 Design and Analysis of Algorithms.pdf, Study Session 2)
     PASS  its past questions open in the app, grouped by paper  (2024/2025 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms); 2023/2024 · B.Sc. Degree Examinations, First Semester (CSC 551: Design and Analysis of Algorithms))
     PASS  topic page shows the badge and the topic quiz button
-    PASS  a sample course's topic quiz is graded and shows results  (1cbfdfd1)
-    PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer; Study note: Algorithm Fundamentals and Analysis)
+    PASS  a sample course's topic quiz is graded and shows results  (094795b3)
+    PASS  CSC 551 gets its own getting-started list (fewer than 3 attempts)  (Study note: Algorithm Fundamentals and Analysis; Past questions: Algorithm Fundamentals and Analysis; Study note: Divide and Conquer)
     PASS  progress chart: a course dropdown lists only my courses and switches the chart  (CSC 531 · Human-Computer Interaction | CSC 551 · Design and Analysis of Algorithms | CSC 574 · Intelligent Systems)
     PASS  a course can be removed from my courses
     PASS  phone width: course list with more courses fits
@@ -580,7 +581,7 @@ Notes
 
 ```
     PASS  a student can request a missing course from the Courses page; it shows as pending  (CSC 412 · Microprocessor Interfacing Pending Sent 4 Nov 2026 · 400 level · first semester)
-    PASS  scripts/course_requests.py lists the pending request  (e3ab22f7  pending   2026-11-04  CSC 412 · Microprocessor Interfacing  (Request Tester))
+    PASS  scripts/course_requests.py lists the pending request  (85268ef2  pending   2026-11-04  CSC 412 · Microprocessor Interfacing  (Request Tester))
     PASS  adding it enrols the student and notifies them  (Added: CSC 412 · Microprocessor Interfacing is now in the student's courses, and they have been notified.)
     PASS  the student sees the request as added, with a link to the course
     PASS  the student gets a 'course is ready' notification
@@ -618,7 +619,7 @@ Notes
     PASS  'Focus next' names the weakest diagnostic topic
     PASS  with nothing saved and the service blocked, the dashboard still shows Stage 2  (3 diagnostic items)
     PASS  Refresh with the service down shows the quiet notice and keeps Stage 2
-    PASS  pytest test_diagnostic_stage.py (database rules): 6 passed in 29.33s
+    PASS  pytest test_diagnostic_stage.py (database rules): 6 passed in 22.88s
 ```
 
 ### TC-26 · FR6 / NFR3 · Streaks, daily goal, XP, freezes and badges
@@ -660,7 +661,7 @@ Notes
     PASS  XP today counts the quiz and the session  (26)
     PASS  goal ring ticked after 30 minutes
     PASS  celebrations do not animate when reduced motion is set  (animation-name: none)
-    PASS  pytest test_gamification.py (5-day run, missed day, 23:50/00:10 Lagos, nothing yet today, freezes, XP, badges, access): 17 passed in 79.78s (0:01:19)
+    PASS  pytest test_gamification.py (5-day run, missed day, 23:50/00:10 Lagos, nothing yet today, freezes, XP, badges, access): 17 passed in 70.35s (0:01:10)
     PASS  A backdates a study log (to fill a missed day)  (refused: 42501 permission denied for table study_logs)
     PASS  B's streak card is computed for B  (1-day streak, 2 badge(s))
     PASS  A reads B's streak card  (refused: 42501 permission denied for function gamification_for)
@@ -696,4 +697,41 @@ Notes
     PASS  the textbook itself still opens its reading card in the app  (/resources/b07fe6ed-8a2c-4bc7-8cd3-2b808fd340fb)
     PASS  the Knowledge Base shows the button beside textbooks  (6 buttons)
     PASS  the reading card shows the button under the card  (Buy or preview | (opens in a new tab) | The publisher’s or Google Books page for this book.)
+```
+
+### TC-28 · FR6 / NFR3 · Email reminders (dry run)
+
+**Steps**
+
+1. python scripts/email_check.py: the three demo accounts opted in, a forced dry run, then the same run again
+2. Open an unsubscribe link, then a tampered one
+3. As a student, read and write the email log
+4. pytest ml/tests/test_emails.py (when each email is due, in Lagos time; tokens; content)
+
+**Expected:** A student active today gets no streak email; one with nothing today does; a digest only with unread recommendation notifications; a weekly summary; every email logged and written to ml/outbox/, with one button and an unsubscribe link; nothing sent twice the same day; the link turns email off without logging in and a bad token is refused; students read only their own log and cannot write it
+
+**Actual:** 21 of 21 checks passed. **Result: Pass**
+
+```
+    PASS  /recommend for Tolu (writes today's recommendation notifications)
+    PASS  Tolu: no streak email (already active today)
+    PASS  Tolu: a digest exactly when there are unread notifications  (1 unread)
+    PASS  Kemi and Ngozi: a streak email (nothing done today)
+    PASS  all three: a weekly summary
+    PASS  Kemi and Ngozi get no digest (no unread recommendation notifications)
+    PASS  every email is a dry run  (6 emails)
+    PASS  each email is in email_log  (6 rows)
+    PASS  each email is written to ml/outbox/  (6 files)
+    PASS  every email has exactly one button into the app
+    PASS  every email has an unsubscribe link
+    PASS  a second forced run sends nothing  (0 emails)
+    PASS  a scheduled check right after sends nothing  (0 emails)
+    PASS  no student has the same kind twice today
+    PASS  the link turns email reminders off without logging in
+    PASS  a tampered token is refused
+    PASS  Ngozi is no longer a recipient
+    PASS  a student reads only their own email log  (2 rows)
+    PASS  a student cannot write the email log  ({'message': 'permission denied for table email_log', 'code':)
+    PASS  a student cannot list email addresses
+    PASS  pytest test_emails.py (due times in Lagos time, tokens, content): 11 passed in 0.01s
 ```

@@ -24,3 +24,6 @@ content/sources/
 .DS_Store
 .vscode/
 content/ingest/extracted/
+
+# email dry runs
+ml/outbox/

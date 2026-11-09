@@ -17,6 +17,11 @@ export type Profile = {
   preferred_study_time: string // "18:00:00"
   daily_goal_minutes: number
   browser_notifications: boolean
+  /** Email reminders (sent by the Python service to the sign-up address); off unless the student turns them on. */
+  email_reminders: boolean
+  email_streak: boolean
+  email_digest: boolean
+  email_weekly: boolean
 }
 
 export type Course = {

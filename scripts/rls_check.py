@@ -206,6 +206,20 @@ def main() -> int:
               all(r["seen_at"] is None for r in db.table("student_badges").select("seen_at").eq("student_id", b_id).execute().data))
         refused("Signed-out visitor reads a streak card", lambda: testkit.anon().rpc("my_gamification").execute())
 
+        print("\n-- Email reminders")
+        db.table("email_log").insert({"student_id": b_id, "kind": "digest", "day": "2026-11-04",
+                                      "subject": "B's digest", "status": "dry_run"}).execute()
+        refused("A reads B's email log", lambda: a.table("email_log").select("id").eq("student_id", b_id).execute())
+        allowed("B reads own email log", lambda: b.table("email_log").select("id").execute())
+        refused("A writes an email log row", lambda: a.table("email_log").insert({
+            "student_id": a_id, "kind": "digest", "day": "2026-11-04", "subject": "x", "status": "sent"}).execute())
+        refused("A lists students' email addresses", lambda: a.rpc("email_recipients").execute())
+        refused("A reads B's topic progress", lambda: a.rpc("topic_progress_for", {"p_student": b_id}).execute())
+        allowed("A turns own email reminders on", lambda: a.table("profiles").update(
+            {"email_reminders": True, "email_weekly": False}).eq("id", a_id).execute())
+        refused("A turns B's email reminders on", lambda: a.table("profiles").update(
+            {"email_reminders": True}).eq("id", b_id).execute())
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())

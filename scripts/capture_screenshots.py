@@ -299,6 +299,17 @@ TEXTBOOKS = [
          "The reading card (book, what to read, why), then the button and a line saying what the link is (FR5)"),
 ]
 
+EMAILS = [
+    Shot("dry-run-streak-at-risk.png", "Email: streak at risk (dry run)", "Kemi Balogun, nothing done today",
+         "'A few minutes today starts a streak': the study time, one 'Log a study session' button, the unsubscribe link (FR6)"),
+    Shot("dry-run-digest.png", "Email: daily digest (dry run)", "Tolu Adeyemi, after /recommend",
+         "Today's unread 'new recommendations' and 'needs attention' notifications in one email, one 'See your recommendations' button (FR6)"),
+    Shot("dry-run-weekly-summary.png", "Email: weekly summary (dry run)", "Tolu Adeyemi",
+         "Minutes this week against last week, topics improved with their scores, the next topic to focus on, one button (FR6)"),
+    Shot("profile-email-settings.png", "Email settings on the Profile page", "Tolu Adeyemi",
+         "Reminder settings with 'Email me reminders' on and a tick box for each kind (FR6)"),
+]
+
 
 def write_checklist() -> None:
     rows = "\n".join(
@@ -358,6 +369,15 @@ def write_checklist() -> None:
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/textbooks/{s.file}) |"
                      for i, s in enumerate(TEXTBOOKS, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10)
                                            + len(STAGES) + len(STREAKS) + 1))
+        + "\n\n"
+        "## Email reminders (4 November)\n\n"
+        "Taken by `python scripts/email_check.py --shots docs/screenshots/emails` (the dry-run emails, rendered from "
+        "`ml/outbox/`). Screenshots of the same emails as they arrive in the inbox, from the real test send to TEST_EMAIL_TO, "
+        "go in `docs/screenshots/emails/inbox/`.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/emails/{s.file}) |"
+                     for i, s in enumerate(EMAILS, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10)
+                                           + len(STAGES) + len(STREAKS) + len(TEXTBOOKS) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

@@ -127,6 +127,17 @@ Taken by `python scripts/textbook_links_check.py --shots docs/screenshots/textbo
 | 77 | Knowledge Base textbooks with links | Tolu Adeyemi | A search for 'Interaction Design': the CSC 531 topics' recommended textbooks, each with its button (FR5) | [`knowledge-base-book-link.png`](screenshots/textbooks/knowledge-base-book-link.png) |
 | 78 | Textbook reading card with its link | Tolu Adeyemi | The reading card (book, what to read, why), then the button and a line saying what the link is (FR5) | [`reading-card-book-link.png`](screenshots/textbooks/reading-card-book-link.png) |
 
+## Email reminders (4 November)
+
+Taken by `python scripts/email_check.py --shots docs/screenshots/emails` (the dry-run emails, rendered from `ml/outbox/`). Screenshots of the same emails as they arrive in the inbox, from the real test send to TEST_EMAIL_TO, go in `docs/screenshots/emails/inbox/`.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 79 | Email: streak at risk (dry run) | Kemi Balogun, nothing done today | 'A few minutes today starts a streak': the study time, one 'Log a study session' button, the unsubscribe link (FR6) | [`dry-run-streak-at-risk.png`](screenshots/emails/dry-run-streak-at-risk.png) |
+| 80 | Email: daily digest (dry run) | Tolu Adeyemi, after /recommend | Today's unread 'new recommendations' and 'needs attention' notifications in one email, one 'See your recommendations' button (FR6) | [`dry-run-digest.png`](screenshots/emails/dry-run-digest.png) |
+| 81 | Email: weekly summary (dry run) | Tolu Adeyemi | Minutes this week against last week, topics improved with their scores, the next topic to focus on, one button (FR6) | [`dry-run-weekly-summary.png`](screenshots/emails/dry-run-weekly-summary.png) |
+| 82 | Email settings on the Profile page | Tolu Adeyemi | Reminder settings with 'Email me reminders' on and a tick box for each kind (FR6) | [`profile-email-settings.png`](screenshots/emails/profile-email-settings.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |

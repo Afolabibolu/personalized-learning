@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-11-04 17:55 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-11-04 20:12 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 68 of 68 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 75 of 75 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -125,6 +125,18 @@ Run 2026-11-04 17:55 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | B changes a badge's earned date | refused: 42501 permission denied for table student_badges |
 | Pass | A's acknowledge_badges leaves B's badges unseen |  |
 | Pass | Signed-out visitor reads a streak card | refused: 42501 permission denied for function my_gamification |
+
+### Email reminders
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | A reads B's email log | 0 rows |
+| Pass | B reads own email log | 1 row(s |
+| Pass | A writes an email log row | refused: 42501 permission denied for table email_log |
+| Pass | A lists students' email addresses | refused: 42501 permission denied for function email_recipients |
+| Pass | A reads B's topic progress | refused: 42501 permission denied for function topic_progress_for |
+| Pass | A turns own email reminders on | 1 row(s |
+| Pass | A turns B's email reminders on | 0 rows |
 
 ### Profiles and content
 

@@ -313,7 +313,7 @@ def main() -> int:
         if n % 20 == 0:
             print(f"  created {n} simulated students")
 
-    create_user(db, *NEW_STUDENT, DEMO_PASSWORD, False, rng, NEW_PREFERENCES)
+    new_id = create_user(db, *NEW_STUDENT, DEMO_PASSWORD, False, rng, NEW_PREFERENCES)
     active_id = create_user(db, *ACTIVE_STUDENT, DEMO_PASSWORD, False, rng, ACTIVE_PREFERENCES)
     active_history = active_student_history(courses, topics, quizzes, questions, now, rng)
     a, ans, logs = rows_for(active_id, active_history, questions, rng)
@@ -334,6 +334,9 @@ def main() -> int:
     seeded = history_notifications(active_id, active_history, questions, titles)
     if seeded:
         insert(db, "notifications", seeded)
+    # Email reminders on for the demo accounts, so dry runs show all three kinds. Their addresses are on
+    # example.com (reserved, cannot receive mail), and the sender never sends real email there.
+    db.table("profiles").update({"email_reminders": True}).in_("id", [new_id, active_id, diagnostic_id]).execute()
     # Badges the demo histories already earned count as seen, so no pop-up greets the demo login.
     streak = None
     for demo_id in (active_id, diagnostic_id):
