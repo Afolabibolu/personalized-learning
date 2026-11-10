@@ -13,7 +13,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | `/` | Dashboard: weekly summary, recommendations, consistency, progress by topic | FR4, FR6 |
 | `/courses` | My courses (with diagnostic status and Remove), then Browse courses: one card per level (100 to 500) with its course count; a level with no courses says "No courses yet. Request one." | FR2, NFR5 |
 | `/courses/level/:level` | One level's courses, split into First semester and Second semester, with Add to my courses and "Back to all levels" | FR2, NFR5 |
-| `/courses/request` | Request a course: form (code, title, level, semester, lecturer, details) and the student's requests with their status | NFR5 |
+| `/courses/request` | Request a course: form (code, title, level, semester, lecturer, details, up to 5 files) and the student's requests with their status, files and any decline reason | NFR5 |
 | `/courses/:code` | Course page: topics with latest score, quiz history, "Take topic quiz" | FR2 |
 | `/knowledge` | Knowledge Base: a picker (My courses, then one level at a time; opens on My courses), search across every course with the level shown on each, collapsible course sections (own courses open; a search opens every match; Expand all, Collapse all), topics with subtopics, resources grouped by type, live counts | FR5 |
 | `/topics/:id` | Topic page: summary, subtopics, resources, latest score, "Take topic quiz", "Log study session" | FR5 |
@@ -23,6 +23,7 @@ Top nav, in this order: Dashboard, Courses, Knowledge Base, Log study, then on t
 | `/log` | Study logger, with `?topic=` to preselect | FR3 |
 | `/notifications` | Full notifications list, mark as read | FR6 |
 | `/profile` | Profile, badge shelf and reminder settings | FR1, FR6 |
+| `/manage` | Course managers only (10 Nov): Requests (files, in progress / added / declined with a reason), `/manage/courses` (by level, Sample or Reviewed), `/manage/courses/:code` (edit topics, questions, links; mark reviewed), `/manage/history` (the audit trail). The nav shows Manage only to managers; the database refuses everyone else | NFR5 |
 
 ## Components to build or fix
 

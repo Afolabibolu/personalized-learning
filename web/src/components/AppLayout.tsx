@@ -24,6 +24,9 @@ function initials(name: string | null | undefined): string {
 }
 
 export function AppLayout() {
+  const profile = useQuery({ queryKey: ['profile'], queryFn: getProfile })
+  // Course managers also see Manage (the database refuses manager actions from anyone else).
+  const links = profile.data?.role === 'course_manager' ? [...LINKS, { to: '/manage', label: 'Manage', end: false }] : LINKS
   const navigate = useNavigate()
   const location = useLocation()
   const queryClient = useQueryClient()
@@ -48,7 +51,7 @@ export function AppLayout() {
           </NavLink>
 
           <nav className="hidden items-center gap-0.5 md:flex" aria-label="Main">
-            {LINKS.map((l) => (
+            {links.map((l) => (
               <NavLink key={l.to} to={l.to} end={l.end} className={navClass}>
                 {l.label}
               </NavLink>
@@ -76,7 +79,7 @@ export function AppLayout() {
         {menuOpen && (
           <nav className="border-t border-slate-100 px-4 pt-2 pb-3 md:hidden" aria-label="Main">
             <div className="mx-auto grid max-w-4xl gap-1">
-              {LINKS.map((l) => (
+              {links.map((l) => (
                 <NavLink key={l.to} to={l.to} end={l.end} className={navClass}>
                   {l.label}
                 </NavLink>

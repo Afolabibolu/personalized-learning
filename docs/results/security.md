@@ -1,8 +1,8 @@
 # Security: row-level security check (NFR3)
 
-Run 2026-11-04 20:12 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
+Run 2026-11-10 01:21 with `python scripts/rls_check.py --out docs/results/security.md` against the live Supabase project. Two test students (A and B) sign in with the public anon key, the same key the web app uses, and try to read and change each other's data. A signed-out visitor is also tried. The test accounts and test course are deleted at the end.
 
-**Result: 75 of 75 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
+**Result: 84 of 84 checks passed.** "Refused" means the database rejected the request (42501 is Postgres' permission-denied code); "0 rows" means row-level security hid the other student's rows.
 
 ### Sign-up trigger
 
@@ -137,6 +137,20 @@ Run 2026-11-04 20:12 with `python scripts/rls_check.py --out docs/results/securi
 | Pass | A reads B's topic progress | refused: 42501 permission denied for function topic_progress_for |
 | Pass | A turns own email reminders on | 1 row(s |
 | Pass | A turns B's email reminders on | 0 rows |
+
+### Course management
+
+| Result | Check | Detail |
+| --- | --- | --- |
+| Pass | A makes itself a course manager | refused: 42501 permission denied for table profiles |
+| Pass | A lists every course request | refused: 42501 course managers only |
+| Pass | A marks a course reviewed | refused: 42501 course managers only |
+| Pass | A edits a topic through /manage | refused: 42501 course managers only |
+| Pass | A reads the edit history | 0 rows |
+| Pass | A reads B's course request | 0 rows |
+| Pass | A reads B's request file list | 0 rows |
+| Pass | A downloads B's request file | refused: {'statusCode': 404, 'error': not_found, 'message': |
+| Pass | A uploads into B's folder | refused: {'statusCode': 403, 'error': Unauthorized, 'messag |
 
 ### Profiles and content
 

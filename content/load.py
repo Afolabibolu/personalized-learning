@@ -133,6 +133,9 @@ def topic_resources(course_file: str, topic: dict, order: int, links: list[dict]
     return resources
 
 
+MANAGER_ADDED = "Added by a course manager"  # resources.source of links added in /manage
+
+
 def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     """Makes the topic's resources match the course file, matching rows by title.
 
@@ -143,7 +146,9 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
     or dismissed recommendation still points at is kept but taken out of the
     introductory sequence.
     """
-    current = db.table("resources").select("id, title, url").eq("topic_id", topic_id).execute().data
+    current = db.table("resources").select("id, title, url, source").eq("topic_id", topic_id).execute().data
+    # Links a course manager added in /manage are not in the files; leave them alone.
+    current = [r for r in current if r["source"] != MANAGER_ADDED]
     existing = {r["title"]: r["id"] for r in current}
     by_url = {r["url"]: r["id"] for r in current if r["url"]}
     for r in resources:
@@ -168,6 +173,22 @@ def sync_resources(db, topic_id: str, resources: list[dict]) -> None:
             db.table("resources").update({"is_introductory": False, "intro_order": None}).eq("id", stale_id).execute()
         else:
             db.table("resources").delete().eq("id", stale_id).execute()
+
+
+def warn_manager_edits(db, code: str, course_id: str) -> None:
+    """Edits made in /manage to topic titles, summaries, questions and links live only in the database:
+    reloading from the files overwrites them (hidden questions and the reviewed mark are kept). Say so."""
+    topic_ids = [t["id"] for t in db.table("topics").select("id").eq("course_id", course_id).execute().data]
+    question_ids = [q["id"] for q in db.table("questions").select("id").in_("topic_id", topic_ids).execute().data] if topic_ids else []
+    resource_ids = [r["id"] for r in db.table("resources").select("id").in_("topic_id", topic_ids).execute().data] if topic_ids else []
+    edits = db.table("content_audit").select("action, summary").in_(
+        "row_id", topic_ids + question_ids + resource_ids or [course_id]).in_(
+        "action", ["topic.update", "question.update", "resource.update", "resource.add"]).execute().data
+    if edits:
+        print(f"WARNING {code}: {len(edits)} edit(s) made in /manage are overwritten by this reload unless the same "
+              f"fix is in the content files (see docs/how-to-add-a-course.md):")
+        for e in edits[:5]:
+            print(f"    {e['action']}: {e['summary']}")
 
 
 def remove_dropped_topics(db, course_id: str, code: str, slugs: set[str]) -> None:
@@ -205,11 +226,17 @@ def main() -> int:
 
     for path in course_files:
         course = json.loads(path.read_text())
+        # A course a manager marked reviewed in /manage stays reviewed (the file may still say false).
+        existing = db.table("courses").select("id, is_reviewed").eq("code", course["code"]).execute().data
+        reviewed = course.get("is_reviewed", True) or bool(existing and existing[0]["is_reviewed"])
         course_id = db.table("courses").upsert(
             {"code": course["code"], "title": course["title"], "description": course.get("description"),
-             "is_reviewed": course.get("is_reviewed", True), "level": course_level(course), "semester": course["semester"]},
+             "is_reviewed": reviewed, "level": course_level(course), "semester": course["semester"]},
             on_conflict="code",
         ).execute().data[0]["id"]
+        warn_manager_edits(db, course["code"], course_id)
+        hidden = {q["stem"] for q in db.table("questions").select("stem, topics!inner(course_id)")
+                  .eq("topics.course_id", course_id).eq("status", "hidden").execute().data}
 
         topics = course["topics"]
         links_path = CONTENT / "resources" / f"{path.stem}.json"
@@ -235,7 +262,7 @@ def main() -> int:
                 {
                     "topic_id": topic_id, "format": q["format"], "stem": q["stem"], "options": q["options"],
                     "correct_answer": q["correct_answer"], "explanation": q["explanation"],
-                    "source": q["source"], "status": "approved",
+                    "source": q["source"], "status": "hidden" if q["stem"] in hidden else "approved",
                 }
                 for q in questions
             ]

@@ -138,6 +138,20 @@ Taken by `python scripts/email_check.py --shots docs/screenshots/emails` (the dr
 | 81 | Email: weekly summary (dry run) | Tolu Adeyemi | Minutes this week against last week, topics improved with their scores, the next topic to focus on, one button (FR6) | [`dry-run-weekly-summary.png`](screenshots/emails/dry-run-weekly-summary.png) |
 | 82 | Email settings on the Profile page | Tolu Adeyemi | Reminder settings with 'Email me reminders' on and a tick box for each kind (FR6) | [`profile-email-settings.png`](screenshots/emails/profile-email-settings.png) |
 
+## Course management (10 November)
+
+Taken by `python scripts/manage_check.py --shots docs/screenshots/manage` (and `--mobile --shots docs/screenshots/manage/mobile` for phone width), with a temporary student, a temporary course manager and the throwaway test course, all removed afterwards.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 83 | Request a course with files | temporary student (manage_check.py) | The request form filled in, two files chosen (an outline PDF and a past-question photo) with Remove, before sending (NFR5) | [`request-form-with-files.png`](screenshots/manage/request-form-with-files.png) |
+| 84 | The student's request, pending | the same student | 'Request sent', and the request listed as Pending with its two files (NFR5) | [`request-sent.png`](screenshots/manage/request-sent.png) |
+| 85 | Manage: Requests | temporary course manager | The request with the student's name, the details, both files to open, status In progress, and Mark added / Decline (NFR5) | [`manage-requests.png`](screenshots/manage/manage-requests.png) |
+| 86 | Manage: Courses | the course manager | Every course grouped by level (100 to 500), each marked Sample or Reviewed (NFR5) | [`manage-courses.png`](screenshots/manage/manage-courses.png) |
+| 87 | Manage: fixing a course | the course manager | The test course marked Reviewed; a topic open with its title and summary saved, its links (one just added) and its practice questions, one hidden (NFR5) | [`manage-course-editing.png`](screenshots/manage/manage-course-editing.png) |
+| 88 | Manage: Edit history | the course manager | Each edit with the manager's name and time and what changed, from and to (NFR3, NFR5) | [`manage-history.png`](screenshots/manage/manage-history.png) |
+| 89 | A declined request | the student | A second request marked Declined, with the reason the manager gave (NFR5) | [`request-declined.png`](screenshots/manage/request-declined.png) |
+
 ## Figures from files and the terminal
 
 | Source | What | Requirement |

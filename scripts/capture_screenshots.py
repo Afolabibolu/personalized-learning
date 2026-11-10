@@ -310,6 +310,23 @@ EMAILS = [
          "Reminder settings with 'Email me reminders' on and a tick box for each kind (FR6)"),
 ]
 
+MANAGE = [
+    Shot("request-form-with-files.png", "Request a course with files", "temporary student (manage_check.py)",
+         "The request form filled in, two files chosen (an outline PDF and a past-question photo) with Remove, before sending (NFR5)"),
+    Shot("request-sent.png", "The student's request, pending", "the same student",
+         "'Request sent', and the request listed as Pending with its two files (NFR5)"),
+    Shot("manage-requests.png", "Manage: Requests", "temporary course manager",
+         "The request with the student's name, the details, both files to open, status In progress, and Mark added / Decline (NFR5)"),
+    Shot("manage-courses.png", "Manage: Courses", "the course manager",
+         "Every course grouped by level (100 to 500), each marked Sample or Reviewed (NFR5)"),
+    Shot("manage-course-editing.png", "Manage: fixing a course", "the course manager",
+         "The test course marked Reviewed; a topic open with its title and summary saved, its links (one just added) and its practice questions, one hidden (NFR5)"),
+    Shot("manage-history.png", "Manage: Edit history", "the course manager",
+         "Each edit with the manager's name and time and what changed, from and to (NFR3, NFR5)"),
+    Shot("request-declined.png", "A declined request", "the student",
+         "A second request marked Declined, with the reason the manager gave (NFR5)"),
+]
+
 
 def write_checklist() -> None:
     rows = "\n".join(
@@ -378,6 +395,15 @@ def write_checklist() -> None:
         + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/emails/{s.file}) |"
                      for i, s in enumerate(EMAILS, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10)
                                            + len(STAGES) + len(STREAKS) + len(TEXTBOOKS) + 1))
+        + "\n\n"
+        "## Course management (10 November)\n\n"
+        "Taken by `python scripts/manage_check.py --shots docs/screenshots/manage` (and `--mobile --shots "
+        "docs/screenshots/manage/mobile` for phone width), with a temporary student, a temporary course manager and the "
+        "throwaway test course, all removed afterwards.\n\n"
+        "| # | Screen | Account | What should be visible | File |\n| --- | --- | --- | --- | --- |\n"
+        + "\n".join(f"| {i} | {s.screen} | {s.account} | {s.visible} | [`{s.file}`](screenshots/manage/{s.file}) |"
+                     for i, s in enumerate(MANAGE, start=len(CHECKLIST) + len(PHASE7) + len(PHASE9) + len(PHASE10)
+                                           + len(STAGES) + len(STREAKS) + len(TEXTBOOKS) + len(EMAILS) + 1))
         + "\n\n"
         "## Figures from files and the terminal\n\n"
         "| Source | What | Requirement |\n| --- | --- | --- |\n"

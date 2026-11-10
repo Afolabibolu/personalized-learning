@@ -20,6 +20,7 @@ Read the root CLAUDE.md first. This file covers the knowledge base content (FR5)
 - Rebuilding a course with different topics: `load.py` deletes topics that are no longer in the course file, with their resources, quizzes and questions, unless a student has quiz attempts or study logs on them (then it keeps them and prints "KEPT"). CSC 412 was rebuilt this way on 26 Oct.
 - In `links.csv`, a row with lecture `all` is the fallback for that course: any lecture without its own row links to it. Some `all` rows point to a Drive folder, not a single file; label those "Open lecture folder" in the app.
 - `validate.py` must pass before anything is loaded.
+- Course managers fix content in the app at `/manage` (10 Nov). Those fixes live in the database: when you rebuild a course from its files, copy them into the files first. `load.py` keeps hidden questions, links added in /manage (source "Added by a course manager") and a reviewed mark, and warns about the rest. The maintainer's walk-through is `docs/how-to-add-a-course.md`.
 
 ## Course ingestion pipeline (NFR5)
 

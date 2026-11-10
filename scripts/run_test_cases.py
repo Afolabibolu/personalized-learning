@@ -284,6 +284,15 @@ def cases() -> list[Case]:
              "recommendation notifications; a weekly summary; every email logged and written to ml/outbox/, with one "
              "button and an unsubscribe link; nothing sent twice the same day; the link turns email off without logging "
              "in and a bad token is refused; students read only their own log and cannot write it"),
+        Case("TC-29", "NFR5 / NFR3", "Course management: requests with files, /manage and the audit trail",
+             ["As a student: open /manage, change own role, read another student's request files (pytest, rls_check.py)",
+              "As a student: send a request with two files (manage_check.py)",
+              "As a course manager: open the files, mark the request in progress, then added; decline another with a reason",
+              "As a course manager: edit a topic, hide a question, add a link, mark the course reviewed; open Edit history"],
+             "A student is refused by the database (role, manage functions, other students' requests and files, the "
+             "audit trail) and sees 'Course managers only' at /manage; files go to the private bucket under the "
+             "student's folder; the manager does each action, the student sees each status with a notification and "
+             "the decline reason, and every edit writes an audit row with the manager's name"),
     ]
 
 
@@ -343,6 +352,15 @@ def evaluate(case: Case) -> None:
         tests = run("pytest-emails", [str(ROOT / ".venv/bin/pytest"), "tests/test_emails.py", "-q", "-W", "ignore"], cwd=ROOT / "ml")
         case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
                              "  pytest test_emails.py (due times in Lagos time, tokens, content): " + tail(tests, r"passed|failed"))
+    elif case.id == "TC-29":
+        case.evidence = lines(run("manage", py + ["scripts/manage_check.py"]), "")
+        tests = run("pytest-manage", [str(ROOT / ".venv/bin/pytest"), "scripts/test_course_management.py", "-q", "-p",
+                                      "no:cacheprovider", "-W", "ignore"])
+        case.evidence.append(("PASS" if " passed" in tests and "failed" not in tests else "FAIL") +
+                             "  pytest test_course_management.py (roles, files, every manager action and its audit row): "
+                             + tail(tests, r"passed|failed"))
+        case.evidence += lines(run("rls", py + ["scripts/rls_check.py"]), "course manager", "request", "edit history",
+                               "reviewed", "through /manage")
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]
@@ -458,6 +476,7 @@ def write_report(all_cases: list[Case]) -> None:
         "after a reset); it now refreshes them once before the timed dashboard loads. One run had TC-24 with no check output "
         "(phase10_check.py stopped before its course-request section, cause not found; it passed in every later run, and a "
         "crash in either section is now reported as a failed check with the error).\n"
+        "- Runs on 10 Nov 2026 (course management; TC-29 added): the first run had TC-27 fail because O'Reilly's pages for two textbooks (Géron 3rd ed., Nixon 6th ed.) now answer automated checks with Access Denied; both were moved to their confirmed Google Books pages. The second run had TC-23 fail on five YouTube oEmbed checks that timed out on an unstable connection; all five answered 200 straight after. The third run, recorded above: 28 pass, 1 partial (TC-12), 0 fail.\n"
         "- Run on 4 Nov 2026 (textbook links; TC-27 added): 26 pass, 1 partial (TC-12), 0 fail, first time.\n"
         "- Run on 4 Nov 2026 (streaks, XP, freezes and badges; TC-26 added): 25 pass, 1 partial (TC-12), 0 fail, first time.\n"
         "- Runs on 3 Nov 2026 (three recommendation stages, TC-07 updated, TC-25 added): the first run had TC-16 and TC-23 fail. TC-16's throwaway test course had no `semester`, which course files need since 1 Nov (a test fault; the test now sets level and semester), and TC-23 found 8 topics in MAT 241, PHY 104 and STA 202 without a textbook card, which were added. The second run had TC-12 fail at phone width with no check output (phase3_check.py --mobile stopped before its summary); run on its own straight after it passed 10/10, and the third run, recorded above, passed.\n\n"

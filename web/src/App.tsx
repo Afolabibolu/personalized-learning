@@ -10,6 +10,7 @@ import { RequestCoursePage } from './pages/RequestCoursePage'
 import { DashboardPage } from './pages/DashboardPage'
 import { KnowledgeBasePage } from './pages/KnowledgeBasePage'
 import { LogStudyPage } from './pages/LogStudyPage'
+import { ManageCoursePage, ManageCoursesPage, ManageHistoryPage, ManageLayout, ManageRequestsPage } from './pages/ManagePages'
 import { NotificationsPage } from './pages/NotificationsPage'
 import { OnboardingPage } from './pages/OnboardingPage'
 import { ProfilePage } from './pages/ProfilePage'
@@ -50,6 +51,12 @@ export default function App() {
             <Route path="/log" element={<LogStudyPage />} />
             <Route path="/notifications" element={<NotificationsPage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/manage" element={<ManageLayout />}>
+              <Route index element={<ManageRequestsPage />} />
+              <Route path="courses" element={<ManageCoursesPage />} />
+              <Route path="courses/:code" element={<ManageCoursePage />} />
+              <Route path="history" element={<ManageHistoryPage />} />
+            </Route>
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

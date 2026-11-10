@@ -22,6 +22,8 @@ export type Profile = {
   email_streak: boolean
   email_digest: boolean
   email_weekly: boolean
+  /** Set in the database only (scripts/set_role.py); students cannot change it. */
+  role: 'student' | 'course_manager'
 }
 
 export type Course = {

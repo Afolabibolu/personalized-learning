@@ -220,6 +220,33 @@ def main() -> int:
         refused("A turns B's email reminders on", lambda: a.table("profiles").update(
             {"email_reminders": True}).eq("id", b_id).execute())
 
+        print("\n-- Course management")
+        refused("A makes itself a course manager", lambda: a.table("profiles").update({"role": "course_manager"}).eq("id", a_id).execute())
+        refused("A lists every course request", lambda: a.rpc("manage_requests").execute())
+        refused("A marks a course reviewed", lambda: a.rpc("manage_set_course_reviewed", {"p_course": fx.course_id, "p_reviewed": True}).execute())
+        refused("A edits a topic through /manage", lambda: a.rpc("manage_update_topic", {
+            "p_topic": fx.topic_ids["alpha"], "p_title": "x", "p_summary": "x"}).execute())
+        refused("A reads the edit history", lambda: a.table("content_audit").select("id").execute())
+        b_request = str(__import__("uuid").uuid4())
+        b.table("course_requests").insert({"id": b_request, "student_id": b_id, "code": "RLS 101", "title": "B's request"}).execute()
+        b_path = f"{b_id}/{b_request}/outline.pdf"
+        b.storage.from_("course-request-files").upload(b_path, b"%PDF-1.4\n", {"content-type": "application/pdf"})
+        b.table("course_request_files").insert({"request_id": b_request, "student_id": b_id, "path": b_path, "name": "outline.pdf",
+                                                "size_bytes": 9, "content_type": "application/pdf"}).execute()
+        refused("A reads B's course request", lambda: a.table("course_requests").select("id").eq("id", b_request).execute())
+        refused("A reads B's request file list", lambda: a.table("course_request_files").select("id").eq("request_id", b_request).execute())
+        try:
+            a.storage.from_("course-request-files").download(b_path)
+            check("A downloads B's request file", False, "downloaded")
+        except Exception as e:
+            check("A downloads B's request file", True, f"refused: {str(e)[:50]}")
+        try:
+            a.storage.from_("course-request-files").upload(f"{b_id}/{b_request}/x.pdf", b"%PDF", {"content-type": "application/pdf"})
+            check("A uploads into B's folder", False, "uploaded")
+        except Exception as e:
+            check("A uploads into B's folder", True, f"refused: {str(e)[:50]}")
+        db.storage.from_("course-request-files").remove([b_path])
+
         print("\n-- Profiles and content")
         refused("A sets is_simulated on own profile", lambda: a.table("profiles").update(
             {"is_simulated": True}).eq("id", a_id).execute())
