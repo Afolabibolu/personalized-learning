@@ -305,10 +305,10 @@ Notes
 **Actual:** 4 of 4 checks passed. **Result: Pass**
 
 ```
-    PASS  quiz_submit_api: median 0.18 s, p95 0.21 s, target 1.0 s (20 runs, 2026-10-27 07:41)
-    PASS  quiz_submit_ui: median 0.33 s, p95 0.35 s, target 2.0 s (20 runs, 2026-10-27 07:41)
-    PASS  dashboard_load_ui: median 0.84 s, p95 1.36 s, target 3.0 s (20 runs, 2026-10-27 07:41)
-    PASS  recommend_api: median 2.73 s, p95 2.97 s, target 5.0 s (20 runs, 2026-10-27 07:41)
+    PASS  quiz_submit_api: median 0.19 s, p95 0.21 s, target 1.0 s (20 runs, 2026-11-10 13:36)
+    PASS  quiz_submit_ui: median 0.32 s, p95 0.84 s, target 2.0 s (20 runs, 2026-11-10 13:36)
+    PASS  dashboard_load_ui: median 1.11 s, p95 1.34 s, target 3.0 s (20 runs, 2026-11-10 13:36)
+    PASS  recommend_api: median 4.20 s, p95 4.40 s, target 5.0 s (20 runs, 2026-11-10 13:36)
 ```
 
 ### TC-14 · NFR3 · Security: row-level security

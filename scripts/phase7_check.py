@@ -319,7 +319,10 @@ def fr6(browser, shot: Shots) -> None:
     expect(page.get_by_test_id("notification-bell")).to_be_visible()
     page.get_by_test_id("notification-bell").click()
     overflow = page.evaluate("document.documentElement.scrollWidth > window.innerWidth")
-    check("phone width: bell stays visible and its list fits", page.get_by_test_id("notification-panel").is_visible() and not overflow)
+    box = page.get_by_test_id("notification-panel").bounding_box()
+    inside = box is not None and box["x"] >= 0 and box["x"] + box["width"] <= PHONE["width"]
+    check("phone width: bell stays visible and its list fits", page.get_by_test_id("notification-panel").is_visible() and not overflow and inside,
+          f"panel x={box and round(box['x'])}, width={box and round(box['width'])}")
     shot(page, "fr6-06-phone-bell.png")
     page.close()
 

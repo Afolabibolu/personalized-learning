@@ -97,7 +97,7 @@ export function NotificationBell() {
       </button>
 
       {panelOpen && (
-        <div className="absolute right-0 z-20 mt-2 w-[min(22rem,calc(100vw-2rem))] rounded-2xl bg-white p-2 shadow-lg ring-1 ring-slate-200" data-testid="notification-panel">
+        <div className="fixed inset-x-4 top-14 z-20 rounded-2xl sm:absolute sm:inset-x-auto sm:right-0 sm:top-auto sm:mt-2 sm:w-[22rem] bg-white p-2 shadow-lg ring-1 ring-slate-200" data-testid="notification-panel">
           <div className="flex items-center justify-between px-3 py-2">
             <p className="text-sm font-semibold">Notifications</p>
             {unread.length > 0 && (
