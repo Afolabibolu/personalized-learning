@@ -36,5 +36,6 @@ Read the root CLAUDE.md first. This file adds the rules for the database only.
 ## Demo data
 
 - The demo accounts get realistic names (Tolu Adeyemi for the active student, Kemi Balogun for the new student, Ngozi Eze for the Stage 2 student), department Computer Science, level 500, and reminder settings filled in.
-- The three demo accounts have email reminders on (their addresses are on example.com, so they only ever get dry runs).
+- Bisi Adewale (11 Nov) is level 200 and enrolled only in COS 103, CSC 236, CSC 351 and CSC 472 (`seed_demo.py` removes the reviewed courses the sign-up trigger gave her), one course per stage.
+- The four demo accounts have email reminders on (their addresses are on example.com, so they only ever get dry runs).
 - Seed a few read and unread notifications for the active demo account so the bell shows a count in screenshots.

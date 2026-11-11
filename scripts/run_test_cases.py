@@ -293,6 +293,13 @@ def cases() -> list[Case]:
              "audit trail) and sees 'Course managers only' at /manage; files go to the private bucket under the "
              "student's folder; the manager does each action, the student sees each status with a notification and "
              "the decline reason, and every edit writes an audit row with the manager's name"),
+        Case("TC-30", "FR2 / FR4 / FR5", "Courses below 500 level: one student across all three stages",
+             ["python scripts/seed_demo.py --demo-only (Bisi Adewale, 200 level: COS 103, CSC 236, CSC 351, CSC 472)",
+              "python scripts/levels_check.py: stages in the database, POST /recommend as Bisi, then her dashboard, "
+              "Knowledge Base, topic, note, past questions, results and quiz in Chrome"],
+             "CSC 236 (diagnostic and two topic quizzes) gets ML recommendations, its weak, never-studied topic first; "
+             "CSC 472 (diagnostic only) gets 'Based on your diagnostic', lowest score first; COS 103 and CSC 351 get "
+             "'Getting started'; the content of all four levels opens in the app, and the dashboard fits a phone"),
     ]
 
 
@@ -361,6 +368,8 @@ def evaluate(case: Case) -> None:
                              + tail(tests, r"passed|failed"))
         case.evidence += lines(run("rls", py + ["scripts/rls_check.py"]), "course manager", "request", "edit history",
                                "reviewed", "through /manage")
+    elif case.id == "TC-30":
+        case.evidence = lines(run("levels", py + ["scripts/levels_check.py"]), "")
     elif case.id == "TC-08":
         md = (ROOT / "ml/results/metrics.md").read_text()
         cv_section = md.split("## 5-fold")[1].split("##")[0]

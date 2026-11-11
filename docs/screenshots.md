@@ -2,7 +2,7 @@
 
 In capture order. All app screenshots are taken by `python scripts/capture_screenshots.py` (laptop 1280 px wide unless stated) and saved in `docs/screenshots/`. Before capturing by hand, reset the demo accounts with `python scripts/seed_demo.py --demo-only`.
 
-Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, Stage 2 student `diagnostic.student@demo.example.com`, Active Student `active.student@demo.example.com`.
+Demo logins (password `DemoPass2026!`): New Student `new.student@demo.example.com`, Stage 2 student `diagnostic.student@demo.example.com`, Active Student `active.student@demo.example.com`, 200-level student Bisi Adewale `bisi.student@demo.example.com`.
 
 | # | Screen | Account | What should be visible | File |
 | --- | --- | --- | --- | --- |
@@ -151,6 +151,23 @@ Taken by `python scripts/manage_check.py --shots docs/screenshots/manage` (and `
 | 87 | Manage: fixing a course | the course manager | The test course marked Reviewed; a topic open with its title and summary saved, its links (one just added) and its practice questions, one hidden (NFR5) | [`manage-course-editing.png`](screenshots/manage/manage-course-editing.png) |
 | 88 | Manage: Edit history | the course manager | Each edit with the manager's name and time and what changed, from and to (NFR3, NFR5) | [`manage-history.png`](screenshots/manage/manage-history.png) |
 | 89 | A declined request | the student | A second request marked Declined, with the reason the manager gave (NFR5) | [`request-declined.png`](screenshots/manage/request-declined.png) |
+
+## Courses below 500 level (11 November)
+
+Taken by `python scripts/levels_check.py` (saves to `docs/screenshots/levels/`, laptop 1280 px unless stated) as Bisi Adewale, 200 level, on COS 103, CSC 236, CSC 351 and CSC 472. Run `python scripts/seed_demo.py --demo-only` first.
+
+| # | Screen | Account | What should be visible | File |
+| --- | --- | --- | --- | --- |
+| 90 | Knowledge Base, 100 level | Bisi Adewale | The 100 level picked; COS 103 Introduction to Programming expanded with its topics, subtopics and resources (FR5) | [`kb-100-level.png`](screenshots/levels/kb-100-level.png) |
+| 91 | A 100-level topic page | Bisi Adewale | COS 103 Loops: summary, sample badge, Take topic quiz, Log study session, its note, past questions, video and textbook (FR5) | [`topic-cos103.png`](screenshots/levels/topic-cos103.png) |
+| 92 | A 300-level study note | Bisi Adewale | CSC 351 Deterministic Finite Automata study note in the resource viewer (FR5) | [`note-csc351.png`](screenshots/levels/note-csc351.png) |
+| 93 | 400-level past questions | Bisi Adewale | CSC 472 SQL past questions from the 2022/23 paper, with its source line (FR5) | [`pastq-csc472.png`](screenshots/levels/pastq-csc472.png) |
+| 94 | A 200-level diagnostic result | Bisi Adewale | CSC 236 diagnostic: 14 of 21, and a score per topic, Recurrences and the Master Theorem 0/3 (FR2) | [`diagnostic-csc236.png`](screenshots/levels/diagnostic-csc236.png) |
+| 95 | A 400-level quiz question | Bisi Adewale | CSC 472 SQL topic quiz, a multiple-answer question with the progress bar (FR2) | [`quiz-csc472.png`](screenshots/levels/quiz-csc472.png) |
+| 96 | Dashboard with all three stages | Bisi Adewale | Take-the-diagnostic cards for COS 103 and CSC 351; CSC 236 ML items (Needs attention, Keep it up); CSC 472 'Based on your diagnostic'; COS 103 and CSC 351 'Getting started' (FR4) | [`dashboard-bisi.png`](screenshots/levels/dashboard-bisi.png) |
+| 97 | Why this? on a 200-level ML card | Bisi Adewale | Recurrences and the Master Theorem: Logistic Regression 95%, Random Forest 86%, average 91%, and what drove it (FR4) | [`why-this-csc236.png`](screenshots/levels/why-this-csc236.png) |
+| 98 | Progress chart, CSC 236 | Bisi Adewale | CSC 236 picked in the course dropdown; Recurrences in red at 20%, Quicksort and Merge Sort at 80% (FR6) | [`progress-csc236.png`](screenshots/levels/progress-csc236.png) |
+| 99 | Bisi's dashboard on a phone (390 px) | Bisi Adewale | The same dashboard at phone width, no sideways scroll (NFR1) | [`phone-dashboard-bisi.png`](screenshots/levels/phone-dashboard-bisi.png) |
 
 ## Figures from files and the terminal
 

@@ -1,7 +1,7 @@
 """Creates the simulated students and the three demo accounts.
 
     python scripts/seed_demo.py [--students N] [--seed N]   (defaults from the simulation config)
-    python scripts/seed_demo.py --demo-only    # reset just the three demo accounts
+    python scripts/seed_demo.py --demo-only    # reset just the four demo accounts
 
 Run after content/load.py (simulated answers point to real questions). Uses
 the service role key from scripts/.env. Every user is created through the
@@ -14,9 +14,12 @@ Supabase admin API, so each has a real auth user and profile row.
   - "New Student": no activity, to show cold start.
   - "Active Student": a history where one topic per course is clearly weak,
     to show ML recommendations.
+  - "Diagnostic Student": one CSC 531 diagnostic (Stage 2).
+  - Bisi Adewale (200 level): four sample courses below 500 level, one per stage
+    level, so the screenshots show the system beyond CSC 531 and CSC 574.
 
 Running it again deletes everything it created before and starts over.
---demo-only resets only the two demo accounts (for example after trying them
+--demo-only resets only the demo accounts (for example after trying them
 out before a presentation) and leaves the simulated students alone.
 """
 
@@ -69,6 +72,28 @@ ACTIVE_PREFERENCES = ["note", "past_questions"]
 STUDY_TYPES = ["note", "lecture", "past_questions", "video"]
 # The Active Student's clearly weak topic in each course (by slug).
 WEAK_TOPICS = {"CSC 531": "cognitive-psychology", "CSC 574": "fuzzy-logic"}
+# Bisi Adewale, 200 level, on four sample courses below 500 level (11 Nov). Her history ends with
+# CSC 236 at Stage 3 (diagnostic plus two topic quizzes), CSC 472 at Stage 2 (diagnostic only),
+# and COS 103 and CSC 351 at Stage 1. Her own random generator, so the other demo accounts are unchanged.
+LEVELS_STUDENT = ("Bisi Adewale", f"bisi.student@{DEMO_DOMAIN}")
+LEVELS_LEVEL = 200
+LEVELS_PREFERENCES = ["past_questions", "video"]
+LEVELS_COURSES = ["COS 103", "CSC 236", "CSC 351", "CSC 472"]
+# Right answers out of 3 per topic in each diagnostic, by slug.
+LEVELS_DIAGNOSTICS = {
+    "CSC 236": (9, {"algorithms-and-their-types": 3, "recursion-and-problem-solving": 2, "elementary-sorting": 3,
+                    "quicksort-and-merge-sort": 1, "searching": 3, "analysis-and-asymptotic-notation": 2,
+                    "recurrences-and-master-theorem": 0}),
+    "CSC 472": (3, {"introduction-to-database-systems": 3, "er-modelling": 2, "advanced-er-design": 1,
+                    "relational-model-and-algebra": 2, "sql": 3, "normalization-and-physical-design": 0,
+                    "transactions-concurrency-and-recovery": 1}),
+}
+# (course, topic slug, days ago, right out of 5): she studied quicksort and merge sort and improved;
+# recurrences and the master theorem stays weak and never studied.
+LEVELS_TOPIC_QUIZZES = [("CSC 236", "quicksort-and-merge-sort", 5, 4), ("CSC 236", "recurrences-and-master-theorem", 4, 1)]
+# (course, topic slug, days ago, minutes, activity type)
+LEVELS_STUDY = [("CSC 236", "quicksort-and-merge-sort", 7, 45, "reading"), ("CSC 236", "quicksort-and-merge-sort", 6, 30, "practice"),
+                ("CSC 236", "recursion-and-problem-solving", 2, 25, "video"), ("CSC 472", "er-modelling", 1, 40, "practice")]
 BATCH = 500
 
 
@@ -108,7 +133,7 @@ def load_content(db: Client):
 
 
 def create_user(db: Client, name: str, email: str, password: str, simulated: bool, rng: random.Random,
-                preferences: list[str] | None = None) -> str:
+                preferences: list[str] | None = None, level: int = 500) -> str:
     user = db.auth.admin.create_user({
         "email": email,
         "password": password,
@@ -121,7 +146,7 @@ def create_user(db: Client, name: str, email: str, password: str, simulated: boo
     db.table("profiles").update({
         "is_simulated": simulated,
         "department": "Computer Science",
-        "level": 500,
+        "level": level,
         "learning_preferences": preferences or rng.sample(STUDY_TYPES, k=rng.randint(1, 3)),
     }).eq("id", user.id).execute()
     return user.id
@@ -273,11 +298,49 @@ def diagnostic_student_history(courses, topics, quizzes, questions, now: datetim
     return student
 
 
+def levels_student_history(db: Client, now: datetime, rng: random.Random) -> tuple[list[str], dict, SimStudent]:
+    """Bisi's courses, their questions and her history (LEVELS_*), at 19:00 Lagos time on each day."""
+    courses = db.table("courses").select("id, code").in_("code", LEVELS_COURSES).execute().data
+    if len(courses) != len(LEVELS_COURSES):
+        raise SystemExit(f"Bisi's courses are not all loaded ({len(courses)} of {LEVELS_COURSES}). Run content/load.py first.")
+    course_id = {c["code"]: c["id"] for c in courses}
+    topics = db.table("topics").select("id, course_id, slug").in_("course_id", list(course_id.values())).execute().data
+    topic_id = {(c, t["slug"]): t["id"] for c, cid in course_id.items() for t in topics if t["course_id"] == cid}
+    quizzes = db.table("quizzes").select("id, course_id, topic_id, kind").in_("course_id", list(course_id.values())).execute().data
+    diag = {q["course_id"]: q["id"] for q in quizzes if q["kind"] == "diagnostic"}
+    topic_quiz = {q["topic_id"]: q["id"] for q in quizzes if q["kind"] == "topic"}
+    questions = {q["id"]: q for q in db.table("questions").select("id, topic_id, options, correct_answer").eq("status", "approved")
+                 .in_("topic_id", [t["id"] for t in topics]).execute().data}
+    pool: dict[str, list[str]] = {}
+    for q in sorted(questions.values(), key=lambda q: q["id"]):
+        pool.setdefault(q["topic_id"], []).append(q["id"])
+    today = now.astimezone(LAGOS).date()
+
+    def at(days_ago: int) -> datetime:
+        return datetime.combine(today - timedelta(days=days_ago), datetime.min.time(), LAGOS).replace(hour=19)
+
+    def picks(tid: str, n: int, right: int) -> list[tuple[str, bool]]:
+        return [(q, i < right) for i, q in enumerate(rng.sample(pool[tid], n))]
+
+    student = SimStudent()
+    for code, (days_ago, right) in LEVELS_DIAGNOSTICS.items():
+        answers = [a for slug, r in right.items() for a in picks(topic_id[(code, slug)], 3, r)]
+        student.attempts.append(SimAttempt(str(uuid.uuid4()), diag[course_id[code]], at(days_ago), at(days_ago) + timedelta(minutes=14), answers))
+    for code, slug, days_ago, right in LEVELS_TOPIC_QUIZZES:
+        tid = topic_id[(code, slug)]
+        student.attempts.append(SimAttempt(str(uuid.uuid4()), topic_quiz[tid], at(days_ago), at(days_ago) + timedelta(minutes=7),
+                                           picks(tid, 5, right)))
+    for code, slug, days_ago, minutes, kind in LEVELS_STUDY:
+        student.logs.append(SimStudyLog(topic_id[(code, slug)], minutes, kind, at(days_ago) - timedelta(minutes=minutes)))
+    student.attempts.sort(key=lambda a: a.started_at)
+    return list(course_id.values()), questions, student
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--students", type=int, default=CONFIG.students)
     parser.add_argument("--seed", type=int, default=CONFIG.seed)
-    parser.add_argument("--demo-only", action="store_true", help="reset only the three demo accounts")
+    parser.add_argument("--demo-only", action="store_true", help="reset only the demo accounts")
     args = parser.parse_args()
 
     db = admin()
@@ -327,6 +390,17 @@ def main() -> int:
     all_answers += ans
     all_logs += logs
 
+    # Bisi: only her four courses (the sign-up trigger enrolled her in the reviewed ones).
+    levels_rng = random.Random(args.seed + 236)
+    levels_id = create_user(db, *LEVELS_STUDENT, DEMO_PASSWORD, False, levels_rng, LEVELS_PREFERENCES, level=LEVELS_LEVEL)
+    levels_courses, levels_questions, levels_history = levels_student_history(db, now, levels_rng)
+    db.table("enrollments").delete().eq("student_id", levels_id).execute()
+    db.table("enrollments").insert([{"student_id": levels_id, "course_id": c} for c in levels_courses]).execute()
+    a, ans, logs = rows_for(levels_id, levels_history, levels_questions, levels_rng)
+    all_attempts += a
+    all_answers += ans
+    all_logs += logs
+
     insert(db, "quiz_attempts", all_attempts)
     insert(db, "attempt_answers", all_answers)
     insert(db, "study_logs", all_logs)
@@ -336,10 +410,10 @@ def main() -> int:
         insert(db, "notifications", seeded)
     # Email reminders on for the demo accounts, so dry runs show all three kinds. Their addresses are on
     # example.com (reserved, cannot receive mail), and the sender never sends real email there.
-    db.table("profiles").update({"email_reminders": True}).in_("id", [new_id, active_id, diagnostic_id]).execute()
+    db.table("profiles").update({"email_reminders": True}).in_("id", [new_id, active_id, diagnostic_id, levels_id]).execute()
     # Badges the demo histories already earned count as seen, so no pop-up greets the demo login.
     streak = None
-    for demo_id in (active_id, diagnostic_id):
+    for demo_id in (active_id, diagnostic_id, levels_id):
         card = db.rpc("sync_student_badges", {"p_student": demo_id}).execute().data
         db.table("student_badges").update({"seen_at": now.isoformat()}).eq("student_id", demo_id).execute()
         streak = streak or card
@@ -356,11 +430,13 @@ def main() -> int:
           f"{streak['daily_goal_minutes']} minutes today, {streak['freezes']} freeze(s), {streak['xp_week']} XP this week, "
           f"{len(streak['badges'])} badges")
     print("Weak topics for the Active Student: " + ", ".join(f"{c} {s}" for c, s in WEAK_TOPICS.items()))
-    print("\nDemo logins (password for all three: " + DEMO_PASSWORD + ")")
+    print("\nDemo logins (password for all four: " + DEMO_PASSWORD + ")")
     print(f"  {NEW_STUDENT[0]:15} {NEW_STUDENT[1]}    no activity -> cold start (prefers lecture slides, videos)")
     print(f"  {ACTIVE_STUDENT[0]:15} {ACTIVE_STUDENT[1]} weak topics -> ML recommendations (prefers notes, practice questions)")
     print(f"  {DIAGNOSTIC_STUDENT[0]:15} {DIAGNOSTIC_STUDENT[1]} CSC 531 diagnostic only -> Stage 2 for CSC 531, "
           "Stage 1 for CSC 574 (prefers notes, videos)")
+    print(f"  {LEVELS_STUDENT[0]:15} {LEVELS_STUDENT[1]}     200 level: CSC 236 Stage 3, CSC 472 Stage 2, COS 103 and CSC 351 "
+          "Stage 1 (prefers past questions, videos)")
     return 0
 
 
