@@ -1,0 +1,961 @@
+student,habit,course_code,topic_title,mean_score,last_score,attempt_count,session_count,total_minutes,days_since_last_studied,label_score,requires_attention
+1,rare,CSC 531,"HCI, Interactive Systems and Usability",61.6675,80.0,4,2,113.0,11.3657,100.0,0
+1,rare,CSC 531,Understanding the Problem Space and User-Centred Design,24.4433,40.0,3,2,97.0,2.553,20.0,1
+1,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",40.0,0.0,3,1,31.0,1.4022,60.0,0
+1,rare,CSC 531,Data Gathering and Data Analysis,61.6675,80.0,4,3,111.0,9.2335,0.0,1
+1,rare,CSC 531,Cognitive Psychology and Perception,30.0,40.0,4,2,71.0,1.4021,20.0,1
+1,rare,CSC 531,"Prototyping, Design Principles and Evaluation",26.666,40.0,5,5,178.0,1.1817,40.0,1
+1,rare,CSC 574,Introduction to Intelligent Systems and Agents,20.0,60.0,3,1,42.0,9.1743,0.0,1
+1,rare,CSC 574,Problem Solving and Search,100.0,100.0,4,2,105.0,16.2642,80.0,0
+1,rare,CSC 574,Knowledge Representation and Reasoning,32.2217,0.0,6,3,149.0,17.2825,60.0,0
+1,rare,CSC 574,Expert Systems,24.0,40.0,5,0,0.0,60.0,40.0,1
+1,rare,CSC 574,Fuzzy Logic Systems,63.3325,100.0,4,3,120.0,15.3057,80.0,0
+1,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",81.6675,100.0,4,5,183.0,6.3149,40.0,1
+2,rare,CSC 531,"HCI, Interactive Systems and Usability",24.0,60.0,5,3,118.0,17.1396,0.0,1
+2,rare,CSC 531,Understanding the Problem Space and User-Centred Design,13.3325,0.0,4,2,56.0,22.4275,0.0,1
+2,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",26.6667,40.0,3,1,51.0,22.3155,20.0,1
+2,rare,CSC 531,Data Gathering and Data Analysis,4.0,0.0,5,1,53.0,6.2602,0.0,1
+2,rare,CSC 531,Cognitive Psychology and Perception,6.6667,20.0,3,2,90.0,24.2218,0.0,1
+2,rare,CSC 531,"Prototyping, Design Principles and Evaluation",0.0,0.0,4,4,153.0,10.3782,0.0,1
+2,rare,CSC 574,Introduction to Intelligent Systems and Agents,6.6667,20.0,3,3,139.0,15.424,60.0,0
+2,rare,CSC 574,Problem Solving and Search,28.0,40.0,5,3,117.0,3.1413,0.0,1
+2,rare,CSC 574,Knowledge Representation and Reasoning,6.6667,20.0,6,4,183.0,2.1322,0.0,1
+2,rare,CSC 574,Expert Systems,20.0,20.0,5,2,51.0,24.3746,40.0,1
+2,rare,CSC 574,Fuzzy Logic Systems,23.3325,40.0,4,2,48.0,7.16,20.0,1
+2,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",13.3325,0.0,4,2,73.0,0.4529,40.0,1
+3,crammer,CSC 531,"HCI, Interactive Systems and Usability",76.6675,60.0,4,8,765.0,2.2211,100.0,0
+3,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,54.666,80.0,5,10,742.0,1.2347,60.0,0
+3,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",100.0,100.0,2,5,481.0,1.2368,80.0,0
+3,crammer,CSC 531,Data Gathering and Data Analysis,65.334,100.0,5,8,568.0,2.1857,60.0,0
+3,crammer,CSC 531,Cognitive Psychology and Perception,52.2217,60.0,6,11,867.0,1.398,100.0,0
+3,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",43.3325,80.0,4,8,726.0,1.3211,60.0,0
+3,crammer,CSC 574,Introduction to Intelligent Systems and Agents,50.0,20.0,6,8,761.0,1.3449,20.0,1
+3,crammer,CSC 574,Problem Solving and Search,85.334,80.0,5,9,769.0,1.1215,100.0,0
+3,crammer,CSC 574,Knowledge Representation and Reasoning,46.666,20.0,5,9,678.0,0.357,60.0,0
+3,crammer,CSC 574,Expert Systems,55.0,80.0,4,6,477.0,1.4485,60.0,0
+3,crammer,CSC 574,Fuzzy Logic Systems,40.0,100.0,4,9,669.0,1.2185,80.0,0
+3,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",83.3333,80.0,6,12,1015.0,0.4168,100.0,0
+4,crammer,CSC 531,"HCI, Interactive Systems and Usability",65.0,100.0,4,5,459.0,1.1628,40.0,1
+4,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,43.3325,80.0,4,7,518.0,2.4522,60.0,0
+4,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",65.334,100.0,5,7,508.0,1.2986,100.0,0
+4,crammer,CSC 531,Data Gathering and Data Analysis,66.6675,40.0,4,11,1028.0,0.2259,100.0,0
+4,crammer,CSC 531,Cognitive Psychology and Perception,70.666,80.0,5,10,770.0,1.2192,80.0,0
+4,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",70.0,20.0,4,5,473.0,1.3412,80.0,0
+4,crammer,CSC 574,Introduction to Intelligent Systems and Agents,70.666,100.0,5,11,910.0,1.2049,60.0,0
+4,crammer,CSC 574,Problem Solving and Search,85.0,100.0,4,8,564.0,1.1898,100.0,0
+4,crammer,CSC 574,Knowledge Representation and Reasoning,63.3325,60.0,4,9,683.0,2.3457,100.0,0
+4,crammer,CSC 574,Expert Systems,50.0,100.0,4,6,482.0,2.355,100.0,0
+4,crammer,CSC 574,Fuzzy Logic Systems,70.666,100.0,5,9,769.0,1.2443,80.0,0
+4,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",30.666,20.0,5,9,811.0,1.4699,60.0,0
+5,crammer,CSC 531,"HCI, Interactive Systems and Usability",95.0,100.0,4,7,595.0,2.096,100.0,0
+5,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,71.6675,100.0,4,8,683.0,1.4216,80.0,0
+5,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",96.6667,80.0,6,12,931.0,1.2831,100.0,0
+5,crammer,CSC 531,Data Gathering and Data Analysis,96.0,100.0,5,8,687.0,1.331,80.0,0
+5,crammer,CSC 531,Cognitive Psychology and Perception,84.445,80.0,6,9,642.0,1.4794,100.0,0
+5,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",100.0,100.0,4,8,720.0,1.3028,100.0,0
+5,crammer,CSC 574,Introduction to Intelligent Systems and Agents,96.0,100.0,5,8,602.0,1.2057,100.0,0
+5,crammer,CSC 574,Problem Solving and Search,90.0,80.0,4,10,831.0,1.4639,100.0,0
+5,crammer,CSC 574,Knowledge Representation and Reasoning,84.0,100.0,5,9,685.0,1.3812,100.0,0
+5,crammer,CSC 574,Expert Systems,100.0,100.0,4,10,857.0,1.4509,100.0,0
+5,crammer,CSC 574,Fuzzy Logic Systems,82.2217,100.0,6,8,726.0,1.2452,80.0,0
+5,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",77.334,100.0,5,9,755.0,2.3375,80.0,0
+6,steady,CSC 531,"HCI, Interactive Systems and Usability",48.3325,100.0,4,6,136.0,1.2836,20.0,1
+6,steady,CSC 531,Understanding the Problem Space and User-Centred Design,8.0,20.0,5,4,98.0,14.3536,0.0,1
+6,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",30.666,20.0,5,12,283.0,0.2013,40.0,1
+6,steady,CSC 531,Data Gathering and Data Analysis,28.0,60.0,5,8,176.0,2.1066,60.0,0
+6,steady,CSC 531,Cognitive Psychology and Perception,23.3325,20.0,4,8,179.0,2.2006,40.0,1
+6,steady,CSC 531,"Prototyping, Design Principles and Evaluation",6.666,0.0,5,13,297.0,0.4897,20.0,1
+6,steady,CSC 574,Introduction to Intelligent Systems and Agents,20.0,60.0,4,9,223.0,3.243,40.0,1
+6,steady,CSC 574,Problem Solving and Search,68.3325,80.0,4,12,287.0,0.2198,20.0,1
+6,steady,CSC 574,Knowledge Representation and Reasoning,15.0,0.0,4,3,75.0,1.4571,20.0,1
+6,steady,CSC 574,Expert Systems,4.0,0.0,5,3,58.0,21.3125,0.0,1
+6,steady,CSC 574,Fuzzy Logic Systems,50.666,60.0,5,9,202.0,1.4189,40.0,1
+6,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",26.6667,40.0,3,8,172.0,2.2728,0.0,1
+7,rare,CSC 531,"HCI, Interactive Systems and Usability",81.6675,100.0,4,3,144.0,16.3642,100.0,0
+7,rare,CSC 531,Understanding the Problem Space and User-Centred Design,41.6675,60.0,4,0,0.0,60.0,0.0,1
+7,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",71.1117,60.0,6,4,146.0,3.2593,40.0,1
+7,rare,CSC 531,Data Gathering and Data Analysis,68.0,100.0,5,3,109.0,2.3085,80.0,0
+7,rare,CSC 531,Cognitive Psychology and Perception,75.0,60.0,4,3,114.0,17.5368,40.0,1
+7,rare,CSC 531,"Prototyping, Design Principles and Evaluation",44.0,60.0,5,4,157.0,9.1538,80.0,0
+7,rare,CSC 574,Introduction to Intelligent Systems and Agents,73.3333,60.0,3,3,140.0,8.2205,80.0,0
+7,rare,CSC 574,Problem Solving and Search,73.335,80.0,2,1,26.0,3.3956,60.0,0
+7,rare,CSC 574,Knowledge Representation and Reasoning,66.6675,60.0,4,3,132.0,1.3762,60.0,0
+7,rare,CSC 574,Expert Systems,61.6675,80.0,4,3,102.0,6.3189,60.0,0
+7,rare,CSC 574,Fuzzy Logic Systems,51.11,80.0,3,5,208.0,0.2492,100.0,0
+7,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",54.666,60.0,5,2,80.0,0.2212,80.0,0
+8,crammer,CSC 531,"HCI, Interactive Systems and Usability",48.0,60.0,5,8,652.0,1.1638,60.0,0
+8,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,16.0,20.0,5,10,935.0,1.4462,40.0,1
+8,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",36.0,40.0,5,5,435.0,1.374,0.0,1
+8,crammer,CSC 531,Data Gathering and Data Analysis,28.0,60.0,5,12,960.0,1.1511,40.0,1
+8,crammer,CSC 531,Cognitive Psychology and Perception,42.666,20.0,5,10,813.0,1.0713,100.0,0
+8,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",28.8883,80.0,6,8,758.0,7.1259,40.0,1
+8,crammer,CSC 574,Introduction to Intelligent Systems and Agents,16.665,0.0,2,5,387.0,1.5706,40.0,1
+8,crammer,CSC 574,Problem Solving and Search,63.3325,60.0,4,10,968.0,1.4328,80.0,0
+8,crammer,CSC 574,Knowledge Representation and Reasoning,20.0,40.0,4,10,855.0,1.4115,0.0,1
+8,crammer,CSC 574,Expert Systems,15.0,40.0,4,7,607.0,4.4346,0.0,1
+8,crammer,CSC 574,Fuzzy Logic Systems,28.8883,40.0,6,9,702.0,1.1964,40.0,1
+8,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",10.0,20.0,4,11,881.0,1.4075,0.0,1
+9,crammer,CSC 531,"HCI, Interactive Systems and Usability",55.0,80.0,4,8,651.0,1.462,100.0,0
+9,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,58.666,100.0,5,9,659.0,1.1909,20.0,1
+9,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",75.0,80.0,4,10,796.0,1.4303,100.0,0
+9,crammer,CSC 531,Data Gathering and Data Analysis,78.666,100.0,5,9,760.0,1.1314,80.0,0
+9,crammer,CSC 531,Cognitive Psychology and Perception,58.3325,100.0,4,8,562.0,1.4733,40.0,1
+9,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",45.0,60.0,4,8,674.0,1.3287,60.0,0
+9,crammer,CSC 574,Introduction to Intelligent Systems and Agents,56.6675,60.0,4,11,813.0,1.348,80.0,0
+9,crammer,CSC 574,Problem Solving and Search,96.0,100.0,5,9,714.0,1.2221,100.0,0
+9,crammer,CSC 574,Knowledge Representation and Reasoning,50.666,60.0,5,9,813.0,1.3328,60.0,0
+9,crammer,CSC 574,Expert Systems,46.665,60.0,2,4,309.0,1.43,80.0,0
+9,crammer,CSC 574,Fuzzy Logic Systems,77.334,80.0,5,8,672.0,1.2563,40.0,1
+9,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",26.6667,20.0,3,9,810.0,1.2543,60.0,0
+10,crammer,CSC 531,"HCI, Interactive Systems and Usability",43.3325,40.0,4,8,571.0,1.2902,60.0,0
+10,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,16.0,0.0,5,5,371.0,2.1068,20.0,1
+10,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",56.0,60.0,5,8,748.0,1.4075,60.0,0
+10,crammer,CSC 531,Data Gathering and Data Analysis,37.334,0.0,5,8,695.0,1.2948,20.0,1
+10,crammer,CSC 531,Cognitive Psychology and Perception,69.334,100.0,5,8,727.0,1.1252,60.0,0
+10,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",34.666,80.0,5,8,724.0,1.266,0.0,1
+10,crammer,CSC 574,Introduction to Intelligent Systems and Agents,26.6667,20.0,3,9,636.0,1.4297,80.0,0
+10,crammer,CSC 574,Problem Solving and Search,45.0,60.0,4,5,372.0,11.1491,60.0,0
+10,crammer,CSC 574,Knowledge Representation and Reasoning,22.666,0.0,5,6,486.0,2.2871,60.0,0
+10,crammer,CSC 574,Expert Systems,22.666,20.0,5,9,741.0,1.2259,20.0,1
+10,crammer,CSC 574,Fuzzy Logic Systems,37.7767,40.0,3,8,655.0,1.5207,60.0,0
+10,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",46.6675,0.0,4,8,648.0,2.3133,60.0,0
+11,crammer,CSC 531,"HCI, Interactive Systems and Usability",77.7783,80.0,6,9,787.0,1.2743,100.0,0
+11,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,68.8883,100.0,6,11,863.0,5.1105,80.0,0
+11,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",100.0,100.0,5,11,887.0,1.3356,100.0,0
+11,crammer,CSC 531,Data Gathering and Data Analysis,92.0,80.0,5,5,420.0,2.428,100.0,0
+11,crammer,CSC 531,Cognitive Psychology and Perception,91.6675,100.0,4,6,476.0,2.3332,100.0,0
+11,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",50.0,40.0,6,9,762.0,0.3474,100.0,0
+11,crammer,CSC 574,Introduction to Intelligent Systems and Agents,85.334,100.0,5,9,763.0,1.1393,100.0,0
+11,crammer,CSC 574,Problem Solving and Search,76.6675,100.0,4,5,346.0,1.5326,100.0,0
+11,crammer,CSC 574,Knowledge Representation and Reasoning,51.1117,40.0,6,9,712.0,1.2267,80.0,0
+11,crammer,CSC 574,Expert Systems,72.2217,60.0,6,10,771.0,1.4367,100.0,0
+11,crammer,CSC 574,Fuzzy Logic Systems,82.2233,100.0,3,6,523.0,1.1842,100.0,0
+11,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",69.334,80.0,5,8,730.0,1.2836,40.0,1
+12,rare,CSC 531,"HCI, Interactive Systems and Usability",68.0,80.0,5,2,84.0,8.5654,80.0,0
+12,rare,CSC 531,Understanding the Problem Space and User-Centred Design,23.3325,60.0,4,1,57.0,12.4458,20.0,1
+12,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",53.335,40.0,2,1,42.0,18.4008,40.0,1
+12,rare,CSC 531,Data Gathering and Data Analysis,38.8883,20.0,6,3,91.0,20.4389,20.0,1
+12,rare,CSC 531,Cognitive Psychology and Perception,36.0,40.0,5,2,53.0,21.1823,80.0,0
+12,rare,CSC 531,"Prototyping, Design Principles and Evaluation",35.0,60.0,4,2,59.0,7.2883,40.0,1
+12,rare,CSC 574,Introduction to Intelligent Systems and Agents,56.6675,60.0,4,3,73.0,10.1623,80.0,0
+12,rare,CSC 574,Problem Solving and Search,69.334,100.0,5,5,204.0,1.4135,60.0,0
+12,rare,CSC 574,Knowledge Representation and Reasoning,56.6675,80.0,4,2,99.0,1.1061,40.0,1
+12,rare,CSC 574,Expert Systems,64.4433,60.0,3,5,202.0,0.3626,80.0,0
+12,rare,CSC 574,Fuzzy Logic Systems,58.666,80.0,5,2,77.0,2.3002,60.0,0
+12,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",81.6675,100.0,4,2,103.0,5.2524,40.0,1
+13,rare,CSC 531,"HCI, Interactive Systems and Usability",70.0,60.0,4,4,185.0,17.3267,60.0,0
+13,rare,CSC 531,Understanding the Problem Space and User-Centred Design,33.334,20.0,5,3,123.0,21.5013,40.0,1
+13,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",53.3325,80.0,4,2,51.0,20.1372,80.0,0
+13,rare,CSC 531,Data Gathering and Data Analysis,65.334,40.0,5,5,198.0,1.0905,100.0,0
+13,rare,CSC 531,Cognitive Psychology and Perception,52.0,40.0,5,2,105.0,6.4435,80.0,0
+13,rare,CSC 531,"Prototyping, Design Principles and Evaluation",57.334,80.0,5,2,105.0,13.3235,60.0,0
+13,rare,CSC 574,Introduction to Intelligent Systems and Agents,61.6675,60.0,4,4,137.0,0.3624,60.0,0
+13,rare,CSC 574,Problem Solving and Search,92.0,100.0,5,3,96.0,25.429,40.0,1
+13,rare,CSC 574,Knowledge Representation and Reasoning,32.0,60.0,5,2,96.0,8.4428,40.0,1
+13,rare,CSC 574,Expert Systems,50.666,40.0,5,2,82.0,15.218,80.0,0
+13,rare,CSC 574,Fuzzy Logic Systems,58.3325,40.0,4,4,108.0,2.3725,100.0,0
+13,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",34.666,0.0,5,2,105.0,8.2523,60.0,0
+14,crammer,CSC 531,"HCI, Interactive Systems and Usability",56.0,60.0,5,10,944.0,1.1459,80.0,0
+14,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,13.3325,0.0,4,8,659.0,1.1701,60.0,0
+14,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",46.666,60.0,5,8,682.0,1.2618,60.0,0
+14,crammer,CSC 531,Data Gathering and Data Analysis,71.1117,100.0,6,13,1057.0,1.2734,40.0,1
+14,crammer,CSC 531,Cognitive Psychology and Perception,33.334,60.0,5,5,332.0,1.2801,40.0,1
+14,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",35.0,80.0,4,11,859.0,0.267,60.0,0
+14,crammer,CSC 574,Introduction to Intelligent Systems and Agents,24.0,60.0,5,11,903.0,1.1865,20.0,1
+14,crammer,CSC 574,Problem Solving and Search,88.0,60.0,5,6,491.0,2.0699,100.0,0
+14,crammer,CSC 574,Knowledge Representation and Reasoning,53.334,60.0,5,8,735.0,1.225,80.0,0
+14,crammer,CSC 574,Expert Systems,11.11,0.0,3,8,705.0,1.2794,80.0,0
+14,crammer,CSC 574,Fuzzy Logic Systems,5.0,0.0,4,7,559.0,2.2492,0.0,1
+14,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",40.0,60.0,3,6,580.0,1.5173,60.0,0
+15,steady,CSC 531,"HCI, Interactive Systems and Usability",62.2217,100.0,6,5,92.0,1.4051,80.0,0
+15,steady,CSC 531,Understanding the Problem Space and User-Centred Design,33.334,20.0,5,8,170.0,1.2626,0.0,1
+15,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",96.0,100.0,5,12,268.0,1.2796,100.0,0
+15,steady,CSC 531,Data Gathering and Data Analysis,85.334,100.0,5,7,174.0,1.3556,80.0,0
+15,steady,CSC 531,Cognitive Psychology and Perception,68.89,60.0,3,9,221.0,1.3655,80.0,0
+15,steady,CSC 531,"Prototyping, Design Principles and Evaluation",68.0,60.0,5,8,177.0,6.2002,80.0,0
+15,steady,CSC 574,Introduction to Intelligent Systems and Agents,71.6675,100.0,4,12,244.0,1.2222,80.0,0
+15,steady,CSC 574,Problem Solving and Search,75.0,80.0,4,7,160.0,2.239,80.0,0
+15,steady,CSC 574,Knowledge Representation and Reasoning,65.334,80.0,5,7,143.0,0.1998,100.0,0
+15,steady,CSC 574,Expert Systems,62.666,80.0,5,5,107.0,1.2469,100.0,0
+15,steady,CSC 574,Fuzzy Logic Systems,66.666,80.0,5,6,128.0,0.1675,100.0,0
+15,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",50.666,60.0,5,11,238.0,0.2176,80.0,0
+16,steady,CSC 531,"HCI, Interactive Systems and Usability",73.3325,100.0,4,6,140.0,2.2474,80.0,0
+16,steady,CSC 531,Understanding the Problem Space and User-Centred Design,48.0,60.0,5,5,104.0,9.4113,60.0,0
+16,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",76.6675,100.0,4,7,170.0,1.3024,80.0,0
+16,steady,CSC 531,Data Gathering and Data Analysis,36.6667,40.0,6,7,152.0,0.4332,80.0,0
+16,steady,CSC 531,Cognitive Psychology and Perception,81.334,80.0,5,11,242.0,0.5025,80.0,0
+16,steady,CSC 531,"Prototyping, Design Principles and Evaluation",69.334,60.0,5,7,171.0,4.1911,80.0,0
+16,steady,CSC 574,Introduction to Intelligent Systems and Agents,80.0,80.0,4,7,172.0,7.3694,100.0,0
+16,steady,CSC 574,Problem Solving and Search,96.6667,100.0,6,11,257.0,1.4325,100.0,0
+16,steady,CSC 574,Knowledge Representation and Reasoning,71.6675,80.0,4,8,170.0,0.3794,60.0,0
+16,steady,CSC 574,Expert Systems,78.3325,100.0,4,9,200.0,0.0854,100.0,0
+16,steady,CSC 574,Fuzzy Logic Systems,63.335,60.0,2,6,154.0,5.4154,80.0,0
+16,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",66.6675,60.0,4,5,118.0,1.3965,40.0,1
+17,crammer,CSC 531,"HCI, Interactive Systems and Usability",68.3325,80.0,4,9,756.0,1.1989,40.0,1
+17,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,34.666,60.0,5,8,679.0,1.4044,60.0,0
+17,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",49.334,60.0,5,8,595.0,6.234,80.0,0
+17,crammer,CSC 531,Data Gathering and Data Analysis,63.3325,80.0,4,6,504.0,1.2329,80.0,0
+17,crammer,CSC 531,Cognitive Psychology and Perception,70.666,80.0,5,14,1279.0,1.3024,80.0,0
+17,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",34.666,20.0,5,5,389.0,1.3904,60.0,0
+17,crammer,CSC 574,Introduction to Intelligent Systems and Agents,58.666,60.0,5,8,605.0,2.2478,40.0,1
+17,crammer,CSC 574,Problem Solving and Search,64.0,100.0,5,12,1026.0,1.3264,80.0,0
+17,crammer,CSC 574,Knowledge Representation and Reasoning,26.666,40.0,5,6,425.0,2.2133,40.0,1
+17,crammer,CSC 574,Expert Systems,42.666,100.0,5,6,447.0,1.4026,20.0,1
+17,crammer,CSC 574,Fuzzy Logic Systems,46.6675,40.0,4,6,481.0,1.3833,40.0,1
+17,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",56.6675,40.0,4,11,884.0,1.3131,40.0,1
+18,rare,CSC 531,"HCI, Interactive Systems and Usability",80.0,80.0,6,0,0.0,60.0,80.0,0
+18,rare,CSC 531,Understanding the Problem Space and User-Centred Design,56.0,60.0,5,5,186.0,23.4434,60.0,0
+18,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",84.445,60.0,6,1,48.0,30.3646,100.0,0
+18,rare,CSC 531,Data Gathering and Data Analysis,71.11,80.0,3,2,91.0,11.4976,40.0,1
+18,rare,CSC 531,Cognitive Psychology and Perception,61.334,100.0,5,1,42.0,5.3968,0.0,1
+18,rare,CSC 531,"Prototyping, Design Principles and Evaluation",82.2233,80.0,3,4,180.0,4.1007,80.0,0
+18,rare,CSC 574,Introduction to Intelligent Systems and Agents,75.5567,80.0,3,3,103.0,1.172,80.0,0
+18,rare,CSC 574,Problem Solving and Search,100.0,100.0,5,2,79.0,2.3793,60.0,0
+18,rare,CSC 574,Knowledge Representation and Reasoning,65.555,80.0,6,5,213.0,1.1056,100.0,0
+18,rare,CSC 574,Expert Systems,54.666,20.0,5,3,140.0,1.245,80.0,0
+18,rare,CSC 574,Fuzzy Logic Systems,73.3333,60.0,3,1,57.0,18.2361,60.0,0
+18,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",65.555,40.0,6,7,239.0,1.3597,80.0,0
+19,steady,CSC 531,"HCI, Interactive Systems and Usability",37.7767,60.0,3,3,76.0,2.5697,60.0,0
+19,steady,CSC 531,Understanding the Problem Space and User-Centred Design,51.11,80.0,3,7,156.0,2.4586,60.0,0
+19,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",40.0,80.0,3,5,117.0,0.3606,100.0,0
+19,steady,CSC 531,Data Gathering and Data Analysis,73.335,80.0,2,7,171.0,2.2801,60.0,0
+19,steady,CSC 531,Cognitive Psychology and Perception,35.0,20.0,4,4,94.0,2.4382,60.0,0
+19,steady,CSC 531,"Prototyping, Design Principles and Evaluation",40.0,60.0,4,11,214.0,2.4032,20.0,1
+19,steady,CSC 574,Introduction to Intelligent Systems and Agents,42.666,0.0,5,11,249.0,1.4021,40.0,1
+19,steady,CSC 574,Problem Solving and Search,93.3333,80.0,3,10,210.0,5.2217,60.0,0
+19,steady,CSC 574,Knowledge Representation and Reasoning,53.335,40.0,2,4,89.0,0.423,80.0,0
+19,steady,CSC 574,Expert Systems,68.0,100.0,5,13,276.0,9.3856,40.0,1
+19,steady,CSC 574,Fuzzy Logic Systems,46.666,80.0,5,10,204.0,2.3077,100.0,0
+19,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",21.6675,20.0,4,9,212.0,2.2568,0.0,1
+20,steady,CSC 531,"HCI, Interactive Systems and Usability",90.0,100.0,4,3,72.0,9.2733,60.0,0
+20,steady,CSC 531,Understanding the Problem Space and User-Centred Design,45.334,60.0,5,10,217.0,1.3059,40.0,1
+20,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",51.11,60.0,3,7,138.0,2.2921,40.0,1
+20,steady,CSC 531,Data Gathering and Data Analysis,81.1117,80.0,6,4,84.0,12.3021,60.0,0
+20,steady,CSC 531,Cognitive Psychology and Perception,74.666,100.0,5,11,259.0,7.342,40.0,1
+20,steady,CSC 531,"Prototyping, Design Principles and Evaluation",48.0,80.0,5,8,168.0,1.2756,60.0,0
+20,steady,CSC 574,Introduction to Intelligent Systems and Agents,57.7783,80.0,6,9,180.0,4.4011,80.0,0
+20,steady,CSC 574,Problem Solving and Search,71.11,100.0,3,5,110.0,1.2038,80.0,0
+20,steady,CSC 574,Knowledge Representation and Reasoning,46.6667,60.0,3,6,124.0,2.5164,60.0,0
+20,steady,CSC 574,Expert Systems,45.334,40.0,5,10,211.0,8.2883,60.0,0
+20,steady,CSC 574,Fuzzy Logic Systems,56.6675,60.0,4,8,222.0,8.1893,80.0,0
+20,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",40.0,0.0,4,5,101.0,4.2229,80.0,0
+21,rare,CSC 531,"HCI, Interactive Systems and Usability",66.6675,40.0,4,2,99.0,20.4135,80.0,0
+21,rare,CSC 531,Understanding the Problem Space and User-Centred Design,36.0,0.0,5,3,120.0,2.4008,40.0,1
+21,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",64.4433,100.0,3,2,67.0,12.398,100.0,0
+21,rare,CSC 531,Data Gathering and Data Analysis,68.0,80.0,5,4,173.0,9.2452,80.0,0
+21,rare,CSC 531,Cognitive Psychology and Perception,68.89,80.0,3,2,64.0,1.377,20.0,1
+21,rare,CSC 531,"Prototyping, Design Principles and Evaluation",65.0,40.0,4,2,65.0,18.4663,80.0,0
+21,rare,CSC 574,Introduction to Intelligent Systems and Agents,66.666,60.0,5,1,24.0,1.5525,40.0,1
+21,rare,CSC 574,Problem Solving and Search,93.3333,80.0,3,3,115.0,1.287,80.0,0
+21,rare,CSC 574,Knowledge Representation and Reasoning,80.0,60.0,3,2,46.0,8.2885,80.0,0
+21,rare,CSC 574,Expert Systems,46.665,60.0,2,4,159.0,5.44,80.0,0
+21,rare,CSC 574,Fuzzy Logic Systems,81.334,100.0,5,4,136.0,1.2523,40.0,1
+21,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",20.0,40.0,4,4,160.0,15.1161,0.0,1
+22,crammer,CSC 531,"HCI, Interactive Systems and Usability",47.7783,60.0,6,12,931.0,1.2573,20.0,1
+22,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,17.7783,0.0,6,6,446.0,2.3757,20.0,1
+22,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",51.1117,80.0,6,11,1015.0,2.3385,0.0,1
+22,crammer,CSC 531,Data Gathering and Data Analysis,25.0,40.0,4,7,632.0,1.2111,60.0,0
+22,crammer,CSC 531,Cognitive Psychology and Perception,62.2233,80.0,3,8,523.0,1.2374,60.0,0
+22,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",28.3325,20.0,4,7,471.0,1.4472,20.0,1
+22,crammer,CSC 574,Introduction to Intelligent Systems and Agents,25.0,80.0,4,9,761.0,1.2721,40.0,1
+22,crammer,CSC 574,Problem Solving and Search,44.4433,40.0,3,10,762.0,1.404,80.0,0
+22,crammer,CSC 574,Knowledge Representation and Reasoning,30.0,40.0,6,8,563.0,1.5131,40.0,1
+22,crammer,CSC 574,Expert Systems,30.0,60.0,2,6,521.0,1.4404,20.0,1
+22,crammer,CSC 574,Fuzzy Logic Systems,26.6667,60.0,3,6,478.0,2.1638,60.0,0
+22,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",20.0,0.0,5,11,971.0,1.4773,60.0,0
+23,steady,CSC 531,"HCI, Interactive Systems and Usability",86.6667,80.0,3,7,137.0,2.5493,40.0,1
+23,steady,CSC 531,Understanding the Problem Space and User-Centred Design,41.6675,40.0,4,7,154.0,6.2087,0.0,1
+23,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",60.0,100.0,4,3,72.0,7.2016,80.0,0
+23,steady,CSC 531,Data Gathering and Data Analysis,76.0,100.0,5,8,178.0,3.2535,60.0,0
+23,steady,CSC 531,Cognitive Psychology and Perception,73.334,80.0,5,8,160.0,0.3384,80.0,0
+23,steady,CSC 531,"Prototyping, Design Principles and Evaluation",45.334,20.0,5,7,184.0,1.399,80.0,0
+23,steady,CSC 574,Introduction to Intelligent Systems and Agents,65.0,40.0,4,5,124.0,1.3274,80.0,0
+23,steady,CSC 574,Problem Solving and Search,95.0,100.0,4,8,168.0,1.3042,100.0,0
+23,steady,CSC 574,Knowledge Representation and Reasoning,60.0,40.0,3,11,251.0,1.4632,60.0,0
+23,steady,CSC 574,Expert Systems,77.334,40.0,5,10,228.0,4.3911,60.0,0
+23,steady,CSC 574,Fuzzy Logic Systems,60.0,100.0,5,7,154.0,10.222,80.0,0
+23,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",60.0,100.0,5,11,257.0,1.0859,100.0,0
+24,crammer,CSC 531,"HCI, Interactive Systems and Usability",92.0,80.0,5,12,922.0,1.2643,100.0,0
+24,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,71.6675,80.0,4,8,660.0,1.2907,80.0,0
+24,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",75.5567,80.0,3,6,507.0,2.1311,100.0,0
+24,crammer,CSC 531,Data Gathering and Data Analysis,70.666,80.0,5,8,596.0,1.4981,80.0,0
+24,crammer,CSC 531,Cognitive Psychology and Perception,73.3333,80.0,3,6,532.0,1.4718,80.0,0
+24,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",73.3325,80.0,4,7,633.0,1.2512,100.0,0
+24,crammer,CSC 574,Introduction to Intelligent Systems and Agents,73.334,80.0,5,7,606.0,1.4417,80.0,0
+24,crammer,CSC 574,Problem Solving and Search,86.6675,100.0,4,6,530.0,1.3277,60.0,0
+24,crammer,CSC 574,Knowledge Representation and Reasoning,58.3325,100.0,4,6,495.0,7.2126,40.0,1
+24,crammer,CSC 574,Expert Systems,66.6675,80.0,4,8,638.0,2.3374,60.0,0
+24,crammer,CSC 574,Fuzzy Logic Systems,78.3325,100.0,4,7,550.0,1.167,80.0,0
+24,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",62.666,60.0,5,7,495.0,1.1818,40.0,1
+25,steady,CSC 531,"HCI, Interactive Systems and Usability",61.6675,80.0,4,4,77.0,1.2679,60.0,0
+25,steady,CSC 531,Understanding the Problem Space and User-Centred Design,15.0,0.0,4,9,186.0,4.2782,0.0,1
+25,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",56.6675,60.0,4,7,149.0,0.215,60.0,0
+25,steady,CSC 531,Data Gathering and Data Analysis,53.334,20.0,5,4,81.0,5.3411,20.0,1
+25,steady,CSC 531,Cognitive Psychology and Perception,55.5567,60.0,3,5,118.0,1.1313,60.0,0
+25,steady,CSC 531,"Prototyping, Design Principles and Evaluation",70.0,60.0,4,3,59.0,2.4374,20.0,1
+25,steady,CSC 574,Introduction to Intelligent Systems and Agents,43.3325,60.0,4,7,143.0,9.4805,40.0,1
+25,steady,CSC 574,Problem Solving and Search,86.6667,100.0,6,5,103.0,7.2406,60.0,0
+25,steady,CSC 574,Knowledge Representation and Reasoning,30.666,0.0,5,7,144.0,4.1511,40.0,1
+25,steady,CSC 574,Expert Systems,31.11,20.0,3,6,135.0,1.1478,40.0,1
+25,steady,CSC 574,Fuzzy Logic Systems,48.3325,60.0,4,11,271.0,6.4356,80.0,0
+25,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",24.0,60.0,5,7,171.0,3.2431,40.0,1
+26,rare,CSC 531,"HCI, Interactive Systems and Usability",60.0,80.0,5,3,134.0,11.29,60.0,0
+26,rare,CSC 531,Understanding the Problem Space and User-Centred Design,15.0,20.0,4,4,185.0,0.1538,20.0,1
+26,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",34.666,20.0,5,0,0.0,60.0,20.0,1
+26,rare,CSC 531,Data Gathering and Data Analysis,30.666,20.0,5,2,62.0,1.3839,20.0,1
+26,rare,CSC 531,Cognitive Psychology and Perception,33.3325,40.0,4,1,55.0,20.3547,60.0,0
+26,rare,CSC 531,"Prototyping, Design Principles and Evaluation",5.0,0.0,4,4,171.0,8.3941,20.0,1
+26,rare,CSC 574,Introduction to Intelligent Systems and Agents,22.666,0.0,5,2,55.0,1.2725,60.0,0
+26,rare,CSC 574,Problem Solving and Search,37.334,80.0,5,1,54.0,37.4276,40.0,1
+26,rare,CSC 574,Knowledge Representation and Reasoning,20.0,20.0,5,2,44.0,12.2139,0.0,1
+26,rare,CSC 574,Expert Systems,38.3325,20.0,4,1,26.0,1.2545,0.0,1
+26,rare,CSC 574,Fuzzy Logic Systems,26.666,20.0,5,1,59.0,26.4375,20.0,1
+26,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",41.6675,20.0,4,1,28.0,21.283,40.0,1
+27,crammer,CSC 531,"HCI, Interactive Systems and Usability",64.0,100.0,5,7,491.0,1.1492,100.0,0
+27,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,20.0,60.0,3,3,275.0,1.5171,60.0,0
+27,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",30.0,40.0,4,9,770.0,1.3781,100.0,0
+27,crammer,CSC 531,Data Gathering and Data Analysis,58.3325,100.0,4,6,359.0,1.3418,60.0,0
+27,crammer,CSC 531,Cognitive Psychology and Perception,58.8883,80.0,6,10,771.0,2.419,80.0,0
+27,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",26.6667,60.0,3,8,644.0,1.3882,40.0,1
+27,crammer,CSC 574,Introduction to Intelligent Systems and Agents,53.334,20.0,5,8,637.0,1.3679,20.0,1
+27,crammer,CSC 574,Problem Solving and Search,75.0,80.0,4,8,540.0,1.1692,60.0,0
+27,crammer,CSC 574,Knowledge Representation and Reasoning,46.666,60.0,5,7,612.0,1.3599,40.0,1
+27,crammer,CSC 574,Expert Systems,81.334,80.0,5,11,1092.0,1.3592,60.0,0
+27,crammer,CSC 574,Fuzzy Logic Systems,38.666,40.0,5,8,593.0,1.3942,60.0,0
+27,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",40.0,40.0,4,9,802.0,1.1841,100.0,0
+28,steady,CSC 531,"HCI, Interactive Systems and Usability",90.0,100.0,4,12,286.0,2.1852,100.0,0
+28,steady,CSC 531,Understanding the Problem Space and User-Centred Design,62.2233,40.0,3,4,89.0,2.4977,20.0,1
+28,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",68.89,40.0,3,9,214.0,7.2845,100.0,0
+28,steady,CSC 531,Data Gathering and Data Analysis,38.666,100.0,5,7,172.0,2.3512,60.0,0
+28,steady,CSC 531,Cognitive Psychology and Perception,80.0,60.0,4,6,146.0,7.1917,60.0,0
+28,steady,CSC 531,"Prototyping, Design Principles and Evaluation",62.2233,80.0,3,5,121.0,0.2066,80.0,0
+28,steady,CSC 574,Introduction to Intelligent Systems and Agents,58.666,60.0,5,5,112.0,1.3897,80.0,0
+28,steady,CSC 574,Problem Solving and Search,90.0,100.0,4,8,204.0,1.3433,80.0,0
+28,steady,CSC 574,Knowledge Representation and Reasoning,66.666,80.0,5,6,133.0,10.1732,80.0,0
+28,steady,CSC 574,Expert Systems,15.0,40.0,4,8,165.0,2.4944,80.0,0
+28,steady,CSC 574,Fuzzy Logic Systems,85.0,100.0,4,9,194.0,0.4983,80.0,0
+28,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",61.6675,40.0,4,9,182.0,2.264,100.0,0
+29,rare,CSC 531,"HCI, Interactive Systems and Usability",75.0,40.0,4,5,193.0,6.4427,40.0,1
+29,rare,CSC 531,Understanding the Problem Space and User-Centred Design,33.3325,60.0,4,2,79.0,16.4387,0.0,1
+29,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",44.0,40.0,5,2,65.0,30.3448,40.0,1
+29,rare,CSC 531,Data Gathering and Data Analysis,68.3325,100.0,4,9,406.0,2.2393,80.0,0
+29,rare,CSC 531,Cognitive Psychology and Perception,38.3325,20.0,4,3,125.0,6.4789,60.0,0
+29,rare,CSC 531,"Prototyping, Design Principles and Evaluation",38.3325,80.0,4,3,139.0,25.2457,100.0,0
+29,rare,CSC 574,Introduction to Intelligent Systems and Agents,48.0,40.0,5,2,103.0,18.2011,40.0,1
+29,rare,CSC 574,Problem Solving and Search,71.6675,80.0,4,1,38.0,19.2826,100.0,0
+29,rare,CSC 574,Knowledge Representation and Reasoning,25.7143,40.0,7,6,191.0,2.1233,40.0,1
+29,rare,CSC 574,Expert Systems,46.6675,60.0,4,4,143.0,3.381,80.0,0
+29,rare,CSC 574,Fuzzy Logic Systems,73.334,80.0,5,1,37.0,1.2934,80.0,0
+29,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",34.666,40.0,5,2,79.0,28.3165,40.0,1
+30,steady,CSC 531,"HCI, Interactive Systems and Usability",80.0,100.0,4,7,150.0,1.2552,60.0,0
+30,steady,CSC 531,Understanding the Problem Space and User-Centred Design,43.3325,60.0,4,3,62.0,11.4303,60.0,0
+30,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",61.334,60.0,5,6,149.0,1.5491,100.0,0
+30,steady,CSC 531,Data Gathering and Data Analysis,84.0,100.0,5,9,221.0,2.288,80.0,0
+30,steady,CSC 531,Cognitive Psychology and Perception,68.0,60.0,5,9,206.0,0.5282,60.0,0
+30,steady,CSC 531,"Prototyping, Design Principles and Evaluation",84.0,60.0,5,6,164.0,0.0664,40.0,1
+30,steady,CSC 574,Introduction to Intelligent Systems and Agents,86.666,100.0,5,9,211.0,1.3667,100.0,0
+30,steady,CSC 574,Problem Solving and Search,86.6675,100.0,4,6,122.0,2.4546,80.0,0
+30,steady,CSC 574,Knowledge Representation and Reasoning,51.11,80.0,3,7,172.0,0.207,80.0,0
+30,steady,CSC 574,Expert Systems,65.334,60.0,5,11,236.0,1.4073,100.0,0
+30,steady,CSC 574,Fuzzy Logic Systems,66.6675,40.0,4,8,193.0,1.4071,60.0,0
+30,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",65.0,40.0,4,8,177.0,0.4191,60.0,0
+31,crammer,CSC 531,"HCI, Interactive Systems and Usability",56.0,80.0,5,11,911.0,1.1539,80.0,0
+31,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,66.6675,100.0,4,8,666.0,1.2105,40.0,1
+31,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",72.2217,100.0,6,11,1126.0,1.0842,100.0,0
+31,crammer,CSC 531,Data Gathering and Data Analysis,46.6667,60.0,3,6,614.0,2.3334,60.0,0
+31,crammer,CSC 531,Cognitive Psychology and Perception,64.4433,60.0,3,6,443.0,1.3397,80.0,0
+31,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",30.666,40.0,5,8,590.0,1.3203,100.0,0
+31,crammer,CSC 574,Introduction to Intelligent Systems and Agents,41.334,60.0,5,9,747.0,1.1559,20.0,1
+31,crammer,CSC 574,Problem Solving and Search,92.0,80.0,5,8,675.0,1.3137,100.0,0
+31,crammer,CSC 574,Knowledge Representation and Reasoning,51.11,60.0,3,9,714.0,1.1582,60.0,0
+31,crammer,CSC 574,Expert Systems,40.0,60.0,5,9,871.0,1.354,80.0,0
+31,crammer,CSC 574,Fuzzy Logic Systems,71.11,80.0,3,7,639.0,1.3892,100.0,0
+31,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",64.0,80.0,5,8,665.0,1.2361,40.0,1
+32,steady,CSC 531,"HCI, Interactive Systems and Usability",83.3333,60.0,6,8,169.0,1.167,100.0,0
+32,steady,CSC 531,Understanding the Problem Space and User-Centred Design,57.334,100.0,5,8,176.0,6.2478,40.0,1
+32,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",66.666,60.0,5,7,168.0,9.3489,80.0,0
+32,steady,CSC 531,Data Gathering and Data Analysis,86.6675,100.0,4,6,129.0,5.4618,80.0,0
+32,steady,CSC 531,Cognitive Psychology and Perception,95.0,80.0,4,8,195.0,7.1775,100.0,0
+32,steady,CSC 531,"Prototyping, Design Principles and Evaluation",68.3325,100.0,4,6,128.0,2.4599,60.0,0
+32,steady,CSC 574,Introduction to Intelligent Systems and Agents,78.3325,100.0,4,6,131.0,1.3584,100.0,0
+32,steady,CSC 574,Problem Solving and Search,95.0,100.0,4,6,131.0,2.1782,100.0,0
+32,steady,CSC 574,Knowledge Representation and Reasoning,84.0,100.0,5,6,143.0,5.3124,40.0,1
+32,steady,CSC 574,Expert Systems,90.0,80.0,4,4,90.0,15.5167,80.0,0
+32,steady,CSC 574,Fuzzy Logic Systems,95.0,80.0,4,7,158.0,1.399,100.0,0
+32,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",68.3325,60.0,4,7,174.0,1.3344,80.0,0
+33,steady,CSC 531,"HCI, Interactive Systems and Usability",90.0,80.0,4,9,208.0,0.3567,100.0,0
+33,steady,CSC 531,Understanding the Problem Space and User-Centred Design,100.0,100.0,1,7,148.0,4.4177,100.0,0
+33,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",90.0,80.0,4,9,215.0,1.1152,80.0,0
+33,steady,CSC 531,Data Gathering and Data Analysis,88.0,60.0,5,3,87.0,8.3477,80.0,0
+33,steady,CSC 531,Cognitive Psychology and Perception,86.6667,60.0,3,6,152.0,7.419,80.0,0
+33,steady,CSC 531,"Prototyping, Design Principles and Evaluation",74.666,80.0,5,8,200.0,5.3058,80.0,0
+33,steady,CSC 574,Introduction to Intelligent Systems and Agents,82.2233,80.0,3,8,189.0,2.3776,40.0,1
+33,steady,CSC 574,Problem Solving and Search,100.0,100.0,4,5,112.0,3.4291,100.0,0
+33,steady,CSC 574,Knowledge Representation and Reasoning,77.334,100.0,5,9,192.0,5.2249,60.0,0
+33,steady,CSC 574,Expert Systems,73.334,100.0,5,12,261.0,0.1987,60.0,0
+33,steady,CSC 574,Fuzzy Logic Systems,76.6675,60.0,4,11,248.0,2.1927,100.0,0
+33,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",71.6675,40.0,4,4,92.0,8.2869,40.0,1
+34,crammer,CSC 531,"HCI, Interactive Systems and Usability",73.334,80.0,5,6,554.0,8.3524,100.0,0
+34,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,38.3325,20.0,4,5,396.0,10.3342,20.0,1
+34,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",56.0,60.0,5,10,898.0,1.1953,60.0,0
+34,crammer,CSC 531,Data Gathering and Data Analysis,63.3325,40.0,4,7,676.0,1.2002,80.0,0
+34,crammer,CSC 531,Cognitive Psychology and Perception,77.334,40.0,5,4,328.0,2.4664,100.0,0
+34,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",54.666,100.0,5,10,920.0,1.2416,80.0,0
+34,crammer,CSC 574,Introduction to Intelligent Systems and Agents,41.334,20.0,5,8,678.0,1.3102,40.0,1
+34,crammer,CSC 574,Problem Solving and Search,90.0,80.0,4,7,583.0,1.2893,100.0,0
+34,crammer,CSC 574,Knowledge Representation and Reasoning,62.2233,60.0,3,6,541.0,1.2691,80.0,0
+34,crammer,CSC 574,Expert Systems,62.666,80.0,5,5,335.0,1.2353,60.0,0
+34,crammer,CSC 574,Fuzzy Logic Systems,58.3325,80.0,4,7,621.0,1.0853,40.0,1
+34,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",75.0,80.0,4,7,544.0,2.2324,80.0,0
+35,steady,CSC 531,"HCI, Interactive Systems and Usability",94.445,100.0,6,10,227.0,3.4852,100.0,0
+35,steady,CSC 531,Understanding the Problem Space and User-Centred Design,53.3325,60.0,4,6,147.0,6.3592,60.0,0
+35,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",88.89,100.0,3,5,115.0,7.405,100.0,0
+35,steady,CSC 531,Data Gathering and Data Analysis,89.5243,100.0,7,6,138.0,4.2426,80.0,0
+35,steady,CSC 531,Cognitive Psychology and Perception,62.2217,80.0,6,5,111.0,7.2405,100.0,0
+35,steady,CSC 531,"Prototyping, Design Principles and Evaluation",81.6675,80.0,4,9,209.0,0.5123,80.0,0
+35,steady,CSC 574,Introduction to Intelligent Systems and Agents,77.7783,80.0,6,5,106.0,2.3514,80.0,0
+35,steady,CSC 574,Problem Solving and Search,96.6667,100.0,6,6,122.0,4.2895,100.0,0
+35,steady,CSC 574,Knowledge Representation and Reasoning,76.6675,60.0,4,16,375.0,0.3457,80.0,0
+35,steady,CSC 574,Expert Systems,56.6675,40.0,4,9,191.0,4.1905,60.0,0
+35,steady,CSC 574,Fuzzy Logic Systems,66.6675,60.0,4,6,111.0,1.2383,100.0,0
+35,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",74.666,100.0,5,11,255.0,0.2612,100.0,0
+36,steady,CSC 531,"HCI, Interactive Systems and Usability",65.334,80.0,5,12,297.0,2.3997,40.0,1
+36,steady,CSC 531,Understanding the Problem Space and User-Centred Design,66.6667,60.0,6,8,177.0,4.368,80.0,0
+36,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",55.5567,40.0,3,5,109.0,3.0733,80.0,0
+36,steady,CSC 531,Data Gathering and Data Analysis,70.666,100.0,5,5,121.0,3.3617,60.0,0
+36,steady,CSC 531,Cognitive Psychology and Perception,77.334,80.0,5,6,136.0,2.3504,80.0,0
+36,steady,CSC 531,"Prototyping, Design Principles and Evaluation",61.334,60.0,5,7,164.0,1.4271,60.0,0
+36,steady,CSC 574,Introduction to Intelligent Systems and Agents,63.3325,100.0,4,8,172.0,10.3021,80.0,0
+36,steady,CSC 574,Problem Solving and Search,93.3333,100.0,3,5,115.0,1.2011,60.0,0
+36,steady,CSC 574,Knowledge Representation and Reasoning,51.11,40.0,3,7,157.0,1.2028,60.0,0
+36,steady,CSC 574,Expert Systems,44.4433,40.0,3,12,264.0,1.0741,60.0,0
+36,steady,CSC 574,Fuzzy Logic Systems,53.3325,80.0,4,8,182.0,2.3041,100.0,0
+36,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",71.1117,80.0,6,8,178.0,0.3741,60.0,0
+37,steady,CSC 531,"HCI, Interactive Systems and Usability",22.666,40.0,5,6,135.0,0.3296,60.0,0
+37,steady,CSC 531,Understanding the Problem Space and User-Centred Design,36.6667,40.0,6,10,235.0,1.1465,60.0,0
+37,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",30.0,40.0,4,7,162.0,10.2281,60.0,0
+37,steady,CSC 531,Data Gathering and Data Analysis,44.445,40.0,6,10,227.0,0.2788,60.0,0
+37,steady,CSC 531,Cognitive Psychology and Perception,46.666,60.0,5,1,19.0,32.3739,80.0,0
+37,steady,CSC 531,"Prototyping, Design Principles and Evaluation",5.0,20.0,4,6,141.0,7.2875,60.0,0
+37,steady,CSC 574,Introduction to Intelligent Systems and Agents,68.0,80.0,5,6,115.0,26.3338,20.0,1
+37,steady,CSC 574,Problem Solving and Search,55.0,100.0,4,6,128.0,4.4658,40.0,1
+37,steady,CSC 574,Knowledge Representation and Reasoning,36.6675,40.0,4,7,161.0,1.3794,40.0,1
+37,steady,CSC 574,Expert Systems,8.0,0.0,5,8,170.0,0.2816,40.0,1
+37,steady,CSC 574,Fuzzy Logic Systems,46.6675,40.0,4,13,301.0,3.1604,40.0,1
+37,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",33.3325,20.0,4,8,187.0,1.4767,20.0,1
+38,crammer,CSC 531,"HCI, Interactive Systems and Usability",60.0,100.0,3,7,557.0,1.3133,100.0,0
+38,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,38.3325,40.0,4,7,587.0,1.3926,60.0,0
+38,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",71.4286,100.0,7,12,974.0,1.218,100.0,0
+38,crammer,CSC 531,Data Gathering and Data Analysis,85.0,80.0,4,8,637.0,2.5461,60.0,0
+38,crammer,CSC 531,Cognitive Psychology and Perception,71.11,80.0,3,7,538.0,1.2942,60.0,0
+38,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",58.666,80.0,5,8,514.0,1.4023,40.0,1
+38,crammer,CSC 574,Introduction to Intelligent Systems and Agents,74.445,80.0,6,9,658.0,2.2611,100.0,0
+38,crammer,CSC 574,Problem Solving and Search,78.3325,100.0,4,7,607.0,1.3979,100.0,0
+38,crammer,CSC 574,Knowledge Representation and Reasoning,60.0,100.0,4,8,707.0,2.2445,80.0,0
+38,crammer,CSC 574,Expert Systems,63.3325,80.0,4,8,687.0,1.5134,80.0,0
+38,crammer,CSC 574,Fuzzy Logic Systems,91.6675,100.0,4,9,670.0,1.3426,80.0,0
+38,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",52.0,60.0,5,7,570.0,1.3004,40.0,1
+39,rare,CSC 531,"HCI, Interactive Systems and Usability",42.666,20.0,5,3,129.0,16.2175,40.0,1
+39,rare,CSC 531,Understanding the Problem Space and User-Centred Design,10.0,20.0,2,3,115.0,6.2255,40.0,1
+39,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",34.666,20.0,5,3,105.0,14.2956,20.0,1
+39,rare,CSC 531,Data Gathering and Data Analysis,6.6667,0.0,6,6,249.0,1.3885,40.0,1
+39,rare,CSC 531,Cognitive Psychology and Perception,24.4433,40.0,3,3,122.0,8.2019,60.0,0
+39,rare,CSC 531,"Prototyping, Design Principles and Evaluation",20.0,20.0,3,0,0.0,60.0,0.0,1
+39,rare,CSC 574,Introduction to Intelligent Systems and Agents,25.555,20.0,6,2,79.0,2.3944,0.0,1
+39,rare,CSC 574,Problem Solving and Search,26.6667,40.0,3,2,69.0,12.1577,40.0,1
+39,rare,CSC 574,Knowledge Representation and Reasoning,12.0,40.0,5,1,50.0,10.2437,40.0,1
+39,rare,CSC 574,Expert Systems,28.3325,60.0,4,3,119.0,2.3501,40.0,1
+39,rare,CSC 574,Fuzzy Logic Systems,20.0,40.0,4,0,0.0,60.0,40.0,1
+39,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",32.0,60.0,5,2,76.0,11.3942,0.0,1
+40,rare,CSC 531,"HCI, Interactive Systems and Usability",85.0,40.0,4,2,62.0,19.2373,100.0,0
+40,rare,CSC 531,Understanding the Problem Space and User-Centred Design,38.8883,20.0,6,2,72.0,5.4564,80.0,0
+40,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",45.555,40.0,6,2,72.0,16.4829,40.0,1
+40,rare,CSC 531,Data Gathering and Data Analysis,46.6675,60.0,4,3,66.0,12.2972,20.0,1
+40,rare,CSC 531,Cognitive Psychology and Perception,53.334,40.0,5,3,98.0,15.1747,60.0,0
+40,rare,CSC 531,"Prototyping, Design Principles and Evaluation",18.666,40.0,5,1,47.0,32.3916,40.0,1
+40,rare,CSC 574,Introduction to Intelligent Systems and Agents,46.666,40.0,5,2,55.0,17.2343,60.0,0
+40,rare,CSC 574,Problem Solving and Search,66.6675,80.0,4,1,51.0,34.3636,100.0,0
+40,rare,CSC 574,Knowledge Representation and Reasoning,36.0,40.0,5,2,91.0,12.2882,40.0,1
+40,rare,CSC 574,Expert Systems,38.3325,60.0,4,1,32.0,31.3307,40.0,1
+40,rare,CSC 574,Fuzzy Logic Systems,66.6675,100.0,4,0,0.0,60.0,40.0,1
+40,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",55.0,80.0,4,4,158.0,1.4239,80.0,0
+41,crammer,CSC 531,"HCI, Interactive Systems and Usability",31.6675,0.0,4,6,439.0,1.2744,40.0,1
+41,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,13.3325,20.0,4,8,578.0,2.1977,0.0,1
+41,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",44.4433,20.0,3,7,536.0,1.2631,40.0,1
+41,crammer,CSC 531,Data Gathering and Data Analysis,48.3325,40.0,4,10,856.0,2.2154,60.0,0
+41,crammer,CSC 531,Cognitive Psychology and Perception,58.3325,100.0,4,10,808.0,1.3449,100.0,0
+41,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",30.666,0.0,5,10,739.0,1.3096,20.0,1
+41,crammer,CSC 574,Introduction to Intelligent Systems and Agents,35.555,80.0,6,9,642.0,1.4465,60.0,0
+41,crammer,CSC 574,Problem Solving and Search,66.666,60.0,5,12,892.0,2.1641,60.0,0
+41,crammer,CSC 574,Knowledge Representation and Reasoning,0.0,0.0,3,6,431.0,1.3236,0.0,1
+41,crammer,CSC 574,Expert Systems,20.0,20.0,6,9,842.0,1.1777,0.0,1
+41,crammer,CSC 574,Fuzzy Logic Systems,51.6675,60.0,4,12,978.0,1.3346,20.0,1
+41,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",33.33,33.33,1,9,672.0,1.2897,20.0,1
+42,rare,CSC 531,"HCI, Interactive Systems and Usability",73.3333,80.0,6,5,197.0,1.4087,100.0,0
+42,rare,CSC 531,Understanding the Problem Space and User-Centred Design,28.0,20.0,5,0,0.0,60.0,20.0,1
+42,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",60.0,60.0,5,1,50.0,34.1603,40.0,1
+42,rare,CSC 531,Data Gathering and Data Analysis,68.0,40.0,5,3,118.0,2.1259,80.0,0
+42,rare,CSC 531,Cognitive Psychology and Perception,70.0,40.0,2,1,59.0,9.3419,60.0,0
+42,rare,CSC 531,"Prototyping, Design Principles and Evaluation",53.334,40.0,5,3,124.0,7.3113,60.0,0
+42,rare,CSC 574,Introduction to Intelligent Systems and Agents,63.3325,60.0,4,2,56.0,21.4102,40.0,1
+42,rare,CSC 574,Problem Solving and Search,75.0,100.0,4,2,81.0,14.543,60.0,0
+42,rare,CSC 574,Knowledge Representation and Reasoning,44.4433,40.0,3,3,126.0,1.1455,80.0,0
+42,rare,CSC 574,Expert Systems,57.334,60.0,5,4,161.0,9.2457,80.0,0
+42,rare,CSC 574,Fuzzy Logic Systems,49.334,60.0,5,3,94.0,10.4206,60.0,0
+42,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",51.6675,60.0,4,8,323.0,1.0919,40.0,1
+43,steady,CSC 531,"HCI, Interactive Systems and Usability",51.6675,40.0,4,6,123.0,2.4063,100.0,0
+43,steady,CSC 531,Understanding the Problem Space and User-Centred Design,21.334,0.0,5,9,209.0,5.0891,0.0,1
+43,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",56.6675,40.0,4,5,116.0,8.4429,60.0,0
+43,steady,CSC 531,Data Gathering and Data Analysis,31.11,20.0,3,4,88.0,2.3886,60.0,0
+43,steady,CSC 531,Cognitive Psychology and Perception,73.334,60.0,5,5,121.0,7.1845,40.0,1
+43,steady,CSC 531,"Prototyping, Design Principles and Evaluation",68.0,40.0,5,11,260.0,1.3649,60.0,0
+43,steady,CSC 574,Introduction to Intelligent Systems and Agents,26.666,20.0,5,10,220.0,1.2872,60.0,0
+43,steady,CSC 574,Problem Solving and Search,68.0,60.0,5,5,119.0,1.5655,60.0,0
+43,steady,CSC 574,Knowledge Representation and Reasoning,10.0,20.0,4,5,98.0,3.363,20.0,1
+43,steady,CSC 574,Expert Systems,24.4433,0.0,3,7,156.0,1.4786,40.0,1
+43,steady,CSC 574,Fuzzy Logic Systems,24.4433,20.0,3,4,96.0,8.3588,20.0,1
+43,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",33.334,20.0,5,8,175.0,7.5097,60.0,0
+44,steady,CSC 531,"HCI, Interactive Systems and Usability",46.666,20.0,5,9,216.0,14.1925,20.0,1
+44,steady,CSC 531,Understanding the Problem Space and User-Centred Design,18.8883,20.0,6,9,183.0,0.2681,20.0,1
+44,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",28.3325,0.0,4,7,179.0,2.4887,0.0,1
+44,steady,CSC 531,Data Gathering and Data Analysis,57.334,60.0,5,6,128.0,8.364,40.0,1
+44,steady,CSC 531,Cognitive Psychology and Perception,60.0,40.0,4,6,150.0,2.3279,60.0,0
+44,steady,CSC 531,"Prototyping, Design Principles and Evaluation",10.0,40.0,4,4,98.0,1.4274,20.0,1
+44,steady,CSC 574,Introduction to Intelligent Systems and Agents,20.0,20.0,4,5,112.0,7.1619,0.0,1
+44,steady,CSC 574,Problem Solving and Search,72.0,0.0,5,8,185.0,3.1573,80.0,0
+44,steady,CSC 574,Knowledge Representation and Reasoning,33.3325,20.0,4,7,170.0,1.5165,40.0,1
+44,steady,CSC 574,Expert Systems,28.3325,0.0,4,7,153.0,9.2857,20.0,1
+44,steady,CSC 574,Fuzzy Logic Systems,65.334,80.0,5,8,164.0,9.1189,80.0,0
+44,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",23.3325,40.0,4,10,236.0,1.2596,40.0,1
+45,crammer,CSC 531,"HCI, Interactive Systems and Usability",64.4433,80.0,3,7,584.0,1.5817,60.0,0
+45,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,51.11,60.0,3,7,515.0,1.1854,40.0,1
+45,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",76.0,80.0,5,9,760.0,2.3441,60.0,0
+45,crammer,CSC 531,Data Gathering and Data Analysis,84.0,60.0,5,8,737.0,1.3961,100.0,0
+45,crammer,CSC 531,Cognitive Psychology and Perception,58.3325,80.0,4,6,502.0,2.1264,100.0,0
+45,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",64.0,100.0,5,8,610.0,1.5353,60.0,0
+45,crammer,CSC 574,Introduction to Intelligent Systems and Agents,53.3325,80.0,4,10,910.0,0.3529,100.0,0
+45,crammer,CSC 574,Problem Solving and Search,73.334,80.0,5,11,860.0,1.3655,80.0,0
+45,crammer,CSC 574,Knowledge Representation and Reasoning,33.3325,0.0,4,7,611.0,1.1801,60.0,0
+45,crammer,CSC 574,Expert Systems,20.0,0.0,4,10,875.0,1.3363,60.0,0
+45,crammer,CSC 574,Fuzzy Logic Systems,38.3325,60.0,4,9,818.0,1.1907,60.0,0
+45,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",65.334,60.0,5,8,702.0,2.5784,20.0,1
+46,rare,CSC 531,"HCI, Interactive Systems and Usability",83.3333,60.0,6,2,84.0,13.3277,20.0,1
+46,rare,CSC 531,Understanding the Problem Space and User-Centred Design,33.3333,60.0,6,3,127.0,2.2252,80.0,0
+46,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",51.6675,60.0,4,0,0.0,60.0,60.0,0
+46,rare,CSC 531,Data Gathering and Data Analysis,64.0,80.0,5,2,63.0,21.2024,100.0,0
+46,rare,CSC 531,Cognitive Psychology and Perception,58.666,40.0,5,4,188.0,4.5088,80.0,0
+46,rare,CSC 531,"Prototyping, Design Principles and Evaluation",50.666,60.0,5,2,99.0,8.3349,40.0,1
+46,rare,CSC 574,Introduction to Intelligent Systems and Agents,46.666,100.0,5,4,126.0,7.2842,80.0,0
+46,rare,CSC 574,Problem Solving and Search,68.3325,100.0,4,2,64.0,16.3736,80.0,0
+46,rare,CSC 574,Knowledge Representation and Reasoning,60.0,80.0,3,3,170.0,2.5787,40.0,1
+46,rare,CSC 574,Expert Systems,61.334,100.0,5,3,108.0,9.534,60.0,0
+46,rare,CSC 574,Fuzzy Logic Systems,71.6675,100.0,4,7,268.0,1.2071,80.0,0
+46,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",41.6675,0.0,4,2,78.0,10.4462,0.0,1
+47,steady,CSC 531,"HCI, Interactive Systems and Usability",41.334,0.0,5,8,176.0,0.4897,60.0,0
+47,steady,CSC 531,Understanding the Problem Space and User-Centred Design,26.6675,40.0,4,4,98.0,6.3482,0.0,1
+47,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",33.3325,60.0,4,6,126.0,1.4198,0.0,1
+47,steady,CSC 531,Data Gathering and Data Analysis,43.3333,80.0,6,9,185.0,3.4111,60.0,0
+47,steady,CSC 531,Cognitive Psychology and Perception,48.3325,80.0,4,6,131.0,1.2293,80.0,0
+47,steady,CSC 531,"Prototyping, Design Principles and Evaluation",61.334,100.0,5,11,243.0,1.2541,20.0,1
+47,steady,CSC 574,Introduction to Intelligent Systems and Agents,43.3325,40.0,4,10,211.0,0.5675,60.0,0
+47,steady,CSC 574,Problem Solving and Search,76.0,80.0,5,4,90.0,1.5674,80.0,0
+47,steady,CSC 574,Knowledge Representation and Reasoning,44.4433,60.0,3,9,236.0,1.2816,60.0,0
+47,steady,CSC 574,Expert Systems,38.666,40.0,5,9,220.0,1.1289,40.0,1
+47,steady,CSC 574,Fuzzy Logic Systems,24.0,20.0,5,9,181.0,2.32,20.0,1
+47,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",33.3325,40.0,4,10,226.0,7.2895,40.0,1
+48,steady,CSC 531,"HCI, Interactive Systems and Usability",33.33,33.33,1,3,68.0,13.3434,60.0,0
+48,steady,CSC 531,Understanding the Problem Space and User-Centred Design,6.6667,20.0,3,8,170.0,8.2374,60.0,0
+48,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",38.3325,60.0,4,4,88.0,1.3017,60.0,0
+48,steady,CSC 531,Data Gathering and Data Analysis,53.3325,40.0,4,7,165.0,8.4118,60.0,0
+48,steady,CSC 531,Cognitive Psychology and Perception,28.3325,20.0,4,5,129.0,15.2144,60.0,0
+48,steady,CSC 531,"Prototyping, Design Principles and Evaluation",17.7767,20.0,3,3,61.0,11.1505,40.0,1
+48,steady,CSC 574,Introduction to Intelligent Systems and Agents,32.0,20.0,5,5,124.0,2.2576,80.0,0
+48,steady,CSC 574,Problem Solving and Search,51.11,60.0,3,6,151.0,1.0995,80.0,0
+48,steady,CSC 574,Knowledge Representation and Reasoning,16.0,20.0,5,5,119.0,8.4389,40.0,1
+48,steady,CSC 574,Expert Systems,65.0,80.0,4,3,81.0,2.3819,20.0,1
+48,steady,CSC 574,Fuzzy Logic Systems,30.666,0.0,5,3,63.0,6.4483,60.0,0
+48,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",30.0,0.0,4,5,132.0,6.298,60.0,0
+49,steady,CSC 531,"HCI, Interactive Systems and Usability",40.0,40.0,4,5,135.0,1.1673,100.0,0
+49,steady,CSC 531,Understanding the Problem Space and User-Centred Design,37.7783,40.0,6,9,206.0,3.363,40.0,1
+49,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",54.666,40.0,5,3,63.0,11.4062,80.0,0
+49,steady,CSC 531,Data Gathering and Data Analysis,66.6667,60.0,6,8,159.0,3.4609,60.0,0
+49,steady,CSC 531,Cognitive Psychology and Perception,84.0,80.0,5,8,192.0,9.3246,40.0,1
+49,steady,CSC 531,"Prototyping, Design Principles and Evaluation",69.334,80.0,5,11,240.0,1.1756,100.0,0
+49,steady,CSC 574,Introduction to Intelligent Systems and Agents,57.334,60.0,5,8,175.0,6.5015,40.0,1
+49,steady,CSC 574,Problem Solving and Search,81.6675,100.0,4,11,261.0,0.1004,80.0,0
+49,steady,CSC 574,Knowledge Representation and Reasoning,55.0,40.0,4,3,69.0,9.1979,80.0,0
+49,steady,CSC 574,Expert Systems,60.0,80.0,4,3,70.0,1.4224,100.0,0
+49,steady,CSC 574,Fuzzy Logic Systems,62.2217,100.0,6,11,263.0,1.2327,100.0,0
+49,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",40.0,80.0,4,8,178.0,4.4604,100.0,0
+50,steady,CSC 531,"HCI, Interactive Systems and Usability",96.0,80.0,5,8,167.0,2.5438,100.0,0
+50,steady,CSC 531,Understanding the Problem Space and User-Centred Design,62.666,100.0,5,6,135.0,1.2384,20.0,1
+50,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",89.334,80.0,5,7,143.0,2.3447,100.0,0
+50,steady,CSC 531,Data Gathering and Data Analysis,96.0,100.0,5,5,111.0,6.2806,100.0,0
+50,steady,CSC 531,Cognitive Psychology and Perception,80.0,100.0,5,6,149.0,9.3938,80.0,0
+50,steady,CSC 531,"Prototyping, Design Principles and Evaluation",75.0,60.0,4,7,153.0,3.1815,100.0,0
+50,steady,CSC 574,Introduction to Intelligent Systems and Agents,81.6675,60.0,4,7,175.0,2.4335,100.0,0
+50,steady,CSC 574,Problem Solving and Search,100.0,100.0,4,7,148.0,0.3318,100.0,0
+50,steady,CSC 574,Knowledge Representation and Reasoning,100.0,100.0,5,3,65.0,10.1845,100.0,0
+50,steady,CSC 574,Expert Systems,93.334,100.0,5,6,133.0,6.432,60.0,0
+50,steady,CSC 574,Fuzzy Logic Systems,92.0,100.0,5,9,209.0,2.1712,100.0,0
+50,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",93.334,100.0,5,9,208.0,9.2595,40.0,1
+51,crammer,CSC 531,"HCI, Interactive Systems and Usability",81.334,80.0,5,8,633.0,11.4092,80.0,0
+51,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,77.7783,40.0,6,9,785.0,1.1867,100.0,0
+51,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",72.2217,100.0,6,10,961.0,0.2492,100.0,0
+51,crammer,CSC 531,Data Gathering and Data Analysis,57.334,80.0,5,10,931.0,1.3431,40.0,1
+51,crammer,CSC 531,Cognitive Psychology and Perception,58.3325,80.0,4,4,294.0,2.3252,100.0,0
+51,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",71.11,100.0,3,5,446.0,3.3065,60.0,0
+51,crammer,CSC 574,Introduction to Intelligent Systems and Agents,48.0,60.0,5,8,621.0,1.5102,100.0,0
+51,crammer,CSC 574,Problem Solving and Search,33.33,33.33,1,5,391.0,0.4951,100.0,0
+51,crammer,CSC 574,Knowledge Representation and Reasoning,48.89,40.0,3,10,770.0,1.429,80.0,0
+51,crammer,CSC 574,Expert Systems,61.334,40.0,5,6,452.0,9.1915,60.0,0
+51,crammer,CSC 574,Fuzzy Logic Systems,77.334,40.0,5,9,678.0,1.2067,80.0,0
+51,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",72.2217,80.0,6,8,810.0,1.2343,100.0,0
+52,rare,CSC 531,"HCI, Interactive Systems and Usability",93.3333,80.0,3,1,31.0,2.3251,100.0,0
+52,rare,CSC 531,Understanding the Problem Space and User-Centred Design,68.8883,60.0,6,0,0.0,60.0,80.0,0
+52,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",86.6667,80.0,6,1,33.0,21.3691,100.0,0
+52,rare,CSC 531,Data Gathering and Data Analysis,92.0,100.0,5,3,95.0,17.0832,60.0,0
+52,rare,CSC 531,Cognitive Psychology and Perception,92.0,100.0,5,3,128.0,7.3877,100.0,0
+52,rare,CSC 531,"Prototyping, Design Principles and Evaluation",80.0,60.0,2,2,65.0,8.4696,80.0,0
+52,rare,CSC 574,Introduction to Intelligent Systems and Agents,66.6675,60.0,4,2,77.0,4.254,40.0,1
+52,rare,CSC 574,Problem Solving and Search,95.0,100.0,4,2,62.0,18.2755,100.0,0
+52,rare,CSC 574,Knowledge Representation and Reasoning,73.334,60.0,5,3,115.0,9.3992,80.0,0
+52,rare,CSC 574,Expert Systems,77.7767,100.0,3,3,144.0,1.4876,80.0,0
+52,rare,CSC 574,Fuzzy Logic Systems,85.0,80.0,4,3,135.0,6.2291,80.0,0
+52,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",80.0,60.0,3,2,70.0,7.3271,100.0,0
+53,steady,CSC 531,"HCI, Interactive Systems and Usability",66.666,60.0,5,6,145.0,12.1719,80.0,0
+53,steady,CSC 531,Understanding the Problem Space and User-Centred Design,15.0,0.0,4,2,42.0,2.4624,60.0,0
+53,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",53.3325,60.0,4,8,187.0,3.2034,20.0,1
+53,steady,CSC 531,Data Gathering and Data Analysis,47.7783,40.0,6,8,167.0,0.3084,80.0,0
+53,steady,CSC 531,Cognitive Psychology and Perception,20.0,60.0,4,4,70.0,11.3088,20.0,1
+53,steady,CSC 531,"Prototyping, Design Principles and Evaluation",48.3325,60.0,4,8,160.0,1.4727,60.0,0
+53,steady,CSC 574,Introduction to Intelligent Systems and Agents,50.0,60.0,4,7,162.0,1.4066,20.0,1
+53,steady,CSC 574,Problem Solving and Search,62.2233,80.0,3,8,183.0,1.2485,40.0,1
+53,steady,CSC 574,Knowledge Representation and Reasoning,40.0,80.0,5,4,114.0,2.2671,60.0,0
+53,steady,CSC 574,Expert Systems,63.3325,80.0,4,4,84.0,9.3638,60.0,0
+53,steady,CSC 574,Fuzzy Logic Systems,23.3325,40.0,4,10,230.0,1.486,20.0,1
+53,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",41.6675,40.0,4,5,127.0,3.4368,40.0,1
+54,crammer,CSC 531,"HCI, Interactive Systems and Usability",53.335,40.0,2,7,492.0,1.3457,80.0,0
+54,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,48.3325,80.0,4,7,625.0,1.4692,40.0,1
+54,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",80.0,100.0,4,9,778.0,1.1692,100.0,0
+54,crammer,CSC 531,Data Gathering and Data Analysis,81.6675,60.0,4,11,962.0,1.3035,80.0,0
+54,crammer,CSC 531,Cognitive Psychology and Perception,77.334,60.0,5,9,692.0,1.3724,80.0,0
+54,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",85.334,80.0,5,10,808.0,1.2096,80.0,0
+54,crammer,CSC 574,Introduction to Intelligent Systems and Agents,75.555,100.0,6,10,786.0,1.4219,100.0,0
+54,crammer,CSC 574,Problem Solving and Search,90.0,80.0,4,9,727.0,1.1719,60.0,0
+54,crammer,CSC 574,Knowledge Representation and Reasoning,65.334,80.0,5,9,701.0,1.4597,80.0,0
+54,crammer,CSC 574,Expert Systems,80.0,100.0,3,7,525.0,2.4211,100.0,0
+54,crammer,CSC 574,Fuzzy Logic Systems,76.0,80.0,5,13,1074.0,1.2382,100.0,0
+54,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",66.666,100.0,5,9,644.0,0.5344,80.0,0
+55,crammer,CSC 531,"HCI, Interactive Systems and Usability",60.0,60.0,5,10,1053.0,1.379,40.0,1
+55,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,46.666,40.0,5,10,878.0,1.257,80.0,0
+55,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",48.3325,40.0,4,9,631.0,1.4417,60.0,0
+55,crammer,CSC 531,Data Gathering and Data Analysis,50.666,20.0,5,9,756.0,1.2154,60.0,0
+55,crammer,CSC 531,Cognitive Psychology and Perception,46.6667,60.0,6,8,603.0,2.204,80.0,0
+55,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",31.11,20.0,3,7,609.0,1.3971,60.0,0
+55,crammer,CSC 574,Introduction to Intelligent Systems and Agents,38.666,40.0,5,8,746.0,2.3996,20.0,1
+55,crammer,CSC 574,Problem Solving and Search,62.666,100.0,5,12,1124.0,1.1782,100.0,0
+55,crammer,CSC 574,Knowledge Representation and Reasoning,40.0,60.0,3,7,612.0,1.4171,40.0,1
+55,crammer,CSC 574,Expert Systems,41.334,20.0,5,10,721.0,1.2817,60.0,0
+55,crammer,CSC 574,Fuzzy Logic Systems,64.0,80.0,5,8,636.0,1.436,60.0,0
+55,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",77.334,100.0,5,11,901.0,2.4966,60.0,0
+56,steady,CSC 531,"HCI, Interactive Systems and Usability",48.0,60.0,5,7,158.0,7.1101,100.0,0
+56,steady,CSC 531,Understanding the Problem Space and User-Centred Design,24.0,60.0,5,9,175.0,1.3985,0.0,1
+56,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",64.4433,80.0,3,10,216.0,1.4174,40.0,1
+56,steady,CSC 531,Data Gathering and Data Analysis,62.2233,60.0,3,6,127.0,5.4108,40.0,1
+56,steady,CSC 531,Cognitive Psychology and Perception,42.666,40.0,5,7,174.0,1.2739,60.0,0
+56,steady,CSC 531,"Prototyping, Design Principles and Evaluation",28.0,20.0,5,11,270.0,0.3796,100.0,0
+56,steady,CSC 574,Introduction to Intelligent Systems and Agents,77.334,100.0,5,6,125.0,1.4335,80.0,0
+56,steady,CSC 574,Problem Solving and Search,58.666,80.0,5,8,180.0,3.479,100.0,0
+56,steady,CSC 574,Knowledge Representation and Reasoning,40.0,60.0,5,6,138.0,3.3903,60.0,0
+56,steady,CSC 574,Expert Systems,48.89,60.0,3,7,174.0,0.1945,60.0,0
+56,steady,CSC 574,Fuzzy Logic Systems,54.445,80.0,6,7,151.0,0.2482,40.0,1
+56,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",48.3325,40.0,4,5,98.0,10.4409,20.0,1
+57,steady,CSC 531,"HCI, Interactive Systems and Usability",73.3333,60.0,3,4,94.0,4.189,100.0,0
+57,steady,CSC 531,Understanding the Problem Space and User-Centred Design,34.666,40.0,5,7,144.0,1.5079,40.0,1
+57,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",75.0,80.0,4,11,226.0,10.2777,60.0,0
+57,steady,CSC 531,Data Gathering and Data Analysis,60.0,40.0,5,7,157.0,0.3626,80.0,0
+57,steady,CSC 531,Cognitive Psychology and Perception,66.6675,100.0,4,13,305.0,4.3614,80.0,0
+57,steady,CSC 531,"Prototyping, Design Principles and Evaluation",48.0,60.0,5,12,301.0,0.281,100.0,0
+57,steady,CSC 574,Introduction to Intelligent Systems and Agents,71.11,80.0,3,6,154.0,12.1562,80.0,0
+57,steady,CSC 574,Problem Solving and Search,89.334,80.0,5,6,128.0,2.1651,100.0,0
+57,steady,CSC 574,Knowledge Representation and Reasoning,56.0,60.0,5,11,251.0,2.3839,60.0,0
+57,steady,CSC 574,Expert Systems,48.0,40.0,5,9,196.0,1.1818,100.0,0
+57,steady,CSC 574,Fuzzy Logic Systems,80.0,100.0,6,5,124.0,0.4453,40.0,1
+57,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",51.6675,80.0,4,12,274.0,2.5529,100.0,0
+58,steady,CSC 531,"HCI, Interactive Systems and Usability",62.2233,100.0,3,8,176.0,1.5165,80.0,0
+58,steady,CSC 531,Understanding the Problem Space and User-Centred Design,45.0,40.0,4,14,319.0,0.4638,40.0,1
+58,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",48.5714,20.0,7,8,175.0,9.2668,40.0,1
+58,steady,CSC 531,Data Gathering and Data Analysis,78.666,100.0,5,6,137.0,14.3139,40.0,1
+58,steady,CSC 531,Cognitive Psychology and Perception,50.0,80.0,4,7,145.0,0.2425,60.0,0
+58,steady,CSC 531,"Prototyping, Design Principles and Evaluation",41.1117,0.0,6,5,129.0,9.5433,80.0,0
+58,steady,CSC 574,Introduction to Intelligent Systems and Agents,48.89,40.0,3,7,168.0,1.3358,40.0,1
+58,steady,CSC 574,Problem Solving and Search,69.334,80.0,5,7,166.0,0.4954,60.0,0
+58,steady,CSC 574,Knowledge Representation and Reasoning,57.334,40.0,5,8,177.0,1.1524,60.0,0
+58,steady,CSC 574,Expert Systems,40.0,80.0,5,10,223.0,1.4164,80.0,0
+58,steady,CSC 574,Fuzzy Logic Systems,47.7783,20.0,6,6,140.0,11.2401,60.0,0
+58,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",20.0,20.0,5,3,71.0,3.1538,60.0,0
+59,steady,CSC 531,"HCI, Interactive Systems and Usability",32.0,60.0,5,9,211.0,4.4813,40.0,1
+59,steady,CSC 531,Understanding the Problem Space and User-Centred Design,22.2217,20.0,6,10,248.0,7.2975,0.0,1
+59,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",41.6675,60.0,4,6,140.0,7.32,20.0,1
+59,steady,CSC 531,Data Gathering and Data Analysis,32.0,60.0,5,5,122.0,1.4829,40.0,1
+59,steady,CSC 531,Cognitive Psychology and Perception,43.3325,40.0,4,9,204.0,1.0846,60.0,0
+59,steady,CSC 531,"Prototyping, Design Principles and Evaluation",25.0,60.0,4,6,137.0,2.221,80.0,0
+59,steady,CSC 574,Introduction to Intelligent Systems and Agents,40.0,80.0,2,7,145.0,0.1125,80.0,0
+59,steady,CSC 574,Problem Solving and Search,58.3325,80.0,4,4,86.0,3.2113,60.0,0
+59,steady,CSC 574,Knowledge Representation and Reasoning,23.3325,20.0,4,6,132.0,1.3101,40.0,1
+59,steady,CSC 574,Expert Systems,36.6675,40.0,4,11,270.0,2.372,40.0,1
+59,steady,CSC 574,Fuzzy Logic Systems,61.6675,60.0,4,6,153.0,8.106,40.0,1
+59,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",20.0,20.0,4,9,200.0,2.4609,0.0,1
+60,steady,CSC 531,"HCI, Interactive Systems and Usability",87.7783,80.0,6,10,214.0,2.481,100.0,0
+60,steady,CSC 531,Understanding the Problem Space and User-Centred Design,45.0,60.0,4,12,296.0,1.2286,100.0,0
+60,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",75.0,80.0,4,8,177.0,1.2652,100.0,0
+60,steady,CSC 531,Data Gathering and Data Analysis,81.6675,100.0,4,4,96.0,6.3808,80.0,0
+60,steady,CSC 531,Cognitive Psychology and Perception,100.0,100.0,2,6,140.0,0.1471,60.0,0
+60,steady,CSC 531,"Prototyping, Design Principles and Evaluation",68.3325,100.0,4,8,182.0,6.3344,60.0,0
+60,steady,CSC 574,Introduction to Intelligent Systems and Agents,85.0,60.0,4,7,153.0,2.3684,80.0,0
+60,steady,CSC 574,Problem Solving and Search,81.6675,80.0,4,6,131.0,3.3717,60.0,0
+60,steady,CSC 574,Knowledge Representation and Reasoning,86.6667,100.0,3,6,127.0,3.5012,80.0,0
+60,steady,CSC 574,Expert Systems,77.7783,100.0,6,7,165.0,1.3128,100.0,0
+60,steady,CSC 574,Fuzzy Logic Systems,44.0,20.0,5,7,161.0,10.2741,60.0,0
+60,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",26.665,20.0,2,5,105.0,5.1994,20.0,1
+61,steady,CSC 531,"HCI, Interactive Systems and Usability",56.6675,20.0,4,5,119.0,5.2141,100.0,0
+61,steady,CSC 531,Understanding the Problem Space and User-Centred Design,33.3325,40.0,4,11,227.0,1.2771,20.0,1
+61,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",48.3325,80.0,4,4,100.0,1.3277,40.0,1
+61,steady,CSC 531,Data Gathering and Data Analysis,41.1117,20.0,6,6,135.0,1.1504,80.0,0
+61,steady,CSC 531,Cognitive Psychology and Perception,48.0,20.0,5,6,131.0,2.4809,40.0,1
+61,steady,CSC 531,"Prototyping, Design Principles and Evaluation",40.0,80.0,4,9,196.0,1.3271,20.0,1
+61,steady,CSC 574,Introduction to Intelligent Systems and Agents,35.555,20.0,6,7,169.0,7.573,80.0,0
+61,steady,CSC 574,Problem Solving and Search,73.334,100.0,5,9,222.0,2.4548,80.0,0
+61,steady,CSC 574,Knowledge Representation and Reasoning,28.0,40.0,5,1,21.0,32.4213,60.0,0
+61,steady,CSC 574,Expert Systems,13.3333,20.0,3,7,159.0,2.1699,40.0,1
+61,steady,CSC 574,Fuzzy Logic Systems,57.7767,60.0,3,7,153.0,1.4737,80.0,0
+61,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",36.0,20.0,5,13,280.0,2.2461,60.0,0
+62,crammer,CSC 531,"HCI, Interactive Systems and Usability",96.0,80.0,5,7,646.0,6.5003,80.0,0
+62,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,88.0,80.0,5,9,758.0,1.4773,100.0,0
+62,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",100.0,100.0,4,6,435.0,1.1663,100.0,0
+62,crammer,CSC 531,Data Gathering and Data Analysis,87.7783,100.0,6,10,806.0,2.4302,100.0,0
+62,crammer,CSC 531,Cognitive Psychology and Perception,80.0,80.0,5,11,777.0,1.1089,100.0,0
+62,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",91.6675,100.0,4,9,766.0,2.3145,100.0,0
+62,crammer,CSC 574,Introduction to Intelligent Systems and Agents,71.11,100.0,3,7,528.0,2.1653,100.0,0
+62,crammer,CSC 574,Problem Solving and Search,86.6675,100.0,4,5,370.0,1.4668,100.0,0
+62,crammer,CSC 574,Knowledge Representation and Reasoning,84.445,80.0,6,11,993.0,2.2865,100.0,0
+62,crammer,CSC 574,Expert Systems,93.3333,100.0,6,11,1065.0,2.1947,100.0,0
+62,crammer,CSC 574,Fuzzy Logic Systems,88.0,100.0,5,8,595.0,1.2234,100.0,0
+62,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",76.6675,80.0,4,7,535.0,1.2516,100.0,0
+63,crammer,CSC 531,"HCI, Interactive Systems and Usability",95.0,100.0,4,10,759.0,1.1845,80.0,0
+63,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,48.0,40.0,5,7,531.0,1.3198,40.0,1
+63,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",81.334,60.0,5,6,489.0,1.1551,80.0,0
+63,crammer,CSC 531,Data Gathering and Data Analysis,70.0,80.0,4,10,895.0,1.4586,60.0,0
+63,crammer,CSC 531,Cognitive Psychology and Perception,68.3325,80.0,4,6,515.0,1.4567,80.0,0
+63,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",53.3325,80.0,4,8,715.0,1.3918,60.0,0
+63,crammer,CSC 574,Introduction to Intelligent Systems and Agents,56.0,100.0,5,9,858.0,1.185,60.0,0
+63,crammer,CSC 574,Problem Solving and Search,95.0,80.0,4,6,506.0,1.4142,100.0,0
+63,crammer,CSC 574,Knowledge Representation and Reasoning,42.666,60.0,5,9,789.0,1.3964,80.0,0
+63,crammer,CSC 574,Expert Systems,62.666,60.0,5,10,752.0,1.4855,40.0,1
+63,crammer,CSC 574,Fuzzy Logic Systems,68.89,100.0,3,11,887.0,1.3528,80.0,0
+63,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",65.334,80.0,5,8,791.0,1.4684,40.0,1
+64,steady,CSC 531,"HCI, Interactive Systems and Usability",81.6675,100.0,4,7,157.0,1.2727,100.0,0
+64,steady,CSC 531,Understanding the Problem Space and User-Centred Design,76.6675,80.0,4,11,258.0,2.2179,80.0,0
+64,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",93.334,100.0,5,5,125.0,3.2658,100.0,0
+64,steady,CSC 531,Data Gathering and Data Analysis,81.6675,80.0,4,4,100.0,1.4277,100.0,0
+64,steady,CSC 531,Cognitive Psychology and Perception,100.0,100.0,5,6,118.0,5.4053,80.0,0
+64,steady,CSC 531,"Prototyping, Design Principles and Evaluation",90.0,80.0,4,7,166.0,8.3127,100.0,0
+64,steady,CSC 574,Introduction to Intelligent Systems and Agents,90.0,100.0,4,3,81.0,4.2274,80.0,0
+64,steady,CSC 574,Problem Solving and Search,100.0,100.0,4,9,213.0,1.21,100.0,0
+64,steady,CSC 574,Knowledge Representation and Reasoning,92.0,100.0,5,5,97.0,7.3191,100.0,0
+64,steady,CSC 574,Expert Systems,84.0,80.0,5,7,162.0,0.3097,100.0,0
+64,steady,CSC 574,Fuzzy Logic Systems,96.0,80.0,5,8,162.0,4.2468,80.0,0
+64,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",76.6675,100.0,4,8,190.0,1.2714,100.0,0
+65,steady,CSC 531,"HCI, Interactive Systems and Usability",51.1117,40.0,6,9,190.0,1.2995,80.0,0
+65,steady,CSC 531,Understanding the Problem Space and User-Centred Design,6.6667,20.0,3,6,116.0,2.3999,40.0,1
+65,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",36.0,40.0,5,13,286.0,0.3052,60.0,0
+65,steady,CSC 531,Data Gathering and Data Analysis,58.666,60.0,5,6,122.0,0.5611,40.0,1
+65,steady,CSC 531,Cognitive Psychology and Perception,71.11,100.0,3,8,186.0,1.3028,80.0,0
+65,steady,CSC 531,"Prototyping, Design Principles and Evaluation",34.666,40.0,5,7,155.0,15.4857,20.0,1
+65,steady,CSC 574,Introduction to Intelligent Systems and Agents,62.2217,100.0,6,8,174.0,2.3474,60.0,0
+65,steady,CSC 574,Problem Solving and Search,93.3333,80.0,3,10,234.0,2.267,80.0,0
+65,steady,CSC 574,Knowledge Representation and Reasoning,45.0,40.0,4,9,195.0,1.1652,60.0,0
+65,steady,CSC 574,Expert Systems,75.5567,100.0,3,4,104.0,12.091,60.0,0
+65,steady,CSC 574,Fuzzy Logic Systems,26.6667,40.0,3,6,133.0,4.4327,20.0,1
+65,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",46.6667,80.0,3,9,222.0,5.4706,60.0,0
+66,crammer,CSC 531,"HCI, Interactive Systems and Usability",57.334,60.0,5,7,573.0,1.215,80.0,0
+66,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,28.3325,20.0,4,10,787.0,1.4126,40.0,1
+66,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",61.1117,100.0,6,10,856.0,2.1355,60.0,0
+66,crammer,CSC 531,Data Gathering and Data Analysis,56.665,80.0,2,9,754.0,2.4097,80.0,0
+66,crammer,CSC 531,Cognitive Psychology and Perception,58.666,40.0,5,7,495.0,1.249,100.0,0
+66,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",65.0,60.0,4,9,727.0,1.5515,80.0,0
+66,crammer,CSC 574,Introduction to Intelligent Systems and Agents,57.7767,80.0,3,5,398.0,1.1899,60.0,0
+66,crammer,CSC 574,Problem Solving and Search,88.0,100.0,5,8,639.0,1.5046,80.0,0
+66,crammer,CSC 574,Knowledge Representation and Reasoning,44.0,60.0,5,6,576.0,1.1967,100.0,0
+66,crammer,CSC 574,Expert Systems,76.6675,60.0,4,8,579.0,1.4089,60.0,0
+66,crammer,CSC 574,Fuzzy Logic Systems,62.666,80.0,5,9,684.0,1.1552,100.0,0
+66,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",45.555,20.0,6,10,868.0,2.3345,60.0,0
+67,rare,CSC 531,"HCI, Interactive Systems and Usability",65.0,40.0,4,2,69.0,19.5034,80.0,0
+67,rare,CSC 531,Understanding the Problem Space and User-Centred Design,5.0,20.0,4,0,0.0,60.0,20.0,1
+67,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",76.0,60.0,5,4,152.0,1.2476,80.0,0
+67,rare,CSC 531,Data Gathering and Data Analysis,50.0,40.0,4,2,80.0,6.2514,40.0,1
+67,rare,CSC 531,Cognitive Psychology and Perception,71.6675,60.0,4,4,167.0,0.4027,80.0,0
+67,rare,CSC 531,"Prototyping, Design Principles and Evaluation",25.0,20.0,4,3,108.0,15.4948,80.0,0
+67,rare,CSC 574,Introduction to Intelligent Systems and Agents,40.0,60.0,5,2,46.0,4.4759,40.0,1
+67,rare,CSC 574,Problem Solving and Search,88.89,100.0,3,3,127.0,2.3582,100.0,0
+67,rare,CSC 574,Knowledge Representation and Reasoning,51.6675,20.0,4,3,126.0,14.1509,20.0,1
+67,rare,CSC 574,Expert Systems,33.334,20.0,5,0,0.0,60.0,40.0,1
+67,rare,CSC 574,Fuzzy Logic Systems,30.0,20.0,6,1,34.0,13.1435,20.0,1
+67,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",41.6675,20.0,4,3,111.0,3.1135,60.0,0
+68,steady,CSC 531,"HCI, Interactive Systems and Usability",64.0,80.0,5,9,212.0,1.2058,100.0,0
+68,steady,CSC 531,Understanding the Problem Space and User-Centred Design,61.6675,40.0,4,9,205.0,0.5136,80.0,0
+68,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",58.666,60.0,5,10,241.0,0.2561,80.0,0
+68,steady,CSC 531,Data Gathering and Data Analysis,61.6675,40.0,4,8,166.0,0.3737,60.0,0
+68,steady,CSC 531,Cognitive Psychology and Perception,53.334,40.0,5,8,175.0,7.092,100.0,0
+68,steady,CSC 531,"Prototyping, Design Principles and Evaluation",45.0,100.0,4,12,282.0,1.4763,80.0,0
+68,steady,CSC 574,Introduction to Intelligent Systems and Agents,38.666,40.0,5,6,143.0,15.4079,60.0,0
+68,steady,CSC 574,Problem Solving and Search,76.6675,100.0,4,9,231.0,3.3967,80.0,0
+68,steady,CSC 574,Knowledge Representation and Reasoning,48.3325,60.0,4,3,52.0,10.2954,20.0,1
+68,steady,CSC 574,Expert Systems,30.0,60.0,4,8,165.0,1.3229,100.0,0
+68,steady,CSC 574,Fuzzy Logic Systems,55.555,20.0,6,7,158.0,2.2261,60.0,0
+68,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",33.3333,60.0,3,7,135.0,2.2271,40.0,1
+69,crammer,CSC 531,"HCI, Interactive Systems and Usability",83.3333,100.0,6,11,924.0,1.3461,60.0,0
+69,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,51.6675,20.0,4,9,733.0,0.3616,40.0,1
+69,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",93.3333,100.0,3,8,650.0,1.2083,100.0,0
+69,crammer,CSC 531,Data Gathering and Data Analysis,93.3333,100.0,6,11,1002.0,1.4986,60.0,0
+69,crammer,CSC 531,Cognitive Psychology and Perception,92.0,100.0,5,9,847.0,1.3099,100.0,0
+69,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",50.0,80.0,4,9,797.0,1.0731,60.0,0
+69,crammer,CSC 574,Introduction to Intelligent Systems and Agents,78.666,100.0,5,7,464.0,1.3609,100.0,0
+69,crammer,CSC 574,Problem Solving and Search,90.0,80.0,4,6,431.0,1.2887,80.0,0
+69,crammer,CSC 574,Knowledge Representation and Reasoning,73.334,40.0,5,6,561.0,1.1286,80.0,0
+69,crammer,CSC 574,Expert Systems,91.6675,100.0,4,8,579.0,1.3407,80.0,0
+69,crammer,CSC 574,Fuzzy Logic Systems,93.3333,100.0,3,5,362.0,1.4952,60.0,0
+69,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",90.0,100.0,4,10,769.0,2.4255,80.0,0
+70,rare,CSC 531,"HCI, Interactive Systems and Usability",54.666,60.0,5,1,57.0,2.3195,60.0,0
+70,rare,CSC 531,Understanding the Problem Space and User-Centred Design,49.334,20.0,5,1,55.0,29.4259,40.0,1
+70,rare,CSC 531,"Conceptual Models, Interaction Types and Ideation",54.666,40.0,5,2,61.0,20.3895,80.0,0
+70,rare,CSC 531,Data Gathering and Data Analysis,68.89,60.0,3,0,0.0,60.0,60.0,0
+70,rare,CSC 531,Cognitive Psychology and Perception,61.334,60.0,5,3,137.0,19.2252,80.0,0
+70,rare,CSC 531,"Prototyping, Design Principles and Evaluation",57.7767,100.0,3,4,174.0,1.2003,60.0,0
+70,rare,CSC 574,Introduction to Intelligent Systems and Agents,36.665,40.0,2,0,0.0,60.0,60.0,0
+70,rare,CSC 574,Problem Solving and Search,62.666,20.0,5,4,146.0,17.1227,80.0,0
+70,rare,CSC 574,Knowledge Representation and Reasoning,45.334,40.0,5,3,161.0,0.3551,80.0,0
+70,rare,CSC 574,Expert Systems,53.334,60.0,5,4,182.0,10.4108,60.0,0
+70,rare,CSC 574,Fuzzy Logic Systems,56.6667,80.0,6,4,151.0,8.2995,100.0,0
+70,rare,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",52.0,40.0,5,1,27.0,33.4309,100.0,0
+71,steady,CSC 531,"HCI, Interactive Systems and Usability",72.0,20.0,5,7,179.0,6.2644,100.0,0
+71,steady,CSC 531,Understanding the Problem Space and User-Centred Design,44.4433,60.0,3,7,179.0,3.2306,40.0,1
+71,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",86.6675,100.0,4,11,276.0,0.2315,100.0,0
+71,steady,CSC 531,Data Gathering and Data Analysis,58.666,60.0,5,9,201.0,4.3024,100.0,0
+71,steady,CSC 531,Cognitive Psychology and Perception,56.0,80.0,5,7,140.0,1.2289,80.0,0
+71,steady,CSC 531,"Prototyping, Design Principles and Evaluation",90.0,60.0,4,8,173.0,3.2386,40.0,1
+71,steady,CSC 574,Introduction to Intelligent Systems and Agents,100.0,100.0,1,13,283.0,5.2176,0.0,1
+71,steady,CSC 574,Problem Solving and Search,96.0,100.0,5,8,176.0,1.2165,100.0,0
+71,steady,CSC 574,Knowledge Representation and Reasoning,28.3325,40.0,4,5,110.0,10.3683,60.0,0
+71,steady,CSC 574,Expert Systems,73.3325,80.0,4,5,123.0,5.3285,40.0,1
+71,steady,CSC 574,Fuzzy Logic Systems,84.0,100.0,5,7,163.0,1.2745,60.0,0
+71,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",68.0,40.0,5,11,253.0,0.5216,40.0,1
+72,steady,CSC 531,"HCI, Interactive Systems and Usability",38.3325,60.0,4,9,217.0,2.3527,40.0,1
+72,steady,CSC 531,Understanding the Problem Space and User-Centred Design,28.0,20.0,5,11,265.0,1.2704,60.0,0
+72,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",50.0,100.0,4,8,189.0,17.1897,40.0,1
+72,steady,CSC 531,Data Gathering and Data Analysis,30.0,40.0,4,6,119.0,1.3102,20.0,1
+72,steady,CSC 531,Cognitive Psychology and Perception,30.0,20.0,4,9,187.0,1.1647,40.0,1
+72,steady,CSC 531,"Prototyping, Design Principles and Evaluation",6.6667,20.0,3,6,127.0,3.2738,0.0,1
+72,steady,CSC 574,Introduction to Intelligent Systems and Agents,35.555,20.0,6,9,180.0,1.2859,60.0,0
+72,steady,CSC 574,Problem Solving and Search,73.3333,40.0,6,6,135.0,1.2807,60.0,0
+72,steady,CSC 574,Knowledge Representation and Reasoning,22.666,0.0,5,7,134.0,2.4061,60.0,0
+72,steady,CSC 574,Expert Systems,46.6667,80.0,3,6,145.0,6.3973,40.0,1
+72,steady,CSC 574,Fuzzy Logic Systems,26.665,20.0,2,3,71.0,2.3745,60.0,0
+72,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",24.0,40.0,5,6,151.0,3.4027,40.0,1
+73,steady,CSC 531,"HCI, Interactive Systems and Usability",42.666,40.0,5,8,196.0,3.2873,40.0,1
+73,steady,CSC 531,Understanding the Problem Space and User-Centred Design,26.6675,20.0,4,7,163.0,3.0991,40.0,1
+73,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",70.666,80.0,5,7,156.0,2.4562,60.0,0
+73,steady,CSC 531,Data Gathering and Data Analysis,53.3333,80.0,3,9,199.0,0.172,80.0,0
+73,steady,CSC 531,Cognitive Psychology and Perception,73.3333,80.0,3,1,24.0,13.3172,60.0,0
+73,steady,CSC 531,"Prototyping, Design Principles and Evaluation",32.0,40.0,5,11,220.0,6.3802,60.0,0
+73,steady,CSC 574,Introduction to Intelligent Systems and Agents,51.11,80.0,3,9,203.0,1.4375,100.0,0
+73,steady,CSC 574,Problem Solving and Search,80.0,40.0,6,11,248.0,1.0889,80.0,0
+73,steady,CSC 574,Knowledge Representation and Reasoning,46.666,40.0,5,11,251.0,7.123,60.0,0
+73,steady,CSC 574,Expert Systems,46.6675,40.0,4,11,250.0,1.4684,80.0,0
+73,steady,CSC 574,Fuzzy Logic Systems,71.1117,80.0,6,6,143.0,1.4343,60.0,0
+73,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",45.555,0.0,6,8,192.0,1.2198,100.0,0
+74,steady,CSC 531,"HCI, Interactive Systems and Usability",58.8883,80.0,6,11,238.0,2.2622,100.0,0
+74,steady,CSC 531,Understanding the Problem Space and User-Centred Design,42.666,40.0,5,7,160.0,1.168,40.0,1
+74,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",34.666,40.0,5,7,167.0,3.4533,40.0,1
+74,steady,CSC 531,Data Gathering and Data Analysis,30.666,20.0,5,9,204.0,2.4458,80.0,0
+74,steady,CSC 531,Cognitive Psychology and Perception,45.555,20.0,6,5,122.0,9.2825,80.0,0
+74,steady,CSC 531,"Prototyping, Design Principles and Evaluation",41.6675,20.0,4,5,131.0,12.2374,20.0,1
+74,steady,CSC 574,Introduction to Intelligent Systems and Agents,42.666,40.0,5,7,153.0,1.4415,60.0,0
+74,steady,CSC 574,Problem Solving and Search,66.6675,100.0,4,7,158.0,0.2868,60.0,0
+74,steady,CSC 574,Knowledge Representation and Reasoning,20.0,20.0,3,14,301.0,0.4892,80.0,0
+74,steady,CSC 574,Expert Systems,40.0,60.0,3,8,164.0,1.4865,40.0,1
+74,steady,CSC 574,Fuzzy Logic Systems,61.6675,80.0,4,7,134.0,1.3729,60.0,0
+74,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",38.3325,40.0,4,7,166.0,1.4375,20.0,1
+75,steady,CSC 531,"HCI, Interactive Systems and Usability",77.334,100.0,5,11,263.0,2.3861,80.0,0
+75,steady,CSC 531,Understanding the Problem Space and User-Centred Design,38.666,20.0,5,5,117.0,7.1694,20.0,1
+75,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",82.666,100.0,5,10,222.0,0.2073,80.0,0
+75,steady,CSC 531,Data Gathering and Data Analysis,65.0,60.0,4,5,106.0,2.5092,100.0,0
+75,steady,CSC 531,Cognitive Psychology and Perception,71.1117,20.0,6,8,170.0,0.3192,80.0,0
+75,steady,CSC 531,"Prototyping, Design Principles and Evaluation",53.334,60.0,5,10,230.0,4.2428,40.0,1
+75,steady,CSC 574,Introduction to Intelligent Systems and Agents,68.0,40.0,5,5,111.0,21.3496,40.0,1
+75,steady,CSC 574,Problem Solving and Search,100.0,100.0,5,10,217.0,2.2987,100.0,0
+75,steady,CSC 574,Knowledge Representation and Reasoning,70.666,100.0,5,8,179.0,1.4095,80.0,0
+75,steady,CSC 574,Expert Systems,74.666,60.0,5,5,120.0,3.1186,100.0,0
+75,steady,CSC 574,Fuzzy Logic Systems,66.666,60.0,5,8,177.0,1.4982,60.0,0
+75,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",44.0,40.0,5,7,162.0,10.3685,40.0,1
+76,crammer,CSC 531,"HCI, Interactive Systems and Usability",85.334,80.0,5,8,735.0,1.2824,100.0,0
+76,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,55.0,80.0,4,6,524.0,2.4575,20.0,1
+76,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",71.6675,100.0,4,7,642.0,1.3624,60.0,0
+76,crammer,CSC 531,Data Gathering and Data Analysis,78.8883,60.0,6,11,795.0,1.1386,80.0,0
+76,crammer,CSC 531,Cognitive Psychology and Perception,80.0,60.0,2,5,380.0,1.3885,80.0,0
+76,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",60.0,100.0,6,9,637.0,2.4246,100.0,0
+76,crammer,CSC 574,Introduction to Intelligent Systems and Agents,78.3325,100.0,4,7,515.0,2.1864,80.0,0
+76,crammer,CSC 574,Problem Solving and Search,95.0,80.0,4,8,748.0,1.5906,100.0,0
+76,crammer,CSC 574,Knowledge Representation and Reasoning,71.6675,80.0,4,7,646.0,1.1023,60.0,0
+76,crammer,CSC 574,Expert Systems,76.6675,100.0,4,7,524.0,10.3883,40.0,1
+76,crammer,CSC 574,Fuzzy Logic Systems,68.8883,80.0,6,8,649.0,1.32,100.0,0
+76,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",81.6675,80.0,4,9,780.0,2.373,60.0,0
+77,crammer,CSC 531,"HCI, Interactive Systems and Usability",65.0,100.0,4,5,402.0,7.4607,100.0,0
+77,crammer,CSC 531,Understanding the Problem Space and User-Centred Design,45.0,100.0,4,6,472.0,10.2336,80.0,0
+77,crammer,CSC 531,"Conceptual Models, Interaction Types and Ideation",68.3325,100.0,4,6,504.0,1.3895,100.0,0
+77,crammer,CSC 531,Data Gathering and Data Analysis,86.6675,100.0,4,10,733.0,1.5076,80.0,0
+77,crammer,CSC 531,Cognitive Psychology and Perception,86.6675,80.0,4,8,675.0,2.1521,100.0,0
+77,crammer,CSC 531,"Prototyping, Design Principles and Evaluation",81.334,100.0,5,8,647.0,1.4728,60.0,0
+77,crammer,CSC 574,Introduction to Intelligent Systems and Agents,57.7767,80.0,3,6,504.0,1.3656,100.0,0
+77,crammer,CSC 574,Problem Solving and Search,100.0,100.0,1,3,171.0,1.2548,100.0,0
+77,crammer,CSC 574,Knowledge Representation and Reasoning,96.0,100.0,5,13,1052.0,1.1557,80.0,0
+77,crammer,CSC 574,Expert Systems,88.0,100.0,5,10,918.0,1.3759,80.0,0
+77,crammer,CSC 574,Fuzzy Logic Systems,68.0,80.0,5,11,984.0,1.4272,80.0,0
+77,crammer,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",73.3325,100.0,4,12,1119.0,1.3191,60.0,0
+78,steady,CSC 531,"HCI, Interactive Systems and Usability",93.3333,100.0,3,7,190.0,0.3201,100.0,0
+78,steady,CSC 531,Understanding the Problem Space and User-Centred Design,73.334,80.0,5,8,182.0,2.4924,100.0,0
+78,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",100.0,100.0,5,8,202.0,1.3069,100.0,0
+78,steady,CSC 531,Data Gathering and Data Analysis,92.0,100.0,5,14,316.0,0.4277,100.0,0
+78,steady,CSC 531,Cognitive Psychology and Perception,100.0,100.0,4,4,96.0,9.1251,100.0,0
+78,steady,CSC 531,"Prototyping, Design Principles and Evaluation",90.0,60.0,4,7,151.0,12.2252,100.0,0
+78,steady,CSC 574,Introduction to Intelligent Systems and Agents,86.6675,100.0,4,6,144.0,0.1901,100.0,0
+78,steady,CSC 574,Problem Solving and Search,100.0,100.0,4,4,97.0,8.3221,100.0,0
+78,steady,CSC 574,Knowledge Representation and Reasoning,77.334,80.0,5,9,194.0,3.3192,80.0,0
+78,steady,CSC 574,Expert Systems,80.0,100.0,5,8,182.0,2.0907,80.0,0
+78,steady,CSC 574,Fuzzy Logic Systems,100.0,100.0,5,6,111.0,2.3978,100.0,0
+78,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",74.445,100.0,6,7,155.0,4.3391,80.0,0
+79,steady,CSC 531,"HCI, Interactive Systems and Usability",81.6675,100.0,4,11,223.0,3.3186,40.0,1
+79,steady,CSC 531,Understanding the Problem Space and User-Centred Design,44.0,20.0,5,7,170.0,1.1674,60.0,0
+79,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",56.6675,60.0,4,7,148.0,3.3957,0.0,1
+79,steady,CSC 531,Data Gathering and Data Analysis,46.665,60.0,2,5,133.0,1.4372,40.0,1
+79,steady,CSC 531,Cognitive Psychology and Perception,88.0,100.0,5,7,159.0,0.3099,80.0,0
+79,steady,CSC 531,"Prototyping, Design Principles and Evaluation",70.666,100.0,5,10,202.0,1.303,40.0,1
+79,steady,CSC 574,Introduction to Intelligent Systems and Agents,64.4433,60.0,3,4,97.0,5.4126,60.0,0
+79,steady,CSC 574,Problem Solving and Search,70.666,80.0,5,6,140.0,11.2063,80.0,0
+79,steady,CSC 574,Knowledge Representation and Reasoning,58.3325,40.0,4,8,175.0,1.4512,40.0,1
+79,steady,CSC 574,Expert Systems,26.6667,20.0,3,8,164.0,7.3414,40.0,1
+79,steady,CSC 574,Fuzzy Logic Systems,75.0,80.0,4,13,291.0,0.2949,100.0,0
+79,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",62.2217,60.0,6,9,203.0,3.4102,60.0,0
+80,steady,CSC 531,"HCI, Interactive Systems and Usability",93.3333,80.0,3,10,232.0,1.3092,100.0,0
+80,steady,CSC 531,Understanding the Problem Space and User-Centred Design,36.0,60.0,5,4,96.0,7.3693,20.0,1
+80,steady,CSC 531,"Conceptual Models, Interaction Types and Ideation",72.0,40.0,5,5,107.0,1.3204,80.0,0
+80,steady,CSC 531,Data Gathering and Data Analysis,80.0,80.0,3,3,63.0,14.1765,80.0,0
+80,steady,CSC 531,Cognitive Psychology and Perception,56.6675,40.0,4,6,135.0,9.3775,40.0,1
+80,steady,CSC 531,"Prototyping, Design Principles and Evaluation",55.0,40.0,4,5,113.0,4.4572,80.0,0
+80,steady,CSC 574,Introduction to Intelligent Systems and Agents,30.666,20.0,5,6,147.0,10.4809,60.0,0
+80,steady,CSC 574,Problem Solving and Search,81.334,80.0,5,8,157.0,1.1369,100.0,0
+80,steady,CSC 574,Knowledge Representation and Reasoning,53.3325,60.0,4,6,108.0,2.3494,100.0,0
+80,steady,CSC 574,Expert Systems,71.6675,40.0,4,9,189.0,1.4023,80.0,0
+80,steady,CSC 574,Fuzzy Logic Systems,77.334,80.0,5,5,103.0,0.3411,60.0,0
+80,steady,CSC 574,"Neural Networks, Genetic Algorithms and Other AI Technologies",53.335,40.0,2,4,113.0,9.2791,100.0,0

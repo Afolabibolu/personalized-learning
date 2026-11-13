@@ -323,6 +323,7 @@ cd web && npm test               # dashboard logic tests (reminders, weekly summ
 cd ml && uvicorn app.main:app --reload
 cd ml && pytest
 cd ml && python -m training.train
+cd ml && python -m training.export_dataset   # training_data.csv (the exact rows trained on) and dataset_summary.md (counts by study habit)
 cd ml && python -m training.train --real-test ../real_rows.csv   # optional; rows from: python scripts/export_real_rows.py real_rows.csv
 
 # data (from the repo root)
